@@ -1,0 +1,29 @@
+# =====================================================================
+# BERKAS DIGENERATE. JANGAN EDIT MANUAL.
+# Sumber   : data/norma.csv, parameter.csv, kategori.csv, pengali_lembur.csv, program_jamsos.csv
+# Hasilkan : .venv/bin/python scripts/build_ontology.py
+# =====================================================================
+
+@prefix ktn:  <https://example.org/kbr/ketenagakerjaan#> .
+@prefix reg:  <https://example.org/kbr/regulasi#> .
+@prefix dct:  <http://purl.org/dc/terms/> .
+@prefix owl:  <http://www.w3.org/2002/07/owl#> .
+@prefix rdf:  <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd:  <http://www.w3.org/2001/XMLSchema#> .
+
+<https://example.org/kbr/ketenagakerjaan/regulasi/pp-46-2015> a owl:Ontology ;
+    dct:title "Fakta norma: Peraturan Pemerintah Nomor 46 Tahun 2015 tentang Penyelenggaraan Program Jaminan Hari Tua" ;
+    dct:source <https://peraturan.bpk.go.id/Details/5614/pp-no-46-tahun-2015> ;
+    owl:imports <https://example.org/kbr/ketenagakerjaan> .
+
+ktn:KetentuanIuranJHT a owl:NamedIndividual, ktn:KetentuanJaminanSosial ;
+    ktn:pasal "Pasal 16 ayat (1)" ;
+    dct:source reg:PP-46-2015 .
+
+ktn:JHT a owl:NamedIndividual, ktn:ProgramJaminanSosial ;
+    ktn:jenisProgram "JHT" ;
+    ktn:tarifPengusahaPersen 3.7 ;
+    ktn:tarifPekerjaPersen 2 ;
+    ktn:tarifTotalPersen 5.7 ;
+    ktn:pasal "Pasal 16 ayat (1)" .

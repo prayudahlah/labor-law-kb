@@ -1,0 +1,117 @@
+# =====================================================================
+# BERKAS DIGENERATE. JANGAN EDIT MANUAL.
+# Sumber   : data/regulasi.csv
+# Hasilkan : .venv/bin/python scripts/build_ontology.py
+# =====================================================================
+
+@prefix ktn:  <https://example.org/kbr/ketenagakerjaan#> .
+@prefix reg:  <https://example.org/kbr/regulasi#> .
+@prefix dct:  <http://purl.org/dc/terms/> .
+@prefix owl:  <http://www.w3.org/2002/07/owl#> .
+@prefix rdf:  <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd:  <http://www.w3.org/2001/XMLSchema#> .
+
+<https://example.org/kbr/regulasi> a owl:Ontology ;
+    dct:title "Metadata peraturan ketenagakerjaan (individu)" ;
+    owl:imports <https://example.org/kbr/regulasi/vocab> .
+
+reg:PP-35-2021 a reg:Peraturan ;
+    dct:title "Peraturan Pemerintah Nomor 35 Tahun 2021 tentang Perjanjian Kerja Waktu Tertentu, Alih Daya, Waktu Kerja dan Waktu Istirahat, dan Pemutusan Hubungan Kerja" ;
+    reg:jenis reg:PeraturanPemerintah ;
+    reg:nomor "35" ;
+    reg:tahun "2021"^^xsd:gYear ;
+    reg:status reg:Berlaku ;
+    reg:sumberUtama <https://peraturan.bpk.go.id/Details/161904/pp-no-35-tahun-2021> .
+
+reg:PP-36-2021 a reg:Peraturan ;
+    dct:title "Peraturan Pemerintah Nomor 36 Tahun 2021 tentang Pengupahan" ;
+    reg:jenis reg:PeraturanPemerintah ;
+    reg:nomor "36" ;
+    reg:tahun "2021"^^xsd:gYear ;
+    reg:status reg:Diubah ;
+    reg:sumberUtama <https://peraturan.bpk.go.id/Details/161909/pp-no-36-tahun-2021> ;
+    reg:diubahOleh reg:PP-51-2023 .
+
+reg:PP-37-2021 a reg:Peraturan ;
+    dct:title "Peraturan Pemerintah Nomor 37 Tahun 2021 tentang Penyelenggaraan Program Jaminan Kehilangan Pekerjaan" ;
+    reg:jenis reg:PeraturanPemerintah ;
+    reg:nomor "37" ;
+    reg:tahun "2021"^^xsd:gYear ;
+    reg:status reg:Berlaku ;
+    reg:sumberUtama <https://peraturan.bpk.go.id/Details/161919/pp-no-37-tahun-2021> .
+
+reg:PP-44-2015 a reg:Peraturan ;
+    dct:title "Peraturan Pemerintah Nomor 44 Tahun 2015 tentang Penyelenggaraan Program Jaminan Kecelakaan Kerja dan Jaminan Kematian" ;
+    reg:jenis reg:PeraturanPemerintah ;
+    reg:nomor "44" ;
+    reg:tahun "2015"^^xsd:gYear ;
+    reg:status reg:Berlaku ;
+    reg:sumberUtama <https://peraturan.bpk.go.id/Details/5612/pp-no-44-tahun-2015> .
+
+reg:PP-45-2015 a reg:Peraturan ;
+    dct:title "Peraturan Pemerintah Nomor 45 Tahun 2015 tentang Penyelenggaraan Program Jaminan Pensiun" ;
+    reg:jenis reg:PeraturanPemerintah ;
+    reg:nomor "45" ;
+    reg:tahun "2015"^^xsd:gYear ;
+    reg:status reg:Berlaku ;
+    reg:sumberUtama <https://peraturan.bpk.go.id/Details/5613/pp-no-45-tahun-2015> .
+
+reg:PP-46-2015 a reg:Peraturan ;
+    dct:title "Peraturan Pemerintah Nomor 46 Tahun 2015 tentang Penyelenggaraan Program Jaminan Hari Tua" ;
+    reg:jenis reg:PeraturanPemerintah ;
+    reg:nomor "46" ;
+    reg:tahun "2015"^^xsd:gYear ;
+    reg:status reg:Berlaku ;
+    reg:sumberUtama <https://peraturan.bpk.go.id/Details/5614/pp-no-46-tahun-2015> .
+
+reg:PP-49-2025 a reg:Peraturan ;
+    dct:title "Peraturan Pemerintah Nomor 49 Tahun 2025 tentang Perubahan Kedua atas Peraturan Pemerintah Nomor 36 Tahun 2021 tentang Pengupahan" ;
+    reg:jenis reg:PeraturanPemerintah ;
+    reg:nomor "49" ;
+    reg:tahun "2025"^^xsd:gYear ;
+    reg:status reg:Berlaku ;
+    reg:sumberUtama <https://peraturan.bpk.go.id/Details/339037/pp-no-49-tahun-2025> .
+
+reg:PP-51-2023 a reg:Peraturan ;
+    dct:title "Peraturan Pemerintah Nomor 51 Tahun 2023 tentang Perubahan atas Peraturan Pemerintah Nomor 36 Tahun 2021 tentang Pengupahan" ;
+    reg:jenis reg:PeraturanPemerintah ;
+    reg:nomor "51" ;
+    reg:tahun "2023"^^xsd:gYear ;
+    reg:status reg:Diubah ;
+    reg:sumberUtama <https://peraturan.bpk.go.id/Details/270269/pp-no-51-tahun-2023> ;
+    reg:diubahOleh reg:PP-49-2025 .
+
+reg:UU-13-2003 a reg:Peraturan ;
+    dct:title "Undang-Undang Nomor 13 Tahun 2003 tentang Ketenagakerjaan" ;
+    reg:jenis reg:UndangUndang ;
+    reg:nomor "13" ;
+    reg:tahun "2003"^^xsd:gYear ;
+    reg:status reg:Berlaku ;
+    reg:sumberUtama <https://peraturan.bpk.go.id/Details/43013/uu-no-13-tahun-2003> ;
+    reg:diubahOleh reg:UU-6-2023 .
+
+reg:UU-24-2011 a reg:Peraturan ;
+    dct:title "Undang-Undang Nomor 24 Tahun 2011 tentang Badan Penyelenggara Jaminan Sosial" ;
+    reg:jenis reg:UndangUndang ;
+    reg:nomor "24" ;
+    reg:tahun "2011"^^xsd:gYear ;
+    reg:status reg:Diubah ;
+    reg:sumberUtama <https://peraturan.bpk.go.id/Details/39268/uu-no-24-tahun-2011> ;
+    reg:diubahOleh reg:UU-6-2023 .
+
+reg:UU-4-2024 a reg:Peraturan ;
+    dct:title "Undang-Undang Nomor 4 Tahun 2024 tentang Kesejahteraan Ibu dan Anak pada Fase Seribu Hari Pertama Kehidupan" ;
+    reg:jenis reg:UndangUndang ;
+    reg:nomor "4" ;
+    reg:tahun "2024"^^xsd:gYear ;
+    reg:status reg:Berlaku ;
+    reg:sumberUtama <https://peraturan.bpk.go.id/Details/289997/uu-no-4-tahun-2024> .
+
+reg:UU-6-2023 a reg:Peraturan ;
+    dct:title "Undang-Undang Nomor 6 Tahun 2023 tentang Penetapan Peraturan Pemerintah Pengganti Undang-Undang Nomor 2 Tahun 2022 tentang Cipta Kerja menjadi Undang-Undang" ;
+    reg:jenis reg:UndangUndang ;
+    reg:nomor "6" ;
+    reg:tahun "2023"^^xsd:gYear ;
+    reg:status reg:Berlaku ;
+    reg:sumberUtama <https://peraturan.bpk.go.id/Details/246523/uu-no-6-tahun-2023> .

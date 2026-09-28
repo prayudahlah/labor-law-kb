@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- BERKAS DIGENERATE. JANGAN EDIT MANUAL.
+     Hasilkan: .venv/bin/python scripts/build_catalog.py -->
+<catalog prefer="public" xmlns="urn:oasis:names:tc:entity:xmlns:xml:catalog">
+    <uri id="kb" name="https://example.org/kbr/ketenagakerjaan/kb" uri="ontology.ttl"/>
+    <uri id="core/tbox-core.ttl" name="https://example.org/kbr/ketenagakerjaan" uri="core/tbox-core.ttl"/>
+    <uri id="core/rbox-roles.ttl" name="https://example.org/kbr/ketenagakerjaan/rbox" uri="core/rbox-roles.ttl"/>
+    <uri id="regulasi/pp-35-2021.ttl" name="https://example.org/kbr/ketenagakerjaan/regulasi/pp-35-2021" uri="regulasi/pp-35-2021.ttl"/>
+    <uri id="regulasi/pp-36-2021.ttl" name="https://example.org/kbr/ketenagakerjaan/regulasi/pp-36-2021" uri="regulasi/pp-36-2021.ttl"/>
+    <uri id="regulasi/pp-37-2021.ttl" name="https://example.org/kbr/ketenagakerjaan/regulasi/pp-37-2021" uri="regulasi/pp-37-2021.ttl"/>
+    <uri id="regulasi/pp-44-2015.ttl" name="https://example.org/kbr/ketenagakerjaan/regulasi/pp-44-2015" uri="regulasi/pp-44-2015.ttl"/>
+    <uri id="regulasi/pp-45-2015.ttl" name="https://example.org/kbr/ketenagakerjaan/regulasi/pp-45-2015" uri="regulasi/pp-45-2015.ttl"/>
+    <uri id="regulasi/pp-46-2015.ttl" name="https://example.org/kbr/ketenagakerjaan/regulasi/pp-46-2015" uri="regulasi/pp-46-2015.ttl"/>
+    <uri id="regulasi/uu-13-2003.ttl" name="https://example.org/kbr/ketenagakerjaan/regulasi/uu-13-2003" uri="regulasi/uu-13-2003.ttl"/>
+    <uri id="regulasi/uu-24-2011.ttl" name="https://example.org/kbr/ketenagakerjaan/regulasi/uu-24-2011" uri="regulasi/uu-24-2011.ttl"/>
+    <uri id="regulasi/uu-4-2024.ttl" name="https://example.org/kbr/ketenagakerjaan/regulasi/uu-4-2024" uri="regulasi/uu-4-2024.ttl"/>
+    <uri id="regulasi/uu-6-2023.ttl" name="https://example.org/kbr/ketenagakerjaan/regulasi/uu-6-2023" uri="regulasi/uu-6-2023.ttl"/>
+    <uri id="meta/regulasi.ttl" name="https://example.org/kbr/regulasi" uri="meta/regulasi.ttl"/>
+    <uri id="core/tbox-regulasi.ttl" name="https://example.org/kbr/regulasi/vocab" uri="core/tbox-regulasi.ttl"/>
+</catalog>

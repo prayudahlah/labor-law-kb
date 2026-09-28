@@ -1,0 +1,386 @@
+# =====================================================================
+# BERKAS DIGENERATE. JANGAN EDIT MANUAL.
+# Sumber   : data/norma.csv, parameter.csv, kategori.csv, pengali_lembur.csv, program_jamsos.csv
+# Hasilkan : .venv/bin/python scripts/build_ontology.py
+# =====================================================================
+
+@prefix ktn:  <https://example.org/kbr/ketenagakerjaan#> .
+@prefix reg:  <https://example.org/kbr/regulasi#> .
+@prefix dct:  <http://purl.org/dc/terms/> .
+@prefix owl:  <http://www.w3.org/2002/07/owl#> .
+@prefix rdf:  <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd:  <http://www.w3.org/2001/XMLSchema#> .
+
+<https://example.org/kbr/ketenagakerjaan/regulasi/pp-35-2021> a owl:Ontology ;
+    dct:title "Fakta norma: Peraturan Pemerintah Nomor 35 Tahun 2021 tentang Perjanjian Kerja Waktu Tertentu, Alih Daya, Waktu Kerja dan Waktu Istirahat, dan Pemutusan Hubungan Kerja" ;
+    dct:source <https://peraturan.bpk.go.id/Details/161904/pp-no-35-tahun-2021> ;
+    owl:imports <https://example.org/kbr/ketenagakerjaan> .
+
+ktn:KetentuanBadanHukumAlihDaya a owl:NamedIndividual, ktn:KetentuanAlihDaya ;
+    ktn:pasal "Pasal 20" ;
+    dct:source reg:PP-35-2021 .
+
+ktn:KetentuanPerlindunganAlihDaya a owl:NamedIndividual, ktn:KetentuanAlihDaya ;
+    ktn:pasal "Pasal 18" ;
+    dct:source reg:PP-35-2021 .
+
+ktn:KetentuanPengalihanHakAlihDaya a owl:NamedIndividual, ktn:KetentuanAlihDaya ;
+    ktn:pasal "Pasal 19" ;
+    dct:source reg:PP-35-2021 .
+
+ktn:KetentuanMakanLembur a owl:NamedIndividual, ktn:KetentuanLembur ;
+    ktn:kebutuhanKalori 1400 ;
+    ktn:pasal "Pasal 29" ;
+    dct:source reg:PP-35-2021 .
+
+ktn:UpahSejamLembur a owl:NamedIndividual, ktn:KetentuanLembur ;
+    ktn:faktorPembagiUpahSejam 173 ;
+    ktn:pasal "Pasal 32" ;
+    dct:source reg:PP-35-2021 .
+
+ktn:KonversiUpahHarian a owl:NamedIndividual, ktn:KetentuanLembur ;
+    ktn:pengaliKonversiHarian5 21 ;
+    ktn:pengaliKonversiHarian6 25 ;
+    ktn:pasal "Pasal 33" ;
+    dct:source reg:PP-35-2021 .
+
+ktn:DitahanMerugikan a owl:NamedIndividual, ktn:AlasanPHK ;
+    ktn:pengaliUP 0 ;
+    ktn:pengaliUPMK 0 ;
+    ktn:pasal "Pasal 54 ayat (1)" ;
+    dct:source reg:PP-35-2021 .
+
+ktn:DitahanTidakMerugikan a owl:NamedIndividual, ktn:AlasanPHK ;
+    ktn:pengaliUP 0 ;
+    ktn:pengaliUPMK 1 ;
+    ktn:pasal "Pasal 54 ayat (2)" ;
+    dct:source reg:PP-35-2021 .
+
+ktn:EfisiensiMencegahRugi a owl:NamedIndividual, ktn:AlasanPHK ;
+    ktn:pengaliUP 1 ;
+    ktn:pengaliUPMK 1 ;
+    ktn:pasal "Pasal 43 ayat (2)" ;
+    dct:source reg:PP-35-2021 .
+
+ktn:EfisiensiRugi a owl:NamedIndividual, ktn:AlasanPHK ;
+    ktn:pengaliUP 0.5 ;
+    ktn:pengaliUPMK 1 ;
+    ktn:pasal "Pasal 43 ayat (1)" ;
+    dct:source reg:PP-35-2021 .
+
+ktn:ForceMajeureTidakTutup a owl:NamedIndividual, ktn:AlasanPHK ;
+    ktn:pengaliUP 0.75 ;
+    ktn:pengaliUPMK 1 ;
+    ktn:pasal "Pasal 45 ayat (2)" ;
+    dct:source reg:PP-35-2021 .
+
+ktn:ForceMajeureTutup a owl:NamedIndividual, ktn:AlasanPHK ;
+    ktn:pengaliUP 0.5 ;
+    ktn:pengaliUPMK 1 ;
+    ktn:pasal "Pasal 45 ayat (1)" ;
+    dct:source reg:PP-35-2021 .
+
+ktn:Mangkir a owl:NamedIndividual, ktn:AlasanPHK ;
+    ktn:pengaliUP 0 ;
+    ktn:pengaliUPMK 0 ;
+    ktn:pasal "Pasal 51" ;
+    dct:source reg:PP-35-2021 .
+
+ktn:MengundurkanDiri a owl:NamedIndividual, ktn:AlasanPHK ;
+    ktn:pengaliUP 0 ;
+    ktn:pengaliUPMK 0 ;
+    ktn:pasal "Pasal 50" ;
+    dct:source reg:PP-35-2021 .
+
+ktn:MeninggalDunia a owl:NamedIndividual, ktn:AlasanPHK ;
+    ktn:pengaliUP 2 ;
+    ktn:pengaliUPMK 1 ;
+    ktn:pasal "Pasal 57" ;
+    dct:source reg:PP-35-2021 .
+
+ktn:Merger a owl:NamedIndividual, ktn:AlasanPHK ;
+    ktn:pengaliUP 1 ;
+    ktn:pengaliUPMK 1 ;
+    ktn:pasal "Pasal 41" ;
+    dct:source reg:PP-35-2021 .
+
+ktn:Pailit a owl:NamedIndividual, ktn:AlasanPHK ;
+    ktn:pengaliUP 0.5 ;
+    ktn:pengaliUPMK 1 ;
+    ktn:pasal "Pasal 47" ;
+    dct:source reg:PP-35-2021 .
+
+ktn:PelanggaranMendesak a owl:NamedIndividual, ktn:AlasanPHK ;
+    ktn:pengaliUP 0 ;
+    ktn:pengaliUPMK 0 ;
+    ktn:pasal "Pasal 52 ayat (2)" ;
+    dct:source reg:PP-35-2021 .
+
+ktn:PelanggaranSP a owl:NamedIndividual, ktn:AlasanPHK ;
+    ktn:pengaliUP 0.5 ;
+    ktn:pengaliUPMK 1 ;
+    ktn:pasal "Pasal 52 ayat (1)" ;
+    dct:source reg:PP-35-2021 .
+
+ktn:Pengambilalihan a owl:NamedIndividual, ktn:AlasanPHK ;
+    ktn:pengaliUP 1 ;
+    ktn:pengaliUPMK 1 ;
+    ktn:pasal "Pasal 42 ayat (1)" ;
+    dct:source reg:PP-35-2021 .
+
+ktn:PengambilalihanUbahSyarat a owl:NamedIndividual, ktn:AlasanPHK ;
+    ktn:pengaliUP 0.5 ;
+    ktn:pengaliUPMK 1 ;
+    ktn:pasal "Pasal 42 ayat (2)" ;
+    dct:source reg:PP-35-2021 .
+
+ktn:Pensiun a owl:NamedIndividual, ktn:AlasanPHK ;
+    ktn:pengaliUP 1.75 ;
+    ktn:pengaliUPMK 1 ;
+    ktn:pasal "Pasal 56" ;
+    dct:source reg:PP-35-2021 .
+
+ktn:PerbuatanPengusaha a owl:NamedIndividual, ktn:AlasanPHK ;
+    ktn:pengaliUP 1 ;
+    ktn:pengaliUPMK 1 ;
+    ktn:pasal "Pasal 48" ;
+    dct:source reg:PP-35-2021 .
+
+ktn:PKPUKarenaTidakRugi a owl:NamedIndividual, ktn:AlasanPHK ;
+    ktn:pengaliUP 1 ;
+    ktn:pengaliUPMK 1 ;
+    ktn:pasal "Pasal 46 ayat (2)" ;
+    dct:source reg:PP-35-2021 .
+
+ktn:PKPUKarenaRugi a owl:NamedIndividual, ktn:AlasanPHK ;
+    ktn:pengaliUP 0.5 ;
+    ktn:pengaliUPMK 1 ;
+    ktn:pasal "Pasal 46 ayat (1)" ;
+    dct:source reg:PP-35-2021 .
+
+ktn:PutusanPPHITidakBersalah a owl:NamedIndividual, ktn:AlasanPHK ;
+    ktn:pengaliUP 0 ;
+    ktn:pengaliUPMK 0 ;
+    ktn:pasal "Pasal 49" ;
+    dct:source reg:PP-35-2021 .
+
+ktn:SakitBerkepanjangan a owl:NamedIndividual, ktn:AlasanPHK ;
+    ktn:pengaliUP 2 ;
+    ktn:pengaliUPMK 1 ;
+    ktn:pasal "Pasal 55" ;
+    dct:source reg:PP-35-2021 .
+
+ktn:TutupBukanKarenaRugi a owl:NamedIndividual, ktn:AlasanPHK ;
+    ktn:pengaliUP 1 ;
+    ktn:pengaliUPMK 1 ;
+    ktn:pasal "Pasal 44 ayat (2)" ;
+    dct:source reg:PP-35-2021 .
+
+ktn:TutupKarenaRugi a owl:NamedIndividual, ktn:AlasanPHK ;
+    ktn:pengaliUP 0.5 ;
+    ktn:pengaliUPMK 1 ;
+    ktn:pasal "Pasal 44 ayat (1)" ;
+    dct:source reg:PP-35-2021 .
+
+ktn:KonversiHarianKePKWTT a owl:NamedIndividual, ktn:KetentuanPKWT ;
+    ktn:batasBulanKonversi 3 ;
+    ktn:batasHariKerjaHarian 21 ;
+    ktn:pasal "Pasal 10 ayat (4)" ;
+    dct:source reg:PP-35-2021 .
+
+ktn:BatasJangkaWaktuPKWT a owl:NamedIndividual, ktn:KetentuanPKWT ;
+    ktn:batasTahunPKWT 5 ;
+    ktn:pasal "Pasal 8 ayat (1)" ;
+    dct:source reg:PP-35-2021 .
+
+ktn:KetentuanKompensasiPKWT a owl:NamedIndividual, ktn:KetentuanPKWT ;
+    ktn:faktorPembagiKompensasi 12 ;
+    ktn:pasal "Pasal 15-16" ;
+    dct:source reg:PP-35-2021 .
+
+ktn:KetentuanPencatatanPKWT a owl:NamedIndividual, ktn:KetentuanPKWT ;
+    ktn:batasHariPencatatan 3 ;
+    ktn:pasal "Pasal 14 ayat (1)" ;
+    dct:source reg:PP-35-2021 .
+
+ktn:LaranganPercobaanPKWT a owl:NamedIndividual, ktn:KetentuanPKWT ;
+    ktn:pasal "Pasal 12" ;
+    dct:source reg:PP-35-2021 .
+
+ktn:UP-0-12 a owl:NamedIndividual, ktn:KategoriUP ;
+    ktn:minBulan 0 ;
+    ktn:maxBulan 12 ;
+    ktn:upDasarBulan 1 ;
+    ktn:pasal "Pasal 40 ayat (2)a" .
+
+ktn:UP-12-24 a owl:NamedIndividual, ktn:KategoriUP ;
+    ktn:minBulan 12 ;
+    ktn:maxBulan 24 ;
+    ktn:upDasarBulan 2 ;
+    ktn:pasal "Pasal 40 ayat (2)b" .
+
+ktn:UP-24-36 a owl:NamedIndividual, ktn:KategoriUP ;
+    ktn:minBulan 24 ;
+    ktn:maxBulan 36 ;
+    ktn:upDasarBulan 3 ;
+    ktn:pasal "Pasal 40 ayat (2)c" .
+
+ktn:UP-36-48 a owl:NamedIndividual, ktn:KategoriUP ;
+    ktn:minBulan 36 ;
+    ktn:maxBulan 48 ;
+    ktn:upDasarBulan 4 ;
+    ktn:pasal "Pasal 40 ayat (2)d" .
+
+ktn:UP-48-60 a owl:NamedIndividual, ktn:KategoriUP ;
+    ktn:minBulan 48 ;
+    ktn:maxBulan 60 ;
+    ktn:upDasarBulan 5 ;
+    ktn:pasal "Pasal 40 ayat (2)e" .
+
+ktn:UP-60-72 a owl:NamedIndividual, ktn:KategoriUP ;
+    ktn:minBulan 60 ;
+    ktn:maxBulan 72 ;
+    ktn:upDasarBulan 6 ;
+    ktn:pasal "Pasal 40 ayat (2)f" .
+
+ktn:UP-72-84 a owl:NamedIndividual, ktn:KategoriUP ;
+    ktn:minBulan 72 ;
+    ktn:maxBulan 84 ;
+    ktn:upDasarBulan 7 ;
+    ktn:pasal "Pasal 40 ayat (2)g" .
+
+ktn:UP-84-96 a owl:NamedIndividual, ktn:KategoriUP ;
+    ktn:minBulan 84 ;
+    ktn:maxBulan 96 ;
+    ktn:upDasarBulan 8 ;
+    ktn:pasal "Pasal 40 ayat (2)h" .
+
+ktn:UP-96-INF a owl:NamedIndividual, ktn:KategoriUP ;
+    ktn:minBulan 96 ;
+    ktn:upDasarBulan 9 ;
+    ktn:pasal "Pasal 40 ayat (2)i" .
+
+ktn:UPMK-36-72 a owl:NamedIndividual, ktn:KategoriUPMK ;
+    ktn:minBulan 36 ;
+    ktn:maxBulan 72 ;
+    ktn:upmkDasarBulan 2 ;
+    ktn:pasal "Pasal 40 ayat (3)a" .
+
+ktn:UPMK-72-108 a owl:NamedIndividual, ktn:KategoriUPMK ;
+    ktn:minBulan 72 ;
+    ktn:maxBulan 108 ;
+    ktn:upmkDasarBulan 3 ;
+    ktn:pasal "Pasal 40 ayat (3)b" .
+
+ktn:UPMK-108-144 a owl:NamedIndividual, ktn:KategoriUPMK ;
+    ktn:minBulan 108 ;
+    ktn:maxBulan 144 ;
+    ktn:upmkDasarBulan 4 ;
+    ktn:pasal "Pasal 40 ayat (3)c" .
+
+ktn:UPMK-144-180 a owl:NamedIndividual, ktn:KategoriUPMK ;
+    ktn:minBulan 144 ;
+    ktn:maxBulan 180 ;
+    ktn:upmkDasarBulan 5 ;
+    ktn:pasal "Pasal 40 ayat (3)d" .
+
+ktn:UPMK-180-216 a owl:NamedIndividual, ktn:KategoriUPMK ;
+    ktn:minBulan 180 ;
+    ktn:maxBulan 216 ;
+    ktn:upmkDasarBulan 6 ;
+    ktn:pasal "Pasal 40 ayat (3)e" .
+
+ktn:UPMK-216-252 a owl:NamedIndividual, ktn:KategoriUPMK ;
+    ktn:minBulan 216 ;
+    ktn:maxBulan 252 ;
+    ktn:upmkDasarBulan 7 ;
+    ktn:pasal "Pasal 40 ayat (3)f" .
+
+ktn:UPMK-252-288 a owl:NamedIndividual, ktn:KategoriUPMK ;
+    ktn:minBulan 252 ;
+    ktn:maxBulan 288 ;
+    ktn:upmkDasarBulan 8 ;
+    ktn:pasal "Pasal 40 ayat (3)g" .
+
+ktn:UPMK-288-INF a owl:NamedIndividual, ktn:KategoriUPMK ;
+    ktn:minBulan 288 ;
+    ktn:upmkDasarBulan 10 ;
+    ktn:pasal "Pasal 40 ayat (3)h" .
+
+ktn:LEMBUR-HK-1 a owl:NamedIndividual, ktn:PengaliLembur ;
+    ktn:jenisHari "hari_kerja" ;
+    ktn:jamMin 1 ;
+    ktn:jamMax 1 ;
+    ktn:pengali 1.5 ;
+    ktn:pasal "Pasal 31 ayat (1)a" .
+
+ktn:LEMBUR-HK-2 a owl:NamedIndividual, ktn:PengaliLembur ;
+    ktn:jenisHari "hari_kerja" ;
+    ktn:jamMin 2 ;
+    ktn:jamMax 4 ;
+    ktn:pengali 2 ;
+    ktn:pasal "Pasal 31 ayat (1)b" .
+
+ktn:LEMBUR-L5-1 a owl:NamedIndividual, ktn:PengaliLembur ;
+    ktn:jenisHari "libur_5hari" ;
+    ktn:jamMin 1 ;
+    ktn:jamMax 8 ;
+    ktn:pengali 2 ;
+    ktn:pasal "Pasal 31 ayat (3)a" .
+
+ktn:LEMBUR-L5-2 a owl:NamedIndividual, ktn:PengaliLembur ;
+    ktn:jenisHari "libur_5hari" ;
+    ktn:jamMin 9 ;
+    ktn:jamMax 9 ;
+    ktn:pengali 3 ;
+    ktn:pasal "Pasal 31 ayat (3)b" .
+
+ktn:LEMBUR-L5-3 a owl:NamedIndividual, ktn:PengaliLembur ;
+    ktn:jenisHari "libur_5hari" ;
+    ktn:jamMin 10 ;
+    ktn:jamMax 12 ;
+    ktn:pengali 4 ;
+    ktn:pasal "Pasal 31 ayat (3)c" .
+
+ktn:LEMBUR-L6-1 a owl:NamedIndividual, ktn:PengaliLembur ;
+    ktn:jenisHari "libur_6hari" ;
+    ktn:jamMin 1 ;
+    ktn:jamMax 7 ;
+    ktn:pengali 2 ;
+    ktn:pasal "Pasal 31 ayat (2)a.1" .
+
+ktn:LEMBUR-L6-2 a owl:NamedIndividual, ktn:PengaliLembur ;
+    ktn:jenisHari "libur_6hari" ;
+    ktn:jamMin 8 ;
+    ktn:jamMax 8 ;
+    ktn:pengali 3 ;
+    ktn:pasal "Pasal 31 ayat (2)a.2" .
+
+ktn:LEMBUR-L6-3 a owl:NamedIndividual, ktn:PengaliLembur ;
+    ktn:jenisHari "libur_6hari" ;
+    ktn:jamMin 9 ;
+    ktn:jamMax 11 ;
+    ktn:pengali 4 ;
+    ktn:pasal "Pasal 31 ayat (2)a.3" .
+
+ktn:LEMBUR-LT-1 a owl:NamedIndividual, ktn:PengaliLembur ;
+    ktn:jenisHari "libur_terpendek" ;
+    ktn:jamMin 1 ;
+    ktn:jamMax 5 ;
+    ktn:pengali 2 ;
+    ktn:pasal "Pasal 31 ayat (2)b.1" .
+
+ktn:LEMBUR-LT-2 a owl:NamedIndividual, ktn:PengaliLembur ;
+    ktn:jenisHari "libur_terpendek" ;
+    ktn:jamMin 6 ;
+    ktn:jamMax 6 ;
+    ktn:pengali 3 ;
+    ktn:pasal "Pasal 31 ayat (2)b.2" .
+
+ktn:LEMBUR-LT-3 a owl:NamedIndividual, ktn:PengaliLembur ;
+    ktn:jenisHari "libur_terpendek" ;
+    ktn:jamMin 7 ;
+    ktn:jamMax 9 ;
+    ktn:pengali 4 ;
+    ktn:pasal "Pasal 31 ayat (2)b.3" .

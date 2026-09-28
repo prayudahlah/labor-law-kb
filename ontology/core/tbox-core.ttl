@@ -1,0 +1,844 @@
+@prefix ktn:  <https://example.org/kbr/ketenagakerjaan#> .
+@prefix rbox: <https://example.org/kbr/ketenagakerjaan/rbox> .
+@prefix dct:  <http://purl.org/dc/terms/> .
+@prefix owl:  <http://www.w3.org/2002/07/owl#> .
+@prefix rdf:  <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd:  <http://www.w3.org/2001/XMLSchema#> .
+
+<https://example.org/kbr/ketenagakerjaan> a owl:Ontology ;
+    dct:title "Ontologi Hukum Ketenagakerjaan Indonesia (inti)" ;
+    rdfs:comment "Ontologi hak ketenagakerjaan Indonesia: kelas, properti, dan defined class." ;
+    owl:imports <https://example.org/kbr/ketenagakerjaan/rbox> .
+
+# ============================================================================
+# Kelas: subjek hukum
+# ============================================================================
+
+ktn:SubjekHukum a owl:Class ;
+    rdfs:label "Subjek Hukum" .
+
+ktn:Pekerja a owl:Class ;
+    rdfs:label "Pekerja" ;
+    rdfs:subClassOf ktn:SubjekHukum .
+
+ktn:Pengusaha a owl:Class ;
+    rdfs:label "Pengusaha" ;
+    rdfs:subClassOf ktn:SubjekHukum .
+
+ktn:AhliWaris a owl:Class ;
+    rdfs:label "Ahli Waris" ;
+    rdfs:subClassOf ktn:SubjekHukum .
+
+ktn:Pekerja owl:disjointWith ktn:Pengusaha .
+
+# ============================================================================
+# Kelas: hubungan kerja
+# ============================================================================
+
+ktn:HubunganKerja a owl:Class ;
+    rdfs:label "Hubungan Kerja" .
+
+ktn:PKWT a owl:Class ;
+    rdfs:label "Perjanjian Kerja Waktu Tertentu" ;
+    rdfs:subClassOf ktn:HubunganKerja .
+
+ktn:PKWTT a owl:Class ;
+    rdfs:label "Perjanjian Kerja Waktu Tidak Tertentu" ;
+    rdfs:subClassOf ktn:HubunganKerja .
+
+ktn:PKWT owl:disjointWith ktn:PKWTT .
+
+# ============================================================================
+# Kelas: peristiwa hukum dan PHK
+# ============================================================================
+
+ktn:PeristiwaHukum a owl:Class ;
+    rdfs:label "Peristiwa Hukum" .
+
+ktn:PHK a owl:Class ;
+    rdfs:label "Pemutusan Hubungan Kerja" ;
+    rdfs:subClassOf ktn:PeristiwaHukum .
+
+ktn:AlasanPHK a owl:Class ;
+    rdfs:label "Alasan PHK" .
+
+# ============================================================================
+# Kelas: komponen upah
+# ============================================================================
+
+ktn:KomponenUpah a owl:Class ;
+    rdfs:label "Komponen Upah" .
+
+ktn:UpahPokok a owl:Class ;
+    rdfs:label "Upah Pokok" ;
+    rdfs:subClassOf ktn:KomponenUpah .
+
+ktn:TunjanganTetap a owl:Class ;
+    rdfs:label "Tunjangan Tetap" ;
+    rdfs:subClassOf ktn:KomponenUpah .
+
+ktn:TunjanganTidakTetap a owl:Class ;
+    rdfs:label "Tunjangan Tidak Tetap" ;
+    rdfs:subClassOf ktn:KomponenUpah .
+
+# ============================================================================
+# Kelas: hak
+# ============================================================================
+
+ktn:Hak a owl:Class ;
+    rdfs:label "Hak" .
+
+ktn:HakFinansial a owl:Class ;
+    rdfs:label "Hak Finansial" ;
+    rdfs:subClassOf ktn:Hak .
+
+ktn:HakNonFinansial a owl:Class ;
+    rdfs:label "Hak Non-Finansial" ;
+    rdfs:subClassOf ktn:Hak .
+
+ktn:HakPesangon a owl:Class ;
+    rdfs:label "Uang Pesangon" ;
+    rdfs:subClassOf ktn:HakFinansial .
+
+ktn:HakUPMK a owl:Class ;
+    rdfs:label "Uang Penghargaan Masa Kerja" ;
+    rdfs:subClassOf ktn:HakFinansial .
+
+ktn:HakUPH a owl:Class ;
+    rdfs:label "Uang Penggantian Hak" ;
+    rdfs:subClassOf ktn:HakFinansial .
+
+ktn:HakUangPisah a owl:Class ;
+    rdfs:label "Uang Pisah" ;
+    rdfs:subClassOf ktn:HakFinansial .
+
+# ============================================================================
+# Kelas: kategori masa kerja (tabel pesangon dan UPMK)
+# ============================================================================
+
+ktn:KategoriMasaKerja a owl:Class ;
+    rdfs:label "Kategori Masa Kerja" .
+
+ktn:KategoriUP a owl:Class ;
+    rdfs:label "Kategori Uang Pesangon" ;
+    rdfs:subClassOf ktn:KategoriMasaKerja .
+
+ktn:KategoriUPMK a owl:Class ;
+    rdfs:label "Kategori UPMK" ;
+    rdfs:subClassOf ktn:KategoriMasaKerja .
+
+# ============================================================================
+# Data property
+# ============================================================================
+
+ktn:masaKerjaBulan a owl:DatatypeProperty ;
+    rdfs:label "masa kerja (bulan)" ;
+    rdfs:domain ktn:Pekerja ;
+    rdfs:range xsd:integer .
+
+ktn:upahBulanan a owl:DatatypeProperty ;
+    rdfs:label "upah bulanan" ;
+    rdfs:domain ktn:Pekerja ;
+    rdfs:range xsd:decimal .
+
+ktn:upahPokok a owl:DatatypeProperty ;
+    rdfs:label "upah pokok" ;
+    rdfs:range xsd:decimal .
+
+ktn:tunjanganTetap a owl:DatatypeProperty ;
+    rdfs:label "tunjangan tetap" ;
+    rdfs:range xsd:decimal .
+
+ktn:pengaliUP a owl:DatatypeProperty ;
+    rdfs:label "pengali uang pesangon" ;
+    rdfs:domain ktn:AlasanPHK ;
+    rdfs:range xsd:decimal .
+
+ktn:pengaliUPMK a owl:DatatypeProperty ;
+    rdfs:label "pengali UPMK" ;
+    rdfs:domain ktn:AlasanPHK ;
+    rdfs:range xsd:decimal .
+
+ktn:minBulan a owl:DatatypeProperty ;
+    rdfs:label "batas bawah masa kerja (bulan)" ;
+    rdfs:domain ktn:KategoriMasaKerja ;
+    rdfs:range xsd:integer .
+
+ktn:maxBulan a owl:DatatypeProperty ;
+    rdfs:label "batas atas masa kerja (bulan, eksklusif)" ;
+    rdfs:domain ktn:KategoriMasaKerja ;
+    rdfs:range xsd:integer .
+
+ktn:upDasarBulan a owl:DatatypeProperty ;
+    rdfs:label "dasar uang pesangon (bulan upah)" ;
+    rdfs:domain ktn:KategoriUP ;
+    rdfs:range xsd:integer .
+
+ktn:upmkDasarBulan a owl:DatatypeProperty ;
+    rdfs:label "dasar UPMK (bulan upah)" ;
+    rdfs:domain ktn:KategoriUPMK ;
+    rdfs:range xsd:integer .
+
+# ============================================================================
+# Annotation property (provenance)
+# ============================================================================
+
+ktn:pasal a owl:AnnotationProperty ;
+    rdfs:label "pasal" ;
+    rdfs:comment "Rujukan pasal sumber, mis. 'PP 35/2021 Pasal 43 ayat (1)'." .
+
+ktn:teksAsli a owl:AnnotationProperty ;
+    rdfs:label "teks asli" ;
+    rdfs:comment "Kutipan singkat dari sumber untuk verifikasi." .
+
+dct:source a owl:AnnotationProperty ;
+    rdfs:label "sumber" ;
+    rdfs:comment "Rujukan ke individu peraturan (reg:Peraturan)." .
+
+# ============================================================================
+# Defined class: inti reasoning SROIQ(D)
+# ============================================================================
+
+ktn:AlasanBerpesangon a owl:Class ;
+    rdfs:label "Alasan PHK berpesangon" ;
+    owl:equivalentClass [
+        a owl:Class ;
+        owl:intersectionOf (
+            ktn:AlasanPHK
+            [
+                a owl:Restriction ;
+                owl:onProperty ktn:pengaliUP ;
+                owl:someValuesFrom [
+                    a rdfs:Datatype ;
+                    owl:onDatatype xsd:decimal ;
+                    owl:withRestrictions ( [ xsd:minExclusive 0 ] )
+                ]
+            ]
+        )
+    ] .
+
+ktn:AlasanTanpaPesangon a owl:Class ;
+    rdfs:label "Alasan PHK tanpa pesangon" ;
+    owl:equivalentClass [
+        a owl:Class ;
+        owl:intersectionOf (
+            ktn:AlasanPHK
+            [
+                a owl:Restriction ;
+                owl:onProperty ktn:pengaliUP ;
+                owl:someValuesFrom [
+                    a rdfs:Datatype ;
+                    owl:onDatatype xsd:decimal ;
+                    owl:withRestrictions ( [ xsd:maxInclusive 0 ] )
+                ]
+            ]
+        )
+    ] .
+
+ktn:AlasanBerpesangon owl:disjointWith ktn:AlasanTanpaPesangon .
+
+ktn:MemenuhiSyaratPesangon a owl:Class ;
+    rdfs:label "Memenuhi syarat uang pesangon" ;
+    owl:equivalentClass [
+        a owl:Class ;
+        owl:intersectionOf (
+            ktn:Pekerja
+            [
+                a owl:Restriction ;
+                owl:onProperty ktn:mengalami ;
+                owl:someValuesFrom [
+                    a owl:Class ;
+                    owl:intersectionOf (
+                        ktn:PHK
+                        [
+                            a owl:Restriction ;
+                            owl:onProperty ktn:memilikiAlasanPHK ;
+                            owl:someValuesFrom ktn:AlasanBerpesangon
+                        ]
+                    )
+                ]
+            ]
+        )
+    ] .
+
+ktn:MemenuhiSyaratUPMK a owl:Class ;
+    rdfs:label "Memenuhi syarat UPMK" ;
+    owl:equivalentClass [
+        a owl:Class ;
+        owl:intersectionOf (
+            ktn:Pekerja
+            [
+                a owl:Restriction ;
+                owl:onProperty ktn:mengalami ;
+                owl:someValuesFrom [
+                    a owl:Class ;
+                    owl:intersectionOf (
+                        ktn:PHK
+                        [
+                            a owl:Restriction ;
+                            owl:onProperty ktn:memilikiAlasanPHK ;
+                            owl:someValuesFrom [
+                                a owl:Class ;
+                                owl:intersectionOf (
+                                    ktn:AlasanPHK
+                                    [
+                                        a owl:Restriction ;
+                                        owl:onProperty ktn:pengaliUPMK ;
+                                        owl:someValuesFrom [
+                                            a rdfs:Datatype ;
+                                            owl:onDatatype xsd:decimal ;
+                                            owl:withRestrictions ( [ xsd:minExclusive 0 ] )
+                                        ]
+                                    ]
+                                )
+                            ]
+                        ]
+                    )
+                ]
+            ]
+        )
+    ] .
+
+ktn:MemenuhiSyaratUPH a owl:Class ;
+    rdfs:label "Memenuhi syarat UPH" ;
+    owl:equivalentClass [
+        a owl:Class ;
+        owl:intersectionOf (
+            ktn:Pekerja
+            [
+                a owl:Restriction ;
+                owl:onProperty ktn:mengalami ;
+                owl:someValuesFrom ktn:PHK
+            ]
+        )
+    ] .
+
+ktn:MemenuhiSyaratUangPisah a owl:Class ;
+    rdfs:label "Memenuhi syarat uang pisah" ;
+    owl:equivalentClass [
+        a owl:Class ;
+        owl:intersectionOf (
+            ktn:Pekerja
+            [
+                a owl:Restriction ;
+                owl:onProperty ktn:mengalami ;
+                owl:someValuesFrom [
+                    a owl:Class ;
+                    owl:intersectionOf (
+                        ktn:PHK
+                        [
+                            a owl:Restriction ;
+                            owl:onProperty ktn:memilikiAlasanPHK ;
+                            owl:someValuesFrom ktn:AlasanTanpaPesangon
+                        ]
+                    )
+                ]
+            ]
+        )
+    ] .
+
+# ============================================================================
+# Fase 2a: waktu kerja, istirahat, dan cuti
+# ============================================================================
+
+ktn:PekerjaPerempuan a owl:Class ;
+    rdfs:label "Pekerja Perempuan" ;
+    rdfs:subClassOf ktn:Pekerja .
+
+ktn:PeristiwaCutiKhusus a owl:Class ;
+    rdfs:label "Peristiwa Cuti Khusus" .
+
+ktn:KetentuanWaktuKerja a owl:Class ;
+    rdfs:label "Ketentuan Waktu Kerja" .
+
+ktn:HakCutiTahunan a owl:Class ;
+    rdfs:label "Hak Cuti Tahunan" ;
+    rdfs:subClassOf ktn:HakNonFinansial .
+
+ktn:HakCutiHaid a owl:Class ;
+    rdfs:label "Hak Cuti Haid" ;
+    rdfs:subClassOf ktn:HakNonFinansial .
+
+ktn:HakCutiKhusus a owl:Class ;
+    rdfs:label "Hak Cuti Khusus" ;
+    rdfs:subClassOf ktn:HakNonFinansial .
+
+ktn:HakIstirahat a owl:Class ;
+    rdfs:label "Hak Istirahat" ;
+    rdfs:subClassOf ktn:HakNonFinansial .
+
+ktn:HakIstirahatAntarJam a owl:Class ;
+    rdfs:label "Hak Istirahat Antar Jam Kerja" ;
+    rdfs:subClassOf ktn:HakIstirahat .
+
+ktn:HakIstirahatMingguan a owl:Class ;
+    rdfs:label "Hak Istirahat Mingguan" ;
+    rdfs:subClassOf ktn:HakIstirahat .
+
+ktn:HakIstirahatPanjang a owl:Class ;
+    rdfs:label "Hak Istirahat Panjang" ;
+    rdfs:subClassOf ktn:HakIstirahat .
+
+ktn:hariDibayar a owl:DatatypeProperty ;
+    rdfs:label "hari dibayar" ;
+    rdfs:domain ktn:PeristiwaCutiKhusus ;
+    rdfs:range xsd:integer .
+
+ktn:jamKerjaPerHari a owl:DatatypeProperty ;
+    rdfs:label "jam kerja per hari" ;
+    rdfs:domain ktn:KetentuanWaktuKerja ;
+    rdfs:range xsd:decimal .
+
+ktn:jamKerjaPerMinggu a owl:DatatypeProperty ;
+    rdfs:label "jam kerja per minggu" ;
+    rdfs:domain ktn:KetentuanWaktuKerja ;
+    rdfs:range xsd:decimal .
+
+ktn:jumlahHariKerjaPerMinggu a owl:DatatypeProperty ;
+    rdfs:label "jumlah hari kerja per minggu" ;
+    rdfs:domain ktn:KetentuanWaktuKerja ;
+    rdfs:range xsd:integer .
+
+ktn:istirahatMingguanHari a owl:DatatypeProperty ;
+    rdfs:label "istirahat mingguan (hari)" ;
+    rdfs:domain ktn:KetentuanWaktuKerja ;
+    rdfs:range xsd:integer .
+
+ktn:MemenuhiSyaratCutiTahunan a owl:Class ;
+    rdfs:label "Memenuhi syarat cuti tahunan" ;
+    ktn:pasal "UU 6/2023 Pasal 79 ayat (3)" ;
+    dct:source <https://example.org/kbr/regulasi#UU-6-2023> ;
+    owl:equivalentClass [
+        a owl:Class ;
+        owl:intersectionOf (
+            ktn:Pekerja
+            [
+                a owl:Restriction ;
+                owl:onProperty ktn:masaKerjaBulan ;
+                owl:someValuesFrom [
+                    a rdfs:Datatype ;
+                    owl:onDatatype xsd:integer ;
+                    owl:withRestrictions ( [ xsd:minInclusive 12 ] )
+                ]
+            ]
+        )
+    ] .
+
+ktn:MemenuhiSyaratCutiHaid a owl:Class ;
+    rdfs:label "Memenuhi syarat cuti haid" ;
+    ktn:pasal "UU 13/2003 Pasal 81" ;
+    dct:source <https://example.org/kbr/regulasi#UU-13-2003> ;
+    owl:equivalentClass ktn:PekerjaPerempuan .
+
+ktn:MemenuhiSyaratCutiKhusus a owl:Class ;
+    rdfs:label "Memenuhi syarat cuti khusus" ;
+    ktn:pasal "UU 13/2003 Pasal 93 ayat (4)" ;
+    dct:source <https://example.org/kbr/regulasi#UU-13-2003> ;
+    owl:equivalentClass [
+        a owl:Class ;
+        owl:intersectionOf (
+            ktn:Pekerja
+            [
+                a owl:Restriction ;
+                owl:onProperty ktn:mengalamiPeristiwa ;
+                owl:someValuesFrom ktn:PeristiwaCutiKhusus
+            ]
+        )
+    ] .
+
+# ============================================================================
+# Fase 2b: upah dan lembur
+# ============================================================================
+
+ktn:Lembur a owl:Class ;
+    rdfs:label "Lembur" ;
+    rdfs:comment "Peristiwa kerja lembur." .
+
+ktn:PengaliLembur a owl:Class ;
+    rdfs:label "Pengali Upah Lembur" ;
+    rdfs:comment "Pengali upah lembur (PP 35/2021 Pasal 31)." .
+
+ktn:KetentuanUpah a owl:Class ;
+    rdfs:label "Ketentuan Upah" .
+
+ktn:KetentuanLembur a owl:Class ;
+    rdfs:label "Ketentuan Lembur" .
+
+ktn:HakUpahLembur a owl:Class ;
+    rdfs:label "Hak Upah Lembur" ;
+    rdfs:subClassOf ktn:HakFinansial .
+
+ktn:jamLembur a owl:DatatypeProperty ;
+    rdfs:label "jam lembur" ;
+    rdfs:domain ktn:Lembur ;
+    rdfs:range xsd:decimal .
+
+ktn:padaHariKerja a owl:DatatypeProperty ;
+    rdfs:label "pada hari kerja" ;
+    rdfs:domain ktn:Lembur ;
+    rdfs:range xsd:boolean .
+
+ktn:pengali a owl:DatatypeProperty ;
+    rdfs:label "pengali upah sejam" ;
+    rdfs:domain ktn:PengaliLembur ;
+    rdfs:range xsd:decimal .
+
+ktn:jamMin a owl:DatatypeProperty ;
+    rdfs:label "jam mulai (inklusif)" ;
+    rdfs:domain ktn:PengaliLembur ;
+    rdfs:range xsd:integer .
+
+ktn:jamMax a owl:DatatypeProperty ;
+    rdfs:label "jam akhir (inklusif)" ;
+    rdfs:domain ktn:PengaliLembur ;
+    rdfs:range xsd:integer .
+
+ktn:jenisHari a owl:DatatypeProperty ;
+    rdfs:label "jenis hari" ;
+    rdfs:domain ktn:PengaliLembur ;
+    rdfs:range xsd:string .
+
+ktn:jamLemburMaksPerHari a owl:DatatypeProperty ;
+    rdfs:label "batas jam lembur per hari" ;
+    rdfs:range xsd:integer .
+
+ktn:jamLemburMaksPerMinggu a owl:DatatypeProperty ;
+    rdfs:label "batas jam lembur per minggu" ;
+    rdfs:range xsd:integer .
+
+ktn:faktorPembagiUpahSejam a owl:DatatypeProperty ;
+    rdfs:label "faktor pembagi upah sejam" ;
+    rdfs:range xsd:integer .
+
+ktn:pengaliKonversiHarian6 a owl:DatatypeProperty ;
+    rdfs:label "pengali upah harian ke bulanan (6 hari kerja)" ;
+    rdfs:range xsd:integer .
+
+ktn:pengaliKonversiHarian5 a owl:DatatypeProperty ;
+    rdfs:label "pengali upah harian ke bulanan (5 hari kerja)" ;
+    rdfs:range xsd:integer .
+
+ktn:kebutuhanKalori a owl:DatatypeProperty ;
+    rdfs:label "kebutuhan kalori minimal saat lembur" ;
+    rdfs:range xsd:integer .
+
+ktn:MemenuhiSyaratUpahLembur a owl:Class ;
+    rdfs:label "Memenuhi syarat upah lembur" ;
+    ktn:pasal "UU 6/2023 Pasal 78 ayat (2)" ;
+    dct:source <https://example.org/kbr/regulasi#UU-6-2023> ;
+    owl:equivalentClass [
+        a owl:Class ;
+        owl:intersectionOf (
+            ktn:Pekerja
+            [
+                a owl:Restriction ;
+                owl:onProperty ktn:mengerjakanLembur ;
+                owl:someValuesFrom ktn:Lembur
+            ]
+        )
+    ] .
+
+# ============================================================================
+# Fase 2c: PKWT, PKWTT, dan alih daya
+# ============================================================================
+
+ktn:KetentuanPKWT a owl:Class ;
+    rdfs:label "Ketentuan PKWT" .
+
+ktn:KetentuanAlihDaya a owl:Class ;
+    rdfs:label "Ketentuan Alih Daya" .
+
+ktn:PerusahaanAlihDaya a owl:Class ;
+    rdfs:label "Perusahaan Alih Daya" ;
+    rdfs:subClassOf ktn:Pengusaha .
+
+ktn:HakKompensasiPKWT a owl:Class ;
+    rdfs:label "Hak Uang Kompensasi PKWT" ;
+    rdfs:subClassOf ktn:HakFinansial .
+
+ktn:bentukHubunganKerja a owl:DatatypeProperty ;
+    rdfs:label "bentuk hubungan kerja" ;
+    rdfs:domain ktn:Pekerja ;
+    rdfs:range xsd:string ;
+    rdfs:comment "Nilai: PKWT atau PKWTT." .
+
+ktn:faktorPembagiKompensasi a owl:DatatypeProperty ;
+    rdfs:label "faktor pembagi kompensasi PKWT" ;
+    rdfs:range xsd:integer .
+
+ktn:batasTahunPKWT a owl:DatatypeProperty ;
+    rdfs:label "batas jangka waktu PKWT (tahun)" ;
+    rdfs:range xsd:integer .
+
+ktn:batasHariKerjaHarian a owl:DatatypeProperty ;
+    rdfs:label "batas hari kerja perjanjian harian" ;
+    rdfs:range xsd:integer .
+
+ktn:batasBulanKonversi a owl:DatatypeProperty ;
+    rdfs:label "batas bulan berturut-turut untuk konversi PKWTT" ;
+    rdfs:range xsd:integer .
+
+ktn:batasHariPencatatan a owl:DatatypeProperty ;
+    rdfs:label "batas hari pencatatan PKWT" ;
+    rdfs:range xsd:integer .
+
+ktn:PekerjaPKWT a owl:Class ;
+    rdfs:label "Pekerja PKWT" ;
+    ktn:pasal "PP 35/2021 Pasal 4-14" ;
+    dct:source <https://example.org/kbr/regulasi#PP-35-2021> ;
+    owl:equivalentClass [
+        a owl:Class ;
+        owl:intersectionOf (
+            ktn:Pekerja
+            [
+                a owl:Restriction ;
+                owl:onProperty ktn:bentukHubunganKerja ;
+                owl:hasValue "PKWT"
+            ]
+        )
+    ] .
+
+ktn:PekerjaPKWTT a owl:Class ;
+    rdfs:label "Pekerja PKWTT" ;
+    ktn:pasal "PP 35/2021 Pasal 3" ;
+    dct:source <https://example.org/kbr/regulasi#PP-35-2021> ;
+    owl:equivalentClass [
+        a owl:Class ;
+        owl:intersectionOf (
+            ktn:Pekerja
+            [
+                a owl:Restriction ;
+                owl:onProperty ktn:bentukHubunganKerja ;
+                owl:hasValue "PKWTT"
+            ]
+        )
+    ] .
+
+ktn:MemenuhiSyaratKompensasiPKWT a owl:Class ;
+    rdfs:label "Memenuhi syarat uang kompensasi PKWT" ;
+    ktn:pasal "PP 35/2021 Pasal 15 ayat (3)" ;
+    dct:source <https://example.org/kbr/regulasi#PP-35-2021> ;
+    owl:equivalentClass [
+        a owl:Class ;
+        owl:intersectionOf (
+            ktn:PekerjaPKWT
+            [
+                a owl:Restriction ;
+                owl:onProperty ktn:masaKerjaBulan ;
+                owl:someValuesFrom [
+                    a rdfs:Datatype ;
+                    owl:onDatatype xsd:integer ;
+                    owl:withRestrictions ( [ xsd:minInclusive 1 ] )
+                ]
+            ]
+        )
+    ] .
+
+# ============================================================================
+# Fase 2d: jaminan sosial (BPJS Ketenagakerjaan)
+# ============================================================================
+
+ktn:ProgramJaminanSosial a owl:Class ;
+    rdfs:label "Program Jaminan Sosial" ;
+    rdfs:comment "Program jaminan sosial (JKK, JKM, JHT, JP)." .
+
+ktn:KetentuanJaminanSosial a owl:Class ;
+    rdfs:label "Ketentuan Jaminan Sosial" .
+
+ktn:HakJaminanSosial a owl:Class ;
+    rdfs:label "Hak Jaminan Sosial" ;
+    rdfs:subClassOf ktn:HakNonFinansial .
+
+ktn:HakJKK a owl:Class ;
+    rdfs:label "Hak Jaminan Kecelakaan Kerja" ;
+    rdfs:subClassOf ktn:HakJaminanSosial .
+
+ktn:HakJKM a owl:Class ;
+    rdfs:label "Hak Jaminan Kematian" ;
+    rdfs:subClassOf ktn:HakJaminanSosial .
+
+ktn:HakJHT a owl:Class ;
+    rdfs:label "Hak Jaminan Hari Tua" ;
+    rdfs:subClassOf ktn:HakJaminanSosial .
+
+ktn:HakJP a owl:Class ;
+    rdfs:label "Hak Jaminan Pensiun" ;
+    rdfs:subClassOf ktn:HakJaminanSosial .
+
+ktn:jenisProgram a owl:DatatypeProperty ;
+    rdfs:label "jenis program" ;
+    rdfs:domain ktn:ProgramJaminanSosial ;
+    rdfs:range xsd:string .
+
+ktn:tarifPengusahaPersen a owl:DatatypeProperty ;
+    rdfs:label "tarif iuran pengusaha (persen)" ;
+    rdfs:domain ktn:ProgramJaminanSosial ;
+    rdfs:range xsd:decimal .
+
+ktn:tarifPekerjaPersen a owl:DatatypeProperty ;
+    rdfs:label "tarif iuran pekerja (persen)" ;
+    rdfs:domain ktn:ProgramJaminanSosial ;
+    rdfs:range xsd:decimal .
+
+ktn:tarifTotalPersen a owl:DatatypeProperty ;
+    rdfs:label "tarif iuran total (persen)" ;
+    rdfs:domain ktn:ProgramJaminanSosial ;
+    rdfs:range xsd:decimal .
+
+ktn:tingkatRisiko a owl:DatatypeProperty ;
+    rdfs:label "tingkat risiko" ;
+    rdfs:domain ktn:ProgramJaminanSosial ;
+    rdfs:range xsd:string .
+
+ktn:usiaPensiunTahun a owl:DatatypeProperty ;
+    rdfs:label "usia pensiun (tahun)" ;
+    rdfs:range xsd:integer .
+
+ktn:MemenuhiSyaratJaminanSosial a owl:Class ;
+    rdfs:label "Memenuhi syarat jaminan sosial" ;
+    rdfs:comment "Setiap pekerja penerima upah wajib diikutsertakan." ;
+    ktn:pasal "UU 24/2011 Pasal 6 ayat (2)" ;
+    dct:source <https://example.org/kbr/regulasi#UU-24-2011> ;
+    owl:equivalentClass ktn:Pekerja .
+
+# ============================================================================
+# Fase 2e: perlindungan khusus perempuan (UU 4/2024 KIA)
+# ============================================================================
+
+ktn:KetentuanKIA a owl:Class ;
+    rdfs:label "Ketentuan KIA" ;
+    rdfs:comment "Ketentuan perlindungan ibu dan anak (UU 4/2024)." .
+
+ktn:HakCutiMelahirkan a owl:Class ;
+    rdfs:label "Hak Cuti Melahirkan" ;
+    rdfs:subClassOf ktn:HakNonFinansial .
+
+ktn:HakCutiKeguguran a owl:Class ;
+    rdfs:label "Hak Istirahat Keguguran" ;
+    rdfs:subClassOf ktn:HakNonFinansial .
+
+ktn:HakMenyusui a owl:Class ;
+    rdfs:label "Hak Menyusui" ;
+    rdfs:subClassOf ktn:HakNonFinansial .
+
+ktn:HakCutiPendampinganSuami a owl:Class ;
+    rdfs:label "Hak Cuti Pendampingan Suami" ;
+    rdfs:subClassOf ktn:HakNonFinansial .
+
+ktn:sedangCutiMelahirkan a owl:DatatypeProperty ;
+    rdfs:label "sedang cuti melahirkan" ;
+    rdfs:domain ktn:PekerjaPerempuan ;
+    rdfs:range xsd:boolean .
+
+ktn:cutiMelahirkanBulan a owl:DatatypeProperty ;
+    rdfs:label "lama cuti melahirkan (bulan)" ;
+    rdfs:domain ktn:PekerjaPerempuan ;
+    rdfs:range xsd:integer .
+
+ktn:mengalamiKeguguran a owl:DatatypeProperty ;
+    rdfs:label "mengalami keguguran" ;
+    rdfs:domain ktn:PekerjaPerempuan ;
+    rdfs:range xsd:boolean .
+
+ktn:menyusui a owl:DatatypeProperty ;
+    rdfs:label "sedang menyusui" ;
+    rdfs:domain ktn:PekerjaPerempuan ;
+    rdfs:range xsd:boolean .
+
+ktn:mendampingiPersalinan a owl:DatatypeProperty ;
+    rdfs:label "mendampingi persalinan istri" ;
+    rdfs:domain ktn:Pekerja ;
+    rdfs:range xsd:boolean .
+
+ktn:bulanUpahPenuh a owl:DatatypeProperty ;
+    rdfs:label "jumlah bulan upah penuh saat cuti melahirkan" ;
+    rdfs:range xsd:integer .
+
+ktn:bulanUpah75 a owl:DatatypeProperty ;
+    rdfs:label "jumlah bulan upah 75 persen saat cuti melahirkan" ;
+    rdfs:range xsd:integer .
+
+ktn:cutiMelahirkanBulanMin a owl:DatatypeProperty ;
+    rdfs:label "cuti melahirkan minimal (bulan)" ;
+    rdfs:range xsd:integer .
+
+ktn:cutiMelahirkanBulanMax a owl:DatatypeProperty ;
+    rdfs:label "cuti melahirkan maksimal (bulan)" ;
+    rdfs:range xsd:integer .
+
+ktn:cutiKeguguranBulan a owl:DatatypeProperty ;
+    rdfs:label "istirahat keguguran (bulan)" ;
+    rdfs:range xsd:decimal .
+
+ktn:cutiPendampinganHari a owl:DatatypeProperty ;
+    rdfs:label "cuti pendampingan suami (hari)" ;
+    rdfs:range xsd:integer .
+
+ktn:cutiPendampinganTambahanHari a owl:DatatypeProperty ;
+    rdfs:label "tambahan cuti pendampingan suami (hari)" ;
+    rdfs:range xsd:integer .
+
+ktn:MemenuhiSyaratCutiMelahirkan a owl:Class ;
+    rdfs:label "Memenuhi syarat cuti melahirkan" ;
+    ktn:pasal "UU 4/2024 Pasal 4 ayat (3)a" ;
+    dct:source <https://example.org/kbr/regulasi#UU-4-2024> ;
+    owl:equivalentClass [
+        a owl:Class ;
+        owl:intersectionOf (
+            ktn:PekerjaPerempuan
+            [
+                a owl:Restriction ;
+                owl:onProperty ktn:sedangCutiMelahirkan ;
+                owl:hasValue true
+            ]
+        )
+    ] .
+
+ktn:MemenuhiSyaratCutiKeguguran a owl:Class ;
+    rdfs:label "Memenuhi syarat istirahat keguguran" ;
+    ktn:pasal "UU 4/2024 Pasal 4 ayat (3)b" ;
+    dct:source <https://example.org/kbr/regulasi#UU-4-2024> ;
+    owl:equivalentClass [
+        a owl:Class ;
+        owl:intersectionOf (
+            ktn:PekerjaPerempuan
+            [
+                a owl:Restriction ;
+                owl:onProperty ktn:mengalamiKeguguran ;
+                owl:hasValue true
+            ]
+        )
+    ] .
+
+ktn:MemenuhiSyaratMenyusui a owl:Class ;
+    rdfs:label "Memenuhi syarat hak menyusui" ;
+    ktn:pasal "UU 4/2024 Pasal 4 ayat (3)c" ;
+    dct:source <https://example.org/kbr/regulasi#UU-4-2024> ;
+    owl:equivalentClass [
+        a owl:Class ;
+        owl:intersectionOf (
+            ktn:PekerjaPerempuan
+            [
+                a owl:Restriction ;
+                owl:onProperty ktn:menyusui ;
+                owl:hasValue true
+            ]
+        )
+    ] .
+
+ktn:MemenuhiSyaratCutiPendampinganSuami a owl:Class ;
+    rdfs:label "Memenuhi syarat cuti pendampingan suami" ;
+    ktn:pasal "UU 4/2024 Pasal 6 ayat (2)" ;
+    dct:source <https://example.org/kbr/regulasi#UU-4-2024> ;
+    owl:equivalentClass [
+        a owl:Class ;
+        owl:intersectionOf (
+            ktn:Pekerja
+            [
+                a owl:Restriction ;
+                owl:onProperty ktn:mendampingiPersalinan ;
+                owl:hasValue true
+            ]
+        )
+    ] .

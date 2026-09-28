@@ -1,0 +1,16 @@
+# Dependensi langsung proyek (diedit manusia).
+# Lock penuh dihasilkan dengan:
+#   uv pip compile requirements.in -o requirements.txt --python-version 3.12 --generate-hashes
+# Pasang:
+#   uv venv --python 3.12 && uv pip sync requirements.txt
+#
+# Catatan: Java 17 dibutuhkan owlready2 untuk menjalankan HermiT (dependensi sistem, bukan pip).
+
+requests      # unduh PDF peraturan
+pyyaml        # baca docs/sources.yaml
+pymupdf       # baca PDF
+pymupdf4llm   # PDF -> markdown
+rapidocr-onnxruntime  # OCR PDF hasil scan
+rdflib        # gabung Turtle, konversi RDF/XML
+owlready2     # muat ontologi + HermiT
+pyshacl       # validasi data form (Fase 3)

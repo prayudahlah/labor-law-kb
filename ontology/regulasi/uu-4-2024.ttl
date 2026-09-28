@@ -1,0 +1,49 @@
+# =====================================================================
+# BERKAS DIGENERATE. JANGAN EDIT MANUAL.
+# Sumber   : data/norma.csv, parameter.csv, kategori.csv, pengali_lembur.csv, program_jamsos.csv
+# Hasilkan : .venv/bin/python scripts/build_ontology.py
+# =====================================================================
+
+@prefix ktn:  <https://example.org/kbr/ketenagakerjaan#> .
+@prefix reg:  <https://example.org/kbr/regulasi#> .
+@prefix dct:  <http://purl.org/dc/terms/> .
+@prefix owl:  <http://www.w3.org/2002/07/owl#> .
+@prefix rdf:  <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd:  <http://www.w3.org/2001/XMLSchema#> .
+
+<https://example.org/kbr/ketenagakerjaan/regulasi/uu-4-2024> a owl:Ontology ;
+    dct:title "Fakta norma: Undang-Undang Nomor 4 Tahun 2024 tentang Kesejahteraan Ibu dan Anak pada Fase Seribu Hari Pertama Kehidupan" ;
+    dct:source <https://peraturan.bpk.go.id/Details/289997/uu-no-4-tahun-2024> ;
+    owl:imports <https://example.org/kbr/ketenagakerjaan> .
+
+ktn:KetentuanCutiKeguguran a owl:NamedIndividual, ktn:KetentuanKIA ;
+    ktn:cutiKeguguranBulan 1.5 ;
+    ktn:pasal "Pasal 4 ayat (3)b" ;
+    dct:source reg:UU-4-2024 .
+
+ktn:KetentuanCutiMelahirkan a owl:NamedIndividual, ktn:KetentuanKIA ;
+    ktn:cutiMelahirkanBulanMax 6 ;
+    ktn:cutiMelahirkanBulanMin 3 ;
+    ktn:pasal "Pasal 4 ayat (3)a" ;
+    dct:source reg:UU-4-2024 .
+
+ktn:KetentuanCutiPendampinganSuami a owl:NamedIndividual, ktn:KetentuanKIA ;
+    ktn:cutiPendampinganHari 2 ;
+    ktn:cutiPendampinganTambahanHari 3 ;
+    ktn:pasal "Pasal 6 ayat (2)a" ;
+    dct:source reg:UU-4-2024 .
+
+ktn:KetentuanLaranganPHKKIA a owl:NamedIndividual, ktn:KetentuanKIA ;
+    ktn:pasal "Pasal 5 ayat (1)" ;
+    dct:source reg:UU-4-2024 .
+
+ktn:KetentuanMenyusui a owl:NamedIndividual, ktn:KetentuanKIA ;
+    ktn:pasal "Pasal 4 ayat (3)c" ;
+    dct:source reg:UU-4-2024 .
+
+ktn:KetentuanUpahCutiMelahirkan a owl:NamedIndividual, ktn:KetentuanKIA ;
+    ktn:bulanUpah75 2 ;
+    ktn:bulanUpahPenuh 4 ;
+    ktn:pasal "Pasal 5 ayat (2)" ;
+    dct:source reg:UU-4-2024 .

@@ -1,0 +1,12 @@
+tabel_id,dokumen_id,jenis_hari,jam_min,jam_max,pengali,pasal,confidence,dasar_keyakinan
+LEMBUR-HK-1,PP-35-2021,hari_kerja,1,1,1.5,Pasal 31 ayat (1)a,0.95,dikutip
+LEMBUR-HK-2,PP-35-2021,hari_kerja,2,4,2,Pasal 31 ayat (1)b,0.95,dikutip
+LEMBUR-L6-1,PP-35-2021,libur_6hari,1,7,2,Pasal 31 ayat (2)a.1,0.95,dikutip
+LEMBUR-L6-2,PP-35-2021,libur_6hari,8,8,3,Pasal 31 ayat (2)a.2,0.95,dikutip
+LEMBUR-L6-3,PP-35-2021,libur_6hari,9,11,4,Pasal 31 ayat (2)a.3,0.95,dikutip
+LEMBUR-LT-1,PP-35-2021,libur_terpendek,1,5,2,Pasal 31 ayat (2)b.1,0.95,dikutip
+LEMBUR-LT-2,PP-35-2021,libur_terpendek,6,6,3,Pasal 31 ayat (2)b.2,0.95,dikutip
+LEMBUR-LT-3,PP-35-2021,libur_terpendek,7,9,4,Pasal 31 ayat (2)b.3,0.95,dikutip
+LEMBUR-L5-1,PP-35-2021,libur_5hari,1,8,2,Pasal 31 ayat (3)a,0.95,dikutip
+LEMBUR-L5-2,PP-35-2021,libur_5hari,9,9,3,Pasal 31 ayat (3)b,0.95,dikutip
+LEMBUR-L5-3,PP-35-2021,libur_5hari,10,12,4,Pasal 31 ayat (3)c,0.95,dikutip

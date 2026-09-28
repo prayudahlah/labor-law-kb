@@ -1,0 +1,40 @@
+# =====================================================================
+# BERKAS DIGENERATE. JANGAN EDIT MANUAL.
+# Sumber   : data/norma.csv, parameter.csv, kategori.csv, pengali_lembur.csv, program_jamsos.csv
+# Hasilkan : .venv/bin/python scripts/build_ontology.py
+# =====================================================================
+
+@prefix ktn:  <https://example.org/kbr/ketenagakerjaan#> .
+@prefix reg:  <https://example.org/kbr/regulasi#> .
+@prefix dct:  <http://purl.org/dc/terms/> .
+@prefix owl:  <http://www.w3.org/2002/07/owl#> .
+@prefix rdf:  <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd:  <http://www.w3.org/2001/XMLSchema#> .
+
+<https://example.org/kbr/ketenagakerjaan/regulasi/uu-6-2023> a owl:Ontology ;
+    dct:title "Fakta norma: Undang-Undang Nomor 6 Tahun 2023 tentang Penetapan Peraturan Pemerintah Pengganti Undang-Undang Nomor 2 Tahun 2022 tentang Cipta Kerja menjadi Undang-Undang" ;
+    dct:source <https://peraturan.bpk.go.id/Details/246523/uu-no-6-tahun-2023> ;
+    owl:imports <https://example.org/kbr/ketenagakerjaan> .
+
+ktn:BatasJamLembur a owl:NamedIndividual, ktn:KetentuanLembur ;
+    ktn:jamLemburMaksPerHari 4 ;
+    ktn:jamLemburMaksPerMinggu 18 ;
+    ktn:pasal "Pasal 78 ayat (1)b" ;
+    dct:source reg:UU-6-2023 .
+
+ktn:WaktuKerja5Hari a owl:NamedIndividual, ktn:KetentuanWaktuKerja ;
+    ktn:istirahatMingguanHari 2 ;
+    ktn:jamKerjaPerHari 8 ;
+    ktn:jamKerjaPerMinggu 40 ;
+    ktn:jumlahHariKerjaPerMinggu 5 ;
+    ktn:pasal "Pasal 77" ;
+    dct:source reg:UU-6-2023 .
+
+ktn:WaktuKerja6Hari a owl:NamedIndividual, ktn:KetentuanWaktuKerja ;
+    ktn:istirahatMingguanHari 1 ;
+    ktn:jamKerjaPerHari 7 ;
+    ktn:jamKerjaPerMinggu 40 ;
+    ktn:jumlahHariKerjaPerMinggu 6 ;
+    ktn:pasal "Pasal 77" ;
+    dct:source reg:UU-6-2023 .

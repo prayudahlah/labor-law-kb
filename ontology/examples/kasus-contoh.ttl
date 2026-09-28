@@ -1,0 +1,130 @@
+@prefix ktn:  <https://example.org/kbr/ketenagakerjaan#> .
+@prefix dct:  <http://purl.org/dc/terms/> .
+@prefix owl:  <http://www.w3.org/2002/07/owl#> .
+@prefix rdf:  <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd:  <http://www.w3.org/2001/XMLSchema#> .
+
+<https://example.org/kbr/ketenagakerjaan/contoh/kasus> a owl:Ontology ;
+    dct:title "Kasus uji Fase 1: PHK dan pesangon" ;
+    rdfs:comment "Fixture untuk verifikasi reasoning. Bukan knowledge hukum." ;
+    owl:imports <https://example.org/kbr/ketenagakerjaan> .
+
+# Kasus 1: efisiensi karena rugi, masa kerja 10 tahun (120 bulan), upah Rp5.000.000
+# Harapan: MemenuhiSyaratPesangon + MemenuhiSyaratUPMK. UP 9x0,5=4,5 bulan; UPMK 9-12 -> 4 bulan.
+ktn:PekerjaBudi a owl:NamedIndividual, ktn:Pekerja ;
+    ktn:masaKerjaBulan 120 ;
+    ktn:upahBulanan 5000000 ;
+    ktn:mengalami ktn:PHKBudi .
+
+ktn:PHKBudi a owl:NamedIndividual, ktn:PHK ;
+    ktn:memilikiAlasanPHK ktn:EfisiensiRugi .
+
+# Kasus 2: mengundurkan diri, masa kerja 5 tahun (60 bulan)
+# Harapan: TIDAK MemenuhiSyaratPesangon, TIDAK MemenuhiSyaratUPMK, MemenuhiSyaratUPH + uang pisah.
+ktn:PekerjaSari a owl:NamedIndividual, ktn:Pekerja ;
+    ktn:masaKerjaBulan 60 ;
+    ktn:upahBulanan 4000000 ;
+    ktn:mengalami ktn:PHKSari .
+
+ktn:PHKSari a owl:NamedIndividual, ktn:PHK ;
+    ktn:memilikiAlasanPHK ktn:MengundurkanDiri .
+
+# Kasus 3: ditahan 6 bulan tidak merugikan, masa kerja 8 tahun (96 bulan)
+# Harapan: TIDAK MemenuhiSyaratPesangon, MemenuhiSyaratUPMK (UPMK 6-9 tahun -> 3 bulan).
+ktn:PekerjaAndi a owl:NamedIndividual, ktn:Pekerja ;
+    ktn:masaKerjaBulan 96 ;
+    ktn:upahBulanan 3000000 ;
+    ktn:mengalami ktn:PHKAndi .
+
+ktn:PHKAndi a owl:NamedIndividual, ktn:PHK ;
+    ktn:memilikiAlasanPHK ktn:DitahanTidakMerugikan .
+
+# ============================================================================
+# Kasus Fase 2a: waktu kerja, istirahat, cuti
+# ============================================================================
+
+# Cuti tahunan: masa kerja 12 bulan -> berhak; 6 bulan -> tidak
+ktn:PekerjaCukup a owl:NamedIndividual, ktn:Pekerja ;
+    ktn:masaKerjaBulan 12 ;
+    ktn:upahBulanan 4500000 .
+
+ktn:PekerjaBaru a owl:NamedIndividual, ktn:Pekerja ;
+    ktn:masaKerjaBulan 6 ;
+    ktn:upahBulanan 4500000 .
+
+# Cuti haid: pekerja perempuan
+ktn:PekerjaWanita a owl:NamedIndividual, ktn:PekerjaPerempuan ;
+    ktn:masaKerjaBulan 24 ;
+    ktn:upahBulanan 5000000 .
+
+# Cuti khusus: menikah
+ktn:PekerjaMenikah a owl:NamedIndividual, ktn:Pekerja ;
+    ktn:masaKerjaBulan 18 ;
+    ktn:upahBulanan 4000000 ;
+    ktn:mengalamiPeristiwa ktn:CutiMenikah .
+
+# ============================================================================
+# Kasus Fase 2b: lembur
+# ============================================================================
+
+# Lembur 4 jam pada hari kerja, upah Rp5.000.000
+# Harapan: MemenuhiSyaratUpahLembur. Lembur = (1,5 + 2x3) x upah sejam.
+ktn:PekerjaLembur a owl:NamedIndividual, ktn:Pekerja ;
+    ktn:masaKerjaBulan 24 ;
+    ktn:upahBulanan 5000000 ;
+    ktn:mengerjakanLembur ktn:LemburBudi .
+
+ktn:LemburBudi a owl:NamedIndividual, ktn:Lembur ;
+    ktn:jamLembur 4 ;
+    ktn:padaHariKerja true .
+
+# ============================================================================
+# Kasus Fase 2c: PKWT dan PKWTT
+# ============================================================================
+
+# PKWT 24 bulan, upah Rp5.000.000 -> kompensasi (24/12) x 1 bulan = 2 bulan
+ktn:PekerjaKontrak a owl:NamedIndividual, ktn:Pekerja ;
+    ktn:bentukHubunganKerja "PKWT" ;
+    ktn:masaKerjaBulan 24 ;
+    ktn:upahBulanan 5000000 .
+
+# PKWTT 60 bulan -> bukan penerima kompensasi PKWT
+ktn:PekerjaTetap a owl:NamedIndividual, ktn:Pekerja ;
+    ktn:bentukHubunganKerja "PKWTT" ;
+    ktn:masaKerjaBulan 60 ;
+    ktn:upahBulanan 6000000 .
+
+# ============================================================================
+# Kasus Fase 2d: jaminan sosial
+# ============================================================================
+
+# Pekerja penerima upah -> wajib diikutsertakan JKK/JKM/JHT/JP
+ktn:PekerjaJamsos a owl:NamedIndividual, ktn:Pekerja ;
+    ktn:bentukHubunganKerja "PKWTT" ;
+    ktn:masaKerjaBulan 30 ;
+    ktn:upahBulanan 5000000 .
+
+# ============================================================================
+# Kasus Fase 2e: perlindungan khusus perempuan (UU 4/2024 KIA)
+# ============================================================================
+
+# Ibu cuti melahirkan 6 bulan, upah Rp5.000.000
+# Harapan: MemenuhiSyaratCutiMelahirkan. Upah = 4 bulan penuh + 2 bulan 75%.
+ktn:PekerjaIbu a owl:NamedIndividual, ktn:PekerjaPerempuan ;
+    ktn:sedangCutiMelahirkan true ;
+    ktn:cutiMelahirkanBulan 6 ;
+    ktn:masaKerjaBulan 24 ;
+    ktn:upahBulanan 5000000 .
+
+# Ibu mengalami keguguran -> istirahat 1,5 bulan
+ktn:PekerjaKeguguran a owl:NamedIndividual, ktn:PekerjaPerempuan ;
+    ktn:mengalamiKeguguran true ;
+    ktn:masaKerjaBulan 12 ;
+    ktn:upahBulanan 4000000 .
+
+# Suami mendampingi persalinan -> cuti pendampingan 2 hari
+ktn:PekerjaAyah a owl:NamedIndividual, ktn:Pekerja ;
+    ktn:mendampingiPersalinan true ;
+    ktn:masaKerjaBulan 36 ;
+    ktn:upahBulanan 6000000 .

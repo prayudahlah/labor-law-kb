@@ -1,0 +1,11 @@
+.venv/
+docs/pdf/
+ontology/.cache/
+__pycache__/
+*.pyc
+*.pyo
+node_modules/
+.env
+.env.*
+.DS_Store
+.notes

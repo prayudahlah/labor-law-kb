@@ -1,0 +1,24 @@
+# BERKAS DIGENERATE. JANGAN EDIT MANUAL.
+# Hasilkan: .venv/bin/python scripts/build_catalog.py
+# Buka berkas ini di Protege; import diselesaikan lewat catalog-v001.xml.
+
+@prefix owl:  <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix dct:  <http://purl.org/dc/terms/> .
+
+<https://example.org/kbr/ketenagakerjaan/kb> a owl:Ontology ;
+    dct:title "Knowledge Base Hukum Ketenagakerjaan Indonesia" ;
+    owl:imports <https://example.org/kbr/ketenagakerjaan> ;
+    owl:imports <https://example.org/kbr/ketenagakerjaan/rbox> ;
+    owl:imports <https://example.org/kbr/ketenagakerjaan/regulasi/pp-35-2021> ;
+    owl:imports <https://example.org/kbr/ketenagakerjaan/regulasi/pp-36-2021> ;
+    owl:imports <https://example.org/kbr/ketenagakerjaan/regulasi/pp-37-2021> ;
+    owl:imports <https://example.org/kbr/ketenagakerjaan/regulasi/pp-44-2015> ;
+    owl:imports <https://example.org/kbr/ketenagakerjaan/regulasi/pp-45-2015> ;
+    owl:imports <https://example.org/kbr/ketenagakerjaan/regulasi/pp-46-2015> ;
+    owl:imports <https://example.org/kbr/ketenagakerjaan/regulasi/uu-13-2003> ;
+    owl:imports <https://example.org/kbr/ketenagakerjaan/regulasi/uu-24-2011> ;
+    owl:imports <https://example.org/kbr/ketenagakerjaan/regulasi/uu-4-2024> ;
+    owl:imports <https://example.org/kbr/ketenagakerjaan/regulasi/uu-6-2023> ;
+    owl:imports <https://example.org/kbr/regulasi> ;
+    owl:imports <https://example.org/kbr/regulasi/vocab> .

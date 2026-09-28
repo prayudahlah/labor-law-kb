@@ -1,0 +1,102 @@
+@prefix ktn:  <https://example.org/kbr/ketenagakerjaan#> .
+@prefix dct:  <http://purl.org/dc/terms/> .
+@prefix owl:  <http://www.w3.org/2002/07/owl#> .
+@prefix rdf:  <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd:  <http://www.w3.org/2001/XMLSchema#> .
+
+<https://example.org/kbr/ketenagakerjaan/rbox> a owl:Ontology ;
+    dct:title "Ontologi Hukum Ketenagakerjaan Indonesia (R-Box)" ;
+    rdfs:comment "Object property, hierarki peran, dan karakteristik peran (SROIQ R-Box)." .
+
+# ============================================================================
+# Object property inti
+# ============================================================================
+
+ktn:mengalami a owl:ObjectProperty ;
+    rdfs:label "mengalami" ;
+    rdfs:domain ktn:Pekerja ;
+    rdfs:range ktn:PHK .
+
+ktn:memilikiAlasanPHK a owl:ObjectProperty ;
+    rdfs:label "memiliki alasan PHK" ;
+    rdfs:domain ktn:PHK ;
+    rdfs:range ktn:AlasanPHK ;
+    a owl:FunctionalProperty .
+
+ktn:berhakAtas a owl:ObjectProperty ;
+    rdfs:label "berhak atas" ;
+    rdfs:domain ktn:Pekerja ;
+    rdfs:range ktn:Hak .
+
+ktn:memilikiKomponenUpah a owl:ObjectProperty ;
+    rdfs:label "memiliki komponen upah" ;
+    rdfs:domain ktn:Pekerja ;
+    rdfs:range ktn:KomponenUpah .
+
+ktn:dipekerjakanOleh a owl:ObjectProperty ;
+    rdfs:label "dipekerjakan oleh" ;
+    rdfs:domain ktn:Pekerja ;
+    rdfs:range ktn:Pengusaha ;
+    owl:inverseOf ktn:mempekerjakan .
+
+ktn:mempekerjakan a owl:ObjectProperty ;
+    rdfs:label "mempekerjakan" ;
+    rdfs:domain ktn:Pengusaha ;
+    rdfs:range ktn:Pekerja .
+
+# ============================================================================
+# R-Box: karakteristik peran
+# ============================================================================
+
+ktn:bagianDari a owl:ObjectProperty, owl:TransitiveProperty ;
+    rdfs:label "bagian dari" .
+
+# ============================================================================
+# R-Box: role chain (contoh alih daya, UU 13/2003 Pasal 64-66)
+# ============================================================================
+
+ktn:menugaskan a owl:ObjectProperty ;
+    rdfs:label "menugaskan" .
+
+ktn:bekerjaUntuk a owl:ObjectProperty ;
+    rdfs:label "bekerja untuk" ;
+    owl:propertyChainAxiom ( ktn:dipekerjakanOleh ktn:menugaskan ) .
+
+# ============================================================================
+# R-Box: hierarki peran
+# ============================================================================
+
+ktn:berhakAtasPesangon a owl:ObjectProperty ;
+    rdfs:label "berhak atas uang pesangon" ;
+    rdfs:subPropertyOf ktn:berhakAtas .
+
+ktn:berhakAtasUPMK a owl:ObjectProperty ;
+    rdfs:label "berhak atas UPMK" ;
+    rdfs:subPropertyOf ktn:berhakAtas .
+
+ktn:berhakAtasUPH a owl:ObjectProperty ;
+    rdfs:label "berhak atas UPH" ;
+    rdfs:subPropertyOf ktn:berhakAtas .
+
+ktn:berhakAtasUangPisah a owl:ObjectProperty ;
+    rdfs:label "berhak atas uang pisah" ;
+    rdfs:subPropertyOf ktn:berhakAtas .
+
+# ============================================================================
+# Fase 2a: peristiwa cuti khusus
+# ============================================================================
+
+ktn:mengalamiPeristiwa a owl:ObjectProperty ;
+    rdfs:label "mengalami peristiwa" ;
+    rdfs:domain ktn:Pekerja ;
+    rdfs:range ktn:PeristiwaCutiKhusus .
+
+# ============================================================================
+# Fase 2b: lembur
+# ============================================================================
+
+ktn:mengerjakanLembur a owl:ObjectProperty ;
+    rdfs:label "mengerjakan lembur" ;
+    rdfs:domain ktn:Pekerja ;
+    rdfs:range ktn:Lembur .

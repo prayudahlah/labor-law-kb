@@ -1,0 +1,53 @@
+# =====================================================================
+# BERKAS DIGENERATE. JANGAN EDIT MANUAL.
+# Sumber   : data/norma.csv, parameter.csv, kategori.csv, pengali_lembur.csv, program_jamsos.csv
+# Hasilkan : .venv/bin/python scripts/build_ontology.py
+# =====================================================================
+
+@prefix ktn:  <https://example.org/kbr/ketenagakerjaan#> .
+@prefix reg:  <https://example.org/kbr/regulasi#> .
+@prefix dct:  <http://purl.org/dc/terms/> .
+@prefix owl:  <http://www.w3.org/2002/07/owl#> .
+@prefix rdf:  <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd:  <http://www.w3.org/2001/XMLSchema#> .
+
+<https://example.org/kbr/ketenagakerjaan/regulasi/uu-13-2003> a owl:Ontology ;
+    dct:title "Fakta norma: Undang-Undang Nomor 13 Tahun 2003 tentang Ketenagakerjaan" ;
+    dct:source <https://peraturan.bpk.go.id/Details/43013/uu-no-13-tahun-2003> ;
+    owl:imports <https://example.org/kbr/ketenagakerjaan> .
+
+ktn:CutiAnggotaRumahMeninggal a owl:NamedIndividual, ktn:PeristiwaCutiKhusus ;
+    ktn:hariDibayar 1 ;
+    ktn:pasal "Pasal 93 ayat (4)g" ;
+    dct:source reg:UU-13-2003 .
+
+ktn:CutiBaptisAnak a owl:NamedIndividual, ktn:PeristiwaCutiKhusus ;
+    ktn:hariDibayar 2 ;
+    ktn:pasal "Pasal 93 ayat (4)d" ;
+    dct:source reg:UU-13-2003 .
+
+ktn:CutiIstriMelahirkan a owl:NamedIndividual, ktn:PeristiwaCutiKhusus ;
+    ktn:hariDibayar 2 ;
+    ktn:pasal "Pasal 93 ayat (4)e" ;
+    dct:source reg:UU-13-2003 .
+
+ktn:CutiKeluargaMeninggal a owl:NamedIndividual, ktn:PeristiwaCutiKhusus ;
+    ktn:hariDibayar 2 ;
+    ktn:pasal "Pasal 93 ayat (4)f" ;
+    dct:source reg:UU-13-2003 .
+
+ktn:CutiKhitanAnak a owl:NamedIndividual, ktn:PeristiwaCutiKhusus ;
+    ktn:hariDibayar 2 ;
+    ktn:pasal "Pasal 93 ayat (4)c" ;
+    dct:source reg:UU-13-2003 .
+
+ktn:CutiMenikah a owl:NamedIndividual, ktn:PeristiwaCutiKhusus ;
+    ktn:hariDibayar 3 ;
+    ktn:pasal "Pasal 93 ayat (4)a" ;
+    dct:source reg:UU-13-2003 .
+
+ktn:CutiMenikahkanAnak a owl:NamedIndividual, ktn:PeristiwaCutiKhusus ;
+    ktn:hariDibayar 2 ;
+    ktn:pasal "Pasal 93 ayat (4)b" ;
+    dct:source reg:UU-13-2003 .

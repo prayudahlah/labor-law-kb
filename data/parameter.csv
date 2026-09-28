@@ -1,0 +1,81 @@
+norm_id,nama,nilai,satuan,jenis,pasal,confidence,dasar_keyakinan
+PHK-MENINGGAL-DUNIA,pengaliUP,2,kali,pengali,Pasal 57,0.95,dikutip
+PHK-MENINGGAL-DUNIA,pengaliUPMK,1,kali,pengali,Pasal 57,0.95,dikutip
+PHK-SAKIT-BERKEPANJANGAN,pengaliUP,2,kali,pengali,Pasal 55,0.95,dikutip
+PHK-SAKIT-BERKEPANJANGAN,pengaliUPMK,1,kali,pengali,Pasal 55,0.95,dikutip
+PHK-PENSIUN,pengaliUP,1.75,kali,pengali,Pasal 56,0.95,dikutip
+PHK-PENSIUN,pengaliUPMK,1,kali,pengali,Pasal 56,0.95,dikutip
+PHK-FORCE-MAJEURE-TUTUP,pengaliUP,0.5,kali,pengali,Pasal 45 ayat (1),0.95,dikutip
+PHK-FORCE-MAJEURE-TUTUP,pengaliUPMK,1,kali,pengali,Pasal 45 ayat (1),0.95,dikutip
+PHK-FORCE-MAJEURE-TIDAK-TUTUP,pengaliUP,0.75,kali,pengali,Pasal 45 ayat (2),0.95,dikutip
+PHK-FORCE-MAJEURE-TIDAK-TUTUP,pengaliUPMK,1,kali,pengali,Pasal 45 ayat (2),0.95,dikutip
+PHK-MERGER,pengaliUP,1,kali,pengali,Pasal 41,0.95,dikutip
+PHK-MERGER,pengaliUPMK,1,kali,pengali,Pasal 41,0.95,dikutip
+PHK-PENGAMBILALIHAN,pengaliUP,1,kali,pengali,Pasal 42 ayat (1),0.95,dikutip
+PHK-PENGAMBILALIHAN,pengaliUPMK,1,kali,pengali,Pasal 42 ayat (1),0.95,dikutip
+PHK-PENGAMBILALIHAN-UBAH-SYARAT,pengaliUP,0.5,kali,pengali,Pasal 42 ayat (2),0.95,dikutip
+PHK-PENGAMBILALIHAN-UBAH-SYARAT,pengaliUPMK,1,kali,pengali,Pasal 42 ayat (2),0.95,dikutip
+PHK-EFISIENSI-RUGI,pengaliUP,0.5,kali,pengali,Pasal 43 ayat (1),0.95,dikutip
+PHK-EFISIENSI-RUGI,pengaliUPMK,1,kali,pengali,Pasal 43 ayat (1),0.95,dikutip
+PHK-EFISIENSI-MENCEGAH-RUGI,pengaliUP,1,kali,pengali,Pasal 43 ayat (2),0.95,dikutip
+PHK-EFISIENSI-MENCEGAH-RUGI,pengaliUPMK,1,kali,pengali,Pasal 43 ayat (2),0.95,dikutip
+PHK-TUTUP-RUGI,pengaliUP,0.5,kali,pengali,Pasal 44 ayat (1),0.95,dikutip
+PHK-TUTUP-RUGI,pengaliUPMK,1,kali,pengali,Pasal 44 ayat (1),0.95,dikutip
+PHK-TUTUP-BUKAN-RUGI,pengaliUP,1,kali,pengali,Pasal 44 ayat (2),0.95,dikutip
+PHK-TUTUP-BUKAN-RUGI,pengaliUPMK,1,kali,pengali,Pasal 44 ayat (2),0.95,dikutip
+PHK-PKPU-RUGI,pengaliUP,0.5,kali,pengali,Pasal 46 ayat (1),0.95,dikutip
+PHK-PKPU-RUGI,pengaliUPMK,1,kali,pengali,Pasal 46 ayat (1),0.95,dikutip
+PHK-PKPU-BUKAN-RUGI,pengaliUP,1,kali,pengali,Pasal 46 ayat (2),0.95,dikutip
+PHK-PKPU-BUKAN-RUGI,pengaliUPMK,1,kali,pengali,Pasal 46 ayat (2),0.95,dikutip
+PHK-PAILIT,pengaliUP,0.5,kali,pengali,Pasal 47,0.95,dikutip
+PHK-PAILIT,pengaliUPMK,1,kali,pengali,Pasal 47,0.95,dikutip
+PHK-PERBUATAN-PENGUSAHA,pengaliUP,1,kali,pengali,Pasal 48,0.95,dikutip
+PHK-PERBUATAN-PENGUSAHA,pengaliUPMK,1,kali,pengali,Pasal 48,0.95,dikutip
+PHK-PUTUSAN-PPHI-TIDAK-BERSALAH,pengaliUP,0,kali,pengali,Pasal 49,0.85,tafsir
+PHK-PUTUSAN-PPHI-TIDAK-BERSALAH,pengaliUPMK,0,kali,pengali,Pasal 49,0.85,tafsir
+PHK-MENGUNDURKAN-DIRI,pengaliUP,0,kali,pengali,Pasal 50,0.95,dikutip
+PHK-MENGUNDURKAN-DIRI,pengaliUPMK,0,kali,pengali,Pasal 50,0.95,dikutip
+PHK-MANGKIR,pengaliUP,0,kali,pengali,Pasal 51,0.95,dikutip
+PHK-MANGKIR,pengaliUPMK,0,kali,pengali,Pasal 51,0.95,dikutip
+PHK-PELANGGARAN-SP,pengaliUP,0.5,kali,pengali,Pasal 52 ayat (1),0.95,dikutip
+PHK-PELANGGARAN-SP,pengaliUPMK,1,kali,pengali,Pasal 52 ayat (1),0.95,dikutip
+PHK-PELANGGARAN-MENDESAK,pengaliUP,0,kali,pengali,Pasal 52 ayat (2),0.95,dikutip
+PHK-PELANGGARAN-MENDESAK,pengaliUPMK,0,kali,pengali,Pasal 52 ayat (2),0.95,dikutip
+PHK-DITAHAN-MERUGIKAN,pengaliUP,0,kali,pengali,Pasal 54 ayat (1),0.85,tafsir
+PHK-DITAHAN-MERUGIKAN,pengaliUPMK,0,kali,pengali,Pasal 54 ayat (1),0.85,tafsir
+PHK-DITAHAN-TIDAK-MERUGIKAN,pengaliUP,0,kali,pengali,Pasal 54 ayat (2),0.85,tafsir
+PHK-DITAHAN-TIDAK-MERUGIKAN,pengaliUPMK,1,kali,pengali,Pasal 54 ayat (2),0.85,tafsir
+CUTI-MENIKAH,hariDibayar,3,hari,nominal,Pasal 93 ayat (4)a,0.95,dikutip
+CUTI-MENIKAHKAN-ANAK,hariDibayar,2,hari,nominal,Pasal 93 ayat (4)b,0.95,dikutip
+CUTI-KHITAN-ANAK,hariDibayar,2,hari,nominal,Pasal 93 ayat (4)c,0.95,dikutip
+CUTI-BAPTIS-ANAK,hariDibayar,2,hari,nominal,Pasal 93 ayat (4)d,0.95,dikutip
+CUTI-ISTRI-MELAHIRKAN,hariDibayar,2,hari,nominal,Pasal 93 ayat (4)e,0.95,dikutip
+CUTI-KELUARGA-MENINGGAL,hariDibayar,2,hari,nominal,Pasal 93 ayat (4)f,0.95,dikutip
+CUTI-ANGGOTA-RUMAH-MENINGGAL,hariDibayar,1,hari,nominal,Pasal 93 ayat (4)g,0.95,dikutip
+WAKTU-KERJA-6-HARI,jamKerjaPerHari,7,jam,nominal,Pasal 77,0.95,dikutip
+WAKTU-KERJA-6-HARI,jamKerjaPerMinggu,40,jam,nominal,Pasal 77,0.95,dikutip
+WAKTU-KERJA-6-HARI,jumlahHariKerjaPerMinggu,6,hari,nominal,Pasal 77,0.95,dikutip
+WAKTU-KERJA-6-HARI,istirahatMingguanHari,1,hari,nominal,Pasal 79 ayat (2)b,0.95,dikutip
+WAKTU-KERJA-5-HARI,jamKerjaPerHari,8,jam,nominal,Pasal 77,0.95,dikutip
+WAKTU-KERJA-5-HARI,jamKerjaPerMinggu,40,jam,nominal,Pasal 77,0.95,dikutip
+WAKTU-KERJA-5-HARI,jumlahHariKerjaPerMinggu,5,hari,nominal,Pasal 77,0.95,dikutip
+WAKTU-KERJA-5-HARI,istirahatMingguanHari,2,hari,nominal,PP 35/2021 Pasal 22,0.95,dikutip
+LEMBUR-BATAS-JAM,jamLemburMaksPerHari,4,jam,nominal,Pasal 78 ayat (1)b,0.95,dikutip
+LEMBUR-BATAS-JAM,jamLemburMaksPerMinggu,18,jam,nominal,Pasal 78 ayat (1)b,0.95,dikutip
+LEMBUR-RUMUS-SEJAM,faktorPembagiUpahSejam,173,faktor,nominal,Pasal 32,0.95,dikutip
+LEMBUR-UPAH-HARIAN,pengaliKonversiHarian6,25,faktor,nominal,Pasal 33,0.95,dikutip
+LEMBUR-UPAH-HARIAN,pengaliKonversiHarian5,21,faktor,nominal,Pasal 33,0.95,dikutip
+LEMBUR-MAKAN-MINUM,kebutuhanKalori,1400,kkal,nominal,Pasal 29,0.95,dikutip
+PKWT-JANGKA-MAKS,batasTahunPKWT,5,tahun,nominal,Pasal 8 ayat (1),0.95,dikutip
+PKWT-HARIAN-KONVERSI,batasHariKerjaHarian,21,hari,nominal,Pasal 10 ayat (3),0.95,dikutip
+PKWT-HARIAN-KONVERSI,batasBulanKonversi,3,bulan,nominal,Pasal 10 ayat (4),0.95,dikutip
+PKWT-KOMPENSASI,faktorPembagiKompensasi,12,bulan,nominal,Pasal 16,0.95,dikutip
+PKWT-PENCATATAN,batasHariPencatatan,3,hari,nominal,Pasal 14 ayat (1),0.95,dikutip
+JAMSOS-USIA-PENSIUN,usiaPensiunTahun,58,tahun,nominal,Pasal 15,0.6,dinamis
+KIA-CUTI-MELAHIRKAN,cutiMelahirkanBulanMin,3,bulan,nominal,Pasal 4 ayat (3)a,0.95,dikutip
+KIA-CUTI-MELAHIRKAN,cutiMelahirkanBulanMax,6,bulan,nominal,Pasal 4 ayat (3)a,0.95,dikutip
+KIA-UPAH-CUTI-MELAHIRKAN,bulanUpahPenuh,4,bulan,nominal,Pasal 5 ayat (2),0.95,dikutip
+KIA-UPAH-CUTI-MELAHIRKAN,bulanUpah75,2,bulan,nominal,Pasal 5 ayat (2),0.95,dikutip
+KIA-CUTI-KEGUGURAN,cutiKeguguranBulan,1.5,bulan,nominal,Pasal 4 ayat (3)b,0.95,dikutip
+KIA-CUTI-PENDAMPINGAN-SUAMI,cutiPendampinganHari,2,hari,nominal,Pasal 6 ayat (2)a,0.95,dikutip
+KIA-CUTI-PENDAMPINGAN-SUAMI,cutiPendampinganTambahanHari,3,hari,nominal,Pasal 6 ayat (2)a,0.95,dikutip

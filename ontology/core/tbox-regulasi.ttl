@@ -1,0 +1,82 @@
+@prefix reg:  <https://example.org/kbr/regulasi#> .
+@prefix dct:  <http://purl.org/dc/terms/> .
+@prefix owl:  <http://www.w3.org/2002/07/owl#> .
+@prefix rdf:  <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd:  <http://www.w3.org/2001/XMLSchema#> .
+
+<https://example.org/kbr/regulasi/vocab> a owl:Ontology ;
+    dct:title "Kosakata metadata peraturan ketenagakerjaan" ;
+    rdfs:comment "Metadata peraturan dan rantai amandemen." .
+
+# ============================================================================
+# Kelas
+# ============================================================================
+
+reg:Peraturan a owl:Class ;
+    rdfs:label "Peraturan" .
+
+reg:JenisPeraturan a owl:Class ;
+    rdfs:label "Jenis Peraturan" .
+
+reg:StatusHukum a owl:Class ;
+    rdfs:label "Status Hukum" .
+
+# ============================================================================
+# Object property (rantai amandemen, bisa di-reason)
+# ============================================================================
+
+reg:mengubah a owl:ObjectProperty ;
+    rdfs:label "mengubah" ;
+    rdfs:domain reg:Peraturan ;
+    rdfs:range reg:Peraturan ;
+    owl:inverseOf reg:diubahOleh .
+
+reg:diubahOleh a owl:ObjectProperty ;
+    rdfs:label "diubah oleh" ;
+    rdfs:domain reg:Peraturan ;
+    rdfs:range reg:Peraturan .
+
+reg:jenis a owl:ObjectProperty ;
+    rdfs:label "jenis" ;
+    rdfs:domain reg:Peraturan ;
+    rdfs:range reg:JenisPeraturan .
+
+reg:status a owl:ObjectProperty ;
+    rdfs:label "status" ;
+    rdfs:domain reg:Peraturan ;
+    rdfs:range reg:StatusHukum .
+
+# ============================================================================
+# Annotation property
+# ============================================================================
+
+reg:nomor a owl:AnnotationProperty ;
+    rdfs:label "nomor" ;
+    rdfs:range xsd:string .
+
+reg:tahun a owl:AnnotationProperty ;
+    rdfs:label "tahun" ;
+    rdfs:range xsd:gYear .
+
+reg:sumberUtama a owl:AnnotationProperty ;
+    rdfs:label "sumber utama" .
+
+# ============================================================================
+# Individu kosakata
+# ============================================================================
+
+reg:UndangUndang a reg:JenisPeraturan ;
+    rdfs:label "Undang-Undang" .
+
+reg:PeraturanPemerintah a reg:JenisPeraturan ;
+    rdfs:label "Peraturan Pemerintah" .
+
+reg:Berlaku a reg:StatusHukum ;
+    rdfs:label "Berlaku" .
+
+reg:Diubah a reg:StatusHukum ;
+    rdfs:label "Diubah" .
+
+reg:Dicabut a reg:StatusHukum ;
+    rdfs:label "Dicabut" .

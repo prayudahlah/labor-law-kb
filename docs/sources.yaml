@@ -1,0 +1,138 @@
+# Manifest dokumen Tier 0 (prototype KB & Reasoning hukum ketenagakerjaan)
+#
+# Field:
+#   id           : slug, dipakai sebagai nama file markdown
+#   judul        : judul resmi
+#   jenis        : UU | PP
+#   nomor        : nomor peraturan
+#   tahun        : tahun
+#   topik        : topik singkat
+#   url_halaman  : halaman resmi (sumber traceability)
+#   url_pdf      : URL PDF langsung bila diketahui; null berarti diresolusi dari url_halaman
+#   nama_file    : nama file PDF di docs/pdf/
+#   halaman      : rentang halaman untuk disaring, format "awal-akhir" (1-based, inklusif).
+#                  null berarti ekstrak seluruh dokumen. Dipakai untuk klaster pada UU omnibus.
+#   catatan      : catatan bebas
+
+dokumen:
+  - id: uu-13-2003
+    judul: "Undang-Undang Nomor 13 Tahun 2003 tentang Ketenagakerjaan"
+    jenis: UU
+    nomor: 13
+    tahun: 2003
+    topik: "Ketenagakerjaan (induk)"
+    url_halaman: "https://peraturan.bpk.go.id/Details/43013/uu-no-13-tahun-2003"
+    url_pdf: "https://peraturan.bpk.go.id/Download/31128/UU%20Nomor%2013%20Tahun%202003.pdf"
+    nama_file: "uu-13-2003.pdf"
+    halaman: null
+
+  - id: uu-6-2023
+    judul: "Undang-Undang Nomor 6 Tahun 2023 tentang Penetapan Peraturan Pemerintah Pengganti Undang-Undang Nomor 2 Tahun 2022 tentang Cipta Kerja menjadi Undang-Undang"
+    jenis: UU
+    nomor: 6
+    tahun: 2023
+    topik: "Cipta Kerja (klaster ketenagakerjaan)"
+    url_halaman: "https://peraturan.bpk.go.id/Details/246523/uu-no-6-tahun-2023"
+    url_pdf: "https://peraturan.bpk.go.id/Download/302681/UU%20Nomor%206%20Tahun%202023.pdf"
+    nama_file: "uu-6-2023.pdf"
+    halaman: "548-588"   # BAB IV KETENAGAKERJAAN s.d. sebelum BAB V
+    catatan: "Omnibus. Saring hanya klaster ketenagakerjaan saat ekstraksi."
+
+  - id: pp-35-2021
+    judul: "Peraturan Pemerintah Nomor 35 Tahun 2021 tentang Perjanjian Kerja Waktu Tertentu, Alih Daya, Waktu Kerja dan Waktu Istirahat, dan Pemutusan Hubungan Kerja"
+    jenis: PP
+    nomor: 35
+    tahun: 2021
+    topik: "PKWT, alih daya, waktu kerja, PHK, pesangon"
+    url_halaman: "https://peraturan.bpk.go.id/Details/161904/pp-no-35-tahun-2021"
+    url_pdf: "https://peraturan.bpk.go.id/Download/154582/PP%20Nomor%2035%20Tahun%202021.pdf"
+    nama_file: "pp-35-2021.pdf"
+    halaman: null
+
+  - id: pp-36-2021
+    judul: "Peraturan Pemerintah Nomor 36 Tahun 2021 tentang Pengupahan"
+    jenis: PP
+    nomor: 36
+    tahun: 2021
+    topik: "Pengupahan, upah minimum"
+    url_halaman: "https://peraturan.bpk.go.id/Details/161909/pp-no-36-tahun-2021"
+    url_pdf: "https://peraturan.bpk.go.id/Download/154587/PP%20Nomor%2036%20Tahun%202021.pdf"
+    nama_file: "pp-36-2021.pdf"
+    halaman: null
+
+  - id: pp-51-2023
+    judul: "Peraturan Pemerintah Nomor 51 Tahun 2023 tentang Perubahan atas Peraturan Pemerintah Nomor 36 Tahun 2021 tentang Pengupahan"
+    jenis: PP
+    nomor: 51
+    tahun: 2023
+    topik: "Perubahan pengupahan (formula upah minimum)"
+    url_halaman: "https://peraturan.bpk.go.id/Details/270269/pp-no-51-tahun-2023"
+    url_pdf: "https://peraturan.bpk.go.id/Download/328142/PP%20Nomor%2051%20Tahun%202023.pdf"
+    nama_file: "pp-51-2023.pdf"
+    halaman: null
+
+  - id: pp-49-2025
+    judul: "Peraturan Pemerintah Nomor 49 Tahun 2025 tentang Perubahan Kedua atas Peraturan Pemerintah Nomor 36 Tahun 2021 tentang Pengupahan"
+    jenis: PP
+    nomor: 49
+    tahun: 2025
+    topik: "Perubahan pengupahan (upah minimum terkini)"
+    url_halaman: "https://peraturan.bpk.go.id/Details/339037/pp-no-49-tahun-2025"
+    url_pdf: "https://peraturan.bpk.go.id/Download/402111/PP%20Nomor%2049%20Tahun%202025.pdf"
+    nama_file: "pp-49-2025.pdf"
+    halaman: null
+
+  - id: uu-24-2011
+    judul: "Undang-Undang Nomor 24 Tahun 2011 tentang Badan Penyelenggara Jaminan Sosial"
+    jenis: UU
+    nomor: 24
+    tahun: 2011
+    topik: "BPJS (kelembagaan jaminan sosial)"
+    url_halaman: "https://peraturan.bpk.go.id/Details/39268/uu-no-24-tahun-2011"
+    url_pdf: "https://peraturan.bpk.go.id/Download/28701/UU%2024%20Tahun%202011.pdf"
+    nama_file: "uu-24-2011.pdf"
+    halaman: null
+
+  - id: pp-44-2015
+    judul: "Peraturan Pemerintah Nomor 44 Tahun 2015 tentang Penyelenggaraan Program Jaminan Kecelakaan Kerja dan Jaminan Kematian"
+    jenis: PP
+    nomor: 44
+    tahun: 2015
+    topik: "JKK dan JKM"
+    url_halaman: "https://peraturan.bpk.go.id/Details/5612/pp-no-44-tahun-2015"
+    url_pdf: "https://peraturan.bpk.go.id/Download/28927/PP%20Nomor%2044%20Tahun%202015.pdf"
+    nama_file: "pp-44-2015.pdf"
+    halaman: null
+
+  - id: pp-46-2015
+    judul: "Peraturan Pemerintah Nomor 46 Tahun 2015 tentang Penyelenggaraan Program Jaminan Hari Tua"
+    jenis: PP
+    nomor: 46
+    tahun: 2015
+    topik: "JHT"
+    url_halaman: "https://peraturan.bpk.go.id/Details/5614/pp-no-46-tahun-2015"
+    url_pdf: "https://peraturan.bpk.go.id/Download/28934/PP%20Nomor%2046%20Tahun%202015.pdf"
+    nama_file: "pp-46-2015.pdf"
+    halaman: null
+
+  - id: pp-45-2015
+    judul: "Peraturan Pemerintah Nomor 45 Tahun 2015 tentang Penyelenggaraan Program Jaminan Pensiun"
+    jenis: PP
+    nomor: 45
+    tahun: 2015
+    topik: "JP"
+    url_halaman: "https://peraturan.bpk.go.id/Details/5613/pp-no-45-tahun-2015"
+    url_pdf: null   # diresolusi dari halaman BPK
+    nama_file: "pp-45-2015.pdf"
+    halaman: null
+
+  - id: uu-4-2024
+    judul: "Undang-Undang Nomor 4 Tahun 2024 tentang Kesejahteraan Ibu dan Anak pada Fase Seribu Hari Pertama Kehidupan"
+    jenis: UU
+    nomor: 4
+    tahun: 2024
+    topik: "Cuti melahirkan, hak menyusui"
+    url_halaman: "https://peraturan.bpk.go.id/Details/289997/uu-no-4-tahun-2024"
+    url_pdf: null   # diresolusi dari halaman BPK
+    nama_file: "uu-4-2024.pdf"
+    halaman: null

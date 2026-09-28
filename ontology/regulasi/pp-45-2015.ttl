@@ -1,0 +1,34 @@
+# =====================================================================
+# BERKAS DIGENERATE. JANGAN EDIT MANUAL.
+# Sumber   : data/norma.csv, parameter.csv, kategori.csv, pengali_lembur.csv, program_jamsos.csv
+# Hasilkan : .venv/bin/python scripts/build_ontology.py
+# =====================================================================
+
+@prefix ktn:  <https://example.org/kbr/ketenagakerjaan#> .
+@prefix reg:  <https://example.org/kbr/regulasi#> .
+@prefix dct:  <http://purl.org/dc/terms/> .
+@prefix owl:  <http://www.w3.org/2002/07/owl#> .
+@prefix rdf:  <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd:  <http://www.w3.org/2001/XMLSchema#> .
+
+<https://example.org/kbr/ketenagakerjaan/regulasi/pp-45-2015> a owl:Ontology ;
+    dct:title "Fakta norma: Peraturan Pemerintah Nomor 45 Tahun 2015 tentang Penyelenggaraan Program Jaminan Pensiun" ;
+    dct:source <https://peraturan.bpk.go.id/Details/5613/pp-no-45-tahun-2015> ;
+    owl:imports <https://example.org/kbr/ketenagakerjaan> .
+
+ktn:KetentuanIuranJP a owl:NamedIndividual, ktn:KetentuanJaminanSosial ;
+    ktn:pasal "Pasal 25" ;
+    dct:source reg:PP-45-2015 .
+
+ktn:KetentuanUsiaPensiunJP a owl:NamedIndividual, ktn:KetentuanJaminanSosial ;
+    ktn:usiaPensiunTahun 58 ;
+    ktn:pasal "Pasal 15" ;
+    dct:source reg:PP-45-2015 .
+
+ktn:JP a owl:NamedIndividual, ktn:ProgramJaminanSosial ;
+    ktn:jenisProgram "JP" ;
+    ktn:tarifPengusahaPersen 2 ;
+    ktn:tarifPekerjaPersen 1 ;
+    ktn:tarifTotalPersen 3 ;
+    ktn:pasal "Pasal 25" .
