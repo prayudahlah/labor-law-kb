@@ -10,6 +10,7 @@
     dct:title "Knowledge Base Hukum Ketenagakerjaan Indonesia" ;
     owl:imports <https://example.org/kbr/ketenagakerjaan> ;
     owl:imports <https://example.org/kbr/ketenagakerjaan/rbox> ;
+    owl:imports <https://example.org/kbr/ketenagakerjaan/regulasi/pp-34-2021> ;
     owl:imports <https://example.org/kbr/ketenagakerjaan/regulasi/pp-35-2021> ;
     owl:imports <https://example.org/kbr/ketenagakerjaan/regulasi/pp-36-2021> ;
     owl:imports <https://example.org/kbr/ketenagakerjaan/regulasi/pp-37-2021> ;

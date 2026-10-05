@@ -1,0 +1,408 @@
+{
+  "spec_version": "1.0.0",
+  "vocab_version": "0.2.0",
+  "dokumen_id": "PP-37-2021",
+  "status_review": "reviewed",
+  "peraturan": {
+    "judul": "Peraturan Pemerintah Nomor 37 Tahun 2021 tentang Penyelenggaraan Program Jaminan Kehilangan Pekerjaan",
+    "jenis": "PP",
+    "nomor": "37",
+    "tahun": "2021",
+    "sumber": "https://peraturan.bpk.go.id/Details/161919/pp-no-37-tahun-2021",
+    "status": "Berlaku",
+    "diubah_oleh": []
+  },
+  "norma": [
+    {
+      "norm_id": "JAMSOS-KEPESERTAAN-JKP",
+      "topik": "Jamsos",
+      "pasal": "Pasal 2 ayat (1)",
+      "iri_individu": "ktn:KepesertaanJKP",
+      "jenis": "KetentuanJaminanSosial",
+      "kondisi": "Pekerja/Buruh bekerja pada Pengusaha",
+      "akibat": "Pengusaha wajib mengikutsertakan Pekerja/Buruh sebagai Peserta program JKP",
+      "parameter": [],
+      "bukti": "Pengusaha wajib mengikutsertakan Pekerja/Buruh sebagai Peserta dalam program JKP",
+      "confidence": 0.95,
+      "dasar_keyakinan": "dikutip",
+      "catatan": "BPJS Ketenagakerjaan + Pemerintah Pusat menyelenggarakan (Pasal 3)."
+    },
+    {
+      "norm_id": "JAMSOS-IURAN-JKP",
+      "topik": "Jamsos",
+      "pasal": "Pasal 11 ayat (2)",
+      "iri_individu": "ktn:IuranJKP",
+      "jenis": "KetentuanJaminanSosial",
+      "kondisi": "Pekerja/Buruh menjadi Peserta program JKP",
+      "akibat": "Iuran JKP 0,46% dari Upah sebulan; Pemerintah Pusat 0,22%, rekomposisi JKK 0,14% dan JKM 0,10%",
+      "parameter": [],
+      "bukti": "Iuran sebagaimana dimaksud pada ayat (1) sebesar 0,46% (nol koma empat puluh enam persen) dari Upah sebulan.",
+      "confidence": 0.95,
+      "dasar_keyakinan": "dikutip",
+      "catatan": "Angka belum diparameterkan; lihat tidak_termodelkan."
+    },
+    {
+      "norm_id": "JAMSOS-MASA-IUR-JKP",
+      "topik": "Jamsos",
+      "pasal": "Pasal 19 ayat (3)",
+      "iri_individu": "ktn:MasaIurJKP",
+      "jenis": "KetentuanJaminanSosial",
+      "kondisi": "Peserta mengajukan manfaat JKP",
+      "akibat": "Masa iur minimal 12 bulan dalam 24 bulan dan iuran 6 bulan berturut-turut sebelum PHK",
+      "parameter": [],
+      "bukti": "masa iur paling sedikit 12 (dua belas) bulan dalam 24 (dua puluh empat) bulan dan telah membayar iuran paling singkat 6 (enam) bulan berturut-turut",
+      "confidence": 0.95,
+      "dasar_keyakinan": "dikutip",
+      "catatan": "Angka belum diparameterkan; lihat tidak_termodelkan."
+    },
+    {
+      "norm_id": "JAMSOS-MANFAAT-TUNAI-JKP",
+      "topik": "Jamsos",
+      "pasal": "Pasal 21 ayat (1)",
+      "iri_individu": "ktn:ManfaatUangTunaiJKP",
+      "jenis": "KetentuanJaminanSosial",
+      "kondisi": "Peserta mengalami PHK dan memenuhi syarat manfaat",
+      "akibat": "Manfaat uang tunai paling banyak 6 bulan Upah: 45% untuk 3 bulan pertama dan 25% untuk 3 bulan berikutnya",
+      "parameter": [],
+      "bukti": "sebesar 45 % (empat puluh lima persen) dari Upah untuk 3 (tiga) bulan pertama; dan b. sebesar 25 % (dua puluh lima persen) dari Upah untuk 3 (tiga) bulan berikutnya",
+      "confidence": 0.95,
+      "dasar_keyakinan": "dikutip",
+      "catatan": "Formula belum diparameterkan; lihat tidak_termodelkan."
+    },
+    {
+      "norm_id": "JAMSOS-PENGECUALIAN-JKP",
+      "topik": "Jamsos",
+      "pasal": "Pasal 20 ayat (1)",
+      "iri_individu": "ktn:PengecualianManfaatJKP",
+      "jenis": "KetentuanJaminanSosial",
+      "kondisi": "PHK karena mengundurkan diri, cacat total tetap, pensiun, atau meninggal dunia",
+      "akibat": "Manfaat JKP dikecualikan",
+      "parameter": [],
+      "bukti": "Manfaat JKP ... dikecualikan untuk alasan Pemutusan Hubungan Kerja karena: a. mengundurkan diri; b. cacat total tetap; c. pensiun; atau d. meninggal dunia.",
+      "confidence": 0.95,
+      "dasar_keyakinan": "dikutip",
+      "catatan": ""
+    },
+    {
+      "norm_id": "JAMSOS-BATAS-UPAH-JKP",
+      "topik": "Jamsos",
+      "pasal": "Pasal 11 ayat (7)",
+      "iri_individu": "ktn:BatasAtasUpahJKP",
+      "jenis": "KetentuanJaminanSosial",
+      "kondisi": "Menghitung dasar iuran dan manfaat JKP",
+      "akibat": "Batas atas Upah untuk perhitungan ditetapkan Rp5.000.000 dan dievaluasi tiap 2 tahun",
+      "parameter": [],
+      "bukti": "Batas atas Upah sebagaimana dimaksud pada ayat (6) untuk pertama kali ditetapkan sebesar Rp5.000.000,00 (lima juta rupiah).",
+      "confidence": 0.95,
+      "dasar_keyakinan": "dikutip",
+      "catatan": ""
+    },
+    {
+      "norm_id": "JAMSOS-KEWAJIBAN-PENGUSAHA-JKP",
+      "topik": "Jamsos",
+      "pasal": "Pasal 37 ayat (1)",
+      "iri_individu": "ktn:KewajibanPengusahaJKP",
+      "jenis": "KetentuanJaminanSosial",
+      "kondisi": "Pengusaha tidak mengikutsertakan pekerja dalam JKP dan terjadi PHK",
+      "akibat": "Pengusaha wajib memenuhi hak berupa manfaat uang tunai sekaligus dan manfaat Pelatihan Kerja",
+      "parameter": [],
+      "bukti": "Pengusaha wajib memenuhi hak Pekerja/Buruh berupa: a. manfaat uang tunai ...; dan b. manfaat Pelatihan Kerja",
+      "confidence": 0.95,
+      "dasar_keyakinan": "dikutip",
+      "catatan": "Dikecualikan bagi pengusaha usaha mikro (Pasal 37 ayat (2))."
+    }
+  ],
+  "kategori": [],
+  "pengali_lembur": [],
+  "program_jamsos": [
+    {
+      "program_id": "JKK-R1",
+      "nama": "JKK risiko sangat rendah",
+      "jenis_program": "JKK",
+      "tarif_pengusaha_persen": 0.1,
+      "tarif_pekerja_persen": 0.0,
+      "tarif_total_persen": 0.1,
+      "tingkat_risiko": "sangat_rendah",
+      "pasal": "PP 37/2021 Pasal 11 ayat (5)a.1",
+      "confidence": 0.95,
+      "dasar_keyakinan": "dikutip",
+      "bukti": "",
+      "catatan": "dasar PP 44/2015: 0.24%"
+    },
+    {
+      "program_id": "JKK-R2",
+      "nama": "JKK risiko rendah",
+      "jenis_program": "JKK",
+      "tarif_pengusaha_persen": 0.4,
+      "tarif_pekerja_persen": 0.0,
+      "tarif_total_persen": 0.4,
+      "tingkat_risiko": "rendah",
+      "pasal": "PP 37/2021 Pasal 11 ayat (5)a.2",
+      "confidence": 0.95,
+      "dasar_keyakinan": "dikutip",
+      "bukti": "",
+      "catatan": "dasar PP 44/2015: 0.54%"
+    },
+    {
+      "program_id": "JKK-R3",
+      "nama": "JKK risiko sedang",
+      "jenis_program": "JKK",
+      "tarif_pengusaha_persen": 0.75,
+      "tarif_pekerja_persen": 0.0,
+      "tarif_total_persen": 0.75,
+      "tingkat_risiko": "sedang",
+      "pasal": "PP 37/2021 Pasal 11 ayat (5)a.3",
+      "confidence": 0.95,
+      "dasar_keyakinan": "dikutip",
+      "bukti": "",
+      "catatan": "dasar PP 44/2015: 0.89%"
+    },
+    {
+      "program_id": "JKK-R4",
+      "nama": "JKK risiko tinggi",
+      "jenis_program": "JKK",
+      "tarif_pengusaha_persen": 1.13,
+      "tarif_pekerja_persen": 0.0,
+      "tarif_total_persen": 1.13,
+      "tingkat_risiko": "tinggi",
+      "pasal": "PP 37/2021 Pasal 11 ayat (5)a.4",
+      "confidence": 0.95,
+      "dasar_keyakinan": "dikutip",
+      "bukti": "",
+      "catatan": "dasar PP 44/2015: 1.27%"
+    },
+    {
+      "program_id": "JKK-R5",
+      "nama": "JKK risiko sangat tinggi",
+      "jenis_program": "JKK",
+      "tarif_pengusaha_persen": 1.6,
+      "tarif_pekerja_persen": 0.0,
+      "tarif_total_persen": 1.6,
+      "tingkat_risiko": "sangat_tinggi",
+      "pasal": "PP 37/2021 Pasal 11 ayat (5)a.5",
+      "confidence": 0.95,
+      "dasar_keyakinan": "dikutip",
+      "bukti": "",
+      "catatan": "dasar PP 44/2015: 1.74%"
+    },
+    {
+      "program_id": "JKM",
+      "nama": "Jaminan Kematian",
+      "jenis_program": "JKM",
+      "tarif_pengusaha_persen": 0.2,
+      "tarif_pekerja_persen": 0.0,
+      "tarif_total_persen": 0.2,
+      "tingkat_risiko": null,
+      "pasal": "PP 37/2021 Pasal 11 ayat (5)b",
+      "confidence": 0.95,
+      "dasar_keyakinan": "dikutip",
+      "bukti": "",
+      "catatan": "dasar PP 44/2015: 0.30%"
+    },
+    {
+      "program_id": "JKP",
+      "nama": "Jaminan Kehilangan Pekerjaan",
+      "jenis_program": "JKP",
+      "tarif_pengusaha_persen": 0,
+      "tarif_pekerja_persen": 0,
+      "tarif_total_persen": 0.46,
+      "tingkat_risiko": null,
+      "pasal": "Pasal 11 ayat (2)",
+      "confidence": 0.95,
+      "dasar_keyakinan": "dikutip",
+      "bukti": "Iuran ... sebesar 0,46% ... dari Upah sebulan.",
+      "catatan": "Berasal dari Pemerintah Pusat 0,22% dan rekomposisi JKK 0,14% + JKM 0,10%; model program_jamsos tidak menampung sumber ini sehingga tarif pengusaha/pekerja 0."
+    }
+  ],
+  "cakupan": {
+    "lengkap": false,
+    "pasal_diekstrak": [
+      "Pasal 2",
+      "Pasal 11",
+      "Pasal 19",
+      "Pasal 20",
+      "Pasal 21",
+      "Pasal 37"
+    ],
+    "pasal_dilewati": [
+      {
+        "pasal": "Pasal 1",
+        "alasan": "retrofit: belum ditinjau (migrasi data pilot)"
+      },
+      {
+        "pasal": "Pasal 3",
+        "alasan": "retrofit: belum ditinjau (migrasi data pilot)"
+      },
+      {
+        "pasal": "Pasal 4",
+        "alasan": "retrofit: belum ditinjau (migrasi data pilot)"
+      },
+      {
+        "pasal": "Pasal 5",
+        "alasan": "retrofit: belum ditinjau (migrasi data pilot)"
+      },
+      {
+        "pasal": "Pasal 6",
+        "alasan": "retrofit: belum ditinjau (migrasi data pilot)"
+      },
+      {
+        "pasal": "Pasal 7",
+        "alasan": "retrofit: belum ditinjau (migrasi data pilot)"
+      },
+      {
+        "pasal": "Pasal 8",
+        "alasan": "retrofit: belum ditinjau (migrasi data pilot)"
+      },
+      {
+        "pasal": "Pasal 9",
+        "alasan": "retrofit: belum ditinjau (migrasi data pilot)"
+      },
+      {
+        "pasal": "Pasal 10",
+        "alasan": "retrofit: belum ditinjau (migrasi data pilot)"
+      },
+      {
+        "pasal": "Pasal 12",
+        "alasan": "retrofit: belum ditinjau (migrasi data pilot)"
+      },
+      {
+        "pasal": "Pasal 13",
+        "alasan": "retrofit: belum ditinjau (migrasi data pilot)"
+      },
+      {
+        "pasal": "Pasal 14",
+        "alasan": "retrofit: belum ditinjau (migrasi data pilot)"
+      },
+      {
+        "pasal": "Pasal 15",
+        "alasan": "retrofit: belum ditinjau (migrasi data pilot)"
+      },
+      {
+        "pasal": "Pasal 16",
+        "alasan": "retrofit: belum ditinjau (migrasi data pilot)"
+      },
+      {
+        "pasal": "Pasal 17",
+        "alasan": "retrofit: belum ditinjau (migrasi data pilot)"
+      },
+      {
+        "pasal": "Pasal 18",
+        "alasan": "retrofit: belum ditinjau (migrasi data pilot)"
+      },
+      {
+        "pasal": "Pasal 22",
+        "alasan": "retrofit: belum ditinjau (migrasi data pilot)"
+      },
+      {
+        "pasal": "Pasal 23",
+        "alasan": "retrofit: belum ditinjau (migrasi data pilot)"
+      },
+      {
+        "pasal": "Pasal 24",
+        "alasan": "retrofit: belum ditinjau (migrasi data pilot)"
+      },
+      {
+        "pasal": "Pasal 25",
+        "alasan": "retrofit: belum ditinjau (migrasi data pilot)"
+      },
+      {
+        "pasal": "Pasal 26",
+        "alasan": "retrofit: belum ditinjau (migrasi data pilot)"
+      },
+      {
+        "pasal": "Pasal 27",
+        "alasan": "retrofit: belum ditinjau (migrasi data pilot)"
+      },
+      {
+        "pasal": "Pasal 28",
+        "alasan": "retrofit: belum ditinjau (migrasi data pilot)"
+      },
+      {
+        "pasal": "Pasal 29",
+        "alasan": "retrofit: belum ditinjau (migrasi data pilot)"
+      },
+      {
+        "pasal": "Pasal 30",
+        "alasan": "retrofit: belum ditinjau (migrasi data pilot)"
+      },
+      {
+        "pasal": "Pasal 31",
+        "alasan": "retrofit: belum ditinjau (migrasi data pilot)"
+      },
+      {
+        "pasal": "Pasal 32",
+        "alasan": "retrofit: belum ditinjau (migrasi data pilot)"
+      },
+      {
+        "pasal": "Pasal 33",
+        "alasan": "retrofit: belum ditinjau (migrasi data pilot)"
+      },
+      {
+        "pasal": "Pasal 34",
+        "alasan": "retrofit: belum ditinjau (migrasi data pilot)"
+      },
+      {
+        "pasal": "Pasal 35",
+        "alasan": "retrofit: belum ditinjau (migrasi data pilot)"
+      },
+      {
+        "pasal": "Pasal 36",
+        "alasan": "retrofit: belum ditinjau (migrasi data pilot)"
+      },
+      {
+        "pasal": "Pasal 38",
+        "alasan": "retrofit: belum ditinjau (migrasi data pilot)"
+      },
+      {
+        "pasal": "Pasal 39",
+        "alasan": "retrofit: belum ditinjau (migrasi data pilot)"
+      },
+      {
+        "pasal": "Pasal 40",
+        "alasan": "retrofit: belum ditinjau (migrasi data pilot)"
+      },
+      {
+        "pasal": "Pasal 41",
+        "alasan": "retrofit: belum ditinjau (migrasi data pilot)"
+      },
+      {
+        "pasal": "Pasal 42",
+        "alasan": "retrofit: belum ditinjau (migrasi data pilot)"
+      },
+      {
+        "pasal": "Pasal 43",
+        "alasan": "retrofit: belum ditinjau (migrasi data pilot)"
+      },
+      {
+        "pasal": "Pasal 44",
+        "alasan": "retrofit: belum ditinjau (migrasi data pilot)"
+      },
+      {
+        "pasal": "Pasal 45",
+        "alasan": "retrofit: belum ditinjau (migrasi data pilot)"
+      },
+      {
+        "pasal": "Pasal 46",
+        "alasan": "retrofit: belum ditinjau (migrasi data pilot)"
+      },
+      {
+        "pasal": "Pasal 47",
+        "alasan": "retrofit: belum ditinjau (migrasi data pilot)"
+      },
+      {
+        "pasal": "Pasal 48",
+        "alasan": "retrofit: belum ditinjau (migrasi data pilot)"
+      },
+      {
+        "pasal": "Pasal 49",
+        "alasan": "retrofit: belum ditinjau (migrasi data pilot)"
+      },
+      {
+        "pasal": "Pasal 50",
+        "alasan": "retrofit: belum ditinjau (migrasi data pilot)"
+      }
+    ],
+    "catatan": "Pilot Fase 2: kepesertaan, iuran, manfaat, pengecualian, kewajiban pengusaha. Parameterisasi angka ditandai tidak_termodelkan."
+  },
+  "tidak_termodelkan": []
+}
