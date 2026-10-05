@@ -1,0 +1,125 @@
+{
+  "spec_version": "1.0.0",
+  "vocab_version": "0.2.0",
+  "dokumen_id": "PP-51-2023",
+  "status_review": "reviewed",
+  "peraturan": {
+    "judul": "Peraturan Pemerintah Nomor 51 Tahun 2023 tentang Perubahan atas Peraturan Pemerintah Nomor 36 Tahun 2021 tentang Pengupahan",
+    "jenis": "PP",
+    "nomor": "51",
+    "tahun": "2023",
+    "sumber": "https://peraturan.bpk.go.id/Details/270269/pp-no-51-tahun-2023",
+    "status": "Diubah",
+    "diubah_oleh": [
+      "PP-49-2025"
+    ]
+  },
+  "norma": [],
+  "kategori": [],
+  "pengali_lembur": [],
+  "program_jamsos": [],
+  "cakupan": {
+    "lengkap": false,
+    "pasal_diekstrak": [],
+    "pasal_dilewati": [
+      {
+        "pasal": "Pasal 24",
+        "alasan": "retrofit: belum ditinjau (migrasi data pilot)"
+      },
+      {
+        "pasal": "Pasal 25",
+        "alasan": "retrofit: belum ditinjau (migrasi data pilot)"
+      },
+      {
+        "pasal": "Pasal 26",
+        "alasan": "retrofit: belum ditinjau (migrasi data pilot)"
+      },
+      {
+        "pasal": "Pasal 26A",
+        "alasan": "retrofit: belum ditinjau (migrasi data pilot)"
+      },
+      {
+        "pasal": "Pasal 26E",
+        "alasan": "retrofit: belum ditinjau (migrasi data pilot)"
+      },
+      {
+        "pasal": "Pasal 27",
+        "alasan": "retrofit: belum ditinjau (migrasi data pilot)"
+      },
+      {
+        "pasal": "Pasal 28",
+        "alasan": "retrofit: belum ditinjau (migrasi data pilot)"
+      },
+      {
+        "pasal": "Pasal 28A",
+        "alasan": "retrofit: belum ditinjau (migrasi data pilot)"
+      },
+      {
+        "pasal": "Pasal 29",
+        "alasan": "retrofit: belum ditinjau (migrasi data pilot)"
+      },
+      {
+        "pasal": "Pasal 30",
+        "alasan": "retrofit: belum ditinjau (migrasi data pilot)"
+      },
+      {
+        "pasal": "Pasal 31",
+        "alasan": "retrofit: belum ditinjau (migrasi data pilot)"
+      },
+      {
+        "pasal": "Pasal 31A",
+        "alasan": "retrofit: belum ditinjau (migrasi data pilot)"
+      },
+      {
+        "pasal": "Pasal 31B",
+        "alasan": "retrofit: belum ditinjau (migrasi data pilot)"
+      },
+      {
+        "pasal": "Pasal 32",
+        "alasan": "retrofit: belum ditinjau (migrasi data pilot)"
+      },
+      {
+        "pasal": "Pasal 33",
+        "alasan": "retrofit: belum ditinjau (migrasi data pilot)"
+      },
+      {
+        "pasal": "Pasal 34",
+        "alasan": "retrofit: belum ditinjau (migrasi data pilot)"
+      },
+      {
+        "pasal": "Pasal 34A",
+        "alasan": "retrofit: belum ditinjau (migrasi data pilot)"
+      },
+      {
+        "pasal": "Pasal 34B",
+        "alasan": "retrofit: belum ditinjau (migrasi data pilot)"
+      },
+      {
+        "pasal": "Pasal 34C",
+        "alasan": "retrofit: belum ditinjau (migrasi data pilot)"
+      },
+      {
+        "pasal": "Pasal 35",
+        "alasan": "retrofit: belum ditinjau (migrasi data pilot)"
+      },
+      {
+        "pasal": "Pasal 71",
+        "alasan": "retrofit: belum ditinjau (migrasi data pilot)"
+      },
+      {
+        "pasal": "Pasal 81A",
+        "alasan": "retrofit: belum ditinjau (migrasi data pilot)"
+      },
+      {
+        "pasal": "Pasal 81B",
+        "alasan": "retrofit: belum ditinjau (migrasi data pilot)"
+      },
+      {
+        "pasal": "Pasal 81C",
+        "alasan": "retrofit: belum ditinjau (migrasi data pilot)"
+      }
+    ],
+    "catatan": "Retrofit dari data pilot (migrasi ke record); belum ditinjau penuh."
+  },
+  "tidak_termodelkan": []
+}

@@ -17,6 +17,34 @@
     dct:source <https://peraturan.bpk.go.id/Details/161919/pp-no-37-tahun-2021> ;
     owl:imports <https://example.org/kbr/ketenagakerjaan> .
 
+ktn:BatasAtasUpahJKP a owl:NamedIndividual, ktn:KetentuanJaminanSosial ;
+    ktn:pasal "Pasal 11 ayat (7)" ;
+    dct:source reg:PP-37-2021 .
+
+ktn:IuranJKP a owl:NamedIndividual, ktn:KetentuanJaminanSosial ;
+    ktn:pasal "Pasal 11 ayat (2)" ;
+    dct:source reg:PP-37-2021 .
+
+ktn:KepesertaanJKP a owl:NamedIndividual, ktn:KetentuanJaminanSosial ;
+    ktn:pasal "Pasal 2 ayat (1)" ;
+    dct:source reg:PP-37-2021 .
+
+ktn:KewajibanPengusahaJKP a owl:NamedIndividual, ktn:KetentuanJaminanSosial ;
+    ktn:pasal "Pasal 37 ayat (1)" ;
+    dct:source reg:PP-37-2021 .
+
+ktn:ManfaatUangTunaiJKP a owl:NamedIndividual, ktn:KetentuanJaminanSosial ;
+    ktn:pasal "Pasal 21 ayat (1)" ;
+    dct:source reg:PP-37-2021 .
+
+ktn:MasaIurJKP a owl:NamedIndividual, ktn:KetentuanJaminanSosial ;
+    ktn:pasal "Pasal 19 ayat (3)" ;
+    dct:source reg:PP-37-2021 .
+
+ktn:PengecualianManfaatJKP a owl:NamedIndividual, ktn:KetentuanJaminanSosial ;
+    ktn:pasal "Pasal 20 ayat (1)" ;
+    dct:source reg:PP-37-2021 .
+
 ktn:JKK-R1 a owl:NamedIndividual, ktn:ProgramJaminanSosial ;
     ktn:jenisProgram "JKK" ;
     ktn:tarifPengusahaPersen 0.1 ;
@@ -63,3 +91,10 @@ ktn:JKM a owl:NamedIndividual, ktn:ProgramJaminanSosial ;
     ktn:tarifPekerjaPersen 0 ;
     ktn:tarifTotalPersen 0.2 ;
     ktn:pasal "PP 37/2021 Pasal 11 ayat (5)b" .
+
+ktn:JKP a owl:NamedIndividual, ktn:ProgramJaminanSosial ;
+    ktn:jenisProgram "JKP" ;
+    ktn:tarifPengusahaPersen 0 ;
+    ktn:tarifPekerjaPersen 0 ;
+    ktn:tarifTotalPersen 0.46 ;
+    ktn:pasal "Pasal 11 ayat (2)" .

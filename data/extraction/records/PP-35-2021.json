@@ -1,0 +1,1233 @@
+{
+  "spec_version": "1.0.0",
+  "vocab_version": "0.1.0",
+  "dokumen_id": "PP-35-2021",
+  "status_review": "reviewed",
+  "peraturan": {
+    "judul": "Peraturan Pemerintah Nomor 35 Tahun 2021 tentang Perjanjian Kerja Waktu Tertentu, Alih Daya, Waktu Kerja dan Waktu Istirahat, dan Pemutusan Hubungan Kerja",
+    "jenis": "PP",
+    "nomor": "35",
+    "tahun": "2021",
+    "sumber": "https://peraturan.bpk.go.id/Details/161904/pp-no-35-tahun-2021",
+    "status": "Berlaku",
+    "diubah_oleh": []
+  },
+  "norma": [
+    {
+      "norm_id": "ALIH-DAYA-BADAN-HUKUM",
+      "topik": "AlihDaya",
+      "pasal": "Pasal 20",
+      "iri_individu": "ktn:KetentuanBadanHukumAlihDaya",
+      "jenis": "KetentuanAlihDaya",
+      "kondisi": "Perusahaan alih daya",
+      "akibat": "Wajib berbentuk badan hukum dan memenuhi perizinan berusaha",
+      "parameter": [],
+      "bukti": "Perusahaan Alih Daya harus berbentuk badan hukum dan wajib memenuhi perizinan berusaha",
+      "confidence": 0.95,
+      "dasar_keyakinan": "dikutip",
+      "catatan": ""
+    },
+    {
+      "norm_id": "ALIH-DAYA-HUBUNGAN-KERJA",
+      "topik": "AlihDaya",
+      "pasal": "Pasal 18",
+      "iri_individu": "ktn:KetentuanPerlindunganAlihDaya",
+      "jenis": "KetentuanAlihDaya",
+      "kondisi": "Perusahaan alih daya mempekerjakan pekerja",
+      "akibat": "Perlindungan menjadi tanggung jawab perusahaan alih daya",
+      "parameter": [],
+      "bukti": "Hubungan Kerja antara Perusahaan Alih Daya dengan Pekerja/Buruh didasarkan pada PKWT atau PKWTT",
+      "confidence": 0.95,
+      "dasar_keyakinan": "dikutip",
+      "catatan": ""
+    },
+    {
+      "norm_id": "ALIH-DAYA-PENGALIHAN-HAK",
+      "topik": "AlihDaya",
+      "pasal": "Pasal 19",
+      "iri_individu": "ktn:KetentuanPengalihanHakAlihDaya",
+      "jenis": "KetentuanAlihDaya",
+      "kondisi": "Pergantian perusahaan alih daya",
+      "akibat": "PKWT wajib mensyaratkan pengalihan perlindungan hak",
+      "parameter": [],
+      "bukti": "Perjanjian Kerja tersebut harus mensyaratkan pengalihan pelindungan hak",
+      "confidence": 0.95,
+      "dasar_keyakinan": "dikutip",
+      "catatan": ""
+    },
+    {
+      "norm_id": "LEMBUR-MAKAN-MINUM",
+      "topik": "Lembur",
+      "pasal": "Pasal 29",
+      "iri_individu": "ktn:KetentuanMakanLembur",
+      "jenis": "KetentuanLembur",
+      "kondisi": "Lembur 4 jam atau lebih",
+      "akibat": "Wajib memberi makan dan minum minimal 1400 kkal",
+      "parameter": [
+        {
+          "nama": "kebutuhanKalori",
+          "nilai": "1400",
+          "satuan": "kkal",
+          "jenis": "nominal",
+          "pasal": "Pasal 29"
+        }
+      ],
+      "bukti": "menyediakan makanan dan minuman paling sedikit 1.400 kkal",
+      "confidence": 0.95,
+      "dasar_keyakinan": "dikutip",
+      "catatan": "diberikan bila lembur 4 jam atau lebih"
+    },
+    {
+      "norm_id": "LEMBUR-RUMUS-SEJAM",
+      "topik": "Lembur",
+      "pasal": "Pasal 32",
+      "iri_individu": "ktn:UpahSejamLembur",
+      "jenis": "KetentuanLembur",
+      "kondisi": "Perhitungan upah lembur",
+      "akibat": "Upah sejam = 1/173 kali upah sebulan",
+      "parameter": [
+        {
+          "nama": "faktorPembagiUpahSejam",
+          "nilai": "173",
+          "satuan": "faktor",
+          "jenis": "nominal",
+          "pasal": "Pasal 32"
+        }
+      ],
+      "bukti": "Upah sejam yaitu 1/173 kali Upah sebulan",
+      "confidence": 0.95,
+      "dasar_keyakinan": "dikutip",
+      "catatan": ""
+    },
+    {
+      "norm_id": "LEMBUR-UPAH-HARIAN",
+      "topik": "Lembur",
+      "pasal": "Pasal 33",
+      "iri_individu": "ktn:KonversiUpahHarian",
+      "jenis": "KetentuanLembur",
+      "kondisi": "Upah dibayar harian",
+      "akibat": "Upah sebulan = upah sehari x 25 (6 hari) atau x 21 (5 hari)",
+      "parameter": [
+        {
+          "nama": "pengaliKonversiHarian5",
+          "nilai": "21",
+          "satuan": "faktor",
+          "jenis": "nominal",
+          "pasal": "Pasal 33"
+        },
+        {
+          "nama": "pengaliKonversiHarian6",
+          "nilai": "25",
+          "satuan": "faktor",
+          "jenis": "nominal",
+          "pasal": "Pasal 33"
+        }
+      ],
+      "bukti": "Upah sehari dikalikan 25 bagi 6 hari kerja atau 21 bagi 5 hari kerja",
+      "confidence": 0.95,
+      "dasar_keyakinan": "dikutip",
+      "catatan": ""
+    },
+    {
+      "norm_id": "PHK-DITAHAN-MERUGIKAN",
+      "topik": "PHK",
+      "pasal": "Pasal 54 ayat (1)",
+      "iri_individu": "ktn:DitahanMerugikan",
+      "jenis": "AlasanPHK",
+      "kondisi": "Tidak dapat bekerja 6 bulan karena ditahan dan merugikan perusahaan",
+      "akibat": "UPH + uang pisah",
+      "parameter": [
+        {
+          "nama": "pengaliUP",
+          "nilai": "0",
+          "satuan": "kali",
+          "jenis": "pengali",
+          "pasal": "Pasal 54 ayat (1)"
+        },
+        {
+          "nama": "pengaliUPMK",
+          "nilai": "0",
+          "satuan": "kali",
+          "jenis": "pengali",
+          "pasal": "Pasal 54 ayat (1)"
+        }
+      ],
+      "bukti": "uang penggantian hak dan uang pisah",
+      "confidence": 0.85,
+      "dasar_keyakinan": "tafsir",
+      "catatan": "tidak ada UPMK"
+    },
+    {
+      "norm_id": "PHK-DITAHAN-TIDAK-MERUGIKAN",
+      "topik": "PHK",
+      "pasal": "Pasal 54 ayat (2)",
+      "iri_individu": "ktn:DitahanTidakMerugikan",
+      "jenis": "AlasanPHK",
+      "kondisi": "Tidak dapat bekerja 6 bulan karena ditahan dan tidak merugikan perusahaan",
+      "akibat": "UPMK 1x + UPH",
+      "parameter": [
+        {
+          "nama": "pengaliUP",
+          "nilai": "0",
+          "satuan": "kali",
+          "jenis": "pengali",
+          "pasal": "Pasal 54 ayat (2)"
+        },
+        {
+          "nama": "pengaliUPMK",
+          "nilai": "1",
+          "satuan": "kali",
+          "jenis": "pengali",
+          "pasal": "Pasal 54 ayat (2)"
+        }
+      ],
+      "bukti": "UPMK 1 kali Pasal 40 ayat (3)",
+      "confidence": 0.85,
+      "dasar_keyakinan": "tafsir",
+      "catatan": "tidak ada UP"
+    },
+    {
+      "norm_id": "PHK-EFISIENSI-MENCEGAH-RUGI",
+      "topik": "PHK",
+      "pasal": "Pasal 43 ayat (2)",
+      "iri_individu": "ktn:EfisiensiMencegahRugi",
+      "jenis": "AlasanPHK",
+      "kondisi": "Efisiensi untuk mencegah terjadinya kerugian",
+      "akibat": "UP 1x + UPMK 1x + UPH",
+      "parameter": [
+        {
+          "nama": "pengaliUP",
+          "nilai": "1",
+          "satuan": "kali",
+          "jenis": "pengali",
+          "pasal": "Pasal 43 ayat (2)"
+        },
+        {
+          "nama": "pengaliUPMK",
+          "nilai": "1",
+          "satuan": "kali",
+          "jenis": "pengali",
+          "pasal": "Pasal 43 ayat (2)"
+        }
+      ],
+      "bukti": "UP 1 kali Pasal 40 ayat (2)",
+      "confidence": 0.95,
+      "dasar_keyakinan": "dikutip",
+      "catatan": ""
+    },
+    {
+      "norm_id": "PHK-EFISIENSI-RUGI",
+      "topik": "PHK",
+      "pasal": "Pasal 43 ayat (1)",
+      "iri_individu": "ktn:EfisiensiRugi",
+      "jenis": "AlasanPHK",
+      "kondisi": "Efisiensi karena perusahaan mengalami kerugian",
+      "akibat": "UP 0,5x + UPMK 1x + UPH",
+      "parameter": [
+        {
+          "nama": "pengaliUP",
+          "nilai": "0.5",
+          "satuan": "kali",
+          "jenis": "pengali",
+          "pasal": "Pasal 43 ayat (1)"
+        },
+        {
+          "nama": "pengaliUPMK",
+          "nilai": "1",
+          "satuan": "kali",
+          "jenis": "pengali",
+          "pasal": "Pasal 43 ayat (1)"
+        }
+      ],
+      "bukti": "UP 0,5 kali Pasal 40 ayat (2)",
+      "confidence": 0.95,
+      "dasar_keyakinan": "dikutip",
+      "catatan": ""
+    },
+    {
+      "norm_id": "PHK-FORCE-MAJEURE-TIDAK-TUTUP",
+      "topik": "PHK",
+      "pasal": "Pasal 45 ayat (2)",
+      "iri_individu": "ktn:ForceMajeureTidakTutup",
+      "jenis": "AlasanPHK",
+      "kondisi": "Force majeure yang tidak mengakibatkan perusahaan tutup",
+      "akibat": "UP 0,75x + UPMK 1x + UPH",
+      "parameter": [
+        {
+          "nama": "pengaliUP",
+          "nilai": "0.75",
+          "satuan": "kali",
+          "jenis": "pengali",
+          "pasal": "Pasal 45 ayat (2)"
+        },
+        {
+          "nama": "pengaliUPMK",
+          "nilai": "1",
+          "satuan": "kali",
+          "jenis": "pengali",
+          "pasal": "Pasal 45 ayat (2)"
+        }
+      ],
+      "bukti": "UP 0,75 kali Pasal 40 ayat (2)",
+      "confidence": 0.95,
+      "dasar_keyakinan": "dikutip",
+      "catatan": ""
+    },
+    {
+      "norm_id": "PHK-FORCE-MAJEURE-TUTUP",
+      "topik": "PHK",
+      "pasal": "Pasal 45 ayat (1)",
+      "iri_individu": "ktn:ForceMajeureTutup",
+      "jenis": "AlasanPHK",
+      "kondisi": "Perusahaan tutup karena force majeure",
+      "akibat": "UP 0,5x + UPMK 1x + UPH",
+      "parameter": [
+        {
+          "nama": "pengaliUP",
+          "nilai": "0.5",
+          "satuan": "kali",
+          "jenis": "pengali",
+          "pasal": "Pasal 45 ayat (1)"
+        },
+        {
+          "nama": "pengaliUPMK",
+          "nilai": "1",
+          "satuan": "kali",
+          "jenis": "pengali",
+          "pasal": "Pasal 45 ayat (1)"
+        }
+      ],
+      "bukti": "UP 0,5 kali Pasal 40 ayat (2)",
+      "confidence": 0.95,
+      "dasar_keyakinan": "dikutip",
+      "catatan": ""
+    },
+    {
+      "norm_id": "PHK-MANGKIR",
+      "topik": "PHK",
+      "pasal": "Pasal 51",
+      "iri_individu": "ktn:Mangkir",
+      "jenis": "AlasanPHK",
+      "kondisi": "Mangkir 5 hari kerja atau lebih berturut-turut setelah dipanggil 2 kali",
+      "akibat": "UPH + uang pisah",
+      "parameter": [
+        {
+          "nama": "pengaliUP",
+          "nilai": "0",
+          "satuan": "kali",
+          "jenis": "pengali",
+          "pasal": "Pasal 51"
+        },
+        {
+          "nama": "pengaliUPMK",
+          "nilai": "0",
+          "satuan": "kali",
+          "jenis": "pengali",
+          "pasal": "Pasal 51"
+        }
+      ],
+      "bukti": "uang penggantian hak dan uang pisah",
+      "confidence": 0.95,
+      "dasar_keyakinan": "dikutip",
+      "catatan": ""
+    },
+    {
+      "norm_id": "PHK-MENGUNDURKAN-DIRI",
+      "topik": "PHK",
+      "pasal": "Pasal 50",
+      "iri_individu": "ktn:MengundurkanDiri",
+      "jenis": "AlasanPHK",
+      "kondisi": "Pekerja mengundurkan diri atas kemauan sendiri dan memenuhi syarat Pasal 36 huruf i",
+      "akibat": "UPH + uang pisah",
+      "parameter": [
+        {
+          "nama": "pengaliUP",
+          "nilai": "0",
+          "satuan": "kali",
+          "jenis": "pengali",
+          "pasal": "Pasal 50"
+        },
+        {
+          "nama": "pengaliUPMK",
+          "nilai": "0",
+          "satuan": "kali",
+          "jenis": "pengali",
+          "pasal": "Pasal 50"
+        }
+      ],
+      "bukti": "uang penggantian hak dan uang pisah",
+      "confidence": 0.95,
+      "dasar_keyakinan": "dikutip",
+      "catatan": ""
+    },
+    {
+      "norm_id": "PHK-MENINGGAL-DUNIA",
+      "topik": "PHK",
+      "pasal": "Pasal 57",
+      "iri_individu": "ktn:MeninggalDunia",
+      "jenis": "AlasanPHK",
+      "kondisi": "Pekerja meninggal dunia",
+      "akibat": "Ahli waris menerima UP 2x + UPMK 1x + UPH",
+      "parameter": [
+        {
+          "nama": "pengaliUP",
+          "nilai": "2",
+          "satuan": "kali",
+          "jenis": "pengali",
+          "pasal": "Pasal 57"
+        },
+        {
+          "nama": "pengaliUPMK",
+          "nilai": "1",
+          "satuan": "kali",
+          "jenis": "pengali",
+          "pasal": "Pasal 57"
+        }
+      ],
+      "bukti": "UP 2 kali Pasal 40 ayat (2)",
+      "confidence": 0.95,
+      "dasar_keyakinan": "dikutip",
+      "catatan": ""
+    },
+    {
+      "norm_id": "PHK-MERGER",
+      "topik": "PHK",
+      "pasal": "Pasal 41",
+      "iri_individu": "ktn:Merger",
+      "jenis": "AlasanPHK",
+      "kondisi": "Penggabungan peleburan atau pemisahan perusahaan dan pekerja tidak bersedia lanjut",
+      "akibat": "UP 1x + UPMK 1x + UPH",
+      "parameter": [
+        {
+          "nama": "pengaliUP",
+          "nilai": "1",
+          "satuan": "kali",
+          "jenis": "pengali",
+          "pasal": "Pasal 41"
+        },
+        {
+          "nama": "pengaliUPMK",
+          "nilai": "1",
+          "satuan": "kali",
+          "jenis": "pengali",
+          "pasal": "Pasal 41"
+        }
+      ],
+      "bukti": "UP 1 kali Pasal 40 ayat (2)",
+      "confidence": 0.95,
+      "dasar_keyakinan": "dikutip",
+      "catatan": ""
+    },
+    {
+      "norm_id": "PHK-PAILIT",
+      "topik": "PHK",
+      "pasal": "Pasal 47",
+      "iri_individu": "ktn:Pailit",
+      "jenis": "AlasanPHK",
+      "kondisi": "Perusahaan pailit",
+      "akibat": "UP 0,5x + UPMK 1x + UPH",
+      "parameter": [
+        {
+          "nama": "pengaliUP",
+          "nilai": "0.5",
+          "satuan": "kali",
+          "jenis": "pengali",
+          "pasal": "Pasal 47"
+        },
+        {
+          "nama": "pengaliUPMK",
+          "nilai": "1",
+          "satuan": "kali",
+          "jenis": "pengali",
+          "pasal": "Pasal 47"
+        }
+      ],
+      "bukti": "UP 0,5 kali Pasal 40 ayat (2)",
+      "confidence": 0.95,
+      "dasar_keyakinan": "dikutip",
+      "catatan": "judul pasal terbaca sebagian di sumber"
+    },
+    {
+      "norm_id": "PHK-PELANGGARAN-MENDESAK",
+      "topik": "PHK",
+      "pasal": "Pasal 52 ayat (2)",
+      "iri_individu": "ktn:PelanggaranMendesak",
+      "jenis": "AlasanPHK",
+      "kondisi": "Pelanggaran bersifat mendesak",
+      "akibat": "UPH + uang pisah",
+      "parameter": [
+        {
+          "nama": "pengaliUP",
+          "nilai": "0",
+          "satuan": "kali",
+          "jenis": "pengali",
+          "pasal": "Pasal 52 ayat (2)"
+        },
+        {
+          "nama": "pengaliUPMK",
+          "nilai": "0",
+          "satuan": "kali",
+          "jenis": "pengali",
+          "pasal": "Pasal 52 ayat (2)"
+        }
+      ],
+      "bukti": "uang penggantian hak dan uang pisah",
+      "confidence": 0.95,
+      "dasar_keyakinan": "dikutip",
+      "catatan": ""
+    },
+    {
+      "norm_id": "PHK-PELANGGARAN-SP",
+      "topik": "PHK",
+      "pasal": "Pasal 52 ayat (1)",
+      "iri_individu": "ktn:PelanggaranSP",
+      "jenis": "AlasanPHK",
+      "kondisi": "Pelanggaran PK/PP/PKB setelah SP1 SP2 SP3",
+      "akibat": "UP 0,5x + UPMK 1x + UPH",
+      "parameter": [
+        {
+          "nama": "pengaliUP",
+          "nilai": "0.5",
+          "satuan": "kali",
+          "jenis": "pengali",
+          "pasal": "Pasal 52 ayat (1)"
+        },
+        {
+          "nama": "pengaliUPMK",
+          "nilai": "1",
+          "satuan": "kali",
+          "jenis": "pengali",
+          "pasal": "Pasal 52 ayat (1)"
+        }
+      ],
+      "bukti": "UP 0,5 kali Pasal 40 ayat (2)",
+      "confidence": 0.95,
+      "dasar_keyakinan": "dikutip",
+      "catatan": ""
+    },
+    {
+      "norm_id": "PHK-PENGAMBILALIHAN",
+      "topik": "PHK",
+      "pasal": "Pasal 42 ayat (1)",
+      "iri_individu": "ktn:Pengambilalihan",
+      "jenis": "AlasanPHK",
+      "kondisi": "Pengambilalihan perusahaan",
+      "akibat": "UP 1x + UPMK 1x + UPH",
+      "parameter": [
+        {
+          "nama": "pengaliUP",
+          "nilai": "1",
+          "satuan": "kali",
+          "jenis": "pengali",
+          "pasal": "Pasal 42 ayat (1)"
+        },
+        {
+          "nama": "pengaliUPMK",
+          "nilai": "1",
+          "satuan": "kali",
+          "jenis": "pengali",
+          "pasal": "Pasal 42 ayat (1)"
+        }
+      ],
+      "bukti": "UP 1 kali Pasal 40 ayat (2)",
+      "confidence": 0.95,
+      "dasar_keyakinan": "dikutip",
+      "catatan": ""
+    },
+    {
+      "norm_id": "PHK-PENGAMBILALIHAN-UBAH-SYARAT",
+      "topik": "PHK",
+      "pasal": "Pasal 42 ayat (2)",
+      "iri_individu": "ktn:PengambilalihanUbahSyarat",
+      "jenis": "AlasanPHK",
+      "kondisi": "Pengambilalihan yang mengubah syarat kerja dan pekerja tidak bersedia lanjut",
+      "akibat": "UP 0,5x + UPMK 1x + UPH",
+      "parameter": [
+        {
+          "nama": "pengaliUP",
+          "nilai": "0.5",
+          "satuan": "kali",
+          "jenis": "pengali",
+          "pasal": "Pasal 42 ayat (2)"
+        },
+        {
+          "nama": "pengaliUPMK",
+          "nilai": "1",
+          "satuan": "kali",
+          "jenis": "pengali",
+          "pasal": "Pasal 42 ayat (2)"
+        }
+      ],
+      "bukti": "UP 0,5 kali Pasal 40 ayat (2)",
+      "confidence": 0.95,
+      "dasar_keyakinan": "dikutip",
+      "catatan": ""
+    },
+    {
+      "norm_id": "PHK-PENSIUN",
+      "topik": "PHK",
+      "pasal": "Pasal 56",
+      "iri_individu": "ktn:Pensiun",
+      "jenis": "AlasanPHK",
+      "kondisi": "Pekerja memasuki usia pensiun",
+      "akibat": "UP 1,75x + UPMK 1x + UPH",
+      "parameter": [
+        {
+          "nama": "pengaliUP",
+          "nilai": "1.75",
+          "satuan": "kali",
+          "jenis": "pengali",
+          "pasal": "Pasal 56"
+        },
+        {
+          "nama": "pengaliUPMK",
+          "nilai": "1",
+          "satuan": "kali",
+          "jenis": "pengali",
+          "pasal": "Pasal 56"
+        }
+      ],
+      "bukti": "UP 1,75 kali Pasal 40 ayat (2)",
+      "confidence": 0.95,
+      "dasar_keyakinan": "dikutip",
+      "catatan": ""
+    },
+    {
+      "norm_id": "PHK-PERBUATAN-PENGUSAHA",
+      "topik": "PHK",
+      "pasal": "Pasal 48",
+      "iri_individu": "ktn:PerbuatanPengusaha",
+      "jenis": "AlasanPHK",
+      "kondisi": "Permohonan PHK oleh pekerja karena perbuatan pengusaha Pasal 36 huruf g",
+      "akibat": "UP 1x + UPMK 1x + UPH",
+      "parameter": [
+        {
+          "nama": "pengaliUP",
+          "nilai": "1",
+          "satuan": "kali",
+          "jenis": "pengali",
+          "pasal": "Pasal 48"
+        },
+        {
+          "nama": "pengaliUPMK",
+          "nilai": "1",
+          "satuan": "kali",
+          "jenis": "pengali",
+          "pasal": "Pasal 48"
+        }
+      ],
+      "bukti": "UP 1 kali Pasal 40 ayat (2)",
+      "confidence": 0.95,
+      "dasar_keyakinan": "dikutip",
+      "catatan": ""
+    },
+    {
+      "norm_id": "PHK-PKPU-BUKAN-RUGI",
+      "topik": "PHK",
+      "pasal": "Pasal 46 ayat (2)",
+      "iri_individu": "ktn:PKPUKarenaTidakRugi",
+      "jenis": "AlasanPHK",
+      "kondisi": "Perusahaan dalam penundaan kewajiban pembayaran utang bukan karena rugi",
+      "akibat": "UP 1x + UPMK 1x + UPH",
+      "parameter": [
+        {
+          "nama": "pengaliUP",
+          "nilai": "1",
+          "satuan": "kali",
+          "jenis": "pengali",
+          "pasal": "Pasal 46 ayat (2)"
+        },
+        {
+          "nama": "pengaliUPMK",
+          "nilai": "1",
+          "satuan": "kali",
+          "jenis": "pengali",
+          "pasal": "Pasal 46 ayat (2)"
+        }
+      ],
+      "bukti": "UP 1 kali Pasal 40 ayat (2)",
+      "confidence": 0.95,
+      "dasar_keyakinan": "dikutip",
+      "catatan": ""
+    },
+    {
+      "norm_id": "PHK-PKPU-RUGI",
+      "topik": "PHK",
+      "pasal": "Pasal 46 ayat (1)",
+      "iri_individu": "ktn:PKPUKarenaRugi",
+      "jenis": "AlasanPHK",
+      "kondisi": "Perusahaan dalam penundaan kewajiban pembayaran utang karena rugi",
+      "akibat": "UP 0,5x + UPMK 1x + UPH",
+      "parameter": [
+        {
+          "nama": "pengaliUP",
+          "nilai": "0.5",
+          "satuan": "kali",
+          "jenis": "pengali",
+          "pasal": "Pasal 46 ayat (1)"
+        },
+        {
+          "nama": "pengaliUPMK",
+          "nilai": "1",
+          "satuan": "kali",
+          "jenis": "pengali",
+          "pasal": "Pasal 46 ayat (1)"
+        }
+      ],
+      "bukti": "UP 0,5 kali Pasal 40 ayat (2)",
+      "confidence": 0.95,
+      "dasar_keyakinan": "dikutip",
+      "catatan": ""
+    },
+    {
+      "norm_id": "PHK-PUTUSAN-PPHI-TIDAK-BERSALAH",
+      "topik": "PHK",
+      "pasal": "Pasal 49",
+      "iri_individu": "ktn:PutusanPPHITidakBersalah",
+      "jenis": "AlasanPHK",
+      "kondisi": "Putusan lembaga PPHI bahwa pengusaha tidak melakukan perbuatan Pasal 36 huruf g",
+      "akibat": "UPH + uang pisah",
+      "parameter": [
+        {
+          "nama": "pengaliUP",
+          "nilai": "0",
+          "satuan": "kali",
+          "jenis": "pengali",
+          "pasal": "Pasal 49"
+        },
+        {
+          "nama": "pengaliUPMK",
+          "nilai": "0",
+          "satuan": "kali",
+          "jenis": "pengali",
+          "pasal": "Pasal 49"
+        }
+      ],
+      "bukti": "uang penggantian hak dan uang pisah",
+      "confidence": 0.85,
+      "dasar_keyakinan": "tafsir",
+      "catatan": "tidak ada UPMK"
+    },
+    {
+      "norm_id": "PHK-SAKIT-BERKEPANJANGAN",
+      "topik": "PHK",
+      "pasal": "Pasal 55",
+      "iri_individu": "ktn:SakitBerkepanjangan",
+      "jenis": "AlasanPHK",
+      "kondisi": "Sakit berkepanjangan atau cacat akibat kecelakaan kerja lebih dari 12 bulan",
+      "akibat": "UP 2x + UPMK 1x + UPH",
+      "parameter": [
+        {
+          "nama": "pengaliUP",
+          "nilai": "2",
+          "satuan": "kali",
+          "jenis": "pengali",
+          "pasal": "Pasal 55"
+        },
+        {
+          "nama": "pengaliUPMK",
+          "nilai": "1",
+          "satuan": "kali",
+          "jenis": "pengali",
+          "pasal": "Pasal 55"
+        }
+      ],
+      "bukti": "UP 2 kali Pasal 40 ayat (2)",
+      "confidence": 0.95,
+      "dasar_keyakinan": "dikutip",
+      "catatan": "ayat (1) dan (2) sama"
+    },
+    {
+      "norm_id": "PHK-TUTUP-BUKAN-RUGI",
+      "topik": "PHK",
+      "pasal": "Pasal 44 ayat (2)",
+      "iri_individu": "ktn:TutupBukanKarenaRugi",
+      "jenis": "AlasanPHK",
+      "kondisi": "Perusahaan tutup bukan karena mengalami kerugian",
+      "akibat": "UP 1x + UPMK 1x + UPH",
+      "parameter": [
+        {
+          "nama": "pengaliUP",
+          "nilai": "1",
+          "satuan": "kali",
+          "jenis": "pengali",
+          "pasal": "Pasal 44 ayat (2)"
+        },
+        {
+          "nama": "pengaliUPMK",
+          "nilai": "1",
+          "satuan": "kali",
+          "jenis": "pengali",
+          "pasal": "Pasal 44 ayat (2)"
+        }
+      ],
+      "bukti": "UP 1 kali Pasal 40 ayat (2)",
+      "confidence": 0.95,
+      "dasar_keyakinan": "dikutip",
+      "catatan": ""
+    },
+    {
+      "norm_id": "PHK-TUTUP-RUGI",
+      "topik": "PHK",
+      "pasal": "Pasal 44 ayat (1)",
+      "iri_individu": "ktn:TutupKarenaRugi",
+      "jenis": "AlasanPHK",
+      "kondisi": "Perusahaan tutup karena rugi terus menerus atau tidak terus menerus selama 2 tahun",
+      "akibat": "UP 0,5x + UPMK 1x + UPH",
+      "parameter": [
+        {
+          "nama": "pengaliUP",
+          "nilai": "0.5",
+          "satuan": "kali",
+          "jenis": "pengali",
+          "pasal": "Pasal 44 ayat (1)"
+        },
+        {
+          "nama": "pengaliUPMK",
+          "nilai": "1",
+          "satuan": "kali",
+          "jenis": "pengali",
+          "pasal": "Pasal 44 ayat (1)"
+        }
+      ],
+      "bukti": "UP 0,5 kali Pasal 40 ayat (2)",
+      "confidence": 0.95,
+      "dasar_keyakinan": "dikutip",
+      "catatan": ""
+    },
+    {
+      "norm_id": "PKWT-HARIAN-KONVERSI",
+      "topik": "PKWT",
+      "pasal": "Pasal 10 ayat (4)",
+      "iri_individu": "ktn:KonversiHarianKePKWTT",
+      "jenis": "KetentuanPKWT",
+      "kondisi": "Bekerja 21 hari atau lebih selama 3 bulan berturut-turut",
+      "akibat": "Hubungan kerja berubah demi hukum menjadi PKWTT",
+      "parameter": [
+        {
+          "nama": "batasBulanKonversi",
+          "nilai": "3",
+          "satuan": "bulan",
+          "jenis": "nominal",
+          "pasal": "Pasal 10 ayat (4)"
+        },
+        {
+          "nama": "batasHariKerjaHarian",
+          "nilai": "21",
+          "satuan": "hari",
+          "jenis": "nominal",
+          "pasal": "Pasal 10 ayat (3)"
+        }
+      ],
+      "bukti": "bekerja 21 hari atau lebih selama 3 bulan berturut-turut maka Hubungan Kerja demi hukum berubah berdasarkan PKWTT",
+      "confidence": 0.95,
+      "dasar_keyakinan": "dikutip",
+      "catatan": ""
+    },
+    {
+      "norm_id": "PKWT-JANGKA-MAKS",
+      "topik": "PKWT",
+      "pasal": "Pasal 8 ayat (1)",
+      "iri_individu": "ktn:BatasJangkaWaktuPKWT",
+      "jenis": "KetentuanPKWT",
+      "kondisi": "PKWT berdasarkan jangka waktu",
+      "akibat": "Paling lama 5 tahun termasuk perpanjangan",
+      "parameter": [
+        {
+          "nama": "batasTahunPKWT",
+          "nilai": "5",
+          "satuan": "tahun",
+          "jenis": "nominal",
+          "pasal": "Pasal 8 ayat (1)"
+        }
+      ],
+      "bukti": "PKWT berdasarkan jangka waktu dapat dibuat untuk paling lama 5 tahun",
+      "confidence": 0.95,
+      "dasar_keyakinan": "dikutip",
+      "catatan": ""
+    },
+    {
+      "norm_id": "PKWT-KOMPENSASI",
+      "topik": "PKWT",
+      "pasal": "Pasal 15-16",
+      "iri_individu": "ktn:KetentuanKompensasiPKWT",
+      "jenis": "KetentuanPKWT",
+      "kondisi": "PKWT berakhir dengan masa kerja minimal 1 bulan",
+      "akibat": "Uang kompensasi = (masa kerja bagi 12) x 1 bulan upah",
+      "parameter": [
+        {
+          "nama": "faktorPembagiKompensasi",
+          "nilai": "12",
+          "satuan": "bulan",
+          "jenis": "nominal",
+          "pasal": "Pasal 16"
+        }
+      ],
+      "bukti": "PKWT selama 12 bulan secara terus menerus diberikan sebesar 1 bulan Upah",
+      "confidence": 0.95,
+      "dasar_keyakinan": "dikutip",
+      "catatan": ""
+    },
+    {
+      "norm_id": "PKWT-PENCATATAN",
+      "topik": "PKWT",
+      "pasal": "Pasal 14 ayat (1)",
+      "iri_individu": "ktn:KetentuanPencatatanPKWT",
+      "jenis": "KetentuanPKWT",
+      "kondisi": "PKWT ditandatangani",
+      "akibat": "Wajib dicatatkan daring paling lama 3 hari kerja",
+      "parameter": [
+        {
+          "nama": "batasHariPencatatan",
+          "nilai": "3",
+          "satuan": "hari",
+          "jenis": "nominal",
+          "pasal": "Pasal 14 ayat (1)"
+        }
+      ],
+      "bukti": "PKWT harus dicatatkan secara daring paling lama 3 hari kerja sejak penandatanganan",
+      "confidence": 0.95,
+      "dasar_keyakinan": "dikutip",
+      "catatan": ""
+    },
+    {
+      "norm_id": "PKWT-TANPA-PERCOBAAN",
+      "topik": "PKWT",
+      "pasal": "Pasal 12",
+      "iri_individu": "ktn:LaranganPercobaanPKWT",
+      "jenis": "KetentuanPKWT",
+      "kondisi": "PKWT mensyaratkan masa percobaan",
+      "akibat": "Masa percobaan batal demi hukum dan masa kerja tetap dihitung",
+      "parameter": [],
+      "bukti": "PKWT tidak dapat mensyaratkan adanya masa percobaan kerja",
+      "confidence": 0.95,
+      "dasar_keyakinan": "dikutip",
+      "catatan": ""
+    }
+  ],
+  "kategori": [
+    {
+      "tabel_id": "UP-0-12",
+      "nama_tabel": "uang_pesangon",
+      "min_bulan": 0,
+      "max_bulan": 12,
+      "nilai_bulan": 1.0,
+      "pasal": "Pasal 40 ayat (2)a",
+      "confidence": 0.95,
+      "dasar_keyakinan": "dikutip"
+    },
+    {
+      "tabel_id": "UP-12-24",
+      "nama_tabel": "uang_pesangon",
+      "min_bulan": 12,
+      "max_bulan": 24,
+      "nilai_bulan": 2.0,
+      "pasal": "Pasal 40 ayat (2)b",
+      "confidence": 0.95,
+      "dasar_keyakinan": "dikutip"
+    },
+    {
+      "tabel_id": "UP-24-36",
+      "nama_tabel": "uang_pesangon",
+      "min_bulan": 24,
+      "max_bulan": 36,
+      "nilai_bulan": 3.0,
+      "pasal": "Pasal 40 ayat (2)c",
+      "confidence": 0.95,
+      "dasar_keyakinan": "dikutip"
+    },
+    {
+      "tabel_id": "UP-36-48",
+      "nama_tabel": "uang_pesangon",
+      "min_bulan": 36,
+      "max_bulan": 48,
+      "nilai_bulan": 4.0,
+      "pasal": "Pasal 40 ayat (2)d",
+      "confidence": 0.95,
+      "dasar_keyakinan": "dikutip"
+    },
+    {
+      "tabel_id": "UP-48-60",
+      "nama_tabel": "uang_pesangon",
+      "min_bulan": 48,
+      "max_bulan": 60,
+      "nilai_bulan": 5.0,
+      "pasal": "Pasal 40 ayat (2)e",
+      "confidence": 0.95,
+      "dasar_keyakinan": "dikutip"
+    },
+    {
+      "tabel_id": "UP-60-72",
+      "nama_tabel": "uang_pesangon",
+      "min_bulan": 60,
+      "max_bulan": 72,
+      "nilai_bulan": 6.0,
+      "pasal": "Pasal 40 ayat (2)f",
+      "confidence": 0.95,
+      "dasar_keyakinan": "dikutip"
+    },
+    {
+      "tabel_id": "UP-72-84",
+      "nama_tabel": "uang_pesangon",
+      "min_bulan": 72,
+      "max_bulan": 84,
+      "nilai_bulan": 7.0,
+      "pasal": "Pasal 40 ayat (2)g",
+      "confidence": 0.95,
+      "dasar_keyakinan": "dikutip"
+    },
+    {
+      "tabel_id": "UP-84-96",
+      "nama_tabel": "uang_pesangon",
+      "min_bulan": 84,
+      "max_bulan": 96,
+      "nilai_bulan": 8.0,
+      "pasal": "Pasal 40 ayat (2)h",
+      "confidence": 0.95,
+      "dasar_keyakinan": "dikutip"
+    },
+    {
+      "tabel_id": "UP-96-INF",
+      "nama_tabel": "uang_pesangon",
+      "min_bulan": 96,
+      "max_bulan": null,
+      "nilai_bulan": 9.0,
+      "pasal": "Pasal 40 ayat (2)i",
+      "confidence": 0.95,
+      "dasar_keyakinan": "dikutip"
+    },
+    {
+      "tabel_id": "UPMK-36-72",
+      "nama_tabel": "upmk",
+      "min_bulan": 36,
+      "max_bulan": 72,
+      "nilai_bulan": 2.0,
+      "pasal": "Pasal 40 ayat (3)a",
+      "confidence": 0.95,
+      "dasar_keyakinan": "dikutip"
+    },
+    {
+      "tabel_id": "UPMK-72-108",
+      "nama_tabel": "upmk",
+      "min_bulan": 72,
+      "max_bulan": 108,
+      "nilai_bulan": 3.0,
+      "pasal": "Pasal 40 ayat (3)b",
+      "confidence": 0.95,
+      "dasar_keyakinan": "dikutip"
+    },
+    {
+      "tabel_id": "UPMK-108-144",
+      "nama_tabel": "upmk",
+      "min_bulan": 108,
+      "max_bulan": 144,
+      "nilai_bulan": 4.0,
+      "pasal": "Pasal 40 ayat (3)c",
+      "confidence": 0.95,
+      "dasar_keyakinan": "dikutip"
+    },
+    {
+      "tabel_id": "UPMK-144-180",
+      "nama_tabel": "upmk",
+      "min_bulan": 144,
+      "max_bulan": 180,
+      "nilai_bulan": 5.0,
+      "pasal": "Pasal 40 ayat (3)d",
+      "confidence": 0.95,
+      "dasar_keyakinan": "dikutip"
+    },
+    {
+      "tabel_id": "UPMK-180-216",
+      "nama_tabel": "upmk",
+      "min_bulan": 180,
+      "max_bulan": 216,
+      "nilai_bulan": 6.0,
+      "pasal": "Pasal 40 ayat (3)e",
+      "confidence": 0.95,
+      "dasar_keyakinan": "dikutip"
+    },
+    {
+      "tabel_id": "UPMK-216-252",
+      "nama_tabel": "upmk",
+      "min_bulan": 216,
+      "max_bulan": 252,
+      "nilai_bulan": 7.0,
+      "pasal": "Pasal 40 ayat (3)f",
+      "confidence": 0.95,
+      "dasar_keyakinan": "dikutip"
+    },
+    {
+      "tabel_id": "UPMK-252-288",
+      "nama_tabel": "upmk",
+      "min_bulan": 252,
+      "max_bulan": 288,
+      "nilai_bulan": 8.0,
+      "pasal": "Pasal 40 ayat (3)g",
+      "confidence": 0.95,
+      "dasar_keyakinan": "dikutip"
+    },
+    {
+      "tabel_id": "UPMK-288-INF",
+      "nama_tabel": "upmk",
+      "min_bulan": 288,
+      "max_bulan": null,
+      "nilai_bulan": 10.0,
+      "pasal": "Pasal 40 ayat (3)h",
+      "confidence": 0.95,
+      "dasar_keyakinan": "dikutip"
+    }
+  ],
+  "pengali_lembur": [
+    {
+      "tabel_id": "LEMBUR-HK-1",
+      "jenis_hari": "hari_kerja",
+      "jam_min": 1,
+      "jam_max": 1,
+      "pengali": 1.5,
+      "pasal": "Pasal 31 ayat (1)a",
+      "confidence": 0.95,
+      "dasar_keyakinan": "dikutip"
+    },
+    {
+      "tabel_id": "LEMBUR-HK-2",
+      "jenis_hari": "hari_kerja",
+      "jam_min": 2,
+      "jam_max": 4,
+      "pengali": 2.0,
+      "pasal": "Pasal 31 ayat (1)b",
+      "confidence": 0.95,
+      "dasar_keyakinan": "dikutip"
+    },
+    {
+      "tabel_id": "LEMBUR-L6-1",
+      "jenis_hari": "libur_6hari",
+      "jam_min": 1,
+      "jam_max": 7,
+      "pengali": 2.0,
+      "pasal": "Pasal 31 ayat (2)a.1",
+      "confidence": 0.95,
+      "dasar_keyakinan": "dikutip"
+    },
+    {
+      "tabel_id": "LEMBUR-L6-2",
+      "jenis_hari": "libur_6hari",
+      "jam_min": 8,
+      "jam_max": 8,
+      "pengali": 3.0,
+      "pasal": "Pasal 31 ayat (2)a.2",
+      "confidence": 0.95,
+      "dasar_keyakinan": "dikutip"
+    },
+    {
+      "tabel_id": "LEMBUR-L6-3",
+      "jenis_hari": "libur_6hari",
+      "jam_min": 9,
+      "jam_max": 11,
+      "pengali": 4.0,
+      "pasal": "Pasal 31 ayat (2)a.3",
+      "confidence": 0.95,
+      "dasar_keyakinan": "dikutip"
+    },
+    {
+      "tabel_id": "LEMBUR-LT-1",
+      "jenis_hari": "libur_terpendek",
+      "jam_min": 1,
+      "jam_max": 5,
+      "pengali": 2.0,
+      "pasal": "Pasal 31 ayat (2)b.1",
+      "confidence": 0.95,
+      "dasar_keyakinan": "dikutip"
+    },
+    {
+      "tabel_id": "LEMBUR-LT-2",
+      "jenis_hari": "libur_terpendek",
+      "jam_min": 6,
+      "jam_max": 6,
+      "pengali": 3.0,
+      "pasal": "Pasal 31 ayat (2)b.2",
+      "confidence": 0.95,
+      "dasar_keyakinan": "dikutip"
+    },
+    {
+      "tabel_id": "LEMBUR-LT-3",
+      "jenis_hari": "libur_terpendek",
+      "jam_min": 7,
+      "jam_max": 9,
+      "pengali": 4.0,
+      "pasal": "Pasal 31 ayat (2)b.3",
+      "confidence": 0.95,
+      "dasar_keyakinan": "dikutip"
+    },
+    {
+      "tabel_id": "LEMBUR-L5-1",
+      "jenis_hari": "libur_5hari",
+      "jam_min": 1,
+      "jam_max": 8,
+      "pengali": 2.0,
+      "pasal": "Pasal 31 ayat (3)a",
+      "confidence": 0.95,
+      "dasar_keyakinan": "dikutip"
+    },
+    {
+      "tabel_id": "LEMBUR-L5-2",
+      "jenis_hari": "libur_5hari",
+      "jam_min": 9,
+      "jam_max": 9,
+      "pengali": 3.0,
+      "pasal": "Pasal 31 ayat (3)b",
+      "confidence": 0.95,
+      "dasar_keyakinan": "dikutip"
+    },
+    {
+      "tabel_id": "LEMBUR-L5-3",
+      "jenis_hari": "libur_5hari",
+      "jam_min": 10,
+      "jam_max": 12,
+      "pengali": 4.0,
+      "pasal": "Pasal 31 ayat (3)c",
+      "confidence": 0.95,
+      "dasar_keyakinan": "dikutip"
+    }
+  ],
+  "program_jamsos": [],
+  "cakupan": {
+    "lengkap": false,
+    "pasal_diekstrak": [
+      "Pasal 8",
+      "Pasal 10",
+      "Pasal 12",
+      "Pasal 14",
+      "Pasal 15",
+      "Pasal 18",
+      "Pasal 19",
+      "Pasal 20",
+      "Pasal 29",
+      "Pasal 32",
+      "Pasal 33",
+      "Pasal 41",
+      "Pasal 42",
+      "Pasal 43",
+      "Pasal 44",
+      "Pasal 45",
+      "Pasal 46",
+      "Pasal 47",
+      "Pasal 48",
+      "Pasal 49",
+      "Pasal 50",
+      "Pasal 51",
+      "Pasal 52",
+      "Pasal 54",
+      "Pasal 55",
+      "Pasal 56",
+      "Pasal 57"
+    ],
+    "pasal_dilewati": [
+      {
+        "pasal": "Pasal 1",
+        "alasan": "definisi/istilah, bukan norma penalaran hak"
+      }
+    ],
+    "catatan": "Contoh struktural yang diretrifit dari data pilot; belum meninjau seluruh pasal. Akan digantikan pada Fase 2."
+  },
+  "tidak_termodelkan": []
+}

@@ -16,6 +16,14 @@
     dct:title "Metadata peraturan ketenagakerjaan (individu)" ;
     owl:imports <https://example.org/kbr/regulasi/vocab> .
 
+reg:PP-34-2021 a reg:Peraturan ;
+    dct:title "Peraturan Pemerintah Nomor 34 Tahun 2021 tentang Penggunaan Tenaga Kerja Asing" ;
+    reg:jenis reg:PeraturanPemerintah ;
+    reg:nomor "34" ;
+    reg:tahun "2021"^^xsd:gYear ;
+    reg:status reg:Berlaku ;
+    reg:sumberUtama <https://peraturan.bpk.go.id/Details/161898/pp-no-34-tahun-2021> .
+
 reg:PP-35-2021 a reg:Peraturan ;
     dct:title "Peraturan Pemerintah Nomor 35 Tahun 2021 tentang Perjanjian Kerja Waktu Tertentu, Alih Daya, Waktu Kerja dan Waktu Istirahat, dan Pemutusan Hubungan Kerja" ;
     reg:jenis reg:PeraturanPemerintah ;

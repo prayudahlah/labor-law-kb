@@ -1,0 +1,226 @@
+{
+  "spec_version": "1.0.0",
+  "vocab_version": "0.2.0",
+  "dokumen_id": "PP-45-2015",
+  "status_review": "reviewed",
+  "peraturan": {
+    "judul": "Peraturan Pemerintah Nomor 45 Tahun 2015 tentang Penyelenggaraan Program Jaminan Pensiun",
+    "jenis": "PP",
+    "nomor": "45",
+    "tahun": "2015",
+    "sumber": "https://peraturan.bpk.go.id/Details/5613/pp-no-45-tahun-2015",
+    "status": "Berlaku",
+    "diubah_oleh": []
+  },
+  "norma": [
+    {
+      "norm_id": "JAMSOS-IURAN-JP",
+      "topik": "Jamsos",
+      "pasal": "Pasal 25",
+      "iri_individu": "ktn:KetentuanIuranJP",
+      "jenis": "KetentuanJaminanSosial",
+      "kondisi": "Iuran JP",
+      "akibat": "3 persen dari upah: 2 persen pemberi kerja dan 1 persen pekerja",
+      "parameter": [],
+      "bukti": "Iuran sebesar 3 persen dari Upah per bulan",
+      "confidence": 0.95,
+      "dasar_keyakinan": "dikutip",
+      "catatan": ""
+    },
+    {
+      "norm_id": "JAMSOS-USIA-PENSIUN",
+      "topik": "Jamsos",
+      "pasal": "Pasal 15",
+      "iri_individu": "ktn:KetentuanUsiaPensiunJP",
+      "jenis": "KetentuanJaminanSosial",
+      "kondisi": "Usia pensiun JP",
+      "akibat": "Mulai 56 tahun dan bertambah menuju 65 tahun",
+      "parameter": [
+        {
+          "nama": "usiaPensiunTahun",
+          "nilai": "58",
+          "satuan": "tahun",
+          "jenis": "nominal",
+          "pasal": "Pasal 15"
+        }
+      ],
+      "bukti": "Untuk pertama kali Usia Pensiun ditetapkan 56 tahun",
+      "confidence": 0.6,
+      "dasar_keyakinan": "dinamis",
+      "catatan": "58 adalah posisi saat ini"
+    }
+  ],
+  "kategori": [],
+  "pengali_lembur": [],
+  "program_jamsos": [
+    {
+      "program_id": "JP",
+      "nama": "Jaminan Pensiun",
+      "jenis_program": "JP",
+      "tarif_pengusaha_persen": 2.0,
+      "tarif_pekerja_persen": 1.0,
+      "tarif_total_persen": 3.0,
+      "tingkat_risiko": null,
+      "pasal": "Pasal 25",
+      "confidence": 0.95,
+      "dasar_keyakinan": "dikutip",
+      "bukti": "",
+      "catatan": ""
+    }
+  ],
+  "cakupan": {
+    "lengkap": false,
+    "pasal_diekstrak": [
+      "Pasal 15",
+      "Pasal 25"
+    ],
+    "pasal_dilewati": [
+      {
+        "pasal": "Pasal 1",
+        "alasan": "retrofit: belum ditinjau (migrasi data pilot)"
+      },
+      {
+        "pasal": "Pasal 2",
+        "alasan": "retrofit: belum ditinjau (migrasi data pilot)"
+      },
+      {
+        "pasal": "Pasal 3",
+        "alasan": "retrofit: belum ditinjau (migrasi data pilot)"
+      },
+      {
+        "pasal": "Pasal 4",
+        "alasan": "retrofit: belum ditinjau (migrasi data pilot)"
+      },
+      {
+        "pasal": "Pasal 5",
+        "alasan": "retrofit: belum ditinjau (migrasi data pilot)"
+      },
+      {
+        "pasal": "Pasal 6",
+        "alasan": "retrofit: belum ditinjau (migrasi data pilot)"
+      },
+      {
+        "pasal": "Pasal 7",
+        "alasan": "retrofit: belum ditinjau (migrasi data pilot)"
+      },
+      {
+        "pasal": "Pasal 8",
+        "alasan": "retrofit: belum ditinjau (migrasi data pilot)"
+      },
+      {
+        "pasal": "Pasal 9",
+        "alasan": "retrofit: belum ditinjau (migrasi data pilot)"
+      },
+      {
+        "pasal": "Pasal 10",
+        "alasan": "retrofit: belum ditinjau (migrasi data pilot)"
+      },
+      {
+        "pasal": "Pasal 11",
+        "alasan": "retrofit: belum ditinjau (migrasi data pilot)"
+      },
+      {
+        "pasal": "Pasal 12",
+        "alasan": "retrofit: belum ditinjau (migrasi data pilot)"
+      },
+      {
+        "pasal": "Pasal 13",
+        "alasan": "retrofit: belum ditinjau (migrasi data pilot)"
+      },
+      {
+        "pasal": "Pasal 14",
+        "alasan": "retrofit: belum ditinjau (migrasi data pilot)"
+      },
+      {
+        "pasal": "Pasal 16",
+        "alasan": "retrofit: belum ditinjau (migrasi data pilot)"
+      },
+      {
+        "pasal": "Pasal 17",
+        "alasan": "retrofit: belum ditinjau (migrasi data pilot)"
+      },
+      {
+        "pasal": "Pasal 18",
+        "alasan": "retrofit: belum ditinjau (migrasi data pilot)"
+      },
+      {
+        "pasal": "Pasal 19",
+        "alasan": "retrofit: belum ditinjau (migrasi data pilot)"
+      },
+      {
+        "pasal": "Pasal 20",
+        "alasan": "retrofit: belum ditinjau (migrasi data pilot)"
+      },
+      {
+        "pasal": "Pasal 21",
+        "alasan": "retrofit: belum ditinjau (migrasi data pilot)"
+      },
+      {
+        "pasal": "Pasal 22",
+        "alasan": "retrofit: belum ditinjau (migrasi data pilot)"
+      },
+      {
+        "pasal": "Pasal 23",
+        "alasan": "retrofit: belum ditinjau (migrasi data pilot)"
+      },
+      {
+        "pasal": "Pasal 24",
+        "alasan": "retrofit: belum ditinjau (migrasi data pilot)"
+      },
+      {
+        "pasal": "Pasal 26",
+        "alasan": "retrofit: belum ditinjau (migrasi data pilot)"
+      },
+      {
+        "pasal": "Pasal 27",
+        "alasan": "retrofit: belum ditinjau (migrasi data pilot)"
+      },
+      {
+        "pasal": "Pasal 28",
+        "alasan": "retrofit: belum ditinjau (migrasi data pilot)"
+      },
+      {
+        "pasal": "Pasal 29",
+        "alasan": "retrofit: belum ditinjau (migrasi data pilot)"
+      },
+      {
+        "pasal": "Pasal 30",
+        "alasan": "retrofit: belum ditinjau (migrasi data pilot)"
+      },
+      {
+        "pasal": "Pasal 31",
+        "alasan": "retrofit: belum ditinjau (migrasi data pilot)"
+      },
+      {
+        "pasal": "Pasal 32",
+        "alasan": "retrofit: belum ditinjau (migrasi data pilot)"
+      },
+      {
+        "pasal": "Pasal 33",
+        "alasan": "retrofit: belum ditinjau (migrasi data pilot)"
+      },
+      {
+        "pasal": "Pasal 34",
+        "alasan": "retrofit: belum ditinjau (migrasi data pilot)"
+      },
+      {
+        "pasal": "Pasal 35",
+        "alasan": "retrofit: belum ditinjau (migrasi data pilot)"
+      },
+      {
+        "pasal": "Pasal 36",
+        "alasan": "retrofit: belum ditinjau (migrasi data pilot)"
+      },
+      {
+        "pasal": "Pasal 37",
+        "alasan": "retrofit: belum ditinjau (migrasi data pilot)"
+      },
+      {
+        "pasal": "Pasal 38",
+        "alasan": "retrofit: belum ditinjau (migrasi data pilot)"
+      }
+    ],
+    "catatan": "Retrofit dari data pilot (migrasi ke record); belum ditinjau penuh."
+  },
+  "tidak_termodelkan": []
+}

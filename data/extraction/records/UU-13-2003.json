@@ -1,0 +1,954 @@
+{
+  "spec_version": "1.0.0",
+  "vocab_version": "0.2.0",
+  "dokumen_id": "UU-13-2003",
+  "status_review": "reviewed",
+  "peraturan": {
+    "judul": "Undang-Undang Nomor 13 Tahun 2003 tentang Ketenagakerjaan",
+    "jenis": "UU",
+    "nomor": "13",
+    "tahun": "2003",
+    "sumber": "https://peraturan.bpk.go.id/Details/43013/uu-no-13-tahun-2003",
+    "status": "Berlaku",
+    "diubah_oleh": [
+      "UU-6-2023"
+    ]
+  },
+  "norma": [
+    {
+      "norm_id": "CUTI-ANGGOTA-RUMAH-MENINGGAL",
+      "topik": "Cuti",
+      "pasal": "Pasal 93 ayat (4)g",
+      "iri_individu": "ktn:CutiAnggotaRumahMeninggal",
+      "jenis": "PeristiwaCutiKhusus",
+      "kondisi": "Anggota keluarga serumah meninggal dunia",
+      "akibat": "Cuti dibayar 1 hari",
+      "parameter": [
+        {
+          "nama": "hariDibayar",
+          "nilai": "1",
+          "satuan": "hari",
+          "jenis": "nominal",
+          "pasal": "Pasal 93 ayat (4)g"
+        }
+      ],
+      "bukti": "anggota keluarga dalam satu rumah meninggal dibayar 1 hari",
+      "confidence": 0.95,
+      "dasar_keyakinan": "dikutip",
+      "catatan": ""
+    },
+    {
+      "norm_id": "CUTI-BAPTIS-ANAK",
+      "topik": "Cuti",
+      "pasal": "Pasal 93 ayat (4)d",
+      "iri_individu": "ktn:CutiBaptisAnak",
+      "jenis": "PeristiwaCutiKhusus",
+      "kondisi": "Membaptiskan anak",
+      "akibat": "Cuti dibayar 2 hari",
+      "parameter": [
+        {
+          "nama": "hariDibayar",
+          "nilai": "2",
+          "satuan": "hari",
+          "jenis": "nominal",
+          "pasal": "Pasal 93 ayat (4)d"
+        }
+      ],
+      "bukti": "membaptiskan anaknya dibayar untuk selama 2 hari",
+      "confidence": 0.95,
+      "dasar_keyakinan": "dikutip",
+      "catatan": ""
+    },
+    {
+      "norm_id": "CUTI-ISTRI-MELAHIRKAN",
+      "topik": "Cuti",
+      "pasal": "Pasal 93 ayat (4)e",
+      "iri_individu": "ktn:CutiIstriMelahirkan",
+      "jenis": "PeristiwaCutiKhusus",
+      "kondisi": "Istri melahirkan atau keguguran kandungan",
+      "akibat": "Cuti dibayar 2 hari",
+      "parameter": [
+        {
+          "nama": "hariDibayar",
+          "nilai": "2",
+          "satuan": "hari",
+          "jenis": "nominal",
+          "pasal": "Pasal 93 ayat (4)e"
+        }
+      ],
+      "bukti": "isteri melahirkan atau keguguran kandungan dibayar untuk selama 2 hari",
+      "confidence": 0.95,
+      "dasar_keyakinan": "dikutip",
+      "catatan": ""
+    },
+    {
+      "norm_id": "CUTI-KELUARGA-MENINGGAL",
+      "topik": "Cuti",
+      "pasal": "Pasal 93 ayat (4)f",
+      "iri_individu": "ktn:CutiKeluargaMeninggal",
+      "jenis": "PeristiwaCutiKhusus",
+      "kondisi": "Keluarga inti meninggal dunia",
+      "akibat": "Cuti dibayar 2 hari",
+      "parameter": [
+        {
+          "nama": "hariDibayar",
+          "nilai": "2",
+          "satuan": "hari",
+          "jenis": "nominal",
+          "pasal": "Pasal 93 ayat (4)f"
+        }
+      ],
+      "bukti": "suami/isteri orang tua/mertua atau anak atau menantu meninggal dibayar 2 hari",
+      "confidence": 0.95,
+      "dasar_keyakinan": "dikutip",
+      "catatan": ""
+    },
+    {
+      "norm_id": "CUTI-KHITAN-ANAK",
+      "topik": "Cuti",
+      "pasal": "Pasal 93 ayat (4)c",
+      "iri_individu": "ktn:CutiKhitanAnak",
+      "jenis": "PeristiwaCutiKhusus",
+      "kondisi": "Mengkhitankan anak",
+      "akibat": "Cuti dibayar 2 hari",
+      "parameter": [
+        {
+          "nama": "hariDibayar",
+          "nilai": "2",
+          "satuan": "hari",
+          "jenis": "nominal",
+          "pasal": "Pasal 93 ayat (4)c"
+        }
+      ],
+      "bukti": "mengkhitankan anaknya dibayar untuk selama 2 hari",
+      "confidence": 0.95,
+      "dasar_keyakinan": "dikutip",
+      "catatan": ""
+    },
+    {
+      "norm_id": "CUTI-MENIKAH",
+      "topik": "Cuti",
+      "pasal": "Pasal 93 ayat (4)a",
+      "iri_individu": "ktn:CutiMenikah",
+      "jenis": "PeristiwaCutiKhusus",
+      "kondisi": "Pekerja menikah",
+      "akibat": "Cuti dibayar 3 hari",
+      "parameter": [
+        {
+          "nama": "hariDibayar",
+          "nilai": "3",
+          "satuan": "hari",
+          "jenis": "nominal",
+          "pasal": "Pasal 93 ayat (4)a"
+        }
+      ],
+      "bukti": "pekerja/buruh menikah dibayar untuk selama 3 hari",
+      "confidence": 0.95,
+      "dasar_keyakinan": "dikutip",
+      "catatan": ""
+    },
+    {
+      "norm_id": "CUTI-MENIKAHKAN-ANAK",
+      "topik": "Cuti",
+      "pasal": "Pasal 93 ayat (4)b",
+      "iri_individu": "ktn:CutiMenikahkanAnak",
+      "jenis": "PeristiwaCutiKhusus",
+      "kondisi": "Menikahkan anak",
+      "akibat": "Cuti dibayar 2 hari",
+      "parameter": [
+        {
+          "nama": "hariDibayar",
+          "nilai": "2",
+          "satuan": "hari",
+          "jenis": "nominal",
+          "pasal": "Pasal 93 ayat (4)b"
+        }
+      ],
+      "bukti": "menikahkan anaknya dibayar untuk selama 2 hari",
+      "confidence": 0.95,
+      "dasar_keyakinan": "dikutip",
+      "catatan": ""
+    }
+  ],
+  "kategori": [],
+  "pengali_lembur": [],
+  "program_jamsos": [],
+  "cakupan": {
+    "lengkap": false,
+    "pasal_diekstrak": [
+      "Pasal 93"
+    ],
+    "pasal_dilewati": [
+      {
+        "pasal": "Pasal 1",
+        "alasan": "retrofit: belum ditinjau (migrasi data pilot)"
+      },
+      {
+        "pasal": "Pasal 2",
+        "alasan": "retrofit: belum ditinjau (migrasi data pilot)"
+      },
+      {
+        "pasal": "Pasal 3",
+        "alasan": "retrofit: belum ditinjau (migrasi data pilot)"
+      },
+      {
+        "pasal": "Pasal 4",
+        "alasan": "retrofit: belum ditinjau (migrasi data pilot)"
+      },
+      {
+        "pasal": "Pasal 5",
+        "alasan": "retrofit: belum ditinjau (migrasi data pilot)"
+      },
+      {
+        "pasal": "Pasal 6",
+        "alasan": "retrofit: belum ditinjau (migrasi data pilot)"
+      },
+      {
+        "pasal": "Pasal 7",
+        "alasan": "retrofit: belum ditinjau (migrasi data pilot)"
+      },
+      {
+        "pasal": "Pasal 8",
+        "alasan": "retrofit: belum ditinjau (migrasi data pilot)"
+      },
+      {
+        "pasal": "Pasal 9",
+        "alasan": "retrofit: belum ditinjau (migrasi data pilot)"
+      },
+      {
+        "pasal": "Pasal 10",
+        "alasan": "retrofit: belum ditinjau (migrasi data pilot)"
+      },
+      {
+        "pasal": "Pasal 11",
+        "alasan": "retrofit: belum ditinjau (migrasi data pilot)"
+      },
+      {
+        "pasal": "Pasal 12",
+        "alasan": "retrofit: belum ditinjau (migrasi data pilot)"
+      },
+      {
+        "pasal": "Pasal 13",
+        "alasan": "retrofit: belum ditinjau (migrasi data pilot)"
+      },
+      {
+        "pasal": "Pasal 14",
+        "alasan": "retrofit: belum ditinjau (migrasi data pilot)"
+      },
+      {
+        "pasal": "Pasal 15",
+        "alasan": "retrofit: belum ditinjau (migrasi data pilot)"
+      },
+      {
+        "pasal": "Pasal 16",
+        "alasan": "retrofit: belum ditinjau (migrasi data pilot)"
+      },
+      {
+        "pasal": "Pasal 17",
+        "alasan": "retrofit: belum ditinjau (migrasi data pilot)"
+      },
+      {
+        "pasal": "Pasal 18",
+        "alasan": "retrofit: belum ditinjau (migrasi data pilot)"
+      },
+      {
+        "pasal": "Pasal 19",
+        "alasan": "retrofit: belum ditinjau (migrasi data pilot)"
+      },
+      {
+        "pasal": "Pasal 20",
+        "alasan": "retrofit: belum ditinjau (migrasi data pilot)"
+      },
+      {
+        "pasal": "Pasal 21",
+        "alasan": "retrofit: belum ditinjau (migrasi data pilot)"
+      },
+      {
+        "pasal": "Pasal 22",
+        "alasan": "retrofit: belum ditinjau (migrasi data pilot)"
+      },
+      {
+        "pasal": "Pasal 23",
+        "alasan": "retrofit: belum ditinjau (migrasi data pilot)"
+      },
+      {
+        "pasal": "Pasal 24",
+        "alasan": "retrofit: belum ditinjau (migrasi data pilot)"
+      },
+      {
+        "pasal": "Pasal 25",
+        "alasan": "retrofit: belum ditinjau (migrasi data pilot)"
+      },
+      {
+        "pasal": "Pasal 27",
+        "alasan": "retrofit: belum ditinjau (migrasi data pilot)"
+      },
+      {
+        "pasal": "Pasal 28",
+        "alasan": "retrofit: belum ditinjau (migrasi data pilot)"
+      },
+      {
+        "pasal": "Pasal 29",
+        "alasan": "retrofit: belum ditinjau (migrasi data pilot)"
+      },
+      {
+        "pasal": "Pasal 30",
+        "alasan": "retrofit: belum ditinjau (migrasi data pilot)"
+      },
+      {
+        "pasal": "Pasal 31",
+        "alasan": "retrofit: belum ditinjau (migrasi data pilot)"
+      },
+      {
+        "pasal": "Pasal 32",
+        "alasan": "retrofit: belum ditinjau (migrasi data pilot)"
+      },
+      {
+        "pasal": "Pasal 33",
+        "alasan": "retrofit: belum ditinjau (migrasi data pilot)"
+      },
+      {
+        "pasal": "Pasal 34",
+        "alasan": "retrofit: belum ditinjau (migrasi data pilot)"
+      },
+      {
+        "pasal": "Pasal 35",
+        "alasan": "retrofit: belum ditinjau (migrasi data pilot)"
+      },
+      {
+        "pasal": "Pasal 36",
+        "alasan": "retrofit: belum ditinjau (migrasi data pilot)"
+      },
+      {
+        "pasal": "Pasal 37",
+        "alasan": "retrofit: belum ditinjau (migrasi data pilot)"
+      },
+      {
+        "pasal": "Pasal 38",
+        "alasan": "retrofit: belum ditinjau (migrasi data pilot)"
+      },
+      {
+        "pasal": "Pasal 39",
+        "alasan": "retrofit: belum ditinjau (migrasi data pilot)"
+      },
+      {
+        "pasal": "Pasal 40",
+        "alasan": "retrofit: belum ditinjau (migrasi data pilot)"
+      },
+      {
+        "pasal": "Pasal 41",
+        "alasan": "retrofit: belum ditinjau (migrasi data pilot)"
+      },
+      {
+        "pasal": "Pasal 42",
+        "alasan": "retrofit: belum ditinjau (migrasi data pilot)"
+      },
+      {
+        "pasal": "Pasal 43",
+        "alasan": "retrofit: belum ditinjau (migrasi data pilot)"
+      },
+      {
+        "pasal": "Pasal 44",
+        "alasan": "retrofit: belum ditinjau (migrasi data pilot)"
+      },
+      {
+        "pasal": "Pasal 45",
+        "alasan": "retrofit: belum ditinjau (migrasi data pilot)"
+      },
+      {
+        "pasal": "Pasal 46",
+        "alasan": "retrofit: belum ditinjau (migrasi data pilot)"
+      },
+      {
+        "pasal": "Pasal 47",
+        "alasan": "retrofit: belum ditinjau (migrasi data pilot)"
+      },
+      {
+        "pasal": "Pasal 48",
+        "alasan": "retrofit: belum ditinjau (migrasi data pilot)"
+      },
+      {
+        "pasal": "Pasal 49",
+        "alasan": "retrofit: belum ditinjau (migrasi data pilot)"
+      },
+      {
+        "pasal": "Pasal 50",
+        "alasan": "retrofit: belum ditinjau (migrasi data pilot)"
+      },
+      {
+        "pasal": "Pasal 51",
+        "alasan": "retrofit: belum ditinjau (migrasi data pilot)"
+      },
+      {
+        "pasal": "Pasal 52",
+        "alasan": "retrofit: belum ditinjau (migrasi data pilot)"
+      },
+      {
+        "pasal": "Pasal 53",
+        "alasan": "retrofit: belum ditinjau (migrasi data pilot)"
+      },
+      {
+        "pasal": "Pasal 54",
+        "alasan": "retrofit: belum ditinjau (migrasi data pilot)"
+      },
+      {
+        "pasal": "Pasal 55",
+        "alasan": "retrofit: belum ditinjau (migrasi data pilot)"
+      },
+      {
+        "pasal": "Pasal 56",
+        "alasan": "retrofit: belum ditinjau (migrasi data pilot)"
+      },
+      {
+        "pasal": "Pasal 57",
+        "alasan": "retrofit: belum ditinjau (migrasi data pilot)"
+      },
+      {
+        "pasal": "Pasal 58",
+        "alasan": "retrofit: belum ditinjau (migrasi data pilot)"
+      },
+      {
+        "pasal": "Pasal 59",
+        "alasan": "retrofit: belum ditinjau (migrasi data pilot)"
+      },
+      {
+        "pasal": "Pasal 60",
+        "alasan": "retrofit: belum ditinjau (migrasi data pilot)"
+      },
+      {
+        "pasal": "Pasal 61",
+        "alasan": "retrofit: belum ditinjau (migrasi data pilot)"
+      },
+      {
+        "pasal": "Pasal 62",
+        "alasan": "retrofit: belum ditinjau (migrasi data pilot)"
+      },
+      {
+        "pasal": "Pasal 63",
+        "alasan": "retrofit: belum ditinjau (migrasi data pilot)"
+      },
+      {
+        "pasal": "Pasal 64",
+        "alasan": "retrofit: belum ditinjau (migrasi data pilot)"
+      },
+      {
+        "pasal": "Pasal 65",
+        "alasan": "retrofit: belum ditinjau (migrasi data pilot)"
+      },
+      {
+        "pasal": "Pasal 66",
+        "alasan": "retrofit: belum ditinjau (migrasi data pilot)"
+      },
+      {
+        "pasal": "Pasal 67",
+        "alasan": "retrofit: belum ditinjau (migrasi data pilot)"
+      },
+      {
+        "pasal": "Pasal 68",
+        "alasan": "retrofit: belum ditinjau (migrasi data pilot)"
+      },
+      {
+        "pasal": "Pasal 69",
+        "alasan": "retrofit: belum ditinjau (migrasi data pilot)"
+      },
+      {
+        "pasal": "Pasal 70",
+        "alasan": "retrofit: belum ditinjau (migrasi data pilot)"
+      },
+      {
+        "pasal": "Pasal 71",
+        "alasan": "retrofit: belum ditinjau (migrasi data pilot)"
+      },
+      {
+        "pasal": "Pasal 72",
+        "alasan": "retrofit: belum ditinjau (migrasi data pilot)"
+      },
+      {
+        "pasal": "Pasal 73",
+        "alasan": "retrofit: belum ditinjau (migrasi data pilot)"
+      },
+      {
+        "pasal": "Pasal 74",
+        "alasan": "retrofit: belum ditinjau (migrasi data pilot)"
+      },
+      {
+        "pasal": "Pasal 75",
+        "alasan": "retrofit: belum ditinjau (migrasi data pilot)"
+      },
+      {
+        "pasal": "Pasal 76",
+        "alasan": "retrofit: belum ditinjau (migrasi data pilot)"
+      },
+      {
+        "pasal": "Pasal 77",
+        "alasan": "retrofit: belum ditinjau (migrasi data pilot)"
+      },
+      {
+        "pasal": "Pasal 78",
+        "alasan": "retrofit: belum ditinjau (migrasi data pilot)"
+      },
+      {
+        "pasal": "Pasal 79",
+        "alasan": "retrofit: belum ditinjau (migrasi data pilot)"
+      },
+      {
+        "pasal": "Pasal 80",
+        "alasan": "retrofit: belum ditinjau (migrasi data pilot)"
+      },
+      {
+        "pasal": "Pasal 81",
+        "alasan": "retrofit: belum ditinjau (migrasi data pilot)"
+      },
+      {
+        "pasal": "Pasal 82",
+        "alasan": "retrofit: belum ditinjau (migrasi data pilot)"
+      },
+      {
+        "pasal": "Pasal 83",
+        "alasan": "retrofit: belum ditinjau (migrasi data pilot)"
+      },
+      {
+        "pasal": "Pasal 84",
+        "alasan": "retrofit: belum ditinjau (migrasi data pilot)"
+      },
+      {
+        "pasal": "Pasal 85",
+        "alasan": "retrofit: belum ditinjau (migrasi data pilot)"
+      },
+      {
+        "pasal": "Pasal 86",
+        "alasan": "retrofit: belum ditinjau (migrasi data pilot)"
+      },
+      {
+        "pasal": "Pasal 87",
+        "alasan": "retrofit: belum ditinjau (migrasi data pilot)"
+      },
+      {
+        "pasal": "Pasal 88",
+        "alasan": "retrofit: belum ditinjau (migrasi data pilot)"
+      },
+      {
+        "pasal": "Pasal 89",
+        "alasan": "retrofit: belum ditinjau (migrasi data pilot)"
+      },
+      {
+        "pasal": "Pasal 90",
+        "alasan": "retrofit: belum ditinjau (migrasi data pilot)"
+      },
+      {
+        "pasal": "Pasal 91",
+        "alasan": "retrofit: belum ditinjau (migrasi data pilot)"
+      },
+      {
+        "pasal": "Pasal 92",
+        "alasan": "retrofit: belum ditinjau (migrasi data pilot)"
+      },
+      {
+        "pasal": "Pasal 94",
+        "alasan": "retrofit: belum ditinjau (migrasi data pilot)"
+      },
+      {
+        "pasal": "Pasal 95",
+        "alasan": "retrofit: belum ditinjau (migrasi data pilot)"
+      },
+      {
+        "pasal": "Pasal 96",
+        "alasan": "retrofit: belum ditinjau (migrasi data pilot)"
+      },
+      {
+        "pasal": "Pasal 97",
+        "alasan": "retrofit: belum ditinjau (migrasi data pilot)"
+      },
+      {
+        "pasal": "Pasal 98",
+        "alasan": "retrofit: belum ditinjau (migrasi data pilot)"
+      },
+      {
+        "pasal": "Pasal 99",
+        "alasan": "retrofit: belum ditinjau (migrasi data pilot)"
+      },
+      {
+        "pasal": "Pasal 100",
+        "alasan": "retrofit: belum ditinjau (migrasi data pilot)"
+      },
+      {
+        "pasal": "Pasal 101",
+        "alasan": "retrofit: belum ditinjau (migrasi data pilot)"
+      },
+      {
+        "pasal": "Pasal 102",
+        "alasan": "retrofit: belum ditinjau (migrasi data pilot)"
+      },
+      {
+        "pasal": "Pasal 103",
+        "alasan": "retrofit: belum ditinjau (migrasi data pilot)"
+      },
+      {
+        "pasal": "Pasal 104",
+        "alasan": "retrofit: belum ditinjau (migrasi data pilot)"
+      },
+      {
+        "pasal": "Pasal 105",
+        "alasan": "retrofit: belum ditinjau (migrasi data pilot)"
+      },
+      {
+        "pasal": "Pasal 106",
+        "alasan": "retrofit: belum ditinjau (migrasi data pilot)"
+      },
+      {
+        "pasal": "Pasal 107",
+        "alasan": "retrofit: belum ditinjau (migrasi data pilot)"
+      },
+      {
+        "pasal": "Pasal 108",
+        "alasan": "retrofit: belum ditinjau (migrasi data pilot)"
+      },
+      {
+        "pasal": "Pasal 109",
+        "alasan": "retrofit: belum ditinjau (migrasi data pilot)"
+      },
+      {
+        "pasal": "Pasal 110",
+        "alasan": "retrofit: belum ditinjau (migrasi data pilot)"
+      },
+      {
+        "pasal": "Pasal 111",
+        "alasan": "retrofit: belum ditinjau (migrasi data pilot)"
+      },
+      {
+        "pasal": "Pasal 112",
+        "alasan": "retrofit: belum ditinjau (migrasi data pilot)"
+      },
+      {
+        "pasal": "Pasal 113",
+        "alasan": "retrofit: belum ditinjau (migrasi data pilot)"
+      },
+      {
+        "pasal": "Pasal 114",
+        "alasan": "retrofit: belum ditinjau (migrasi data pilot)"
+      },
+      {
+        "pasal": "Pasal 115",
+        "alasan": "retrofit: belum ditinjau (migrasi data pilot)"
+      },
+      {
+        "pasal": "Pasal 116",
+        "alasan": "retrofit: belum ditinjau (migrasi data pilot)"
+      },
+      {
+        "pasal": "Pasal 117",
+        "alasan": "retrofit: belum ditinjau (migrasi data pilot)"
+      },
+      {
+        "pasal": "Pasal 118",
+        "alasan": "retrofit: belum ditinjau (migrasi data pilot)"
+      },
+      {
+        "pasal": "Pasal 119",
+        "alasan": "retrofit: belum ditinjau (migrasi data pilot)"
+      },
+      {
+        "pasal": "Pasal 120",
+        "alasan": "retrofit: belum ditinjau (migrasi data pilot)"
+      },
+      {
+        "pasal": "Pasal 121",
+        "alasan": "retrofit: belum ditinjau (migrasi data pilot)"
+      },
+      {
+        "pasal": "Pasal 122",
+        "alasan": "retrofit: belum ditinjau (migrasi data pilot)"
+      },
+      {
+        "pasal": "Pasal 123",
+        "alasan": "retrofit: belum ditinjau (migrasi data pilot)"
+      },
+      {
+        "pasal": "Pasal 124",
+        "alasan": "retrofit: belum ditinjau (migrasi data pilot)"
+      },
+      {
+        "pasal": "Pasal 125",
+        "alasan": "retrofit: belum ditinjau (migrasi data pilot)"
+      },
+      {
+        "pasal": "Pasal 126",
+        "alasan": "retrofit: belum ditinjau (migrasi data pilot)"
+      },
+      {
+        "pasal": "Pasal 127",
+        "alasan": "retrofit: belum ditinjau (migrasi data pilot)"
+      },
+      {
+        "pasal": "Pasal 128",
+        "alasan": "retrofit: belum ditinjau (migrasi data pilot)"
+      },
+      {
+        "pasal": "Pasal 129",
+        "alasan": "retrofit: belum ditinjau (migrasi data pilot)"
+      },
+      {
+        "pasal": "Pasal 130",
+        "alasan": "retrofit: belum ditinjau (migrasi data pilot)"
+      },
+      {
+        "pasal": "Pasal 131",
+        "alasan": "retrofit: belum ditinjau (migrasi data pilot)"
+      },
+      {
+        "pasal": "Pasal 132",
+        "alasan": "retrofit: belum ditinjau (migrasi data pilot)"
+      },
+      {
+        "pasal": "Pasal 133",
+        "alasan": "retrofit: belum ditinjau (migrasi data pilot)"
+      },
+      {
+        "pasal": "Pasal 134",
+        "alasan": "retrofit: belum ditinjau (migrasi data pilot)"
+      },
+      {
+        "pasal": "Pasal 135",
+        "alasan": "retrofit: belum ditinjau (migrasi data pilot)"
+      },
+      {
+        "pasal": "Pasal 136",
+        "alasan": "retrofit: belum ditinjau (migrasi data pilot)"
+      },
+      {
+        "pasal": "Pasal 137",
+        "alasan": "retrofit: belum ditinjau (migrasi data pilot)"
+      },
+      {
+        "pasal": "Pasal 138",
+        "alasan": "retrofit: belum ditinjau (migrasi data pilot)"
+      },
+      {
+        "pasal": "Pasal 139",
+        "alasan": "retrofit: belum ditinjau (migrasi data pilot)"
+      },
+      {
+        "pasal": "Pasal 140",
+        "alasan": "retrofit: belum ditinjau (migrasi data pilot)"
+      },
+      {
+        "pasal": "Pasal 141",
+        "alasan": "retrofit: belum ditinjau (migrasi data pilot)"
+      },
+      {
+        "pasal": "Pasal 142",
+        "alasan": "retrofit: belum ditinjau (migrasi data pilot)"
+      },
+      {
+        "pasal": "Pasal 143",
+        "alasan": "retrofit: belum ditinjau (migrasi data pilot)"
+      },
+      {
+        "pasal": "Pasal 144",
+        "alasan": "retrofit: belum ditinjau (migrasi data pilot)"
+      },
+      {
+        "pasal": "Pasal 145",
+        "alasan": "retrofit: belum ditinjau (migrasi data pilot)"
+      },
+      {
+        "pasal": "Pasal 146",
+        "alasan": "retrofit: belum ditinjau (migrasi data pilot)"
+      },
+      {
+        "pasal": "Pasal 147",
+        "alasan": "retrofit: belum ditinjau (migrasi data pilot)"
+      },
+      {
+        "pasal": "Pasal 148",
+        "alasan": "retrofit: belum ditinjau (migrasi data pilot)"
+      },
+      {
+        "pasal": "Pasal 149",
+        "alasan": "retrofit: belum ditinjau (migrasi data pilot)"
+      },
+      {
+        "pasal": "Pasal 150",
+        "alasan": "retrofit: belum ditinjau (migrasi data pilot)"
+      },
+      {
+        "pasal": "Pasal 151",
+        "alasan": "retrofit: belum ditinjau (migrasi data pilot)"
+      },
+      {
+        "pasal": "Pasal 152",
+        "alasan": "retrofit: belum ditinjau (migrasi data pilot)"
+      },
+      {
+        "pasal": "Pasal 153",
+        "alasan": "retrofit: belum ditinjau (migrasi data pilot)"
+      },
+      {
+        "pasal": "Pasal 154",
+        "alasan": "retrofit: belum ditinjau (migrasi data pilot)"
+      },
+      {
+        "pasal": "Pasal 155",
+        "alasan": "retrofit: belum ditinjau (migrasi data pilot)"
+      },
+      {
+        "pasal": "Pasal 156",
+        "alasan": "retrofit: belum ditinjau (migrasi data pilot)"
+      },
+      {
+        "pasal": "Pasal 157",
+        "alasan": "retrofit: belum ditinjau (migrasi data pilot)"
+      },
+      {
+        "pasal": "Pasal 158",
+        "alasan": "retrofit: belum ditinjau (migrasi data pilot)"
+      },
+      {
+        "pasal": "Pasal 159",
+        "alasan": "retrofit: belum ditinjau (migrasi data pilot)"
+      },
+      {
+        "pasal": "Pasal 160",
+        "alasan": "retrofit: belum ditinjau (migrasi data pilot)"
+      },
+      {
+        "pasal": "Pasal 161",
+        "alasan": "retrofit: belum ditinjau (migrasi data pilot)"
+      },
+      {
+        "pasal": "Pasal 162",
+        "alasan": "retrofit: belum ditinjau (migrasi data pilot)"
+      },
+      {
+        "pasal": "Pasal 163",
+        "alasan": "retrofit: belum ditinjau (migrasi data pilot)"
+      },
+      {
+        "pasal": "Pasal 164",
+        "alasan": "retrofit: belum ditinjau (migrasi data pilot)"
+      },
+      {
+        "pasal": "Pasal 165",
+        "alasan": "retrofit: belum ditinjau (migrasi data pilot)"
+      },
+      {
+        "pasal": "Pasal 166",
+        "alasan": "retrofit: belum ditinjau (migrasi data pilot)"
+      },
+      {
+        "pasal": "Pasal 167",
+        "alasan": "retrofit: belum ditinjau (migrasi data pilot)"
+      },
+      {
+        "pasal": "Pasal 168",
+        "alasan": "retrofit: belum ditinjau (migrasi data pilot)"
+      },
+      {
+        "pasal": "Pasal 169",
+        "alasan": "retrofit: belum ditinjau (migrasi data pilot)"
+      },
+      {
+        "pasal": "Pasal 170",
+        "alasan": "retrofit: belum ditinjau (migrasi data pilot)"
+      },
+      {
+        "pasal": "Pasal 171",
+        "alasan": "retrofit: belum ditinjau (migrasi data pilot)"
+      },
+      {
+        "pasal": "Pasal 172",
+        "alasan": "retrofit: belum ditinjau (migrasi data pilot)"
+      },
+      {
+        "pasal": "Pasal 173",
+        "alasan": "retrofit: belum ditinjau (migrasi data pilot)"
+      },
+      {
+        "pasal": "Pasal 174",
+        "alasan": "retrofit: belum ditinjau (migrasi data pilot)"
+      },
+      {
+        "pasal": "Pasal 175",
+        "alasan": "retrofit: belum ditinjau (migrasi data pilot)"
+      },
+      {
+        "pasal": "Pasal 176",
+        "alasan": "retrofit: belum ditinjau (migrasi data pilot)"
+      },
+      {
+        "pasal": "Pasal 177",
+        "alasan": "retrofit: belum ditinjau (migrasi data pilot)"
+      },
+      {
+        "pasal": "Pasal 178",
+        "alasan": "retrofit: belum ditinjau (migrasi data pilot)"
+      },
+      {
+        "pasal": "Pasal 179",
+        "alasan": "retrofit: belum ditinjau (migrasi data pilot)"
+      },
+      {
+        "pasal": "Pasal 180",
+        "alasan": "retrofit: belum ditinjau (migrasi data pilot)"
+      },
+      {
+        "pasal": "Pasal 181",
+        "alasan": "retrofit: belum ditinjau (migrasi data pilot)"
+      },
+      {
+        "pasal": "Pasal 182",
+        "alasan": "retrofit: belum ditinjau (migrasi data pilot)"
+      },
+      {
+        "pasal": "Pasal 183",
+        "alasan": "retrofit: belum ditinjau (migrasi data pilot)"
+      },
+      {
+        "pasal": "Pasal 184",
+        "alasan": "retrofit: belum ditinjau (migrasi data pilot)"
+      },
+      {
+        "pasal": "Pasal 185",
+        "alasan": "retrofit: belum ditinjau (migrasi data pilot)"
+      },
+      {
+        "pasal": "Pasal 186",
+        "alasan": "retrofit: belum ditinjau (migrasi data pilot)"
+      },
+      {
+        "pasal": "Pasal 187",
+        "alasan": "retrofit: belum ditinjau (migrasi data pilot)"
+      },
+      {
+        "pasal": "Pasal 188",
+        "alasan": "retrofit: belum ditinjau (migrasi data pilot)"
+      },
+      {
+        "pasal": "Pasal 189",
+        "alasan": "retrofit: belum ditinjau (migrasi data pilot)"
+      },
+      {
+        "pasal": "Pasal 190",
+        "alasan": "retrofit: belum ditinjau (migrasi data pilot)"
+      },
+      {
+        "pasal": "Pasal 191",
+        "alasan": "retrofit: belum ditinjau (migrasi data pilot)"
+      },
+      {
+        "pasal": "Pasal 192",
+        "alasan": "retrofit: belum ditinjau (migrasi data pilot)"
+      },
+      {
+        "pasal": "Pasal 193",
+        "alasan": "retrofit: belum ditinjau (migrasi data pilot)"
+      },
+      {
+        "pasal": "Pasal 26",
+        "alasan": "retrofit: belum ditinjau (migrasi data pilot)"
+      }
+    ],
+    "catatan": "Retrofit dari data pilot (migrasi ke record); belum ditinjau penuh."
+  },
+  "tidak_termodelkan": []
+}

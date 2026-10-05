@@ -1,0 +1,74 @@
+{
+  "spec_version": "1.0.0",
+  "vocab_version": "0.2.0",
+  "dokumen_id": "PP-34-2021",
+  "status_review": "reviewed",
+  "peraturan": {
+    "judul": "Peraturan Pemerintah Nomor 34 Tahun 2021 tentang Penggunaan Tenaga Kerja Asing",
+    "jenis": "PP",
+    "nomor": "34",
+    "tahun": "2021",
+    "sumber": "https://peraturan.bpk.go.id/Details/161898/pp-no-34-tahun-2021",
+    "status": "Berlaku",
+    "diubah_oleh": []
+  },
+  "norma": [
+    {
+      "norm_id": "TKA-UTAMAKAN-TENAGA-KERJA-INDONESIA",
+      "topik": "TKA",
+      "pasal": "Pasal 2 ayat (1)",
+      "iri_individu": "ktn:UtamakanTenagaKerjaIndonesia",
+      "jenis": "KetentuanTKA",
+      "kondisi": "Setiap Pemberi Kerja TKA pada semua jenis jabatan yang tersedia",
+      "akibat": "Wajib mengutamakan penggunaan tenaga kerja Indonesia",
+      "parameter": [],
+      "bukti": "Setiap Pemberi Kerja TKA wajib mengutamakan penggunaan tenaga kerja Indonesia pada semua jenis jabatan yang tersedia.",
+      "confidence": 0.95,
+      "dasar_keyakinan": "dikutip",
+      "catatan": ""
+    },
+    {
+      "norm_id": "TKA-JABATAN-DAPAT-DIDUDUKI-TKA",
+      "topik": "TKA",
+      "pasal": "Pasal 2 ayat (2)",
+      "iri_individu": "ktn:JabatanDapatDidudukiTKA",
+      "jenis": "KetentuanTKA",
+      "kondisi": "Jabatan belum dapat diduduki tenaga kerja Indonesia",
+      "akibat": "Jabatan dapat diduduki oleh TKA dengan memperhatikan kondisi pasar kerja dalam negeri",
+      "parameter": [],
+      "bukti": "Dalam hal jabatan sebagaimana dimaksud pada ayat (1) belum dapat diduduki oleh tenaga kerja Indonesia, jabatan tersebut dapat diduduki oleh TKA.",
+      "confidence": 0.95,
+      "dasar_keyakinan": "dikutip",
+      "catatan": "Pasal 2 ayat (3) menambahkan syarat memperhatikan kondisi pasar kerja dalam negeri."
+    }
+  ],
+  "kategori": [],
+  "pengali_lembur": [],
+  "program_jamsos": [],
+  "cakupan": {
+    "lengkap": false,
+    "pasal_diekstrak": ["Pasal 2"],
+    "pasal_dilewati": [
+      { "pasal": "Pasal 3", "alasan": "kewajiban pemberi kerja TKA (RPTKA/DKPTKA), administratif" },
+      { "pasal": "Pasal 16", "alasan": "prosedur pengesahan RPTKA" },
+      { "pasal": "Pasal 20", "alasan": "TKA keadaan darurat/kunjungan bisnis/penelitian" },
+      { "pasal": "Pasal 21", "alasan": "perpanjangan pengesahan RPTKA" },
+      { "pasal": "Pasal 33", "alasan": "penyediaan data TKA" },
+      { "pasal": "Pasal 34", "alasan": "pembinaan penggunaan TKA" },
+      { "pasal": "Pasal 35", "alasan": "pengawasan penggunaan TKA" },
+      { "pasal": "Pasal 36", "alasan": "sanksi administratif" },
+      { "pasal": "Pasal 41", "alasan": "pencabutan pengesahan RPTKA" },
+      { "pasal": "Pasal 42", "alasan": "ketentuan lebih lanjut sanksi" },
+      { "pasal": "Pasal 43", "alasan": "pendanaan" },
+      { "pasal": "Pasal 44", "alasan": "ketentuan lain-lain (data terintegrasi)" }
+    ],
+    "catatan": "Kualitas markdown sangat buruk: PDF hasil scan, OCR hanya menghasilkan sebagian pasal (heading 'Pasal2'/'Pasal3...' dan isi terpotong). Sebagian besar pasal 3-44 tidak terwakili. Pasal di luar urutan (mis. Pasal 185) adalah artefak OCR dari bagian Mengingat. Dokumen perlu diekstrak ulang dengan OCR lebih baik sebelum review penuh. Isi di luar Pasal 2 ditandai untuk peninjauan ulang."
+  },
+  "tidak_termodelkan": [
+    {
+      "pasal": "Pasal 3-15",
+      "ringkasan": "Kewajiban/larangan pemberi kerja TKA, pengesahan RPTKA, DKPTKA",
+      "alasan": "butuh kelas KetentuanTKA yang lebih kaya + properti RPTKA/DKPTKA; dan markdown tidak lengkap"
+    }
+  ]
+}
