@@ -1,7 +1,7 @@
 # =====================================================================
 # BERKAS DIGENERATE. JANGAN EDIT MANUAL.
 # Sumber   : data/norma.csv, parameter.csv, kategori.csv, pengali_lembur.csv, program_jamsos.csv
-# Hasilkan : .venv/bin/python scripts/build_ontology.py
+# Hasilkan : uv run python scripts/build_ontology.py
 # =====================================================================
 
 @prefix ktn:  <https://example.org/kbr/ketenagakerjaan#> .
@@ -20,34 +20,41 @@
 ktn:CutiAnggotaRumahMeninggal a owl:NamedIndividual, ktn:PeristiwaCutiKhusus ;
     ktn:hariDibayar 1 ;
     ktn:pasal "Pasal 93 ayat (4)g" ;
+    ktn:berkaitanTopik ktn:TopikCuti ;
     dct:source reg:UU-13-2003 .
 
 ktn:CutiBaptisAnak a owl:NamedIndividual, ktn:PeristiwaCutiKhusus ;
     ktn:hariDibayar 2 ;
     ktn:pasal "Pasal 93 ayat (4)d" ;
+    ktn:berkaitanTopik ktn:TopikCuti ;
     dct:source reg:UU-13-2003 .
 
 ktn:CutiIstriMelahirkan a owl:NamedIndividual, ktn:PeristiwaCutiKhusus ;
     ktn:hariDibayar 2 ;
     ktn:pasal "Pasal 93 ayat (4)e" ;
+    ktn:berkaitanTopik ktn:TopikCuti ;
     dct:source reg:UU-13-2003 .
 
 ktn:CutiKeluargaMeninggal a owl:NamedIndividual, ktn:PeristiwaCutiKhusus ;
     ktn:hariDibayar 2 ;
     ktn:pasal "Pasal 93 ayat (4)f" ;
+    ktn:berkaitanTopik ktn:TopikCuti ;
     dct:source reg:UU-13-2003 .
 
 ktn:CutiKhitanAnak a owl:NamedIndividual, ktn:PeristiwaCutiKhusus ;
     ktn:hariDibayar 2 ;
     ktn:pasal "Pasal 93 ayat (4)c" ;
+    ktn:berkaitanTopik ktn:TopikCuti ;
     dct:source reg:UU-13-2003 .
 
 ktn:CutiMenikah a owl:NamedIndividual, ktn:PeristiwaCutiKhusus ;
     ktn:hariDibayar 3 ;
     ktn:pasal "Pasal 93 ayat (4)a" ;
+    ktn:berkaitanTopik ktn:TopikCuti ;
     dct:source reg:UU-13-2003 .
 
 ktn:CutiMenikahkanAnak a owl:NamedIndividual, ktn:PeristiwaCutiKhusus ;
     ktn:hariDibayar 2 ;
     ktn:pasal "Pasal 93 ayat (4)b" ;
+    ktn:berkaitanTopik ktn:TopikCuti ;
     dct:source reg:UU-13-2003 .

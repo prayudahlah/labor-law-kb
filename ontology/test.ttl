@@ -6,8 +6,8 @@
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 @prefix dct:  <http://purl.org/dc/terms/> .
 
-<https://example.org/kbr/ketenagakerjaan/kb> a owl:Ontology ;
-    dct:title "Knowledge Base Hukum Ketenagakerjaan Indonesia" ;
+<https://example.org/kbr/ketenagakerjaan/test> a owl:Ontology ;
+    dct:title "Knowledge Base + Golden Case (uji)" ;
     owl:imports <https://example.org/kbr/ketenagakerjaan> ;
     owl:imports <https://example.org/kbr/ketenagakerjaan/meta/topik> ;
     owl:imports <https://example.org/kbr/ketenagakerjaan/rbox> ;
@@ -22,4 +22,5 @@
     owl:imports <https://example.org/kbr/ketenagakerjaan/regulasi/uu-4-2024> ;
     owl:imports <https://example.org/kbr/ketenagakerjaan/regulasi/uu-6-2023> ;
     owl:imports <https://example.org/kbr/regulasi> ;
-    owl:imports <https://example.org/kbr/regulasi/vocab> .
+    owl:imports <https://example.org/kbr/regulasi/vocab> ;
+    owl:imports <https://example.org/kbr/ketenagakerjaan/contoh/kasus> .

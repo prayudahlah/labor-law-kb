@@ -1,7 +1,7 @@
 # =====================================================================
 # BERKAS DIGENERATE. JANGAN EDIT MANUAL.
 # Sumber   : data/norma.csv, parameter.csv, kategori.csv, pengali_lembur.csv, program_jamsos.csv
-# Hasilkan : .venv/bin/python scripts/build_ontology.py
+# Hasilkan : uv run python scripts/build_ontology.py
 # =====================================================================
 
 @prefix ktn:  <https://example.org/kbr/ketenagakerjaan#> .
@@ -21,6 +21,7 @@ ktn:BatasJamLembur a owl:NamedIndividual, ktn:KetentuanLembur ;
     ktn:jamLemburMaksPerHari 4 ;
     ktn:jamLemburMaksPerMinggu 18 ;
     ktn:pasal "Pasal 78 ayat (1)b" ;
+    ktn:berkaitanTopik ktn:TopikLembur ;
     dct:source reg:UU-6-2023 .
 
 ktn:WaktuKerja5Hari a owl:NamedIndividual, ktn:KetentuanWaktuKerja ;
@@ -29,6 +30,7 @@ ktn:WaktuKerja5Hari a owl:NamedIndividual, ktn:KetentuanWaktuKerja ;
     ktn:jamKerjaPerMinggu 40 ;
     ktn:jumlahHariKerjaPerMinggu 5 ;
     ktn:pasal "Pasal 77" ;
+    ktn:berkaitanTopik ktn:TopikWaktuKerja ;
     dct:source reg:UU-6-2023 .
 
 ktn:WaktuKerja6Hari a owl:NamedIndividual, ktn:KetentuanWaktuKerja ;
@@ -37,4 +39,5 @@ ktn:WaktuKerja6Hari a owl:NamedIndividual, ktn:KetentuanWaktuKerja ;
     ktn:jamKerjaPerMinggu 40 ;
     ktn:jumlahHariKerjaPerMinggu 6 ;
     ktn:pasal "Pasal 77" ;
+    ktn:berkaitanTopik ktn:TopikWaktuKerja ;
     dct:source reg:UU-6-2023 .

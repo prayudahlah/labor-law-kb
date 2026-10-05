@@ -842,3 +842,11 @@ ktn:MemenuhiSyaratCutiPendampinganSuami a owl:Class ;
             ]
         )
     ] .
+
+# ============================================================================
+# Topik (untuk retrieval)
+# ============================================================================
+
+ktn:Topik a owl:Class ;
+    rdfs:label "Topik" ;
+    rdfs:comment "Topik hukum untuk pengelompokan norma pada retrieval." .

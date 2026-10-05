@@ -1,0 +1,18 @@
+@prefix sh:  <http://www.w3.org/ns/shacl#> .
+@prefix ktn: <https://example.org/kbr/ketenagakerjaan#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+ktn:PekerjaShape a sh:NodeShape ;
+    sh:targetClass ktn:Pekerja ;
+    sh:property [ sh:path ktn:masaKerjaBulan ; sh:minCount 1 ; sh:maxCount 1 ;
+                  sh:datatype xsd:integer ; sh:minInclusive 0 ;
+                  sh:message "masaKerjaBulan wajib ada, tunggal, integer >= 0" ] ;
+    sh:property [ sh:path ktn:upahBulanan ; sh:minCount 1 ;
+                  sh:datatype xsd:decimal ; sh:minInclusive 0 ;
+                  sh:message "upahBulanan wajib ada, decimal >= 0" ] .
+
+ktn:PHKShape a sh:NodeShape ;
+    sh:targetClass ktn:PHK ;
+    sh:property [ sh:path ktn:memilikiAlasanPHK ; sh:minCount 1 ; sh:maxCount 1 ;
+                  sh:class ktn:AlasanPHK ;
+                  sh:message "PHK wajib punya tepat satu alasan (individu AlasanPHK)" ] .

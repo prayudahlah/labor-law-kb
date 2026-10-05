@@ -1,0 +1,188 @@
+# =====================================================================
+# BERKAS DIGENERATE. JANGAN EDIT MANUAL.
+# Sumber   : data/norma.csv (kolom topik)
+# Hasilkan : uv run python scripts/build_ontology.py
+# =====================================================================
+
+@prefix ktn:  <https://example.org/kbr/ketenagakerjaan#> .
+@prefix reg:  <https://example.org/kbr/regulasi#> .
+@prefix dct:  <http://purl.org/dc/terms/> .
+@prefix owl:  <http://www.w3.org/2002/07/owl#> .
+@prefix rdf:  <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd:  <http://www.w3.org/2001/XMLSchema#> .
+
+<https://example.org/kbr/ketenagakerjaan/meta/topik> a owl:Ontology ;
+    dct:title "Topik hukum (untuk retrieval)" ;
+    owl:imports <https://example.org/kbr/ketenagakerjaan> .
+
+ktn:TopikAlihDaya a owl:NamedIndividual, ktn:Topik ;
+    rdfs:label "AlihDaya" .
+
+ktn:TopikAlihDaya a owl:NamedIndividual, ktn:Topik ;
+    rdfs:label "AlihDaya" .
+
+ktn:TopikAlihDaya a owl:NamedIndividual, ktn:Topik ;
+    rdfs:label "AlihDaya" .
+
+ktn:TopikCuti a owl:NamedIndividual, ktn:Topik ;
+    rdfs:label "Cuti" .
+
+ktn:TopikCuti a owl:NamedIndividual, ktn:Topik ;
+    rdfs:label "Cuti" .
+
+ktn:TopikCuti a owl:NamedIndividual, ktn:Topik ;
+    rdfs:label "Cuti" .
+
+ktn:TopikCuti a owl:NamedIndividual, ktn:Topik ;
+    rdfs:label "Cuti" .
+
+ktn:TopikCuti a owl:NamedIndividual, ktn:Topik ;
+    rdfs:label "Cuti" .
+
+ktn:TopikCuti a owl:NamedIndividual, ktn:Topik ;
+    rdfs:label "Cuti" .
+
+ktn:TopikCuti a owl:NamedIndividual, ktn:Topik ;
+    rdfs:label "Cuti" .
+
+ktn:TopikJamsos a owl:NamedIndividual, ktn:Topik ;
+    rdfs:label "Jamsos" .
+
+ktn:TopikJamsos a owl:NamedIndividual, ktn:Topik ;
+    rdfs:label "Jamsos" .
+
+ktn:TopikJamsos a owl:NamedIndividual, ktn:Topik ;
+    rdfs:label "Jamsos" .
+
+ktn:TopikJamsos a owl:NamedIndividual, ktn:Topik ;
+    rdfs:label "Jamsos" .
+
+ktn:TopikJamsos a owl:NamedIndividual, ktn:Topik ;
+    rdfs:label "Jamsos" .
+
+ktn:TopikKIA a owl:NamedIndividual, ktn:Topik ;
+    rdfs:label "KIA" .
+
+ktn:TopikKIA a owl:NamedIndividual, ktn:Topik ;
+    rdfs:label "KIA" .
+
+ktn:TopikKIA a owl:NamedIndividual, ktn:Topik ;
+    rdfs:label "KIA" .
+
+ktn:TopikKIA a owl:NamedIndividual, ktn:Topik ;
+    rdfs:label "KIA" .
+
+ktn:TopikKIA a owl:NamedIndividual, ktn:Topik ;
+    rdfs:label "KIA" .
+
+ktn:TopikKIA a owl:NamedIndividual, ktn:Topik ;
+    rdfs:label "KIA" .
+
+ktn:TopikLembur a owl:NamedIndividual, ktn:Topik ;
+    rdfs:label "Lembur" .
+
+ktn:TopikLembur a owl:NamedIndividual, ktn:Topik ;
+    rdfs:label "Lembur" .
+
+ktn:TopikLembur a owl:NamedIndividual, ktn:Topik ;
+    rdfs:label "Lembur" .
+
+ktn:TopikLembur a owl:NamedIndividual, ktn:Topik ;
+    rdfs:label "Lembur" .
+
+ktn:TopikPHK a owl:NamedIndividual, ktn:Topik ;
+    rdfs:label "PHK" .
+
+ktn:TopikPHK a owl:NamedIndividual, ktn:Topik ;
+    rdfs:label "PHK" .
+
+ktn:TopikPHK a owl:NamedIndividual, ktn:Topik ;
+    rdfs:label "PHK" .
+
+ktn:TopikPHK a owl:NamedIndividual, ktn:Topik ;
+    rdfs:label "PHK" .
+
+ktn:TopikPHK a owl:NamedIndividual, ktn:Topik ;
+    rdfs:label "PHK" .
+
+ktn:TopikPHK a owl:NamedIndividual, ktn:Topik ;
+    rdfs:label "PHK" .
+
+ktn:TopikPHK a owl:NamedIndividual, ktn:Topik ;
+    rdfs:label "PHK" .
+
+ktn:TopikPHK a owl:NamedIndividual, ktn:Topik ;
+    rdfs:label "PHK" .
+
+ktn:TopikPHK a owl:NamedIndividual, ktn:Topik ;
+    rdfs:label "PHK" .
+
+ktn:TopikPHK a owl:NamedIndividual, ktn:Topik ;
+    rdfs:label "PHK" .
+
+ktn:TopikPHK a owl:NamedIndividual, ktn:Topik ;
+    rdfs:label "PHK" .
+
+ktn:TopikPHK a owl:NamedIndividual, ktn:Topik ;
+    rdfs:label "PHK" .
+
+ktn:TopikPHK a owl:NamedIndividual, ktn:Topik ;
+    rdfs:label "PHK" .
+
+ktn:TopikPHK a owl:NamedIndividual, ktn:Topik ;
+    rdfs:label "PHK" .
+
+ktn:TopikPHK a owl:NamedIndividual, ktn:Topik ;
+    rdfs:label "PHK" .
+
+ktn:TopikPHK a owl:NamedIndividual, ktn:Topik ;
+    rdfs:label "PHK" .
+
+ktn:TopikPHK a owl:NamedIndividual, ktn:Topik ;
+    rdfs:label "PHK" .
+
+ktn:TopikPHK a owl:NamedIndividual, ktn:Topik ;
+    rdfs:label "PHK" .
+
+ktn:TopikPHK a owl:NamedIndividual, ktn:Topik ;
+    rdfs:label "PHK" .
+
+ktn:TopikPHK a owl:NamedIndividual, ktn:Topik ;
+    rdfs:label "PHK" .
+
+ktn:TopikPHK a owl:NamedIndividual, ktn:Topik ;
+    rdfs:label "PHK" .
+
+ktn:TopikPHK a owl:NamedIndividual, ktn:Topik ;
+    rdfs:label "PHK" .
+
+ktn:TopikPHK a owl:NamedIndividual, ktn:Topik ;
+    rdfs:label "PHK" .
+
+ktn:TopikPKWT a owl:NamedIndividual, ktn:Topik ;
+    rdfs:label "PKWT" .
+
+ktn:TopikPKWT a owl:NamedIndividual, ktn:Topik ;
+    rdfs:label "PKWT" .
+
+ktn:TopikPKWT a owl:NamedIndividual, ktn:Topik ;
+    rdfs:label "PKWT" .
+
+ktn:TopikPKWT a owl:NamedIndividual, ktn:Topik ;
+    rdfs:label "PKWT" .
+
+ktn:TopikPKWT a owl:NamedIndividual, ktn:Topik ;
+    rdfs:label "PKWT" .
+
+ktn:TopikUpah a owl:NamedIndividual, ktn:Topik ;
+    rdfs:label "Upah" .
+
+ktn:TopikUpah a owl:NamedIndividual, ktn:Topik ;
+    rdfs:label "Upah" .
+
+ktn:TopikWaktuKerja a owl:NamedIndividual, ktn:Topik ;
+    rdfs:label "WaktuKerja" .
+
+ktn:TopikWaktuKerja a owl:NamedIndividual, ktn:Topik ;
+    rdfs:label "WaktuKerja" .

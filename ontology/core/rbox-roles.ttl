@@ -100,3 +100,11 @@ ktn:mengerjakanLembur a owl:ObjectProperty ;
     rdfs:label "mengerjakan lembur" ;
     rdfs:domain ktn:Pekerja ;
     rdfs:range ktn:Lembur .
+
+# ============================================================================
+# Topik (untuk retrieval)
+# ============================================================================
+
+ktn:berkaitanTopik a owl:ObjectProperty ;
+    rdfs:label "berkaitan topik" ;
+    rdfs:range ktn:Topik .

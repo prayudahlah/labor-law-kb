@@ -24,20 +24,25 @@ Python 3.12, Java 17 (untuk HermiT via owlready2), dan uv.
 ## Instalasi
 
 ```bash
-uv venv --python 3.12
-uv pip sync requirements.txt
+uv sync
 ```
 
-Notebook (opsional, di luar lock): `uv pip install jupyterlab ipykernel`.
+`uv sync` menyiapkan `.venv` sesuai `uv.lock` (termasuk grup dev: `pytest`, `jupyterlab`).
 
 ## Menjalankan
 
 ```bash
-.venv/bin/python scripts/build_ontology.py     # CSV -> Turtle
-.venv/bin/python scripts/check_ontology.py     # HermiT + uji kasus
-.venv/bin/python scripts/build_catalog.py      # katalog + top-level Protege
-duckdb < data/queries.sql                      # audit CSV
-.venv/bin/jupyter lab                          # notebook eksplorasi
+uv run python scripts/build_ontology.py     # CSV -> Turtle
+uv run python scripts/check_ontology.py     # HermiT + uji kasus
+uv run python scripts/build_catalog.py      # katalog + top-level Protege
+duckdb < data/queries.sql                   # audit CSV
+uv run jupyter lab                          # notebook eksplorasi
+```
+
+Backend:
+
+```bash
+uv run uvicorn backend.app.main:app --reload
 ```
 
 ## Buka di Protege
@@ -45,8 +50,8 @@ duckdb < data/queries.sql                      # audit CSV
 1. Jalankan sekali:
 
    ```bash
-   .venv/bin/python scripts/build_ontology.py
-   .venv/bin/python scripts/build_catalog.py
+   uv run python scripts/build_ontology.py
+   uv run python scripts/build_catalog.py
    ```
 
 2. Buka **Protege** (5.5+), lalu **File > Open** dan pilih

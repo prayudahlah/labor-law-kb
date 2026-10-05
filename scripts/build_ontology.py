@@ -12,7 +12,7 @@ Sifat:
   - memvalidasi semua rujukan sebelum menulis; build gagal bila ada pelanggaran
   - hasil ditandai "JANGAN EDIT MANUAL"
 
-Jalankan: .venv/bin/python scripts/build_ontology.py
+Jalankan: uv run python scripts/build_ontology.py
 """
 
 from __future__ import annotations
@@ -30,7 +30,7 @@ REQUIRED_FILES = ["regulasi.csv", "norma.csv", "parameter.csv", "kategori.csv"]
 HEADER = """# =====================================================================
 # BERKAS DIGENERATE. JANGAN EDIT MANUAL.
 # Sumber   : data/{sumber}
-# Hasilkan : .venv/bin/python scripts/build_ontology.py
+# Hasilkan : uv run python scripts/build_ontology.py
 # =====================================================================
 """
 
@@ -216,6 +216,22 @@ def emit_meta(regulasi: list[dict]) -> str:
     return "\n".join(blok).rstrip() + "\n"
 
 
+def emit_topik(topik_list: list[str]) -> str:
+    blok = [
+        f'{HEADER.format(sumber="norma.csv (kolom topik)")}',
+        PREFIXES,
+        '<https://example.org/kbr/ketenagakerjaan/meta/topik> a owl:Ontology ;',
+        '    dct:title "Topik hukum (untuk retrieval)" ;',
+        '    owl:imports <https://example.org/kbr/ketenagakerjaan> .',
+        "",
+    ]
+    for t in sorted(topik_list):
+        blok.append(f"ktn:Topik{t} a owl:NamedIndividual, ktn:Topik ;")
+        blok.append(f'    rdfs:label {ttl_str(t)} .')
+        blok.append("")
+    return "\n".join(blok).rstrip() + "\n"
+
+
 def emit_modul(dokumen_id, regulasi_row, norma, parameter, kategori, pengali_lembur, program_jamsos) -> str:
     slug = dokumen_id.lower()
     sumber = "norma.csv, parameter.csv, kategori.csv, pengali_lembur.csv, program_jamsos.csv"
@@ -242,6 +258,7 @@ def emit_modul(dokumen_id, regulasi_row, norma, parameter, kategori, pengali_lem
         for p in params:
             lines.append(f'    ktn:{p["nama"]} {angka(p["nilai"])} ;')
         lines.append(f'    ktn:pasal {ttl_str(n["pasal"])} ;')
+        lines.append(f'    ktn:berkaitanTopik ktn:Topik{n["topik"]} ;')
         lines.append(f"    dct:source reg:{n['dokumen_id']} .")
         blok.extend(lines)
         blok.append("")
@@ -318,6 +335,10 @@ def main() -> int:
     meta_path = ONTO / "meta" / "regulasi.ttl"
     meta_path.write_text(emit_meta(regulasi), encoding="utf-8")
     print(f"[tulis] {meta_path.relative_to(ROOT)}")
+
+    topik_path = ONTO / "meta" / "topik.ttl"
+    topik_path.write_text(emit_topik([n["topik"] for n in norma]), encoding="utf-8")
+    print(f"[tulis] {topik_path.relative_to(ROOT)}")
 
     by_id = {r["dokumen_id"]: r for r in regulasi}
     dokumen_berisi = sorted(

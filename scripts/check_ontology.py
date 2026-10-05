@@ -7,7 +7,7 @@ Langkah:
   3. muat ke owlready2 dan jalankan HermiT
   4. cek konsistensi, kelas unsatisfiable, klasifikasi hak, dan hitung nominal
 
-Jalankan: .venv/bin/python scripts/check_ontology.py
+Jalankan: uv run python scripts/check_ontology.py
 """
 
 from __future__ import annotations

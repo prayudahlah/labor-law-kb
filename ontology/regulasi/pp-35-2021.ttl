@@ -1,7 +1,7 @@
 # =====================================================================
 # BERKAS DIGENERATE. JANGAN EDIT MANUAL.
 # Sumber   : data/norma.csv, parameter.csv, kategori.csv, pengali_lembur.csv, program_jamsos.csv
-# Hasilkan : .venv/bin/python scripts/build_ontology.py
+# Hasilkan : uv run python scripts/build_ontology.py
 # =====================================================================
 
 @prefix ktn:  <https://example.org/kbr/ketenagakerjaan#> .
@@ -19,193 +19,227 @@
 
 ktn:KetentuanBadanHukumAlihDaya a owl:NamedIndividual, ktn:KetentuanAlihDaya ;
     ktn:pasal "Pasal 20" ;
+    ktn:berkaitanTopik ktn:TopikAlihDaya ;
     dct:source reg:PP-35-2021 .
 
 ktn:KetentuanPerlindunganAlihDaya a owl:NamedIndividual, ktn:KetentuanAlihDaya ;
     ktn:pasal "Pasal 18" ;
+    ktn:berkaitanTopik ktn:TopikAlihDaya ;
     dct:source reg:PP-35-2021 .
 
 ktn:KetentuanPengalihanHakAlihDaya a owl:NamedIndividual, ktn:KetentuanAlihDaya ;
     ktn:pasal "Pasal 19" ;
+    ktn:berkaitanTopik ktn:TopikAlihDaya ;
     dct:source reg:PP-35-2021 .
 
 ktn:KetentuanMakanLembur a owl:NamedIndividual, ktn:KetentuanLembur ;
     ktn:kebutuhanKalori 1400 ;
     ktn:pasal "Pasal 29" ;
+    ktn:berkaitanTopik ktn:TopikLembur ;
     dct:source reg:PP-35-2021 .
 
 ktn:UpahSejamLembur a owl:NamedIndividual, ktn:KetentuanLembur ;
     ktn:faktorPembagiUpahSejam 173 ;
     ktn:pasal "Pasal 32" ;
+    ktn:berkaitanTopik ktn:TopikLembur ;
     dct:source reg:PP-35-2021 .
 
 ktn:KonversiUpahHarian a owl:NamedIndividual, ktn:KetentuanLembur ;
     ktn:pengaliKonversiHarian5 21 ;
     ktn:pengaliKonversiHarian6 25 ;
     ktn:pasal "Pasal 33" ;
+    ktn:berkaitanTopik ktn:TopikLembur ;
     dct:source reg:PP-35-2021 .
 
 ktn:DitahanMerugikan a owl:NamedIndividual, ktn:AlasanPHK ;
     ktn:pengaliUP 0 ;
     ktn:pengaliUPMK 0 ;
     ktn:pasal "Pasal 54 ayat (1)" ;
+    ktn:berkaitanTopik ktn:TopikPHK ;
     dct:source reg:PP-35-2021 .
 
 ktn:DitahanTidakMerugikan a owl:NamedIndividual, ktn:AlasanPHK ;
     ktn:pengaliUP 0 ;
     ktn:pengaliUPMK 1 ;
     ktn:pasal "Pasal 54 ayat (2)" ;
+    ktn:berkaitanTopik ktn:TopikPHK ;
     dct:source reg:PP-35-2021 .
 
 ktn:EfisiensiMencegahRugi a owl:NamedIndividual, ktn:AlasanPHK ;
     ktn:pengaliUP 1 ;
     ktn:pengaliUPMK 1 ;
     ktn:pasal "Pasal 43 ayat (2)" ;
+    ktn:berkaitanTopik ktn:TopikPHK ;
     dct:source reg:PP-35-2021 .
 
 ktn:EfisiensiRugi a owl:NamedIndividual, ktn:AlasanPHK ;
     ktn:pengaliUP 0.5 ;
     ktn:pengaliUPMK 1 ;
     ktn:pasal "Pasal 43 ayat (1)" ;
+    ktn:berkaitanTopik ktn:TopikPHK ;
     dct:source reg:PP-35-2021 .
 
 ktn:ForceMajeureTidakTutup a owl:NamedIndividual, ktn:AlasanPHK ;
     ktn:pengaliUP 0.75 ;
     ktn:pengaliUPMK 1 ;
     ktn:pasal "Pasal 45 ayat (2)" ;
+    ktn:berkaitanTopik ktn:TopikPHK ;
     dct:source reg:PP-35-2021 .
 
 ktn:ForceMajeureTutup a owl:NamedIndividual, ktn:AlasanPHK ;
     ktn:pengaliUP 0.5 ;
     ktn:pengaliUPMK 1 ;
     ktn:pasal "Pasal 45 ayat (1)" ;
+    ktn:berkaitanTopik ktn:TopikPHK ;
     dct:source reg:PP-35-2021 .
 
 ktn:Mangkir a owl:NamedIndividual, ktn:AlasanPHK ;
     ktn:pengaliUP 0 ;
     ktn:pengaliUPMK 0 ;
     ktn:pasal "Pasal 51" ;
+    ktn:berkaitanTopik ktn:TopikPHK ;
     dct:source reg:PP-35-2021 .
 
 ktn:MengundurkanDiri a owl:NamedIndividual, ktn:AlasanPHK ;
     ktn:pengaliUP 0 ;
     ktn:pengaliUPMK 0 ;
     ktn:pasal "Pasal 50" ;
+    ktn:berkaitanTopik ktn:TopikPHK ;
     dct:source reg:PP-35-2021 .
 
 ktn:MeninggalDunia a owl:NamedIndividual, ktn:AlasanPHK ;
     ktn:pengaliUP 2 ;
     ktn:pengaliUPMK 1 ;
     ktn:pasal "Pasal 57" ;
+    ktn:berkaitanTopik ktn:TopikPHK ;
     dct:source reg:PP-35-2021 .
 
 ktn:Merger a owl:NamedIndividual, ktn:AlasanPHK ;
     ktn:pengaliUP 1 ;
     ktn:pengaliUPMK 1 ;
     ktn:pasal "Pasal 41" ;
+    ktn:berkaitanTopik ktn:TopikPHK ;
     dct:source reg:PP-35-2021 .
 
 ktn:Pailit a owl:NamedIndividual, ktn:AlasanPHK ;
     ktn:pengaliUP 0.5 ;
     ktn:pengaliUPMK 1 ;
     ktn:pasal "Pasal 47" ;
+    ktn:berkaitanTopik ktn:TopikPHK ;
     dct:source reg:PP-35-2021 .
 
 ktn:PelanggaranMendesak a owl:NamedIndividual, ktn:AlasanPHK ;
     ktn:pengaliUP 0 ;
     ktn:pengaliUPMK 0 ;
     ktn:pasal "Pasal 52 ayat (2)" ;
+    ktn:berkaitanTopik ktn:TopikPHK ;
     dct:source reg:PP-35-2021 .
 
 ktn:PelanggaranSP a owl:NamedIndividual, ktn:AlasanPHK ;
     ktn:pengaliUP 0.5 ;
     ktn:pengaliUPMK 1 ;
     ktn:pasal "Pasal 52 ayat (1)" ;
+    ktn:berkaitanTopik ktn:TopikPHK ;
     dct:source reg:PP-35-2021 .
 
 ktn:Pengambilalihan a owl:NamedIndividual, ktn:AlasanPHK ;
     ktn:pengaliUP 1 ;
     ktn:pengaliUPMK 1 ;
     ktn:pasal "Pasal 42 ayat (1)" ;
+    ktn:berkaitanTopik ktn:TopikPHK ;
     dct:source reg:PP-35-2021 .
 
 ktn:PengambilalihanUbahSyarat a owl:NamedIndividual, ktn:AlasanPHK ;
     ktn:pengaliUP 0.5 ;
     ktn:pengaliUPMK 1 ;
     ktn:pasal "Pasal 42 ayat (2)" ;
+    ktn:berkaitanTopik ktn:TopikPHK ;
     dct:source reg:PP-35-2021 .
 
 ktn:Pensiun a owl:NamedIndividual, ktn:AlasanPHK ;
     ktn:pengaliUP 1.75 ;
     ktn:pengaliUPMK 1 ;
     ktn:pasal "Pasal 56" ;
+    ktn:berkaitanTopik ktn:TopikPHK ;
     dct:source reg:PP-35-2021 .
 
 ktn:PerbuatanPengusaha a owl:NamedIndividual, ktn:AlasanPHK ;
     ktn:pengaliUP 1 ;
     ktn:pengaliUPMK 1 ;
     ktn:pasal "Pasal 48" ;
+    ktn:berkaitanTopik ktn:TopikPHK ;
     dct:source reg:PP-35-2021 .
 
 ktn:PKPUKarenaTidakRugi a owl:NamedIndividual, ktn:AlasanPHK ;
     ktn:pengaliUP 1 ;
     ktn:pengaliUPMK 1 ;
     ktn:pasal "Pasal 46 ayat (2)" ;
+    ktn:berkaitanTopik ktn:TopikPHK ;
     dct:source reg:PP-35-2021 .
 
 ktn:PKPUKarenaRugi a owl:NamedIndividual, ktn:AlasanPHK ;
     ktn:pengaliUP 0.5 ;
     ktn:pengaliUPMK 1 ;
     ktn:pasal "Pasal 46 ayat (1)" ;
+    ktn:berkaitanTopik ktn:TopikPHK ;
     dct:source reg:PP-35-2021 .
 
 ktn:PutusanPPHITidakBersalah a owl:NamedIndividual, ktn:AlasanPHK ;
     ktn:pengaliUP 0 ;
     ktn:pengaliUPMK 0 ;
     ktn:pasal "Pasal 49" ;
+    ktn:berkaitanTopik ktn:TopikPHK ;
     dct:source reg:PP-35-2021 .
 
 ktn:SakitBerkepanjangan a owl:NamedIndividual, ktn:AlasanPHK ;
     ktn:pengaliUP 2 ;
     ktn:pengaliUPMK 1 ;
     ktn:pasal "Pasal 55" ;
+    ktn:berkaitanTopik ktn:TopikPHK ;
     dct:source reg:PP-35-2021 .
 
 ktn:TutupBukanKarenaRugi a owl:NamedIndividual, ktn:AlasanPHK ;
     ktn:pengaliUP 1 ;
     ktn:pengaliUPMK 1 ;
     ktn:pasal "Pasal 44 ayat (2)" ;
+    ktn:berkaitanTopik ktn:TopikPHK ;
     dct:source reg:PP-35-2021 .
 
 ktn:TutupKarenaRugi a owl:NamedIndividual, ktn:AlasanPHK ;
     ktn:pengaliUP 0.5 ;
     ktn:pengaliUPMK 1 ;
     ktn:pasal "Pasal 44 ayat (1)" ;
+    ktn:berkaitanTopik ktn:TopikPHK ;
     dct:source reg:PP-35-2021 .
 
 ktn:KonversiHarianKePKWTT a owl:NamedIndividual, ktn:KetentuanPKWT ;
     ktn:batasBulanKonversi 3 ;
     ktn:batasHariKerjaHarian 21 ;
     ktn:pasal "Pasal 10 ayat (4)" ;
+    ktn:berkaitanTopik ktn:TopikPKWT ;
     dct:source reg:PP-35-2021 .
 
 ktn:BatasJangkaWaktuPKWT a owl:NamedIndividual, ktn:KetentuanPKWT ;
     ktn:batasTahunPKWT 5 ;
     ktn:pasal "Pasal 8 ayat (1)" ;
+    ktn:berkaitanTopik ktn:TopikPKWT ;
     dct:source reg:PP-35-2021 .
 
 ktn:KetentuanKompensasiPKWT a owl:NamedIndividual, ktn:KetentuanPKWT ;
     ktn:faktorPembagiKompensasi 12 ;
     ktn:pasal "Pasal 15-16" ;
+    ktn:berkaitanTopik ktn:TopikPKWT ;
     dct:source reg:PP-35-2021 .
 
 ktn:KetentuanPencatatanPKWT a owl:NamedIndividual, ktn:KetentuanPKWT ;
     ktn:batasHariPencatatan 3 ;
     ktn:pasal "Pasal 14 ayat (1)" ;
+    ktn:berkaitanTopik ktn:TopikPKWT ;
     dct:source reg:PP-35-2021 .
 
 ktn:LaranganPercobaanPKWT a owl:NamedIndividual, ktn:KetentuanPKWT ;
     ktn:pasal "Pasal 12" ;
+    ktn:berkaitanTopik ktn:TopikPKWT ;
     dct:source reg:PP-35-2021 .
 
 ktn:UP-0-12 a owl:NamedIndividual, ktn:KategoriUP ;
