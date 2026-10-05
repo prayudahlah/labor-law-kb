@@ -842,3 +842,11 @@ ktn:MemenuhiSyaratCutiPendampinganSuami a owl:Class ;
             ]
         )
     ] .
+
+# ============================================================================
+# Fase 3: penggunaan tenaga kerja asing (PP 34/2021)
+# ============================================================================
+
+ktn:KetentuanTKA a owl:Class ;
+    rdfs:label "Ketentuan Penggunaan Tenaga Kerja Asing" ;
+    rdfs:comment "Ketentuan penggunaan TKA (PP 34/2021)." .

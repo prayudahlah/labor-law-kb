@@ -1,0 +1,325 @@
+{
+  "spec_version": "1.0.0",
+  "vocab_version": "0.2.0",
+  "dokumen_id": "UU-4-2024",
+  "status_review": "reviewed",
+  "peraturan": {
+    "judul": "Undang-Undang Nomor 4 Tahun 2024 tentang Kesejahteraan Ibu dan Anak pada Fase Seribu Hari Pertama Kehidupan",
+    "jenis": "UU",
+    "nomor": "4",
+    "tahun": "2024",
+    "sumber": "https://peraturan.bpk.go.id/Details/289997/uu-no-4-tahun-2024",
+    "status": "Berlaku",
+    "diubah_oleh": []
+  },
+  "norma": [
+    {
+      "norm_id": "KIA-CUTI-KEGUGURAN",
+      "topik": "KIA",
+      "pasal": "Pasal 4 ayat (3)b",
+      "iri_individu": "ktn:KetentuanCutiKeguguran",
+      "jenis": "KetentuanKIA",
+      "kondisi": "Ibu mengalami keguguran",
+      "akibat": "Istirahat 1,5 bulan atau sesuai surat keterangan dokter",
+      "parameter": [
+        {
+          "nama": "cutiKeguguranBulan",
+          "nilai": "1.5",
+          "satuan": "bulan",
+          "jenis": "nominal",
+          "pasal": "Pasal 4 ayat (3)b"
+        }
+      ],
+      "bukti": "waktu istirahat 1,5 bulan atau sesuai surat keterangan dokter",
+      "confidence": 0.95,
+      "dasar_keyakinan": "dikutip",
+      "catatan": ""
+    },
+    {
+      "norm_id": "KIA-CUTI-MELAHIRKAN",
+      "topik": "KIA",
+      "pasal": "Pasal 4 ayat (3)a",
+      "iri_individu": "ktn:KetentuanCutiMelahirkan",
+      "jenis": "KetentuanKIA",
+      "kondisi": "Ibu bekerja melahirkan",
+      "akibat": "Cuti paling singkat 3 bulan, dapat ditambah 3 bulan bila kondisi khusus",
+      "parameter": [
+        {
+          "nama": "cutiMelahirkanBulanMax",
+          "nilai": "6",
+          "satuan": "bulan",
+          "jenis": "nominal",
+          "pasal": "Pasal 4 ayat (3)a"
+        },
+        {
+          "nama": "cutiMelahirkanBulanMin",
+          "nilai": "3",
+          "satuan": "bulan",
+          "jenis": "nominal",
+          "pasal": "Pasal 4 ayat (3)a"
+        }
+      ],
+      "bukti": "paling singkat 3 bulan pertama dan paling lama 3 bulan berikutnya",
+      "confidence": 0.95,
+      "dasar_keyakinan": "dikutip",
+      "catatan": ""
+    },
+    {
+      "norm_id": "KIA-CUTI-PENDAMPINGAN-SUAMI",
+      "topik": "KIA",
+      "pasal": "Pasal 6 ayat (2)a",
+      "iri_individu": "ktn:KetentuanCutiPendampinganSuami",
+      "jenis": "KetentuanKIA",
+      "kondisi": "Suami mendampingi persalinan",
+      "akibat": "Cuti 2 hari dapat ditambah paling lama 3 hari",
+      "parameter": [
+        {
+          "nama": "cutiPendampinganHari",
+          "nilai": "2",
+          "satuan": "hari",
+          "jenis": "nominal",
+          "pasal": "Pasal 6 ayat (2)a"
+        },
+        {
+          "nama": "cutiPendampinganTambahanHari",
+          "nilai": "3",
+          "satuan": "hari",
+          "jenis": "nominal",
+          "pasal": "Pasal 6 ayat (2)a"
+        }
+      ],
+      "bukti": "masa persalinan selama 2 hari dan dapat diberikan paling lama 3 hari berikutnya",
+      "confidence": 0.95,
+      "dasar_keyakinan": "dikutip",
+      "catatan": ""
+    },
+    {
+      "norm_id": "KIA-LARANGAN-PHK",
+      "topik": "KIA",
+      "pasal": "Pasal 5 ayat (1)",
+      "iri_individu": "ktn:KetentuanLaranganPHKKIA",
+      "jenis": "KetentuanKIA",
+      "kondisi": "Ibu melaksanakan hak cuti melahirkan atau keguguran",
+      "akibat": "Tidak dapat diberhentikan dan tetap memperoleh haknya",
+      "parameter": [],
+      "bukti": "tidak dapat diberhentikan dari pekerjaannya dan tetap memperoleh haknya",
+      "confidence": 0.95,
+      "dasar_keyakinan": "dikutip",
+      "catatan": ""
+    },
+    {
+      "norm_id": "KIA-MENYUSUI",
+      "topik": "KIA",
+      "pasal": "Pasal 4 ayat (3)c",
+      "iri_individu": "ktn:KetentuanMenyusui",
+      "jenis": "KetentuanKIA",
+      "kondisi": "Ibu bekerja menyusui",
+      "akibat": "Kesempatan dan fasilitas laktasi selama waktu kerja",
+      "parameter": [],
+      "bukti": "kesempatan dan fasilitas yang layak untuk pelayanan kesehatan dan gizi serta melakukan laktasi selama waktu kerja",
+      "confidence": 0.95,
+      "dasar_keyakinan": "dikutip",
+      "catatan": ""
+    },
+    {
+      "norm_id": "KIA-UPAH-CUTI-MELAHIRKAN",
+      "topik": "KIA",
+      "pasal": "Pasal 5 ayat (2)",
+      "iri_individu": "ktn:KetentuanUpahCutiMelahirkan",
+      "jenis": "KetentuanKIA",
+      "kondisi": "Ibu menjalankan cuti melahirkan",
+      "akibat": "Upah penuh bulan 1 sampai 4, 75 persen bulan 5 dan 6",
+      "parameter": [
+        {
+          "nama": "bulanUpah75",
+          "nilai": "2",
+          "satuan": "bulan",
+          "jenis": "nominal",
+          "pasal": "Pasal 5 ayat (2)"
+        },
+        {
+          "nama": "bulanUpahPenuh",
+          "nilai": "4",
+          "satuan": "bulan",
+          "jenis": "nominal",
+          "pasal": "Pasal 5 ayat (2)"
+        }
+      ],
+      "bukti": "secara penuh untuk 3 bulan pertama dan bulan keempat serta 75 persen untuk bulan kelima dan keenam",
+      "confidence": 0.95,
+      "dasar_keyakinan": "dikutip",
+      "catatan": ""
+    }
+  ],
+  "kategori": [],
+  "pengali_lembur": [],
+  "program_jamsos": [],
+  "cakupan": {
+    "lengkap": false,
+    "pasal_diekstrak": [
+      "Pasal 4",
+      "Pasal 5",
+      "Pasal 6"
+    ],
+    "pasal_dilewati": [
+      {
+        "pasal": "Pasal 1",
+        "alasan": "retrofit: belum ditinjau (migrasi data pilot)"
+      },
+      {
+        "pasal": "Pasal 2",
+        "alasan": "retrofit: belum ditinjau (migrasi data pilot)"
+      },
+      {
+        "pasal": "Pasal 3",
+        "alasan": "retrofit: belum ditinjau (migrasi data pilot)"
+      },
+      {
+        "pasal": "Pasal 7",
+        "alasan": "retrofit: belum ditinjau (migrasi data pilot)"
+      },
+      {
+        "pasal": "Pasal 8",
+        "alasan": "retrofit: belum ditinjau (migrasi data pilot)"
+      },
+      {
+        "pasal": "Pasal 9",
+        "alasan": "retrofit: belum ditinjau (migrasi data pilot)"
+      },
+      {
+        "pasal": "Pasal 10",
+        "alasan": "retrofit: belum ditinjau (migrasi data pilot)"
+      },
+      {
+        "pasal": "Pasal 12",
+        "alasan": "retrofit: belum ditinjau (migrasi data pilot)"
+      },
+      {
+        "pasal": "Pasal 13",
+        "alasan": "retrofit: belum ditinjau (migrasi data pilot)"
+      },
+      {
+        "pasal": "Pasal 14",
+        "alasan": "retrofit: belum ditinjau (migrasi data pilot)"
+      },
+      {
+        "pasal": "Pasal 15",
+        "alasan": "retrofit: belum ditinjau (migrasi data pilot)"
+      },
+      {
+        "pasal": "Pasal 16",
+        "alasan": "retrofit: belum ditinjau (migrasi data pilot)"
+      },
+      {
+        "pasal": "Pasal 17",
+        "alasan": "retrofit: belum ditinjau (migrasi data pilot)"
+      },
+      {
+        "pasal": "Pasal 18",
+        "alasan": "retrofit: belum ditinjau (migrasi data pilot)"
+      },
+      {
+        "pasal": "Pasal 19",
+        "alasan": "retrofit: belum ditinjau (migrasi data pilot)"
+      },
+      {
+        "pasal": "Pasal 20",
+        "alasan": "retrofit: belum ditinjau (migrasi data pilot)"
+      },
+      {
+        "pasal": "Pasal 22",
+        "alasan": "retrofit: belum ditinjau (migrasi data pilot)"
+      },
+      {
+        "pasal": "Pasal 23",
+        "alasan": "retrofit: belum ditinjau (migrasi data pilot)"
+      },
+      {
+        "pasal": "Pasal 24",
+        "alasan": "retrofit: belum ditinjau (migrasi data pilot)"
+      },
+      {
+        "pasal": "Pasal 25",
+        "alasan": "retrofit: belum ditinjau (migrasi data pilot)"
+      },
+      {
+        "pasal": "Pasal 26",
+        "alasan": "retrofit: belum ditinjau (migrasi data pilot)"
+      },
+      {
+        "pasal": "Pasal 28",
+        "alasan": "retrofit: belum ditinjau (migrasi data pilot)"
+      },
+      {
+        "pasal": "Pasal 29",
+        "alasan": "retrofit: belum ditinjau (migrasi data pilot)"
+      },
+      {
+        "pasal": "Pasal 30",
+        "alasan": "retrofit: belum ditinjau (migrasi data pilot)"
+      },
+      {
+        "pasal": "Pasal 31",
+        "alasan": "retrofit: belum ditinjau (migrasi data pilot)"
+      },
+      {
+        "pasal": "Pasal 32",
+        "alasan": "retrofit: belum ditinjau (migrasi data pilot)"
+      },
+      {
+        "pasal": "Pasal 33",
+        "alasan": "retrofit: belum ditinjau (migrasi data pilot)"
+      },
+      {
+        "pasal": "Pasal 34",
+        "alasan": "retrofit: belum ditinjau (migrasi data pilot)"
+      },
+      {
+        "pasal": "Pasal 35",
+        "alasan": "retrofit: belum ditinjau (migrasi data pilot)"
+      },
+      {
+        "pasal": "Pasal 36",
+        "alasan": "retrofit: belum ditinjau (migrasi data pilot)"
+      },
+      {
+        "pasal": "Pasal 37",
+        "alasan": "retrofit: belum ditinjau (migrasi data pilot)"
+      },
+      {
+        "pasal": "Pasal 38",
+        "alasan": "retrofit: belum ditinjau (migrasi data pilot)"
+      },
+      {
+        "pasal": "Pasal 39",
+        "alasan": "retrofit: belum ditinjau (migrasi data pilot)"
+      },
+      {
+        "pasal": "Pasal 40",
+        "alasan": "retrofit: belum ditinjau (migrasi data pilot)"
+      },
+      {
+        "pasal": "Pasal 41",
+        "alasan": "retrofit: belum ditinjau (migrasi data pilot)"
+      },
+      {
+        "pasal": "Pasal 43",
+        "alasan": "retrofit: belum ditinjau (migrasi data pilot)"
+      },
+      {
+        "pasal": "Pasal 44",
+        "alasan": "retrofit: belum ditinjau (migrasi data pilot)"
+      },
+      {
+        "pasal": "Pasal 45",
+        "alasan": "retrofit: belum ditinjau (migrasi data pilot)"
+      },
+      {
+        "pasal": "Pasal 46",
+        "alasan": "retrofit: belum ditinjau (migrasi data pilot)"
+      }
+    ],
+    "catatan": "Retrofit dari data pilot (migrasi ke record); belum ditinjau penuh."
+  },
+  "tidak_termodelkan": []
+}

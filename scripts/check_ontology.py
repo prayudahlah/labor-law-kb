@@ -70,7 +70,7 @@ def load_reasoned(termasuk_contoh: bool = False):
         f"[muat] {len(files)} modul Turtle ({label}), "
         f"cache {cache.name} {'dibangun ulang' if dibangun else 'dipakai'}"
     )
-    owlready2.get_ontology(cache.resolve().as_uri()).load()
+    owlready2.get_ontology(str(cache.resolve())).load()
     owlready2.sync_reasoner(infer_property_values=True)
     return default_world
 

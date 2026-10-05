@@ -1,9 +1,10 @@
-program_id,dokumen_id,nama,jenis_program,tarif_pengusaha_persen,tarif_pekerja_persen,tarif_total_persen,tingkat_risiko,pasal,confidence,dasar_keyakinan,catatan
-JKK-R1,PP-37-2021,JKK risiko sangat rendah,JKK,0.1,0,0.1,sangat_rendah,PP 37/2021 Pasal 11 ayat (5)a.1,0.95,dikutip,dasar PP 44/2015: 0.24%
-JKK-R2,PP-37-2021,JKK risiko rendah,JKK,0.4,0,0.4,rendah,PP 37/2021 Pasal 11 ayat (5)a.2,0.95,dikutip,dasar PP 44/2015: 0.54%
-JKK-R3,PP-37-2021,JKK risiko sedang,JKK,0.75,0,0.75,sedang,PP 37/2021 Pasal 11 ayat (5)a.3,0.95,dikutip,dasar PP 44/2015: 0.89%
-JKK-R4,PP-37-2021,JKK risiko tinggi,JKK,1.13,0,1.13,tinggi,PP 37/2021 Pasal 11 ayat (5)a.4,0.95,dikutip,dasar PP 44/2015: 1.27%
-JKK-R5,PP-37-2021,JKK risiko sangat tinggi,JKK,1.6,0,1.6,sangat_tinggi,PP 37/2021 Pasal 11 ayat (5)a.5,0.95,dikutip,dasar PP 44/2015: 1.74%
-JKM,PP-37-2021,Jaminan Kematian,JKM,0.2,0,0.2,,PP 37/2021 Pasal 11 ayat (5)b,0.95,dikutip,dasar PP 44/2015: 0.30%
-JHT,PP-46-2015,Jaminan Hari Tua,JHT,3.7,2.0,5.7,,Pasal 16 ayat (1),0.95,dikutip,
-JP,PP-45-2015,Jaminan Pensiun,JP,2.0,1.0,3.0,,Pasal 25,0.95,dikutip,
+program_id,dokumen_id,nama,jenis_program,tarif_pengusaha_persen,tarif_pekerja_persen,tarif_total_persen,tingkat_risiko,pasal,confidence,dasar_keyakinan,bukti,catatan
+JKK-R2,PP-37-2021,JKK risiko rendah,JKK,0.4,0,0.4,rendah,PP 37/2021 Pasal 11 ayat (5)a.2,0.95,dikutip,,dasar PP 44/2015: 0.54%
+JKK-R1,PP-37-2021,JKK risiko sangat rendah,JKK,0.1,0,0.1,sangat_rendah,PP 37/2021 Pasal 11 ayat (5)a.1,0.95,dikutip,,dasar PP 44/2015: 0.24%
+JKK-R5,PP-37-2021,JKK risiko sangat tinggi,JKK,1.6,0,1.6,sangat_tinggi,PP 37/2021 Pasal 11 ayat (5)a.5,0.95,dikutip,,dasar PP 44/2015: 1.74%
+JKK-R3,PP-37-2021,JKK risiko sedang,JKK,0.75,0,0.75,sedang,PP 37/2021 Pasal 11 ayat (5)a.3,0.95,dikutip,,dasar PP 44/2015: 0.89%
+JKK-R4,PP-37-2021,JKK risiko tinggi,JKK,1.13,0,1.13,tinggi,PP 37/2021 Pasal 11 ayat (5)a.4,0.95,dikutip,,dasar PP 44/2015: 1.27%
+JKM,PP-37-2021,Jaminan Kematian,JKM,0.2,0,0.2,,PP 37/2021 Pasal 11 ayat (5)b,0.95,dikutip,,dasar PP 44/2015: 0.30%
+JKP,PP-37-2021,Jaminan Kehilangan Pekerjaan,JKP,0,0,0.46,,Pasal 11 ayat (2),0.95,dikutip,"Iuran ... sebesar 0,46% ... dari Upah sebulan.","Berasal dari Pemerintah Pusat 0,22% dan rekomposisi JKK 0,14% + JKM 0,10%; model program_jamsos tidak menampung sumber ini sehingga tarif pengusaha/pekerja 0."
+JP,PP-45-2015,Jaminan Pensiun,JP,2,1,3,,Pasal 25,0.95,dikutip,,
+JHT,PP-46-2015,Jaminan Hari Tua,JHT,3.7,2,5.7,,Pasal 16 ayat (1),0.95,dikutip,,

@@ -5,6 +5,7 @@
     <uri id="kb" name="https://example.org/kbr/ketenagakerjaan/kb" uri="ontology.ttl"/>
     <uri id="core/tbox-core.ttl" name="https://example.org/kbr/ketenagakerjaan" uri="core/tbox-core.ttl"/>
     <uri id="core/rbox-roles.ttl" name="https://example.org/kbr/ketenagakerjaan/rbox" uri="core/rbox-roles.ttl"/>
+    <uri id="regulasi/pp-34-2021.ttl" name="https://example.org/kbr/ketenagakerjaan/regulasi/pp-34-2021" uri="regulasi/pp-34-2021.ttl"/>
     <uri id="regulasi/pp-35-2021.ttl" name="https://example.org/kbr/ketenagakerjaan/regulasi/pp-35-2021" uri="regulasi/pp-35-2021.ttl"/>
     <uri id="regulasi/pp-36-2021.ttl" name="https://example.org/kbr/ketenagakerjaan/regulasi/pp-36-2021" uri="regulasi/pp-36-2021.ttl"/>
     <uri id="regulasi/pp-37-2021.ttl" name="https://example.org/kbr/ketenagakerjaan/regulasi/pp-37-2021" uri="regulasi/pp-37-2021.ttl"/>
