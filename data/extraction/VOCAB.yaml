@@ -5,6 +5,9 @@
 # dipakai oleh: scripts/validate_extraction.py, scripts/compile_extraction.py,
 # dan scripts/build_ontology.py.
 #
+# PENTING: schema JSON (schema/extraction.schema.json) TIDAK memuat enum;
+# ia hanya menegakkan bentuk. Semua nilai di bawah ini adalah rujukannya.
+#
 # SIFAT PERTUMBUHAN (lihat data/extraction/SPEC.md bagian 3):
 #   - Aditif secara default: menambah nilai baru TIDAK mengubah makna record lama.
 #   - Setiap perubahan WAJIB menaikkan `versi` (semver) dan mengisi `riwayat`.
