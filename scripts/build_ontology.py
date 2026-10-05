@@ -21,9 +21,12 @@ import csv
 import sys
 from pathlib import Path
 
+import yaml
+
 ROOT = Path(__file__).resolve().parent.parent
 DATA = ROOT / "data"
 ONTO = ROOT / "ontology"
+VOCAB_PATH = DATA / "extraction" / "VOCAB.yaml"
 
 REQUIRED_FILES = ["regulasi.csv", "norma.csv", "parameter.csv", "kategori.csv"]
 
@@ -43,51 +46,24 @@ PREFIXES = """@prefix ktn:  <https://example.org/kbr/ketenagakerjaan#> .
 @prefix xsd:  <http://www.w3.org/2001/XMLSchema#> .
 """
 
-JENIS_PERATURAN = {"UU": "reg:UndangUndang", "PP": "reg:PeraturanPemerintah"}
-STATUS = {"Berlaku": "reg:Berlaku", "Diubah": "reg:Diubah", "Dicabut": "reg:Dicabut"}
-NAMA_TABEL_KELAS = {"uang_pesangon": "ktn:KategoriUP", "upmk": "ktn:KategoriUPMK"}
-ALLOWED_JENIS = {
-    "AlasanPHK",
-    "PeristiwaCutiKhusus",
-    "KetentuanWaktuKerja",
-    "KetentuanUpah",
-    "KetentuanLembur",
-    "KetentuanPKWT",
-    "KetentuanAlihDaya",
-    "KetentuanJaminanSosial",
-    "KetentuanKIA",
-}
-ALLOWED_PARAM = {
-    "pengaliUP",
-    "pengaliUPMK",
-    "hariDibayar",
-    "jamKerjaPerHari",
-    "jamKerjaPerMinggu",
-    "jumlahHariKerjaPerMinggu",
-    "istirahatMingguanHari",
-    "jamLemburMaksPerHari",
-    "jamLemburMaksPerMinggu",
-    "faktorPembagiUpahSejam",
-    "pengaliKonversiHarian6",
-    "pengaliKonversiHarian5",
-    "kebutuhanKalori",
-    "batasTahunPKWT",
-    "batasHariKerjaHarian",
-    "batasBulanKonversi",
-    "faktorPembagiKompensasi",
-    "batasHariPencatatan",
-    "usiaPensiunTahun",
-    "cutiMelahirkanBulanMin",
-    "cutiMelahirkanBulanMax",
-    "bulanUpahPenuh",
-    "bulanUpah75",
-    "cutiKeguguranBulan",
-    "cutiPendampinganHari",
-    "cutiPendampinganTambahanHari",
-}
-JENIS_HARI_VALID = {"hari_kerja", "libur_6hari", "libur_terpendek", "libur_5hari"}
-ALLOWED_PROGRAM_JAMSOS = {"JKK", "JKM", "JHT", "JP"}
-ALLOWED_DASAR = {"dikutip", "tafsir", "dinamis", "tidak_lengkap"}
+def muat_vocab() -> dict:
+    """Muat kosakata terkontrol dari data/extraction/VOCAB.yaml (satu sumber)."""
+    if not VOCAB_PATH.exists():
+        print(f"[GAGAL] kosakata tidak ditemukan: {VOCAB_PATH.relative_to(ROOT)}", file=sys.stderr)
+        raise SystemExit(1)
+    with VOCAB_PATH.open(encoding="utf-8") as f:
+        return yaml.safe_load(f)
+
+
+_VOCAB = muat_vocab()
+JENIS_PERATURAN = _VOCAB["jenis_peraturan"]
+STATUS = _VOCAB["status_hukum"]
+NAMA_TABEL_KELAS = _VOCAB["kategori"]["nama_tabel"]
+ALLOWED_JENIS = set(_VOCAB["norma"]["jenis"])
+ALLOWED_PARAM = set(_VOCAB["norma"]["parameter"])
+JENIS_HARI_VALID = set(_VOCAB["pengali_lembur"]["jenis_hari"])
+ALLOWED_PROGRAM_JAMSOS = set(_VOCAB["program_jamsos"]["jenis_program"])
+ALLOWED_DASAR = set(_VOCAB["norma"]["dasar_keyakinan"])
 
 
 def baca_csv(nama: str) -> list[dict[str, str]]:

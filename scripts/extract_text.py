@@ -32,6 +32,7 @@ import yaml
 from pymupdf4llm.ocr import OCRMode
 
 _OCR_ENGINE = None
+OCR_DPI = 300
 
 
 def get_ocr_engine():
@@ -43,9 +44,9 @@ def get_ocr_engine():
     return _OCR_ENGINE
 
 
-def ocr_page(doc: pymupdf.Document, index: int) -> str:
+def ocr_page(doc: pymupdf.Document, index: int, dpi: int = OCR_DPI) -> str:
     page = doc[index]
-    pix = page.get_pixmap(dpi=300)
+    pix = page.get_pixmap(dpi=dpi)
     img = np.frombuffer(pix.samples, dtype=np.uint8).reshape(
         pix.height, pix.width, pix.n
     )[:, :, :3]
@@ -78,7 +79,22 @@ RUNNING_KEYWORDS = (
     "SALIN",
 )
 SK_RE = re.compile(r"^SK\s+No\s", re.IGNORECASE)
-BARE_PASAL_RE = re.compile(r"^Pasal\s+\d+[A-Z]?$", re.IGNORECASE)
+# Pembalut dekoratif di sekitar label pasal: bold (**), backtick (`), underscore.
+_WRAP = r"[\s*`_]*"
+# Judul pasal dengan/tanpa '#' dan pembalut, mis:
+#   "#### Pasal 12", "# **Pasal 1**", "# `Pasal 1`", "Pasal29", "Pasal3...", "Pasal4T".
+PASAL_LABEL_RE = re.compile(
+    r"^#{0,6}" + _WRAP + r"Pasal" + _WRAP + r"([0-9]+[A-Za-z]?)" + _WRAP + r"[.:\u2026]*" + _WRAP + r"$",
+    re.IGNORECASE,
+)
+# Baris "PENJELASAN" (dengan/tanpa '#' dan pembalut); batang tubuh berakhir di sini.
+PENJELASAN_RE = re.compile(r"^#{0,6}" + _WRAP + r"PENJELASAN" + _WRAP + r"$", re.IGNORECASE)
+
+
+def pasal_label(line: str) -> str | None:
+    """Kembalikan nomor pasal bila baris adalah label pasal (apa pun formatnya)."""
+    m = PASAL_LABEL_RE.match(line.strip())
+    return m.group(1) if m else None
 
 
 def is_running_header(line: str) -> bool:
@@ -121,14 +137,16 @@ HEADING_RULES = [
     (re.compile(r"^#{1,6}\s*BAB\b", re.IGNORECASE), "## "),
     (re.compile(r"^#{1,6}\s*Bagian\b", re.IGNORECASE), "### "),
     (re.compile(r"^#{1,6}\s*Paragraf\b", re.IGNORECASE), "### "),
-    (re.compile(r"^#{1,6}\s*Pasal\s+\d+", re.IGNORECASE), "#### "),
-    (BARE_PASAL_RE, "#### "),
 ]
 
 
 def normalize_headings(md: str) -> str:
     out = []
     for line in md.splitlines():
+        nomor = pasal_label(line)
+        if nomor is not None:
+            out.append(f"#### Pasal {nomor}")
+            continue
         replaced = False
         for pattern, prefix in HEADING_RULES:
             if pattern.match(line):
@@ -138,6 +156,34 @@ def normalize_headings(md: str) -> str:
         if not replaced:
             out.append(line)
     return "\n".join(out)
+
+
+def potong_penjelasan(md: str, min_pasal: int = 3) -> tuple[str, bool]:
+    """Buang bagian PENJELASAN (dan sesudahnya) agar tidak ada pasal ganda.
+
+    Aman terhadap omnibus: potong HANYA bila heading "PENJELASAN" muncul setelah
+    batang tubuh (sudah ada minimal `min_pasal` label pasal sebelumnya), dan
+    potongan menyisakan batang tubuh yang wajar. Bila "PENJELASAN" justru muncul
+    sebelum batang tubuh (atau memotong hampir seluruh dokumen), tidak dipotong.
+
+    Mengembalikan (teks, dipotong).
+    """
+    lines = md.splitlines()
+    idx = None
+    for i, line in enumerate(lines):
+        if PENJELASAN_RE.match(line):
+            idx = i
+            break
+    if idx is None:
+        return md, False
+
+    sebelum = lines[:idx]
+    jumlah_pasal_sebelum = sum(1 for ln in sebelum if pasal_label(ln) is not None)
+    # Jangan potong bila belum ada batang tubuh yang cukup sebelum PENJELASAN.
+    if jumlah_pasal_sebelum < min_pasal:
+        return md, False
+
+    return "\n".join(sebelum).rstrip(), True
 
 
 def yaml_block(fields: dict) -> str:
@@ -155,7 +201,7 @@ def yaml_block(fields: dict) -> str:
     return "\n".join(lines)
 
 
-def extract(doc_meta: dict) -> dict:
+def extract(doc_meta: dict, pakai_ocr: bool = True, dpi: int = OCR_DPI) -> dict:
     pdf_path = PDF_DIR / doc_meta["nama_file"]
     doc = pymupdf.open(pdf_path)
     total = doc.page_count
@@ -169,13 +215,17 @@ def extract(doc_meta: dict) -> dict:
     parts = []
     low_text_pages = []
     ocr_pages = []
-    for i in pages:
+    for n, i in enumerate(pages, start=1):
         txt = doc[i].get_text().strip()
         if len(txt) < OCR_MIN_CHARS:
             low_text_pages.append(i + 1)
-            page_md = clean_page(ocr_page(doc, i))
-            if page_md:
-                ocr_pages.append(i + 1)
+            if pakai_ocr:
+                print(f"    [ocr] halaman {i + 1} ({n}/{len(pages)}) ...", flush=True)
+                page_md = clean_page(ocr_page(doc, i, dpi))
+                if page_md:
+                    ocr_pages.append(i + 1)
+            else:
+                page_md = ""
         else:
             page_md = clean_page(
                 pymupdf4llm.to_markdown(doc, pages=[i], use_ocr=OCRMode.NEVER)
@@ -184,13 +234,14 @@ def extract(doc_meta: dict) -> dict:
 
     body = normalize_headings("\n\n".join(parts))
     body = re.sub(r"\n{3,}", "\n\n", body).strip()
+    body, dipotong = potong_penjelasan(body)
 
     perlu_ocr = bool(low_text_pages) and not ocr_pages
     front = {
         "judul": doc_meta["judul"],
         "jenis": doc_meta["jenis"],
-        "nomor": doc_meta["nomor"],
-        "tahun": doc_meta["tahun"],
+        "nomor": str(doc_meta["nomor"]),
+        "tahun": str(doc_meta["tahun"]),
         "topik": doc_meta["topik"],
         "sumber": doc_meta["url_halaman"],
         "nama_file": doc_meta["nama_file"],
@@ -200,6 +251,7 @@ def extract(doc_meta: dict) -> dict:
         "teks_layer": not low_text_pages,
         "perlu_ocr": perlu_ocr,
         "ocr_dipakai": bool(ocr_pages),
+        "penjelasan_dipotong": dipotong,
         "tanggal_ekstraksi": dt.date.today().isoformat(),
     }
     if ocr_pages:
@@ -228,17 +280,21 @@ def extract(doc_meta: dict) -> dict:
 def main() -> int:
     parser = argparse.ArgumentParser()
     parser.add_argument("--only", nargs="*", help="batasi ke satu atau beberapa id dokumen")
+    parser.add_argument("--no-ocr", action="store_true", help="lewati OCR (halaman tanpa teks dikosongkan)")
+    parser.add_argument("--dpi", type=int, default=OCR_DPI, help=f"DPI render OCR (default {OCR_DPI})")
     args = parser.parse_args()
 
     data = yaml.safe_load(SOURCES.read_text(encoding="utf-8"))
     dokumen = data["dokumen"]
     if args.only:
-        dokumen = [d for d in dokumen if d["id"] in set(args.only)]
+        seleksi = {x.lower() for x in args.only}
+        dokumen = [d for d in dokumen if d["id"].lower() in seleksi]
     MD_DIR.mkdir(parents=True, exist_ok=True)
     failures = 0
     for doc_meta in dokumen:
         try:
-            res = extract(doc_meta)
+            print(f"[ekstrak] {doc_meta['id']} ...", flush=True)
+            res = extract(doc_meta, pakai_ocr=not args.no_ocr, dpi=args.dpi)
             flags = []
             if res["ocr_pages"]:
                 flags.append(f"OCR {len(res['ocr_pages'])} halaman")

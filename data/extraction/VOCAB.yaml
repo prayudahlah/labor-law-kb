@@ -1,0 +1,171 @@
+# =====================================================================
+# Kosakata ekstraksi KB Hukum Ketenagakerjaan Indonesia
+# ---------------------------------------------------------------------
+# Ini SATU-SATUNYA sumber kebenaran untuk enum/nilai terkontrol yang
+# dipakai oleh: scripts/validate_extraction.py, scripts/compile_extraction.py,
+# dan scripts/build_ontology.py.
+#
+# SIFAT PERTUMBUHAN (lihat data/extraction/SPEC.md bagian 3):
+#   - Aditif secara default: menambah nilai baru TIDAK mengubah makna record lama.
+#   - Setiap perubahan WAJIB menaikkan `versi` (semver) dan mengisi `riwayat`.
+#   - Jangan "mengarang" nilai langsung di record; tambahkan di sini dulu.
+#   - Menambah `norma.jenis` biasanya menuntut kelas baru di ontology/core/tbox-core.ttl.
+# =====================================================================
+
+versi: "0.3.0"
+diperbarui: "2026-10-03"
+
+riwayat:
+  - versi: "0.1.0"
+    tanggal: "2026-10-03"
+    catatan: "Seed dari pilot 12 dokumen. Struktur stabil, isi akan tumbuh pada Fase 2."
+  - versi: "0.2.0"
+    tanggal: "2026-10-03"
+    catatan: "Fase 2 pilot: tambah program JKP (PP 37/2021) ke jenis_program. Aditif."
+  - versi: "0.3.0"
+    tanggal: "2026-10-03"
+    catatan: "Fase 3: promosi KetentuanTKA (jenis) + TKA (topik) dari kandidat (PP 34/2021). Aditif."
+
+# ---------------------------------------------------------------------
+# Metadata peraturan
+# ---------------------------------------------------------------------
+jenis_peraturan:
+  UU: reg:UndangUndang
+  PP: reg:PeraturanPemerintah
+
+status_hukum:
+  Berlaku: reg:Berlaku
+  Diubah: reg:Diubah
+  Dicabut: reg:Dicabut
+
+# ---------------------------------------------------------------------
+# Norma
+# ---------------------------------------------------------------------
+norma:
+  # Klasifikasi norma; tiap nilai memetakan ke kelas di T-Box.
+  jenis:
+    - AlasanPHK
+    - PeristiwaCutiKhusus
+    - KetentuanWaktuKerja
+    - KetentuanUpah
+    - KetentuanLembur
+    - KetentuanPKWT
+    - KetentuanAlihDaya
+    - KetentuanJaminanSosial
+    - KetentuanKIA
+    - KetentuanTKA
+
+  # Label topik untuk pengelompokan laporan. Himbauan (warning), bukan error.
+  topik:
+    - PHK
+    - Cuti
+    - WaktuKerja
+    - Upah
+    - Lembur
+    - PKWT
+    - AlihDaya
+    - Jamsos
+    - KIA
+    - TKA
+
+  # Parameter numerik yang boleh dilampirkan ke norma.
+  # satuan: unit tampilan; jenis: pengali | nominal
+  parameter:
+    pengaliUP:                { satuan: kali,   jenis: pengali }
+    pengaliUPMK:              { satuan: kali,   jenis: pengali }
+    hariDibayar:              { satuan: hari,   jenis: nominal }
+    jamKerjaPerHari:          { satuan: jam,    jenis: nominal }
+    jamKerjaPerMinggu:        { satuan: jam,    jenis: nominal }
+    jumlahHariKerjaPerMinggu: { satuan: hari,   jenis: nominal }
+    istirahatMingguanHari:    { satuan: hari,   jenis: nominal }
+    jamLemburMaksPerHari:     { satuan: jam,    jenis: nominal }
+    jamLemburMaksPerMinggu:   { satuan: jam,    jenis: nominal }
+    faktorPembagiUpahSejam:   { satuan: faktor, jenis: nominal }
+    pengaliKonversiHarian6:   { satuan: faktor, jenis: nominal }
+    pengaliKonversiHarian5:   { satuan: faktor, jenis: nominal }
+    kebutuhanKalori:          { satuan: kkal,   jenis: nominal }
+    batasTahunPKWT:           { satuan: tahun,  jenis: nominal }
+    batasHariKerjaHarian:     { satuan: hari,   jenis: nominal }
+    batasBulanKonversi:       { satuan: bulan,  jenis: nominal }
+    faktorPembagiKompensasi:  { satuan: bulan,  jenis: nominal }
+    batasHariPencatatan:      { satuan: hari,   jenis: nominal }
+    usiaPensiunTahun:         { satuan: tahun,  jenis: nominal }
+    cutiMelahirkanBulanMin:   { satuan: bulan,  jenis: nominal }
+    cutiMelahirkanBulanMax:   { satuan: bulan,  jenis: nominal }
+    bulanUpahPenuh:           { satuan: bulan,  jenis: nominal }
+    bulanUpah75:              { satuan: bulan,  jenis: nominal }
+    cutiKeguguranBulan:       { satuan: bulan,  jenis: nominal }
+    cutiPendampinganHari:     { satuan: hari,   jenis: nominal }
+    cutiPendampinganTambahanHari: { satuan: hari, jenis: nominal }
+
+  dasar_keyakinan:
+    - dikutip
+    - tafsir
+    - dinamis
+    - tidak_lengkap
+
+  confidence:
+    min: 0.0
+    max: 1.0
+
+# ---------------------------------------------------------------------
+# Kategori tabel masa kerja (pesangon & UPMK)
+# ---------------------------------------------------------------------
+kategori:
+  nama_tabel:
+    uang_pesangon: ktn:KategoriUP
+    upmk: ktn:KategoriUPMK
+
+# ---------------------------------------------------------------------
+# Tabel pengali lembur
+# ---------------------------------------------------------------------
+pengali_lembur:
+  jenis_hari:
+    - hari_kerja
+    - libur_6hari
+    - libur_terpendek
+    - libur_5hari
+
+# ---------------------------------------------------------------------
+# Program jaminan sosial
+# ---------------------------------------------------------------------
+program_jamsos:
+  jenis_program:
+    - JKK
+    - JKM
+    - JHT
+    - JP
+    - JKP
+
+# ---------------------------------------------------------------------
+# Pola penamaan (dipakai validator)
+# ---------------------------------------------------------------------
+pola:
+  dokumen_id: '^(UU|PP)-\d{1,4}-\d{4}(-JO-\d{1,4}-\d{4})?$'
+  norm_id: '^[A-Z0-9]+(-[A-Z0-9]+)+$'
+  iri_individu: '^ktn:[A-Z][A-Za-z0-9]*$'
+  tabel_id: '^[A-Z0-9]+(-[A-Z0-9]+)+$'
+  program_id: '^[A-Z0-9]+(-[A-Z0-9]+)*$'
+
+# ---------------------------------------------------------------------
+# KANDIDAT (informasi saja, BELUM diberlakukan)
+# Nilai di bawah ini belum divalidasi; dipromosikan ke bagian aktif
+# saat Fase 2 menemukan dokumen yang membutuhkannya.
+# ---------------------------------------------------------------------
+kandidat:
+  norma_jenis:
+    - KetentuanK3
+    - KetentuanPengawasan
+    - KetentuanHubunganIndustrial
+    - KetentuanPesangonPajak
+    - KetentuanPMI
+    - KetentuanPelatihan
+    - KetentuanHubunganKerja
+  topik:
+    - K3
+    - Pengawasan
+    - HubunganIndustrial
+    - Pesangon
+    - PMI
+    - Pelatihan
+    - HubunganKerja

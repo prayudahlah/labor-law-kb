@@ -72,10 +72,13 @@ def download(session: requests.Session, url: str, dest: Path) -> None:
 def main() -> int:
     parser = argparse.ArgumentParser()
     parser.add_argument("--force", action="store_true", help="unduh ulang meski file ada")
+    parser.add_argument("--only", nargs="*", help="batasi ke satu atau beberapa id dokumen")
     args = parser.parse_args()
 
     data = yaml.safe_load(SOURCES.read_text(encoding="utf-8"))
     dokumen = data["dokumen"]
+    if args.only:
+        dokumen = [d for d in dokumen if d["id"] in set(args.only)]
     PDF_DIR.mkdir(parents=True, exist_ok=True)
 
     lock: dict = {}
@@ -87,6 +90,9 @@ def main() -> int:
 
     for i, doc in enumerate(dokumen):
         dest = PDF_DIR / doc["nama_file"]
+        if not doc.get("url_pdf") and not doc.get("url_halaman"):
+            print(f"[skip] {doc['id']}: tidak ada url_halaman/url_pdf (tandai TODO)")
+            continue
         if dest.exists() and not args.force:
             print(f"[skip] {doc['id']} sudah ada ({dest.stat().st_size:,} bytes)")
         else:
