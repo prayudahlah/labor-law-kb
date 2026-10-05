@@ -77,6 +77,12 @@ Satu file: `data/extraction/records/<DOKUMEN_ID>.json`.
 Kontrak lengkap (tipe, wajib/opsional) ada di
 `data/extraction/schema/extraction.schema.json`.
 
+Catatan penting: **enum/nilai terkontrol TIDAK didefinisikan di schema**.
+Schema hanya menegakkan bentuk/tipe. Semua nilai (jenis norma, topik,
+parameter, program jamsos, dasar keyakinan, dst.) mengikuti
+`data/extraction/VOCAB.yaml` sebagai satu-satunya sumber kebenaran, dan
+ditegakkan oleh `scripts/validate_extraction.py`.
+
 ```json
 {
   "spec_version": "1.0.0",
