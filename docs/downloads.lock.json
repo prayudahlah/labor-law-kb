@@ -1,68 +1,368 @@
 {
-  "uu-13-2003": {
+  "UU-13-2003": {
     "nama_file": "uu-13-2003.pdf",
     "ukuran": 297503,
     "sha256": "0d3868d19082be34c875a376729998b4d948cac745b1e613d90e6f257d5bf273",
-    "sumber": "https://peraturan.bpk.go.id/Download/31128/UU%20Nomor%2013%20Tahun%202003.pdf"
+    "sumber": "https://peraturan.bpk.go.id/Details/43013/uu-no-13-tahun-2003"
   },
-  "uu-6-2023": {
+  "UU-6-2023": {
     "nama_file": "uu-6-2023.pdf",
     "ukuran": 85354383,
     "sha256": "de73c84f11d4e721a4c0e66cadadac7f698941ec8adff5934e70f32dc885fdae",
-    "sumber": "https://peraturan.bpk.go.id/Download/302681/UU%20Nomor%206%20Tahun%202023.pdf"
+    "sumber": "https://peraturan.bpk.go.id/Details/246523/uu-no-6-tahun-2023"
   },
-  "pp-35-2021": {
-    "nama_file": "pp-35-2021.pdf",
-    "ukuran": 2516999,
-    "sha256": "d1f40e0c2fe3410631b71241ca98ca071a2c87be5af3c412a8aae24223b7ec20",
-    "sumber": "https://peraturan.bpk.go.id/Download/154582/PP%20Nomor%2035%20Tahun%202021.pdf"
+  "UU-40-2004": {
+    "nama_file": "uu-40-2004.pdf",
+    "ukuran": 182462,
+    "sha256": "7241c227c8d5e6cea443211b2673c37d73d9e1c8c1d2bd51ee00b5e55f774192",
+    "sumber": "https://peraturan.bpk.go.id/Details/40787/uu-no-40-tahun-2004"
   },
-  "pp-36-2021": {
-    "nama_file": "pp-36-2021.pdf",
-    "ukuran": 2912650,
-    "sha256": "fc5c7671cb02ed8715ad577d1e9a852995ef52143eb394f90a81b583381afc9b",
-    "sumber": "https://peraturan.bpk.go.id/Download/154587/PP%20Nomor%2036%20Tahun%202021.pdf"
-  },
-  "pp-51-2023": {
-    "nama_file": "pp-51-2023.pdf",
-    "ukuran": 2769139,
-    "sha256": "44de8376b488f4cf0f910660c05ac6e6044282b4c7c23b4e0e0b0e0881d349b8",
-    "sumber": "https://peraturan.bpk.go.id/Download/328142/PP%20Nomor%2051%20Tahun%202023.pdf"
-  },
-  "pp-49-2025": {
-    "nama_file": "pp-49-2025.pdf",
-    "ukuran": 1503137,
-    "sha256": "9170d0e027d70fa516b522c766681cf1e2d45bda06aa4552e738a5573378c300",
-    "sumber": "https://peraturan.bpk.go.id/Download/402111/PP%20Nomor%2049%20Tahun%202025.pdf"
-  },
-  "uu-24-2011": {
+  "UU-24-2011": {
     "nama_file": "uu-24-2011.pdf",
     "ukuran": 296718,
     "sha256": "650b86991e55dbf1ada27294676c451dca85c09d8f9352754d5cb59505680f57",
-    "sumber": "https://peraturan.bpk.go.id/Download/28701/UU%2024%20Tahun%202011.pdf"
+    "sumber": "https://peraturan.bpk.go.id/Details/39268/uu-no-24-tahun-2011"
   },
-  "pp-44-2015": {
+  "UU-21-2003": {
+    "nama_file": "uu-21-2003.pdf",
+    "ukuran": 89848,
+    "sha256": "7937254a885b8172c6620fea8f48ed799b32cda2393dcceaf0324f12fedbb0b7",
+    "sumber": "https://peraturan.bpk.go.id/Details/43922/uu-no-21-tahun-2003"
+  },
+  "UU-4-2024": {
+    "nama_file": "uu-4-2024.pdf",
+    "ukuran": 3526423,
+    "sha256": "6a0cafe8c36fd4e3b6dc91276eaf2bc9f5e78111454bbc5ccd9546cc67b90fef",
+    "sumber": "https://peraturan.bpk.go.id/Details/289997/uu-no-4-tahun-2024"
+  },
+  "UU-4-2023": {
+    "nama_file": "uu-4-2023.pdf",
+    "ukuran": 81823248,
+    "sha256": "2be1b1e49af7c729fc2b09c16fcd94da0c601f70b9b6066e81e6b56d980b0e12",
+    "sumber": "https://peraturan.bpk.go.id/Details/240203/uu-no-4-tahun-2023"
+  },
+  "UU-23-2014": {
+    "nama_file": "uu-23-2014.pdf",
+    "ukuran": 1824394,
+    "sha256": "d8c3cce843167bdf132cc8c2f843c51b4e7a78969327d496586088de35ca27fd",
+    "sumber": "https://peraturan.bpk.go.id/Details/38685/uu-no-23-tahun-2014"
+  },
+  "UU-35-2014": {
+    "nama_file": "uu-35-2014.pdf",
+    "ukuran": 478998,
+    "sha256": "5c93f277f7f662150073be913e30afec1bf90b6f180f494dd22c618aebb2bfc3",
+    "sumber": "https://peraturan.bpk.go.id/Details/38723/uu-no-35-tahun-2014"
+  },
+  "UU-20-2025": {
+    "nama_file": "uu-20-2025.pdf",
+    "ukuran": 13630882,
+    "sha256": "40e8b444aa7efabe1597bf104228e053deec452ae385c0433ca62701161cec3a",
+    "sumber": "https://peraturan.bpk.go.id/Details/337302/uu-no-20-tahun-2025"
+  },
+  "PP-34-2021": {
+    "nama_file": "pp-34-2021.pdf",
+    "ukuran": 3212328,
+    "sha256": "6d829b03be160133556df086128b596f3cca2081944ce0ed3e34118172a4a86e",
+    "sumber": "https://peraturan.bpk.go.id/Details/161898/pp-no-34-tahun-2021"
+  },
+  "PP-35-2021": {
+    "nama_file": "pp-35-2021.pdf",
+    "ukuran": 2516999,
+    "sha256": "d1f40e0c2fe3410631b71241ca98ca071a2c87be5af3c412a8aae24223b7ec20",
+    "sumber": "https://peraturan.bpk.go.id/Details/161904/pp-no-35-tahun-2021"
+  },
+  "PP-36-2021": {
+    "nama_file": "pp-36-2021.pdf",
+    "ukuran": 2912650,
+    "sha256": "fc5c7671cb02ed8715ad577d1e9a852995ef52143eb394f90a81b583381afc9b",
+    "sumber": "https://peraturan.bpk.go.id/Details/161909/pp-no-36-tahun-2021"
+  },
+  "PP-51-2023": {
+    "nama_file": "pp-51-2023.pdf",
+    "ukuran": 2769139,
+    "sha256": "44de8376b488f4cf0f910660c05ac6e6044282b4c7c23b4e0e0b0e0881d349b8",
+    "sumber": "https://peraturan.bpk.go.id/Details/270269/pp-no-51-tahun-2023"
+  },
+  "PP-49-2025": {
+    "nama_file": "pp-49-2025.pdf",
+    "ukuran": 1503137,
+    "sha256": "9170d0e027d70fa516b522c766681cf1e2d45bda06aa4552e738a5573378c300",
+    "sumber": "https://peraturan.bpk.go.id/Details/339037/pp-no-49-tahun-2025"
+  },
+  "PP-37-2021": {
+    "nama_file": "pp-37-2021.pdf",
+    "ukuran": 350289,
+    "sha256": "bb607c11e392b26c81ee0eaf50b1ee0d9698b6be849cf0e961fe197923d2f9aa",
+    "sumber": "https://peraturan.bpk.go.id/Details/161919/pp-no-37-tahun-2021"
+  },
+  "PP-6-2025": {
+    "nama_file": "pp-6-2025.pdf",
+    "ukuran": 1069289,
+    "sha256": "17bef486455195c995c0421c4db0a8d01b26aa9c46026c29f27675e766009c9c",
+    "sumber": "https://peraturan.bpk.go.id/Details/314623/pp-no-6-tahun-2025"
+  },
+  "PP-7-2025": {
+    "nama_file": "pp-7-2025.pdf",
+    "ukuran": 606483,
+    "sha256": "a92edc6f07e47b4d8312118fcdd5a080ef1c0ed5f883af61c73be6046ce793a7",
+    "sumber": "https://peraturan.bpk.go.id/Details/314624/pp-no-7-tahun-2025"
+  },
+  "PP-44-2015": {
     "nama_file": "pp-44-2015.pdf",
     "ukuran": 347868,
     "sha256": "bdc965b00b57c2354f404296fefbd9eca60f613b2a951a3ab1c709e647791e4d",
-    "sumber": "https://peraturan.bpk.go.id/Download/28927/PP%20Nomor%2044%20Tahun%202015.pdf"
+    "sumber": "https://peraturan.bpk.go.id/Details/5612/pp-no-44-tahun-2015"
   },
-  "pp-46-2015": {
-    "nama_file": "pp-46-2015.pdf",
-    "ukuran": 490541,
-    "sha256": "0c6162a759b25389dd264219d3e03f83b56ca16a0f45a2e673f9e3243cd69c6d",
-    "sumber": "https://peraturan.bpk.go.id/Download/28934/PP%20Nomor%2046%20Tahun%202015.pdf"
+  "PP-82-2019": {
+    "nama_file": "pp-82-2019.pdf",
+    "ukuran": 526404,
+    "sha256": "4f7253b82ef64334c7b7db9bcb1c1db9ee507b5015eef40ba24a74b1551b6935",
+    "sumber": "https://peraturan.bpk.go.id/Details/127681/pp-no-82-tahun-2019"
   },
-  "pp-45-2015": {
+  "PP-49-2023": {
+    "nama_file": "pp-49-2023.pdf",
+    "ukuran": 1162341,
+    "sha256": "90d80a8b8a21931e778c5af3a830f3edb764f69761b7f57242472220a2a7f838",
+    "sumber": "https://peraturan.bpk.go.id/Details/266186/pp-no-49-tahun-2023"
+  },
+  "PP-45-2015": {
     "nama_file": "pp-45-2015.pdf",
     "ukuran": 484231,
     "sha256": "2fe1da4426f5e7a60d3ccc6082b94fd86cdad60e220761208fdaa2855740e78d",
     "sumber": "https://peraturan.bpk.go.id/Details/5613/pp-no-45-tahun-2015"
   },
-  "uu-4-2024": {
-    "nama_file": "uu-4-2024.pdf",
-    "ukuran": 3526423,
-    "sha256": "6a0cafe8c36fd4e3b6dc91276eaf2bc9f5e78111454bbc5ccd9546cc67b90fef",
-    "sumber": "https://peraturan.bpk.go.id/Details/289997/uu-no-4-tahun-2024"
+  "PP-46-2015": {
+    "nama_file": "pp-46-2015.pdf",
+    "ukuran": 490541,
+    "sha256": "0c6162a759b25389dd264219d3e03f83b56ca16a0f45a2e673f9e3243cd69c6d",
+    "sumber": "https://peraturan.bpk.go.id/Details/5614/pp-no-46-tahun-2015"
+  },
+  "PP-60-2015": {
+    "nama_file": "pp-60-2015.pdf",
+    "ukuran": 214792,
+    "sha256": "bea09c25af2de65127e70ac1292666766a1fd34eff2e9d758c00102dc3085918",
+    "sumber": "https://peraturan.bpk.go.id/Details/5634/pp-no-60-tahun-2015"
+  },
+  "PP-99-2013": {
+    "nama_file": "pp-99-2013.pdf",
+    "ukuran": 390015,
+    "sha256": "03cee82740d8e66a218ffa13e0d7ddbe562041e4e31ff376d37dfedefc37daa2",
+    "sumber": "https://peraturan.bpk.go.id/Details/5436/pp-no-99-tahun-2013"
+  },
+  "PP-55-2015": {
+    "nama_file": "pp-55-2015.pdf",
+    "ukuran": 357223,
+    "sha256": "9f58d5b0b172806485593947d4acecfce1e2a7d12dc2464d0f981deaaeac849d",
+    "sumber": "https://peraturan.bpk.go.id/Details/5627/pp-no-55-tahun-2015"
+  },
+  "PP-27-2026": {
+    "nama_file": "pp-27-2026.pdf",
+    "ukuran": 3225700,
+    "sha256": "a6df2c88c4d3f407b5a186c1f0918b6f50926a9d2f28cb5bedbfcb518fe4493d",
+    "sumber": "https://peraturan.bpk.go.id/Details/351383/pp-no-27-tahun-2026"
+  },
+  "PP-83-2013": {
+    "nama_file": "pp-83-2013.pdf",
+    "ukuran": 118535,
+    "sha256": "8fbad2125a1263af740f67f726a85d137f75096968833cefd857a1367907ebf2",
+    "sumber": "https://peraturan.bpk.go.id/Details/5418/pp-no-83-tahun-2013"
+  },
+  "PP-86-2013": {
+    "nama_file": "pp-86-2013.pdf",
+    "ukuran": 207478,
+    "sha256": "78a0ddac948b5e779b836803a9eab186cfbbab4d7d8b51672b414959bd3209cf",
+    "sumber": "https://peraturan.bpk.go.id/Details/5421/pp-no-86-tahun-2013"
+  },
+  "PP-88-2019": {
+    "nama_file": "pp-88-2019.pdf",
+    "ukuran": 1024772,
+    "sha256": "82f8d1f83e90b58b8f86b28cbc42ee6d259b22b038d53ab0baca64bce91f6a9b",
+    "sumber": "https://peraturan.bpk.go.id/Details/128642/pp-no-88-tahun-2019"
+  },
+  "PP-28-2024": {
+    "nama_file": "pp-28-2024.pdf",
+    "ukuran": 68696825,
+    "sha256": "9038a3bb566e5f383ff6108f79d049e6dd11b52ab93b547aea57d2106ec42306",
+    "sumber": "https://peraturan.bpk.go.id/Details/294077/pp-no-28-tahun-2024"
+  },
+  "PP-25-2020": {
+    "nama_file": "pp-25-2020.pdf",
+    "ukuran": 2512438,
+    "sha256": "c7f9e79cb79cf334a23f966b36ec261e2deceeff36a455d432949834a508d3d3",
+    "sumber": "https://peraturan.bpk.go.id/Details/137950/pp-no-25-tahun-2020"
+  },
+  "PP-21-2024": {
+    "nama_file": "pp-21-2024.pdf",
+    "ukuran": 1347311,
+    "sha256": "3d78e3565c5769e55780ee58798f60d86eaaca75cab1057be7f68af4bd145cd0",
+    "sumber": "https://peraturan.bpk.go.id/Details/286236/pp-no-21-tahun-2024"
+  },
+  "PP-70-2015": {
+    "nama_file": "pp-70-2015.pdf",
+    "ukuran": 331220,
+    "sha256": "a690de2536d139ddff220e14b22833bd5a01071e6822f15223b6465d7dc65195",
+    "sumber": "https://peraturan.bpk.go.id/Details/5647/pp-no-70-tahun-2015"
+  },
+  "UU-2-2026": {
+    "nama_file": "uu-2-2026.pdf",
+    "ukuran": 991467,
+    "sha256": "9bf1a946e9bf168f31654a57d4aca5397146fe1ffb1925d611e0f7f608d06b1d",
+    "sumber": "https://www.peraturan.go.id/id/uu-no-2-tahun-2026"
+  },
+  "UU-2-2004": {
+    "nama_file": "uu-2-2004.pdf",
+    "ukuran": 170806,
+    "sha256": "ffc8d30b213306bfe3b2ed6366add708038c74335fb43c6ea68ccdbf900d4b25",
+    "sumber": "https://peraturan.go.id/id/uu-no-2-tahun-2004"
+  },
+  "UU-21-2000": {
+    "nama_file": "uu-21-2000.pdf",
+    "ukuran": 95662,
+    "sha256": "3dd9e5856cf9b4107b9db5d67f8c15018be27e883275e9eb6776aff8dc3dc4a8",
+    "sumber": "https://peraturan.go.id/id/uu-no-21-tahun-2000"
+  },
+  "UU-1-1970": {
+    "nama_file": "uu-1-1970.pdf",
+    "ukuran": 68325,
+    "sha256": "c4e6f81f2d8317a3725545952c7264950dc47cf393f5f3a21c9d451f05e448af",
+    "sumber": "https://peraturan.go.id/id/uu-no-1-tahun-1970"
+  },
+  "UU-3-1951": {
+    "nama_file": "uu-3-1951.pdf",
+    "ukuran": 44123,
+    "sha256": "2857f5274b7eedf43c61e41cdaca7db8a49ccbe65d64035f26305c3a762ffd71",
+    "sumber": "https://peraturan.go.id/id/uu-no-3-tahun-1951"
+  },
+  "UU-7-1981": {
+    "nama_file": "uu-7-1981.pdf",
+    "ukuran": 57945,
+    "sha256": "f41531c5be85f41982fe47bb841243f16f7196a12cd9bbc256ffd3cdde545649",
+    "sumber": "https://peraturan.go.id/id/uu-no-7-tahun-1981"
+  },
+  "UU-18-2017": {
+    "nama_file": "uu-18-2017.pdf",
+    "ukuran": 461622,
+    "sha256": "4aa56b8a0a8fe56be6b08e6b3c720aa2e2b9b4fb0958c7b7f65127b5543ddd48",
+    "sumber": "https://peraturan.go.id/id/uu-no-18-tahun-2017"
+  },
+  "UU-8-2016": {
+    "nama_file": "uu-8-2016.pdf",
+    "ukuran": 120940,
+    "sha256": "cae383fd43c9f313ce024bb386ffd9357b28a116cfee86b99db97c9022395a13",
+    "sumber": "https://peraturan.go.id/id/uu-no-8-tahun-2016"
+  },
+  "UU-12-2022": {
+    "nama_file": "uu-12-2022.pdf",
+    "ukuran": 360587,
+    "sha256": "ab04bd4659f794b645a426761aa10ffa5956f82c14a897cadbbaca6882971681",
+    "sumber": "https://peraturan.go.id/id/uu-no-12-tahun-2022"
+  },
+  "UU-17-2023": {
+    "nama_file": "uu-17-2023.pdf",
+    "ukuran": 19188715,
+    "sha256": "612400d634aff1eca403cbbf3d1e7746d73ffb71b43aeb1775c6a494f509ca1a",
+    "sumber": "https://peraturan.go.id/id/uu-no-17-tahun-2023"
+  },
+  "UU-21-2007": {
+    "nama_file": "uu-21-2007.pdf",
+    "ukuran": 93893,
+    "sha256": "999abc966f7b335f0212b451f45af13923b0e613d496c892fc83b046cf0ea831",
+    "sumber": "https://peraturan.go.id/id/uu-no-21-tahun-2007"
+  },
+  "UU-20-2023": {
+    "nama_file": "uu-20-2023.pdf",
+    "ukuran": 3798392,
+    "sha256": "3f68b334f4979a2e81adf92f63c7d13fb2e35e43183cb0075840c4f4338d2e0a",
+    "sumber": "https://peraturan.go.id/id/uu-no-20-tahun-2023"
+  },
+  "UU-12-2011": {
+    "nama_file": "uu-12-2011.pdf",
+    "ukuran": 648819,
+    "sha256": "539b705040f263ebf933b0ab739868a227e94932691407852e95aa0eaa05c8db",
+    "sumber": "https://peraturan.bpk.go.id/Details/39188/uu-no-12-tahun-2011"
+  },
+  "UU-13-2022": {
+    "nama_file": "uu-13-2022.pdf",
+    "ukuran": 2961072,
+    "sha256": "bdcdf76cb1b023b098963b525493063899a71f02bb43ae119347b3ddd1ca9e95",
+    "sumber": "https://peraturan.go.id/id/uu-no-13-tahun-2022"
+  },
+  "UU-39-2008": {
+    "nama_file": "uu-39-2008.pdf",
+    "ukuran": 73207,
+    "sha256": "f0ef9f4e547bfc67d6e0899225f0cf98087de12c472bea72766ff7ca4c31d73d",
+    "sumber": "https://peraturan.bpk.go.id/Details/39719/uu-no-39-tahun-2008"
+  },
+  "UU-61-2024": {
+    "nama_file": "uu-61-2024.pdf",
+    "ukuran": 620367,
+    "sha256": "b70cfb88e77c72dd3b936d96052fd2a3705566f13154f1612b88da986c9255b4",
+    "sumber": "https://peraturan.bpk.go.id/Details/304396/uu-no-61-tahun-2024"
+  },
+  "PP-31-2026": {
+    "nama_file": "pp-31-2026.pdf",
+    "ukuran": 1411329,
+    "sha256": "7670d6b79aa3fe57919f93b41110bda648fe84bcd7aa69295fd9229e0b18bab3",
+    "sumber": "https://peraturan.go.id/id/pp-no-31-tahun-2026"
+  },
+  "PP-88-2013": {
+    "nama_file": "pp-88-2013.pdf",
+    "ukuran": 52327,
+    "sha256": "5d86cbe90ae44b561a9d28727c63e482743b2128b37ab0f280a2f1920eb20423",
+    "sumber": "https://peraturan.go.id/id/pp-no-88-tahun-2013"
+  },
+  "PP-59-2021": {
+    "nama_file": "pp-59-2021.pdf",
+    "ukuran": 548463,
+    "sha256": "d5502bb68b4f0f522d291ac090c49d0a11061f24bd4cda948c90920200b7ea5a",
+    "sumber": "https://peraturan.go.id/id/pp-no-59-tahun-2021"
+  },
+  "PP-10-2020": {
+    "nama_file": "pp-10-2020.pdf",
+    "ukuran": 1166697,
+    "sha256": "a23dcff12ae8c72e9c626a570d5ec805f3788885af8685c49c2ebd474d15643d",
+    "sumber": "https://peraturan.bpk.go.id/Download/122808/PP%20Nomor%2010%20Tahun%202020.pdf"
+  },
+  "PP-22-2022": {
+    "nama_file": "pp-22-2022.pdf",
+    "ukuran": 316433,
+    "sha256": "a0499de70340b1939477f9d73e29de234fae6250a2f93def6ec8ef7ef4028a4f",
+    "sumber": "https://peraturan.go.id/id/pp-no-22-tahun-2022"
+  },
+  "PP-50-2012": {
+    "nama_file": "pp-50-2012.pdf",
+    "ukuran": 12586752,
+    "sha256": "f97f50a6606fe68b0591aba4caf4e3c20c51f5b7eb4c6acda4a95622d5c88028",
+    "sumber": "https://peraturan.go.id/id/pp-no-50-tahun-2012"
+  },
+  "PP-31-2006": {
+    "nama_file": "pp-31-2006.pdf",
+    "ukuran": 33184,
+    "sha256": "4e32928c6588120e485044430cb84e2b7b062bc9b3551f6002bddca2297c401a",
+    "sumber": "https://peraturan.go.id/id/pp-no-31-tahun-2006"
+  },
+  "PP-23-2004": {
+    "nama_file": "pp-23-2004.pdf",
+    "ukuran": 62246,
+    "sha256": "7b17581869c7e50cb7cd6f91b5c8b4442fab797850fa8aacd29b4f3d9330ae5f",
+    "sumber": "https://peraturan.go.id/id/pp-no-23-tahun-2004"
+  },
+  "PP-15-2007": {
+    "nama_file": "pp-15-2007.pdf",
+    "ukuran": 86248,
+    "sha256": "6d5a8bdeca2c40a9ce9b64d925d7d34841116716c054d83c6f1a392400881ac2",
+    "sumber": "https://peraturan.go.id/id/pp-no-15-tahun-2007"
+  },
+  "PP-33-2013": {
+    "nama_file": "pp-33-2013.pdf",
+    "ukuran": 32379,
+    "sha256": "bbc367c25399df13e050606ada64623e801d293bdfa8b4cb6c4a1bee435b379f",
+    "sumber": "https://peraturan.go.id/id/pp-no-33-tahun-2013"
+  },
+  "PP-68-2009": {
+    "nama_file": "pp-68-2009.pdf",
+    "ukuran": 34332,
+    "sha256": "c7729371e336c1ae42e8053a4cfb50ecdb9cf8813507d3b1fbfbb1ea14a3b8aa",
+    "sumber": "https://peraturan.go.id/id/pp-no-68-tahun-2009"
   }
 }
