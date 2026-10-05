@@ -1,7 +1,8 @@
 # Manifest dokumen Tier 0 (prototype KB & Reasoning hukum ketenagakerjaan)
 #
+# Fase 3: seluruh UU dan PP dari daftar_regulasi_ketenagakerjaan.md.
 # Field:
-#   id           : slug, dipakai sebagai nama file markdown
+#   id           : slug, dipakai sebagai nama file markdown & dokumen_id
 #   judul        : judul resmi
 #   jenis        : UU | PP
 #   nomor        : nomor peraturan
@@ -10,129 +11,684 @@
 #   url_halaman  : halaman resmi (sumber traceability)
 #   url_pdf      : URL PDF langsung bila diketahui; null berarti diresolusi dari url_halaman
 #   nama_file    : nama file PDF di docs/pdf/
-#   halaman      : rentang halaman untuk disaring, format "awal-akhir" (1-based, inklusif).
-#                  null berarti ekstrak seluruh dokumen. Dipakai untuk klaster pada UU omnibus.
-#   catatan      : catatan bebas
+#   halaman      : rentang halaman untuk disaring, format "awal-akhir" (1-based, inklusif)
+#   catatan      : catatan bebas (termasuk TODO sumber)
 
 dokumen:
-  - id: uu-13-2003
+  # ============ Undang-Undang (24) ============
+  - id: UU-13-2003
     judul: "Undang-Undang Nomor 13 Tahun 2003 tentang Ketenagakerjaan"
     jenis: UU
-    nomor: 13
-    tahun: 2003
+    nomor: "13"
+    tahun: "2003"
     topik: "Ketenagakerjaan (induk)"
     url_halaman: "https://peraturan.bpk.go.id/Details/43013/uu-no-13-tahun-2003"
-    url_pdf: "https://peraturan.bpk.go.id/Download/31128/UU%20Nomor%2013%20Tahun%202003.pdf"
+    url_pdf: null
     nama_file: "uu-13-2003.pdf"
     halaman: null
 
-  - id: uu-6-2023
+  - id: UU-6-2023
     judul: "Undang-Undang Nomor 6 Tahun 2023 tentang Penetapan Peraturan Pemerintah Pengganti Undang-Undang Nomor 2 Tahun 2022 tentang Cipta Kerja menjadi Undang-Undang"
     jenis: UU
-    nomor: 6
-    tahun: 2023
+    nomor: "6"
+    tahun: "2023"
     topik: "Cipta Kerja (klaster ketenagakerjaan)"
     url_halaman: "https://peraturan.bpk.go.id/Details/246523/uu-no-6-tahun-2023"
-    url_pdf: "https://peraturan.bpk.go.id/Download/302681/UU%20Nomor%206%20Tahun%202023.pdf"
+    url_pdf: null
     nama_file: "uu-6-2023.pdf"
     halaman: "548-588"   # BAB IV KETENAGAKERJAAN s.d. sebelum BAB V
     catatan: "Omnibus. Saring hanya klaster ketenagakerjaan saat ekstraksi."
 
-  - id: pp-35-2021
-    judul: "Peraturan Pemerintah Nomor 35 Tahun 2021 tentang Perjanjian Kerja Waktu Tertentu, Alih Daya, Waktu Kerja dan Waktu Istirahat, dan Pemutusan Hubungan Kerja"
-    jenis: PP
-    nomor: 35
-    tahun: 2021
-    topik: "PKWT, alih daya, waktu kerja, PHK, pesangon"
-    url_halaman: "https://peraturan.bpk.go.id/Details/161904/pp-no-35-tahun-2021"
-    url_pdf: "https://peraturan.bpk.go.id/Download/154582/PP%20Nomor%2035%20Tahun%202021.pdf"
-    nama_file: "pp-35-2021.pdf"
+  - id: UU-2-2026
+    judul: "Undang-Undang Nomor 2 Tahun 2026 tentang Pelindungan Pekerja Rumah Tangga"
+    jenis: UU
+    nomor: "2"
+    tahun: "2026"
+    topik: "Pelindungan Pekerja Rumah Tangga"
+    url_halaman: "https://www.peraturan.go.id/id/uu-no-2-tahun-2026"
+    url_pdf: null
+    nama_file: "uu-2-2026.pdf"
     halaman: null
 
-  - id: pp-36-2021
-    judul: "Peraturan Pemerintah Nomor 36 Tahun 2021 tentang Pengupahan"
-    jenis: PP
-    nomor: 36
-    tahun: 2021
-    topik: "Pengupahan, upah minimum"
-    url_halaman: "https://peraturan.bpk.go.id/Details/161909/pp-no-36-tahun-2021"
-    url_pdf: "https://peraturan.bpk.go.id/Download/154587/PP%20Nomor%2036%20Tahun%202021.pdf"
-    nama_file: "pp-36-2021.pdf"
+  - id: UU-2-2004
+    judul: "Undang-Undang Nomor 2 Tahun 2004 tentang Penyelesaian Perselisihan Hubungan Industrial"
+    jenis: UU
+    nomor: "2"
+    tahun: "2004"
+    topik: "Penyelesaian Perselisihan Hubungan Industrial"
+    url_halaman: "https://peraturan.go.id/id/uu-no-2-tahun-2004"
+    url_pdf: null
+    nama_file: "uu-2-2004.pdf"
     halaman: null
 
-  - id: pp-51-2023
-    judul: "Peraturan Pemerintah Nomor 51 Tahun 2023 tentang Perubahan atas Peraturan Pemerintah Nomor 36 Tahun 2021 tentang Pengupahan"
-    jenis: PP
-    nomor: 51
-    tahun: 2023
-    topik: "Perubahan pengupahan (formula upah minimum)"
-    url_halaman: "https://peraturan.bpk.go.id/Details/270269/pp-no-51-tahun-2023"
-    url_pdf: "https://peraturan.bpk.go.id/Download/328142/PP%20Nomor%2051%20Tahun%202023.pdf"
-    nama_file: "pp-51-2023.pdf"
+  - id: UU-21-2000
+    judul: "Undang-Undang Nomor 21 Tahun 2000 tentang Serikat Pekerja/Serikat Buruh"
+    jenis: UU
+    nomor: "21"
+    tahun: "2000"
+    topik: "Serikat Pekerja/Serikat Buruh"
+    url_halaman: "https://peraturan.go.id/id/uu-no-21-tahun-2000"
+    url_pdf: null
+    nama_file: "uu-21-2000.pdf"
     halaman: null
 
-  - id: pp-49-2025
-    judul: "Peraturan Pemerintah Nomor 49 Tahun 2025 tentang Perubahan Kedua atas Peraturan Pemerintah Nomor 36 Tahun 2021 tentang Pengupahan"
-    jenis: PP
-    nomor: 49
-    tahun: 2025
-    topik: "Perubahan pengupahan (upah minimum terkini)"
-    url_halaman: "https://peraturan.bpk.go.id/Details/339037/pp-no-49-tahun-2025"
-    url_pdf: "https://peraturan.bpk.go.id/Download/402111/PP%20Nomor%2049%20Tahun%202025.pdf"
-    nama_file: "pp-49-2025.pdf"
+  - id: UU-40-2004
+    judul: "Undang-Undang Nomor 40 Tahun 2004 tentang Sistem Jaminan Sosial Nasional"
+    jenis: UU
+    nomor: "40"
+    tahun: "2004"
+    topik: "Sistem Jaminan Sosial Nasional"
+    url_halaman: "https://peraturan.bpk.go.id/Details/40787/uu-no-40-tahun-2004"
+    url_pdf: null
+    nama_file: "uu-40-2004.pdf"
     halaman: null
 
-  - id: uu-24-2011
+  - id: UU-24-2011
     judul: "Undang-Undang Nomor 24 Tahun 2011 tentang Badan Penyelenggara Jaminan Sosial"
     jenis: UU
-    nomor: 24
-    tahun: 2011
+    nomor: "24"
+    tahun: "2011"
     topik: "BPJS (kelembagaan jaminan sosial)"
     url_halaman: "https://peraturan.bpk.go.id/Details/39268/uu-no-24-tahun-2011"
-    url_pdf: "https://peraturan.bpk.go.id/Download/28701/UU%2024%20Tahun%202011.pdf"
+    url_pdf: null
     nama_file: "uu-24-2011.pdf"
     halaman: null
 
-  - id: pp-44-2015
+  - id: UU-1-1970
+    judul: "Undang-Undang Nomor 1 Tahun 1970 tentang Keselamatan Kerja"
+    jenis: UU
+    nomor: "1"
+    tahun: "1970"
+    topik: "Keselamatan Kerja"
+    url_halaman: "https://peraturan.go.id/id/uu-no-1-tahun-1970"
+    url_pdf: null
+    nama_file: "uu-1-1970.pdf"
+    halaman: null
+
+  - id: UU-3-1951
+    judul: "Undang-Undang Nomor 3 Tahun 1951 tentang Pernyataan Berlakunya Undang-Undang Pengawasan Perburuhan Tahun 1948 Nomor 23"
+    jenis: UU
+    nomor: "3"
+    tahun: "1951"
+    topik: "Pengawasan Perburuhan"
+    url_halaman: "https://peraturan.go.id/id/uu-no-3-tahun-1951"
+    url_pdf: null
+    nama_file: "uu-3-1951.pdf"
+    halaman: null
+
+  - id: UU-7-1981
+    judul: "Undang-Undang Nomor 7 Tahun 1981 tentang Wajib Lapor Ketenagakerjaan di Perusahaan"
+    jenis: UU
+    nomor: "7"
+    tahun: "1981"
+    topik: "Wajib Lapor Ketenagakerjaan"
+    url_halaman: "https://peraturan.go.id/id/uu-no-7-tahun-1981"
+    url_pdf: null
+    nama_file: "uu-7-1981.pdf"
+    halaman: null
+
+  - id: UU-21-2003
+    judul: "Undang-Undang Nomor 21 Tahun 2003 tentang Pengesahan ILO Convention No. 81 tentang Pengawasan Ketenagakerjaan"
+    jenis: UU
+    nomor: "21"
+    tahun: "2003"
+    topik: "Pengesahan ILO C81"
+    url_halaman: "https://peraturan.bpk.go.id/Details/43922/uu-no-21-tahun-2003"
+    url_pdf: null
+    nama_file: "uu-21-2003.pdf"
+    halaman: null
+
+  - id: UU-18-2017
+    judul: "Undang-Undang Nomor 18 Tahun 2017 tentang Pelindungan Pekerja Migran Indonesia"
+    jenis: UU
+    nomor: "18"
+    tahun: "2017"
+    topik: "Pelindungan Pekerja Migran Indonesia"
+    url_halaman: "https://peraturan.go.id/id/uu-no-18-tahun-2017"
+    url_pdf: null
+    nama_file: "uu-18-2017.pdf"
+    halaman: null
+
+  - id: UU-8-2016
+    judul: "Undang-Undang Nomor 8 Tahun 2016 tentang Penyandang Disabilitas"
+    jenis: UU
+    nomor: "8"
+    tahun: "2016"
+    topik: "Penyandang Disabilitas"
+    url_halaman: "https://peraturan.go.id/id/uu-no-8-tahun-2016"
+    url_pdf: null
+    nama_file: "uu-8-2016.pdf"
+    halaman: null
+
+  - id: UU-4-2024
+    judul: "Undang-Undang Nomor 4 Tahun 2024 tentang Kesejahteraan Ibu dan Anak pada Fase Seribu Hari Pertama Kehidupan"
+    jenis: UU
+    nomor: "4"
+    tahun: "2024"
+    topik: "Cuti melahirkan, hak menyusui"
+    url_halaman: "https://peraturan.bpk.go.id/Details/289997/uu-no-4-tahun-2024"
+    url_pdf: null
+    nama_file: "uu-4-2024.pdf"
+    halaman: null
+
+  - id: UU-12-2022
+    judul: "Undang-Undang Nomor 12 Tahun 2022 tentang Tindak Pidana Kekerasan Seksual"
+    jenis: UU
+    nomor: "12"
+    tahun: "2022"
+    topik: "Tindak Pidana Kekerasan Seksual"
+    url_halaman: "https://peraturan.go.id/id/uu-no-12-tahun-2022"
+    url_pdf: null
+    nama_file: "uu-12-2022.pdf"
+    halaman: null
+
+  - id: UU-17-2023
+    judul: "Undang-Undang Nomor 17 Tahun 2023 tentang Kesehatan"
+    jenis: UU
+    nomor: "17"
+    tahun: "2023"
+    topik: "Kesehatan"
+    url_halaman: "https://peraturan.go.id/id/uu-no-17-tahun-2023"
+    url_pdf: null
+    nama_file: "uu-17-2023.pdf"
+    halaman: null
+
+  - id: UU-4-2023
+    judul: "Undang-Undang Nomor 4 Tahun 2023 tentang Pengembangan dan Penguatan Sektor Keuangan"
+    jenis: UU
+    nomor: "4"
+    tahun: "2023"
+    topik: "P2SK"
+    url_halaman: "https://peraturan.bpk.go.id/Details/240203/uu-no-4-tahun-2023"
+    url_pdf: null
+    nama_file: "uu-4-2023.pdf"
+    halaman: null
+
+  - id: UU-23-2014
+    judul: "Undang-Undang Nomor 23 Tahun 2014 tentang Pemerintahan Daerah"
+    jenis: UU
+    nomor: "23"
+    tahun: "2014"
+    topik: "Pemerintahan Daerah"
+    url_halaman: "https://peraturan.bpk.go.id/Details/38685/uu-no-23-tahun-2014"
+    url_pdf: null
+    nama_file: "uu-23-2014.pdf"
+    halaman: null
+
+  - id: UU-21-2007
+    judul: "Undang-Undang Nomor 21 Tahun 2007 tentang Pemberantasan Tindak Pidana Perdagangan Orang"
+    jenis: UU
+    nomor: "21"
+    tahun: "2007"
+    topik: "Tindak Pidana Perdagangan Orang"
+    url_halaman: "https://peraturan.go.id/id/uu-no-21-tahun-2007"
+    url_pdf: null
+    nama_file: "uu-21-2007.pdf"
+    halaman: null
+
+  - id: UU-35-2014
+    judul: "Undang-Undang Nomor 35 Tahun 2014 tentang Perubahan atas Undang-Undang Nomor 23 Tahun 2002 tentang Perlindungan Anak"
+    jenis: UU
+    nomor: "35"
+    tahun: "2014"
+    topik: "Perlindungan Anak"
+    url_halaman: "https://peraturan.bpk.go.id/Details/38723/uu-no-35-tahun-2014"
+    url_pdf: null
+    nama_file: "uu-35-2014.pdf"
+    halaman: null
+
+  - id: UU-20-2023
+    judul: "Undang-Undang Nomor 20 Tahun 2023 tentang Aparatur Sipil Negara"
+    jenis: UU
+    nomor: "20"
+    tahun: "2023"
+    topik: "Aparatur Sipil Negara"
+    url_halaman: "https://peraturan.go.id/id/uu-no-20-tahun-2023"
+    url_pdf: null
+    nama_file: "uu-20-2023.pdf"
+    halaman: null
+
+  - id: UU-12-2011
+    judul: "Undang-Undang Nomor 12 Tahun 2011 tentang Pembentukan Peraturan Perundang-undangan"
+    jenis: UU
+    nomor: "12"
+    tahun: "2011"
+    topik: "Pembentukan Peraturan Perundang-undangan"
+    url_halaman: "https://peraturan.bpk.go.id/Details/39188/uu-no-12-tahun-2011"
+    url_pdf: null
+    nama_file: "uu-12-2011.pdf"
+    halaman: null
+    catatan: "Diubah oleh UU 13/2022."
+
+  - id: UU-13-2022
+    judul: "Undang-Undang Nomor 13 Tahun 2022 tentang Perubahan Kedua atas Undang-Undang Nomor 12 Tahun 2011 tentang Pembentukan Peraturan Perundang-undangan"
+    jenis: UU
+    nomor: "13"
+    tahun: "2022"
+    topik: "Perubahan Pembentukan Peraturan Perundang-undangan"
+    url_halaman: "https://peraturan.go.id/id/uu-no-13-tahun-2022"
+    url_pdf: null
+    nama_file: "uu-13-2022.pdf"
+    halaman: null
+    catatan: "Perubahan atas UU 12/2011."
+
+  - id: UU-39-2008
+    judul: "Undang-Undang Nomor 39 Tahun 2008 tentang Kementerian Negara"
+    jenis: UU
+    nomor: "39"
+    tahun: "2008"
+    topik: "Kementerian Negara"
+    url_halaman: "https://peraturan.bpk.go.id/Details/39719/uu-no-39-tahun-2008"
+    url_pdf: null
+    nama_file: "uu-39-2008.pdf"
+    halaman: null
+    catatan: "Diubah oleh UU 61/2024."
+
+  - id: UU-61-2024
+    judul: "Undang-Undang Nomor 61 Tahun 2024 tentang Perubahan atas Undang-Undang Nomor 39 Tahun 2008 tentang Kementerian Negara"
+    jenis: UU
+    nomor: "61"
+    tahun: "2024"
+    topik: "Perubahan Kementerian Negara"
+    url_halaman: "https://peraturan.bpk.go.id/Details/304396/uu-no-61-tahun-2024"
+    url_pdf: null
+    nama_file: "uu-61-2024.pdf"
+    halaman: null
+    catatan: "Perubahan atas UU 39/2008."
+
+  - id: UU-20-2025
+    judul: "Undang-Undang Nomor 20 Tahun 2025 tentang Kitab Undang-Undang Hukum Acara Pidana"
+    jenis: UU
+    nomor: "20"
+    tahun: "2025"
+    topik: "KUHAP"
+    url_halaman: "https://peraturan.bpk.go.id/Details/337302/uu-no-20-tahun-2025"
+    url_pdf: null
+    nama_file: "uu-20-2025.pdf"
+    halaman: null
+
+  # ============ Peraturan Pemerintah (35) ============
+  - id: PP-34-2021
+    judul: "Peraturan Pemerintah Nomor 34 Tahun 2021 tentang Penggunaan Tenaga Kerja Asing"
+    jenis: PP
+    nomor: "34"
+    tahun: "2021"
+    topik: "Penggunaan Tenaga Kerja Asing (TKA)"
+    url_halaman: "https://peraturan.bpk.go.id/Details/161898/pp-no-34-tahun-2021"
+    url_pdf: null
+    nama_file: "pp-34-2021.pdf"
+    halaman: null
+
+  - id: PP-35-2021
+    judul: "Peraturan Pemerintah Nomor 35 Tahun 2021 tentang Perjanjian Kerja Waktu Tertentu, Alih Daya, Waktu Kerja dan Waktu Istirahat, dan Pemutusan Hubungan Kerja"
+    jenis: PP
+    nomor: "35"
+    tahun: "2021"
+    topik: "PKWT, alih daya, waktu kerja, PHK, pesangon"
+    url_halaman: "https://peraturan.bpk.go.id/Details/161904/pp-no-35-tahun-2021"
+    url_pdf: null
+    nama_file: "pp-35-2021.pdf"
+    halaman: null
+
+  - id: PP-36-2021
+    judul: "Peraturan Pemerintah Nomor 36 Tahun 2021 tentang Pengupahan"
+    jenis: PP
+    nomor: "36"
+    tahun: "2021"
+    topik: "Pengupahan, upah minimum"
+    url_halaman: "https://peraturan.bpk.go.id/Details/161909/pp-no-36-tahun-2021"
+    url_pdf: null
+    nama_file: "pp-36-2021.pdf"
+    halaman: null
+
+  - id: PP-51-2023
+    judul: "Peraturan Pemerintah Nomor 51 Tahun 2023 tentang Perubahan atas Peraturan Pemerintah Nomor 36 Tahun 2021 tentang Pengupahan"
+    jenis: PP
+    nomor: "51"
+    tahun: "2023"
+    topik: "Perubahan pengupahan"
+    url_halaman: "https://peraturan.bpk.go.id/Details/270269/pp-no-51-tahun-2023"
+    url_pdf: null
+    nama_file: "pp-51-2023.pdf"
+    halaman: null
+
+  - id: PP-49-2025
+    judul: "Peraturan Pemerintah Nomor 49 Tahun 2025 tentang Perubahan Kedua atas Peraturan Pemerintah Nomor 36 Tahun 2021 tentang Pengupahan"
+    jenis: PP
+    nomor: "49"
+    tahun: "2025"
+    topik: "Perubahan pengupahan (terkini)"
+    url_halaman: "https://peraturan.bpk.go.id/Details/339037/pp-no-49-tahun-2025"
+    url_pdf: null
+    nama_file: "pp-49-2025.pdf"
+    halaman: null
+
+  - id: PP-37-2021
+    judul: "Peraturan Pemerintah Nomor 37 Tahun 2021 tentang Penyelenggaraan Program Jaminan Kehilangan Pekerjaan"
+    jenis: PP
+    nomor: "37"
+    tahun: "2021"
+    topik: "Jaminan Kehilangan Pekerjaan (JKP)"
+    url_halaman: "https://peraturan.bpk.go.id/Details/161919/pp-no-37-tahun-2021"
+    url_pdf: null
+    nama_file: "pp-37-2021.pdf"
+    halaman: null
+
+  - id: PP-6-2025
+    judul: "Peraturan Pemerintah Nomor 6 Tahun 2025 tentang Perubahan atas Peraturan Pemerintah Nomor 37 Tahun 2021 tentang Penyelenggaraan Program Jaminan Kehilangan Pekerjaan"
+    jenis: PP
+    nomor: "6"
+    tahun: "2025"
+    topik: "Perubahan JKP"
+    url_halaman: "https://peraturan.bpk.go.id/Details/314623/pp-no-6-tahun-2025"
+    url_pdf: null
+    nama_file: "pp-6-2025.pdf"
+    halaman: null
+
+  - id: PP-7-2025
+    judul: "Peraturan Pemerintah Nomor 7 Tahun 2025 tentang Penyesuaian Iuran Jaminan Kecelakaan Kerja Industri Padat Karya Tertentu Tahun 2025"
+    jenis: PP
+    nomor: "7"
+    tahun: "2025"
+    topik: "Penyesuaian iuran JKK padat karya"
+    url_halaman: "https://peraturan.bpk.go.id/Details/314624/pp-no-7-tahun-2025"
+    url_pdf: null
+    nama_file: "pp-7-2025.pdf"
+    halaman: null
+
+  - id: PP-44-2015
     judul: "Peraturan Pemerintah Nomor 44 Tahun 2015 tentang Penyelenggaraan Program Jaminan Kecelakaan Kerja dan Jaminan Kematian"
     jenis: PP
-    nomor: 44
-    tahun: 2015
+    nomor: "44"
+    tahun: "2015"
     topik: "JKK dan JKM"
     url_halaman: "https://peraturan.bpk.go.id/Details/5612/pp-no-44-tahun-2015"
-    url_pdf: "https://peraturan.bpk.go.id/Download/28927/PP%20Nomor%2044%20Tahun%202015.pdf"
+    url_pdf: null
     nama_file: "pp-44-2015.pdf"
     halaman: null
 
-  - id: pp-46-2015
-    judul: "Peraturan Pemerintah Nomor 46 Tahun 2015 tentang Penyelenggaraan Program Jaminan Hari Tua"
+  - id: PP-82-2019
+    judul: "Peraturan Pemerintah Nomor 82 Tahun 2019 tentang Perubahan atas Peraturan Pemerintah Nomor 44 Tahun 2015 tentang Penyelenggaraan Program Jaminan Kecelakaan Kerja dan Jaminan Kematian"
     jenis: PP
-    nomor: 46
-    tahun: 2015
-    topik: "JHT"
-    url_halaman: "https://peraturan.bpk.go.id/Details/5614/pp-no-46-tahun-2015"
-    url_pdf: "https://peraturan.bpk.go.id/Download/28934/PP%20Nomor%2046%20Tahun%202015.pdf"
-    nama_file: "pp-46-2015.pdf"
+    nomor: "82"
+    tahun: "2019"
+    topik: "Perubahan JKK/JKM"
+    url_halaman: "https://peraturan.bpk.go.id/Details/127681/pp-no-82-tahun-2019"
+    url_pdf: null
+    nama_file: "pp-82-2019.pdf"
     halaman: null
 
-  - id: pp-45-2015
+  - id: PP-49-2023
+    judul: "Peraturan Pemerintah Nomor 49 Tahun 2023 tentang Perubahan Kedua atas Peraturan Pemerintah Nomor 44 Tahun 2015 tentang Penyelenggaraan Program Jaminan Kecelakaan Kerja dan Jaminan Kematian"
+    jenis: PP
+    nomor: "49"
+    tahun: "2023"
+    topik: "Perubahan JKK/JKM"
+    url_halaman: "https://peraturan.bpk.go.id/Details/266186/pp-no-49-tahun-2023"
+    url_pdf: null
+    nama_file: "pp-49-2023.pdf"
+    halaman: null
+
+  - id: PP-45-2015
     judul: "Peraturan Pemerintah Nomor 45 Tahun 2015 tentang Penyelenggaraan Program Jaminan Pensiun"
     jenis: PP
-    nomor: 45
-    tahun: 2015
-    topik: "JP"
+    nomor: "45"
+    tahun: "2015"
+    topik: "Jaminan Pensiun"
     url_halaman: "https://peraturan.bpk.go.id/Details/5613/pp-no-45-tahun-2015"
-    url_pdf: null   # diresolusi dari halaman BPK
+    url_pdf: null
     nama_file: "pp-45-2015.pdf"
     halaman: null
 
-  - id: uu-4-2024
-    judul: "Undang-Undang Nomor 4 Tahun 2024 tentang Kesejahteraan Ibu dan Anak pada Fase Seribu Hari Pertama Kehidupan"
-    jenis: UU
-    nomor: 4
-    tahun: 2024
-    topik: "Cuti melahirkan, hak menyusui"
-    url_halaman: "https://peraturan.bpk.go.id/Details/289997/uu-no-4-tahun-2024"
-    url_pdf: null   # diresolusi dari halaman BPK
-    nama_file: "uu-4-2024.pdf"
+  - id: PP-46-2015
+    judul: "Peraturan Pemerintah Nomor 46 Tahun 2015 tentang Penyelenggaraan Program Jaminan Hari Tua"
+    jenis: PP
+    nomor: "46"
+    tahun: "2015"
+    topik: "Jaminan Hari Tua"
+    url_halaman: "https://peraturan.bpk.go.id/Details/5614/pp-no-46-tahun-2015"
+    url_pdf: null
+    nama_file: "pp-46-2015.pdf"
+    halaman: null
+
+  - id: PP-60-2015
+    judul: "Peraturan Pemerintah Nomor 60 Tahun 2015 tentang Perubahan atas Peraturan Pemerintah Nomor 46 Tahun 2015 tentang Penyelenggaraan Program Jaminan Hari Tua"
+    jenis: PP
+    nomor: "60"
+    tahun: "2015"
+    topik: "Perubahan JHT"
+    url_halaman: "https://peraturan.bpk.go.id/Details/5634/pp-no-60-tahun-2015"
+    url_pdf: null
+    nama_file: "pp-60-2015.pdf"
+    halaman: null
+
+  - id: PP-99-2013
+    judul: "Peraturan Pemerintah Nomor 99 Tahun 2013 tentang Pengelolaan Aset Jaminan Sosial Ketenagakerjaan"
+    jenis: PP
+    nomor: "99"
+    tahun: "2013"
+    topik: "Pengelolaan aset jamsos"
+    url_halaman: "https://peraturan.bpk.go.id/Details/5436/pp-no-99-tahun-2013"
+    url_pdf: null
+    nama_file: "pp-99-2013.pdf"
+    halaman: null
+
+  - id: PP-55-2015
+    judul: "Peraturan Pemerintah Nomor 55 Tahun 2015 tentang Perubahan atas Peraturan Pemerintah Nomor 99 Tahun 2013 tentang Pengelolaan Aset Jaminan Sosial Ketenagakerjaan"
+    jenis: PP
+    nomor: "55"
+    tahun: "2015"
+    topik: "Perubahan pengelolaan aset"
+    url_halaman: "https://peraturan.bpk.go.id/Details/5627/pp-no-55-tahun-2015"
+    url_pdf: null
+    nama_file: "pp-55-2015.pdf"
+    halaman: null
+
+  - id: PP-27-2026
+    judul: "Peraturan Pemerintah Nomor 27 Tahun 2026 tentang Perubahan Kedua atas Peraturan Pemerintah Nomor 99 Tahun 2013 tentang Pengelolaan Aset Jaminan Sosial Ketenagakerjaan"
+    jenis: PP
+    nomor: "27"
+    tahun: "2026"
+    topik: "Perubahan pengelolaan aset"
+    url_halaman: "https://peraturan.bpk.go.id/Details/351383/pp-no-27-tahun-2026"
+    url_pdf: null
+    nama_file: "pp-27-2026.pdf"
+    halaman: null
+
+  - id: PP-31-2026
+    judul: "Peraturan Pemerintah Nomor 31 Tahun 2026 tentang Konsesi bagi Penyandang Disabilitas dan Insentif bagi Perusahaan"
+    jenis: PP
+    nomor: "31"
+    tahun: "2026"
+    topik: "Konsesi disabilitas"
+    url_halaman: "https://peraturan.go.id/id/pp-no-31-tahun-2026"
+    url_pdf: null
+    nama_file: "pp-31-2026.pdf"
+    halaman: null
+
+  - id: PP-83-2013
+    judul: "Peraturan Pemerintah Nomor 83 Tahun 2013 tentang Modal Awal BPJS Ketenagakerjaan"
+    jenis: PP
+    nomor: "83"
+    tahun: "2013"
+    topik: "Modal awal BPJS"
+    url_halaman: "https://peraturan.bpk.go.id/Details/5418/pp-no-83-tahun-2013"
+    url_pdf: null
+    nama_file: "pp-83-2013.pdf"
+    halaman: null
+
+  - id: PP-86-2013
+    judul: "Peraturan Pemerintah Nomor 86 Tahun 2013 tentang Tata Cara Pengenaan Sanksi Administratif kepada Pemberi Kerja dan Setiap Orang Selain Pemberi Kerja dan Pekerja"
+    jenis: PP
+    nomor: "86"
+    tahun: "2013"
+    topik: "Sanksi administratif"
+    url_halaman: "https://peraturan.bpk.go.id/Details/5421/pp-no-86-tahun-2013"
+    url_pdf: null
+    nama_file: "pp-86-2013.pdf"
+    halaman: null
+
+  - id: PP-88-2013
+    judul: "Peraturan Pemerintah Nomor 88 Tahun 2013 tentang Tata Cara Pengenaan Sanksi Administratif bagi Peserta Jaminan Sosial"
+    jenis: PP
+    nomor: "88"
+    tahun: "2013"
+    topik: "Sanksi administratif peserta"
+    url_halaman: "https://peraturan.go.id/id/pp-no-88-tahun-2013"
+    url_pdf: null
+    nama_file: "pp-88-2013.pdf"
+    halaman: null
+
+  - id: PP-59-2021
+    judul: "Peraturan Pemerintah Nomor 59 Tahun 2021 tentang Pelaksanaan Pelindungan Pekerja Migran Indonesia"
+    jenis: PP
+    nomor: "59"
+    tahun: "2021"
+    topik: "Pelindungan PMI"
+    url_halaman: "https://peraturan.go.id/id/pp-no-59-tahun-2021"
+    url_pdf: null
+    nama_file: "pp-59-2021.pdf"
+    halaman: null
+
+  - id: PP-10-2020
+    judul: "Peraturan Pemerintah Nomor 10 Tahun 2020 tentang Tata Cara Penempatan Pekerja Migran Indonesia oleh BP2MI"
+    jenis: PP
+    nomor: "10"
+    tahun: "2020"
+    topik: "Penempatan PMI"
+    url_halaman: "https://peraturan.bpk.go.id/Details/137950/pp-no-10-tahun-2020"
+    url_pdf: "https://peraturan.bpk.go.id/Download/122808/PP%20Nomor%2010%20Tahun%202020.pdf"
+    nama_file: "pp-10-2020.pdf"
+    halaman: null
+
+  - id: PP-22-2022
+    judul: "Peraturan Pemerintah Nomor 22 Tahun 2022 tentang Penempatan dan Pelindungan Awak Kapal Niaga Migran dan Awak Kapal Perikanan Migran"
+    jenis: PP
+    nomor: "22"
+    tahun: "2022"
+    topik: "Awak kapal migran"
+    url_halaman: "https://peraturan.go.id/id/pp-no-22-tahun-2022"
+    url_pdf: null
+    nama_file: "pp-22-2022.pdf"
+    halaman: null
+
+  - id: PP-50-2012
+    judul: "Peraturan Pemerintah Nomor 50 Tahun 2012 tentang Penerapan Sistem Manajemen Keselamatan dan Kesehatan Kerja"
+    jenis: PP
+    nomor: "50"
+    tahun: "2012"
+    topik: "SMK3"
+    url_halaman: "https://peraturan.go.id/id/pp-no-50-tahun-2012"
+    url_pdf: null
+    nama_file: "pp-50-2012.pdf"
+    halaman: null
+
+  - id: PP-88-2019
+    judul: "Peraturan Pemerintah Nomor 88 Tahun 2019 tentang Kesehatan Kerja"
+    jenis: PP
+    nomor: "88"
+    tahun: "2019"
+    topik: "Kesehatan kerja"
+    url_halaman: "https://peraturan.bpk.go.id/Details/128642/pp-no-88-tahun-2019"
+    url_pdf: null
+    nama_file: "pp-88-2019.pdf"
+    halaman: null
+
+  - id: PP-28-2024
+    judul: "Peraturan Pemerintah Nomor 28 Tahun 2024 tentang Peraturan Pelaksanaan Undang-Undang Nomor 17 Tahun 2023 tentang Kesehatan"
+    jenis: PP
+    nomor: "28"
+    tahun: "2024"
+    topik: "Pelaksanaan UU Kesehatan"
+    url_halaman: "https://peraturan.bpk.go.id/Details/294077/pp-no-28-tahun-2024"
+    url_pdf: null
+    nama_file: "pp-28-2024.pdf"
+    halaman: null
+
+  - id: PP-31-2006
+    judul: "Peraturan Pemerintah Nomor 31 Tahun 2006 tentang Sistem Pelatihan Kerja Nasional"
+    jenis: PP
+    nomor: "31"
+    tahun: "2006"
+    topik: "Pelatihan kerja nasional"
+    url_halaman: "https://peraturan.go.id/id/pp-no-31-tahun-2006"
+    url_pdf: null
+    nama_file: "pp-31-2006.pdf"
+    halaman: null
+
+  - id: PP-23-2004
+    judul: "Peraturan Pemerintah Nomor 23 Tahun 2004 tentang Badan Nasional Sertifikasi Profesi"
+    jenis: PP
+    nomor: "23"
+    tahun: "2004"
+    topik: "BNSP"
+    url_halaman: "https://peraturan.go.id/id/pp-no-23-tahun-2004"
+    url_pdf: null
+    nama_file: "pp-23-2004.pdf"
+    halaman: null
+
+  - id: PP-15-2007
+    judul: "Peraturan Pemerintah Nomor 15 Tahun 2007 tentang Informasi Ketenagakerjaan dan Perencanaan Tenaga Kerja"
+    jenis: PP
+    nomor: "15"
+    tahun: "2007"
+    topik: "Informasi ketenagakerjaan"
+    url_halaman: "https://peraturan.go.id/id/pp-no-15-tahun-2007"
+    url_pdf: null
+    nama_file: "pp-15-2007.pdf"
+    halaman: null
+
+  - id: PP-33-2013
+    judul: "Peraturan Pemerintah Nomor 33 Tahun 2013 tentang Perluasan Kesempatan Kerja"
+    jenis: PP
+    nomor: "33"
+    tahun: "2013"
+    topik: "Perluasan kesempatan kerja"
+    url_halaman: "https://peraturan.go.id/id/pp-no-33-tahun-2013"
+    url_pdf: null
+    nama_file: "pp-33-2013.pdf"
+    halaman: null
+
+  - id: PP-25-2020
+    judul: "Peraturan Pemerintah Nomor 25 Tahun 2020 tentang Penyelenggaraan Tabungan Perumahan Rakyat"
+    jenis: PP
+    nomor: "25"
+    tahun: "2020"
+    topik: "Tapera"
+    url_halaman: "https://peraturan.bpk.go.id/Details/137950/pp-no-25-tahun-2020"
+    url_pdf: null
+    nama_file: "pp-25-2020.pdf"
+    halaman: null
+
+  - id: PP-21-2024
+    judul: "Peraturan Pemerintah Nomor 21 Tahun 2024 tentang Perubahan atas Peraturan Pemerintah Nomor 25 Tahun 2020 tentang Penyelenggaraan Tabungan Perumahan Rakyat"
+    jenis: PP
+    nomor: "21"
+    tahun: "2024"
+    topik: "Perubahan Tapera"
+    url_halaman: "https://peraturan.bpk.go.id/Details/286236/pp-no-21-tahun-2024"
+    url_pdf: null
+    nama_file: "pp-21-2024.pdf"
+    halaman: null
+
+  - id: PP-70-2015
+    judul: "Peraturan Pemerintah Nomor 70 Tahun 2015 tentang Jaminan Kecelakaan Kerja dan Jaminan Kematian bagi Pegawai Aparatur Sipil Negara"
+    jenis: PP
+    nomor: "70"
+    tahun: "2015"
+    topik: "JKK/JKM ASN"
+    url_halaman: "https://peraturan.bpk.go.id/Details/5647/pp-no-70-tahun-2015"
+    url_pdf: null
+    nama_file: "pp-70-2015.pdf"
+    halaman: null
+
+  - id: PP-68-2009
+    judul: "Peraturan Pemerintah Nomor 68 Tahun 2009 tentang Tarif PPh Pasal 21 atas Penghasilan Berupa Uang Pesangon, Uang Manfaat Pensiun, Tunjangan Hari Tua, dan Jaminan Hari Tua yang Dibayarkan Sekaligus"
+    jenis: PP
+    nomor: "68"
+    tahun: "2009"
+    topik: "PPh pesangon"
+    url_halaman: "https://peraturan.go.id/id/pp-no-68-tahun-2009"
+    url_pdf: null
+    nama_file: "pp-68-2009.pdf"
     halaman: null

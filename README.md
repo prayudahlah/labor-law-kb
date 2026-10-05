@@ -10,12 +10,28 @@ dengan Python.
 ## Struktur
 
 ```
-data/        CSV kanonik (norma, parameter, kategori, jamsos) + query audit
+data/        CSV kanonik (generated) + extraction/ (spec, vocab, record JSON) + query audit
 docs/        daftar sumber, markdown hukum hasil ekstraksi, checksum PDF
 ontology/    core (T-Box/R-Box manual), meta & regulasi (generated), examples
 notebooks/   eksplorasi DL query & SPARQL
-scripts/     unduh, ekstraksi, build, verifikasi, katalog
+scripts/     unduh, ekstraksi, validasi/kompilasi record, build, verifikasi, katalog
 ```
+
+## Ekstraksi Terstruktur
+
+Fakta hukum didahulukan sebagai **Extraction Record** (JSON) yang direview,
+lalu dikompilasi deterministik menjadi CSV kanonik. LLM (markdown → JSON) tidak
+menulis CSV langsung; lihat `data/extraction/SPEC.md`.
+
+```
+docs/markdown/<id>.md ──LLM──► data/extraction/records/<id>.json
+    ──validate──► ──compile──► data/*.csv ──build──► ontology/**/*.ttl
+```
+
+- `data/extraction/VOCAB.yaml` — satu sumber kebenaran enum (dibaca validator,
+  compiler, dan `build_ontology.py`).
+- `data/extraction/SPEC.md` — aturan ekstraksi untuk model LLM.
+- `data/extraction/schema/extraction.schema.json` — kontrak record.
 
 ## Prasyarat
 
@@ -33,11 +49,13 @@ Notebook (opsional, di luar lock): `uv pip install jupyterlab ipykernel`.
 ## Menjalankan
 
 ```bash
-.venv/bin/python scripts/build_ontology.py     # CSV -> Turtle
-.venv/bin/python scripts/check_ontology.py     # HermiT + uji kasus
-.venv/bin/python scripts/build_catalog.py      # katalog + top-level Protege
-duckdb < data/queries.sql                      # audit CSV
-.venv/bin/jupyter lab                          # notebook eksplorasi
+.venv/bin/python scripts/validate_extraction.py   # validasi record JSON
+.venv/bin/python scripts/compile_extraction.py    # record JSON -> CSV kanonik
+.venv/bin/python scripts/build_ontology.py        # CSV -> Turtle
+.venv/bin/python scripts/check_ontology.py        # HermiT + uji kasus
+.venv/bin/python scripts/build_catalog.py         # katalog + top-level Protege
+duckdb < data/queries.sql                          # audit CSV
+.venv/bin/jupyter lab                              # notebook eksplorasi
 ```
 
 ## Buka di Protege
