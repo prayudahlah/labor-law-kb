@@ -33,6 +33,14 @@ def ktn(nama: str):
     return ent
 
 
+def cari_individu(prop: str):
+    """Cari individu yang memiliki properti tertentu (tahan perubahan nama IRI)."""
+    for ind in default_world.individuals():
+        if getattr(ind, prop, None):
+            return ind
+    raise KeyError(f"tidak ada individu dengan properti: ktn:{prop}")
+
+
 def ttl_files(termasuk_contoh: bool = False) -> list[Path]:
     subs = ["core", "meta", "regulasi"]
     if termasuk_contoh:
@@ -127,7 +135,7 @@ def hitung_lembur(pekerja, lembur) -> dict:
 def hitung_kompensasi_pkwt(pekerja) -> dict:
     mk = int(nilai(pekerja, "masaKerjaBulan"))
     upah = float(nilai(pekerja, "upahBulanan"))
-    faktor = float(nilai(ktn("KetentuanKompensasiPKWT"), "faktorPembagiKompensasi"))
+    faktor = float(nilai(cari_individu("faktorPembagiKompensasi"), "faktorPembagiKompensasi"))
     bulan = (mk / faktor) * 1.0
     return {"masa_kerja": mk, "bulan": bulan, "nominal": bulan * upah}
 

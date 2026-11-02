@@ -28,6 +28,16 @@ _PASAL_CORE = r"Pasal[\s*`_]*([0-9]+[A-Za-z]?)[\s*`_]*[.:\u2026]*[\s*`_]*$"
 PASAL_LABEL_RE = re.compile(r"^#{0,6}[\s*`_]*" + _PASAL_CORE, re.IGNORECASE)
 PASAL_REF_RE = re.compile(r"^\s*Pasal\s*(\d+[A-Za-z]?)", re.IGNORECASE)
 
+# Koreksi salah baca OCR pada digit terakhir nomor pasal.
+_OCR_DIGIT = {"O": "0", "o": "0", "I": "1", "l": "1", "L": "1", "T": "7"}
+
+
+def normalisasi_nomor(nomor: str) -> str:
+    """Ubah akhiran huruf yang sebenarnya digit (mis. '3O'->'30', '4L'->'41')."""
+    if len(nomor) > 1 and nomor[-1] in _OCR_DIGIT and nomor[-2].isdigit():
+        return nomor[:-1] + _OCR_DIGIT[nomor[-1]]
+    return nomor
+
 
 def load_vocab() -> dict:
     with VOCAB_PATH.open(encoding="utf-8") as f:
@@ -60,7 +70,7 @@ def daftar_record(only: list[str] | None = None) -> list[Path]:
 def pasal_ref(teks: str) -> str | None:
     """'Pasal 43 ayat (1)' -> 'Pasal 43'. Kembalikan None bila tak cocok."""
     m = PASAL_REF_RE.match(teks or "")
-    return f"Pasal {m.group(1)}" if m else None
+    return f"Pasal {normalisasi_nomor(m.group(1))}" if m else None
 
 
 def _cari_markdown(dokumen_id: str) -> Path | None:
@@ -92,7 +102,7 @@ def body_pasal(dokumen_id: str, loose: bool = False) -> list[str]:
                 break
             m = PASAL_LABEL_RE.match(line.strip())
             if m:
-                label = f"Pasal {m.group(1)}"
+                label = f"Pasal {normalisasi_nomor(m.group(1))}"
                 if label not in pasal:
                     pasal.append(label)
     return pasal
