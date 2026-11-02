@@ -18,31 +18,87 @@
     owl:imports <https://example.org/kbr/ketenagakerjaan> .
 
 ktn:KetentuanBadanHukumAlihDaya a owl:NamedIndividual, ktn:KetentuanAlihDaya ;
-    ktn:pasal "Pasal 20" ;
+    ktn:pasal "Pasal 20 ayat (1)" ;
     dct:source reg:PP-35-2021 .
 
-ktn:KetentuanPerlindunganAlihDaya a owl:NamedIndividual, ktn:KetentuanAlihDaya ;
-    ktn:pasal "Pasal 18" ;
+ktn:KetentuanHubunganKerjaAlihDaya a owl:NamedIndividual, ktn:KetentuanAlihDaya ;
+    ktn:pasal "Pasal 18 ayat (1)" ;
     dct:source reg:PP-35-2021 .
 
 ktn:KetentuanPengalihanHakAlihDaya a owl:NamedIndividual, ktn:KetentuanAlihDaya ;
-    ktn:pasal "Pasal 19" ;
+    ktn:pasal "Pasal 19 ayat (1)" ;
+    dct:source reg:PP-35-2021 .
+
+ktn:PerlindunganPekerjaAlihDaya a owl:NamedIndividual, ktn:KetentuanAlihDaya ;
+    ktn:pasal "Pasal 18 ayat (3)" ;
+    dct:source reg:PP-35-2021 .
+
+ktn:TanggungJawabAlihDaya a owl:NamedIndividual, ktn:KetentuanAlihDaya ;
+    ktn:pasal "Pasal 19 ayat (3)" ;
+    dct:source reg:PP-35-2021 .
+
+ktn:IstirahatMingguan5Hari a owl:NamedIndividual, ktn:KetentuanWaktuKerja ;
+    ktn:istirahatMingguanHari 2 ;
+    ktn:pasal "Pasal 22 huruf b" ;
+    dct:source reg:PP-35-2021 .
+
+ktn:IstirahatMingguan6Hari a owl:NamedIndividual, ktn:KetentuanWaktuKerja ;
+    ktn:istirahatMingguanHari 1 ;
+    ktn:pasal "Pasal 22 huruf a" ;
+    dct:source reg:PP-35-2021 .
+
+ktn:BatasWaktuKerjaLembur a owl:NamedIndividual, ktn:KetentuanLembur ;
+    ktn:jamLemburMaksPerHari 4 ;
+    ktn:jamLemburMaksPerMinggu 18 ;
+    ktn:pasal "Pasal 26 ayat (1)" ;
+    dct:source reg:PP-35-2021 .
+
+ktn:DasarPerhitunganUpahLembur a owl:NamedIndividual, ktn:KetentuanLembur ;
+    ktn:pasal "Pasal 32 ayat (4)" ;
+    dct:source reg:PP-35-2021 .
+
+ktn:KewajibanBayarUpahLembur a owl:NamedIndividual, ktn:KetentuanLembur ;
+    ktn:pasal "Pasal 27 ayat (1)" ;
+    dct:source reg:PP-35-2021 .
+
+ktn:KewajibanPelaksanaanLembur a owl:NamedIndividual, ktn:KetentuanLembur ;
+    ktn:pasal "Pasal 29 ayat (1)" ;
     dct:source reg:PP-35-2021 .
 
 ktn:KetentuanMakanLembur a owl:NamedIndividual, ktn:KetentuanLembur ;
     ktn:kebutuhanKalori 1400 ;
-    ktn:pasal "Pasal 29" ;
+    ktn:pasal "Pasal 29 ayat (1)c" ;
+    dct:source reg:PP-35-2021 .
+
+ktn:PengecualianJabatanLembur a owl:NamedIndividual, ktn:KetentuanLembur ;
+    ktn:pasal "Pasal 27 ayat (5)" ;
+    dct:source reg:PP-35-2021 .
+
+ktn:SyaratPerintahLembur a owl:NamedIndividual, ktn:KetentuanLembur ;
+    ktn:pasal "Pasal 28 ayat (1)" ;
     dct:source reg:PP-35-2021 .
 
 ktn:UpahSejamLembur a owl:NamedIndividual, ktn:KetentuanLembur ;
     ktn:faktorPembagiUpahSejam 173 ;
-    ktn:pasal "Pasal 32" ;
+    ktn:pasal "Pasal 32 ayat (2)" ;
+    dct:source reg:PP-35-2021 .
+
+ktn:UpahLemburSebutanLain a owl:NamedIndividual, ktn:KetentuanLembur ;
+    ktn:pasal "Pasal 34 ayat (1)" ;
     dct:source reg:PP-35-2021 .
 
 ktn:KonversiUpahHarian a owl:NamedIndividual, ktn:KetentuanLembur ;
     ktn:pengaliKonversiHarian5 21 ;
     ktn:pengaliKonversiHarian6 25 ;
-    ktn:pasal "Pasal 33" ;
+    ktn:pasal "Pasal 33 ayat (1)" ;
+    dct:source reg:PP-35-2021 .
+
+ktn:BantuanKeluargaPekerjaDitahan a owl:NamedIndividual, ktn:KetentuanUpah ;
+    ktn:pasal "Pasal 53 ayat (1)" ;
+    dct:source reg:PP-35-2021 .
+
+ktn:DitahanDibebaskan a owl:NamedIndividual, ktn:AlasanPHK ;
+    ktn:pasal "Pasal 54 ayat (3)" ;
     dct:source reg:PP-35-2021 .
 
 ktn:DitahanMerugikan a owl:NamedIndividual, ktn:AlasanPHK ;
@@ -79,6 +135,10 @@ ktn:ForceMajeureTutup a owl:NamedIndividual, ktn:AlasanPHK ;
     ktn:pengaliUP 0.5 ;
     ktn:pengaliUPMK 1 ;
     ktn:pasal "Pasal 45 ayat (1)" ;
+    dct:source reg:PP-35-2021 .
+
+ktn:HakAtasPesangonUPMKUPH a owl:NamedIndividual, ktn:AlasanPHK ;
+    ktn:pasal "Pasal 40 ayat (1)" ;
     dct:source reg:PP-35-2021 .
 
 ktn:Mangkir a owl:NamedIndividual, ktn:AlasanPHK ;
@@ -123,6 +183,14 @@ ktn:PelanggaranSP a owl:NamedIndividual, ktn:AlasanPHK ;
     ktn:pasal "Pasal 52 ayat (1)" ;
     dct:source reg:PP-35-2021 .
 
+ktn:PelaporanPHK a owl:NamedIndividual, ktn:AlasanPHK ;
+    ktn:pasal "Pasal 38" ;
+    dct:source reg:PP-35-2021 .
+
+ktn:PemberitahuanPHK a owl:NamedIndividual, ktn:AlasanPHK ;
+    ktn:pasal "Pasal 37 ayat (3)" ;
+    dct:source reg:PP-35-2021 .
+
 ktn:Pengambilalihan a owl:NamedIndividual, ktn:AlasanPHK ;
     ktn:pengaliUP 1 ;
     ktn:pengaliUPMK 1 ;
@@ -135,16 +203,28 @@ ktn:PengambilalihanUbahSyarat a owl:NamedIndividual, ktn:AlasanPHK ;
     ktn:pasal "Pasal 42 ayat (2)" ;
     dct:source reg:PP-35-2021 .
 
+ktn:PenolakanPHK a owl:NamedIndividual, ktn:AlasanPHK ;
+    ktn:pasal "Pasal 39 ayat (1)" ;
+    dct:source reg:PP-35-2021 .
+
 ktn:Pensiun a owl:NamedIndividual, ktn:AlasanPHK ;
     ktn:pengaliUP 1.75 ;
     ktn:pengaliUPMK 1 ;
     ktn:pasal "Pasal 56" ;
     dct:source reg:PP-35-2021 .
 
+ktn:KompensasiProgramPensiun a owl:NamedIndividual, ktn:KetentuanJaminanSosial ;
+    ktn:pasal "Pasal 58 ayat (1)" ;
+    dct:source reg:PP-35-2021 .
+
 ktn:PerbuatanPengusaha a owl:NamedIndividual, ktn:AlasanPHK ;
     ktn:pengaliUP 1 ;
     ktn:pengaliUPMK 1 ;
     ktn:pasal "Pasal 48" ;
+    dct:source reg:PP-35-2021 .
+
+ktn:PenyelesaianPerselisihanPHK a owl:NamedIndividual, ktn:AlasanPHK ;
+    ktn:pasal "Pasal 39 ayat (2)" ;
     dct:source reg:PP-35-2021 .
 
 ktn:PKPUKarenaTidakRugi a owl:NamedIndividual, ktn:AlasanPHK ;
@@ -168,7 +248,7 @@ ktn:PutusanPPHITidakBersalah a owl:NamedIndividual, ktn:AlasanPHK ;
 ktn:SakitBerkepanjangan a owl:NamedIndividual, ktn:AlasanPHK ;
     ktn:pengaliUP 2 ;
     ktn:pengaliUPMK 1 ;
-    ktn:pasal "Pasal 55" ;
+    ktn:pasal "Pasal 55 ayat (1)" ;
     dct:source reg:PP-35-2021 .
 
 ktn:TutupBukanKarenaRugi a owl:NamedIndividual, ktn:AlasanPHK ;
@@ -183,10 +263,23 @@ ktn:TutupKarenaRugi a owl:NamedIndividual, ktn:AlasanPHK ;
     ktn:pasal "Pasal 44 ayat (1)" ;
     dct:source reg:PP-35-2021 .
 
+ktn:UpayaMenghindariPHK a owl:NamedIndividual, ktn:AlasanPHK ;
+    ktn:pasal "Pasal 37 ayat (1)" ;
+    dct:source reg:PP-35-2021 .
+
+ktn:LingkupUPH a owl:NamedIndividual, ktn:AlasanPHK ;
+    ktn:pasal "Pasal 40 ayat (4)" ;
+    dct:source reg:PP-35-2021 .
+
 ktn:KonversiHarianKePKWTT a owl:NamedIndividual, ktn:KetentuanPKWT ;
     ktn:batasBulanKonversi 3 ;
     ktn:batasHariKerjaHarian 21 ;
     ktn:pasal "Pasal 10 ayat (4)" ;
+    dct:source reg:PP-35-2021 .
+
+ktn:BatasPekerjaanTidakTerlaluLama a owl:NamedIndividual, ktn:KetentuanPKWT ;
+    ktn:batasTahunPKWT 5 ;
+    ktn:pasal "Pasal 6" ;
     dct:source reg:PP-35-2021 .
 
 ktn:BatasJangkaWaktuPKWT a owl:NamedIndividual, ktn:KetentuanPKWT ;
@@ -194,9 +287,21 @@ ktn:BatasJangkaWaktuPKWT a owl:NamedIndividual, ktn:KetentuanPKWT ;
     ktn:pasal "Pasal 8 ayat (1)" ;
     dct:source reg:PP-35-2021 .
 
-ktn:KetentuanKompensasiPKWT a owl:NamedIndividual, ktn:KetentuanPKWT ;
+ktn:BesaranUangKompensasiPKWT a owl:NamedIndividual, ktn:KetentuanPKWT ;
     ktn:faktorPembagiKompensasi 12 ;
-    ktn:pasal "Pasal 15-16" ;
+    ktn:pasal "Pasal 16 ayat (1)" ;
+    dct:source reg:PP-35-2021 .
+
+ktn:KompensasiPKWTPutusDini a owl:NamedIndividual, ktn:KetentuanPKWT ;
+    ktn:pasal "Pasal 17" ;
+    dct:source reg:PP-35-2021 .
+
+ktn:KetentuanUangKompensasiPKWT a owl:NamedIndividual, ktn:KetentuanPKWT ;
+    ktn:pasal "Pasal 15 ayat (1)" ;
+    dct:source reg:PP-35-2021 .
+
+ktn:LaranganPKWTPekerjaanTetap a owl:NamedIndividual, ktn:KetentuanPKWT ;
+    ktn:pasal "Pasal 4 ayat (2)" ;
     dct:source reg:PP-35-2021 .
 
 ktn:KetentuanPencatatanPKWT a owl:NamedIndividual, ktn:KetentuanPKWT ;
@@ -204,8 +309,30 @@ ktn:KetentuanPencatatanPKWT a owl:NamedIndividual, ktn:KetentuanPKWT ;
     ktn:pasal "Pasal 14 ayat (1)" ;
     dct:source reg:PP-35-2021 .
 
+ktn:PKWTPutusSaatPekerjaanSelesai a owl:NamedIndividual, ktn:KetentuanPKWT ;
+    ktn:pasal "Pasal 9 ayat (3)" ;
+    dct:source reg:PP-35-2021 .
+
 ktn:LaranganPercobaanPKWT a owl:NamedIndividual, ktn:KetentuanPKWT ;
     ktn:pasal "Pasal 12" ;
+    dct:source reg:PP-35-2021 .
+
+ktn:WaktuKerja5Hari a owl:NamedIndividual, ktn:KetentuanWaktuKerja ;
+    ktn:jamKerjaPerHari 8 ;
+    ktn:jamKerjaPerMinggu 40 ;
+    ktn:jumlahHariKerjaPerMinggu 5 ;
+    ktn:pasal "Pasal 21 ayat (2)b" ;
+    dct:source reg:PP-35-2021 .
+
+ktn:WaktuKerja6Hari a owl:NamedIndividual, ktn:KetentuanWaktuKerja ;
+    ktn:jamKerjaPerHari 7 ;
+    ktn:jamKerjaPerMinggu 40 ;
+    ktn:jumlahHariKerjaPerMinggu 6 ;
+    ktn:pasal "Pasal 21 ayat (2)a" ;
+    dct:source reg:PP-35-2021 .
+
+ktn:WaktuKerjaSektorTertentu a owl:NamedIndividual, ktn:KetentuanWaktuKerja ;
+    ktn:pasal "Pasal 23 ayat (1)" ;
     dct:source reg:PP-35-2021 .
 
 ktn:UP-0-12 a owl:NamedIndividual, ktn:KategoriUP ;

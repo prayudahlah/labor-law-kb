@@ -1,0 +1,30 @@
+# =====================================================================
+# BERKAS DIGENERATE. JANGAN EDIT MANUAL.
+# Sumber   : data/norma.csv, parameter.csv, kategori.csv, pengali_lembur.csv, program_jamsos.csv
+# Hasilkan : .venv/bin/python scripts/build_ontology.py
+# =====================================================================
+
+@prefix ktn:  <https://example.org/kbr/ketenagakerjaan#> .
+@prefix reg:  <https://example.org/kbr/regulasi#> .
+@prefix dct:  <http://purl.org/dc/terms/> .
+@prefix owl:  <http://www.w3.org/2002/07/owl#> .
+@prefix rdf:  <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd:  <http://www.w3.org/2001/XMLSchema#> .
+
+<https://example.org/kbr/ketenagakerjaan/regulasi/uu-8-2016> a owl:Ontology ;
+    dct:title "Fakta norma: Undang-Undang Nomor 8 Tahun 2016 tentang Penyandang Disabilitas" ;
+    dct:source <https://peraturan.go.id/id/uu-no-8-tahun-2016> ;
+    owl:imports <https://example.org/kbr/ketenagakerjaan> .
+
+ktn:CutiKhususPengobatan a owl:NamedIndividual, ktn:PeristiwaCutiKhusus ;
+    ktn:pasal "Pasal 48 huruf f" ;
+    dct:source reg:UU-8-2016 .
+
+ktn:AksesJamsosDisabilitas a owl:NamedIndividual, ktn:KetentuanJaminanSosial ;
+    ktn:pasal "Pasal 52" ;
+    dct:source reg:UU-8-2016 .
+
+ktn:UpahSetaraDisabilitas a owl:NamedIndividual, ktn:KetentuanUpah ;
+    ktn:pasal "Pasal 49" ;
+    dct:source reg:UU-8-2016 .

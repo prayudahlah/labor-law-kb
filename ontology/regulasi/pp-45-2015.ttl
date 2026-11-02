@@ -17,13 +17,121 @@
     dct:source <https://peraturan.bpk.go.id/Details/5613/pp-no-45-tahun-2015> ;
     owl:imports <https://example.org/kbr/ketenagakerjaan> .
 
-ktn:KetentuanIuranJP a owl:NamedIndividual, ktn:KetentuanJaminanSosial ;
-    ktn:pasal "Pasal 25" ;
+ktn:HakAkumulasiIuranJP a owl:NamedIndividual, ktn:KetentuanJaminanSosial ;
+    ktn:pasal "Pasal 24 ayat (1)" ;
     dct:source reg:PP-45-2015 .
 
-ktn:KetentuanUsiaPensiunJP a owl:NamedIndividual, ktn:KetentuanJaminanSosial ;
-    ktn:usiaPensiunTahun 58 ;
-    ktn:pasal "Pasal 15" ;
+ktn:BatasManfaatPensiunJP a owl:NamedIndividual, ktn:KetentuanJaminanSosial ;
+    ktn:pasal "Pasal 18" ;
+    dct:source reg:PP-45-2015 .
+
+ktn:BatasUpahIuranJP a owl:NamedIndividual, ktn:KetentuanJaminanSosial ;
+    ktn:pasal "Pasal 29 ayat (2)" ;
+    dct:source reg:PP-45-2015 .
+
+ktn:BerakhirKepesertaanJP a owl:NamedIndividual, ktn:KetentuanJaminanSosial ;
+    ktn:pasal "Pasal 3 ayat (4)" ;
+    dct:source reg:PP-45-2015 .
+
+ktn:KewajibanDaftarPekerjaJP a owl:NamedIndividual, ktn:KetentuanJaminanSosial ;
+    ktn:pasal "Pasal 4 ayat (1)" ;
+    dct:source reg:PP-45-2015 .
+
+ktn:HakDaftarSendiriJP a owl:NamedIndividual, ktn:KetentuanJaminanSosial ;
+    ktn:pasal "Pasal 5 ayat (1)" ;
+    dct:source reg:PP-45-2015 .
+
+ktn:DasarUpahIuranJP a owl:NamedIndividual, ktn:KetentuanJaminanSosial ;
+    ktn:pasal "Pasal 29 ayat (1)" ;
+    dct:source reg:PP-45-2015 .
+
+ktn:DendaKeterlambatanIuranJP a owl:NamedIndividual, ktn:KetentuanJaminanSosial ;
+    ktn:pasal "Pasal 31 ayat (1)" ;
+    dct:source reg:PP-45-2015 .
+
+ktn:FormulaManfaatPensiunJP a owl:NamedIndividual, ktn:KetentuanJaminanSosial ;
+    ktn:pasal "Pasal 17 ayat (2)" ;
+    dct:source reg:PP-45-2015 .
+
+ktn:IndeksasiManfaatPensiunJP a owl:NamedIndividual, ktn:KetentuanJaminanSosial ;
+    ktn:pasal "Pasal 17 ayat (4)" ;
+    dct:source reg:PP-45-2015 .
+
+ktn:KetentuanIuranJP a owl:NamedIndividual, ktn:KetentuanJaminanSosial ;
+    ktn:pasal "Pasal 28 ayat (2)" ;
+    dct:source reg:PP-45-2015 .
+
+ktn:JenisManfaatPensiunJP a owl:NamedIndividual, ktn:KetentuanJaminanSosial ;
+    ktn:pasal "Pasal 16" ;
+    dct:source reg:PP-45-2015 .
+
+ktn:CakupanKepesertaanJP a owl:NamedIndividual, ktn:KetentuanJaminanSosial ;
+    ktn:pasal "Pasal 2 ayat (1)" ;
+    dct:source reg:PP-45-2015 .
+
+ktn:KonfirmasiPenerimaManfaatJP a owl:NamedIndividual, ktn:KetentuanJaminanSosial ;
+    ktn:pasal "Pasal 26 ayat (1)" ;
+    dct:source reg:PP-45-2015 .
+
+ktn:ManfaatPensiunAnakJP a owl:NamedIndividual, ktn:KetentuanJaminanSosial ;
+    ktn:pasal "Pasal 22 ayat (2)" ;
+    dct:source reg:PP-45-2015 .
+
+ktn:ManfaatPensiunCacatJP a owl:NamedIndividual, ktn:KetentuanJaminanSosial ;
+    ktn:pasal "Pasal 20 ayat (1)" ;
+    dct:source reg:PP-45-2015 .
+
+ktn:ManfaatPensiunHariTuaJP a owl:NamedIndividual, ktn:KetentuanJaminanSosial ;
+    ktn:pasal "Pasal 19 ayat (1)" ;
+    dct:source reg:PP-45-2015 .
+
+ktn:ManfaatPensiunJandaDudaJP a owl:NamedIndividual, ktn:KetentuanJaminanSosial ;
+    ktn:pasal "Pasal 21 ayat (2)" ;
+    dct:source reg:PP-45-2015 .
+
+ktn:ManfaatPensiunOrangTuaJP a owl:NamedIndividual, ktn:KetentuanJaminanSosial ;
+    ktn:pasal "Pasal 23 ayat (2)" ;
+    dct:source reg:PP-45-2015 .
+
+ktn:MasaIurDianggapPenuhJP a owl:NamedIndividual, ktn:KetentuanJaminanSosial ;
+    ktn:pasal "Pasal 20 ayat (3)" ;
+    dct:source reg:PP-45-2015 .
+
+ktn:MulaiKepesertaanJP a owl:NamedIndividual, ktn:KetentuanJaminanSosial ;
+    ktn:pasal "Pasal 3 ayat (1)" ;
+    dct:source reg:PP-45-2015 .
+
+ktn:PenerimaManfaatPensiunJP a owl:NamedIndividual, ktn:KetentuanJaminanSosial ;
+    ktn:pasal "Pasal 14 ayat (1)" ;
+    dct:source reg:PP-45-2015 .
+
+ktn:PerubahanPenerimaManfaatJP a owl:NamedIndividual, ktn:KetentuanJaminanSosial ;
+    ktn:pasal "Pasal 14 ayat (3)" ;
+    dct:source reg:PP-45-2015 .
+
+ktn:PilihanWaktuManfaatJP a owl:NamedIndividual, ktn:KetentuanJaminanSosial ;
+    ktn:pasal "Pasal 15 ayat (4)" ;
+    dct:source reg:PP-45-2015 .
+
+ktn:KesinambunganKepesertaanPindahKerjaJP a owl:NamedIndividual, ktn:KetentuanJaminanSosial ;
+    ktn:pasal "Pasal 11 ayat (2)" ;
+    dct:source reg:PP-45-2015 .
+
+ktn:KewajibanSetorIuranJP a owl:NamedIndividual, ktn:KetentuanJaminanSosial ;
+    ktn:pasal "Pasal 30 ayat (3)" ;
+    dct:source reg:PP-45-2015 .
+
+ktn:TanggungJawabManfaatJP a owl:NamedIndividual, ktn:KetentuanJaminanSosial ;
+    ktn:pasal "Pasal 6" ;
+    dct:source reg:PP-45-2015 .
+
+ktn:UsiaPensiunJP a owl:NamedIndividual, ktn:KetentuanJaminanSosial ;
+    ktn:usiaPensiunTahun 56 ;
+    ktn:pasal "Pasal 15 ayat (1)" ;
+    dct:source reg:PP-45-2015 .
+
+ktn:WaktuPembayaranManfaatJP a owl:NamedIndividual, ktn:KetentuanJaminanSosial ;
+    ktn:pasal "Pasal 25 ayat (1)" ;
     dct:source reg:PP-45-2015 .
 
 ktn:JP a owl:NamedIndividual, ktn:ProgramJaminanSosial ;
@@ -31,4 +139,4 @@ ktn:JP a owl:NamedIndividual, ktn:ProgramJaminanSosial ;
     ktn:tarifPengusahaPersen 2 ;
     ktn:tarifPekerjaPersen 1 ;
     ktn:tarifTotalPersen 3 ;
-    ktn:pasal "Pasal 25" .
+    ktn:pasal "Pasal 28 ayat (3)" .
