@@ -1,0 +1,391 @@
+{
+  "spec_version": "1.1.0",
+  "vocab_version": "0.3.0",
+  "dokumen_id": "PP-10-2020",
+  "status_review": "reviewed",
+  "peraturan": {
+    "judul": "Peraturan Pemerintah Nomor 10 Tahun 2020 tentang Tata Cara Penempatan Pekerja Migran Indonesia oleh BP2MI",
+    "jenis": "PP",
+    "nomor": "10",
+    "tahun": "2020",
+    "sumber": "https://peraturan.bpk.go.id/Details/137950/pp-no-10-tahun-2020",
+    "status": "Berlaku",
+    "diubah_oleh": []
+  },
+  "norma": [
+    {
+      "norm_id": "JAMSOS-PMI-SEBELUM-BEKERJA",
+      "topik": "Jamsos",
+      "pasal": "Pasal 17",
+      "iri_individu": "ktn:JamsosPMISebelumBekerja",
+      "jenis": "KetentuanJaminanSosial",
+      "kondisi": "Calon Pekerja Migran Indonesia telah menandatangani Perjanjian Penempatan",
+      "akibat": "Wajib mengikuti program jaminan sosial ketenagakerjaan sebelum bekerja",
+      "bukti": "Calon Pekerja Migran Indonesia yang telah menandatangani Perjanjian Penempatan harus mengikuti program jaminan sosial ketenagakerjaan sebelum bekerja.",
+      "confidence": 0.85,
+      "dasar_keyakinan": "dikutip",
+      "catatan": "Kewajiban kepesertaan jamsos bagi PMI; program dan tarif tidak dirinci pada pasal ini."
+    },
+    {
+      "norm_id": "JAMSOS-PMI-SELAMA-SETELAH-BEKERJA",
+      "topik": "Jamsos",
+      "pasal": "Pasal 19",
+      "iri_individu": "ktn:JamsosPMISelamaSetelahBekerja",
+      "jenis": "KetentuanJaminanSosial",
+      "kondisi": "Pekerja Migran Indonesia telah memiliki visa kerja",
+      "akibat": "Wajib mengikuti program jaminan sosial ketenagakerjaan selama bekerja dan setelah bekerja",
+      "bukti": "Pekerja Migran Indonesia yang telah memiliki visa kerja harus mengikuti program jaminan sosial ketenagakerjaan selama bekerja dan setelah bekerja.",
+      "confidence": 0.85,
+      "dasar_keyakinan": "dikutip",
+      "catatan": ""
+    }
+  ],
+  "kategori": [],
+  "pengali_lembur": [],
+  "program_jamsos": [],
+  "cakupan": {
+    "lengkap": true,
+    "pasal_diekstrak": [
+      "Pasal 1",
+      "Pasal 10",
+      "Pasal 12",
+      "Pasal 13",
+      "Pasal 14",
+      "Pasal 15",
+      "Pasal 16",
+      "Pasal 17",
+      "Pasal 18",
+      "Pasal 19",
+      "Pasal 2",
+      "Pasal 20",
+      "Pasal 21",
+      "Pasal 22",
+      "Pasal 23",
+      "Pasal 24",
+      "Pasal 25",
+      "Pasal 26",
+      "Pasal 27",
+      "Pasal 28",
+      "Pasal 29",
+      "Pasal 2l",
+      "Pasal 3",
+      "Pasal 30",
+      "Pasal 31",
+      "Pasal 32",
+      "Pasal 33",
+      "Pasal 34",
+      "Pasal 35",
+      "Pasal 36",
+      "Pasal 37",
+      "Pasal 38",
+      "Pasal 4",
+      "Pasal 5",
+      "Pasal 6",
+      "Pasal 7",
+      "Pasal 8",
+      "Pasal 9"
+    ],
+    "pasal_dilewati": [
+      {
+        "pasal": "Pasal 1",
+        "alasan": "definisi/istilah: batasan CPMI, PMI, Pemberi Kerja, Perjanjian Penempatan, Perjanjian Kerja, OPP, LTSA, Sisko P2MI, Sisnaker, BP2MI, dan istilah lain; tanpa akibat hukum"
+      },
+      {
+        "pasal": "Pasal 2",
+        "alasan": "dasar penempatan (kebutuhan pemerintah/permintaan negara tujuan); kebijakan dan kelembagaan, bukan hak normatif pekerja"
+      },
+      {
+        "pasal": "Pasal 3",
+        "alasan": "tata cara perjanjian tertulis antarpemerintah dan koordinasi kementerian/lembaga; kelembagaan"
+      },
+      {
+        "pasal": "Pasal 4",
+        "alasan": "tata cara pembuatan dan penandatanganan perjanjian internasional penempatan; kelembagaan"
+      },
+      {
+        "pasal": "Pasal 5",
+        "alasan": "prinsip dan isi minimum perjanjian antarpemerintah (identitas pihak, hak/kewajiban para pihak, mekanisme pelindungan, sengketa); kelembagaan, bukan norma hak pekerja"
+      },
+      {
+        "pasal": "Pasal 6",
+        "alasan": "kerangka tahapan penempatan (sebelum/selama/setelah bekerja); tanpa akibat hukum mandiri"
+      },
+      {
+        "pasal": "Pasal 7",
+        "alasan": "label ganda tanpa isi akibat pemenggalan halaman; substansi ada pada label Pasal 7 berikutnya"
+      },
+      {
+        "pasal": "Pasal 7",
+        "alasan": "persyaratan administratif surat permintaan Pemberi Kerja dan verifikasi Atase Ketenagakerjaan; kelembagaan/tata cara"
+      },
+      {
+        "pasal": "Pasal 9",
+        "alasan": "kerangka tahapan sebelum bekerja (informasi, pendaftaran, seleksi, kesehatan, perjanjian, jamsos, visa, OPP, perjanjian kerja, pemberangkatan); tata cara"
+      },
+      {
+        "pasal": "Pasal 10",
+        "alasan": "tata cara pemberian informasi pasar kerja, tata cara penempatan/pelindungan, dan kondisi kerja kepada CPMI; layanan administratif"
+      },
+      {
+        "pasal": "Pasal 12",
+        "alasan": "tata cara seleksi administrasi dan seleksi teknis oleh BP2MI; administratif"
+      },
+      {
+        "pasal": "Pasal 13",
+        "alasan": "pengumuman kelulusan seleksi secara daring oleh BP2MI; tata cara"
+      },
+      {
+        "pasal": "Pasal 14",
+        "alasan": "tata cara pemeriksaan kesehatan dan psikologi di fasilitas/lembaga yang ditunjuk; administratif"
+      },
+      {
+        "pasal": "Pasal 15",
+        "alasan": "kewajiban memiliki paspor sesuai ketentuan; persyaratan dokumen/tata cara"
+      },
+      {
+        "pasal": "Pasal 18",
+        "alasan": "BP2MI memfasilitasi pengurusan visa kerja; layanan administratif"
+      },
+      {
+        "pasal": "Pasal 2l",
+        "alasan": "label OCR ganda tanpa isi (pemenggalan halaman); bukan pasal mandiri"
+      },
+      {
+        "pasal": "Pasal 21",
+        "alasan": "waktu penandatanganan Perjanjian Kerja pada saat OPP; tata cara; Perjanjian Kerja PMI bukan PKWT"
+      },
+      {
+        "pasal": "Pasal 22",
+        "alasan": "pendataan sidik jari biometrik melalui Sisko P2MI; administratif"
+      },
+      {
+        "pasal": "Pasal 23",
+        "alasan": "BP2MI memfasilitasi pemberangkatan PMI; layanan administratif"
+      },
+      {
+        "pasal": "Pasal 24",
+        "alasan": "pertukaran data keberangkatan kepada Atase melalui integrasi sistem; kelembagaan"
+      },
+      {
+        "pasal": "Pasal 25",
+        "alasan": "koordinasi BP2MI dengan kementerian/lembaga, pemerintah daerah, dan LTSA; kelembagaan"
+      },
+      {
+        "pasal": "Pasal 26",
+        "alasan": "label ganda tanpa isi akibat pemenggalan halaman; substansi ada pada label Pasal 26 berikutnya"
+      },
+      {
+        "pasal": "Pasal 26",
+        "alasan": "delegasi pengaturan pedoman tahapan sebelum bekerja kepada Peraturan BP2MI; bukan norma"
+      },
+      {
+        "pasal": "Pasal 27",
+        "alasan": "tata cara pelaporan kedatangan PMI melalui Portal Peduli WNI; administratif"
+      },
+      {
+        "pasal": "Pasal 28",
+        "alasan": "pendataan kedatangan dan keberadaan PMI oleh Atase; kelembagaan"
+      },
+      {
+        "pasal": "Pasal 29",
+        "alasan": "pembinaan PMI saat tiba di negara tujuan oleh Atase; kelembagaan/pembinaan"
+      },
+      {
+        "pasal": "Pasal 32",
+        "alasan": "tahapan setelah bekerja dan fasilitasi PMI bermasalah dari debarkasi ke daerah asal; tata cara/kelembagaan"
+      },
+      {
+        "pasal": "Pasal 33",
+        "alasan": "kewajiban pelaporan pelaksanaan penempatan kepada Menteri melalui Sisnaker; kelembagaan"
+      },
+      {
+        "pasal": "Pasal 34",
+        "alasan": "ketentuan peralihan: integrasi Sistem Komputerisasi TKLN ke Sisnaker paling lama 6 bulan"
+      },
+      {
+        "pasal": "Pasal 35",
+        "alasan": "ketentuan peralihan: penempatan oleh BNP2TKI tetap dilaksanakan sampai berakhirnya Perjanjian Kerja"
+      },
+      {
+        "pasal": "Pasal 36",
+        "alasan": "ketentuan peralihan: peraturan pelaksana PP 4/2013 tetap berlaku sepanjang tidak bertentangan"
+      },
+      {
+        "pasal": "Pasal 37",
+        "alasan": "ketentuan penutup: PP 4/2013 dicabut dan dinyatakan tidak berlaku"
+      },
+      {
+        "pasal": "Pasal 38",
+        "alasan": "ketentuan penutup: mulai berlaku pada tanggal diundangkan"
+      },
+      {
+        "pasal": "Pasal 1",
+        "alasan": "penjelasan pasal (PENJELASAN II): cukup jelas, bukan norma mandiri"
+      },
+      {
+        "pasal": "Pasal 2",
+        "alasan": "penjelasan pasal (PENJELASAN II): cukup jelas, bukan norma mandiri"
+      },
+      {
+        "pasal": "Pasal 3",
+        "alasan": "penjelasan pasal (PENJELASAN II): cukup jelas, bukan norma mandiri"
+      },
+      {
+        "pasal": "Pasal 5",
+        "alasan": "penjelasan pasal: pemantauan dan evaluasi termasuk pembentukan kelompok kerja bersama; elusidasi, bukan norma mandiri"
+      },
+      {
+        "pasal": "Pasal 6",
+        "alasan": "penjelasan pasal (PENJELASAN II): cukup jelas, bukan norma mandiri"
+      },
+      {
+        "pasal": "Pasal 7",
+        "alasan": "penjelasan pasal: surat permintaan antara lain job order, visa wakalah, demand letter; elusidasi istilah, bukan norma"
+      },
+      {
+        "pasal": "Pasal 8",
+        "alasan": "penjelasan pasal (PENJELASAN II): cukup jelas, bukan norma mandiri"
+      },
+      {
+        "pasal": "Pasal 9",
+        "alasan": "penjelasan pasal (PENJELASAN II): cukup jelas, bukan norma mandiri"
+      },
+      {
+        "pasal": "Pasal 12",
+        "alasan": "penjelasan pasal: seleksi teknis antara lain kompetensi, bahasa, dan psikologi; elusidasi, bukan norma"
+      },
+      {
+        "pasal": "Pasal 13",
+        "alasan": "penjelasan pasal (PENJELASAN II): cukup jelas, bukan norma mandiri"
+      },
+      {
+        "pasal": "Pasal 14",
+        "alasan": "penjelasan pasal (PENJELASAN II): cukup jelas, bukan norma mandiri"
+      },
+      {
+        "pasal": "Pasal 15",
+        "alasan": "penjelasan pasal (PENJELASAN II): cukup jelas, bukan norma mandiri"
+      },
+      {
+        "pasal": "Pasal 16",
+        "alasan": "penjelasan pasal (PENJELASAN II): cukup jelas, bukan norma mandiri"
+      },
+      {
+        "pasal": "Pasal 17",
+        "alasan": "penjelasan pasal (PENJELASAN II): cukup jelas, bukan norma mandiri"
+      },
+      {
+        "pasal": "Pasal 18",
+        "alasan": "penjelasan pasal (PENJELASAN II): cukup jelas, bukan norma mandiri"
+      },
+      {
+        "pasal": "Pasal 19",
+        "alasan": "penjelasan pasal (PENJELASAN II): cukup jelas, bukan norma mandiri"
+      },
+      {
+        "pasal": "Pasal 20",
+        "alasan": "penjelasan pasal: materi OPP meliputi peraturan negara tujuan, materi perjanjian kerja, dan materi lain; elusidasi, bukan norma"
+      },
+      {
+        "pasal": "Pasal 21",
+        "alasan": "penjelasan pasal (PENJELASAN II): cukup jelas, bukan norma mandiri"
+      },
+      {
+        "pasal": "Pasal 22",
+        "alasan": "penjelasan pasal (PENJELASAN II): cukup jelas, bukan norma mandiri"
+      },
+      {
+        "pasal": "Pasal 23",
+        "alasan": "penjelasan pasal (PENJELASAN II): cukup jelas, bukan norma mandiri"
+      },
+      {
+        "pasal": "Pasal 24",
+        "alasan": "penjelasan pasal: integrasi sistem antara Sisko P2MI, Sisnaker, dan Portal Peduli WNI; elusidasi"
+      },
+      {
+        "pasal": "Pasal 25",
+        "alasan": "penjelasan pasal (PENJELASAN II): cukup jelas, bukan norma mandiri"
+      },
+      {
+        "pasal": "Pasal 26",
+        "alasan": "penjelasan pasal (PENJELASAN II): cukup jelas, bukan norma mandiri"
+      },
+      {
+        "pasal": "Pasal 27",
+        "alasan": "penjelasan pasal (PENJELASAN II): cukup jelas, bukan norma mandiri"
+      },
+      {
+        "pasal": "Pasal 28",
+        "alasan": "penjelasan pasal (PENJELASAN II): cukup jelas, bukan norma mandiri"
+      },
+      {
+        "pasal": "Pasal 29",
+        "alasan": "penjelasan pasal: pembinaan antara lain melalui welcoming programme; elusidasi, bukan norma"
+      },
+      {
+        "pasal": "Pasal 30",
+        "alasan": "penjelasan pasal (PENJELASAN II): cukup jelas, bukan norma mandiri"
+      },
+      {
+        "pasal": "Pasal 31",
+        "alasan": "penjelasan pasal: memfasilitasi meliputi pengurusan dokumen kepulangan dan memastikan pemenuhan hak PMI; elusidasi"
+      },
+      {
+        "pasal": "Pasal 32",
+        "alasan": "penjelasan pasal (PENJELASAN II): cukup jelas, bukan norma mandiri"
+      },
+      {
+        "pasal": "Pasal 33",
+        "alasan": "penjelasan pasal (PENJELASAN II): cukup jelas, bukan norma mandiri"
+      },
+      {
+        "pasal": "Pasal 34",
+        "alasan": "penjelasan pasal (PENJELASAN II): cukup jelas, bukan norma mandiri"
+      },
+      {
+        "pasal": "Pasal 35",
+        "alasan": "penjelasan pasal (PENJELASAN II): cukup jelas, bukan norma mandiri"
+      },
+      {
+        "pasal": "Pasal 36",
+        "alasan": "penjelasan pasal (PENJELASAN II): cukup jelas, bukan norma mandiri"
+      },
+      {
+        "pasal": "Pasal 37",
+        "alasan": "penjelasan pasal (PENJELASAN II): cukup jelas, bukan norma mandiri"
+      },
+      {
+        "pasal": "Pasal 38",
+        "alasan": "penjelasan pasal (PENJELASAN II): cukup jelas, bukan norma mandiri"
+      }
+    ],
+    "catatan": ""
+  },
+  "tidak_termodelkan": [
+    {
+      "pasal": "Pasal 8",
+      "ringkasan": "Persyaratan CPMI: usia minimal 18 tahun, memiliki kompetensi, sehat jasmani dan rohani, terdaftar dan memiliki nomor kepesertaan jaminan sosial, serta dokumen lengkap.",
+      "alasan": "relevan (syarat menjadi PMI) tetapi butuh kelas/properti baru: PersyaratanCPMI, usia kerja minimum, dan kepesertaan jamsos awal; tidak ada di T-Box/VOCAB"
+    },
+    {
+      "pasal": "Pasal 16",
+      "ringkasan": "Kewajiban menandatangani Perjanjian Penempatan antara BP2MI dan CPMI setelah lulus seleksi, pemeriksaan kesehatan/psikologi, dan memiliki paspor; ketentuan lebih lanjut diatur Peraturan BP2MI.",
+      "alasan": "relevan (instrumen hak/kewajiban CPMI) tetapi butuh kelas KetentuanPenempatanPMI/PerjanjianPenempatan yang belum ada di T-Box; bukan PKWT"
+    },
+    {
+      "pasal": "Pasal 20",
+      "ringkasan": "Kewajiban CPMI mengikuti OPP; OPP diselenggarakan BP2MI, dapat bekerja sama dengan instansi terkait, dan biayanya dibebankan pada APBN.",
+      "alasan": "relevan (program wajib pra-pemberangkatan) tetapi butuh kelas/properti OPP (peserta, penyelenggara, pembiayaan) yang belum ada di T-Box"
+    },
+    {
+      "pasal": "Pasal 30",
+      "ringkasan": "PMI menerima orientasi sebelum bekerja dari Pemberi Kerja, mulai bekerja sesuai Perjanjian Kerja, dan diberikan identitas pekerja asing serta jaminan sosial/asuransi oleh Pemberi Kerja di negara tujuan.",
+      "alasan": "relevan (pelindungan dan jamsos PMI di luar negeri) tetapi butuh kelas/properti baru: kewajiban Pemberi Kerja luar negeri, identitas pekerja asing, dan asuransi di negara tujuan; tidak ada di T-Box"
+    },
+    {
+      "pasal": "Pasal 31",
+      "ringkasan": "PMI melaporkan kepulangan kepada Atase; proses kepulangan dan pemenuhan hak menjadi tanggung jawab Pemberi Kerja sesuai Perjanjian Kerja; Perwakilan RI memfasilitasi dokumen perjalanan.",
+      "alasan": "relevan (pemenuhan hak PMI saat kepulangan) tetapi butuh kelas KetentuanKepulanganPMI/properti tanggung jawab pemenuhan hak yang belum ada di T-Box"
+    }
+  ]
+}

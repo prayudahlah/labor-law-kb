@@ -1,6 +1,6 @@
 {
-  "spec_version": "1.0.0",
-  "vocab_version": "0.2.0",
+  "spec_version": "1.1.0",
+  "vocab_version": "0.3.0",
   "dokumen_id": "UU-24-2011",
   "status_review": "reviewed",
   "peraturan": {
@@ -9,314 +9,503 @@
     "nomor": "24",
     "tahun": "2011",
     "sumber": "https://peraturan.bpk.go.id/Details/39268/uu-no-24-tahun-2011",
-    "status": "Diubah",
-    "diubah_oleh": [
-      "UU-6-2023"
-    ]
+    "status": "Berlaku",
+    "diubah_oleh": []
   },
   "norma": [
     {
-      "norm_id": "JAMSOS-PROGRAM",
+      "norm_id": "JAMSOS-BPJS-PROGRAM-KESEHATAN",
+      "topik": "Jamsos",
+      "pasal": "Pasal 6 ayat (1)",
+      "iri_individu": "ktn:BpjsProgramKesehatan",
+      "jenis": "KetentuanJaminanSosial",
+      "kondisi": "Penyelenggaraan program jaminan sosial oleh BPJS Kesehatan",
+      "akibat": "BPJS Kesehatan menyelenggarakan program jaminan kesehatan",
+      "parameter": [],
+      "bukti": "BPJS Kesehatan sebagaimana dimaksud dalam Pasal 5 ayat (2) huruf a menyelenggarakan program jaminan kesehatan.",
+      "confidence": 0.9,
+      "dasar_keyakinan": "dikutip",
+      "catatan": "Ruang lingkup program; jaminan kesehatan (JKN) tidak termasuk enum program_jamsos VOCAB."
+    },
+    {
+      "norm_id": "JAMSOS-BPJS-PROGRAM-KETENAGAKERJAAN",
       "topik": "Jamsos",
       "pasal": "Pasal 6 ayat (2)",
-      "iri_individu": "ktn:KetentuanProgramJamsos",
+      "iri_individu": "ktn:BpjsProgramKetenagakerjaan",
       "jenis": "KetentuanJaminanSosial",
-      "kondisi": "Pekerja penerima upah",
-      "akibat": "Wajib diikutsertakan dalam JKK JKM JHT JP",
+      "kondisi": "Penyelenggaraan program jaminan sosial oleh BPJS Ketenagakerjaan",
+      "akibat": "BPJS Ketenagakerjaan menyelenggarakan program jaminan kecelakaan kerja, jaminan hari tua, jaminan pensiun, dan jaminan kematian",
       "parameter": [],
-      "bukti": "BPJS Ketenagakerjaan menyelenggarakan JKK JHT JP dan JKM",
+      "bukti": "BPJS Ketenagakerjaan sebagaimana dimaksud dalam Pasal 5 ayat (2) huruf b menyelenggarakan program:",
+      "confidence": 0.9,
+      "dasar_keyakinan": "dikutip",
+      "catatan": "Program JKK, JHT, JP, dan JKM."
+    },
+    {
+      "norm_id": "JAMSOS-KEPESERTAAN-WAJIB",
+      "topik": "Jamsos",
+      "pasal": "Pasal 14",
+      "iri_individu": "ktn:KepesertaanWajibJamsos",
+      "jenis": "KetentuanJaminanSosial",
+      "kondisi": "Setiap orang, termasuk orang asing, yang bekerja paling singkat 6 bulan di Indonesia",
+      "akibat": "Wajib menjadi Peserta program Jaminan Sosial",
+      "parameter": [],
+      "bukti": "Setiap orang, termasuk orang asing yang bekerja paling singkat 6 (enam) bulan di Indonesia, wajib menjadi Peserta program Jaminan Sosial.",
+      "confidence": 0.95,
+      "dasar_keyakinan": "dikutip",
+      "catatan": "Batas 6 bulan kerja belum diparameterkan (tidak ada nama parameter yang cocok di VOCAB)."
+    },
+    {
+      "norm_id": "JAMSOS-PENDAFTARAN-PEMBERI-KERJA",
+      "topik": "Jamsos",
+      "pasal": "Pasal 15 ayat (1)",
+      "iri_individu": "ktn:PendaftaranPemberiKerja",
+      "jenis": "KetentuanJaminanSosial",
+      "kondisi": "Pemberi Kerja mempekerjakan Pekerja",
+      "akibat": "Secara bertahap wajib mendaftarkan dirinya dan Pekerjanya sebagai Peserta kepada BPJS sesuai dengan program Jaminan Sosial yang diikuti",
+      "parameter": [],
+      "bukti": "Pemberi Kerja secara bertahap wajib mendaftarkan dirinya dan Pekerjanya sebagai Peserta kepada BPJS sesuai dengan program Jaminan Sosial yang diikuti.",
+      "confidence": 0.95,
+      "dasar_keyakinan": "dikutip",
+      "catatan": "Penahapan pendaftaran diatur dengan Peraturan Presiden (ayat (3))."
+    },
+    {
+      "norm_id": "JAMSOS-DATA-PENDAFTARAN",
+      "topik": "Jamsos",
+      "pasal": "Pasal 15 ayat (2)",
+      "iri_individu": "ktn:DataPendaftaranLengkap",
+      "jenis": "KetentuanJaminanSosial",
+      "kondisi": "Pemberi Kerja melakukan pendaftaran Peserta",
+      "akibat": "Wajib memberikan data dirinya dan Pekerjanya berikut anggota keluarganya secara lengkap dan benar kepada BPJS",
+      "parameter": [],
+      "bukti": "Pemberi Kerja, dalam melakukan pendaftaran sebagaimana dimaksud pada ayat (1), wajib memberikan data dirinya dan Pekerjanya berikut anggota keluarganya secara lengkap dan benar kepada BPJS.",
       "confidence": 0.95,
       "dasar_keyakinan": "dikutip",
       "catatan": ""
+    },
+    {
+      "norm_id": "JAMSOS-PENDAFTARAN-MANDIRI",
+      "topik": "Jamsos",
+      "pasal": "Pasal 16 ayat (1)",
+      "iri_individu": "ktn:PendaftaranMandiriPeserta",
+      "jenis": "KetentuanJaminanSosial",
+      "kondisi": "Setiap orang selain Pemberi Kerja, Pekerja, dan penerima Bantuan Iuran yang memenuhi persyaratan kepesertaan",
+      "akibat": "Wajib mendaftarkan dirinya dan anggota keluarganya sebagai Peserta kepada BPJS, dan wajib memberikan data dirinya dan anggota keluarganya secara lengkap dan benar (ayat (2))",
+      "parameter": [],
+      "bukti": "yang memenuhi persyaratan kepesertaan dalam program Jaminan Sosial wajib mendaftarkan dirinya dan anggota keluarganya sebagai Peserta kepada BPJS",
+      "confidence": 0.95,
+      "dasar_keyakinan": "dikutip",
+      "catatan": "Menggabungkan ayat (1) dan ayat (2)."
+    },
+    {
+      "norm_id": "JAMSOS-DATA-PENERIMA-BANTUAN-IURAN",
+      "topik": "Jamsos",
+      "pasal": "Pasal 18 ayat (2)",
+      "iri_individu": "ktn:DataPenerimaBantuanIuran",
+      "jenis": "KetentuanJaminanSosial",
+      "kondisi": "Penerima Bantuan Iuran menjadi Peserta program Jaminan Sosial",
+      "akibat": "Wajib memberikan data mengenai diri sendiri dan anggota keluarganya secara lengkap dan benar kepada Pemerintah untuk disampaikan kepada BPJS",
+      "parameter": [],
+      "bukti": "Penerima Bantuan Iuran wajib memberikan data mengenai diri sendiri dan anggota keluarganya secara lengkap dan benar kepada Pemerintah untuk disampaikan kepada BPJS.",
+      "confidence": 0.95,
+      "dasar_keyakinan": "dikutip",
+      "catatan": "Ayat (1) memuat kewajiban Pemerintah mendaftarkan penerima Bantuan Iuran (kelembagaan)."
+    },
+    {
+      "norm_id": "JAMSOS-PEMUNGUTAN-IURAN-PEMBERI-KERJA",
+      "topik": "Jamsos",
+      "pasal": "Pasal 19 ayat (1)",
+      "iri_individu": "ktn:PemungutanIuranPemberiKerja",
+      "jenis": "KetentuanJaminanSosial",
+      "kondisi": "Pemberi Kerja mempekerjakan Peserta yang wajib membayar Iuran",
+      "akibat": "Wajib memungut Iuran yang menjadi beban Peserta dari Pekerjanya dan menyetorkannya kepada BPJS, serta wajib membayar dan menyetor Iuran yang menjadi tanggung jawabnya (ayat (2))",
+      "parameter": [],
+      "bukti": "Pemberi Kerja wajib memungut Iuran yang menjadi beban Peserta dari Pekerjanya dan menyetorkannya kepada BPJS.",
+      "confidence": 0.95,
+      "dasar_keyakinan": "dikutip",
+      "catatan": "Menggabungkan ayat (1) dan ayat (2). Besaran iuran didelegasikan ke Perpres/PP (ayat (5))."
+    },
+    {
+      "norm_id": "JAMSOS-IURAN-PESERTA-BUKAN-PEKERJA",
+      "topik": "Jamsos",
+      "pasal": "Pasal 19 ayat (3)",
+      "iri_individu": "ktn:IuranPesertaBukanPekerja",
+      "jenis": "KetentuanJaminanSosial",
+      "kondisi": "Peserta bukan Pekerja dan bukan penerima Bantuan Iuran",
+      "akibat": "Wajib membayar dan menyetor Iuran yang menjadi tanggung jawabnya kepada BPJS",
+      "parameter": [],
+      "bukti": "Peserta yang bukan Pekerja dan bukan penerima Bantuan Iuran wajib membayar dan menyetor Iuran yang menjadi tanggung jawabnya kepada BPJS.",
+      "confidence": 0.95,
+      "dasar_keyakinan": "dikutip",
+      "catatan": ""
+    },
+    {
+      "norm_id": "JAMSOS-IURAN-PENERIMA-BANTUAN-IURAN",
+      "topik": "Jamsos",
+      "pasal": "Pasal 19 ayat (4)",
+      "iri_individu": "ktn:IuranPenerimaBantuanIuran",
+      "jenis": "KetentuanJaminanSosial",
+      "kondisi": "Penerima Bantuan Iuran menjadi Peserta program Jaminan Sosial",
+      "akibat": "Pemerintah membayar dan menyetor Iuran untuk penerima Bantuan Iuran kepada BPJS",
+      "parameter": [],
+      "bukti": "Pemerintah membayar dan menyetor Iuran untuk penerima Bantuan Iuran kepada BPJS.",
+      "confidence": 0.95,
+      "dasar_keyakinan": "dikutip",
+      "catatan": "Label pasal pada markdown OCR berbentuk '- Pasal 19' (tanpa heading), sehingga tidak terhitung sebagai heading batang tubuh."
+    },
+    {
+      "norm_id": "JAMSOS-PENANGANAN-PENGADUAN",
+      "topik": "Jamsos",
+      "pasal": "Pasal 48 ayat (2)",
+      "iri_individu": "ktn:PenangananPengaduanPeserta",
+      "jenis": "KetentuanJaminanSosial",
+      "kondisi": "Peserta menyampaikan pengaduan kepada BPJS",
+      "akibat": "BPJS wajib menangani pengaduan paling lama 5 hari kerja sejak pengaduan diterima",
+      "parameter": [],
+      "bukti": "BPJS wajib menangani pengaduan paling lama 5 (lima) hari kerja sejak diterimanya pengaduan.",
+      "confidence": 0.95,
+      "dasar_keyakinan": "dikutip",
+      "catatan": "Ayat (1) mewajibkan BPJS membentuk unit pengendali mutu pelayanan dan penanganan pengaduan Peserta; tenggat 5 hari kerja belum diparameterkan (tidak ada nama parameter yang cocok di VOCAB)."
     }
   ],
   "kategori": [],
   "pengali_lembur": [],
   "program_jamsos": [],
   "cakupan": {
-    "lengkap": false,
+    "lengkap": true,
     "pasal_diekstrak": [
-      "Pasal 6"
+      "Pasal 1",
+      "Pasal 10",
+      "Pasal 11",
+      "Pasal 12",
+      "Pasal 13",
+      "Pasal 14",
+      "Pasal 15",
+      "Pasal 16",
+      "Pasal 17",
+      "Pasal 18",
+      "Pasal 2",
+      "Pasal 20",
+      "Pasal 21",
+      "Pasal 22",
+      "Pasal 23",
+      "Pasal 24",
+      "Pasal 25",
+      "Pasal 26",
+      "Pasal 27",
+      "Pasal 28",
+      "Pasal 29",
+      "Pasal 3",
+      "Pasal 30",
+      "Pasal 31",
+      "Pasal 32",
+      "Pasal 33",
+      "Pasal 34",
+      "Pasal 35",
+      "Pasal 36",
+      "Pasal 37",
+      "Pasal 38",
+      "Pasal 39",
+      "Pasal 4",
+      "Pasal 40",
+      "Pasal 41",
+      "Pasal 42",
+      "Pasal 43",
+      "Pasal 44",
+      "Pasal 45",
+      "Pasal 46",
+      "Pasal 47",
+      "Pasal 48",
+      "Pasal 49",
+      "Pasal 5",
+      "Pasal 50",
+      "Pasal 51",
+      "Pasal 52",
+      "Pasal 53",
+      "Pasal 54",
+      "Pasal 55",
+      "Pasal 56",
+      "Pasal 57",
+      "Pasal 58",
+      "Pasal 59",
+      "Pasal 6",
+      "Pasal 60",
+      "Pasal 61",
+      "Pasal 62",
+      "Pasal 63",
+      "Pasal 64",
+      "Pasal 65",
+      "Pasal 66",
+      "Pasal 67",
+      "Pasal 68",
+      "Pasal 69",
+      "Pasal 7",
+      "Pasal 70",
+      "Pasal 71",
+      "Pasal 8",
+      "Pasal 9"
     ],
     "pasal_dilewati": [
       {
         "pasal": "Pasal 1",
-        "alasan": "retrofit: belum ditinjau (migrasi data pilot)"
+        "alasan": "definisi/istilah (14 definisi: BPJS, Jaminan Sosial, Peserta, Pekerja, Pemberi Kerja, Iuran, dan lain-lain)"
       },
       {
         "pasal": "Pasal 2",
-        "alasan": "retrofit: belum ditinjau (migrasi data pilot)"
+        "alasan": "asas penyelenggaraan (kemanusiaan, manfaat, keadilan sosial); tanpa akibat hukum"
       },
       {
         "pasal": "Pasal 3",
-        "alasan": "retrofit: belum ditinjau (migrasi data pilot)"
+        "alasan": "tujuan BPJS; pernyataan cita-cita, bukan norma perilaku"
       },
       {
         "pasal": "Pasal 4",
-        "alasan": "retrofit: belum ditinjau (migrasi data pilot)"
+        "alasan": "prinsip penyelenggaraan (kegotongroyongan, nirlaba, keterbukaan, dan lain-lain)"
       },
       {
         "pasal": "Pasal 5",
-        "alasan": "retrofit: belum ditinjau (migrasi data pilot)"
+        "alasan": "kelembagaan: pembentukan BPJS Kesehatan dan BPJS Ketenagakerjaan"
       },
       {
         "pasal": "Pasal 7",
-        "alasan": "retrofit: belum ditinjau (migrasi data pilot)"
+        "alasan": "kelembagaan: status badan hukum publik dan pertanggungjawaban BPJS kepada Presiden"
       },
       {
         "pasal": "Pasal 8",
-        "alasan": "retrofit: belum ditinjau (migrasi data pilot)"
+        "alasan": "kelembagaan: tempat kedudukan dan kantor perwakilan BPJS"
       },
       {
         "pasal": "Pasal 9",
-        "alasan": "retrofit: belum ditinjau (migrasi data pilot)"
+        "alasan": "kelembagaan: fungsi BPJS, mengulang ruang lingkup program pada Pasal 6"
       },
       {
         "pasal": "Pasal 10",
-        "alasan": "retrofit: belum ditinjau (migrasi data pilot)"
+        "alasan": "kelembagaan: tugas BPJS (pendaftaran, pemungutan iuran, pengelolaan dana, pembayaran manfaat)"
       },
       {
         "pasal": "Pasal 11",
-        "alasan": "retrofit: belum ditinjau (migrasi data pilot)"
+        "alasan": "kelembagaan: wewenang BPJS (menagih iuran, investasi, pengawasan, sanksi administratif)"
       },
       {
         "pasal": "Pasal 12",
-        "alasan": "retrofit: belum ditinjau (migrasi data pilot)"
+        "alasan": "kelembagaan: hak BPJS atas dana operasional dan hasil monitoring DJSN"
       },
       {
         "pasal": "Pasal 13",
-        "alasan": "retrofit: belum ditinjau (migrasi data pilot)"
-      },
-      {
-        "pasal": "Pasal 14",
-        "alasan": "retrofit: belum ditinjau (migrasi data pilot)"
-      },
-      {
-        "pasal": "Pasal 15",
-        "alasan": "retrofit: belum ditinjau (migrasi data pilot)"
-      },
-      {
-        "pasal": "Pasal 16",
-        "alasan": "retrofit: belum ditinjau (migrasi data pilot)"
+        "alasan": "kelembagaan: kewajiban administratif BPJS (nomor identitas, informasi, pembukuan, pelaporan)"
       },
       {
         "pasal": "Pasal 17",
-        "alasan": "retrofit: belum ditinjau (migrasi data pilot)"
-      },
-      {
-        "pasal": "Pasal 18",
-        "alasan": "retrofit: belum ditinjau (migrasi data pilot)"
+        "alasan": "sanksi administratif atas kegagalan pendaftaran (teguran, denda, pembatasan layanan publik)"
       },
       {
         "pasal": "Pasal 20",
-        "alasan": "retrofit: belum ditinjau (migrasi data pilot)"
+        "alasan": "kelembagaan: susunan organ BPJS (Dewan Pengawas dan Direksi)"
       },
       {
         "pasal": "Pasal 21",
-        "alasan": "retrofit: belum ditinjau (migrasi data pilot)"
+        "alasan": "kelembagaan: komposisi, pengangkatan, dan masa jabatan Dewan Pengawas"
       },
       {
         "pasal": "Pasal 22",
-        "alasan": "retrofit: belum ditinjau (migrasi data pilot)"
+        "alasan": "kelembagaan: fungsi, tugas, dan wewenang Dewan Pengawas"
       },
       {
         "pasal": "Pasal 23",
-        "alasan": "retrofit: belum ditinjau (migrasi data pilot)"
+        "alasan": "kelembagaan: komposisi, pengangkatan, dan masa jabatan Direksi"
       },
       {
         "pasal": "Pasal 24",
-        "alasan": "retrofit: belum ditinjau (migrasi data pilot)"
+        "alasan": "kelembagaan: fungsi, tugas, dan wewenang Direksi BPJS"
       },
       {
         "pasal": "Pasal 25",
-        "alasan": "retrofit: belum ditinjau (migrasi data pilot)"
+        "alasan": "kelembagaan: persyaratan umum calon anggota Dewan Pengawas dan Direksi"
       },
       {
         "pasal": "Pasal 26",
-        "alasan": "retrofit: belum ditinjau (migrasi data pilot)"
+        "alasan": "kelembagaan: persyaratan khusus calon anggota Dewan Pengawas"
       },
       {
         "pasal": "Pasal 27",
-        "alasan": "retrofit: belum ditinjau (migrasi data pilot)"
+        "alasan": "kelembagaan: persyaratan khusus calon anggota Direksi"
       },
       {
         "pasal": "Pasal 28",
-        "alasan": "retrofit: belum ditinjau (migrasi data pilot)"
+        "alasan": "tata cara internal: pembentukan dan keanggotaan panitia seleksi"
       },
       {
         "pasal": "Pasal 29",
-        "alasan": "retrofit: belum ditinjau (migrasi data pilot)"
+        "alasan": "tata cara internal: tahapan dan tenggat pendaftaran serta seleksi calon"
       },
       {
         "pasal": "Pasal 30",
-        "alasan": "retrofit: belum ditinjau (migrasi data pilot)"
+        "alasan": "tata cara internal: pemilihan dan penetapan anggota oleh Presiden dan DPR"
       },
       {
         "pasal": "Pasal 31",
-        "alasan": "retrofit: belum ditinjau (migrasi data pilot)"
+        "alasan": "delegasi tata cara pemilihan dan penetapan ke Peraturan Presiden"
       },
       {
         "pasal": "Pasal 32",
-        "alasan": "retrofit: belum ditinjau (migrasi data pilot)"
+        "alasan": "kelembagaan: sebab berhentinya anggota Dewan Pengawas atau Direksi"
       },
       {
         "pasal": "Pasal 33",
-        "alasan": "retrofit: belum ditinjau (migrasi data pilot)"
+        "alasan": "kelembagaan: pemberhentian sementara dan pengembalian jabatan anggota"
       },
       {
         "pasal": "Pasal 34",
-        "alasan": "retrofit: belum ditinjau (migrasi data pilot)"
+        "alasan": "kelembagaan: alasan pemberhentian anggota Dewan Pengawas atau Direksi"
       },
       {
         "pasal": "Pasal 35",
-        "alasan": "retrofit: belum ditinjau (migrasi data pilot)"
+        "alasan": "kelembagaan: pengangkatan anggota pengganti untuk sisa masa jabatan"
       },
       {
         "pasal": "Pasal 36",
-        "alasan": "retrofit: belum ditinjau (migrasi data pilot)"
+        "alasan": "tata cara internal: pemilihan anggota pengganti antarwaktu"
       },
       {
         "pasal": "Pasal 37",
-        "alasan": "retrofit: belum ditinjau (migrasi data pilot)"
-      },
-      {
-        "pasal": "Pasal 38",
-        "alasan": "retrofit: belum ditinjau (migrasi data pilot)"
+        "alasan": "kelembagaan: kewajiban pelaporan dan publikasi laporan tahunan BPJS"
       },
       {
         "pasal": "Pasal 39",
-        "alasan": "retrofit: belum ditinjau (migrasi data pilot)"
+        "alasan": "kelembagaan: pengawasan internal dan eksternal BPJS"
       },
       {
         "pasal": "Pasal 40",
-        "alasan": "retrofit: belum ditinjau (migrasi data pilot)"
+        "alasan": "kelembagaan: pemisahan aset BPJS dan aset Dana Jaminan Sosial serta penyimpanan pada bank kustodian"
       },
       {
         "pasal": "Pasal 41",
-        "alasan": "retrofit: belum ditinjau (migrasi data pilot)"
+        "alasan": "kelembagaan: sumber dan penggunaan aset BPJS"
       },
       {
         "pasal": "Pasal 42",
-        "alasan": "retrofit: belum ditinjau (migrasi data pilot)"
+        "alasan": "kelembagaan: besaran modal awal BPJS Kesehatan dan BPJS Ketenagakerjaan dari APBN"
       },
       {
         "pasal": "Pasal 43",
-        "alasan": "retrofit: belum ditinjau (migrasi data pilot)"
+        "alasan": "kelembagaan: sumber dan penggunaan aset Dana Jaminan Sosial"
       },
       {
         "pasal": "Pasal 44",
-        "alasan": "retrofit: belum ditinjau (migrasi data pilot)"
+        "alasan": "ketentuan internal BPJS: komponen biaya operasional serta gaji/upah dan insentif personel BPJS"
       },
       {
         "pasal": "Pasal 45",
-        "alasan": "retrofit: belum ditinjau (migrasi data pilot)"
+        "alasan": "kelembagaan: penetapan persentase dana operasional BPJS, didelegasikan ke Peraturan Pemerintah"
       },
       {
         "pasal": "Pasal 46",
-        "alasan": "retrofit: belum ditinjau (migrasi data pilot)"
+        "alasan": "kelembagaan: pembubaran BPJS hanya dengan Undang-Undang"
       },
       {
         "pasal": "Pasal 47",
-        "alasan": "retrofit: belum ditinjau (migrasi data pilot)"
-      },
-      {
-        "pasal": "Pasal 48",
-        "alasan": "retrofit: belum ditinjau (migrasi data pilot)"
+        "alasan": "kelembagaan: BPJS tidak dapat dipailitkan"
       },
       {
         "pasal": "Pasal 49",
-        "alasan": "retrofit: belum ditinjau (migrasi data pilot)"
+        "alasan": "prosedural: mekanisme penyelesaian sengketa melalui mediasi"
       },
       {
         "pasal": "Pasal 50",
-        "alasan": "retrofit: belum ditinjau (migrasi data pilot)"
+        "alasan": "prosedural: penyelesaian sengketa melalui pengadilan negeri"
       },
       {
         "pasal": "Pasal 51",
-        "alasan": "retrofit: belum ditinjau (migrasi data pilot)"
+        "alasan": "kelembagaan: kerja sama BPJS dengan lembaga pemerintah dan lembaga lain"
       },
       {
         "pasal": "Pasal 52",
-        "alasan": "retrofit: belum ditinjau (migrasi data pilot)"
+        "alasan": "larangan bagi anggota Dewan Pengawas dan Direksi (kelembagaan)"
       },
       {
         "pasal": "Pasal 53",
-        "alasan": "retrofit: belum ditinjau (migrasi data pilot)"
+        "alasan": "sanksi administratif atas pelanggaran larangan"
       },
       {
         "pasal": "Pasal 54",
-        "alasan": "retrofit: belum ditinjau (migrasi data pilot)"
+        "alasan": "ketentuan pidana bagi anggota Dewan Pengawas atau Direksi"
       },
       {
         "pasal": "Pasal 55",
-        "alasan": "retrofit: belum ditinjau (migrasi data pilot)"
+        "alasan": "ketentuan pidana bagi Pemberi Kerja yang melanggar kewajiban iuran Pasal 19"
       },
       {
         "pasal": "Pasal 56",
-        "alasan": "retrofit: belum ditinjau (migrasi data pilot)"
+        "alasan": "kelembagaan: kebijakan khusus Pemerintah atas laporan keuangan dan kondisi fiskal"
       },
       {
         "pasal": "Pasal 57",
-        "alasan": "retrofit: belum ditinjau (migrasi data pilot)"
+        "alasan": "ketentuan peralihan: keberlanjutan PT Askes, Kementerian Kesehatan, TNI/Polri, PT Jamsostek, PT ASABRI, dan PT TASPEN"
       },
       {
         "pasal": "Pasal 58",
-        "alasan": "retrofit: belum ditinjau (migrasi data pilot)"
+        "alasan": "ketentuan peralihan: penugasan Dewan Komisaris dan Direksi PT Askes menyiapkan BPJS Kesehatan"
       },
       {
         "pasal": "Pasal 59",
-        "alasan": "retrofit: belum ditinjau (migrasi data pilot)"
+        "alasan": "ketentuan peralihan: pengangkatan pertama Dewan Pengawas dan Direksi BPJS Kesehatan"
       },
       {
         "pasal": "Pasal 60",
-        "alasan": "retrofit: belum ditinjau (migrasi data pilot)"
+        "alasan": "ketentuan peralihan: tanggal mulai beroperasi BPJS Kesehatan dan akibat beralihnya aset, pegawai, serta program PT Askes"
       },
       {
         "pasal": "Pasal 61",
-        "alasan": "retrofit: belum ditinjau (migrasi data pilot)"
+        "alasan": "ketentuan peralihan: penugasan Dewan Komisaris dan Direksi PT Jamsostek menyiapkan BPJS Ketenagakerjaan"
       },
       {
         "pasal": "Pasal 62",
-        "alasan": "retrofit: belum ditinjau (migrasi data pilot)"
+        "alasan": "ketentuan peralihan: perubahan PT Jamsostek menjadi BPJS Ketenagakerjaan pada 1 Januari 2014"
       },
       {
         "pasal": "Pasal 63",
-        "alasan": "retrofit: belum ditinjau (migrasi data pilot)"
+        "alasan": "ketentuan peralihan: pengangkatan pertama Dewan Pengawas dan Direksi BPJS Ketenagakerjaan"
       },
       {
         "pasal": "Pasal 64",
-        "alasan": "retrofit: belum ditinjau (migrasi data pilot)"
+        "alasan": "ketentuan peralihan: mulai beroperasinya BPJS Ketenagakerjaan paling lambat 1 Juli 2015"
       },
       {
         "pasal": "Pasal 65",
-        "alasan": "retrofit: belum ditinjau (migrasi data pilot)"
+        "alasan": "ketentuan peralihan: tenggat pengalihan program PT ASABRI dan PT TASPEN ke BPJS Ketenagakerjaan"
       },
       {
         "pasal": "Pasal 66",
-        "alasan": "retrofit: belum ditinjau (migrasi data pilot)"
+        "alasan": "delegasi tata cara pengalihan program PT ASABRI dan PT TASPEN ke Peraturan Pemerintah"
       },
       {
         "pasal": "Pasal 67",
-        "alasan": "retrofit: belum ditinjau (migrasi data pilot)"
+        "alasan": "ketentuan peralihan: pengecualian ketentuan UU Perseroan Terbatas dan UU BUMN untuk pembubaran PT Askes dan PT Jamsostek"
       },
       {
         "pasal": "Pasal 68",
-        "alasan": "retrofit: belum ditinjau (migrasi data pilot)"
+        "alasan": "ketentuan peralihan: pencabutan PP 36/1995 dan keberlakuan sementara Pasal 8-15 UU 3/1992"
       },
       {
         "pasal": "Pasal 69",
-        "alasan": "retrofit: belum ditinjau (migrasi data pilot)"
+        "alasan": "ketentuan penutup: pencabutan UU 3/1992 saat BPJS Ketenagakerjaan mulai beroperasi"
       },
       {
         "pasal": "Pasal 70",
-        "alasan": "retrofit: belum ditinjau (migrasi data pilot)"
+        "alasan": "ketentuan penutup: tenggat penetapan peraturan pelaksanaan (1 tahun dan 2 tahun)"
       },
       {
         "pasal": "Pasal 71",
-        "alasan": "retrofit: belum ditinjau (migrasi data pilot)"
+        "alasan": "ketentuan penutup: tanggal mulai berlakunya Undang-Undang"
       }
     ],
-    "catatan": "Retrofit dari data pilot (migrasi ke record); belum ditinjau penuh."
+    "catatan": ""
   },
-  "tidak_termodelkan": []
+  "tidak_termodelkan": [
+    {
+      "pasal": "Pasal 38",
+      "ringkasan": "Direksi bertanggung jawab secara tanggung renteng atas kerugian finansial akibat kesalahan pengelolaan Dana Jaminan Sosial; pada akhir masa jabatan Dewan Pengawas dan Direksi wajib menyampaikan pertanggungjawaban kepada Presiden dengan tembusan DJSN.",
+      "alasan": "butuh kelas/properti pertanggungjawaban (tanggung renteng kerugian finansial pejabat BPJS) yang belum ada di T-Box"
+    }
+  ]
 }

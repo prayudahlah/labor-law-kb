@@ -1,0 +1,470 @@
+{
+  "spec_version": "1.1.0",
+  "vocab_version": "0.3.0",
+  "dokumen_id": "UU-12-2022",
+  "status_review": "reviewed",
+  "peraturan": {
+    "judul": "Undang-Undang Nomor 12 Tahun 2022 tentang Tindak Pidana Kekerasan Seksual",
+    "jenis": "UU",
+    "nomor": "12",
+    "tahun": "2022",
+    "sumber": "https://peraturan.go.id/id/uu-no-12-tahun-2022",
+    "status": "Berlaku",
+    "diubah_oleh": []
+  },
+  "norma": [],
+  "kategori": [],
+  "pengali_lembur": [],
+  "program_jamsos": [],
+  "cakupan": {
+    "lengkap": true,
+    "pasal_diekstrak": [
+      "Pasal 1",
+      "Pasal 10",
+      "Pasal 11",
+      "Pasal 12",
+      "Pasal 13",
+      "Pasal 15",
+      "Pasal 16",
+      "Pasal 17",
+      "Pasal 19",
+      "Pasal 2",
+      "Pasal 20",
+      "Pasal 21",
+      "Pasal 22",
+      "Pasal 23",
+      "Pasal 24",
+      "Pasal 25",
+      "Pasal 26",
+      "Pasal 27",
+      "Pasal 28",
+      "Pasal 29",
+      "Pasal 3",
+      "Pasal 30",
+      "Pasal 31",
+      "Pasal 32",
+      "Pasal 33",
+      "Pasal 34",
+      "Pasal 36",
+      "Pasal 37",
+      "Pasal 38",
+      "Pasal 39",
+      "Pasal 4",
+      "Pasal 40",
+      "Pasal 41",
+      "Pasal 42",
+      "Pasal 43",
+      "Pasal 44",
+      "Pasal 45",
+      "Pasal 46",
+      "Pasal 47",
+      "Pasal 48",
+      "Pasal 49",
+      "Pasal 5",
+      "Pasal 50",
+      "Pasal 52",
+      "Pasal 53",
+      "Pasal 54",
+      "Pasal 55",
+      "Pasal 56",
+      "Pasal 57",
+      "Pasal 58",
+      "Pasal 59",
+      "Pasal 6",
+      "Pasal 60",
+      "Pasal 61",
+      "Pasal 62",
+      "Pasal 63",
+      "Pasal 64",
+      "Pasal 65",
+      "Pasal 66",
+      "Pasal 67",
+      "Pasal 68",
+      "Pasal 69",
+      "Pasal 7",
+      "Pasal 70",
+      "Pasal 71",
+      "Pasal 72",
+      "Pasal 73",
+      "Pasal 74",
+      "Pasal 75",
+      "Pasal 76",
+      "Pasal 77",
+      "Pasal 78",
+      "Pasal 8",
+      "Pasal 80",
+      "Pasal 81",
+      "Pasal 82",
+      "Pasal 83",
+      "Pasal 84",
+      "Pasal 85",
+      "Pasal 86",
+      "Pasal 87",
+      "Pasal 88",
+      "Pasal 89",
+      "Pasal 9",
+      "Pasal 90",
+      "Pasal 91",
+      "Pasal 92",
+      "Pasal 93"
+    ],
+    "pasal_dilewati": [
+      {
+        "pasal": "Pasal 1",
+        "alasan": "definisi/istilah: \"Dalam Undang-Undang ini yang dimaksud dengan:\" — 25 batasan (TPKS, Korban, Anak, Restitusi, dst.), tanpa kondisi-akibat hukum ketenagakerjaan"
+      },
+      {
+        "pasal": "Pasal 2",
+        "alasan": "asas: \"Pengaturan Tindak Pidana Kekerasan Seksual didasarkan pada asas:\" — asas normatif, bukan norma kondisi-akibat"
+      },
+      {
+        "pasal": "Pasal 3",
+        "alasan": "tujuan: \"Substansi dalam Undang-Undang Tindak Pidana Kekerasan Seksual bertujuan untuk:\" — tujuan undang-undang, bukan norma"
+      },
+      {
+        "pasal": "Pasal 4",
+        "alasan": "klasifikasi tindak pidana: \"Tindak Pidana Kekerasan Seksual terdiri atas:\" — daftar bentuk pidana, di luar domain T-Box"
+      },
+      {
+        "pasal": "Pasal 5",
+        "alasan": "pidana: \"dipidana karena pelecehan seksual nonfisik, dengan pidana penjara paling lama 9 (sembilan) bulan\" — sanksi pidana, bukan norma ketenagakerjaan"
+      },
+      {
+        "pasal": "Pasal 6",
+        "alasan": "pidana: \"Dipidana karena pelecehan seksual fisik:\" — ancaman pidana penjara/denda, di luar domain T-Box"
+      },
+      {
+        "pasal": "Pasal 7",
+        "alasan": "hukum acara pidana: \"merupakan delik aduan\" — sifat delik, bukan norma ketenagakerjaan"
+      },
+      {
+        "pasal": "Pasal 8",
+        "alasan": "pidana: \"dipidana karena pemaksaan kontrasepsi, dengan pidana penjara paling lama 5 (lima) tahun\" — sanksi pidana"
+      },
+      {
+        "pasal": "Pasal 9",
+        "alasan": "pidana: \"dipidana karena pemaksaan sterilisasi, dengan pidana penjara paling lama 9 (sembilan) tahun\" — sanksi pidana"
+      },
+      {
+        "pasal": "Pasal 10",
+        "alasan": "pidana: \"dipidana karena pemaksaan perkawinan, dengan pidana penjara paling lama 9 (sembilan) tahun\" — sanksi pidana"
+      },
+      {
+        "pasal": "Pasal 11",
+        "alasan": "pidana: \"dipidana karena penyiksaan seksual, dengan pidana penjara paling lama 12 (dua belas) tahun\" — sanksi pidana"
+      },
+      {
+        "pasal": "Pasal 12",
+        "alasan": "pidana: \"dipidana karena eksploitasi seksual, dengan pidana penjara paling lama 15 (lima belas) tahun\" — sanksi pidana"
+      },
+      {
+        "pasal": "Pasal 13",
+        "alasan": "pidana: \"dipidana karena perbudakan seksual, dengan pidana penjara paling lama 15 (lima belas) tahun\" — sanksi pidana"
+      },
+      {
+        "pasal": "Pasal 15",
+        "alasan": "pidana: pemberatan \"ditambah 1/3 (satu per tiga), jika:\" termasuk bila dilakukan \"oleh pejabat publik, pemberi kerja, atasan, atau pengurus\" — unsur pemberat pidana, bukan norma hubungan kerja"
+      },
+      {
+        "pasal": "Pasal 16",
+        "alasan": "pidana: \"hakim wajib menetapkan besarnya Restitusi terhadap Tindak Pidana Kekerasan Seksual\" — pidana tambahan/putusan, bukan norma ketenagakerjaan"
+      },
+      {
+        "pasal": "Pasal 17",
+        "alasan": "pidana: \"pelaku Tindak Pidana Kekerasan Seksual dapat dikenakan tindakan berupa Rehabilitasi\" — tindakan pidana"
+      },
+      {
+        "pasal": "Pasal 19",
+        "alasan": "pidana: \"dipidana dengan pidana penjara paling lama 5 (lima) tahun\" — menghalangi penyidikan, sanksi pidana"
+      },
+      {
+        "pasal": "Pasal 20",
+        "alasan": "hukum acara: \"dilaksanakan berdasarkan Undang-Undang yang mengatur mengenai hukum acara pidana\" — tata cara peradilan"
+      },
+      {
+        "pasal": "Pasal 21",
+        "alasan": "hukum acara/kelembagaan: \"Penyidik, penuntut umum, dan hakim yang menangani perkara Tindak Pidana Kekerasan Seksual harus memenuhi persyaratan:\" — kompetensi aparat"
+      },
+      {
+        "pasal": "Pasal 22",
+        "alasan": "hukum acara: \"tetap menjunjung tinggi hak asasi manusia, kehormatan, martabat, tanpa intimidasi\" — tata cara pemeriksaan"
+      },
+      {
+        "pasal": "Pasal 23",
+        "alasan": "hukum acara: \"tidak dapat dilakukan penyelesaian di luar proses peradilan\" — kewajiban proses pidana"
+      },
+      {
+        "pasal": "Pasal 24",
+        "alasan": "hukum acara: \"Alat bukti yang sah dalam pembuktian Tindak Pidana Kekerasan Seksual\" — alat bukti, bukan norma ketenagakerjaan"
+      },
+      {
+        "pasal": "Pasal 25",
+        "alasan": "hukum acara: \"Keterangan Saksi dan/atau Korban cukup untuk membuktikan bahwa terdakwa bersalah\" — kekuatan pembuktian"
+      },
+      {
+        "pasal": "Pasal 26",
+        "alasan": "hukum acara: \"Korban dapat didampingi oleh Pendamping pada semua tingkat pemeriksaan\" — pendampingan proses peradilan"
+      },
+      {
+        "pasal": "Pasal 27",
+        "alasan": "hukum acara: \"Saksi dan/atau Korban Penyandang Disabilitas dapat didampingi oleh orang tua, wali\" — pendampingan pemeriksaan"
+      },
+      {
+        "pasal": "Pasal 28",
+        "alasan": "hukum acara: \"Pendamping berhak mendapatkan Pelindungan hukum selama mendampingi Korban dan Saksi\" — pelindungan proses peradilan"
+      },
+      {
+        "pasal": "Pasal 29",
+        "alasan": "hukum acara: \"tidak dapat dituntut secara hukum, baik pidana maupun perdata\" — imunitas pendamping, bukan hak kerja"
+      },
+      {
+        "pasal": "Pasal 30",
+        "alasan": "hak korban/restitusi: \"Korban Tindak Pidana Kekerasan Seksual berhak mendapatkan Restitusi dan layanan Pemulihan\" — ganti rugi pidana, di luar T-Box"
+      },
+      {
+        "pasal": "Pasal 31",
+        "alasan": "hukum acara: \"wajib memberitahukan hak atas Restitusi kepada Korban dan LPSK\" — tata cara restitusi"
+      },
+      {
+        "pasal": "Pasal 32",
+        "alasan": "hukum acara: \"dikembalikan kepada pelaku dalam hal:\" — pengembalian restitusi, tata cara pidana"
+      },
+      {
+        "pasal": "Pasal 33",
+        "alasan": "hukum acara: \"Restitusi diberikan dalam jangka waktu paling lambat 30 (tiga puluh) hari\" — tenggat pelaksanaan putusan"
+      },
+      {
+        "pasal": "Pasal 34",
+        "alasan": "hukum acara: \"Jaksa membuat berita acara pelaksanaan Restitusi\" — administrasi pelaksanaan putusan"
+      },
+      {
+        "pasal": "Pasal 36",
+        "alasan": "hukum acara: \"dimintakan penetapan kepada ketua pengadilan negeri untuk dilakukan lelang\" — lelang sita restitusi"
+      },
+      {
+        "pasal": "Pasal 37",
+        "alasan": "hukum acara: \"pemberian Restitusi dilakukan oleh orang tua atau wali\" — pelaksanaan restitusi oleh pelaku Anak"
+      },
+      {
+        "pasal": "Pasal 38",
+        "alasan": "hukum acara: \"Ketentuan mengenai tata cara pengajuan Restitusi dilaksanakan\" — rujukan tata cara, bukan norma"
+      },
+      {
+        "pasal": "Pasal 39",
+        "alasan": "hukum acara: \"melaporkan kepada UPTD PPA\" — tata cara pelaporan tindak pidana"
+      },
+      {
+        "pasal": "Pasal 40",
+        "alasan": "kelembagaan: \"wajib memberikan pendampingan dan Pelayanan Terpadu yang\" — kewajiban lembaga layanan"
+      },
+      {
+        "pasal": "Pasal 41",
+        "alasan": "hukum acara/kelembagaan: \"menerima laporan di ruang khusus yang menjamin keamanan dan kerahasiaan Korban\" — tata cara pelaporan"
+      },
+      {
+        "pasal": "Pasal 42",
+        "alasan": "hukum acara: \"kepolisian dapat memberikan Pelindungan sementara kepada Korban\" — pelindungan dalam proses pidana"
+      },
+      {
+        "pasal": "Pasal 43",
+        "alasan": "hukum acara: \"kepolisian wajib mengajukan permintaan Pelindungan kepada LPSK\" — tata cara pelindungan"
+      },
+      {
+        "pasal": "Pasal 44",
+        "alasan": "kelembagaan: \"kepolisian dan LPSK dapat bekerja sama dengan UPTD PPA\" — kerja sama lembaga"
+      },
+      {
+        "pasal": "Pasal 45",
+        "alasan": "hukum acara: \"hakim dapat mengeluarkan penetapan pembatasan gerak pelaku\" — pembatasan gerak tersangka/terdakwa"
+      },
+      {
+        "pasal": "Pasal 46",
+        "alasan": "kelembagaan: \"Pemerintah Pusat berwenang melakukan penghapusan dan/atau pemutusan akses informasi elektronik\" — kewenangan pemerintah"
+      },
+      {
+        "pasal": "Pasal 47",
+        "alasan": "hukum acara: \"jaksa dapat mengajukan permintaan kepada ketua pengadilan negeri\" — permintaan penghapusan konten"
+      },
+      {
+        "pasal": "Pasal 48",
+        "alasan": "hukum acara: \"pemeriksaan dapat dilakukan dengan cara:\" — pemeriksaan Saksi di persidangan"
+      },
+      {
+        "pasal": "Pasal 49",
+        "alasan": "hukum acara: \"Penyidik dapat melakukan pemeriksaan Saksi dan/atau Korban melalui perekaman elektronik\" — tata cara pemeriksaan"
+      },
+      {
+        "pasal": "Pasal 50",
+        "alasan": "hukum acara: \"Perekaman elektronik sebagaimana dimaksud dalam Pasal 49 ayat (1) dibuatkan:\" — berita acara pemeriksaan"
+      },
+      {
+        "pasal": "Pasal 52",
+        "alasan": "hukum acara: \"penyidik dapat melakukan perekaman elektronik atau pemeriksaan langsung jarak jauh\" — pemeriksaan Saksi Anak"
+      },
+      {
+        "pasal": "Pasal 53",
+        "alasan": "hukum acara: \"Pemeriksaan pada tahap penyidikan dilakukan di ruang pelayanan khusus di kepolisian\" — tempat pemeriksaan"
+      },
+      {
+        "pasal": "Pasal 54",
+        "alasan": "hukum acara: \"penyidik wajib berkoordinasi dengan Pendamping\" — tata cara pemeriksaan Korban"
+      },
+      {
+        "pasal": "Pasal 55",
+        "alasan": "hukum acara: \"Penyidik berwenang membuat suatu data dan/atau sistem elektronik\" — kewenangan penyidikan"
+      },
+      {
+        "pasal": "Pasal 56",
+        "alasan": "hukum acara: \"penuntut umum dapat melakukan pertemuan pendahuluan dengan Saksi dan/atau Korban\" — tahap penuntutan"
+      },
+      {
+        "pasal": "Pasal 57",
+        "alasan": "hukum acara: \"penuntut umum sedapat mungkin menghindari uraian yang terlalu detail, vulgar, dan berlebihan\" — penyusunan surat dakwaan"
+      },
+      {
+        "pasal": "Pasal 58",
+        "alasan": "hukum acara: \"Pemeriksaan perkara Tindak Pidana Kekerasan Seksual dilakukan dalam sidang tertutup\" — persidangan"
+      },
+      {
+        "pasal": "Pasal 59",
+        "alasan": "hukum acara: \"Majelis hakim membacakan putusan perkara Tindak Pidana Kekerasan Seksual dalam sidang yang terbuka untuk umum\" — pembacaan putusan"
+      },
+      {
+        "pasal": "Pasal 60",
+        "alasan": "hukum acara: \"Pemeriksaan terhadap Saksi dan/atau Korban dilakukan dengan tetap menjunjung tinggi hak asasi manusia\" — tata cara pemeriksaan"
+      },
+      {
+        "pasal": "Pasal 61",
+        "alasan": "hukum acara: \"Pengadilan mengupayakan penyediaan fasilitas dan Pelindungan\" — fasilitas kesaksian"
+      },
+      {
+        "pasal": "Pasal 62",
+        "alasan": "hukum acara: \"Majelis hakim dapat memerintahkan lembaga yang memberikan pendampingan untuk mengganti Pendamping Korban\" — pergantian pendamping"
+      },
+      {
+        "pasal": "Pasal 63",
+        "alasan": "hukum acara: \"Majelis hakim wajib mempertimbangkan Pemulihan Korban dalam putusan\" — pertimbangan putusan"
+      },
+      {
+        "pasal": "Pasal 64",
+        "alasan": "pidana/eksekusi: \"terpidana diberi jangka waktu 30 (tiga puluh) hari\" — pembayaran denda dan pidana pengganti"
+      },
+      {
+        "pasal": "Pasal 65",
+        "alasan": "hukum acara: \"Ketentuan mengenai Hak Korban, Keluarga Korban, dan Saksi\" — klausul rujukan, bukan norma"
+      },
+      {
+        "pasal": "Pasal 66",
+        "alasan": "hak korban: \"Korban berhak atas Penanganan, Pelindungan, dan Pemulihan\" — hak prosedural korban, bukan hak ketenagakerjaan"
+      },
+      {
+        "pasal": "Pasal 67",
+        "alasan": "hak korban: \"Hak Korban meliputi:\" — katalog hak korban, di luar domain T-Box"
+      },
+      {
+        "pasal": "Pasal 68",
+        "alasan": "hak korban: \"Hak Korban atas Penanganan sebagaimana dimaksud dalam Pasal 67 ayat (1) huruf a meliputi:\" — layanan penanganan, bukan hubungan kerja"
+      },
+      {
+        "pasal": "Pasal 70",
+        "alasan": "hak korban: \"Hak Korban atas Pemulihan sebagaimana dimaksud dalam Pasal 67 ayat (1) huruf c meliputi:\" — layanan pemulihan, di luar T-Box"
+      },
+      {
+        "pasal": "Pasal 71",
+        "alasan": "hak keluarga korban: \"Hak Keluarga Korban meliputi:\" — jaminan sosial/kesehatan keluarga korban, bukan program jamsos kerja"
+      },
+      {
+        "pasal": "Pasal 72",
+        "alasan": "kelembagaan: \"Pemerintah Pusat dan Pemerintah Daerah\" — penyelenggaraan pelayanan terpadu"
+      },
+      {
+        "pasal": "Pasal 73",
+        "alasan": "kelembagaan: \"Penyelenggaraan Pelayanan Terpadu di pusat dikoordinasikan oleh Menteri\" — koordinasi kementerian/lembaga"
+      },
+      {
+        "pasal": "Pasal 74",
+        "alasan": "kelembagaan: \"Menteri menyelenggarakan Pelayanan Terpadu yang meliputi:\" — tugas Menteri"
+      },
+      {
+        "pasal": "Pasal 75",
+        "alasan": "kelembagaan: \"Ketentuan lebih lanjut mengenai penyelenggaraan Pelayanan Terpadu di pusat diatur dengan Peraturan Presiden\" — delegasi pengaturan"
+      },
+      {
+        "pasal": "Pasal 76",
+        "alasan": "kelembagaan: \"Pemerintah Daerah provinsi dan kabupaten/kota wajib membentuk UPTD PPA\" — pembentukan lembaga"
+      },
+      {
+        "pasal": "Pasal 77",
+        "alasan": "kelembagaan: \"UPTD PPA dalam melaksanakan tugas dan fungsinya dapat bekerja sama dengan:\" — kerja sama lembaga"
+      },
+      {
+        "pasal": "Pasal 78",
+        "alasan": "kelembagaan: \"Ketentuan lebih lanjut mengenai UPTD PPA diatur dengan Peraturan Presiden\" — delegasi pengaturan"
+      },
+      {
+        "pasal": "Pasal 80",
+        "alasan": "kelembagaan: \"Ketentuan lebih lanjut mengenai penyelenggaraan Pencegahan Tindak Pidana Kekerasan Seksual diatur dengan Peraturan Pemerintah\" — delegasi pengaturan"
+      },
+      {
+        "pasal": "Pasal 81",
+        "alasan": "kelembagaan: \"wajib menyelenggarakan pendidikan dan pelatihan bagi aparat penegak hukum\" — pelatihan aparat, bukan pelatihan kerja"
+      },
+      {
+        "pasal": "Pasal 82",
+        "alasan": "kelembagaan: \"wajib melakukan koordinasi secara berkala dan berkelanjutan\" — koordinasi pemerintah"
+      },
+      {
+        "pasal": "Pasal 83",
+        "alasan": "kelembagaan: \"Menteri melakukan koordinasi dan pemantauan\" — koordinasi lintas sektor"
+      },
+      {
+        "pasal": "Pasal 84",
+        "alasan": "kelembagaan: \"disusun kebijakan nasional tentang pemberantasan Tindak Pidana Kekerasan Seksual\" — kebijakan nasional"
+      },
+      {
+        "pasal": "Pasal 85",
+        "alasan": "partisipasi masyarakat: \"Masyarakat dapat berpartisipasi dalam Pencegahan, pendampingan, Pemulihan, dan pemantauan\" — bukan norma kondisi-akibat"
+      },
+      {
+        "pasal": "Pasal 86",
+        "alasan": "partisipasi keluarga: \"Partisipasi Keluarga dalam Pencegahan Tindak Pidana Kekerasan Seksual diwujudkan dengan:\" — bukan norma ketenagakerjaan"
+      },
+      {
+        "pasal": "Pasal 87",
+        "alasan": "pendanaan: \"Pendanaan pelaksanaan Undang-Undang ini\" — sumber anggaran"
+      },
+      {
+        "pasal": "Pasal 88",
+        "alasan": "kerja sama internasional: \"Pemerintah dapat melaksanakan kerja sama internasional\" — kewenangan pemerintah"
+      },
+      {
+        "pasal": "Pasal 89",
+        "alasan": "ketentuan peralihan: \"tetap diperiksa berdasarkan Undang-Undang yang mengaturnya\" — perkara yang sedang berjalan"
+      },
+      {
+        "pasal": "Pasal 90",
+        "alasan": "ketentuan peralihan: \"UPTD PPA yang telah terbentuk sebelum UndangUndang ini diundangkan tetap menjalankan tugas dan fungsinya\" — penyesuaian kelembagaan"
+      },
+      {
+        "pasal": "Pasal 91",
+        "alasan": "ketentuan penutup: \"Pemerintah Pusat harus melaporkan pelaksanaan Undang Undang ini kepada Dewan Perwakilan Rakyat\" — tenggat peraturan pelaksanaan"
+      },
+      {
+        "pasal": "Pasal 92",
+        "alasan": "ketentuan penutup: \"dinyatakan tetap berlaku sepanjang tidak bertentangan dengan UndangUndang ini\" — klausul rujukan"
+      },
+      {
+        "pasal": "Pasal 93",
+        "alasan": "ketentuan penutup: \"Undang-Undang ini mulai berlaku pada tanggal diundangkan\" — mulai berlaku"
+      }
+    ],
+    "catatan": ""
+  },
+  "tidak_termodelkan": [
+    {
+      "pasal": "Pasal 69",
+      "ringkasan": "Hak Korban atas Pelindungan meliputi \"Pelindungan dari kehilangan pekerjaan, mutasi pekerjaan, pendidikan, atau akses politik\" (huruf f), kerahasiaan identitas, dan pelindungan dari tuntutan pidana/perdata.",
+      "alasan": "butuh kelas/properti baru: KetentuanPelindunganKorbanKekerasanSeksual (larangan PHK/mutasi terhadap korban) — belum ada di T-Box maupun VOCAB"
+    }
+  ]
+}

@@ -1,0 +1,489 @@
+{
+  "spec_version": "1.1.0",
+  "vocab_version": "0.3.0",
+  "dokumen_id": "UU-20-2023",
+  "status_review": "reviewed",
+  "peraturan": {
+    "judul": "Undang-Undang Nomor 20 Tahun 2023 tentang Aparatur Sipil Negara",
+    "jenis": "UU",
+    "nomor": "20",
+    "tahun": "2023",
+    "sumber": "https://peraturan.go.id/id/uu-no-20-tahun-2023",
+    "status": "Berlaku",
+    "diubah_oleh": []
+  },
+  "norma": [
+    {
+      "norm_id": "JAMSOS-ASN-KOMPONEN",
+      "topik": "Jamsos",
+      "pasal": "Pasal 21 ayat (6)",
+      "iri_individu": "ktn:JaminanSosialASN",
+      "jenis": "KetentuanJaminanSosial",
+      "kondisi": "Pegawai ASN berhak atas jaminan sosial sebagai komponen penghargaan dan pengakuan",
+      "akibat": "Jaminan sosial terdiri atas jaminan kesehatan, jaminan kecelakaan kerja, jaminan kematian, jaminan pensiun, dan jaminan hari tua",
+      "parameter": [],
+      "bukti": "huruf d terdiri atas: a.jaminan kesehatan; b.jaminan kecelakaan kerja; c.jaminan kematian; d.jaminan pensiun; dan e.jaminan hari tua",
+      "confidence": 0.85,
+      "dasar_keyakinan": "tafsir",
+      "catatan": "Hak atas jaminan sosial berasal dari Pasal 21 ayat (1) dan ayat (2) huruf d. OCR sumber menulis 'ayat (21' untuk 'ayat (2)'. Besaran iuran diserahkan ke PP (Pasal 23)."
+    },
+    {
+      "norm_id": "JAMSOS-ASN-PENSIUN-SAAT-BERHENTI",
+      "topik": "Jamsos",
+      "pasal": "Pasal 22 ayat (1)",
+      "iri_individu": "ktn:PembayaranPensiunASNSaatBerhenti",
+      "jenis": "KetentuanJaminanSosial",
+      "kondisi": "Pegawai ASN berhenti bekerja",
+      "akibat": "Jaminan pensiun dan jaminan hari tua dibayarkan",
+      "parameter": [],
+      "bukti": "Jaminan pensiun dan jaminan hari tua sebagaimana dimaksud dalam Pasal 2L ayat (6) huruf d dan huruf e dibayarkan setelah Pegawai ASN berhenti bekerja",
+      "confidence": 0.9,
+      "dasar_keyakinan": "dikutip",
+      "catatan": "OCR sumber menulis 'Pasal 2L' untuk 'Pasal 21'."
+    },
+    {
+      "norm_id": "JAMSOS-ASN-PEMBIAYAAN-PENSIUN",
+      "topik": "Jamsos",
+      "pasal": "Pasal 22 ayat (4)",
+      "iri_individu": "ktn:PembiayaanPensiunASN",
+      "jenis": "KetentuanJaminanSosial",
+      "kondisi": "Pembiayaan jaminan pensiun dan jaminan hari tua Pegawai ASN",
+      "akibat": "Berasal dari pemerintah selaku pemberi kerja dan iuran Pegawai ASN yang bersangkutan",
+      "parameter": [],
+      "bukti": "berasal dari pemerintah selaku pemberi kerja dan iuran Pegawai ASN yang bersangkutan",
+      "confidence": 0.9,
+      "dasar_keyakinan": "dikutip",
+      "catatan": ""
+    },
+    {
+      "norm_id": "JAMSOS-ASN-PENSIUN-PIMPINAN-TINGGI",
+      "topik": "Jamsos",
+      "pasal": "Pasal 55 huruf a angka 1",
+      "iri_individu": "ktn:BatasUsiaPensiunASNPimpinanTinggi",
+      "jenis": "KetentuanJaminanSosial",
+      "kondisi": "Pejabat pimpinan tinggi utama, pejabat pimpinan tinggi madya, dan pejabat pimpinan tinggi pratama",
+      "akibat": "Batas usia pensiun jabatan 60 tahun",
+      "parameter": [
+        {
+          "nama": "usiaPensiunTahun",
+          "nilai": "60",
+          "satuan": "tahun",
+          "jenis": "nominal",
+          "pasal": "Pasal 55 huruf a angka 1"
+        }
+      ],
+      "bukti": "6O (enam puluh) tahun bagi pejabat pimpinan tinggi utama, pejabat pimpinan tinggi madya, dan pejabat pimpinan tinggi pratama",
+      "confidence": 0.85,
+      "dasar_keyakinan": "tafsir",
+      "catatan": "OCR sumber menulis '6O' (huruf O) untuk 60. Angka juga dinyatakan dalam huruf: enam puluh."
+    },
+    {
+      "norm_id": "JAMSOS-ASN-PENSIUN-ADMINISTRASI",
+      "topik": "Jamsos",
+      "pasal": "Pasal 55 huruf a angka 2",
+      "iri_individu": "ktn:BatasUsiaPensiunASNAdministrasi",
+      "jenis": "KetentuanJaminanSosial",
+      "kondisi": "Pejabat administrator, pejabat pengawas, dan pejabat pelaksana",
+      "akibat": "Batas usia pensiun jabatan 58 tahun",
+      "parameter": [
+        {
+          "nama": "usiaPensiunTahun",
+          "nilai": "58",
+          "satuan": "tahun",
+          "jenis": "nominal",
+          "pasal": "Pasal 55 huruf a angka 2"
+        }
+      ],
+      "bukti": "58 (lima puluh delapan) tahun bagi pejabat administrator dan pejabat pengawas",
+      "confidence": 0.9,
+      "dasar_keyakinan": "dikutip",
+      "catatan": "Digabung dengan Pasal 55 huruf b angka 2 (pejabat pelaksana) yang berakibat sama: 58 tahun."
+    }
+  ],
+  "kategori": [],
+  "pengali_lembur": [],
+  "program_jamsos": [],
+  "cakupan": {
+    "lengkap": true,
+    "pasal_diekstrak": [
+      "Pasal 1",
+      "Pasal 10",
+      "Pasal 12",
+      "Pasal 13",
+      "Pasal 14",
+      "Pasal 15",
+      "Pasal 16",
+      "Pasal 17",
+      "Pasal 18",
+      "Pasal 19",
+      "Pasal 2",
+      "Pasal 20",
+      "Pasal 21",
+      "Pasal 22",
+      "Pasal 23",
+      "Pasal 24",
+      "Pasal 25",
+      "Pasal 26",
+      "Pasal 27",
+      "Pasal 28",
+      "Pasal 29",
+      "Pasal 3",
+      "Pasal 30",
+      "Pasal 31",
+      "Pasal 32",
+      "Pasal 33",
+      "Pasal 34",
+      "Pasal 35",
+      "Pasal 36",
+      "Pasal 37",
+      "Pasal 38",
+      "Pasal 39",
+      "Pasal 4",
+      "Pasal 40",
+      "Pasal 41",
+      "Pasal 42",
+      "Pasal 43",
+      "Pasal 44",
+      "Pasal 45",
+      "Pasal 46",
+      "Pasal 47",
+      "Pasal 48",
+      "Pasal 49",
+      "Pasal 5",
+      "Pasal 50",
+      "Pasal 51",
+      "Pasal 52",
+      "Pasal 53",
+      "Pasal 54",
+      "Pasal 55",
+      "Pasal 56",
+      "Pasal 57",
+      "Pasal 58",
+      "Pasal 59",
+      "Pasal 6",
+      "Pasal 60",
+      "Pasal 61",
+      "Pasal 62",
+      "Pasal 63",
+      "Pasal 64",
+      "Pasal 65",
+      "Pasal 66",
+      "Pasal 67",
+      "Pasal 68",
+      "Pasal 69",
+      "Pasal 7",
+      "Pasal 70",
+      "Pasal 71",
+      "Pasal 72",
+      "Pasal 73",
+      "Pasal 74",
+      "Pasal 75",
+      "Pasal 76",
+      "Pasal 77",
+      "Pasal 8",
+      "Pasal 9"
+    ],
+    "pasal_dilewati": [
+      {
+        "pasal": "Pasal 1",
+        "alasan": "definisi/istilah: 15 definisi (ASN, Pegawai ASN, PNS, PPPK, Manajemen ASN, Jabatan Manajerial/Nonmanajerial, Sistem Merit, dll.); tanpa akibat hukum"
+      },
+      {
+        "pasal": "Pasal 2",
+        "alasan": "asas penyelenggaraan kebijakan dan Manajemen ASN (a-m); prinsip umum, bukan norma hak"
+      },
+      {
+        "pasal": "Pasal 3",
+        "alasan": "nilai dasar ASN yang harus diimplementasikan; pedoman perilaku, bukan norma hak"
+      },
+      {
+        "pasal": "Pasal 4",
+        "alasan": "kode etik dan kode perilaku ASN beserta penjabaran tiap nilai; pedoman perilaku, bukan norma hak"
+      },
+      {
+        "pasal": "Pasal 5",
+        "alasan": "klasifikasi jenis Pegawai ASN (PNS dan PPPK); definisi, tanpa akibat hukum"
+      },
+      {
+        "pasal": "Pasal 6",
+        "alasan": "delegasi ruang lingkup tugas/jabatan dan mekanisme kerja PPPK ke Peraturan Pemerintah; heading ganda di markdown (satu kosong)"
+      },
+      {
+        "pasal": "Pasal 7",
+        "alasan": "nomor induk pegawai dan delegasi pengaturannya ke Peraturan Pemerintah; administratif"
+      },
+      {
+        "pasal": "Pasal 8",
+        "alasan": "kedudukan Pegawai ASN sebagai unsur aparatur negara; status, bukan norma hak"
+      },
+      {
+        "pasal": "Pasal 9",
+        "alasan": "kewajiban melaksanakan kebijakan pimpinan dan bebas dari intervensi politik; kewajiban umum/netralitas"
+      },
+      {
+        "pasal": "Pasal 10",
+        "alasan": "fungsi Pegawai ASN (pelaksana kebijakan publik, pelayan publik, perekat bangsa); uraian fungsi"
+      },
+      {
+        "pasal": "Pasal 12",
+        "alasan": "peran Pegawai ASN dalam tugas umum pemerintahan dan pembangunan; uraian peran"
+      },
+      {
+        "pasal": "Pasal 13",
+        "alasan": "klasifikasi jabatan ASN (Jabatan Manajerial dan Nonmanajerial); definisi"
+      },
+      {
+        "pasal": "Pasal 14",
+        "alasan": "rincian jenis Jabatan Manajerial (pimpinan tinggi utama/madya/pratama, administrator, pengawas); klasifikasi"
+      },
+      {
+        "pasal": "Pasal 15",
+        "alasan": "uraian tanggung jawab tiap tingkatan Jabatan Manajerial; uraian tugas, bukan norma hak"
+      },
+      {
+        "pasal": "Pasal 16",
+        "alasan": "setiap Jabatan Manajerial memiliki kompetensi dan persyaratan jabatan; syarat jabatan, heading ganda di markdown"
+      },
+      {
+        "pasal": "Pasal 17",
+        "alasan": "delegasi pengaturan Jabatan Manajerial ke Peraturan Pemerintah"
+      },
+      {
+        "pasal": "Pasal 18",
+        "alasan": "rincian Jabatan Nonmanajerial (fungsional dan pelaksana) beserta uraiannya; klasifikasi"
+      },
+      {
+        "pasal": "Pasal 19",
+        "alasan": "pengisian jabatan ASN tertentu dari prajurit TNI dan anggota Polri; kelembagaan/pengisian jabatan"
+      },
+      {
+        "pasal": "Pasal 20",
+        "alasan": "Pegawai ASN dapat menduduki jabatan di lingkungan TNI/Polri sesuai kompetensi; penempatan, diatur PP"
+      },
+      {
+        "pasal": "Pasal 23",
+        "alasan": "delegasi pengaturan jaminan sosial ASN ke Peraturan Pemerintah"
+      },
+      {
+        "pasal": "Pasal 24",
+        "alasan": "kewajiban Pegawai ASN dan hukuman disiplin atas pelanggarannya; kewajiban/disiplin, bukan hak"
+      },
+      {
+        "pasal": "Pasal 25",
+        "alasan": "delegasi pengaturan hak dan kewajiban Pegawai ASN ke Peraturan Pemerintah"
+      },
+      {
+        "pasal": "Pasal 26",
+        "alasan": "kelembagaan: kekuasaan Presiden dan pendelegasiannya dalam Manajemen ASN"
+      },
+      {
+        "pasal": "Pasal 27",
+        "alasan": "ruang lingkup Manajemen ASN (PNS dan PPPK) berdasarkan Sistem Merit; definisi"
+      },
+      {
+        "pasal": "Pasal 28",
+        "alasan": "penyesuaian Manajemen ASN dengan karakteristik instansi dan delegasi ke PP; heading ganda di markdown"
+      },
+      {
+        "pasal": "Pasal 29",
+        "alasan": "pendelegasian kewenangan pengangkatan, pemindahan, dan pemberhentian pejabat; kewenangan/kelembagaan"
+      },
+      {
+        "pasal": "Pasal 30",
+        "alasan": "tugas dan kewenangan Pejabat yang Berwenang serta delegasi ke PP; kelembagaan"
+      },
+      {
+        "pasal": "Pasal 31",
+        "alasan": "ruang lingkup minimal Manajemen ASN (delapan komponen); klasifikasi"
+      },
+      {
+        "pasal": "Pasal 32",
+        "alasan": "perencanaan kebutuhan Pegawai ASN nasional dan rencana kebutuhan instansi; tata kelola"
+      },
+      {
+        "pasal": "Pasal 33",
+        "alasan": "delegasi pengaturan perencanaan kebutuhan Pegawai ASN ke Peraturan Pemerintah"
+      },
+      {
+        "pasal": "Pasal 34",
+        "alasan": "pengisian Jabatan Manajerial/Nonmanajerial diutamakan dari PNS, jabatan tertentu dari PPPK; pengisian jabatan"
+      },
+      {
+        "pasal": "Pasal 35",
+        "alasan": "kewajiban instansi merencanakan pengadaan Pegawai ASN; tata kelola"
+      },
+      {
+        "pasal": "Pasal 36",
+        "alasan": "kewajiban instansi mengumumkan kebutuhan jabatan secara terbuka; prosedur pengadaan"
+      },
+      {
+        "pasal": "Pasal 37",
+        "alasan": "kesempatan yang sama bagi setiap warga negara untuk menjadi Pegawai ASN; asas non-diskriminasi umum"
+      },
+      {
+        "pasal": "Pasal 38",
+        "alasan": "delegasi pengaturan pengadaan Pegawai ASN ke Peraturan Pemerintah"
+      },
+      {
+        "pasal": "Pasal 39",
+        "alasan": "nilai dasar dan kode etik sebagai panduan perilaku serta kewajiban internalisasi; pedoman perilaku"
+      },
+      {
+        "pasal": "Pasal 40",
+        "alasan": "tujuan pengelolaan kinerja Pegawai ASN; tata cara manajemen kinerja"
+      },
+      {
+        "pasal": "Pasal 41",
+        "alasan": "pengelolaan kinerja melalui mekanisme kerja fleksibel dan kolaboratif; tata cara, tanpa angka waktu kerja"
+      },
+      {
+        "pasal": "Pasal 42",
+        "alasan": "orientasi pengelolaan kinerja (hasil, perilaku, dialog kinerja); tata cara"
+      },
+      {
+        "pasal": "Pasal 43",
+        "alasan": "kewenangan Pejabat yang Berwenang atas pengelolaan kinerja dan pendelegasian berjenjang; kelembagaan"
+      },
+      {
+        "pasal": "Pasal 44",
+        "alasan": "pemanfaatan hasil pengelolaan kinerja untuk pengembangan, penghargaan, dan sanksi; tata cara"
+      },
+      {
+        "pasal": "Pasal 45",
+        "alasan": "delegasi pengaturan pengelolaan kinerja ke Peraturan Pemerintah"
+      },
+      {
+        "pasal": "Pasal 46",
+        "alasan": "pengembangan talenta dan karier melalui mobilitas talenta; manajemen karier"
+      },
+      {
+        "pasal": "Pasal 47",
+        "alasan": "kewenangan Presiden melakukan mobilitas talenta nasional; kelembagaan"
+      },
+      {
+        "pasal": "Pasal 48",
+        "alasan": "delegasi pengaturan pengembangan talenta dan karier ke Peraturan Pemerintah"
+      },
+      {
+        "pasal": "Pasal 49",
+        "alasan": "kewajiban Pegawai ASN mengembangkan kompetensi melalui pembelajaran; kewajiban pengembangan diri"
+      },
+      {
+        "pasal": "Pasal 50",
+        "alasan": "komponen penghargaan diberikan secara adil, layak, dan kompetitif; sumber pendanaan APBN/APBD"
+      },
+      {
+        "pasal": "Pasal 51",
+        "alasan": "delegasi pengaturan penghargaan dan pengakuan ke Peraturan Pemerintah"
+      },
+      {
+        "pasal": "Pasal 54",
+        "alasan": "delegasi tata cara pemberhentian, pemberhentian sementara, dan pengaktifan kembali ke Peraturan Pemerintah"
+      },
+      {
+        "pasal": "Pasal 57",
+        "alasan": "Pegawai ASN dapat menjadi pejabat negara; izin, tanpa akibat hukum yang dapat dimodelkan"
+      },
+      {
+        "pasal": "Pasal 58",
+        "alasan": "daftar pejabat negara (Presiden s.d. pejabat negara lainnya); definisi/enumerasi"
+      },
+      {
+        "pasal": "Pasal 61",
+        "alasan": "delegasi pengaturan pengangkatan/pemberhentian dan pengaktifan kembali Pegawai ASN ke Peraturan Pemerintah; heading ganda di markdown"
+      },
+      {
+        "pasal": "Pasal 62",
+        "alasan": "organisasi profesi ASN, tujuan, dan fungsinya; kelembagaan"
+      },
+      {
+        "pasal": "Pasal 63",
+        "alasan": "digitalisasi Manajemen ASN; tata kelola sistem informasi"
+      },
+      {
+        "pasal": "Pasal 64",
+        "alasan": "penyelesaian sengketa Pegawai ASN melalui upaya administratif (keberatan dan banding); prosedural, jenis KetentuanHubunganIndustrial belum aktif di VOCAB"
+      },
+      {
+        "pasal": "Pasal 65",
+        "alasan": "larangan mengangkat pegawai non-ASN untuk mengisi jabatan ASN beserta sanksinya; larangan/sanksi"
+      },
+      {
+        "pasal": "Pasal 66",
+        "alasan": "penataan pegawai non-ASN paling lambat Desember 2024 dan larangan pengangkatan; ketentuan peralihan"
+      },
+      {
+        "pasal": "Pasal 67",
+        "alasan": "kekhususan daerah tertentu dan warga negara berkebutuhan khusus; heading ganda di markdown"
+      },
+      {
+        "pasal": "Pasal 68",
+        "alasan": "tenggat penetapan peraturan pelaksanaan 6 bulan; ketentuan peralihan"
+      },
+      {
+        "pasal": "Pasal 69",
+        "alasan": "tenggat pelaksanaan Manajemen ASN 1 tahun; ketentuan peralihan"
+      },
+      {
+        "pasal": "Pasal 70",
+        "alasan": "LAN, BKN, dan KASN tetap menjalankan tugas sampai peraturan pelaksanaan ditetapkan; peralihan kelembagaan"
+      },
+      {
+        "pasal": "Pasal 71",
+        "alasan": "tenggat pelaksanaan digitalisasi Manajemen ASN 1 tahun; ketentuan peralihan"
+      },
+      {
+        "pasal": "Pasal 72",
+        "alasan": "penyebutan PNS Pusat dan PNS Daerah sebagai Pegawai ASN; peralihan istilah"
+      },
+      {
+        "pasal": "Pasal 73",
+        "alasan": "kode etik jabatan fungsional tertentu tetap berlaku sepanjang tidak bertentangan; ketentuan peralihan; heading ganda di markdown"
+      },
+      {
+        "pasal": "Pasal 74",
+        "alasan": "UU 11/1969 tentang Pensiun Pegawai tetap berlaku sampai PP pensiun ASN ditetapkan; ketentuan peralihan"
+      },
+      {
+        "pasal": "Pasal 75",
+        "alasan": "peraturan pelaksanaan UU 5/2014 tetap berlaku sepanjang tidak bertentangan; ketentuan peralihan"
+      },
+      {
+        "pasal": "Pasal 76",
+        "alasan": "UU 5/2014 tentang Aparatur Sipil Negara dicabut dan dinyatakan tidak berlaku; pencabutan"
+      },
+      {
+        "pasal": "Pasal 77",
+        "alasan": "saat mulai berlaku pada tanggal diundangkan; ketentuan penutup"
+      }
+    ],
+    "catatan": ""
+  },
+  "tidak_termodelkan": [
+    {
+      "pasal": "Pasal 52",
+      "ringkasan": "Pemberhentian Pegawai ASN: atas permintaan sendiri (mengundurkan diri) dan tidak atas permintaan sendiri karena 10 sebab (a-j), termasuk batas usia pensiun, perampingan organisasi, tidak berkinerja, pelanggaran disiplin berat, dan pidana; sebab huruf a, g, i, dan j dikategorikan pemberhentian tidak dengan hormat.",
+      "alasan": "butuh kelas/properti baru: PemberhentianASN dan penanda 'tidak dengan hormat'; berbeda dari AlasanPHK pekerja swasta"
+    },
+    {
+      "pasal": "Pasal 53",
+      "ringkasan": "PNS diberhentikan sementara bila diangkat menjadi pejabat negara, komisioner/anggota lembaga nonstruktural, atau menjalani cuti di luar tanggungan negara; Pegawai ASN yang ditahan sebagai tersangka/terdakwa juga diberhentikan sementara; pengaktifan kembali dilakukan Pejabat Pembina Kepegawaian.",
+      "alasan": "butuh kelas baru: PemberhentianSementaraASN dan PengaktifanKembali"
+    },
+    {
+      "pasal": "Pasal 56",
+      "ringkasan": "Pejabat pimpinan tinggi madya dan pratama yang akan mencalonkan diri sebagai gubernur/wakil gubernur, bupati/walikota, dan wakil bupati/wakil walikota wajib menyatakan pengunduran diri tertulis dari PNS sejak ditetapkan sebagai calon.",
+      "alasan": "butuh kelas/properti baru: kewajiban pengunduran diri ASN karena pencalonan jabatan politik"
+    },
+    {
+      "pasal": "Pasal 59",
+      "ringkasan": "PNS yang diangkat menjadi ketua/anggota MK, BPK, KY, KPK, menteri, atau kepala perwakilan RI diberhentikan sementara; setelah tidak menjabat diaktifkan kembali; Pegawai ASN yang mencalonkan diri sebagai Presiden/Wakil Presiden, anggota DPR/DPD, atau kepala daerah wajib mengundurkan diri tertulis sejak ditetapkan sebagai calon.",
+      "alasan": "butuh kelas baru: PemberhentianSementaraASN, PengaktifanKembali, dan PengunduranDiriASN"
+    },
+    {
+      "pasal": "Pasal 60",
+      "ringkasan": "PNS yang tidak lagi menjabat sebagai pejabat negara dapat menduduki jabatan ASN sepanjang tersedia lowongan; bila tidak tersedia lowongan dalam waktu paling lambat 5 tahun, PNS diberhentikan dengan hormat.",
+      "alasan": "butuh kelas/properti baru: penempatan kembali ASN dan pemberhentian dengan hormat; parameter batas 5 tahun belum ada di VOCAB"
+    }
+  ]
+}

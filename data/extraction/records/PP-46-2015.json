@@ -1,6 +1,6 @@
 {
-  "spec_version": "1.0.0",
-  "vocab_version": "0.2.0",
+  "spec_version": "1.1.0",
+  "vocab_version": "0.3.0",
   "dokumen_id": "PP-46-2015",
   "status_review": "reviewed",
   "peraturan": {
@@ -14,15 +14,521 @@
   },
   "norma": [
     {
+      "norm_id": "JAMSOS-DAFTAR-JHT-PEMBERI-KERJA",
+      "topik": "Jamsos",
+      "pasal": "Pasal 2 ayat (1)",
+      "iri_individu": "ktn:JHTDaftarPemberiKerja",
+      "jenis": "KetentuanJaminanSosial",
+      "kondisi": "Pemberi Kerja selain penyelenggara negara",
+      "akibat": "Wajib mendaftarkan dirinya dan Pekerjanya dalam program JHT kepada BPJS Ketenagakerjaan sesuai penahapan kepesertaan",
+      "parameter": [],
+      "bukti": "Setiap Pemberi Kerja selain penyelenggara negara wajib mendaftarkan dirinya dan Pekerjanya dalam program JHT kepada BPJS Ketenagakerjaan",
+      "confidence": 0.95,
+      "dasar_keyakinan": "dikutip",
+      "catatan": ""
+    },
+    {
+      "norm_id": "JAMSOS-DAFTAR-JHT-PEKERJA",
+      "topik": "Jamsos",
+      "pasal": "Pasal 2 ayat (2)",
+      "iri_individu": "ktn:JHTDaftarPekerja",
+      "jenis": "KetentuanJaminanSosial",
+      "kondisi": "Setiap orang yang bekerja",
+      "akibat": "Wajib mendaftarkan dirinya dalam program JHT kepada BPJS Ketenagakerjaan sesuai ketentuan peraturan perundang-undangan",
+      "parameter": [],
+      "bukti": "Setiap orang yang bekerja wajib mendaftarkan dirinya dalam program JHT kepada BPJS Ketenagakerjaan",
+      "confidence": 0.95,
+      "dasar_keyakinan": "dikutip",
+      "catatan": ""
+    },
+    {
+      "norm_id": "JAMSOS-JHT-MULTI-PERUSAHAAN-PEKERJA",
+      "topik": "Jamsos",
+      "pasal": "Pasal 5",
+      "iri_individu": "ktn:JHTMultiPerusahaanPekerja",
+      "jenis": "KetentuanJaminanSosial",
+      "kondisi": "Pekerja penerima Upah bekerja pada beberapa perusahaan",
+      "akibat": "Pemberi Kerja masing-masing perusahaan wajib mengikutsertakan Pekerjanya dalam program JHT sesuai penahapan kepesertaan",
+      "parameter": [],
+      "bukti": "Pemberi Kerja masing masing Perusahaan wajib mengikutsertakan Pekerjanya dalam program JHT sesuai penahapan kepesertaan",
+      "confidence": 0.95,
+      "dasar_keyakinan": "dikutip",
+      "catatan": ""
+    },
+    {
+      "norm_id": "JAMSOS-JHT-MULTI-PERUSAHAAN-PEMBERI-KERJA",
+      "topik": "Jamsos",
+      "pasal": "Pasal 6",
+      "iri_individu": "ktn:JHTMultiPerusahaanPemberiKerja",
+      "jenis": "KetentuanJaminanSosial",
+      "kondisi": "Pemberi Kerja bukan penerima Upah memiliki lebih dari 1 perusahaan",
+      "akibat": "Wajib ikut dalam program JHT pada setiap perusahaan",
+      "parameter": [],
+      "bukti": "Pemberi Kerja wajib ikut dalam program JHT pada setiap perusahaan",
+      "confidence": 0.95,
+      "dasar_keyakinan": "dikutip",
+      "catatan": ""
+    },
+    {
+      "norm_id": "JAMSOS-JHT-PINDAH-KERJA-PEMBERITAHUAN",
+      "topik": "Jamsos",
+      "pasal": "Pasal 9 ayat (1)",
+      "iri_individu": "ktn:JHTPindahKerjaPemberitahuan",
+      "jenis": "KetentuanJaminanSosial",
+      "kondisi": "Peserta pindah tempat kerja",
+      "akibat": "Wajib memberitahukan kepesertaannya dalam program JHT kepada Pemberi Kerja tempat kerja baru dengan menunjukkan Kartu Kepesertaan BPJS Ketenagakerjaan",
+      "parameter": [],
+      "bukti": "Peserta yang pindah tempat kerja wajib memberitahukan kepesertaannya dalam program JHT kepada Pemberi Kerja tempat kerja baru",
+      "confidence": 0.95,
+      "dasar_keyakinan": "dikutip",
+      "catatan": ""
+    },
+    {
+      "norm_id": "JAMSOS-JHT-PINDAH-KERJA-PENERUSAN",
+      "topik": "Jamsos",
+      "pasal": "Pasal 9 ayat (2)",
+      "iri_individu": "ktn:JHTPindahKerjaPenerusan",
+      "jenis": "KetentuanJaminanSosial",
+      "kondisi": "Pemberi Kerja tempat kerja baru menerima Pekerja yang pindah",
+      "akibat": "Wajib meneruskan kepesertaan Pekerja dengan melaporkan Kartu Kepesertaan dan membayar Iuran JHT sejak Pekerja bekerja",
+      "parameter": [],
+      "bukti": "Pemberi Kerja tempat kerja baru wajib meneruskan kepesertaan Pekerja dengan melaporkan Kartu Kepesertaan BPJS Ketenagakerjaan dan membayar Iuran JHT",
+      "confidence": 0.95,
+      "dasar_keyakinan": "dikutip",
+      "catatan": ""
+    },
+    {
+      "norm_id": "JAMSOS-JHT-TANGGUNG-JAWAB-BELUM-DILAPORKAN",
+      "topik": "Jamsos",
+      "pasal": "Pasal 9 ayat (3)",
+      "iri_individu": "ktn:JHTTanggungJawabPemberiKerjaBaru",
+      "jenis": "KetentuanJaminanSosial",
+      "kondisi": "Pemberi Kerja baru belum melaporkan dan membayar Iuran JHT, lalu timbul hak Pekerja atas manfaat JHT",
+      "akibat": "Pemberi Kerja baru wajib membayar hak tersebut sesuai ketentuan dalam PP ini",
+      "parameter": [],
+      "bukti": "apabila timbul hak Pekerja atas manfaat JHT, Pemberi Kerja baru wajib membayar hak tersebut",
+      "confidence": 0.95,
+      "dasar_keyakinan": "dikutip",
+      "catatan": ""
+    },
+    {
+      "norm_id": "JAMSOS-JHT-DAFTAR-SENDIRI",
+      "topik": "Jamsos",
+      "pasal": "Pasal 11 ayat (1)",
+      "iri_individu": "ktn:JHTDaftarSendiriPekerja",
+      "jenis": "KetentuanJaminanSosial",
+      "kondisi": "Pemberi Kerja selain penyelenggara negara nyata-nyata lalai tidak mendaftarkan Pekerjanya dalam program JHT",
+      "akibat": "Pekerja berhak mendaftarkan dirinya sendiri dalam program JHT kepada BPJS Ketenagakerjaan sesuai program yang diwajibkan dalam penahapan kepesertaan",
+      "parameter": [],
+      "bukti": "Pekerja berhak mendaftarkan dirinya sendiri dalam program JHT kepada BPJS Ketenagakerjaan",
+      "confidence": 0.95,
+      "dasar_keyakinan": "dikutip",
+      "catatan": ""
+    },
+    {
+      "norm_id": "JAMSOS-JHT-IURAN-TANGGUNG-PEMBERI-KERJA",
+      "topik": "Jamsos",
+      "pasal": "Pasal 11 ayat (4)",
+      "iri_individu": "ktn:JHTIuranTanggungPemberiKerja",
+      "jenis": "KetentuanJaminanSosial",
+      "kondisi": "Hasil verifikasi membuktikan Pemberi Kerja selain penyelenggara negara nyata-nyata lalai",
+      "akibat": "Pemberi Kerja wajib membayar Iuran yang menjadi kewajibannya kepada BPJS Ketenagakerjaan sesuai program yang diwajibkan dalam penahapan kepesertaan",
+      "parameter": [],
+      "bukti": "Pemberi Kerja selain penyelenggara negara wajib membayar Iuran yang menjadi kewajibannya kepada BPJS Ketenagakerjaan",
+      "confidence": 0.95,
+      "dasar_keyakinan": "dikutip",
+      "catatan": ""
+    },
+    {
+      "norm_id": "JAMSOS-JHT-RISIKO-TANGGUNG-PEMBERI-KERJA",
+      "topik": "Jamsos",
+      "pasal": "Pasal 12 ayat (3)",
+      "iri_individu": "ktn:JHTRisikoTanggungPemberiKerja",
+      "jenis": "KetentuanJaminanSosial",
+      "kondisi": "Pekerja telah mendaftar sendiri tetapi Pemberi Kerja belum membayar Iuran pertama secara lunas",
+      "akibat": "Apabila terjadi risiko terhadap Pekerja, menjadi tanggung jawab Pemberi Kerja selain penyelenggara negara",
+      "parameter": [],
+      "bukti": "apabila terjadi risiko terhadap Pekerjanya menjadi tanggung jawab Pemberi Kerja selain penyelenggara negara",
+      "confidence": 0.95,
+      "dasar_keyakinan": "dikutip",
+      "catatan": ""
+    },
+    {
+      "norm_id": "JAMSOS-JHT-DAFTAR-BUKAN-PENERIMA-UPAH",
+      "topik": "Jamsos",
+      "pasal": "Pasal 13 ayat (1)",
+      "iri_individu": "ktn:JHTDaftarBukanPenerimaUpah",
+      "jenis": "KetentuanJaminanSosial",
+      "kondisi": "Peserta bukan penerima Upah",
+      "akibat": "Dapat mendaftarkan dirinya dalam program JHT kepada BPJS Ketenagakerjaan sesuai penahapan kepesertaan",
+      "parameter": [],
+      "bukti": "dapat mendaftarkan dirinya dalam program JHT kepada BPJS Ketenagakerjaan sesuai penahapan kepesertaan",
+      "confidence": 0.95,
+      "dasar_keyakinan": "dikutip",
+      "catatan": ""
+    },
+    {
+      "norm_id": "JAMSOS-JHT-URAIAN-PEKERJAAN-BPU",
+      "topik": "Jamsos",
+      "pasal": "Pasal 13 ayat (2)",
+      "iri_individu": "ktn:JHTUraianPekerjaanBukanPenerimaUpah",
+      "jenis": "KetentuanJaminanSosial",
+      "kondisi": "Peserta bukan penerima Upah memiliki usaha atau pekerjaan lebih dari 1",
+      "akibat": "Wajib mencantumkan uraian kegiatan usaha atau pekerjaan dalam formulir pendaftaran paling banyak 2 jenis pekerjaan",
+      "parameter": [],
+      "bukti": "Peserta wajib mencantumkan uraian kegiatan usaha atau pekerjaannya tersebut dalam formulir pendaftaran paling banyak 2 (dua) jenis pekerjaan",
+      "confidence": 0.95,
+      "dasar_keyakinan": "dikutip",
+      "catatan": ""
+    },
+    {
       "norm_id": "JAMSOS-IURAN-JHT",
       "topik": "Jamsos",
       "pasal": "Pasal 16 ayat (1)",
       "iri_individu": "ktn:KetentuanIuranJHT",
       "jenis": "KetentuanJaminanSosial",
-      "kondisi": "Iuran JHT",
-      "akibat": "5,7 persen dari upah: 3,7 persen pemberi kerja dan 2 persen pekerja",
+      "kondisi": "Peserta penerima Upah yang bekerja pada Pemberi Kerja selain penyelenggara negara",
+      "akibat": "Iuran JHT sebesar 5,7% dari Upah, terdiri atas 2% ditanggung Pekerja dan 3,7% ditanggung Pemberi Kerja",
       "parameter": [],
-      "bukti": "Iuran JHT sebesar 5,7 persen dari Upah",
+      "bukti": "Iuran JHT bagi Peserta penerima Upah yang bekerja pada Pemberi Kerja selain penyelenggara negara sebesar 5,7% (lima koma tujuh persen) dari Upah",
+      "confidence": 0.95,
+      "dasar_keyakinan": "dikutip",
+      "catatan": "Ayat (2): besaran iuran dievaluasi berkala paling lama 3 tahun; tarif dicatat pada program_jamsos JHT."
+    },
+    {
+      "norm_id": "JAMSOS-JHT-DASAR-UPAH",
+      "topik": "Jamsos",
+      "pasal": "Pasal 17 ayat (1)",
+      "iri_individu": "ktn:JHTDasarUpah",
+      "jenis": "KetentuanJaminanSosial",
+      "kondisi": "Menghitung Iuran JHT Peserta penerima Upah",
+      "akibat": "Dasar pembayaran Iuran JHT adalah Upah sebulan yang terdiri atas Upah pokok dan tunjangan tetap",
+      "parameter": [],
+      "bukti": "Upah sebulan sebagaimana dimaksud pada ayat (1) bagi Peserta yang bekerja pada Pemberi Kerja selain penyelenggara negara terdiri atas Upah pokok dan tunjangan tetap",
+      "confidence": 0.95,
+      "dasar_keyakinan": "dikutip",
+      "catatan": "Ayat (1) menetapkan Upah sebulan sebagai dasar; ayat (2) merinci komponennya."
+    },
+    {
+      "norm_id": "JAMSOS-JHT-DASAR-UPAH-HARIAN",
+      "topik": "Jamsos",
+      "pasal": "Pasal 17 ayat (3)",
+      "iri_individu": "ktn:JHTDasarUpahHarian",
+      "jenis": "KetentuanJaminanSosial",
+      "kondisi": "Upah dibayarkan secara harian",
+      "akibat": "Upah sebulan sebagai dasar pembayaran Iuran JHT dihitung dari Upah sehari dikalikan 25",
+      "parameter": [],
+      "bukti": "Upah sebulan sebagai dasar pembayaran Iuran JHT dihitung dari Upah sehari dikalikan 25 (dua puluh lima)",
+      "confidence": 0.95,
+      "dasar_keyakinan": "dikutip",
+      "catatan": ""
+    },
+    {
+      "norm_id": "JAMSOS-JHT-DASAR-UPAH-BORONGAN",
+      "topik": "Jamsos",
+      "pasal": "Pasal 17 ayat (4)",
+      "iri_individu": "ktn:JHTDasarUpahBorongan",
+      "jenis": "KetentuanJaminanSosial",
+      "kondisi": "Upah dibayarkan secara borongan atau satuan hasil",
+      "akibat": "Upah sebulan sebagai dasar pembayaran Iuran JHT dihitung dari Upah rata-rata 3 bulan terakhir",
+      "parameter": [],
+      "bukti": "Upah sebulan sebagai dasar pembayaran Iuran JHT dihitung dari Upah rata-rata 3 (tiga) bulan terakhir",
+      "confidence": 0.95,
+      "dasar_keyakinan": "dikutip",
+      "catatan": ""
+    },
+    {
+      "norm_id": "JAMSOS-JHT-DASAR-UPAH-CUACA",
+      "topik": "Jamsos",
+      "pasal": "Pasal 17 ayat (5)",
+      "iri_individu": "ktn:JHTDasarUpahCuaca",
+      "jenis": "KetentuanJaminanSosial",
+      "kondisi": "Pekerjaan tergantung pada keadaan cuaca dan Upahnya didasarkan pada Upah borongan",
+      "akibat": "Upah sebulan sebagai dasar pembayaran Iuran JHT dihitung dari Upah rata-rata 12 bulan terakhir",
+      "parameter": [],
+      "bukti": "Upah sebulan sebagai dasar pembayaran Iuran JHT dihitung dari Upah rata-rata 12 (dua belas) bulan terakhir",
+      "confidence": 0.95,
+      "dasar_keyakinan": "dikutip",
+      "catatan": ""
+    },
+    {
+      "norm_id": "JAMSOS-JHT-IURAN-BPU",
+      "topik": "Jamsos",
+      "pasal": "Pasal 18 ayat (1)",
+      "iri_individu": "ktn:JHTIuranBukanPenerimaUpahNominal",
+      "jenis": "KetentuanJaminanSosial",
+      "kondisi": "Peserta bukan penerima Upah",
+      "akibat": "Iuran JHT didasarkan pada jumlah nominal tertentu dari penghasilan Peserta yang ditetapkan dalam Lampiran PP",
+      "parameter": [],
+      "bukti": "Iuran JHT bagi Peserta bukan penerima Upah didasarkan pada jumlah nominal tertentu dari penghasilan Peserta yang ditetapkan dalam daftar",
+      "confidence": 0.9,
+      "dasar_keyakinan": "dikutip",
+      "catatan": "Daftar nominal iuran ada pada Lampiran yang tidak termuat dalam markdown chunk; ayat (2) Peserta memilih sesuai penghasilan; ayat (3) evaluasi paling lama 3 tahun."
+    },
+    {
+      "norm_id": "JAMSOS-JHT-SETOR-IURAN",
+      "topik": "Jamsos",
+      "pasal": "Pasal 19 ayat (1)",
+      "iri_individu": "ktn:JHTKewajibanSetorIuran",
+      "jenis": "KetentuanJaminanSosial",
+      "kondisi": "Pemberi Kerja selain penyelenggara negara",
+      "akibat": "Wajib menyetor Iuran JHT yang menjadi kewajibannya setiap bulan paling lambat tanggal 15 bulan berikutnya dengan melampirkan data pendukung seluruh Pekerja",
+      "parameter": [],
+      "bukti": "Pemberi Kerja wajib membayar Iuran sebagaimana dimaksud pada ayat (1) setiap bulan paling lambat tanggal 15 pada bulan berikutnya",
+      "confidence": 0.95,
+      "dasar_keyakinan": "dikutip",
+      "catatan": "Ayat (3): jika tanggal 15 jatuh pada hari libur, Iuran dibayarkan pada hari kerja berikutnya."
+    },
+    {
+      "norm_id": "JAMSOS-JHT-DENDA-KETERLAMBATAN",
+      "topik": "Jamsos",
+      "pasal": "Pasal 20 ayat (1)",
+      "iri_individu": "ktn:JHTDendaKeterlambatan",
+      "jenis": "KetentuanJaminanSosial",
+      "kondisi": "Pemberi Kerja selain penyelenggara negara terlambat membayar Iuran",
+      "akibat": "Dikenakan denda 2% untuk setiap bulan keterlambatan dari Iuran yang seharusnya dibayar; denda ditanggung sepenuhnya Pemberi Kerja dan dibayar bersama Iuran bulan berikutnya",
+      "parameter": [],
+      "bukti": "dikenakan denda sebesar 2% (dua persen) untuk setiap bulan keterlambatan",
+      "confidence": 0.95,
+      "dasar_keyakinan": "dikutip",
+      "catatan": "Ayat (3): denda merupakan pendapatan lain dari Dana Jaminan Sosial."
+    },
+    {
+      "norm_id": "JAMSOS-JHT-BAYAR-IURAN-BPU",
+      "topik": "Jamsos",
+      "pasal": "Pasal 21 ayat (1)",
+      "iri_individu": "ktn:JHTKewajibanBayarIuranBPU",
+      "jenis": "KetentuanJaminanSosial",
+      "kondisi": "Peserta bukan penerima Upah",
+      "akibat": "Wajib membayar Iuran yang menjadi kewajibannya kepada BPJS Ketenagakerjaan setiap bulan paling lambat tanggal 15 bulan berikutnya",
+      "parameter": [],
+      "bukti": "Peserta bukan penerima Upah wajib membayar Iuran yang menjadi kewajibannya sebagaimana dimaksud dalam Pasal 18",
+      "confidence": 0.95,
+      "dasar_keyakinan": "dikutip",
+      "catatan": "Ayat (2): pembayaran dapat dilakukan sendiri-sendiri, melalui wadah, atau kelompok; ayat (4): jika tanggal 15 hari libur, dibayar pada hari kerja berikutnya."
+    },
+    {
+      "norm_id": "JAMSOS-JHT-MANFAAT",
+      "topik": "Jamsos",
+      "pasal": "Pasal 22 ayat (1)",
+      "iri_individu": "ktn:JHTManfaatUangTunai",
+      "jenis": "KetentuanJaminanSosial",
+      "kondisi": "Peserta berusia 56 tahun, meninggal dunia, atau mengalami cacat total tetap",
+      "akibat": "Manfaat JHT berupa uang tunai dibayarkan",
+      "parameter": [
+        {
+          "nama": "usiaPensiunTahun",
+          "nilai": "56",
+          "satuan": "tahun",
+          "jenis": "nominal",
+          "pasal": "Pasal 22 ayat (1)"
+        }
+      ],
+      "bukti": "Manfaat JHT adalah berupa uang tunai yang dibayarkan apabila Peserta berusia 56 (lima puluh enam) tahun, meninggal dunia, atau mengalami cacat total tetap",
+      "confidence": 0.95,
+      "dasar_keyakinan": "dikutip",
+      "catatan": ""
+    },
+    {
+      "norm_id": "JAMSOS-JHT-BESARAN-MANFAAT",
+      "topik": "Jamsos",
+      "pasal": "Pasal 22 ayat (2)",
+      "iri_individu": "ktn:JHTAkumulasiIuran",
+      "jenis": "KetentuanJaminanSosial",
+      "kondisi": "Peserta memenuhi syarat manfaat JHT",
+      "akibat": "Besarnya manfaat sebesar nilai akumulasi seluruh Iuran yang disetor ditambah hasil pengembangannya yang tercatat dalam rekening perorangan Peserta",
+      "parameter": [],
+      "bukti": "sebesar nilai akumulasi seluruh Iuran yang telah disetor ditambah hasil pengembangannya yang tercatat dalam rekening perorangan Peserta",
+      "confidence": 0.95,
+      "dasar_keyakinan": "dikutip",
+      "catatan": ""
+    },
+    {
+      "norm_id": "JAMSOS-JHT-PEMBAYARAN-SEKALIGUS",
+      "topik": "Jamsos",
+      "pasal": "Pasal 22 ayat (3)",
+      "iri_individu": "ktn:JHTPembayaranSekaligus",
+      "jenis": "KetentuanJaminanSosial",
+      "kondisi": "Manfaat JHT menjadi hak Peserta",
+      "akibat": "Manfaat JHT dibayar secara sekaligus",
+      "parameter": [],
+      "bukti": "Manfaat JHT sebagaimana dimaksud pada ayat (1) dibayar secara sekaligus",
+      "confidence": 0.95,
+      "dasar_keyakinan": "dikutip",
+      "catatan": ""
+    },
+    {
+      "norm_id": "JAMSOS-JHT-MANFAAT-SEBAGIAN",
+      "topik": "Jamsos",
+      "pasal": "Pasal 22 ayat (4)",
+      "iri_individu": "ktn:JHTPengambilanSebagian",
+      "jenis": "KetentuanJaminanSosial",
+      "kondisi": "Peserta memiliki masa kepesertaan paling singkat 10 tahun dan akan memasuki masa pensiun",
+      "akibat": "Dapat mengambil sebagian manfaat JHT paling banyak 30% untuk kepemilikan rumah atau paling banyak 10% untuk keperluan lain, hanya 1 kali selama menjadi Peserta",
+      "parameter": [],
+      "bukti": "paling banyak 30% (tiga puluh persen) dari jumlah JHT, yang peruntukannya untuk kepemilikan rumah atau paling banyak 10% (sepuluh persen)",
+      "confidence": 0.95,
+      "dasar_keyakinan": "dikutip",
+      "catatan": "Ayat (4) mensyaratkan masa kepesertaan paling singkat 10 tahun; ayat (6) membatasi hanya 1 kali selama menjadi Peserta."
+    },
+    {
+      "norm_id": "JAMSOS-JHT-INFORMASI-SALDO",
+      "topik": "Jamsos",
+      "pasal": "Pasal 22 ayat (7)",
+      "iri_individu": "ktn:JHTInformasiSaldo",
+      "jenis": "KetentuanJaminanSosial",
+      "kondisi": "Peserta memiliki rekening JHT",
+      "akibat": "BPJS Ketenagakerjaan wajib memberikan informasi besarnya saldo JHT beserta hasil pengembangan 1 kali dalam 1 tahun",
+      "parameter": [],
+      "bukti": "BPJS Ketenagakerjaan wajib memberikan informasi kepada Peserta mengenai besarnya saldo JHT beserta hasil pengembangannya 1 (satu) kali dalam 1 (satu) tahun",
+      "confidence": 0.95,
+      "dasar_keyakinan": "dikutip",
+      "catatan": ""
+    },
+    {
+      "norm_id": "JAMSOS-JHT-MANFAAT-AHLI-WARIS",
+      "topik": "Jamsos",
+      "pasal": "Pasal 23 ayat (1)",
+      "iri_individu": "ktn:JHTManfaatAhliWarisSah",
+      "jenis": "KetentuanJaminanSosial",
+      "kondisi": "Peserta meninggal dunia",
+      "akibat": "Manfaat JHT diberikan kepada ahli waris yang sah, yaitu janda, duda, atau anak",
+      "parameter": [],
+      "bukti": "Apabila Peserta meninggal dunia, maka manfaat JHT diberikan kepada ahli waris yang sah",
+      "confidence": 0.95,
+      "dasar_keyakinan": "dikutip",
+      "catatan": "Ayat (2) merinci ahli waris: janda, duda, atau anak."
+    },
+    {
+      "norm_id": "JAMSOS-JHT-URUTAN-AHLI-WARIS",
+      "topik": "Jamsos",
+      "pasal": "Pasal 23 ayat (3)",
+      "iri_individu": "ktn:JHTUrutanAhliWaris",
+      "jenis": "KetentuanJaminanSosial",
+      "kondisi": "Janda, duda, atau anak tidak ada",
+      "akibat": "JHT diberikan berurutan kepada keturunan sedarah sampai derajat kedua, saudara kandung, mertua, dan pihak yang ditunjuk dalam wasiat; jika tidak ada dikembalikan ke balai harta peninggalan",
+      "parameter": [],
+      "bukti": "Dalam hal janda, duda, atau anak sebagaimana dimaksud pada ayat (2) tidak ada, JHT diberikan sesuai urutan sebagai berikut",
+      "confidence": 0.95,
+      "dasar_keyakinan": "dikutip",
+      "catatan": "Ayat (4): bila pihak yang ditunjuk dalam wasiat tidak ada, JHT dikembalikan ke balai harta peninggalan."
+    },
+    {
+      "norm_id": "JAMSOS-JHT-KEKURANGAN-MANFAAT",
+      "topik": "Jamsos",
+      "pasal": "Pasal 24",
+      "iri_individu": "ktn:JHTKekuranganManfaat",
+      "jenis": "KetentuanJaminanSosial",
+      "kondisi": "Terjadi kekurangan pembayaran manfaat JHT karena Pemberi Kerja melaporkan Upah tidak sesuai ketentuan",
+      "akibat": "Pemberi Kerja selain penyelenggara negara wajib membayar kekurangan pembayaran manfaat JHT",
+      "parameter": [],
+      "bukti": "Pemberi Kerja selain penyelenggara negara wajib membayar kekurangan pembayaran manfaat JHT",
+      "confidence": 0.95,
+      "dasar_keyakinan": "dikutip",
+      "catatan": ""
+    },
+    {
+      "norm_id": "JAMSOS-JHT-MANFAAT-LAYANAN-TAMBAHAN",
+      "topik": "Jamsos",
+      "pasal": "Pasal 25 ayat (1)",
+      "iri_individu": "ktn:JHTManfaatLayananTambahan",
+      "jenis": "KetentuanJaminanSosial",
+      "kondisi": "Peserta JHT",
+      "akibat": "Memperoleh manfaat layanan tambahan berupa fasilitas pembiayaan perumahan dan/atau manfaat lain",
+      "parameter": [],
+      "bukti": "Peserta memperoleh manfaat layanan tambahan berupa fasilitas pembiayaan perumahan dan/atau manfaat lain",
+      "confidence": 0.95,
+      "dasar_keyakinan": "dikutip",
+      "catatan": "Ayat (2): dibiayai dari dana investasi JHT; ayat (3): tata cara diatur dengan Peraturan Menteri."
+    },
+    {
+      "norm_id": "JAMSOS-JHT-SYARAT-PEMBAYARAN",
+      "topik": "Jamsos",
+      "pasal": "Pasal 26 ayat (1)",
+      "iri_individu": "ktn:JHTSyaratPembayaran",
+      "jenis": "KetentuanJaminanSosial",
+      "kondisi": "Peserta mencapai usia pensiun, mengalami cacat total tetap, meninggal dunia, atau meninggalkan Indonesia untuk selama-lamanya",
+      "akibat": "Manfaat JHT wajib dibayarkan kepada Peserta",
+      "parameter": [],
+      "bukti": "Manfaat JHT wajib dibayarkan kepada Peserta apabila",
+      "confidence": 0.95,
+      "dasar_keyakinan": "dikutip",
+      "catatan": "Ayat (2), (4), (5), dan (6) merinci penerima manfaat untuk tiap peristiwa."
+    },
+    {
+      "norm_id": "JAMSOS-JHT-PEMBAYARAN-SETELAH-PHK",
+      "topik": "Jamsos",
+      "pasal": "Pasal 26 ayat (3)",
+      "iri_individu": "ktn:JHTPembayaranSetelahPHK",
+      "jenis": "KetentuanJaminanSosial",
+      "kondisi": "Peserta dikenai pemutusan hubungan kerja atau berhenti bekerja sebelum usia pensiun",
+      "akibat": "Manfaat JHT dibayarkan pada saat Peserta mencapai usia 56 tahun",
+      "parameter": [
+        {
+          "nama": "usiaPensiunTahun",
+          "nilai": "56",
+          "satuan": "tahun",
+          "jenis": "nominal",
+          "pasal": "Pasal 26 ayat (3)"
+        }
+      ],
+      "bukti": "dibayarkan pada saat Peserta mencapai usia 56 (lima puluh enam) tahun",
+      "confidence": 0.95,
+      "dasar_keyakinan": "dikutip",
+      "catatan": ""
+    },
+    {
+      "norm_id": "JAMSOS-JHT-HASIL-PENGEMBANGAN",
+      "topik": "Jamsos",
+      "pasal": "Pasal 27 ayat (1)",
+      "iri_individu": "ktn:JHTHasilPengembangan",
+      "jenis": "KetentuanJaminanSosial",
+      "kondisi": "BPJS Ketenagakerjaan memberikan hasil pengembangan program JHT kepada Peserta",
+      "akibat": "Hasil pengembangan ditetapkan berdasarkan laporan keuangan, paling sedikit sebesar rata-rata bunga deposito counter rate bank pemerintah untuk jangka waktu 1 tahun",
+      "parameter": [],
+      "bukti": "paling sedikit sebesar rata-rata bunga deposito _counter rate_ bank pemerintah untuk jangka waktu 1 (satu) tahun",
+      "confidence": 0.9,
+      "dasar_keyakinan": "dikutip",
+      "catatan": "Ayat (1)-(2): berdasarkan laporan keuangan tahunan dan laporan keuangan bulanan periode sebelumnya; ayat (4): mekanisme diatur dengan Peraturan BPJS Ketenagakerjaan."
+    },
+    {
+      "norm_id": "JAMSOS-JHT-BELUM-DIIKUTSERTAKAN",
+      "topik": "Jamsos",
+      "pasal": "Pasal 28",
+      "iri_individu": "ktn:JHTBelumDiikutsertakan",
+      "jenis": "KetentuanJaminanSosial",
+      "kondisi": "Pemberi Kerja selain penyelenggara negara belum mengikutsertakan Pekerjanya dalam program JHT",
+      "akibat": "Pemberi Kerja wajib membayar manfaat JHT yang menjadi kewajibannya",
+      "parameter": [],
+      "bukti": "Pemberi Kerja selain penyelenggara negara wajib membayar manfaat JHT yang menjadi kewajibannya",
+      "confidence": 0.95,
+      "dasar_keyakinan": "dikutip",
+      "catatan": ""
+    },
+    {
+      "norm_id": "JAMSOS-JHT-PENUNDAAN-PEMBAYARAN",
+      "topik": "Jamsos",
+      "pasal": "Pasal 29",
+      "iri_individu": "ktn:JHTPenundaanPembayaran",
+      "jenis": "KetentuanJaminanSosial",
+      "kondisi": "Peserta masih bekerja pada usia pensiun dan memilih menunda menerima pembayaran manfaat JHT pada usia 56 tahun serta tetap menjadi Peserta dan membayar Iuran",
+      "akibat": "Pembayaran manfaat JHT dapat dilakukan pada saat Peserta berhenti bekerja",
+      "parameter": [],
+      "bukti": "pembayaran manfaat JHT dapat dilakukan pada saat Peserta berhenti bekerja",
+      "confidence": 0.95,
+      "dasar_keyakinan": "dikutip",
+      "catatan": ""
+    },
+    {
+      "norm_id": "JAMSOS-JHT-HAK-TIDAK-DIPINDAHTANGANKAN",
+      "topik": "Jamsos",
+      "pasal": "Pasal 32",
+      "iri_individu": "ktn:JHTHakTidakDipindahtangankan",
+      "jenis": "KetentuanJaminanSosial",
+      "kondisi": "Peserta memiliki hak atas JHT",
+      "akibat": "Hak atas JHT tidak dapat dipindahtangankan, digadaikan, atau disita sebagai pelaksana putusan pengadilan",
+      "parameter": [],
+      "bukti": "Hak atas JHT sebagaimana diatur dalam Peraturan Pemerintah ini tidak dapat dipindahtangankan, digadaikan, atau disita sebagai pelaksana putusan pengadilan",
       "confidence": 0.95,
       "dasar_keyakinan": "dikutip",
       "catatan": ""
@@ -40,164 +546,116 @@
       "tarif_total_persen": 5.7,
       "tingkat_risiko": null,
       "pasal": "Pasal 16 ayat (1)",
+      "bukti": "sebesar 5,7% (lima koma tujuh persen) dari Upah, dengan ketentuan",
       "confidence": 0.95,
       "dasar_keyakinan": "dikutip",
-      "bukti": "",
-      "catatan": ""
+      "catatan": "2% ditanggung Pekerja dan 3,7% ditanggung Pemberi Kerja."
     }
   ],
   "cakupan": {
-    "lengkap": false,
+    "lengkap": true,
     "pasal_diekstrak": [
-      "Pasal 16"
+      "Pasal 1",
+      "Pasal 10",
+      "Pasal 11",
+      "Pasal 12",
+      "Pasal 13",
+      "Pasal 14",
+      "Pasal 15",
+      "Pasal 16",
+      "Pasal 17",
+      "Pasal 18",
+      "Pasal 19",
+      "Pasal 2",
+      "Pasal 20",
+      "Pasal 21",
+      "Pasal 22",
+      "Pasal 23",
+      "Pasal 24",
+      "Pasal 25",
+      "Pasal 26",
+      "Pasal 27",
+      "Pasal 28",
+      "Pasal 29",
+      "Pasal 3",
+      "Pasal 30",
+      "Pasal 31",
+      "Pasal 32",
+      "Pasal 33",
+      "Pasal 34",
+      "Pasal 35",
+      "Pasal 36",
+      "Pasal 37",
+      "Pasal 4",
+      "Pasal 5",
+      "Pasal 6",
+      "Pasal 7",
+      "Pasal 8",
+      "Pasal 9"
     ],
     "pasal_dilewati": [
       {
         "pasal": "Pasal 1",
-        "alasan": "retrofit: belum ditinjau (migrasi data pilot)"
-      },
-      {
-        "pasal": "Pasal 2",
-        "alasan": "retrofit: belum ditinjau (migrasi data pilot)"
+        "alasan": "definisi/istilah"
       },
       {
         "pasal": "Pasal 3",
-        "alasan": "retrofit: belum ditinjau (migrasi data pilot)"
+        "alasan": "rujukan penyelenggaraan JHT bagi penyelenggara negara ke Peraturan Pemerintah tersendiri"
       },
       {
         "pasal": "Pasal 4",
-        "alasan": "retrofit: belum ditinjau (migrasi data pilot)"
-      },
-      {
-        "pasal": "Pasal 5",
-        "alasan": "retrofit: belum ditinjau (migrasi data pilot)"
-      },
-      {
-        "pasal": "Pasal 6",
-        "alasan": "retrofit: belum ditinjau (migrasi data pilot)"
+        "alasan": "kategorisasi/definisi peserta"
       },
       {
         "pasal": "Pasal 7",
-        "alasan": "retrofit: belum ditinjau (migrasi data pilot)"
+        "alasan": "tata cara pendaftaran (formulir dan batas waktu)"
       },
       {
         "pasal": "Pasal 8",
-        "alasan": "retrofit: belum ditinjau (migrasi data pilot)"
-      },
-      {
-        "pasal": "Pasal 9",
-        "alasan": "retrofit: belum ditinjau (migrasi data pilot)"
+        "alasan": "tata cara penerbitan Kartu Kepesertaan"
       },
       {
         "pasal": "Pasal 10",
-        "alasan": "retrofit: belum ditinjau (migrasi data pilot)"
-      },
-      {
-        "pasal": "Pasal 11",
-        "alasan": "retrofit: belum ditinjau (migrasi data pilot)"
-      },
-      {
-        "pasal": "Pasal 12",
-        "alasan": "retrofit: belum ditinjau (migrasi data pilot)"
-      },
-      {
-        "pasal": "Pasal 13",
-        "alasan": "retrofit: belum ditinjau (migrasi data pilot)"
+        "alasan": "tata cara perubahan data peserta"
       },
       {
         "pasal": "Pasal 14",
-        "alasan": "retrofit: belum ditinjau (migrasi data pilot)"
+        "alasan": "tata cara penerbitan Kartu Kepesertaan peserta bukan penerima Upah"
       },
       {
         "pasal": "Pasal 15",
-        "alasan": "retrofit: belum ditinjau (migrasi data pilot)"
-      },
-      {
-        "pasal": "Pasal 17",
-        "alasan": "retrofit: belum ditinjau (migrasi data pilot)"
-      },
-      {
-        "pasal": "Pasal 18",
-        "alasan": "retrofit: belum ditinjau (migrasi data pilot)"
-      },
-      {
-        "pasal": "Pasal 19",
-        "alasan": "retrofit: belum ditinjau (migrasi data pilot)"
-      },
-      {
-        "pasal": "Pasal 20",
-        "alasan": "retrofit: belum ditinjau (migrasi data pilot)"
-      },
-      {
-        "pasal": "Pasal 21",
-        "alasan": "retrofit: belum ditinjau (migrasi data pilot)"
-      },
-      {
-        "pasal": "Pasal 22",
-        "alasan": "retrofit: belum ditinjau (migrasi data pilot)"
-      },
-      {
-        "pasal": "Pasal 23",
-        "alasan": "retrofit: belum ditinjau (migrasi data pilot)"
-      },
-      {
-        "pasal": "Pasal 24",
-        "alasan": "retrofit: belum ditinjau (migrasi data pilot)"
-      },
-      {
-        "pasal": "Pasal 25",
-        "alasan": "retrofit: belum ditinjau (migrasi data pilot)"
-      },
-      {
-        "pasal": "Pasal 26",
-        "alasan": "retrofit: belum ditinjau (migrasi data pilot)"
-      },
-      {
-        "pasal": "Pasal 27",
-        "alasan": "retrofit: belum ditinjau (migrasi data pilot)"
-      },
-      {
-        "pasal": "Pasal 28",
-        "alasan": "retrofit: belum ditinjau (migrasi data pilot)"
-      },
-      {
-        "pasal": "Pasal 29",
-        "alasan": "retrofit: belum ditinjau (migrasi data pilot)"
+        "alasan": "tata cara perubahan data peserta bukan penerima Upah"
       },
       {
         "pasal": "Pasal 30",
-        "alasan": "retrofit: belum ditinjau (migrasi data pilot)"
+        "alasan": "tata cara penetapan besaran manfaat oleh BPJS Ketenagakerjaan"
       },
       {
         "pasal": "Pasal 31",
-        "alasan": "retrofit: belum ditinjau (migrasi data pilot)"
-      },
-      {
-        "pasal": "Pasal 32",
-        "alasan": "retrofit: belum ditinjau (migrasi data pilot)"
+        "alasan": "tata cara pengajuan dan pembayaran manfaat"
       },
       {
         "pasal": "Pasal 33",
-        "alasan": "retrofit: belum ditinjau (migrasi data pilot)"
+        "alasan": "sanksi administratif"
       },
       {
         "pasal": "Pasal 34",
-        "alasan": "retrofit: belum ditinjau (migrasi data pilot)"
+        "alasan": "rincian sanksi administratif berupa pelayanan publik"
       },
       {
         "pasal": "Pasal 35",
-        "alasan": "retrofit: belum ditinjau (migrasi data pilot)"
+        "alasan": "pengawasan ketenagakerjaan/kelembagaan"
       },
       {
         "pasal": "Pasal 36",
-        "alasan": "retrofit: belum ditinjau (migrasi data pilot)"
+        "alasan": "tata cara penanganan keluhan"
       },
       {
         "pasal": "Pasal 37",
-        "alasan": "retrofit: belum ditinjau (migrasi data pilot)"
+        "alasan": "ketentuan penutup (mulai berlaku)"
       }
     ],
-    "catatan": "Retrofit dari data pilot (migrasi ke record); belum ditinjau penuh."
+    "catatan": ""
   },
   "tidak_termodelkan": []
 }

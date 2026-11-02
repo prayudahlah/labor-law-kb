@@ -1,6 +1,6 @@
 {
-  "spec_version": "1.0.0",
-  "vocab_version": "0.2.0",
+  "spec_version": "1.1.0",
+  "vocab_version": "0.3.0",
   "dokumen_id": "PP-44-2015",
   "status_review": "reviewed",
   "peraturan": {
@@ -14,279 +14,1456 @@
   },
   "norma": [
     {
-      "norm_id": "JAMSOS-IURAN-JKK-JKM",
+      "norm_id": "JAMSOS-HAK-TIDAK-DIPINDAHTANGANKAN",
       "topik": "Jamsos",
-      "pasal": "Pasal 16-18",
-      "iri_individu": "ktn:KetentuanIuranJKKJKM",
+      "pasal": "Pasal 3",
+      "iri_individu": "ktn:JamsosHakMelekat",
       "jenis": "KetentuanJaminanSosial",
-      "kondisi": "Iuran JKK dan JKM",
-      "akibat": "Dibayar seluruhnya oleh pemberi kerja",
+      "kondisi": "Peserta berhak atas manfaat JKK dan JKM",
+      "akibat": "Hak atas JKK dan JKM tidak dapat dipindahtangankan, digadaikan, atau disita sebagai pelaksana putusan pengadilan",
       "parameter": [],
-      "bukti": "Iuran JKK wajib dibayar oleh Pemberi Kerja selain penyelenggara negara",
+      "bukti": "Hak atas JKK dan JKM tidak dapat dipindahtangankan, digadaikan, atau disita sebagai pelaksana putusan pengadilan.",
       "confidence": 0.95,
       "dasar_keyakinan": "dikutip",
       "catatan": ""
+    },
+    {
+      "norm_id": "JAMSOS-WAJIB-DAFTAR-PEMBERI-KERJA",
+      "topik": "Jamsos",
+      "pasal": "Pasal 4 ayat (1)",
+      "iri_individu": "ktn:JamsosWajibDaftarPemberiKerja",
+      "jenis": "KetentuanJaminanSosial",
+      "kondisi": "Pemberi Kerja selain penyelenggara negara",
+      "akibat": "Wajib mendaftarkan dirinya dan Pekerjanya sebagai Peserta program JKK dan JKM kepada BPJS Ketenagakerjaan",
+      "parameter": [],
+      "bukti": "Setiap Pemberi Kerja selain penyelenggara negara wajib mendaftarkan dirinya dan Pekerjanya sebagai Peserta dalam program JKK dan JKM",
+      "confidence": 0.95,
+      "dasar_keyakinan": "dikutip",
+      "catatan": ""
+    },
+    {
+      "norm_id": "JAMSOS-WAJIB-DAFTAR-PEKERJA",
+      "topik": "Jamsos",
+      "pasal": "Pasal 4 ayat (2)",
+      "iri_individu": "ktn:JamsosWajibDaftarPekerja",
+      "jenis": "KetentuanJaminanSosial",
+      "kondisi": "Setiap orang yang bekerja",
+      "akibat": "Wajib mendaftarkan dirinya sebagai Peserta program JKK dan JKM kepada BPJS Ketenagakerjaan",
+      "parameter": [],
+      "bukti": "Setiap orang yang bekerja wajib mendaftarkan dirinya sebagai Peserta dalam program JKK dan JKM",
+      "confidence": 0.95,
+      "dasar_keyakinan": "dikutip",
+      "catatan": ""
+    },
+    {
+      "norm_id": "JAMSOS-PINDAH-KERJA-PEMBERITAHUAN",
+      "topik": "Jamsos",
+      "pasal": "Pasal 8 ayat (1)",
+      "iri_individu": "ktn:JamsosPindahKerjaPemberitahuan",
+      "jenis": "KetentuanJaminanSosial",
+      "kondisi": "Peserta pindah tempat kerja",
+      "akibat": "Wajib memberitahukan kepesertaannya kepada Pemberi Kerja tempat kerja baru dengan menunjukkan Kartu Peserta BPJS Ketenagakerjaan",
+      "parameter": [],
+      "bukti": "Peserta yang pindah tempat kerja wajib memberitahukan kepesertaannya kepada Pemberi Kerja tempat kerja baru dengan menunjukkan Kartu Peserta",
+      "confidence": 0.95,
+      "dasar_keyakinan": "dikutip",
+      "catatan": ""
+    },
+    {
+      "norm_id": "JAMSOS-PINDAH-KERJA-PENERUSAN",
+      "topik": "Jamsos",
+      "pasal": "Pasal 8 ayat (2)",
+      "iri_individu": "ktn:JamsosPindahKerjaPenerusan",
+      "jenis": "KetentuanJaminanSosial",
+      "kondisi": "Pekerja mulai bekerja pada Pemberi Kerja tempat kerja baru",
+      "akibat": "Pemberi Kerja tempat kerja baru wajib meneruskan kepesertaan Pekerja dengan melaporkan Kartu Peserta dan membayar Iuran kepada BPJS Ketenagakerjaan sejak Pekerja bekerja",
+      "parameter": [],
+      "bukti": "Pemberi Kerja tempat kerja baru wajib meneruskan kepesertaan Pekerja dengan melaporkan Kartu Peserta BPJS Ketenagakerjaan dan membayar Iuran",
+      "confidence": 0.95,
+      "dasar_keyakinan": "dikutip",
+      "catatan": ""
+    },
+    {
+      "norm_id": "JAMSOS-TANGGUNG-JAWAB-RISIKO-BELUM-DILAPORKAN",
+      "topik": "Jamsos",
+      "pasal": "Pasal 8 ayat (3)",
+      "iri_individu": "ktn:JamsosTanggungJawabRisiko",
+      "jenis": "KetentuanJaminanSosial",
+      "kondisi": "Pemberi Kerja tempat kerja baru belum melaporkan dan membayar Iuran, lalu terjadi risiko terhadap Pekerjanya",
+      "akibat": "Pemberi Kerja wajib memberikan hak-hak Pekerja sesuai dengan ketentuan dalam Peraturan Pemerintah ini",
+      "parameter": [],
+      "bukti": "bila terjadi risiko terhadap Pekerjanya, Pemberi Kerja wajib memberikan hak-hak Pekerja sesuai dengan ketentuan dalam Peraturan Pemerintah ini",
+      "confidence": 0.95,
+      "dasar_keyakinan": "dikutip",
+      "catatan": ""
+    },
+    {
+      "norm_id": "JAMSOS-DAFTAR-SENDIRI-PEKERJA",
+      "topik": "Jamsos",
+      "pasal": "Pasal 10 ayat (1)",
+      "iri_individu": "ktn:JamsosDaftarSendiriPekerja",
+      "jenis": "KetentuanJaminanSosial",
+      "kondisi": "Pemberi Kerja selain penyelenggara negara nyata-nyata lalai tidak mendaftarkan Pekerjanya",
+      "akibat": "Pekerja berhak mendaftarkan dirinya sendiri dalam program jaminan sosial kepada BPJS Ketenagakerjaan sesuai program yang diwajibkan dalam penahapan kepesertaan",
+      "parameter": [],
+      "bukti": "Pekerja berhak mendaftarkan dirinya sendiri dalam program jaminan sosial kepada BPJS Ketenagakerjaan",
+      "confidence": 0.95,
+      "dasar_keyakinan": "dikutip",
+      "catatan": ""
+    },
+    {
+      "norm_id": "JAMSOS-IURAN-TANGGUNG-PEMBERI-KERJA",
+      "topik": "Jamsos",
+      "pasal": "Pasal 10 ayat (4)",
+      "iri_individu": "ktn:JamsosIuranTanggungPemberiKerja",
+      "jenis": "KetentuanJaminanSosial",
+      "kondisi": "Hasil verifikasi menunjukkan Pemberi Kerja selain penyelenggara negara nyata-nyata lalai",
+      "akibat": "Pemberi Kerja wajib membayar Iuran yang menjadi kewajibannya kepada BPJS Ketenagakerjaan sesuai program yang diwajibkan dalam penahapan kepesertaan",
+      "parameter": [],
+      "bukti": "Pemberi Kerja selain penyelenggara negara wajib membayar Iuran yang menjadi kewajiban Pemberi Kerja",
+      "confidence": 0.95,
+      "dasar_keyakinan": "dikutip",
+      "catatan": ""
+    },
+    {
+      "norm_id": "JAMSOS-HAK-PEKERJA-IURAN-BELUM-LUNAS",
+      "topik": "Jamsos",
+      "pasal": "Pasal 10 ayat (7)",
+      "iri_individu": "ktn:JamsosHakPekerjaIuranBelumLunas",
+      "jenis": "KetentuanJaminanSosial",
+      "kondisi": "Pekerja telah mendaftarkan dirinya sendiri tetapi Pemberi Kerja belum membayar Iuran pertama secara lunas",
+      "akibat": "Pemberi Kerja wajib membayar hak-hak Pekerja sesuai dengan ketentuan dalam Peraturan Pemerintah ini",
+      "parameter": [],
+      "bukti": "maka Pemberi Kerja selain penyelenggara negara wajib membayar hak-hak Pekerja sesuai dengan ketentuan dalam Peraturan Pemerintah ini",
+      "confidence": 0.95,
+      "dasar_keyakinan": "dikutip",
+      "catatan": ""
+    },
+    {
+      "norm_id": "JAMSOS-WAJIB-DAFTAR-BUKAN-PENERIMA-UPAH",
+      "topik": "Jamsos",
+      "pasal": "Pasal 11 ayat (1)",
+      "iri_individu": "ktn:JamsosWajibDaftarBukanPenerimaUpah",
+      "jenis": "KetentuanJaminanSosial",
+      "kondisi": "Peserta bukan penerima Upah",
+      "akibat": "Wajib mendaftarkan dirinya kepada BPJS Ketenagakerjaan sesuai penahapan kepesertaan",
+      "parameter": [],
+      "bukti": "wajib mendaftarkan dirinya kepada BPJS Ketenagakerjaan sesuai penahapan kepesertaan",
+      "confidence": 0.95,
+      "dasar_keyakinan": "dikutip",
+      "catatan": ""
+    },
+    {
+      "norm_id": "JAMSOS-JKK-MULTI-PERUSAHAAN",
+      "topik": "Jamsos",
+      "pasal": "Pasal 15 ayat (1)",
+      "iri_individu": "ktn:JKKMultiPerusahaan",
+      "jenis": "KetentuanJaminanSosial",
+      "kondisi": "Pemberi Kerja selain penyelenggara negara memiliki lebih dari 1 (satu) perusahaan",
+      "akibat": "Wajib ikut dalam program JKK pada masing-masing perusahaan",
+      "bukti": "wajib ikut dalam program JKK pada masing-masing perusahaan sesuai dengan ketentuan peraturan perundangundangan",
+      "confidence": 0.95,
+      "dasar_keyakinan": "dikutip",
+      "catatan": ""
+    },
+    {
+      "norm_id": "JAMSOS-JKM-MULTI-PERUSAHAAN",
+      "topik": "Jamsos",
+      "pasal": "Pasal 15 ayat (2)",
+      "iri_individu": "ktn:JKMMultiPerusahaan",
+      "jenis": "KetentuanJaminanSosial",
+      "kondisi": "Pemberi Kerja selain penyelenggara negara memiliki lebih dari 1 (satu) perusahaan",
+      "akibat": "Wajib ikut dalam program JKM pada salah satu perusahaan yang dimilikinya",
+      "bukti": "wajib ikut dalam program JKM pada salah satu perusahaan yang dimilikinya",
+      "confidence": 0.95,
+      "dasar_keyakinan": "dikutip",
+      "catatan": "Berbeda dari JKK yang wajib pada masing-masing perusahaan."
+    },
+    {
+      "norm_id": "JAMSOS-PEKERJA-MULTI-PEMBERI-KERJA",
+      "topik": "Jamsos",
+      "pasal": "Pasal 15 ayat (3)",
+      "iri_individu": "ktn:PekerjaMultiPemberiKerja",
+      "jenis": "KetentuanJaminanSosial",
+      "kondisi": "Pekerja penerima Upah bekerja pada beberapa perusahaan",
+      "akibat": "Wajib diikutsertakan dalam program JKK dan JKM oleh masing-masing perusahaan",
+      "bukti": "Pekerja penerima Upah yang bekerja pada beberapa perusahaan wajib diikutsertakan dalam program JKK dan JKM oleh masing-masing perusahaan",
+      "confidence": 0.95,
+      "dasar_keyakinan": "dikutip",
+      "catatan": ""
+    },
+    {
+      "norm_id": "JAMSOS-IURAN-JKK-RISIKO",
+      "topik": "Jamsos",
+      "pasal": "Pasal 16 ayat (1)",
+      "iri_individu": "ktn:IuranJKKTingkatRisiko",
+      "jenis": "KetentuanJaminanSosial",
+      "kondisi": "Iuran JKK bagi Peserta penerima Upah dikelompokkan dalam 5 (lima) kelompok tingkat risiko lingkungan kerja",
+      "akibat": "Iuran JKK dari Upah sebulan: sangat rendah 0,24%, rendah 0,54%, sedang 0,89%, tinggi 1,27%, sangat tinggi 1,74%; wajib dibayar Pemberi Kerja selain penyelenggara negara",
+      "bukti": "tingkat risiko sangat rendah : 0,24% (nol koma dua puluh empat persen) dari Upah sebulan",
+      "confidence": 0.95,
+      "dasar_keyakinan": "dikutip",
+      "catatan": "Ayat (1) dan ayat (3) digabung; ayat (2) menetapkan besaran Iuran tiap perusahaan oleh BPJS Ketenagakerjaan berpedoman Lampiran I."
+    },
+    {
+      "norm_id": "JAMSOS-IURAN-JKM",
+      "topik": "Jamsos",
+      "pasal": "Pasal 18 ayat (1)",
+      "iri_individu": "ktn:IuranJKM",
+      "jenis": "KetentuanJaminanSosial",
+      "kondisi": "Iuran JKM bagi Peserta penerima Upah",
+      "akibat": "Sebesar 0,30% dari Upah sebulan dan wajib dibayar oleh Pemberi Kerja selain penyelenggara negara",
+      "bukti": "sebesar 0,30% (nol koma tiga puluh persen) dari Upah sebulan",
+      "confidence": 0.95,
+      "dasar_keyakinan": "dikutip",
+      "catatan": "Ayat (1) dan ayat (2) digabung karena beban pembayaran identik."
+    },
+    {
+      "norm_id": "JAMSOS-DASAR-UPAH-IURAN",
+      "topik": "Jamsos",
+      "pasal": "Pasal 19 ayat (1)",
+      "iri_individu": "ktn:DasarUpahIuran",
+      "jenis": "KetentuanJaminanSosial",
+      "kondisi": "Upah yang dijadikan dasar pembayaran Iuran bagi Peserta penerima Upah",
+      "akibat": "Dasar Iuran adalah Upah sebulan yang terdiri atas Upah pokok dan tunjangan tetap",
+      "bukti": "Upah sebulan sebagaimana dimaksud pada ayat (1) terdiri atas Upah pokok dan tunjangan tetap.",
+      "confidence": 0.95,
+      "dasar_keyakinan": "dikutip",
+      "catatan": "Ayat (2) dirangkum pada akibat."
+    },
+    {
+      "norm_id": "JAMSOS-DASAR-UPAH-HARIAN",
+      "topik": "Jamsos",
+      "pasal": "Pasal 19 ayat (3)",
+      "iri_individu": "ktn:DasarUpahHarian",
+      "jenis": "KetentuanJaminanSosial",
+      "kondisi": "Upah dibayarkan secara harian",
+      "akibat": "Upah sebulan sebagai dasar Iuran dihitung dari Upah sehari dikalikan 25 (dua puluh lima)",
+      "bukti": "dihitung dari Upah sehari dikalikan 25 (dua puluh lima)",
+      "confidence": 0.95,
+      "dasar_keyakinan": "dikutip",
+      "catatan": "Faktor 25 tidak tersedia sebagai parameter VOCAB; dicatat di teks akibat."
+    },
+    {
+      "norm_id": "JAMSOS-DASAR-UPAH-BORONGAN",
+      "topik": "Jamsos",
+      "pasal": "Pasal 19 ayat (4)",
+      "iri_individu": "ktn:DasarUpahBorongan",
+      "jenis": "KetentuanJaminanSosial",
+      "kondisi": "Upah dibayarkan secara borongan atau satuan hasil",
+      "akibat": "Upah sebulan sebagai dasar Iuran dihitung dari Upah rata-rata 3 (tiga) bulan terakhir",
+      "bukti": "dihitung dari Upah rata-rata 3 (tiga) bulan terakhir",
+      "confidence": 0.95,
+      "dasar_keyakinan": "dikutip",
+      "catatan": ""
+    },
+    {
+      "norm_id": "JAMSOS-DASAR-UPAH-CUACA",
+      "topik": "Jamsos",
+      "pasal": "Pasal 19 ayat (5)",
+      "iri_individu": "ktn:DasarUpahCuaca",
+      "jenis": "KetentuanJaminanSosial",
+      "kondisi": "Pekerjaan tergantung pada keadaan cuaca yang Upahnya didasarkan pada Upah borongan",
+      "akibat": "Upah sebulan sebagai dasar Iuran dihitung dari Upah rata-rata 12 (dua belas) bulan terakhir",
+      "bukti": "dihitung dari Upah rata-rata 12 (dua belas) bulan terakhir",
+      "confidence": 0.95,
+      "dasar_keyakinan": "dikutip",
+      "catatan": ""
+    },
+    {
+      "norm_id": "JAMSOS-IURAN-JKK-BPU",
+      "topik": "Jamsos",
+      "pasal": "Pasal 20 ayat (1)",
+      "iri_individu": "ktn:IuranJKKBPU",
+      "jenis": "KetentuanJaminanSosial",
+      "kondisi": "Peserta bukan penerima Upah",
+      "akibat": "Iuran JKK didasarkan pada nilai nominal tertentu dari penghasilan Peserta sesuai Lampiran II dan dipilih Peserta sesuai penghasilan setiap bulan",
+      "bukti": "Iuran JKK bagi Peserta bukan penerima Upah didasarkan pada nilai nominal tertentu dari penghasilan Peserta",
+      "confidence": 0.95,
+      "dasar_keyakinan": "dikutip",
+      "catatan": "Ayat (2) cara pemilihan iuran. Nominal Lampiran II tidak dimodelkan sebagai parameter."
+    },
+    {
+      "norm_id": "JAMSOS-IURAN-JKM-BPU",
+      "topik": "Jamsos",
+      "pasal": "Pasal 20 ayat (3)",
+      "iri_individu": "ktn:IuranJKMBPU",
+      "jenis": "KetentuanJaminanSosial",
+      "kondisi": "Peserta bukan penerima Upah",
+      "akibat": "Iuran JKM sebesar Rp6.800,00 setiap bulan",
+      "bukti": "Iuran JKM bagi Peserta bukan penerima Upah sebesar Rp6.800,00 (enam ribu delapan ratus rupiah) setiap bulan.",
+      "confidence": 0.95,
+      "dasar_keyakinan": "dikutip",
+      "catatan": "Nominal rupiah tidak tersedia sebagai parameter VOCAB."
+    },
+    {
+      "norm_id": "JAMSOS-SETOR-IURAN",
+      "topik": "Jamsos",
+      "pasal": "Pasal 21 ayat (2)",
+      "iri_individu": "ktn:SetorIuranBulanan",
+      "jenis": "KetentuanJaminanSosial",
+      "kondisi": "Pemberi Kerja selain penyelenggara negara wajib menyetor Iuran JKK dan JKM",
+      "akibat": "Disetor setiap bulan paling lambat tanggal 15 bulan berikutnya dengan melampirkan data pendukung seluruh Pekerja; bila tanggal 15 hari libur dibayar pada hari kerja berikutnya",
+      "bukti": "paling lambat tanggal 15 bulan berikutnya dari bulan Iuran yang bersangkutan dengan melampirkan data pendukung seluruh Pekerja dan dirinya",
+      "confidence": 0.95,
+      "dasar_keyakinan": "dikutip",
+      "catatan": "Ayat (1) kewajiban setor kepada BPJS Ketenagakerjaan; ayat (3) penggeseran ke hari kerja berikutnya."
+    },
+    {
+      "norm_id": "JAMSOS-DENDA-KETERLAMBATAN",
+      "topik": "Jamsos",
+      "pasal": "Pasal 22 ayat (1)",
+      "iri_individu": "ktn:DendaKeterlambatanIuran",
+      "jenis": "KetentuanJaminanSosial",
+      "kondisi": "Keterlambatan pembayaran Iuran oleh Pemberi Kerja selain penyelenggara negara",
+      "akibat": "Dikenakan denda 2% untuk setiap bulan keterlambatan dari Iuran yang seharusnya dibayar; denda ditanggung Pemberi Kerja dan dibayar bersama Iuran bulan berikutnya",
+      "bukti": "dikenakan denda sebesar 2% (dua persen) untuk setiap bulan keterlambatan",
+      "confidence": 0.95,
+      "dasar_keyakinan": "dikutip",
+      "catatan": "Ayat (2) beban denda pada Pemberi Kerja; ayat (3) denda menjadi pendapatan lain Dana Jaminan Sosial."
+    },
+    {
+      "norm_id": "JAMSOS-IURAN-BPU",
+      "topik": "Jamsos",
+      "pasal": "Pasal 24 ayat (1)",
+      "iri_individu": "ktn:IuranBPU",
+      "jenis": "KetentuanJaminanSosial",
+      "kondisi": "Peserta bukan penerima Upah",
+      "akibat": "Wajib membayar Iuran sendiri setiap bulan paling lambat tanggal 15 bulan Iuran yang bersangkutan, secara sendiri-sendiri, melalui wadah, atau kelompok tertentu",
+      "bukti": "Peserta bukan penerima Upah wajib membayar Iuran yang menjadi kewajibannya sebagaimana dimaksud dalam Pasal 20 kepada BPJS Ketenagakerjaan.",
+      "confidence": 0.95,
+      "dasar_keyakinan": "dikutip",
+      "catatan": "Ayat (2) cara pembayaran; ayat (4) bila tanggal 15 hari libur dibayar hari kerja berikutnya."
+    },
+    {
+      "norm_id": "JAMSOS-MANFAAT-JKK",
+      "topik": "Jamsos",
+      "pasal": "Pasal 25 ayat (1)",
+      "iri_individu": "ktn:ManfaatJKK",
+      "jenis": "KetentuanJaminanSosial",
+      "kondisi": "Peserta mengalami Kecelakaan Kerja atau penyakit akibat kerja",
+      "akibat": "Berhak atas manfaat JKK",
+      "bukti": "Peserta yang mengalami Kecelakaan Kerja atau penyakit akibat kerja berhak atas manfaat JKK.",
+      "confidence": 0.95,
+      "dasar_keyakinan": "dikutip",
+      "catatan": ""
+    },
+    {
+      "norm_id": "JAMSOS-RUANG-LINGKUP-MANFAAT-JKK",
+      "topik": "Jamsos",
+      "pasal": "Pasal 25 ayat (2)",
+      "iri_individu": "ktn:RuangLingkupManfaatJKK",
+      "jenis": "KetentuanJaminanSosial",
+      "kondisi": "Peserta berhak atas manfaat JKK",
+      "akibat": "Manfaat berupa pelayanan kesehatan sesuai kebutuhan medis (antara lain rawat inap kelas I, perawatan intensif, operasi, rehabilitasi medik) dan santunan uang (penggantian biaya pengangkutan, santunan sementara tidak mampu bekerja, santunan cacat, santunan kematian dan biaya pemakaman, santunan berkala, biaya rehabilitasi alat bantu, gigi tiruan, beasiswa anak)",
+      "bukti": "Manfaat JKK sebagaimana dimaksud pada ayat (1) berupa:",
+      "confidence": 0.9,
+      "dasar_keyakinan": "dikutip",
+      "catatan": "Rincian 12 jenis pelayanan kesehatan dan 8 jenis santunan uang mengacu Lampiran III; ayat (4)-(7) tata cara/monitoring diatur lebih lanjut."
+    },
+    {
+      "norm_id": "JAMSOS-BEASISWA-ANAK-JKK",
+      "topik": "Jamsos",
+      "pasal": "Pasal 25 ayat (3)",
+      "iri_individu": "ktn:BeasiswaAnakJKK",
+      "jenis": "KetentuanJaminanSosial",
+      "kondisi": "Peserta meninggal dunia atau Cacat total tetap akibat kecelakaan kerja",
+      "akibat": "Beasiswa pendidikan anak sebesar Rp12.000.000,00 untuk setiap Peserta",
+      "bukti": "diberikan sebesar Rp12.000.000,00 (dua belas juta rupiah) untuk setiap Peserta",
+      "confidence": 0.95,
+      "dasar_keyakinan": "dikutip",
+      "catatan": "Nominal rupiah tidak tersedia sebagai parameter VOCAB."
+    },
+    {
+      "norm_id": "JAMSOS-DALUWARSA-MANFAAT-JKK",
+      "topik": "Jamsos",
+      "pasal": "Pasal 26",
+      "iri_individu": "ktn:DaluwarsaManfaatJKK",
+      "jenis": "KetentuanJaminanSosial",
+      "kondisi": "Hak menuntut manfaat JKK telah lewat waktu 2 (dua) tahun sejak Kecelakaan Kerja terjadi",
+      "akibat": "Hak menuntut manfaat JKK menjadi gugur",
+      "bukti": "menjadi gugur apabila telah lewat waktu 2 (dua) tahun sejak Kecelakaan Kerja terjadi",
+      "confidence": 0.95,
+      "dasar_keyakinan": "dikutip",
+      "catatan": "Label Pasal 27 pada OCR menempel di akhir ayat ini (heading tidak terpisah)."
+    },
+    {
+      "norm_id": "JAMSOS-TANGGUNG-JAWAB-PEMBERI-KERJA",
+      "topik": "Jamsos",
+      "pasal": "Pasal 27 ayat (1)",
+      "iri_individu": "ktn:TanggungJawabPemberiKerjaJKK",
+      "jenis": "KetentuanJaminanSosial",
+      "kondisi": "Pemberi Kerja selain penyelenggara negara belum mengikutsertakan Pekerjanya dalam program JKK dan terjadi risiko terhadap Pekerjanya",
+      "akibat": "Wajib membayar hak Pekerja sesuai dengan ketentuan dalam Peraturan Pemerintah ini",
+      "bukti": "Pemberi Kerja selain penyelenggara negara wajib membayar hak Pekerja sesuai dengan ketentuan dalam Peraturan Pemerintah ini",
+      "confidence": 0.9,
+      "dasar_keyakinan": "dikutip",
+      "catatan": "Heading Pasal 27 hilang pada OCR (teks menempel pada Pasal 26); ayat (2) tata cara diatur dalam Peraturan Menteri."
+    },
+    {
+      "norm_id": "JAMSOS-MANFAAT-JKK-MAGANG",
+      "topik": "Jamsos",
+      "pasal": "Pasal 28 ayat (1)",
+      "iri_individu": "ktn:ManfaatJKKMagang",
+      "jenis": "KetentuanJaminanSosial",
+      "kondisi": "Magang, siswa kerja praktek, tenaga honorer, atau narapidana yang dipekerjakan pada Pemberi Kerja selain penyelenggara negara dalam proses asimilasi mengalami Kecelakaan Kerja",
+      "akibat": "Dianggap sebagai Pekerja dan berhak memperoleh manfaat JKK sesuai Pasal 25 ayat (2)",
+      "bukti": "dianggap sebagai Pekerja dan berhak memperoleh manfaat JKK sesuai ketentuan dalam Pasal 25 ayat (2)",
+      "confidence": 0.95,
+      "dasar_keyakinan": "dikutip",
+      "catatan": ""
+    },
+    {
+      "norm_id": "JAMSOS-UPAH-MAGANG",
+      "topik": "Jamsos",
+      "pasal": "Pasal 28 ayat (2)",
+      "iri_individu": "ktn:UpahMagang",
+      "jenis": "KetentuanJaminanSosial",
+      "kondisi": "Menghitung besarnya manfaat JKK bagi magang, siswa kerja praktek, atau narapidana",
+      "akibat": "Dianggap menerima Upah sebesar Upah terendah sebulan dari Pekerja yang melakukan pekerjaan yang sama",
+      "bukti": "dianggap menerima Upah sebesar Upah terendah sebulan dari Pekerja yang melakukan pekerjaan yang sama",
+      "confidence": 0.95,
+      "dasar_keyakinan": "dikutip",
+      "catatan": "Ayat (3) tata cara pembayaran Iuran diatur dengan Peraturan Menteri."
+    },
+    {
+      "norm_id": "JAMSOS-JKK-FASYANKES-KERJASAMA",
+      "topik": "Jamsos",
+      "pasal": "Pasal 30 ayat (1)",
+      "iri_individu": "ktn:JkkFasyankesKerjasama",
+      "jenis": "KetentuanJaminanSosial",
+      "kondisi": "Peserta mengalami Kecelakaan Kerja atau penyakit akibat kerja",
+      "akibat": "Pelayanan kesehatan JKK diberikan oleh fasilitas kesehatan pemerintah, pemerintah daerah, atau swasta yang memenuhi syarat dan menjalin kerja sama dengan BPJS Ketenagakerjaan",
+      "parameter": [],
+      "bukti": "dilakukan oleh fasilitas kesehatan milik pemerintah, pemerintah daerah, atau swasta yang memenuhi syarat dan menjalin kerja sama dengan BPJS Ketenagakerjaan",
+      "confidence": 0.95,
+      "dasar_keyakinan": "dikutip",
+      "catatan": "Tata cara penggantian biaya diatur dengan Peraturan Menteri (ayat (4))."
+    },
+    {
+      "norm_id": "JAMSOS-JKK-SANTUNAN-UANG-DIBAYAR-DULU-PEMBERI-KERJA",
+      "topik": "Jamsos",
+      "pasal": "Pasal 30 ayat (2)",
+      "iri_individu": "ktn:JkkSantunanDibayarDuluPemberiKerja",
+      "jenis": "KetentuanJaminanSosial",
+      "kondisi": "Peserta penerima Upah mengalami Kecelakaan Kerja atau penyakit akibat kerja",
+      "akibat": "Santunan berupa uang dibayar terlebih dahulu oleh Pemberi Kerja selain penyelenggara negara, lalu dimintakan penggantiannya kepada BPJS Ketenagakerjaan",
+      "parameter": [],
+      "bukti": "bagi Peserta penerima Upah, dibayar terlebih dahulu oleh Pemberi Kerja selain penyelenggara negara yang selanjutnya dimintakan penggantiannya kepada BPJS Ketenagakerjaan",
+      "confidence": 0.95,
+      "dasar_keyakinan": "dikutip",
+      "catatan": ""
+    },
+    {
+      "norm_id": "JAMSOS-JKK-SANTUNAN-UANG-DIBAYAR-DULU-PESERTA",
+      "topik": "Jamsos",
+      "pasal": "Pasal 30 ayat (3)",
+      "iri_individu": "ktn:JkkSantunanDibayarDuluPeserta",
+      "jenis": "KetentuanJaminanSosial",
+      "kondisi": "Peserta bukan penerima Upah mengalami Kecelakaan Kerja atau penyakit akibat kerja",
+      "akibat": "Santunan berupa uang dibayar terlebih dahulu oleh Peserta, lalu dimintakan penggantiannya kepada BPJS Ketenagakerjaan",
+      "parameter": [],
+      "bukti": "bagi Peserta bukan penerima Upah, dibayar terlebih dahulu oleh Peserta yang selanjutnya dimintakan penggantiannya kepada BPJS Ketenagakerjaan",
+      "confidence": 0.95,
+      "dasar_keyakinan": "dikutip",
+      "catatan": ""
+    },
+    {
+      "norm_id": "JAMSOS-JKK-RAWAT-INAP-KELAS-I",
+      "topik": "Jamsos",
+      "pasal": "Pasal 31 ayat (1)",
+      "iri_individu": "ktn:JkkRawatInapKelasSatu",
+      "jenis": "KetentuanJaminanSosial",
+      "kondisi": "Peserta membutuhkan rawat inap",
+      "akibat": "Kelas perawatan di rumah sakit umum pemerintah/pemerintah daerah kelas I setempat atau rumah sakit swasta yang tarifnya setara",
+      "parameter": [],
+      "bukti": "kelas perawatan di rumah sakit umum pemerintah/ pemerintah daerah kelas I setempat atau rumah sakit swasta yang tarifnya setara",
+      "confidence": 0.95,
+      "dasar_keyakinan": "dikutip",
+      "catatan": ""
+    },
+    {
+      "norm_id": "JAMSOS-JKK-PENINGKATAN-KELAS-RAWAT",
+      "topik": "Jamsos",
+      "pasal": "Pasal 31 ayat (2)",
+      "iri_individu": "ktn:JkkPeningkatanKelasRawat",
+      "jenis": "KetentuanJaminanSosial",
+      "kondisi": "Peserta memilih fasilitas rawat inap yang lebih tinggi dari standar",
+      "akibat": "Peserta dapat meningkatkan haknya dengan menggunakan asuransi tambahan atau membayar sendiri selisih biaya",
+      "parameter": [],
+      "bukti": "Peserta dapat meningkatkan haknya dengan menggunakan asuransi tambahan atau membayar sendiri selisih",
+      "confidence": 0.95,
+      "dasar_keyakinan": "dikutip",
+      "catatan": ""
+    },
+    {
+      "norm_id": "JAMSOS-JKK-UPAH-DASAR-TERAKHIR",
+      "topik": "Jamsos",
+      "pasal": "Pasal 32 ayat (1)",
+      "iri_individu": "ktn:JkkUpahDasarTerakhir",
+      "jenis": "KetentuanJaminanSosial",
+      "kondisi": "Pekerja mengalami Kecelakaan Kerja",
+      "akibat": "Upah sebagai dasar pembayaran JKK adalah Upah terakhir Pekerja pada saat kecelakaan terjadi",
+      "parameter": [],
+      "bukti": "Upah sebagai dasar pembayaran JKK adalah Upah terakhir Pekerja pada saat kecelakaan terjadi",
+      "confidence": 0.93,
+      "dasar_keyakinan": "dikutip",
+      "catatan": "Rujukan ke Pasal 19 mengenai Upah sebulan."
+    },
+    {
+      "norm_id": "JAMSOS-JKK-KEKURANGAN-UPAH-DILAPORKAN",
+      "topik": "Jamsos",
+      "pasal": "Pasal 32 ayat (2)",
+      "iri_individu": "ktn:JkkKekuranganUpahDilaporkan",
+      "jenis": "KetentuanJaminanSosial",
+      "kondisi": "Pemberi Kerja selain penyelenggara negara melaporkan Upah tidak sesuai Upah sebenarnya sehingga terjadi kekurangan pembayaran manfaat JKK",
+      "akibat": "Pemberi Kerja selain penyelenggara negara wajib membayar kekurangannya",
+      "parameter": [],
+      "bukti": "maka Pemberi Kerja selain penyelenggara negara wajib membayar kekurangannya",
+      "confidence": 0.95,
+      "dasar_keyakinan": "dikutip",
+      "catatan": ""
+    },
+    {
+      "norm_id": "JAMSOS-JKK-PEKERJA-TIDAK-TERDAFTAR",
+      "topik": "Jamsos",
+      "pasal": "Pasal 32 ayat (3) dan (4)",
+      "iri_individu": "ktn:JkkPekerjaTidakTerdaftar",
+      "jenis": "KetentuanJaminanSosial",
+      "kondisi": "Pemberi Kerja melaporkan data Pekerja tidak benar atau hanya mengikutsertakan sebagian program sehingga Pekerja tidak terdaftar/tidak sesuai penahapan kepesertaan",
+      "akibat": "Bila terjadi risiko terhadap Pekerja, Pemberi Kerja selain penyelenggara negara wajib memberikan hak Pekerja sesuai ketentuan PP ini",
+      "parameter": [],
+      "bukti": "maka bila terjadi risiko terhadap Pekerja, Pemberi Kerja selain penyelenggara negara wajib memberikan hak Pekerja sesuai dengan ketentuan dalam Peraturan Pemerintah ini",
+      "confidence": 0.9,
+      "dasar_keyakinan": "dikutip",
+      "catatan": "Ayat (3) dan (4) digabung karena akibat hukumnya identik; kondisi berbeda."
+    },
+    {
+      "norm_id": "JAMSOS-JKK-BIAYA-FASYANKES-NONMITRA",
+      "topik": "Jamsos",
+      "pasal": "Pasal 33 ayat (1)",
+      "iri_individu": "ktn:JkkBiayaFasyankesNonMitra",
+      "jenis": "KetentuanJaminanSosial",
+      "kondisi": "Peserta mengalami Kecelakaan Kerja dan dirawat pada fasilitas kesehatan yang belum bekerja sama dengan BPJS karena di lokasi tidak ada fasilitas mitra",
+      "akibat": "Biaya pelayanan kesehatan dibayar terlebih dahulu oleh Pemberi Kerja selain penyelenggara negara (penerima Upah) atau oleh Peserta (bukan penerima Upah)",
+      "parameter": [],
+      "bukti": "karena di lokasi kecelakaan tidak terdapat fasilitas pelayanan kesehatan yang menjalin kerja sama dengan BPJS Ketenagakerjaan",
+      "confidence": 0.95,
+      "dasar_keyakinan": "dikutip",
+      "catatan": ""
+    },
+    {
+      "norm_id": "JAMSOS-JKK-PENGGANTIAN-STANDAR-TERTINGGI",
+      "topik": "Jamsos",
+      "pasal": "Pasal 33 ayat (2) dan (3)",
+      "iri_individu": "ktn:JkkPenggantianStandarTertinggi",
+      "jenis": "KetentuanJaminanSosial",
+      "kondisi": "Peserta menggunakan fasilitas pelayanan kesehatan yang belum bekerja sama dengan BPJS",
+      "akibat": "BPJS memberi penggantian sebesar biaya yang dikeluarkan, setara standar fasilitas kesehatan tertinggi di daerah setempat; selisih kekurangan ditanggung Pemberi Kerja atau Peserta bukan penerima Upah",
+      "parameter": [],
+      "bukti": "biaya penggantian yang diberikan setara dengan standar fasilitas pelayanan kesehatan tertinggi di daerah setempat",
+      "confidence": 0.9,
+      "dasar_keyakinan": "dikutip",
+      "catatan": "Ayat (2) dan (3) digabung: hak penggantian beserta penanggung selisih kekurangan."
+    },
+    {
+      "norm_id": "JAMSOS-JKM-SANTUNAN-SEKALIGUS",
+      "topik": "Jamsos",
+      "pasal": "Pasal 34 ayat (1) huruf a",
+      "iri_individu": "ktn:JkmSantunanSekaligus",
+      "jenis": "KetentuanJaminanSosial",
+      "kondisi": "Peserta meninggal dunia dalam masa aktif",
+      "akibat": "Ahli waris Peserta menerima santunan sekaligus Rp16.200.000,00",
+      "parameter": [],
+      "bukti": "santunan sekaligus Rp16.200.000,00 (enam belas juta dua ratus ribu rupiah)",
+      "confidence": 0.95,
+      "dasar_keyakinan": "dikutip",
+      "catatan": "Nominal rupiah ditulis di akibat; VOCAB belum punya parameter nominal rupiah."
+    },
+    {
+      "norm_id": "JAMSOS-JKM-SANTUNAN-BERKALA",
+      "topik": "Jamsos",
+      "pasal": "Pasal 34 ayat (1) huruf b",
+      "iri_individu": "ktn:JkmSantunanBerkala",
+      "jenis": "KetentuanJaminanSosial",
+      "kondisi": "Peserta meninggal dunia dalam masa aktif",
+      "akibat": "Ahli waris Peserta menerima santunan berkala 24 x Rp200.000,00 = Rp4.800.000,00 yang dibayar sekaligus",
+      "parameter": [],
+      "bukti": "santunan berkala 24 x Rp200.000,00 = Rp4.800.000,00 (empat juta delapan ratus ribu rupiah)",
+      "confidence": 0.95,
+      "dasar_keyakinan": "dikutip",
+      "catatan": ""
+    },
+    {
+      "norm_id": "JAMSOS-JKM-BIAYA-PEMAKAMAN",
+      "topik": "Jamsos",
+      "pasal": "Pasal 34 ayat (1) huruf c",
+      "iri_individu": "ktn:JkmBiayaPemakaman",
+      "jenis": "KetentuanJaminanSosial",
+      "kondisi": "Peserta meninggal dunia dalam masa aktif",
+      "akibat": "Ahli waris Peserta menerima biaya pemakaman sebesar Rp3.000.000,00",
+      "parameter": [],
+      "bukti": "biaya pemakaman sebesar Rp3.000.000,00 (tiga juta rupiah)",
+      "confidence": 0.95,
+      "dasar_keyakinan": "dikutip",
+      "catatan": ""
+    },
+    {
+      "norm_id": "JAMSOS-JKM-BEASISWA-ANAK",
+      "topik": "Jamsos",
+      "pasal": "Pasal 34 ayat (1) huruf d dan ayat (2)",
+      "iri_individu": "ktn:JkmBeasiswaAnak",
+      "jenis": "KetentuanJaminanSosial",
+      "kondisi": "Peserta meninggal dunia bukan akibat Kecelakaan Kerja dan telah memiliki masa iur paling singkat 5 (lima) tahun",
+      "akibat": "Beasiswa pendidikan anak diberikan kepada ahli waris sebesar Rp12.000.000,00 untuk setiap Peserta",
+      "parameter": [],
+      "bukti": "diberikan sebanyak Rp12.000.000,00 (dua belas juta rupiah) untuk setiap Peserta",
+      "confidence": 0.9,
+      "dasar_keyakinan": "dikutip",
+      "catatan": "Syarat masa iur 5 tahun berasal dari ayat (1) huruf d; tata cara diatur Peraturan Menteri (ayat (3))."
+    },
+    {
+      "norm_id": "JAMSOS-JKM-PEMBERI-KERJA-BELUM-IKUT",
+      "topik": "Jamsos",
+      "pasal": "Pasal 35 ayat (1)",
+      "iri_individu": "ktn:JkmPemberiKerjaBelumIkut",
+      "jenis": "KetentuanJaminanSosial",
+      "kondisi": "Pemberi Kerja selain penyelenggara negara belum mengikutsertakan Pekerja dalam program JKM dan terjadi risiko terhadap Pekerja",
+      "akibat": "Pemberi Kerja selain penyelenggara negara wajib membayar hak Pekerja sesuai ketentuan PP ini",
+      "parameter": [],
+      "bukti": "Pemberi Kerja selain penyelenggara negara wajib membayar hak Pekerja sesuai dengan ketentuan dalam Peraturan Pemerintah ini",
+      "confidence": 0.95,
+      "dasar_keyakinan": "dikutip",
+      "catatan": "Tata cara pelaporan dan pembayaran diatur Peraturan Menteri (ayat (2))."
+    },
+    {
+      "norm_id": "JAMSOS-JKK-HAK-MANFAAT",
+      "topik": "Jamsos",
+      "pasal": "Pasal 37 ayat (1)",
+      "iri_individu": "ktn:JkkHakManfaat",
+      "jenis": "KetentuanJaminanSosial",
+      "kondisi": "Pekerja mengalami Kecelakaan Kerja atau penyakit akibat kerja",
+      "akibat": "Pekerja berhak memperoleh manfaat JKK sebagaimana dimaksud dalam Pasal 25 ayat (2)",
+      "parameter": [],
+      "bukti": "Pekerja yang mengalami Kecelakaan Kerja atau penyakit akibat kerja, berhak memperoleh manfaat JKK",
+      "confidence": 0.95,
+      "dasar_keyakinan": "dikutip",
+      "catatan": ""
+    },
+    {
+      "norm_id": "JAMSOS-JKK-PEMBAYARAN-TUJUH-HARI-KERJA",
+      "topik": "Jamsos",
+      "pasal": "Pasal 37 ayat (2)",
+      "iri_individu": "ktn:JkkPembayaranTujuhHari",
+      "jenis": "KetentuanJaminanSosial",
+      "kondisi": "Pekerja dinyatakan sembuh berdasarkan surat keterangan dokter dan persyaratan teknis serta administratif dipenuhi",
+      "akibat": "Manfaat JKK dibayarkan paling lama 7 (tujuh) hari kerja",
+      "parameter": [],
+      "bukti": "paling lama 7 (tujuh) hari kerja setelah dipenuhinya persyaratan teknis dan administratif",
+      "confidence": 0.95,
+      "dasar_keyakinan": "dikutip",
+      "catatan": ""
+    },
+    {
+      "norm_id": "JAMSOS-JKK-GANTI-RUGI-KETERLAMBATAN",
+      "topik": "Jamsos",
+      "pasal": "Pasal 37 ayat (3)",
+      "iri_individu": "ktn:JkkGantiRugiKeterlambatan",
+      "jenis": "KetentuanJaminanSosial",
+      "kondisi": "BPJS Ketenagakerjaan tidak melaksanakan kewajiban pembayaran manfaat JKK dalam 7 hari kerja",
+      "akibat": "Dikenai sanksi ganti rugi sebesar 1% dari nilai nominal santunan untuk setiap hari keterlambatan, dibayarkan kepada Peserta",
+      "parameter": [],
+      "bukti": "dikenai sanksi ganti rugi sebesar 1% (satu persen) dari nilai nominal santunan yang harus dibayar untuk setiap hari keterlambatan",
+      "confidence": 0.93,
+      "dasar_keyakinan": "dikutip",
+      "catatan": "Ganti rugi bersifat kompensasi kepada Peserta, bukan sanksi administratif."
+    },
+    {
+      "norm_id": "JAMSOS-JKK-MANFAAT-AHLI-WARIS",
+      "topik": "Jamsos",
+      "pasal": "Pasal 37 ayat (4)",
+      "iri_individu": "ktn:JkkManfaatAhliWaris",
+      "jenis": "KetentuanJaminanSosial",
+      "kondisi": "Pekerja penerima manfaat JKK meninggal dunia",
+      "akibat": "Hak atas manfaat JKK diberikan kepada ahli warisnya",
+      "parameter": [],
+      "bukti": "maka hak atas manfaat JKK diberikan kepada ahli warisnya",
+      "confidence": 0.95,
+      "dasar_keyakinan": "dikutip",
+      "catatan": "Urutan ahli waris diatur pada ayat (5): janda/duda/anak, keturunan sedarah, saudara kandung, mertua, wasiat."
+    },
+    {
+      "norm_id": "JAMSOS-JKK-TUNGGAKAN-MAKS-3-BULAN",
+      "topik": "Jamsos",
+      "pasal": "Pasal 38 ayat (1)",
+      "iri_individu": "ktn:JkkTunggakanMaksTigaBulan",
+      "jenis": "KetentuanJaminanSosial",
+      "kondisi": "Pemberi Kerja selain penyelenggara negara menunggak Iuran JKK sampai dengan 3 (tiga) bulan berturut-turut dan terjadi Kecelakaan Kerja atau penyakit akibat kerja",
+      "akibat": "BPJS Ketenagakerjaan wajib membayar manfaat JKK kepada Peserta atau ahli warisnya",
+      "parameter": [],
+      "bukti": "BPJS Ketenagakerjaan wajib membayar manfaat JKK sebagaimana dimaksud dalam Pasal 25 ayat (2) kepada Peserta atau ahli warisnya",
+      "confidence": 0.95,
+      "dasar_keyakinan": "dikutip",
+      "catatan": ""
+    },
+    {
+      "norm_id": "JAMSOS-JKK-TUNGGAKAN-LEBIH-3-BULAN",
+      "topik": "Jamsos",
+      "pasal": "Pasal 38 ayat (2)",
+      "iri_individu": "ktn:JkkTunggakanLebihTigaBulan",
+      "jenis": "KetentuanJaminanSosial",
+      "kondisi": "Pemberi Kerja selain penyelenggara negara menunggak Iuran JKK lebih dari 3 (tiga) bulan berturut-turut dan terjadi Kecelakaan Kerja atau penyakit akibat kerja",
+      "akibat": "Pemberi Kerja selain penyelenggara negara wajib membayar terlebih dahulu manfaat JKK kepada Peserta atau ahli warisnya",
+      "parameter": [],
+      "bukti": "Pemberi Kerja selain penyelenggara negara wajib membayar terlebih dahulu manfaat JKK",
+      "confidence": 0.95,
+      "dasar_keyakinan": "dikutip",
+      "catatan": ""
+    },
+    {
+      "norm_id": "JAMSOS-JKK-PENGGANTIAN-SETELAH-LUNAS",
+      "topik": "Jamsos",
+      "pasal": "Pasal 38 ayat (3)",
+      "iri_individu": "ktn:JkkPenggantianSetelahLunas",
+      "jenis": "KetentuanJaminanSosial",
+      "kondisi": "Pemberi Kerja selain penyelenggara negara telah melunasi seluruh tunggakan Iuran dan denda",
+      "akibat": "Pemberi Kerja dapat meminta penggantian kepada BPJS Ketenagakerjaan",
+      "parameter": [],
+      "bukti": "maka Pemberi Kerja selain penyelenggara negara dapat meminta penggantiannya kepada BPJS Ketenagakerjaan",
+      "confidence": 0.95,
+      "dasar_keyakinan": "dikutip",
+      "catatan": ""
+    },
+    {
+      "norm_id": "JAMSOS-JKK-BPU-TUNGGAKAN-MAKS-3-BULAN",
+      "topik": "Jamsos",
+      "pasal": "Pasal 39 ayat (1)",
+      "iri_individu": "ktn:JkkBpuTunggakanMaksTigaBulan",
+      "jenis": "KetentuanJaminanSosial",
+      "kondisi": "Peserta bukan penerima Upah menunggak Iuran JKK sampai dengan 3 (tiga) bulan berturut-turut dan mengalami Kecelakaan Kerja atau penyakit akibat kerja",
+      "akibat": "BPJS Ketenagakerjaan wajib memberikan manfaat pelayanan kesehatan, dan manfaat santunan berupa uang setelah Peserta sembuh serta melunasi tunggakan Iuran",
+      "parameter": [],
+      "bukti": "manfaat JKK sebagaimana dimaksud dalam Pasal 25 ayat (2) huruf a kepada Peserta",
+      "confidence": 0.93,
+      "dasar_keyakinan": "dikutip",
+      "catatan": "Huruf a (pelayanan kesehatan) dan huruf b (santunan uang setelah sembuh dan lunas tunggakan) digabung dalam satu norma."
+    },
+    {
+      "norm_id": "JAMSOS-JKK-BPU-TUNGGAKAN-LEBIH-3-BULAN",
+      "topik": "Jamsos",
+      "pasal": "Pasal 39 ayat (2)",
+      "iri_individu": "ktn:JkkBpuTunggakanLebihTigaBulan",
+      "jenis": "KetentuanJaminanSosial",
+      "kondisi": "Peserta bukan penerima Upah menunggak Iuran JKK lebih dari 3 (tiga) bulan berturut-turut dan mengalami Kecelakaan Kerja atau penyakit akibat kerja",
+      "akibat": "Peserta atau ahli warisnya tidak berhak atas manfaat JKK",
+      "parameter": [],
+      "bukti": "maka Peserta atau ahli warisnya tidak berhak atas manfaat JKK sebagaimana dimaksud dalam Pasal 25 ayat (2)",
+      "confidence": 0.95,
+      "dasar_keyakinan": "dikutip",
+      "catatan": ""
+    },
+    {
+      "norm_id": "JAMSOS-JKM-HAK-AHLI-WARIS",
+      "topik": "Jamsos",
+      "pasal": "Pasal 40 ayat (1)",
+      "iri_individu": "ktn:JkmHakAhliWaris",
+      "jenis": "KetentuanJaminanSosial",
+      "kondisi": "Peserta meninggal dunia bukan akibat Kecelakaan Kerja",
+      "akibat": "Ahli waris Peserta berhak atas manfaat JKM sebagaimana dimaksud dalam Pasal 34 ayat (1)",
+      "parameter": [],
+      "bukti": "Ahli waris Peserta yang meninggal dunia bukan akibat Kecelakaan Kerja berhak atas manfaat JKM",
+      "confidence": 0.95,
+      "dasar_keyakinan": "dikutip",
+      "catatan": "Urutan ahli waris sah diatur pada ayat (2)."
+    },
+    {
+      "norm_id": "JAMSOS-JKM-PEMBAYARAN-TIGA-HARI-KERJA",
+      "topik": "Jamsos",
+      "pasal": "Pasal 40 ayat (3)",
+      "iri_individu": "ktn:JkmPembayaranTigaHari",
+      "jenis": "KetentuanJaminanSosial",
+      "kondisi": "Surat permohonan pengajuan JKM diterima dengan surat keterangan kematian, surat keterangan ahli waris, dan Kartu Peserta BPJS Ketenagakerjaan",
+      "akibat": "Pembayaran manfaat JKM wajib dilakukan paling lama 3 (tiga) hari kerja",
+      "parameter": [],
+      "bukti": "wajib dilakukan paling lama 3 (tiga) hari kerja, sejak diterimanya surat permohonan pengajuan JKM",
+      "confidence": 0.95,
+      "dasar_keyakinan": "dikutip",
+      "catatan": ""
+    },
+    {
+      "norm_id": "JAMSOS-JKM-GANTI-RUGI-KETERLAMBATAN",
+      "topik": "Jamsos",
+      "pasal": "Pasal 40 ayat (4)",
+      "iri_individu": "ktn:JkmGantiRugiKeterlambatan",
+      "jenis": "KetentuanJaminanSosial",
+      "kondisi": "BPJS Ketenagakerjaan tidak memenuhi kewajiban pembayaran manfaat JKM dalam 3 hari kerja",
+      "akibat": "Dikenakan ganti rugi sebesar 1% dari nilai nominal santunan untuk setiap hari keterlambatan, dibayarkan kepada ahli waris Peserta",
+      "parameter": [],
+      "bukti": "dikenakan ganti rugi sebesar 1% (satu persen) dari nilai nominal santunan yang harus dibayar untuk setiap hari keterlambatan",
+      "confidence": 0.93,
+      "dasar_keyakinan": "dikutip",
+      "catatan": "Ganti rugi bersifat kompensasi kepada ahli waris, bukan sanksi administratif."
+    },
+    {
+      "norm_id": "JAMSOS-JKM-TUNGGAKAN-MAKS-3-BULAN",
+      "topik": "Jamsos",
+      "pasal": "Pasal 41 ayat (1)",
+      "iri_individu": "ktn:JkmTunggakanMaksTigaBulan",
+      "jenis": "KetentuanJaminanSosial",
+      "kondisi": "Pemberi Kerja selain penyelenggara negara menunggak Iuran JKM sampai dengan 3 (tiga) bulan berturut-turut dan Peserta meninggal dunia bukan karena Kecelakaan Kerja atau penyakit akibat kerja",
+      "akibat": "BPJS Ketenagakerjaan wajib membayar manfaat JKM kepada ahli waris",
+      "parameter": [],
+      "bukti": "BPJS Ketenagakerjaan wajib membayar manfaat JKM sebagaimana dimaksud dalam Pasal 34 kepada ahli waris",
+      "confidence": 0.95,
+      "dasar_keyakinan": "dikutip",
+      "catatan": ""
+    },
+    {
+      "norm_id": "JAMSOS-JKM-TUNGGAKAN-LEBIH-3-BULAN",
+      "topik": "Jamsos",
+      "pasal": "Pasal 41 ayat (2)",
+      "iri_individu": "ktn:JkmTunggakanLebihTigaBulan",
+      "jenis": "KetentuanJaminanSosial",
+      "kondisi": "Pemberi Kerja selain penyelenggara negara menunggak Iuran JKM lebih dari 3 (tiga) bulan berturut-turut dan Peserta meninggal dunia bukan karena Kecelakaan Kerja atau penyakit akibat kerja",
+      "akibat": "Pemberi Kerja selain penyelenggara negara wajib membayar terlebih dahulu manfaat JKM kepada ahli waris",
+      "parameter": [],
+      "bukti": "Pemberi Kerja selain penyelenggara negara wajib membayar terlebih dahulu manfaat JKM sebagaimana dimaksud dalam Pasal 34 kepada ahli waris",
+      "confidence": 0.95,
+      "dasar_keyakinan": "dikutip",
+      "catatan": ""
+    },
+    {
+      "norm_id": "JAMSOS-JKM-PENGGANTIAN-SETELAH-LUNAS",
+      "topik": "Jamsos",
+      "pasal": "Pasal 41 ayat (3)",
+      "iri_individu": "ktn:JkmPenggantianSetelahLunas",
+      "jenis": "KetentuanJaminanSosial",
+      "kondisi": "Pemberi Kerja selain penyelenggara negara telah melunasi seluruh tunggakan Iuran dan denda",
+      "akibat": "Pemberi Kerja dapat meminta penggantian kepada BPJS Ketenagakerjaan",
+      "parameter": [],
+      "bukti": "maka Pemberi Kerja selain penyelenggara negara dapat meminta penggantiannya kepada BPJS Ketenagakerjaan",
+      "confidence": 0.95,
+      "dasar_keyakinan": "dikutip",
+      "catatan": ""
+    },
+    {
+      "norm_id": "JAMSOS-JKM-TUNGGAKAN-3BULAN",
+      "topik": "Jamsos",
+      "pasal": "Pasal 42 ayat (1)",
+      "iri_individu": "ktn:ManfaatJKMTunggakan3Bulan",
+      "jenis": "KetentuanJaminanSosial",
+      "kondisi": "Peserta bukan penerima Upah menunggak Iuran JKM sampai dengan 3 bulan berturut-turut dan Peserta meninggal dunia bukan karena Kecelakaan Kerja atau penyakit akibat kerja",
+      "akibat": "BPJS Ketenagakerjaan wajib memberikan manfaat JKM huruf c kepada ahli waris, serta huruf a, huruf b, dan huruf d setelah ahli waris melunasi tunggakan Iuran",
+      "parameter": [],
+      "bukti": "Peserta bukan penerima Upah yang menunggak Iuran JKM sampai dengan 3 (tiga) bulan berturut-turut dan Peserta meninggal dunia bukan karena Kecelakaan Kerja",
+      "confidence": 0.95,
+      "dasar_keyakinan": "dikutip",
+      "catatan": "Batas 3 bulan belum diparameterkan (tidak ada nama parameter yang cocok di VOCAB)."
+    },
+    {
+      "norm_id": "JAMSOS-JKM-TUNGGAKAN-LEBIH-3-BULAN-2",
+      "topik": "Jamsos",
+      "pasal": "Pasal 42 ayat (2)",
+      "iri_individu": "ktn:KehilanganManfaatJKMTunggakan",
+      "jenis": "KetentuanJaminanSosial",
+      "kondisi": "Peserta bukan penerima Upah menunggak Iuran JKM lebih dari 3 bulan berturut-turut dan Peserta meninggal dunia bukan karena Kecelakaan Kerja atau penyakit akibat kerja",
+      "akibat": "Ahli waris tidak berhak atas manfaat JKM",
+      "parameter": [],
+      "bukti": "ahli waris tidak berhak atas manfaat JKM sebagaimana dimaksud dalam Pasal 34",
+      "confidence": 0.95,
+      "dasar_keyakinan": "dikutip",
+      "catatan": "Batas 3 bulan belum diparameterkan. Ayat (3) hanya pendelegasian ke Peraturan Menteri."
+    },
+    {
+      "norm_id": "JAMSOS-LAPOR-KK-TAHAP-I-PU",
+      "topik": "Jamsos",
+      "pasal": "Pasal 43 ayat (1)-(2)",
+      "iri_individu": "ktn:LaporanKKTahapIPU",
+      "jenis": "KetentuanJaminanSosial",
+      "kondisi": "Terjadi Kecelakaan Kerja atau penyakit akibat kerja yang menimpa Pekerja",
+      "akibat": "Pemberi Kerja selain penyelenggara negara wajib menyampaikan laporan tahap I kepada BPJS Ketenagakerjaan dan instansi ketenagakerjaan setempat paling lama 2 x 24 jam sejak kejadian atau diagnosis",
+      "parameter": [],
+      "bukti": "wajib melaporkan Kecelakaan Kerja atau penyakit akibat kerja yang menimpa Pekerja kepada BPJS Ketenagakerjaan",
+      "confidence": 0.95,
+      "dasar_keyakinan": "dikutip",
+      "catatan": "Ayat (1)-(2) digabung; tenggat 2 x 24 jam belum diparameterkan."
+    },
+    {
+      "norm_id": "JAMSOS-LAPOR-KK-TAHAP-II-PU",
+      "topik": "Jamsos",
+      "pasal": "Pasal 43 ayat (3)-(5)",
+      "iri_individu": "ktn:LaporanKKTahapIIPU",
+      "jenis": "KetentuanJaminanSosial",
+      "kondisi": "Pekerja dinyatakan sembuh, Cacat, atau meninggal dunia berdasarkan surat keterangan dokter",
+      "akibat": "Pemberi Kerja selain penyelenggara negara wajib menyampaikan laporan tahap II paling lama 2 x 24 jam; laporan sekaligus merupakan pengajuan manfaat JKK dengan melampirkan persyaratan",
+      "parameter": [],
+      "bukti": "merupakan laporan tahap II yang disampaikan dalam jangka waktu paling lama 2 x 24 jam",
+      "confidence": 0.95,
+      "dasar_keyakinan": "dikutip",
+      "catatan": "Ayat (3)-(5) digabung."
+    },
+    {
+      "norm_id": "JAMSOS-PROSES-MANFAAT-JKK-PU",
+      "topik": "Jamsos",
+      "pasal": "Pasal 43 ayat (6)-(7)",
+      "iri_individu": "ktn:ProsesManfaatJKKPU",
+      "jenis": "KetentuanJaminanSosial",
+      "kondisi": "Laporan tahap II diterima BPJS Ketenagakerjaan",
+      "akibat": "Bila persyaratan lengkap, BPJS menghitung dan membayar manfaat JKK kepada yang berhak; bila belum lengkap, BPJS memberitahukan kepada Pemberi Kerja paling lama 7 hari kerja",
+      "parameter": [],
+      "bukti": "BPJS Ketenagakerjaan menghitung dan membayar manfaat JKK kepada yang berhak",
+      "confidence": 0.95,
+      "dasar_keyakinan": "dikutip",
+      "catatan": "Ayat (6)-(7) digabung; ayat (8) hanya mekanisme manual/elektronik. Batas 7 hari kerja belum diparameterkan."
+    },
+    {
+      "norm_id": "JAMSOS-LAPOR-KK-TAHAP-I-BPU",
+      "topik": "Jamsos",
+      "pasal": "Pasal 44 ayat (1)-(2)",
+      "iri_individu": "ktn:LaporanKKTahapIBPU",
+      "jenis": "KetentuanJaminanSosial",
+      "kondisi": "Terjadi Kecelakaan Kerja atau penyakit akibat kerja yang menimpa Peserta bukan penerima Upah",
+      "akibat": "Peserta bukan penerima Upah dan/atau keluarganya wajib menyampaikan laporan tahap I kepada BPJS Ketenagakerjaan dan instansi ketenagakerjaan setempat paling lama 2 x 24 jam",
+      "parameter": [],
+      "bukti": "Peserta bukan penerima Upah dan/ atau keluarganya, wajib melaporkan Kecelakaan Kerja atau penyakit akibat kerja",
+      "confidence": 0.95,
+      "dasar_keyakinan": "dikutip",
+      "catatan": "Ayat (1)-(2) digabung."
+    },
+    {
+      "norm_id": "JAMSOS-LAPOR-KK-TAHAP-II-BPU",
+      "topik": "Jamsos",
+      "pasal": "Pasal 44 ayat (3)-(5)",
+      "iri_individu": "ktn:LaporanKKTahapIIBPU",
+      "jenis": "KetentuanJaminanSosial",
+      "kondisi": "Peserta bukan penerima Upah dinyatakan sembuh, Cacat, atau meninggal dunia berdasarkan surat keterangan dokter",
+      "akibat": "Peserta atau keluarganya wajib menyampaikan laporan tahap II paling lama 2 x 24 jam; laporan sekaligus merupakan pengajuan manfaat JKK dengan melampirkan persyaratan",
+      "parameter": [],
+      "bukti": "merupakan laporan tahap II yang disampaikan dalam jangka waktu paling lama 2 x 24 jam setelah Pekerja dinyatakan sembuh, Cacat, atau meninggal dunia",
+      "confidence": 0.95,
+      "dasar_keyakinan": "dikutip",
+      "catatan": "Ayat (3)-(5) digabung; ayat (6)-(8) sejalan dengan Pasal 43 ayat (6)-(8)."
+    },
+    {
+      "norm_id": "JKK-PENETAPAN-PENGAWAS",
+      "topik": "Jamsos",
+      "pasal": "Pasal 45 ayat (2)",
+      "iri_individu": "ktn:PenetapanJKCPengawas",
+      "jenis": "KetentuanJaminanSosial",
+      "kondisi": "Perhitungan BPJS Ketenagakerjaan tidak diterima salah satu pihak dan terjadi perbedaan pendapat mengenai penetapan Kecelakaan Kerja, persentase Cacat, atau besarnya manfaat JKK",
+      "akibat": "Penetapan manfaat JKK dilakukan oleh Pengawas Ketenagakerjaan setempat",
+      "parameter": [],
+      "bukti": "maka penetapan manfaat JKK dilakukan oleh Pengawas Ketenagakerjaan setempat",
+      "confidence": 0.9,
+      "dasar_keyakinan": "dikutip",
+      "catatan": "Ayat (1) hanya kewajiban BPJS menghitung berdasarkan surat keterangan dokter; ayat (5) pendelegasian ke Peraturan Menteri."
+    },
+    {
+      "norm_id": "JKK-PENETAPAN-MENTERI",
+      "topik": "Jamsos",
+      "pasal": "Pasal 45 ayat (3)-(4)",
+      "iri_individu": "ktn:PenetapanJKCMenteri",
+      "jenis": "KetentuanJaminanSosial",
+      "kondisi": "Penetapan Pengawas Ketenagakerjaan tidak diterima salah satu pihak",
+      "akibat": "Pihak yang tidak menerima dapat meminta penetapan Menteri; penetapan Menteri merupakan penetapan akhir yang wajib dilaksanakan",
+      "parameter": [],
+      "bukti": "maka pihak yang tidak menerima dapat meminta penetapan Menteri",
+      "confidence": 0.9,
+      "dasar_keyakinan": "dikutip",
+      "catatan": "Ayat (3)-(4) digabung."
+    },
+    {
+      "norm_id": "JAMSOS-BAYAR-FASKES",
+      "topik": "Jamsos",
+      "pasal": "Pasal 46 ayat (1)",
+      "iri_individu": "ktn:PembayaranFaskesJKK",
+      "jenis": "KetentuanJaminanSosial",
+      "kondisi": "Fasilitas pelayanan kesehatan telah memberikan pelayanan kepada Peserta dan dokumen pengajuan pembayaran diterima lengkap",
+      "akibat": "BPJS Ketenagakerjaan wajib membayar paling lama 7 hari kerja",
+      "parameter": [],
+      "bukti": "paling lama 7 (tujuh) hari kerja, sejak dokumen pengajuan pembayaran dari fasilitas pelayanan kesehatan diterima secara lengkap",
+      "confidence": 0.95,
+      "dasar_keyakinan": "dikutip",
+      "catatan": "Ayat (2) pendelegasian tata cara ke Peraturan BPJS Ketenagakerjaan."
+    },
+    {
+      "norm_id": "JAMSOS-PAK-SETELAH-PHK",
+      "topik": "Jamsos",
+      "pasal": "Pasal 48 ayat (1)-(2)",
+      "iri_individu": "ktn:ManfaatJKKPAKSetelahPHK",
+      "jenis": "KetentuanJaminanSosial",
+      "kondisi": "Pekerja didiagnosis penyakit akibat kerja dan penyakit tersebut timbul paling lama 3 tahun sejak hubungan kerja berakhir",
+      "akibat": "Pekerja berhak atas manfaat JKK meskipun hubungan kerja telah berakhir",
+      "parameter": [],
+      "bukti": "berhak atas manfaat JKK meskipun hubungan kerja telah berakhir",
+      "confidence": 0.95,
+      "dasar_keyakinan": "dikutip",
+      "catatan": "Ayat (1)-(2) digabung; batas 3 tahun belum diparameterkan. Ayat (3) jenis PAK ditetapkan Perpres; ayat (4) merujuk Pasal 44 dan 45 (OCR menulis 'Pasal 44, Pasal 44, dan Pasal 45')."
+    },
+    {
+      "norm_id": "JAMSOS-KEMBALI-KERJA",
+      "topik": "Jamsos",
+      "pasal": "Pasal 49 ayat (1)",
+      "iri_individu": "ktn:ProgramKembaliKerja",
+      "jenis": "KetentuanJaminanSosial",
+      "kondisi": "Pekerja mengalami Kecelakaan Kerja atau penyakit akibat kerja dan terdapat rekomendasi dokter penasehat",
+      "akibat": "Pekerja dapat memperoleh program kembali kerja agar dapat bekerja kembali seperti semula",
+      "parameter": [],
+      "bukti": "dapat memperoleh program kembali kerja agar Pekerja dapat bekerja kembali seperti semula",
+      "confidence": 0.95,
+      "dasar_keyakinan": "dikutip",
+      "catatan": "Ayat (2) pendelegasian tata cara ke Peraturan Menteri."
+    },
+    {
+      "norm_id": "JAMSOS-PROMOTIF-PREVENTIF",
+      "topik": "Jamsos",
+      "pasal": "Pasal 50 ayat (1)",
+      "iri_individu": "ktn:UpayaPromotifPreventifJKK",
+      "jenis": "KetentuanJaminanSosial",
+      "kondisi": "Pemberi Kerja selain penyelenggara negara",
+      "akibat": "Wajib melakukan upaya pencegahan melalui kegiatan promotif dan preventif bekerja sama dengan BPJS Ketenagakerjaan",
+      "parameter": [],
+      "bukti": "wajib melakukan upaya pencegahan melalui kegiatan promotif dan preventif bekerja sama dengan BPJS Ketenagakerjaan",
+      "confidence": 0.9,
+      "dasar_keyakinan": "dikutip",
+      "catatan": "Substansi K3; jenis KetentuanK3 masih kandidat di VOCAB sehingga dicatat sebagai KetentuanJaminanSosial. Ayat (2) pendelegasian ke Peraturan Menteri."
+    },
+    {
+      "norm_id": "JAMSOS-STMB-UPAH",
+      "topik": "Upah",
+      "pasal": "Pasal 51 ayat (1)",
+      "iri_individu": "ktn:UpahSelamaTidakMampuBekerja",
+      "jenis": "KetentuanUpah",
+      "kondisi": "Peserta mengalami Kecelakaan Kerja atau penyakit akibat kerja dan masih belum mampu bekerja",
+      "akibat": "Pemberi Kerja selain penyelenggara negara tetap membayar Upah sampai ada surat keterangan dokter yang menyatakan Pekerja sembuh, Cacat, atau meninggal dunia",
+      "parameter": [],
+      "bukti": "Pemberi Kerja selain penyelenggara negara tetap membayar Upah Pekerja sampai ada surat keterangan dokter",
+      "confidence": 0.95,
+      "dasar_keyakinan": "dikutip",
+      "catatan": ""
+    },
+    {
+      "norm_id": "JAMSOS-STMB-SANTUNAN",
+      "topik": "Jamsos",
+      "pasal": "Pasal 51 ayat (2)",
+      "iri_individu": "ktn:SantunanSTMB",
+      "jenis": "KetentuanJaminanSosial",
+      "kondisi": "Pemberi Kerja selain penyelenggara negara telah membayar Upah selama Peserta belum mampu bekerja",
+      "akibat": "BPJS Ketenagakerjaan membayar santunan sementara tidak mampu bekerja kepada Pemberi Kerja sebagai pengganti Upah",
+      "parameter": [],
+      "bukti": "BPJS Ketenagakerjaan membayar santunan sementara tidak mampu bekerja kepada Pemberi Kerja selain penyelenggara negara sebagai pengganti Upah",
+      "confidence": 0.95,
+      "dasar_keyakinan": "dikutip",
+      "catatan": ""
+    },
+    {
+      "norm_id": "JAMSOS-STMB-SELISIH-LEBIH",
+      "topik": "Jamsos",
+      "pasal": "Pasal 51 ayat (3)",
+      "iri_individu": "ktn:SantunanSTMBLebih",
+      "jenis": "KetentuanJaminanSosial",
+      "kondisi": "Penggantian santunan sementara tidak mampu bekerja oleh BPJS lebih besar dari Upah yang telah dibayarkan Pemberi Kerja",
+      "akibat": "Selisihnya dibayarkan langsung kepada Pekerja",
+      "parameter": [],
+      "bukti": "maka selisihnya dibayarkan langsung kepada Pekerja",
+      "confidence": 0.95,
+      "dasar_keyakinan": "dikutip",
+      "catatan": ""
+    },
+    {
+      "norm_id": "JAMSOS-STMB-SELISIH-KURANG",
+      "topik": "Jamsos",
+      "pasal": "Pasal 51 ayat (4)",
+      "iri_individu": "ktn:SantunanSTMBKurang",
+      "jenis": "KetentuanJaminanSosial",
+      "kondisi": "Penggantian santunan sementara tidak mampu bekerja oleh BPJS lebih kecil dari Upah yang telah dibayarkan Pemberi Kerja",
+      "akibat": "Selisihnya tidak dapat dimintakan kembali dari Pekerja",
+      "parameter": [],
+      "bukti": "maka selisihnya tidak dapat dimintakan kembali dari Pekerja",
+      "confidence": 0.95,
+      "dasar_keyakinan": "dikutip",
+      "catatan": ""
+    },
+    {
+      "norm_id": "PHK-SELAMA-PENGOBATAN",
+      "topik": "PHK",
+      "pasal": "Pasal 52 ayat (1)",
+      "iri_individu": "ktn:LaranganPHKSelamaPengobatan",
+      "jenis": "AlasanPHK",
+      "kondisi": "Peserta masih dalam masa pengobatan dan perawatan akibat Kecelakaan Kerja atau penyakit akibat kerja",
+      "akibat": "Pemberi Kerja selain penyelenggara negara dilarang melakukan pemutusan hubungan kerja",
+      "parameter": [],
+      "bukti": "Pemberi Kerja selain penyelenggara negara dilarang melakukan pemutusan hubungan kerja",
+      "confidence": 0.95,
+      "dasar_keyakinan": "dikutip",
+      "catatan": ""
+    },
+    {
+      "norm_id": "PHK-CACAT-DIPERKERJAKAN",
+      "topik": "PHK",
+      "pasal": "Pasal 52 ayat (2)",
+      "iri_individu": "ktn:KewajibanPekerjakanCacat",
+      "jenis": "AlasanPHK",
+      "kondisi": "Peserta mengalami Cacat akibat Kecelakaan Kerja atau penyakit akibat kerja",
+      "akibat": "Harus tetap dipekerjakan kembali, kecuali mengalami Cacat total tetap dan kecacatannya tidak memungkinkan lagi melakukan pekerjaan",
+      "parameter": [],
+      "bukti": "harus tetap dipekerjakan kembali kecuali apabila Peserta mengalami Cacat total tetap",
+      "confidence": 0.9,
+      "dasar_keyakinan": "dikutip",
+      "catatan": ""
+    },
+    {
+      "norm_id": "JAMSOS-DAFTAR-KONSTRUKSI",
+      "topik": "Jamsos",
+      "pasal": "Pasal 53",
+      "iri_individu": "ktn:KewajibanDaftarJKKJKMKonstruksi",
+      "jenis": "KetentuanJaminanSosial",
+      "kondisi": "Pemberi Kerja selain penyelenggara negara pada skala usaha besar, menengah, kecil, dan mikro yang bergerak di bidang jasa konstruksi mempekerjakan Pekerja harian lepas, borongan, dan perjanjian kerja waktu tertentu",
+      "akibat": "Wajib mendaftarkan Pekerjanya dalam program JKK dan JKM sesuai penahapan kepesertaan",
+      "bukti": "wajib mendaftarkan Pekerjanya dalam program JKK dan JKM sesuai penahapan kepesertaan",
+      "confidence": 0.95,
+      "dasar_keyakinan": "dikutip",
+      "catatan": ""
+    },
+    {
+      "norm_id": "JAMSOS-IURAN-JKK-KONSTRUKSI-UPAH",
+      "topik": "Jamsos",
+      "pasal": "Pasal 54 ayat (1)",
+      "iri_individu": "ktn:IuranJKKKonstruksiUpah",
+      "jenis": "KetentuanJaminanSosial",
+      "kondisi": "Iuran didasarkan atas Upah Pekerja dan komponen Upah tercantum dan diketahui, bagi Pekerja harian lepas, borongan, dan perjanjian kerja waktu tertentu pada Pemberi Kerja selain penyelenggara negara di sektor jasa konstruksi",
+      "akibat": "Iuran JKK ditetapkan sebesar 1,74% dari Upah sebulan",
+      "bukti": "Iuran ditetapkan sebesar 1,74% (satu koma tujuh puluh empat persen) dari Upah sebulan",
+      "confidence": 0.95,
+      "dasar_keyakinan": "dikutip",
+      "catatan": "Persentase tarif tidak diparameterkan karena VOCAB belum menyediakan nama parameter tarif."
+    },
+    {
+      "norm_id": "JAMSOS-IURAN-JKK-KONSTRUKSI-KONTRAK",
+      "topik": "Jamsos",
+      "pasal": "Pasal 54 ayat (2)",
+      "iri_individu": "ktn:IuranJKKKonstruksiKontrak",
+      "jenis": "KetentuanJaminanSosial",
+      "kondisi": "Komponen Upah Pekerja tidak diketahui atau tidak tercantum",
+      "akibat": "Iuran JKK dihitung berdasarkan nilai kontrak kerja konstruksi: 0,21% untuk kontrak sampai dengan Rp100.000.000,00; ditambah 0,17% dari selisih di atas Rp100.000.000,00 sampai Rp500.000.000,00; ditambah 0,13% dari selisih di atas Rp500.000.000,00 sampai Rp1.000.000.000,00; ditambah 0,11% dari selisih di atas Rp1.000.000.000,00 sampai Rp5.000.000.000,00; ditambah 0,09% dari selisih di atas Rp5.000.000.000,00",
+      "bukti": "besarnya Iuran JKK dihitung berdasarkan nilai kontrak kerja konstruksi",
+      "confidence": 0.92,
+      "dasar_keyakinan": "dikutip",
+      "catatan": "Tarif bertingkat per nilai kontrak (huruf a-e); persentase tidak diparameterkan karena VOCAB belum menyediakan nama parameter tarif."
+    },
+    {
+      "norm_id": "JAMSOS-IURAN-JKM-KONSTRUKSI-UPAH",
+      "topik": "Jamsos",
+      "pasal": "Pasal 55 ayat (1)",
+      "iri_individu": "ktn:IuranJKMKonstruksiUpah",
+      "jenis": "KetentuanJaminanSosial",
+      "kondisi": "Iuran didasarkan atas Upah Pekerja dan komponen Upah tercantum dan diketahui, bagi Pekerja harian lepas, borongan, dan perjanjian kerja waktu tertentu pada Pemberi Kerja selain penyelenggara negara di sektor jasa konstruksi",
+      "akibat": "Iuran JKM ditetapkan sebesar 0,30% dari Upah sebulan",
+      "bukti": "Iuran ditetapkan sebesar 0,30% (nol koma tiga puluh persen) dari Upah sebulan",
+      "confidence": 0.95,
+      "dasar_keyakinan": "dikutip",
+      "catatan": "Persentase tarif tidak diparameterkan karena VOCAB belum menyediakan nama parameter tarif."
+    },
+    {
+      "norm_id": "JAMSOS-IURAN-JKM-KONSTRUKSI-KONTRAK",
+      "topik": "Jamsos",
+      "pasal": "Pasal 55 ayat (2)",
+      "iri_individu": "ktn:IuranJKMKonstruksiKontrak",
+      "jenis": "KetentuanJaminanSosial",
+      "kondisi": "Komponen Upah Pekerja tidak diketahui atau tidak tercantum",
+      "akibat": "Iuran JKM dihitung berdasarkan nilai kontrak kerja konstruksi: 0,03% untuk kontrak sampai dengan Rp100.000.000,00; ditambah 0,02% dari selisih di atas Rp100.000.000,00 sampai Rp500.000.000,00; ditambah 0,02% dari selisih di atas Rp500.000.000,00 sampai Rp1.000.000.000,00; ditambah 0,01% dari selisih di atas Rp1.000.000.000,00 sampai Rp5.000.000.000,00; ditambah 0,01% dari selisih di atas Rp5.000.000.000,00",
+      "bukti": "Iuran JKM dihitung berdasarkan nilai kontrak kerja konstruksi",
+      "confidence": 0.92,
+      "dasar_keyakinan": "dikutip",
+      "catatan": "Tarif bertingkat per nilai kontrak (huruf a-e); persentase tidak diparameterkan karena VOCAB belum menyediakan nama parameter tarif. Sumber OCR membaca 'besarnyaa'."
+    },
+    {
+      "norm_id": "JAMSOS-MANFAAT-KONSTRUKSI",
+      "topik": "Jamsos",
+      "pasal": "Pasal 56 ayat (1)",
+      "iri_individu": "ktn:ManfaatJKKJKMKonstruksi",
+      "jenis": "KetentuanJaminanSosial",
+      "kondisi": "Pekerja harian lepas, borongan, dan perjanjian kerja waktu tertentu pada Pemberi Kerja selain penyelenggara negara di sektor jasa konstruksi",
+      "akibat": "Manfaat JKK dan JKM diberikan sesuai ketentuan Pasal 25 ayat (2) dan Pasal 33",
+      "bukti": "diberikan sesuai ketentuan dalam Pasal 25 ayat (2) dan Pasal 33",
+      "confidence": 0.9,
+      "dasar_keyakinan": "dikutip",
+      "catatan": "Ayat (2) hanya mendelegasikan tata cara pendaftaran, kartu peserta, dan pembayaran Iuran ke Peraturan Menteri (bukan norma)."
     }
   ],
   "kategori": [],
   "pengali_lembur": [],
-  "program_jamsos": [],
+  "program_jamsos": [
+    {
+      "program_id": "JKK-RISIKO-SANGAT-RENDAH",
+      "nama": "JKK Tingkat Risiko Sangat Rendah",
+      "jenis_program": "JKK",
+      "tarif_pengusaha_persen": 0.24,
+      "tarif_pekerja_persen": 0,
+      "tarif_total_persen": 0.24,
+      "tingkat_risiko": "sangat_rendah",
+      "pasal": "Pasal 16 ayat (1) huruf a",
+      "bukti": "tingkat risiko sangat rendah : 0,24% (nol koma dua puluh empat persen) dari Upah sebulan",
+      "confidence": 0.95,
+      "dasar_keyakinan": "dikutip",
+      "catatan": ""
+    },
+    {
+      "program_id": "JKK-RISIKO-RENDAH",
+      "nama": "JKK Tingkat Risiko Rendah",
+      "jenis_program": "JKK",
+      "tarif_pengusaha_persen": 0.54,
+      "tarif_pekerja_persen": 0,
+      "tarif_total_persen": 0.54,
+      "tingkat_risiko": "rendah",
+      "pasal": "Pasal 16 ayat (1) huruf b",
+      "bukti": "tingkat risiko rendah : 0,54% (nol koma lima puluh empat persen) dari Upah sebulan",
+      "confidence": 0.95,
+      "dasar_keyakinan": "dikutip",
+      "catatan": ""
+    },
+    {
+      "program_id": "JKK-RISIKO-SEDANG",
+      "nama": "JKK Tingkat Risiko Sedang",
+      "jenis_program": "JKK",
+      "tarif_pengusaha_persen": 0.89,
+      "tarif_pekerja_persen": 0,
+      "tarif_total_persen": 0.89,
+      "tingkat_risiko": "sedang",
+      "pasal": "Pasal 16 ayat (1) huruf c",
+      "bukti": "tingkat risiko sedang : 0,89% (nol koma delapan puluh sembilan persen) dari Upah sebulan",
+      "confidence": 0.95,
+      "dasar_keyakinan": "dikutip",
+      "catatan": ""
+    },
+    {
+      "program_id": "JKK-RISIKO-TINGGI",
+      "nama": "JKK Tingkat Risiko Tinggi",
+      "jenis_program": "JKK",
+      "tarif_pengusaha_persen": 1.27,
+      "tarif_pekerja_persen": 0,
+      "tarif_total_persen": 1.27,
+      "tingkat_risiko": "tinggi",
+      "pasal": "Pasal 16 ayat (1) huruf d",
+      "bukti": "tingkat risiko tinggi : 1,27% (satu koma dua puluh tujuh persen) dari Upah sebulan",
+      "confidence": 0.95,
+      "dasar_keyakinan": "dikutip",
+      "catatan": ""
+    },
+    {
+      "program_id": "JKK-RISIKO-SANGAT-TINGGI",
+      "nama": "JKK Tingkat Risiko Sangat Tinggi",
+      "jenis_program": "JKK",
+      "tarif_pengusaha_persen": 1.74,
+      "tarif_pekerja_persen": 0,
+      "tarif_total_persen": 1.74,
+      "tingkat_risiko": "sangat_tinggi",
+      "pasal": "Pasal 16 ayat (1) huruf e",
+      "bukti": "1,74% (satu koma tujuh puluh empat persen) dari Upah sebulan",
+      "confidence": 0.95,
+      "dasar_keyakinan": "dikutip",
+      "catatan": ""
+    },
+    {
+      "program_id": "JKM-PENERIMA-UPAH",
+      "nama": "Jaminan Kematian Penerima Upah",
+      "jenis_program": "JKM",
+      "tarif_pengusaha_persen": 0.3,
+      "tarif_pekerja_persen": 0,
+      "tarif_total_persen": 0.3,
+      "tingkat_risiko": null,
+      "pasal": "Pasal 18 ayat (1)",
+      "bukti": "sebesar 0,30% (nol koma tiga puluh persen) dari Upah sebulan",
+      "confidence": 0.95,
+      "dasar_keyakinan": "dikutip",
+      "catatan": ""
+    },
+    {
+      "program_id": "JKK-KONSTRUKSI",
+      "nama": "Iuran JKK Sektor Jasa Konstruksi",
+      "jenis_program": "JKK",
+      "tarif_pengusaha_persen": 1.74,
+      "tarif_pekerja_persen": 0,
+      "tarif_total_persen": 1.74,
+      "tingkat_risiko": null,
+      "pasal": "Pasal 54 ayat (1)",
+      "bukti": "Iuran ditetapkan sebesar 1,74% (satu koma tujuh puluh empat persen) dari Upah sebulan",
+      "confidence": 0.95,
+      "dasar_keyakinan": "dikutip",
+      "catatan": "Khusus Pekerja harian lepas, borongan, dan PKWT pada sektor jasa konstruksi; komponen tarif Pekerja tidak disebut eksplisit. Bila komponen Upah tidak diketahui, iuran dihitung dari nilai kontrak (Pasal 54 ayat (2))."
+    },
+    {
+      "program_id": "JKM-KONSTRUKSI",
+      "nama": "Iuran JKM Sektor Jasa Konstruksi",
+      "jenis_program": "JKM",
+      "tarif_pengusaha_persen": 0.3,
+      "tarif_pekerja_persen": 0,
+      "tarif_total_persen": 0.3,
+      "tingkat_risiko": null,
+      "pasal": "Pasal 55 ayat (1)",
+      "bukti": "Iuran ditetapkan sebesar 0,30% (nol koma tiga puluh persen) dari Upah sebulan",
+      "confidence": 0.95,
+      "dasar_keyakinan": "dikutip",
+      "catatan": "Khusus Pekerja harian lepas, borongan, dan PKWT pada sektor jasa konstruksi; komponen tarif Pekerja tidak disebut eksplisit. Bila komponen Upah tidak diketahui, iuran dihitung dari nilai kontrak (Pasal 55 ayat (2))."
+    }
+  ],
   "cakupan": {
-    "lengkap": false,
+    "lengkap": true,
     "pasal_diekstrak": [
-      "Pasal 16"
+      "Pasal 1",
+      "Pasal 10",
+      "Pasal 11",
+      "Pasal 12",
+      "Pasal 13",
+      "Pasal 14",
+      "Pasal 15",
+      "Pasal 16",
+      "Pasal 17",
+      "Pasal 18",
+      "Pasal 19",
+      "Pasal 2",
+      "Pasal 20",
+      "Pasal 21",
+      "Pasal 22",
+      "Pasal 23",
+      "Pasal 24",
+      "Pasal 25",
+      "Pasal 26",
+      "Pasal 28",
+      "Pasal 29",
+      "Pasal 3",
+      "Pasal 30",
+      "Pasal 31",
+      "Pasal 32",
+      "Pasal 33",
+      "Pasal 34",
+      "Pasal 35",
+      "Pasal 36",
+      "Pasal 37",
+      "Pasal 38",
+      "Pasal 39",
+      "Pasal 4",
+      "Pasal 40",
+      "Pasal 41",
+      "Pasal 42",
+      "Pasal 43",
+      "Pasal 44",
+      "Pasal 45",
+      "Pasal 46",
+      "Pasal 47",
+      "Pasal 48",
+      "Pasal 49",
+      "Pasal 5",
+      "Pasal 50",
+      "Pasal 51",
+      "Pasal 52",
+      "Pasal 53",
+      "Pasal 54",
+      "Pasal 55",
+      "Pasal 56",
+      "Pasal 57",
+      "Pasal 58",
+      "Pasal 59",
+      "Pasal 6",
+      "Pasal 60",
+      "Pasal 61",
+      "Pasal 62",
+      "Pasal 63",
+      "Pasal 7",
+      "Pasal 8",
+      "Pasal 9"
     ],
     "pasal_dilewati": [
       {
         "pasal": "Pasal 1",
-        "alasan": "retrofit: belum ditinjau (migrasi data pilot)"
+        "alasan": "definisi/istilah"
       },
       {
         "pasal": "Pasal 2",
-        "alasan": "retrofit: belum ditinjau (migrasi data pilot)"
-      },
-      {
-        "pasal": "Pasal 3",
-        "alasan": "retrofit: belum ditinjau (migrasi data pilot)"
-      },
-      {
-        "pasal": "Pasal 4",
-        "alasan": "retrofit: belum ditinjau (migrasi data pilot)"
+        "alasan": "kelembagaan: penetapan BPJS Ketenagakerjaan sebagai penyelenggara program JKK dan JKM, tanpa akibat hukum bagi pekerja"
       },
       {
         "pasal": "Pasal 5",
-        "alasan": "retrofit: belum ditinjau (migrasi data pilot)"
+        "alasan": "klasifikasi/definisi kepesertaan (penerima Upah dan bukan penerima Upah), tanpa akibat hukum mandiri"
       },
       {
         "pasal": "Pasal 6",
-        "alasan": "retrofit: belum ditinjau (migrasi data pilot)"
+        "alasan": "tata cara pendaftaran dan tenggat administratif (penyerahan formulir 30 hari kerja, penerbitan nomor kepesertaan 1 hari kerja)"
       },
       {
         "pasal": "Pasal 7",
-        "alasan": "retrofit: belum ditinjau (migrasi data pilot)"
-      },
-      {
-        "pasal": "Pasal 8",
-        "alasan": "retrofit: belum ditinjau (migrasi data pilot)"
+        "alasan": "tata cara administratif penerbitan sertifikat dan Kartu Peserta serta tenggat penyerahannya"
       },
       {
         "pasal": "Pasal 9",
-        "alasan": "retrofit: belum ditinjau (migrasi data pilot)"
-      },
-      {
-        "pasal": "Pasal 10",
-        "alasan": "retrofit: belum ditinjau (migrasi data pilot)"
-      },
-      {
-        "pasal": "Pasal 11",
-        "alasan": "retrofit: belum ditinjau (migrasi data pilot)"
+        "alasan": "tata cara administratif pelaporan perubahan data Peserta dan Pemberi Kerja"
       },
       {
         "pasal": "Pasal 12",
-        "alasan": "retrofit: belum ditinjau (migrasi data pilot)"
+        "alasan": "tata cara administratif penerbitan dan penyerahan Kartu Peserta bagi bukan penerima Upah"
       },
       {
         "pasal": "Pasal 13",
-        "alasan": "retrofit: belum ditinjau (migrasi data pilot)"
+        "alasan": "tata cara administratif pelaporan perubahan data dan pembentukan wadah/kelompok Peserta"
       },
       {
         "pasal": "Pasal 14",
-        "alasan": "retrofit: belum ditinjau (migrasi data pilot)"
-      },
-      {
-        "pasal": "Pasal 15",
-        "alasan": "retrofit: belum ditinjau (migrasi data pilot)"
+        "alasan": "ketentuan pelimpahan: bentuk kartu, sertifikat, dan formulir diatur dengan Peraturan BPJS Ketenagakerjaan"
       },
       {
         "pasal": "Pasal 17",
-        "alasan": "retrofit: belum ditinjau (migrasi data pilot)"
-      },
-      {
-        "pasal": "Pasal 18",
-        "alasan": "retrofit: belum ditinjau (migrasi data pilot)"
-      },
-      {
-        "pasal": "Pasal 19",
-        "alasan": "retrofit: belum ditinjau (migrasi data pilot)"
-      },
-      {
-        "pasal": "Pasal 20",
-        "alasan": "retrofit: belum ditinjau (migrasi data pilot)"
-      },
-      {
-        "pasal": "Pasal 21",
-        "alasan": "retrofit: belum ditinjau (migrasi data pilot)"
-      },
-      {
-        "pasal": "Pasal 22",
-        "alasan": "retrofit: belum ditinjau (migrasi data pilot)"
+        "alasan": "tata cara/kelembagaan: evaluasi berkala pengelompokan tingkat risiko lingkungan kerja oleh penyelenggara, bukan hak atau kewajiban normatif Pekerja/Pemberi Kerja"
       },
       {
         "pasal": "Pasal 23",
-        "alasan": "retrofit: belum ditinjau (migrasi data pilot)"
-      },
-      {
-        "pasal": "Pasal 24",
-        "alasan": "retrofit: belum ditinjau (migrasi data pilot)"
-      },
-      {
-        "pasal": "Pasal 25",
-        "alasan": "retrofit: belum ditinjau (migrasi data pilot)"
-      },
-      {
-        "pasal": "Pasal 26",
-        "alasan": "retrofit: belum ditinjau (migrasi data pilot)"
-      },
-      {
-        "pasal": "Pasal 28",
-        "alasan": "retrofit: belum ditinjau (migrasi data pilot)"
+        "alasan": "tata cara administrasi: penghitungan kelebihan/kekurangan Iuran dan pemberitahuan tertulis oleh BPJS Ketenagakerjaan, bukan norma hak"
       },
       {
         "pasal": "Pasal 29",
-        "alasan": "retrofit: belum ditinjau (migrasi data pilot)"
-      },
-      {
-        "pasal": "Pasal 30",
-        "alasan": "retrofit: belum ditinjau (migrasi data pilot)"
-      },
-      {
-        "pasal": "Pasal 31",
-        "alasan": "retrofit: belum ditinjau (migrasi data pilot)"
-      },
-      {
-        "pasal": "Pasal 32",
-        "alasan": "retrofit: belum ditinjau (migrasi data pilot)"
-      },
-      {
-        "pasal": "Pasal 33",
-        "alasan": "retrofit: belum ditinjau (migrasi data pilot)"
-      },
-      {
-        "pasal": "Pasal 34",
-        "alasan": "retrofit: belum ditinjau (migrasi data pilot)"
-      },
-      {
-        "pasal": "Pasal 35",
-        "alasan": "retrofit: belum ditinjau (migrasi data pilot)"
+        "alasan": "kelembagaan: evaluasi berkala besaran Iuran dan manfaat program JKK, bukan hak atau kewajiban normatif"
       },
       {
         "pasal": "Pasal 36",
-        "alasan": "retrofit: belum ditinjau (migrasi data pilot)"
-      },
-      {
-        "pasal": "Pasal 37",
-        "alasan": "retrofit: belum ditinjau (migrasi data pilot)"
-      },
-      {
-        "pasal": "Pasal 38",
-        "alasan": "retrofit: belum ditinjau (migrasi data pilot)"
-      },
-      {
-        "pasal": "Pasal 39",
-        "alasan": "retrofit: belum ditinjau (migrasi data pilot)"
-      },
-      {
-        "pasal": "Pasal 40",
-        "alasan": "retrofit: belum ditinjau (migrasi data pilot)"
-      },
-      {
-        "pasal": "Pasal 41",
-        "alasan": "retrofit: belum ditinjau (migrasi data pilot)"
-      },
-      {
-        "pasal": "Pasal 42",
-        "alasan": "retrofit: belum ditinjau (migrasi data pilot)"
-      },
-      {
-        "pasal": "Pasal 43",
-        "alasan": "retrofit: belum ditinjau (migrasi data pilot)"
-      },
-      {
-        "pasal": "Pasal 44",
-        "alasan": "retrofit: belum ditinjau (migrasi data pilot)"
-      },
-      {
-        "pasal": "Pasal 45",
-        "alasan": "retrofit: belum ditinjau (migrasi data pilot)"
-      },
-      {
-        "pasal": "Pasal 46",
-        "alasan": "retrofit: belum ditinjau (migrasi data pilot)"
-      },
-      {
-        "pasal": "Pasal 47",
-        "alasan": "retrofit: belum ditinjau (migrasi data pilot)"
-      },
-      {
-        "pasal": "Pasal 48",
-        "alasan": "retrofit: belum ditinjau (migrasi data pilot)"
-      },
-      {
-        "pasal": "Pasal 49",
-        "alasan": "retrofit: belum ditinjau (migrasi data pilot)"
-      },
-      {
-        "pasal": "Pasal 50",
-        "alasan": "retrofit: belum ditinjau (migrasi data pilot)"
-      },
-      {
-        "pasal": "Pasal 51",
-        "alasan": "retrofit: belum ditinjau (migrasi data pilot)"
-      },
-      {
-        "pasal": "Pasal 52",
-        "alasan": "retrofit: belum ditinjau (migrasi data pilot)"
-      },
-      {
-        "pasal": "Pasal 53",
-        "alasan": "retrofit: belum ditinjau (migrasi data pilot)"
-      },
-      {
-        "pasal": "Pasal 54",
-        "alasan": "retrofit: belum ditinjau (migrasi data pilot)"
-      },
-      {
-        "pasal": "Pasal 55",
-        "alasan": "retrofit: belum ditinjau (migrasi data pilot)"
-      },
-      {
-        "pasal": "Pasal 56",
-        "alasan": "retrofit: belum ditinjau (migrasi data pilot)"
+        "alasan": "ketentuan evaluasi berkala iuran dan manfaat JKM (paling lama 2 tahun); bukan norma hak atau akibat hukum bagi pekerja"
       },
       {
         "pasal": "Pasal 57",
-        "alasan": "retrofit: belum ditinjau (migrasi data pilot)"
+        "alasan": "tata cara penanganan keluhan dan kelembagaan unit pengendali mutu BPJS"
       },
       {
         "pasal": "Pasal 58",
-        "alasan": "retrofit: belum ditinjau (migrasi data pilot)"
+        "alasan": "mekanisme penyelesaian sengketa (musyawarah, mediasi, pengadilan)"
       },
       {
         "pasal": "Pasal 59",
-        "alasan": "retrofit: belum ditinjau (migrasi data pilot)"
+        "alasan": "sanksi administratif"
       },
       {
         "pasal": "Pasal 60",
-        "alasan": "retrofit: belum ditinjau (migrasi data pilot)"
-      },
-      {
-        "pasal": "Pasal 61",
-        "alasan": "retrofit: belum ditinjau (migrasi data pilot)"
-      },
-      {
-        "pasal": "Pasal 62",
-        "alasan": "retrofit: belum ditinjau (migrasi data pilot)"
+        "alasan": "sanksi administratif berupa tidak mendapat pelayanan publik tertentu"
       },
       {
         "pasal": "Pasal 63",
-        "alasan": "retrofit: belum ditinjau (migrasi data pilot)"
-      },
-      {
-        "pasal": "Pasal 27",
-        "alasan": "retrofit: belum ditinjau (migrasi data pilot)"
+        "alasan": "ketentuan penutup (tanggal mulai berlaku)"
       }
     ],
-    "catatan": "Retrofit dari data pilot (migrasi ke record); belum ditinjau penuh."
+    "catatan": ""
   },
-  "tidak_termodelkan": []
+  "tidak_termodelkan": [
+    {
+      "pasal": "Pasal 47",
+      "ringkasan": "Tarif pembayaran kepada fasilitas pelayanan kesehatan ditetapkan berdasarkan kesepakatan bersama BPJS Ketenagakerjaan dengan faskes, mengacu pada tarif yang ditetapkan Menteri.",
+      "alasan": "Relevan (biaya layanan JKK) tetapi butuh kelas/properti tarif faskes yang belum ada di T-Box; program_jamsos hanya menampung tarif iuran."
+    },
+    {
+      "pasal": "Pasal 61",
+      "ringkasan": "BPJS Ketenagakerjaan wajib melaporkan ketidakpatuhan Pemberi Kerja kepada Pengawas Ketenagakerjaan, yang kemudian melakukan pemeriksaan",
+      "alasan": "butuh jenis/topik KetentuanPengawasan yang masih kandidat di VOCAB"
+    },
+    {
+      "pasal": "Pasal 62",
+      "ringkasan": "Pengawas Ketenagakerjaan dapat memeriksa Pemberi Kerja yang melanggar ketentuan sanksi administratif tanpa menunggu laporan",
+      "alasan": "butuh jenis/topik KetentuanPengawasan yang masih kandidat di VOCAB"
+    }
+  ]
 }

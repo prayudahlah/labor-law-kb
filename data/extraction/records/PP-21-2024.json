@@ -1,0 +1,60 @@
+{
+  "spec_version": "1.1.0",
+  "vocab_version": "0.3.0",
+  "dokumen_id": "PP-21-2024",
+  "status_review": "reviewed",
+  "peraturan": {
+    "judul": "Peraturan Pemerintah Nomor 21 Tahun 2024 tentang Perubahan atas Peraturan Pemerintah Nomor 25 Tahun 2020 tentang Penyelenggaraan Tabungan Perumahan Rakyat",
+    "jenis": "PP",
+    "nomor": "21",
+    "tahun": "2024",
+    "sumber": "https://peraturan.bpk.go.id/Details/286236/pp-no-21-tahun-2024",
+    "status": "Berlaku",
+    "diubah_oleh": []
+  },
+  "norma": [],
+  "kategori": [],
+  "pengali_lembur": [],
+  "program_jamsos": [],
+  "cakupan": {
+    "lengkap": true,
+    "pasal_diekstrak": [
+      "Pasal 1",
+      "Pasal 15",
+      "Pasal 52",
+      "Pasal 63",
+      "Pasal 63A",
+      "Pasal 64"
+    ],
+    "pasal_dilewati": [
+      {
+        "pasal": "Pasal 1",
+        "alasan": "definisi/istilah: batasan Tapera, Gaji, Upah, Peserta, Pemberi Kerja, dan istilah lain, tanpa akibat hukum yang dapat dinalar"
+      },
+      {
+        "pasal": "Pasal 52",
+        "alasan": "kewajiban pelaporan keuangan dan penyaluran pembiayaan kepada BP Tapera; tata kelola kelembagaan, bukan hak normatif pekerja"
+      },
+      {
+        "pasal": "Pasal 63",
+        "alasan": "sumber-sumber Dana Tapera; ketentuan pendanaan/kelembagaan"
+      },
+      {
+        "pasal": "Pasal 63A",
+        "alasan": "pengelolaan terpisah dana wakaf dan dana lain; ketentuan kelembagaan"
+      },
+      {
+        "pasal": "Pasal 64",
+        "alasan": "pengelolaan Dana Fasilitas Likuiditas Pembiayaan Perumahan oleh BP Tapera; ketentuan kelembagaan/fiskal, bukan hubungan kerja"
+      }
+    ],
+    "catatan": ""
+  },
+  "tidak_termodelkan": [
+    {
+      "pasal": "Pasal 15",
+      "ringkasan": "Besaran Simpanan Peserta ditetapkan 3% dari Gaji atau Upah; untuk Peserta Pekerja ditanggung bersama Pemberi Kerja 0,5% dan Pekerja 2,5%; Peserta Pekerja Mandiri menanggung sendiri; dasar perhitungan ditetapkan menteri terkait/BP Tapera dan besaran dapat dievaluasi.",
+      "alasan": "relevan (potongan Gaji/Upah untuk Tapera) tetapi butuh kelas/properti baru: program Tapera dan parameter tarif simpanan persen tidak ada di T-Box/VOCAB (program_jamsos hanya JKK/JKM/JHT/JP/JKP, parameter hanya pengali/nominal, bukan persen); angka juga cacat OCR ('O,1Vo' vs 'nol koma lima persen'), sehingga nilai tidak dapat dipastikan tanpa sumber ulang"
+    }
+  ]
+}

@@ -1,6 +1,6 @@
 {
-  "spec_version": "1.0.0",
-  "vocab_version": "0.1.0",
+  "spec_version": "1.1.0",
+  "vocab_version": "0.3.0",
   "dokumen_id": "PP-35-2021",
   "status_review": "reviewed",
   "peraturan": {
@@ -14,15 +14,188 @@
   },
   "norma": [
     {
-      "norm_id": "ALIH-DAYA-BADAN-HUKUM",
-      "topik": "AlihDaya",
-      "pasal": "Pasal 20",
-      "iri_individu": "ktn:KetentuanBadanHukumAlihDaya",
-      "jenis": "KetentuanAlihDaya",
-      "kondisi": "Perusahaan alih daya",
-      "akibat": "Wajib berbentuk badan hukum dan memenuhi perizinan berusaha",
+      "norm_id": "PKWT-LARANGAN-PEKERJAAN-TETAP",
+      "topik": "PKWT",
+      "pasal": "Pasal 4 ayat (2)",
+      "iri_individu": "ktn:LaranganPKWTPekerjaanTetap",
+      "jenis": "KetentuanPKWT",
+      "kondisi": "PKWT diadakan untuk pekerjaan yang bersifat tetap",
+      "akibat": "PKWT tidak dapat diadakan",
       "parameter": [],
-      "bukti": "Perusahaan Alih Daya harus berbentuk badan hukum dan wajib memenuhi perizinan berusaha",
+      "bukti": "PKWT tidak dapat diadakan untuk pekerjaan yang bersifat tetap",
+      "confidence": 0.95,
+      "dasar_keyakinan": "dikutip",
+      "catatan": ""
+    },
+    {
+      "norm_id": "PKWT-JANGKA-KERJA-TERTENTU-MAKS",
+      "topik": "PKWT",
+      "pasal": "Pasal 6",
+      "iri_individu": "ktn:BatasPekerjaanTidakTerlaluLama",
+      "jenis": "KetentuanPKWT",
+      "kondisi": "Pekerjaan yang diperkirakan penyelesaiannya dalam waktu yang tidak terlalu lama",
+      "akibat": "PKWT dilaksanakan paling lama 5 tahun",
+      "parameter": [
+        {
+          "nama": "batasTahunPKWT",
+          "nilai": "5",
+          "satuan": "tahun",
+          "jenis": "nominal",
+          "pasal": "Pasal 6"
+        }
+      ],
+      "bukti": "dilaksanakan paling lama 5 (lima) tahun",
+      "confidence": 0.95,
+      "dasar_keyakinan": "dikutip",
+      "catatan": "Merinci Pasal 5 ayat (1) huruf a."
+    },
+    {
+      "norm_id": "PKWT-JANGKA-MAKS",
+      "topik": "PKWT",
+      "pasal": "Pasal 8 ayat (1)",
+      "iri_individu": "ktn:BatasJangkaWaktuPKWT",
+      "jenis": "KetentuanPKWT",
+      "kondisi": "PKWT berdasarkan jangka waktu",
+      "akibat": "Paling lama 5 tahun; perpanjangan tidak boleh melebihi total 5 tahun dan masa kerja dihitung sejak PKWT",
+      "parameter": [
+        {
+          "nama": "batasTahunPKWT",
+          "nilai": "5",
+          "satuan": "tahun",
+          "jenis": "nominal",
+          "pasal": "Pasal 8 ayat (1)"
+        }
+      ],
+      "bukti": "dapat dibuat untuk paling lama 5 (lima) tahun",
+      "confidence": 0.95,
+      "dasar_keyakinan": "dikutip",
+      "catatan": "Ayat (2)-(3): perpanjangan sesuai kesepakatan, jangka waktu keseluruhan tidak lebih dari 5 tahun, masa kerja tetap dihitung sejak PKWT."
+    },
+    {
+      "norm_id": "PKWT-SELESAI-PEKERJAAN",
+      "topik": "PKWT",
+      "pasal": "Pasal 9 ayat (3)",
+      "iri_individu": "ktn:PKWTPutusSaatPekerjaanSelesai",
+      "jenis": "KetentuanPKWT",
+      "kondisi": "Pekerjaan tertentu yang diperjanjikan dalam PKWT selesai lebih cepat dari waktu yang disepakati",
+      "akibat": "PKWT putus demi hukum pada saat selesainya pekerjaan",
+      "parameter": [],
+      "bukti": "PKWT putus demi hukum pada saat selesainya pekerjaan",
+      "confidence": 0.95,
+      "dasar_keyakinan": "dikutip",
+      "catatan": "Ayat (4)-(5): bila pekerjaan belum selesai, PKWT diperpanjang sampai batas waktu; masa kerja dihitung sejak PKWT."
+    },
+    {
+      "norm_id": "PKWT-HARIAN-KONVERSI",
+      "topik": "PKWT",
+      "pasal": "Pasal 10 ayat (4)",
+      "iri_individu": "ktn:KonversiHarianKePKWTT",
+      "jenis": "KetentuanPKWT",
+      "kondisi": "Pekerja bekerja 21 hari atau lebih selama 3 bulan berturut-turut atau lebih",
+      "akibat": "Perjanjian Kerja harian tidak berlaku dan hubungan kerja demi hukum berubah menjadi PKWTT",
+      "parameter": [
+        {
+          "nama": "batasHariKerjaHarian",
+          "nilai": "21",
+          "satuan": "hari",
+          "jenis": "nominal",
+          "pasal": "Pasal 10 ayat (3)"
+        },
+        {
+          "nama": "batasBulanKonversi",
+          "nilai": "3",
+          "satuan": "bulan",
+          "jenis": "nominal",
+          "pasal": "Pasal 10 ayat (4)"
+        }
+      ],
+      "bukti": "bekerja 21 (dua puluh satu) hari atau lebih selama 3 (tiga) bulan berturut-turut",
+      "confidence": 0.95,
+      "dasar_keyakinan": "dikutip",
+      "catatan": "Ayat (3): perjanjian kerja harian untuk pekerja yang bekerja kurang dari 21 hari dalam 1 bulan."
+    },
+    {
+      "norm_id": "PKWT-TANPA-PERCOBAAN",
+      "topik": "PKWT",
+      "pasal": "Pasal 12",
+      "iri_individu": "ktn:LaranganPercobaanPKWT",
+      "jenis": "KetentuanPKWT",
+      "kondisi": "PKWT mensyaratkan masa percobaan kerja",
+      "akibat": "Masa percobaan batal demi hukum dan masa kerja tetap dihitung",
+      "parameter": [],
+      "bukti": "PKWT tidak dapat mensyaratkan adanya masa percobaan kerja",
+      "confidence": 0.95,
+      "dasar_keyakinan": "dikutip",
+      "catatan": ""
+    },
+    {
+      "norm_id": "PKWT-PENCATATAN",
+      "topik": "PKWT",
+      "pasal": "Pasal 14 ayat (1)",
+      "iri_individu": "ktn:KetentuanPencatatanPKWT",
+      "jenis": "KetentuanPKWT",
+      "kondisi": "PKWT ditandatangani",
+      "akibat": "Wajib dicatatkan secara daring paling lama 3 hari kerja sejak penandatanganan",
+      "parameter": [
+        {
+          "nama": "batasHariPencatatan",
+          "nilai": "3",
+          "satuan": "hari",
+          "jenis": "nominal",
+          "pasal": "Pasal 14 ayat (1)"
+        }
+      ],
+      "bukti": "dicatatkan oleh Pengusaha pada kementerian yang menyelenggarakan urusan pemerintahan di bidang ketenagakerjaan secara daring paling lama 3 (tiga) hari kerja",
+      "confidence": 0.95,
+      "dasar_keyakinan": "dikutip",
+      "catatan": "Ayat (2): bila pencatatan daring belum tersedia, pencatatan tertulis di dinas paling lama 7 hari kerja."
+    },
+    {
+      "norm_id": "PKWT-KOMPENSASI-WAJIB",
+      "topik": "PKWT",
+      "pasal": "Pasal 15 ayat (1)",
+      "iri_individu": "ktn:KetentuanUangKompensasiPKWT",
+      "jenis": "KetentuanPKWT",
+      "kondisi": "Hubungan kerja berdasarkan PKWT berakhir dan masa kerja paling sedikit 1 bulan secara terus menerus",
+      "akibat": "Pengusaha wajib memberikan uang kompensasi; tidak berlaku bagi tenaga kerja asing",
+      "parameter": [],
+      "bukti": "Pengusaha wajib memberikan uang kompensasi kepada Pekerja/Buruh yang hubungan kerjanya berdasarkan PKWT",
+      "confidence": 0.95,
+      "dasar_keyakinan": "dikutip",
+      "catatan": "Ayat (2)-(5): dibayar saat PKWT berakhir atau saat perpanjangan; dikecualikan bagi tenaga kerja asing."
+    },
+    {
+      "norm_id": "PKWT-KOMPENSASI-BESARAN",
+      "topik": "PKWT",
+      "pasal": "Pasal 16 ayat (1)",
+      "iri_individu": "ktn:BesaranUangKompensasiPKWT",
+      "jenis": "KetentuanPKWT",
+      "kondisi": "PKWT berakhir dengan masa kerja 1 bulan atau lebih",
+      "akibat": "Masa kerja 12 bulan terus menerus mendapat 1 bulan upah; masa kerja lain dihitung proporsional masa kerja/12 x 1 bulan upah",
+      "parameter": [
+        {
+          "nama": "faktorPembagiKompensasi",
+          "nilai": "12",
+          "satuan": "bulan",
+          "jenis": "nominal",
+          "pasal": "Pasal 16 ayat (1)"
+        }
+      ],
+      "bukti": "PKWT selama 12 (dua belas) bulan secara terus menerus, diberikan sebesar 1 (satu) bulan Upah",
+      "confidence": 0.95,
+      "dasar_keyakinan": "dikutip",
+      "catatan": "Ayat (2)-(6): dasar upah pokok dan tunjangan tetap; usaha mikro dan kecil berdasarkan kesepakatan."
+    },
+    {
+      "norm_id": "PKWT-KOMPENSASI-PUTUS-DINI",
+      "topik": "PKWT",
+      "pasal": "Pasal 17",
+      "iri_individu": "ktn:KompensasiPKWTPutusDini",
+      "jenis": "KetentuanPKWT",
+      "kondisi": "Salah satu pihak mengakhiri hubungan kerja sebelum berakhirnya jangka waktu PKWT",
+      "akibat": "Pengusaha wajib memberikan uang kompensasi yang dihitung berdasarkan jangka waktu PKWT yang telah dilaksanakan",
+      "parameter": [],
+      "bukti": "dihitung berdasarkan jangka waktu PKWT yang telah dilaksanakan oleh Pekerja/Buruh",
       "confidence": 0.95,
       "dasar_keyakinan": "dikutip",
       "catatan": ""
@@ -30,361 +203,483 @@
     {
       "norm_id": "ALIH-DAYA-HUBUNGAN-KERJA",
       "topik": "AlihDaya",
-      "pasal": "Pasal 18",
-      "iri_individu": "ktn:KetentuanPerlindunganAlihDaya",
+      "pasal": "Pasal 18 ayat (1)",
+      "iri_individu": "ktn:KetentuanHubunganKerjaAlihDaya",
       "jenis": "KetentuanAlihDaya",
       "kondisi": "Perusahaan alih daya mempekerjakan pekerja",
-      "akibat": "Perlindungan menjadi tanggung jawab perusahaan alih daya",
+      "akibat": "Hubungan kerja didasarkan pada PKWT atau PKWTT dan perjanjian harus dibuat secara tertulis",
       "parameter": [],
-      "bukti": "Hubungan Kerja antara Perusahaan Alih Daya dengan Pekerja/Buruh didasarkan pada PKWT atau PKWTT",
+      "bukti": "Hubungan Kerja antara Perusahaan Alih Daya dengan Pekerja/Buruh yang dipekerjakan, didasarkan pada PKWT atau PKWTT",
       "confidence": 0.95,
       "dasar_keyakinan": "dikutip",
       "catatan": ""
+    },
+    {
+      "norm_id": "ALIH-DAYA-PERLINDUNGAN",
+      "topik": "AlihDaya",
+      "pasal": "Pasal 18 ayat (3)",
+      "iri_individu": "ktn:PerlindunganPekerjaAlihDaya",
+      "jenis": "KetentuanAlihDaya",
+      "kondisi": "Pekerja dipekerjakan oleh perusahaan alih daya",
+      "akibat": "Pelindungan, upah, kesejahteraan, syarat kerja, dan perselisihan menjadi tanggung jawab perusahaan alih daya",
+      "parameter": [],
+      "bukti": "menjadi tanggung jawab Perusahaan Alih Daya",
+      "confidence": 0.95,
+      "dasar_keyakinan": "dikutip",
+      "catatan": "Diatur dalam Perjanjian Kerja, Peraturan Perusahaan, atau Perjanjian Kerja Bersama."
     },
     {
       "norm_id": "ALIH-DAYA-PENGALIHAN-HAK",
       "topik": "AlihDaya",
-      "pasal": "Pasal 19",
+      "pasal": "Pasal 19 ayat (1)",
       "iri_individu": "ktn:KetentuanPengalihanHakAlihDaya",
       "jenis": "KetentuanAlihDaya",
-      "kondisi": "Pergantian perusahaan alih daya",
-      "akibat": "PKWT wajib mensyaratkan pengalihan perlindungan hak",
+      "kondisi": "Perusahaan alih daya mempekerjakan pekerja berdasarkan PKWT dan terjadi pergantian perusahaan alih daya",
+      "akibat": "PKWT wajib mensyaratkan pengalihan pelindungan hak sepanjang objek pekerjaan tetap ada",
       "parameter": [],
-      "bukti": "Perjanjian Kerja tersebut harus mensyaratkan pengalihan pelindungan hak",
+      "bukti": "harus mensyaratkan pengalihan pelindungan hak bagi Pekerja/Buruh apabila terjadi pergantian Perusahaan Alih Daya",
+      "confidence": 0.95,
+      "dasar_keyakinan": "dikutip",
+      "catatan": "Ayat (2): pengalihan merupakan jaminan kelangsungan bekerja."
+    },
+    {
+      "norm_id": "ALIH-DAYA-TANGGUNG-JAWAB",
+      "topik": "AlihDaya",
+      "pasal": "Pasal 19 ayat (3)",
+      "iri_individu": "ktn:TanggungJawabAlihDaya",
+      "jenis": "KetentuanAlihDaya",
+      "kondisi": "Pekerja tidak memperoleh jaminan kelangsungan bekerja",
+      "akibat": "Perusahaan alih daya bertanggung jawab atas pemenuhan hak pekerja",
+      "parameter": [],
+      "bukti": "Perusahaan Alih Daya bertanggung jawab atas pemenuhan hak Pekerja/Buruh",
       "confidence": 0.95,
       "dasar_keyakinan": "dikutip",
       "catatan": ""
     },
     {
+      "norm_id": "ALIH-DAYA-BADAN-HUKUM",
+      "topik": "AlihDaya",
+      "pasal": "Pasal 20 ayat (1)",
+      "iri_individu": "ktn:KetentuanBadanHukumAlihDaya",
+      "jenis": "KetentuanAlihDaya",
+      "kondisi": "Perusahaan alih daya",
+      "akibat": "Wajib berbentuk badan hukum dan memenuhi perizinan berusaha yang diterbitkan Pemerintah Pusat",
+      "parameter": [],
+      "bukti": "Perusahaan Alih Daya harus berbentuk badan hukum dan wajib memenuhi perizinan berusaha",
+      "confidence": 0.95,
+      "dasar_keyakinan": "dikutip",
+      "catatan": "Ayat (2): syarat dan tata cara perizinan mengikuti ketentuan peraturan perundang-undangan."
+    },
+    {
+      "norm_id": "WAKTU-KERJA-6HARI",
+      "topik": "WaktuKerja",
+      "pasal": "Pasal 21 ayat (2)a",
+      "iri_individu": "ktn:WaktuKerja6Hari",
+      "jenis": "KetentuanWaktuKerja",
+      "kondisi": "Pengusaha menerapkan 6 hari kerja dalam 1 minggu",
+      "akibat": "Waktu kerja 7 jam sehari dan 40 jam seminggu",
+      "parameter": [
+        {
+          "nama": "jamKerjaPerHari",
+          "nilai": "7",
+          "satuan": "jam",
+          "jenis": "nominal",
+          "pasal": "Pasal 21 ayat (2)a"
+        },
+        {
+          "nama": "jamKerjaPerMinggu",
+          "nilai": "40",
+          "satuan": "jam",
+          "jenis": "nominal",
+          "pasal": "Pasal 21 ayat (2)a"
+        },
+        {
+          "nama": "jumlahHariKerjaPerMinggu",
+          "nilai": "6",
+          "satuan": "hari",
+          "jenis": "nominal",
+          "pasal": "Pasal 21 ayat (2)a"
+        }
+      ],
+      "bukti": "7 (tujuh) jam 1 (satu) hari dan 40 (empat puluh) jam 1 (satu) minggu untuk 6 (enam) hari kerja",
+      "confidence": 0.95,
+      "dasar_keyakinan": "dikutip",
+      "catatan": ""
+    },
+    {
+      "norm_id": "WAKTU-KERJA-5HARI",
+      "topik": "WaktuKerja",
+      "pasal": "Pasal 21 ayat (2)b",
+      "iri_individu": "ktn:WaktuKerja5Hari",
+      "jenis": "KetentuanWaktuKerja",
+      "kondisi": "Pengusaha menerapkan 5 hari kerja dalam 1 minggu",
+      "akibat": "Waktu kerja 8 jam sehari dan 40 jam seminggu",
+      "parameter": [
+        {
+          "nama": "jamKerjaPerHari",
+          "nilai": "8",
+          "satuan": "jam",
+          "jenis": "nominal",
+          "pasal": "Pasal 21 ayat (2)b"
+        },
+        {
+          "nama": "jamKerjaPerMinggu",
+          "nilai": "40",
+          "satuan": "jam",
+          "jenis": "nominal",
+          "pasal": "Pasal 21 ayat (2)b"
+        },
+        {
+          "nama": "jumlahHariKerjaPerMinggu",
+          "nilai": "5",
+          "satuan": "hari",
+          "jenis": "nominal",
+          "pasal": "Pasal 21 ayat (2)b"
+        }
+      ],
+      "bukti": "8 (delapan) jam 1 (satu) hari dan 40 (empat puluh) jam 1 (satu) minggu untuk 5 (lima) hari kerja",
+      "confidence": 0.95,
+      "dasar_keyakinan": "dikutip",
+      "catatan": ""
+    },
+    {
+      "norm_id": "ISTIRAHAT-MINGGUAN-6HARI",
+      "topik": "WaktuKerja",
+      "pasal": "Pasal 22 huruf a",
+      "iri_individu": "ktn:IstirahatMingguan6Hari",
+      "jenis": "KetentuanWaktuKerja",
+      "kondisi": "Pekerja bekerja 6 hari kerja dalam 1 minggu",
+      "akibat": "Wajib diberi istirahat mingguan 1 hari",
+      "parameter": [
+        {
+          "nama": "istirahatMingguanHari",
+          "nilai": "1",
+          "satuan": "hari",
+          "jenis": "nominal",
+          "pasal": "Pasal 22 huruf a"
+        }
+      ],
+      "bukti": "istirahat mingguan 1 (satu) hari untuk 6 (enam) hari kerja",
+      "confidence": 0.95,
+      "dasar_keyakinan": "dikutip",
+      "catatan": ""
+    },
+    {
+      "norm_id": "ISTIRAHAT-MINGGUAN-5HARI",
+      "topik": "WaktuKerja",
+      "pasal": "Pasal 22 huruf b",
+      "iri_individu": "ktn:IstirahatMingguan5Hari",
+      "jenis": "KetentuanWaktuKerja",
+      "kondisi": "Pekerja bekerja 5 hari kerja dalam 1 minggu",
+      "akibat": "Wajib diberi istirahat mingguan 2 hari",
+      "parameter": [
+        {
+          "nama": "istirahatMingguanHari",
+          "nilai": "2",
+          "satuan": "hari",
+          "jenis": "nominal",
+          "pasal": "Pasal 22 huruf b"
+        }
+      ],
+      "bukti": "istirahat mingguan 2 (dua) hari untuk 5 (lima) hari kerja",
+      "confidence": 0.95,
+      "dasar_keyakinan": "dikutip",
+      "catatan": ""
+    },
+    {
+      "norm_id": "WAKTU-KERJA-SEKTOR-TERTENTU",
+      "topik": "WaktuKerja",
+      "pasal": "Pasal 23 ayat (1)",
+      "iri_individu": "ktn:WaktuKerjaSektorTertentu",
+      "jenis": "KetentuanWaktuKerja",
+      "kondisi": "Perusahaan pada sektor usaha atau pekerjaan tertentu",
+      "akibat": "Dapat menerapkan waktu kerja kurang atau lebih dari ketentuan Pasal 21 ayat (2)",
+      "parameter": [],
+      "bukti": "dapat menerapkan waktu kerja yang kurang atau lebih dari ketentuan",
+      "confidence": 0.9,
+      "dasar_keyakinan": "dikutip",
+      "catatan": "Ayat (2)-(3): ciri waktu kerja kurang dari 7 jam sehari/35 jam seminggu; waktu kerja lebih sesuai ketetapan Menteri."
+    },
+    {
+      "norm_id": "LEMBUR-BATAS",
+      "topik": "Lembur",
+      "pasal": "Pasal 26 ayat (1)",
+      "iri_individu": "ktn:BatasWaktuKerjaLembur",
+      "jenis": "KetentuanLembur",
+      "kondisi": "Pengusaha mempekerjakan pekerja melebihi waktu kerja",
+      "akibat": "Waktu kerja lembur paling lama 4 jam sehari dan 18 jam seminggu",
+      "parameter": [
+        {
+          "nama": "jamLemburMaksPerHari",
+          "nilai": "4",
+          "satuan": "jam",
+          "jenis": "nominal",
+          "pasal": "Pasal 26 ayat (1)"
+        },
+        {
+          "nama": "jamLemburMaksPerMinggu",
+          "nilai": "18",
+          "satuan": "jam",
+          "jenis": "nominal",
+          "pasal": "Pasal 26 ayat (1)"
+        }
+      ],
+      "bukti": "paling lama 4 (empat) jam dalam 1 (satu) hari dan 18 (delapan belas) jam dalam 1 (satu) minggu",
+      "confidence": 0.95,
+      "dasar_keyakinan": "dikutip",
+      "catatan": "Ayat (2): tidak termasuk lembur pada istirahat mingguan dan/atau hari libur resmi."
+    },
+    {
+      "norm_id": "LEMBUR-KEWAJIBAN-BAYAR",
+      "topik": "Lembur",
+      "pasal": "Pasal 27 ayat (1)",
+      "iri_individu": "ktn:KewajibanBayarUpahLembur",
+      "jenis": "KetentuanLembur",
+      "kondisi": "Pekerja bekerja melebihi waktu kerja",
+      "akibat": "Pengusaha wajib membayar Upah Kerja Lembur",
+      "parameter": [],
+      "bukti": "wajib membayar Upah Kerja Lembur",
+      "confidence": 0.95,
+      "dasar_keyakinan": "dikutip",
+      "catatan": ""
+    },
+    {
+      "norm_id": "LEMBUR-PENGECUALIAN-JABATAN",
+      "topik": "Lembur",
+      "pasal": "Pasal 27 ayat (5)",
+      "iri_individu": "ktn:PengecualianJabatanLembur",
+      "jenis": "KetentuanLembur",
+      "kondisi": "Pekerja dalam golongan jabatan tertentu yang diatur dalam Perjanjian Kerja, Peraturan Perusahaan, atau Perjanjian Kerja Bersama",
+      "akibat": "Dikecualikan dari kewajiban membayar upah lembur; bila golongan jabatan tidak diatur maka pengusaha wajib membayar",
+      "parameter": [],
+      "bukti": "Apabila golongan jabatan tertentu tidak diatur dalam Perjanjian Kerja, Peraturan Perusahaan, atau Perjanjian Kerja Bersama maka Pengusaha wajib membayar Upah Kerja Lembur",
+      "confidence": 0.9,
+      "dasar_keyakinan": "dikutip",
+      "catatan": "Ayat (2)-(4): pengecualian bagi jabatan dengan tanggung jawab pemikir, perencana, pelaksana, dan/atau pengendali perusahaan."
+    },
+    {
+      "norm_id": "LEMBUR-PERINTAH-PERSETUJUAN",
+      "topik": "Lembur",
+      "pasal": "Pasal 28 ayat (1)",
+      "iri_individu": "ktn:SyaratPerintahLembur",
+      "jenis": "KetentuanLembur",
+      "kondisi": "Akan dilaksanakan waktu kerja lembur",
+      "akibat": "Harus ada perintah pengusaha dan persetujuan pekerja secara tertulis dan/atau melalui media digital",
+      "parameter": [],
+      "bukti": "harus ada perintah dari Pengusaha dan persetujuan dari Pekerja/Buruh yang bersangkutan secara tertulis dan/atau melalui media digital",
+      "confidence": 0.95,
+      "dasar_keyakinan": "dikutip",
+      "catatan": "Ayat (2)-(3): dapat berupa daftar pekerja yang bersedia lembur; pengusaha wajib membuat daftar pelaksanaan lembur."
+    },
+    {
+      "norm_id": "LEMBUR-KEWAJIBAN-PELAKSANAAN",
+      "topik": "Lembur",
+      "pasal": "Pasal 29 ayat (1)",
+      "iri_individu": "ktn:KewajibanPelaksanaanLembur",
+      "jenis": "KetentuanLembur",
+      "kondisi": "Perusahaan mempekerjakan pekerja selama waktu kerja lembur",
+      "akibat": "Wajib membayar upah kerja lembur dan memberi kesempatan istirahat secukupnya",
+      "parameter": [],
+      "bukti": "memberi kesempatan untuk istirahat secukupnya",
+      "confidence": 0.9,
+      "dasar_keyakinan": "dikutip",
+      "catatan": "Huruf a dan b; huruf c diatur pada norma LEMBUR-MAKAN-MINUM."
+    },
+    {
       "norm_id": "LEMBUR-MAKAN-MINUM",
       "topik": "Lembur",
-      "pasal": "Pasal 29",
+      "pasal": "Pasal 29 ayat (1)c",
       "iri_individu": "ktn:KetentuanMakanLembur",
       "jenis": "KetentuanLembur",
-      "kondisi": "Lembur 4 jam atau lebih",
-      "akibat": "Wajib memberi makan dan minum minimal 1400 kkal",
+      "kondisi": "Kerja lembur dilakukan selama 4 jam atau lebih",
+      "akibat": "Wajib memberikan makanan dan minuman paling sedikit 1400 kkal; tidak dapat digantikan dalam bentuk uang",
       "parameter": [
         {
           "nama": "kebutuhanKalori",
           "nilai": "1400",
           "satuan": "kkal",
           "jenis": "nominal",
-          "pasal": "Pasal 29"
+          "pasal": "Pasal 29 ayat (1)c"
         }
       ],
-      "bukti": "menyediakan makanan dan minuman paling sedikit 1.400 kkal",
+      "bukti": "paling sedikit 1.400 (seribu empat ratus) kilo kalori, apabila kerja lembur dilakukan selama 4 (empat) jam atau lebih",
       "confidence": 0.95,
       "dasar_keyakinan": "dikutip",
-      "catatan": "diberikan bila lembur 4 jam atau lebih"
+      "catatan": "Ayat (2): pemberian makanan dan minuman tidak dapat digantikan uang."
     },
     {
       "norm_id": "LEMBUR-RUMUS-SEJAM",
       "topik": "Lembur",
-      "pasal": "Pasal 32",
+      "pasal": "Pasal 32 ayat (2)",
       "iri_individu": "ktn:UpahSejamLembur",
       "jenis": "KetentuanLembur",
-      "kondisi": "Perhitungan upah lembur",
-      "akibat": "Upah sejam = 1/173 kali upah sebulan",
+      "kondisi": "Perhitungan upah kerja lembur",
+      "akibat": "Upah sejam sama dengan 1/173 kali upah sebulan",
       "parameter": [
         {
           "nama": "faktorPembagiUpahSejam",
           "nilai": "173",
           "satuan": "faktor",
           "jenis": "nominal",
-          "pasal": "Pasal 32"
+          "pasal": "Pasal 32 ayat (2)"
         }
       ],
-      "bukti": "Upah sejam yaitu 1/173 kali Upah sebulan",
+      "bukti": "(satu per seratus tujuh puluh tiga) kali Upah sebulan",
       "confidence": 0.95,
       "dasar_keyakinan": "dikutip",
-      "catatan": ""
+      "catatan": "Angka pada sumber terbaca I ll73; dimaknai 1/173."
+    },
+    {
+      "norm_id": "LEMBUR-DASAR-UPAH",
+      "topik": "Lembur",
+      "pasal": "Pasal 32 ayat (4)",
+      "iri_individu": "ktn:DasarPerhitunganUpahLembur",
+      "jenis": "KetentuanLembur",
+      "kondisi": "Komponen upah terdiri atas upah pokok, tunjangan tetap, dan tunjangan tidak tetap serta upah pokok ditambah tunjangan tetap lebih kecil dari 75 persen keseluruhan upah",
+      "akibat": "Dasar perhitungan upah lembur sama dengan 75 persen dari keseluruhan upah; bila tidak demikian, dasar perhitungan 100 persen upah",
+      "parameter": [],
+      "bukti": "dasar perhitungan Upah Kerja Lembur sama dengan 75% (tujuh puluh lima persen) dari keseluruhan Upah",
+      "confidence": 0.9,
+      "dasar_keyakinan": "dikutip",
+      "catatan": "Ayat (1) dan (3): perhitungan berdasarkan upah bulanan; upah pokok dan tunjangan tetap dihitung 100 persen."
     },
     {
       "norm_id": "LEMBUR-UPAH-HARIAN",
       "topik": "Lembur",
-      "pasal": "Pasal 33",
+      "pasal": "Pasal 33 ayat (1)",
       "iri_individu": "ktn:KonversiUpahHarian",
       "jenis": "KetentuanLembur",
-      "kondisi": "Upah dibayar harian",
-      "akibat": "Upah sebulan = upah sehari x 25 (6 hari) atau x 21 (5 hari)",
+      "kondisi": "Upah pekerja dibayar secara harian",
+      "akibat": "Upah sebulan sama dengan upah sehari dikalikan 25 untuk 6 hari kerja atau 21 untuk 5 hari kerja",
       "parameter": [
-        {
-          "nama": "pengaliKonversiHarian5",
-          "nilai": "21",
-          "satuan": "faktor",
-          "jenis": "nominal",
-          "pasal": "Pasal 33"
-        },
         {
           "nama": "pengaliKonversiHarian6",
           "nilai": "25",
           "satuan": "faktor",
           "jenis": "nominal",
-          "pasal": "Pasal 33"
+          "pasal": "Pasal 33 ayat (1)a"
+        },
+        {
+          "nama": "pengaliKonversiHarian5",
+          "nilai": "21",
+          "satuan": "faktor",
+          "jenis": "nominal",
+          "pasal": "Pasal 33 ayat (1)b"
         }
       ],
-      "bukti": "Upah sehari dikalikan 25 bagi 6 hari kerja atau 21 bagi 5 hari kerja",
+      "bukti": "Upah sehari dikalikan 25 (dua puluh lima), bagi Pekerja/Buruh yang bekerja 6 (enam) hari kerja",
+      "confidence": 0.95,
+      "dasar_keyakinan": "dikutip",
+      "catatan": "Ayat (2)-(3): upah satuan hasil memakai rata-rata 12 bulan; bila di bawah upah minimum, dipakai upah minimum."
+    },
+    {
+      "norm_id": "LEMBUR-SEBUTAN-LAIN",
+      "topik": "Lembur",
+      "pasal": "Pasal 34 ayat (1)",
+      "iri_individu": "ktn:UpahLemburSebutanLain",
+      "jenis": "KetentuanLembur",
+      "kondisi": "Perusahaan telah membayar upah kerja lembur dengan sebutan lain dan nilai perhitungannya sama dengan atau lebih baik",
+      "akibat": "Perhitungan upah kerja lembur tetap berlaku dan menjadi Upah Kerja Lembur menurut Peraturan Pemerintah ini",
+      "parameter": [],
+      "bukti": "perhitungan Upah Kerja Lembur tetap berlaku",
+      "confidence": 0.9,
+      "dasar_keyakinan": "dikutip",
+      "catatan": "Ayat (2)-(3): menjadi upah kerja lembur menurut PP ini dan pelaksanaannya diatur dalam PK/PP/PKB."
+    },
+    {
+      "norm_id": "PHK-UPAYA-HINDARI",
+      "topik": "PHK",
+      "pasal": "Pasal 37 ayat (1)",
+      "iri_individu": "ktn:UpayaMenghindariPHK",
+      "jenis": "AlasanPHK",
+      "kondisi": "Hubungan kerja berlangsung",
+      "akibat": "Pengusaha, pekerja, serikat pekerja, dan pemerintah harus mengupayakan agar tidak terjadi PHK",
+      "parameter": [],
+      "bukti": "harus mengupayakan agar tidak terjadi Pemutusan Hubungan Kerja",
+      "confidence": 0.9,
+      "dasar_keyakinan": "dikutip",
+      "catatan": "Kewajiban upaya pencegahan, bukan larangan PHK."
+    },
+    {
+      "norm_id": "PHK-PEMBERITAHUAN",
+      "topik": "PHK",
+      "pasal": "Pasal 37 ayat (3)",
+      "iri_individu": "ktn:PemberitahuanPHK",
+      "jenis": "AlasanPHK",
+      "kondisi": "PHK tidak dapat dihindari",
+      "akibat": "Surat pemberitahuan disampaikan paling lama 14 hari kerja sebelum PHK; dalam masa percobaan paling lama 7 hari kerja",
+      "parameter": [],
+      "bukti": "paling lama 14 (empat belas) hari kerja sebelum Pemutusan Hubungan Kerja",
+      "confidence": 0.9,
+      "dasar_keyakinan": "dikutip",
+      "catatan": "Ayat (2): maksud dan alasan PHK diberitahukan kepada pekerja dan/atau serikat pekerja; ayat (4): 7 hari kerja untuk masa percobaan."
+    },
+    {
+      "norm_id": "PHK-PELAPORAN",
+      "topik": "PHK",
+      "pasal": "Pasal 38",
+      "iri_individu": "ktn:PelaporanPHK",
+      "jenis": "AlasanPHK",
+      "kondisi": "Pekerja telah menerima surat pemberitahuan dan tidak menolak PHK",
+      "akibat": "Pengusaha harus melaporkan PHK kepada kementerian dan/atau dinas ketenagakerjaan",
+      "parameter": [],
+      "bukti": "Pengusaha harus melaporkan Pemutusan Hubungan Kerja kepada kementerian",
       "confidence": 0.95,
       "dasar_keyakinan": "dikutip",
       "catatan": ""
     },
     {
-      "norm_id": "PHK-DITAHAN-MERUGIKAN",
+      "norm_id": "PHK-PENOLAKAN",
       "topik": "PHK",
-      "pasal": "Pasal 54 ayat (1)",
-      "iri_individu": "ktn:DitahanMerugikan",
+      "pasal": "Pasal 39 ayat (1)",
+      "iri_individu": "ktn:PenolakanPHK",
       "jenis": "AlasanPHK",
-      "kondisi": "Tidak dapat bekerja 6 bulan karena ditahan dan merugikan perusahaan",
-      "akibat": "UPH + uang pisah",
-      "parameter": [
-        {
-          "nama": "pengaliUP",
-          "nilai": "0",
-          "satuan": "kali",
-          "jenis": "pengali",
-          "pasal": "Pasal 54 ayat (1)"
-        },
-        {
-          "nama": "pengaliUPMK",
-          "nilai": "0",
-          "satuan": "kali",
-          "jenis": "pengali",
-          "pasal": "Pasal 54 ayat (1)"
-        }
-      ],
-      "bukti": "uang penggantian hak dan uang pisah",
-      "confidence": 0.85,
-      "dasar_keyakinan": "tafsir",
-      "catatan": "tidak ada UPMK"
-    },
-    {
-      "norm_id": "PHK-DITAHAN-TIDAK-MERUGIKAN",
-      "topik": "PHK",
-      "pasal": "Pasal 54 ayat (2)",
-      "iri_individu": "ktn:DitahanTidakMerugikan",
-      "jenis": "AlasanPHK",
-      "kondisi": "Tidak dapat bekerja 6 bulan karena ditahan dan tidak merugikan perusahaan",
-      "akibat": "UPMK 1x + UPH",
-      "parameter": [
-        {
-          "nama": "pengaliUP",
-          "nilai": "0",
-          "satuan": "kali",
-          "jenis": "pengali",
-          "pasal": "Pasal 54 ayat (2)"
-        },
-        {
-          "nama": "pengaliUPMK",
-          "nilai": "1",
-          "satuan": "kali",
-          "jenis": "pengali",
-          "pasal": "Pasal 54 ayat (2)"
-        }
-      ],
-      "bukti": "UPMK 1 kali Pasal 40 ayat (3)",
-      "confidence": 0.85,
-      "dasar_keyakinan": "tafsir",
-      "catatan": "tidak ada UP"
-    },
-    {
-      "norm_id": "PHK-EFISIENSI-MENCEGAH-RUGI",
-      "topik": "PHK",
-      "pasal": "Pasal 43 ayat (2)",
-      "iri_individu": "ktn:EfisiensiMencegahRugi",
-      "jenis": "AlasanPHK",
-      "kondisi": "Efisiensi untuk mencegah terjadinya kerugian",
-      "akibat": "UP 1x + UPMK 1x + UPH",
-      "parameter": [
-        {
-          "nama": "pengaliUP",
-          "nilai": "1",
-          "satuan": "kali",
-          "jenis": "pengali",
-          "pasal": "Pasal 43 ayat (2)"
-        },
-        {
-          "nama": "pengaliUPMK",
-          "nilai": "1",
-          "satuan": "kali",
-          "jenis": "pengali",
-          "pasal": "Pasal 43 ayat (2)"
-        }
-      ],
-      "bukti": "UP 1 kali Pasal 40 ayat (2)",
+      "kondisi": "Pekerja menerima surat pemberitahuan PHK dan menyatakan menolak",
+      "akibat": "Harus membuat surat penolakan disertai alasan paling lama 7 hari kerja setelah diterimanya surat pemberitahuan",
+      "parameter": [],
+      "bukti": "harus membuat surat penolakan disertai alasan paling lama 7 (tujuh) hari kerja",
       "confidence": 0.95,
       "dasar_keyakinan": "dikutip",
       "catatan": ""
     },
     {
-      "norm_id": "PHK-EFISIENSI-RUGI",
+      "norm_id": "PHK-PERSELISIHAN",
       "topik": "PHK",
-      "pasal": "Pasal 43 ayat (1)",
-      "iri_individu": "ktn:EfisiensiRugi",
+      "pasal": "Pasal 39 ayat (2)",
+      "iri_individu": "ktn:PenyelesaianPerselisihanPHK",
       "jenis": "AlasanPHK",
-      "kondisi": "Efisiensi karena perusahaan mengalami kerugian",
-      "akibat": "UP 0,5x + UPMK 1x + UPH",
-      "parameter": [
-        {
-          "nama": "pengaliUP",
-          "nilai": "0.5",
-          "satuan": "kali",
-          "jenis": "pengali",
-          "pasal": "Pasal 43 ayat (1)"
-        },
-        {
-          "nama": "pengaliUPMK",
-          "nilai": "1",
-          "satuan": "kali",
-          "jenis": "pengali",
-          "pasal": "Pasal 43 ayat (1)"
-        }
-      ],
-      "bukti": "UP 0,5 kali Pasal 40 ayat (2)",
+      "kondisi": "Terjadi perbedaan pendapat mengenai PHK",
+      "akibat": "Diselesaikan melalui perundingan bipartit; bila gagal dilanjutkan melalui penyelesaian perselisihan hubungan industrial",
+      "parameter": [],
+      "bukti": "penyelesaian Pemutusan Hubungan Kerja harus dilakukan melalui perundingan bipartit",
       "confidence": 0.95,
       "dasar_keyakinan": "dikutip",
-      "catatan": ""
+      "catatan": "Ayat (3): mekanisme berikutnya sesuai ketentuan perselisihan hubungan industrial."
     },
     {
-      "norm_id": "PHK-FORCE-MAJEURE-TIDAK-TUTUP",
+      "norm_id": "PHK-HAK-PESANGON",
       "topik": "PHK",
-      "pasal": "Pasal 45 ayat (2)",
-      "iri_individu": "ktn:ForceMajeureTidakTutup",
+      "pasal": "Pasal 40 ayat (1)",
+      "iri_individu": "ktn:HakAtasPesangonUPMKUPH",
       "jenis": "AlasanPHK",
-      "kondisi": "Force majeure yang tidak mengakibatkan perusahaan tutup",
-      "akibat": "UP 0,75x + UPMK 1x + UPH",
-      "parameter": [
-        {
-          "nama": "pengaliUP",
-          "nilai": "0.75",
-          "satuan": "kali",
-          "jenis": "pengali",
-          "pasal": "Pasal 45 ayat (2)"
-        },
-        {
-          "nama": "pengaliUPMK",
-          "nilai": "1",
-          "satuan": "kali",
-          "jenis": "pengali",
-          "pasal": "Pasal 45 ayat (2)"
-        }
-      ],
-      "bukti": "UP 0,75 kali Pasal 40 ayat (2)",
+      "kondisi": "Terjadi Pemutusan Hubungan Kerja",
+      "akibat": "Pengusaha wajib membayar uang pesangon dan/atau uang penghargaan masa kerja serta uang penggantian hak",
+      "parameter": [],
+      "bukti": "Pengusaha wajib membayar uang pesangon dan/atau uang penghargaan masa kerja, dan uang penggantian hak",
       "confidence": 0.95,
       "dasar_keyakinan": "dikutip",
-      "catatan": ""
+      "catatan": "Besaran uang pesangon dan UPMK diatur pada ayat (2) dan ayat (3) serta tabel kategori."
     },
     {
-      "norm_id": "PHK-FORCE-MAJEURE-TUTUP",
+      "norm_id": "PHK-UPH-LINGKUP",
       "topik": "PHK",
-      "pasal": "Pasal 45 ayat (1)",
-      "iri_individu": "ktn:ForceMajeureTutup",
+      "pasal": "Pasal 40 ayat (4)",
+      "iri_individu": "ktn:LingkupUPH",
       "jenis": "AlasanPHK",
-      "kondisi": "Perusahaan tutup karena force majeure",
-      "akibat": "UP 0,5x + UPMK 1x + UPH",
-      "parameter": [
-        {
-          "nama": "pengaliUP",
-          "nilai": "0.5",
-          "satuan": "kali",
-          "jenis": "pengali",
-          "pasal": "Pasal 45 ayat (1)"
-        },
-        {
-          "nama": "pengaliUPMK",
-          "nilai": "1",
-          "satuan": "kali",
-          "jenis": "pengali",
-          "pasal": "Pasal 45 ayat (1)"
-        }
-      ],
-      "bukti": "UP 0,5 kali Pasal 40 ayat (2)",
-      "confidence": 0.95,
-      "dasar_keyakinan": "dikutip",
-      "catatan": ""
-    },
-    {
-      "norm_id": "PHK-MANGKIR",
-      "topik": "PHK",
-      "pasal": "Pasal 51",
-      "iri_individu": "ktn:Mangkir",
-      "jenis": "AlasanPHK",
-      "kondisi": "Mangkir 5 hari kerja atau lebih berturut-turut setelah dipanggil 2 kali",
-      "akibat": "UPH + uang pisah",
-      "parameter": [
-        {
-          "nama": "pengaliUP",
-          "nilai": "0",
-          "satuan": "kali",
-          "jenis": "pengali",
-          "pasal": "Pasal 51"
-        },
-        {
-          "nama": "pengaliUPMK",
-          "nilai": "0",
-          "satuan": "kali",
-          "jenis": "pengali",
-          "pasal": "Pasal 51"
-        }
-      ],
-      "bukti": "uang penggantian hak dan uang pisah",
-      "confidence": 0.95,
-      "dasar_keyakinan": "dikutip",
-      "catatan": ""
-    },
-    {
-      "norm_id": "PHK-MENGUNDURKAN-DIRI",
-      "topik": "PHK",
-      "pasal": "Pasal 50",
-      "iri_individu": "ktn:MengundurkanDiri",
-      "jenis": "AlasanPHK",
-      "kondisi": "Pekerja mengundurkan diri atas kemauan sendiri dan memenuhi syarat Pasal 36 huruf i",
-      "akibat": "UPH + uang pisah",
-      "parameter": [
-        {
-          "nama": "pengaliUP",
-          "nilai": "0",
-          "satuan": "kali",
-          "jenis": "pengali",
-          "pasal": "Pasal 50"
-        },
-        {
-          "nama": "pengaliUPMK",
-          "nilai": "0",
-          "satuan": "kali",
-          "jenis": "pengali",
-          "pasal": "Pasal 50"
-        }
-      ],
-      "bukti": "uang penggantian hak dan uang pisah",
-      "confidence": 0.95,
-      "dasar_keyakinan": "dikutip",
-      "catatan": ""
-    },
-    {
-      "norm_id": "PHK-MENINGGAL-DUNIA",
-      "topik": "PHK",
-      "pasal": "Pasal 57",
-      "iri_individu": "ktn:MeninggalDunia",
-      "jenis": "AlasanPHK",
-      "kondisi": "Pekerja meninggal dunia",
-      "akibat": "Ahli waris menerima UP 2x + UPMK 1x + UPH",
-      "parameter": [
-        {
-          "nama": "pengaliUP",
-          "nilai": "2",
-          "satuan": "kali",
-          "jenis": "pengali",
-          "pasal": "Pasal 57"
-        },
-        {
-          "nama": "pengaliUPMK",
-          "nilai": "1",
-          "satuan": "kali",
-          "jenis": "pengali",
-          "pasal": "Pasal 57"
-        }
-      ],
-      "bukti": "UP 2 kali Pasal 40 ayat (2)",
+      "kondisi": "Pekerja berhak atas uang penggantian hak",
+      "akibat": "UPH meliputi cuti tahunan yang belum diambil dan belum gugur, biaya pulang, serta hal lain yang ditetapkan dalam PK/PP/PKB",
+      "parameter": [],
+      "bukti": "cuti tahunan yang belum diambil dan belum gugur",
       "confidence": 0.95,
       "dasar_keyakinan": "dikutip",
       "catatan": ""
@@ -395,7 +690,7 @@
       "pasal": "Pasal 41",
       "iri_individu": "ktn:Merger",
       "jenis": "AlasanPHK",
-      "kondisi": "Penggabungan peleburan atau pemisahan perusahaan dan pekerja tidak bersedia lanjut",
+      "kondisi": "Perusahaan melakukan penggabungan, peleburan, atau pemisahan dan pekerja tidak bersedia melanjutkan hubungan kerja atau pengusaha tidak bersedia menerima",
       "akibat": "UP 1x + UPMK 1x + UPH",
       "parameter": [
         {
@@ -413,94 +708,7 @@
           "pasal": "Pasal 41"
         }
       ],
-      "bukti": "UP 1 kali Pasal 40 ayat (2)",
-      "confidence": 0.95,
-      "dasar_keyakinan": "dikutip",
-      "catatan": ""
-    },
-    {
-      "norm_id": "PHK-PAILIT",
-      "topik": "PHK",
-      "pasal": "Pasal 47",
-      "iri_individu": "ktn:Pailit",
-      "jenis": "AlasanPHK",
-      "kondisi": "Perusahaan pailit",
-      "akibat": "UP 0,5x + UPMK 1x + UPH",
-      "parameter": [
-        {
-          "nama": "pengaliUP",
-          "nilai": "0.5",
-          "satuan": "kali",
-          "jenis": "pengali",
-          "pasal": "Pasal 47"
-        },
-        {
-          "nama": "pengaliUPMK",
-          "nilai": "1",
-          "satuan": "kali",
-          "jenis": "pengali",
-          "pasal": "Pasal 47"
-        }
-      ],
-      "bukti": "UP 0,5 kali Pasal 40 ayat (2)",
-      "confidence": 0.95,
-      "dasar_keyakinan": "dikutip",
-      "catatan": "judul pasal terbaca sebagian di sumber"
-    },
-    {
-      "norm_id": "PHK-PELANGGARAN-MENDESAK",
-      "topik": "PHK",
-      "pasal": "Pasal 52 ayat (2)",
-      "iri_individu": "ktn:PelanggaranMendesak",
-      "jenis": "AlasanPHK",
-      "kondisi": "Pelanggaran bersifat mendesak",
-      "akibat": "UPH + uang pisah",
-      "parameter": [
-        {
-          "nama": "pengaliUP",
-          "nilai": "0",
-          "satuan": "kali",
-          "jenis": "pengali",
-          "pasal": "Pasal 52 ayat (2)"
-        },
-        {
-          "nama": "pengaliUPMK",
-          "nilai": "0",
-          "satuan": "kali",
-          "jenis": "pengali",
-          "pasal": "Pasal 52 ayat (2)"
-        }
-      ],
-      "bukti": "uang penggantian hak dan uang pisah",
-      "confidence": 0.95,
-      "dasar_keyakinan": "dikutip",
-      "catatan": ""
-    },
-    {
-      "norm_id": "PHK-PELANGGARAN-SP",
-      "topik": "PHK",
-      "pasal": "Pasal 52 ayat (1)",
-      "iri_individu": "ktn:PelanggaranSP",
-      "jenis": "AlasanPHK",
-      "kondisi": "Pelanggaran PK/PP/PKB setelah SP1 SP2 SP3",
-      "akibat": "UP 0,5x + UPMK 1x + UPH",
-      "parameter": [
-        {
-          "nama": "pengaliUP",
-          "nilai": "0.5",
-          "satuan": "kali",
-          "jenis": "pengali",
-          "pasal": "Pasal 52 ayat (1)"
-        },
-        {
-          "nama": "pengaliUPMK",
-          "nilai": "1",
-          "satuan": "kali",
-          "jenis": "pengali",
-          "pasal": "Pasal 52 ayat (1)"
-        }
-      ],
-      "bukti": "UP 0,5 kali Pasal 40 ayat (2)",
+      "bukti": "uang pesangon sebesar 1 (satu) kali ketentuan Pasal 40 ayat (2)",
       "confidence": 0.95,
       "dasar_keyakinan": "dikutip",
       "catatan": ""
@@ -529,7 +737,7 @@
           "pasal": "Pasal 42 ayat (1)"
         }
       ],
-      "bukti": "UP 1 kali Pasal 40 ayat (2)",
+      "bukti": "uang pesangon sebesar 1 (satu) kali ketentuan Pasal 40 ayat (2)",
       "confidence": 0.95,
       "dasar_keyakinan": "dikutip",
       "catatan": ""
@@ -540,7 +748,7 @@
       "pasal": "Pasal 42 ayat (2)",
       "iri_individu": "ktn:PengambilalihanUbahSyarat",
       "jenis": "AlasanPHK",
-      "kondisi": "Pengambilalihan yang mengubah syarat kerja dan pekerja tidak bersedia lanjut",
+      "kondisi": "Pengambilalihan perusahaan mengakibatkan perubahan syarat kerja dan pekerja tidak bersedia melanjutkan hubungan kerja",
       "akibat": "UP 0,5x + UPMK 1x + UPH",
       "parameter": [
         {
@@ -558,105 +766,18 @@
           "pasal": "Pasal 42 ayat (2)"
         }
       ],
-      "bukti": "UP 0,5 kali Pasal 40 ayat (2)",
+      "bukti": "uang pesangon sebesar 0,5 (nol koma lima) kali ketentuan Pasal 40 ayat (2)",
       "confidence": 0.95,
       "dasar_keyakinan": "dikutip",
       "catatan": ""
     },
     {
-      "norm_id": "PHK-PENSIUN",
+      "norm_id": "PHK-EFISIENSI-RUGI",
       "topik": "PHK",
-      "pasal": "Pasal 56",
-      "iri_individu": "ktn:Pensiun",
+      "pasal": "Pasal 43 ayat (1)",
+      "iri_individu": "ktn:EfisiensiRugi",
       "jenis": "AlasanPHK",
-      "kondisi": "Pekerja memasuki usia pensiun",
-      "akibat": "UP 1,75x + UPMK 1x + UPH",
-      "parameter": [
-        {
-          "nama": "pengaliUP",
-          "nilai": "1.75",
-          "satuan": "kali",
-          "jenis": "pengali",
-          "pasal": "Pasal 56"
-        },
-        {
-          "nama": "pengaliUPMK",
-          "nilai": "1",
-          "satuan": "kali",
-          "jenis": "pengali",
-          "pasal": "Pasal 56"
-        }
-      ],
-      "bukti": "UP 1,75 kali Pasal 40 ayat (2)",
-      "confidence": 0.95,
-      "dasar_keyakinan": "dikutip",
-      "catatan": ""
-    },
-    {
-      "norm_id": "PHK-PERBUATAN-PENGUSAHA",
-      "topik": "PHK",
-      "pasal": "Pasal 48",
-      "iri_individu": "ktn:PerbuatanPengusaha",
-      "jenis": "AlasanPHK",
-      "kondisi": "Permohonan PHK oleh pekerja karena perbuatan pengusaha Pasal 36 huruf g",
-      "akibat": "UP 1x + UPMK 1x + UPH",
-      "parameter": [
-        {
-          "nama": "pengaliUP",
-          "nilai": "1",
-          "satuan": "kali",
-          "jenis": "pengali",
-          "pasal": "Pasal 48"
-        },
-        {
-          "nama": "pengaliUPMK",
-          "nilai": "1",
-          "satuan": "kali",
-          "jenis": "pengali",
-          "pasal": "Pasal 48"
-        }
-      ],
-      "bukti": "UP 1 kali Pasal 40 ayat (2)",
-      "confidence": 0.95,
-      "dasar_keyakinan": "dikutip",
-      "catatan": ""
-    },
-    {
-      "norm_id": "PHK-PKPU-BUKAN-RUGI",
-      "topik": "PHK",
-      "pasal": "Pasal 46 ayat (2)",
-      "iri_individu": "ktn:PKPUKarenaTidakRugi",
-      "jenis": "AlasanPHK",
-      "kondisi": "Perusahaan dalam penundaan kewajiban pembayaran utang bukan karena rugi",
-      "akibat": "UP 1x + UPMK 1x + UPH",
-      "parameter": [
-        {
-          "nama": "pengaliUP",
-          "nilai": "1",
-          "satuan": "kali",
-          "jenis": "pengali",
-          "pasal": "Pasal 46 ayat (2)"
-        },
-        {
-          "nama": "pengaliUPMK",
-          "nilai": "1",
-          "satuan": "kali",
-          "jenis": "pengali",
-          "pasal": "Pasal 46 ayat (2)"
-        }
-      ],
-      "bukti": "UP 1 kali Pasal 40 ayat (2)",
-      "confidence": 0.95,
-      "dasar_keyakinan": "dikutip",
-      "catatan": ""
-    },
-    {
-      "norm_id": "PHK-PKPU-RUGI",
-      "topik": "PHK",
-      "pasal": "Pasal 46 ayat (1)",
-      "iri_individu": "ktn:PKPUKarenaRugi",
-      "jenis": "AlasanPHK",
-      "kondisi": "Perusahaan dalam penundaan kewajiban pembayaran utang karena rugi",
+      "kondisi": "Efisiensi karena perusahaan mengalami kerugian",
       "akibat": "UP 0,5x + UPMK 1x + UPH",
       "parameter": [
         {
@@ -664,78 +785,78 @@
           "nilai": "0.5",
           "satuan": "kali",
           "jenis": "pengali",
-          "pasal": "Pasal 46 ayat (1)"
+          "pasal": "Pasal 43 ayat (1)"
         },
         {
           "nama": "pengaliUPMK",
           "nilai": "1",
           "satuan": "kali",
           "jenis": "pengali",
-          "pasal": "Pasal 46 ayat (1)"
+          "pasal": "Pasal 43 ayat (1)"
         }
       ],
-      "bukti": "UP 0,5 kali Pasal 40 ayat (2)",
+      "bukti": "uang pesangon sebesar 0,5 (nol koma lima) kali ketentuan Pasal 40 ayat (2)",
       "confidence": 0.95,
       "dasar_keyakinan": "dikutip",
       "catatan": ""
     },
     {
-      "norm_id": "PHK-PUTUSAN-PPHI-TIDAK-BERSALAH",
+      "norm_id": "PHK-EFISIENSI-MENCEGAH-RUGI",
       "topik": "PHK",
-      "pasal": "Pasal 49",
-      "iri_individu": "ktn:PutusanPPHITidakBersalah",
+      "pasal": "Pasal 43 ayat (2)",
+      "iri_individu": "ktn:EfisiensiMencegahRugi",
       "jenis": "AlasanPHK",
-      "kondisi": "Putusan lembaga PPHI bahwa pengusaha tidak melakukan perbuatan Pasal 36 huruf g",
-      "akibat": "UPH + uang pisah",
+      "kondisi": "Perusahaan melakukan efisiensi untuk mencegah terjadinya kerugian",
+      "akibat": "UP 1x + UPMK 1x + UPH",
       "parameter": [
         {
           "nama": "pengaliUP",
-          "nilai": "0",
+          "nilai": "1",
           "satuan": "kali",
           "jenis": "pengali",
-          "pasal": "Pasal 49"
-        },
-        {
-          "nama": "pengaliUPMK",
-          "nilai": "0",
-          "satuan": "kali",
-          "jenis": "pengali",
-          "pasal": "Pasal 49"
-        }
-      ],
-      "bukti": "uang penggantian hak dan uang pisah",
-      "confidence": 0.85,
-      "dasar_keyakinan": "tafsir",
-      "catatan": "tidak ada UPMK"
-    },
-    {
-      "norm_id": "PHK-SAKIT-BERKEPANJANGAN",
-      "topik": "PHK",
-      "pasal": "Pasal 55",
-      "iri_individu": "ktn:SakitBerkepanjangan",
-      "jenis": "AlasanPHK",
-      "kondisi": "Sakit berkepanjangan atau cacat akibat kecelakaan kerja lebih dari 12 bulan",
-      "akibat": "UP 2x + UPMK 1x + UPH",
-      "parameter": [
-        {
-          "nama": "pengaliUP",
-          "nilai": "2",
-          "satuan": "kali",
-          "jenis": "pengali",
-          "pasal": "Pasal 55"
+          "pasal": "Pasal 43 ayat (2)"
         },
         {
           "nama": "pengaliUPMK",
           "nilai": "1",
           "satuan": "kali",
           "jenis": "pengali",
-          "pasal": "Pasal 55"
+          "pasal": "Pasal 43 ayat (2)"
         }
       ],
-      "bukti": "UP 2 kali Pasal 40 ayat (2)",
+      "bukti": "uang pesangon sebesar 1 (satu) kali ketentuan Pasal 40 ayat (2)",
       "confidence": 0.95,
       "dasar_keyakinan": "dikutip",
-      "catatan": "ayat (1) dan (2) sama"
+      "catatan": ""
+    },
+    {
+      "norm_id": "PHK-TUTUP-RUGI",
+      "topik": "PHK",
+      "pasal": "Pasal 44 ayat (1)",
+      "iri_individu": "ktn:TutupKarenaRugi",
+      "jenis": "AlasanPHK",
+      "kondisi": "Perusahaan tutup karena mengalami kerugian terus menerus atau tidak terus menerus selama 2 tahun",
+      "akibat": "UP 0,5x + UPMK 1x + UPH",
+      "parameter": [
+        {
+          "nama": "pengaliUP",
+          "nilai": "0.5",
+          "satuan": "kali",
+          "jenis": "pengali",
+          "pasal": "Pasal 44 ayat (1)"
+        },
+        {
+          "nama": "pengaliUPMK",
+          "nilai": "1",
+          "satuan": "kali",
+          "jenis": "pengali",
+          "pasal": "Pasal 44 ayat (1)"
+        }
+      ],
+      "bukti": "uang pesangon sebesar 0,5 (nol koma lima) kali ketentuan Pasal 40 ayat (2)",
+      "confidence": 0.95,
+      "dasar_keyakinan": "dikutip",
+      "catatan": ""
     },
     {
       "norm_id": "PHK-TUTUP-BUKAN-RUGI",
@@ -761,18 +882,18 @@
           "pasal": "Pasal 44 ayat (2)"
         }
       ],
-      "bukti": "UP 1 kali Pasal 40 ayat (2)",
+      "bukti": "uang pesangon sebesar 1 (satu) kali ketentuan Pasal 40 ayat (2)",
       "confidence": 0.95,
       "dasar_keyakinan": "dikutip",
       "catatan": ""
     },
     {
-      "norm_id": "PHK-TUTUP-RUGI",
+      "norm_id": "PHK-FORCE-MAJEURE-TUTUP",
       "topik": "PHK",
-      "pasal": "Pasal 44 ayat (1)",
-      "iri_individu": "ktn:TutupKarenaRugi",
+      "pasal": "Pasal 45 ayat (1)",
+      "iri_individu": "ktn:ForceMajeureTutup",
       "jenis": "AlasanPHK",
-      "kondisi": "Perusahaan tutup karena rugi terus menerus atau tidak terus menerus selama 2 tahun",
+      "kondisi": "Perusahaan tutup karena keadaan memaksa (force majeure)",
       "akibat": "UP 0,5x + UPMK 1x + UPH",
       "parameter": [
         {
@@ -780,129 +901,497 @@
           "nilai": "0.5",
           "satuan": "kali",
           "jenis": "pengali",
-          "pasal": "Pasal 44 ayat (1)"
+          "pasal": "Pasal 45 ayat (1)"
         },
         {
           "nama": "pengaliUPMK",
           "nilai": "1",
           "satuan": "kali",
           "jenis": "pengali",
-          "pasal": "Pasal 44 ayat (1)"
+          "pasal": "Pasal 45 ayat (1)"
         }
       ],
-      "bukti": "UP 0,5 kali Pasal 40 ayat (2)",
+      "bukti": "uang pesangon sebesar 0,5 (nol koma lima) kali ketentuan Pasal 40 ayat (2)",
       "confidence": 0.95,
       "dasar_keyakinan": "dikutip",
       "catatan": ""
     },
     {
-      "norm_id": "PKWT-HARIAN-KONVERSI",
-      "topik": "PKWT",
-      "pasal": "Pasal 10 ayat (4)",
-      "iri_individu": "ktn:KonversiHarianKePKWTT",
-      "jenis": "KetentuanPKWT",
-      "kondisi": "Bekerja 21 hari atau lebih selama 3 bulan berturut-turut",
-      "akibat": "Hubungan kerja berubah demi hukum menjadi PKWTT",
+      "norm_id": "PHK-FORCE-MAJEURE-TIDAK-TUTUP",
+      "topik": "PHK",
+      "pasal": "Pasal 45 ayat (2)",
+      "iri_individu": "ktn:ForceMajeureTidakTutup",
+      "jenis": "AlasanPHK",
+      "kondisi": "Keadaan memaksa (force majeure) tetapi tidak mengakibatkan perusahaan tutup",
+      "akibat": "UP 0,75x + UPMK 1x + UPH",
       "parameter": [
         {
-          "nama": "batasBulanKonversi",
-          "nilai": "3",
-          "satuan": "bulan",
-          "jenis": "nominal",
-          "pasal": "Pasal 10 ayat (4)"
+          "nama": "pengaliUP",
+          "nilai": "0.75",
+          "satuan": "kali",
+          "jenis": "pengali",
+          "pasal": "Pasal 45 ayat (2)"
         },
         {
-          "nama": "batasHariKerjaHarian",
-          "nilai": "21",
-          "satuan": "hari",
-          "jenis": "nominal",
-          "pasal": "Pasal 10 ayat (3)"
+          "nama": "pengaliUPMK",
+          "nilai": "1",
+          "satuan": "kali",
+          "jenis": "pengali",
+          "pasal": "Pasal 45 ayat (2)"
         }
       ],
-      "bukti": "bekerja 21 hari atau lebih selama 3 bulan berturut-turut maka Hubungan Kerja demi hukum berubah berdasarkan PKWTT",
+      "bukti": "uang pesangon sebesar O,75 (nol koma tujuh puluh lima) kali ketentuan Pasal 40 ayat (2)",
       "confidence": 0.95,
       "dasar_keyakinan": "dikutip",
-      "catatan": ""
+      "catatan": "Angka pada sumber terbaca O,75; dimaknai 0,75."
     },
     {
-      "norm_id": "PKWT-JANGKA-MAKS",
-      "topik": "PKWT",
-      "pasal": "Pasal 8 ayat (1)",
-      "iri_individu": "ktn:BatasJangkaWaktuPKWT",
-      "jenis": "KetentuanPKWT",
-      "kondisi": "PKWT berdasarkan jangka waktu",
-      "akibat": "Paling lama 5 tahun termasuk perpanjangan",
+      "norm_id": "PHK-PKPU-RUGI",
+      "topik": "PHK",
+      "pasal": "Pasal 46 ayat (1)",
+      "iri_individu": "ktn:PKPUKarenaRugi",
+      "jenis": "AlasanPHK",
+      "kondisi": "Perusahaan dalam keadaan penundaan kewajiban pembayaran utang yang disebabkan mengalami kerugian",
+      "akibat": "UP 0,5x + UPMK 1x + UPH",
       "parameter": [
         {
-          "nama": "batasTahunPKWT",
-          "nilai": "5",
-          "satuan": "tahun",
-          "jenis": "nominal",
-          "pasal": "Pasal 8 ayat (1)"
+          "nama": "pengaliUP",
+          "nilai": "0.5",
+          "satuan": "kali",
+          "jenis": "pengali",
+          "pasal": "Pasal 46 ayat (1)"
+        },
+        {
+          "nama": "pengaliUPMK",
+          "nilai": "1",
+          "satuan": "kali",
+          "jenis": "pengali",
+          "pasal": "Pasal 46 ayat (1)"
         }
       ],
-      "bukti": "PKWT berdasarkan jangka waktu dapat dibuat untuk paling lama 5 tahun",
+      "bukti": "uang pesangon sebesar 0,5 (nol koma lima) kali ketentuan Pasal 40 ayat (2)",
       "confidence": 0.95,
       "dasar_keyakinan": "dikutip",
       "catatan": ""
     },
     {
-      "norm_id": "PKWT-KOMPENSASI",
-      "topik": "PKWT",
-      "pasal": "Pasal 15-16",
-      "iri_individu": "ktn:KetentuanKompensasiPKWT",
-      "jenis": "KetentuanPKWT",
-      "kondisi": "PKWT berakhir dengan masa kerja minimal 1 bulan",
-      "akibat": "Uang kompensasi = (masa kerja bagi 12) x 1 bulan upah",
+      "norm_id": "PHK-PKPU-BUKAN-RUGI",
+      "topik": "PHK",
+      "pasal": "Pasal 46 ayat (2)",
+      "iri_individu": "ktn:PKPUKarenaTidakRugi",
+      "jenis": "AlasanPHK",
+      "kondisi": "Perusahaan dalam keadaan penundaan kewajiban pembayaran utang bukan karena mengalami kerugian",
+      "akibat": "UP 1x + UPMK 1x + UPH",
       "parameter": [
         {
-          "nama": "faktorPembagiKompensasi",
-          "nilai": "12",
-          "satuan": "bulan",
-          "jenis": "nominal",
-          "pasal": "Pasal 16"
+          "nama": "pengaliUP",
+          "nilai": "1",
+          "satuan": "kali",
+          "jenis": "pengali",
+          "pasal": "Pasal 46 ayat (2)"
+        },
+        {
+          "nama": "pengaliUPMK",
+          "nilai": "1",
+          "satuan": "kali",
+          "jenis": "pengali",
+          "pasal": "Pasal 46 ayat (2)"
         }
       ],
-      "bukti": "PKWT selama 12 bulan secara terus menerus diberikan sebesar 1 bulan Upah",
+      "bukti": "uang pesangon sebesar I (satu) kali ketentuan Pasal 40 ayat (2)",
       "confidence": 0.95,
       "dasar_keyakinan": "dikutip",
-      "catatan": ""
+      "catatan": "Angka pada sumber terbaca I; dimaknai 1."
     },
     {
-      "norm_id": "PKWT-PENCATATAN",
-      "topik": "PKWT",
-      "pasal": "Pasal 14 ayat (1)",
-      "iri_individu": "ktn:KetentuanPencatatanPKWT",
-      "jenis": "KetentuanPKWT",
-      "kondisi": "PKWT ditandatangani",
-      "akibat": "Wajib dicatatkan daring paling lama 3 hari kerja",
+      "norm_id": "PHK-PAILIT",
+      "topik": "PHK",
+      "pasal": "Pasal 47",
+      "iri_individu": "ktn:Pailit",
+      "jenis": "AlasanPHK",
+      "kondisi": "Perusahaan pailit",
+      "akibat": "UP 0,5x + UPMK 1x + UPH",
       "parameter": [
         {
-          "nama": "batasHariPencatatan",
-          "nilai": "3",
-          "satuan": "hari",
-          "jenis": "nominal",
-          "pasal": "Pasal 14 ayat (1)"
+          "nama": "pengaliUP",
+          "nilai": "0.5",
+          "satuan": "kali",
+          "jenis": "pengali",
+          "pasal": "Pasal 47"
+        },
+        {
+          "nama": "pengaliUPMK",
+          "nilai": "1",
+          "satuan": "kali",
+          "jenis": "pengali",
+          "pasal": "Pasal 47"
         }
       ],
-      "bukti": "PKWT harus dicatatkan secara daring paling lama 3 hari kerja sejak penandatanganan",
+      "bukti": "uang pesangon sebesar 0,5 (nol koma lima) kali ketentuan Pasal 40 ayat (2)",
+      "confidence": 0.95,
+      "dasar_keyakinan": "dikutip",
+      "catatan": "Judul pasal pada sumber terbaca Pasal 4T (OCR untuk 47)."
+    },
+    {
+      "norm_id": "PHK-PERBUATAN-PENGUSAHA",
+      "topik": "PHK",
+      "pasal": "Pasal 48",
+      "iri_individu": "ktn:PerbuatanPengusaha",
+      "jenis": "AlasanPHK",
+      "kondisi": "Pekerja mengajukan permohonan PHK karena pengusaha melakukan perbuatan sebagaimana dimaksud Pasal 36 huruf g",
+      "akibat": "UP 1x + UPMK 1x + UPH",
+      "parameter": [
+        {
+          "nama": "pengaliUP",
+          "nilai": "1",
+          "satuan": "kali",
+          "jenis": "pengali",
+          "pasal": "Pasal 48"
+        },
+        {
+          "nama": "pengaliUPMK",
+          "nilai": "1",
+          "satuan": "kali",
+          "jenis": "pengali",
+          "pasal": "Pasal 48"
+        }
+      ],
+      "bukti": "uang pesangon sebesar 1 (satu) kali ketentuan Pasal 40 ayat (2)",
       "confidence": 0.95,
       "dasar_keyakinan": "dikutip",
       "catatan": ""
     },
     {
-      "norm_id": "PKWT-TANPA-PERCOBAAN",
-      "topik": "PKWT",
-      "pasal": "Pasal 12",
-      "iri_individu": "ktn:LaranganPercobaanPKWT",
-      "jenis": "KetentuanPKWT",
-      "kondisi": "PKWT mensyaratkan masa percobaan",
-      "akibat": "Masa percobaan batal demi hukum dan masa kerja tetap dihitung",
+      "norm_id": "PHK-PUTUSAN-PPHI",
+      "topik": "PHK",
+      "pasal": "Pasal 49",
+      "iri_individu": "ktn:PutusanPPHITidakBersalah",
+      "jenis": "AlasanPHK",
+      "kondisi": "Putusan lembaga penyelesaian perselisihan hubungan industrial menyatakan pengusaha tidak melakukan perbuatan Pasal 36 huruf g",
+      "akibat": "UPH + uang pisah yang besarnya diatur dalam PK/PP/PKB",
+      "parameter": [
+        {
+          "nama": "pengaliUP",
+          "nilai": "0",
+          "satuan": "kali",
+          "jenis": "pengali",
+          "pasal": "Pasal 49"
+        },
+        {
+          "nama": "pengaliUPMK",
+          "nilai": "0",
+          "satuan": "kali",
+          "jenis": "pengali",
+          "pasal": "Pasal 49"
+        }
+      ],
+      "bukti": "uang penggantian hak sesuai ketentuan Pasal 40 ayat (4); dan uang pisah",
+      "confidence": 0.9,
+      "dasar_keyakinan": "dikutip",
+      "catatan": "Tidak ada UP dan UPMK."
+    },
+    {
+      "norm_id": "PHK-MENGUNDURKAN-DIRI",
+      "topik": "PHK",
+      "pasal": "Pasal 50",
+      "iri_individu": "ktn:MengundurkanDiri",
+      "jenis": "AlasanPHK",
+      "kondisi": "Pekerja mengundurkan diri atas kemauan sendiri dan memenuhi syarat Pasal 36 huruf i",
+      "akibat": "UPH + uang pisah yang besarnya diatur dalam PK/PP/PKB",
+      "parameter": [
+        {
+          "nama": "pengaliUP",
+          "nilai": "0",
+          "satuan": "kali",
+          "jenis": "pengali",
+          "pasal": "Pasal 50"
+        },
+        {
+          "nama": "pengaliUPMK",
+          "nilai": "0",
+          "satuan": "kali",
+          "jenis": "pengali",
+          "pasal": "Pasal 50"
+        }
+      ],
+      "bukti": "uang penggantian hak sesuai ketentuan Pasal 40 ayat (4); dan uang pisah",
+      "confidence": 0.95,
+      "dasar_keyakinan": "dikutip",
+      "catatan": "Tidak ada UP dan UPMK."
+    },
+    {
+      "norm_id": "PHK-MANGKIR",
+      "topik": "PHK",
+      "pasal": "Pasal 51",
+      "iri_individu": "ktn:Mangkir",
+      "jenis": "AlasanPHK",
+      "kondisi": "Pekerja mangkir 5 hari kerja atau lebih berturut-turut tanpa keterangan tertulis dan telah dipanggil 2 kali secara patut dan tertulis",
+      "akibat": "UPH + uang pisah yang besarnya diatur dalam PK/PP/PKB",
+      "parameter": [
+        {
+          "nama": "pengaliUP",
+          "nilai": "0",
+          "satuan": "kali",
+          "jenis": "pengali",
+          "pasal": "Pasal 51"
+        },
+        {
+          "nama": "pengaliUPMK",
+          "nilai": "0",
+          "satuan": "kali",
+          "jenis": "pengali",
+          "pasal": "Pasal 51"
+        }
+      ],
+      "bukti": "uang penggantian hak sesuai ketentuan Pasal 40 ayat (4); dan uang pisah",
+      "confidence": 0.95,
+      "dasar_keyakinan": "dikutip",
+      "catatan": "Tidak ada UP dan UPMK."
+    },
+    {
+      "norm_id": "PHK-PELANGGARAN-SP",
+      "topik": "PHK",
+      "pasal": "Pasal 52 ayat (1)",
+      "iri_individu": "ktn:PelanggaranSP",
+      "jenis": "AlasanPHK",
+      "kondisi": "Pekerja melanggar ketentuan PK/PP/PKB dan sebelumnya telah diberi surat peringatan pertama, kedua, dan ketiga secara berturut-turut",
+      "akibat": "UP 0,5x + UPMK 1x + UPH",
+      "parameter": [
+        {
+          "nama": "pengaliUP",
+          "nilai": "0.5",
+          "satuan": "kali",
+          "jenis": "pengali",
+          "pasal": "Pasal 52 ayat (1)"
+        },
+        {
+          "nama": "pengaliUPMK",
+          "nilai": "1",
+          "satuan": "kali",
+          "jenis": "pengali",
+          "pasal": "Pasal 52 ayat (1)"
+        }
+      ],
+      "bukti": "uang pesangon sebesar 0,5 (nol koma lima) kali ketentuan Pasal 40 ayat (2)",
+      "confidence": 0.95,
+      "dasar_keyakinan": "dikutip",
+      "catatan": ""
+    },
+    {
+      "norm_id": "PHK-PELANGGARAN-MENDESAK",
+      "topik": "PHK",
+      "pasal": "Pasal 52 ayat (2)",
+      "iri_individu": "ktn:PelanggaranMendesak",
+      "jenis": "AlasanPHK",
+      "kondisi": "Pekerja melakukan pelanggaran bersifat mendesak yang diatur dalam PK/PP/PKB",
+      "akibat": "UPH + uang pisah yang besarnya diatur dalam PK/PP/PKB; PHK dapat dilakukan tanpa pemberitahuan",
+      "parameter": [
+        {
+          "nama": "pengaliUP",
+          "nilai": "0",
+          "satuan": "kali",
+          "jenis": "pengali",
+          "pasal": "Pasal 52 ayat (2)"
+        },
+        {
+          "nama": "pengaliUPMK",
+          "nilai": "0",
+          "satuan": "kali",
+          "jenis": "pengali",
+          "pasal": "Pasal 52 ayat (2)"
+        }
+      ],
+      "bukti": "uang penggantian hak sesuai ketentuan Pasal 40 ayat (4); dan uang pisah",
+      "confidence": 0.95,
+      "dasar_keyakinan": "dikutip",
+      "catatan": "Ayat (3): PHK tanpa pemberitahuan sebagaimana dimaksud Pasal 37 ayat (2)."
+    },
+    {
+      "norm_id": "PHK-DITAHAN-BANTUAN",
+      "topik": "Upah",
+      "pasal": "Pasal 53 ayat (1)",
+      "iri_individu": "ktn:BantuanKeluargaPekerjaDitahan",
+      "jenis": "KetentuanUpah",
+      "kondisi": "Pekerja ditahan pihak yang berwajib karena diduga melakukan tindak pidana",
+      "akibat": "Pengusaha tidak wajib membayar upah tetapi wajib memberi bantuan kepada keluarga sebesar 25 persen (1 tanggungan), 35 persen (2), 45 persen (3), atau 50 persen (4 atau lebih) dari upah, paling lama 6 bulan",
       "parameter": [],
-      "bukti": "PKWT tidak dapat mensyaratkan adanya masa percobaan kerja",
+      "bukti": "Pengusaha tidak wajib membayar Upah, tetapi wajib memberikan bantuan kepada keluarga Pekerja/Buruh",
+      "confidence": 0.9,
+      "dasar_keyakinan": "dikutip",
+      "catatan": "Persentase bantuan menurut jumlah tanggungan; jangka waktu paling lama 6 bulan sejak hari pertama ditahan. Persentase belum punya parameter khusus di VOCAB."
+    },
+    {
+      "norm_id": "PHK-DITAHAN-MERUGIKAN",
+      "topik": "PHK",
+      "pasal": "Pasal 54 ayat (1)",
+      "iri_individu": "ktn:DitahanMerugikan",
+      "jenis": "AlasanPHK",
+      "kondisi": "Pekerja tidak dapat melakukan pekerjaan selama 6 bulan akibat ditahan karena diduga melakukan tindak pidana dan menyebabkan kerugian perusahaan",
+      "akibat": "UPH + uang pisah yang besarnya diatur dalam PK/PP/PKB",
+      "parameter": [
+        {
+          "nama": "pengaliUP",
+          "nilai": "0",
+          "satuan": "kali",
+          "jenis": "pengali",
+          "pasal": "Pasal 54 ayat (1)"
+        },
+        {
+          "nama": "pengaliUPMK",
+          "nilai": "0",
+          "satuan": "kali",
+          "jenis": "pengali",
+          "pasal": "Pasal 54 ayat (1)"
+        }
+      ],
+      "bukti": "uang penggantian hak sesuai ketentuan Pasal 40 ayat (4); dan uang pisah",
+      "confidence": 0.95,
+      "dasar_keyakinan": "dikutip",
+      "catatan": "Ayat (4): bila pengadilan memutus bersalah sebelum 6 bulan, haknya sama (UPH + uang pisah). Tidak ada UP dan UPMK."
+    },
+    {
+      "norm_id": "PHK-DITAHAN-TIDAK-MERUGIKAN",
+      "topik": "PHK",
+      "pasal": "Pasal 54 ayat (2)",
+      "iri_individu": "ktn:DitahanTidakMerugikan",
+      "jenis": "AlasanPHK",
+      "kondisi": "Pekerja tidak dapat melakukan pekerjaan selama 6 bulan akibat ditahan karena diduga melakukan tindak pidana dan tidak menyebabkan kerugian perusahaan",
+      "akibat": "UPMK 1x + UPH",
+      "parameter": [
+        {
+          "nama": "pengaliUP",
+          "nilai": "0",
+          "satuan": "kali",
+          "jenis": "pengali",
+          "pasal": "Pasal 54 ayat (2)"
+        },
+        {
+          "nama": "pengaliUPMK",
+          "nilai": "1",
+          "satuan": "kali",
+          "jenis": "pengali",
+          "pasal": "Pasal 54 ayat (2)"
+        }
+      ],
+      "bukti": "uang penghargaan masa kerja sebesar 1 (satu) kali ketentuan Pasal 40 ayat (3)",
+      "confidence": 0.95,
+      "dasar_keyakinan": "dikutip",
+      "catatan": "Ayat (5): bila pengadilan memutus bersalah sebelum 6 bulan, haknya sama (UPMK 1x + UPH). Tidak ada UP."
+    },
+    {
+      "norm_id": "PHK-DITAHAN-DIBEBASKAN",
+      "topik": "PHK",
+      "pasal": "Pasal 54 ayat (3)",
+      "iri_individu": "ktn:DitahanDibebaskan",
+      "jenis": "AlasanPHK",
+      "kondisi": "Pengadilan memutus perkara pidana sebelum berakhirnya masa 6 bulan dan pekerja dinyatakan tidak bersalah",
+      "akibat": "Pengusaha mempekerjakan pekerja kembali",
+      "parameter": [],
+      "bukti": "Pengusaha mempekerjakan Pekerja/Buruh kembali",
       "confidence": 0.95,
       "dasar_keyakinan": "dikutip",
       "catatan": ""
+    },
+    {
+      "norm_id": "PHK-SAKIT-BERKEPANJANGAN",
+      "topik": "PHK",
+      "pasal": "Pasal 55 ayat (1)",
+      "iri_individu": "ktn:SakitBerkepanjangan",
+      "jenis": "AlasanPHK",
+      "kondisi": "Pekerja mengalami sakit berkepanjangan atau cacat akibat kecelakaan kerja dan tidak dapat melakukan pekerjaan setelah melampaui 12 bulan",
+      "akibat": "UP 2x + UPMK 1x + UPH",
+      "parameter": [
+        {
+          "nama": "pengaliUP",
+          "nilai": "2",
+          "satuan": "kali",
+          "jenis": "pengali",
+          "pasal": "Pasal 55 ayat (1)"
+        },
+        {
+          "nama": "pengaliUPMK",
+          "nilai": "1",
+          "satuan": "kali",
+          "jenis": "pengali",
+          "pasal": "Pasal 55 ayat (1)"
+        }
+      ],
+      "bukti": "uang pesangon sebesar 2 (dua) kali ketentuan Pasal 40 ayat (2)",
+      "confidence": 0.95,
+      "dasar_keyakinan": "dikutip",
+      "catatan": "Ayat (2): bila pekerja mengajukan PHK dengan alasan yang sama, haknya identik."
+    },
+    {
+      "norm_id": "PHK-PENSIUN",
+      "topik": "PHK",
+      "pasal": "Pasal 56",
+      "iri_individu": "ktn:Pensiun",
+      "jenis": "AlasanPHK",
+      "kondisi": "Pekerja memasuki usia pensiun",
+      "akibat": "UP 1,75x + UPMK 1x + UPH",
+      "parameter": [
+        {
+          "nama": "pengaliUP",
+          "nilai": "1.75",
+          "satuan": "kali",
+          "jenis": "pengali",
+          "pasal": "Pasal 56"
+        },
+        {
+          "nama": "pengaliUPMK",
+          "nilai": "1",
+          "satuan": "kali",
+          "jenis": "pengali",
+          "pasal": "Pasal 56"
+        }
+      ],
+      "bukti": "uang pesangon sebesar 1,75 (satu koma tujuh puluh lima) kali ketentuan Pasal 40 ayat (2)",
+      "confidence": 0.95,
+      "dasar_keyakinan": "dikutip",
+      "catatan": ""
+    },
+    {
+      "norm_id": "PHK-MENINGGAL-DUNIA",
+      "topik": "PHK",
+      "pasal": "Pasal 57",
+      "iri_individu": "ktn:MeninggalDunia",
+      "jenis": "AlasanPHK",
+      "kondisi": "Pekerja meninggal dunia",
+      "akibat": "Ahli waris menerima UP 2x + UPMK 1x + UPH",
+      "parameter": [
+        {
+          "nama": "pengaliUP",
+          "nilai": "2",
+          "satuan": "kali",
+          "jenis": "pengali",
+          "pasal": "Pasal 57"
+        },
+        {
+          "nama": "pengaliUPMK",
+          "nilai": "1",
+          "satuan": "kali",
+          "jenis": "pengali",
+          "pasal": "Pasal 57"
+        }
+      ],
+      "bukti": "uang pesangon sebesar 2 (dua) kali ketentuan Pasal 40 ayat (2)",
+      "confidence": 0.95,
+      "dasar_keyakinan": "dikutip",
+      "catatan": "Diberikan kepada ahli waris."
+    },
+    {
+      "norm_id": "PHK-PENSIUN-OFFSET",
+      "topik": "Jamsos",
+      "pasal": "Pasal 58 ayat (1)",
+      "iri_individu": "ktn:KompensasiProgramPensiun",
+      "jenis": "KetentuanJaminanSosial",
+      "kondisi": "Pengusaha mengikutsertakan pekerja dalam program pensiun sesuai ketentuan dana pensiun",
+      "akibat": "Iuran yang dibayar pengusaha dapat diperhitungkan sebagai bagian pemenuhan kewajiban pesangon, UPMK, dan uang pisah; selisih manfaat yang lebih kecil dibayar pengusaha",
+      "parameter": [],
+      "bukti": "iuran yang dibayar oleh Pengusaha dapat diperhitungkan sebagai bagian dari pemenuhan kewajiban Pengusaha atas uang pesangon",
+      "confidence": 0.9,
+      "dasar_keyakinan": "dikutip",
+      "catatan": "Ayat (2)-(3): selisih dibayar pengusaha; pelaksanaan diatur dalam PK/PP/PKB."
     }
   ],
   "kategori": [
@@ -913,6 +1402,7 @@
       "max_bulan": 12,
       "nilai_bulan": 1.0,
       "pasal": "Pasal 40 ayat (2)a",
+      "bukti": "masa kerja kurang dari 1 (satu) tahun, 1 (satu) bulan Upah",
       "confidence": 0.95,
       "dasar_keyakinan": "dikutip"
     },
@@ -923,6 +1413,7 @@
       "max_bulan": 24,
       "nilai_bulan": 2.0,
       "pasal": "Pasal 40 ayat (2)b",
+      "bukti": "masa kerja 1 (satu) tahun atau lebih tetapi kurang dari 2 (dua) tahun, 2 (dua) bulan Upah",
       "confidence": 0.95,
       "dasar_keyakinan": "dikutip"
     },
@@ -933,6 +1424,7 @@
       "max_bulan": 36,
       "nilai_bulan": 3.0,
       "pasal": "Pasal 40 ayat (2)c",
+      "bukti": "masa kerja 2 (dua) tahun atau lebih tetapi kurang dari 3 (tiga) tahun, 3 (tiga) bulan Upah",
       "confidence": 0.95,
       "dasar_keyakinan": "dikutip"
     },
@@ -943,6 +1435,7 @@
       "max_bulan": 48,
       "nilai_bulan": 4.0,
       "pasal": "Pasal 40 ayat (2)d",
+      "bukti": "masa kerja 3 (tiga) tahun atau lebih tetapi kurang dari 4 (empat) tahun, 4 (empat) bulan Upah",
       "confidence": 0.95,
       "dasar_keyakinan": "dikutip"
     },
@@ -953,6 +1446,7 @@
       "max_bulan": 60,
       "nilai_bulan": 5.0,
       "pasal": "Pasal 40 ayat (2)e",
+      "bukti": "masa kerja 4 (empat) tahun atau lebih tetapi kurang dari 5 (lima) tahun, 5 (lima) bulan Upah",
       "confidence": 0.95,
       "dasar_keyakinan": "dikutip"
     },
@@ -963,6 +1457,7 @@
       "max_bulan": 72,
       "nilai_bulan": 6.0,
       "pasal": "Pasal 40 ayat (2)f",
+      "bukti": "masa kerja 5 (lima) tahun atau lebih, tetapi kurang dari 6 (enam) tahun, 6 (enam) bulan Upah",
       "confidence": 0.95,
       "dasar_keyakinan": "dikutip"
     },
@@ -973,6 +1468,7 @@
       "max_bulan": 84,
       "nilai_bulan": 7.0,
       "pasal": "Pasal 40 ayat (2)g",
+      "bukti": "masa kerja 6 (enam) tahun atau lebih tetapi kurang dari 7 (tujuh) tahun, 7 (tujuh) bulan Upah",
       "confidence": 0.95,
       "dasar_keyakinan": "dikutip"
     },
@@ -983,6 +1479,7 @@
       "max_bulan": 96,
       "nilai_bulan": 8.0,
       "pasal": "Pasal 40 ayat (2)h",
+      "bukti": "masa kerja 7 (tujuh) tahun atau lebih tetapi kurang dari 8 (delapan) tahun, 8 (delapan) bulan Upah",
       "confidence": 0.95,
       "dasar_keyakinan": "dikutip"
     },
@@ -993,6 +1490,7 @@
       "max_bulan": null,
       "nilai_bulan": 9.0,
       "pasal": "Pasal 40 ayat (2)i",
+      "bukti": "masa kerja 8 (delapan) tahun atau lebih, 9 (sembilan) bulan Upah",
       "confidence": 0.95,
       "dasar_keyakinan": "dikutip"
     },
@@ -1003,6 +1501,7 @@
       "max_bulan": 72,
       "nilai_bulan": 2.0,
       "pasal": "Pasal 40 ayat (3)a",
+      "bukti": "masa kerja 3 (tiga) tahun atau lebih tetapi kurang dari 6 (enam) tahun, 2 (dua) bulan Upah",
       "confidence": 0.95,
       "dasar_keyakinan": "dikutip"
     },
@@ -1013,6 +1512,7 @@
       "max_bulan": 108,
       "nilai_bulan": 3.0,
       "pasal": "Pasal 40 ayat (3)b",
+      "bukti": "masa kerja 6 (enam) tahun atau lebih tetapi kurang dari 9 (sembilan) tahun, 3 (tiga) bulan Upah",
       "confidence": 0.95,
       "dasar_keyakinan": "dikutip"
     },
@@ -1023,6 +1523,7 @@
       "max_bulan": 144,
       "nilai_bulan": 4.0,
       "pasal": "Pasal 40 ayat (3)c",
+      "bukti": "masa kerja 9 (sembilan) tahun atau lebih tetapi kurang dari 12 (dua belas) tahun, 4 (empat) bulan Upah",
       "confidence": 0.95,
       "dasar_keyakinan": "dikutip"
     },
@@ -1033,6 +1534,7 @@
       "max_bulan": 180,
       "nilai_bulan": 5.0,
       "pasal": "Pasal 40 ayat (3)d",
+      "bukti": "masa kerja 12 (dua belas) tahun atau lebih tetapi kurang dari 15 (lima belas) tahun, 5 (lima) bulan Upah",
       "confidence": 0.95,
       "dasar_keyakinan": "dikutip"
     },
@@ -1043,6 +1545,7 @@
       "max_bulan": 216,
       "nilai_bulan": 6.0,
       "pasal": "Pasal 40 ayat (3)e",
+      "bukti": "masa kerja 15 (lima belas) tahun atau lebih tetapi kurang dari 18 (delapan belas) tahun, 6 (enam) bulan Upah",
       "confidence": 0.95,
       "dasar_keyakinan": "dikutip"
     },
@@ -1053,6 +1556,7 @@
       "max_bulan": 252,
       "nilai_bulan": 7.0,
       "pasal": "Pasal 40 ayat (3)f",
+      "bukti": "masa kerja 18 (delapan belas) tahun atau lebih tetapi kurang dari 21 (dua puluh satu) tahun, 7 (tujuh) bulan Upah",
       "confidence": 0.95,
       "dasar_keyakinan": "dikutip"
     },
@@ -1063,6 +1567,7 @@
       "max_bulan": 288,
       "nilai_bulan": 8.0,
       "pasal": "Pasal 40 ayat (3)g",
+      "bukti": "masa kerja 21 (dua puluh satu) tahun atau lebih tetapi kurang dari 24 (dua puluh empat) tahun, 8 (delapan) bulan Upah",
       "confidence": 0.95,
       "dasar_keyakinan": "dikutip"
     },
@@ -1073,6 +1578,7 @@
       "max_bulan": null,
       "nilai_bulan": 10.0,
       "pasal": "Pasal 40 ayat (3)h",
+      "bukti": "masa kerja 24 (dua puluh empat) tahun atau lebih, 10 (sepuluh) bulan Upah",
       "confidence": 0.95,
       "dasar_keyakinan": "dikutip"
     }
@@ -1085,6 +1591,7 @@
       "jam_max": 1,
       "pengali": 1.5,
       "pasal": "Pasal 31 ayat (1)a",
+      "bukti": "untuk jam kerja lembur pertama sebesar 1,5 (satu koma lima) kali Upah sejam",
       "confidence": 0.95,
       "dasar_keyakinan": "dikutip"
     },
@@ -1095,6 +1602,7 @@
       "jam_max": 4,
       "pengali": 2.0,
       "pasal": "Pasal 31 ayat (1)b",
+      "bukti": "untuk setiap jam kerja lembur berikutnya, sebesar 2 (dua) kali Upah sejam",
       "confidence": 0.95,
       "dasar_keyakinan": "dikutip"
     },
@@ -1105,6 +1613,7 @@
       "jam_max": 7,
       "pengali": 2.0,
       "pasal": "Pasal 31 ayat (2)a.1",
+      "bukti": "jam pertama sampai dengan jam ketujuh, dibayar 2 (dua) kali Upah sejam",
       "confidence": 0.95,
       "dasar_keyakinan": "dikutip"
     },
@@ -1115,6 +1624,7 @@
       "jam_max": 8,
       "pengali": 3.0,
       "pasal": "Pasal 31 ayat (2)a.2",
+      "bukti": "jam kedelapan, dibayar 3 (tiga) kali Upah sejam",
       "confidence": 0.95,
       "dasar_keyakinan": "dikutip"
     },
@@ -1125,6 +1635,7 @@
       "jam_max": 11,
       "pengali": 4.0,
       "pasal": "Pasal 31 ayat (2)a.3",
+      "bukti": "jam kesembilan, jam kesepuluh, dan jam kesebelas, dibayar 4 (empat) kali Upah sejam",
       "confidence": 0.95,
       "dasar_keyakinan": "dikutip"
     },
@@ -1135,6 +1646,7 @@
       "jam_max": 5,
       "pengali": 2.0,
       "pasal": "Pasal 31 ayat (2)b.1",
+      "bukti": "jam pertama sampai dengan jam kelima, dibayar 2 (dua) kali Upah sejam",
       "confidence": 0.95,
       "dasar_keyakinan": "dikutip"
     },
@@ -1145,6 +1657,7 @@
       "jam_max": 6,
       "pengali": 3.0,
       "pasal": "Pasal 31 ayat (2)b.2",
+      "bukti": "jam keenam, dibayar 3 (tiga) kali Upah sejam",
       "confidence": 0.95,
       "dasar_keyakinan": "dikutip"
     },
@@ -1155,6 +1668,7 @@
       "jam_max": 9,
       "pengali": 4.0,
       "pasal": "Pasal 31 ayat (2)b.3",
+      "bukti": "jam ketujuh, jam kedelapan, dan jam kesembilan, dibayar 4 (empat) kali Upah sejam",
       "confidence": 0.95,
       "dasar_keyakinan": "dikutip"
     },
@@ -1165,6 +1679,7 @@
       "jam_max": 8,
       "pengali": 2.0,
       "pasal": "Pasal 31 ayat (3)a",
+      "bukti": "jam pertama sampai dengan jam kedelapan, dibayar 2 (dua) kali Upah sejam",
       "confidence": 0.95,
       "dasar_keyakinan": "dikutip"
     },
@@ -1175,6 +1690,7 @@
       "jam_max": 9,
       "pengali": 3.0,
       "pasal": "Pasal 31 ayat (3)b",
+      "bukti": "jam kesembilan, dibayar 3 (tiga) kali Upah sejam",
       "confidence": 0.95,
       "dasar_keyakinan": "dikutip"
     },
@@ -1185,25 +1701,49 @@
       "jam_max": 12,
       "pengali": 4.0,
       "pasal": "Pasal 31 ayat (3)c",
+      "bukti": "jam kesepuluh, jam kesebelas, dan jam kedua belas, dibayar 4 (empat) kali Upah sejam",
       "confidence": 0.95,
       "dasar_keyakinan": "dikutip"
     }
   ],
   "program_jamsos": [],
   "cakupan": {
-    "lengkap": false,
+    "lengkap": true,
     "pasal_diekstrak": [
-      "Pasal 8",
+      "Pasal 1",
       "Pasal 10",
       "Pasal 12",
+      "Pasal 13",
       "Pasal 14",
       "Pasal 15",
+      "Pasal 16",
+      "Pasal 17",
       "Pasal 18",
       "Pasal 19",
+      "Pasal 2",
       "Pasal 20",
+      "Pasal 21",
+      "Pasal 22",
+      "Pasal 23",
+      "Pasal 24",
+      "Pasal 25",
+      "Pasal 26",
+      "Pasal 27",
+      "Pasal 28",
       "Pasal 29",
+      "Pasal 3",
+      "Pasal 30",
+      "Pasal 31",
       "Pasal 32",
       "Pasal 33",
+      "Pasal 34",
+      "Pasal 35",
+      "Pasal 36",
+      "Pasal 37",
+      "Pasal 38",
+      "Pasal 39",
+      "Pasal 4",
+      "Pasal 40",
       "Pasal 41",
       "Pasal 42",
       "Pasal 43",
@@ -1213,21 +1753,110 @@
       "Pasal 47",
       "Pasal 48",
       "Pasal 49",
+      "Pasal 5",
       "Pasal 50",
       "Pasal 51",
       "Pasal 52",
+      "Pasal 53",
       "Pasal 54",
       "Pasal 55",
       "Pasal 56",
-      "Pasal 57"
+      "Pasal 57",
+      "Pasal 58",
+      "Pasal 59",
+      "Pasal 6",
+      "Pasal 60",
+      "Pasal 61",
+      "Pasal 62",
+      "Pasal 63",
+      "Pasal 64",
+      "Pasal 65",
+      "Pasal 66",
+      "Pasal 7",
+      "Pasal 8",
+      "Pasal 9"
     ],
     "pasal_dilewati": [
       {
         "pasal": "Pasal 1",
-        "alasan": "definisi/istilah, bukan norma penalaran hak"
+        "alasan": "definisi/istilah: hubungan kerja, pekerja, pengusaha, perusahaan, upah, PKWT, PKWTT, alih daya, PHK, dan istilah lain; tanpa akibat hukum"
+      },
+      {
+        "pasal": "Pasal 2",
+        "alasan": "dasar terbentuknya hubungan kerja dan bentuk perjanjian kerja; ketentuan definisi, bukan norma hak yang dapat dimodelkan"
+      },
+      {
+        "pasal": "Pasal 3",
+        "alasan": "pernyataan bahwa PKWTT dilaksanakan sesuai ketentuan peraturan perundang-undangan; tanpa akibat hukum mandiri"
+      },
+      {
+        "pasal": "Pasal 5",
+        "alasan": "enumerasi jenis pekerjaan tertentu yang dapat dijadikan PKWT; akibat hukum larangan pekerjaan tetap ditangani Pasal 4 ayat (2)"
+      },
+      {
+        "pasal": "Pasal 7",
+        "alasan": "definisi pekerjaan musiman (tergantung musim/cuaca atau kondisi tertentu); bukan norma dengan akibat hukum"
+      },
+      {
+        "pasal": "Pasal 13",
+        "alasan": "syarat isi minimum PKWT; formalitas administratif, bukan norma hak"
+      },
+      {
+        "pasal": "Pasal 24",
+        "alasan": "kewenangan Menteri menetapkan waktu kerja dan istirahat sektor lain serta pengaturan lebih lanjut dengan Peraturan Menteri; kelembagaan"
+      },
+      {
+        "pasal": "Pasal 25",
+        "alasan": "penunjukan bahwa pelaksanaan waktu kerja sektor tertentu diatur dalam Perjanjian Kerja, Peraturan Perusahaan, atau PKB; bukan norma hak mandiri"
+      },
+      {
+        "pasal": "Pasal 30",
+        "alasan": "ketentuan ruang lingkup dan pengecualian sektor usaha tertentu; sudah tercermin pada norma lembur"
+      },
+      {
+        "pasal": "Pasal 35",
+        "alasan": "istirahat panjang bersifat fakultatif bagi perusahaan tertentu dan pelaksanaannya diatur dalam PK/PP/PKB; tanpa akibat hukum yang dapat dihitung"
+      },
+      {
+        "pasal": "Pasal 36",
+        "alasan": "enumerasi alasan PHK; akibat hukum tiap alasan dirinci pada Pasal 41 sampai Pasal 57 sehingga tidak diduplikasi"
+      },
+      {
+        "pasal": "Pasal 60",
+        "alasan": "pengawasan ketenagakerjaan oleh Pengawas Ketenagakerjaan; kelembagaan"
+      },
+      {
+        "pasal": "Pasal 61",
+        "alasan": "sanksi administratif atas pelanggaran ketentuan PP; bukan norma hak"
+      },
+      {
+        "pasal": "Pasal 62",
+        "alasan": "tata cara pengenaan sanksi administratif dan kewenangan pejabat; kelembagaan/prosedural"
+      },
+      {
+        "pasal": "Pasal 63",
+        "alasan": "ketentuan peralihan: PKWT yang sudah ada tetap berlaku sampai berakhir"
+      },
+      {
+        "pasal": "Pasal 64",
+        "alasan": "ketentuan peralihan: uang kompensasi PKWT berjalan dihitung sejak diundangkannya UU Cipta Kerja"
+      },
+      {
+        "pasal": "Pasal 65",
+        "alasan": "ketentuan peralihan: peraturan pelaksanaan UU 13/2003 tentang waktu kerja sektor tertentu tetap berlaku"
+      },
+      {
+        "pasal": "Pasal 66",
+        "alasan": "ketentuan penutup: mulai berlaku pada tanggal diundangkan"
       }
     ],
-    "catatan": "Contoh struktural yang diretrifit dari data pilot; belum meninjau seluruh pasal. Akan digantikan pada Fase 2."
+    "catatan": ""
   },
-  "tidak_termodelkan": []
+  "tidak_termodelkan": [
+    {
+      "pasal": "Pasal 59",
+      "ringkasan": "Pengusaha pada usaha mikro dan usaha kecil wajib membayar uang pesangon, UPMK, UPH, dan/atau uang pisah dengan besaran berdasarkan kesepakatan dengan pekerja.",
+      "alasan": "Butuh kelas/properti KetentuanPesangon (jenis belum ada di VOCAB, masih kandidat) untuk memodelkan besaran pesangon berbasis kesepakatan."
+    }
+  ]
 }

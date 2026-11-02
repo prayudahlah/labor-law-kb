@@ -1,6 +1,6 @@
 {
-  "spec_version": "1.0.0",
-  "vocab_version": "0.2.0",
+  "spec_version": "1.1.0",
+  "vocab_version": "0.3.0",
   "dokumen_id": "UU-4-2024",
   "status_review": "reviewed",
   "peraturan": {
@@ -14,13 +14,56 @@
   },
   "norma": [
     {
+      "norm_id": "KIA-HAK-ASI-EKSKLUSIF",
+      "topik": "KIA",
+      "pasal": "Pasal 4 ayat (2)",
+      "iri_individu": "ktn:KetentuanHakASI",
+      "jenis": "KetentuanKIA",
+      "kondisi": "Setiap Ibu dengan Anak yang baru dilahirkan",
+      "akibat": "Berhak memberikan air susu ibu eksklusif sampai Anak berusia 6 bulan dan melanjutkan pemberian air susu ibu hingga Anak berusia 2 tahun disertai makanan pendamping",
+      "parameter": [],
+      "bukti": "setiap Ibu berhak memberikan air susu ibu eksklusif sejak Anak dilahirkan sampai dengan Anak berusia 6 (enam) bulan",
+      "confidence": 0.95,
+      "dasar_keyakinan": "dikutip",
+      "catatan": "Sumber OCR membaca nomor ayat '(21' untuk '(2)'."
+    },
+    {
+      "norm_id": "KIA-CUTI-MELAHIRKAN",
+      "topik": "KIA",
+      "pasal": "Pasal 4 ayat (3)a",
+      "iri_individu": "ktn:KetentuanCutiMelahirkan",
+      "jenis": "KetentuanKIA",
+      "kondisi": "Ibu yang bekerja dan melahirkan",
+      "akibat": "Berhak atas cuti melahirkan paling singkat 3 bulan pertama dan paling lama 3 bulan berikutnya jika terdapat kondisi khusus yang dibuktikan dengan surat keterangan dokter",
+      "parameter": [
+        {
+          "nama": "cutiMelahirkanBulanMin",
+          "nilai": "3",
+          "satuan": "bulan",
+          "jenis": "nominal",
+          "pasal": "Pasal 4 ayat (3)a"
+        },
+        {
+          "nama": "cutiMelahirkanBulanMax",
+          "nilai": "6",
+          "satuan": "bulan",
+          "jenis": "nominal",
+          "pasal": "Pasal 4 ayat (3)a"
+        }
+      ],
+      "bukti": "cuti melahirkan dengan ketentuan: 1. paling singkat 3 (tiga) bulan pertama; dan 2. paling lama 3 (tiga) bulan berikutnya jika terdapat kondisi khusus",
+      "confidence": 0.95,
+      "dasar_keyakinan": "dikutip",
+      "catatan": "cutiMelahirkanBulanMax adalah total 3 bulan pertama ditambah paling lama 3 bulan berikutnya."
+    },
+    {
       "norm_id": "KIA-CUTI-KEGUGURAN",
       "topik": "KIA",
       "pasal": "Pasal 4 ayat (3)b",
       "iri_individu": "ktn:KetentuanCutiKeguguran",
       "jenis": "KetentuanKIA",
-      "kondisi": "Ibu mengalami keguguran",
-      "akibat": "Istirahat 1,5 bulan atau sesuai surat keterangan dokter",
+      "kondisi": "Ibu yang bekerja dan mengalami keguguran",
+      "akibat": "Berhak atas waktu istirahat 1,5 bulan atau sesuai dengan surat keterangan dokter, dokter kebidanan dan kandungan, atau bidan",
       "parameter": [
         {
           "nama": "cutiKeguguranBulan",
@@ -30,36 +73,120 @@
           "pasal": "Pasal 4 ayat (3)b"
         }
       ],
-      "bukti": "waktu istirahat 1,5 bulan atau sesuai surat keterangan dokter",
+      "bukti": "waktu istirahat 1,5 (satu setengah) bulan atau sesuai dengan surat keterangan dokter, dokter kebidanan dan kandungan, atau bidan jika mengalami keguguran",
       "confidence": 0.95,
       "dasar_keyakinan": "dikutip",
       "catatan": ""
     },
     {
-      "norm_id": "KIA-CUTI-MELAHIRKAN",
+      "norm_id": "KIA-MENYUSUI",
       "topik": "KIA",
-      "pasal": "Pasal 4 ayat (3)a",
-      "iri_individu": "ktn:KetentuanCutiMelahirkan",
+      "pasal": "Pasal 4 ayat (3)c",
+      "iri_individu": "ktn:KetentuanMenyusui",
       "jenis": "KetentuanKIA",
-      "kondisi": "Ibu bekerja melahirkan",
-      "akibat": "Cuti paling singkat 3 bulan, dapat ditambah 3 bulan bila kondisi khusus",
+      "kondisi": "Ibu yang bekerja",
+      "akibat": "Berhak atas kesempatan dan fasilitas yang layak untuk pelayanan kesehatan dan gizi serta melakukan laktasi selama waktu kerja",
+      "parameter": [],
+      "bukti": "kesempatan dan fasilitas yang layak untuk pelayanan kesehatan dan gizi serta melakukan laktasi selama waktu kerja",
+      "confidence": 0.95,
+      "dasar_keyakinan": "dikutip",
+      "catatan": ""
+    },
+    {
+      "norm_id": "KIA-WAKTU-KEPENTINGAN-ANAK",
+      "topik": "KIA",
+      "pasal": "Pasal 4 ayat (3)d",
+      "iri_individu": "ktn:KetentuanWaktuKepentinganAnak",
+      "jenis": "KetentuanKIA",
+      "kondisi": "Ibu yang bekerja",
+      "akibat": "Berhak atas waktu yang cukup dalam hal diperlukan untuk kepentingan terbaik bagi Anak",
+      "parameter": [],
+      "bukti": "waktu yang cukup dalam hal diperlukan untuk kepentingan terbaik bagi Anak",
+      "confidence": 0.85,
+      "dasar_keyakinan": "tafsir",
+      "catatan": "Ukuran 'waktu yang cukup' tidak dinyatakan dalam angka."
+    },
+    {
+      "norm_id": "KIA-AKSES-PENITIPAN-ANAK",
+      "topik": "KIA",
+      "pasal": "Pasal 4 ayat (3)e",
+      "iri_individu": "ktn:KetentuanAksesPenitipanAnak",
+      "jenis": "KetentuanKIA",
+      "kondisi": "Ibu yang bekerja",
+      "akibat": "Berhak atas akses penitipan anak yang terjangkau secara jarak dan biaya",
+      "parameter": [],
+      "bukti": "akses penitipan anak yang terjangkau secara jarak dan biaya",
+      "confidence": 0.95,
+      "dasar_keyakinan": "dikutip",
+      "catatan": ""
+    },
+    {
+      "norm_id": "KIA-CUTI-MELAHIRKAN-WAJIB",
+      "topik": "KIA",
+      "pasal": "Pasal 4 ayat (4)",
+      "iri_individu": "ktn:KetentuanKewajibanCutiMelahirkan",
+      "jenis": "KetentuanKIA",
+      "kondisi": "Pemberi kerja",
+      "akibat": "Wajib memberikan cuti melahirkan sebagaimana dimaksud pada ayat (3) huruf a",
+      "parameter": [],
+      "bukti": "Cuti melahirkan sebagaimana dimaksud pada ayat (3) huruf a wajib diberikan oleh pemberi kerja",
+      "confidence": 0.95,
+      "dasar_keyakinan": "dikutip",
+      "catatan": "Sumber OCR membaca nomor ayat '(41' untuk '(4)'."
+    },
+    {
+      "norm_id": "KIA-LARANGAN-PHK",
+      "topik": "KIA",
+      "pasal": "Pasal 5 ayat (1)",
+      "iri_individu": "ktn:KetentuanLaranganPHKKIA",
+      "jenis": "KetentuanKIA",
+      "kondisi": "Ibu yang melaksanakan hak cuti melahirkan atau waktu istirahat karena keguguran",
+      "akibat": "Tidak dapat diberhentikan dari pekerjaannya dan tetap memperoleh haknya sesuai dengan ketentuan peraturan perundang-undangan di bidang ketenagakerjaan",
+      "parameter": [],
+      "bukti": "tidak dapat diberhentikan dari pekerjaannya dan tetap memperoleh haknya",
+      "confidence": 0.95,
+      "dasar_keyakinan": "dikutip",
+      "catatan": ""
+    },
+    {
+      "norm_id": "KIA-UPAH-CUTI-MELAHIRKAN",
+      "topik": "KIA",
+      "pasal": "Pasal 5 ayat (2)",
+      "iri_individu": "ktn:KetentuanUpahCutiMelahirkan",
+      "jenis": "KetentuanKIA",
+      "kondisi": "Ibu yang melaksanakan hak cuti melahirkan",
+      "akibat": "Berhak mendapatkan upah penuh untuk 3 bulan pertama dan bulan keempat, serta 75% dari upah untuk bulan kelima dan keenam",
       "parameter": [
         {
-          "nama": "cutiMelahirkanBulanMax",
-          "nilai": "6",
+          "nama": "bulanUpahPenuh",
+          "nilai": "4",
           "satuan": "bulan",
           "jenis": "nominal",
-          "pasal": "Pasal 4 ayat (3)a"
+          "pasal": "Pasal 5 ayat (2)"
         },
         {
-          "nama": "cutiMelahirkanBulanMin",
-          "nilai": "3",
+          "nama": "bulanUpah75",
+          "nilai": "2",
           "satuan": "bulan",
           "jenis": "nominal",
-          "pasal": "Pasal 4 ayat (3)a"
+          "pasal": "Pasal 5 ayat (2)"
         }
       ],
-      "bukti": "paling singkat 3 bulan pertama dan paling lama 3 bulan berikutnya",
+      "bukti": "75% (tujuh puluh lima persen) dari upah untuk bulan kelima dan bulan keenam",
+      "confidence": 0.95,
+      "dasar_keyakinan": "dikutip",
+      "catatan": "Upah penuh berlaku untuk 3 bulan pertama dan bulan keempat; angka pada bukti adalah bagian 75%."
+    },
+    {
+      "norm_id": "KIA-BANTUAN-HUKUM",
+      "topik": "KIA",
+      "pasal": "Pasal 5 ayat (3)",
+      "iri_individu": "ktn:KetentuanBantuanHukumKIA",
+      "jenis": "KetentuanKIA",
+      "kondisi": "Ibu yang diberhentikan dari pekerjaannya dan/atau tidak memperoleh haknya",
+      "akibat": "Pemerintah Pusat dan/atau Pemerintah Daerah memberikan bantuan hukum sesuai dengan ketentuan peraturan perundang-undangan",
+      "parameter": [],
+      "bukti": "Pemerintah Pusat dan/atau Pemerintah Daerah memberikan bantuan hukum",
       "confidence": 0.95,
       "dasar_keyakinan": "dikutip",
       "catatan": ""
@@ -70,8 +197,8 @@
       "pasal": "Pasal 6 ayat (2)a",
       "iri_individu": "ktn:KetentuanCutiPendampinganSuami",
       "jenis": "KetentuanKIA",
-      "kondisi": "Suami mendampingi persalinan",
-      "akibat": "Cuti 2 hari dapat ditambah paling lama 3 hari",
+      "kondisi": "Suami dari Ibu yang melahirkan",
+      "akibat": "Berhak atas cuti pendampingan istri selama 2 hari dan dapat diberikan paling lama 3 hari berikutnya atau sesuai dengan kesepakatan",
       "parameter": [
         {
           "nama": "cutiPendampinganHari",
@@ -88,64 +215,99 @@
           "pasal": "Pasal 6 ayat (2)a"
         }
       ],
-      "bukti": "masa persalinan selama 2 hari dan dapat diberikan paling lama 3 hari berikutnya",
+      "bukti": "masa persalinan, selama 2 (dua) hari dan dapat diberikan paling lama 3 (tiga) hari berikutnya atau sesuai dengan kesepakatan",
       "confidence": 0.95,
       "dasar_keyakinan": "dikutip",
       "catatan": ""
     },
     {
-      "norm_id": "KIA-LARANGAN-PHK",
+      "norm_id": "KIA-CUTI-PENDAMPINGAN-KEGUGURAN",
       "topik": "KIA",
-      "pasal": "Pasal 5 ayat (1)",
-      "iri_individu": "ktn:KetentuanLaranganPHKKIA",
+      "pasal": "Pasal 6 ayat (2)b",
+      "iri_individu": "ktn:KetentuanCutiPendampinganKeguguran",
       "jenis": "KetentuanKIA",
-      "kondisi": "Ibu melaksanakan hak cuti melahirkan atau keguguran",
-      "akibat": "Tidak dapat diberhentikan dan tetap memperoleh haknya",
-      "parameter": [],
-      "bukti": "tidak dapat diberhentikan dari pekerjaannya dan tetap memperoleh haknya",
-      "confidence": 0.95,
-      "dasar_keyakinan": "dikutip",
-      "catatan": ""
-    },
-    {
-      "norm_id": "KIA-MENYUSUI",
-      "topik": "KIA",
-      "pasal": "Pasal 4 ayat (3)c",
-      "iri_individu": "ktn:KetentuanMenyusui",
-      "jenis": "KetentuanKIA",
-      "kondisi": "Ibu bekerja menyusui",
-      "akibat": "Kesempatan dan fasilitas laktasi selama waktu kerja",
-      "parameter": [],
-      "bukti": "kesempatan dan fasilitas yang layak untuk pelayanan kesehatan dan gizi serta melakukan laktasi selama waktu kerja",
-      "confidence": 0.95,
-      "dasar_keyakinan": "dikutip",
-      "catatan": ""
-    },
-    {
-      "norm_id": "KIA-UPAH-CUTI-MELAHIRKAN",
-      "topik": "KIA",
-      "pasal": "Pasal 5 ayat (2)",
-      "iri_individu": "ktn:KetentuanUpahCutiMelahirkan",
-      "jenis": "KetentuanKIA",
-      "kondisi": "Ibu menjalankan cuti melahirkan",
-      "akibat": "Upah penuh bulan 1 sampai 4, 75 persen bulan 5 dan 6",
+      "kondisi": "Suami dari Ibu yang mengalami keguguran",
+      "akibat": "Berhak atas cuti pendampingan istri selama 2 hari",
       "parameter": [
         {
-          "nama": "bulanUpah75",
+          "nama": "cutiPendampinganHari",
           "nilai": "2",
-          "satuan": "bulan",
+          "satuan": "hari",
           "jenis": "nominal",
-          "pasal": "Pasal 5 ayat (2)"
-        },
-        {
-          "nama": "bulanUpahPenuh",
-          "nilai": "4",
-          "satuan": "bulan",
-          "jenis": "nominal",
-          "pasal": "Pasal 5 ayat (2)"
+          "pasal": "Pasal 6 ayat (2)b"
         }
       ],
-      "bukti": "secara penuh untuk 3 bulan pertama dan bulan keempat serta 75 persen untuk bulan kelima dan keenam",
+      "bukti": "saat mengalami keguguran, selama 2 (dua) hari",
+      "confidence": 0.95,
+      "dasar_keyakinan": "dikutip",
+      "catatan": ""
+    },
+    {
+      "norm_id": "KIA-WAKTU-PENDAMPINGAN-TAMBAHAN",
+      "topik": "KIA",
+      "pasal": "Pasal 6 ayat (3)",
+      "iri_individu": "ktn:KetentuanWaktuPendampinganTambahan",
+      "jenis": "KetentuanKIA",
+      "kondisi": "Suami jika istri mengalami masalah kesehatan, gangguan kesehatan, dan/atau komplikasi pascapersalinan atau keguguran, Anak mengalami masalah kesehatan, istri meninggal dunia, atau Anak meninggal dunia",
+      "akibat": "Diberikan waktu yang cukup untuk mendampingi istri dan/atau Anak",
+      "parameter": [],
+      "bukti": "suami diberikan waktu yang cukup untuk mendampingi istri dan/atau Anak",
+      "confidence": 0.85,
+      "dasar_keyakinan": "tafsir",
+      "catatan": "Ukuran 'waktu yang cukup' tidak dinyatakan dalam angka."
+    },
+    {
+      "norm_id": "KIA-FASILITAS-IBU-ANAK",
+      "topik": "KIA",
+      "pasal": "Pasal 30 ayat (1)",
+      "iri_individu": "ktn:KetentuanFasilitasIbuAnak",
+      "jenis": "KetentuanKIA",
+      "kondisi": "Pemberi kerja, penyedia, atau pengelola fasilitas, akomodasi yang layak, sarana, dan prasarana",
+      "akibat": "Harus memberikan kemudahan penggunaan fasilitas, sarana, dan prasarana bagi Ibu dan Anak, termasuk akomodasi yang layak bagi Ibu dan Anak penyandang disabilitas",
+      "parameter": [],
+      "bukti": "harus memberikan kemudahan dalam penggunaan fasilitas, sarana, dan prasarana bagi Ibu dan Anak",
+      "confidence": 0.95,
+      "dasar_keyakinan": "dikutip",
+      "catatan": "Sumber OCR membaca 'akomodasi yang layak bagi lbu' dengan huruf 'l'."
+    },
+    {
+      "norm_id": "KIA-DUKUNGAN-TEMPAT-KERJA",
+      "topik": "KIA",
+      "pasal": "Pasal 30 ayat (3)",
+      "iri_individu": "ktn:KetentuanDukunganTempatKerja",
+      "jenis": "KetentuanKIA",
+      "kondisi": "Pemberi kerja",
+      "akibat": "Menyediakan dukungan di tempat kerja berupa fasilitas pelayanan kesehatan, ruang laktasi, dan tempat penitipan anak",
+      "parameter": [],
+      "bukti": "berupa: - a. fasilitas pelayanan kesehatan; - b. penyediaan ruang laktasi; dan - c. tempat penitipan anak",
+      "confidence": 0.95,
+      "dasar_keyakinan": "dikutip",
+      "catatan": ""
+    },
+    {
+      "norm_id": "KIA-PENYESUAIAN-KERJA-IBU",
+      "topik": "KIA",
+      "pasal": "Pasal 30 ayat (4)",
+      "iri_individu": "ktn:KetentuanPenyesuaianKerjaIbu",
+      "jenis": "KetentuanKIA",
+      "kondisi": "Ibu yang bekerja",
+      "akibat": "Mendapat dukungan penyesuaian tugas, jam kerja, dan/atau tempat kerja dengan tetap memperhatikan kondisi dan target capaian kerja",
+      "parameter": [],
+      "bukti": "penyesuaian tugas, jam kerja, dan/atau tempat kerja dengan tetap memperhatikan kondisi dan target capaian kerja",
+      "confidence": 0.95,
+      "dasar_keyakinan": "dikutip",
+      "catatan": ""
+    },
+    {
+      "norm_id": "KIA-KEWAJIBAN-FASILITAS-TEMPAT-KERJA",
+      "topik": "KIA",
+      "pasal": "Pasal 30 ayat (5)",
+      "iri_individu": "ktn:KetentuanKewajibanFasilitasTempatKerja",
+      "jenis": "KetentuanKIA",
+      "kondisi": "Pemberi kerja",
+      "akibat": "Wajib menyediakan dukungan fasilitas, akomodasi yang layak, sarana, dan prasarana di tempat kerja sesuai dengan ketentuan peraturan perundang-undangan",
+      "parameter": [],
+      "bukti": "wajib disediakan oleh pemberi kerja sesuai dengan ketentuan peraturan perundang-undangan",
       "confidence": 0.95,
       "dasar_keyakinan": "dikutip",
       "catatan": ""
@@ -155,171 +317,211 @@
   "pengali_lembur": [],
   "program_jamsos": [],
   "cakupan": {
-    "lengkap": false,
+    "lengkap": true,
     "pasal_diekstrak": [
+      "Pasal 1",
+      "Pasal 10",
+      "Pasal 12",
+      "Pasal 13",
+      "Pasal 14",
+      "Pasal 15",
+      "Pasal 16",
+      "Pasal 17",
+      "Pasal 18",
+      "Pasal 19",
+      "Pasal 2",
+      "Pasal 20",
+      "Pasal 22",
+      "Pasal 23",
+      "Pasal 24",
+      "Pasal 25",
+      "Pasal 26",
+      "Pasal 27",
+      "Pasal 28",
+      "Pasal 29",
+      "Pasal 3",
+      "Pasal 30",
+      "Pasal 31",
+      "Pasal 32",
+      "Pasal 33",
+      "Pasal 34",
+      "Pasal 35",
+      "Pasal 36",
+      "Pasal 37",
+      "Pasal 38",
+      "Pasal 39",
       "Pasal 4",
+      "Pasal 40",
+      "Pasal 41",
+      "Pasal 43",
+      "Pasal 44",
+      "Pasal 45",
+      "Pasal 46",
       "Pasal 5",
-      "Pasal 6"
+      "Pasal 6",
+      "Pasal 7",
+      "Pasal 8",
+      "Pasal 9"
     ],
     "pasal_dilewati": [
       {
         "pasal": "Pasal 1",
-        "alasan": "retrofit: belum ditinjau (migrasi data pilot)"
+        "alasan": "definisi/istilah"
       },
       {
         "pasal": "Pasal 2",
-        "alasan": "retrofit: belum ditinjau (migrasi data pilot)"
+        "alasan": "asas penyelenggaraan"
       },
       {
         "pasal": "Pasal 3",
-        "alasan": "retrofit: belum ditinjau (migrasi data pilot)"
+        "alasan": "tujuan penyelenggaraan"
       },
       {
         "pasal": "Pasal 7",
-        "alasan": "retrofit: belum ditinjau (migrasi data pilot)"
+        "alasan": "rujukan ke peraturan perundang-undangan disabilitas; tidak menetapkan norma mandiri"
       },
       {
         "pasal": "Pasal 8",
-        "alasan": "retrofit: belum ditinjau (migrasi data pilot)"
+        "alasan": "rujukan ke peraturan perundang-undangan; hak ibu dengan kerentanan khusus"
       },
       {
         "pasal": "Pasal 9",
-        "alasan": "retrofit: belum ditinjau (migrasi data pilot)"
+        "alasan": "penegasan bahwa hak KIA bagian dari hak pekerja; deklaratif"
       },
       {
         "pasal": "Pasal 10",
-        "alasan": "retrofit: belum ditinjau (migrasi data pilot)"
+        "alasan": "subjek ASN/TNI/Polri diatur dalam peraturan perundang-undangan tersendiri"
       },
       {
         "pasal": "Pasal 12",
-        "alasan": "retrofit: belum ditinjau (migrasi data pilot)"
+        "alasan": "kewajiban orang tua/keluarga dalam pengasuhan dan gizi; bukan norma ketenagakerjaan"
       },
       {
         "pasal": "Pasal 13",
-        "alasan": "retrofit: belum ditinjau (migrasi data pilot)"
+        "alasan": "tugas dan wewenang pemerintah; kelembagaan"
       },
       {
         "pasal": "Pasal 14",
-        "alasan": "retrofit: belum ditinjau (migrasi data pilot)"
+        "alasan": "tanggung jawab dan pelaksanaan oleh pemerintah; kelembagaan"
       },
       {
         "pasal": "Pasal 15",
-        "alasan": "retrofit: belum ditinjau (migrasi data pilot)"
+        "alasan": "ruang lingkup penyelenggaraan; bukan norma hak"
       },
       {
         "pasal": "Pasal 16",
-        "alasan": "retrofit: belum ditinjau (migrasi data pilot)"
+        "alasan": "perencanaan pembangunan; tata cara pemerintahan"
       },
       {
         "pasal": "Pasal 17",
-        "alasan": "retrofit: belum ditinjau (migrasi data pilot)"
+        "alasan": "pelaksanaan perencanaan; tata cara pemerintahan"
       },
       {
         "pasal": "Pasal 18",
-        "alasan": "retrofit: belum ditinjau (migrasi data pilot)"
+        "alasan": "pelaksanaan layanan oleh pemerintah; kelembagaan"
       },
       {
         "pasal": "Pasal 19",
-        "alasan": "retrofit: belum ditinjau (migrasi data pilot)"
+        "alasan": "pelibatan keluarga; bukan norma ketenagakerjaan"
       },
       {
         "pasal": "Pasal 20",
-        "alasan": "retrofit: belum ditinjau (migrasi data pilot)"
+        "alasan": "pelibatan masyarakat; bukan norma ketenagakerjaan"
       },
       {
         "pasal": "Pasal 22",
-        "alasan": "retrofit: belum ditinjau (migrasi data pilot)"
+        "alasan": "sanksi administratif"
       },
       {
         "pasal": "Pasal 23",
-        "alasan": "retrofit: belum ditinjau (migrasi data pilot)"
+        "alasan": "pelayanan keluarga berencana; bukan norma ketenagakerjaan"
       },
       {
         "pasal": "Pasal 24",
-        "alasan": "retrofit: belum ditinjau (migrasi data pilot)"
+        "alasan": "sanksi administratif"
       },
       {
         "pasal": "Pasal 25",
-        "alasan": "retrofit: belum ditinjau (migrasi data pilot)"
+        "alasan": "layanan kesejahteraan sosial; bukan norma ketenagakerjaan"
       },
       {
         "pasal": "Pasal 26",
-        "alasan": "retrofit: belum ditinjau (migrasi data pilot)"
+        "alasan": "layanan administrasi kependudukan; bukan norma ketenagakerjaan"
+      },
+      {
+        "pasal": "Pasal 27",
+        "alasan": "kemudahan akses identitas; bukan norma ketenagakerjaan"
       },
       {
         "pasal": "Pasal 28",
-        "alasan": "retrofit: belum ditinjau (migrasi data pilot)"
+        "alasan": "layanan keagamaan dan bimbingan perkawinan; bukan norma ketenagakerjaan"
       },
       {
         "pasal": "Pasal 29",
-        "alasan": "retrofit: belum ditinjau (migrasi data pilot)"
-      },
-      {
-        "pasal": "Pasal 30",
-        "alasan": "retrofit: belum ditinjau (migrasi data pilot)"
+        "alasan": "standar layanan keagamaan; bukan norma ketenagakerjaan"
       },
       {
         "pasal": "Pasal 31",
-        "alasan": "retrofit: belum ditinjau (migrasi data pilot)"
+        "alasan": "sanksi administratif"
       },
       {
         "pasal": "Pasal 32",
-        "alasan": "retrofit: belum ditinjau (migrasi data pilot)"
+        "alasan": "kewajiban pemerintah memberi edukasi; kelembagaan"
       },
       {
         "pasal": "Pasal 33",
-        "alasan": "retrofit: belum ditinjau (migrasi data pilot)"
+        "alasan": "lingkungan ramah ibu dan anak; kebijakan"
       },
       {
         "pasal": "Pasal 34",
-        "alasan": "retrofit: belum ditinjau (migrasi data pilot)"
+        "alasan": "bantuan hukum; kelembagaan"
       },
       {
         "pasal": "Pasal 35",
-        "alasan": "retrofit: belum ditinjau (migrasi data pilot)"
+        "alasan": "tanggung jawab pembiayaan layanan cuma-cuma; kelembagaan"
       },
       {
         "pasal": "Pasal 36",
-        "alasan": "retrofit: belum ditinjau (migrasi data pilot)"
+        "alasan": "pembinaan, pengawasan, dan evaluasi; kelembagaan"
       },
       {
         "pasal": "Pasal 37",
-        "alasan": "retrofit: belum ditinjau (migrasi data pilot)"
+        "alasan": "ketentuan lebih lanjut diatur dengan Peraturan Pemerintah"
       },
       {
         "pasal": "Pasal 38",
-        "alasan": "retrofit: belum ditinjau (migrasi data pilot)"
+        "alasan": "koordinasi oleh Menteri; kelembagaan"
       },
       {
         "pasal": "Pasal 39",
-        "alasan": "retrofit: belum ditinjau (migrasi data pilot)"
+        "alasan": "sistem data dan informasi; kelembagaan"
       },
       {
         "pasal": "Pasal 40",
-        "alasan": "retrofit: belum ditinjau (migrasi data pilot)"
+        "alasan": "ketentuan lebih lanjut diatur dengan Peraturan Pemerintah"
       },
       {
         "pasal": "Pasal 41",
-        "alasan": "retrofit: belum ditinjau (migrasi data pilot)"
+        "alasan": "sumber dan pengelolaan pendanaan"
       },
       {
         "pasal": "Pasal 43",
-        "alasan": "retrofit: belum ditinjau (migrasi data pilot)"
+        "alasan": "ketentuan peralihan"
       },
       {
         "pasal": "Pasal 44",
-        "alasan": "retrofit: belum ditinjau (migrasi data pilot)"
+        "alasan": "ketentuan penutup; keberlakuan peraturan lama"
       },
       {
         "pasal": "Pasal 45",
-        "alasan": "retrofit: belum ditinjau (migrasi data pilot)"
+        "alasan": "ketentuan penutup; tenggat peraturan pelaksanaan dan laporan"
       },
       {
         "pasal": "Pasal 46",
-        "alasan": "retrofit: belum ditinjau (migrasi data pilot)"
+        "alasan": "ketentuan penutup; mulai berlaku"
       }
     ],
-    "catatan": "Retrofit dari data pilot (migrasi ke record); belum ditinjau penuh."
+    "catatan": ""
   },
   "tidak_termodelkan": []
 }

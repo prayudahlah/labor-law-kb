@@ -1,0 +1,380 @@
+{
+  "spec_version": "1.1.0",
+  "vocab_version": "0.3.0",
+  "dokumen_id": "PP-22-2022",
+  "status_review": "reviewed",
+  "peraturan": {
+    "judul": "Peraturan Pemerintah Nomor 22 Tahun 2022 tentang Penempatan dan Pelindungan Awak Kapal Niaga Migran dan Awak Kapal Perikanan Migran",
+    "jenis": "PP",
+    "nomor": "22",
+    "tahun": "2022",
+    "sumber": "https://peraturan.go.id/id/pp-no-22-tahun-2022",
+    "status": "Berlaku",
+    "diubah_oleh": []
+  },
+  "norma": [
+    {
+      "norm_id": "JAMSOS-CALON-AWAK-NIAGA-MIGRAN",
+      "topik": "Jamsos",
+      "pasal": "Pasal 15 huruf d",
+      "iri_individu": "ktn:JamsosCalonAwakNiagaMigran",
+      "jenis": "KetentuanJaminanSosial",
+      "kondisi": "Calon Awak Kapal Niaga Migran yang akan ditempatkan",
+      "akibat": "Wajib terdaftar dan memiliki nomor kepesertaan Jaminan Sosial",
+      "parameter": [],
+      "bukti": "terdaftar dan memiliki nomor kepesertaan Jaminan Sosial",
+      "confidence": 0.9,
+      "dasar_keyakinan": "dikutip",
+      "catatan": "Syarat usia minimal 18 tahun, kompetensi, kesehatan, dan kelengkapan dokumen pada Pasal 15 tidak dimodelkan (butuh kelas KetentuanPenempatanPMI)."
+    },
+    {
+      "norm_id": "PKWT-PKL-AWAK-NIAGA-MIGRAN",
+      "topik": "PKWT",
+      "pasal": "Pasal 17 ayat (1)",
+      "iri_individu": "ktn:PKLWajibAwakNiagaMigran",
+      "jenis": "KetentuanPKWT",
+      "kondisi": "Awak Kapal Niaga Migran sebelum bekerja",
+      "akibat": "Wajib menandatangani PKL (Perjanjian Kerja Laut)",
+      "parameter": [],
+      "bukti": "Awak Kapal Niaga Migran harus menandatangani PKL sebelum bekerja.",
+      "confidence": 0.8,
+      "dasar_keyakinan": "tafsir",
+      "catatan": "PKL adalah perjanjian kerja laut perseorangan berjangka waktu sehingga dipetakan ke KetentuanPKWT; isi minimum PKL pada ayat (2) tidak dimodelkan."
+    },
+    {
+      "norm_id": "WAKTU-KERJA-AWAK-NIAGA-MIGRAN",
+      "topik": "WaktuKerja",
+      "pasal": "Pasal 17 ayat (3)",
+      "iri_individu": "ktn:WaktuKerjaAwakNiagaMigran",
+      "jenis": "KetentuanWaktuKerja",
+      "kondisi": "Awak Kapal Niaga Migran bekerja di atas kapal",
+      "akibat": "Waktu kerja paling lama 14 jam dalam 24 jam dan 72 jam dalam 7 hari kerja; waktu istirahat paling sedikit 10 jam dalam 24 jam dan 77 jam dalam 7 hari kerja",
+      "parameter": [
+        {
+          "nama": "jamKerjaPerHari",
+          "nilai": "14",
+          "satuan": "jam",
+          "jenis": "nominal",
+          "pasal": "Pasal 17 ayat (3)"
+        },
+        {
+          "nama": "jamKerjaPerMinggu",
+          "nilai": "72",
+          "satuan": "jam",
+          "jenis": "nominal",
+          "pasal": "Pasal 17 ayat (3)"
+        }
+      ],
+      "bukti": "14 (empat belas) jam dalam jangka waktu 24 (dua puluh empat) jam",
+      "confidence": 0.85,
+      "dasar_keyakinan": "tafsir",
+      "catatan": "Batas 14 jam/24 jam dan 72 jam/7 hari adalah batas maksimum, bukan lama kerja normal; batas istirahat 10 jam/24 jam dan 77 jam/7 hari tidak punya parameter padanan di VOCAB."
+    },
+    {
+      "norm_id": "UPAH-CUTI-AWAK-NIAGA-MIGRAN",
+      "topik": "Upah",
+      "pasal": "Pasal 19 ayat (4)",
+      "iri_individu": "ktn:CutiTanpaPenahananUpahAwakNiaga",
+      "jenis": "KetentuanUpah",
+      "kondisi": "Awak Kapal Niaga Migran memperoleh hak cuti",
+      "akibat": "Hak cuti diperoleh secara langsung tanpa menahan hak atas upah",
+      "parameter": [],
+      "bukti": "diperoleh secara langsung tanpa menahan hak atas upah",
+      "confidence": 0.85,
+      "dasar_keyakinan": "tafsir",
+      "catatan": "Kewajiban umum pelindungan ketenagakerjaan pada ayat (1) dan daftar komponennya pada ayat (2) tidak dimodelkan."
+    },
+    {
+      "norm_id": "LEMBUR-PKL-BERAKHIR-NIAGA-MIGRAN",
+      "topik": "Lembur",
+      "pasal": "Pasal 21",
+      "iri_individu": "ktn:ImbalanKelebihanWaktuKerjaAwakNiaga",
+      "jenis": "KetentuanLembur",
+      "kondisi": "PKL berakhir saat Awak Kapal Niaga Migran sedang berlayar dan pemulangan tidak dimungkinkan",
+      "akibat": "Harus meneruskan tugas sampai kapal tiba di pelabuhan pertama berikutnya dan menerima imbalan upah dan kesejahteraan atas kelebihan waktu kerja",
+      "parameter": [],
+      "bukti": "menerima imbalan upah dan kesejahteraan atas kelebihan waktu kerja",
+      "confidence": 0.75,
+      "dasar_keyakinan": "tafsir",
+      "catatan": "Tidak ada pengali atau rumus lembur eksplisit; dipetakan ke KetentuanLembur karena frasa kelebihan waktu kerja."
+    },
+    {
+      "norm_id": "JAMSOS-CALON-AWAK-PERIKANAN-MIGRAN",
+      "topik": "Jamsos",
+      "pasal": "Pasal 31 huruf d",
+      "iri_individu": "ktn:JamsosCalonAwakPerikananMigran",
+      "jenis": "KetentuanJaminanSosial",
+      "kondisi": "Calon Awak Kapal Perikanan Migran yang akan ditempatkan",
+      "akibat": "Wajib terdaftar dan memiliki nomor kepesertaan Jaminan Sosial",
+      "parameter": [],
+      "bukti": "terdaftar dan memiliki nomor kepesertaan Jaminan Sosial",
+      "confidence": 0.9,
+      "dasar_keyakinan": "dikutip",
+      "catatan": "Syarat usia minimal 18 tahun, kompetensi, kesehatan, dan kelengkapan dokumen pada Pasal 31 tidak dimodelkan (butuh kelas KetentuanPenempatanPMI)."
+    },
+    {
+      "norm_id": "PKWT-PKL-AWAK-PERIKANAN-MIGRAN",
+      "topik": "PKWT",
+      "pasal": "Pasal 33 ayat (1)",
+      "iri_individu": "ktn:PKLWajibAwakPerikananMigran",
+      "jenis": "KetentuanPKWT",
+      "kondisi": "Awak Kapal Perikanan Migran sebelum bekerja",
+      "akibat": "Wajib menandatangani PKL (Perjanjian Kerja Laut)",
+      "parameter": [],
+      "bukti": "Awak Kapal Perikanan Migran harus menandatangani PKL sebelum bekerja.",
+      "confidence": 0.8,
+      "dasar_keyakinan": "tafsir",
+      "catatan": "PKL adalah perjanjian kerja laut perseorangan berjangka waktu dan dipetakan ke KetentuanPKWT; isi minimum PKL pada ayat (2) tidak dimodelkan."
+    },
+    {
+      "norm_id": "UPAH-CUTI-AWAK-PERIKANAN-MIGRAN",
+      "topik": "Upah",
+      "pasal": "Pasal 35 ayat (4)",
+      "iri_individu": "ktn:CutiTanpaPenahananUpahAwakPerikanan",
+      "jenis": "KetentuanUpah",
+      "kondisi": "Awak Kapal Perikanan Migran memperoleh hak cuti",
+      "akibat": "Hak cuti diperoleh secara langsung tanpa menahan hak atas upah",
+      "parameter": [],
+      "bukti": "diperoleh secara langsung tanpa menahan hak atas upah",
+      "confidence": 0.85,
+      "dasar_keyakinan": "tafsir",
+      "catatan": "Kewajiban umum pelindungan ketenagakerjaan pada ayat (1) dan daftar komponennya pada ayat (2) tidak dimodelkan."
+    },
+    {
+      "norm_id": "LEMBUR-PKL-BERAKHIR-PERIKANAN-MIGRAN",
+      "topik": "Lembur",
+      "pasal": "Pasal 37",
+      "iri_individu": "ktn:ImbalanKelebihanWaktuKerjaAwakPerikanan",
+      "jenis": "KetentuanLembur",
+      "kondisi": "PKL berakhir saat Awak Kapal Perikanan Migran sedang berlayar dan pemulangan tidak dimungkinkan",
+      "akibat": "Harus meneruskan tugas sampai kapal perikanan tiba di pelabuhan pertama berikutnya dan menerima imbalan upah dan kesejahteraan atas kelebihan waktu kerja",
+      "parameter": [],
+      "bukti": "menerima imbalan upah dan kesejahteraan atas kelebihan waktu kerja",
+      "confidence": 0.75,
+      "dasar_keyakinan": "tafsir",
+      "catatan": "Tidak ada pengali atau rumus lembur eksplisit; dipetakan ke KetentuanLembur karena frasa kelebihan waktu kerja."
+    }
+  ],
+  "kategori": [],
+  "pengali_lembur": [],
+  "program_jamsos": [],
+  "cakupan": {
+    "lengkap": true,
+    "pasal_diekstrak": [
+      "Pasal 1",
+      "Pasal 10",
+      "Pasal 11",
+      "Pasal 12",
+      "Pasal 13",
+      "Pasal 14",
+      "Pasal 15",
+      "Pasal 16",
+      "Pasal 17",
+      "Pasal 18",
+      "Pasal 19",
+      "Pasal 2",
+      "Pasal 20",
+      "Pasal 21",
+      "Pasal 22",
+      "Pasal 23",
+      "Pasal 24",
+      "Pasal 25",
+      "Pasal 26",
+      "Pasal 27",
+      "Pasal 28",
+      "Pasal 29",
+      "Pasal 3",
+      "Pasal 30",
+      "Pasal 31",
+      "Pasal 32",
+      "Pasal 33",
+      "Pasal 34",
+      "Pasal 35",
+      "Pasal 36",
+      "Pasal 37",
+      "Pasal 38",
+      "Pasal 39",
+      "Pasal 4",
+      "Pasal 40",
+      "Pasal 41",
+      "Pasal 42",
+      "Pasal 43",
+      "Pasal 44",
+      "Pasal 45",
+      "Pasal 46",
+      "Pasal 5",
+      "Pasal 6",
+      "Pasal 7",
+      "Pasal 8",
+      "Pasal 9"
+    ],
+    "pasal_dilewati": [
+      {
+        "pasal": "Pasal 1",
+        "alasan": "definisi/istilah"
+      },
+      {
+        "pasal": "Pasal 2",
+        "alasan": "ruang lingkup pengaturan"
+      },
+      {
+        "pasal": "Pasal 5",
+        "alasan": "mekanisme perjanjian penempatan antar-pemerintah (kelembagaan)"
+      },
+      {
+        "pasal": "Pasal 6",
+        "alasan": "tahapan prosedural penempatan oleh BP2MI"
+      },
+      {
+        "pasal": "Pasal 7",
+        "alasan": "integrasi data kementerian/lembaga (administratif)"
+      },
+      {
+        "pasal": "Pasal 8",
+        "alasan": "persyaratan perizinan SIP3MI (kelembagaan)"
+      },
+      {
+        "pasal": "Pasal 9",
+        "alasan": "jangka waktu izin dan sanksi administratif"
+      },
+      {
+        "pasal": "Pasal 10",
+        "alasan": "perjanjian keagenan dan pengesahan endorsement (administratif)"
+      },
+      {
+        "pasal": "Pasal 11",
+        "alasan": "persyaratan perizinan SIP2MI (kelembagaan)"
+      },
+      {
+        "pasal": "Pasal 12",
+        "alasan": "ketentuan administratif SIP2MI berlaku nasional"
+      },
+      {
+        "pasal": "Pasal 13",
+        "alasan": "larangan dan sanksi administratif"
+      },
+      {
+        "pasal": "Pasal 16",
+        "alasan": "tata cara pendaftaran calon awak kapal (prosedural)"
+      },
+      {
+        "pasal": "Pasal 22",
+        "alasan": "mekanisme perjanjian penempatan antar-pemerintah (kelembagaan), cermin Pasal 5"
+      },
+      {
+        "pasal": "Pasal 23",
+        "alasan": "tahapan prosedural penempatan, cermin Pasal 6"
+      },
+      {
+        "pasal": "Pasal 24",
+        "alasan": "integrasi data kementerian/lembaga (administratif), cermin Pasal 7"
+      },
+      {
+        "pasal": "Pasal 25",
+        "alasan": "persyaratan perizinan SIP3MI (kelembagaan), cermin Pasal 8"
+      },
+      {
+        "pasal": "Pasal 26",
+        "alasan": "jangka waktu izin dan sanksi administratif, cermin Pasal 9"
+      },
+      {
+        "pasal": "Pasal 27",
+        "alasan": "perjanjian keagenan dan endorsement (administratif), cermin Pasal 10"
+      },
+      {
+        "pasal": "Pasal 28",
+        "alasan": "persyaratan perizinan SIP2MI (kelembagaan), cermin Pasal 11"
+      },
+      {
+        "pasal": "Pasal 29",
+        "alasan": "ketentuan administratif SIP2MI, cermin Pasal 12"
+      },
+      {
+        "pasal": "Pasal 30",
+        "alasan": "rujukan mutatis mutandis, tidak menambah norma baru"
+      },
+      {
+        "pasal": "Pasal 32",
+        "alasan": "tata cara pendaftaran, cermin Pasal 16"
+      },
+      {
+        "pasal": "Pasal 41",
+        "alasan": "sanksi administratif"
+      },
+      {
+        "pasal": "Pasal 43",
+        "alasan": "ketentuan peralihan"
+      },
+      {
+        "pasal": "Pasal 44",
+        "alasan": "ketentuan peralihan"
+      },
+      {
+        "pasal": "Pasal 45",
+        "alasan": "ketentuan peralihan"
+      },
+      {
+        "pasal": "Pasal 46",
+        "alasan": "ketentuan penutup (mulai berlaku)"
+      }
+    ],
+    "catatan": ""
+  },
+  "tidak_termodelkan": [
+    {
+      "pasal": "Pasal 3",
+      "ringkasan": "Subjek yang diatur; larangan awak kapal perikanan perseorangan bekerja pada Pemberi Kerja/Prinsipal perseorangan; risiko ketenagakerjaan menjadi tanggung jawab sendiri; tanggung jawab diatur dalam PKL",
+      "alasan": "butuh kelas KetentuanPenempatanPMI (masih kandidat) dan properti awak kapal perseorangan"
+    },
+    {
+      "pasal": "Pasal 4",
+      "ringkasan": "Kewajiban awak kapal perseorangan melaporkan rencana keberangkatan dan kedatangan, dengan lampiran paspor, Buku Pelaut, PKL, bukti Jamsos, surat sehat, Visa Kerja, dan sertifikat",
+      "alasan": "butuh kelas KetentuanPenempatanPMI (masih kandidat) dan properti dokumen pelaporan"
+    },
+    {
+      "pasal": "Pasal 14",
+      "ringkasan": "Perusahaan dapat menempatkan awak kapal niaga migran untuk kepentingan sendiri; wajib melapor kepada Menteri dan bertanggung jawab atas pelindungan awak yang ditempatkan",
+      "alasan": "butuh kelas KetentuanPenempatanPMI (masih kandidat) dan properti pelaporan penempatan"
+    },
+    {
+      "pasal": "Pasal 18",
+      "ringkasan": "Daftar dokumen wajib Awak Kapal Niaga Migran (paspor, Buku Pelaut, PKL, bukti kepesertaan Jamsos, surat sehat, Visa Kerja, sertifikat); PKL dibuat berdasarkan KKB",
+      "alasan": "butuh kelas DokumenAwakKapal dan KetentuanPenempatanPMI; syarat bukti Jamsos tumpang tindih dengan Pasal 15 huruf d"
+    },
+    {
+      "pasal": "Pasal 20",
+      "ringkasan": "Hak repatriasi Awak Kapal Niaga Migran karena PKL berakhir, PKL diakhiri dengan alasan dibenarkan, atau tidak mampu melaksanakan kewajiban; biaya ditanggung Pemberi Kerja/Prinsipal sampai daerah asal",
+      "alasan": "butuh kelas HakRepatriasi dan properti biaya pemulangan"
+    },
+    {
+      "pasal": "Pasal 34",
+      "ringkasan": "Daftar dokumen wajib Awak Kapal Perikanan Migran (paspor, Buku Pelaut, PKL, bukti kepesertaan Jamsos, surat sehat, Visa Kerja, Perjanjian Penempatan, sertifikat); PKL dibuat berdasarkan KKB",
+      "alasan": "butuh kelas DokumenAwakKapal dan KetentuanPenempatanPMI; syarat bukti Jamsos tumpang tindih dengan Pasal 31 huruf d"
+    },
+    {
+      "pasal": "Pasal 36",
+      "ringkasan": "Hak repatriasi Awak Kapal Perikanan Migran karena PKL berakhir, PKL diakhiri dengan alasan dibenarkan, atau tidak mampu melaksanakan kewajiban; biaya ditanggung Pemberi Kerja/Prinsipal sampai daerah asal",
+      "alasan": "butuh kelas HakRepatriasi dan properti biaya pemulangan"
+    },
+    {
+      "pasal": "Pasal 38",
+      "ringkasan": "Penyelesaian perselisihan pelaksanaan Perjanjian Penempatan secara musyawarah, dan gugatan ke pengadilan hubungan industrial bila tidak tercapai kesepakatan",
+      "alasan": "butuh kelas KetentuanHubunganIndustrial (masih kandidat)"
+    },
+    {
+      "pasal": "Pasal 39",
+      "ringkasan": "Bantuan hukum, pendampingan, dan mediasi oleh Perwakilan Republik Indonesia di luar negeri, termasuk fasilitasi advokat pro bono",
+      "alasan": "butuh kelas KetentuanPelindunganHukum (belum ada di T-Box)"
+    },
+    {
+      "pasal": "Pasal 40",
+      "ringkasan": "Pengawasan penempatan dan pelindungan sebelum, selama, dan setelah bekerja oleh pengawas ketenagakerjaan, marine inspector, pengawas perikanan, dan Perwakilan Republik Indonesia",
+      "alasan": "butuh kelas KetentuanPengawasan (masih kandidat)"
+    },
+    {
+      "pasal": "Pasal 42",
+      "ringkasan": "Bantuan evakuasi dan pemulangan saat perang, konflik bersenjata, kerusuhan massal, dan bencana; penunjukan badan/lembaga bila tidak ada Perwakilan RI",
+      "alasan": "butuh kelas PelindunganDarurat yang belum ada di T-Box"
+    }
+  ]
+}

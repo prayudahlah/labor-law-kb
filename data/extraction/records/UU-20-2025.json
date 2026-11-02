@@ -1,0 +1,1776 @@
+{
+  "spec_version": "1.1.0",
+  "vocab_version": "0.3.0",
+  "dokumen_id": "UU-20-2025",
+  "status_review": "reviewed",
+  "peraturan": {
+    "judul": "Undang-Undang Nomor 20 Tahun 2025 tentang Kitab Undang-Undang Hukum Acara Pidana",
+    "jenis": "UU",
+    "nomor": "20",
+    "tahun": "2025",
+    "sumber": "https://peraturan.bpk.go.id/Details/337302/uu-no-20-tahun-2025",
+    "status": "Berlaku",
+    "diubah_oleh": []
+  },
+  "norma": [],
+  "kategori": [],
+  "pengali_lembur": [],
+  "program_jamsos": [],
+  "cakupan": {
+    "lengkap": true,
+    "pasal_diekstrak": [
+      "Pasal 10",
+      "Pasal 100",
+      "Pasal 101",
+      "Pasal 103",
+      "Pasal 104",
+      "Pasal 105",
+      "Pasal 106",
+      "Pasal 108",
+      "Pasal 109",
+      "Pasal 11",
+      "Pasal 110",
+      "Pasal 111",
+      "Pasal 113",
+      "Pasal 114",
+      "Pasal 115",
+      "Pasal 116",
+      "Pasal 117",
+      "Pasal 118",
+      "Pasal 119",
+      "Pasal 12",
+      "Pasal 120",
+      "Pasal 121",
+      "Pasal 122",
+      "Pasal 123",
+      "Pasal 124",
+      "Pasal 125",
+      "Pasal 126",
+      "Pasal 127",
+      "Pasal 128",
+      "Pasal 129",
+      "Pasal 13",
+      "Pasal 130",
+      "Pasal 131",
+      "Pasal 132",
+      "Pasal 133",
+      "Pasal 134",
+      "Pasal 135",
+      "Pasal 136",
+      "Pasal 137",
+      "Pasal 138",
+      "Pasal 139",
+      "Pasal 14",
+      "Pasal 141",
+      "Pasal 142",
+      "Pasal 143",
+      "Pasal 144",
+      "Pasal 145",
+      "Pasal 146",
+      "Pasal 147",
+      "Pasal 148",
+      "Pasal 149",
+      "Pasal 14O",
+      "Pasal 15",
+      "Pasal 150",
+      "Pasal 151",
+      "Pasal 152",
+      "Pasal 153",
+      "Pasal 154",
+      "Pasal 155",
+      "Pasal 156",
+      "Pasal 157",
+      "Pasal 158",
+      "Pasal 159",
+      "Pasal 16",
+      "Pasal 160",
+      "Pasal 161",
+      "Pasal 162",
+      "Pasal 163",
+      "Pasal 164",
+      "Pasal 165",
+      "Pasal 166",
+      "Pasal 167",
+      "Pasal 168",
+      "Pasal 169",
+      "Pasal 17",
+      "Pasal 170",
+      "Pasal 171",
+      "Pasal 172",
+      "Pasal 173",
+      "Pasal 174",
+      "Pasal 175",
+      "Pasal 176",
+      "Pasal 177",
+      "Pasal 178",
+      "Pasal 179",
+      "Pasal 18",
+      "Pasal 180",
+      "Pasal 181",
+      "Pasal 182",
+      "Pasal 183",
+      "Pasal 184",
+      "Pasal 185",
+      "Pasal 186",
+      "Pasal 187",
+      "Pasal 188",
+      "Pasal 189",
+      "Pasal 19",
+      "Pasal 190",
+      "Pasal 192",
+      "Pasal 193",
+      "Pasal 194",
+      "Pasal 195",
+      "Pasal 196",
+      "Pasal 197",
+      "Pasal 198",
+      "Pasal 199",
+      "Pasal 2",
+      "Pasal 20",
+      "Pasal 201",
+      "Pasal 203",
+      "Pasal 204",
+      "Pasal 206",
+      "Pasal 208",
+      "Pasal 209",
+      "Pasal 20O",
+      "Pasal 210",
+      "Pasal 211",
+      "Pasal 212",
+      "Pasal 215",
+      "Pasal 217",
+      "Pasal 218",
+      "Pasal 219",
+      "Pasal 22",
+      "Pasal 221",
+      "Pasal 223",
+      "Pasal 224",
+      "Pasal 225",
+      "Pasal 226",
+      "Pasal 227",
+      "Pasal 228",
+      "Pasal 229",
+      "Pasal 22O",
+      "Pasal 23",
+      "Pasal 230",
+      "Pasal 231",
+      "Pasal 232",
+      "Pasal 233",
+      "Pasal 234",
+      "Pasal 235",
+      "Pasal 236",
+      "Pasal 237",
+      "Pasal 238",
+      "Pasal 239",
+      "Pasal 24",
+      "Pasal 240",
+      "Pasal 241",
+      "Pasal 242",
+      "Pasal 243",
+      "Pasal 244",
+      "Pasal 245",
+      "Pasal 246",
+      "Pasal 247",
+      "Pasal 248",
+      "Pasal 249",
+      "Pasal 25",
+      "Pasal 250",
+      "Pasal 251",
+      "Pasal 252",
+      "Pasal 253",
+      "Pasal 254",
+      "Pasal 255",
+      "Pasal 256",
+      "Pasal 257",
+      "Pasal 258",
+      "Pasal 259",
+      "Pasal 26",
+      "Pasal 260",
+      "Pasal 261",
+      "Pasal 262",
+      "Pasal 263",
+      "Pasal 264",
+      "Pasal 265",
+      "Pasal 266",
+      "Pasal 267",
+      "Pasal 268",
+      "Pasal 269",
+      "Pasal 26O",
+      "Pasal 27",
+      "Pasal 271",
+      "Pasal 272",
+      "Pasal 273",
+      "Pasal 274",
+      "Pasal 275",
+      "Pasal 276",
+      "Pasal 277",
+      "Pasal 278",
+      "Pasal 279",
+      "Pasal 28",
+      "Pasal 280",
+      "Pasal 281",
+      "Pasal 282",
+      "Pasal 283",
+      "Pasal 284",
+      "Pasal 285",
+      "Pasal 286",
+      "Pasal 287",
+      "Pasal 288",
+      "Pasal 289",
+      "Pasal 29",
+      "Pasal 290",
+      "Pasal 291",
+      "Pasal 292",
+      "Pasal 293",
+      "Pasal 294",
+      "Pasal 295",
+      "Pasal 296",
+      "Pasal 297",
+      "Pasal 298",
+      "Pasal 299",
+      "Pasal 2l",
+      "Pasal 3",
+      "Pasal 30",
+      "Pasal 300",
+      "Pasal 302",
+      "Pasal 303",
+      "Pasal 304",
+      "Pasal 305",
+      "Pasal 306",
+      "Pasal 307",
+      "Pasal 309",
+      "Pasal 31",
+      "Pasal 310",
+      "Pasal 312",
+      "Pasal 313",
+      "Pasal 314",
+      "Pasal 316",
+      "Pasal 318",
+      "Pasal 319",
+      "Pasal 32",
+      "Pasal 320",
+      "Pasal 322",
+      "Pasal 323",
+      "Pasal 324",
+      "Pasal 325",
+      "Pasal 326",
+      "Pasal 327",
+      "Pasal 328",
+      "Pasal 329",
+      "Pasal 33",
+      "Pasal 330",
+      "Pasal 331",
+      "Pasal 332",
+      "Pasal 333",
+      "Pasal 334",
+      "Pasal 335",
+      "Pasal 336",
+      "Pasal 337",
+      "Pasal 338",
+      "Pasal 339",
+      "Pasal 34",
+      "Pasal 340",
+      "Pasal 341",
+      "Pasal 342",
+      "Pasal 343",
+      "Pasal 344",
+      "Pasal 345",
+      "Pasal 346",
+      "Pasal 347",
+      "Pasal 348",
+      "Pasal 349",
+      "Pasal 34O",
+      "Pasal 35",
+      "Pasal 350",
+      "Pasal 351",
+      "Pasal 352",
+      "Pasal 353",
+      "Pasal 354",
+      "Pasal 355",
+      "Pasal 356",
+      "Pasal 357",
+      "Pasal 358",
+      "Pasal 359",
+      "Pasal 36",
+      "Pasal 360",
+      "Pasal 361",
+      "Pasal 362",
+      "Pasal 363",
+      "Pasal 364",
+      "Pasal 365",
+      "Pasal 366",
+      "Pasal 367",
+      "Pasal 368",
+      "Pasal 369",
+      "Pasal 37",
+      "Pasal 38",
+      "Pasal 39",
+      "Pasal 4",
+      "Pasal 41",
+      "Pasal 42",
+      "Pasal 43",
+      "Pasal 44",
+      "Pasal 45",
+      "Pasal 46",
+      "Pasal 47",
+      "Pasal 48",
+      "Pasal 49",
+      "Pasal 4O",
+      "Pasal 5",
+      "Pasal 50",
+      "Pasal 52",
+      "Pasal 53",
+      "Pasal 54",
+      "Pasal 55",
+      "Pasal 56",
+      "Pasal 57",
+      "Pasal 58",
+      "Pasal 59",
+      "Pasal 5l",
+      "Pasal 60",
+      "Pasal 61",
+      "Pasal 62",
+      "Pasal 63",
+      "Pasal 64",
+      "Pasal 65",
+      "Pasal 66",
+      "Pasal 67",
+      "Pasal 68",
+      "Pasal 69",
+      "Pasal 7",
+      "Pasal 70",
+      "Pasal 71",
+      "Pasal 72",
+      "Pasal 73",
+      "Pasal 75",
+      "Pasal 76",
+      "Pasal 78",
+      "Pasal 79",
+      "Pasal 8",
+      "Pasal 80",
+      "Pasal 82",
+      "Pasal 83",
+      "Pasal 84",
+      "Pasal 85",
+      "Pasal 86",
+      "Pasal 87",
+      "Pasal 88",
+      "Pasal 89",
+      "Pasal 8l",
+      "Pasal 9",
+      "Pasal 90",
+      "Pasal 92",
+      "Pasal 93",
+      "Pasal 94",
+      "Pasal 95",
+      "Pasal 96",
+      "Pasal 97",
+      "Pasal 98",
+      "Pasal 99"
+    ],
+    "pasal_dilewati": [
+      {
+        "pasal": "Pasal 2",
+        "alasan": "asas penyelenggaraan acara pidana (tata cara berdasarkan UU, peradilan pidana terpadu)"
+      },
+      {
+        "pasal": "Pasal 3",
+        "alasan": "ruang lingkup berlakunya UU dalam peradilan pidana"
+      },
+      {
+        "pasal": "Pasal 4",
+        "alasan": "asas perpaduan hakim aktif dan para pihak dalam persidangan"
+      },
+      {
+        "pasal": "Pasal 5",
+        "alasan": "wewenang penyelidik (kelembagaan dan prosedural)"
+      },
+      {
+        "pasal": "Pasal 7",
+        "alasan": "tugas dan wewenang penyidik (kelembagaan dan prosedural)"
+      },
+      {
+        "pasal": "Pasal 8",
+        "alasan": "tata cara berita acara dan penyerahan berkas perkara"
+      },
+      {
+        "pasal": "Pasal 9",
+        "alasan": "wilayah hukum penyidik (kelembagaan)"
+      },
+      {
+        "pasal": "Pasal 10",
+        "alasan": "wewenang penyidik pembantu (kelembagaan)"
+      },
+      {
+        "pasal": "Pasal 11",
+        "alasan": "tata cara berita acara dan penyerahan berkas oleh penyidik pembantu"
+      },
+      {
+        "pasal": "Pasal 12",
+        "alasan": "syarat pengangkatan dan pemberhentian penyidik pembantu didelegasikan ke PP"
+      },
+      {
+        "pasal": "Pasal 13",
+        "alasan": "kewajiban penyelidik melakukan penyelidikan (prosedural)"
+      },
+      {
+        "pasal": "Pasal 14",
+        "alasan": "tata cara penyampaian laporan atau pengaduan"
+      },
+      {
+        "pasal": "Pasal 15",
+        "alasan": "kewajiban penyelidik menunjukkan tanda pengenal (prosedural)"
+      },
+      {
+        "pasal": "Pasal 16",
+        "alasan": "metode dan sasaran penyelidikan (prosedural)"
+      },
+      {
+        "pasal": "Pasal 17",
+        "alasan": "rencana penyelidikan (tata cara internal)"
+      },
+      {
+        "pasal": "Pasal 18",
+        "alasan": "laporan hasil penyelidikan (tata cara internal)"
+      },
+      {
+        "pasal": "Pasal 19",
+        "alasan": "gelar perkara untuk menentukan status peristiwa (prosedural)"
+      },
+      {
+        "pasal": "Pasal 20",
+        "alasan": "koordinasi dan pengawasan penyelidik oleh Penyidik Polri (kelembagaan)"
+      },
+      {
+        "pasal": "Pasal 2l",
+        "alasan": "delegasi pengaturan lebih lanjut penyelidikan ke PP (OCR: Pasal 21)"
+      },
+      {
+        "pasal": "Pasal 22",
+        "alasan": "pemanggilan, saksi mahkota, dan pengakuan bersalah (kewenangan prosedural)"
+      },
+      {
+        "pasal": "Pasal 23",
+        "alasan": "kewajiban melaporkan permufakatan jahat, tata cara laporan, dan sanksi"
+      },
+      {
+        "pasal": "Pasal 24",
+        "alasan": "alasan dan tata cara penghentian penyidikan"
+      },
+      {
+        "pasal": "Pasal 25",
+        "alasan": "penggabungan atau pemisahan perkara (kewenangan prosedural)"
+      },
+      {
+        "pasal": "Pasal 26",
+        "alasan": "tata cara pemanggilan tersangka dan saksi"
+      },
+      {
+        "pasal": "Pasal 27",
+        "alasan": "permohonan pemeriksaan sah atau tidaknya penghentian penyidikan (prosedural)"
+      },
+      {
+        "pasal": "Pasal 28",
+        "alasan": "kewajiban tersangka dan saksi menghadiri pemeriksaan (tata cara pemeriksaan)"
+      },
+      {
+        "pasal": "Pasal 29",
+        "alasan": "pemeriksaan di kediaman tersangka atau saksi yang tidak hadir (prosedural)"
+      },
+      {
+        "pasal": "Pasal 30",
+        "alasan": "perekaman pemeriksaan dengan kamera pengawas (prosedural)"
+      },
+      {
+        "pasal": "Pasal 31",
+        "alasan": "kewajiban pemberitahuan hak atas bantuan hukum sebelum pemeriksaan"
+      },
+      {
+        "pasal": "Pasal 32",
+        "alasan": "pendampingan advokat dan keberatan atas intimidasi (prosedural)"
+      },
+      {
+        "pasal": "Pasal 33",
+        "alasan": "tata cara pemeriksaan saksi oleh penyidik"
+      },
+      {
+        "pasal": "Pasal 34",
+        "alasan": "hak tersangka dan penerjemah dalam pemeriksaan"
+      },
+      {
+        "pasal": "Pasal 35",
+        "alasan": "kewajiban memeriksa saksi yang dihadirkan tersangka"
+      },
+      {
+        "pasal": "Pasal 36",
+        "alasan": "penandatanganan berita acara pemeriksaan"
+      },
+      {
+        "pasal": "Pasal 37",
+        "alasan": "pelimpahan pemeriksaan ke penyidik lain (prosedural)"
+      },
+      {
+        "pasal": "Pasal 38",
+        "alasan": "permintaan keterangan ahli dan sumpah ahli"
+      },
+      {
+        "pasal": "Pasal 39",
+        "alasan": "pembuatan berita acara penyidikan (prosedural)"
+      },
+      {
+        "pasal": "Pasal 4O",
+        "alasan": "kewajiban memulai pemeriksaan tersangka yang ditahan (OCR: Pasal 40)"
+      },
+      {
+        "pasal": "Pasal 41",
+        "alasan": "tata cara penggeledahan: menunjukkan tanda pengenal dan surat izin"
+      },
+      {
+        "pasal": "Pasal 42",
+        "alasan": "berita acara penggeledahan"
+      },
+      {
+        "pasal": "Pasal 43",
+        "alasan": "penjagaan dan penutupan tempat penggeledahan (prosedural)"
+      },
+      {
+        "pasal": "Pasal 44",
+        "alasan": "tata cara penyitaan: menunjukkan tanda pengenal dan surat izin"
+      },
+      {
+        "pasal": "Pasal 45",
+        "alasan": "penjelasan benda sitaan dan berita acara penyitaan"
+      },
+      {
+        "pasal": "Pasal 46",
+        "alasan": "pencatatan dan pembungkusan benda sitaan"
+      },
+      {
+        "pasal": "Pasal 47",
+        "alasan": "penggeledahan dan penyitaan surat, buku, atau data tertulis"
+      },
+      {
+        "pasal": "Pasal 48",
+        "alasan": "pemeriksaan surat atau tulisan palsu dan permintaan dokumen pembanding"
+      },
+      {
+        "pasal": "Pasal 49",
+        "alasan": "permintaan keterangan ahli kedokteran forensik"
+      },
+      {
+        "pasal": "Pasal 50",
+        "alasan": "pemberitahuan pembedahan mayat kepada keluarga korban"
+      },
+      {
+        "pasal": "Pasal 5l",
+        "alasan": "penggalian mayat (prosedural, OCR: Pasal 51)"
+      },
+      {
+        "pasal": "Pasal 52",
+        "alasan": "pembebanan biaya penyidikan kepada negara"
+      },
+      {
+        "pasal": "Pasal 53",
+        "alasan": "hak pelindungan pelapor, pengadu, saksi, dan korban"
+      },
+      {
+        "pasal": "Pasal 54",
+        "alasan": "pembebanan biaya pelindungan kepada negara"
+      },
+      {
+        "pasal": "Pasal 55",
+        "alasan": "bantuan teknis penyidikan (kelembagaan)"
+      },
+      {
+        "pasal": "Pasal 56",
+        "alasan": "jenis bantuan teknis penyidikan (kelembagaan)"
+      },
+      {
+        "pasal": "Pasal 57",
+        "alasan": "delegasi pengaturan bantuan teknis penyidikan ke PP"
+      },
+      {
+        "pasal": "Pasal 58",
+        "alasan": "koordinasi penyidik dan penuntut umum (kelembagaan)"
+      },
+      {
+        "pasal": "Pasal 59",
+        "alasan": "tata cara koordinasi penyidik dan penuntut umum"
+      },
+      {
+        "pasal": "Pasal 60",
+        "alasan": "jangka waktu pemberitahuan dimulainya penyidikan dan koordinasi"
+      },
+      {
+        "pasal": "Pasal 61",
+        "alasan": "penelitian berkas perkara dan penyidikan tambahan (prosedural)"
+      },
+      {
+        "pasal": "Pasal 62",
+        "alasan": "pengembalian berkas dan gelar perkara (prosedural)"
+      },
+      {
+        "pasal": "Pasal 63",
+        "alasan": "delegasi tata cara koordinasi penyidik dan penuntut umum ke PP"
+      },
+      {
+        "pasal": "Pasal 64",
+        "alasan": "susunan penuntut umum (kelembagaan)"
+      },
+      {
+        "pasal": "Pasal 65",
+        "alasan": "wewenang penuntut umum (kelembagaan)"
+      },
+      {
+        "pasal": "Pasal 66",
+        "alasan": "denda damai sebagai mekanisme penghentian perkara di luar pengadilan"
+      },
+      {
+        "pasal": "Pasal 67",
+        "alasan": "daerah hukum penuntutan (kelembagaan)"
+      },
+      {
+        "pasal": "Pasal 68",
+        "alasan": "sanksi administratif, etik, atau pidana bagi penuntut umum"
+      },
+      {
+        "pasal": "Pasal 69",
+        "alasan": "kewenangan penuntutan dan pelimpahan perkara (kelembagaan)"
+      },
+      {
+        "pasal": "Pasal 70",
+        "alasan": "jangka waktu pembuatan surat dakwaan (prosedural)"
+      },
+      {
+        "pasal": "Pasal 71",
+        "alasan": "penghentian penuntutan karena gugurnya kewenangan menuntut"
+      },
+      {
+        "pasal": "Pasal 72",
+        "alasan": "penggabungan perkara dalam satu surat dakwaan (prosedural)"
+      },
+      {
+        "pasal": "Pasal 73",
+        "alasan": "penetapan saksi mahkota dan keringanan tuntutan"
+      },
+      {
+        "pasal": "Pasal 75",
+        "alasan": "pelimpahan perkara dan isi surat dakwaan (prosedural)"
+      },
+      {
+        "pasal": "Pasal 76",
+        "alasan": "penyempurnaan surat dakwaan (prosedural)"
+      },
+      {
+        "pasal": "Pasal 78",
+        "alasan": "persyaratan dan tata cara pengakuan bersalah (prosedural)"
+      },
+      {
+        "pasal": "Pasal 79",
+        "alasan": "mekanisme keadilan restoratif: pemulihan dan kesepakatan"
+      },
+      {
+        "pasal": "Pasal 80",
+        "alasan": "syarat tindak pidana yang dapat diselesaikan melalui keadilan restoratif"
+      },
+      {
+        "pasal": "Pasal 8l",
+        "alasan": "cara pengajuan mekanisme keadilan restoratif (OCR: Pasal 81)"
+      },
+      {
+        "pasal": "Pasal 82",
+        "alasan": "pengecualian tindak pidana dari keadilan restoratif"
+      },
+      {
+        "pasal": "Pasal 83",
+        "alasan": "keadilan restoratif pada tahap penyelidikan dan penyidikan"
+      },
+      {
+        "pasal": "Pasal 84",
+        "alasan": "pemberitahuan dan penetapan penghentian penyidikan (prosedural)"
+      },
+      {
+        "pasal": "Pasal 85",
+        "alasan": "keadilan restoratif pada tahap penuntutan"
+      },
+      {
+        "pasal": "Pasal 86",
+        "alasan": "permintaan penetapan penghentian penuntutan (prosedural)"
+      },
+      {
+        "pasal": "Pasal 87",
+        "alasan": "keadilan restoratif pada tahap pemeriksaan di sidang pengadilan"
+      },
+      {
+        "pasal": "Pasal 88",
+        "alasan": "delegasi pengaturan keadilan restoratif ke PP"
+      },
+      {
+        "pasal": "Pasal 89",
+        "alasan": "bentuk-bentuk upaya paksa (kelembagaan dan prosedural)"
+      },
+      {
+        "pasal": "Pasal 90",
+        "alasan": "tata cara penetapan tersangka (prosedural)"
+      },
+      {
+        "pasal": "Pasal 92",
+        "alasan": "permintaan bantuan media dan masyarakat untuk mencari tersangka"
+      },
+      {
+        "pasal": "Pasal 93",
+        "alasan": "kewenangan penangkapan (kelembagaan)"
+      },
+      {
+        "pasal": "Pasal 94",
+        "alasan": "syarat penangkapan berdasarkan minimal 2 alat bukti"
+      },
+      {
+        "pasal": "Pasal 95",
+        "alasan": "tata cara penangkapan dan surat perintah penangkapan"
+      },
+      {
+        "pasal": "Pasal 96",
+        "alasan": "jangka waktu penangkapan 1x24 jam"
+      },
+      {
+        "pasal": "Pasal 97",
+        "alasan": "larangan penangkapan untuk tindak pidana denda kategori II"
+      },
+      {
+        "pasal": "Pasal 98",
+        "alasan": "izin penangkapan terhadap hakim (prosedural)"
+      },
+      {
+        "pasal": "Pasal 99",
+        "alasan": "kewenangan penahanan (kelembagaan)"
+      },
+      {
+        "pasal": "Pasal 100",
+        "alasan": "syarat dan tata cara penahanan (prosedural)"
+      },
+      {
+        "pasal": "Pasal 101",
+        "alasan": "izin penahanan terhadap hakim (prosedural)"
+      },
+      {
+        "pasal": "Pasal 103",
+        "alasan": "jangka waktu penahanan pada tahap penuntutan"
+      },
+      {
+        "pasal": "Pasal 104",
+        "alasan": "jangka waktu penahanan oleh hakim pengadilan negeri"
+      },
+      {
+        "pasal": "Pasal 105",
+        "alasan": "jangka waktu penahanan pada tingkat banding"
+      },
+      {
+        "pasal": "Pasal 106",
+        "alasan": "jangka waktu penahanan pada tingkat kasasi"
+      },
+      {
+        "pasal": "Pasal 108",
+        "alasan": "jenis penahanan dan pengurangan pidana"
+      },
+      {
+        "pasal": "Pasal 109",
+        "alasan": "ganti rugi atas penahanan tidak sah dan batas lama penahanan"
+      },
+      {
+        "pasal": "Pasal 110",
+        "alasan": "penangguhan penahanan (prosedural)"
+      },
+      {
+        "pasal": "Pasal 111",
+        "alasan": "pembantaran tersangka atau terdakwa yang sakit (prosedural)"
+      },
+      {
+        "pasal": "Pasal 113",
+        "alasan": "izin dan tata cara penggeledahan (prosedural)"
+      },
+      {
+        "pasal": "Pasal 114",
+        "alasan": "tata cara penggeledahan rumah atau bangunan dan berita acara"
+      },
+      {
+        "pasal": "Pasal 115",
+        "alasan": "larangan penggeledahan pada ruang sidang, ibadah, dan pengadilan"
+      },
+      {
+        "pasal": "Pasal 116",
+        "alasan": "penggeledahan di luar daerah hukum penyidik (prosedural)"
+      },
+      {
+        "pasal": "Pasal 117",
+        "alasan": "penggeledahan pakaian dan badan saat penangkapan"
+      },
+      {
+        "pasal": "Pasal 118",
+        "alasan": "kewenangan penyitaan (kelembagaan)"
+      },
+      {
+        "pasal": "Pasal 119",
+        "alasan": "permohonan izin penyitaan kepada ketua pengadilan negeri"
+      },
+      {
+        "pasal": "Pasal 120",
+        "alasan": "penyitaan dalam keadaan mendesak (prosedural)"
+      },
+      {
+        "pasal": "Pasal 121",
+        "alasan": "penolakan izin penyitaan dan akibat hukumnya"
+      },
+      {
+        "pasal": "Pasal 122",
+        "alasan": "tata cara penyitaan dan berita acara penyitaan"
+      },
+      {
+        "pasal": "Pasal 123",
+        "alasan": "benda yang dapat disita (prosedural)"
+      },
+      {
+        "pasal": "Pasal 124",
+        "alasan": "pengadilan yang berwenang memeriksa permohonan penyitaan"
+      },
+      {
+        "pasal": "Pasal 125",
+        "alasan": "penyitaan benda yang pemiliknya tidak diketahui (prosedural)"
+      },
+      {
+        "pasal": "Pasal 126",
+        "alasan": "penyitaan pada tertangkap tangan (prosedural)"
+      },
+      {
+        "pasal": "Pasal 127",
+        "alasan": "penyitaan paket atau surat melalui kantor pos dan telekomunikasi"
+      },
+      {
+        "pasal": "Pasal 128",
+        "alasan": "kewenangan memerintahkan penyerahan benda (prosedural)"
+      },
+      {
+        "pasal": "Pasal 129",
+        "alasan": "penyitaan surat dan dokumen yang bersifat rahasia"
+      },
+      {
+        "pasal": "Pasal 130",
+        "alasan": "tanggung jawab dan penyimpanan benda sitaan"
+      },
+      {
+        "pasal": "Pasal 131",
+        "alasan": "benda sitaan yang lekas rusak: pengamanan, pemusnahan, dan pelelangan"
+      },
+      {
+        "pasal": "Pasal 132",
+        "alasan": "benda sitaan berbahaya atau terlarang (prosedural)"
+      },
+      {
+        "pasal": "Pasal 133",
+        "alasan": "pengembalian benda sitaan (prosedural)"
+      },
+      {
+        "pasal": "Pasal 134",
+        "alasan": "jangka waktu pengembalian benda sitaan"
+      },
+      {
+        "pasal": "Pasal 135",
+        "alasan": "pengembalian benda sitaan setelah perkara diputus"
+      },
+      {
+        "pasal": "Pasal 136",
+        "alasan": "kewenangan penyadapan (kelembagaan)"
+      },
+      {
+        "pasal": "Pasal 137",
+        "alasan": "pemeriksaan surat melalui kantor pos atau telekomunikasi"
+      },
+      {
+        "pasal": "Pasal 138",
+        "alasan": "perlakuan surat setelah diperiksa (prosedural)"
+      },
+      {
+        "pasal": "Pasal 139",
+        "alasan": "berita acara pemeriksaan surat"
+      },
+      {
+        "pasal": "Pasal 14O",
+        "alasan": "pemblokiran dan izin pengadilan (prosedural, OCR: Pasal 140)"
+      },
+      {
+        "pasal": "Pasal 141",
+        "alasan": "pencegahan keluar wilayah Indonesia (prosedural)"
+      },
+      {
+        "pasal": "Pasal 142",
+        "alasan": "hak tersangka dan terdakwa dalam proses pidana"
+      },
+      {
+        "pasal": "Pasal 143",
+        "alasan": "hak saksi dalam proses pidana"
+      },
+      {
+        "pasal": "Pasal 144",
+        "alasan": "hak korban dalam proses pidana"
+      },
+      {
+        "pasal": "Pasal 145",
+        "alasan": "hak penyandang disabilitas atas pelayanan dan sarana prasarana"
+      },
+      {
+        "pasal": "Pasal 146",
+        "alasan": "tindakan rehabilitasi atau perawatan bagi pelaku dengan disabilitas mental"
+      },
+      {
+        "pasal": "Pasal 147",
+        "alasan": "hak perempuan yang berhadapan dengan hukum"
+      },
+      {
+        "pasal": "Pasal 148",
+        "alasan": "hak orang lanjut usia yang berhadapan dengan hukum"
+      },
+      {
+        "pasal": "Pasal 149",
+        "alasan": "kedudukan dan imunitas advokat (kelembagaan)"
+      },
+      {
+        "pasal": "Pasal 150",
+        "alasan": "hak advokat dalam menjalankan jasa hukum dan bantuan hukum"
+      },
+      {
+        "pasal": "Pasal 151",
+        "alasan": "kewajiban advokat dan dokumen yang wajib ditunjukkan"
+      },
+      {
+        "pasal": "Pasal 152",
+        "alasan": "pengawasan hubungan advokat dengan tersangka atau terdakwa"
+      },
+      {
+        "pasal": "Pasal 153",
+        "alasan": "kewajiban memberikan salinan berita acara pemeriksaan"
+      },
+      {
+        "pasal": "Pasal 154",
+        "alasan": "bantuan hukum bagi pihak tidak mampu (prosedural)"
+      },
+      {
+        "pasal": "Pasal 155",
+        "alasan": "kewajiban penunjukan advokat untuk ancaman pidana tertentu"
+      },
+      {
+        "pasal": "Pasal 156",
+        "alasan": "berita acara untuk setiap tindakan (prosedural)"
+      },
+      {
+        "pasal": "Pasal 157",
+        "alasan": "mekanisme pengambilan sumpah atau janji"
+      },
+      {
+        "pasal": "Pasal 158",
+        "alasan": "kewenangan praperadilan (kelembagaan)"
+      },
+      {
+        "pasal": "Pasal 159",
+        "alasan": "pelaksanaan praperadilan oleh hakim tunggal (kelembagaan)"
+      },
+      {
+        "pasal": "Pasal 160",
+        "alasan": "permohonan praperadilan atas upaya paksa dan penyitaan"
+      },
+      {
+        "pasal": "Pasal 161",
+        "alasan": "permohonan praperadilan atas penghentian penyidikan atau penuntutan"
+      },
+      {
+        "pasal": "Pasal 162",
+        "alasan": "permohonan ganti rugi dan rehabilitasi (prosedural)"
+      },
+      {
+        "pasal": "Pasal 163",
+        "alasan": "acara pemeriksaan praperadilan dan isi putusan"
+      },
+      {
+        "pasal": "Pasal 164",
+        "alasan": "upaya hukum terhadap putusan praperadilan"
+      },
+      {
+        "pasal": "Pasal 165",
+        "alasan": "kewenangan mengadili pengadilan negeri (kelembagaan)"
+      },
+      {
+        "pasal": "Pasal 166",
+        "alasan": "penunjukan pengadilan negeri lain oleh Mahkamah Agung"
+      },
+      {
+        "pasal": "Pasal 167",
+        "alasan": "kewenangan mengadili tindak pidana di luar negeri"
+      },
+      {
+        "pasal": "Pasal 168",
+        "alasan": "kewenangan pengadilan tinggi (kelembagaan)"
+      },
+      {
+        "pasal": "Pasal 169",
+        "alasan": "kewenangan Mahkamah Agung (kelembagaan)"
+      },
+      {
+        "pasal": "Pasal 170",
+        "alasan": "pemeriksaan perkara koneksitas (kelembagaan)"
+      },
+      {
+        "pasal": "Pasal 171",
+        "alasan": "koordinasi penuntut umum dan oditur militer (kelembagaan)"
+      },
+      {
+        "pasal": "Pasal 172",
+        "alasan": "susunan majelis hakim perkara koneksitas (kelembagaan)"
+      },
+      {
+        "pasal": "Pasal 173",
+        "alasan": "hak menuntut ganti rugi atas tindakan tanpa alasan sah"
+      },
+      {
+        "pasal": "Pasal 174",
+        "alasan": "bentuk dan isi putusan ganti rugi (prosedural)"
+      },
+      {
+        "pasal": "Pasal 175",
+        "alasan": "pembayaran ganti rugi dari dana abadi"
+      },
+      {
+        "pasal": "Pasal 176",
+        "alasan": "hak atas rehabilitasi dan lingkupnya"
+      },
+      {
+        "pasal": "Pasal 177",
+        "alasan": "pendanaan rehabilitasi (kelembagaan)"
+      },
+      {
+        "pasal": "Pasal 178",
+        "alasan": "hak korban atas restitusi dan lingkupnya"
+      },
+      {
+        "pasal": "Pasal 179",
+        "alasan": "kewajiban pemberitahuan dan fasilitasi restitusi"
+      },
+      {
+        "pasal": "Pasal 180",
+        "alasan": "pengembalian restitusi jika terdakwa diputus bebas"
+      },
+      {
+        "pasal": "Pasal 181",
+        "alasan": "pelaksanaan pemberian restitusi (prosedural)"
+      },
+      {
+        "pasal": "Pasal 182",
+        "alasan": "berita acara pelaksanaan restitusi"
+      },
+      {
+        "pasal": "Pasal 183",
+        "alasan": "hak korban atas kompensasi dan lingkupnya"
+      },
+      {
+        "pasal": "Pasal 184",
+        "alasan": "kewajiban pemberitahuan hak kompensasi"
+      },
+      {
+        "pasal": "Pasal 185",
+        "alasan": "pelaksanaan pemberian kompensasi (prosedural)"
+      },
+      {
+        "pasal": "Pasal 186",
+        "alasan": "berita acara pelaksanaan kompensasi"
+      },
+      {
+        "pasal": "Pasal 187",
+        "alasan": "sumber dana abadi (kelembagaan)"
+      },
+      {
+        "pasal": "Pasal 188",
+        "alasan": "delegasi pengaturan dana abadi ke PP"
+      },
+      {
+        "pasal": "Pasal 189",
+        "alasan": "penggabungan gugatan ganti rugi ke perkara pidana"
+      },
+      {
+        "pasal": "Pasal 190",
+        "alasan": "pertimbangan pengadilan atas penggabungan gugatan ganti rugi"
+      },
+      {
+        "pasal": "Pasal 192",
+        "alasan": "berlakunya hukum acara perdata bagi gugatan ganti rugi"
+      },
+      {
+        "pasal": "Pasal 193",
+        "alasan": "tata cara pemanggilan Terdakwa ke sidang — 'Penuntut Umum memanggil secara sah kepada Terdakwa'; di luar domain T-Box (acara pidana)"
+      },
+      {
+        "pasal": "Pasal 194",
+        "alasan": "tenggat penyampaian surat panggilan paling lambat 7 Hari sebelum sidang; di luar domain T-Box (acara pidana)"
+      },
+      {
+        "pasal": "Pasal 195",
+        "alasan": "kewenangan ketua pengadilan negeri mempelajari surat pelimpahan perkara; di luar domain T-Box (acara pidana)"
+      },
+      {
+        "pasal": "Pasal 196",
+        "alasan": "pelimpahan perkara kepada pengadilan negeri lain yang dianggap berwenang; di luar domain T-Box (acara pidana)"
+      },
+      {
+        "pasal": "Pasal 197",
+        "alasan": "perlawanan Penuntut Umum atas surat penetapan wewenang mengadili; di luar domain T-Box (acara pidana)"
+      },
+      {
+        "pasal": "Pasal 198",
+        "alasan": "definisi terjadinya sengketa mengenai wewenang mengadili; definisi, bukan norma"
+      },
+      {
+        "pasal": "Pasal 199",
+        "alasan": "kewenangan pengadilan tinggi dan Mahkamah Agung memutus sengketa wewenang mengadili; di luar domain T-Box (acara pidana)"
+      },
+      {
+        "pasal": "Pasal 20O",
+        "alasan": "penunjukan Hakim dan penetapan hari sidang (heading paket 'Pasal 20O' = OCR Pasal 200) — 'ketua pengadilan menunjuk Hakim yang akan menyidangkan perkara'; di luar domain T-Box (acara pidana)"
+      },
+      {
+        "pasal": "Pasal 201",
+        "alasan": "kehadiran Penuntut Umum, Terdakwa, Saksi, dan Ahli pada sidang pemeriksaan; di luar domain T-Box (acara pidana)"
+      },
+      {
+        "pasal": "Pasal 203",
+        "alasan": "akibat Terdakwa tidak hadir meski dipanggil sah — 'Hakim ketua sidang memerintahkan agar Terdakwa dipanggil sekali lagi'; di luar domain T-Box (acara pidana)"
+      },
+      {
+        "pasal": "Pasal 206",
+        "alasan": "perlawanan terhadap kewenangan mengadili atau surat dakwaan; di luar domain T-Box (acara pidana)"
+      },
+      {
+        "pasal": "Pasal 208",
+        "alasan": "larangan Hakim menunjukkan sikap mengenai salah atau tidaknya Terdakwa; di luar domain T-Box (acara pidana)"
+      },
+      {
+        "pasal": "Pasal 209",
+        "alasan": "pemeriksaan kehadiran Saksi/Ahli dan pencegahan kontak antar-Saksi; di luar domain T-Box (acara pidana)"
+      },
+      {
+        "pasal": "Pasal 210",
+        "alasan": "urutan penyampaian keterangan Saksi/Ahli dan pengambilan sumpah; di luar domain T-Box (acara pidana)"
+      },
+      {
+        "pasal": "Pasal 211",
+        "alasan": "akibat Saksi/Ahli menolak bersumpah — 'bukan merupakan alat bukti, namun sebagai hal yang memperkuat keyakinan Hakim'; di luar domain T-Box"
+      },
+      {
+        "pasal": "Pasal 212",
+        "alasan": "pembacaan keterangan Saksi yang tidak hadir karena meninggal, jauh tempat kediaman, atau kepentingan negara; di luar domain T-Box (acara pidana)"
+      },
+      {
+        "pasal": "Pasal 215",
+        "alasan": "larangan pertanyaan yang bersifat menjerat — 'Pertanyaan yang bersifat menjerat dilarang diajukan'; di luar domain T-Box"
+      },
+      {
+        "pasal": "Pasal 217",
+        "alasan": "kewajiban Saksi tetap hadir di sidang setelah memberi keterangan; di luar domain T-Box (acara pidana)"
+      },
+      {
+        "pasal": "Pasal 218",
+        "alasan": "alasan Saksi dapat mengundurkan diri (hubungan keluarga, tersangka bersama, suami/istri); di luar domain T-Box (acara pidana)"
+      },
+      {
+        "pasal": "Pasal 219",
+        "alasan": "keterangan Saksi di bawah sumpah atau janji atas persetujuan para pihak; di luar domain T-Box (acara pidana)"
+      },
+      {
+        "pasal": "Pasal 221",
+        "alasan": "keterangan tanpa sumpah bagi anak belum berumur 14 tahun dan Penyandang Disabilitas mental/intelektual; di luar domain T-Box"
+      },
+      {
+        "pasal": "Pasal 223",
+        "alasan": "mendengar Keterangan Saksi tanpa hadirnya Terdakwa dan pemberitahuan kemudian; di luar domain T-Box (acara pidana)"
+      },
+      {
+        "pasal": "Pasal 224",
+        "alasan": "tindakan terhadap Saksi yang diduga memberikan keterangan palsu; di luar domain T-Box (acara pidana)"
+      },
+      {
+        "pasal": "Pasal 225",
+        "alasan": "sikap Hakim ketika Terdakwa tidak menjawab atau menolak menjawab pertanyaan; di luar domain T-Box (acara pidana)"
+      },
+      {
+        "pasal": "Pasal 226",
+        "alasan": "peneguran dan pengeluaran Terdakwa yang mengganggu ketertiban sidang; di luar domain T-Box (acara pidana)"
+      },
+      {
+        "pasal": "Pasal 227",
+        "alasan": "penunjukan Penerjemah bagi Terdakwa/Saksi yang tidak berbahasa Indonesia; di luar domain T-Box (acara pidana)"
+      },
+      {
+        "pasal": "Pasal 228",
+        "alasan": "pendamping disabilitas atau juru bahasa bagi Terdakwa/Saksi disabilitas; di luar domain T-Box (acara pidana)"
+      },
+      {
+        "pasal": "Pasal 229",
+        "alasan": "kewajiban Ahli memberikan Keterangan Ahli demi keadilan; di luar domain T-Box (acara pidana)"
+      },
+      {
+        "pasal": "Pasal 230",
+        "alasan": "permintaan Keterangan Ahli dan penelitian ulang atas perlawanan Terdakwa; di luar domain T-Box (acara pidana)"
+      },
+      {
+        "pasal": "Pasal 231",
+        "alasan": "tuntutan pidana, pembelaan, dan penutupan pemeriksaan; di luar domain T-Box (acara pidana)"
+      },
+      {
+        "pasal": "Pasal 232",
+        "alasan": "pembukaan kembali sidang dan musyawarah Hakim; di luar domain T-Box (acara pidana)"
+      },
+      {
+        "pasal": "Pasal 233",
+        "alasan": "pengambilan putusan majelis secara musyawarah atau suara terbanyak; di luar domain T-Box (acara pidana)"
+      },
+      {
+        "pasal": "Pasal 234",
+        "alasan": "pengakuan Terdakwa dan pelimpahan ke acara pemeriksaan singkat — 'tidak boleh melebihi 2/3 (dua per tiga) dari maksimum pidana'; di luar domain T-Box"
+      },
+      {
+        "pasal": "Pasal 235",
+        "alasan": "jenis alat bukti — 'Alat bukti terdiri atas'; definisi, bukan norma"
+      },
+      {
+        "pasal": "Pasal 236",
+        "alasan": "penyampaian Keterangan Saksi secara langsung atau melalui audio visual, termasuk Penyandang Disabilitas; di luar domain T-Box (acara pidana)"
+      },
+      {
+        "pasal": "Pasal 237",
+        "alasan": "kekuatan pembuktian keterangan Saksi — 'Keterangan 1 (satu) orang Saksi tidak cukup'; di luar domain T-Box"
+      },
+      {
+        "pasal": "Pasal 238",
+        "alasan": "Keterangan Ahli di sidang di bawah sumpah dan surat tugas institusi; di luar domain T-Box (acara pidana)"
+      },
+      {
+        "pasal": "Pasal 239",
+        "alasan": "jenis surat sebagai alat bukti; definisi, bukan norma"
+      },
+      {
+        "pasal": "Pasal 240",
+        "alasan": "Keterangan Terdakwa dan batas penggunaannya; di luar domain T-Box (acara pidana)"
+      },
+      {
+        "pasal": "Pasal 241",
+        "alasan": "cakupan barang bukti; definisi, bukan norma"
+      },
+      {
+        "pasal": "Pasal 242",
+        "alasan": "cakupan bukti elektronik; definisi, bukan norma"
+      },
+      {
+        "pasal": "Pasal 243",
+        "alasan": "penahanan atau penangguhan penahanan oleh pengadilan selama pemeriksaan; di luar domain T-Box (acara pidana)"
+      },
+      {
+        "pasal": "Pasal 244",
+        "alasan": "putusan pemidanaan, bebas, atau lepas dari segala tuntutan hukum; di luar domain T-Box (acara pidana)"
+      },
+      {
+        "pasal": "Pasal 245",
+        "alasan": "pelaksanaan perintah pelepasan Terdakwa dari tahanan; di luar domain T-Box (acara pidana)"
+      },
+      {
+        "pasal": "Pasal 247",
+        "alasan": "penyerahan barang bukti kepada pihak yang paling berhak menerima kembali; di luar domain T-Box (acara pidana)"
+      },
+      {
+        "pasal": "Pasal 248",
+        "alasan": "syarat sahnya putusan — 'hanya sah dan mempunyai kekuatan hukum jika diucapkan dalam sidang terbuka untuk umum'; di luar domain T-Box"
+      },
+      {
+        "pasal": "Pasal 249",
+        "alasan": "pemberitahuan hak Terdakwa setelah putusan pemidanaan (menerima/menolak, grasi, banding); di luar domain T-Box (acara pidana)"
+      },
+      {
+        "pasal": "Pasal 250",
+        "alasan": "isi putusan pemidanaan dan akibat batal demi hukum bila tidak dipenuhi; di luar domain T-Box (acara pidana)"
+      },
+      {
+        "pasal": "Pasal 251",
+        "alasan": "kewajiban Hakim mempertimbangkan pedoman pemidanaan dalam setiap putusan; di luar domain T-Box (acara pidana)"
+      },
+      {
+        "pasal": "Pasal 252",
+        "alasan": "penunjukan pengganti Hakim, Penuntut Umum, atau Advokat yang berhalangan; di luar domain T-Box (acara pidana)"
+      },
+      {
+        "pasal": "Pasal 253",
+        "alasan": "isi putusan yang bukan merupakan pemidanaan (bebas/lepas); di luar domain T-Box (acara pidana)"
+      },
+      {
+        "pasal": "Pasal 254",
+        "alasan": "penandatanganan petikan putusan oleh Hakim dan panitera; di luar domain T-Box (acara pidana)"
+      },
+      {
+        "pasal": "Pasal 255",
+        "alasan": "perlakuan terhadap surat palsu yang dilekati petikan putusan; di luar domain T-Box (acara pidana)"
+      },
+      {
+        "pasal": "Pasal 256",
+        "alasan": "pembuatan berita acara sidang oleh panitera; di luar domain T-Box (acara pidana)"
+      },
+      {
+        "pasal": "Pasal 257",
+        "alasan": "lingkup dan tata cara pemeriksaan singkat — 'Pidana penjara yang dapat dijatuhkan terhadap Terdakwa paling lama 3 (tiga) tahun'; di luar domain T-Box"
+      },
+      {
+        "pasal": "Pasal 258",
+        "alasan": "pemeriksaan cepat terhadap tindak pidana ringan; di luar domain T-Box (acara pidana)"
+      },
+      {
+        "pasal": "Pasal 259",
+        "alasan": "penetapan hari sidang perkara pemeriksaan cepat paling lama 7 Hari; di luar domain T-Box (acara pidana)"
+      },
+      {
+        "pasal": "Pasal 26O",
+        "alasan": "heading ganda hasil OCR untuk Pasal 260 (tanpa isi ayat); di luar domain T-Box (acara pidana)"
+      },
+      {
+        "pasal": "Pasal 260",
+        "alasan": "pemberitahuan hari sidang dan pencatatan perkara dalam buku register; di luar domain T-Box (acara pidana)"
+      },
+      {
+        "pasal": "Pasal 261",
+        "alasan": "perkara lalu lintas jalan tidak memerlukan berita acara pemeriksaan; di luar domain T-Box (acara pidana)"
+      },
+      {
+        "pasal": "Pasal 262",
+        "alasan": "sumpah atau janji Saksi dalam acara pemeriksaan cepat; di luar domain T-Box (acara pidana)"
+      },
+      {
+        "pasal": "Pasal 263",
+        "alasan": "pencatatan putusan acara pemeriksaan cepat; di luar domain T-Box (acara pidana)"
+      },
+      {
+        "pasal": "Pasal 264",
+        "alasan": "ketentuan rujukan antar-Bagian dalam Bab XV; ketentuan rujukan, bukan norma"
+      },
+      {
+        "pasal": "Pasal 265",
+        "alasan": "penunjukan wakil Terdakwa dengan surat untuk pemeriksaan di sidang; di luar domain T-Box (acara pidana)"
+      },
+      {
+        "pasal": "Pasal 266",
+        "alasan": "pemeriksaan tanpa kehadiran Terdakwa dan perlawanan atas putusan; di luar domain T-Box (acara pidana)"
+      },
+      {
+        "pasal": "Pasal 267",
+        "alasan": "pengembalian benda sitaan kepada yang paling berhak; di luar domain T-Box (acara pidana)"
+      },
+      {
+        "pasal": "Pasal 268",
+        "alasan": "kewenangan Hakim ketua sidang memimpin dan memelihara tata tertib persidangan; di luar domain T-Box (acara pidana)"
+      },
+      {
+        "pasal": "Pasal 269",
+        "alasan": "kewajiban sikap hormat dan pengeluaran orang yang menyerang martabat pengadilan; di luar domain T-Box (acara pidana)"
+      },
+      {
+        "pasal": "Pasal 271",
+        "alasan": "larangan Hakim mengadili perkara yang berkaitan dengan kepentingannya; di luar domain T-Box (acara pidana)"
+      },
+      {
+        "pasal": "Pasal 272",
+        "alasan": "permohonan pergantian Hakim atau majelis Hakim yang menyidangkan perkara; di luar domain T-Box (acara pidana)"
+      },
+      {
+        "pasal": "Pasal 273",
+        "alasan": "pembebanan biaya perkara kepada Terdakwa atau negara; di luar domain T-Box (acara pidana)"
+      },
+      {
+        "pasal": "Pasal 274",
+        "alasan": "penundaan sidang untuk pengucapan sumpah atau janji di luar sidang; di luar domain T-Box (acara pidana)"
+      },
+      {
+        "pasal": "Pasal 275",
+        "alasan": "penyimpanan putusan dalam arsip pengadilan dan larangan memindahkannya; di luar domain T-Box (acara pidana)"
+      },
+      {
+        "pasal": "Pasal 276",
+        "alasan": "pembuatan dan isi buku daftar perkara oleh panitera; di luar domain T-Box (acara pidana)"
+      },
+      {
+        "pasal": "Pasal 277",
+        "alasan": "pemberian petikan dan salinan putusan kepada para pihak; di luar domain T-Box (acara pidana)"
+      },
+      {
+        "pasal": "Pasal 278",
+        "alasan": "tenggat penyampaian pemberitahuan atau panggilan paling lambat 3 Hari sebelum kehadiran; di luar domain T-Box"
+      },
+      {
+        "pasal": "Pasal 279",
+        "alasan": "perhitungan jangka waktu mulai pada hari berikutnya; di luar domain T-Box (acara pidana)"
+      },
+      {
+        "pasal": "Pasal 280",
+        "alasan": "hak Saksi/Ahli atas penggantian biaya — 'berhak mendapat penggantian biaya'; di luar domain T-Box (acara pidana)"
+      },
+      {
+        "pasal": "Pasal 281",
+        "alasan": "ruang sidang dan tata tempat di gedung pengadilan; di luar domain T-Box (acara pidana)"
+      },
+      {
+        "pasal": "Pasal 282",
+        "alasan": "tata tertib memasuki ruang sidang dan pemberian hormat kepada Hakim; di luar domain T-Box (acara pidana)"
+      },
+      {
+        "pasal": "Pasal 283",
+        "alasan": "jenis, bentuk, dan warna pakaian sidang diatur dengan Peraturan Pemerintah; di luar domain T-Box (acara pidana)"
+      },
+      {
+        "pasal": "Pasal 284",
+        "alasan": "biaya pemeriksaan di sidang pengadilan dibebankan kepada negara; di luar domain T-Box (acara pidana)"
+      },
+      {
+        "pasal": "Pasal 285",
+        "alasan": "pengajuan permohonan banding dan tenggat 7 Hari; di luar domain T-Box (acara pidana)"
+      },
+      {
+        "pasal": "Pasal 286",
+        "alasan": "akibat lewat waktu banding — dianggap menerima putusan; di luar domain T-Box (acara pidana)"
+      },
+      {
+        "pasal": "Pasal 287",
+        "alasan": "pencabutan permohonan banding dan pembebanan biaya perkara; di luar domain T-Box (acara pidana)"
+      },
+      {
+        "pasal": "Pasal 288",
+        "alasan": "pengiriman berkas banding dan kesempatan mempelajari berkas perkara; di luar domain T-Box (acara pidana)"
+      },
+      {
+        "pasal": "Pasal 289",
+        "alasan": "memori banding dan akibat gugurnya permohonan banding; di luar domain T-Box (acara pidana)"
+      },
+      {
+        "pasal": "Pasal 290",
+        "alasan": "permintaan pemeriksaan kembali Saksi/Ahli dalam tingkat banding; di luar domain T-Box (acara pidana)"
+      },
+      {
+        "pasal": "Pasal 291",
+        "alasan": "pemeriksaan banding oleh minimal 3 Hakim dan peralihan wewenang penahanan; di luar domain T-Box (acara pidana)"
+      },
+      {
+        "pasal": "Pasal 292",
+        "alasan": "penetapan tanggal sidang pemeriksaan tingkat banding; di luar domain T-Box (acara pidana)"
+      },
+      {
+        "pasal": "Pasal 293",
+        "alasan": "tata cara pemeriksaan Saksi/Ahli tingkat pertama berlaku mutatis mutandis di tingkat banding; ketentuan rujukan"
+      },
+      {
+        "pasal": "Pasal 294",
+        "alasan": "larangan dan kewajiban mengundurkan diri Hakim berlaku mutatis mutandis di tingkat banding; ketentuan rujukan"
+      },
+      {
+        "pasal": "Pasal 295",
+        "alasan": "perbaikan kelalaian penerapan hukum acara oleh pengadilan tinggi; di luar domain T-Box (acara pidana)"
+      },
+      {
+        "pasal": "Pasal 296",
+        "alasan": "putusan pengadilan tinggi yang menguatkan, mengubah, atau membatalkan putusan; di luar domain T-Box (acara pidana)"
+      },
+      {
+        "pasal": "Pasal 297",
+        "alasan": "perintah agar Terdakwa tetap ditahan atau dibebaskan dalam putusan banding; di luar domain T-Box (acara pidana)"
+      },
+      {
+        "pasal": "Pasal 298",
+        "alasan": "pembacaan putusan banding dalam sidang terbuka dan pemberitahuannya; di luar domain T-Box (acara pidana)"
+      },
+      {
+        "pasal": "Pasal 299",
+        "alasan": "permohonan kasasi dan putusan yang tidak dapat diajukan kasasi; di luar domain T-Box (acara pidana)"
+      },
+      {
+        "pasal": "Pasal 300",
+        "alasan": "tenggat pengajuan permohonan kasasi paling lama 14 Hari; di luar domain T-Box (acara pidana)"
+      },
+      {
+        "pasal": "Pasal 302",
+        "alasan": "pencabutan permohonan kasasi dan akibatnya; di luar domain T-Box (acara pidana)"
+      },
+      {
+        "pasal": "Pasal 303",
+        "alasan": "memori kasasi dan akibat gugurnya hak mengajukan kasasi; di luar domain T-Box (acara pidana)"
+      },
+      {
+        "pasal": "Pasal 304",
+        "alasan": "tambahan memori kasasi atau kontra memori kasasi; di luar domain T-Box (acara pidana)"
+      },
+      {
+        "pasal": "Pasal 305",
+        "alasan": "pengiriman berkas perkara kasasi kepada Mahkamah Agung; di luar domain T-Box (acara pidana)"
+      },
+      {
+        "pasal": "Pasal 306",
+        "alasan": "larangan Hakim dan kewajiban mengundurkan diri berlaku mutatis mutandis di tingkat kasasi; ketentuan rujukan"
+      },
+      {
+        "pasal": "Pasal 307",
+        "alasan": "larangan Hakim mengadili perkara yang berkaitan dengan kepentingannya di tingkat kasasi; di luar domain T-Box"
+      },
+      {
+        "pasal": "Pasal 309",
+        "alasan": "putusan menolak atau mengabulkan permohonan kasasi; di luar domain T-Box (acara pidana)"
+      },
+      {
+        "pasal": "Pasal 310",
+        "alasan": "akibat pembatalan putusan oleh Mahkamah Agung; di luar domain T-Box (acara pidana)"
+      },
+      {
+        "pasal": "Pasal 312",
+        "alasan": "petikan atau salinan putusan kasasi dan tenggat pengiriman 14 Hari; di luar domain T-Box (acara pidana)"
+      },
+      {
+        "pasal": "Pasal 313",
+        "alasan": "pemeriksaan kasasi dalam lingkungan peradilan militer; di luar domain T-Box (acara pidana)"
+      },
+      {
+        "pasal": "Pasal 314",
+        "alasan": "kasasi demi kepentingan hukum oleh Jaksa Agung — 'tidak boleh merugikan pihak yang berkepentingan'; di luar domain T-Box (acara pidana)"
+      },
+      {
+        "pasal": "Pasal 316",
+        "alasan": "penyampaian salinan putusan kasasi demi kepentingan hukum; di luar domain T-Box (acara pidana)"
+      },
+      {
+        "pasal": "Pasal 318",
+        "alasan": "permohonan peninjauan kembali dan alasannya; di luar domain T-Box (acara pidana)"
+      },
+      {
+        "pasal": "Pasal 319",
+        "alasan": "tenggat pengajuan permohonan peninjauan kembali; di luar domain T-Box (acara pidana)"
+      },
+      {
+        "pasal": "Pasal 320",
+        "alasan": "pemeriksaan permohonan peninjauan kembali oleh Hakim; di luar domain T-Box (acara pidana)"
+      },
+      {
+        "pasal": "Pasal 323",
+        "alasan": "permohonan peninjauan kembali tidak menangguhkan pelaksanaan putusan; di luar domain T-Box (acara pidana)"
+      },
+      {
+        "pasal": "Pasal 324",
+        "alasan": "peninjauan kembali tidak menangguhkan pelaksanaan putusan (mengulang Pasal 323); di luar domain T-Box (acara pidana)"
+      },
+      {
+        "pasal": "Pasal 325",
+        "alasan": "peninjauan kembali dalam lingkungan peradilan militer; di luar domain T-Box (acara pidana)"
+      },
+      {
+        "pasal": "Pasal 326",
+        "alasan": "pertanggungjawaban tindak pidana oleh Korporasi dan penanggung jawabnya; di luar domain T-Box (acara pidana)"
+      },
+      {
+        "pasal": "Pasal 327",
+        "alasan": "pemanggilan dan pemeriksaan Korporasi serta mekanisme Keadilan Restoratif; di luar domain T-Box (acara pidana)"
+      },
+      {
+        "pasal": "Pasal 329",
+        "alasan": "isi surat dakwaan terhadap Korporasi; di luar domain T-Box (acara pidana)"
+      },
+      {
+        "pasal": "Pasal 330",
+        "alasan": "pertanggungjawaban Korporasi dalam penggabungan, peleburan, pemisahan, atau pembubaran; di luar domain T-Box"
+      },
+      {
+        "pasal": "Pasal 331",
+        "alasan": "penjatuhan pidana dan/atau tindakan terhadap Korporasi; di luar domain T-Box (acara pidana)"
+      },
+      {
+        "pasal": "Pasal 332",
+        "alasan": "Korporasi dan penanggung jawab Korporasi dapat diajukan bersama-sama sebagai Terdakwa; di luar domain T-Box"
+      },
+      {
+        "pasal": "Pasal 333",
+        "alasan": "pidana pokok berupa denda dan pidana tambahan terhadap Korporasi; di luar domain T-Box (acara pidana)"
+      },
+      {
+        "pasal": "Pasal 334",
+        "alasan": "pelaksanaan putusan berdasarkan Putusan Pengadilan yang memperoleh kekuatan hukum tetap; di luar domain T-Box"
+      },
+      {
+        "pasal": "Pasal 335",
+        "alasan": "tenggat pembayaran denda Korporasi dan penyitaan serta pelelangan harta benda; di luar domain T-Box (acara pidana)"
+      },
+      {
+        "pasal": "Pasal 336",
+        "alasan": "kehadiran hakim pengawas dan jaksa dalam pelaksanaan putusan; di luar domain T-Box (acara pidana)"
+      },
+      {
+        "pasal": "Pasal 337",
+        "alasan": "tenggat pembayaran denda oleh penanggung jawab Korporasi; di luar domain T-Box (acara pidana)"
+      },
+      {
+        "pasal": "Pasal 338",
+        "alasan": "pelaksanaan pidana tambahan terhadap Korporasi; di luar domain T-Box (acara pidana)"
+      },
+      {
+        "pasal": "Pasal 339",
+        "alasan": "perampasan barang hasil tindak pidana dan penyitaan keuntungan untuk negara; di luar domain T-Box (acara pidana)"
+      },
+      {
+        "pasal": "Pasal 34O",
+        "alasan": "heading ganda hasil OCR untuk Pasal 340; di luar domain T-Box (acara pidana)"
+      },
+      {
+        "pasal": "Pasal 340",
+        "alasan": "tenggat pembayaran ganti rugi atau Restitusi oleh Korporasi; di luar domain T-Box (acara pidana)"
+      },
+      {
+        "pasal": "Pasal 341",
+        "alasan": "tata cara pengenaan pidana tambahan terhadap Korporasi diatur dengan Peraturan Pemerintah; di luar domain T-Box"
+      },
+      {
+        "pasal": "Pasal 342",
+        "alasan": "pelaksanaan putusan oleh Penuntut Umum dan pengiriman salinan putusan; di luar domain T-Box (acara pidana)"
+      },
+      {
+        "pasal": "Pasal 343",
+        "alasan": "pelaksanaan pidana pokok, pidana tambahan, dan pidana khusus sesuai peraturan perundang-undangan; ketentuan rujukan"
+      },
+      {
+        "pasal": "Pasal 344",
+        "alasan": "pidana penjara yang dijalankan berturut-turut dan pembinaan oleh Pembimbing Kemasyarakatan; di luar domain T-Box"
+      },
+      {
+        "pasal": "Pasal 345",
+        "alasan": "tenggat pembayaran denda, pelelangan barang rampasan, dan pemulihan aset Korban; di luar domain T-Box (acara pidana)"
+      },
+      {
+        "pasal": "Pasal 347",
+        "alasan": "pelaksanaan putusan ganti rugi dan penyerahannya kepada Korban; di luar domain T-Box (acara pidana)"
+      },
+      {
+        "pasal": "Pasal 348",
+        "alasan": "pembebanan biaya perkara dan ganti rugi secara berimbang kepada beberapa Terpidana; di luar domain T-Box"
+      },
+      {
+        "pasal": "Pasal 350",
+        "alasan": "pelaksanaan putusan pencabutan hak tertentu oleh lembaga terkait; di luar domain T-Box (acara pidana)"
+      },
+      {
+        "pasal": "Pasal 351",
+        "alasan": "pemenuhan kewajiban adat dan ganti rugi bila tidak terpenuhi; di luar domain T-Box (acara pidana)"
+      },
+      {
+        "pasal": "Pasal 352",
+        "alasan": "pelaksanaan pidana tambahan Korporasi dan penyitaan bila tidak terpenuhi; di luar domain T-Box (acara pidana)"
+      },
+      {
+        "pasal": "Pasal 353",
+        "alasan": "penunjukan Hakim pengawas dan pengamat di setiap pengadilan; di luar domain T-Box (acara pidana)"
+      },
+      {
+        "pasal": "Pasal 354",
+        "alasan": "penandatanganan berita acara pelaksanaan Putusan Pengadilan; di luar domain T-Box (acara pidana)"
+      },
+      {
+        "pasal": "Pasal 355",
+        "alasan": "pengerjaan dan penandatanganan register pengawasan dan pengamatan; di luar domain T-Box (acara pidana)"
+      },
+      {
+        "pasal": "Pasal 356",
+        "alasan": "tugas pengawasan dan pengamatan Hakim pengawas dan pengamat; di luar domain T-Box (acara pidana)"
+      },
+      {
+        "pasal": "Pasal 357",
+        "alasan": "penyampaian informasi perilaku narapidana oleh kepala lembaga pemasyarakatan; di luar domain T-Box"
+      },
+      {
+        "pasal": "Pasal 358",
+        "alasan": "pembicaraan cara pembinaan narapidana tertentu dengan kepala lembaga pemasyarakatan; di luar domain T-Box"
+      },
+      {
+        "pasal": "Pasal 359",
+        "alasan": "pelaporan hasil pengawasan dan pengamatan setiap 3 bulan; di luar domain T-Box (acara pidana)"
+      },
+      {
+        "pasal": "Pasal 360",
+        "alasan": "penyelenggaraan sistem peradilan pidana berbasis teknologi informasi; di luar domain T-Box (acara pidana)"
+      },
+      {
+        "pasal": "Pasal 361",
+        "alasan": "ketentuan peralihan penyelesaian perkara pada saat Undang-Undang mulai berlaku; ketentuan peralihan, bukan norma"
+      },
+      {
+        "pasal": "Pasal 362",
+        "alasan": "pencabutan Undang-Undang Nomor 8 Tahun 1981 tentang Hukum Acara Pidana; ketentuan penutup, bukan norma"
+      },
+      {
+        "pasal": "Pasal 363",
+        "alasan": "keberlakuan ketentuan kewenangan PPNS dan Penyidik Tertentu; ketentuan peralihan, bukan norma"
+      },
+      {
+        "pasal": "Pasal 364",
+        "alasan": "keberlakuan ketentuan mengenai Upaya Paksa; ketentuan peralihan, bukan norma"
+      },
+      {
+        "pasal": "Pasal 365",
+        "alasan": "keberlakuan peraturan pelaksanaan Undang-Undang Nomor 8 Tahun 1981; ketentuan peralihan, bukan norma"
+      },
+      {
+        "pasal": "Pasal 366",
+        "alasan": "tenggat penetapan peraturan pelaksanaan paling lama 1 tahun; ketentuan peralihan, bukan norma"
+      },
+      {
+        "pasal": "Pasal 367",
+        "alasan": "ketentuan acara pidana yang bertentangan dinyatakan tidak berlaku; ketentuan penutup, bukan norma"
+      },
+      {
+        "pasal": "Pasal 368",
+        "alasan": "penamaan Undang-Undang sebagai KUHAP; ketentuan penutup, bukan norma"
+      },
+      {
+        "pasal": "Pasal 369",
+        "alasan": "mulai berlakunya Undang-Undang pada tanggal 2 Januari 2026; ketentuan penutup, bukan norma"
+      }
+    ],
+    "catatan": ""
+  },
+  "tidak_termodelkan": [
+    {
+      "pasal": "Pasal 204",
+      "ringkasan": "Permulaan sidang, pemeriksaan identitas Terdakwa, persidangan elektronik, dan perdamaian Terdakwa dengan Korban beserta syaratnya ('Terdakwa baru pertama kali melakukan tindak pidana').",
+      "alasan": "butuh kelas/properti baru: perdamaian restoratif dan persidangan elektronik di luar T-Box ketenagakerjaan"
+    },
+    {
+      "pasal": "Pasal 22O",
+      "ringkasan": "Orang yang karena 'harkat martabat, pekerjaan, atau jabatannya' wajib menyimpan rahasia dapat meminta dibebaskan dari kewajiban memberi keterangan sebagai Saksi (heading paket 'Pasal 22O' = OCR Pasal 220); Hakim menentukan sah atau tidaknya alasan tersebut.",
+      "alasan": "butuh kelas/properti baru: pembebasan kewajiban saksi karena rahasia jabatan/pekerjaan di luar T-Box ketenagakerjaan"
+    },
+    {
+      "pasal": "Pasal 246",
+      "ringkasan": "Putusan Pemaafan Hakim: Terdakwa terbukti bersalah namun tidak dijatuhi pidana atau tindakan dengan pertimbangan 'ringannya perbuatan, keadaan pribadi pelaku'; para pihak dapat mengajukan upaya hukum.",
+      "alasan": "butuh kelas baru: jenis putusan pemaafan di luar T-Box ketenagakerjaan"
+    },
+    {
+      "pasal": "Pasal 322",
+      "ringkasan": "Putusan peninjauan kembali; bila pemohon dibebaskan atau dipidana lebih ringan, pemohon atau ahli warisnya 'wajib diberikan Ganti Rugi dan Rehabilitasi'.",
+      "alasan": "butuh kelas baru: ganti rugi dan rehabilitasi atas putusan peninjauan kembali di luar T-Box ketenagakerjaan"
+    },
+    {
+      "pasal": "Pasal 328",
+      "ringkasan": "Perjanjian Penundaan Penuntutan bagi Korporasi: syarat 'pembayaran ganti rugi atau Restitusi kepada Korban', pengesahan pengadilan, dan penghentian penuntutan bila kewajiban dipenuhi.",
+      "alasan": "butuh kelas baru: perjanjian penundaan penuntutan (deferred prosecution) di luar T-Box ketenagakerjaan"
+    },
+    {
+      "pasal": "Pasal 346",
+      "ringkasan": "Angsuran pidana denda; harta benda Terpidana yang tidak dapat disita meliputi 'barang yang diperlukan untuk hidup layak dan bekerja'.",
+      "alasan": "butuh kelas/properti baru: perlindungan harta Terpidana untuk hidup layak dan bekerja di luar T-Box ketenagakerjaan"
+    },
+    {
+      "pasal": "Pasal 349",
+      "ringkasan": "Pelaksanaan pidana pengawasan, 'pidana kerja sosial', dan tindakan oleh Jaksa serta pembimbingan oleh Pembimbing Kemasyarakatan.",
+      "alasan": "butuh kelas baru: pidana kerja sosial dan pidana pengawasan di luar T-Box ketenagakerjaan"
+    }
+  ]
+}

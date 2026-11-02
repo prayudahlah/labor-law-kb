@@ -1,0 +1,109 @@
+{
+  "spec_version": "1.1.0",
+  "vocab_version": "0.3.0",
+  "dokumen_id": "UU-7-1981",
+  "status_review": "reviewed",
+  "peraturan": {
+    "judul": "Undang-Undang Nomor 7 Tahun 1981 tentang Wajib Lapor Ketenagakerjaan di Perusahaan",
+    "jenis": "UU",
+    "nomor": "7",
+    "tahun": "1981",
+    "sumber": "https://peraturan.go.id/id/uu-no-7-tahun-1981",
+    "status": "Berlaku",
+    "diubah_oleh": []
+  },
+  "norma": [],
+  "kategori": [],
+  "pengali_lembur": [],
+  "program_jamsos": [],
+  "cakupan": {
+    "lengkap": true,
+    "pasal_diekstrak": [
+      "Pasal 1",
+      "Pasal 10",
+      "Pasal 11",
+      "Pasal 12",
+      "Pasal 13",
+      "Pasal 14",
+      "Pasal 15",
+      "Pasal 2",
+      "Pasal 3",
+      "Pasal 4",
+      "Pasal 5",
+      "Pasal 6",
+      "Pasal 7",
+      "Pasal 8",
+      "Pasal 9"
+    ],
+    "pasal_dilewati": [
+      {
+        "pasal": "Pasal 1",
+        "alasan": "definisi/istilah (perusahaan, pengusaha, pengurus, buruh, mendirikan/menghentikan/menjalankan kembali/memindahkan/membubarkan perusahaan, Menteri)"
+      },
+      {
+        "pasal": "Pasal 2",
+        "alasan": "perluasan lingkup definisi: usaha sosial dan usaha bukan-perusahaan diperlakukan sama dengan perusahaan; tidak menimbulkan akibat hukum mandiri di luar definisi subjek"
+      },
+      {
+        "pasal": "Pasal 3",
+        "alasan": "maksud dan tujuan laporan sebagai bahan informasi resmi Pemerintah; tanpa kondisi-akibat hukum"
+      },
+      {
+        "pasal": "Pasal 5",
+        "alasan": "pendelegasian kewenangan: Menteri mengatur pentahapan perusahaan yang dikenakan wajib lapor"
+      },
+      {
+        "pasal": "Pasal 9",
+        "alasan": "pendelegasian kewenangan/tata cara: Menteri mengatur tatacara dan bentuk laporan"
+      },
+      {
+        "pasal": "Pasal 10",
+        "alasan": "sanksi pidana (kurungan maksimal 3 bulan atau denda maksimal Rp1.000.000) atas pelanggaran kewajiban lapor"
+      },
+      {
+        "pasal": "Pasal 11",
+        "alasan": "pertanggungjawaban pidana korporasi: tuntutan/pemidanaan ditujukan kepada pengurus atau wakilnya di Indonesia"
+      },
+      {
+        "pasal": "Pasal 12",
+        "alasan": "kewenangan penyidikan bagi pegawai pengawas perburuhan, bukan norma hak/kewajiban tenaga kerja"
+      },
+      {
+        "pasal": "Pasal 14",
+        "alasan": "ketentuan peralihan/pencabutan: peraturan pelaksanaan UU 23/1953 dinyatakan tidak berlaku"
+      },
+      {
+        "pasal": "Pasal 15",
+        "alasan": "ketentuan penutup: mulai berlaku pada hari ke-60 sesudah pengundangan"
+      }
+    ],
+    "catatan": ""
+  },
+  "tidak_termodelkan": [
+    {
+      "pasal": "Pasal 4",
+      "ringkasan": "\"Pengusaha atau pengurus wajib melaporkan secara tertulis setiap mendirikan, menghentikan, menjalankan kembali, memindahkan atau membubarkan perusahaan kepada Menteri atau pejabat yang ditunjuk\"; kewajiban berlaku pada masing-masing kantor cabang atau bagian yang berdiri sendiri (ayat (2)).",
+      "alasan": "butuh kelas/properti baru: kewajiban pelaporan administratif ketenagakerjaan (mis. KetentuanPelaporan + jenis peristiwa perusahaan) belum ada di VOCAB/T-Box"
+    },
+    {
+      "pasal": "Pasal 6",
+      "ringkasan": "\"wajib melaporkan secara tertulis kepada Menteri atau pejabat yang ditunjuk selambat-lambatnya dalam jangka waktu 30 (tiga puluh) hari setelah mendirikan, menjalankan kembali atau memindahkan perusahaan\"; laporan memuat identitas perusahaan, hubungan ketenagakerjaan, perlindungan tenaga kerja, dan kesempatan kerja.",
+      "alasan": "butuh kelas/properti baru: jenis KetentuanPelaporan dan parameter tenggat hari (30 hari) tidak tersedia di VOCAB/T-Box"
+    },
+    {
+      "pasal": "Pasal 7",
+      "ringkasan": "\"wajib melaporkan setiap tahun secara tertulis mengenai ketenaga kerjaan kepada Menteri atau pejabat yang ditunjuk\"; muatan laporan mengikuti Pasal 6 ayat (2).",
+      "alasan": "butuh kelas/properti baru: kewajiban laporan berkala tahunan beserta muatannya belum termodelkan"
+    },
+    {
+      "pasal": "Pasal 8",
+      "ringkasan": "\"wajib melaporkan secara tertulis kepada Menteri atau pejabat yang ditunjuk selambat-lambatnya dalam jangka waktu 30 (tiga puluh) hari sebelum memindahkan, menghentikan atau membubarkan perusahaan\"; laporan memuat identitas perusahaan/pengusaha/pengurus, tanggal, alasan, kewajiban terhadap buruh, dan jumlah buruh yang akan diberhentikan.",
+      "alasan": "butuh kelas/properti baru: kewajiban pelaporan pra-peristiwa (30 hari sebelum) dan rincian muatan laporan belum termodelkan"
+    },
+    {
+      "pasal": "Pasal 13",
+      "ringkasan": "Perusahaan yang telah dilaporkan maupun yang belum dikenakan wajib lapor berdasarkan UU 23/1953 wajib melaporkan keadaan ketenagakerjaan \"selambat-lambatnya dalam waktu 3 (tiga) bulan sejak mulai berlakunya Undang-undang ini\"; perusahaan yang telah didirikan tetapi belum dilaporkan dalam 30 hari.",
+      "alasan": "butuh kelas/properti baru: kewajiban pelaporan peralihan dengan tenggat 3 bulan/30 hari; tidak ada jenis/topik yang sesuai"
+    }
+  ]
+}

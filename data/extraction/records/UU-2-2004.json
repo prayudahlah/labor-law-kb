@@ -1,0 +1,839 @@
+{
+  "spec_version": "1.1.0",
+  "vocab_version": "0.3.0",
+  "dokumen_id": "UU-2-2004",
+  "status_review": "reviewed",
+  "peraturan": {
+    "judul": "Undang-Undang Nomor 2 Tahun 2004 tentang Penyelesaian Perselisihan Hubungan Industrial",
+    "jenis": "UU",
+    "nomor": "2",
+    "tahun": "2004",
+    "sumber": "https://peraturan.go.id/id/uu-no-2-tahun-2004",
+    "status": "Berlaku",
+    "diubah_oleh": []
+  },
+  "norma": [
+    {
+      "norm_id": "UPAH-PUTUSAN-SELA-PHK",
+      "topik": "Upah",
+      "pasal": "Pasal 96 ayat (1)",
+      "iri_individu": "ktn:PutusanSelaUpahPHK",
+      "jenis": "KetentuanUpah",
+      "kondisi": "Dalam persidangan pertama pengusaha terbukti tidak melaksanakan kewajiban membayar upah beserta hak-hak lainnya yang biasa diterima pekerja/buruh selama proses penyelesaian perselisihan pemutusan hubungan kerja",
+      "akibat": "Hakim Ketua Sidang wajib segera menjatuhkan Putusan Sela berupa perintah kepada pengusaha untuk membayar upah beserta hak-hak lainnya yang biasa diterima pekerja/buruh",
+      "parameter": [],
+      "bukti": "Hakim Ketua Sidang harus segera menjatuhkan Putusan Sela berupa perintah kepada pengusaha untuk membayar upah beserta hak-hak lainnya",
+      "confidence": 0.8,
+      "dasar_keyakinan": "tafsir",
+      "catatan": "Rujukan Pasal 155 ayat (3) UU 13/2003. Ayat (3)-(4) mengatur sita jaminan bila Putusan Sela tidak dilaksanakan; akibat berbeda dan tidak dimodelkan terpisah. Dipetakan ke jenis KetentuanUpah karena akibat hukumnya berupa pembayaran upah."
+    }
+  ],
+  "kategori": [],
+  "pengali_lembur": [],
+  "program_jamsos": [],
+  "cakupan": {
+    "lengkap": true,
+    "pasal_diekstrak": [
+      "Pasal 1",
+      "Pasal 10",
+      "Pasal 100",
+      "Pasal 101",
+      "Pasal 102",
+      "Pasal 103",
+      "Pasal 104",
+      "Pasal 105",
+      "Pasal 106",
+      "Pasal 107",
+      "Pasal 108",
+      "Pasal 109",
+      "Pasal 11",
+      "Pasal 110",
+      "Pasal 111",
+      "Pasal 112",
+      "Pasal 113",
+      "Pasal 114",
+      "Pasal 115",
+      "Pasal 116",
+      "Pasal 117",
+      "Pasal 118",
+      "Pasal 119",
+      "Pasal 12",
+      "Pasal 120",
+      "Pasal 121",
+      "Pasal 122",
+      "Pasal 123",
+      "Pasal 124",
+      "Pasal 125",
+      "Pasal 126",
+      "Pasal 13",
+      "Pasal 14",
+      "Pasal 15",
+      "Pasal 16",
+      "Pasal 17",
+      "Pasal 18",
+      "Pasal 19",
+      "Pasal 2",
+      "Pasal 20",
+      "Pasal 21",
+      "Pasal 22",
+      "Pasal 23",
+      "Pasal 24",
+      "Pasal 25",
+      "Pasal 26",
+      "Pasal 27",
+      "Pasal 28",
+      "Pasal 29",
+      "Pasal 3",
+      "Pasal 30",
+      "Pasal 31",
+      "Pasal 32",
+      "Pasal 33",
+      "Pasal 34",
+      "Pasal 35",
+      "Pasal 36",
+      "Pasal 37",
+      "Pasal 38",
+      "Pasal 39",
+      "Pasal 4",
+      "Pasal 40",
+      "Pasal 41",
+      "Pasal 42",
+      "Pasal 43",
+      "Pasal 44",
+      "Pasal 45",
+      "Pasal 46",
+      "Pasal 47",
+      "Pasal 48",
+      "Pasal 49",
+      "Pasal 5",
+      "Pasal 50",
+      "Pasal 51",
+      "Pasal 52",
+      "Pasal 53",
+      "Pasal 54",
+      "Pasal 55",
+      "Pasal 56",
+      "Pasal 57",
+      "Pasal 58",
+      "Pasal 59",
+      "Pasal 6",
+      "Pasal 60",
+      "Pasal 61",
+      "Pasal 62",
+      "Pasal 63",
+      "Pasal 64",
+      "Pasal 65",
+      "Pasal 66",
+      "Pasal 67",
+      "Pasal 68",
+      "Pasal 69",
+      "Pasal 7",
+      "Pasal 70",
+      "Pasal 71",
+      "Pasal 72",
+      "Pasal 73",
+      "Pasal 74",
+      "Pasal 75",
+      "Pasal 76",
+      "Pasal 77",
+      "Pasal 78",
+      "Pasal 79",
+      "Pasal 8",
+      "Pasal 80",
+      "Pasal 81",
+      "Pasal 82",
+      "Pasal 83",
+      "Pasal 84",
+      "Pasal 85",
+      "Pasal 86",
+      "Pasal 87",
+      "Pasal 88",
+      "Pasal 89",
+      "Pasal 9",
+      "Pasal 90",
+      "Pasal 91",
+      "Pasal 92",
+      "Pasal 93",
+      "Pasal 94",
+      "Pasal 95",
+      "Pasal 96",
+      "Pasal 97",
+      "Pasal 98",
+      "Pasal 99"
+    ],
+    "pasal_dilewati": [
+      {
+        "pasal": "Pasal 1",
+        "alasan": "definisi istilah"
+      },
+      {
+        "pasal": "Pasal 2",
+        "alasan": "penggolongan jenis perselisihan, bukan norma"
+      },
+      {
+        "pasal": "Pasal 6",
+        "alasan": "tata cara dan isi risalah perundingan"
+      },
+      {
+        "pasal": "Pasal 8",
+        "alasan": "kelembagaan mediator"
+      },
+      {
+        "pasal": "Pasal 9",
+        "alasan": "persyaratan pengangkatan mediator"
+      },
+      {
+        "pasal": "Pasal 11",
+        "alasan": "tata cara pemanggilan saksi dan penggantian biaya"
+      },
+      {
+        "pasal": "Pasal 12",
+        "alasan": "tata cara pembuktian dan kerahasiaan keterangan"
+      },
+      {
+        "pasal": "Pasal 16",
+        "alasan": "tata cara pengangkatan mediator diatur dengan Keputusan Menteri"
+      },
+      {
+        "pasal": "Pasal 17",
+        "alasan": "kelembagaan konsiliator"
+      },
+      {
+        "pasal": "Pasal 18",
+        "alasan": "tata cara permintaan dan penunjukan konsiliator"
+      },
+      {
+        "pasal": "Pasal 19",
+        "alasan": "persyaratan dan legitimasi konsiliator"
+      },
+      {
+        "pasal": "Pasal 21",
+        "alasan": "tata cara pemanggilan saksi dan penggantian biaya"
+      },
+      {
+        "pasal": "Pasal 22",
+        "alasan": "kewajiban memberi keterangan dan kerahasiaannya"
+      },
+      {
+        "pasal": "Pasal 26",
+        "alasan": "honorarium konsiliator"
+      },
+      {
+        "pasal": "Pasal 27",
+        "alasan": "pengawasan dan penilaian kinerja konsiliator"
+      },
+      {
+        "pasal": "Pasal 28",
+        "alasan": "tata cara pendaftaran dan legitimasi konsiliator diatur Keputusan Menteri"
+      },
+      {
+        "pasal": "Pasal 29",
+        "alasan": "ruang lingkup perselisihan yang dapat diselesaikan melalui arbitrase"
+      },
+      {
+        "pasal": "Pasal 30",
+        "alasan": "kelembagaan dan wilayah kerja arbiter"
+      },
+      {
+        "pasal": "Pasal 31",
+        "alasan": "persyaratan pengangkatan arbiter"
+      },
+      {
+        "pasal": "Pasal 32",
+        "alasan": "bentuk dan isi surat perjanjian arbitrase"
+      },
+      {
+        "pasal": "Pasal 34",
+        "alasan": "isi dan bentuk perjanjian penunjukan arbiter"
+      },
+      {
+        "pasal": "Pasal 35",
+        "alasan": "tata cara penarikan diri arbiter"
+      },
+      {
+        "pasal": "Pasal 37",
+        "alasan": "pernyataan kesediaan arbiter pengganti"
+      },
+      {
+        "pasal": "Pasal 38",
+        "alasan": "tata cara tuntutan ingkar terhadap arbiter"
+      },
+      {
+        "pasal": "Pasal 39",
+        "alasan": "tata cara pengajuan hak ingkar"
+      },
+      {
+        "pasal": "Pasal 41",
+        "alasan": "tata cara pemeriksaan arbitrase secara tertutup"
+      },
+      {
+        "pasal": "Pasal 42",
+        "alasan": "perwakilan para pihak dengan surat kuasa khusus"
+      },
+      {
+        "pasal": "Pasal 45",
+        "alasan": "tata cara penyampaian pendirian dan bukti dalam sidang arbitrase"
+      },
+      {
+        "pasal": "Pasal 46",
+        "alasan": "tata cara pemanggilan saksi dan pembebanan biaya"
+      },
+      {
+        "pasal": "Pasal 47",
+        "alasan": "kewajiban memberi keterangan dan kerahasiaannya"
+      },
+      {
+        "pasal": "Pasal 48",
+        "alasan": "berita acara pemeriksaan arbitrase"
+      },
+      {
+        "pasal": "Pasal 49",
+        "alasan": "dasar pertimbangan putusan arbitrase"
+      },
+      {
+        "pasal": "Pasal 54",
+        "alasan": "imunitas hukum arbiter"
+      },
+      {
+        "pasal": "Pasal 55",
+        "alasan": "kedudukan Pengadilan Hubungan Industrial"
+      },
+      {
+        "pasal": "Pasal 56",
+        "alasan": "kewenangan Pengadilan Hubungan Industrial"
+      },
+      {
+        "pasal": "Pasal 57",
+        "alasan": "hukum acara yang berlaku di Pengadilan Hubungan Industrial"
+      },
+      {
+        "pasal": "Pasal 59",
+        "alasan": "pembentukan Pengadilan Hubungan Industrial"
+      },
+      {
+        "pasal": "Pasal 60",
+        "alasan": "susunan Pengadilan Hubungan Industrial"
+      },
+      {
+        "pasal": "Pasal 61",
+        "alasan": "pengangkatan dan pemberhentian hakim"
+      },
+      {
+        "pasal": "Pasal 62",
+        "alasan": "pengangkatan hakim menurut peraturan perundang-undangan"
+      },
+      {
+        "pasal": "Pasal 63",
+        "alasan": "pengangkatan hakim ad-hoc"
+      },
+      {
+        "pasal": "Pasal 64",
+        "alasan": "persyaratan pengangkatan hakim ad-hoc"
+      },
+      {
+        "pasal": "Pasal 65",
+        "alasan": "pengucapan sumpah atau janji hakim ad-hoc"
+      },
+      {
+        "pasal": "Pasal 66",
+        "alasan": "larangan rangkap jabatan hakim ad-hoc"
+      },
+      {
+        "pasal": "Pasal 67",
+        "alasan": "pemberhentian dengan hormat hakim ad-hoc"
+      },
+      {
+        "pasal": "Pasal 68",
+        "alasan": "pemberhentian tidak dengan hormat hakim ad-hoc"
+      },
+      {
+        "pasal": "Pasal 69",
+        "alasan": "pemberhentian sementara hakim ad-hoc"
+      },
+      {
+        "pasal": "Pasal 70",
+        "alasan": "pengangkatan hakim ad-hoc"
+      },
+      {
+        "pasal": "Pasal 71",
+        "alasan": "pengawasan pelaksanaan tugas hakim"
+      },
+      {
+        "pasal": "Pasal 72",
+        "alasan": "tata cara pengangkatan dan pemberhentian hakim ad-hoc diatur dengan Peraturan Pemerintah"
+      },
+      {
+        "pasal": "Pasal 73",
+        "alasan": "tunjangan dan hak hakim ad-hoc"
+      },
+      {
+        "pasal": "Pasal 74",
+        "alasan": "pembentukan sub kepaniteraan"
+      },
+      {
+        "pasal": "Pasal 75",
+        "alasan": "tugas dan isi buku perkara sub kepaniteraan"
+      },
+      {
+        "pasal": "Pasal 76",
+        "alasan": "tanggung jawab penyampaian panggilan dan salinan putusan"
+      },
+      {
+        "pasal": "Pasal 77",
+        "alasan": "pengangkatan panitera muda dan panitera pengganti"
+      },
+      {
+        "pasal": "Pasal 78",
+        "alasan": "susunan organisasi dan tata kerja sub kepaniteraan"
+      },
+      {
+        "pasal": "Pasal 79",
+        "alasan": "pencatatan jalannya persidangan dalam berita acara"
+      },
+      {
+        "pasal": "Pasal 80",
+        "alasan": "pengelolaan buku perkara dan surat-surat"
+      },
+      {
+        "pasal": "Pasal 81",
+        "alasan": "kompetensi tempat pengajuan gugatan"
+      },
+      {
+        "pasal": "Pasal 84",
+        "alasan": "gugatan kolektif dengan kuasa khusus"
+      },
+      {
+        "pasal": "Pasal 85",
+        "alasan": "pencabutan gugatan"
+      },
+      {
+        "pasal": "Pasal 87",
+        "alasan": "kuasa hukum serikat pekerja dan organisasi pengusaha"
+      },
+      {
+        "pasal": "Pasal 90",
+        "alasan": "tata cara pemanggilan saksi dan kewajiban kesaksian"
+      },
+      {
+        "pasal": "Pasal 91",
+        "alasan": "kewajiban memberi keterangan dan kerahasiaannya"
+      },
+      {
+        "pasal": "Pasal 92",
+        "alasan": "sahnya sidang majelis hakim"
+      },
+      {
+        "pasal": "Pasal 95",
+        "alasan": "sidang terbuka untuk umum dan tata tertib persidangan"
+      },
+      {
+        "pasal": "Pasal 97",
+        "alasan": "penetapan kewajiban dan hak para pihak dalam putusan"
+      },
+      {
+        "pasal": "Pasal 100",
+        "alasan": "dasar pertimbangan majelis hakim"
+      },
+      {
+        "pasal": "Pasal 102",
+        "alasan": "bentuk dan isi putusan"
+      },
+      {
+        "pasal": "Pasal 104",
+        "alasan": "penandatanganan putusan"
+      },
+      {
+        "pasal": "Pasal 105",
+        "alasan": "pemberitahuan putusan kepada pihak yang tidak hadir"
+      },
+      {
+        "pasal": "Pasal 106",
+        "alasan": "penerbitan salinan putusan"
+      },
+      {
+        "pasal": "Pasal 107",
+        "alasan": "pengiriman salinan putusan kepada para pihak"
+      },
+      {
+        "pasal": "Pasal 111",
+        "alasan": "tata cara permohonan kasasi"
+      },
+      {
+        "pasal": "Pasal 112",
+        "alasan": "administrasi pengiriman berkas kasasi"
+      },
+      {
+        "pasal": "Pasal 113",
+        "alasan": "susunan majelis hakim kasasi"
+      },
+      {
+        "pasal": "Pasal 114",
+        "alasan": "tata cara kasasi menurut peraturan perundang-undangan"
+      },
+      {
+        "pasal": "Pasal 116",
+        "alasan": "sanksi administratif bagi mediator dan panitera"
+      },
+      {
+        "pasal": "Pasal 117",
+        "alasan": "sanksi administratif bagi konsiliator"
+      },
+      {
+        "pasal": "Pasal 118",
+        "alasan": "sanksi administratif pencabutan tetap konsiliator"
+      },
+      {
+        "pasal": "Pasal 119",
+        "alasan": "sanksi administratif bagi arbiter"
+      },
+      {
+        "pasal": "Pasal 120",
+        "alasan": "sanksi administratif pencabutan tetap arbiter"
+      },
+      {
+        "pasal": "Pasal 121",
+        "alasan": "tata cara penjatuhan sanksi administratif"
+      },
+      {
+        "pasal": "Pasal 122",
+        "alasan": "ketentuan pidana"
+      },
+      {
+        "pasal": "Pasal 123",
+        "alasan": "ketentuan lain-lain mengenai usaha sosial"
+      },
+      {
+        "pasal": "Pasal 124",
+        "alasan": "ketentuan peralihan"
+      },
+      {
+        "pasal": "Pasal 125",
+        "alasan": "ketentuan penutup dan pencabutan peraturan lama"
+      },
+      {
+        "pasal": "Pasal 126",
+        "alasan": "ketentuan penutup: mulai berlaku 1 tahun setelah diundangkan"
+      },
+      {
+        "pasal": "Pasal 3",
+        "alasan": "bagian PENJELASAN, bukan batang tubuh"
+      },
+      {
+        "pasal": "Pasal 9",
+        "alasan": "bagian PENJELASAN, bukan batang tubuh"
+      },
+      {
+        "pasal": "Pasal 13",
+        "alasan": "bagian PENJELASAN, bukan batang tubuh"
+      },
+      {
+        "pasal": "Pasal 37",
+        "alasan": "bagian PENJELASAN, bukan batang tubuh"
+      },
+      {
+        "pasal": "Pasal 38",
+        "alasan": "bagian PENJELASAN, bukan batang tubuh"
+      },
+      {
+        "pasal": "Pasal 40",
+        "alasan": "bagian PENJELASAN, bukan batang tubuh"
+      },
+      {
+        "pasal": "Pasal 41",
+        "alasan": "bagian PENJELASAN, bukan batang tubuh"
+      },
+      {
+        "pasal": "Pasal 42",
+        "alasan": "bagian PENJELASAN, bukan batang tubuh"
+      },
+      {
+        "pasal": "Pasal 46",
+        "alasan": "bagian PENJELASAN, bukan batang tubuh"
+      },
+      {
+        "pasal": "Pasal 47",
+        "alasan": "bagian PENJELASAN, bukan batang tubuh"
+      },
+      {
+        "pasal": "Pasal 62",
+        "alasan": "bagian PENJELASAN, bukan batang tubuh"
+      },
+      {
+        "pasal": "Pasal 63",
+        "alasan": "bagian PENJELASAN, bukan batang tubuh"
+      },
+      {
+        "pasal": "Pasal 84",
+        "alasan": "bagian PENJELASAN, bukan batang tubuh"
+      },
+      {
+        "pasal": "Pasal 87",
+        "alasan": "bagian PENJELASAN, bukan batang tubuh"
+      },
+      {
+        "pasal": "Pasal 88",
+        "alasan": "bagian PENJELASAN, bukan batang tubuh"
+      },
+      {
+        "pasal": "Pasal 89",
+        "alasan": "bagian PENJELASAN, bukan batang tubuh"
+      },
+      {
+        "pasal": "Pasal 91",
+        "alasan": "bagian PENJELASAN, bukan batang tubuh"
+      },
+      {
+        "pasal": "Pasal 92",
+        "alasan": "bagian PENJELASAN, bukan batang tubuh"
+      },
+      {
+        "pasal": "Pasal 93",
+        "alasan": "bagian PENJELASAN, bukan batang tubuh"
+      },
+      {
+        "pasal": "Pasal 94",
+        "alasan": "bagian PENJELASAN, bukan batang tubuh"
+      },
+      {
+        "pasal": "Pasal 95",
+        "alasan": "bagian PENJELASAN, bukan batang tubuh"
+      },
+      {
+        "pasal": "Pasal 106",
+        "alasan": "bagian PENJELASAN, bukan batang tubuh"
+      },
+      {
+        "pasal": "Pasal 111",
+        "alasan": "bagian PENJELASAN, bukan batang tubuh"
+      },
+      {
+        "pasal": "Pasal 117",
+        "alasan": "bagian PENJELASAN, bukan batang tubuh"
+      },
+      {
+        "pasal": "Pasal 118",
+        "alasan": "bagian PENJELASAN, bukan batang tubuh"
+      },
+      {
+        "pasal": "Pasal 119",
+        "alasan": "bagian PENJELASAN, bukan batang tubuh"
+      },
+      {
+        "pasal": "Pasal 120",
+        "alasan": "bagian PENJELASAN, bukan batang tubuh"
+      },
+      {
+        "pasal": "Pasal 121",
+        "alasan": "bagian PENJELASAN, bukan batang tubuh"
+      },
+      {
+        "pasal": "Pasal 122",
+        "alasan": "bagian PENJELASAN, bukan batang tubuh"
+      },
+      {
+        "pasal": "Pasal 123",
+        "alasan": "bagian PENJELASAN, bukan batang tubuh"
+      },
+      {
+        "pasal": "Pasal 124",
+        "alasan": "bagian PENJELASAN, bukan batang tubuh"
+      },
+      {
+        "pasal": "Pasal 125",
+        "alasan": "bagian PENJELASAN, bukan batang tubuh"
+      },
+      {
+        "pasal": "Pasal 126",
+        "alasan": "bagian PENJELASAN, bukan batang tubuh"
+      }
+    ],
+    "catatan": ""
+  },
+  "tidak_termodelkan": [
+    {
+      "pasal": "Pasal 3",
+      "ringkasan": "Perselisihan hubungan industrial wajib diupayakan melalui perundingan bipartit secara musyawarah, diselesaikan paling lama 30 hari kerja sejak perundingan dimulai, dan dianggap gagal bila salah satu pihak menolak berunding atau tidak mencapai kesepakatan.",
+      "alasan": "butuh kelas/properti prosedur penyelesaian perselisihan (tenggang waktu bipartit) yang belum ada di T-Box"
+    },
+    {
+      "pasal": "Pasal 4",
+      "ringkasan": "Perselisihan yang gagal bipartit dicatatkan ke instansi ketenagakerjaan dengan bukti upaya bipartit; berkas dikembalikan untuk dilengkapi dalam 7 hari kerja; instansi menawarkan konsiliasi atau arbitrase; bila tidak dipilih dalam 7 hari kerja, penyelesaian dilimpahkan kepada mediator.",
+      "alasan": "butuh kelas/properti prosedur pencatatan dan pelimpahan perselisihan yang belum ada di T-Box"
+    },
+    {
+      "pasal": "Pasal 5",
+      "ringkasan": "Bila penyelesaian melalui konsiliasi atau mediasi tidak mencapai kesepakatan, salah satu pihak dapat mengajukan gugatan kepada Pengadilan Hubungan Industrial.",
+      "alasan": "butuh kelas/properti jalur gugatan perselisihan hubungan industrial yang belum ada di T-Box"
+    },
+    {
+      "pasal": "Pasal 7",
+      "ringkasan": "Kesepakatan bipartit dituangkan dalam Perjanjian Bersama yang mengikat dan wajib dilaksanakan; wajib didaftarkan di PHI; bila tidak dilaksanakan, pihak yang dirugikan dapat memohon eksekusi.",
+      "alasan": "butuh kelas/properti Perjanjian Bersama dan eksekusinya yang belum ada di T-Box"
+    },
+    {
+      "pasal": "Pasal 10",
+      "ringkasan": "Mediator harus mengadakan penelitian tentang duduk perkara dan segera mengadakan sidang mediasi paling lama 7 hari kerja setelah menerima pelimpahan penyelesaian perselisihan.",
+      "alasan": "butuh kelas/properti tenggang waktu mediasi yang belum ada di T-Box"
+    },
+    {
+      "pasal": "Pasal 13",
+      "ringkasan": "Mediasi yang mencapai kesepakatan dituangkan dalam Perjanjian Bersama yang didaftarkan di PHI; bila gagal, mediator mengeluarkan anjuran tertulis dalam 10 hari kerja, para pihak menjawab dalam 10 hari kerja, dan bila disetujui Perjanjian Bersama diselesaikan dalam 3 hari kerja.",
+      "alasan": "butuh kelas/properti prosedur mediasi dan anjuran tertulis yang belum ada di T-Box"
+    },
+    {
+      "pasal": "Pasal 14",
+      "ringkasan": "Bila anjuran tertulis mediator ditolak oleh salah satu atau para pihak, para pihak dapat melanjutkan penyelesaian perselisihan ke Pengadilan Hubungan Industrial melalui gugatan.",
+      "alasan": "butuh kelas/properti kelanjutan sengketa ke PHI yang belum ada di T-Box"
+    },
+    {
+      "pasal": "Pasal 15",
+      "ringkasan": "Mediator menyelesaikan tugasnya paling lama 30 hari kerja terhitung sejak menerima pelimpahan penyelesaian perselisihan.",
+      "alasan": "butuh kelas/properti tenggang waktu mediasi yang belum ada di T-Box"
+    },
+    {
+      "pasal": "Pasal 20",
+      "ringkasan": "Konsiliator harus mengadakan penelitian tentang duduk perkara paling lama 7 hari kerja setelah menerima permintaan tertulis dan sidang konsiliasi pertama paling lambat hari kerja kedelapan.",
+      "alasan": "butuh kelas/properti tenggang waktu konsiliasi yang belum ada di T-Box"
+    },
+    {
+      "pasal": "Pasal 23",
+      "ringkasan": "Konsiliasi yang mencapai kesepakatan dituangkan dalam Perjanjian Bersama yang didaftarkan di PHI; bila gagal, konsiliator mengeluarkan anjuran tertulis dalam 10 hari kerja, para pihak menjawab dalam 10 hari kerja, dan Perjanjian Bersama diselesaikan dalam 3 hari kerja; Perjanjian Bersama dapat dimohonkan eksekusi.",
+      "alasan": "butuh kelas/properti prosedur konsiliasi dan anjuran tertulis yang belum ada di T-Box"
+    },
+    {
+      "pasal": "Pasal 24",
+      "ringkasan": "Bila anjuran tertulis konsiliator ditolak, salah satu pihak atau para pihak dapat melanjutkan penyelesaian perselisihan ke Pengadilan Hubungan Industrial melalui gugatan.",
+      "alasan": "butuh kelas/properti kelanjutan sengketa ke PHI yang belum ada di T-Box"
+    },
+    {
+      "pasal": "Pasal 25",
+      "ringkasan": "Konsiliator menyelesaikan tugasnya paling lama 30 hari kerja terhitung sejak menerima permintaan penyelesaian perselisihan.",
+      "alasan": "butuh kelas/properti tenggang waktu konsiliasi yang belum ada di T-Box"
+    },
+    {
+      "pasal": "Pasal 33",
+      "ringkasan": "Para pihak berhak memilih arbiter dari daftar yang ditetapkan Menteri; arbiter tunggal disepakati dalam 7 hari kerja; majelis arbiter gasal paling banyak 3 orang dengan pemilihan masing-masing 3 dan 7 hari kerja; bila tidak sepakat, Ketua Pengadilan mengangkat arbiter atas permohonan salah satu pihak.",
+      "alasan": "butuh kelas/properti tata cara penunjukan arbiter dan tenggang waktunya yang belum ada di T-Box"
+    },
+    {
+      "pasal": "Pasal 36",
+      "ringkasan": "Bila arbiter mengundurkan diri atau meninggal dunia, arbiter pengganti harus disepakati dalam 7 hari kerja; bila tidak tercapai, Pengadilan Hubungan Industrial menetapkan arbiter pengganti dalam 7 hari kerja.",
+      "alasan": "butuh kelas/properti penggantian arbiter dan tenggang waktunya yang belum ada di T-Box"
+    },
+    {
+      "pasal": "Pasal 40",
+      "ringkasan": "Arbiter wajib menyelesaikan perselisihan paling lama 30 hari kerja sejak penandatanganan perjanjian penunjukan; pemeriksaan dimulai paling lama 3 hari kerja; atas kesepakatan para pihak jangka waktu dapat diperpanjang 1 kali paling lama 14 hari kerja.",
+      "alasan": "butuh kelas/properti tenggang waktu arbitrase yang belum ada di T-Box"
+    },
+    {
+      "pasal": "Pasal 43",
+      "ringkasan": "Bila pihak tidak hadir tanpa alasan sah meski dipanggil secara patut, arbiter dapat membatalkan perjanjian penunjukan atau memeriksa dan memutus tanpa kehadiran pihak; biaya yang telah dikeluarkan tidak dapat diminta kembali.",
+      "alasan": "butuh kelas/properti akibat hukum ketidakhadiran dalam arbitrase yang belum ada di T-Box"
+    },
+    {
+      "pasal": "Pasal 44",
+      "ringkasan": "Penyelesaian oleh arbiter diawali upaya mendamaikan para pihak; bila perdamaian tercapai dibuat Akta Perdamaian yang didaftarkan di PHI dan dapat dieksekusi; bila gagal, sidang arbitrase dilanjutkan.",
+      "alasan": "butuh kelas/properti Akta Perdamaian dan eksekusinya yang belum ada di T-Box"
+    },
+    {
+      "pasal": "Pasal 50",
+      "ringkasan": "Putusan arbitrase memuat unsur formil tertentu; tidak ditandatanganinya putusan oleh arbiter yang sakit atau meninggal tidak mempengaruhi kekuatan berlakunya; putusan harus dilaksanakan paling lama 14 hari kerja.",
+      "alasan": "butuh kelas/properti bentuk putusan arbitrase dan tenggang pelaksanaannya yang belum ada di T-Box"
+    },
+    {
+      "pasal": "Pasal 51",
+      "ringkasan": "Putusan arbitrase mengikat para pihak dan bersifat akhir serta tetap; didaftarkan di PHI; bila tidak dilaksanakan, pihak yang dirugikan dapat memohon fiat eksekusi yang harus diberikan paling lama 30 hari kerja.",
+      "alasan": "butuh kelas/properti kekuatan eksekutorial putusan arbitrase yang belum ada di T-Box"
+    },
+    {
+      "pasal": "Pasal 52",
+      "ringkasan": "Salah satu pihak dapat memohon pembatalan putusan arbitrase kepada Mahkamah Agung dalam 30 hari kerja dengan alasan tertentu; Mahkamah Agung memutus dalam 30 hari kerja.",
+      "alasan": "butuh kelas/properti upaya pembatalan putusan arbitrase yang belum ada di T-Box"
+    },
+    {
+      "pasal": "Pasal 53",
+      "ringkasan": "Perselisihan yang sedang atau telah diselesaikan melalui arbitrase tidak dapat diajukan ke Pengadilan Hubungan Industrial.",
+      "alasan": "butuh kelas/properti prinsip finalitas arbitrase yang belum ada di T-Box"
+    },
+    {
+      "pasal": "Pasal 58",
+      "ringkasan": "Pihak yang berperkara di Pengadilan Hubungan Industrial tidak dikenakan biaya termasuk biaya eksekusi untuk nilai gugatan di bawah Rp 150.000.000,00.",
+      "alasan": "butuh kelas/properti pembebasan biaya perkara yang belum ada di T-Box"
+    },
+    {
+      "pasal": "Pasal 82",
+      "ringkasan": "Gugatan pekerja atas pemutusan hubungan kerja berdasarkan Pasal 159 dan Pasal 171 UU 13/2003 hanya dapat diajukan dalam tenggang waktu 1 tahun sejak keputusan pengusaha diterima atau diberitahukan.",
+      "alasan": "butuh kelas/properti tenggang waktu pengajuan gugatan PHK yang belum ada di T-Box"
+    },
+    {
+      "pasal": "Pasal 83",
+      "ringkasan": "Pengajuan gugatan tanpa risalah penyelesaian melalui mediasi atau konsiliasi wajib dikembalikan hakim kepada penggugat; hakim memeriksa isi gugatan dan meminta penyempurnaan.",
+      "alasan": "butuh kelas/properti syarat formil gugatan yang belum ada di T-Box"
+    },
+    {
+      "pasal": "Pasal 86",
+      "ringkasan": "Bila perselisihan hak dan/atau perselisihan kepentingan diikuti perselisihan pemutusan hubungan kerja, Pengadilan Hubungan Industrial wajib memutus lebih dahulu perkara perselisihan hak dan/atau kepentingan.",
+      "alasan": "butuh kelas/properti urutan pemeriksaan perkara yang belum ada di T-Box"
+    },
+    {
+      "pasal": "Pasal 88",
+      "ringkasan": "Ketua Pengadilan Negeri menetapkan Majelis Hakim paling lama 7 hari kerja setelah menerima gugatan, terdiri atas 1 hakim sebagai ketua dan 2 hakim ad-hoc sebagai anggota.",
+      "alasan": "butuh kelas/properti tenggang waktu penetapan majelis yang belum ada di T-Box"
+    },
+    {
+      "pasal": "Pasal 89",
+      "ringkasan": "Sidang pertama harus dilakukan paling lama 7 hari kerja sejak penetapan Majelis Hakim; pemanggilan para pihak dilakukan secara sah dengan surat panggilan di tempat tinggal atau kediaman terakhir.",
+      "alasan": "butuh kelas/properti tenggang waktu sidang pertama dan tata cara pemanggilan yang belum ada di T-Box"
+    },
+    {
+      "pasal": "Pasal 93",
+      "ringkasan": "Bila pihak tidak dapat hadir tanpa alasan yang dapat dipertanggungjawabkan, Ketua Majelis menetapkan hari sidang berikutnya paling lama 7 hari kerja; penundaan diberikan paling banyak 2 kali.",
+      "alasan": "butuh kelas/properti penundaan sidang yang belum ada di T-Box"
+    },
+    {
+      "pasal": "Pasal 94",
+      "ringkasan": "Bila penggugat tidak hadir pada sidang penundaan terakhir, gugatan dianggap gugur tetapi dapat diajukan sekali lagi; bila tergugat tidak hadir, Majelis Hakim dapat memeriksa dan memutus tanpa kehadirannya.",
+      "alasan": "butuh kelas/properti akibat hukum ketidakhadiran para pihak yang belum ada di T-Box"
+    },
+    {
+      "pasal": "Pasal 98",
+      "ringkasan": "Pihak dapat memohon pemeriksaan sengketa dipercepat karena kepentingan mendesak; Ketua Pengadilan Negeri menetapkan dikabulkan atau tidak dalam 7 hari kerja dan penetapan itu tidak dapat diupayakan hukum.",
+      "alasan": "butuh kelas/properti acara cepat yang belum ada di T-Box"
+    },
+    {
+      "pasal": "Pasal 99",
+      "ringkasan": "Bila permohonan acara cepat dikabulkan, Ketua Pengadilan Negeri menentukan majelis, hari, tempat, dan waktu sidang dalam 7 hari kerja; tenggang jawaban dan pembuktian masing-masing tidak melebihi 14 hari kerja.",
+      "alasan": "butuh kelas/properti tenggang waktu acara cepat yang belum ada di T-Box"
+    },
+    {
+      "pasal": "Pasal 101",
+      "ringkasan": "Putusan majelis hakim dibacakan dalam sidang terbuka untuk umum; bila tidak dipenuhi, putusan tidak sah dan tidak mempunyai kekuatan hukum.",
+      "alasan": "butuh kelas/properti syarat sah putusan yang belum ada di T-Box"
+    },
+    {
+      "pasal": "Pasal 103",
+      "ringkasan": "Majelis Hakim wajib memberikan putusan penyelesaian perselisihan paling lama 50 hari kerja terhitung sejak sidang pertama.",
+      "alasan": "butuh kelas/properti tenggang waktu putusan yang belum ada di T-Box"
+    },
+    {
+      "pasal": "Pasal 108",
+      "ringkasan": "Ketua Majelis Hakim dapat mengeluarkan putusan yang dapat dilaksanakan lebih dahulu meskipun putusannya diajukan perlawanan atau kasasi.",
+      "alasan": "butuh kelas/properti putusan serta-merta yang belum ada di T-Box"
+    },
+    {
+      "pasal": "Pasal 109",
+      "ringkasan": "Putusan Pengadilan Hubungan Industrial mengenai perselisihan kepentingan dan perselisihan antar serikat pekerja/serikat buruh dalam satu perusahaan merupakan putusan akhir dan bersifat tetap.",
+      "alasan": "butuh kelas/properti kekuatan hukum putusan PHI yang belum ada di T-Box"
+    },
+    {
+      "pasal": "Pasal 110",
+      "ringkasan": "Putusan Pengadilan Hubungan Industrial mengenai perselisihan hak dan perselisihan pemutusan hubungan kerja berkekuatan hukum tetap bila tidak diajukan permohonan kasasi dalam 14 hari kerja sejak putusan dibacakan atau pemberitahuan diterima.",
+      "alasan": "butuh kelas/properti tenggang waktu kasasi yang belum ada di T-Box"
+    },
+    {
+      "pasal": "Pasal 115",
+      "ringkasan": "Penyelesaian perselisihan hak atau perselisihan pemutusan hubungan kerja pada Mahkamah Agung paling lama 30 hari kerja terhitung sejak permohonan kasasi diterima.",
+      "alasan": "butuh kelas/properti tenggang waktu penyelesaian kasasi yang belum ada di T-Box"
+    }
+  ]
+}

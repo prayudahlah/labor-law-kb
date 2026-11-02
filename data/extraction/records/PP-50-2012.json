@@ -1,0 +1,151 @@
+{
+  "spec_version": "1.1.0",
+  "vocab_version": "0.3.0",
+  "dokumen_id": "PP-50-2012",
+  "status_review": "reviewed",
+  "peraturan": {
+    "judul": "Peraturan Pemerintah Nomor 50 Tahun 2012 tentang Penerapan Sistem Manajemen Keselamatan dan Kesehatan Kerja",
+    "jenis": "PP",
+    "nomor": "50",
+    "tahun": "2012",
+    "sumber": "https://peraturan.go.id/id/pp-no-50-tahun-2012",
+    "status": "Berlaku",
+    "diubah_oleh": []
+  },
+  "norma": [],
+  "kategori": [],
+  "pengali_lembur": [],
+  "program_jamsos": [],
+  "cakupan": {
+    "lengkap": true,
+    "pasal_diekstrak": [
+      "Pasal 1",
+      "Pasal 10",
+      "Pasal 11",
+      "Pasal 12",
+      "Pasal 13",
+      "Pasal 14",
+      "Pasal 15",
+      "Pasal 16",
+      "Pasal 17",
+      "Pasal 18",
+      "Pasal 19",
+      "Pasal 2",
+      "Pasal 20",
+      "Pasal 21",
+      "Pasal 22",
+      "Pasal 3",
+      "Pasal 4",
+      "Pasal 5",
+      "Pasal 6",
+      "Pasal 7",
+      "Pasal 8",
+      "Pasal 9"
+    ],
+    "pasal_dilewati": [
+      {
+        "pasal": "Pasal 1",
+        "alasan": "definisi/istilah: batasan SMK3, K3, tenaga kerja, pekerja/buruh, perusahaan, pengusaha, audit SMK3, dan Menteri; tidak memuat kondisi-akibat hukum"
+      },
+      {
+        "pasal": "Pasal 2",
+        "alasan": "rumusan tujuan penerapan SMK3 (meningkatkan efektivitas perlindungan K3, mencegah dan mengurangi kecelakaan kerja serta penyakit akibat kerja, menciptakan tempat kerja aman dan efisien); pernyataan tujuan/kebijakan, bukan norma kondisi-akibat"
+      },
+      {
+        "pasal": "Pasal 3",
+        "alasan": "ketentuan rujukan: penerapan SMK3 dilakukan berdasarkan kebijakan nasional tentang SMK3 yang tertuang dalam Lampiran I, II, dan III; tidak memuat hak/kewajiban yang dapat dinalar sebagai individu"
+      },
+      {
+        "pasal": "Pasal 4",
+        "alasan": "kebijakan nasional SMK3 sebagai pedoman perusahaan dan instansi pembina sektor usaha dapat mengembangkan pedoman penerapan; ketentuan kelembagaan/pedoman, bukan norma hak"
+      },
+      {
+        "pasal": "Pasal 17",
+        "alasan": "tata cara pelaporan administratif: hasil audit dilaporkan kepada Menteri dengan tembusan kepada menteri pembina sektor usaha, gubernur, dan bupati/walikota, serta bentuk laporan dalam Lampiran III"
+      },
+      {
+        "pasal": "Pasal 18",
+        "alasan": "kewenangan pengawasan: pengawasan SMK3 dilakukan oleh pengawas ketenagakerjaan pusat, provinsi, dan/atau kabupaten/kota beserta lingkup pengawasannya; fungsi kelembagaan pengawasan"
+      },
+      {
+        "pasal": "Pasal 19",
+        "alasan": "instansi pembina sektor usaha dapat melakukan pengawasan SMK3 secara terkoordinasi dengan pengawas ketenagakerjaan; fungsi kelembagaan, bukan hak pekerja"
+      },
+      {
+        "pasal": "Pasal 20",
+        "alasan": "hasil pengawasan Pasal 18 dan Pasal 19 digunakan sebagai dasar pembinaan; ketentuan kelembagaan, tidak melahirkan hak/kewajiban baru"
+      },
+      {
+        "pasal": "Pasal 21",
+        "alasan": "ketentuan peralihan: perusahaan yang telah menerapkan SMK3 wajib menyesuaikan dengan PP ini paling lama 1 (satu) tahun"
+      },
+      {
+        "pasal": "Pasal 22",
+        "alasan": "ketentuan penutup: Peraturan Pemerintah ini mulai berlaku pada tanggal diundangkan (12 April 2012); tidak memuat norma hak/kewajiban"
+      }
+    ],
+    "catatan": ""
+  },
+  "tidak_termodelkan": [
+    {
+      "pasal": "Pasal 5",
+      "ringkasan": "Setiap perusahaan wajib menerapkan SMK3 di perusahaannya, berlaku bagi perusahaan yang mempekerjakan paling sedikit 100 (seratus) pekerja/buruh atau mempunyai tingkat potensi bahaya tinggi; pengusaha wajib berpedoman pada PP ini dan peraturan perundang-undangan serta dapat memperhatikan konvensi/standar internasional.",
+      "alasan": "relevan (kewajiban penerapan SMK3 dan ambang 100 pekerja/potensi bahaya tinggi), tetapi butuh kelas/properti baru: jenis KetentuanK3 dan topik K3 masih kandidat di VOCAB (belum aktif) dan belum ada kelasnya di tbox-core; tidak ada parameter untuk ambang jumlah pekerja"
+    },
+    {
+      "pasal": "Pasal 6",
+      "ringkasan": "SMK3 meliputi penetapan kebijakan K3, perencanaan K3, pelaksanaan rencana K3, pemantauan dan evaluasi kinerja K3, serta peninjauan dan peningkatan kinerja SMK3; penerapannya tertuang dalam pedoman Lampiran I.",
+      "alasan": "relevan (ruang lingkup elemen SMK3), tetapi butuh kelas KetentuanK3 beserta properti daftar elemen/tahapan yang belum ada di T-Box; KetentuanK3 masih kandidat di VOCAB"
+    },
+    {
+      "pasal": "Pasal 7",
+      "ringkasan": "Penetapan kebijakan K3 dilaksanakan oleh pengusaha dengan paling sedikit melakukan tinjauan awal kondisi K3 (identifikasi bahaya, perbandingan dengan perusahaan lain, peninjauan sebab akibat, kompensasi dan hasil penilaian, penilaian efisiensi sumber daya), memperhatikan peningkatan kinerja manajemen K3, dan masukan pekerja/buruh; kebijakan memuat visi, tujuan, komitmen, dan kerangka program kerja.",
+      "alasan": "relevan (kewajiban pengusaha menyusun kebijakan K3 dan isi minimalnya), tetapi butuh kelas/properti baru KetentuanK3 (prosedur dan muatan kebijakan K3); belum ada di T-Box dan jenis K3 masih kandidat di VOCAB"
+    },
+    {
+      "pasal": "Pasal 8",
+      "ringkasan": "Pengusaha harus menyebarluaskan kebijakan K3 yang telah ditetapkan kepada seluruh pekerja/buruh, orang lain selain pekerja/buruh yang berada di perusahaan, dan pihak lain yang terkait.",
+      "alasan": "relevan (kewajiban penyebarluasan kebijakan K3 kepada pekerja), tetapi butuh kelas KetentuanK3 dan properti kewajiban komunikasi yang belum ada di T-Box; KetentuanK3 masih kandidat di VOCAB"
+    },
+    {
+      "pasal": "Pasal 9",
+      "ringkasan": "Perencanaan K3 menghasilkan rencana K3 yang disusun dan ditetapkan pengusaha dengan mempertimbangkan hasil penelaahan awal, identifikasi bahaya/penilaian/pengendalian risiko, peraturan dan persyaratan lain, serta sumber daya; penyusunan melibatkan Ahli K3, Panitia Pembina K3, wakil pekerja/buruh, dan pihak terkait; rencana memuat tujuan dan sasaran, skala prioritas, upaya pengendalian bahaya, sumber daya, jangka waktu, indikator, dan pertanggungjawaban.",
+      "alasan": "relevan (kewajiban perencanaan K3 dan pelibatan pekerja), tetapi butuh kelas/properti baru KetentuanK3 (muatan dan proses rencana K3); belum ada di T-Box dan jenis/topik K3 masih kandidat di VOCAB"
+    },
+    {
+      "pasal": "Pasal 10",
+      "ringkasan": "Pelaksanaan rencana K3 dilakukan pengusaha dengan dukungan sumber daya manusia bidang K3 yang kompeten (bersertifikat) dan berwenang, serta prasarana dan sarana berupa organisasi/unit K3, anggaran memadai, prosedur operasi/kerja, informasi, pelaporan, pendokumentasian, dan instruksi kerja.",
+      "alasan": "relevan (kewajiban pelaksanaan rencana K3 dan penyediaan SDM/prasarana K3), tetapi butuh kelas KetentuanK3 dan properti persyaratan SDM/sarana yang belum ada di T-Box; KetentuanK3 masih kandidat di VOCAB"
+    },
+    {
+      "pasal": "Pasal 11",
+      "ringkasan": "Pengusaha dalam melaksanakan rencana K3 harus melakukan kegiatan pemenuhan persyaratan K3, paling sedikit meliputi tindakan pengendalian, perancangan dan rekayasa, prosedur dan instruksi kerja, penyerahan sebagian pekerjaan, pembelian/pengadaan barang dan jasa, produk akhir, upaya menghadapi keadaan darurat kecelakaan dan bencana industri, serta rencana pemulihan keadaan darurat.",
+      "alasan": "relevan (kewajiban kegiatan pemenuhan persyaratan K3), tetapi butuh kelas/properti baru KetentuanK3 (daftar kegiatan dan dasar identifikasi bahaya); belum ada di T-Box dan jenis K3 masih kandidat di VOCAB"
+    },
+    {
+      "pasal": "Pasal 12",
+      "ringkasan": "Pengusaha harus menunjuk SDM yang kompeten dan berwenang di bidang K3, melibatkan seluruh pekerja/buruh, membuat petunjuk K3 yang dipatuhi seluruh pekerja dan pihak lain di perusahaan, membuat prosedur informasi dan pelaporan, serta mendokumentasikan seluruh kegiatan; pelaksanaannya diintegrasikan dengan kegiatan manajemen perusahaan.",
+      "alasan": "relevan (kewajiban penunjukan personel K3, pelibatan pekerja, petunjuk K3, dan dokumentasi), tetapi butuh kelas/properti baru KetentuanK3; belum ada di T-Box dan jenis K3 masih kandidat di VOCAB"
+    },
+    {
+      "pasal": "Pasal 13",
+      "ringkasan": "Prosedur informasi harus menjamin informasi K3 dikomunikasikan kepada semua pihak dalam perusahaan dan pihak terkait di luar perusahaan; prosedur pelaporan mencakup kecelakaan di tempat kerja, ketidaksesuaian terhadap peraturan/standar, kinerja K3, identifikasi sumber bahaya, dan pelaporan yang diwajibkan peraturan; pendokumentasian mencakup peraturan dan standar K3, indikator kinerja, izin kerja, hasil identifikasi risiko, pelatihan, inspeksi/kalibrasi/pemeliharaan, catatan pemantauan, hasil pengkajian kecelakaan, identifikasi produk, informasi pemasok/kontraktor, serta audit dan peninjauan ulang SMK3.",
+      "alasan": "relevan (kewajiban komunikasi, pelaporan, dan pendokumentasian K3), tetapi butuh kelas KetentuanK3 beserta properti daftar dokumen/laporan yang belum ada di T-Box; KetentuanK3 masih kandidat di VOCAB"
+    },
+    {
+      "pasal": "Pasal 14",
+      "ringkasan": "Pengusaha wajib melakukan pemantauan dan evaluasi kinerja K3 melalui pemeriksaan, pengujian, pengukuran, dan audit internal SMK3 oleh SDM kompeten atau pihak lain bila tidak tersedia; hasilnya dilaporkan kepada pengusaha dan digunakan untuk tindakan perbaikan sesuai peraturan dan/atau standar.",
+      "alasan": "relevan (kewajiban pemantauan dan evaluasi kinerja K3), tetapi butuh kelas/properti baru KetentuanK3 (kewajiban audit internal dan tindakan perbaikan); belum ada di T-Box dan jenis K3 masih kandidat di VOCAB"
+    },
+    {
+      "pasal": "Pasal 15",
+      "ringkasan": "Untuk menjamin kesesuaian dan efektivitas penerapan SMK3, pengusaha wajib melakukan peninjauan terhadap kebijakan, perencanaan, pelaksanaan, serta pemantauan dan evaluasi; hasilnya digunakan untuk perbaikan dan peningkatan kinerja, antara lain bila terjadi perubahan peraturan, tuntutan pasar, perubahan produk/kegiatan/struktur organisasi, perkembangan ilmu pengetahuan dan teknologi, hasil kajian kecelakaan, pelaporan, atau masukan pekerja/buruh.",
+      "alasan": "relevan (kewajiban peninjauan dan peningkatan kinerja SMK3), tetapi butuh kelas/properti baru KetentuanK3 (siklus tinjauan dan pemicunya); belum ada di T-Box dan jenis K3 masih kandidat di VOCAB"
+    },
+    {
+      "pasal": "Pasal 16",
+      "ringkasan": "Penilaian penerapan SMK3 dilakukan oleh lembaga audit independen yang ditunjuk Menteri atas permohonan perusahaan; perusahaan dengan potensi bahaya tinggi wajib melakukan penilaian; audit SMK3 meliputi komitmen, rencana K3, pengendalian perancangan/kontrak, dokumen, pembelian dan produk, keamanan bekerja, standar pemantauan, pelaporan dan perbaikan, pengelolaan material, data, pemeriksaan SMK3, serta pengembangan keterampilan; pedoman ada di Lampiran II.",
+      "alasan": "relevan (kewajiban penilaian/audit SMK3 bagi perusahaan berpotensi bahaya tinggi dan lingkup audit), tetapi butuh kelas/properti baru KetentuanK3 serta kelas kelembagaan lembaga audit independen yang belum ada di T-Box; KetentuanK3 masih kandidat di VOCAB"
+    }
+  ]
+}

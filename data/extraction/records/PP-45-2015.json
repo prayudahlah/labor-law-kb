@@ -1,6 +1,6 @@
 {
-  "spec_version": "1.0.0",
-  "vocab_version": "0.2.0",
+  "spec_version": "1.1.0",
+  "vocab_version": "0.3.0",
   "dokumen_id": "PP-45-2015",
   "status_review": "reviewed",
   "peraturan": {
@@ -14,40 +14,419 @@
   },
   "norma": [
     {
-      "norm_id": "JAMSOS-IURAN-JP",
+      "norm_id": "JAMSOS-KEPESERTAAN-JP",
       "topik": "Jamsos",
-      "pasal": "Pasal 25",
-      "iri_individu": "ktn:KetentuanIuranJP",
+      "pasal": "Pasal 2 ayat (1)",
+      "iri_individu": "ktn:CakupanKepesertaanJP",
       "jenis": "KetentuanJaminanSosial",
-      "kondisi": "Iuran JP",
-      "akibat": "3 persen dari upah: 2 persen pemberi kerja dan 1 persen pekerja",
+      "kondisi": "Pekerja bekerja pada Pemberi Kerja penyelenggara negara atau pada Pemberi Kerja selain penyelenggara negara",
+      "akibat": "Menjadi Peserta Program Jaminan Pensiun; kepesertaan Pekerja pada penyelenggara negara diatur dengan Peraturan Pemerintah tersendiri",
       "parameter": [],
-      "bukti": "Iuran sebesar 3 persen dari Upah per bulan",
+      "bukti": "Peserta terdiri atas: a. Pekerja yang bekerja pada Pemberi Kerja penyelenggara negara; dan b. Pekerja yang bekerja pada Pemberi Kerja selain penyelenggara negara.",
+      "confidence": 0.85,
+      "dasar_keyakinan": "tafsir",
+      "catatan": "Ayat (1) enumeratif; ayat (2) mendelegasikan kepesertaan penyelenggara negara ke PP tersendiri."
+    },
+    {
+      "norm_id": "JAMSOS-MULAI-KEPESERTAAN-JP",
+      "topik": "Jamsos",
+      "pasal": "Pasal 3 ayat (1)",
+      "iri_individu": "ktn:MulaiKepesertaanJP",
+      "jenis": "KetentuanJaminanSosial",
+      "kondisi": "Pekerja terdaftar dan Iuran pertama telah dibayarkan dan disetor oleh Pemberi Kerja selain penyelenggara negara kepada BPJS Ketenagakerjaan",
+      "akibat": "Kepesertaan pada program Jaminan Pensiun mulai berlaku dan perlindungan Jaminan Pensiun dimulai",
+      "parameter": [],
+      "bukti": "Kepesertaan pada program Jaminan Pensiun mulai berlaku sejak Pekerja terdaftar dan Iuran pertama telah dibayarkan dan disetor",
+      "confidence": 0.95,
+      "dasar_keyakinan": "dikutip",
+      "catatan": "Ayat (2)-(3): bukti pembayaran Iuran menjadi bukti terdaftar dan dasar perlindungan."
+    },
+    {
+      "norm_id": "JAMSOS-BERAKHIR-KEPESERTAAN-JP",
+      "topik": "Jamsos",
+      "pasal": "Pasal 3 ayat (4)",
+      "iri_individu": "ktn:BerakhirKepesertaanJP",
+      "jenis": "KetentuanJaminanSosial",
+      "kondisi": "Peserta meninggal dunia atau mencapai Usia Pensiun dan menerima akumulasi Iuran beserta hasil pengembangannya secara sekaligus",
+      "akibat": "Kepesertaan Jaminan Pensiun berakhir",
+      "parameter": [],
+      "bukti": "Kepesertaan Jaminan Pensiun sebagaimana dimaksud pada ayat (1) berakhir pada saat Peserta: a. meninggal dunia",
       "confidence": 0.95,
       "dasar_keyakinan": "dikutip",
       "catatan": ""
     },
     {
-      "norm_id": "JAMSOS-USIA-PENSIUN",
+      "norm_id": "JAMSOS-DAFTAR-PEKERJA-JP",
       "topik": "Jamsos",
-      "pasal": "Pasal 15",
-      "iri_individu": "ktn:KetentuanUsiaPensiunJP",
+      "pasal": "Pasal 4 ayat (1)",
+      "iri_individu": "ktn:KewajibanDaftarPekerjaJP",
       "jenis": "KetentuanJaminanSosial",
-      "kondisi": "Usia pensiun JP",
-      "akibat": "Mulai 56 tahun dan bertambah menuju 65 tahun",
+      "kondisi": "Pemberi Kerja selain penyelenggara negara mempekerjakan Pekerja",
+      "akibat": "Wajib mendaftarkan seluruh Pekerjanya kepada BPJS Ketenagakerjaan sebagai Peserta; Pekerja baru wajib didaftarkan paling lama 30 hari sejak tanggal mulai bekerja",
+      "parameter": [],
+      "bukti": "wajib mendaftarkan Pekerja yang baru paling lama 30 (tiga puluh) hari terhitung sejak tanggal Pekerja tersebut mulai bekerja",
+      "confidence": 0.95,
+      "dasar_keyakinan": "dikutip",
+      "catatan": "Batas 30 hari berasal dari ayat (2)."
+    },
+    {
+      "norm_id": "JAMSOS-DAFTAR-SENDIRI-JP",
+      "topik": "Jamsos",
+      "pasal": "Pasal 5 ayat (1)",
+      "iri_individu": "ktn:HakDaftarSendiriJP",
+      "jenis": "KetentuanJaminanSosial",
+      "kondisi": "Pemberi Kerja selain penyelenggara negara nyata-nyata lalai tidak mendaftarkan Pekerjanya",
+      "akibat": "Pekerja berhak mendaftarkan dirinya sendiri dalam Jaminan Pensiun kepada BPJS Ketenagakerjaan sesuai penahapan kepesertaan",
+      "parameter": [],
+      "bukti": "Pekerja berhak mendaftarkan dirinya sendiri dalam Jaminan Pensiun kepada BPJS Ketenagakerjaan",
+      "confidence": 0.95,
+      "dasar_keyakinan": "dikutip",
+      "catatan": "Ayat (4)-(5): Pemberi Kerja dikenai sanksi dan tetap wajib memungut serta menyetor Iuran."
+    },
+    {
+      "norm_id": "JAMSOS-TANGGUNG-JAWAB-MANFAAT-JP",
+      "topik": "Jamsos",
+      "pasal": "Pasal 6",
+      "iri_individu": "ktn:TanggungJawabManfaatJP",
+      "jenis": "KetentuanJaminanSosial",
+      "kondisi": "Pekerja belum terdaftar pada BPJS Ketenagakerjaan",
+      "akibat": "Pemberi Kerja selain penyelenggara negara wajib bertanggung jawab pada Pekerjanya dengan memberikan Manfaat Pensiun sesuai Peraturan Pemerintah ini",
+      "parameter": [],
+      "bukti": "Pemberi Kerja selain penyelenggara negara wajib bertanggung jawab pada Pekerjanya dengan memberikan Manfaat Pensiun",
+      "confidence": 0.95,
+      "dasar_keyakinan": "dikutip",
+      "catatan": ""
+    },
+    {
+      "norm_id": "JAMSOS-PINDAH-KERJA-JP",
+      "topik": "Jamsos",
+      "pasal": "Pasal 11 ayat (2)",
+      "iri_individu": "ktn:KesinambunganKepesertaanPindahKerjaJP",
+      "jenis": "KetentuanJaminanSosial",
+      "kondisi": "Pekerja pindah tempat kerja",
+      "akibat": "Pemberi Kerja tempat kerja baru wajib meneruskan kepesertaan Pekerja dengan melaporkan kartu kepesertaan dan membayar Iuran kepada BPJS Ketenagakerjaan sejak Pekerja bekerja",
+      "parameter": [],
+      "bukti": "wajib meneruskan kepesertaan Pekerja dengan melaporkan kartu kepesertaan dan membayar Iuran kepada BPJS Ketenagakerjaan sejak Pekerja bekerja",
+      "confidence": 0.95,
+      "dasar_keyakinan": "dikutip",
+      "catatan": "Ayat (1): Peserta wajib memberitahukan kepesertaannya kepada Pemberi Kerja baru."
+    },
+    {
+      "norm_id": "JAMSOS-PENERIMA-MANFAAT-JP",
+      "topik": "Jamsos",
+      "pasal": "Pasal 14 ayat (1)",
+      "iri_individu": "ktn:PenerimaManfaatPensiunJP",
+      "jenis": "KetentuanJaminanSosial",
+      "kondisi": "Manfaat Pensiun dibayarkan kepada penerima manfaat",
+      "akibat": "Penerima Manfaat Pensiun terdiri atas Peserta, 1 orang istri atau suami yang sah, paling banyak 2 orang Anak, atau 1 orang Orang Tua",
+      "parameter": [],
+      "bukti": "Penerima Manfaat Pensiun terdiri atas: a. Peserta; b. 1 (satu) orang istri atau suami yang sah",
+      "confidence": 0.9,
+      "dasar_keyakinan": "dikutip",
+      "catatan": "Ayat (2): Anak yang lahir paling lama 300 hari setelah hubungan pernikahan terputus atau setelah Peserta meninggal dapat didaftarkan."
+    },
+    {
+      "norm_id": "JAMSOS-PERUBAHAN-PENERIMA-JP",
+      "topik": "Jamsos",
+      "pasal": "Pasal 14 ayat (3)",
+      "iri_individu": "ktn:PerubahanPenerimaManfaatJP",
+      "jenis": "KetentuanJaminanSosial",
+      "kondisi": "Terjadi perubahan susunan penerima Manfaat Pensiun",
+      "akibat": "Peserta wajib menyampaikan perubahan daftar penerima paling lama 30 hari kepada Pemberi Kerja selain penyelenggara negara; perubahan tidak dapat dilakukan setelah menerima Manfaat Pensiun pertama atau meninggal dunia, kecuali untuk Anak tertentu",
+      "parameter": [],
+      "bukti": "Peserta harus menyampaikan perubahan daftar penerima Manfaat Pensiun paling lama 30 (tiga puluh) hari",
+      "confidence": 0.9,
+      "dasar_keyakinan": "dikutip",
+      "catatan": "Ayat (4)-(5): batas perubahan dan kewajiban pelaporan oleh Pemberi Kerja."
+    },
+    {
+      "norm_id": "JAMSOS-USIA-PENSIUN-JP",
+      "topik": "Jamsos",
+      "pasal": "Pasal 15 ayat (1)",
+      "iri_individu": "ktn:UsiaPensiunJP",
+      "jenis": "KetentuanJaminanSosial",
+      "kondisi": "Peserta mencapai usia pensiun",
+      "akibat": "Usia Pensiun untuk pertama kali 56 tahun; sejak 1 Januari 2019 menjadi 57 tahun dan bertambah 1 tahun setiap 3 tahun sampai mencapai 65 tahun",
       "parameter": [
         {
           "nama": "usiaPensiunTahun",
-          "nilai": "58",
+          "nilai": "56",
           "satuan": "tahun",
           "jenis": "nominal",
-          "pasal": "Pasal 15"
+          "pasal": "Pasal 15 ayat (1)",
+          "bukti": "Untuk pertama kali Usia Pensiun ditetapkan 56 (lima puluh enam) tahun."
         }
       ],
-      "bukti": "Untuk pertama kali Usia Pensiun ditetapkan 56 tahun",
-      "confidence": 0.6,
-      "dasar_keyakinan": "dinamis",
-      "catatan": "58 adalah posisi saat ini"
+      "bukti": "Untuk pertama kali Usia Pensiun ditetapkan 56 (lima puluh enam) tahun.",
+      "confidence": 0.95,
+      "dasar_keyakinan": "dikutip",
+      "catatan": "Nilai 56 adalah penetapan pertama; ayat (2)-(3) menaikkan bertahap 57 tahun (2019) hingga 65 tahun."
+    },
+    {
+      "norm_id": "JAMSOS-PILIHAN-MANFAAT-JP",
+      "topik": "Jamsos",
+      "pasal": "Pasal 15 ayat (4)",
+      "iri_individu": "ktn:PilihanWaktuManfaatJP",
+      "jenis": "KetentuanJaminanSosial",
+      "kondisi": "Peserta telah memasuki Usia Pensiun tetapi tetap dipekerjakan",
+      "akibat": "Peserta dapat memilih menerima Manfaat Pensiun pada saat mencapai Usia Pensiun atau pada saat berhenti bekerja, paling lama 3 tahun setelah Usia Pensiun",
+      "parameter": [],
+      "bukti": "Peserta dapat memilih untuk menerima Manfaat Pensiun pada saat mencapai Usia Pensiun atau pada saat berhenti bekerja",
+      "confidence": 0.95,
+      "dasar_keyakinan": "dikutip",
+      "catatan": ""
+    },
+    {
+      "norm_id": "JAMSOS-JENIS-MANFAAT-JP",
+      "topik": "Jamsos",
+      "pasal": "Pasal 16",
+      "iri_individu": "ktn:JenisManfaatPensiunJP",
+      "jenis": "KetentuanJaminanSosial",
+      "kondisi": "Peserta mencapai usia pensiun, mengalami cacat total tetap, atau meninggal dunia",
+      "akibat": "Manfaat Pensiun berupa pensiun hari tua, pensiun cacat, pensiun Janda atau Duda, pensiun Anak, atau pensiun Orang Tua",
+      "parameter": [],
+      "bukti": "Manfaat Pensiun berupa: a. pensiun hari tua; b. pensiun cacat; c. pensiun Janda atau Duda; d. pensiun Anak; atau e. pensiun Orang Tua.",
+      "confidence": 0.95,
+      "dasar_keyakinan": "dikutip",
+      "catatan": ""
+    },
+    {
+      "norm_id": "JAMSOS-FORMULA-MANFAAT-JP",
+      "topik": "Jamsos",
+      "pasal": "Pasal 17 ayat (2)",
+      "iri_individu": "ktn:FormulaManfaatPensiunJP",
+      "jenis": "KetentuanJaminanSosial",
+      "kondisi": "Manfaat Pensiun dihitung untuk 1 tahun pertama",
+      "akibat": "Manfaat Pensiun dihitung 1% dikali Masa Iur dibagi 12 bulan dikali rata-rata Upah tahunan tertimbang selama Masa Iur dibagi 12",
+      "parameter": [],
+      "bukti": "adalah 1% (satu persen) dikali Masa Iur dibagi 12 (dua belas) bulan dikali ratarata Upah tahunan tertimbang",
+      "confidence": 0.9,
+      "dasar_keyakinan": "dikutip",
+      "catatan": "Ayat (3): Upah tahunan tertimbang disesuaikan dengan tingkat inflasi umum."
+    },
+    {
+      "norm_id": "JAMSOS-INDEKSASI-MANFAAT-JP",
+      "topik": "Jamsos",
+      "pasal": "Pasal 17 ayat (4)",
+      "iri_individu": "ktn:IndeksasiManfaatPensiunJP",
+      "jenis": "KetentuanJaminanSosial",
+      "kondisi": "Manfaat Pensiun dihitung untuk setiap 1 tahun selanjutnya",
+      "akibat": "Manfaat Pensiun sebesar Manfaat Pensiun tahun sebelumnya dikali faktor indeksasi, yaitu 1 ditambah tingkat inflasi umum tahun sebelumnya",
+      "parameter": [],
+      "bukti": "Faktor indeksasi sebagaimana dimaksud pada ayat (1) huruf b ditetapkan sebesar 1 (satu) ditambah tingkat inflasi umum tahun sebelumnya.",
+      "confidence": 0.95,
+      "dasar_keyakinan": "dikutip",
+      "catatan": ""
+    },
+    {
+      "norm_id": "JAMSOS-BATAS-MANFAAT-JP",
+      "topik": "Jamsos",
+      "pasal": "Pasal 18",
+      "iri_individu": "ktn:BatasManfaatPensiunJP",
+      "jenis": "KetentuanJaminanSosial",
+      "kondisi": "Manfaat Pensiun ditetapkan untuk pertama kali",
+      "akibat": "Manfaat Pensiun paling sedikit Rp300.000,00 per bulan dan paling banyak Rp3.600.000,00 per bulan, disesuaikan setiap tahun berdasarkan tingkat inflasi umum tahun sebelumnya",
+      "parameter": [],
+      "bukti": "Manfaat Pensiun paling sedikit ditetapkan sebesar Rp300.000,00 (tiga ratus ribu rupiah) untuk setiap bulan.",
+      "confidence": 0.95,
+      "dasar_keyakinan": "dikutip",
+      "catatan": "Ayat (2) menetapkan batas paling banyak Rp3.600.000,00 per bulan."
+    },
+    {
+      "norm_id": "JAMSOS-MANFAAT-HARI-TUA-JP",
+      "topik": "Jamsos",
+      "pasal": "Pasal 19 ayat (1)",
+      "iri_individu": "ktn:ManfaatPensiunHariTuaJP",
+      "jenis": "KetentuanJaminanSosial",
+      "kondisi": "Peserta mencapai Usia Pensiun dan memiliki Masa Iur paling singkat 15 tahun atau 180 bulan",
+      "akibat": "Menerima Manfaat Pensiun hari tua yang dihitung dengan formula Pasal 17 ayat (2); hak diperhitungkan mulai tanggal 1 bulan berikutnya dan berakhir saat Peserta meninggal dunia",
+      "parameter": [],
+      "bukti": "Manfaat Pensiun hari tua diterima Peserta yang telah mencapai Usia Pensiun dan telah memiliki Masa Iur paling singkat 15 (lima belas) tahun",
+      "confidence": 0.95,
+      "dasar_keyakinan": "dikutip",
+      "catatan": "Ayat (3)-(4): awal dan berakhirnya hak."
+    },
+    {
+      "norm_id": "JAMSOS-MANFAAT-CACAT-JP",
+      "topik": "Jamsos",
+      "pasal": "Pasal 20 ayat (1)",
+      "iri_individu": "ktn:ManfaatPensiunCacatJP",
+      "jenis": "KetentuanJaminanSosial",
+      "kondisi": "Peserta mengalami Cacat Total Tetap sebelum mencapai Usia Pensiun",
+      "akibat": "Menerima Manfaat Pensiun cacat yang dihitung dengan formula Pasal 17 ayat (2); hak diperhitungkan mulai tanggal 1 bulan berikutnya setelah ditetapkan cacat dan berakhir saat meninggal dunia atau tidak lagi memenuhi definisi Cacat Total Tetap",
+      "parameter": [],
+      "bukti": "Manfaat Pensiun cacat diterima oleh Peserta yang mengalami Cacat Total Tetap sebelum mencapai Usia Pensiun.",
+      "confidence": 0.95,
+      "dasar_keyakinan": "dikutip",
+      "catatan": "Ayat (4)-(7): awal/berakhirnya hak dan penetapan oleh dokter."
+    },
+    {
+      "norm_id": "JAMSOS-MASA-IUR-DIAMSALKAN-JP",
+      "topik": "Jamsos",
+      "pasal": "Pasal 20 ayat (3)",
+      "iri_individu": "ktn:MasaIurDianggapPenuhJP",
+      "jenis": "KetentuanJaminanSosial",
+      "kondisi": "Peserta cacat total tetap dengan Masa Iur kurang dari 15 tahun, rutin membayar Iuran dengan tingkat kepadatan paling sedikit 80%, dan kejadian cacat terjadi setelah terdaftar paling singkat 1 bulan",
+      "akibat": "Masa Iur yang digunakan dalam menghitung Manfaat Pensiun cacat adalah 15 tahun",
+      "parameter": [],
+      "bukti": "Masa Iur yang digunakan dalam menghitung Manfaat Pensiun cacat sebagaimana dimaksud pada ayat (2) adalah 15 (lima belas) tahun",
+      "confidence": 0.9,
+      "dasar_keyakinan": "dikutip",
+      "catatan": "Ketentuan serupa berlaku untuk Manfaat Pensiun Janda atau Duda (Pasal 21 ayat (3)), Anak (Pasal 22 ayat (3)), dan Orang Tua (Pasal 23 ayat (3))."
+    },
+    {
+      "norm_id": "JAMSOS-MANFAAT-JANDA-DUDA-JP",
+      "topik": "Jamsos",
+      "pasal": "Pasal 21 ayat (2)",
+      "iri_individu": "ktn:ManfaatPensiunJandaDudaJP",
+      "jenis": "KetentuanJaminanSosial",
+      "kondisi": "Peserta meninggal dunia dan meninggalkan istri atau suami",
+      "akibat": "Manfaat Pensiun Janda atau Duda sebesar 50% dari formula Manfaat Pensiun bila meninggal sebelum menerima manfaat, atau 50% dari Manfaat Pensiun hari tua/cacat bila meninggal setelah menerima manfaat; berakhir saat Janda atau Duda meninggal dunia atau menikah lagi",
+      "parameter": [],
+      "bukti": "Besar Manfaat Pensiun Janda atau Duda dihitung sebesar: a. 50% (lima puluh persen) dari formula Manfaat Pensiun",
+      "confidence": 0.95,
+      "dasar_keyakinan": "dikutip",
+      "catatan": "Ayat (3): Masa Iur kurang dari 15 tahun dianggap 15 tahun bila telah menjadi Peserta paling singkat 1 tahun dan kepadatan Iuran paling sedikit 80%."
+    },
+    {
+      "norm_id": "JAMSOS-MANFAAT-ANAK-JP",
+      "topik": "Jamsos",
+      "pasal": "Pasal 22 ayat (2)",
+      "iri_individu": "ktn:ManfaatPensiunAnakJP",
+      "jenis": "KetentuanJaminanSosial",
+      "kondisi": "Peserta meninggal dunia tanpa istri atau suami, atau Janda atau Duda meninggal dunia atau menikah lagi",
+      "akibat": "Manfaat Pensiun Anak sebesar 50% dari formula Manfaat Pensiun, Manfaat Pensiun hari tua/cacat, atau Manfaat Pensiun Janda atau Duda; berakhir saat Anak mencapai usia 23 tahun, bekerja, atau menikah",
+      "parameter": [],
+      "bukti": "Besar Manfaat Pensiun Anak sebagaimana dimaksud pada ayat (1) huruf a dihitung sebesar: a. 50% (lima puluh persen) dari formula Manfaat Pensiun",
+      "confidence": 0.95,
+      "dasar_keyakinan": "dikutip",
+      "catatan": "Ayat (3) memuat ketentuan Masa Iur dianggap 15 tahun; ayat (5) batas usia 23 tahun."
+    },
+    {
+      "norm_id": "JAMSOS-MANFAAT-ORANG-TUA-JP",
+      "topik": "Jamsos",
+      "pasal": "Pasal 23 ayat (2)",
+      "iri_individu": "ktn:ManfaatPensiunOrangTuaJP",
+      "jenis": "KetentuanJaminanSosial",
+      "kondisi": "Peserta meninggal dunia dan tidak mempunyai istri, suami, atau Anak",
+      "akibat": "Manfaat Pensiun Orang Tua sebesar 20% dari formula Manfaat Pensiun bila meninggal sebelum menerima manfaat, atau 20% dari Manfaat Pensiun hari tua/cacat bila meninggal setelah menerima manfaat; berakhir saat Orang Tua meninggal dunia",
+      "parameter": [],
+      "bukti": "20% (dua puluh persen) dari formula Manfaat Pensiun sebagaimana dimaksud dalam Pasal 17 ayat (2)",
+      "confidence": 0.95,
+      "dasar_keyakinan": "dikutip",
+      "catatan": "Ayat (3): Masa Iur kurang dari 15 tahun dianggap 15 tahun dengan syarat kepesertaan paling singkat 1 tahun dan kepadatan Iuran paling sedikit 80%."
+    },
+    {
+      "norm_id": "JAMSOS-AKUMULASI-IURAN-JP",
+      "topik": "Jamsos",
+      "pasal": "Pasal 24 ayat (1)",
+      "iri_individu": "ktn:HakAkumulasiIuranJP",
+      "jenis": "KetentuanJaminanSosial",
+      "kondisi": "Peserta mencapai Usia Pensiun sebelum memenuhi Masa Iur 15 tahun",
+      "akibat": "Peserta berhak mendapatkan seluruh akumulasi Iurannya ditambah hasil pengembangannya, dibayarkan pada tanggal 1 bulan berikutnya setelah Usia Pensiun dan dokumen diterima lengkap",
+      "parameter": [],
+      "bukti": "Peserta berhak mendapatkan seluruh akumulasi Iurannya ditambah hasil pengembangannya.",
+      "confidence": 0.95,
+      "dasar_keyakinan": "dikutip",
+      "catatan": "Ayat (3): hasil pengembangan dihitung setiap bulan berdasarkan nilai sebenarnya."
+    },
+    {
+      "norm_id": "JAMSOS-WAKTU-BAYAR-MANFAAT-JP",
+      "topik": "Jamsos",
+      "pasal": "Pasal 25 ayat (1)",
+      "iri_individu": "ktn:WaktuPembayaranManfaatJP",
+      "jenis": "KetentuanJaminanSosial",
+      "kondisi": "Hak atas Manfaat Pensiun timbul dan dokumen pendukung diterima lengkap oleh BPJS Ketenagakerjaan",
+      "akibat": "Manfaat Pensiun dibayarkan paling cepat sejak hak diperhitungkan dan paling lambat 15 hari; pembayaran bulan berikutnya paling lambat tanggal 1 bulan berjalan; pembayaran dihentikan setelah hak berakhir",
+      "parameter": [],
+      "bukti": "paling lambat 15 (lima belas) hari sejak hak atas Manfaat Pensiun timbul dan dokumen pendukung diterima secara lengkap oleh BPJS Ketenagakerjaan",
+      "confidence": 0.95,
+      "dasar_keyakinan": "dikutip",
+      "catatan": "Ayat (2)-(3): jadwal pembayaran bulanan dan penghentian."
+    },
+    {
+      "norm_id": "JAMSOS-KONFIRMASI-PENERIMA-JP",
+      "topik": "Jamsos",
+      "pasal": "Pasal 26 ayat (1)",
+      "iri_individu": "ktn:KonfirmasiPenerimaManfaatJP",
+      "jenis": "KetentuanJaminanSosial",
+      "kondisi": "Penerima Manfaat Pensiun tidak melakukan konfirmasi data 1 kali dalam 3 bulan kepada BPJS Ketenagakerjaan",
+      "akibat": "BPJS Ketenagakerjaan menghentikan sementara pembayaran Manfaat Pensiun; pembayaran dihentikan bila tidak ada konfirmasi sampai 10 tahun, dan dapat dibayarkan kembali setelah konfirmasi diberikan",
+      "parameter": [],
+      "bukti": "Penerima Manfaat Pensiun wajib melakukan konfirmasi data penerima Manfaat Pensiun 1 (satu) kali dalam 3 (tiga) bulan kepada BPJS Ketenagakerjaan.",
+      "confidence": 0.95,
+      "dasar_keyakinan": "dikutip",
+      "catatan": "Ayat (2)-(4): penghentian sementara, pembayaran kembali, dan penghentian setelah 10 tahun."
+    },
+    {
+      "norm_id": "JAMSOS-IURAN-JP",
+      "topik": "Jamsos",
+      "pasal": "Pasal 28 ayat (2)",
+      "iri_individu": "ktn:KetentuanIuranJP",
+      "jenis": "KetentuanJaminanSosial",
+      "kondisi": "Peserta dan Pemberi Kerja selain penyelenggara negara mengikuti program Jaminan Pensiun",
+      "akibat": "Iuran Jaminan Pensiun wajib dibayar setiap bulan sebesar 3% dari Upah, ditanggung bersama 2% oleh Pemberi Kerja selain penyelenggara negara dan 1% oleh Peserta; besaran dievaluasi paling singkat 3 tahun dan disesuaikan bertahap menuju 8%",
+      "parameter": [],
+      "bukti": "Iuran sebagaimana dimaksud pada ayat (1) sebesar 3% (tiga persen) dari Upah per bulan.",
+      "confidence": 0.98,
+      "dasar_keyakinan": "dikutip",
+      "catatan": "Ayat (3)-(5): pembagian beban dan evaluasi menuju 8%."
+    },
+    {
+      "norm_id": "JAMSOS-DASAR-UPAH-IURAN-JP",
+      "topik": "Jamsos",
+      "pasal": "Pasal 29 ayat (1)",
+      "iri_individu": "ktn:DasarUpahIuranJP",
+      "jenis": "KetentuanJaminanSosial",
+      "kondisi": "Perhitungan Iuran Jaminan Pensiun",
+      "akibat": "Upah setiap bulan yang dijadikan dasar perhitungan Iuran terdiri atas Upah pokok dan tunjangan tetap pada bulan yang bersangkutan",
+      "parameter": [],
+      "bukti": "Upah setiap bulan yang dijadikan dasar perhitungan Iuran terdiri atas Upah pokok dan tunjangan tetap pada bulan yang bersangkutan.",
+      "confidence": 0.95,
+      "dasar_keyakinan": "dikutip",
+      "catatan": ""
+    },
+    {
+      "norm_id": "JAMSOS-BATAS-UPAH-IURAN-JP",
+      "topik": "Jamsos",
+      "pasal": "Pasal 29 ayat (2)",
+      "iri_individu": "ktn:BatasUpahIuranJP",
+      "jenis": "KetentuanJaminanSosial",
+      "kondisi": "Perhitungan Iuran Jaminan Pensiun",
+      "akibat": "Batas paling tinggi Upah untuk tahun 2015 sebesar Rp7.000.000,00 per bulan, disesuaikan setiap tahun dengan faktor 1 ditambah tingkat pertumbuhan tahunan produk domestik bruto tahun sebelumnya",
+      "parameter": [],
+      "bukti": "Batas paling tinggi Upah yang digunakan sebagai dasar perhitungan Iuran Jaminan Pensiun untuk tahun 2015 ditetapkan sebesar Rp7.000.000,00 (tujuh juta rupiah) setiap bulan.",
+      "confidence": 0.95,
+      "dasar_keyakinan": "dikutip",
+      "catatan": "Ayat (3)-(4): penyesuaian tahunan dan pengumuman oleh BPJS Ketenagakerjaan."
+    },
+    {
+      "norm_id": "JAMSOS-SETOR-IURAN-JP",
+      "topik": "Jamsos",
+      "pasal": "Pasal 30 ayat (3)",
+      "iri_individu": "ktn:KewajibanSetorIuranJP",
+      "jenis": "KetentuanJaminanSosial",
+      "kondisi": "Pemberi Kerja selain penyelenggara negara memungut Iuran Peserta dan membayar Iurannya sendiri",
+      "akibat": "Wajib menyetorkan Iuran kepada BPJS Ketenagakerjaan setiap bulan paling lambat tanggal 15 bulan berikutnya",
+      "parameter": [],
+      "bukti": "Iuran sebagaimana dimaksud dalam Pasal 28 disetorkan kepada BPJS Ketenagakerjaan setiap bulan paling lambat tanggal 15 bulan berikutnya.",
+      "confidence": 0.95,
+      "dasar_keyakinan": "dikutip",
+      "catatan": "Ayat (1)-(2): kewajiban memungut Iuran Peserta dan membayar Iuran Pemberi Kerja secara bersama-sama."
+    },
+    {
+      "norm_id": "JAMSOS-DENDA-TELAT-IURAN-JP",
+      "topik": "Jamsos",
+      "pasal": "Pasal 31 ayat (1)",
+      "iri_individu": "ktn:DendaKeterlambatanIuranJP",
+      "jenis": "KetentuanJaminanSosial",
+      "kondisi": "Pemberi Kerja selain penyelenggara negara terlambat menyetorkan Iuran",
+      "akibat": "Dikenakan denda 2% untuk setiap bulan keterlambatan yang dihitung dari Iuran yang seharusnya disetor, ditanggung sepenuhnya oleh Pemberi Kerja dan dibayarkan bersamaan dengan total Iuran tertunggak",
+      "parameter": [],
+      "bukti": "dikenakan denda sebesar 2% (dua persen) untuk setiap bulan keterlambatan yang dihitung dari Iuran yang seharusnya disetor",
+      "confidence": 0.95,
+      "dasar_keyakinan": "dikutip",
+      "catatan": "Ayat (3): denda merupakan aset Dana Jaminan Sosial program Jaminan Pensiun."
     }
   ],
   "kategori": [],
@@ -61,166 +440,118 @@
       "tarif_pekerja_persen": 1.0,
       "tarif_total_persen": 3.0,
       "tingkat_risiko": null,
-      "pasal": "Pasal 25",
-      "confidence": 0.95,
+      "pasal": "Pasal 28 ayat (3)",
+      "confidence": 0.98,
       "dasar_keyakinan": "dikutip",
-      "bukti": "",
-      "catatan": ""
+      "bukti": "2% (dua persen) dari upah ditanggung oleh Pemberi Kerja selain penyelenggara negara; dan b. 1% (satu persen) dari upah ditanggung oleh Peserta.",
+      "catatan": "Iuran wajib dibayar setiap bulan sebesar 3% dari Upah."
     }
   ],
   "cakupan": {
-    "lengkap": false,
+    "lengkap": true,
     "pasal_diekstrak": [
+      "Pasal 1",
+      "Pasal 10",
+      "Pasal 11",
+      "Pasal 12",
+      "Pasal 13",
+      "Pasal 14",
       "Pasal 15",
-      "Pasal 25"
+      "Pasal 16",
+      "Pasal 17",
+      "Pasal 18",
+      "Pasal 19",
+      "Pasal 2",
+      "Pasal 20",
+      "Pasal 21",
+      "Pasal 22",
+      "Pasal 23",
+      "Pasal 24",
+      "Pasal 25",
+      "Pasal 26",
+      "Pasal 27",
+      "Pasal 28",
+      "Pasal 29",
+      "Pasal 3",
+      "Pasal 30",
+      "Pasal 31",
+      "Pasal 32",
+      "Pasal 33",
+      "Pasal 34",
+      "Pasal 35",
+      "Pasal 36",
+      "Pasal 37",
+      "Pasal 38",
+      "Pasal 4",
+      "Pasal 5",
+      "Pasal 6",
+      "Pasal 7",
+      "Pasal 8",
+      "Pasal 9"
     ],
     "pasal_dilewati": [
       {
         "pasal": "Pasal 1",
-        "alasan": "retrofit: belum ditinjau (migrasi data pilot)"
-      },
-      {
-        "pasal": "Pasal 2",
-        "alasan": "retrofit: belum ditinjau (migrasi data pilot)"
-      },
-      {
-        "pasal": "Pasal 3",
-        "alasan": "retrofit: belum ditinjau (migrasi data pilot)"
-      },
-      {
-        "pasal": "Pasal 4",
-        "alasan": "retrofit: belum ditinjau (migrasi data pilot)"
-      },
-      {
-        "pasal": "Pasal 5",
-        "alasan": "retrofit: belum ditinjau (migrasi data pilot)"
-      },
-      {
-        "pasal": "Pasal 6",
-        "alasan": "retrofit: belum ditinjau (migrasi data pilot)"
+        "alasan": "definisi/istilah"
       },
       {
         "pasal": "Pasal 7",
-        "alasan": "retrofit: belum ditinjau (migrasi data pilot)"
+        "alasan": "tata cara penerbitan nomor dan kartu kepesertaan oleh BPJS Ketenagakerjaan"
       },
       {
         "pasal": "Pasal 8",
-        "alasan": "retrofit: belum ditinjau (migrasi data pilot)"
+        "alasan": "tata cara penerbitan sertifikat kepesertaan"
       },
       {
         "pasal": "Pasal 9",
-        "alasan": "retrofit: belum ditinjau (migrasi data pilot)"
+        "alasan": "delegasi pengaturan lebih lanjut (Peraturan Menteri dan Peraturan BPJS)"
       },
       {
         "pasal": "Pasal 10",
-        "alasan": "retrofit: belum ditinjau (migrasi data pilot)"
-      },
-      {
-        "pasal": "Pasal 11",
-        "alasan": "retrofit: belum ditinjau (migrasi data pilot)"
+        "alasan": "tata cara perubahan data kepesertaan"
       },
       {
         "pasal": "Pasal 12",
-        "alasan": "retrofit: belum ditinjau (migrasi data pilot)"
+        "alasan": "tata cara pelaporan perubahan data kepada BPJS Ketenagakerjaan"
       },
       {
         "pasal": "Pasal 13",
-        "alasan": "retrofit: belum ditinjau (migrasi data pilot)"
-      },
-      {
-        "pasal": "Pasal 14",
-        "alasan": "retrofit: belum ditinjau (migrasi data pilot)"
-      },
-      {
-        "pasal": "Pasal 16",
-        "alasan": "retrofit: belum ditinjau (migrasi data pilot)"
-      },
-      {
-        "pasal": "Pasal 17",
-        "alasan": "retrofit: belum ditinjau (migrasi data pilot)"
-      },
-      {
-        "pasal": "Pasal 18",
-        "alasan": "retrofit: belum ditinjau (migrasi data pilot)"
-      },
-      {
-        "pasal": "Pasal 19",
-        "alasan": "retrofit: belum ditinjau (migrasi data pilot)"
-      },
-      {
-        "pasal": "Pasal 20",
-        "alasan": "retrofit: belum ditinjau (migrasi data pilot)"
-      },
-      {
-        "pasal": "Pasal 21",
-        "alasan": "retrofit: belum ditinjau (migrasi data pilot)"
-      },
-      {
-        "pasal": "Pasal 22",
-        "alasan": "retrofit: belum ditinjau (migrasi data pilot)"
-      },
-      {
-        "pasal": "Pasal 23",
-        "alasan": "retrofit: belum ditinjau (migrasi data pilot)"
-      },
-      {
-        "pasal": "Pasal 24",
-        "alasan": "retrofit: belum ditinjau (migrasi data pilot)"
-      },
-      {
-        "pasal": "Pasal 26",
-        "alasan": "retrofit: belum ditinjau (migrasi data pilot)"
+        "alasan": "delegasi pengaturan lebih lanjut (Peraturan BPJS)"
       },
       {
         "pasal": "Pasal 27",
-        "alasan": "retrofit: belum ditinjau (migrasi data pilot)"
-      },
-      {
-        "pasal": "Pasal 28",
-        "alasan": "retrofit: belum ditinjau (migrasi data pilot)"
-      },
-      {
-        "pasal": "Pasal 29",
-        "alasan": "retrofit: belum ditinjau (migrasi data pilot)"
-      },
-      {
-        "pasal": "Pasal 30",
-        "alasan": "retrofit: belum ditinjau (migrasi data pilot)"
-      },
-      {
-        "pasal": "Pasal 31",
-        "alasan": "retrofit: belum ditinjau (migrasi data pilot)"
+        "alasan": "delegasi pengaturan lebih lanjut (Peraturan Menteri)"
       },
       {
         "pasal": "Pasal 32",
-        "alasan": "retrofit: belum ditinjau (migrasi data pilot)"
+        "alasan": "penegasan status piutang Dana Jaminan Sosial, bukan norma kondisi-akibat"
       },
       {
         "pasal": "Pasal 33",
-        "alasan": "retrofit: belum ditinjau (migrasi data pilot)"
+        "alasan": "delegasi pengaturan lebih lanjut (Peraturan BPJS)"
       },
       {
         "pasal": "Pasal 34",
-        "alasan": "retrofit: belum ditinjau (migrasi data pilot)"
+        "alasan": "sanksi administratif"
       },
       {
         "pasal": "Pasal 35",
-        "alasan": "retrofit: belum ditinjau (migrasi data pilot)"
+        "alasan": "sanksi administratif"
       },
       {
         "pasal": "Pasal 36",
-        "alasan": "retrofit: belum ditinjau (migrasi data pilot)"
+        "alasan": "pengawasan ketenagakerjaan"
       },
       {
         "pasal": "Pasal 37",
-        "alasan": "retrofit: belum ditinjau (migrasi data pilot)"
+        "alasan": "pengawasan ketenagakerjaan"
       },
       {
         "pasal": "Pasal 38",
-        "alasan": "retrofit: belum ditinjau (migrasi data pilot)"
+        "alasan": "ketentuan penutup (mulai berlaku)"
       }
     ],
-    "catatan": "Retrofit dari data pilot (migrasi ke record); belum ditinjau penuh."
+    "catatan": ""
   },
   "tidak_termodelkan": []
 }

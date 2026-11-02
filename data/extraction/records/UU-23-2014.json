@@ -1,0 +1,2087 @@
+{
+  "spec_version": "1.1.0",
+  "vocab_version": "0.3.0",
+  "dokumen_id": "UU-23-2014",
+  "status_review": "reviewed",
+  "peraturan": {
+    "judul": "Undang-Undang Nomor 23 Tahun 2014 tentang Pemerintahan Daerah",
+    "jenis": "UU",
+    "nomor": "23",
+    "tahun": "2014",
+    "sumber": "https://peraturan.bpk.go.id/Details/38685/uu-no-23-tahun-2014",
+    "status": "Berlaku",
+    "diubah_oleh": []
+  },
+  "norma": [],
+  "kategori": [],
+  "pengali_lembur": [],
+  "program_jamsos": [],
+  "cakupan": {
+    "lengkap": true,
+    "pasal_diekstrak": [
+      "Pasal 1",
+      "Pasal 10",
+      "Pasal 100",
+      "Pasal 101",
+      "Pasal 102",
+      "Pasal 103",
+      "Pasal 104",
+      "Pasal 105",
+      "Pasal 106",
+      "Pasal 107",
+      "Pasal 108",
+      "Pasal 109",
+      "Pasal 11",
+      "Pasal 110",
+      "Pasal 111",
+      "Pasal 112",
+      "Pasal 113",
+      "Pasal 114",
+      "Pasal 115",
+      "Pasal 116",
+      "Pasal 117",
+      "Pasal 118",
+      "Pasal 119",
+      "Pasal 12",
+      "Pasal 120",
+      "Pasal 121",
+      "Pasal 122",
+      "Pasal 123",
+      "Pasal 124",
+      "Pasal 125",
+      "Pasal 126",
+      "Pasal 127",
+      "Pasal 128",
+      "Pasal 129",
+      "Pasal 13",
+      "Pasal 130",
+      "Pasal 131",
+      "Pasal 132",
+      "Pasal 133",
+      "Pasal 134",
+      "Pasal 135",
+      "Pasal 136",
+      "Pasal 137",
+      "Pasal 138",
+      "Pasal 139",
+      "Pasal 14",
+      "Pasal 140",
+      "Pasal 141",
+      "Pasal 142",
+      "Pasal 143",
+      "Pasal 144",
+      "Pasal 145",
+      "Pasal 146",
+      "Pasal 147",
+      "Pasal 148",
+      "Pasal 149",
+      "Pasal 15",
+      "Pasal 150",
+      "Pasal 151",
+      "Pasal 152",
+      "Pasal 153",
+      "Pasal 154",
+      "Pasal 155",
+      "Pasal 156",
+      "Pasal 157",
+      "Pasal 158",
+      "Pasal 159",
+      "Pasal 16",
+      "Pasal 160",
+      "Pasal 161",
+      "Pasal 162",
+      "Pasal 163",
+      "Pasal 164",
+      "Pasal 165",
+      "Pasal 166",
+      "Pasal 167",
+      "Pasal 168",
+      "Pasal 169",
+      "Pasal 17",
+      "Pasal 170",
+      "Pasal 171",
+      "Pasal 172",
+      "Pasal 173",
+      "Pasal 174",
+      "Pasal 175",
+      "Pasal 176",
+      "Pasal 177",
+      "Pasal 178",
+      "Pasal 179",
+      "Pasal 18",
+      "Pasal 180",
+      "Pasal 181",
+      "Pasal 182",
+      "Pasal 183",
+      "Pasal 184",
+      "Pasal 185",
+      "Pasal 186",
+      "Pasal 187",
+      "Pasal 188",
+      "Pasal 189",
+      "Pasal 19",
+      "Pasal 190",
+      "Pasal 191",
+      "Pasal 192",
+      "Pasal 193",
+      "Pasal 194",
+      "Pasal 195",
+      "Pasal 196",
+      "Pasal 197",
+      "Pasal 198",
+      "Pasal 199",
+      "Pasal 2",
+      "Pasal 20",
+      "Pasal 200",
+      "Pasal 201",
+      "Pasal 202",
+      "Pasal 203",
+      "Pasal 204",
+      "Pasal 205",
+      "Pasal 206",
+      "Pasal 207",
+      "Pasal 208",
+      "Pasal 209",
+      "Pasal 21",
+      "Pasal 210",
+      "Pasal 211",
+      "Pasal 212",
+      "Pasal 213",
+      "Pasal 214",
+      "Pasal 215",
+      "Pasal 216",
+      "Pasal 217",
+      "Pasal 218",
+      "Pasal 219",
+      "Pasal 22",
+      "Pasal 220",
+      "Pasal 221",
+      "Pasal 222",
+      "Pasal 223",
+      "Pasal 224",
+      "Pasal 225",
+      "Pasal 226",
+      "Pasal 227",
+      "Pasal 228",
+      "Pasal 229",
+      "Pasal 23",
+      "Pasal 230",
+      "Pasal 231",
+      "Pasal 232",
+      "Pasal 233",
+      "Pasal 235",
+      "Pasal 236",
+      "Pasal 237",
+      "Pasal 238",
+      "Pasal 239",
+      "Pasal 24",
+      "Pasal 240",
+      "Pasal 241",
+      "Pasal 242",
+      "Pasal 243",
+      "Pasal 244",
+      "Pasal 245",
+      "Pasal 246",
+      "Pasal 247",
+      "Pasal 248",
+      "Pasal 249",
+      "Pasal 25",
+      "Pasal 250",
+      "Pasal 251",
+      "Pasal 252",
+      "Pasal 253",
+      "Pasal 254",
+      "Pasal 255",
+      "Pasal 256",
+      "Pasal 257",
+      "Pasal 258",
+      "Pasal 259",
+      "Pasal 26",
+      "Pasal 260",
+      "Pasal 261",
+      "Pasal 262",
+      "Pasal 263",
+      "Pasal 264",
+      "Pasal 265",
+      "Pasal 266",
+      "Pasal 267",
+      "Pasal 268",
+      "Pasal 269",
+      "Pasal 27",
+      "Pasal 270",
+      "Pasal 271",
+      "Pasal 272",
+      "Pasal 273",
+      "Pasal 274",
+      "Pasal 275",
+      "Pasal 276",
+      "Pasal 277",
+      "Pasal 278",
+      "Pasal 279",
+      "Pasal 28",
+      "Pasal 280",
+      "Pasal 281",
+      "Pasal 282",
+      "Pasal 283",
+      "Pasal 284",
+      "Pasal 285",
+      "Pasal 286",
+      "Pasal 287",
+      "Pasal 288",
+      "Pasal 289",
+      "Pasal 29",
+      "Pasal 290",
+      "Pasal 291",
+      "Pasal 292",
+      "Pasal 293",
+      "Pasal 294",
+      "Pasal 295",
+      "Pasal 296",
+      "Pasal 297",
+      "Pasal 298",
+      "Pasal 299",
+      "Pasal 3",
+      "Pasal 30",
+      "Pasal 300",
+      "Pasal 301",
+      "Pasal 302",
+      "Pasal 303",
+      "Pasal 304",
+      "Pasal 305",
+      "Pasal 306",
+      "Pasal 307",
+      "Pasal 308",
+      "Pasal 309",
+      "Pasal 31",
+      "Pasal 310",
+      "Pasal 311",
+      "Pasal 312",
+      "Pasal 313",
+      "Pasal 314",
+      "Pasal 315",
+      "Pasal 316",
+      "Pasal 317",
+      "Pasal 318",
+      "Pasal 319",
+      "Pasal 32",
+      "Pasal 320",
+      "Pasal 321",
+      "Pasal 322",
+      "Pasal 323",
+      "Pasal 324",
+      "Pasal 325",
+      "Pasal 326",
+      "Pasal 327",
+      "Pasal 328",
+      "Pasal 329",
+      "Pasal 33",
+      "Pasal 330",
+      "Pasal 331",
+      "Pasal 332",
+      "Pasal 333",
+      "Pasal 334",
+      "Pasal 335",
+      "Pasal 336",
+      "Pasal 337",
+      "Pasal 338",
+      "Pasal 339",
+      "Pasal 34",
+      "Pasal 340",
+      "Pasal 341",
+      "Pasal 342",
+      "Pasal 343",
+      "Pasal 344",
+      "Pasal 345",
+      "Pasal 346",
+      "Pasal 347",
+      "Pasal 348",
+      "Pasal 349",
+      "Pasal 35",
+      "Pasal 350",
+      "Pasal 351",
+      "Pasal 352",
+      "Pasal 353",
+      "Pasal 354",
+      "Pasal 355",
+      "Pasal 356",
+      "Pasal 357",
+      "Pasal 358",
+      "Pasal 359",
+      "Pasal 36",
+      "Pasal 360",
+      "Pasal 361",
+      "Pasal 362",
+      "Pasal 363",
+      "Pasal 364",
+      "Pasal 365",
+      "Pasal 366",
+      "Pasal 367",
+      "Pasal 368",
+      "Pasal 369",
+      "Pasal 37",
+      "Pasal 370",
+      "Pasal 371",
+      "Pasal 372",
+      "Pasal 373",
+      "Pasal 374",
+      "Pasal 375",
+      "Pasal 376",
+      "Pasal 377",
+      "Pasal 378",
+      "Pasal 379",
+      "Pasal 38",
+      "Pasal 380",
+      "Pasal 381",
+      "Pasal 382",
+      "Pasal 383",
+      "Pasal 384",
+      "Pasal 385",
+      "Pasal 386",
+      "Pasal 387",
+      "Pasal 388",
+      "Pasal 389",
+      "Pasal 39",
+      "Pasal 390",
+      "Pasal 391",
+      "Pasal 392",
+      "Pasal 393",
+      "Pasal 394",
+      "Pasal 395",
+      "Pasal 396",
+      "Pasal 397",
+      "Pasal 398",
+      "Pasal 399",
+      "Pasal 4",
+      "Pasal 40",
+      "Pasal 400",
+      "Pasal 401",
+      "Pasal 402",
+      "Pasal 403",
+      "Pasal 404",
+      "Pasal 405",
+      "Pasal 406",
+      "Pasal 407",
+      "Pasal 408",
+      "Pasal 409",
+      "Pasal 41",
+      "Pasal 410",
+      "Pasal 411",
+      "Pasal 42",
+      "Pasal 43",
+      "Pasal 44",
+      "Pasal 45",
+      "Pasal 46",
+      "Pasal 47",
+      "Pasal 48",
+      "Pasal 49",
+      "Pasal 5",
+      "Pasal 50",
+      "Pasal 51",
+      "Pasal 52",
+      "Pasal 53",
+      "Pasal 54",
+      "Pasal 55",
+      "Pasal 56",
+      "Pasal 57",
+      "Pasal 58",
+      "Pasal 59",
+      "Pasal 6",
+      "Pasal 60",
+      "Pasal 61",
+      "Pasal 62",
+      "Pasal 63",
+      "Pasal 64",
+      "Pasal 65",
+      "Pasal 66",
+      "Pasal 67",
+      "Pasal 68",
+      "Pasal 69",
+      "Pasal 7",
+      "Pasal 70",
+      "Pasal 71",
+      "Pasal 72",
+      "Pasal 73",
+      "Pasal 74",
+      "Pasal 75",
+      "Pasal 76",
+      "Pasal 77",
+      "Pasal 78",
+      "Pasal 79",
+      "Pasal 8",
+      "Pasal 80",
+      "Pasal 81",
+      "Pasal 82",
+      "Pasal 83",
+      "Pasal 84",
+      "Pasal 85",
+      "Pasal 86",
+      "Pasal 87",
+      "Pasal 88",
+      "Pasal 89",
+      "Pasal 9",
+      "Pasal 90",
+      "Pasal 91",
+      "Pasal 92",
+      "Pasal 93",
+      "Pasal 94",
+      "Pasal 95",
+      "Pasal 96",
+      "Pasal 97",
+      "Pasal 98",
+      "Pasal 99"
+    ],
+    "pasal_dilewati": [
+      {
+        "pasal": "Pasal 1",
+        "alasan": "definisi/istilah"
+      },
+      {
+        "pasal": "Pasal 2",
+        "alasan": "pembagian wilayah negara"
+      },
+      {
+        "pasal": "Pasal 3",
+        "alasan": "pembentukan daerah"
+      },
+      {
+        "pasal": "Pasal 4",
+        "alasan": "status wilayah administratif"
+      },
+      {
+        "pasal": "Pasal 5",
+        "alasan": "kekuasaan pemerintahan"
+      },
+      {
+        "pasal": "Pasal 6",
+        "alasan": "kebijakan pemerintah pusat"
+      },
+      {
+        "pasal": "Pasal 7",
+        "alasan": "pembinaan dan pengawasan"
+      },
+      {
+        "pasal": "Pasal 8",
+        "alasan": "kewenangan pembinaan dan pengawasan"
+      },
+      {
+        "pasal": "Pasal 9",
+        "alasan": "klasifikasi urusan pemerintahan"
+      },
+      {
+        "pasal": "Pasal 10",
+        "alasan": "urusan pemerintahan absolut"
+      },
+      {
+        "pasal": "Pasal 11",
+        "alasan": "pembagian urusan pemerintahan konkuren"
+      },
+      {
+        "pasal": "Pasal 13",
+        "alasan": "kriteria pembagian urusan pemerintahan"
+      },
+      {
+        "pasal": "Pasal 14",
+        "alasan": "pembagian urusan kehutanan, kelautan, dan ESDM"
+      },
+      {
+        "pasal": "Pasal 15",
+        "alasan": "pembagian urusan melalui Lampiran"
+      },
+      {
+        "pasal": "Pasal 16",
+        "alasan": "kewenangan pemerintah pusat menetapkan NSPK"
+      },
+      {
+        "pasal": "Pasal 17",
+        "alasan": "kebijakan daerah dan pembatalannya"
+      },
+      {
+        "pasal": "Pasal 18",
+        "alasan": "prioritas pelayanan dasar dan SPM"
+      },
+      {
+        "pasal": "Pasal 19",
+        "alasan": "penyelenggaraan urusan pemerintahan pusat"
+      },
+      {
+        "pasal": "Pasal 20",
+        "alasan": "penyelenggaraan urusan pemerintahan daerah"
+      },
+      {
+        "pasal": "Pasal 21",
+        "alasan": "ketentuan lebih lanjut urusan konkuren"
+      },
+      {
+        "pasal": "Pasal 22",
+        "alasan": "kebijakan daerah pelaksanaan tugas pembantuan"
+      },
+      {
+        "pasal": "Pasal 23",
+        "alasan": "ketentuan lebih lanjut dekonsentrasi dan tugas pembantuan"
+      },
+      {
+        "pasal": "Pasal 24",
+        "alasan": "pemetaan urusan pemerintahan"
+      },
+      {
+        "pasal": "Pasal 25",
+        "alasan": "urusan pemerintahan umum"
+      },
+      {
+        "pasal": "Pasal 26",
+        "alasan": "kelembagaan Forkopimda"
+      },
+      {
+        "pasal": "Pasal 27",
+        "alasan": "kewenangan provinsi di laut"
+      },
+      {
+        "pasal": "Pasal 28",
+        "alasan": "kewenangan provinsi berciri kepulauan"
+      },
+      {
+        "pasal": "Pasal 29",
+        "alasan": "kebijakan DAU dan DAK provinsi berciri kepulauan"
+      },
+      {
+        "pasal": "Pasal 30",
+        "alasan": "ketentuan lebih lanjut kewenangan di laut"
+      },
+      {
+        "pasal": "Pasal 31",
+        "alasan": "penataan daerah"
+      },
+      {
+        "pasal": "Pasal 32",
+        "alasan": "bentuk pembentukan daerah"
+      },
+      {
+        "pasal": "Pasal 33",
+        "alasan": "pemekaran daerah"
+      },
+      {
+        "pasal": "Pasal 34",
+        "alasan": "persyaratan dasar pembentukan daerah"
+      },
+      {
+        "pasal": "Pasal 35",
+        "alasan": "parameter luas wilayah, penduduk, cakupan, dan usia daerah"
+      },
+      {
+        "pasal": "Pasal 36",
+        "alasan": "parameter kapasitas daerah"
+      },
+      {
+        "pasal": "Pasal 37",
+        "alasan": "persyaratan administratif"
+      },
+      {
+        "pasal": "Pasal 38",
+        "alasan": "usulan pembentukan daerah persiapan"
+      },
+      {
+        "pasal": "Pasal 39",
+        "alasan": "penetapan dan masa jabatan daerah persiapan"
+      },
+      {
+        "pasal": "Pasal 40",
+        "alasan": "pendanaan daerah persiapan"
+      },
+      {
+        "pasal": "Pasal 41",
+        "alasan": "kewajiban daerah induk dan daerah persiapan"
+      },
+      {
+        "pasal": "Pasal 42",
+        "alasan": "pembinaan dan pengawasan daerah persiapan"
+      },
+      {
+        "pasal": "Pasal 43",
+        "alasan": "evaluasi akhir masa daerah persiapan"
+      },
+      {
+        "pasal": "Pasal 44",
+        "alasan": "bentuk penggabungan daerah"
+      },
+      {
+        "pasal": "Pasal 45",
+        "alasan": "persyaratan penggabungan daerah"
+      },
+      {
+        "pasal": "Pasal 46",
+        "alasan": "usulan penggabungan daerah"
+      },
+      {
+        "pasal": "Pasal 47",
+        "alasan": "penggabungan karena tidak mampu otonomi"
+      },
+      {
+        "pasal": "Pasal 48",
+        "alasan": "bentuk penyesuaian daerah"
+      },
+      {
+        "pasal": "Pasal 49",
+        "alasan": "pembentukan daerah strategis nasional"
+      },
+      {
+        "pasal": "Pasal 50",
+        "alasan": "konsultasi dan penetapan daerah persiapan"
+      },
+      {
+        "pasal": "Pasal 51",
+        "alasan": "sarana, personel, dan pendanaan daerah persiapan"
+      },
+      {
+        "pasal": "Pasal 52",
+        "alasan": "pembinaan dan pengawasan daerah persiapan strategis"
+      },
+      {
+        "pasal": "Pasal 53",
+        "alasan": "evaluasi akhir daerah persiapan strategis"
+      },
+      {
+        "pasal": "Pasal 54",
+        "alasan": "penyesuaian daerah strategis nasional"
+      },
+      {
+        "pasal": "Pasal 55",
+        "alasan": "ketentuan lebih lanjut penataan daerah"
+      },
+      {
+        "pasal": "Pasal 56",
+        "alasan": "desain besar penataan daerah"
+      },
+      {
+        "pasal": "Pasal 57",
+        "alasan": "penyelenggara pemerintahan daerah"
+      },
+      {
+        "pasal": "Pasal 58",
+        "alasan": "asas penyelenggaraan pemerintahan daerah"
+      },
+      {
+        "pasal": "Pasal 59",
+        "alasan": "kepala daerah"
+      },
+      {
+        "pasal": "Pasal 60",
+        "alasan": "masa jabatan kepala daerah"
+      },
+      {
+        "pasal": "Pasal 61",
+        "alasan": "pelantikan dan sumpah/janji kepala daerah"
+      },
+      {
+        "pasal": "Pasal 62",
+        "alasan": "pemilihan kepala daerah diatur dengan undang-undang"
+      },
+      {
+        "pasal": "Pasal 63",
+        "alasan": "wakil kepala daerah"
+      },
+      {
+        "pasal": "Pasal 64",
+        "alasan": "pelantikan dan sumpah/janji wakil kepala daerah"
+      },
+      {
+        "pasal": "Pasal 65",
+        "alasan": "tugas dan wewenang kepala daerah"
+      },
+      {
+        "pasal": "Pasal 66",
+        "alasan": "tugas wakil kepala daerah"
+      },
+      {
+        "pasal": "Pasal 67",
+        "alasan": "kewajiban kepala daerah dan wakil kepala daerah"
+      },
+      {
+        "pasal": "Pasal 68",
+        "alasan": "sanksi administratif pelaksanaan program strategis nasional"
+      },
+      {
+        "pasal": "Pasal 69",
+        "alasan": "kewajiban penyampaian laporan"
+      },
+      {
+        "pasal": "Pasal 70",
+        "alasan": "laporan penyelenggaraan pemerintahan daerah"
+      },
+      {
+        "pasal": "Pasal 71",
+        "alasan": "laporan keterangan pertanggungjawaban"
+      },
+      {
+        "pasal": "Pasal 72",
+        "alasan": "ringkasan laporan kepada masyarakat"
+      },
+      {
+        "pasal": "Pasal 73",
+        "alasan": "sanksi administratif atas laporan"
+      },
+      {
+        "pasal": "Pasal 74",
+        "alasan": "ketentuan lebih lanjut laporan dan evaluasi"
+      },
+      {
+        "pasal": "Pasal 75",
+        "alasan": "hak protokoler dan hak keuangan kepala daerah"
+      },
+      {
+        "pasal": "Pasal 76",
+        "alasan": "larangan bagi kepala daerah dan wakil kepala daerah"
+      },
+      {
+        "pasal": "Pasal 77",
+        "alasan": "sanksi atas pelanggaran larangan"
+      },
+      {
+        "pasal": "Pasal 78",
+        "alasan": "sebab berhenti dan pemberhentian kepala daerah"
+      },
+      {
+        "pasal": "Pasal 79",
+        "alasan": "pengumuman dan usul pemberhentian"
+      },
+      {
+        "pasal": "Pasal 80",
+        "alasan": "tata cara pemberhentian melalui Mahkamah Agung"
+      },
+      {
+        "pasal": "Pasal 81",
+        "alasan": "pemberhentian oleh pemerintah pusat"
+      },
+      {
+        "pasal": "Pasal 82",
+        "alasan": "dokumen palsu dan hak angket DPRD"
+      },
+      {
+        "pasal": "Pasal 83",
+        "alasan": "pemberhentian sementara karena tindak pidana"
+      },
+      {
+        "pasal": "Pasal 84",
+        "alasan": "pengaktifan kembali dan rehabilitasi"
+      },
+      {
+        "pasal": "Pasal 85",
+        "alasan": "hak interpelasi dan angket atas krisis kepercayaan"
+      },
+      {
+        "pasal": "Pasal 86",
+        "alasan": "penjabat kepala daerah"
+      },
+      {
+        "pasal": "Pasal 87",
+        "alasan": "pengisian jabatan gubernur dan bupati/wali kota"
+      },
+      {
+        "pasal": "Pasal 88",
+        "alasan": "pelaksanaan tugas sehari-hari kepala daerah"
+      },
+      {
+        "pasal": "Pasal 89",
+        "alasan": "pengisian jabatan wakil kepala daerah"
+      },
+      {
+        "pasal": "Pasal 90",
+        "alasan": "persetujuan penyidikan dan penahanan kepala daerah"
+      },
+      {
+        "pasal": "Pasal 91",
+        "alasan": "tugas dan wewenang gubernur sebagai wakil pemerintah pusat"
+      },
+      {
+        "pasal": "Pasal 92",
+        "alasan": "pengambilalihan tugas gubernur oleh Menteri"
+      },
+      {
+        "pasal": "Pasal 93",
+        "alasan": "perangkat gubernur sebagai wakil pemerintah pusat"
+      },
+      {
+        "pasal": "Pasal 94",
+        "alasan": "susunan DPRD provinsi"
+      },
+      {
+        "pasal": "Pasal 95",
+        "alasan": "kedudukan DPRD provinsi"
+      },
+      {
+        "pasal": "Pasal 96",
+        "alasan": "fungsi DPRD provinsi"
+      },
+      {
+        "pasal": "Pasal 97",
+        "alasan": "pelaksanaan fungsi pembentukan Perda"
+      },
+      {
+        "pasal": "Pasal 98",
+        "alasan": "program pembentukan Perda provinsi"
+      },
+      {
+        "pasal": "Pasal 99",
+        "alasan": "fungsi anggaran DPRD provinsi"
+      },
+      {
+        "pasal": "Pasal 100",
+        "alasan": "fungsi pengawasan DPRD provinsi"
+      },
+      {
+        "pasal": "Pasal 101",
+        "alasan": "tugas dan wewenang DPRD provinsi"
+      },
+      {
+        "pasal": "Pasal 102",
+        "alasan": "keanggotaan DPRD provinsi"
+      },
+      {
+        "pasal": "Pasal 103",
+        "alasan": "pengucapan sumpah/janji anggota DPRD provinsi"
+      },
+      {
+        "pasal": "Pasal 104",
+        "alasan": "teks sumpah/janji anggota DPRD provinsi"
+      },
+      {
+        "pasal": "Pasal 105",
+        "alasan": "pengisian anggota DPRD provinsi daerah baru"
+      },
+      {
+        "pasal": "Pasal 106",
+        "alasan": "hak DPRD provinsi"
+      },
+      {
+        "pasal": "Pasal 107",
+        "alasan": "hak anggota DPRD provinsi"
+      },
+      {
+        "pasal": "Pasal 108",
+        "alasan": "kewajiban anggota DPRD provinsi"
+      },
+      {
+        "pasal": "Pasal 109",
+        "alasan": "pembentukan fraksi DPRD provinsi"
+      },
+      {
+        "pasal": "Pasal 110",
+        "alasan": "alat kelengkapan DPRD provinsi"
+      },
+      {
+        "pasal": "Pasal 111",
+        "alasan": "pimpinan DPRD provinsi"
+      },
+      {
+        "pasal": "Pasal 112",
+        "alasan": "pimpinan sementara DPRD provinsi"
+      },
+      {
+        "pasal": "Pasal 113",
+        "alasan": "pembentukan komisi DPRD provinsi"
+      },
+      {
+        "pasal": "Pasal 114",
+        "alasan": "pelaksanaan hak interpelasi"
+      },
+      {
+        "pasal": "Pasal 115",
+        "alasan": "pelaksanaan hak angket"
+      },
+      {
+        "pasal": "Pasal 116",
+        "alasan": "keputusan atas usul hak angket"
+      },
+      {
+        "pasal": "Pasal 117",
+        "alasan": "pemanggilan dalam penyelidikan hak angket"
+      },
+      {
+        "pasal": "Pasal 118",
+        "alasan": "laporan panitia angket"
+      },
+      {
+        "pasal": "Pasal 119",
+        "alasan": "tata cara pelaksanaan hak angket"
+      },
+      {
+        "pasal": "Pasal 120",
+        "alasan": "pelaksanaan hak menyatakan pendapat"
+      },
+      {
+        "pasal": "Pasal 121",
+        "alasan": "tata cara pelaksanaan hak menyatakan pendapat"
+      },
+      {
+        "pasal": "Pasal 122",
+        "alasan": "hak imunitas anggota DPRD, di luar domain ketenagakerjaan"
+      },
+      {
+        "pasal": "Pasal 123",
+        "alasan": "hak protokoler DPRD, di luar domain ketenagakerjaan"
+      },
+      {
+        "pasal": "Pasal 124",
+        "alasan": "hak keuangan dan administratif DPRD, di luar domain ketenagakerjaan"
+      },
+      {
+        "pasal": "Pasal 125",
+        "alasan": "tahun sidang DPRD, tata cara internal lembaga"
+      },
+      {
+        "pasal": "Pasal 126",
+        "alasan": "sifat rapat DPRD, tata cara internal lembaga"
+      },
+      {
+        "pasal": "Pasal 127",
+        "alasan": "tata tertib persidangan DPRD, tata cara internal"
+      },
+      {
+        "pasal": "Pasal 128",
+        "alasan": "pengambilan keputusan rapat DPRD, tata cara internal"
+      },
+      {
+        "pasal": "Pasal 129",
+        "alasan": "kuorum dan keabsahan keputusan rapat DPRD, tata cara internal"
+      },
+      {
+        "pasal": "Pasal 130",
+        "alasan": "kesepakatan hasil keputusan rapat DPRD, tata cara internal"
+      },
+      {
+        "pasal": "Pasal 131",
+        "alasan": "tata cara pengambilan keputusan DPRD, tata cara internal"
+      },
+      {
+        "pasal": "Pasal 132",
+        "alasan": "tata tertib DPRD provinsi, tata cara internal"
+      },
+      {
+        "pasal": "Pasal 133",
+        "alasan": "kode etik anggota DPRD, etika kelembagaan"
+      },
+      {
+        "pasal": "Pasal 134",
+        "alasan": "larangan rangkap jabatan anggota DPRD, etika kelembagaan"
+      },
+      {
+        "pasal": "Pasal 135",
+        "alasan": "sanksi pelanggaran kewajiban anggota DPRD"
+      },
+      {
+        "pasal": "Pasal 136",
+        "alasan": "jenis sanksi anggota DPRD"
+      },
+      {
+        "pasal": "Pasal 137",
+        "alasan": "pengaduan ke badan kehormatan DPRD, tata cara internal"
+      },
+      {
+        "pasal": "Pasal 138",
+        "alasan": "tata beracara badan kehormatan DPRD, tata cara internal"
+      },
+      {
+        "pasal": "Pasal 139",
+        "alasan": "pemberhentian antarwaktu anggota DPRD, keanggotaan lembaga"
+      },
+      {
+        "pasal": "Pasal 140",
+        "alasan": "usul pemberhentian anggota DPRD, tata cara kelembagaan"
+      },
+      {
+        "pasal": "Pasal 141",
+        "alasan": "penyelidikan dan verifikasi pemberhentian anggota DPRD, tata cara kelembagaan"
+      },
+      {
+        "pasal": "Pasal 142",
+        "alasan": "bantuan ahli independen badan kehormatan, tata cara internal"
+      },
+      {
+        "pasal": "Pasal 143",
+        "alasan": "penggantian antarwaktu anggota DPRD, keanggotaan lembaga"
+      },
+      {
+        "pasal": "Pasal 144",
+        "alasan": "tata cara penggantian antarwaktu anggota DPRD, keanggotaan lembaga"
+      },
+      {
+        "pasal": "Pasal 145",
+        "alasan": "peraturan pelaksanaan penggantian antarwaktu, tata cara kelembagaan"
+      },
+      {
+        "pasal": "Pasal 146",
+        "alasan": "pemberhentian sementara anggota DPRD, keanggotaan lembaga"
+      },
+      {
+        "pasal": "Pasal 147",
+        "alasan": "susunan keanggotaan DPRD kabupaten/kota, kelembagaan"
+      },
+      {
+        "pasal": "Pasal 148",
+        "alasan": "kedudukan DPRD kabupaten/kota, kelembagaan"
+      },
+      {
+        "pasal": "Pasal 149",
+        "alasan": "fungsi DPRD kabupaten/kota, kelembagaan"
+      },
+      {
+        "pasal": "Pasal 150",
+        "alasan": "pelaksanaan fungsi pembentukan Perda, kelembagaan"
+      },
+      {
+        "pasal": "Pasal 151",
+        "alasan": "program pembentukan Perda, tata cara internal"
+      },
+      {
+        "pasal": "Pasal 152",
+        "alasan": "fungsi anggaran DPRD, kelembagaan"
+      },
+      {
+        "pasal": "Pasal 153",
+        "alasan": "fungsi pengawasan DPRD, kelembagaan"
+      },
+      {
+        "pasal": "Pasal 154",
+        "alasan": "tugas dan wewenang DPRD kabupaten/kota, kelembagaan"
+      },
+      {
+        "pasal": "Pasal 155",
+        "alasan": "jumlah dan masa jabatan anggota DPRD, keanggotaan lembaga"
+      },
+      {
+        "pasal": "Pasal 156",
+        "alasan": "pengucapan sumpah/janji anggota DPRD, tata cara internal"
+      },
+      {
+        "pasal": "Pasal 157",
+        "alasan": "teks sumpah/janji anggota DPRD, tata cara internal"
+      },
+      {
+        "pasal": "Pasal 158",
+        "alasan": "pengisian anggota DPRD pada daerah baru, tata cara pemilu"
+      },
+      {
+        "pasal": "Pasal 159",
+        "alasan": "hak interpelasi, angket, dan pendapat DPRD, kelembagaan"
+      },
+      {
+        "pasal": "Pasal 160",
+        "alasan": "hak anggota DPRD, keanggotaan lembaga"
+      },
+      {
+        "pasal": "Pasal 161",
+        "alasan": "kewajiban anggota DPRD, keanggotaan lembaga"
+      },
+      {
+        "pasal": "Pasal 162",
+        "alasan": "pembentukan fraksi DPRD, tata cara internal"
+      },
+      {
+        "pasal": "Pasal 163",
+        "alasan": "alat kelengkapan DPRD, kelembagaan"
+      },
+      {
+        "pasal": "Pasal 164",
+        "alasan": "susunan pimpinan DPRD kabupaten/kota, kelembagaan"
+      },
+      {
+        "pasal": "Pasal 165",
+        "alasan": "pimpinan sementara DPRD, kelembagaan"
+      },
+      {
+        "pasal": "Pasal 166",
+        "alasan": "pembentukan komisi DPRD, kelembagaan"
+      },
+      {
+        "pasal": "Pasal 167",
+        "alasan": "usul hak interpelasi DPRD, tata cara internal"
+      },
+      {
+        "pasal": "Pasal 168",
+        "alasan": "tata cara pelaksanaan hak interpelasi, tata cara internal"
+      },
+      {
+        "pasal": "Pasal 169",
+        "alasan": "usul hak angket DPRD, tata cara internal"
+      },
+      {
+        "pasal": "Pasal 170",
+        "alasan": "keputusan dan panitia angket DPRD, tata cara internal"
+      },
+      {
+        "pasal": "Pasal 171",
+        "alasan": "pemanggilan pihak oleh panitia angket, tata cara internal"
+      },
+      {
+        "pasal": "Pasal 172",
+        "alasan": "laporan panitia angket, tata cara internal"
+      },
+      {
+        "pasal": "Pasal 173",
+        "alasan": "tata cara pelaksanaan hak angket, tata cara internal"
+      },
+      {
+        "pasal": "Pasal 174",
+        "alasan": "usul hak menyatakan pendapat DPRD, tata cara internal"
+      },
+      {
+        "pasal": "Pasal 175",
+        "alasan": "tata cara hak menyatakan pendapat, tata cara internal"
+      },
+      {
+        "pasal": "Pasal 176",
+        "alasan": "hak imunitas anggota DPRD, keanggotaan lembaga"
+      },
+      {
+        "pasal": "Pasal 177",
+        "alasan": "hak protokoler DPRD, keanggotaan lembaga"
+      },
+      {
+        "pasal": "Pasal 178",
+        "alasan": "hak keuangan dan administratif DPRD, keanggotaan lembaga"
+      },
+      {
+        "pasal": "Pasal 179",
+        "alasan": "tahun sidang DPRD, tata cara internal"
+      },
+      {
+        "pasal": "Pasal 180",
+        "alasan": "sifat rapat DPRD, tata cara internal"
+      },
+      {
+        "pasal": "Pasal 181",
+        "alasan": "tata cara persidangan dan rapat DPRD, tata cara internal"
+      },
+      {
+        "pasal": "Pasal 182",
+        "alasan": "pengambilan keputusan rapat DPRD, tata cara internal"
+      },
+      {
+        "pasal": "Pasal 183",
+        "alasan": "kuorum dan keabsahan keputusan rapat DPRD, tata cara internal"
+      },
+      {
+        "pasal": "Pasal 184",
+        "alasan": "kesepakatan hasil keputusan rapat DPRD, tata cara internal"
+      },
+      {
+        "pasal": "Pasal 185",
+        "alasan": "tata cara pengambilan keputusan DPRD, tata cara internal"
+      },
+      {
+        "pasal": "Pasal 186",
+        "alasan": "tata tertib DPRD kabupaten/kota, tata cara internal"
+      },
+      {
+        "pasal": "Pasal 187",
+        "alasan": "kode etik anggota DPRD, etika kelembagaan"
+      },
+      {
+        "pasal": "Pasal 188",
+        "alasan": "larangan rangkap jabatan anggota DPRD, etika kelembagaan"
+      },
+      {
+        "pasal": "Pasal 189",
+        "alasan": "sanksi pelanggaran kewajiban anggota DPRD"
+      },
+      {
+        "pasal": "Pasal 190",
+        "alasan": "jenis sanksi anggota DPRD"
+      },
+      {
+        "pasal": "Pasal 191",
+        "alasan": "pengaduan ke badan kehormatan DPRD, tata cara internal"
+      },
+      {
+        "pasal": "Pasal 192",
+        "alasan": "tata beracara badan kehormatan DPRD, tata cara internal"
+      },
+      {
+        "pasal": "Pasal 193",
+        "alasan": "pemberhentian antarwaktu anggota DPRD, keanggotaan lembaga"
+      },
+      {
+        "pasal": "Pasal 194",
+        "alasan": "usul pemberhentian anggota DPRD, tata cara kelembagaan"
+      },
+      {
+        "pasal": "Pasal 195",
+        "alasan": "penyelidikan dan verifikasi pemberhentian anggota DPRD, tata cara kelembagaan"
+      },
+      {
+        "pasal": "Pasal 196",
+        "alasan": "bantuan ahli independen badan kehormatan, tata cara internal"
+      },
+      {
+        "pasal": "Pasal 197",
+        "alasan": "penggantian antarwaktu anggota DPRD, keanggotaan lembaga"
+      },
+      {
+        "pasal": "Pasal 198",
+        "alasan": "tata cara penggantian antarwaktu anggota DPRD"
+      },
+      {
+        "pasal": "Pasal 199",
+        "alasan": "peraturan pelaksanaan penggantian antarwaktu, tata cara kelembagaan"
+      },
+      {
+        "pasal": "Pasal 200",
+        "alasan": "pemberhentian sementara anggota DPRD, keanggotaan lembaga"
+      },
+      {
+        "pasal": "Pasal 201",
+        "alasan": "pembentukan sekretariat DPRD provinsi, kelembagaan"
+      },
+      {
+        "pasal": "Pasal 202",
+        "alasan": "susunan dan pengisian sekretariat DPRD provinsi, kelembagaan"
+      },
+      {
+        "pasal": "Pasal 203",
+        "alasan": "pengangkatan kelompok pakar DPRD provinsi, kelembagaan"
+      },
+      {
+        "pasal": "Pasal 204",
+        "alasan": "pembentukan sekretariat DPRD kabupaten/kota, kelembagaan"
+      },
+      {
+        "pasal": "Pasal 205",
+        "alasan": "susunan dan pengisian sekretariat DPRD kabupaten/kota, kelembagaan"
+      },
+      {
+        "pasal": "Pasal 206",
+        "alasan": "pengangkatan kelompok pakar DPRD kabupaten/kota, kelembagaan"
+      },
+      {
+        "pasal": "Pasal 207",
+        "alasan": "hubungan kerja DPRD dan kepala daerah, kelembagaan"
+      },
+      {
+        "pasal": "Pasal 208",
+        "alasan": "perangkat daerah dan pengisian ASN, kelembagaan"
+      },
+      {
+        "pasal": "Pasal 209",
+        "alasan": "susunan perangkat daerah, kelembagaan"
+      },
+      {
+        "pasal": "Pasal 210",
+        "alasan": "hubungan kerja antarpangkat daerah, kelembagaan"
+      },
+      {
+        "pasal": "Pasal 211",
+        "alasan": "pembinaan penataan perangkat daerah, kelembagaan"
+      },
+      {
+        "pasal": "Pasal 212",
+        "alasan": "pembentukan dan susunan perangkat daerah, kelembagaan"
+      },
+      {
+        "pasal": "Pasal 213",
+        "alasan": "sekretariat daerah dan sekretaris daerah, kelembagaan"
+      },
+      {
+        "pasal": "Pasal 214",
+        "alasan": "penjabat sekretaris daerah, kepegawaian daerah"
+      },
+      {
+        "pasal": "Pasal 215",
+        "alasan": "sekretariat DPRD dan tugas sekretaris DPRD, kelembagaan"
+      },
+      {
+        "pasal": "Pasal 216",
+        "alasan": "inspektorat daerah, kelembagaan"
+      },
+      {
+        "pasal": "Pasal 217",
+        "alasan": "pembentukan dan klasifikasi dinas, kelembagaan"
+      },
+      {
+        "pasal": "Pasal 218",
+        "alasan": "kepala dinas, kelembagaan"
+      },
+      {
+        "pasal": "Pasal 219",
+        "alasan": "pembentukan dan klasifikasi badan, kelembagaan"
+      },
+      {
+        "pasal": "Pasal 220",
+        "alasan": "kepala badan, kelembagaan"
+      },
+      {
+        "pasal": "Pasal 221",
+        "alasan": "pembentukan kecamatan, kelembagaan"
+      },
+      {
+        "pasal": "Pasal 222",
+        "alasan": "persyaratan pembentukan kecamatan, kelembagaan"
+      },
+      {
+        "pasal": "Pasal 223",
+        "alasan": "klasifikasi kecamatan, kelembagaan"
+      },
+      {
+        "pasal": "Pasal 224",
+        "alasan": "pengangkatan camat dari PNS, kepegawaian daerah"
+      },
+      {
+        "pasal": "Pasal 225",
+        "alasan": "tugas camat, kelembagaan"
+      },
+      {
+        "pasal": "Pasal 226",
+        "alasan": "pelimpahan kewenangan kepada camat, kelembagaan"
+      },
+      {
+        "pasal": "Pasal 227",
+        "alasan": "pendanaan tugas camat, keuangan daerah"
+      },
+      {
+        "pasal": "Pasal 228",
+        "alasan": "peraturan pelaksanaan kecamatan, tata cara kelembagaan"
+      },
+      {
+        "pasal": "Pasal 229",
+        "alasan": "pembentukan kelurahan dan pengangkatan lurah, kelembagaan"
+      },
+      {
+        "pasal": "Pasal 230",
+        "alasan": "anggaran pembangunan kelurahan, keuangan daerah"
+      },
+      {
+        "pasal": "Pasal 231",
+        "alasan": "penataan lembaga daerah, kelembagaan"
+      },
+      {
+        "pasal": "Pasal 232",
+        "alasan": "peraturan pelaksanaan perangkat daerah, tata cara kelembagaan"
+      },
+      {
+        "pasal": "Pasal 235",
+        "alasan": "pengangkatan kepala perangkat daerah, kelembagaan"
+      },
+      {
+        "pasal": "Pasal 236",
+        "alasan": "pembentukan Perda, tata cara pembentukan peraturan"
+      },
+      {
+        "pasal": "Pasal 237",
+        "alasan": "asas dan tahapan pembentukan Perda"
+      },
+      {
+        "pasal": "Pasal 238",
+        "alasan": "muatan sanksi dalam Perda"
+      },
+      {
+        "pasal": "Pasal 239",
+        "alasan": "perencanaan program pembentukan Perda"
+      },
+      {
+        "pasal": "Pasal 240",
+        "alasan": "penyusunan rancangan Perda, tata cara"
+      },
+      {
+        "pasal": "Pasal 241",
+        "alasan": "pembahasan rancangan Perda, tata cara"
+      },
+      {
+        "pasal": "Pasal 242",
+        "alasan": "penetapan dan nomor register Perda, tata cara"
+      },
+      {
+        "pasal": "Pasal 243",
+        "alasan": "nomor register Perda, tata cara"
+      },
+      {
+        "pasal": "Pasal 244",
+        "alasan": "pengundangan Perda, tata cara"
+      },
+      {
+        "pasal": "Pasal 245",
+        "alasan": "evaluasi rancangan Perda, tata cara pembentukan peraturan"
+      },
+      {
+        "pasal": "Pasal 246",
+        "alasan": "pembentukan Perkada, tata cara pembentukan peraturan"
+      },
+      {
+        "pasal": "Pasal 247",
+        "alasan": "perencanaan dan penetapan Perkada, tata cara"
+      },
+      {
+        "pasal": "Pasal 248",
+        "alasan": "pengundangan Perkada, tata cara"
+      },
+      {
+        "pasal": "Pasal 249",
+        "alasan": "penyampaian Perda kepada pemerintah atasan, tata cara"
+      },
+      {
+        "pasal": "Pasal 250",
+        "alasan": "larangan Perda/Perkada bertentangan dengan peraturan lebih tinggi, tata cara"
+      },
+      {
+        "pasal": "Pasal 251",
+        "alasan": "pembatalan Perda dan Perkada, tata cara"
+      },
+      {
+        "pasal": "Pasal 252",
+        "alasan": "sanksi penyelenggara yang memberlakukan Perda dibatalkan"
+      },
+      {
+        "pasal": "Pasal 253",
+        "alasan": "penyebarluasan program dan rancangan Perda, tata cara"
+      },
+      {
+        "pasal": "Pasal 254",
+        "alasan": "kewajiban penyebarluasan Perda dan Perkada, tata cara"
+      },
+      {
+        "pasal": "Pasal 255",
+        "alasan": "pembentukan dan kewenangan satuan polisi pamong praja, kelembagaan"
+      },
+      {
+        "pasal": "Pasal 257",
+        "alasan": "penyidikan dan penuntutan pelanggaran Perda, hukum acara"
+      },
+      {
+        "pasal": "Pasal 258",
+        "alasan": "tujuan pembangunan daerah, bukan norma kondisi-akibat"
+      },
+      {
+        "pasal": "Pasal 259",
+        "alasan": "koordinasi teknis pembangunan, tata cara pemerintahan"
+      },
+      {
+        "pasal": "Pasal 260",
+        "alasan": "penyusunan rencana pembangunan daerah, tata cara perencanaan"
+      },
+      {
+        "pasal": "Pasal 261",
+        "alasan": "pendekatan perencanaan pembangunan daerah, tata cara"
+      },
+      {
+        "pasal": "Pasal 262",
+        "alasan": "prinsip perumusan rencana pembangunan daerah, tata cara"
+      },
+      {
+        "pasal": "Pasal 263",
+        "alasan": "dokumen perencanaan pembangunan daerah, tata cara perencanaan"
+      },
+      {
+        "pasal": "Pasal 264",
+        "alasan": "penetapan RPJPD, RPJMD, dan RKPD, tata cara perencanaan"
+      },
+      {
+        "pasal": "Pasal 265",
+        "alasan": "kedudukan dokumen perencanaan sebagai pedoman, tata cara"
+      },
+      {
+        "pasal": "Pasal 266",
+        "alasan": "sanksi tidak menetapkan dokumen perencanaan daerah"
+      },
+      {
+        "pasal": "Pasal 267",
+        "alasan": "penyampaian rancangan Perda RPJPD/RPJMD untuk evaluasi, tata cara"
+      },
+      {
+        "pasal": "Pasal 268",
+        "alasan": "evaluasi rancangan Perda RPJPD provinsi, tata cara"
+      },
+      {
+        "pasal": "Pasal 269",
+        "alasan": "evaluasi rancangan Perda RPJMD provinsi, tata cara"
+      },
+      {
+        "pasal": "Pasal 270",
+        "alasan": "evaluasi rancangan Perda RPJPD kabupaten/kota, tata cara"
+      },
+      {
+        "pasal": "Pasal 271",
+        "alasan": "evaluasi rancangan Perda RPJMD kabupaten/kota, tata cara"
+      },
+      {
+        "pasal": "Pasal 272",
+        "alasan": "rencana strategis perangkat daerah, tata cara perencanaan"
+      },
+      {
+        "pasal": "Pasal 273",
+        "alasan": "penetapan rencana strategis dan rencana kerja perangkat daerah, tata cara"
+      },
+      {
+        "pasal": "Pasal 274",
+        "alasan": "sistem informasi pembangunan daerah, tata cara"
+      },
+      {
+        "pasal": "Pasal 275",
+        "alasan": "lingkup pengendalian dan evaluasi pembangunan daerah, tata cara"
+      },
+      {
+        "pasal": "Pasal 276",
+        "alasan": "pelaksana pengendalian dan evaluasi pembangunan daerah, tata cara"
+      },
+      {
+        "pasal": "Pasal 277",
+        "alasan": "peraturan pelaksanaan perencanaan dan evaluasi pembangunan, tata cara"
+      },
+      {
+        "pasal": "Pasal 278",
+        "alasan": "insentif dan kemudahan investasi daerah, di luar domain ketenagakerjaan"
+      },
+      {
+        "pasal": "Pasal 279",
+        "alasan": "hubungan keuangan pusat dan daerah, keuangan negara"
+      },
+      {
+        "pasal": "Pasal 280",
+        "alasan": "kewajiban pengelolaan keuangan daerah, keuangan negara"
+      },
+      {
+        "pasal": "Pasal 281",
+        "alasan": "hubungan keuangan antar-daerah, keuangan negara"
+      },
+      {
+        "pasal": "Pasal 282",
+        "alasan": "sumber pendanaan urusan pemerintahan, keuangan negara"
+      },
+      {
+        "pasal": "Pasal 283",
+        "alasan": "pengelolaan keuangan daerah, keuangan negara"
+      },
+      {
+        "pasal": "Pasal 284",
+        "alasan": "kelembagaan keuangan daerah: kewenangan kepala daerah mengelola keuangan Daerah dan pelimpahannya kepada pejabat Perangkat Daerah; di luar domain T-Box ketenagakerjaan"
+      },
+      {
+        "pasal": "Pasal 285",
+        "alasan": "daftar sumber pendapatan Daerah (PAD, pendapatan transfer, lain-lain); klasifikasi fiskal tanpa kondisi-akibat ketenagakerjaan"
+      },
+      {
+        "pasal": "Pasal 286",
+        "alasan": "penetapan pajak dan retribusi daerah dengan undang-undang/Perda serta larangan pungutan di luar undang-undang; di luar domain"
+      },
+      {
+        "pasal": "Pasal 287",
+        "alasan": "sanksi administratif bagi kepala daerah yang memungut di luar undang-undang dan kewajiban menyetorkan hasilnya ke kas negara; sanksi, bukan norma hak"
+      },
+      {
+        "pasal": "Pasal 288",
+        "alasan": "rincian dana perimbangan (DBH, DAU, DAK); definisi/klasifikasi transfer"
+      },
+      {
+        "pasal": "Pasal 289",
+        "alasan": "sumber dan rincian DBH dari pajak, cukai, dan sumber daya alam serta penetapan daerah penghasil; administrasi fiskal"
+      },
+      {
+        "pasal": "Pasal 290",
+        "alasan": "mekanisme alokasi DAU berdasarkan celah fiskal; administrasi keuangan daerah"
+      },
+      {
+        "pasal": "Pasal 291",
+        "alasan": "tata cara penetapan kebijakan dan alokasi DAU; prosedur anggaran"
+      },
+      {
+        "pasal": "Pasal 292",
+        "alasan": "mekanisme pengalokasian DAK untuk kegiatan khusus; prosedur anggaran"
+      },
+      {
+        "pasal": "Pasal 293",
+        "alasan": "ketentuan lebih lanjut mengenai supervisi penggunaan DBH, DAU, dan DAK diatur dengan peraturan pemerintah; bukan norma mandiri"
+      },
+      {
+        "pasal": "Pasal 294",
+        "alasan": "definisi dan penyaluran dana otonomi khusus, dana keistimewaan, dana desa, pendapatan bagi hasil, dan bantuan keuangan"
+      },
+      {
+        "pasal": "Pasal 295",
+        "alasan": "definisi lain-lain pendapatan Daerah yang sah dan hibah"
+      },
+      {
+        "pasal": "Pasal 296",
+        "alasan": "tata cara pengalokasian dan penggunaan dana darurat bagi Daerah yang mengalami bencana; prosedur administrasi"
+      },
+      {
+        "pasal": "Pasal 297",
+        "alasan": "komisi, rabat, potongan, dan penerimaan lain sebagai pendapatan Daerah serta kewajiban penyetorannya; keuangan daerah"
+      },
+      {
+        "pasal": "Pasal 298",
+        "alasan": "prioritas dan pedoman belanja Daerah termasuk belanja hibah dan DAK; keuangan daerah"
+      },
+      {
+        "pasal": "Pasal 299",
+        "alasan": "belanja kepala daerah, wakil kepala daerah, dan DPRD diatur dengan peraturan pemerintah; penunjukan pengaturan lebih lanjut"
+      },
+      {
+        "pasal": "Pasal 300",
+        "alasan": "kewenangan Daerah melakukan pinjaman dan menerbitkan obligasi Daerah; keuangan daerah"
+      },
+      {
+        "pasal": "Pasal 301",
+        "alasan": "pinjaman penerusan utang luar negeri dan perjanjian penerusan pinjaman; keuangan daerah"
+      },
+      {
+        "pasal": "Pasal 302",
+        "alasan": "ketentuan lebih lanjut pinjaman Daerah diatur dengan peraturan pemerintah dan larangan memberikan jaminan; penunjukan pengaturan"
+      },
+      {
+        "pasal": "Pasal 303",
+        "alasan": "pembentukan dan penggunaan dana cadangan Daerah; pengelolaan keuangan daerah, di luar domain T-Box ketenagakerjaan"
+      },
+      {
+        "pasal": "Pasal 304",
+        "alasan": "penyertaan modal Daerah pada BUMN/BUMD; keuangan dan kekayaan daerah yang dipisahkan"
+      },
+      {
+        "pasal": "Pasal 305",
+        "alasan": "penggunaan APBD surplus dan sumber penerimaan pembiayaan saat defisit; keuangan daerah"
+      },
+      {
+        "pasal": "Pasal 306",
+        "alasan": "pengendalian defisit APBD oleh Menteri dan gubernur; administrasi anggaran"
+      },
+      {
+        "pasal": "Pasal 307",
+        "alasan": "pengelolaan barang milik Daerah (pengadaan, penghapusan, larangan gadai); pengelolaan aset, bukan norma ketenagakerjaan"
+      },
+      {
+        "pasal": "Pasal 308",
+        "alasan": "kewenangan Menteri menetapkan pedoman penyusunan APBD; prosedur anggaran"
+      },
+      {
+        "pasal": "Pasal 309",
+        "alasan": "APBD sebagai dasar pengelolaan keuangan Daerah dalam satu tahun anggaran; definisi"
+      },
+      {
+        "pasal": "Pasal 310",
+        "alasan": "penyusunan KUA dan PPAS serta rencana kerja dan anggaran Perangkat Daerah; prosedur internal anggaran"
+      },
+      {
+        "pasal": "Pasal 311",
+        "alasan": "kewajiban kepala daerah mengajukan rancangan Perda APBD dan sanksi administratif atas pelanggarannya; prosedur dan sanksi"
+      },
+      {
+        "pasal": "Pasal 312",
+        "alasan": "kewajiban persetujuan bersama APBD paling lambat satu bulan sebelum tahun anggaran dan sanksinya; prosedur dan sanksi"
+      },
+      {
+        "pasal": "Pasal 313",
+        "alasan": "penetapan Perkada APBD bila persetujuan bersama tidak tercapai dalam 60 hari; prosedur anggaran"
+      },
+      {
+        "pasal": "Pasal 314",
+        "alasan": "evaluasi rancangan Perda APBD provinsi dan rancangan peraturan gubernur oleh Menteri; prosedur pengawasan"
+      },
+      {
+        "pasal": "Pasal 315",
+        "alasan": "evaluasi rancangan Perda APBD kabupaten/kota dan rancangan peraturan bupati/wali kota oleh gubernur; prosedur pengawasan"
+      },
+      {
+        "pasal": "Pasal 316",
+        "alasan": "alasan dan pembatasan perubahan APBD; prosedur anggaran"
+      },
+      {
+        "pasal": "Pasal 317",
+        "alasan": "pengajuan dan penetapan rancangan Perda perubahan APBD; prosedur anggaran"
+      },
+      {
+        "pasal": "Pasal 318",
+        "alasan": "Perkada penjabaran APBD sebagai dasar dokumen pelaksanaan anggaran Perangkat Daerah; prosedur internal"
+      },
+      {
+        "pasal": "Pasal 319",
+        "alasan": "evaluasi rancangan Perda perubahan APBD dan penjabarannya berlaku mutatis mutandis; penunjukan ketentuan lain, di luar domain T-Box"
+      },
+      {
+        "pasal": "Pasal 320",
+        "alasan": "penyampaian dan pembahasan rancangan Perda pertanggungjawaban pelaksanaan APBD beserta laporan keuangan; prosedur anggaran"
+      },
+      {
+        "pasal": "Pasal 321",
+        "alasan": "evaluasi rancangan Perda pertanggungjawaban APBD provinsi oleh Menteri; prosedur pengawasan"
+      },
+      {
+        "pasal": "Pasal 322",
+        "alasan": "evaluasi rancangan Perda pertanggungjawaban APBD kabupaten/kota oleh gubernur; prosedur pengawasan"
+      },
+      {
+        "pasal": "Pasal 323",
+        "alasan": "penetapan Perkada pertanggungjawaban APBD bila DPRD tidak mengambil keputusan bersama; prosedur anggaran"
+      },
+      {
+        "pasal": "Pasal 324",
+        "alasan": "evaluasi rancangan Perda provinsi tentang pajak dan retribusi daerah oleh Menteri; prosedur pengawasan"
+      },
+      {
+        "pasal": "Pasal 325",
+        "alasan": "evaluasi rancangan Perda kabupaten/kota tentang pajak dan retribusi daerah oleh gubernur; prosedur pengawasan"
+      },
+      {
+        "pasal": "Pasal 326",
+        "alasan": "tata cara evaluasi rancangan Perda dan Perkada keuangan daerah diatur dengan Peraturan Menteri; penunjukan pengaturan"
+      },
+      {
+        "pasal": "Pasal 327",
+        "alasan": "pengelolaan kas umum Daerah dan larangan pengeluaran di luar APBD; administrasi keuangan daerah"
+      },
+      {
+        "pasal": "Pasal 328",
+        "alasan": "deposito dan investasi jangka pendek uang milik Daerah serta bunganya sebagai pendapatan Daerah; keuangan daerah"
+      },
+      {
+        "pasal": "Pasal 329",
+        "alasan": "kewenangan menetapkan Perda tentang penghapusan tagihan Daerah dan penyelesaian masalah perdata; keuangan daerah"
+      },
+      {
+        "pasal": "Pasal 330",
+        "alasan": "ketentuan lebih lanjut penyusunan, pelaksanaan, dan pertanggungjawaban keuangan Daerah diatur dengan peraturan pemerintah; penunjukan pengaturan"
+      },
+      {
+        "pasal": "Pasal 331",
+        "alasan": "pendirian BUMD, bentuk badan hukum, tujuan, dan dasar pendiriannya; kelembagaan badan usaha daerah"
+      },
+      {
+        "pasal": "Pasal 332",
+        "alasan": "sumber modal BUMD (penyertaan modal, pinjaman, hibah, kapitalisasi cadangan, agio saham); definisi modal"
+      },
+      {
+        "pasal": "Pasal 333",
+        "alasan": "penetapan penyertaan modal Daerah pada BUMD dengan Perda dan penilaian barang milik Daerah; keuangan daerah, di luar domain T-Box"
+      },
+      {
+        "pasal": "Pasal 334",
+        "alasan": "pengertian dan bentuk hukum perusahaan umum Daerah serta anak perusahaan; definisi kelembagaan"
+      },
+      {
+        "pasal": "Pasal 335",
+        "alasan": "organ perusahaan umum Daerah (kepala daerah, direksi, dewan pengawas); kelembagaan BUMD"
+      },
+      {
+        "pasal": "Pasal 336",
+        "alasan": "penetapan dan penyetoran laba perusahaan umum Daerah; keuangan BUMD"
+      },
+      {
+        "pasal": "Pasal 337",
+        "alasan": "restrukturisasi perusahaan umum Daerah; kelembagaan BUMD"
+      },
+      {
+        "pasal": "Pasal 338",
+        "alasan": "pembubaran perusahaan umum Daerah dan pengembalian kekayaannya kepada Daerah; kelembagaan BUMD"
+      },
+      {
+        "pasal": "Pasal 339",
+        "alasan": "pengertian dan pembentukan badan hukum perusahaan perseroan Daerah; definisi kelembagaan"
+      },
+      {
+        "pasal": "Pasal 340",
+        "alasan": "organ perusahaan perseroan Daerah (RUPS, direksi, komisaris); kelembagaan BUMD"
+      },
+      {
+        "pasal": "Pasal 341",
+        "alasan": "pembentukan anak perusahaan dan kepemilikan saham perusahaan perseroan Daerah; kelembagaan BUMD"
+      },
+      {
+        "pasal": "Pasal 342",
+        "alasan": "pembubaran perusahaan perseroan Daerah dan pengembalian kekayaan Daerah; kelembagaan BUMD"
+      },
+      {
+        "pasal": "Pasal 343",
+        "alasan": "unsur minimal pengelolaan BUMD termasuk organ dan kepegawaian BUMD; kepegawaian badan usaha, bukan hubungan kerja dalam domain T-Box"
+      },
+      {
+        "pasal": "Pasal 344",
+        "alasan": "kewajiban Pemerintah Daerah menjamin pelayanan publik dan asas penyelenggaraannya; pelayanan publik, bukan ketenagakerjaan"
+      },
+      {
+        "pasal": "Pasal 345",
+        "alasan": "pembentukan manajemen pelayanan publik oleh Pemerintah Daerah; tata kelola pemerintahan"
+      },
+      {
+        "pasal": "Pasal 346",
+        "alasan": "pembentukan Badan Layanan Umum Daerah; kelembagaan pemerintahan"
+      },
+      {
+        "pasal": "Pasal 347",
+        "alasan": "kewajiban mengumumkan informasi dan maklumat pelayanan publik; keterbukaan informasi"
+      },
+      {
+        "pasal": "Pasal 348",
+        "alasan": "sanksi administratif berupa teguran dan pembinaan khusus bagi kepala daerah yang tidak mengumumkan informasi pelayanan publik; sanksi"
+      },
+      {
+        "pasal": "Pasal 349",
+        "alasan": "penyederhanaan jenis dan prosedur pelayanan publik serta pemanfaatan teknologi informasi; pelayanan publik"
+      },
+      {
+        "pasal": "Pasal 350",
+        "alasan": "kewajiban pelayanan perizinan dan unit pelayanan terpadu satu pintu beserta sanksinya; perizinan dan sanksi"
+      },
+      {
+        "pasal": "Pasal 351",
+        "alasan": "hak masyarakat mengadukan pelayanan publik dan sanksi bagi kepala daerah yang tidak melaksanakan rekomendasi Ombudsman; pengaduan dan sanksi"
+      },
+      {
+        "pasal": "Pasal 352",
+        "alasan": "evaluasi kinerja pelayanan publik dan insentif/disinsentif fiskal; pengawasan kinerja"
+      },
+      {
+        "pasal": "Pasal 353",
+        "alasan": "tata cara penjatuhan sanksi administratif dan pembinaan khusus diatur dengan peraturan pemerintah; penunjukan pengaturan"
+      },
+      {
+        "pasal": "Pasal 354",
+        "alasan": "dorongan dan bentuk partisipasi masyarakat dalam penyelenggaraan pemerintahan daerah; partisipasi publik"
+      },
+      {
+        "pasal": "Pasal 355",
+        "alasan": "pengertian perkotaan dan bentuk kawasan perkotaan; definisi"
+      },
+      {
+        "pasal": "Pasal 356",
+        "alasan": "pembentukan kawasan perkotaan secara alami atau terencana; kelembagaan wilayah"
+      },
+      {
+        "pasal": "Pasal 357",
+        "alasan": "penyediaan fasilitas pelayanan perkotaan oleh Pemerintah Pusat, Daerah, atau badan hukum; pelayanan perkotaan, di luar domain T-Box"
+      },
+      {
+        "pasal": "Pasal 358",
+        "alasan": "perencanaan dan pengendalian pengelolaan perkotaan oleh kabupaten/kota; perencanaan wilayah"
+      },
+      {
+        "pasal": "Pasal 359",
+        "alasan": "ketentuan lebih lanjut mengenai perkotaan diatur dengan peraturan pemerintah; penunjukan pengaturan"
+      },
+      {
+        "pasal": "Pasal 360",
+        "alasan": "penetapan kawasan khusus dan jenis-jenisnya; kelembagaan wilayah"
+      },
+      {
+        "pasal": "Pasal 361",
+        "alasan": "pengertian kawasan perbatasan negara dan pembagian kewenangan pengelolaannya; kelembagaan wilayah"
+      },
+      {
+        "pasal": "Pasal 362",
+        "alasan": "pembentukan Kecamatan di kawasan perbatasan dan pengangkatan camat; kelembagaan pemerintahan"
+      },
+      {
+        "pasal": "Pasal 363",
+        "alasan": "kewenangan Daerah mengadakan kerja sama daerah; kerja sama pemerintahan"
+      },
+      {
+        "pasal": "Pasal 364",
+        "alasan": "kerja sama wajib antar-Daerah dan pengambilalihan pelaksanaan bila tidak dilaksanakan; kerja sama pemerintahan"
+      },
+      {
+        "pasal": "Pasal 365",
+        "alasan": "pengertian kerja sama sukarela antar-Daerah; definisi"
+      },
+      {
+        "pasal": "Pasal 366",
+        "alasan": "kerja sama Daerah dengan pihak ketiga dan isi kontrak kerja sama; kerja sama pemerintahan"
+      },
+      {
+        "pasal": "Pasal 367",
+        "alasan": "kerja sama Daerah dengan lembaga/pemerintah daerah luar negeri dan persetujuan Pemerintah Pusat; kerja sama pemerintahan"
+      },
+      {
+        "pasal": "Pasal 368",
+        "alasan": "pemantauan dan evaluasi kerja sama oleh gubernur dan Menteri; pengawasan"
+      },
+      {
+        "pasal": "Pasal 369",
+        "alasan": "ketentuan lebih lanjut mengenai kerja sama diatur dengan peraturan pemerintah; penunjukan pengaturan"
+      },
+      {
+        "pasal": "Pasal 370",
+        "alasan": "penyelesaian perselisihan antar-Daerah dalam penyelenggaraan urusan pemerintahan; hubungan antar pemerintahan"
+      },
+      {
+        "pasal": "Pasal 371",
+        "alasan": "pembentukan Desa dalam Daerah kabupaten/kota dan kewenangannya; kelembagaan pemerintahan desa"
+      },
+      {
+        "pasal": "Pasal 372",
+        "alasan": "penugasan urusan pemerintahan kepada Desa dan pembebanan pendanaannya pada APBN/APBD; kelembagaan dan keuangan"
+      },
+      {
+        "pasal": "Pasal 373",
+        "alasan": "pembinaan dan pengawasan Pemerintah Pusat serta gubernur terhadap penyelenggaraan pemerintahan daerah; pengawasan pemerintahan"
+      },
+      {
+        "pasal": "Pasal 374",
+        "alasan": "pembinaan penyelenggaraan pemerintahan daerah provinsi oleh Menteri dan menteri teknis; pengawasan pemerintahan"
+      },
+      {
+        "pasal": "Pasal 375",
+        "alasan": "pembinaan penyelenggaraan pemerintahan daerah kabupaten/kota oleh gubernur sebagai wakil Pemerintah Pusat; pengawasan pemerintahan, di luar domain T-Box"
+      },
+      {
+        "pasal": "Pasal 376",
+        "alasan": "pendidikan dan pelatihan kepamongprajaan oleh Kementerian; diklat aparatur, bukan pelatihan kerja dalam domain T-Box"
+      },
+      {
+        "pasal": "Pasal 377",
+        "alasan": "pengawasan umum dan teknis penyelenggaraan pemerintahan daerah provinsi; pengawasan pemerintahan"
+      },
+      {
+        "pasal": "Pasal 378",
+        "alasan": "pengawasan umum dan teknis penyelenggaraan pemerintahan daerah kabupaten/kota oleh gubernur; pengawasan pemerintahan"
+      },
+      {
+        "pasal": "Pasal 379",
+        "alasan": "kewajiban gubernur membina dan mengawasi Perangkat Daerah provinsi; tata kelola internal pemerintahan"
+      },
+      {
+        "pasal": "Pasal 380",
+        "alasan": "kewajiban bupati/wali kota membina dan mengawasi Perangkat Daerah kabupaten/kota; tata kelola internal pemerintahan"
+      },
+      {
+        "pasal": "Pasal 381",
+        "alasan": "penyusunan indeks dan pemberian penghargaan kinerja pemerintah daerah; evaluasi kinerja"
+      },
+      {
+        "pasal": "Pasal 382",
+        "alasan": "pembinaan, fasilitasi khusus, dan pengambilalihan urusan pemerintahan daerah berkinerja rendah; pengawasan pemerintahan"
+      },
+      {
+        "pasal": "Pasal 383",
+        "alasan": "ketentuan lebih lanjut mengenai pembinaan dan pengawasan diatur dengan peraturan pemerintah; penunjukan pengaturan"
+      },
+      {
+        "pasal": "Pasal 384",
+        "alasan": "pemberitahuan penyidikan terhadap aparatur sipil negara di instansi daerah; hukum acara/kepegawaian ASN, di luar domain ketenagakerjaan"
+      },
+      {
+        "pasal": "Pasal 385",
+        "alasan": "pengaduan masyarakat atas dugaan penyimpangan aparatur sipil negara dan pemeriksaannya; pengawasan ASN, di luar domain"
+      },
+      {
+        "pasal": "Pasal 386",
+        "alasan": "pengertian dan kewenangan pemerintah daerah melakukan inovasi daerah; tata kelola pemerintahan"
+      },
+      {
+        "pasal": "Pasal 387",
+        "alasan": "prinsip yang diacu dalam merumuskan kebijakan inovasi; asas kebijakan"
+      },
+      {
+        "pasal": "Pasal 388",
+        "alasan": "inisiatif, usulan, penetapan, dan penilaian inovasi daerah; prosedur pemerintahan"
+      },
+      {
+        "pasal": "Pasal 389",
+        "alasan": "aparatur sipil negara tidak dapat dipidana bila inovasi tidak mencapai sasaran; pertanggungjawaban ASN, di luar domain"
+      },
+      {
+        "pasal": "Pasal 390",
+        "alasan": "ketentuan lebih lanjut mengenai inovasi daerah diatur dengan peraturan pemerintah; penunjukan pengaturan"
+      },
+      {
+        "pasal": "Pasal 391",
+        "alasan": "kewajiban pemerintah daerah menyediakan informasi pemerintahan daerah; keterbukaan informasi"
+      },
+      {
+        "pasal": "Pasal 392",
+        "alasan": "muatan informasi pembangunan daerah; keterbukaan informasi"
+      },
+      {
+        "pasal": "Pasal 393",
+        "alasan": "muatan dan pemanfaatan informasi keuangan daerah; keterbukaan informasi keuangan"
+      },
+      {
+        "pasal": "Pasal 394",
+        "alasan": "kewajiban mengumumkan informasi pembangunan dan keuangan daerah beserta sanksi administratifnya; keterbukaan informasi dan sanksi"
+      },
+      {
+        "pasal": "Pasal 395",
+        "alasan": "kewenangan pemerintah daerah menyediakan informasi pemerintahan daerah lainnya; keterbukaan informasi"
+      },
+      {
+        "pasal": "Pasal 396",
+        "alasan": "pembentukan dan tugas dewan pertimbangan otonomi daerah; kelembagaan pemerintahan"
+      },
+      {
+        "pasal": "Pasal 397",
+        "alasan": "susunan keanggotaan dan sekretariat dewan pertimbangan otonomi daerah; kelembagaan pemerintahan"
+      },
+      {
+        "pasal": "Pasal 398",
+        "alasan": "sanksi pidana bagi kepala daerah yang tidak memberikan pelayanan perizinan; ketentuan pidana, di luar domain T-Box"
+      },
+      {
+        "pasal": "Pasal 399",
+        "alasan": "keberlakuan undang-undang bagi daerah istimewa dan daerah khusus; ketentuan lain-lain"
+      },
+      {
+        "pasal": "Pasal 400",
+        "alasan": "evaluasi rancangan Perda tata ruang daerah mengikuti ketentuan pajak dan retribusi daerah; penunjukan ketentuan lain"
+      },
+      {
+        "pasal": "Pasal 401",
+        "alasan": "penegasan batas wilayah daerah yang dibentuk sebelum undang-undang ini; ketentuan peralihan wilayah"
+      },
+      {
+        "pasal": "Pasal 402",
+        "alasan": "izin yang telah dikeluarkan tetap berlaku dan kewajiban BUMD menyesuaikan dalam 3 tahun; ketentuan peralihan"
+      },
+      {
+        "pasal": "Pasal 403",
+        "alasan": "pemaknaan istilah program legislasi daerah dan badan legislasi daerah; ketentuan penutup istilah"
+      },
+      {
+        "pasal": "Pasal 404",
+        "alasan": "serah terima personel, pendanaan, sarana prasarana, dan dokumen akibat pembagian urusan; ketentuan peralihan kelembagaan"
+      },
+      {
+        "pasal": "Pasal 405",
+        "alasan": "peraturan pelaksanaan UU Nomor 5 Tahun 1962 tentang Perusahaan Daerah tetap berlaku; ketentuan peralihan"
+      },
+      {
+        "pasal": "Pasal 406",
+        "alasan": "peraturan mengenai DPRD provinsi dan kabupaten/kota tetap berlaku; ketentuan peralihan"
+      },
+      {
+        "pasal": "Pasal 407",
+        "alasan": "kewajiban peraturan perundang-undangan yang berkaitan dengan Daerah menyesuaikan diri; ketentuan peralihan"
+      },
+      {
+        "pasal": "Pasal 408",
+        "alasan": "peraturan terkait penyelenggaraan pemerintahan daerah tetap berlaku sampai diganti; ketentuan peralihan"
+      },
+      {
+        "pasal": "Pasal 409",
+        "alasan": "pencabutan UU Nomor 5 Tahun 1962, UU Nomor 32 Tahun 2004, dan ketentuan lain; ketentuan pencabutan"
+      },
+      {
+        "pasal": "Pasal 410",
+        "alasan": "batas waktu 2 tahun penetapan peraturan pelaksanaan undang-undang; ketentuan penutup"
+      },
+      {
+        "pasal": "Pasal 411",
+        "alasan": "saat mulai berlakunya undang-undang pada tanggal diundangkan; ketentuan penutup"
+      }
+    ],
+    "catatan": ""
+  },
+  "tidak_termodelkan": [
+    {
+      "pasal": "Pasal 12",
+      "ringkasan": "Bidang tenaga kerja ditetapkan sebagai Urusan Pemerintahan Wajib yang tidak berkaitan dengan Pelayanan Dasar.",
+      "alasan": "butuh kelas/properti baru: kewenangan daerah bidang ketenagakerjaan"
+    },
+    {
+      "pasal": "Pasal 233",
+      "ringkasan": "Persyaratan kompetensi teknis, manajerial, sosial kultural, dan kompetensi pemerintahan bagi pegawai ASN yang menduduki jabatan kepala perangkat daerah.",
+      "alasan": "relevan kepegawaian/ASN tetapi belum ada kelas/properti ketenagakerjaan yang sesuai di T-Box"
+    },
+    {
+      "pasal": "Pasal 234",
+      "ringkasan": "Pengisian kepala perangkat daerah provinsi dan kabupaten/kota dari pegawai negeri sipil yang memenuhi persyaratan, termasuk seleksi jabatan administrator.",
+      "alasan": "relevan kepegawaian/ASN tetapi belum ada kelas/properti di T-Box; ayat ini juga tidak memiliki heading sendiri pada markdown (OCR)"
+    },
+    {
+      "pasal": "Pasal 256",
+      "ringkasan": "Polisi pamong praja sebagai jabatan fungsional PNS, pengangkatan dari PNS, serta pendidikan dan pelatihan teknis dan fungsional.",
+      "alasan": "relevan kepegawaian/ASN tetapi belum ada kelas/properti di T-Box"
+    }
+  ]
+}

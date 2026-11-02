@@ -1,0 +1,487 @@
+{
+  "spec_version": "1.1.0",
+  "vocab_version": "0.3.0",
+  "dokumen_id": "UU-2-2026",
+  "status_review": "reviewed",
+  "peraturan": {
+    "judul": "Undang-Undang Nomor 2 Tahun 2026 tentang Pelindungan Pekerja Rumah Tangga",
+    "jenis": "UU",
+    "nomor": "2",
+    "tahun": "2026",
+    "sumber": "https://www.peraturan.go.id/id/uu-no-2-tahun-2026",
+    "status": "Berlaku",
+    "diubah_oleh": []
+  },
+  "norma": [
+    {
+      "norm_id": "PHK-PRT-KESEPAKATAN-KEDUA-PIHAK",
+      "topik": "PHK",
+      "pasal": "Pasal 14 huruf a",
+      "iri_individu": "ktn:PRTHubunganKerjaBerakhirKesepakatan",
+      "jenis": "AlasanPHK",
+      "kondisi": "PRT dan Pemberi Kerja bersepakat mengakhiri Hubungan Kerja",
+      "akibat": "Hubungan Kerja berakhir",
+      "parameter": [],
+      "bukti": "Hubungan Kerja dapat berakhir karena: a. kehendak kedua belah pihak;",
+      "confidence": 0.9,
+      "dasar_keyakinan": "dikutip",
+      "catatan": "Pasal 14 hanya mengatur alasan berakhirnya Hubungan Kerja; pesangon/kompensasi tidak diatur dalam pasal ini."
+    },
+    {
+      "norm_id": "PHK-PRT-PELANGGARAN-KESEPAKATAN",
+      "topik": "PHK",
+      "pasal": "Pasal 14 huruf b",
+      "iri_individu": "ktn:PRTHubunganKerjaBerakhirPelanggaran",
+      "jenis": "AlasanPHK",
+      "kondisi": "Salah satu pihak tidak melaksanakan Kesepakatan atau Perjanjian Kerja",
+      "akibat": "Hubungan Kerja dapat berakhir",
+      "parameter": [],
+      "bukti": "salah satu pihak tidak melaksanakan Kesepakatan atau Perjanjian Kerja",
+      "confidence": 0.9,
+      "dasar_keyakinan": "dikutip",
+      "catatan": ""
+    },
+    {
+      "norm_id": "PHK-PRT-TINDAK-PIDANA",
+      "topik": "PHK",
+      "pasal": "Pasal 14 huruf c",
+      "iri_individu": "ktn:PRTHubunganKerjaBerakhirTindakPidana",
+      "jenis": "AlasanPHK",
+      "kondisi": "PRT atau Pemberi Kerja melakukan tindak pidana terhadap satu sama lain",
+      "akibat": "Hubungan Kerja dapat berakhir",
+      "parameter": [],
+      "bukti": "PRT atau Pemberi Kerja melakukan tindak pidana terhadap satu sama lain",
+      "confidence": 0.9,
+      "dasar_keyakinan": "dikutip",
+      "catatan": ""
+    },
+    {
+      "norm_id": "PHK-PRT-MANGKIR-7-HARI",
+      "topik": "PHK",
+      "pasal": "Pasal 14 huruf d",
+      "iri_individu": "ktn:PRTHubunganKerjaBerakhirMangkir",
+      "jenis": "AlasanPHK",
+      "kondisi": "PRT mangkir kerja selama 7 (tujuh) hari berturut-turut tanpa alasan yang jelas",
+      "akibat": "Hubungan Kerja dapat berakhir",
+      "parameter": [],
+      "bukti": "PRT mangkir kerja selama 7 (tujuh) hari berturut-turut tanpa alasan yang jelas",
+      "confidence": 0.9,
+      "dasar_keyakinan": "dikutip",
+      "catatan": "Batas 7 hari disebut dalam teks; tidak ada parameter VOCAB yang sesuai sehingga tidak diparameterkan."
+    },
+    {
+      "norm_id": "PHK-PRT-MENINGGAL-DUNIA",
+      "topik": "PHK",
+      "pasal": "Pasal 14 huruf e",
+      "iri_individu": "ktn:PRTHubunganKerjaBerakhirMeninggal",
+      "jenis": "AlasanPHK",
+      "kondisi": "PRT atau Pemberi Kerja meninggal dunia",
+      "akibat": "Hubungan Kerja berakhir",
+      "parameter": [],
+      "bukti": "PRT atau Pemberi Kerja meninggal dunia",
+      "confidence": 0.9,
+      "dasar_keyakinan": "dikutip",
+      "catatan": ""
+    },
+    {
+      "norm_id": "PHK-PRT-JANGKA-WAKTU-BERAKHIR",
+      "topik": "PHK",
+      "pasal": "Pasal 14 huruf f",
+      "iri_individu": "ktn:PRTHubunganKerjaBerakhirJangkaWaktu",
+      "jenis": "AlasanPHK",
+      "kondisi": "Jangka waktu Kesepakatan atau Perjanjian Kerja berakhir",
+      "akibat": "Hubungan Kerja berakhir",
+      "parameter": [],
+      "bukti": "berakhirnya jangka waktu Kesepakatan atau Perjanjian Kerja",
+      "confidence": 0.9,
+      "dasar_keyakinan": "dikutip",
+      "catatan": ""
+    },
+    {
+      "norm_id": "PHK-PRT-PINDAH-TEMPAT",
+      "topik": "PHK",
+      "pasal": "Pasal 14 huruf g",
+      "iri_individu": "ktn:PRTHubunganKerjaBerakhirPemberiKerjaPindah",
+      "jenis": "AlasanPHK",
+      "kondisi": "Pemberi Kerja pindah tempat dan PRT tidak bersedia melanjutkan Hubungan Kerja",
+      "akibat": "Hubungan Kerja berakhir",
+      "parameter": [],
+      "bukti": "Pemberi Kerja pindah tempat dan PRT tidak bersedia untuk melanjutkan Hubungan Kerja",
+      "confidence": 0.9,
+      "dasar_keyakinan": "dikutip",
+      "catatan": ""
+    },
+    {
+      "norm_id": "WAKTU-PRT-MANUSIAWI-ISTIRAHAT",
+      "topik": "WaktuKerja",
+      "pasal": "Pasal 15 ayat (1) huruf b dan c",
+      "iri_individu": "ktn:PRTHakWaktuKerjaManusiawiIstirahat",
+      "jenis": "KetentuanWaktuKerja",
+      "kondisi": "Seseorang berstatus PRT",
+      "akibat": "PRT berhak bekerja dengan Waktu Kerja yang manusiawi dan mendapatkan waktu istirahat",
+      "parameter": [],
+      "bukti": "bekerja dengan Waktu Kerja yang manusiawi; C. mendapatkan waktu istirahat;",
+      "confidence": 0.9,
+      "dasar_keyakinan": "dikutip",
+      "catatan": "Menggabungkan huruf b dan c; batas jam kerja tidak ditetapkan dalam UU ini."
+    },
+    {
+      "norm_id": "CUTI-PRT-KESEPAKATAN",
+      "topik": "Cuti",
+      "pasal": "Pasal 15 ayat (1) huruf d",
+      "iri_individu": "ktn:PRTHakCutiKesepakatan",
+      "jenis": "KetentuanWaktuKerja",
+      "kondisi": "Seseorang berstatus PRT",
+      "akibat": "PRT berhak mendapatkan Cuti sesuai Kesepakatan atau Perjanjian Kerja",
+      "parameter": [],
+      "bukti": "mendapatkan Cuti sesuai dengan Kesepakatan atau Perjanjian Kerja",
+      "confidence": 0.85,
+      "dasar_keyakinan": "dikutip",
+      "catatan": "VOCAB tidak memiliki jenis khusus cuti; dipetakan ke KetentuanWaktuKerja. Lama cuti tidak diatur."
+    },
+    {
+      "norm_id": "UPAH-PRT-HAK-UPAH",
+      "topik": "Upah",
+      "pasal": "Pasal 15 ayat (1) huruf e",
+      "iri_individu": "ktn:PRTHakUpah",
+      "jenis": "KetentuanUpah",
+      "kondisi": "Seseorang berstatus PRT",
+      "akibat": "PRT berhak mendapatkan Upah sesuai Kesepakatan atau Perjanjian Kerja",
+      "parameter": [],
+      "bukti": "mendapatkan Upah sesuai dengan Kesepakatan atau Perjanjian Kerja",
+      "confidence": 0.95,
+      "dasar_keyakinan": "dikutip",
+      "catatan": "Pasal 15 juga memuat hak ibadah, makanan sehat, akomodasi layak, dan lingkungan kerja aman yang belum termodelkan."
+    },
+    {
+      "norm_id": "UPAH-PRT-THR-KEAGAMAAN",
+      "topik": "Upah",
+      "pasal": "Pasal 15 ayat (1) huruf f",
+      "iri_individu": "ktn:PRTHakTHRKeagamaan",
+      "jenis": "KetentuanUpah",
+      "kondisi": "Seseorang berstatus PRT",
+      "akibat": "PRT berhak mendapatkan tunjangan hari raya keagamaan berupa uang sesuai Kesepakatan atau Perjanjian Kerja",
+      "parameter": [],
+      "bukti": "mendapatkan tunjangan hari raya keagamaan berupa uang sesuai dengan Kesepakatan atau Perjanjian Kerja",
+      "confidence": 0.95,
+      "dasar_keyakinan": "dikutip",
+      "catatan": "Besaran THR tidak diatur dalam UU ini."
+    },
+    {
+      "norm_id": "JAMSOS-PRT-KESEHATAN",
+      "topik": "Jamsos",
+      "pasal": "Pasal 15 ayat (1) huruf g",
+      "iri_individu": "ktn:PRTHakJaminanSosialKesehatan",
+      "jenis": "KetentuanJaminanSosial",
+      "kondisi": "Seseorang berstatus PRT",
+      "akibat": "PRT berhak mendapatkan jaminan sosial kesehatan sesuai ketentuan peraturan perundang-undangan",
+      "parameter": [],
+      "bukti": "mendapatkan jaminan sosial kesehatan sesuai dengan ketentuan peraturan perundang-undangan",
+      "confidence": 0.95,
+      "dasar_keyakinan": "dikutip",
+      "catatan": "Pembiayaan iuran diatur pada Pasal 16."
+    },
+    {
+      "norm_id": "JAMSOS-PRT-KETENAGAKERJAAN",
+      "topik": "Jamsos",
+      "pasal": "Pasal 15 ayat (1) huruf h",
+      "iri_individu": "ktn:PRTHakJaminanSosialKetenagakerjaan",
+      "jenis": "KetentuanJaminanSosial",
+      "kondisi": "Seseorang berstatus PRT",
+      "akibat": "PRT berhak mendapatkan jaminan sosial ketenagakerjaan sesuai ketentuan peraturan perundang-undangan",
+      "parameter": [],
+      "bukti": "mendapatkan jaminan sosial ketenagakerjaan sesuai dengan ketentuan peraturan perundang-undangan",
+      "confidence": 0.95,
+      "dasar_keyakinan": "dikutip",
+      "catatan": "Pembiayaan iuran diatur pada Pasal 16 ayat (3)."
+    },
+    {
+      "norm_id": "PHK-PRT-AKHIRI-KARENA-PELANGGARAN",
+      "topik": "PHK",
+      "pasal": "Pasal 15 ayat (1) huruf l",
+      "iri_individu": "ktn:PRTHakMengakhiriHubunganKerja",
+      "jenis": "AlasanPHK",
+      "kondisi": "Pemberi Kerja tidak melaksanakan Kesepakatan atau Perjanjian Kerja",
+      "akibat": "PRT berhak mengakhiri Hubungan Kerja",
+      "parameter": [],
+      "bukti": "mengakhiri Hubungan Kerja apabila Pemberi Kerja tidak melaksanakan Kesepakatan atau Perjanjian Kerja",
+      "confidence": 0.9,
+      "dasar_keyakinan": "dikutip",
+      "catatan": ""
+    },
+    {
+      "norm_id": "JAMSOS-PRT-IURAN-KESEHATAN-PBI",
+      "topik": "Jamsos",
+      "pasal": "Pasal 16 ayat (1)",
+      "iri_individu": "ktn:PRTIuranKesehatanPBI",
+      "jenis": "KetentuanJaminanSosial",
+      "kondisi": "PRT termasuk penerima bantuan iuran jaminan sosial kesehatan",
+      "akibat": "Iuran jaminan sosial kesehatan ditanggung Pemerintah Pusat atau Pemerintah Daerah",
+      "parameter": [],
+      "bukti": "diberikan kepada PRT sebagai penerima bantuan iuran yang ditanggung oleh Pemerintah Pusat atau Pemerintah Daerah",
+      "confidence": 0.95,
+      "dasar_keyakinan": "dikutip",
+      "catatan": ""
+    },
+    {
+      "norm_id": "JAMSOS-PRT-IURAN-KESEHATAN-NONPBI",
+      "topik": "Jamsos",
+      "pasal": "Pasal 16 ayat (2)",
+      "iri_individu": "ktn:PRTIuranKesehatanNonPBI",
+      "jenis": "KetentuanJaminanSosial",
+      "kondisi": "PRT tidak termasuk sebagai penerima bantuan iuran",
+      "akibat": "Iuran jaminan sosial kesehatan ditanggung Pemberi Kerja berdasarkan Kesepakatan atau Perjanjian Kerja dan diketahui RT/RW",
+      "parameter": [],
+      "bukti": "iuran jaminan sosial kesehatan ditanggung oleh Pemberi Kerja berdasarkan Kesepakatan atau Perjanjian Kerja dan diketahui oleh RT/RW",
+      "confidence": 0.95,
+      "dasar_keyakinan": "dikutip",
+      "catatan": ""
+    },
+    {
+      "norm_id": "JAMSOS-PRT-IURAN-KETENAGAKERJAAN",
+      "topik": "Jamsos",
+      "pasal": "Pasal 16 ayat (3)",
+      "iri_individu": "ktn:PRTIuranKetenagakerjaan",
+      "jenis": "KetentuanJaminanSosial",
+      "kondisi": "PRT memiliki jaminan sosial ketenagakerjaan",
+      "akibat": "Iuran jaminan sosial ketenagakerjaan ditanggung Pemberi Kerja sesuai Kesepakatan atau Perjanjian Kerja",
+      "parameter": [],
+      "bukti": "ditanggung Pemberi Kerja sesuai dengan Kesepakatan atau Perjanjian Kerja",
+      "confidence": 0.95,
+      "dasar_keyakinan": "dikutip",
+      "catatan": "Tidak menetapkan persentase iuran; program dan tarif diatur lebih lanjut dengan Peraturan Pemerintah."
+    },
+    {
+      "norm_id": "UPAH-PRT-KEWAJIBAN-BAYAR",
+      "topik": "Upah",
+      "pasal": "Pasal 19 huruf a",
+      "iri_individu": "ktn:PRTKewajibanBayarUpahTHR",
+      "jenis": "KetentuanUpah",
+      "kondisi": "PRT bekerja pada Pemberi Kerja",
+      "akibat": "Pemberi Kerja wajib membayarkan Upah dan tunjangan hari raya keagamaan sesuai besaran dan waktu pembayaran dalam Kesepakatan atau Perjanjian Kerja",
+      "parameter": [],
+      "bukti": "membayarkan Upah dan tunjangan hari raya keagamaan sesuai dengan besaran dan waktu pembayaran dalam Kesepakatan atau sesuai dengan Perjanjian Kerja",
+      "confidence": 0.95,
+      "dasar_keyakinan": "dikutip",
+      "catatan": "Pasal 19 juga memuat kewajiban non-upah (lingkungan kerja aman, informasi, pelaporan ke RT/RW) yang belum termodelkan."
+    },
+    {
+      "norm_id": "WAKTU-PRT-ISTIRAHAT-CUTI",
+      "topik": "WaktuKerja",
+      "pasal": "Pasal 19 huruf d",
+      "iri_individu": "ktn:PRTKewajibanBeriIstirahatCuti",
+      "jenis": "KetentuanWaktuKerja",
+      "kondisi": "PRT bekerja pada Pemberi Kerja",
+      "akibat": "Pemberi Kerja wajib memberikan waktu istirahat dan Cuti kepada PRT",
+      "parameter": [],
+      "bukti": "memberikan waktu istirahat dan Cuti",
+      "confidence": 0.9,
+      "dasar_keyakinan": "dikutip",
+      "catatan": "Menggabungkan hak istirahat dan Cuti; lama masing-masing tidak diatur dalam UU ini."
+    },
+    {
+      "norm_id": "UPAH-PRT-LARANGAN-POTONGAN-P3RT",
+      "topik": "Upah",
+      "pasal": "Pasal 28 ayat (1) huruf a",
+      "iri_individu": "ktn:PRTLaranganPotongUpahP3RT",
+      "jenis": "KetentuanUpah",
+      "kondisi": "P3RT merekrut atau menempatkan calon PRT dan PRT",
+      "akibat": "P3RT dilarang memotong Upah dan/atau memungut biaya dalam bentuk dan dengan alasan apa pun kepada calon PRT dan PRT",
+      "parameter": [],
+      "bukti": "memotong Upah dan/atau memungut biaya dalam bentuk dan dengan alasan apa pun kepada calon PRT dan PRT",
+      "confidence": 0.95,
+      "dasar_keyakinan": "dikutip",
+      "catatan": "Pasal 28 ayat (1) huruf b-d (menahan dokumen, menempatkan pada bukan Pemberi Kerja perseorangan, memaksa perjanjian) dan sanksi administratif ayat (2)-(3) tidak dimodelkan."
+    }
+  ],
+  "kategori": [],
+  "pengali_lembur": [],
+  "program_jamsos": [],
+  "cakupan": {
+    "lengkap": true,
+    "pasal_diekstrak": [
+      "Pasal 1",
+      "Pasal 10",
+      "Pasal 11",
+      "Pasal 12",
+      "Pasal 13",
+      "Pasal 14",
+      "Pasal 15",
+      "Pasal 16",
+      "Pasal 17",
+      "Pasal 18",
+      "Pasal 19",
+      "Pasal 2",
+      "Pasal 20",
+      "Pasal 21",
+      "Pasal 22",
+      "Pasal 23",
+      "Pasal 24",
+      "Pasal 25",
+      "Pasal 26",
+      "Pasal 27",
+      "Pasal 28",
+      "Pasal 29",
+      "Pasal 3",
+      "Pasal 30",
+      "Pasal 31",
+      "Pasal 32",
+      "Pasal 33",
+      "Pasal 34",
+      "Pasal 35",
+      "Pasal 36",
+      "Pasal 37",
+      "Pasal 4",
+      "Pasal 5",
+      "Pasal 6",
+      "Pasal 7",
+      "Pasal 8",
+      "Pasal 9"
+    ],
+    "pasal_dilewati": [
+      {
+        "pasal": "Pasal 1",
+        "alasan": "definisi/istilah: PRT, Pekerjaan Kerumahtanggaan, Pelindungan PRT, Pemberi Kerja, Hubungan Kerja, P3RT, dan istilah lain; tanpa akibat hukum"
+      },
+      {
+        "pasal": "Pasal 2",
+        "alasan": "asas Pelindungan PRT (kekeluargaan, pelindungan, HAM, keadilan, kesejahteraan, kepastian hukum); bukan norma"
+      },
+      {
+        "pasal": "Pasal 3",
+        "alasan": "tujuan Pelindungan PRT; bukan norma"
+      },
+      {
+        "pasal": "Pasal 4",
+        "alasan": "ruang lingkup perekrutan langsung/tidak langsung dan pengecualian pekerja kerumahtanggaan; definisi"
+      },
+      {
+        "pasal": "Pasal 6",
+        "alasan": "tata cara perekrutan langsung oleh Pemberi Kerja berdasarkan Kesepakatan; prosedural"
+      },
+      {
+        "pasal": "Pasal 9",
+        "alasan": "klasifikasi PRT penuh waktu dan paruh waktu berdasarkan Waktu Kerja; tanpa akibat hukum mandiri"
+      },
+      {
+        "pasal": "Pasal 10",
+        "alasan": "daftar lingkup Pekerjaan Kerumahtanggaan; definisi"
+      },
+      {
+        "pasal": "Pasal 12",
+        "alasan": "opsi menuangkan Kesepakatan dalam bentuk Perjanjian Kerja; bukan kewajiban"
+      },
+      {
+        "pasal": "Pasal 20",
+        "alasan": "hak P3RT atas informasi dan imbalan jasa; kelembagaan"
+      },
+      {
+        "pasal": "Pasal 22",
+        "alasan": "delegasi pengaturan lebih lanjut kepada Peraturan Menteri; teks OCR tidak lengkap"
+      },
+      {
+        "pasal": "Pasal 25",
+        "alasan": "delegasi pengaturan lebih lanjut ke Peraturan Pemerintah"
+      },
+      {
+        "pasal": "Pasal 26",
+        "alasan": "perizinan berusaha P3RT (NIB dan Sertifikat Standar); kelembagaan/perizinan"
+      },
+      {
+        "pasal": "Pasal 27",
+        "alasan": "masa berlaku Perizinan Berusaha P3RT; perizinan"
+      },
+      {
+        "pasal": "Pasal 29",
+        "alasan": "pelaksanaan perizinan berusaha berbasis risiko; rujukan ke peraturan lain"
+      },
+      {
+        "pasal": "Pasal 30",
+        "alasan": "pembinaan dan pengawasan oleh Pemerintah Pusat/Daerah; kelembagaan"
+      },
+      {
+        "pasal": "Pasal 33",
+        "alasan": "delegasi pengaturan musyawarah mufakat dan Mediasi ke Peraturan Pemerintah"
+      },
+      {
+        "pasal": "Pasal 34",
+        "alasan": "partisipasi masyarakat dalam Pelindungan PRT; kelembagaan"
+      },
+      {
+        "pasal": "Pasal 35",
+        "alasan": "ketentuan peralihan (penyesuaian perizinan paling lama 1 tahun dan pengecualian usia)"
+      },
+      {
+        "pasal": "Pasal 36",
+        "alasan": "ketentuan peralihan/penutup (peraturan lama tetap berlaku, tenggat peraturan pelaksanaan, laporan ke DPR)"
+      },
+      {
+        "pasal": "Pasal 37",
+        "alasan": "ketentuan penutup (tanggal mulai berlaku)"
+      }
+    ],
+    "catatan": ""
+  },
+  "tidak_termodelkan": [
+    {
+      "pasal": "Pasal 5",
+      "ringkasan": "Syarat calon PRT: berusia minimal 18 (delapan belas) tahun, memiliki KTP elektronik, dan surat keterangan sehat dari fasilitas pelayanan kesehatan",
+      "alasan": "butuh kelas KetentuanPerekrutanPRT dan properti usiaMinimum"
+    },
+    {
+      "pasal": "Pasal 7",
+      "ringkasan": "Perekrutan tidak langsung melalui P3RT (luring/daring) dituangkan dalam Perjanjian Kerja Sama Penempatan dengan isi minimum: identitas, hak/kewajiban, lingkup pekerjaan, jumlah PRT, Upah, jaminan penempatan",
+      "alasan": "butuh kelas PerjanjianKerjaSamaPenempatan beserta properti isi minimum"
+    },
+    {
+      "pasal": "Pasal 8",
+      "ringkasan": "P3RT melaksanakan seleksi; calon PRT yang lulus wajib menandatangani Perjanjian Penempatan dengan isi minimum (jangka waktu, lokasi kerja, Waktu Kerja, lingkup pekerjaan, Upah)",
+      "alasan": "butuh kelas PerjanjianPenempatan dan properti isi minimum"
+    },
+    {
+      "pasal": "Pasal 11",
+      "ringkasan": "Hubungan Kerja berdasarkan Kesepakatan/Perjanjian Kerja; isi minimum Perjanjian Kerja, dibuat rangkap 2 bermeterai dengan salinan ke P3RT dan RT/RW, berbahasa Indonesia, perubahan tertulis",
+      "alasan": "butuh kelas KetentuanHubunganKerjaPRT dan properti isi minimum perjanjian"
+    },
+    {
+      "pasal": "Pasal 13",
+      "ringkasan": "Syarat sah Perjanjian Kerja: kecakapan, Kesepakatan yang mengikat, adanya pekerjaan yang diperjanjikan, dan tidak bertentangan dengan peraturan perundang-undangan",
+      "alasan": "butuh kelas KetentuanHubunganKerjaPRT (syarat sah perjanjian)"
+    },
+    {
+      "pasal": "Pasal 17",
+      "ringkasan": "Kewajiban PRT: memberi informasi identitas/keterampilan/kesehatan, menaati perjanjian, meminta izin, bekerja dengan tata cara aman, memberitahukan pengunduran diri paling lambat 1 bulan, menjaga nama baik Pemberi Kerja",
+      "alasan": "butuh kelas KewajibanPRT dan properti batasBulanPemberitahuan"
+    },
+    {
+      "pasal": "Pasal 18",
+      "ringkasan": "Hak Pemberi Kerja: memperoleh informasi PRT, menyetujui/menolak izin, hasil kerja, pemberitahuan pengunduran diri 1 bulan, mengakhiri Hubungan Kerja atas pelanggaran, jaminan penggantian PRT dari P3RT",
+      "alasan": "butuh kelas HakPemberiKerjaPRT"
+    },
+    {
+      "pasal": "Pasal 21",
+      "ringkasan": "Kewajiban P3RT: memberi informasi Pemberi Kerja/calon PRT, kualifikasi dan tanggung jawab, orientasi prapenempatan, menyediakan PRT pengganti, menjadi bagian Perjanjian Kerja, melaporkan data penempatan",
+      "alasan": "butuh kelas KewajibanP3RT"
+    },
+    {
+      "pasal": "Pasal 23",
+      "ringkasan": "Pelatihan Vokasi bagi calon PRT dan PRT: tujuan skilling/reskilling/upskilling, penyelenggara lembaga pemerintah pusat/daerah/swasta, P3RT dan Pemberi Kerja dapat mengirim dan/atau membiayai",
+      "alasan": "butuh kelas KetentuanPelatihanPRT (kandidat KetentuanPelatihan)"
+    },
+    {
+      "pasal": "Pasal 24",
+      "ringkasan": "Pembiayaan Pelatihan Vokasi bersumber dari APBN/APBD/sumber lain yang sah dan tidak dibebankan kepada calon PRT dan PRT",
+      "alasan": "butuh kelas PembiayaanPelatihanPRT"
+    },
+    {
+      "pasal": "Pasal 31",
+      "ringkasan": "Penyelesaian Perselisihan antara Pemberi Kerja, PRT, dan/atau P3RT melalui musyawarah mufakat paling lama 7 (tujuh) hari sejak permintaan",
+      "alasan": "butuh kelas KetentuanPerselisihanPRT (kandidat KetentuanHubunganIndustrial) dan properti batasHariMusyawarah"
+    },
+    {
+      "pasal": "Pasal 32",
+      "ringkasan": "Mediasi oleh ketua RT/RW atau mediator instansi ketenagakerjaan; penyelesaian paling lambat 7 (tujuh) hari sejak pengaduan; keputusan Perselisihan Upah bersifat final dan mengikat",
+      "alasan": "butuh kelas MediasiPerselisihanPRT dan properti batasHariMediasi"
+    }
+  ]
+}

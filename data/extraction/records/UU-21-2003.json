@@ -1,0 +1,38 @@
+{
+  "spec_version": "1.1.0",
+  "vocab_version": "0.3.0",
+  "dokumen_id": "UU-21-2003",
+  "status_review": "reviewed",
+  "peraturan": {
+    "judul": "Undang-Undang Nomor 21 Tahun 2003 tentang Pengesahan ILO Convention No. 81 tentang Pengawasan Ketenagakerjaan",
+    "jenis": "UU",
+    "nomor": "21",
+    "tahun": "2003",
+    "sumber": "https://peraturan.bpk.go.id/Details/43922/uu-no-21-tahun-2003",
+    "status": "Berlaku",
+    "diubah_oleh": []
+  },
+  "norma": [],
+  "kategori": [],
+  "pengali_lembur": [],
+  "program_jamsos": [],
+  "cakupan": {
+    "lengkap": true,
+    "pasal_diekstrak": [
+      "Pasal 1",
+      "Pasal 2"
+    ],
+    "pasal_dilewati": [
+      {
+        "pasal": "Pasal 1",
+        "alasan": "pengesahan/ratifikasi konvensi internasional (ILO Convention No. 81); tidak memuat kondisi-akibat hak atau kewajiban ketenagakerjaan yang dapat dimodelkan"
+      },
+      {
+        "pasal": "Pasal 2",
+        "alasan": "ketentuan penutup: saat mulai berlakunya undang-undang, bukan norma hak ketenagakerjaan"
+      }
+    ],
+    "catatan": ""
+  },
+  "tidak_termodelkan": []
+}

@@ -1,0 +1,48 @@
+{
+  "spec_version": "1.1.0",
+  "vocab_version": "0.3.0",
+  "dokumen_id": "UU-61-2024",
+  "status_review": "reviewed",
+  "peraturan": {
+    "judul": "Undang-Undang Nomor 61 Tahun 2024 tentang Perubahan atas Undang-Undang Nomor 39 Tahun 2008 tentang Kementerian Negara",
+    "jenis": "UU",
+    "nomor": "61",
+    "tahun": "2024",
+    "sumber": "https://peraturan.bpk.go.id/Details/304396/uu-no-61-tahun-2024",
+    "status": "Berlaku",
+    "diubah_oleh": []
+  },
+  "norma": [],
+  "kategori": [],
+  "pengali_lembur": [],
+  "program_jamsos": [],
+  "cakupan": {
+    "lengkap": true,
+    "pasal_diekstrak": [
+      "Pasal 15",
+      "Pasal 25",
+      "Pasal 6A",
+      "Pasal 9A"
+    ],
+    "pasal_dilewati": [
+      {
+        "pasal": "Pasal 6A",
+        "alasan": "Kelembagaan: pembentukan kementerian tersendiri berdasarkan suburusan pemerintahan, di luar domain ketenagakerjaan. Bukti: \"pembentukan kementerian tersendiri dapat didasarkan pada subumsan pemerintahan\""
+      },
+      {
+        "pasal": "Pasal 9A",
+        "alasan": "Kelembagaan: Presiden dapat mengubah unsur organisasi kementerian dalam peraturan pelaksanaan, di luar domain ketenagakerjaan. Bukti: \"Presiden dapat melakukan perubahan unsur organisasi dimaksud dalam peraturan pelaksanaan\""
+      },
+      {
+        "pasal": "Pasal 15",
+        "alasan": "Kelembagaan: jumlah keseluruhan Kementerian ditetapkan Presiden sesuai kebutuhan penyelenggaraan pemerintahan, di luar domain ketenagakerjaan. Bukti: \"Jumlah keseluruhan Kementerian yang dibentuk sebagaimana dimaksud dalam Pasal 12, Pasal 13, dan Pasal 14 ditetapkan\""
+      },
+      {
+        "pasal": "Pasal 25",
+        "alasan": "Kelembagaan: hubungan fungsional kementerian dan lembaga pemerintah nonkementerian, di luar domain ketenagakerjaan. Bukti: \"Hubungan fungsional antara Kementerian, lembaga pemerintah nonkementerian, lembaga nonstruktural\""
+      }
+    ],
+    "catatan": ""
+  },
+  "tidak_termodelkan": []
+}

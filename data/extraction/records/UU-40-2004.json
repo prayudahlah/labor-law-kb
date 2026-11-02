@@ -1,0 +1,561 @@
+{
+  "spec_version": "1.1.0",
+  "vocab_version": "0.3.0",
+  "dokumen_id": "UU-40-2004",
+  "status_review": "reviewed",
+  "peraturan": {
+    "judul": "Undang-Undang Nomor 40 Tahun 2004 tentang Sistem Jaminan Sosial Nasional",
+    "jenis": "UU",
+    "nomor": "40",
+    "tahun": "2004",
+    "sumber": "https://peraturan.bpk.go.id/Details/40787/uu-no-40-tahun-2004",
+    "status": "Berlaku",
+    "diubah_oleh": []
+  },
+  "norma": [
+    {
+      "norm_id": "JAMSOS-PENDAFTARAN-PESERTA",
+      "topik": "Jamsos",
+      "pasal": "Pasal 13 ayat (1)",
+      "iri_individu": "ktn:KewajibanPendaftaranPeserta",
+      "jenis": "KetentuanJaminanSosial",
+      "kondisi": "Pemberi kerja mempekerjakan pekerja",
+      "akibat": "Wajib secara bertahap mendaftarkan diri dan pekerjanya sebagai peserta BPJS sesuai program jaminan sosial yang diikuti",
+      "parameter": [],
+      "bukti": "Pemberi kerja secara bertahap wajib mendaftarkan dirinya dan pekerjanya sebagai peserta kepada Badan Penyelenggara Jaminan Sosial",
+      "confidence": 0.95,
+      "dasar_keyakinan": "dikutip",
+      "catatan": "Pentahapan pendaftaran diatur lebih lanjut dengan Peraturan Presiden (ayat (2))."
+    },
+    {
+      "norm_id": "JAMSOS-HAK-PESERTA",
+      "topik": "Jamsos",
+      "pasal": "Pasal 16",
+      "iri_individu": "ktn:HakManfaatPeserta",
+      "jenis": "KetentuanJaminanSosial",
+      "kondisi": "Seseorang menjadi peserta program jaminan sosial",
+      "akibat": "Berhak memperoleh manfaat dan informasi tentang pelaksanaan program jaminan sosial yang diikuti",
+      "parameter": [],
+      "bukti": "Setiap peserta berhak memperoleh manfaat dan informasi tentang pelaksanaan program jaminan sosial yang diikuti.",
+      "confidence": 0.95,
+      "dasar_keyakinan": "dikutip",
+      "catatan": ""
+    },
+    {
+      "norm_id": "JAMSOS-IURAN-PESERTA",
+      "topik": "Jamsos",
+      "pasal": "Pasal 17 ayat (1)",
+      "iri_individu": "ktn:KewajibanIuranPeserta",
+      "jenis": "KetentuanJaminanSosial",
+      "kondisi": "Seseorang menjadi peserta program jaminan sosial",
+      "akibat": "Wajib membayar iuran yang besarnya ditetapkan berdasarkan persentase dari upah atau jumlah nominal tertentu",
+      "parameter": [],
+      "bukti": "Setiap peserta wajib membayar iuran yang besarnya ditetapkan berdasarkan persentase dari upah atau suatu jumlah nominal tertentu.",
+      "confidence": 0.95,
+      "dasar_keyakinan": "dikutip",
+      "catatan": "Besaran iuran ditetapkan per jenis program secara berkala (ayat (3))."
+    },
+    {
+      "norm_id": "JAMSOS-PEMUNGUTAN-IURAN",
+      "topik": "Jamsos",
+      "pasal": "Pasal 17 ayat (2)",
+      "iri_individu": "ktn:KewajibanPemungutanIuran",
+      "jenis": "KetentuanJaminanSosial",
+      "kondisi": "Pemberi kerja mempekerjakan peserta",
+      "akibat": "Wajib memungut iuran pekerja, menambahkan iuran kewajibannya, dan membayarkannya kepada BPJS secara berkala",
+      "parameter": [],
+      "bukti": "Setiap pemberi kerja wajib memungut iuran dari pekerjanya, menambahkan iuran yang menjadi kewajibannya dan membayarkan iuran tersebut kepada Badan Penyelenggara Jaminan Sosial",
+      "confidence": 0.95,
+      "dasar_keyakinan": "dikutip",
+      "catatan": ""
+    },
+    {
+      "norm_id": "JAMSOS-IURAN-BANTUAN-PEMERINTAH",
+      "topik": "Jamsos",
+      "pasal": "Pasal 17 ayat (4)",
+      "iri_individu": "ktn:IuranBantuanPemerintah",
+      "jenis": "KetentuanJaminanSosial",
+      "kondisi": "Peserta adalah fakir miskin atau orang tidak mampu",
+      "akibat": "Iuran program jaminan sosial dibayar oleh Pemerintah",
+      "parameter": [],
+      "bukti": "Iuran program jaminan sosial bagi fakir miskin dan orang yang tidak mampu dibayar oleh Pemerintah.",
+      "confidence": 0.95,
+      "dasar_keyakinan": "dikutip",
+      "catatan": "Pada tahap pertama dibayar untuk program jaminan kesehatan (ayat (5)); ketentuan lebih lanjut diatur PP (ayat (6))."
+    },
+    {
+      "norm_id": "JAMSOS-JKN-MANFAAT-KELUARGA",
+      "topik": "Jamsos",
+      "pasal": "Pasal 20 ayat (2)",
+      "iri_individu": "ktn:ManfaatJKNKeluarga",
+      "jenis": "KetentuanJaminanSosial",
+      "kondisi": "Peserta jaminan kesehatan memiliki anggota keluarga",
+      "akibat": "Anggota keluarga peserta berhak menerima manfaat jaminan kesehatan",
+      "parameter": [],
+      "bukti": "Anggota keluarga peserta berhak menerima manfaat jaminan kesehatan.",
+      "confidence": 0.95,
+      "dasar_keyakinan": "dikutip",
+      "catatan": ""
+    },
+    {
+      "norm_id": "JAMSOS-JKN-KELUARGA-TAMBAHAN",
+      "topik": "Jamsos",
+      "pasal": "Pasal 20 ayat (3)",
+      "iri_individu": "ktn:KeluargaTambahanJKN",
+      "jenis": "KetentuanJaminanSosial",
+      "kondisi": "Peserta ingin mengikutsertakan anggota keluarga lain yang menjadi tanggungannya",
+      "akibat": "Dapat mengikutsertakan anggota keluarga tersebut dengan penambahan iuran",
+      "parameter": [],
+      "bukti": "Setiap peserta dapat mengikutsertakan anggota keluarga yang lain yang menjadi tanggungannya dengan penambahan iuran.",
+      "confidence": 0.95,
+      "dasar_keyakinan": "dikutip",
+      "catatan": ""
+    },
+    {
+      "norm_id": "JAMSOS-JKN-PASCA-PHK",
+      "topik": "Jamsos",
+      "pasal": "Pasal 21 ayat (1)",
+      "iri_individu": "ktn:JaminanKesehatanPascaPHK",
+      "jenis": "KetentuanJaminanSosial",
+      "kondisi": "Peserta jaminan kesehatan mengalami pemutusan hubungan kerja",
+      "akibat": "Kepesertaan jaminan kesehatan tetap berlaku paling lama 6 bulan sejak pemutusan hubungan kerja",
+      "parameter": [],
+      "bukti": "Kepesertaan jaminan kesehatan tetap berlaku paling lama 6 (enam) bulan sejak seorang peserta mengalami pemutusan hubungan kerja.",
+      "confidence": 0.95,
+      "dasar_keyakinan": "dikutip",
+      "catatan": "Angka 6 bulan belum diparameterkan; tidak ada nama parameter yang sesuai di VOCAB."
+    },
+    {
+      "norm_id": "JAMSOS-JKN-IURAN-PEMERINTAH",
+      "topik": "Jamsos",
+      "pasal": "Pasal 21 ayat (2)",
+      "iri_individu": "ktn:IuranJKNBantuan",
+      "jenis": "KetentuanJaminanSosial",
+      "kondisi": "Setelah 6 bulan peserta belum memperoleh pekerjaan dan tidak mampu, atau mengalami cacat total tetap dan tidak mampu",
+      "akibat": "Iurannya dibayar oleh Pemerintah",
+      "parameter": [],
+      "bukti": "setelah 6 (enam) bulan belum memperoleh pekerjaan dan tidak mampu, iurannya dibayar oleh Pemerintah",
+      "confidence": 0.95,
+      "dasar_keyakinan": "dikutip",
+      "catatan": "Menggabungkan ayat (2) dan ayat (3); keduanya berakibat iuran dibayar Pemerintah."
+    },
+    {
+      "norm_id": "JAMSOS-JKN-MANFAAT",
+      "topik": "Jamsos",
+      "pasal": "Pasal 22 ayat (1)",
+      "iri_individu": "ktn:ManfaatJaminanKesehatan",
+      "jenis": "KetentuanJaminanSosial",
+      "kondisi": "Peserta jaminan kesehatan memperoleh manfaat",
+      "akibat": "Manfaat berupa pelayanan perseorangan yang mencakup pelayanan promotif, preventif, kuratif, dan rehabilitatif, termasuk obat dan bahan medis habis pakai",
+      "parameter": [],
+      "bukti": "Manfaat jaminan kesehatan bersifat pelayanan perseorangan berupa pelayanan kesehatan yang mencakup pelayanan promotif, preventif, kuratif dan rehabilitatif",
+      "confidence": 0.9,
+      "dasar_keyakinan": "dikutip",
+      "catatan": "Subjek peserta disimpulkan dari konteks bagian jaminan kesehatan; urun biaya diatur ayat (2)."
+    },
+    {
+      "norm_id": "JAMSOS-IURAN-JKN",
+      "topik": "Jamsos",
+      "pasal": "Pasal 27 ayat (1)",
+      "iri_individu": "ktn:IuranJaminanKesehatan",
+      "jenis": "KetentuanJaminanSosial",
+      "kondisi": "Peserta jaminan kesehatan adalah penerima upah",
+      "akibat": "Iuran ditentukan berdasarkan persentase dari upah sampai batas tertentu dan secara bertahap ditanggung bersama pekerja dan pemberi kerja",
+      "parameter": [],
+      "bukti": "Besarnya iuran jaminan kesehatan untuk peserta penerima upah ditentukan berdasarkan persentase dari upah sampai batas tertentu, yang secara bertahap ditanggung bersama oleh pekerja dan pemberi kerja.",
+      "confidence": 0.95,
+      "dasar_keyakinan": "dikutip",
+      "catatan": "Peserta bukan penerima upah dan penerima bantuan iuran memakai nominal (ayat (2)-(3)); tarif belum ditetapkan UU ini."
+    },
+    {
+      "norm_id": "JAMSOS-IURAN-KELUARGA-TAMBAHAN",
+      "topik": "Jamsos",
+      "pasal": "Pasal 28 ayat (1)",
+      "iri_individu": "ktn:TambahanIuranKeluarga",
+      "jenis": "KetentuanJaminanSosial",
+      "kondisi": "Pekerja memiliki anggota keluarga lebih dari 5 orang dan ingin mengikutsertakan anggota keluarga lain",
+      "akibat": "Wajib membayar tambahan iuran",
+      "parameter": [],
+      "bukti": "Pekerja yang memiliki anggota keluarga lebih dari 5 (lima) orang dan ingin mengikutsertakan anggota keluarga yang lain wajib membayar tambahan iuran.",
+      "confidence": 0.95,
+      "dasar_keyakinan": "dikutip",
+      "catatan": "Batas 5 orang belum diparameterkan; besaran tambahan iuran diatur Perpres (ayat (2))."
+    },
+    {
+      "norm_id": "JAMSOS-MANFAAT-JKK-UU402004",
+      "topik": "Jamsos",
+      "pasal": "Pasal 31 ayat (1)",
+      "iri_individu": "ktn:ManfaatJKKUu402004",
+      "jenis": "KetentuanJaminanSosial",
+      "kondisi": "Peserta mengalami kecelakaan kerja",
+      "akibat": "Berhak atas manfaat pelayanan kesehatan sesuai kebutuhan medis dan uang tunai bila terjadi cacat total tetap atau meninggal dunia",
+      "parameter": [],
+      "bukti": "Peserta yang mengalami kecelakaan kerja berhak mendapatkan manfaat berupa pelayanan kesehatan sesuai dengan kebutuhan medisnya dan mendapatkan manfaat berupa uang tunai",
+      "confidence": 0.95,
+      "dasar_keyakinan": "dikutip",
+      "catatan": "Uang tunai dibayar sekaligus kepada ahli waris pekerja yang meninggal atau pekerja yang cacat sesuai tingkat kecacatan (ayat (2))."
+    },
+    {
+      "norm_id": "JAMSOS-URUN-BIAYA-JKK",
+      "topik": "Jamsos",
+      "pasal": "Pasal 31 ayat (3)",
+      "iri_individu": "ktn:UrunBiayaJKK",
+      "jenis": "KetentuanJaminanSosial",
+      "kondisi": "Terdapat jenis pelayanan tertentu atau kecelakaan tertentu",
+      "akibat": "Pemberi kerja dikenakan urun biaya",
+      "parameter": [],
+      "bukti": "Untuk jenis-jenis pelayanan tertentu atau kecelakaan tertentu, pemberi kerja dikenakan urun biaya.",
+      "confidence": 0.95,
+      "dasar_keyakinan": "dikutip",
+      "catatan": ""
+    },
+    {
+      "norm_id": "JAMSOS-IURAN-JKK",
+      "topik": "Jamsos",
+      "pasal": "Pasal 34 ayat (1)",
+      "iri_individu": "ktn:IuranJKK",
+      "jenis": "KetentuanJaminanSosial",
+      "kondisi": "Peserta jaminan kecelakaan kerja adalah penerima upah",
+      "akibat": "Iuran sebesar persentase tertentu dari upah atau penghasilan ditanggung seluruhnya oleh pemberi kerja",
+      "parameter": [],
+      "bukti": "Besarnya iuran jaminan kecelakaan kerja adalah sebesar persentase tertentu dari upah atau penghasilan yang ditanggung seluruhnya oleh pemberi kerja.",
+      "confidence": 0.95,
+      "dasar_keyakinan": "dikutip",
+      "catatan": "Peserta bukan penerima upah membayar nominal (ayat (2)); besaran bervariasi menurut risiko lingkungan kerja (ayat (3)). Tarif belum ditetapkan UU ini."
+    },
+    {
+      "norm_id": "JAMSOS-MANFAAT-JHT-UU402004",
+      "topik": "Jamsos",
+      "pasal": "Pasal 37 ayat (1)",
+      "iri_individu": "ktn:ManfaatJHT",
+      "jenis": "KetentuanJaminanSosial",
+      "kondisi": "Peserta jaminan hari tua memasuki usia pensiun, meninggal dunia, atau mengalami cacat total tetap",
+      "akibat": "Manfaat uang tunai dibayarkan sekaligus",
+      "parameter": [],
+      "bukti": "Manfaat jaminan hari tua berupa uang tunai dibayarkan sekaligus pada saat peserta memasuki usia pensiun, meninggal dunia, atau mengalami cacat total tetap.",
+      "confidence": 0.95,
+      "dasar_keyakinan": "dikutip",
+      "catatan": "Besaran = seluruh akumulasi iuran ditambah hasil pengembangan (ayat (2)); ahli waris yang sah berhak bila peserta meninggal (ayat (4))."
+    },
+    {
+      "norm_id": "JAMSOS-MANFAAT-JHT-SEBAGIAN",
+      "topik": "Jamsos",
+      "pasal": "Pasal 37 ayat (3)",
+      "iri_individu": "ktn:ManfaatJHTSebagian",
+      "jenis": "KetentuanJaminanSosial",
+      "kondisi": "Kepesertaan jaminan hari tua mencapai minimal 10 tahun",
+      "akibat": "Manfaat dapat diberikan sebagian sampai batas tertentu",
+      "parameter": [],
+      "bukti": "Pembayaran manfaat jaminan hari tua dapat diberikan sebagian sampai batas tertentu setelah kepesertaan mencapai minimal 10 (sepuluh) tahun.",
+      "confidence": 0.95,
+      "dasar_keyakinan": "dikutip",
+      "catatan": "Angka 10 tahun belum diparameterkan; tata cara diatur PP (ayat (5))."
+    },
+    {
+      "norm_id": "JAMSOS-IURAN-JHT-UU402004",
+      "topik": "Jamsos",
+      "pasal": "Pasal 38 ayat (1)",
+      "iri_individu": "ktn:IuranJHT",
+      "jenis": "KetentuanJaminanSosial",
+      "kondisi": "Peserta jaminan hari tua adalah penerima upah",
+      "akibat": "Iuran ditetapkan berdasarkan persentase tertentu dari upah atau penghasilan dan ditanggung bersama pemberi kerja dan pekerja",
+      "parameter": [],
+      "bukti": "Besarnya iuran jaminan hari tua untuk peserta penerima upah ditetapkan berdasarkan persentase tertentu dari upah atau penghasilan tertentu yang ditanggung bersama oleh pemberi kerja dan pekerja.",
+      "confidence": 0.95,
+      "dasar_keyakinan": "dikutip",
+      "catatan": "Peserta bukan penerima upah membayar nominal (ayat (2)). Tarif belum ditetapkan UU ini."
+    },
+    {
+      "norm_id": "JAMSOS-MANFAAT-JP",
+      "topik": "Jamsos",
+      "pasal": "Pasal 41 ayat (2)",
+      "iri_individu": "ktn:ManfaatJP",
+      "jenis": "KetentuanJaminanSosial",
+      "kondisi": "Peserta atau ahli warisnya memenuhi masa iur minimal 15 tahun",
+      "akibat": "Berhak mendapatkan pembayaran uang pensiun berkala setiap bulan",
+      "parameter": [],
+      "bukti": "Setiap peserta atau ahli warisnya berhak mendapatkan pembayaran uang pensiun berkala setiap bulan setelah memenuhi masa iur minimal 15 (lima belas) tahun",
+      "confidence": 0.95,
+      "dasar_keyakinan": "dikutip",
+      "catatan": "Masa iur 15 tahun belum diparameterkan; ketentuan manfaat lebih lanjut diatur Perpres (ayat (8))."
+    },
+    {
+      "norm_id": "JAMSOS-MANFAAT-JP-AKUMULASI",
+      "topik": "Jamsos",
+      "pasal": "Pasal 41 ayat (5)",
+      "iri_individu": "ktn:ManfaatJPAkumulasi",
+      "jenis": "KetentuanJaminanSosial",
+      "kondisi": "Peserta mencapai usia pensiun sebelum memenuhi masa iur 15 tahun",
+      "akibat": "Berhak mendapatkan seluruh akumulasi iurannya ditambah hasil pengembangannya",
+      "parameter": [],
+      "bukti": "Apabila peserta mencapai usia pensiun sebelum memenuhi masa iur 15 (lima belas) tahun, peserta tersebut berhak mendapatkan seluruh akumulasi iurannya ditambah hasil pengembangannya.",
+      "confidence": 0.95,
+      "dasar_keyakinan": "dikutip",
+      "catatan": ""
+    },
+    {
+      "norm_id": "JAMSOS-MANFAAT-PENSIUN-CACAT",
+      "topik": "Jamsos",
+      "pasal": "Pasal 41 ayat (7)",
+      "iri_individu": "ktn:ManfaatPensiunCacat",
+      "jenis": "KetentuanJaminanSosial",
+      "kondisi": "Peserta mengalami cacat total tetap sebelum memasuki usia pensiun",
+      "akibat": "Manfaat pensiun cacat dibayarkan",
+      "parameter": [],
+      "bukti": "Manfaat pensiun cacat dibayarkan kepada peserta yang mengalami cacat total tetap meskipun peserta tersebut belum memasuki usia pensiun.",
+      "confidence": 0.95,
+      "dasar_keyakinan": "dikutip",
+      "catatan": ""
+    },
+    {
+      "norm_id": "JAMSOS-IURAN-JP-UU402004",
+      "topik": "Jamsos",
+      "pasal": "Pasal 42 ayat (1)",
+      "iri_individu": "ktn:IuranJP",
+      "jenis": "KetentuanJaminanSosial",
+      "kondisi": "Peserta jaminan pensiun adalah penerima upah",
+      "akibat": "Iuran ditentukan berdasarkan persentase tertentu dari upah atau penghasilan atau jumlah nominal tertentu dan ditanggung bersama pemberi kerja dan pekerja",
+      "parameter": [],
+      "bukti": "Besarnya iuran jaminan pensiun untuk peserta penerima upah ditentukan berdasarkan persentase tertentu dari upah atau penghasilan atau suatu jumlah nominal tertentu yang ditanggung bersama antara pemberi kerja dan pekerja.",
+      "confidence": 0.95,
+      "dasar_keyakinan": "dikutip",
+      "catatan": "Tarif belum ditetapkan UU ini; diatur lebih lanjut dengan PP (ayat (2))."
+    },
+    {
+      "norm_id": "JAMSOS-MANFAAT-JKM",
+      "topik": "Jamsos",
+      "pasal": "Pasal 45 ayat (1)",
+      "iri_individu": "ktn:ManfaatJKM",
+      "jenis": "KetentuanJaminanSosial",
+      "kondisi": "Klaim jaminan kematian diterima dan disetujui BPJS",
+      "akibat": "Manfaat uang tunai dibayarkan paling lambat 3 hari kerja",
+      "parameter": [
+        {
+          "nama": "hariDibayar",
+          "nilai": "3",
+          "satuan": "hari",
+          "jenis": "nominal",
+          "pasal": "Pasal 45 ayat (1)"
+        }
+      ],
+      "bukti": "Manfaat jaminan kematian berupa uang tunai dibayarkan paling lambat 3 (tiga) hari kerja setelah klaim diterima dan disetujui Badan Penyelenggara Jaminan Sosial.",
+      "confidence": 0.95,
+      "dasar_keyakinan": "dikutip",
+      "catatan": "Besaran manfaat berupa jumlah nominal tertentu (ayat (2)); rincian diatur PP (ayat (3))."
+    },
+    {
+      "norm_id": "JAMSOS-INFORMASI-IURAN",
+      "topik": "Jamsos",
+      "pasal": "Pasal 49 ayat (3)",
+      "iri_individu": "ktn:HakInformasiIuran",
+      "jenis": "KetentuanJaminanSosial",
+      "kondisi": "Peserta program jaminan hari tua, jaminan pensiun, atau jaminan kematian",
+      "akibat": "Berhak setiap saat memperoleh informasi akumulasi iuran, hasil pengembangannya, dan manfaat program",
+      "parameter": [],
+      "bukti": "Peserta berhak setiap saat memperoleh informasi tentang akumulasi iuran dan hasil pengembangannya serta manfaat dari jenis program jaminan hari tua, jaminan pensiun, dan jaminan kematian.",
+      "confidence": 0.95,
+      "dasar_keyakinan": "dikutip",
+      "catatan": "BPJS wajib memberi informasi akumulasi iuran JHT sekurang-kurangnya sekali dalam satu tahun (ayat (4))."
+    }
+  ],
+  "kategori": [],
+  "pengali_lembur": [],
+  "program_jamsos": [],
+  "cakupan": {
+    "lengkap": true,
+    "pasal_diekstrak": [
+      "Pasal 1",
+      "Pasal 10",
+      "Pasal 11",
+      "Pasal 13",
+      "Pasal 14",
+      "Pasal 15",
+      "Pasal 16",
+      "Pasal 17",
+      "Pasal 18",
+      "Pasal 19",
+      "Pasal 2",
+      "Pasal 20",
+      "Pasal 21",
+      "Pasal 22",
+      "Pasal 23",
+      "Pasal 24",
+      "Pasal 25",
+      "Pasal 26",
+      "Pasal 27",
+      "Pasal 28",
+      "Pasal 29",
+      "Pasal 3",
+      "Pasal 30",
+      "Pasal 31",
+      "Pasal 32",
+      "Pasal 33",
+      "Pasal 34",
+      "Pasal 35",
+      "Pasal 36",
+      "Pasal 37",
+      "Pasal 38",
+      "Pasal 39",
+      "Pasal 4",
+      "Pasal 40",
+      "Pasal 41",
+      "Pasal 42",
+      "Pasal 43",
+      "Pasal 44",
+      "Pasal 45",
+      "Pasal 47",
+      "Pasal 48",
+      "Pasal 49",
+      "Pasal 5",
+      "Pasal 50",
+      "Pasal 51",
+      "Pasal 52",
+      "Pasal 53",
+      "Pasal 6",
+      "Pasal 7",
+      "Pasal 9"
+    ],
+    "pasal_dilewati": [
+      {
+        "pasal": "Pasal 1",
+        "alasan": "definisi/istilah"
+      },
+      {
+        "pasal": "Pasal 2",
+        "alasan": "asas penyelenggaraan, bukan norma bersyarat"
+      },
+      {
+        "pasal": "Pasal 3",
+        "alasan": "tujuan penyelenggaraan, bukan norma bersyarat"
+      },
+      {
+        "pasal": "Pasal 4",
+        "alasan": "prinsip penyelenggaraan, bukan norma bersyarat"
+      },
+      {
+        "pasal": "Pasal 5",
+        "alasan": "kelembagaan/pembentukan Badan Penyelenggara Jaminan Sosial"
+      },
+      {
+        "pasal": "Pasal 6",
+        "alasan": "kelembagaan: pembentukan Dewan Jaminan Sosial Nasional"
+      },
+      {
+        "pasal": "Pasal 7",
+        "alasan": "kelembagaan: fungsi dan tugas Dewan Jaminan Sosial Nasional"
+      },
+      {
+        "pasal": "Pasal 9",
+        "alasan": "kelembagaan: penggunaan tenaga ahli oleh Dewan"
+      },
+      {
+        "pasal": "Pasal 10",
+        "alasan": "kelembagaan: susunan organisasi diatur Peraturan Presiden"
+      },
+      {
+        "pasal": "Pasal 11",
+        "alasan": "kelembagaan: pemberhentian anggota Dewan"
+      },
+      {
+        "pasal": "Pasal 14",
+        "alasan": "kewajiban Pemerintah mendaftarkan penerima bantuan iuran, bukan norma hubungan kerja"
+      },
+      {
+        "pasal": "Pasal 15",
+        "alasan": "kewajiban administratif BPJS (nomor identitas tunggal dan pemberian informasi)"
+      },
+      {
+        "pasal": "Pasal 19",
+        "alasan": "prinsip dan tujuan jaminan kesehatan, bukan norma bersyarat"
+      },
+      {
+        "pasal": "Pasal 23",
+        "alasan": "tata cara pelayanan fasilitas kesehatan dan kelas standar rawat inap"
+      },
+      {
+        "pasal": "Pasal 24",
+        "alasan": "tata cara pembayaran fasilitas kesehatan dan sistem kendali mutu"
+      },
+      {
+        "pasal": "Pasal 25",
+        "alasan": "daftar dan harga tertinggi obat ditetapkan peraturan perundang-undangan"
+      },
+      {
+        "pasal": "Pasal 26",
+        "alasan": "pelayanan yang tidak dijamin didelegasikan ke Peraturan Presiden"
+      },
+      {
+        "pasal": "Pasal 29",
+        "alasan": "prinsip dan tujuan jaminan kecelakaan kerja, bukan norma bersyarat"
+      },
+      {
+        "pasal": "Pasal 30",
+        "alasan": "definisi kepesertaan jaminan kecelakaan kerja"
+      },
+      {
+        "pasal": "Pasal 32",
+        "alasan": "tata cara fasilitas kesehatan, kompensasi, dan kelas standar rawat inap"
+      },
+      {
+        "pasal": "Pasal 33",
+        "alasan": "delegasi pengaturan besaran manfaat ke Peraturan Pemerintah"
+      },
+      {
+        "pasal": "Pasal 35",
+        "alasan": "prinsip dan tujuan jaminan hari tua, bukan norma bersyarat"
+      },
+      {
+        "pasal": "Pasal 36",
+        "alasan": "definisi kepesertaan jaminan hari tua"
+      },
+      {
+        "pasal": "Pasal 39",
+        "alasan": "prinsip, tujuan, dan usia pensiun menurut peraturan perundang-undangan"
+      },
+      {
+        "pasal": "Pasal 40",
+        "alasan": "definisi kepesertaan jaminan pensiun"
+      },
+      {
+        "pasal": "Pasal 43",
+        "alasan": "prinsip dan tujuan jaminan kematian, bukan norma bersyarat"
+      },
+      {
+        "pasal": "Pasal 44",
+        "alasan": "definisi kepesertaan jaminan kematian"
+      },
+      {
+        "pasal": "Pasal 47",
+        "alasan": "pengelolaan dan pengembangan Dana Jaminan Sosial; rincian diatur PP"
+      },
+      {
+        "pasal": "Pasal 48",
+        "alasan": "tindakan khusus Pemerintah atas kesehatan keuangan BPJS"
+      },
+      {
+        "pasal": "Pasal 50",
+        "alasan": "kewajiban cadangan teknis dan delegasi ke Peraturan Pemerintah"
+      },
+      {
+        "pasal": "Pasal 51",
+        "alasan": "pengawasan keuangan BPJS oleh instansi berwenang"
+      },
+      {
+        "pasal": "Pasal 52",
+        "alasan": "ketentuan peralihan badan penyelenggara"
+      },
+      {
+        "pasal": "Pasal 53",
+        "alasan": "ketentuan penutup/mulai berlaku"
+      }
+    ],
+    "catatan": ""
+  },
+  "tidak_termodelkan": [
+    {
+      "pasal": "Pasal 18",
+      "ringkasan": "Jenis program jaminan sosial meliputi jaminan kesehatan, jaminan kecelakaan kerja, jaminan hari tua, jaminan pensiun, dan jaminan kematian.",
+      "alasan": "Daftar jenis program tanpa kondisi-akibat; model program_jamsos menuntut tarif iuran yang tidak ditetapkan UU ini."
+    }
+  ]
+}

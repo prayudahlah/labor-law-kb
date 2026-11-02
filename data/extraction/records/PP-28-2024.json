@@ -1,0 +1,5463 @@
+{
+  "spec_version": "1.1.0",
+  "vocab_version": "0.3.0",
+  "dokumen_id": "PP-28-2024",
+  "status_review": "reviewed",
+  "peraturan": {
+    "judul": "Peraturan Pemerintah Nomor 28 Tahun 2024 tentang Peraturan Pelaksanaan Undang-Undang Nomor 17 Tahun 2023 tentang Kesehatan",
+    "jenis": "PP",
+    "nomor": "28",
+    "tahun": "2024",
+    "sumber": "https://peraturan.bpk.go.id/Details/294077/pp-no-28-tahun-2024",
+    "status": "Berlaku",
+    "diubah_oleh": []
+  },
+  "norma": [
+    {
+      "norm_id": "KIA-ASI-KEBIJAKAN-TEMPAT-KERJA",
+      "topik": "KIA",
+      "pasal": "Pasal 43 ayat (1)",
+      "iri_individu": "ktn:KetentuanKebijakanASI",
+      "jenis": "KetentuanKIA",
+      "kondisi": "Pengurus atau pengelola tempat kerja dan penyelenggara tempat fasilitas umum",
+      "akibat": "Harus mendorong dan memfasilitasi pemberian ASI eksklusif melalui kebijakan yang mendukung program ASI eksklusif",
+      "parameter": [],
+      "bukti": "harus mendorong dan memfasilitasi pemberian air susu ibu eksklusif melalui kebijakan yang mendukung program air susu ibu eksklusif",
+      "confidence": 0.95,
+      "dasar_keyakinan": "dikutip",
+      "catatan": "Ayat (2): pelaksanaan dukungan di tempat kerja sesuai perjanjian kerja, peraturan perusahaan, atau PKB."
+    },
+    {
+      "norm_id": "KIA-ASI-PERATURAN-INTERNAL",
+      "topik": "KIA",
+      "pasal": "Pasal 43 ayat (3)",
+      "iri_individu": "ktn:KetentuanPeraturanInternalASI",
+      "jenis": "KetentuanKIA",
+      "kondisi": "Pengurus atau pengelola tempat kerja dan penyelenggara tempat fasilitas umum",
+      "akibat": "Wajib membuat peraturan internal/perusahaan yang mendukung keberhasilan pemberian ASI eksklusif",
+      "parameter": [],
+      "bukti": "wajib membuat peraturan internal/perusahaan yang mendukung keberhasilan pemberian air susu ibu eksklusif",
+      "confidence": 0.95,
+      "dasar_keyakinan": "dikutip",
+      "catatan": ""
+    },
+    {
+      "norm_id": "KIA-ASI-FASILITAS-KHUSUS",
+      "topik": "KIA",
+      "pasal": "Pasal 43 ayat (4)",
+      "iri_individu": "ktn:KetentuanFasilitasMenyusui",
+      "jenis": "KetentuanKIA",
+      "kondisi": "Pengurus atau pengelola tempat kerja dan penyelenggara tempat fasilitas umum",
+      "akibat": "Harus menyediakan fasilitas khusus untuk menyusui dan/atau memerah ASI sesuai dengan kondisi kemampuan perusahaan",
+      "parameter": [],
+      "bukti": "harus menyediakan fasilitas khusus untuk men5rusui dan/atau memerah air susu ibu sesuai dengan kondisi kemampuan perusahaan",
+      "confidence": 0.9,
+      "dasar_keyakinan": "dikutip",
+      "catatan": "OCR: 'men5rusui' pada sumber dibaca 'menyusui'."
+    },
+    {
+      "norm_id": "KIA-ASI-WAKTU-KERJA",
+      "topik": "KIA",
+      "pasal": "Pasal 43 ayat (5)",
+      "iri_individu": "ktn:KetentuanKesempatanMenyusui",
+      "jenis": "KetentuanKIA",
+      "kondisi": "Ibu yang bekerja di tempat kerja",
+      "akibat": "Wajib diberikan kesempatan memberikan ASI eksklusif kepada bayi atau memerah ASI selama waktu kerja di tempat kerja",
+      "parameter": [],
+      "bukti": "wajib memberikan kesempatan kepada ibu yang bekerja untuk memberikan air susu ibu eksklusif kepada bayi atau memerah air susu ibu selama waktu kerja di tempat kerja",
+      "confidence": 0.95,
+      "dasar_keyakinan": "dikutip",
+      "catatan": ""
+    },
+    {
+      "norm_id": "JAMSOS-P28-TENAGA-CADANGAN-KK-JKM",
+      "topik": "Jamsos",
+      "pasal": "Pasal 636",
+      "iri_individu": "ktn:JaminanTenagaCadanganKesehatan",
+      "jenis": "KetentuanJaminanSosial",
+      "kondisi": "Tenaga cadangan Kesehatan dimobilisasi dalam penanggulangan KLB, Wabah, dan darurat bencana",
+      "akibat": "Mendapatkan jaminan kecelakaan kerja dan jaminan kematian sesuai ketentuan peraturan perundang-undangan",
+      "parameter": [],
+      "bukti": "tenaga cadangan Kesehatan mendapatkan jaminan kecelakaan kerja dan jaminan kematian",
+      "confidence": 0.85,
+      "dasar_keyakinan": "tafsir",
+      "catatan": "Pasal tidak menyebut nama program atau tarif iuran; hanya menetapkan hak atas jaminan kecelakaan kerja dan jaminan kematian. Bukti dikutip tanpa tag <sup> hasil konversi markdown."
+    },
+    {
+      "norm_id": "UPAH-P28-THR-TENAGA-KESEHATAN",
+      "topik": "Upah",
+      "pasal": "Pasal 725 ayat (4)",
+      "iri_individu": "ktn:THRTenagaKesehatan",
+      "jenis": "KetentuanUpah",
+      "kondisi": "Tenaga Medis dan Tenaga Kesehatan bekerja pada Fasilitas Pelayanan Kesehatan milik masyarakat dan menerima gaji/upah, imbalan jasa, serta tunjangan kinerja",
+      "akibat": "Berhak mendapatkan tunjangan hari raya keagamaan sesuai ketentuan peraturan perundang-undangan",
+      "parameter": [],
+      "bukti": "juga berhak mendapatkan tunjangan hari raya keagamaan sesuai dengan ketentuan peraturan perundang-undangan",
+      "confidence": 0.85,
+      "dasar_keyakinan": "tafsir",
+      "catatan": "Lingkup mengacu pada ayat (1) (fasyankes milik masyarakat); pasal tidak menetapkan besaran THR. Heading Pasal 725 muncul dua kali pada chunk (duplikasi OCR)."
+    },
+    {
+      "norm_id": "JAMSOS-P28-PENDAFTARAN-TENAGA-KESEHATAN",
+      "topik": "Jamsos",
+      "pasal": "Pasal 730 ayat (2)",
+      "iri_individu": "ktn:PendaftaranJamsosTenagaKesehatan",
+      "jenis": "KetentuanJaminanSosial",
+      "kondisi": "Tenaga Medis dan Tenaga Kesehatan bekerja pada pemberi kerja",
+      "akibat": "Pemberi kerja wajib mendaftarkan mereka untuk mendapatkan jaminan kesehatan dan jaminan ketenagakerjaan serta membayar iuran",
+      "parameter": [],
+      "bukti": "pemberi kerja tempat Tenaga Medis dan Tenaga Kesehatan bekerja wajib mendaftarkan Tenaga Medis dan Tenaga Kesehatan untuk mendapatkan jaminan kesehatan dan jaminan ketenagakerjaan, serta membayar iuran",
+      "confidence": 0.9,
+      "dasar_keyakinan": "dikutip",
+      "catatan": "Ayat (1) hanya menyebut program jaminan sosial tanpa merinci jenis program atau tarif iuran; tidak ada parameter numerik yang dapat diisi."
+    }
+  ],
+  "kategori": [],
+  "pengali_lembur": [],
+  "program_jamsos": [],
+  "cakupan": {
+    "lengkap": true,
+    "pasal_diekstrak": [
+      "Pasal 1",
+      "Pasal 10",
+      "Pasal 1000",
+      "Pasal 1001",
+      "Pasal 1003",
+      "Pasal 1005",
+      "Pasal 1006",
+      "Pasal 1008",
+      "Pasal 1009",
+      "Pasal 101",
+      "Pasal 1010",
+      "Pasal 1011",
+      "Pasal 1013",
+      "Pasal 1014",
+      "Pasal 1015",
+      "Pasal 1016",
+      "Pasal 1018",
+      "Pasal 1019",
+      "Pasal 102",
+      "Pasal 1025",
+      "Pasal 1026",
+      "Pasal 1028",
+      "Pasal 103",
+      "Pasal 1030",
+      "Pasal 1031",
+      "Pasal 1033",
+      "Pasal 1034",
+      "Pasal 1035",
+      "Pasal 1036",
+      "Pasal 1038",
+      "Pasal 1039",
+      "Pasal 104",
+      "Pasal 1040",
+      "Pasal 1041",
+      "Pasal 1043",
+      "Pasal 1045",
+      "Pasal 1046",
+      "Pasal 1048",
+      "Pasal 105",
+      "Pasal 1050",
+      "Pasal 1051",
+      "Pasal 1053",
+      "Pasal 1054",
+      "Pasal 1055",
+      "Pasal 1056",
+      "Pasal 1057",
+      "Pasal 1058",
+      "Pasal 1059",
+      "Pasal 106",
+      "Pasal 1060",
+      "Pasal 1061",
+      "Pasal 1062",
+      "Pasal 1063",
+      "Pasal 1064",
+      "Pasal 1065",
+      "Pasal 1066",
+      "Pasal 1067",
+      "Pasal 1068",
+      "Pasal 1069",
+      "Pasal 107",
+      "Pasal 1075",
+      "Pasal 1076",
+      "Pasal 1078",
+      "Pasal 1080",
+      "Pasal 1081",
+      "Pasal 1083",
+      "Pasal 1084",
+      "Pasal 1085",
+      "Pasal 1086",
+      "Pasal 1088",
+      "Pasal 1089",
+      "Pasal 109",
+      "Pasal 1090",
+      "Pasal 1091",
+      "Pasal 1093",
+      "Pasal 1094",
+      "Pasal 1095",
+      "Pasal 1096",
+      "Pasal 1098",
+      "Pasal 1099",
+      "Pasal 1100",
+      "Pasal 1101",
+      "Pasal 1103",
+      "Pasal 1104",
+      "Pasal 1105",
+      "Pasal 1106",
+      "Pasal 1108",
+      "Pasal 1109",
+      "Pasal 1111",
+      "Pasal 1113",
+      "Pasal 1130",
+      "Pasal 1131",
+      "Pasal 1134",
+      "Pasal 1135",
+      "Pasal 1136",
+      "Pasal 1138",
+      "Pasal 1139",
+      "Pasal 1140",
+      "Pasal 1145",
+      "Pasal 1146",
+      "Pasal 1148",
+      "Pasal 1150",
+      "Pasal 1152",
+      "Pasal 1153",
+      "Pasal 1154",
+      "Pasal 1155",
+      "Pasal 1156",
+      "Pasal 1158",
+      "Pasal 1159",
+      "Pasal 116",
+      "Pasal 1160",
+      "Pasal 1161",
+      "Pasal 1162",
+      "Pasal 1163",
+      "Pasal 1164",
+      "Pasal 1165",
+      "Pasal 1166",
+      "Pasal 1167",
+      "Pasal 1168",
+      "Pasal 1169",
+      "Pasal 12",
+      "Pasal 120",
+      "Pasal 121",
+      "Pasal 122",
+      "Pasal 123",
+      "Pasal 124",
+      "Pasal 125",
+      "Pasal 126",
+      "Pasal 127",
+      "Pasal 128",
+      "Pasal 129",
+      "Pasal 13",
+      "Pasal 130",
+      "Pasal 131",
+      "Pasal 132",
+      "Pasal 133",
+      "Pasal 134",
+      "Pasal 135",
+      "Pasal 136",
+      "Pasal 137",
+      "Pasal 138",
+      "Pasal 139",
+      "Pasal 14",
+      "Pasal 140",
+      "Pasal 141",
+      "Pasal 142",
+      "Pasal 143",
+      "Pasal 144",
+      "Pasal 145",
+      "Pasal 146",
+      "Pasal 147",
+      "Pasal 148",
+      "Pasal 149",
+      "Pasal 15",
+      "Pasal 150",
+      "Pasal 151",
+      "Pasal 152",
+      "Pasal 153",
+      "Pasal 154",
+      "Pasal 155",
+      "Pasal 156",
+      "Pasal 157",
+      "Pasal 158",
+      "Pasal 159",
+      "Pasal 16",
+      "Pasal 160",
+      "Pasal 161",
+      "Pasal 162",
+      "Pasal 163",
+      "Pasal 164",
+      "Pasal 165",
+      "Pasal 166",
+      "Pasal 167",
+      "Pasal 168",
+      "Pasal 169",
+      "Pasal 17",
+      "Pasal 170",
+      "Pasal 171",
+      "Pasal 172",
+      "Pasal 173",
+      "Pasal 174",
+      "Pasal 175",
+      "Pasal 176",
+      "Pasal 177",
+      "Pasal 178",
+      "Pasal 179",
+      "Pasal 18",
+      "Pasal 180",
+      "Pasal 181",
+      "Pasal 182",
+      "Pasal 183",
+      "Pasal 184",
+      "Pasal 185",
+      "Pasal 186",
+      "Pasal 187",
+      "Pasal 188",
+      "Pasal 189",
+      "Pasal 19",
+      "Pasal 190",
+      "Pasal 191",
+      "Pasal 192",
+      "Pasal 193",
+      "Pasal 194",
+      "Pasal 195",
+      "Pasal 196",
+      "Pasal 197",
+      "Pasal 198",
+      "Pasal 199",
+      "Pasal 2",
+      "Pasal 20",
+      "Pasal 201",
+      "Pasal 203",
+      "Pasal 204",
+      "Pasal 205",
+      "Pasal 206",
+      "Pasal 208",
+      "Pasal 210",
+      "Pasal 211",
+      "Pasal 213",
+      "Pasal 215",
+      "Pasal 218",
+      "Pasal 219",
+      "Pasal 22",
+      "Pasal 220",
+      "Pasal 221",
+      "Pasal 222",
+      "Pasal 223",
+      "Pasal 224",
+      "Pasal 225",
+      "Pasal 226",
+      "Pasal 227",
+      "Pasal 228",
+      "Pasal 229",
+      "Pasal 23",
+      "Pasal 230",
+      "Pasal 231",
+      "Pasal 232",
+      "Pasal 233",
+      "Pasal 234",
+      "Pasal 235",
+      "Pasal 236",
+      "Pasal 237",
+      "Pasal 238",
+      "Pasal 239",
+      "Pasal 24",
+      "Pasal 240",
+      "Pasal 241",
+      "Pasal 242",
+      "Pasal 243",
+      "Pasal 244",
+      "Pasal 245",
+      "Pasal 246",
+      "Pasal 247",
+      "Pasal 248",
+      "Pasal 249",
+      "Pasal 25",
+      "Pasal 250",
+      "Pasal 251",
+      "Pasal 252",
+      "Pasal 253",
+      "Pasal 254",
+      "Pasal 255",
+      "Pasal 256",
+      "Pasal 257",
+      "Pasal 258",
+      "Pasal 259",
+      "Pasal 26",
+      "Pasal 260",
+      "Pasal 261",
+      "Pasal 262",
+      "Pasal 263",
+      "Pasal 265",
+      "Pasal 266",
+      "Pasal 267",
+      "Pasal 268",
+      "Pasal 269",
+      "Pasal 27",
+      "Pasal 270",
+      "Pasal 272",
+      "Pasal 273",
+      "Pasal 275",
+      "Pasal 277",
+      "Pasal 278",
+      "Pasal 279",
+      "Pasal 28",
+      "Pasal 280",
+      "Pasal 281",
+      "Pasal 282",
+      "Pasal 283",
+      "Pasal 284",
+      "Pasal 285",
+      "Pasal 286",
+      "Pasal 287",
+      "Pasal 288",
+      "Pasal 289",
+      "Pasal 29",
+      "Pasal 290",
+      "Pasal 291",
+      "Pasal 292",
+      "Pasal 293",
+      "Pasal 294",
+      "Pasal 295",
+      "Pasal 296",
+      "Pasal 298",
+      "Pasal 299",
+      "Pasal 3",
+      "Pasal 30",
+      "Pasal 300",
+      "Pasal 301",
+      "Pasal 302",
+      "Pasal 303",
+      "Pasal 304",
+      "Pasal 306",
+      "Pasal 307",
+      "Pasal 308",
+      "Pasal 309",
+      "Pasal 31",
+      "Pasal 310",
+      "Pasal 312",
+      "Pasal 313",
+      "Pasal 314",
+      "Pasal 315",
+      "Pasal 316",
+      "Pasal 317",
+      "Pasal 318",
+      "Pasal 319",
+      "Pasal 32",
+      "Pasal 320",
+      "Pasal 322",
+      "Pasal 323",
+      "Pasal 324",
+      "Pasal 325",
+      "Pasal 326",
+      "Pasal 327",
+      "Pasal 328",
+      "Pasal 329",
+      "Pasal 33",
+      "Pasal 330",
+      "Pasal 331",
+      "Pasal 332",
+      "Pasal 333",
+      "Pasal 334",
+      "Pasal 335",
+      "Pasal 336",
+      "Pasal 337",
+      "Pasal 338",
+      "Pasal 339",
+      "Pasal 34",
+      "Pasal 340",
+      "Pasal 341",
+      "Pasal 342",
+      "Pasal 343",
+      "Pasal 344",
+      "Pasal 345",
+      "Pasal 346",
+      "Pasal 347",
+      "Pasal 348",
+      "Pasal 349",
+      "Pasal 35",
+      "Pasal 350",
+      "Pasal 351",
+      "Pasal 352",
+      "Pasal 353",
+      "Pasal 354",
+      "Pasal 355",
+      "Pasal 356",
+      "Pasal 357",
+      "Pasal 358",
+      "Pasal 359",
+      "Pasal 36",
+      "Pasal 360",
+      "Pasal 361",
+      "Pasal 362",
+      "Pasal 363",
+      "Pasal 364",
+      "Pasal 365",
+      "Pasal 366",
+      "Pasal 367",
+      "Pasal 368",
+      "Pasal 369",
+      "Pasal 37",
+      "Pasal 370",
+      "Pasal 371",
+      "Pasal 372",
+      "Pasal 373",
+      "Pasal 374",
+      "Pasal 375",
+      "Pasal 376",
+      "Pasal 377",
+      "Pasal 378",
+      "Pasal 379",
+      "Pasal 38",
+      "Pasal 380",
+      "Pasal 381",
+      "Pasal 382",
+      "Pasal 383",
+      "Pasal 384",
+      "Pasal 385",
+      "Pasal 386",
+      "Pasal 387",
+      "Pasal 388",
+      "Pasal 389",
+      "Pasal 39",
+      "Pasal 390",
+      "Pasal 392",
+      "Pasal 393",
+      "Pasal 394",
+      "Pasal 395",
+      "Pasal 396",
+      "Pasal 397",
+      "Pasal 398",
+      "Pasal 399",
+      "Pasal 4",
+      "Pasal 40",
+      "Pasal 400",
+      "Pasal 402",
+      "Pasal 403",
+      "Pasal 404",
+      "Pasal 405",
+      "Pasal 406",
+      "Pasal 407",
+      "Pasal 408",
+      "Pasal 409",
+      "Pasal 410",
+      "Pasal 412",
+      "Pasal 413",
+      "Pasal 414",
+      "Pasal 415",
+      "Pasal 416",
+      "Pasal 418",
+      "Pasal 419",
+      "Pasal 42",
+      "Pasal 420",
+      "Pasal 421",
+      "Pasal 422",
+      "Pasal 423",
+      "Pasal 424",
+      "Pasal 425",
+      "Pasal 426",
+      "Pasal 427",
+      "Pasal 428",
+      "Pasal 429",
+      "Pasal 43",
+      "Pasal 430",
+      "Pasal 432",
+      "Pasal 433",
+      "Pasal 434",
+      "Pasal 435",
+      "Pasal 436",
+      "Pasal 437",
+      "Pasal 438",
+      "Pasal 439",
+      "Pasal 44",
+      "Pasal 440",
+      "Pasal 442",
+      "Pasal 443",
+      "Pasal 444",
+      "Pasal 445",
+      "Pasal 446",
+      "Pasal 447",
+      "Pasal 448",
+      "Pasal 449",
+      "Pasal 45",
+      "Pasal 450",
+      "Pasal 451",
+      "Pasal 452",
+      "Pasal 453",
+      "Pasal 454",
+      "Pasal 455",
+      "Pasal 456",
+      "Pasal 457",
+      "Pasal 458",
+      "Pasal 459",
+      "Pasal 46",
+      "Pasal 460",
+      "Pasal 461",
+      "Pasal 462",
+      "Pasal 463",
+      "Pasal 464",
+      "Pasal 465",
+      "Pasal 466",
+      "Pasal 467",
+      "Pasal 468",
+      "Pasal 469",
+      "Pasal 47",
+      "Pasal 470",
+      "Pasal 472",
+      "Pasal 473",
+      "Pasal 474",
+      "Pasal 475",
+      "Pasal 476",
+      "Pasal 477",
+      "Pasal 478",
+      "Pasal 479",
+      "Pasal 48",
+      "Pasal 480",
+      "Pasal 481",
+      "Pasal 482",
+      "Pasal 483",
+      "Pasal 484",
+      "Pasal 485",
+      "Pasal 486",
+      "Pasal 487",
+      "Pasal 488",
+      "Pasal 489",
+      "Pasal 49",
+      "Pasal 490",
+      "Pasal 491",
+      "Pasal 492",
+      "Pasal 493",
+      "Pasal 494",
+      "Pasal 495",
+      "Pasal 496",
+      "Pasal 498",
+      "Pasal 499",
+      "Pasal 5",
+      "Pasal 50",
+      "Pasal 500",
+      "Pasal 501",
+      "Pasal 502",
+      "Pasal 503",
+      "Pasal 504",
+      "Pasal 505",
+      "Pasal 506",
+      "Pasal 507",
+      "Pasal 508",
+      "Pasal 509",
+      "Pasal 51",
+      "Pasal 510",
+      "Pasal 511",
+      "Pasal 512",
+      "Pasal 513",
+      "Pasal 514",
+      "Pasal 515",
+      "Pasal 516",
+      "Pasal 517",
+      "Pasal 518",
+      "Pasal 519",
+      "Pasal 52",
+      "Pasal 520",
+      "Pasal 521",
+      "Pasal 522",
+      "Pasal 523",
+      "Pasal 524",
+      "Pasal 525",
+      "Pasal 526",
+      "Pasal 527",
+      "Pasal 528",
+      "Pasal 529",
+      "Pasal 53",
+      "Pasal 530",
+      "Pasal 531",
+      "Pasal 532",
+      "Pasal 533",
+      "Pasal 534",
+      "Pasal 535",
+      "Pasal 536",
+      "Pasal 537",
+      "Pasal 538",
+      "Pasal 539",
+      "Pasal 54",
+      "Pasal 540",
+      "Pasal 541",
+      "Pasal 542",
+      "Pasal 543",
+      "Pasal 544",
+      "Pasal 545",
+      "Pasal 546",
+      "Pasal 547",
+      "Pasal 548",
+      "Pasal 549",
+      "Pasal 55",
+      "Pasal 550",
+      "Pasal 551",
+      "Pasal 552",
+      "Pasal 553",
+      "Pasal 554",
+      "Pasal 555",
+      "Pasal 556",
+      "Pasal 557",
+      "Pasal 558",
+      "Pasal 559",
+      "Pasal 56",
+      "Pasal 560",
+      "Pasal 561",
+      "Pasal 562",
+      "Pasal 563",
+      "Pasal 564",
+      "Pasal 565",
+      "Pasal 566",
+      "Pasal 567",
+      "Pasal 568",
+      "Pasal 569",
+      "Pasal 57",
+      "Pasal 570",
+      "Pasal 571",
+      "Pasal 572",
+      "Pasal 573",
+      "Pasal 574",
+      "Pasal 575",
+      "Pasal 576",
+      "Pasal 577",
+      "Pasal 578",
+      "Pasal 579",
+      "Pasal 58",
+      "Pasal 580",
+      "Pasal 581",
+      "Pasal 582",
+      "Pasal 583",
+      "Pasal 584",
+      "Pasal 585",
+      "Pasal 586",
+      "Pasal 587",
+      "Pasal 588",
+      "Pasal 589",
+      "Pasal 59",
+      "Pasal 590",
+      "Pasal 591",
+      "Pasal 592",
+      "Pasal 593",
+      "Pasal 594",
+      "Pasal 595",
+      "Pasal 596",
+      "Pasal 597",
+      "Pasal 598",
+      "Pasal 599",
+      "Pasal 6",
+      "Pasal 60",
+      "Pasal 600",
+      "Pasal 601",
+      "Pasal 602",
+      "Pasal 603",
+      "Pasal 604",
+      "Pasal 607",
+      "Pasal 608",
+      "Pasal 609",
+      "Pasal 61",
+      "Pasal 610",
+      "Pasal 611",
+      "Pasal 612",
+      "Pasal 613",
+      "Pasal 614",
+      "Pasal 615",
+      "Pasal 616",
+      "Pasal 617",
+      "Pasal 618",
+      "Pasal 619",
+      "Pasal 62",
+      "Pasal 620",
+      "Pasal 622",
+      "Pasal 623",
+      "Pasal 624",
+      "Pasal 625",
+      "Pasal 626",
+      "Pasal 627",
+      "Pasal 628",
+      "Pasal 629",
+      "Pasal 63",
+      "Pasal 630",
+      "Pasal 631",
+      "Pasal 632",
+      "Pasal 633",
+      "Pasal 634",
+      "Pasal 635",
+      "Pasal 636",
+      "Pasal 637",
+      "Pasal 638",
+      "Pasal 639",
+      "Pasal 64",
+      "Pasal 640",
+      "Pasal 642",
+      "Pasal 643",
+      "Pasal 644",
+      "Pasal 645",
+      "Pasal 646",
+      "Pasal 647",
+      "Pasal 648",
+      "Pasal 649",
+      "Pasal 65",
+      "Pasal 650",
+      "Pasal 651",
+      "Pasal 652",
+      "Pasal 653",
+      "Pasal 654",
+      "Pasal 655",
+      "Pasal 656",
+      "Pasal 657",
+      "Pasal 658",
+      "Pasal 659",
+      "Pasal 66",
+      "Pasal 660",
+      "Pasal 661",
+      "Pasal 662",
+      "Pasal 663",
+      "Pasal 664",
+      "Pasal 665",
+      "Pasal 666",
+      "Pasal 667",
+      "Pasal 668",
+      "Pasal 669",
+      "Pasal 67",
+      "Pasal 670",
+      "Pasal 671",
+      "Pasal 672",
+      "Pasal 673",
+      "Pasal 674",
+      "Pasal 675",
+      "Pasal 676",
+      "Pasal 677",
+      "Pasal 678",
+      "Pasal 679",
+      "Pasal 67L",
+      "Pasal 68",
+      "Pasal 680",
+      "Pasal 681",
+      "Pasal 682",
+      "Pasal 683",
+      "Pasal 684",
+      "Pasal 685",
+      "Pasal 686",
+      "Pasal 687",
+      "Pasal 688",
+      "Pasal 689",
+      "Pasal 69",
+      "Pasal 690",
+      "Pasal 691",
+      "Pasal 692",
+      "Pasal 693",
+      "Pasal 694",
+      "Pasal 695",
+      "Pasal 696",
+      "Pasal 697",
+      "Pasal 698",
+      "Pasal 699",
+      "Pasal 7",
+      "Pasal 70",
+      "Pasal 700",
+      "Pasal 701",
+      "Pasal 705",
+      "Pasal 706",
+      "Pasal 707",
+      "Pasal 708",
+      "Pasal 709",
+      "Pasal 71",
+      "Pasal 710",
+      "Pasal 712",
+      "Pasal 713",
+      "Pasal 714",
+      "Pasal 715",
+      "Pasal 716",
+      "Pasal 718",
+      "Pasal 719",
+      "Pasal 72",
+      "Pasal 720",
+      "Pasal 721",
+      "Pasal 722",
+      "Pasal 723",
+      "Pasal 725",
+      "Pasal 726",
+      "Pasal 727",
+      "Pasal 728",
+      "Pasal 729",
+      "Pasal 73",
+      "Pasal 730",
+      "Pasal 731",
+      "Pasal 733",
+      "Pasal 734",
+      "Pasal 735",
+      "Pasal 736",
+      "Pasal 737",
+      "Pasal 738",
+      "Pasal 739",
+      "Pasal 74",
+      "Pasal 740",
+      "Pasal 741",
+      "Pasal 742",
+      "Pasal 743",
+      "Pasal 745",
+      "Pasal 746",
+      "Pasal 747",
+      "Pasal 748",
+      "Pasal 749",
+      "Pasal 75",
+      "Pasal 750",
+      "Pasal 751",
+      "Pasal 752",
+      "Pasal 753",
+      "Pasal 754",
+      "Pasal 755",
+      "Pasal 756",
+      "Pasal 757",
+      "Pasal 758",
+      "Pasal 759",
+      "Pasal 76",
+      "Pasal 760",
+      "Pasal 761",
+      "Pasal 762",
+      "Pasal 763",
+      "Pasal 765",
+      "Pasal 766",
+      "Pasal 767",
+      "Pasal 768",
+      "Pasal 769",
+      "Pasal 77",
+      "Pasal 770",
+      "Pasal 771",
+      "Pasal 772",
+      "Pasal 773",
+      "Pasal 774",
+      "Pasal 775",
+      "Pasal 776",
+      "Pasal 777",
+      "Pasal 778",
+      "Pasal 779",
+      "Pasal 78",
+      "Pasal 780",
+      "Pasal 781",
+      "Pasal 782",
+      "Pasal 783",
+      "Pasal 784",
+      "Pasal 785",
+      "Pasal 786",
+      "Pasal 788",
+      "Pasal 789",
+      "Pasal 79",
+      "Pasal 790",
+      "Pasal 791",
+      "Pasal 792",
+      "Pasal 793",
+      "Pasal 795",
+      "Pasal 796",
+      "Pasal 797",
+      "Pasal 798",
+      "Pasal 799",
+      "Pasal 8",
+      "Pasal 80",
+      "Pasal 800",
+      "Pasal 802",
+      "Pasal 803",
+      "Pasal 804",
+      "Pasal 805",
+      "Pasal 806",
+      "Pasal 807",
+      "Pasal 808",
+      "Pasal 809",
+      "Pasal 81",
+      "Pasal 810",
+      "Pasal 812",
+      "Pasal 813",
+      "Pasal 814",
+      "Pasal 815",
+      "Pasal 816",
+      "Pasal 817",
+      "Pasal 818",
+      "Pasal 819",
+      "Pasal 82",
+      "Pasal 820",
+      "Pasal 821",
+      "Pasal 822",
+      "Pasal 823",
+      "Pasal 824",
+      "Pasal 825",
+      "Pasal 826",
+      "Pasal 827",
+      "Pasal 828",
+      "Pasal 829",
+      "Pasal 83",
+      "Pasal 830",
+      "Pasal 831",
+      "Pasal 832",
+      "Pasal 833",
+      "Pasal 834",
+      "Pasal 835",
+      "Pasal 836",
+      "Pasal 837",
+      "Pasal 838",
+      "Pasal 839",
+      "Pasal 84",
+      "Pasal 840",
+      "Pasal 841",
+      "Pasal 842",
+      "Pasal 843",
+      "Pasal 844",
+      "Pasal 845",
+      "Pasal 846",
+      "Pasal 847",
+      "Pasal 848",
+      "Pasal 849",
+      "Pasal 85",
+      "Pasal 850",
+      "Pasal 851",
+      "Pasal 852",
+      "Pasal 853",
+      "Pasal 854",
+      "Pasal 855",
+      "Pasal 856",
+      "Pasal 857",
+      "Pasal 858",
+      "Pasal 859",
+      "Pasal 86",
+      "Pasal 860",
+      "Pasal 861",
+      "Pasal 862",
+      "Pasal 863",
+      "Pasal 864",
+      "Pasal 865",
+      "Pasal 866",
+      "Pasal 867",
+      "Pasal 868",
+      "Pasal 869",
+      "Pasal 87",
+      "Pasal 870",
+      "Pasal 871",
+      "Pasal 872",
+      "Pasal 873",
+      "Pasal 874",
+      "Pasal 875",
+      "Pasal 876",
+      "Pasal 877",
+      "Pasal 878",
+      "Pasal 879",
+      "Pasal 88",
+      "Pasal 880",
+      "Pasal 881",
+      "Pasal 882",
+      "Pasal 883",
+      "Pasal 884",
+      "Pasal 885",
+      "Pasal 886",
+      "Pasal 887",
+      "Pasal 888",
+      "Pasal 889",
+      "Pasal 89",
+      "Pasal 890",
+      "Pasal 891",
+      "Pasal 892",
+      "Pasal 893",
+      "Pasal 894",
+      "Pasal 895",
+      "Pasal 896",
+      "Pasal 897",
+      "Pasal 898",
+      "Pasal 899",
+      "Pasal 9",
+      "Pasal 90",
+      "Pasal 900",
+      "Pasal 901",
+      "Pasal 902",
+      "Pasal 903",
+      "Pasal 904",
+      "Pasal 905",
+      "Pasal 906",
+      "Pasal 907",
+      "Pasal 908",
+      "Pasal 909",
+      "Pasal 910",
+      "Pasal 912",
+      "Pasal 913",
+      "Pasal 914",
+      "Pasal 915",
+      "Pasal 916",
+      "Pasal 917",
+      "Pasal 918",
+      "Pasal 919",
+      "Pasal 92",
+      "Pasal 920",
+      "Pasal 922",
+      "Pasal 923",
+      "Pasal 924",
+      "Pasal 925",
+      "Pasal 926",
+      "Pasal 927",
+      "Pasal 928",
+      "Pasal 929",
+      "Pasal 93",
+      "Pasal 930",
+      "Pasal 931",
+      "Pasal 932",
+      "Pasal 933",
+      "Pasal 934",
+      "Pasal 935",
+      "Pasal 936",
+      "Pasal 937",
+      "Pasal 938",
+      "Pasal 939",
+      "Pasal 94",
+      "Pasal 940",
+      "Pasal 941",
+      "Pasal 942",
+      "Pasal 943",
+      "Pasal 944",
+      "Pasal 945",
+      "Pasal 946",
+      "Pasal 947",
+      "Pasal 948",
+      "Pasal 949",
+      "Pasal 95",
+      "Pasal 950",
+      "Pasal 951",
+      "Pasal 952",
+      "Pasal 953",
+      "Pasal 954",
+      "Pasal 955",
+      "Pasal 956",
+      "Pasal 957",
+      "Pasal 958",
+      "Pasal 959",
+      "Pasal 96",
+      "Pasal 960",
+      "Pasal 961",
+      "Pasal 962",
+      "Pasal 963",
+      "Pasal 964",
+      "Pasal 965",
+      "Pasal 966",
+      "Pasal 967",
+      "Pasal 968",
+      "Pasal 969",
+      "Pasal 97",
+      "Pasal 970",
+      "Pasal 971",
+      "Pasal 972",
+      "Pasal 973",
+      "Pasal 974",
+      "Pasal 975",
+      "Pasal 976",
+      "Pasal 977",
+      "Pasal 978",
+      "Pasal 979",
+      "Pasal 98",
+      "Pasal 980",
+      "Pasal 981",
+      "Pasal 982",
+      "Pasal 983",
+      "Pasal 984",
+      "Pasal 985",
+      "Pasal 986",
+      "Pasal 987",
+      "Pasal 988",
+      "Pasal 989",
+      "Pasal 99",
+      "Pasal 990",
+      "Pasal 992",
+      "Pasal 993",
+      "Pasal 994",
+      "Pasal 995",
+      "Pasal 996",
+      "Pasal 997",
+      "Pasal 998",
+      "Pasal 999"
+    ],
+    "pasal_dilewati": [
+      {
+        "pasal": "Pasal 1",
+        "alasan": "definisi/istilah"
+      },
+      {
+        "pasal": "Pasal 2",
+        "alasan": "tanggung jawab pemerintah atas upaya kesehatan, di luar domain ketenagakerjaan"
+      },
+      {
+        "pasal": "Pasal 3",
+        "alasan": "ruang lingkup upaya kesehatan perseorangan dan masyarakat, di luar domain"
+      },
+      {
+        "pasal": "Pasal 4",
+        "alasan": "daftar jenis penyelenggaraan upaya kesehatan, di luar domain"
+      },
+      {
+        "pasal": "Pasal 5",
+        "alasan": "integrasi upaya kesehatan menurut siklus hidup, di luar domain"
+      },
+      {
+        "pasal": "Pasal 6",
+        "alasan": "penyelenggaraan upaya kesehatan ibu, bayi, anak, remaja, dewasa, lanjut usia; di luar domain"
+      },
+      {
+        "pasal": "Pasal 7",
+        "alasan": "hak akses pelayanan kesehatan, di luar domain"
+      },
+      {
+        "pasal": "Pasal 8",
+        "alasan": "pencatatan dan pelaporan sistem informasi kesehatan, di luar domain"
+      },
+      {
+        "pasal": "Pasal 9",
+        "alasan": "tujuan upaya kesehatan ibu, di luar domain"
+      },
+      {
+        "pasal": "Pasal 10",
+        "alasan": "tahapan upaya kesehatan ibu, di luar domain"
+      },
+      {
+        "pasal": "Pasal 12",
+        "alasan": "tenaga pelaksana upaya kesehatan ibu, di luar domain"
+      },
+      {
+        "pasal": "Pasal 13",
+        "alasan": "tanggung jawab pemerintah dalam upaya kesehatan ibu, di luar domain"
+      },
+      {
+        "pasal": "Pasal 14",
+        "alasan": "peran keluarga dan masyarakat dalam upaya kesehatan ibu, di luar domain"
+      },
+      {
+        "pasal": "Pasal 15",
+        "alasan": "delegasi pengaturan ke Peraturan Menteri"
+      },
+      {
+        "pasal": "Pasal 16",
+        "alasan": "tujuan upaya kesehatan bayi dan anak, di luar domain"
+      },
+      {
+        "pasal": "Pasal 17",
+        "alasan": "sasaran kelompok usia upaya kesehatan bayi dan anak, di luar domain"
+      },
+      {
+        "pasal": "Pasal 18",
+        "alasan": "jenis upaya kesehatan bayi dan anak, di luar domain"
+      },
+      {
+        "pasal": "Pasal 19",
+        "alasan": "rincian upaya promotif/preventif/kuratif/rehabilitatif/paliatif bayi dan anak, di luar domain"
+      },
+      {
+        "pasal": "Pasal 20",
+        "alasan": "hak dan pelindungan bayi dan anak, di luar domain"
+      },
+      {
+        "pasal": "Pasal 22",
+        "alasan": "peran keluarga dan masyarakat dalam upaya kesehatan bayi dan anak, di luar domain"
+      },
+      {
+        "pasal": "Pasal 23",
+        "alasan": "delegasi pengaturan ke Peraturan Menteri"
+      },
+      {
+        "pasal": "Pasal 24",
+        "alasan": "hak bayi atas ASI eksklusif; bukan norma ketenagakerjaan (kewajiban ibu/tenaga kesehatan)"
+      },
+      {
+        "pasal": "Pasal 25",
+        "alasan": "tujuan pemberian ASI eksklusif, di luar domain"
+      },
+      {
+        "pasal": "Pasal 26",
+        "alasan": "fasilitasi inisiasi menyusu dini di fasilitas kesehatan; bukan hubungan kerja"
+      },
+      {
+        "pasal": "Pasal 27",
+        "alasan": "persyaratan donor ASI, di luar domain"
+      },
+      {
+        "pasal": "Pasal 28",
+        "alasan": "kewajiban fasilitas kesehatan dan tenaga kesehatan memberi edukasi ASI, di luar domain"
+      },
+      {
+        "pasal": "Pasal 29",
+        "alasan": "pemberian susu formula bayi, di luar domain"
+      },
+      {
+        "pasal": "Pasal 30",
+        "alasan": "kewajiban tenaga kesehatan menjelaskan penggunaan susu formula, di luar domain"
+      },
+      {
+        "pasal": "Pasal 31",
+        "alasan": "larangan pemberian/promosi susu formula oleh fasilitas kesehatan dan tenaga kesehatan, di luar domain"
+      },
+      {
+        "pasal": "Pasal 32",
+        "alasan": "pemberian ASI saat bencana/kedaruratan, di luar domain"
+      },
+      {
+        "pasal": "Pasal 33",
+        "alasan": "larangan produsen/distributor susu formula, di luar domain"
+      },
+      {
+        "pasal": "Pasal 34",
+        "alasan": "pengecualian iklan susu formula, di luar domain"
+      },
+      {
+        "pasal": "Pasal 35",
+        "alasan": "larangan penerimaan hadiah/bantuan susu formula, di luar domain"
+      },
+      {
+        "pasal": "Pasal 36",
+        "alasan": "kewajiban pernyataan tertulis penerima bantuan, di luar domain"
+      },
+      {
+        "pasal": "Pasal 37",
+        "alasan": "penggunaan bantuan pemerintah dari produsen susu formula, di luar domain"
+      },
+      {
+        "pasal": "Pasal 38",
+        "alasan": "larangan dan laporan pemberian bantuan produsen, di luar domain"
+      },
+      {
+        "pasal": "Pasal 39",
+        "alasan": "kewajiban laporan penerima bantuan, di luar domain"
+      },
+      {
+        "pasal": "Pasal 40",
+        "alasan": "jangka waktu penyampaian laporan, di luar domain"
+      },
+      {
+        "pasal": "Pasal 42",
+        "alasan": "sanksi administratif"
+      },
+      {
+        "pasal": "Pasal 44",
+        "alasan": "kewajiban fasilitas pelayanan kesehatan mendukung ASI, di luar hubungan kerja"
+      },
+      {
+        "pasal": "Pasal 45",
+        "alasan": "sanksi bagi pengelola tempat kerja, di luar pemodelan norma"
+      },
+      {
+        "pasal": "Pasal 46",
+        "alasan": "peran masyarakat dalam pemberian ASI, di luar domain"
+      },
+      {
+        "pasal": "Pasal 47",
+        "alasan": "pembinaan dan pengawasan pemberian ASI, di luar domain"
+      },
+      {
+        "pasal": "Pasal 48",
+        "alasan": "pengawasan produsen/distributor susu formula, di luar domain"
+      },
+      {
+        "pasal": "Pasal 49",
+        "alasan": "tujuan upaya kesehatan remaja, di luar domain"
+      },
+      {
+        "pasal": "Pasal 50",
+        "alasan": "rincian upaya kesehatan remaja, di luar domain"
+      },
+      {
+        "pasal": "Pasal 51",
+        "alasan": "partisipasi remaja dalam upaya kesehatan, di luar domain"
+      },
+      {
+        "pasal": "Pasal 52",
+        "alasan": "asas penyelenggaraan upaya kesehatan remaja, di luar domain"
+      },
+      {
+        "pasal": "Pasal 53",
+        "alasan": "tanggung jawab pemerintah atas upaya kesehatan remaja, di luar domain"
+      },
+      {
+        "pasal": "Pasal 54",
+        "alasan": "peran keluarga dan masyarakat dalam upaya kesehatan remaja, di luar domain"
+      },
+      {
+        "pasal": "Pasal 55",
+        "alasan": "delegasi pengaturan ke Peraturan Menteri"
+      },
+      {
+        "pasal": "Pasal 56",
+        "alasan": "tujuan upaya kesehatan dewasa, di luar domain"
+      },
+      {
+        "pasal": "Pasal 57",
+        "alasan": "kelompok usia sasaran upaya kesehatan dewasa, di luar domain"
+      },
+      {
+        "pasal": "Pasal 58",
+        "alasan": "rincian upaya kesehatan dewasa, di luar domain"
+      },
+      {
+        "pasal": "Pasal 59",
+        "alasan": "tanggung jawab pemerintah atas upaya kesehatan dewasa, di luar domain"
+      },
+      {
+        "pasal": "Pasal 60",
+        "alasan": "peran masyarakat dalam upaya kesehatan dewasa, di luar domain"
+      },
+      {
+        "pasal": "Pasal 61",
+        "alasan": "delegasi pengaturan ke Peraturan Menteri"
+      },
+      {
+        "pasal": "Pasal 62",
+        "alasan": "tujuan upaya kesehatan lanjut usia, di luar domain"
+      },
+      {
+        "pasal": "Pasal 63",
+        "alasan": "batas usia sasaran upaya kesehatan lanjut usia, di luar domain"
+      },
+      {
+        "pasal": "Pasal 64",
+        "alasan": "jenis upaya kesehatan lanjut usia, di luar domain"
+      },
+      {
+        "pasal": "Pasal 66",
+        "alasan": "upaya preventif kesehatan lanjut usia, di luar domain"
+      },
+      {
+        "pasal": "Pasal 67",
+        "alasan": "upaya kuratif kesehatan lanjut usia, di luar domain"
+      },
+      {
+        "pasal": "Pasal 68",
+        "alasan": "upaya rehabilitatif kesehatan lanjut usia, di luar domain"
+      },
+      {
+        "pasal": "Pasal 69",
+        "alasan": "upaya paliatif kesehatan lanjut usia, di luar domain"
+      },
+      {
+        "pasal": "Pasal 70",
+        "alasan": "penyelenggaraan upaya kesehatan lanjut usia, di luar domain"
+      },
+      {
+        "pasal": "Pasal 7I",
+        "alasan": "duplikat OCR dari Pasal 71 (heading ganda tanpa isi)"
+      },
+      {
+        "pasal": "Pasal 71",
+        "alasan": "bentuk pelayanan kesehatan lanjut usia, di luar domain"
+      },
+      {
+        "pasal": "Pasal 72",
+        "alasan": "pelayanan lanjut usia di fasilitas pelayanan kesehatan, di luar domain"
+      },
+      {
+        "pasal": "Pasal 73",
+        "alasan": "perawatan jangka panjang lanjut usia, di luar domain"
+      },
+      {
+        "pasal": "Pasal 74",
+        "alasan": "perawatan jangka panjang di fasilitas pelayanan kesehatan, di luar domain"
+      },
+      {
+        "pasal": "Pasal 75",
+        "alasan": "perawatan jangka panjang di panti sosial, di luar domain"
+      },
+      {
+        "pasal": "Pasal 76",
+        "alasan": "perawatan jangka panjang di keluarga, di luar domain"
+      },
+      {
+        "pasal": "Pasal 77",
+        "alasan": "pendanaan perawatan jangka panjang, di luar domain"
+      },
+      {
+        "pasal": "Pasal 78",
+        "alasan": "standar pelayanan kesehatan lanjut usia, di luar domain"
+      },
+      {
+        "pasal": "Pasal 79",
+        "alasan": "tanggung jawab pemerintah atas upaya kesehatan lanjut usia, di luar domain"
+      },
+      {
+        "pasal": "Pasal 80",
+        "alasan": "peran keluarga dan masyarakat dalam upaya kesehatan lanjut usia, di luar domain"
+      },
+      {
+        "pasal": "Pasal 81",
+        "alasan": "delegasi pengaturan ke Peraturan Menteri"
+      },
+      {
+        "pasal": "Pasal 82",
+        "alasan": "pengertian upaya kesehatan penyandang disabilitas, di luar domain"
+      },
+      {
+        "pasal": "Pasal 83",
+        "alasan": "tujuan upaya kesehatan penyandang disabilitas, di luar domain"
+      },
+      {
+        "pasal": "Pasal 84",
+        "alasan": "hak penyandang disabilitas atas pelayanan kesehatan (termasuk pelindungan kecelakaan akibat kerja sebagai hak layanan), bukan norma hubungan kerja"
+      },
+      {
+        "pasal": "Pasal 85",
+        "alasan": "tahapan upaya kesehatan penyandang disabilitas, di luar domain"
+      },
+      {
+        "pasal": "Pasal 86",
+        "alasan": "rincian upaya kesehatan penyandang disabilitas per siklus hidup, di luar domain"
+      },
+      {
+        "pasal": "Pasal 87",
+        "alasan": "standar fasilitas pelayanan kesehatan inklusif, di luar domain"
+      },
+      {
+        "pasal": "Pasal 88",
+        "alasan": "jenis fasilitas pelayanan kesehatan penyandang disabilitas, di luar domain"
+      },
+      {
+        "pasal": "Pasal 89",
+        "alasan": "pelaksanaan pelayanan kesehatan penyandang disabilitas, di luar domain"
+      },
+      {
+        "pasal": "Pasal 90",
+        "alasan": "standar pelayanan di luar fasilitas kesehatan, di luar domain"
+      },
+      {
+        "pasal": "Pasal 92",
+        "alasan": "tanggung jawab pemerintah atas upaya kesehatan penyandang disabilitas, di luar domain"
+      },
+      {
+        "pasal": "Pasal 93",
+        "alasan": "pendanaan upaya kesehatan penyandang disabilitas, di luar domain"
+      },
+      {
+        "pasal": "Pasal 94",
+        "alasan": "peran keluarga dan masyarakat, di luar domain"
+      },
+      {
+        "pasal": "Pasal 95",
+        "alasan": "delegasi pengaturan ke Peraturan Menteri"
+      },
+      {
+        "pasal": "Pasal 96",
+        "alasan": "pengertian kesehatan reproduksi, di luar domain"
+      },
+      {
+        "pasal": "Pasal 97",
+        "alasan": "tujuan upaya kesehatan reproduksi, di luar domain"
+      },
+      {
+        "pasal": "Pasal 98",
+        "alasan": "asas pelaksanaan upaya kesehatan reproduksi, di luar domain"
+      },
+      {
+        "pasal": "Pasal 99",
+        "alasan": "ruang lingkup upaya kesehatan reproduksi, di luar domain"
+      },
+      {
+        "pasal": "Pasal 101",
+        "alasan": "upaya kesehatan sistem reproduksi per siklus hidup, di luar domain"
+      },
+      {
+        "pasal": "Pasal 102",
+        "alasan": "upaya kesehatan reproduksi bayi, balita, anak prasekolah, di luar domain"
+      },
+      {
+        "pasal": "Pasal 103",
+        "alasan": "upaya kesehatan reproduksi usia sekolah dan remaja, di luar domain"
+      },
+      {
+        "pasal": "Pasal 104",
+        "alasan": "upaya kesehatan reproduksi dewasa, di luar domain"
+      },
+      {
+        "pasal": "Pasal 105",
+        "alasan": "upaya kesehatan reproduksi calon pengantin, di luar domain"
+      },
+      {
+        "pasal": "Pasal 106",
+        "alasan": "upaya kesehatan reproduksi lanjut usia, di luar domain"
+      },
+      {
+        "pasal": "Pasal 107",
+        "alasan": "penyelenggaraan pelayanan kesehatan reproduksi, di luar domain"
+      },
+      {
+        "pasal": "Pasal 109",
+        "alasan": "pelayanan pengaturan kehamilan dan kontrasepsi, di luar domain"
+      },
+      {
+        "pasal": "Pasal 116",
+        "alasan": "larangan aborsi beserta pengecualiannya, di luar domain"
+      },
+      {
+        "pasal": "Pasal 120",
+        "alasan": "tim pertimbangan dan dokter pelayanan aborsi, di luar domain"
+      },
+      {
+        "pasal": "Pasal 121",
+        "alasan": "pembentukan tim pertimbangan aborsi, di luar domain"
+      },
+      {
+        "pasal": "Pasal 122",
+        "alasan": "persetujuan pelayanan aborsi, di luar domain"
+      },
+      {
+        "pasal": "Pasal 123",
+        "alasan": "pendampingan dan konseling aborsi, di luar domain"
+      },
+      {
+        "pasal": "Pasal 124",
+        "alasan": "pendampingan korban dan pengasuhan anak, di luar domain"
+      },
+      {
+        "pasal": "Pasal 125",
+        "alasan": "pencatatan dan pelaporan upaya kesehatan reproduksi, di luar domain"
+      },
+      {
+        "pasal": "Pasal 126",
+        "alasan": "tanggung jawab pemerintah pusat, di luar domain"
+      },
+      {
+        "pasal": "Pasal 127",
+        "alasan": "tanggung jawab pemerintah daerah provinsi, di luar domain"
+      },
+      {
+        "pasal": "Pasal 128",
+        "alasan": "tanggung jawab pemerintah daerah kabupaten/kota, di luar domain"
+      },
+      {
+        "pasal": "Pasal 129",
+        "alasan": "peran keluarga dan masyarakat dalam upaya kesehatan reproduksi, di luar domain"
+      },
+      {
+        "pasal": "Pasal 130",
+        "alasan": "delegasi pengaturan ke Peraturan Menteri"
+      },
+      {
+        "pasal": "Pasal 131",
+        "alasan": "tujuan dan sasaran upaya pemenuhan gizi, di luar domain"
+      },
+      {
+        "pasal": "Pasal 132",
+        "alasan": "cara peningkatan mutu gizi, di luar domain"
+      },
+      {
+        "pasal": "Pasal 133",
+        "alasan": "pola konsumsi makanan dan fortifikasi pangan, di luar domain"
+      },
+      {
+        "pasal": "Pasal 134",
+        "alasan": "peningkatan akses dan mutu pelayanan gizi, di luar domain"
+      },
+      {
+        "pasal": "Pasal 135",
+        "alasan": "sistem kewaspadaan kerawanan pangan dan gizi, di luar domain"
+      },
+      {
+        "pasal": "Pasal 136",
+        "alasan": "tujuan dan cara perbaikan gizi, di luar domain"
+      },
+      {
+        "pasal": "Pasal 137",
+        "alasan": "surveilans gizi, di luar domain"
+      },
+      {
+        "pasal": "Pasal 138",
+        "alasan": "pendidikan gizi, di luar domain"
+      },
+      {
+        "pasal": "Pasal 139",
+        "alasan": "tata laksana gizi, di luar domain"
+      },
+      {
+        "pasal": "Pasal 140",
+        "alasan": "suplementasi gizi; pekerja wanita hanya sasaran prioritas program gizi, bukan norma hubungan kerja"
+      },
+      {
+        "pasal": "Pasal 141",
+        "alasan": "pencatatan dan pelaporan gizi, di luar domain"
+      },
+      {
+        "pasal": "Pasal 142",
+        "alasan": "tanggung jawab pemerintah atas ketersediaan bahan makanan, di luar domain"
+      },
+      {
+        "pasal": "Pasal 143",
+        "alasan": "peran keluarga dan masyarakat dalam gizi, di luar domain"
+      },
+      {
+        "pasal": "Pasal 144",
+        "alasan": "delegasi pengaturan ke Peraturan Menteri"
+      },
+      {
+        "pasal": "Pasal 145",
+        "alasan": "pengertian dan tujuan upaya kesehatan jiwa, di luar domain"
+      },
+      {
+        "pasal": "Pasal 146",
+        "alasan": "sasaran upaya kesehatan jiwa, di luar domain"
+      },
+      {
+        "pasal": "Pasal 147",
+        "alasan": "hak Orang yang Berisiko atas pelayanan kesehatan jiwa, di luar domain"
+      },
+      {
+        "pasal": "Pasal 148",
+        "alasan": "hak ODGJ atas pelayanan kesehatan jiwa, di luar domain"
+      },
+      {
+        "pasal": "Pasal 149",
+        "alasan": "kesamaan hak Orang yang Berisiko dan ODGJ, di luar domain"
+      },
+      {
+        "pasal": "Pasal 150",
+        "alasan": "jenis upaya kesehatan jiwa, di luar domain"
+      },
+      {
+        "pasal": "Pasal 151",
+        "alasan": "upaya promotif kesehatan jiwa, di luar domain (tempat kerja hanya lokasi pelaksanaan)"
+      },
+      {
+        "pasal": "Pasal 152",
+        "alasan": "tujuan upaya preventif kesehatan jiwa, di luar domain"
+      },
+      {
+        "pasal": "Pasal 153",
+        "alasan": "pencegahan gangguan jiwa, di luar domain"
+      },
+      {
+        "pasal": "Pasal 154",
+        "alasan": "pencegahan bunuh diri, di luar domain"
+      },
+      {
+        "pasal": "Pasal 155",
+        "alasan": "registri bunuh diri, di luar domain"
+      },
+      {
+        "pasal": "Pasal 156",
+        "alasan": "lingkungan pelaksanaan upaya preventif kesehatan jiwa, di luar domain"
+      },
+      {
+        "pasal": "Pasal 157",
+        "alasan": "upaya kuratif kesehatan jiwa, di luar domain"
+      },
+      {
+        "pasal": "Pasal 158",
+        "alasan": "persetujuan tindakan medis bagi ODGJ, di luar domain"
+      },
+      {
+        "pasal": "Pasal 159",
+        "alasan": "upaya rehabilitatif kesehatan jiwa, di luar domain"
+      },
+      {
+        "pasal": "Pasal 160",
+        "alasan": "dukungan bagi keluarga ODGJ, di luar domain"
+      },
+      {
+        "pasal": "Pasal 161",
+        "alasan": "larangan pemasungan, penelantaran, dan kekerasan, di luar domain"
+      },
+      {
+        "pasal": "Pasal 162",
+        "alasan": "penghapusan praktik pemasungan, di luar domain"
+      },
+      {
+        "pasal": "Pasal 163",
+        "alasan": "penanganan penelantaran dan kekerasan, di luar domain"
+      },
+      {
+        "pasal": "Pasal 164",
+        "alasan": "peran keluarga dan masyarakat dalam upaya kesehatan jiwa, di luar domain"
+      },
+      {
+        "pasal": "Pasal 165",
+        "alasan": "dukungan sumber daya upaya kesehatan jiwa, di luar domain"
+      },
+      {
+        "pasal": "Pasal 166",
+        "alasan": "definisi/istilah: komposisi Tenaga Medis, Tenaga Kesehatan, Tenaga Pendukung atau Penunjang Kesehatan, tenaga profesional lain, dan tenaga terlatih pada Upaya Kesehatan jiwa; tidak memuat kondisi-akibat hukum"
+      },
+      {
+        "pasal": "Pasal 167",
+        "alasan": "definisi layanan: jenis fasilitas pelayanan di bidang Kesehatan jiwa (Fasilitas Pelayanan Kesehatan, fasilitas di luar sektor Kesehatan, dan fasilitas berbasis masyarakat) beserta kewajiban standar pelayanan; struktur layanan, bukan norma kerja"
+      },
+      {
+        "pasal": "Pasal 168",
+        "alasan": "sanksi administratif bagi fasilitas pelayanan yang tidak melaksanakan kewajiban kerja sama dan standar Pelayanan Kesehatan jiwa"
+      },
+      {
+        "pasal": "Pasal 169",
+        "alasan": "ketentuan delegasi: pengaturan lebih lanjut dengan Peraturan Menteri berkoordinasi dengan menteri bidang sosial"
+      },
+      {
+        "pasal": "Pasal 170",
+        "alasan": "kewajiban pencatatan dan pelaporan pelayanan Kesehatan jiwa melalui Sistem Informasi Kesehatan; tata kelola data, bukan norma hak pekerja"
+      },
+      {
+        "pasal": "Pasal 171",
+        "alasan": "pemeriksaan Kesehatan jiwa untuk kepentingan penegakan hukum pidana dan keperdataan; hukum acara, bukan norma ketenagakerjaan"
+      },
+      {
+        "pasal": "Pasal 172",
+        "alasan": "pemeriksaan Kesehatan jiwa untuk melaksanakan pekerjaan tertentu atau menduduki jabatan tertentu; persyaratan jabatan, bukan norma hak pekerja (sejalan dengan perlakuan Pasal 84 UU 17/2023)"
+      },
+      {
+        "pasal": "Pasal 173",
+        "alasan": "koordinasi lintas sektor untuk penggerakan Kesehatan jiwa masyarakat, termasuk penghapusan pemasungan; kelembagaan"
+      },
+      {
+        "pasal": "Pasal 174",
+        "alasan": "tanggung jawab Pemerintah Pusat dalam penyelenggaraan Upaya Kesehatan jiwa; kelembagaan"
+      },
+      {
+        "pasal": "Pasal 175",
+        "alasan": "tanggung jawab Pemerintah Daerah provinsi dalam penyelenggaraan Upaya Kesehatan jiwa; kelembagaan"
+      },
+      {
+        "pasal": "Pasal 176",
+        "alasan": "tanggung jawab Pemerintah Daerah kabupaten/kota dalam penyelenggaraan Upaya Kesehatan jiwa; kelembagaan"
+      },
+      {
+        "pasal": "Pasal 177",
+        "alasan": "ketentuan delegasi: pengaturan lebih lanjut upaya Kesehatan jiwa dengan Peraturan Menteri"
+      },
+      {
+        "pasal": "Pasal 178",
+        "alasan": "definisi/istilah: pengertian penyakit menular dan pengelompokannya menurut cara penularan; tidak memuat kondisi-akibat hukum"
+      },
+      {
+        "pasal": "Pasal 179",
+        "alasan": "tujuan penanggulangan penyakit menular; kebijakan program, bukan norma hak/kewajiban"
+      },
+      {
+        "pasal": "Pasal 180",
+        "alasan": "bentuk dan tata cara penanggulangan penyakit menular (promosi Kesehatan, surveilans, pengendalian faktor risiko, penemuan dan penanganan kasus, pemberian kekebalan, Obat pencegahan); kebijakan layanan kesehatan"
+      },
+      {
+        "pasal": "Pasal 181",
+        "alasan": "kerja sama lintas sektor, lintas program, dan lintas disiplin dalam penanggulangan penyakit menular; kelembagaan"
+      },
+      {
+        "pasal": "Pasal 182",
+        "alasan": "pendekatan satu Kesehatan dalam penanggulangan penyakit tular vektor dan binatang pembawa penyakit; kebijakan lintas kementerian"
+      },
+      {
+        "pasal": "Pasal 183",
+        "alasan": "ketersediaan sumber daya penanggulangan penyakit menular dan kewenangan Tenaga Medis/Tenaga Kesehatan memeriksa orang dan tempat; kelembagaan/kewenangan, bukan norma kerja"
+      },
+      {
+        "pasal": "Pasal 184",
+        "alasan": "pendekatan penanggulangan penyakit menular yang berfokus pada masyarakat; kebijakan layanan"
+      },
+      {
+        "pasal": "Pasal 185",
+        "alasan": "tanggung jawab Pemerintah Pusat, Pemerintah Daerah, dan Pemerintah Desa dalam penanggulangan penyakit menular; kelembagaan"
+      },
+      {
+        "pasal": "Pasal 186",
+        "alasan": "penetapan program prioritas dan target penanggulangan penyakit menular beserta kriterianya; kebijakan"
+      },
+      {
+        "pasal": "Pasal 187",
+        "alasan": "peran masyarakat dalam penanggulangan penyakit menular; bukan hak/kewajiban hubungan kerja"
+      },
+      {
+        "pasal": "Pasal 188",
+        "alasan": "larangan menyebarluaskan/merekayasa mikroorganisme penyebab penyakit menular beserta sanksi administratif"
+      },
+      {
+        "pasal": "Pasal 189",
+        "alasan": "ketentuan delegasi: pedoman penanggulangan penyakit menular diatur dengan Peraturan Menteri"
+      },
+      {
+        "pasal": "Pasal 190",
+        "alasan": "definisi/istilah dan tujuan penyelenggaraan penanggulangan penyakit tidak menular"
+      },
+      {
+        "pasal": "Pasal 191",
+        "alasan": "tujuan penanggulangan penyakit tidak menular; kebijakan program"
+      },
+      {
+        "pasal": "Pasal 192",
+        "alasan": "bentuk dan tata cara penanggulangan penyakit tidak menular (promosi, deteksi dini, pengendalian faktor risiko, pelindungan khusus, tata laksana, penanganan kasus); kebijakan layanan kesehatan"
+      },
+      {
+        "pasal": "Pasal 193",
+        "alasan": "tanggung jawab pemerintah dalam pengendalian faktor risiko penyakit tidak menular serta keterlibatan keluarga, masyarakat, dan swasta; kelembagaan"
+      },
+      {
+        "pasal": "Pasal 194",
+        "alasan": "kebijakan pangan: penetapan batas maksimal kandungan gula, garam, dan lemak serta kemungkinan pengenaan cukai; bukan norma ketenagakerjaan"
+      },
+      {
+        "pasal": "Pasal 195",
+        "alasan": "kewajiban produsen/importir/pengedar pangan olahan (memenuhi batas kandungan, label gizi, larangan iklan dan peredaran pada kawasan tertentu); rezim pangan dan perlindungan konsumen, bukan norma kerja"
+      },
+      {
+        "pasal": "Pasal 196",
+        "alasan": "sanksi administratif atas pelanggaran ketentuan pangan olahan"
+      },
+      {
+        "pasal": "Pasal 197",
+        "alasan": "surveilans faktor risiko, registri penyakit, dan surveilans kematian penyakit tidak menular; tata cara/tata kelola data"
+      },
+      {
+        "pasal": "Pasal 198",
+        "alasan": "kerja sama lintas program/sektor dan pembentukan jejaring dalam penanggulangan penyakit tidak menular; kelembagaan"
+      },
+      {
+        "pasal": "Pasal 199",
+        "alasan": "ketersediaan sumber daya penanggulangan penyakit tidak menular, termasuk pendanaan dari hibah dan tanggung jawab sosial perusahaan; kebijakan sumber daya"
+      },
+      {
+        "pasal": "Pasal 201",
+        "alasan": "penetapan program prioritas dan target penanggulangan penyakit tidak menular beserta kriterianya; kebijakan"
+      },
+      {
+        "pasal": "Pasal 203",
+        "alasan": "peran masyarakat dalam penanggulangan penyakit tidak menular; bukan hak/kewajiban hubungan kerja"
+      },
+      {
+        "pasal": "Pasal 204",
+        "alasan": "ketentuan delegasi: pedoman penanggulangan penyakit tidak menular diatur dengan Peraturan Menteri"
+      },
+      {
+        "pasal": "Pasal 205",
+        "alasan": "tujuan dan tata cara Upaya Kesehatan penglihatan dan pendengaran; kebijakan layanan kesehatan"
+      },
+      {
+        "pasal": "Pasal 206",
+        "alasan": "kriteria prioritas dan bentuk penyelenggaraan Upaya Kesehatan penglihatan dan pendengaran, termasuk pengendalian kebisingan dan pencahayaan di tempat kerja; standar layanan kesehatan, bukan norma K3/hubungan kerja (sejalan dengan perlakuan Pasal 71 UU 17/2023)"
+      },
+      {
+        "pasal": "Pasal 208",
+        "alasan": "ketersediaan sumber daya (tenaga, fasilitas, sediaan farmasi, pendanaan, pemberdayaan masyarakat) untuk Upaya Kesehatan penglihatan dan pendengaran; kebijakan sumber daya"
+      },
+      {
+        "pasal": "Pasal 210",
+        "alasan": "ketentuan delegasi: pedoman penyelenggaraan Upaya Kesehatan penglihatan dan pendengaran diatur dengan Peraturan Menteri"
+      },
+      {
+        "pasal": "Pasal 211",
+        "alasan": "tujuan dan definisi Upaya Kesehatan keluarga serta batasan keluarga; definisi/istilah"
+      },
+      {
+        "pasal": "Pasal 213",
+        "alasan": "pendekatan siklus hidup dan kegiatan penyelenggaraan Upaya Kesehatan keluarga; kebijakan layanan"
+      },
+      {
+        "pasal": "Pasal 215",
+        "alasan": "tujuan dan cakupan pembiasaan hidup sehat dalam keluarga; kebijakan layanan"
+      },
+      {
+        "pasal": "Pasal 218",
+        "alasan": "tata cara kunjungan keluarga oleh kader/Tenaga Medis/Tenaga Kesehatan dan koordinasinya; tata cara layanan"
+      },
+      {
+        "pasal": "Pasal 219",
+        "alasan": "tanggung jawab Pemerintah Pusat, Pemerintah Daerah, dan Pemerintah Desa atas Upaya Kesehatan keluarga; kelembagaan"
+      },
+      {
+        "pasal": "Pasal 22O",
+        "alasan": "ketentuan delegasi: pedoman penyelenggaraan Upaya Kesehatan keluarga diatur dengan Peraturan Menteri"
+      },
+      {
+        "pasal": "Pasal 221",
+        "alasan": "tujuan, sasaran, dan bentuk penyelenggaraan Kesehatan sekolah; kebijakan layanan"
+      },
+      {
+        "pasal": "Pasal 222",
+        "alasan": "tujuan dan pelaksanaan pendidikan Kesehatan di satuan pendidikan; kebijakan layanan pendidikan"
+      },
+      {
+        "pasal": "Pasal 223",
+        "alasan": "bentuk pelayanan promotif, preventif, kuratif, dan rehabilitatif pada Kesehatan sekolah; standar layanan"
+      },
+      {
+        "pasal": "Pasal 224",
+        "alasan": "pelaksana pelayanan Kesehatan sekolah dan kolaborasinya dengan Puskesmas; kelembagaan layanan"
+      },
+      {
+        "pasal": "Pasal 225",
+        "alasan": "tujuan dan cakupan pembinaan lingkungan sekolah sehat serta peran masyarakat di lingkungan sekolah; kebijakan layanan"
+      },
+      {
+        "pasal": "Pasal 225",
+        "alasan": "tujuan dan cakupan pembinaan lingkungan sekolah sehat (fisik dan sosial emosional) serta peran masyarakat; kebijakan layanan pendidikan"
+      },
+      {
+        "pasal": "Pasal 226",
+        "alasan": "tanggung jawab tenaga pendidik, tenaga kependidikan, dan peserta didik dalam Kesehatan sekolah; bukan hubungan kerja"
+      },
+      {
+        "pasal": "Pasal 227",
+        "alasan": "kewajiban pencatatan dan pelaporan kegiatan Kesehatan sekolah melalui sistem informasi; tata kelola data"
+      },
+      {
+        "pasal": "Pasal 228",
+        "alasan": "asesmen mandiri, stratifikasi, dan penghargaan sekolah/kampus sehat; kebijakan layanan"
+      },
+      {
+        "pasal": "Pasal 229",
+        "alasan": "penyusunan dan penetapan pedoman Kesehatan sekolah oleh menteri; kelembagaan"
+      },
+      {
+        "pasal": "Pasal 23O",
+        "alasan": "koordinasi, pembinaan, dan pengawasan penyelenggaraan Kesehatan sekolah oleh pemerintah; kelembagaan (heading OCR ganda dengan Pasal 230)"
+      },
+      {
+        "pasal": "Pasal 230",
+        "alasan": "koordinasi, pembinaan, dan pengawasan penyelenggaraan Kesehatan sekolah oleh pemerintah; kelembagaan"
+      },
+      {
+        "pasal": "Pasal 231",
+        "alasan": "peran masyarakat dalam penyelenggaraan Kesehatan sekolah; bukan hak/kewajiban hubungan kerja"
+      },
+      {
+        "pasal": "Pasal 243",
+        "alasan": "tanggung jawab Pemerintah Pusat dan Pemerintah Daerah dalam Upaya Kesehatan kerja (kebijakan, koordinasi, peningkatan kapasitas); kelembagaan"
+      },
+      {
+        "pasal": "Pasal 244",
+        "alasan": "peran masyarakat dalam meningkatkan pemahaman dan penerapan Upaya Kesehatan kerja; bukan hak normatif pekerja"
+      },
+      {
+        "pasal": "Pasal 245",
+        "alasan": "tujuan dan ruang lingkup Upaya Kesehatan lingkungan; kebijakan kesehatan lingkungan, bukan norma K3/hubungan kerja"
+      },
+      {
+        "pasal": "Pasal 246",
+        "alasan": "definisi media lingkungan dan tata cara pemenuhan standar baku mutu Kesehatan lingkungan; definisi/tata cara"
+      },
+      {
+        "pasal": "Pasal 247",
+        "alasan": "definisi teknis standar baku mutu Kesehatan lingkungan dan persyaratan Kesehatan beserta penetapannya oleh Menteri; standar teknis, bukan norma kerja"
+      },
+      {
+        "pasal": "Pasal 248",
+        "alasan": "tujuan dan tata cara upaya penyehatan, pengamanan, dan pengendalian media lingkungan; kebijakan/tata cara teknis"
+      },
+      {
+        "pasal": "Pasal 249",
+        "alasan": "tanggung jawab Pemerintah Pusat, provinsi, dan kabupaten/kota dalam penyelenggaraan Kesehatan lingkungan; kelembagaan"
+      },
+      {
+        "pasal": "Pasal 250",
+        "alasan": "penyelenggaraan Kesehatan lingkungan pada kondisi matra dan ancaman perubahan iklim; kebijakan"
+      },
+      {
+        "pasal": "Pasal 251",
+        "alasan": "kewajiban pengelola/penanggung jawab permukiman, tempat kerja, tempat rekreasi, dan fasilitas umum menyelenggarakan Kesehatan lingkungan; rezim kesehatan lingkungan, bukan norma K3/hubungan kerja (sejalan dengan perlakuan Pasal 105 UU 17/2023)"
+      },
+      {
+        "pasal": "Pasal 252",
+        "alasan": "sanksi administratif atas pelanggaran kewajiban penyelenggaraan Kesehatan lingkungan"
+      },
+      {
+        "pasal": "Pasal 253",
+        "alasan": "kewajiban penghuni/keluarga menyelenggarakan Kesehatan lingkungan di permukiman; bukan norma ketenagakerjaan"
+      },
+      {
+        "pasal": "Pasal 254",
+        "alasan": "peran masyarakat dalam penyelenggaraan Kesehatan lingkungan; bukan hak/kewajiban hubungan kerja"
+      },
+      {
+        "pasal": "Pasal 255",
+        "alasan": "tata cara pengelolaan limbah medis dari Fasilitas Pelayanan Kesehatan dan masyarakat; standar teknis"
+      },
+      {
+        "pasal": "Pasal 256",
+        "alasan": "fasilitasi pemerintah berupa penyediaan pengelola limbah medis bagi fasyankes yang tidak mampu; kelembagaan"
+      },
+      {
+        "pasal": "Pasal 257",
+        "alasan": "kebutuhan sumber daya penyelenggaraan Upaya Kesehatan lingkungan (SDM, sarana, pendanaan, teknologi); kebijakan sumber daya"
+      },
+      {
+        "pasal": "Pasal 258",
+        "alasan": "definisi/istilah Kesehatan matra dan peralatan khusus beserta pengawakannya; definisi"
+      },
+      {
+        "pasal": "Pasal 259",
+        "alasan": "penggolongan Kesehatan matra darat, laut, dan udara beserta pengertiannya; definisi"
+      },
+      {
+        "pasal": "Pasal 260",
+        "alasan": "kegiatan penyelenggaraan Kesehatan matra (promosi, surveilans, pengendalian faktor risiko, imunisasi, penanganan kasus); kebijakan layanan"
+      },
+      {
+        "pasal": "Pasal 261",
+        "alasan": "standar dan persyaratan Kesehatan matra ditetapkan Menteri/menteri terkait; standar teknis dan kelembagaan"
+      },
+      {
+        "pasal": "Pasal 262",
+        "alasan": "penyelenggaraan Kesehatan matra secara terkoordinasi oleh pemerintah dan masyarakat serta kerja sama internasional; kelembagaan"
+      },
+      {
+        "pasal": "Pasal 263",
+        "alasan": "tanggung jawab Pemerintah Pusat dan Pemerintah Daerah atas kebijakan, sumber daya, dan penelitian Kesehatan matra; kelembagaan"
+      },
+      {
+        "pasal": "Pasal 265",
+        "alasan": "ketentuan delegasi: kegiatan penyelenggaraan Kesehatan matra diatur dengan Peraturan Menteri"
+      },
+      {
+        "pasal": "Pasal 266",
+        "alasan": "definisi/istilah Pelayanan Kesehatan pada bencana; tidak memuat kondisi-akibat hukum"
+      },
+      {
+        "pasal": "Pasal 267",
+        "alasan": "tanggung jawab pemerintah atas ketersediaan sumber daya dan pelaksanaan Pelayanan Kesehatan pada bencana; kelembagaan"
+      },
+      {
+        "pasal": "Pasal 268",
+        "alasan": "tujuan penyelenggaraan Pelayanan Kesehatan pada bencana; kebijakan"
+      },
+      {
+        "pasal": "Pasal 269",
+        "alasan": "tahapan dan kegiatan Pelayanan Kesehatan pada bencana (prabencana, saat bencana, pascabencana); tata cara layanan"
+      },
+      {
+        "pasal": "Pasal 27O",
+        "alasan": "penerimaan bantuan Sumber Daya Kesehatan dari luar negeri pada tanggap darurat bencana; tata cara/kelembagaan"
+      },
+      {
+        "pasal": "Pasal 272",
+        "alasan": "pengorganisasian, manajemen, dan sistem informasi penanggulangan Kesehatan bencana; kelembagaan"
+      },
+      {
+        "pasal": "Pasal 273",
+        "alasan": "manajemen penanggulangan Kesehatan bencana pada tahap prabencana; tata cara"
+      },
+      {
+        "pasal": "Pasal 275",
+        "alasan": "manajemen penanggulangan Kesehatan bencana pada tahap pascabencana; tata cara"
+      },
+      {
+        "pasal": "Pasal 277",
+        "alasan": "keterkaitan Pelayanan Kesehatan pada bencana dengan penanggulangan krisis Kesehatan dan kriterianya; kebijakan"
+      },
+      {
+        "pasal": "Pasal 278",
+        "alasan": "ketentuan delegasi: penanggulangan krisis Kesehatan diatur dengan Peraturan Menteri"
+      },
+      {
+        "pasal": "Pasal 279",
+        "alasan": "definisi/istilah pelayanan darah dan donor darah sukarela; tidak memuat kondisi-akibat hukum"
+      },
+      {
+        "pasal": "Pasal 280",
+        "alasan": "tujuan pengaturan pelayanan darah; kebijakan"
+      },
+      {
+        "pasal": "Pasal 281",
+        "alasan": "komponen pelayanan darah (pengelolaan darah dan transfusi) serta standar pelaksanaannya; definisi layanan"
+      },
+      {
+        "pasal": "Pasal 282",
+        "alasan": "tahapan pengelolaan darah dan kewajiban unit pengelola darah; tata cara layanan"
+      },
+      {
+        "pasal": "Pasal 283",
+        "alasan": "perencanaan kebutuhan darah oleh unit pengelola darah dan Menteri; tata cara"
+      },
+      {
+        "pasal": "Pasal 284",
+        "alasan": "pengerahan dan pelestarian donor darah; tata cara layanan"
+      },
+      {
+        "pasal": "Pasal 285",
+        "alasan": "penyeleksian donor darah untuk menjamin keamanan dan mutu darah; standar teknis"
+      },
+      {
+        "pasal": "Pasal 286",
+        "alasan": "pengambilan darah dari donor yang memenuhi kriteria seleksi; standar teknis"
+      },
+      {
+        "pasal": "Pasal 287",
+        "alasan": "pengujian darah sesuai standar untuk mencegah penularan infeksi; standar teknis"
+      },
+      {
+        "pasal": "Pasal 288",
+        "alasan": "pengolahan darah dan penetapan biaya pengganti pengolahan darah; standar teknis/tarif layanan"
+      },
+      {
+        "pasal": "Pasal 289",
+        "alasan": "penyimpanan darah dan komponen darah sesuai standar; standar teknis"
+      },
+      {
+        "pasal": "Pasal 29O",
+        "alasan": "pendistribusian darah oleh unit pengelola darah sesuai standar distribusi; tata cara layanan (heading OCR 'Pasal 29O')"
+      },
+      {
+        "pasal": "Pasal 291",
+        "alasan": "komponen pelayanan transfusi darah dan tempat penyelenggaraannya; tata cara layanan"
+      },
+      {
+        "pasal": "Pasal 292",
+        "alasan": "perencanaan kebutuhan transfusi darah di Rumah Sakit dan fasyankes lain; tata cara"
+      },
+      {
+        "pasal": "Pasal 293",
+        "alasan": "penyimpanan darah untuk pelayanan transfusi sesuai standar; standar teknis"
+      },
+      {
+        "pasal": "Pasal 294",
+        "alasan": "pengujian pratransfusi untuk mencegah ketidakcocokan dan risiko transfusi; standar teknis"
+      },
+      {
+        "pasal": "Pasal 295",
+        "alasan": "pendistribusian darah dari bank darah ke instalasi pelayanan transfusi; tata cara layanan"
+      },
+      {
+        "pasal": "Pasal 296",
+        "alasan": "tindakan medis pemberian darah kepada Pasien sesuai standar pelayanan transfusi; tata cara medis"
+      },
+      {
+        "pasal": "Pasal 298",
+        "alasan": "sanksi administratif bagi unit pengelola darah, Rumah Sakit, dan fasyankes yang tidak melaksanakan pelayanan darah sesuai standar"
+      },
+      {
+        "pasal": "Pasal 299",
+        "alasan": "kewajiban pencatatan dan pelaporan ketersediaan darah melalui Sistem Informasi Kesehatan; tata kelola data"
+      },
+      {
+        "pasal": "Pasal 300",
+        "alasan": "jaminan pembiayaan pelayanan darah oleh Pemerintah Pusat dan Pemerintah Daerah; kebijakan fiskal"
+      },
+      {
+        "pasal": "Pasal 301",
+        "alasan": "tanggung jawab pemerintah atas penyelenggaraan dan ketersediaan pelayanan darah; kelembagaan"
+      },
+      {
+        "pasal": "Pasal 302",
+        "alasan": "peran aktif masyarakat sebagai donor darah; bukan hak/kewajiban hubungan kerja"
+      },
+      {
+        "pasal": "Pasal 303",
+        "alasan": "ketentuan delegasi: pengelolaan darah dan pelayanan transfusi diatur dengan Peraturan Menteri"
+      },
+      {
+        "pasal": "Pasal 304",
+        "alasan": "penggunaan dan pengumpulan plasma serta persetujuan donor; tata cara medis"
+      },
+      {
+        "pasal": "Pasal 306",
+        "alasan": "tahapan pengelolaan plasma; tata cara layanan"
+      },
+      {
+        "pasal": "Pasal 307",
+        "alasan": "perencanaan kebutuhan plasma oleh bank plasma dan Menteri; tata cara"
+      },
+      {
+        "pasal": "Pasal 308",
+        "alasan": "pengerahan dan pelestarian donor plasma; tata cara layanan"
+      },
+      {
+        "pasal": "Pasal 309",
+        "alasan": "penyeleksian donor plasma untuk menjamin keamanan dan mutu plasma; standar teknis"
+      },
+      {
+        "pasal": "Pasal 310",
+        "alasan": "pengambilan plasma sesuai kriteria seleksi dan standar pengambilan; standar teknis"
+      },
+      {
+        "pasal": "Pasal 312",
+        "alasan": "pengolahan plasma sesuai standar pengolahan; standar teknis"
+      },
+      {
+        "pasal": "Pasal 313",
+        "alasan": "penyimpanan plasma sesuai standar penyimpanan; standar teknis"
+      },
+      {
+        "pasal": "Pasal 314",
+        "alasan": "pendistribusian plasma oleh bank plasma/unit pengelola darah sesuai standar; tata cara layanan"
+      },
+      {
+        "pasal": "Pasal 315",
+        "alasan": "pelaporan plasma yang akan didistribusikan kepada Menteri; tata cara/kelembagaan"
+      },
+      {
+        "pasal": "Pasal 316",
+        "alasan": "fraksionasi plasma dan persyaratan produk Obat derivat plasma; standar teknis dan perizinan edar"
+      },
+      {
+        "pasal": "Pasal 317",
+        "alasan": "kewajiban fraksionasi plasma di fasilitas dalam negeri bersertifikat cara pembuatan Obat yang baik; standar teknis/perizinan"
+      },
+      {
+        "pasal": "Pasal 318",
+        "alasan": "fraksionasi plasma secara kontrak dengan fasilitas luar negeri dan pengiriman plasma; tata cara/perizinan"
+      },
+      {
+        "pasal": "Pasal 319",
+        "alasan": "kewajiban pemusnahan plasma yang tidak memenuhi persyaratan; standar teknis"
+      },
+      {
+        "pasal": "Pasal 32O",
+        "alasan": "sanksi administratif bagi bank plasma, unit pengelola darah, dan fasilitas fraksionasi plasma (heading OCR 'Pasal 32O')"
+      },
+      {
+        "pasal": "Pasal 320",
+        "alasan": "sanksi administratif bagi bank plasma, unit pengelola darah, dan fasilitas fraksionasi plasma yang tidak sesuai standar"
+      },
+      {
+        "pasal": "Pasal 322",
+        "alasan": "tanggung jawab Pemerintah Pusat atas ketersediaan dan pengendalian biaya plasma serta produk Obat derivat plasma; kelembagaan"
+      },
+      {
+        "pasal": "Pasal 323",
+        "alasan": "peran serta masyarakat dalam pengumpulan dan fraksionasi plasma; bukan hak/kewajiban hubungan kerja"
+      },
+      {
+        "pasal": "Pasal 324",
+        "alasan": "ketentuan delegasi: pengelolaan plasma dan fraksionasi plasma diatur dengan Peraturan Menteri"
+      },
+      {
+        "pasal": "Pasal 325",
+        "alasan": "definisi/tujuan transplantasi organ dan/atau jaringan tubuh; tidak memuat kondisi-akibat hukum"
+      },
+      {
+        "pasal": "Pasal 326",
+        "alasan": "tujuan transplantasi dan larangan mengomersialkan atau memperjualbelikan organ/jaringan tubuh; ketentuan etik/pidana, bukan norma kerja"
+      },
+      {
+        "pasal": "Pasal 327",
+        "alasan": "definisi donor hidup dan donor mati serta syarat persetujuan donor; definisi/tata cara medis"
+      },
+      {
+        "pasal": "Pasal 328",
+        "alasan": "penentuan keluarga yang berwenang memberi persetujuan donor mati dan pengecualiannya; tata cara medis"
+      },
+      {
+        "pasal": "Pasal 329",
+        "alasan": "dukungan Fasilitas Pelayanan Kesehatan dalam pengerahan donor dan fasilitasi wasiat medik; tata cara layanan"
+      },
+      {
+        "pasal": "Pasal 330",
+        "alasan": "syarat perizinan berusaha bagi Rumah Sakit penyelenggara transplantasi organ; perizinan"
+      },
+      {
+        "pasal": "Pasal 331",
+        "alasan": "pembentukan jejaring antar-Rumah Sakit penyelenggara transplantasi organ; kelembagaan"
+      },
+      {
+        "pasal": "Pasal 332",
+        "alasan": "asal-usul donor organ dan ketentuan daftar tunggu resipien; tata cara medis"
+      },
+      {
+        "pasal": "Pasal 333",
+        "alasan": "syarat calon resipien transplantasi organ (indikasi dan kontraindikasi medis); standar medis"
+      },
+      {
+        "pasal": "Pasal 334",
+        "alasan": "transplantasi organ pada calon resipien warga negara asing beserta syarat donor; standar medis"
+      },
+      {
+        "pasal": "Pasal 335",
+        "alasan": "tahapan pelayanan Kesehatan transplantasi organ dengan donor hidup dan paket biayanya; tata cara layanan/tarif"
+      },
+      {
+        "pasal": "Pasal 336",
+        "alasan": "pendaftaran calon donor hidup dan calon resipien setelah memenuhi persyaratan administratif; tata cara"
+      },
+      {
+        "pasal": "Pasal 337",
+        "alasan": "persyaratan administratif calon donor hidup (usia, pernyataan sukarela, persetujuan keluarga, pemahaman risiko); tata cara medis"
+      },
+      {
+        "pasal": "Pasal 338",
+        "alasan": "keterangan hubungan darah/suami-istri untuk donor kepada resipien; persyaratan administratif"
+      },
+      {
+        "pasal": "Pasal 339",
+        "alasan": "persyaratan administratif calon resipien termasuk kesediaan membiayai pelayanan; persyaratan administratif"
+      },
+      {
+        "pasal": "Pasal 340",
+        "alasan": "pendaftaran calon donor dan resipien melalui sistem informasi transplantasi; tata kelola data"
+      },
+      {
+        "pasal": "Pasal 341",
+        "alasan": "pemeriksaan kelayakan calon donor hidup (medis, psikologis, sosioyuridis); standar medis"
+      },
+      {
+        "pasal": "Pasal 342",
+        "alasan": "pemeriksaan kecocokan donor dan resipien serta verifikasi lapangan; standar medis"
+      },
+      {
+        "pasal": "Pasal 343",
+        "alasan": "pelaksanaan operasi dan penatalaksanaan pascaoperasi transplantasi oleh tim transplantasi; tata cara medis"
+      },
+      {
+        "pasal": "Pasal 344",
+        "alasan": "hak dan kewajiban donor hidup pada transplantasi organ (informasi identitas resipien, pembebasan biaya, prioritas, pencabutan pendaftaran, kerahasiaan); hak pasien/donor, bukan hak pekerja"
+      },
+      {
+        "pasal": "Pasal 345",
+        "alasan": "Hak dan kewajiban resipien transplantasi organ dengan donor hidup (informasi identitas donor, paket biaya, uji kesehatan); hak pasien, di luar domain T-Box."
+      },
+      {
+        "pasal": "Pasal 346",
+        "alasan": "Kegiatan penyelenggaraan pelayanan transplantasi organ dengan donor mati (pendaftaran, pemeriksaan kelayakan, kecocokan, operasi); pelayanan kesehatan."
+      },
+      {
+        "pasal": "Pasal 347",
+        "alasan": "Pendaftaran calon donor mati dan persyaratan administratif, termasuk pengecualian usia paling rendah 18 tahun; administratif medis."
+      },
+      {
+        "pasal": "Pasal 348",
+        "alasan": "Rujukan persyaratan administratif calon resipien donor mati ke ketentuan Pasal 339; rujukan teknis, tanpa akibat hukum mandiri."
+      },
+      {
+        "pasal": "Pasal 349",
+        "alasan": "Diagnosis kematian dan mati batang otak sebagai syarat pengambilan organ; standar medis, bukan norma ketenagakerjaan."
+      },
+      {
+        "pasal": "Pasal 350",
+        "alasan": "Kewenangan dokter, dokter spesialis, perawat, atau bidan menetapkan kematian; kewenangan profesi medis."
+      },
+      {
+        "pasal": "Pasal 351",
+        "alasan": "Pemanfaatan organ dari donor mati batang otak yang tidak diketahui identitasnya; pelayanan medis."
+      },
+      {
+        "pasal": "Pasal 352",
+        "alasan": "Rujukan pemeriksaan kelayakan calon donor mati ke ketentuan donor hidup pada Pasal 341; rujukan teknis."
+      },
+      {
+        "pasal": "Pasal 353",
+        "alasan": "Pemeriksaan kecocokan donor mati dan resipien dari segi medis; standar medis."
+      },
+      {
+        "pasal": "Pasal 354",
+        "alasan": "Operasi dan pascaoperasi transplantasi oleh tim transplantasi Rumah Sakit serta persetujuan keluarga; pelayanan medis."
+      },
+      {
+        "pasal": "Pasal 355",
+        "alasan": "Hak calon donor mati (bebas biaya pelayanan, prioritas resipien, pencabutan pendaftaran); hak pasien, bukan hak pekerja."
+      },
+      {
+        "pasal": "Pasal 356",
+        "alasan": "Hak dan kewajiban resipien transplantasi organ dengan donor mati; hak pasien."
+      },
+      {
+        "pasal": "Pasal 357",
+        "alasan": "Penghargaan bagi donor karena tidak dapat melakukan kegiatan atau pekerjaan secara optimal, tetapi bukan imbalan dan tidak dikomersialkan; di luar domain T-Box."
+      },
+      {
+        "pasal": "Pasal 358",
+        "alasan": "Sumber dan penggunaan pendanaan penyelenggaraan transplantasi organ dari APBN/APBD; administratif anggaran."
+      },
+      {
+        "pasal": "Pasal 359",
+        "alasan": "Delegasi pengaturan teknis penyelenggaraan transplantasi organ kepada Peraturan Menteri; delegasi kewenangan."
+      },
+      {
+        "pasal": "Pasal 360",
+        "alasan": "Ruang lingkup transplantasi jaringan tubuh (jaringan mata dan jaringan lain) serta asal jaringan; pelayanan kesehatan."
+      },
+      {
+        "pasal": "Pasal 361",
+        "alasan": "Persyaratan Rumah Sakit atau klinik utama penyelenggara transplantasi jaringan tubuh; perizinan fasilitas."
+      },
+      {
+        "pasal": "Pasal 362",
+        "alasan": "Penyelenggaraan bank mata dan bank jaringan oleh pemerintah/masyarakat serta kewajiban izin Menteri; kelembagaan."
+      },
+      {
+        "pasal": "Pasal 363",
+        "alasan": "Tugas dan fungsi bank mata (pengerahan donor, seleksi, pengolahan, distribusi); kelembagaan, termasuk label ganda pada pemenggalan halaman."
+      },
+      {
+        "pasal": "Pasal 364",
+        "alasan": "Pembentukan bank mata pusat dan tugasnya (mendatangkan/mengirim jaringan mata); kelembagaan."
+      },
+      {
+        "pasal": "Pasal 365",
+        "alasan": "Delegasi pengaturan bank mata kepada Peraturan Menteri; delegasi kewenangan."
+      },
+      {
+        "pasal": "Pasal 366",
+        "alasan": "Klasifikasi donor transplantasi jaringan (hidup/mati) dan ketentuan calon resipien; definisi/klasifikasi."
+      },
+      {
+        "pasal": "Pasal 367",
+        "alasan": "Tahapan kegiatan transplantasi jaringan tubuh; tata cara medis."
+      },
+      {
+        "pasal": "Pasal 368",
+        "alasan": "Persyaratan calon donor jaringan tubuh di bank mata/bank jaringan; administratif medis."
+      },
+      {
+        "pasal": "Pasal 369",
+        "alasan": "Persyaratan calon resipien transplantasi jaringan tubuh (indikasi medis, biaya, pernyataan); administratif medis."
+      },
+      {
+        "pasal": "Pasal 370",
+        "alasan": "Pemeriksaan kelayakan calon donor jaringan tubuh di laboratorium bank mata/jaringan; standar medis."
+      },
+      {
+        "pasal": "Pasal 371",
+        "alasan": "Pengambilan, pengolahan, dan penyimpanan jaringan tubuh oleh RS/klinik utama; pelayanan medis."
+      },
+      {
+        "pasal": "Pasal 372",
+        "alasan": "Operasi dan pascaoperasi transplantasi jaringan oleh Tenaga Medis berkeahlian; kewenangan profesi."
+      },
+      {
+        "pasal": "Pasal 373",
+        "alasan": "Kewajiban pelaporan bank mata/bank jaringan kepada Menteri melalui sistem informasi; pelaporan."
+      },
+      {
+        "pasal": "Pasal 374",
+        "alasan": "Hak donor atas kerahasiaan identitas/hasil pemeriksaan dan kewajiban memberi informasi jujur; hak pasien."
+      },
+      {
+        "pasal": "Pasal 375",
+        "alasan": "Hak dan kewajiban resipien transplantasi jaringan tubuh; hak pasien."
+      },
+      {
+        "pasal": "Pasal 376",
+        "alasan": "Bantuan pendanaan pengembangan bank mata dan bank jaringan oleh pemerintah; administratif anggaran."
+      },
+      {
+        "pasal": "Pasal 377",
+        "alasan": "Sumber dan peruntukan pendanaan transplantasi jaringan tubuh; administratif anggaran."
+      },
+      {
+        "pasal": "Pasal 378",
+        "alasan": "Delegasi teknis pelaksanaan transplantasi jaringan tubuh kepada Peraturan Menteri; delegasi kewenangan."
+      },
+      {
+        "pasal": "Pasal 379",
+        "alasan": "Pembentukan sistem informasi transplantasi organ dan jaringan serta kewajiban pencatatan; sistem informasi."
+      },
+      {
+        "pasal": "Pasal 380",
+        "alasan": "Tanggung jawab Pemerintah Pusat dan Pemerintah Daerah dalam peningkatan upaya transplantasi; kelembagaan."
+      },
+      {
+        "pasal": "Pasal 381",
+        "alasan": "Peran serta masyarakat dalam promosi, edukasi, dan pencegahan jual beli organ; partisipasi masyarakat."
+      },
+      {
+        "pasal": "Pasal 382",
+        "alasan": "Syarat dan larangan terapi berbasis sel/sel punca (tidak untuk reproduksi, bukan sel punca embrionik); pelayanan kesehatan."
+      },
+      {
+        "pasal": "Pasal 383",
+        "alasan": "Bahan/produk terapi berbasis sel dan persetujuan Menteri serta kepala lembaga pengawasan obat dan makanan; perizinan."
+      },
+      {
+        "pasal": "Pasal 384",
+        "alasan": "Penyelenggaraan pelayanan sel/sel punca (pengambilan, pengolahan, penyimpanan, pemanfaatan klinis); pelayanan kesehatan."
+      },
+      {
+        "pasal": "Pasal 385",
+        "alasan": "Persetujuan tertulis Pasien/donor untuk pengambilan sel dan/atau sel punca; standar profesi medis."
+      },
+      {
+        "pasal": "Pasal 386",
+        "alasan": "Pengolahan sel oleh sarana pengolahan berizin dan industri farmasi; perizinan dan standar cara pembuatan obat."
+      },
+      {
+        "pasal": "Pasal 387",
+        "alasan": "Penyimpanan sel di bank sel/sel punca yang wajib memenuhi standar dan izin Menteri; perizinan."
+      },
+      {
+        "pasal": "Pasal 388",
+        "alasan": "Pemanfaatan klinis sel dengan persetujuan tertulis Pasien oleh Tenaga Medis berkompetensi; pelayanan medis."
+      },
+      {
+        "pasal": "Pasal 389",
+        "alasan": "Ruang lingkup penggunaan sel/sel punca pada pelayanan terapi dan penelitian; pelayanan kesehatan."
+      },
+      {
+        "pasal": "Pasal 390",
+        "alasan": "Standar pelayanan terapi berbasis bukti dan tempat penyelenggaraannya (RS dan klinik); standar pelayanan."
+      },
+      {
+        "pasal": "Pasal 391",
+        "alasan": "Penelitian berbasis pelayanan terapi sel/sel punca dan penetapannya sebagai pelayanan terstandar; penelitian kesehatan. Label OCR '# Pasal 39 1'."
+      },
+      {
+        "pasal": "Pasal 392",
+        "alasan": "Kewajiban pemilik produk dan pemberi layanan melakukan Farmakovigilans; pengawasan produk."
+      },
+      {
+        "pasal": "Pasal 393",
+        "alasan": "Fasilitas Pelayanan Kesehatan dapat menetapkan biaya pelayanan terapi terstandar; tarif pelayanan."
+      },
+      {
+        "pasal": "Pasal 394",
+        "alasan": "Delegasi pengaturan pelayanan dan penggunaan terapi berbasis sel kepada Peraturan Menteri; delegasi kewenangan."
+      },
+      {
+        "pasal": "Pasal 395",
+        "alasan": "Tujuan pengaturan bedah plastik rekonstruksi dan estetika; tujuan pengaturan."
+      },
+      {
+        "pasal": "Pasal 396",
+        "alasan": "Bedah plastik hanya oleh Tenaga Medis berkeahlian dan tidak untuk mengubah identitas; kewenangan profesi."
+      },
+      {
+        "pasal": "Pasal 397",
+        "alasan": "Fasilitas penyelenggara bedah plastik dan persyaratan SDM, bangunan, serta peralatan; perizinan fasilitas."
+      },
+      {
+        "pasal": "Pasal 398",
+        "alasan": "Bedah plastik penyesuaian alat kelamin berdasarkan indikasi medis di RS tertentu; pelayanan medis."
+      },
+      {
+        "pasal": "Pasal 399",
+        "alasan": "Tata cara pelayanan bedah plastik dan kewajiban menyusun standar prosedur operasional; tata cara."
+      },
+      {
+        "pasal": "Pasal 400",
+        "alasan": "Kewajiban pencatatan dan pelaporan pelayanan bedah plastik melalui Sistem Informasi Kesehatan; pelaporan."
+      },
+      {
+        "pasal": "Pasal 401",
+        "alasan": "Delegasi persyaratan dan tata cara teknis bedah plastik kepada Peraturan Menteri; delegasi kewenangan. Label OCR '### Pasal 4O1'."
+      },
+      {
+        "pasal": "Pasal 402",
+        "alasan": "Persyaratan Sediaan Farmasi, Alat Kesehatan, dan PKRT harus aman, bermutu, dan halal; standar produk."
+      },
+      {
+        "pasal": "Pasal 403",
+        "alasan": "Tujuan pengamanan Sediaan Farmasi, Alat Kesehatan, dan PKRT; tujuan pengaturan."
+      },
+      {
+        "pasal": "Pasal 404",
+        "alasan": "Penyelenggaraan pengamanan melalui pemenuhan standar dan persyaratan; standar produk."
+      },
+      {
+        "pasal": "Pasal 405",
+        "alasan": "Standar dan persyaratan berupa farmakope, kompendium, dan kodeks kosmetik; standar teknis."
+      },
+      {
+        "pasal": "Pasal 406",
+        "alasan": "Persyaratan bahan baku farmasi dan kajian risiko sediaan tertentu; standar teknis."
+      },
+      {
+        "pasal": "Pasal 407",
+        "alasan": "Kewajiban pelaku usaha memastikan mutu dan keamanan produk serta sampling oleh pemerintah; kewajiban pelaku usaha."
+      },
+      {
+        "pasal": "Pasal 408",
+        "alasan": "Kewajiban Farmakovigilans dan Vigilans oleh pemilik izin edar; pengawasan produk."
+      },
+      {
+        "pasal": "Pasal 409",
+        "alasan": "Pelaporan kejadian tidak diinginkan/efek samping oleh Tenaga Medis dan Tenaga Kesehatan; keselamatan pasien."
+      },
+      {
+        "pasal": "Pasal 410",
+        "alasan": "Delegasi pengaturan Farmakovigilans dan Vigilans kepada peraturan kepala lembaga/Peraturan Menteri; delegasi kewenangan."
+      },
+      {
+        "pasal": "Pasal 411",
+        "alasan": "Kewajiban pemilik izin edar/pelaku usaha menarik produk yang tidak sesuai standar dari peredaran; kewajiban pelaku usaha. Label OCR '# Pasal 41 1'."
+      },
+      {
+        "pasal": "Pasal 412",
+        "alasan": "Kewajiban pemusnahan Sediaan Farmasi, Alat Kesehatan, dan PKRT yang tidak memenuhi persyaratan; kewajiban pelaku usaha."
+      },
+      {
+        "pasal": "Pasal 413",
+        "alasan": "Produksi hanya oleh fasilitas berizin usaha dan wajib memenuhi cara pembuatan yang baik; perizinan."
+      },
+      {
+        "pasal": "Pasal 414",
+        "alasan": "Peredaran produk hanya setelah memperoleh izin edar; perizinan."
+      },
+      {
+        "pasal": "Pasal 415",
+        "alasan": "Ruang lingkup peredaran Sediaan Farmasi dan Alat Kesehatan (distribusi dan penyerahan); klasifikasi."
+      },
+      {
+        "pasal": "Pasal 416",
+        "alasan": "Distribusi hanya oleh fasilitas pengelolaan kefarmasian, produsen, dan distributor berizin; perizinan."
+      },
+      {
+        "pasal": "Pasal 417",
+        "alasan": "Penyerahan produk hanya oleh fasilitas pelayanan kefarmasian dan fasilitas lain berizin; perizinan. Label OCR '# Pasal 4I7'."
+      },
+      {
+        "pasal": "Pasal 418",
+        "alasan": "Peredaran produk dapat memanfaatkan sistem elektronik terintegrasi Sistem Informasi Kesehatan Nasional; sistem informasi."
+      },
+      {
+        "pasal": "Pasal 419",
+        "alasan": "Delegasi pengaturan mutu, cara pembuatan/distribusi, dan peredaran elektronik; delegasi kewenangan."
+      },
+      {
+        "pasal": "Pasal 420",
+        "alasan": "Persyaratan impor/ekspor produk dan pembatasan pelaku yang boleh melakukan; perdagangan."
+      },
+      {
+        "pasal": "Pasal 421",
+        "alasan": "Kewajiban izin edar untuk produk impor dan mekanisme jalur khusus; perizinan."
+      },
+      {
+        "pasal": "Pasal 422",
+        "alasan": "Impor dan ekspor dilaksanakan sesuai ketentuan peraturan perundang-undangan; rujukan."
+      },
+      {
+        "pasal": "Pasal 423",
+        "alasan": "Kewajiban penandaan produk yang objektif, lengkap, dan tidak menyesatkan; labeling produk."
+      },
+      {
+        "pasal": "Pasal 424",
+        "alasan": "Kewajiban promosi dan iklan produk yang objektif serta pembatasan media; periklanan."
+      },
+      {
+        "pasal": "Pasal 425",
+        "alasan": "Delegasi pengaturan penandaan, promosi, dan iklan; delegasi kewenangan."
+      },
+      {
+        "pasal": "Pasal 426",
+        "alasan": "Sanksi administratif bagi pemilik izin edar/pelaku usaha yang melanggar kewajiban; sanksi administratif."
+      },
+      {
+        "pasal": "Pasal 427",
+        "alasan": "Peran serta masyarakat dalam pelindungan dari bahaya produk tidak memenuhi standar; partisipasi masyarakat."
+      },
+      {
+        "pasal": "Pasal 428",
+        "alasan": "Praktik kefarmasian oleh tenaga kefarmasian dan kondisi tertentu oleh Tenaga Medis/Kesehatan; kewenangan profesi."
+      },
+      {
+        "pasal": "Pasal 429",
+        "alasan": "Batasan zat adiktif dan produk tembakau termasuk rokok elektronik; definisi/istilah."
+      },
+      {
+        "pasal": "Pasal 430",
+        "alasan": "Tujuan penyelenggaraan pengamanan zat adiktif berupa produk tembakau dan rokok elektronik; tujuan pengaturan."
+      },
+      {
+        "pasal": "Pasal 431",
+        "alasan": "Kewajiban produsen/importir/pengedar produk tembakau dan rokok elektronik (izin usaha, batas nikotin dan tar, pengujian, pelaporan); kewajiban pelaku usaha."
+      },
+      {
+        "pasal": "Pasal 432",
+        "alasan": "Larangan penggunaan bahan tambahan tanpa bukti ilmiah dan sanksi administratif; kewajiban pelaku usaha."
+      },
+      {
+        "pasal": "Pasal 433",
+        "alasan": "Ketentuan pengemasan produk tembakau dan rokok elektronik serta sanksi administratif; standar produk."
+      },
+      {
+        "pasal": "Pasal 434",
+        "alasan": "Larangan menjual produk tembakau/rokok elektronik (mesin layan diri, usia di bawah 21 tahun, radius 200 meter); larangan penjualan."
+      },
+      {
+        "pasal": "Pasal 435",
+        "alasan": "Kewajiban standardisasi kemasan berupa desain dan tulisan; standar produk."
+      },
+      {
+        "pasal": "Pasal 436",
+        "alasan": "Batasan peringatan Kesehatan pada kemasan; definisi/istilah."
+      },
+      {
+        "pasal": "Pasal 437",
+        "alasan": "Kewajiban mencantumkan peringatan Kesehatan pada kemasan produk tembakau dan rokok elektronik; kewajiban pelaku usaha."
+      },
+      {
+        "pasal": "Pasal 438",
+        "alasan": "Ketentuan pencantuman gambar dan tulisan peringatan Kesehatan pada kemasan; standar teknis."
+      },
+      {
+        "pasal": "Pasal 439",
+        "alasan": "Pengawasan pencantuman peringatan Kesehatan oleh kepala lembaga pengawasan obat dan makanan; pengawasan."
+      },
+      {
+        "pasal": "Pasal 440",
+        "alasan": "Sanksi administratif berupa penarikan produk dan/atau denda; sanksi administratif."
+      },
+      {
+        "pasal": "Pasal 441",
+        "alasan": "Kewajiban dan larangan pencantuman informasi pada label kemasan produk tembakau dan rokok elektronik; kewajiban pelaku usaha. Label OCR '## Pasal 44 1'."
+      },
+      {
+        "pasal": "Pasal 442",
+        "alasan": "Batasan kawasan tanpa rokok dan pengecualian larangan di tempat penjualan/produksi; definisi/istilah."
+      },
+      {
+        "pasal": "Pasal 444",
+        "alasan": "Pemantauan Pemerintah Pusat atas implementasi kawasan tanpa rokok melalui Sistem Informasi Kesehatan; pengawasan."
+      },
+      {
+        "pasal": "Pasal 445",
+        "alasan": "Judul tanpa isi akibat pemenggalan halaman; substansi ada pada label Pasal 445 di chunk berikutnya."
+      },
+      {
+        "pasal": "Pasal 445",
+        "alasan": "Pemberian penghargaan Menteri kepada Pemerintah Daerah yang berhasil mengimplementasikan kawasan tanpa rokok; kelembagaan."
+      },
+      {
+        "pasal": "Pasal 446",
+        "alasan": "Larangan mengiklankan produk tembakau dan rokok elektronik di media sosial berbasis digital; periklanan."
+      },
+      {
+        "pasal": "Pasal 447",
+        "alasan": "Ketentuan pengendalian iklan pada situs web/aplikasi elektronik komersial; periklanan."
+      },
+      {
+        "pasal": "Pasal 448",
+        "alasan": "Ketentuan pengendalian iklan pada tempat penjualan; periklanan."
+      },
+      {
+        "pasal": "Pasal 449",
+        "alasan": "Ketentuan pengendalian iklan pada media luar ruang, termasuk batas radius dan jam tayang videotron; periklanan."
+      },
+      {
+        "pasal": "Pasal 450",
+        "alasan": "Pengawasan iklan oleh Pemerintah Pusat dan Pemerintah Daerah; pengawasan."
+      },
+      {
+        "pasal": "Pasal 451",
+        "alasan": "Ketentuan pengendalian iklan pada media cetak dan media penyiaran serta sanksi administratif; periklanan."
+      },
+      {
+        "pasal": "Pasal 452",
+        "alasan": "Penyelenggaraan iklan layanan masyarakat mengenai bahaya produk tembakau oleh pemerintah; kelembagaan."
+      },
+      {
+        "pasal": "Pasal 453",
+        "alasan": "Pengendalian promosi produk tembakau dan rokok elektronik oleh pemerintah; promosi produk."
+      },
+      {
+        "pasal": "Pasal 454",
+        "alasan": "Ketentuan sponsor kegiatan oleh produsen/importir produk tembakau dan rokok elektronik; promosi produk, termasuk label ganda pada pemenggalan halaman."
+      },
+      {
+        "pasal": "Pasal 455",
+        "alasan": "Ketentuan bantuan tanggung jawab sosial perusahaan oleh produsen/importir produk tembakau; promosi produk."
+      },
+      {
+        "pasal": "Pasal 456",
+        "alasan": "Larangan menyiarkan dan menggambarkan orang merokok di media; larangan penyiaran."
+      },
+      {
+        "pasal": "Pasal 457",
+        "alasan": "Larangan memberikan produk tembakau/rokok elektronik secara cuma-cuma kepada anak, remaja, dan perempuan hamil; larangan, termasuk label ganda pada pemenggalan halaman."
+      },
+      {
+        "pasal": "Pasal 458",
+        "alasan": "Larangan menyuruh atau memerintahkan orang di bawah 21 tahun menjual, membeli, atau mengonsumsi produk; larangan."
+      },
+      {
+        "pasal": "Pasal 459",
+        "alasan": "Sanksi administratif atas pelanggaran Pasal 454 sampai Pasal 458; sanksi administratif."
+      },
+      {
+        "pasal": "Pasal 460",
+        "alasan": "Tanggung jawab pemerintah menyediakan layanan konseling dan intervensi farmakologi berhenti merokok; pelayanan kesehatan."
+      },
+      {
+        "pasal": "Pasal 461",
+        "alasan": "Judul tanpa isi akibat pemenggalan halaman; substansi ada pada label Pasal 461 di chunk berikutnya."
+      },
+      {
+        "pasal": "Pasal 461",
+        "alasan": "Tanggung jawab Pemerintah Pusat dan Pemerintah Daerah dalam pengamanan produk tembakau dan rokok elektronik; kelembagaan."
+      },
+      {
+        "pasal": "Pasal 462",
+        "alasan": "Peran serta masyarakat dalam pengamanan produk tembakau dan rokok elektronik; partisipasi masyarakat."
+      },
+      {
+        "pasal": "Pasal 463",
+        "alasan": "Pencatatan dan pelaporan upaya pengamanan produk tembakau melalui Sistem Informasi Kesehatan; pelaporan."
+      },
+      {
+        "pasal": "Pasal 464",
+        "alasan": "Hak setiap orang mendapatkan pelayanan kedokteran untuk kepentingan hukum; hak warga, di luar domain T-Box."
+      },
+      {
+        "pasal": "Pasal 465",
+        "alasan": "Tanggung jawab Pemerintah Pusat dan Pemerintah Daerah menyelenggarakan pelayanan kedokteran untuk kepentingan hukum; kelembagaan."
+      },
+      {
+        "pasal": "Pasal 466",
+        "alasan": "Tujuan pelayanan kedokteran untuk kepentingan hukum (memperoleh fakta dan keterangan ahli); tujuan pengaturan."
+      },
+      {
+        "pasal": "Pasal 467",
+        "alasan": "Ruang lingkup pelayanan kedokteran untuk kepentingan hukum pada orang hidup dan orang mati; klasifikasi."
+      },
+      {
+        "pasal": "Pasal 468",
+        "alasan": "Persyaratan Fasilitas Pelayanan Kesehatan penyelenggara pelayanan kedokteran untuk kepentingan hukum; perizinan fasilitas."
+      },
+      {
+        "pasal": "Pasal 469",
+        "alasan": "Pelibatan peran serta masyarakat dalam pelayanan kedokteran untuk kepentingan hukum; partisipasi masyarakat."
+      },
+      {
+        "pasal": "Pasal 470",
+        "alasan": "Tujuan pelayanan kedokteran terhadap orang hidup (kecederaan, kekerasan, kecakapan hukum); tujuan pemeriksaan."
+      },
+      {
+        "pasal": "Pasal 471",
+        "alasan": "Sasaran pelayanan kedokteran terhadap orang hidup (korban kekerasan fisik, psikis, seksual, penelantaran); klasifikasi. Label OCR '# Pasal4Tl'."
+      },
+      {
+        "pasal": "Pasal 472",
+        "alasan": "Bentuk pelayanan kedokteran terhadap orang mati dan persetujuan keluarga; pelayanan medis."
+      },
+      {
+        "pasal": "Pasal 473",
+        "alasan": "Upaya mengetahui sebab kematian dan identitas mayat untuk kepentingan administratif kependudukan; administratif."
+      },
+      {
+        "pasal": "Pasal 474",
+        "alasan": "Kewajiban bedah mayat sesuai norma agama, sosial budaya, kesusilaan, dan etika profesi; etika profesi."
+      },
+      {
+        "pasal": "Pasal 475",
+        "alasan": "Penentuan sebab kematian dapat dipadukan dengan penelitian, pendidikan, dan pelatihan; pelayanan medis."
+      },
+      {
+        "pasal": "Pasal 476",
+        "alasan": "Bedah mayat anatomis untuk pendidikan anatomi dan syarat persetujuan; pelayanan medis."
+      },
+      {
+        "pasal": "Pasal 477",
+        "alasan": "Bedah mayat klinis untuk mengetahui penyakit penyebab kematian dan dasar permintaannya; pelayanan medis."
+      },
+      {
+        "pasal": "Pasal 478",
+        "alasan": "Delegasi pengaturan pelayanan kedokteran untuk kepentingan hukum kepada Peraturan Menteri; delegasi kewenangan."
+      },
+      {
+        "pasal": "Pasal 479",
+        "alasan": "Batasan pelayanan Kesehatan tradisional berbasis kearifan lokal; definisi/istilah."
+      },
+      {
+        "pasal": "Pasal 480",
+        "alasan": "Ruang lingkup pelayanan Kesehatan tradisional (promotif sampai paliatif); klasifikasi pelayanan."
+      },
+      {
+        "pasal": "Pasal 481",
+        "alasan": "Bahan dan metode pelayanan Kesehatan tradisional (keterampilan dan ramuan); klasifikasi."
+      },
+      {
+        "pasal": "Pasal 482",
+        "alasan": "Penyelenggaraan pelayanan Kesehatan tradisional secara terintegrasi dengan pelayanan konvensional; kebijakan pelayanan."
+      },
+      {
+        "pasal": "Pasal 483",
+        "alasan": "Kewenangan Menteri menyusun kebijakan dan persyaratan praktik Kesehatan tradisional; kelembagaan."
+      },
+      {
+        "pasal": "Pasal 484",
+        "alasan": "Pengembangan produk, praktik, dan praktisi pelayanan Kesehatan tradisional; kebijakan pengembangan."
+      },
+      {
+        "pasal": "Pasal 485",
+        "alasan": "Tempat penyelenggaraan pelayanan Kesehatan tradisional; fasilitas pelayanan."
+      },
+      {
+        "pasal": "Pasal 486",
+        "alasan": "Pelayanan Kesehatan tradisional diberikan oleh Tenaga Kesehatan tradisional berpendidikan formal; kewenangan profesi."
+      },
+      {
+        "pasal": "Pasal 487",
+        "alasan": "Penyehat tradisional dan tenaga lain pemberi pelayanan Kesehatan tradisional serta bukti pencatatan; kewenangan praktik."
+      },
+      {
+        "pasal": "Pasal 488",
+        "alasan": "Izin praktik pelayanan Kesehatan tradisional diterbitkan Pemerintah Daerah kabupaten/kota; perizinan."
+      },
+      {
+        "pasal": "Pasal 489",
+        "alasan": "Kewajiban dan larangan Tenaga Kesehatan tradisional, penyehat tradisional, dan tenaga lain; kewajiban profesi."
+      },
+      {
+        "pasal": "Pasal 490",
+        "alasan": "Kewajiban pencatatan dan pelaporan pelayanan Kesehatan tradisional melalui Sistem Informasi Kesehatan; pelaporan."
+      },
+      {
+        "pasal": "Pasal 491",
+        "alasan": "Pembiayaan pelayanan Kesehatan tradisional melalui jaminan kesehatan nasional; jaminan kesehatan, bukan jamsos ketenagakerjaan."
+      },
+      {
+        "pasal": "Pasal 492",
+        "alasan": "Sanksi administratif bagi pelanggar ketentuan pelayanan Kesehatan tradisional; sanksi administratif."
+      },
+      {
+        "pasal": "Pasal 493",
+        "alasan": "Koordinasi dan tanggung jawab Pemerintah Pusat/Daerah menjamin ketersediaan pelayanan Kesehatan tradisional; kelembagaan, termasuk label ganda pada pemenggalan halaman."
+      },
+      {
+        "pasal": "Pasal 494",
+        "alasan": "Kesempatan masyarakat mengembangkan dan menggunakan pelayanan Kesehatan tradisional; partisipasi masyarakat."
+      },
+      {
+        "pasal": "Pasal 495",
+        "alasan": "Kewajiban penyelenggaraan pelayanan sesuai standar Pelayanan Kesehatan; standar pelayanan."
+      },
+      {
+        "pasal": "Pasal 496",
+        "alasan": "Tujuan standar Pelayanan Kesehatan (acuan, mutu, pelindungan hukum); tujuan pengaturan."
+      },
+      {
+        "pasal": "Pasal 497",
+        "alasan": "Jenis standar Pelayanan Kesehatan berupa standar nasional dan pedoman nasional pelayanan klinis; klasifikasi standar. Label OCR '# Pasil 497'."
+      },
+      {
+        "pasal": "Pasal 498",
+        "alasan": "Prinsip penyusunan standar Pelayanan Kesehatan (berpusat pada pasien, keselamatan, etika); prinsip."
+      },
+      {
+        "pasal": "Pasal 499",
+        "alasan": "Kewajiban fasilitas menyusun standar prosedur operasional mengacu standar Pelayanan Kesehatan; tata cara."
+      },
+      {
+        "pasal": "Pasal 500",
+        "alasan": "Kewajiban fasilitas dan tenaga memberikan pelayanan sesuai standar serta sanksi administratif; kewajiban pelayanan."
+      },
+      {
+        "pasal": "Pasal 501",
+        "alasan": "Pembagian bentuk pelayanan Kesehatan primer dan lanjutan; klasifikasi."
+      },
+      {
+        "pasal": "Pasal 502",
+        "alasan": "Batasan pelayanan Kesehatan primer dan tujuannya; definisi/istilah."
+      },
+      {
+        "pasal": "Pasal 503",
+        "alasan": "Penyelenggaraan upaya Kesehatan perseorangan dan masyarakat di pelayanan primer oleh Puskesmas; pelayanan kesehatan, termasuk label ganda pada pemenggalan halaman."
+      },
+      {
+        "pasal": "Pasal 504",
+        "alasan": "Rincian upaya Kesehatan perseorangan promotif, preventif, kuratif, rehabilitatif, dan paliatif; pelayanan kesehatan."
+      },
+      {
+        "pasal": "Pasal 505",
+        "alasan": "Upaya Kesehatan masyarakat yang bersifat promotif; pelayanan kesehatan."
+      },
+      {
+        "pasal": "Pasal 506",
+        "alasan": "Upaya Kesehatan masyarakat yang bersifat preventif melalui surveilans dan pemantauan; pelayanan kesehatan."
+      },
+      {
+        "pasal": "Pasal 507",
+        "alasan": "Upaya Kesehatan masyarakat yang bersifat kuratif; pelayanan kesehatan."
+      },
+      {
+        "pasal": "Pasal 508",
+        "alasan": "Batasan upaya Kesehatan masyarakat yang bersifat rehabilitatif; pelayanan kesehatan."
+      },
+      {
+        "pasal": "Pasal 509",
+        "alasan": "Batasan upaya Kesehatan masyarakat yang bersifat paliatif; pelayanan kesehatan."
+      },
+      {
+        "pasal": "Pasal 510",
+        "alasan": "Sistem jejaring pelayanan Kesehatan primer dan strukturnya (wilayah, satuan pendidikan, tempat kerja, rujukan, lintas sektor); kelembagaan."
+      },
+      {
+        "pasal": "Pasal 511",
+        "alasan": "Jejaring berbasis wilayah administratif sampai tingkat desa/kelurahan; kelembagaan."
+      },
+      {
+        "pasal": "Pasal 512",
+        "alasan": "Unit pelayanan Kesehatan desa/kelurahan, komposisi tenaga, kader, dan insentif; kelembagaan pelayanan."
+      },
+      {
+        "pasal": "Pasal 513",
+        "alasan": "Upaya Kesehatan bersumber daya masyarakat dan pos pelayanan terpadu; kelembagaan."
+      },
+      {
+        "pasal": "Pasal 514",
+        "alasan": "Pembinaan teknis dan peningkatan kemampuan kader pos pelayanan terpadu; kelembagaan."
+      },
+      {
+        "pasal": "Pasal 515",
+        "alasan": "Pemberian insentif kepada kader pos pelayanan terpadu dan sumber anggarannya; fiskal/kelembagaan, bukan upah kerja."
+      },
+      {
+        "pasal": "Pasal 516",
+        "alasan": "Kewajiban Fasilitas Pelayanan Kesehatan melayani sesuai standar dan menyampaikan laporan; pelayanan dan pelaporan."
+      },
+      {
+        "pasal": "Pasal 517",
+        "alasan": "Kewajiban unit pelayanan Kesehatan melayani seluruh siklus hidup dan menyampaikan laporan; pelayanan dan pelaporan."
+      },
+      {
+        "pasal": "Pasal 518",
+        "alasan": "Jejaring berbasis satuan pendidikan dalam pelayanan Kesehatan primer; kelembagaan."
+      },
+      {
+        "pasal": "Pasal 520",
+        "alasan": "Jejaring sistem rujukan vertikal, horizontal, dan rujuk balik; pelayanan kesehatan."
+      },
+      {
+        "pasal": "Pasal 521",
+        "alasan": "Jejaring lintas sektor untuk mengatasi determinan Kesehatan; kelembagaan."
+      },
+      {
+        "pasal": "Pasal 522",
+        "alasan": "Kewajiban pencatatan dan pelaporan pelayanan Kesehatan primer melalui Sistem Informasi Kesehatan; pelaporan."
+      },
+      {
+        "pasal": "Pasal 523",
+        "alasan": "Tanggung jawab Pemerintah Pusat, Pemerintah Daerah, dan Pemerintah Desa atas pelayanan Kesehatan primer; kelembagaan."
+      },
+      {
+        "pasal": "Pasal 524",
+        "alasan": "Peran masyarakat dan badan usaha swasta dalam pelayanan Kesehatan primer; partisipasi masyarakat."
+      },
+      {
+        "pasal": "Pasal 525",
+        "alasan": "Delegasi pengaturan pelayanan Kesehatan primer dan kader kepada Peraturan Menteri; delegasi kewenangan."
+      },
+      {
+        "pasal": "Pasal 526",
+        "alasan": "Laboratorium Kesehatan sebagai pendukung pelayanan Kesehatan primer dan jenisnya; fasilitas pelayanan."
+      },
+      {
+        "pasal": "Pasal 527",
+        "alasan": "Fungsi laboratorium medis dalam pemeriksaan spesimen klinik; pelayanan kesehatan, termasuk label ganda pada pemenggalan halaman."
+      },
+      {
+        "pasal": "Pasal 528",
+        "alasan": "Penyelenggara laboratorium medis oleh pemerintah dan masyarakat; kelembagaan."
+      },
+      {
+        "pasal": "Pasal 529",
+        "alasan": "Fungsi laboratorium Kesehatan masyarakat; pelayanan kesehatan."
+      },
+      {
+        "pasal": "Pasal 530",
+        "alasan": "Tanggung jawab pemerintah menyediakan laboratorium Kesehatan masyarakat; kelembagaan."
+      },
+      {
+        "pasal": "Pasal 531",
+        "alasan": "Tingkatan laboratorium Kesehatan masyarakat dari Puskesmas sampai nasional; klasifikasi."
+      },
+      {
+        "pasal": "Pasal 532",
+        "alasan": "tata cara jejaring laboratorium kesehatan masyarakat; kelembagaan layanan, di luar domain ketenagakerjaan"
+      },
+      {
+        "pasal": "Pasal 533",
+        "alasan": "pemrosesan data laboratorium melalui sistem informasi kesehatan; ketentuan sistem informasi"
+      },
+      {
+        "pasal": "Pasal 534",
+        "alasan": "kewajiban laboratorium melaporkan hasil pemeriksaan berpotensi KLB dalam 24 jam; kewajiban penyelenggara layanan, bukan hubungan kerja"
+      },
+      {
+        "pasal": "Pasal 535",
+        "alasan": "dukungan SDM, sarana, prasarana, dan peralatan laboratorium; standar penyelenggaraan layanan"
+      },
+      {
+        "pasal": "Pasal 536",
+        "alasan": "rincian komponen SDM, sarana, prasarana, dan peralatan laboratorium; standar penyelenggaraan"
+      },
+      {
+        "pasal": "Pasal 537",
+        "alasan": "delegasi pengaturan pedoman laboratorium kesehatan kepada Peraturan Menteri"
+      },
+      {
+        "pasal": "Pasal 538",
+        "alasan": "definisi dan ruang lingkup pelayanan kesehatan lanjutan"
+      },
+      {
+        "pasal": "Pasal 539",
+        "alasan": "pengembangan pusat pelayanan unggulan nasional; kebijakan layanan kesehatan"
+      },
+      {
+        "pasal": "Pasal 540",
+        "alasan": "kewajiban Pemerintah Pusat dan Daerah menyediakan akses pelayanan kesehatan; kewajiban negara"
+      },
+      {
+        "pasal": "Pasal 541",
+        "alasan": "penyelenggaraan pelayanan di daerah tertinggal/perbatasan/kepulauan; kebijakan layanan"
+      },
+      {
+        "pasal": "Pasal 542",
+        "alasan": "modifikasi pelayanan kesehatan di wilayah tertentu; kebijakan layanan"
+      },
+      {
+        "pasal": "Pasal 543",
+        "alasan": "persyaratan kompetensi dan kewenangan tenaga medis/kesehatan penyelenggara layanan"
+      },
+      {
+        "pasal": "Pasal 544",
+        "alasan": "pemindahtugasan, pelatihan, dan pelimpahan wewenang oleh pemerintah saat tenaga tidak tersedia; bukan hubungan kerja"
+      },
+      {
+        "pasal": "Pasal 545",
+        "alasan": "jaminan ketersediaan sarana, prasarana, dan perbekalan kesehatan; kewajiban negara"
+      },
+      {
+        "pasal": "Pasal 546",
+        "alasan": "distribusi perbekalan kesehatan melebihi kebutuhan 1 bulan; logistik layanan"
+      },
+      {
+        "pasal": "Pasal 547",
+        "alasan": "kewajiban pencatatan dan pelaporan fasilitas pelayanan kesehatan; administrasi layanan"
+      },
+      {
+        "pasal": "Pasal 548",
+        "alasan": "delegasi pengaturan pelayanan di kawasan khusus kepada Peraturan Menteri"
+      },
+      {
+        "pasal": "Pasal 549",
+        "alasan": "pemanfaatan teknologi informasi dan komunikasi dalam upaya kesehatan; ruang lingkup layanan"
+      },
+      {
+        "pasal": "Pasal 550",
+        "alasan": "pembagian telekesehatan dan telemedisin; ruang lingkup layanan"
+      },
+      {
+        "pasal": "Pasal 551",
+        "alasan": "kewajiban standar keamanan data dan sistem elektronik bagi fasyankes"
+      },
+      {
+        "pasal": "Pasal 552",
+        "alasan": "rekam medis elektronik dan standar interoperabilitas; ketentuan sistem informasi (heading ganda akibat OCR)"
+      },
+      {
+        "pasal": "Pasal 553",
+        "alasan": "sumber daya manusia penyelenggara upaya kesehatan berbasis TIK dan kompetensinya"
+      },
+      {
+        "pasal": "Pasal 554",
+        "alasan": "sarana, prasarana, dan peralatan telekesehatan/telemedisin"
+      },
+      {
+        "pasal": "Pasal 555",
+        "alasan": "aplikasi telekesehatan/telemedisin dan registrasi aplikasi mandiri; ketentuan sistem"
+      },
+      {
+        "pasal": "Pasal 556",
+        "alasan": "tanggung jawab pemerintah menyediakan infrastruktur TIK kesehatan"
+      },
+      {
+        "pasal": "Pasal 557",
+        "alasan": "definisi dan persyaratan penyelenggaraan telekesehatan"
+      },
+      {
+        "pasal": "Pasal 558",
+        "alasan": "penyelenggaraan telemedisin dan persyaratan fasilitas; ruang lingkup layanan"
+      },
+      {
+        "pasal": "Pasal 559",
+        "alasan": "batang tubuh pasal berada pada chunk berikutnya; tidak ada norma pada chunk ini"
+      },
+      {
+        "pasal": "Pasal 559",
+        "alasan": "rincian infrastruktur telemedisin (sarana, prasarana, perangkat); standar layanan"
+      },
+      {
+        "pasal": "Pasal 560",
+        "alasan": "perangkat lunak/aplikasi telemedisin dan registrasi aplikasi mandiri; ketentuan sistem"
+      },
+      {
+        "pasal": "Pasal 561",
+        "alasan": "jenis pelayanan telemedisin (telekonsultasi, telefarmasi); ruang lingkup layanan"
+      },
+      {
+        "pasal": "Pasal 562",
+        "alasan": "sumber daya manusia telemedisin dan persyaratan STR/SIP; perizinan praktik"
+      },
+      {
+        "pasal": "Pasal 563",
+        "alasan": "standar klinis telemedisin (SPO, komunikasi, kerahasiaan pasien)"
+      },
+      {
+        "pasal": "Pasal 564",
+        "alasan": "delegasi pengaturan penyelenggaraan telemedisin kepada Peraturan Menteri"
+      },
+      {
+        "pasal": "Pasal 565",
+        "alasan": "faktor perencanaan tenaga medis dan tenaga kesehatan; perencanaan SDM kesehatan"
+      },
+      {
+        "pasal": "Pasal 566",
+        "alasan": "perencanaan tenaga medis/kesehatan sebagai dasar pengadaan dan pendayagunaan"
+      },
+      {
+        "pasal": "Pasal 567",
+        "alasan": "kewenangan Menteri menetapkan perencanaan tenaga medis/kesehatan nasional"
+      },
+      {
+        "pasal": "Pasal 568",
+        "alasan": "kewajiban Pemerintah Daerah menyusun perencanaan tenaga medis/kesehatan"
+      },
+      {
+        "pasal": "Pasal 569",
+        "alasan": "sasaran perencanaan tenaga medis/kesehatan; perencanaan SDM kesehatan"
+      },
+      {
+        "pasal": "Pasal 570",
+        "alasan": "perencanaan mengacu rencana induk bidang kesehatan; perencanaan SDM"
+      },
+      {
+        "pasal": "Pasal 571",
+        "alasan": "pendekatan institusi dan wilayah dalam perencanaan tenaga medis/kesehatan"
+      },
+      {
+        "pasal": "Pasal 572",
+        "alasan": "metode analisis beban kerja kesehatan dan standar ketenagaan minimal; metode perencanaan"
+      },
+      {
+        "pasal": "Pasal 573",
+        "alasan": "penghitungan kebutuhan berdasarkan populasi dan epidemiologi; metode perencanaan"
+      },
+      {
+        "pasal": "Pasal 574",
+        "alasan": "delegasi tata cara penyusunan perencanaan tenaga medis/kesehatan kepada Peraturan Menteri"
+      },
+      {
+        "pasal": "Pasal 575",
+        "alasan": "pengadaan tenaga medis/kesehatan melalui pendidikan tinggi dan kualifikasi pendidikan minimal"
+      },
+      {
+        "pasal": "Pasal 576",
+        "alasan": "kerja sama perguruan tinggi dengan fasilitas pelayanan kesehatan; pendidikan"
+      },
+      {
+        "pasal": "Pasal 577",
+        "alasan": "tujuan dan bentuk kerja sama pendidikan; bukan perjanjian kerja"
+      },
+      {
+        "pasal": "Pasal 578",
+        "alasan": "perjanjian kerja sama pendidikan (hak/kewajiban pihak dan peserta didik), bukan perjanjian kerja"
+      },
+      {
+        "pasal": "Pasal 579",
+        "alasan": "izin penyelenggaraan program studi tenaga medis/kesehatan; perizinan pendidikan"
+      },
+      {
+        "pasal": "Pasal 58O",
+        "alasan": "kewajiban penyelenggara pendidikan mendukung program kesehatan masyarakat; kelembagaan pendidikan (label OCR untuk Pasal 580)"
+      },
+      {
+        "pasal": "Pasal 581",
+        "alasan": "standar nasional pendidikan tinggi dan kurikulum tenaga medis/kesehatan; pendidikan"
+      },
+      {
+        "pasal": "Pasal 582",
+        "alasan": "prinsip dan bentuk seleksi peserta didik; pendidikan"
+      },
+      {
+        "pasal": "Pasal 583",
+        "alasan": "seleksi peserta didik program spesialis/subspesialis; pendidikan"
+      },
+      {
+        "pasal": "Pasal 584",
+        "alasan": "pendayagunaan dan pengangkatan peserta didik spesialis sebagai pegawai serta imbalan jasa; skema pendidikan profesi, bukan hubungan kerja umum"
+      },
+      {
+        "pasal": "Pasal 585",
+        "alasan": "pendayagunaan peserta didik mengacu perencanaan tenaga medis/kesehatan; pendidikan"
+      },
+      {
+        "pasal": "Pasal 586",
+        "alasan": "delegasi pengaturan pendayagunaan peserta didik kepada Peraturan Menteri"
+      },
+      {
+        "pasal": "Pasal 587",
+        "alasan": "pembinaan dan pengawasan pendidikan tinggi tenaga medis/kesehatan; kelembagaan"
+      },
+      {
+        "pasal": "Pasal 588",
+        "alasan": "penjaminan mutu pendidikan tinggi (SPMI/SPME dan akreditasi); pendidikan"
+      },
+      {
+        "pasal": "Pasal 589",
+        "alasan": "delegasi pedoman penyelenggaraan pendidikan oleh RSPPU kepada Peraturan Menteri"
+      },
+      {
+        "pasal": "Pasal 590",
+        "alasan": "hak peserta didik atas ijazah, gelar, dan sertifikat profesi; pendidikan"
+      },
+      {
+        "pasal": "Pasal 591",
+        "alasan": "kewajiban mengikuti uji kompetensi nasional; pendidikan"
+      },
+      {
+        "pasal": "Pasal 592",
+        "alasan": "perolehan sertifikat kompetensi dan penerbitannya; pendidikan"
+      },
+      {
+        "pasal": "Pasal 593",
+        "alasan": "kewajiban sumpah profesi; etika profesi"
+      },
+      {
+        "pasal": "Pasal 594",
+        "alasan": "STR seumur hidup dan SIP untuk menjalankan praktik; perizinan praktik"
+      },
+      {
+        "pasal": "Pasal 595",
+        "alasan": "kewajiban mengikuti program internsip sebagai penempatan wajib sementara; persyaratan profesi"
+      },
+      {
+        "pasal": "Pasal 596",
+        "alasan": "tujuan dan penyelenggaraan program internsip; kebijakan pendidikan"
+      },
+      {
+        "pasal": "Pasal 597",
+        "alasan": "kewajiban dan jangka waktu internsip dokter/dokter gigi; persyaratan profesi"
+      },
+      {
+        "pasal": "Pasal 598",
+        "alasan": "surat tanda selesai internsip; administrasi profesi"
+      },
+      {
+        "pasal": "Pasal 599",
+        "alasan": "kewajiban peserta program internsip; kewajiban profesi"
+      },
+      {
+        "pasal": "Pasal 600",
+        "alasan": "hak peserta internsip atas bantuan biaya hidup, tunjangan, dan fasilitas; skema pendidikan profesi"
+      },
+      {
+        "pasal": "Pasal 601",
+        "alasan": "pembebanan biaya penyelenggaraan internsip pada APBN; pendanaan"
+      },
+      {
+        "pasal": "Pasal 602",
+        "alasan": "pembinaan dan pengawasan program internsip; kelembagaan"
+      },
+      {
+        "pasal": "Pasal 603",
+        "alasan": "sanksi administratif atas pelanggaran kewajiban internsip"
+      },
+      {
+        "pasal": "Pasal 604",
+        "alasan": "delegasi pengaturan pelaksanaan program internsip kepada Peraturan Menteri"
+      },
+      {
+        "pasal": "Pasal 607",
+        "alasan": "kesetaraan pengakuan pekerjaan dan penugasan fleksibel SDM pendidikan; diatur dalam perjanjian kerja sama, bukan hubungan kerja"
+      },
+      {
+        "pasal": "Pasal 608",
+        "alasan": "pelaksanaan ketentuan dosen, tenaga kependidikan, peneliti, dan perekayasa dirujuk ke peraturan perundang-undangan"
+      },
+      {
+        "pasal": "Pasal 609",
+        "alasan": "bantuan pendanaan pendidikan tenaga medis/kesehatan; pendanaan pendidikan"
+      },
+      {
+        "pasal": "Pasal 611",
+        "alasan": "bantuan pendanaan pendidikan oleh masyarakat berdasarkan perjanjian para pihak; pendanaan"
+      },
+      {
+        "pasal": "Pasal 612",
+        "alasan": "pembinaan dan pengawasan penyelenggaraan bantuan pendanaan pendidikan; kelembagaan"
+      },
+      {
+        "pasal": "Pasal 613",
+        "alasan": "pembagian tanggung jawab pendanaan pendidikan tenaga medis/kesehatan; pendanaan"
+      },
+      {
+        "pasal": "Pasal 614",
+        "alasan": "kewajiban peningkatan kompetensi secara berkelanjutan; pengembangan keprofesian"
+      },
+      {
+        "pasal": "Pasal 615",
+        "alasan": "penyelenggaraan peningkatan kualifikasi pendidikan dan bantuan pendanaannya"
+      },
+      {
+        "pasal": "Pasal 616",
+        "alasan": "delegasi pengaturan peningkatan kompetensi berkelanjutan kepada Peraturan Menteri"
+      },
+      {
+        "pasal": "Pasal 617",
+        "alasan": "pendayagunaan tenaga medis/kesehatan oleh pemerintah dan masyarakat; kebijakan SDM kesehatan"
+      },
+      {
+        "pasal": "Pasal 618",
+        "alasan": "kewajiban Pemerintah Daerah memenuhi kebutuhan tenaga medis/kesehatan; kewajiban negara"
+      },
+      {
+        "pasal": "Pasal 619",
+        "alasan": "insentif atau disinsentif Pemerintah Pusat kepada Pemerintah Daerah; hubungan antarpemerintahan"
+      },
+      {
+        "pasal": "Pasal 620",
+        "alasan": "kriteria pemberian insentif/disinsentif kepada Pemerintah Daerah; hubungan antarpemerintahan"
+      },
+      {
+        "pasal": "Pasal 62O",
+        "alasan": "heading ganda hasil OCR untuk Pasal 620; substansi sudah dicatat pada Pasal 620"
+      },
+      {
+        "pasal": "Pasal 622",
+        "alasan": "definisi dan kewenangan penetapan penugasan khusus tenaga medis/kesehatan; kebijakan penempatan"
+      },
+      {
+        "pasal": "Pasal 623",
+        "alasan": "kewajiban Pemerintah Daerah menyediakan alat kesehatan, sediaan farmasi, dan sarana penugasan khusus; kewajiban negara"
+      },
+      {
+        "pasal": "Pasal 625",
+        "alasan": "delegasi tata cara penugasan khusus kepada Peraturan Menteri"
+      },
+      {
+        "pasal": "Pasal 626",
+        "alasan": "seleksi dan penempatan tenaga medis/kesehatan pada fasyankes pemerintah; tata cara penempatan"
+      },
+      {
+        "pasal": "Pasal 627",
+        "alasan": "pemindahtugasan tenaga medis/kesehatan yang diangkat pemerintah; kepegawaian, bukan norma hak pekerja umum"
+      },
+      {
+        "pasal": "Pasal 628",
+        "alasan": "tunjangan/insentif khusus daerah tertinggal dengan jenis dan besaran ditetapkan pemerintah; kewajiban kelembagaan tanpa parameter"
+      },
+      {
+        "pasal": "Pasal 629",
+        "alasan": "tanggung jawab pemenuhan tenaga pengganti saat kekosongan; kepegawaian"
+      },
+      {
+        "pasal": "Pasal 630",
+        "alasan": "kewenangan Menteri mengatur penempatan tenaga medis/kesehatan dalam kondisi tertentu; kebijakan penempatan"
+      },
+      {
+        "pasal": "Pasal 631",
+        "alasan": "delegasi pengaturan penempatan dalam kondisi tertentu kepada Peraturan Menteri"
+      },
+      {
+        "pasal": "Pasal 632",
+        "alasan": "pola ikatan dinas bagi calon tenaga medis/kesehatan; skema pendidikan dan pendanaan"
+      },
+      {
+        "pasal": "Pasal 633",
+        "alasan": "pembentukan tenaga cadangan kesehatan; kelembagaan"
+      },
+      {
+        "pasal": "Pasal 634",
+        "alasan": "pengelolaan tenaga cadangan kesehatan (pendaftaran, pembinaan, mobilisasi); tata cara, bukan norma hak"
+      },
+      {
+        "pasal": "Pasal 635",
+        "alasan": "sistem informasi tenaga cadangan kesehatan; ketentuan sistem"
+      },
+      {
+        "pasal": "Pasal 637",
+        "alasan": "pengawasan, pemantauan, dan evaluasi program tenaga cadangan kesehatan; kelembagaan"
+      },
+      {
+        "pasal": "Pasal 638",
+        "alasan": "delegasi mekanisme pendayagunaan tenaga cadangan kepada Peraturan Menteri"
+      },
+      {
+        "pasal": "Pasal 639",
+        "alasan": "tujuan pendayagunaan tenaga medis/kesehatan ke luar negeri; kebijakan"
+      },
+      {
+        "pasal": "Pasal 640",
+        "alasan": "pertimbangan keseimbangan pendayagunaan ke luar negeri; kebijakan"
+      },
+      {
+        "pasal": "Pasal 642",
+        "alasan": "prinsip dan bentuk bakti sosial tenaga medis/kesehatan di luar negeri; kebijakan"
+      },
+      {
+        "pasal": "Pasal 643",
+        "alasan": "peningkatan kompetensi dalam rangka daya saing; pengembangan keprofesian"
+      },
+      {
+        "pasal": "Pasal 644",
+        "alasan": "persyaratan penempatan sebagai pekerja migran Indonesia bidang kesehatan dirujuk ke ketentuan ketenagakerjaan; tanpa akibat yang dapat dinalar"
+      },
+      {
+        "pasal": "Pasal 645",
+        "alasan": "fasilitasi pendayagunaan ke luar negeri oleh pemerintah dan masyarakat; kewajiban kelembagaan"
+      },
+      {
+        "pasal": "Pasal 646",
+        "alasan": "jaminan dan pelindungan tenaga medis/kesehatan yang didayagunakan ke luar negeri; kewajiban kelembagaan"
+      },
+      {
+        "pasal": "Pasal 647",
+        "alasan": "fasilitasi pendayagunaan kembali setelah selesai di luar negeri; kebijakan"
+      },
+      {
+        "pasal": "Pasal 648",
+        "alasan": "delegasi pengaturan pendayagunaan ke luar negeri kepada Peraturan Menteri"
+      },
+      {
+        "pasal": "Pasal 649",
+        "alasan": "kewajiban evaluasi kompetensi lulusan luar negeri; perizinan praktik"
+      },
+      {
+        "pasal": "Pasal 650",
+        "alasan": "tahapan evaluasi kompetensi tenaga medis/kesehatan lulusan luar negeri; perizinan praktik"
+      },
+      {
+        "pasal": "Pasal 651",
+        "alasan": "kewajiban adaptasi bagi lulusan luar negeri yang dinyatakan kompeten; perizinan praktik"
+      },
+      {
+        "pasal": "Pasal 652",
+        "alasan": "kewajiban penambahan kompetensi bagi lulusan luar negeri yang belum kompeten; perizinan praktik"
+      },
+      {
+        "pasal": "Pasal 653",
+        "alasan": "pengecualian uji kompetensi dan penilaian portofolio; evaluasi kompetensi"
+      },
+      {
+        "pasal": "Pasal 654",
+        "alasan": "kewajiban memiliki STR dan SIP sebelum praktik; perizinan praktik"
+      },
+      {
+        "pasal": "Pasal 655",
+        "alasan": "pemanfaatan masa adaptasi dan penambahan kompetensi sebagai pendayagunaan serta insentif; kebijakan SDM"
+      },
+      {
+        "pasal": "Pasal 656",
+        "alasan": "penyelenggaraan evaluasi kompetensi melalui Sistem Informasi Kesehatan; ketentuan sistem"
+      },
+      {
+        "pasal": "Pasal 657",
+        "alasan": "delegasi pengaturan evaluasi kompetensi dan pendayagunaan lulusan luar negeri kepada Peraturan Menteri"
+      },
+      {
+        "pasal": "Pasal 658",
+        "alasan": "ruang lingkup pendayagunaan tenaga medis/kesehatan warga negara asing; kebijakan SDM"
+      },
+      {
+        "pasal": "Pasal 659",
+        "alasan": "kewajiban SIP dan STR bagi WNA lulusan dalam negeri; perizinan praktik"
+      },
+      {
+        "pasal": "Pasal 660",
+        "alasan": "batasan praktik WNA lulusan dalam negeri (spesialis/subspesialis, waktu tertentu, larangan praktik mandiri); perizinan praktik"
+      },
+      {
+        "pasal": "Pasal 661",
+        "alasan": "batasan praktik WNA lulusan luar negeri dan evaluasi kompetensi; perizinan praktik"
+      },
+      {
+        "pasal": "Pasal 662",
+        "alasan": "pengalaman dan jangka waktu praktik WNA lulusan luar negeri; perizinan praktik"
+      },
+      {
+        "pasal": "Pasal 663",
+        "alasan": "larangan praktik mandiri bagi WNA lulusan luar negeri; perizinan praktik"
+      },
+      {
+        "pasal": "Pasal 664",
+        "alasan": "kewajiban evaluasi kompetensi WNA lulusan luar negeri; perizinan praktik"
+      },
+      {
+        "pasal": "Pasal 665",
+        "alasan": "cakupan penilaian evaluasi kompetensi WNA (administratif, penyetaraan, uji kompetensi)"
+      },
+      {
+        "pasal": "Pasal 666",
+        "alasan": "tahapan hasil evaluasi kompetensi dan adaptasi WNA; perizinan praktik"
+      },
+      {
+        "pasal": "Pasal 667",
+        "alasan": "batang tubuh pasal berada pada chunk berikutnya; tidak ada norma pada chunk ini"
+      },
+      {
+        "pasal": "Pasal 667",
+        "alasan": "pengecualian evaluasi kompetensi bagi WNA berpengalaman 5 tahun dan penilaian portofolio; perizinan praktik"
+      },
+      {
+        "pasal": "Pasal 668",
+        "alasan": "delegasi pengaturan evaluasi kompetensi dan pendayagunaan WNA kepada Peraturan Menteri"
+      },
+      {
+        "pasal": "Pasal 669",
+        "alasan": "peningkatan mutu melalui pelatihan dan akreditasi lembaga pelatihan; pengembangan keprofesian"
+      },
+      {
+        "pasal": "Pasal 670",
+        "alasan": "dasar penyelenggaraan pelatihan berupa pengkajian kebutuhan dan kurikulum terstandar"
+      },
+      {
+        "pasal": "Pasal 67L",
+        "alasan": "heading ganda hasil OCR untuk Pasal 671; substansi sudah dicatat pada Pasal 671"
+      },
+      {
+        "pasal": "Pasal 671",
+        "alasan": "faktor pengkajian kebutuhan pelatihan; metode pelatihan, bukan norma hak"
+      },
+      {
+        "pasal": "Pasal 672",
+        "alasan": "dasar dan bentuk kegiatan peningkatan kompetensi; metode pelatihan"
+      },
+      {
+        "pasal": "Pasal 673",
+        "alasan": "pemanfaatan pelatihan untuk pemenuhan satuan kredit profesi dan sertifikasinya; administrasi profesi"
+      },
+      {
+        "pasal": "Pasal 674",
+        "alasan": "evaluasi penyelenggaraan pelatihan dan peningkatan kompetensi; tata kelola pelatihan"
+      },
+      {
+        "pasal": "Pasal 675",
+        "alasan": "fellowship dan program pengembangan pendidikan keprofesian berkelanjutan; pengembangan keprofesian"
+      },
+      {
+        "pasal": "Pasal 676",
+        "alasan": "delegasi pedoman pelatihan dan peningkatan kompetensi kepada Peraturan Menteri"
+      },
+      {
+        "pasal": "Pasal 677",
+        "alasan": "kewajiban STR dan jangka waktu keberlakuannya; perizinan praktik"
+      },
+      {
+        "pasal": "Pasal 678",
+        "alasan": "tata cara permohonan dan penerbitan STR serta persyaratannya; perizinan praktik"
+      },
+      {
+        "pasal": "Pasal 679",
+        "alasan": "perubahan data STR saat berubah kualifikasi atau beralih profesi; administrasi perizinan"
+      },
+      {
+        "pasal": "Pasal 680",
+        "alasan": "delegasi persyaratan dan tata cara penerbitan STR kepada Peraturan Menteri"
+      },
+      {
+        "pasal": "Pasal 681",
+        "alasan": "kewajiban SIP dan penerbitannya oleh Pemerintah Daerah; perizinan praktik"
+      },
+      {
+        "pasal": "Pasal 682",
+        "alasan": "pemberian dan jangka waktu SIP bagi WNI dan WNA; perizinan praktik"
+      },
+      {
+        "pasal": "Pasal 683",
+        "alasan": "pemenuhan satuan kredit profesi untuk perpanjangan SIP; administrasi profesi"
+      },
+      {
+        "pasal": "Pasal 684",
+        "alasan": "kewenangan Menteri menerbitkan SIP dalam kondisi tertentu; perizinan praktik"
+      },
+      {
+        "pasal": "Pasal 685",
+        "alasan": "pengecualian SIP berdasarkan penugasan Menteri; perizinan praktik"
+      },
+      {
+        "pasal": "Pasal 686",
+        "alasan": "kuota SIP dan pertimbangan perencanaan kebutuhan; perizinan praktik"
+      },
+      {
+        "pasal": "Pasal 687",
+        "alasan": "delegasi pengaturan penerbitan SIP kepada Peraturan Menteri"
+      },
+      {
+        "pasal": "Pasal 688",
+        "alasan": "monitoring dan evaluasi registrasi tenaga medis/kesehatan; kelembagaan"
+      },
+      {
+        "pasal": "Pasal 689",
+        "alasan": "surat tugas dokter spesialis untuk praktik di fasilitas tertentu; perizinan praktik"
+      },
+      {
+        "pasal": "Pasal 690",
+        "alasan": "penerbitan dan jangka waktu surat tugas; perizinan praktik"
+      },
+      {
+        "pasal": "Pasal 69l",
+        "alasan": "surat tugas dokter subspesialis berdasarkan usulan dinas kesehatan (label OCR untuk Pasal 691); perizinan praktik"
+      },
+      {
+        "pasal": "Pasal 692",
+        "alasan": "kedudukan hukum surat tugas setara SIP; perizinan praktik"
+      },
+      {
+        "pasal": "Pasal 693",
+        "alasan": "delegasi tata cara pemberian surat tugas kepada Peraturan Menteri"
+      },
+      {
+        "pasal": "Pasal 694",
+        "alasan": "kedudukan dan sifat Konsil Kesehatan Indonesia; kelembagaan"
+      },
+      {
+        "pasal": "Pasal 695",
+        "alasan": "peran, tugas, fungsi, dan wewenang Konsil Kesehatan Indonesia; kelembagaan"
+      },
+      {
+        "pasal": "Pasal 696",
+        "alasan": "koordinasi Konsil dengan Menteri; kelembagaan"
+      },
+      {
+        "pasal": "Pasal 697",
+        "alasan": "susunan organisasi Konsil Kesehatan Indonesia; kelembagaan"
+      },
+      {
+        "pasal": "Pasal 698",
+        "alasan": "dukungan Kolegium kepada Konsil; kelembagaan"
+      },
+      {
+        "pasal": "Pasal 699",
+        "alasan": "dukungan majelis dalam penegakan disiplin profesi; kelembagaan"
+      },
+      {
+        "pasal": "Pasal 700",
+        "alasan": "pengangkatan, pemberhentian, dan masa bakti pimpinan Konsil; kelembagaan"
+      },
+      {
+        "pasal": "Pasal 701",
+        "alasan": "persyaratan keanggotaan Konsil Kesehatan Indonesia; kelembagaan"
+      },
+      {
+        "pasal": "Pasal 705",
+        "alasan": "peran, tugas, fungsi, dan wewenang Kolegium; kelembagaan"
+      },
+      {
+        "pasal": "Pasal 706",
+        "alasan": "koordinasi Kolegium dengan pihak terkait; kelembagaan"
+      },
+      {
+        "pasal": "Pasal 707",
+        "alasan": "koordinasi Kolegium dengan Menteri; kelembagaan"
+      },
+      {
+        "pasal": "Pasal 708",
+        "alasan": "pembentukan dan keanggotaan Kolegium Kesehatan Indonesia; kelembagaan"
+      },
+      {
+        "pasal": "Pasal 709",
+        "alasan": "persyaratan anggota Kolegium Kesehatan Indonesia; kelembagaan"
+      },
+      {
+        "pasal": "Pasal 710",
+        "alasan": "seleksi, pengangkatan, dan masa bakti anggota Kolegium Kesehatan Indonesia; kelembagaan"
+      },
+      {
+        "pasal": "Pasal 712",
+        "alasan": "pembentukan dan pertanggungjawaban Majelis Disiplin Profesi; kelembagaan"
+      },
+      {
+        "pasal": "Pasal 713",
+        "alasan": "tugas dan fungsi Majelis Disiplin Profesi; kelembagaan penegakan disiplin"
+      },
+      {
+        "pasal": "Pasal 714",
+        "alasan": "keanggotaan dan masa jabatan Majelis Disiplin Profesi; kelembagaan"
+      },
+      {
+        "pasal": "Pasal 715",
+        "alasan": "persyaratan anggota Majelis Disiplin Profesi; kelembagaan"
+      },
+      {
+        "pasal": "Pasal 716",
+        "alasan": "seleksi dan penetapan anggota Majelis Disiplin Profesi; kelembagaan"
+      },
+      {
+        "pasal": "Pasal 718",
+        "alasan": "delegasi pengaturan seleksi dan tata kerja Majelis kepada Peraturan Menteri"
+      },
+      {
+        "pasal": "Pasal 719",
+        "alasan": "sekretariat bersama Konsil, Kolegium, dan Majelis; kelembagaan"
+      },
+      {
+        "pasal": "Pasal 720",
+        "alasan": "hak keuangan dan pendanaan Konsil serta sekretariat; kelembagaan"
+      },
+      {
+        "pasal": "Pasal 721",
+        "alasan": "enumerasi hak tenaga medis/kesehatan; akibat rinci diatur pada Pasal 725, 728, dan 730"
+      },
+      {
+        "pasal": "Pasal 722",
+        "alasan": "tujuan pelindungan hukum bagi tenaga medis/kesehatan; asas, bukan norma mandiri"
+      },
+      {
+        "pasal": "Pasal 723",
+        "alasan": "bentuk pelindungan hukum oleh pemerintah dan pimpinan fasyankes; kewajiban kelembagaan"
+      },
+      {
+        "pasal": "Pasal 726",
+        "alasan": "faktor pertimbangan besaran gaji/upah, imbalan jasa, dan tunjangan kinerja; tanpa besaran yang dapat dihitung"
+      },
+      {
+        "pasal": "Pasal 727",
+        "alasan": "delegasi pedoman penghitungan gaji/upah, imbalan jasa, dan tunjangan kinerja kepada Peraturan Menteri"
+      },
+      {
+        "pasal": "Pasal 729",
+        "alasan": "pelindungan keamanan dan keselamatan tenaga medis/kesehatan di daerah rawan konflik; kewajiban negara"
+      },
+      {
+        "pasal": "Pasal 733",
+        "alasan": "pengembangan kompetensi dan karier tenaga medis/kesehatan (kepegawaian profesi), di luar kelas T-Box"
+      },
+      {
+        "pasal": "Pasal 734",
+        "alasan": "hak menolak permintaan pasien yang bertentangan dengan standar profesi; etika profesi kedokteran"
+      },
+      {
+        "pasal": "Pasal 735",
+        "alasan": "kewajiban tenaga medis/kesehatan dalam menjalankan praktik pelayanan kesehatan"
+      },
+      {
+        "pasal": "Pasal 736",
+        "alasan": "sanksi administratif atas pelanggaran kewajiban praktik"
+      },
+      {
+        "pasal": "Pasal 737",
+        "alasan": "hak pasien atas informasi dan pelayanan kesehatan"
+      },
+      {
+        "pasal": "Pasal 738",
+        "alasan": "kewajiban pasien"
+      },
+      {
+        "pasal": "Pasal 739",
+        "alasan": "penyelenggaraan praktik dan tanggung jawab moral profesi"
+      },
+      {
+        "pasal": "Pasal 740",
+        "alasan": "kewajiban informasi identitas praktik dan sanksi administratif"
+      },
+      {
+        "pasal": "Pasal 741",
+        "alasan": "kewajiban pasien"
+      },
+      {
+        "pasal": "Pasal 742",
+        "alasan": "kewenangan praktik berdasarkan kompetensi dan STR"
+      },
+      {
+        "pasal": "Pasal 743",
+        "alasan": "kewenangan klinis tenaga medis/kesehatan melalui kredensial; kewenangan profesi"
+      },
+      {
+        "pasal": "Pasal 745",
+        "alasan": "pelimpahan kewenangan secara mandat dan delegatif dalam pelayanan"
+      },
+      {
+        "pasal": "Pasal 746",
+        "alasan": "delegasi pengaturan penyelenggaraan praktik kepada Peraturan Menteri"
+      },
+      {
+        "pasal": "Pasal 747",
+        "alasan": "pengenaan sanksi administratif oleh pemerintah"
+      },
+      {
+        "pasal": "Pasal 748",
+        "alasan": "sanksi administratif berupa teguran lisan dan kewajiban perbaikan"
+      },
+      {
+        "pasal": "Pasal 749",
+        "alasan": "sanksi administratif berupa peringatan tertulis"
+      },
+      {
+        "pasal": "Pasal 750",
+        "alasan": "sanksi administratif berupa denda administratif"
+      },
+      {
+        "pasal": "Pasal 751",
+        "alasan": "sanksi administratif berupa pencabutan izin"
+      },
+      {
+        "pasal": "Pasal 752",
+        "alasan": "sanksi administratif berupa denda bagi tenaga medis/kesehatan"
+      },
+      {
+        "pasal": "Pasal 753",
+        "alasan": "tata cara denda mengacu Pasal 750; sanksi administratif"
+      },
+      {
+        "pasal": "Pasal 754",
+        "alasan": "pengumuman daftar pelanggar administratif; sanksi administratif"
+      },
+      {
+        "pasal": "Pasal 755",
+        "alasan": "klasifikasi tenaga pendukung atau penunjang kesehatan"
+      },
+      {
+        "pasal": "Pasal 756",
+        "alasan": "pencatatan tenaga pendukung/penunjang kesehatan; administrasi kepegawaian"
+      },
+      {
+        "pasal": "Pasal 757",
+        "alasan": "perencanaan kebutuhan tenaga pendukung/penunjang kesehatan"
+      },
+      {
+        "pasal": "Pasal 758",
+        "alasan": "tanggung jawab pemerintah daerah atas perencanaan dan kesejahteraan tenaga pendukung; tugas kelembagaan"
+      },
+      {
+        "pasal": "Pasal 760",
+        "alasan": "delegasi pengaturan kepada Peraturan Menteri"
+      },
+      {
+        "pasal": "Pasal 761",
+        "alasan": "jenis fasilitas pelayanan kesehatan"
+      },
+      {
+        "pasal": "Pasal 762",
+        "alasan": "fasilitas pelayanan kesehatan tingkat pertama dan integrasi pelayanan"
+      },
+      {
+        "pasal": "Pasal 763",
+        "alasan": "fasilitas pelayanan kesehatan tingkat lanjut"
+      },
+      {
+        "pasal": "Pasal 765",
+        "alasan": "bentuk fasilitas pelayanan kesehatan statis dan bergerak"
+      },
+      {
+        "pasal": "Pasal 766",
+        "alasan": "tanggung jawab dan perencanaan kebutuhan fasilitas pelayanan kesehatan"
+      },
+      {
+        "pasal": "Pasal 767",
+        "alasan": "pengecualian pertimbangan kebutuhan fasyankes di daerah terpencil"
+      },
+      {
+        "pasal": "Pasal 768",
+        "alasan": "kewajiban perizinan berusaha fasilitas pelayanan kesehatan"
+      },
+      {
+        "pasal": "Pasal 769",
+        "alasan": "pengecualian perizinan fasyankes praktik mandiri"
+      },
+      {
+        "pasal": "Pasal 770",
+        "alasan": "kewajiban tata kelola manajemen dan tata kelola klinis fasyankes"
+      },
+      {
+        "pasal": "Pasal 771",
+        "alasan": "kewajiban memiliki STR dan SIP; perizinan profesi"
+      },
+      {
+        "pasal": "Pasal 772",
+        "alasan": "kewajiban informasi tenaga praktik dan sanksi administratif"
+      },
+      {
+        "pasal": "Pasal 773",
+        "alasan": "kewajiban melaksanakan sistem rujukan"
+      },
+      {
+        "pasal": "Pasal 774",
+        "alasan": "pemanfaatan fasyankes sebagai tempat pendidikan dan penelitian"
+      },
+      {
+        "pasal": "Pasal 775",
+        "alasan": "delegasi pengaturan teknis kepada Peraturan Menteri"
+      },
+      {
+        "pasal": "Pasal 776",
+        "alasan": "penyelenggaraan fasyankes di kawasan ekonomi khusus; rujukan perundang-undangan"
+      },
+      {
+        "pasal": "Pasal 777",
+        "alasan": "kewajiban menyelenggarakan rekam medis"
+      },
+      {
+        "pasal": "Pasal 778",
+        "alasan": "kewajiban membuat dan menyimpan rekam medis"
+      },
+      {
+        "pasal": "Pasal 779",
+        "alasan": "penyelenggaraan rekam medis elektronik"
+      },
+      {
+        "pasal": "Pasal 780",
+        "alasan": "kewajiban fasyankes dalam penyelenggaraan rekam medis"
+      },
+      {
+        "pasal": "Pasal 781",
+        "alasan": "integrasi rekam medis elektronik dengan Sistem Informasi Kesehatan Nasional"
+      },
+      {
+        "pasal": "Pasal 782",
+        "alasan": "tata cara pengisian rekam medis"
+      },
+      {
+        "pasal": "Pasal 783",
+        "alasan": "pembukaan isi rekam medis dan persetujuan pasien"
+      },
+      {
+        "pasal": "Pasal 784",
+        "alasan": "kepemilikan dan keamanan dokumen rekam medis"
+      },
+      {
+        "pasal": "Pasal 785",
+        "alasan": "kewajiban menjaga kerahasiaan isi rekam medis"
+      },
+      {
+        "pasal": "Pasal 786",
+        "alasan": "tanggung jawab pemerintah menyediakan sistem rekam medis elektronik"
+      },
+      {
+        "pasal": "Pasal 788",
+        "alasan": "kewajiban menyimpan rahasia kesehatan pribadi pasien"
+      },
+      {
+        "pasal": "Pasal 789",
+        "alasan": "pihak yang wajib menyimpan rahasia kesehatan pribadi pasien"
+      },
+      {
+        "pasal": "Pasal 790",
+        "alasan": "tata cara pembukaan rahasia kesehatan pribadi pasien"
+      },
+      {
+        "pasal": "Pasal 791",
+        "alasan": "sistem manajemen keamanan informasi data kesehatan"
+      },
+      {
+        "pasal": "Pasal 792",
+        "alasan": "penanggulangan insiden keamanan siber pada fasyankes"
+      },
+      {
+        "pasal": "Pasal 793",
+        "alasan": "tugas dan fungsi Puskesmas; kelembagaan"
+      },
+      {
+        "pasal": "Pasal 795",
+        "alasan": "koordinasi Puskesmas dengan struktur jejaring; tugas kelembagaan"
+      },
+      {
+        "pasal": "Pasal 796",
+        "alasan": "struktur jejaring berbasis wilayah administratif"
+      },
+      {
+        "pasal": "Pasal 797",
+        "alasan": "unit pelayanan kesehatan tingkat desa/kelurahan"
+      },
+      {
+        "pasal": "Pasal 798",
+        "alasan": "struktur jejaring berbasis satuan pendidikan"
+      },
+      {
+        "pasal": "Pasal 800",
+        "alasan": "struktur jejaring sistem rujukan dan koordinasi Puskesmas"
+      },
+      {
+        "pasal": "Pasal 802",
+        "alasan": "kewajiban pencatatan, pelaporan, dan pertemuan koordinasi jejaring"
+      },
+      {
+        "pasal": "Pasal 803",
+        "alasan": "pendirian Puskesmas dan persyaratannya; kelembagaan"
+      },
+      {
+        "pasal": "Pasal 804",
+        "alasan": "dukungan sistem informasi kesehatan Puskesmas"
+      },
+      {
+        "pasal": "Pasal 805",
+        "alasan": "pemanfaatan telekesehatan dan telemedisin oleh Puskesmas"
+      },
+      {
+        "pasal": "Pasal 806",
+        "alasan": "pengangkatan dan pemberhentian pimpinan Puskesmas oleh bupati/wali kota; jabatan"
+      },
+      {
+        "pasal": "Pasal 807",
+        "alasan": "delegasi pengaturan teknis kepada Peraturan Menteri"
+      },
+      {
+        "pasal": "Pasal 808",
+        "alasan": "tujuan penyelenggaraan rumah sakit"
+      },
+      {
+        "pasal": "Pasal 809",
+        "alasan": "fungsi rumah sakit"
+      },
+      {
+        "pasal": "Pasal 810",
+        "alasan": "fungsi pendidikan dan penelitian rumah sakit"
+      },
+      {
+        "pasal": "Pasal 812",
+        "alasan": "persyaratan lokasi, sarana prasarana, peralatan, dan SDM rumah sakit"
+      },
+      {
+        "pasal": "Pasal 813",
+        "alasan": "persyaratan lokasi dan kesehatan lingkungan rumah sakit"
+      },
+      {
+        "pasal": "Pasal 814",
+        "alasan": "persyaratan teknis sarana dan prasarana rumah sakit"
+      },
+      {
+        "pasal": "Pasal 815",
+        "alasan": "persyaratan peralatan kesehatan dan kalibrasi"
+      },
+      {
+        "pasal": "Pasal 816",
+        "alasan": "komposisi dan pengangkatan sumber daya manusia kesehatan rumah sakit; kepegawaian"
+      },
+      {
+        "pasal": "Pasal 817",
+        "alasan": "bentuk badan hukum penyelenggara rumah sakit"
+      },
+      {
+        "pasal": "Pasal 818",
+        "alasan": "pengelolaan pendapatan rumah sakit"
+      },
+      {
+        "pasal": "Pasal 819",
+        "alasan": "lingkup pelayanan rumah sakit"
+      },
+      {
+        "pasal": "Pasal 820",
+        "alasan": "klasifikasi rumah sakit berdasarkan kemampuan pelayanan"
+      },
+      {
+        "pasal": "Pasal 821",
+        "alasan": "daftar pelayanan minimal rumah sakit; jenis pelayanan"
+      },
+      {
+        "pasal": "Pasal 822",
+        "alasan": "kewajiban tata kelola rumah sakit dan tata kelola klinis"
+      },
+      {
+        "pasal": "Pasal 823",
+        "alasan": "delegasi pedoman penyelenggaraan rumah sakit kepada Peraturan Menteri"
+      },
+      {
+        "pasal": "Pasal 824",
+        "alasan": "kewajiban perizinan berusaha rumah sakit"
+      },
+      {
+        "pasal": "Pasal 825",
+        "alasan": "kewajiban organisasi rumah sakit yang efektif dan akuntabel"
+      },
+      {
+        "pasal": "Pasal 826",
+        "alasan": "unsur organisasi rumah sakit"
+      },
+      {
+        "pasal": "Pasal 827",
+        "alasan": "syarat unsur pimpinan dan larangan pemilik merangkap pimpinan"
+      },
+      {
+        "pasal": "Pasal 828",
+        "alasan": "pembentukan direktorat, departemen, dan unit kerja rumah sakit"
+      },
+      {
+        "pasal": "Pasal 829",
+        "alasan": "kewarganegaraan pimpinan bidang pelayanan dan SDM; persyaratan jabatan"
+      },
+      {
+        "pasal": "Pasal 830",
+        "alasan": "delegasi pedoman organisasi kepada Peraturan Menteri"
+      },
+      {
+        "pasal": "Pasal 831",
+        "alasan": "dewan pengawas rumah sakit; kelembagaan"
+      },
+      {
+        "pasal": "Pasal 832",
+        "alasan": "delegasi pengaturan dewan pengawas kepada Peraturan Menteri"
+      },
+      {
+        "pasal": "Pasal 833",
+        "alasan": "kewajiban rumah sakit; kewajiban kelembagaan fasyankes"
+      },
+      {
+        "pasal": "Pasal 834",
+        "alasan": "kewajiban memberikan informasi pelayanan rumah sakit"
+      },
+      {
+        "pasal": "Pasal 835",
+        "alasan": "pelayanan aman, bermutu, dan antidiskriminatif; standar pelayanan"
+      },
+      {
+        "pasal": "Pasal 836",
+        "alasan": "pelayanan gawat darurat dan larangan menolak pasien"
+      },
+      {
+        "pasal": "Pasal 837",
+        "alasan": "peran rumah sakit dalam penanggulangan bencana"
+      },
+      {
+        "pasal": "Pasal 838",
+        "alasan": "kewajiban menyediakan sarana bagi masyarakat miskin; fungsi sosial"
+      },
+      {
+        "pasal": "Pasal 839",
+        "alasan": "kewajiban standar mutu pelayanan rumah sakit"
+      },
+      {
+        "pasal": "Pasal 840",
+        "alasan": "kewajiban penyelenggaraan rekam medis"
+      },
+      {
+        "pasal": "Pasal 841",
+        "alasan": "persyaratan teknis sarana dan prasarana umum rumah sakit"
+      },
+      {
+        "pasal": "Pasal 842",
+        "alasan": "kewajiban melaksanakan sistem rujukan"
+      },
+      {
+        "pasal": "Pasal 843",
+        "alasan": "tata cara menolak keinginan pasien yang bertentangan dengan standar profesi"
+      },
+      {
+        "pasal": "Pasal 844",
+        "alasan": "kewajiban informasi hak dan kewajiban pasien"
+      },
+      {
+        "pasal": "Pasal 845",
+        "alasan": "kewajiban menghormati dan melindungi hak pasien"
+      },
+      {
+        "pasal": "Pasal 846",
+        "alasan": "kewajiban melaksanakan etika rumah sakit"
+      },
+      {
+        "pasal": "Pasal 848",
+        "alasan": "kewajiban rumah sakit melaksanakan program pemerintah bidang kesehatan"
+      },
+      {
+        "pasal": "Pasal 849",
+        "alasan": "kewajiban menyusun daftar tenaga medis dan tenaga kesehatan"
+      },
+      {
+        "pasal": "Pasal 850",
+        "alasan": "peraturan internal rumah sakit; tata kelola internal"
+      },
+      {
+        "pasal": "Pasal 851",
+        "alasan": "kewajiban rumah sakit melindungi dan memberi bantuan hukum bagi petugas; kewajiban kelembagaan"
+      },
+      {
+        "pasal": "Pasal 852",
+        "alasan": "kewajiban memberlakukan kawasan tanpa rokok"
+      },
+      {
+        "pasal": "Pasal 853",
+        "alasan": "sanksi administratif atas pelanggaran kewajiban rumah sakit"
+      },
+      {
+        "pasal": "Pasal 854",
+        "alasan": "kewajiban pencatatan dan pelaporan rumah sakit; administrasi"
+      },
+      {
+        "pasal": "Pasal 855",
+        "alasan": "kewajiban penyimpanan dan pemusnahan berkas pencatatan"
+      },
+      {
+        "pasal": "Pasal 856",
+        "alasan": "pembinaan, pengawasan, dan sanksi administratif"
+      },
+      {
+        "pasal": "Pasal 857",
+        "alasan": "dasar laporan dugaan pelanggaran untuk pengenaan sanksi"
+      },
+      {
+        "pasal": "Pasal 858",
+        "alasan": "tata cara pengaduan dugaan pelanggaran rumah sakit"
+      },
+      {
+        "pasal": "Pasal 859",
+        "alasan": "pemberitaan media sebagai dasar laporan"
+      },
+      {
+        "pasal": "Pasal 860",
+        "alasan": "monitoring dan evaluasi oleh pemerintah"
+      },
+      {
+        "pasal": "Pasal 861",
+        "alasan": "pemeriksaan tindak lanjut laporan"
+      },
+      {
+        "pasal": "Pasal 862",
+        "alasan": "delegasi tata cara sanksi kepada Peraturan Menteri"
+      },
+      {
+        "pasal": "Pasal 863",
+        "alasan": "kedudukan dan jenis rumah sakit pendidikan; kelembagaan"
+      },
+      {
+        "pasal": "Pasal 864",
+        "alasan": "tujuan penyelenggaraan rumah sakit pendidikan"
+      },
+      {
+        "pasal": "Pasal 865",
+        "alasan": "kewajiban pelindungan dan kepastian hukum di rumah sakit pendidikan"
+      },
+      {
+        "pasal": "Pasal 866",
+        "alasan": "penetapan dan persyaratan rumah sakit pendidikan"
+      },
+      {
+        "pasal": "Pasal 867",
+        "alasan": "kewajiban rumah sakit pendidikan pada fungsi pendidikan, penelitian, dan pelayanan"
+      },
+      {
+        "pasal": "Pasal 868",
+        "alasan": "kerja sama rumah sakit pendidikan dengan pihak lain"
+      },
+      {
+        "pasal": "Pasal 869",
+        "alasan": "jenis rumah sakit pendidikan utama dan satelit"
+      },
+      {
+        "pasal": "Pasal 870",
+        "alasan": "penerimaan mahasiswa dan perjanjian kerja sama rumah sakit pendidikan"
+      },
+      {
+        "pasal": "Pasal 871",
+        "alasan": "kewajiban rumah sakit pendidikan; imbalan jasa bagi peserta didik, bukan upah pekerja"
+      },
+      {
+        "pasal": "Pasal 872",
+        "alasan": "pendanaan penyelenggaraan rumah sakit pendidikan"
+      },
+      {
+        "pasal": "Pasal 873",
+        "alasan": "penetapan dan persyaratan RSPPU"
+      },
+      {
+        "pasal": "Pasal 874",
+        "alasan": "izin penyelenggaraan pendidikan program spesialis/subspesialis"
+      },
+      {
+        "pasal": "Pasal 875",
+        "alasan": "unit fungsional koordinasi pembelajaran klinik; kelembagaan"
+      },
+      {
+        "pasal": "Pasal 876",
+        "alasan": "delegasi pengaturan rumah sakit pendidikan kepada Peraturan Menteri"
+      },
+      {
+        "pasal": "Pasal 877",
+        "alasan": "kompetensi manajemen pimpinan fasyankes; persyaratan jabatan"
+      },
+      {
+        "pasal": "Pasal 878",
+        "alasan": "penyesuaian kompetensi manajemen dengan jenis fasyankes"
+      },
+      {
+        "pasal": "Pasal 879",
+        "alasan": "jenis kompetensi manajerial dan teknis pimpinan fasyankes"
+      },
+      {
+        "pasal": "Pasal 880",
+        "alasan": "unsur kompetensi manajerial pimpinan fasyankes"
+      },
+      {
+        "pasal": "Pasal 881",
+        "alasan": "unsur kompetensi teknis pimpinan fasyankes"
+      },
+      {
+        "pasal": "Pasal 882",
+        "alasan": "delegasi pengaturan kompetensi kepada Peraturan Menteri"
+      },
+      {
+        "pasal": "Pasal 883",
+        "alasan": "pengertian peningkatan mutu pelayanan kesehatan"
+      },
+      {
+        "pasal": "Pasal 884",
+        "alasan": "tujuan peningkatan mutu pelayanan kesehatan"
+      },
+      {
+        "pasal": "Pasal 885",
+        "alasan": "kewajiban fasyankes meningkatkan mutu pelayanan secara internal dan eksternal"
+      },
+      {
+        "pasal": "Pasal 886",
+        "alasan": "indikator mutu nasional dan indikator mutu fasyankes"
+      },
+      {
+        "pasal": "Pasal 887",
+        "alasan": "pengukuran dan pelaporan indikator mutu"
+      },
+      {
+        "pasal": "Pasal 888",
+        "alasan": "jenis dan pengertian insiden keselamatan pasien"
+      },
+      {
+        "pasal": "Pasal 889",
+        "alasan": "kewajiban pelaporan insiden keselamatan pasien"
+      },
+      {
+        "pasal": "Pasal 890",
+        "alasan": "pengelolaan dan investigasi insiden keselamatan pasien"
+      },
+      {
+        "pasal": "Pasal 891",
+        "alasan": "manajemen risiko klinis dan nonklinis di fasyankes"
+      },
+      {
+        "pasal": "Pasal 892",
+        "alasan": "delegasi pengaturan mutu dan manajemen risiko kepada Peraturan Menteri"
+      },
+      {
+        "pasal": "Pasal 893",
+        "alasan": "registrasi fasyankes"
+      },
+      {
+        "pasal": "Pasal 894",
+        "alasan": "lisensi fasyankes; perizinan"
+      },
+      {
+        "pasal": "Pasal 895",
+        "alasan": "akreditasi fasyankes"
+      },
+      {
+        "pasal": "Pasal 896",
+        "alasan": "tanggung jawab pemerintah atas mutu dan keselamatan pasien"
+      },
+      {
+        "pasal": "Pasal 897",
+        "alasan": "sanksi administratif atas kegagalan peningkatan mutu"
+      },
+      {
+        "pasal": "Pasal 898",
+        "alasan": "pengembangan fasyankes melalui jejaring, kerja sama, pusat unggulan, dan pelayanan terpadu"
+      },
+      {
+        "pasal": "Pasal 899",
+        "alasan": "jejaring pengampuan pelayanan kesehatan; kelembagaan"
+      },
+      {
+        "pasal": "Pasal 900",
+        "alasan": "dukungan pemerintah untuk jejaring pengampuan"
+      },
+      {
+        "pasal": "Pasal 901",
+        "alasan": "kerja sama dua atau lebih fasyankes"
+      },
+      {
+        "pasal": "Pasal 902",
+        "alasan": "lingkup dan bentuk kerja sama fasyankes"
+      },
+      {
+        "pasal": "Pasal 903",
+        "alasan": "pusat unggulan dan persyaratannya; kelembagaan"
+      },
+      {
+        "pasal": "Pasal 904",
+        "alasan": "pelayanan kesehatan terpadu"
+      },
+      {
+        "pasal": "Pasal 905",
+        "alasan": "tujuan pengelolaan perbekalan kesehatan"
+      },
+      {
+        "pasal": "Pasal 906",
+        "alasan": "tanggung jawab pemerintah atas pengelolaan perbekalan kesehatan"
+      },
+      {
+        "pasal": "Pasal 907",
+        "alasan": "perencanaan perbekalan kesehatan"
+      },
+      {
+        "pasal": "Pasal 908",
+        "alasan": "pemilihan sediaan farmasi, alat kesehatan, dan perbekalan lain"
+      },
+      {
+        "pasal": "Pasal 909",
+        "alasan": "penyediaan dan penyimpanan perbekalan kesehatan"
+      },
+      {
+        "pasal": "Pasal 910",
+        "alasan": "pendistribusian perbekalan kesehatan"
+      },
+      {
+        "pasal": "Pasal 912",
+        "alasan": "pengendalian ketersediaan dan stok penyangga perbekalan"
+      },
+      {
+        "pasal": "Pasal 913",
+        "alasan": "pengaturan dan pengendalian harga perbekalan kesehatan"
+      },
+      {
+        "pasal": "Pasal 914",
+        "alasan": "penetapan prioritas dan insentif perbekalan kesehatan"
+      },
+      {
+        "pasal": "Pasal 915",
+        "alasan": "delegasi pengaturan perbekalan kepada Peraturan Menteri"
+      },
+      {
+        "pasal": "Pasal 916",
+        "alasan": "pengertian penggolongan obat"
+      },
+      {
+        "pasal": "Pasal 917",
+        "alasan": "penggolongan obat dengan resep dan tanpa resep"
+      },
+      {
+        "pasal": "Pasal 918",
+        "alasan": "pengertian obat keras, narkotika, dan psikotropika"
+      },
+      {
+        "pasal": "Pasal 919",
+        "alasan": "pengertian obat bebas dan obat bebas terbatas"
+      },
+      {
+        "pasal": "Pasal 920",
+        "alasan": "kriteria penggolongan dan tanda khusus pada kemasan obat"
+      },
+      {
+        "pasal": "Pasal 922",
+        "alasan": "penyerahan obat keras, narkotika, dan psikotropika berdasarkan resep"
+      },
+      {
+        "pasal": "Pasal 923",
+        "alasan": "swamedikasi dan penyerahan obat bebas"
+      },
+      {
+        "pasal": "Pasal 924",
+        "alasan": "pelayanan obat dengan resep elektronik; ketentuan farmasi"
+      },
+      {
+        "pasal": "Pasal 925",
+        "alasan": "pengertian penggolongan obat bahan alam"
+      },
+      {
+        "pasal": "Pasal 926",
+        "alasan": "golongan obat bahan alam (jamu, OHT, fitofarmaka)"
+      },
+      {
+        "pasal": "Pasal 927",
+        "alasan": "pengertian jamu, obat herbal terstandar, dan fitofarmaka"
+      },
+      {
+        "pasal": "Pasal 928",
+        "alasan": "penetapan dan perubahan penggolongan obat bahan alam"
+      },
+      {
+        "pasal": "Pasal 929",
+        "alasan": "penggunaan obat bahan alam dan formularium"
+      },
+      {
+        "pasal": "Pasal 930",
+        "alasan": "perolehan dan penyerahan obat bahan alam"
+      },
+      {
+        "pasal": "Pasal 931",
+        "alasan": "tujuan percepatan pengembangan industri sediaan farmasi dan alkes"
+      },
+      {
+        "pasal": "Pasal 932",
+        "alasan": "arah penelitian dan pengembangan sediaan farmasi dan alkes"
+      },
+      {
+        "pasal": "Pasal 933",
+        "alasan": "penelitian dan pengembangan obat bahan alam"
+      },
+      {
+        "pasal": "Pasal 934",
+        "alasan": "fasilitasi pemerintah atas pengujian obat bahan alam"
+      },
+      {
+        "pasal": "Pasal 935",
+        "alasan": "pemanfaatan sumber daya alam untuk obat bahan alam"
+      },
+      {
+        "pasal": "Pasal 936",
+        "alasan": "rencana produksi industri sediaan farmasi dan alkes"
+      },
+      {
+        "pasal": "Pasal 937",
+        "alasan": "pengutamaan penggunaan produk dalam negeri"
+      },
+      {
+        "pasal": "Pasal 938",
+        "alasan": "pengendalian impor-ekspor dan tata kelola rantai pasok"
+      },
+      {
+        "pasal": "Pasal 939",
+        "alasan": "insentif industri farmasi; kriteria penyerapan tenaga kerja bukan norma ketenagakerjaan"
+      },
+      {
+        "pasal": "Pasal 940",
+        "alasan": "fasilitasi alih teknologi industri sediaan farmasi dan alkes"
+      },
+      {
+        "pasal": "Pasal 941",
+        "alasan": "di luar domain ketenagakerjaan: pengembangan industri farmasi/alat kesehatan dan tata kelola pada kondisi darurat"
+      },
+      {
+        "pasal": "Pasal 942",
+        "alasan": "di luar domain ketenagakerjaan: pengembangan industri farmasi/alat kesehatan dan tata kelola pada kondisi darurat"
+      },
+      {
+        "pasal": "Pasal 943",
+        "alasan": "di luar domain ketenagakerjaan: pengembangan industri farmasi/alat kesehatan dan tata kelola pada kondisi darurat"
+      },
+      {
+        "pasal": "Pasal 944",
+        "alasan": "di luar domain ketenagakerjaan: pengembangan industri farmasi/alat kesehatan dan tata kelola pada kondisi darurat"
+      },
+      {
+        "pasal": "Pasal 945",
+        "alasan": "di luar domain ketenagakerjaan: penyelenggaraan dan tata kelola Sistem Informasi Kesehatan"
+      },
+      {
+        "pasal": "Pasal 946",
+        "alasan": "di luar domain ketenagakerjaan: penyelenggaraan dan tata kelola Sistem Informasi Kesehatan"
+      },
+      {
+        "pasal": "Pasal 947",
+        "alasan": "di luar domain ketenagakerjaan: penyelenggaraan dan tata kelola Sistem Informasi Kesehatan"
+      },
+      {
+        "pasal": "Pasal 948",
+        "alasan": "di luar domain ketenagakerjaan: penyelenggaraan dan tata kelola Sistem Informasi Kesehatan"
+      },
+      {
+        "pasal": "Pasal 949",
+        "alasan": "di luar domain ketenagakerjaan: penyelenggaraan dan tata kelola Sistem Informasi Kesehatan"
+      },
+      {
+        "pasal": "Pasal 95O",
+        "alasan": "di luar domain ketenagakerjaan: penyelenggaraan dan tata kelola Sistem Informasi Kesehatan (label OCR 'Pasal 95O' untuk Pasal 950)"
+      },
+      {
+        "pasal": "Pasal 951",
+        "alasan": "di luar domain ketenagakerjaan: pengelolaan data, informasi, dan indikator kesehatan"
+      },
+      {
+        "pasal": "Pasal 952",
+        "alasan": "di luar domain ketenagakerjaan: pengelolaan data, informasi, dan indikator kesehatan"
+      },
+      {
+        "pasal": "Pasal 953",
+        "alasan": "di luar domain ketenagakerjaan: pengelolaan data, informasi, dan indikator kesehatan"
+      },
+      {
+        "pasal": "Pasal 954",
+        "alasan": "di luar domain ketenagakerjaan: pengelolaan data, informasi, dan indikator kesehatan"
+      },
+      {
+        "pasal": "Pasal 955",
+        "alasan": "di luar domain ketenagakerjaan: pengelolaan data, informasi, dan indikator kesehatan"
+      },
+      {
+        "pasal": "Pasal 956",
+        "alasan": "di luar domain ketenagakerjaan: pengelolaan data, informasi, dan indikator kesehatan"
+      },
+      {
+        "pasal": "Pasal 957",
+        "alasan": "di luar domain ketenagakerjaan: pengelolaan data, informasi, dan indikator kesehatan"
+      },
+      {
+        "pasal": "Pasal 958",
+        "alasan": "di luar domain ketenagakerjaan: sumber data dan kode referensi Sistem Informasi Kesehatan"
+      },
+      {
+        "pasal": "Pasal 959",
+        "alasan": "di luar domain ketenagakerjaan: sumber data dan kode referensi Sistem Informasi Kesehatan"
+      },
+      {
+        "pasal": "Pasal 960",
+        "alasan": "di luar domain ketenagakerjaan: sumber data dan kode referensi Sistem Informasi Kesehatan"
+      },
+      {
+        "pasal": "Pasal 961",
+        "alasan": "di luar domain ketenagakerjaan: pemrosesan dan pemeriksaan data kesehatan"
+      },
+      {
+        "pasal": "Pasal 962",
+        "alasan": "di luar domain ketenagakerjaan: pemrosesan dan pemeriksaan data kesehatan"
+      },
+      {
+        "pasal": "Pasal 963",
+        "alasan": "di luar domain ketenagakerjaan: pemrosesan dan pemeriksaan data kesehatan"
+      },
+      {
+        "pasal": "Pasal 964",
+        "alasan": "di luar domain ketenagakerjaan: pemrosesan dan pemeriksaan data kesehatan"
+      },
+      {
+        "pasal": "Pasal 965",
+        "alasan": "di luar domain ketenagakerjaan: pemrosesan dan pemeriksaan data kesehatan"
+      },
+      {
+        "pasal": "Pasal 966",
+        "alasan": "di luar domain ketenagakerjaan: pemrosesan dan pemeriksaan data kesehatan"
+      },
+      {
+        "pasal": "Pasal 967",
+        "alasan": "di luar domain ketenagakerjaan: pemrosesan dan pemeriksaan data kesehatan"
+      },
+      {
+        "pasal": "Pasal 968",
+        "alasan": "di luar domain ketenagakerjaan: pemrosesan dan pemeriksaan data kesehatan"
+      },
+      {
+        "pasal": "Pasal 969",
+        "alasan": "di luar domain ketenagakerjaan: pemrosesan dan pemeriksaan data kesehatan"
+      },
+      {
+        "pasal": "Pasal 970",
+        "alasan": "di luar domain ketenagakerjaan: transfer, pemanfaatan, dan pemusnahan data kesehatan"
+      },
+      {
+        "pasal": "Pasal 97l",
+        "alasan": "di luar domain ketenagakerjaan: transfer, pemanfaatan, dan pemusnahan data kesehatan (label OCR 'Pasal 97l' untuk Pasal 971)"
+      },
+      {
+        "pasal": "Pasal 971",
+        "alasan": "di luar domain ketenagakerjaan: transfer, pemanfaatan, dan pemusnahan data kesehatan"
+      },
+      {
+        "pasal": "Pasal 972",
+        "alasan": "di luar domain ketenagakerjaan: transfer, pemanfaatan, dan pemusnahan data kesehatan"
+      },
+      {
+        "pasal": "Pasal 973",
+        "alasan": "di luar domain ketenagakerjaan: transfer, pemanfaatan, dan pemusnahan data kesehatan"
+      },
+      {
+        "pasal": "Pasal 974",
+        "alasan": "di luar domain ketenagakerjaan: transfer, pemanfaatan, dan pemusnahan data kesehatan"
+      },
+      {
+        "pasal": "Pasal 975",
+        "alasan": "di luar domain ketenagakerjaan: pemusnahan dan pencatatan riwayat data kesehatan"
+      },
+      {
+        "pasal": "Pasal 976",
+        "alasan": "di luar domain ketenagakerjaan: pemusnahan dan pencatatan riwayat data kesehatan"
+      },
+      {
+        "pasal": "Pasal 977",
+        "alasan": "di luar domain ketenagakerjaan: pemusnahan dan pencatatan riwayat data kesehatan"
+      },
+      {
+        "pasal": "Pasal 978",
+        "alasan": "di luar domain ketenagakerjaan: sumber daya, layanan, dan keandalan Sistem Informasi Kesehatan"
+      },
+      {
+        "pasal": "Pasal 979",
+        "alasan": "di luar domain ketenagakerjaan: sumber daya, layanan, dan keandalan Sistem Informasi Kesehatan"
+      },
+      {
+        "pasal": "Pasal 980",
+        "alasan": "di luar domain ketenagakerjaan: sumber daya, layanan, dan keandalan Sistem Informasi Kesehatan"
+      },
+      {
+        "pasal": "Pasal 981",
+        "alasan": "di luar domain ketenagakerjaan: sumber daya, layanan, dan keandalan Sistem Informasi Kesehatan"
+      },
+      {
+        "pasal": "Pasal 982",
+        "alasan": "di luar domain ketenagakerjaan: sumber daya, layanan, dan keandalan Sistem Informasi Kesehatan"
+      },
+      {
+        "pasal": "Pasal 983",
+        "alasan": "di luar domain ketenagakerjaan: sumber daya, layanan, dan keandalan Sistem Informasi Kesehatan"
+      },
+      {
+        "pasal": "Pasal 984",
+        "alasan": "di luar domain ketenagakerjaan: sumber daya, layanan, dan keandalan Sistem Informasi Kesehatan"
+      },
+      {
+        "pasal": "Pasal 985",
+        "alasan": "di luar domain ketenagakerjaan: sumber daya, layanan, dan keandalan Sistem Informasi Kesehatan"
+      },
+      {
+        "pasal": "Pasal 986",
+        "alasan": "di luar domain ketenagakerjaan: sumber daya, layanan, dan keandalan Sistem Informasi Kesehatan"
+      },
+      {
+        "pasal": "Pasal 987",
+        "alasan": "di luar domain ketenagakerjaan: sumber daya, layanan, dan keandalan Sistem Informasi Kesehatan"
+      },
+      {
+        "pasal": "Pasal 988",
+        "alasan": "di luar domain ketenagakerjaan: pengendalian penyelenggara SIK dan delegasi pengaturan"
+      },
+      {
+        "pasal": "Pasal 989",
+        "alasan": "di luar domain ketenagakerjaan: pengendalian penyelenggara SIK dan delegasi pengaturan"
+      },
+      {
+        "pasal": "Pasal 990",
+        "alasan": "di luar domain ketenagakerjaan: pengendalian penyelenggara SIK dan delegasi pengaturan"
+      },
+      {
+        "pasal": "Pasal 992",
+        "alasan": "di luar domain ketenagakerjaan: penyelenggaraan teknologi kesehatan dan tahapan penelitian"
+      },
+      {
+        "pasal": "Pasal 993",
+        "alasan": "di luar domain ketenagakerjaan: penyelenggaraan teknologi kesehatan dan tahapan penelitian"
+      },
+      {
+        "pasal": "Pasal 994",
+        "alasan": "di luar domain ketenagakerjaan: penyelenggaraan teknologi kesehatan dan tahapan penelitian"
+      },
+      {
+        "pasal": "Pasal 995",
+        "alasan": "di luar domain ketenagakerjaan: perencanaan dan kemitraan penelitian teknologi kesehatan"
+      },
+      {
+        "pasal": "Pasal 996",
+        "alasan": "di luar domain ketenagakerjaan: perencanaan dan kemitraan penelitian teknologi kesehatan"
+      },
+      {
+        "pasal": "Pasal 997",
+        "alasan": "di luar domain ketenagakerjaan: perencanaan dan kemitraan penelitian teknologi kesehatan"
+      },
+      {
+        "pasal": "Pasal 998",
+        "alasan": "di luar domain ketenagakerjaan: etik penelitian kesehatan"
+      },
+      {
+        "pasal": "Pasal 999",
+        "alasan": "di luar domain ketenagakerjaan: etik penelitian kesehatan"
+      },
+      {
+        "pasal": "Pasal 1000",
+        "alasan": "di luar domain ketenagakerjaan: etik penelitian kesehatan"
+      },
+      {
+        "pasal": "Pasal 1001",
+        "alasan": "di luar domain ketenagakerjaan: persetujuan subjek, hewan coba, dan uji klinik"
+      },
+      {
+        "pasal": "Pasal 1003",
+        "alasan": "di luar domain ketenagakerjaan: persetujuan subjek, hewan coba, dan uji klinik"
+      },
+      {
+        "pasal": "Pasal 1005",
+        "alasan": "di luar domain ketenagakerjaan: persetujuan subjek, hewan coba, dan uji klinik"
+      },
+      {
+        "pasal": "Pasal 1006",
+        "alasan": "di luar domain ketenagakerjaan: persetujuan subjek, hewan coba, dan uji klinik"
+      },
+      {
+        "pasal": "Pasal 1008",
+        "alasan": "di luar domain ketenagakerjaan: persetujuan subjek, hewan coba, dan uji klinik"
+      },
+      {
+        "pasal": "Pasal 1009",
+        "alasan": "di luar domain ketenagakerjaan: persetujuan subjek, hewan coba, dan uji klinik"
+      },
+      {
+        "pasal": "Pasal 1010",
+        "alasan": "di luar domain ketenagakerjaan: persetujuan subjek, hewan coba, dan uji klinik"
+      },
+      {
+        "pasal": "Pasal 1011",
+        "alasan": "di luar domain ketenagakerjaan: persetujuan subjek, hewan coba, dan uji klinik"
+      },
+      {
+        "pasal": "Pasal 1013",
+        "alasan": "di luar domain ketenagakerjaan: pemantauan, inovasi, dan penilaian teknologi kesehatan"
+      },
+      {
+        "pasal": "Pasal 1014",
+        "alasan": "di luar domain ketenagakerjaan: pemantauan, inovasi, dan penilaian teknologi kesehatan"
+      },
+      {
+        "pasal": "Pasal 1015",
+        "alasan": "di luar domain ketenagakerjaan: pemantauan, inovasi, dan penilaian teknologi kesehatan"
+      },
+      {
+        "pasal": "Pasal 1016",
+        "alasan": "di luar domain ketenagakerjaan: pemantauan, inovasi, dan penilaian teknologi kesehatan"
+      },
+      {
+        "pasal": "Pasal 1018",
+        "alasan": "di luar domain ketenagakerjaan: pemantauan, inovasi, dan penilaian teknologi kesehatan"
+      },
+      {
+        "pasal": "Pasal 1019",
+        "alasan": "di luar domain ketenagakerjaan: penilaian dan pemanfaatan teknologi kesehatan/biomedis"
+      },
+      {
+        "pasal": "Pasal 1025",
+        "alasan": "di luar domain ketenagakerjaan: penilaian dan pemanfaatan teknologi kesehatan/biomedis"
+      },
+      {
+        "pasal": "Pasal 1026",
+        "alasan": "di luar domain ketenagakerjaan: penilaian dan pemanfaatan teknologi kesehatan/biomedis"
+      },
+      {
+        "pasal": "Pasal 1028",
+        "alasan": "di luar domain ketenagakerjaan: pengalihan material biologi dan pemeriksaan genetika"
+      },
+      {
+        "pasal": "Pasal 1030",
+        "alasan": "di luar domain ketenagakerjaan: pengalihan material biologi dan pemeriksaan genetika"
+      },
+      {
+        "pasal": "Pasal 1031",
+        "alasan": "di luar domain ketenagakerjaan: pengalihan material biologi dan pemeriksaan genetika"
+      },
+      {
+        "pasal": "Pasal 1033",
+        "alasan": "di luar domain ketenagakerjaan: pengalihan material biologi dan pemeriksaan genetika"
+      },
+      {
+        "pasal": "Pasal 1035",
+        "alasan": "di luar domain ketenagakerjaan: tata cara pengaduan diskriminasi genetika dan dukungan penelitian"
+      },
+      {
+        "pasal": "Pasal 1036",
+        "alasan": "di luar domain ketenagakerjaan: tata cara pengaduan diskriminasi genetika dan dukungan penelitian"
+      },
+      {
+        "pasal": "Pasal 1038",
+        "alasan": "di luar domain ketenagakerjaan: kewaspadaan dan penanggulangan KLB"
+      },
+      {
+        "pasal": "Pasal 1039",
+        "alasan": "di luar domain ketenagakerjaan: kewaspadaan dan penanggulangan KLB"
+      },
+      {
+        "pasal": "Pasal 1040",
+        "alasan": "di luar domain ketenagakerjaan: kewaspadaan dan penanggulangan KLB"
+      },
+      {
+        "pasal": "Pasal 1041",
+        "alasan": "di luar domain ketenagakerjaan: kewaspadaan dan penanggulangan KLB"
+      },
+      {
+        "pasal": "Pasal 1043",
+        "alasan": "di luar domain ketenagakerjaan: penetapan status dan penanggulangan KLB"
+      },
+      {
+        "pasal": "Pasal 1045",
+        "alasan": "di luar domain ketenagakerjaan: penetapan status dan penanggulangan KLB"
+      },
+      {
+        "pasal": "Pasal 1046",
+        "alasan": "di luar domain ketenagakerjaan: penetapan status dan penanggulangan KLB"
+      },
+      {
+        "pasal": "Pasal 1048",
+        "alasan": "di luar domain ketenagakerjaan: kegiatan pasca-KLB dan rencana kontingensi wabah"
+      },
+      {
+        "pasal": "Pasal 1050",
+        "alasan": "di luar domain ketenagakerjaan: kegiatan pasca-KLB dan rencana kontingensi wabah"
+      },
+      {
+        "pasal": "Pasal 1051",
+        "alasan": "di luar domain ketenagakerjaan: kegiatan pasca-KLB dan rencana kontingensi wabah"
+      },
+      {
+        "pasal": "Pasal 1053",
+        "alasan": "di luar domain ketenagakerjaan: pengawasan karantina kesehatan alat angkut"
+      },
+      {
+        "pasal": "Pasal 1054",
+        "alasan": "di luar domain ketenagakerjaan: pengawasan karantina kesehatan alat angkut"
+      },
+      {
+        "pasal": "Pasal 1055",
+        "alasan": "di luar domain ketenagakerjaan: pengawasan karantina kesehatan alat angkut"
+      },
+      {
+        "pasal": "Pasal 1056",
+        "alasan": "di luar domain ketenagakerjaan: pengawasan karantina kesehatan alat angkut"
+      },
+      {
+        "pasal": "Pasal 1057",
+        "alasan": "di luar domain ketenagakerjaan: pengawasan karantina kesehatan alat angkut"
+      },
+      {
+        "pasal": "Pasal 1058",
+        "alasan": "di luar domain ketenagakerjaan: pengawasan karantina kesehatan alat angkut"
+      },
+      {
+        "pasal": "Pasal 1059",
+        "alasan": "di luar domain ketenagakerjaan: pengawasan karantina kesehatan alat angkut"
+      },
+      {
+        "pasal": "Pasal 1060",
+        "alasan": "di luar domain ketenagakerjaan: pengawasan karantina kesehatan alat angkut"
+      },
+      {
+        "pasal": "Pasal 1061",
+        "alasan": "di luar domain ketenagakerjaan: pengawasan karantina kesehatan alat angkut"
+      },
+      {
+        "pasal": "Pasal 1062",
+        "alasan": "di luar domain ketenagakerjaan: pengawasan karantina kesehatan orang dan sertifikat vaksinasi"
+      },
+      {
+        "pasal": "Pasal 1063",
+        "alasan": "di luar domain ketenagakerjaan: pengawasan karantina kesehatan orang dan sertifikat vaksinasi"
+      },
+      {
+        "pasal": "Pasal 1064",
+        "alasan": "di luar domain ketenagakerjaan: pengawasan karantina kesehatan orang dan sertifikat vaksinasi"
+      },
+      {
+        "pasal": "Pasal 1065",
+        "alasan": "di luar domain ketenagakerjaan: pengawasan karantina kesehatan barang dan lingkungan"
+      },
+      {
+        "pasal": "Pasal 1066",
+        "alasan": "di luar domain ketenagakerjaan: pengawasan karantina kesehatan barang dan lingkungan"
+      },
+      {
+        "pasal": "Pasal 1067",
+        "alasan": "di luar domain ketenagakerjaan: pengawasan karantina kesehatan barang dan lingkungan"
+      },
+      {
+        "pasal": "Pasal 1068",
+        "alasan": "di luar domain ketenagakerjaan: pengawasan karantina kesehatan barang dan lingkungan"
+      },
+      {
+        "pasal": "Pasal 1069",
+        "alasan": "di luar domain ketenagakerjaan: pedoman dan tindakan penanggulangan karantina"
+      },
+      {
+        "pasal": "Pasal 1075",
+        "alasan": "di luar domain ketenagakerjaan: pedoman dan tindakan penanggulangan karantina"
+      },
+      {
+        "pasal": "Pasal 1076",
+        "alasan": "di luar domain ketenagakerjaan: pedoman dan tindakan penanggulangan karantina"
+      },
+      {
+        "pasal": "Pasal 1078",
+        "alasan": "di luar domain ketenagakerjaan: dokumen karantina kesehatan dan penetapan daerah terjangkit wabah"
+      },
+      {
+        "pasal": "Pasal 1080",
+        "alasan": "di luar domain ketenagakerjaan: dokumen karantina kesehatan dan penetapan daerah terjangkit wabah"
+      },
+      {
+        "pasal": "Pasal 1081",
+        "alasan": "di luar domain ketenagakerjaan: dokumen karantina kesehatan dan penetapan daerah terjangkit wabah"
+      },
+      {
+        "pasal": "Pasal 1083",
+        "alasan": "di luar domain ketenagakerjaan: dokumen karantina kesehatan dan penetapan daerah terjangkit wabah"
+      },
+      {
+        "pasal": "Pasal 1084",
+        "alasan": "di luar domain ketenagakerjaan: dokumen karantina kesehatan dan penetapan daerah terjangkit wabah"
+      },
+      {
+        "pasal": "Pasal 1085",
+        "alasan": "di luar domain ketenagakerjaan: dokumen karantina kesehatan dan penetapan daerah terjangkit wabah"
+      },
+      {
+        "pasal": "Pasal 1086",
+        "alasan": "di luar domain ketenagakerjaan: dokumen karantina kesehatan dan penetapan daerah terjangkit wabah"
+      },
+      {
+        "pasal": "Pasal 1088",
+        "alasan": "di luar domain ketenagakerjaan: koordinasi penanggulangan wabah"
+      },
+      {
+        "pasal": "Pasal 1089",
+        "alasan": "di luar domain ketenagakerjaan: koordinasi penanggulangan wabah"
+      },
+      {
+        "pasal": "Pasal 1090",
+        "alasan": "di luar domain ketenagakerjaan: koordinasi penanggulangan wabah"
+      },
+      {
+        "pasal": "Pasal 1091",
+        "alasan": "di luar domain ketenagakerjaan: kerja sama dan karantina dalam penanggulangan wabah"
+      },
+      {
+        "pasal": "Pasal 1093",
+        "alasan": "di luar domain ketenagakerjaan: kerja sama dan karantina dalam penanggulangan wabah"
+      },
+      {
+        "pasal": "Pasal 1094",
+        "alasan": "di luar domain ketenagakerjaan: kerja sama dan karantina dalam penanggulangan wabah"
+      },
+      {
+        "pasal": "Pasal 1095",
+        "alasan": "di luar domain ketenagakerjaan: kerja sama dan karantina dalam penanggulangan wabah"
+      },
+      {
+        "pasal": "Pasal 1096",
+        "alasan": "di luar domain ketenagakerjaan: kerja sama dan karantina dalam penanggulangan wabah"
+      },
+      {
+        "pasal": "Pasal 1098",
+        "alasan": "di luar domain ketenagakerjaan: pelaksanaan karantina di pintu masuk"
+      },
+      {
+        "pasal": "Pasal 1099",
+        "alasan": "di luar domain ketenagakerjaan: pelaksanaan karantina di pintu masuk"
+      },
+      {
+        "pasal": "Pasal 1100",
+        "alasan": "di luar domain ketenagakerjaan: pelaksanaan karantina di pintu masuk"
+      },
+      {
+        "pasal": "Pasal 1101",
+        "alasan": "di luar domain ketenagakerjaan: pelaksanaan karantina di pintu masuk"
+      },
+      {
+        "pasal": "Pasal 1103",
+        "alasan": "di luar domain ketenagakerjaan: pembatasan kegiatan sosial kemasyarakatan saat wabah"
+      },
+      {
+        "pasal": "Pasal 1104",
+        "alasan": "di luar domain ketenagakerjaan: pembatasan kegiatan sosial kemasyarakatan saat wabah"
+      },
+      {
+        "pasal": "Pasal 1105",
+        "alasan": "di luar domain ketenagakerjaan: pembatasan kegiatan sosial kemasyarakatan saat wabah"
+      },
+      {
+        "pasal": "Pasal 1106",
+        "alasan": "di luar domain ketenagakerjaan: kelembagaan dan pengangkatan petugas karantina kesehatan"
+      },
+      {
+        "pasal": "Pasal 1108",
+        "alasan": "di luar domain ketenagakerjaan: kelembagaan dan pengangkatan petugas karantina kesehatan"
+      },
+      {
+        "pasal": "Pasal 1109",
+        "alasan": "di luar domain ketenagakerjaan: kelembagaan dan pengangkatan petugas karantina kesehatan"
+      },
+      {
+        "pasal": "Pasal 1111",
+        "alasan": "Tata cara pencabutan penetapan Daerah Terjangkit Wabah (\"penularan penyakit telah berhenti\"); administratif bidang kesehatan, di luar domain T-Box."
+      },
+      {
+        "pasal": "Pasal 1130",
+        "alasan": "Pemanfaatan pendanaan penelitian, pengembangan, dan inovasi bidang Kesehatan; di luar domain T-Box."
+      },
+      {
+        "pasal": "Pasal 1131",
+        "alasan": "Pendanaan \"program dan kegiatan Kesehatan yang menjadi prioritas pembangunan nasional\" yang ditetapkan Menteri; administratif anggaran kesehatan."
+      },
+      {
+        "pasal": "Pasal 1134",
+        "alasan": "Alokasi anggaran kesehatan daerah \"harus memperhatikan kecukupan dana untuk pemenuhan standar pelayanan minimal\"; administratif anggaran."
+      },
+      {
+        "pasal": "Pasal 1135",
+        "alasan": "\"Rencana induk bidang Kesehatan ditetapkan oleh Presiden\"; kelembagaan/perencanaan, bukan norma ketenagakerjaan."
+      },
+      {
+        "pasal": "Pasal 1136",
+        "alasan": "Menteri menetapkan \"indikator kinerja program dan kegiatan peningkatan Pelayanan Kesehatan\"; administratif penganggaran."
+      },
+      {
+        "pasal": "Pasal 1138",
+        "alasan": "\"Pemerintah Pusat dapat memberikan insentif atau disinsentif kepada Pemerintah Daerah\"; fiskal daerah, di luar domain T-Box."
+      },
+      {
+        "pasal": "Pasal 1139",
+        "alasan": "Ketentuan lebih lanjut mengenai pemantauan dan evaluasi pendanaan Kesehatan \"diatur dengan Peraturan Menteri\"; delegasi kewenangan."
+      },
+      {
+        "pasal": "Pasal 1145",
+        "alasan": "Pemerintah \"bertanggung jawab mengoordinasikan dan memfasilitasi terlaksananya partisipasi masyarakat\"; kelembagaan kesehatan."
+      },
+      {
+        "pasal": "Pasal 1146",
+        "alasan": "\"Pemerintah Daerah provinsi bertanggung jawab\" membuat dan melaksanakan kebijakan partisipasi masyarakat bidang kesehatan; kelembagaan."
+      },
+      {
+        "pasal": "Pasal 1148",
+        "alasan": "Tujuan dan metode pembinaan penyelenggaraan kesehatan (\"melindungi masyarakat terhadap segala kemungkinan yang dapat menimbulkan bahaya bagi Kesehatan\"); administratif."
+      },
+      {
+        "pasal": "Pasal 1150",
+        "alasan": "Pengangkatan \"tenaga pengawas tertentu\" oleh kepala lembaga pengawasan obat dan makanan; kelembagaan pengawasan."
+      },
+      {
+        "pasal": "Pasal 1152",
+        "alasan": "Kewenangan tambahan tenaga pengawas tertentu atas peredaran Sediaan Farmasi dan pangan olahan; administratif pengawasan."
+      },
+      {
+        "pasal": "Pasal 1153",
+        "alasan": "\"masyarakat dapat berperan serta melalui pemberian informasi dan/atau pelaporan dugaan pelanggaran\"; partisipasi pengawasan."
+      },
+      {
+        "pasal": "Pasal 1154",
+        "alasan": "Ketentuan peralihan pelaksanaan tindakan aborsi berdasarkan Pasal 31 PP 61/2014; peralihan."
+      },
+      {
+        "pasal": "Pasal 1155",
+        "alasan": "Peralihan penyesuaian unit transfusi darah \"dalam jangka waktu paling lama 1 (satu) tahun\"; peralihan."
+      },
+      {
+        "pasal": "Pasal 1156",
+        "alasan": "Pengendalian konsumsi gula, garam, dan lemak berlaku \"setelah 2 (dua) tahun\"; peralihan."
+      },
+      {
+        "pasal": "Pasal 1158",
+        "alasan": "Peralihan penyesuaian fasilitas transplantasi organ/jaringan \"paling lama 1 (satu) tahun\"; peralihan."
+      },
+      {
+        "pasal": "Pasal 1159",
+        "alasan": "Peralihan penyesuaian pelayanan kesehatan tradisional \"paling lama 2 (dua) tahun\"; peralihan."
+      },
+      {
+        "pasal": "Pasal 1160",
+        "alasan": "Peralihan penyesuaian Sistem Informasi Kesehatan \"paling lama 1 (satu) tahun\"; peralihan."
+      },
+      {
+        "pasal": "Pasal 1161",
+        "alasan": "Penetapan \"6 (enam) Rumah Sakit menjadi RSPPU\" dan penugasan pendidikan spesialis; kelembagaan/peralihan."
+      },
+      {
+        "pasal": "Pasal 1162",
+        "alasan": "Pembaharuan STR Tenaga Medis dan Tenaga Kesehatan menjadi \"STR yang berlaku seumur hidup\"; registrasi profesi kesehatan."
+      },
+      {
+        "pasal": "Pasal 1163",
+        "alasan": "STR seumur hidup bagi lulusan vokasi/profesi dengan ijazah sebagai pengganti Sertifikat Kompetensi; registrasi profesi kesehatan."
+      },
+      {
+        "pasal": "Pasal 1164",
+        "alasan": "Peralihan penyesuaian kualifikasi pendidikan profesi Tenaga Kesehatan \"paling lama dalam jangka waktu 5 (lima) tahun\"; peralihan."
+      },
+      {
+        "pasal": "Pasal 1165",
+        "alasan": "\"Satuan kredit profesi Tenaga Medis dan Tenaga Kesehatan yang diperoleh sebelum\" PP ini tetap berlaku; registrasi profesi."
+      },
+      {
+        "pasal": "Pasal 1166",
+        "alasan": "Dokter spesialis tetap melaksanakan tugas berdasarkan Perpres 31/2019 sampai masa penempatan selesai; peralihan."
+      },
+      {
+        "pasal": "Pasal 1167",
+        "alasan": "Konsil dan majelis profesi lama \"tetap melaksanakan tugas, fungsi, dan kewenangannya\" sampai terbentuknya lembaga baru; kelembagaan/peralihan."
+      },
+      {
+        "pasal": "Pasal 1168",
+        "alasan": "Peralihan penyesuaian penyelenggaraan dan klasifikasi Rumah Sakit \"paling lama 1 (satu) tahun\"; peralihan."
+      },
+      {
+        "pasal": "Pasal 1169",
+        "alasan": "Ketentuan peralihan: peraturan pelaksanaan lama (antara lain PP 88/2019 tentang Kesehatan Kerja) \"dinyatakan masih tetap berlaku sepanjang tidak bertentangan\"; bukan norma ketenagakerjaan."
+      }
+    ],
+    "catatan": ""
+  },
+  "tidak_termodelkan": [
+    {
+      "pasal": "Pasal 65",
+      "ringkasan": "Fasilitasi lanjut usia agar memiliki kesempatan berkarya melalui kebijakan afirmasi pemberian kesempatan kerja dan lingkungan kerja ramah lanjut usia.",
+      "alasan": "relevan dengan akses kerja, tetapi butuh kelas/properti baru (ketentuan lanjut usia/kesempatan kerja) yang belum ada di T-Box"
+    },
+    {
+      "pasal": "Pasal 232",
+      "ringkasan": "Upaya Kesehatan kerja bertujuan melindungi pekerja dan orang lain di tempat kerja agar hidup sehat dan terbebas dari gangguan Kesehatan serta pengaruh buruk pekerjaan; merupakan bagian dari keselamatan dan Kesehatan kerja; dilakukan di tempat kerja sektor formal dan informal, Fasilitas Pelayanan Kesehatan, dan lingkungan matra.",
+      "alasan": "relevan (lingkup dan tujuan K3), tetapi butuh kelas/properti baru: jenis KetentuanK3 dan topik K3 masih kandidat di VOCAB (belum aktif) dan belum ada kelasnya di tbox-core; bukan definisi/sanksi sehingga tidak tepat dilewati"
+    },
+    {
+      "pasal": "Pasal 233",
+      "ringkasan": "Penyelenggaraan Upaya Kesehatan kerja meliputi upaya promotif, preventif, kuratif, rehabilitatif, dan paliatif, dengan rincian antara lain identifikasi dan pengendalian bahaya Kesehatan, pemeriksaan Kesehatan, penilaian kelaikan kerja, imunisasi/profilaksis pekerja berisiko tinggi, surveilans K3, pertolongan pertama, diagnosis dan tata laksana penyakit akibat kerja, serta pemulihan medis dan pemulihan kerja.",
+      "alasan": "relevan (standar upaya K3 bagi pekerja), tetapi butuh kelas KetentuanK3 beserta properti daftar upaya/standar yang belum ada di T-Box; KetentuanK3/K3 masih kandidat di VOCAB"
+    },
+    {
+      "pasal": "Pasal 234",
+      "ringkasan": "Penyelenggaraan Upaya Kesehatan kerja harus didukung sumber daya manusia, Fasilitas Pelayanan Kesehatan, peralatan keselamatan dan Kesehatan kerja, pendanaan, serta pencatatan dan pelaporan.",
+      "alasan": "relevan (prasyarat dukungan penyelenggaraan K3 oleh pemberi kerja/pengelola tempat kerja), tetapi butuh kelas KetentuanK3 dan properti unsur dukungan yang belum ada di T-Box"
+    },
+    {
+      "pasal": "Pasal 235",
+      "ringkasan": "Sumber daya manusia penyelenggaraan Upaya Kesehatan kerja terdiri atas Tenaga Medis, Tenaga Kesehatan, dan Tenaga Pendukung atau Penunjang Kesehatan.",
+      "alasan": "relevan (komposisi tenaga K3 di tempat kerja), tetapi butuh kelas/properti baru KetentuanK3; jenis dan topik K3 masih kandidat di VOCAB"
+    },
+    {
+      "pasal": "Pasal 236",
+      "ringkasan": "Tenaga Medis atau Tenaga Kesehatan penyelenggara Upaya Kesehatan kerja wajib memiliki kompetensi melalui pendidikan dan/atau pelatihan, termasuk pelatihan kedokteran kerja atau Kesehatan kerja.",
+      "alasan": "relevan (kewajiban kompetensi tenaga K3), tetapi butuh kelas/properti baru KetentuanK3 (kualifikasi tenaga Kesehatan kerja) yang belum ada di T-Box"
+    },
+    {
+      "pasal": "Pasal 237",
+      "ringkasan": "Fasilitas Pelayanan Kesehatan penyelenggara Upaya Kesehatan kerja harus memenuhi standar Menteri dan dapat disediakan melalui kerja sama; selain itu setiap tempat kerja harus memiliki unit Kesehatan kerja sesuai kemampuannya dan berkoordinasi dengan Puskesmas setempat.",
+      "alasan": "relevan (kewajiban unit Kesehatan kerja dan standar fasyankes di tempat kerja), tetapi butuh kelas KetentuanK3 dan properti kewajiban penyediaan unit yang belum ada di T-Box"
+    },
+    {
+      "pasal": "Pasal 238",
+      "ringkasan": "Peralatan keselamatan dan Kesehatan kerja meliputi peralatan pengukuran, pemeriksaan, dan peralatan lain termasuk alat pelindung diri sesuai faktor risiko atau bahaya kecelakaan kerja dan penyakit akibat kerja.",
+      "alasan": "relevan (penyediaan peralatan K3 dan alat pelindung diri), tetapi butuh kelas/properti baru KetentuanK3; KetentuanK3 masih kandidat di VOCAB"
+    },
+    {
+      "pasal": "Pasal 239",
+      "ringkasan": "Pendanaan Upaya Kesehatan kerja dapat menggunakan jaminan sosial Kesehatan dan jaminan sosial ketenagakerjaan, serta dapat dipenuhi melalui asuransi Kesehatan lain atau pembiayaan penuh tempat kerja.",
+      "alasan": "relevan (pembiayaan K3), tetapi butuh kelas KetentuanK3 dan properti sumber pendanaan; tidak memuat manfaat JKK yang berdiri sendiri sehingga tidak dipaksakan menjadi norma KetentuanJaminanSosial"
+    },
+    {
+      "pasal": "Pasal 24O",
+      "ringkasan": "Pencatatan dan pelaporan Upaya Kesehatan kerja dilaksanakan oleh pemberi kerja, pengurus atau pengelola tempat kerja, dan/atau Fasilitas Pelayanan Kesehatan serta terintegrasi dengan Sistem Informasi Kesehatan Nasional.",
+      "alasan": "relevan (kewajiban pencatatan dan pelaporan K3 oleh pemberi kerja), tetapi butuh kelas KetentuanK3 dan properti kewajiban pelaporan yang belum ada di T-Box (heading OCR 'Pasal 24O')"
+    },
+    {
+      "pasal": "Pasal 24l",
+      "ringkasan": "Upaya Kesehatan kerja sesuai standar Kesehatan kerja wajib diselenggarakan oleh pemberi kerja dan pengurus atau pengelola tempat kerja di semua tempat kerja; standar teknis diatur Peraturan Menteri dan penerapannya bagi pekerja di perusahaan diatur peraturan menteri bidang ketenagakerjaan.",
+      "alasan": "relevan (kewajiban inti pemberi kerja menyelenggarakan K3), tetapi butuh kelas KetentuanK3 beserta properti subjek dan kewajiban yang belum ada di T-Box (heading OCR 'Pasal 24l')"
+    },
+    {
+      "pasal": "Pasal 241",
+      "ringkasan": "Upaya Kesehatan kerja sesuai standar wajib diselenggarakan oleh pemberi kerja dan pengurus atau pengelola tempat kerja di semua tempat kerja; standar teknis diatur Peraturan Menteri dan penerapan bagi pekerja di perusahaan diatur peraturan menteri bidang ketenagakerjaan (isi sama dengan heading 'Pasal 24l' pada halaman sebelumnya).",
+      "alasan": "relevan (kewajiban inti pemberi kerja menyelenggarakan K3), tetapi butuh kelas KetentuanK3 beserta properti subjek dan kewajiban yang belum ada di T-Box; heading ganda akibat OCR"
+    },
+    {
+      "pasal": "Pasal 242",
+      "ringkasan": "Pekerja berhak mendapatkan Upaya Kesehatan kerja sebagaimana dimaksud dalam Pasal 233; orang lain di tempat kerja berhak atas jaminan keselamatan dan Kesehatan kerja; pekerja dan orang lain wajib berpartisipasi aktif menjaga Kesehatan, lingkungan kerja, dan menaati peraturan K3.",
+      "alasan": "relevan (hak pekerja atas upaya Kesehatan kerja dan jaminan K3), tetapi butuh kelas/properti baru KetentuanK3; jenis dan topik K3 masih kandidat di VOCAB dan belum ada di tbox-core"
+    },
+    {
+      "pasal": "Pasal 443",
+      "ringkasan": "Kawasan tanpa rokok meliputi tempat kerja; pengelola/penanggung jawab tempat kerja wajib menyediakan tempat khusus merokok, dikecualikan pada tempat yang berpotensi menimbulkan bahaya Kesehatan dan keselamatan kerja; tempat khusus harus ruang terbuka dan terpisah dari bangunan utama.",
+      "alasan": "Kewajiban pada pengelola tempat kerja bersinggungan dengan K3, tetapi jenis KetentuanK3 masih kandidat di VOCAB dan belum ada kelasnya di T-Box; tidak dapat dipetakan ke norma ketenagakerjaan yang ada."
+    },
+    {
+      "pasal": "Pasal 519",
+      "ringkasan": "Struktur jejaring berbasis tempat kerja mencakup semua tempat kerja dalam wilayah kerja Puskesmas; tempat kerja dalam jejaring pelayanan Kesehatan primer melakukan pelayanan Kesehatan sesuai standar Kesehatan kerja.",
+      "alasan": "Kewajiban pelayanan Kesehatan kerja di tempat kerja bersinggungan dengan K3, tetapi jenis KetentuanK3 masih kandidat di VOCAB dan belum ada kelasnya di T-Box; tidak dapat dipetakan ke norma ketenagakerjaan yang ada."
+    },
+    {
+      "pasal": "Pasal 610",
+      "ringkasan": "Penerima bantuan pendanaan pendidikan wajib melaksanakan masa pengabdian pada Fasilitas Pelayanan Kesehatan yang ditunjuk; jangka waktu masa pengabdian diperhitungkan sebagai masa kerja; pelanggaran dikenai sanksi administratif berupa pencabutan STR.",
+      "alasan": "relevan (pengakuan masa pengabdian sebagai masa kerja) tetapi butuh kelas MasaPengabdian dan properti pengakuan masa kerja yang belum ada di T-Box"
+    },
+    {
+      "pasal": "Pasal 624",
+      "ringkasan": "Tenaga Medis dan Tenaga Kesehatan yang didayagunakan melalui penugasan khusus berhak atas penghasilan, jaminan kesehatan/jaminan kecelakaan kerja/jaminan kematian, cuti, praktik perseorangan di luar jam kerja, surat keterangan selesai penugasan, dan jaminan keamanan.",
+      "alasan": "butuh kelas PaketHakPenugasanKhusus; sebagian hak (jamsos, cuti, penghasilan) tidak dapat dipetakan ke satu kelas norma yang ada tanpa properti baru"
+    },
+    {
+      "pasal": "Pasal 728",
+      "ringkasan": "Pimpinan Fasilitas Pelayanan Kesehatan dan/atau kepala daerah wajib menerapkan sistem keselamatan, kesehatan kerja, dan keamanan tenaga medis/kesehatan melalui pengendalian bahaya di tempat kerja, pencegahan penyakit akibat kerja dan kecelakaan kerja, promosi kesehatan, penanganan penyakit, pemulihan, dan pengamanan tempat kerja.",
+      "alasan": "relevan (K3 tenaga medis/kesehatan) tetapi butuh jenis KetentuanK3 dan kelas SistemK3 yang masih berstatus kandidat di VOCAB/T-Box"
+    },
+    {
+      "pasal": "Pasal 731",
+      "ringkasan": "Pelindungan tenaga medis dan tenaga kesehatan atas kekerasan, pelecehan, dan perundungan di tempat kerja, termasuk hak menghentikan pelayanan.",
+      "alasan": "Norma pelindungan pekerja di fasyankes; butuh kelas KetentuanK3/perlindungan pekerja yang masih kandidat di VOCAB."
+    },
+    {
+      "pasal": "Pasal 759",
+      "ringkasan": "Hak tenaga pendukung/penunjang kesehatan: upah layak, pelindungan keselamatan dan kesehatan kerja, serta jaminan kesehatan dan ketenagakerjaan.",
+      "alasan": "Katalog hak pekerja pada fasyankes; butuh kelas subjek tenaga penunjang kesehatan dan properti hak yang belum ada di T-Box."
+    },
+    {
+      "pasal": "Pasal 799",
+      "ringkasan": "Puskesmas melaksanakan upaya kesehatan kerja berupa surveilans penyakit akibat kerja dan kecelakaan akibat kerja serta pembinaan program kesehatan kerja.",
+      "alasan": "Substansi K3/kesehatan kerja; kelas KetentuanK3 belum aktif di VOCAB (masih kandidat) dan tidak ada kelas upaya kesehatan kerja."
+    },
+    {
+      "pasal": "Pasal 847",
+      "ringkasan": "Kewajiban rumah sakit memiliki sistem pencegahan kecelakaan dan penanggulangan bencana, termasuk kebakaran, radiasi, bahan kimia, gangguan psikososial, dan masalah ergonomis.",
+      "alasan": "Substansi K3 di tempat kerja; kelas KetentuanK3 belum aktif di VOCAB dan belum ada properti sistem manajemen K3."
+    },
+    {
+      "pasal": "Pasal 1034",
+      "ringkasan": "Larangan diskriminasi atas hasil pemeriksaan dan analisis genetik, termasuk diskriminasi dalam kesempatan mendapatkan pekerjaan; pelanggaran dikenai sanksi administratif.",
+      "alasan": "relevan dengan akses kerja, tetapi butuh kelas/properti baru: larangan diskriminasi belum ada di T-Box ketenagakerjaan"
+    },
+    {
+      "pasal": "Pasal 1113",
+      "ringkasan": "Setiap Orang yang mengelola bahan mengandung penyebab penyakit/agen biologi berpotensi KLB dan Wabah \"wajib memenuhi standar pengelolaan\" (batas aman kimia, fisika, dan biologi).",
+      "alasan": "Kewajiban standar pengelolaan bahan berbahaya bersinggungan dengan K3/kesehatan kerja, tetapi jenis KetentuanK3 masih kandidat di VOCAB dan belum ada kelasnya di T-Box."
+    },
+    {
+      "pasal": "Pasal 1140",
+      "ringkasan": "Fasilitas pelayanan kesehatan, instansi, badan penyelenggara jaminan sosial bidang kesehatan dan ketenagakerjaan, BUMN/BUMD, dan lembaga swasta \"wajib melaporkan realisasi belanja Kesehatan dan hasil capaian setiap tahun\".",
+      "alasan": "Kewajiban pelaporan belanja kesehatan (termasuk oleh badan jamsos ketenagakerjaan) tidak termasuk jenis norma VOCAB; butuh kelas kewajiban pelaporan yang belum ada di T-Box."
+    }
+  ]
+}
