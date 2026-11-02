@@ -1,0 +1,50 @@
+{
+  "spec_version": "1.1.0",
+  "vocab_version": "0.3.0",
+  "dokumen_id": "PP-83-2013",
+  "status_review": "reviewed",
+  "peraturan": {
+    "judul": "Peraturan Pemerintah Nomor 83 Tahun 2013 tentang Modal Awal BPJS Ketenagakerjaan",
+    "jenis": "PP",
+    "nomor": "83",
+    "tahun": "2013",
+    "sumber": "https://peraturan.bpk.go.id/Details/5418/pp-no-83-tahun-2013",
+    "status": "Berlaku",
+    "diubah_oleh": []
+  },
+  "norma": [],
+  "kategori": [],
+  "pengali_lembur": [],
+  "program_jamsos": [],
+  "cakupan": {
+    "lengkap": true,
+    "pasal_diekstrak": [
+      "Pasal 1",
+      "Pasal 2",
+      "Pasal 3",
+      "Pasal 4"
+    ],
+    "pasal_dilewati": [
+      {
+        "pasal": "Pasal 1",
+        "alasan": "kelembagaan/fiskal: penetapan pemberian modal awal negara kepada BPJS Ketenagakerjaan, bukan hubungan kerja atau hak normatif pekerja"
+      },
+      {
+        "pasal": "Pasal 3",
+        "alasan": "tata cara internal/kelembagaan: penunjukan Menteri Keuangan sebagai pelaksana pemberian modal awal"
+      },
+      {
+        "pasal": "Pasal 4",
+        "alasan": "ketentuan penutup: saat mulai berlaku"
+      }
+    ],
+    "catatan": ""
+  },
+  "tidak_termodelkan": [
+    {
+      "pasal": "Pasal 2",
+      "ringkasan": "Nilai modal awal Rp500.000.000.000,00 berbentuk tunai, kekayaan negara yang dipisahkan, bersumber dari APBN TA 2013.",
+      "alasan": "relevan dengan pendanaan jamsos tetapi butuh kelas/properti baru (modal awal/keuangan negara) di luar T-Box; nominal bukan parameter norma yang tersedia"
+    }
+  ]
+}

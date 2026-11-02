@@ -1,0 +1,528 @@
+{
+  "spec_version": "1.1.0",
+  "vocab_version": "0.3.0",
+  "dokumen_id": "PP-59-2021",
+  "status_review": "reviewed",
+  "peraturan": {
+    "judul": "Peraturan Pemerintah Nomor 59 Tahun 2021 tentang Pelaksanaan Pelindungan Pekerja Migran Indonesia",
+    "jenis": "PP",
+    "nomor": "59",
+    "tahun": "2021",
+    "sumber": "https://peraturan.go.id/id/pp-no-59-tahun-2021",
+    "status": "Berlaku",
+    "diubah_oleh": []
+  },
+  "norma": [
+    {
+      "norm_id": "JAMSOS-PMI-SJSN",
+      "topik": "Jamsos",
+      "pasal": "Pasal 10 ayat (2)",
+      "iri_individu": "ktn:JaminanSosialPMI",
+      "jenis": "KetentuanJaminanSosial",
+      "kondisi": "Pekerja Migran Indonesia",
+      "akibat": "Memperoleh Jaminan Sosial kesehatan dan Jaminan Sosial ketenagakerjaan yang dilaksanakan melalui Sistem Jaminan Sosial Nasional",
+      "parameter": [],
+      "bukti": "Jaminan Sosial sebagaimana dimaksud pada ayat (1) meliputi Jaminan Sosial kesehatan dan Jaminan Sosial ketenagakerjaan.",
+      "confidence": 0.95,
+      "dasar_keyakinan": "dikutip",
+      "catatan": "Ayat (1) menegaskan pelaksanaan melalui Sistem Jaminan Sosial Nasional; rincian kesehatan diatur Peraturan Menteri Kesehatan."
+    }
+  ],
+  "kategori": [],
+  "pengali_lembur": [],
+  "program_jamsos": [],
+  "cakupan": {
+    "lengkap": true,
+    "pasal_diekstrak": [
+      "Pasal 1",
+      "Pasal 10",
+      "Pasal 100",
+      "Pasal 12",
+      "Pasal 13",
+      "Pasal 14",
+      "Pasal 15",
+      "Pasal 16",
+      "Pasal 17",
+      "Pasal 18",
+      "Pasal 19",
+      "Pasal 2",
+      "Pasal 20",
+      "Pasal 21",
+      "Pasal 22",
+      "Pasal 24",
+      "Pasal 25",
+      "Pasal 26",
+      "Pasal 27",
+      "Pasal 28",
+      "Pasal 29",
+      "Pasal 3",
+      "Pasal 30",
+      "Pasal 31",
+      "Pasal 32",
+      "Pasal 33",
+      "Pasal 34",
+      "Pasal 35",
+      "Pasal 36",
+      "Pasal 37",
+      "Pasal 38",
+      "Pasal 39",
+      "Pasal 4",
+      "Pasal 40",
+      "Pasal 41",
+      "Pasal 42",
+      "Pasal 43",
+      "Pasal 44",
+      "Pasal 45",
+      "Pasal 46",
+      "Pasal 47",
+      "Pasal 48",
+      "Pasal 49",
+      "Pasal 5",
+      "Pasal 50",
+      "Pasal 51",
+      "Pasal 52",
+      "Pasal 53",
+      "Pasal 54",
+      "Pasal 55",
+      "Pasal 56",
+      "Pasal 57",
+      "Pasal 58",
+      "Pasal 59",
+      "Pasal 6",
+      "Pasal 60",
+      "Pasal 61",
+      "Pasal 62",
+      "Pasal 63",
+      "Pasal 64",
+      "Pasal 65",
+      "Pasal 66",
+      "Pasal 67",
+      "Pasal 68",
+      "Pasal 69",
+      "Pasal 7",
+      "Pasal 70",
+      "Pasal 71",
+      "Pasal 72",
+      "Pasal 73",
+      "Pasal 74",
+      "Pasal 75",
+      "Pasal 76",
+      "Pasal 77",
+      "Pasal 78",
+      "Pasal 79",
+      "Pasal 8",
+      "Pasal 80",
+      "Pasal 81",
+      "Pasal 83",
+      "Pasal 84",
+      "Pasal 85",
+      "Pasal 86",
+      "Pasal 88",
+      "Pasal 89",
+      "Pasal 9",
+      "Pasal 90",
+      "Pasal 91",
+      "Pasal 92",
+      "Pasal 93",
+      "Pasal 94",
+      "Pasal 95",
+      "Pasal 96",
+      "Pasal 97",
+      "Pasal 98",
+      "Pasal 99"
+    ],
+    "pasal_dilewati": [
+      {
+        "pasal": "Pasal 1",
+        "alasan": "definisi/istilah"
+      },
+      {
+        "pasal": "Pasal 2",
+        "alasan": "tujuan umum pelindungan, tanpa akibat hukum spesifik"
+      },
+      {
+        "pasal": "Pasal 3",
+        "alasan": "kelembagaan/pelaksana pelindungan"
+      },
+      {
+        "pasal": "Pasal 4",
+        "alasan": "kerangka lingkup pelindungan sebelum bekerja, rincian diatur pasal berikut"
+      },
+      {
+        "pasal": "Pasal 7",
+        "alasan": "tata cara pemberian sosialisasi dan diseminasi informasi"
+      },
+      {
+        "pasal": "Pasal 8",
+        "alasan": "tata cara verifikasi sumber informasi"
+      },
+      {
+        "pasal": "Pasal 9",
+        "alasan": "tata cara penyelenggaraan pendidikan dan pelatihan kerja"
+      },
+      {
+        "pasal": "Pasal 12",
+        "alasan": "penguatan peran pegawai fungsional pengantar kerja (kelembagaan)"
+      },
+      {
+        "pasal": "Pasal 13",
+        "alasan": "kelembagaan dan lingkup pelindungan selama bekerja"
+      },
+      {
+        "pasal": "Pasal 14",
+        "alasan": "tata cara pendataan dan pendaftaran"
+      },
+      {
+        "pasal": "Pasal 15",
+        "alasan": "tata cara pemantauan dan evaluasi"
+      },
+      {
+        "pasal": "Pasal 16",
+        "alasan": "tata cara fasilitasi pemenuhan hak"
+      },
+      {
+        "pasal": "Pasal 17",
+        "alasan": "tata cara fasilitasi penyelesaian kasus ketenagakerjaan"
+      },
+      {
+        "pasal": "Pasal 18",
+        "alasan": "jenis layanan jasa kekonsuleran"
+      },
+      {
+        "pasal": "Pasal 19",
+        "alasan": "pembinaan terhadap Pekerja Migran Indonesia (tugas pemerintah)"
+      },
+      {
+        "pasal": "Pasal 22",
+        "alasan": "bentuk dan pelaksana rehabilitasi serta reintegrasi sosial"
+      },
+      {
+        "pasal": "Pasal 26",
+        "alasan": "kewajiban program pelindungan sosial oleh pemerintah"
+      },
+      {
+        "pasal": "Pasal 27",
+        "alasan": "kerja sama pelaksanaan pelindungan sosial"
+      },
+      {
+        "pasal": "Pasal 28",
+        "alasan": "kewajiban program pelindungan ekonomi oleh pemerintah"
+      },
+      {
+        "pasal": "Pasal 29",
+        "alasan": "kerja sama pelaksanaan pelindungan ekonomi"
+      },
+      {
+        "pasal": "Pasal 30",
+        "alasan": "pembentukan dan kelembagaan LTSA Pekerja Migran Indonesia"
+      },
+      {
+        "pasal": "Pasal 31",
+        "alasan": "susunan dan fungsi pelayanan LTSA Pekerja Migran Indonesia"
+      },
+      {
+        "pasal": "Pasal 32",
+        "alasan": "tugas penanggung jawab LTSA (kelembagaan)"
+      },
+      {
+        "pasal": "Pasal 33",
+        "alasan": "pelaksanaan fungsi LTSA melalui sistem daring terintegrasi"
+      },
+      {
+        "pasal": "Pasal 34",
+        "alasan": "ketentuan lebih lanjut pedoman LTSA"
+      },
+      {
+        "pasal": "Pasal 35",
+        "alasan": "tugas dan tanggung jawab Pemerintah Pusat"
+      },
+      {
+        "pasal": "Pasal 36",
+        "alasan": "tata cara pelaksanaan pelindungan oleh Pemerintah Pusat"
+      },
+      {
+        "pasal": "Pasal 37",
+        "alasan": "koordinasi Pemerintah Pusat dan BP2MI"
+      },
+      {
+        "pasal": "Pasal 38",
+        "alasan": "tata cara pemenuhan hak oleh Pemerintah Pusat"
+      },
+      {
+        "pasal": "Pasal 39",
+        "alasan": "pembentukan sistem informasi terpadu"
+      },
+      {
+        "pasal": "Pasal 40",
+        "alasan": "koordinasi penanganan kasus"
+      },
+      {
+        "pasal": "Pasal 41",
+        "alasan": "tata cara kepulangan Pekerja Migran Indonesia"
+      },
+      {
+        "pasal": "Pasal 42",
+        "alasan": "peran Perwakilan Republik Indonesia dan pembentukan Atase Ketenagakerjaan"
+      },
+      {
+        "pasal": "Pasal 43",
+        "alasan": "penyusunan kebijakan pelindungan (kewenangan Menteri)"
+      },
+      {
+        "pasal": "Pasal 44",
+        "alasan": "kebijakan penghentian atau pelarangan penempatan (kewenangan pemerintah)"
+      },
+      {
+        "pasal": "Pasal 45",
+        "alasan": "pembukaan dan penutupan negara atau jabatan tertentu"
+      },
+      {
+        "pasal": "Pasal 46",
+        "alasan": "penerbitan dan pencabutan SIP3MI (perizinan)"
+      },
+      {
+        "pasal": "Pasal 47",
+        "alasan": "penerbitan dan pencabutan SIP2MI (perizinan)"
+      },
+      {
+        "pasal": "Pasal 48",
+        "alasan": "pencabutan SIP2MI dan larangan perekrutan (perizinan)"
+      },
+      {
+        "pasal": "Pasal 49",
+        "alasan": "tata cara SIP2MI diatur dengan Peraturan Badan"
+      },
+      {
+        "pasal": "Pasal 50",
+        "alasan": "koordinasi antarinstansi kebijakan pelindungan"
+      },
+      {
+        "pasal": "Pasal 51",
+        "alasan": "pengangkatan pejabat Atase Ketenagakerjaan (kelembagaan)"
+      },
+      {
+        "pasal": "Pasal 52",
+        "alasan": "fasilitasi pelatihan vokasi Calon Pekerja Migran Indonesia"
+      },
+      {
+        "pasal": "Pasal 53",
+        "alasan": "pelaksanaan tugas oleh kementerian/lembaga"
+      },
+      {
+        "pasal": "Pasal 54",
+        "alasan": "tugas dan tanggung jawab Pemerintah Daerah provinsi"
+      },
+      {
+        "pasal": "Pasal 55",
+        "alasan": "penyediaan sarana, tenaga pelatihan, dan pendanaan oleh provinsi"
+      },
+      {
+        "pasal": "Pasal 56",
+        "alasan": "tata cara kepulangan oleh Pemerintah Daerah provinsi"
+      },
+      {
+        "pasal": "Pasal 57",
+        "alasan": "perizinan kantor cabang P3MI"
+      },
+      {
+        "pasal": "Pasal 58",
+        "alasan": "pelaporan hasil evaluasi P3MI"
+      },
+      {
+        "pasal": "Pasal 59",
+        "alasan": "bentuk pelindungan sebelum bekerja oleh provinsi"
+      },
+      {
+        "pasal": "Pasal 60",
+        "alasan": "bentuk pelindungan setelah bekerja oleh provinsi"
+      },
+      {
+        "pasal": "Pasal 61",
+        "alasan": "pembangunan pos bantuan dan pelayanan"
+      },
+      {
+        "pasal": "Pasal 62",
+        "alasan": "jaminan ketersediaan pelatihan vokasi oleh provinsi"
+      },
+      {
+        "pasal": "Pasal 63",
+        "alasan": "pembinaan dan pengawasan penempatan oleh provinsi"
+      },
+      {
+        "pasal": "Pasal 64",
+        "alasan": "pertimbangan pembentukan LTSA provinsi"
+      },
+      {
+        "pasal": "Pasal 65",
+        "alasan": "tugas dan tanggung jawab Pemerintah Daerah kabupaten/kota"
+      },
+      {
+        "pasal": "Pasal 66",
+        "alasan": "sosialisasi informasi dan permintaan pekerjaan"
+      },
+      {
+        "pasal": "Pasal 67",
+        "alasan": "pembuatan basis data Pekerja Migran Indonesia"
+      },
+      {
+        "pasal": "Pasal 68",
+        "alasan": "pelaporan hasil evaluasi P3MI"
+      },
+      {
+        "pasal": "Pasal 69",
+        "alasan": "tata cara kepulangan Pekerja Migran Indonesia"
+      },
+      {
+        "pasal": "Pasal 71",
+        "alasan": "bentuk pelindungan setelah bekerja oleh kabupaten/kota"
+      },
+      {
+        "pasal": "Pasal 72",
+        "alasan": "kerja sama pendidikan dan pelatihan kerja"
+      },
+      {
+        "pasal": "Pasal 73",
+        "alasan": "pembinaan dan pengawasan lembaga pelatihan kerja"
+      },
+      {
+        "pasal": "Pasal 74",
+        "alasan": "program reintegrasi sosial dan ekonomi"
+      },
+      {
+        "pasal": "Pasal 75",
+        "alasan": "fasilitasi pelatihan vokasi oleh kabupaten/kota"
+      },
+      {
+        "pasal": "Pasal 76",
+        "alasan": "pengaturan penempatan sebelum dan setelah bekerja"
+      },
+      {
+        "pasal": "Pasal 77",
+        "alasan": "pertimbangan pembentukan LTSA kabupaten/kota"
+      },
+      {
+        "pasal": "Pasal 78",
+        "alasan": "tugas Pemerintah Desa"
+      },
+      {
+        "pasal": "Pasal 79",
+        "alasan": "tata cara informasi permintaan pekerjaan oleh desa"
+      },
+      {
+        "pasal": "Pasal 80",
+        "alasan": "verifikasi data dan pencatatan Calon Pekerja Migran Indonesia"
+      },
+      {
+        "pasal": "Pasal 81",
+        "alasan": "fasilitasi administrasi kependudukan"
+      },
+      {
+        "pasal": "Pasal 83",
+        "alasan": "pemberdayaan oleh Pemerintah Desa"
+      },
+      {
+        "pasal": "Pasal 84",
+        "alasan": "tugas umum P3MI"
+      },
+      {
+        "pasal": "Pasal 85",
+        "alasan": "tata cara mencari peluang kerja dan pengajuan SIP2MI"
+      },
+      {
+        "pasal": "Pasal 88",
+        "alasan": "pembinaan oleh Menteri, gubernur, dan bupati/wali kota"
+      },
+      {
+        "pasal": "Pasal 89",
+        "alasan": "tata cara pembinaan"
+      },
+      {
+        "pasal": "Pasal 90",
+        "alasan": "pengawasan oleh pemerintah"
+      },
+      {
+        "pasal": "Pasal 91",
+        "alasan": "objek pengawasan"
+      },
+      {
+        "pasal": "Pasal 92",
+        "alasan": "waktu dan pelaksana pengawasan"
+      },
+      {
+        "pasal": "Pasal 93",
+        "alasan": "kewenangan pengawas ketenagakerjaan (pengawasan)"
+      },
+      {
+        "pasal": "Pasal 94",
+        "alasan": "lingkup pengawasan sebelum dan setelah bekerja"
+      },
+      {
+        "pasal": "Pasal 95",
+        "alasan": "lingkup pengawasan selama bekerja"
+      },
+      {
+        "pasal": "Pasal 96",
+        "alasan": "kerja sama pengawasan lintas negara"
+      },
+      {
+        "pasal": "Pasal 97",
+        "alasan": "rencana kerja pengawasan"
+      },
+      {
+        "pasal": "Pasal 98",
+        "alasan": "tahapan pengawasan"
+      },
+      {
+        "pasal": "Pasal 99",
+        "alasan": "koordinasi pengawasan di luar negeri"
+      },
+      {
+        "pasal": "Pasal 100",
+        "alasan": "ketentuan peralihan/penutup (pencabutan peraturan)"
+      }
+    ],
+    "catatan": ""
+  },
+  "tidak_termodelkan": [
+    {
+      "pasal": "Pasal 5",
+      "ringkasan": "Dokumen penempatan Calon Pekerja Migran Indonesia meliputi surat keterangan status perkawinan, izin suami/istri/orang tua/wali, sertifikat kompetensi, surat keterangan sehat, paspor, visa kerja, Perjanjian Penempatan, dan Perjanjian Kerja.",
+      "alasan": "butuh kelas/properti baru: KetentuanPMI (masih kandidat di VOCAB) untuk dokumen penempatan"
+    },
+    {
+      "pasal": "Pasal 6",
+      "ringkasan": "Perjanjian Kerja Pekerja Migran Indonesia wajib memuat paling sedikit besaran dan tata cara pembayaran upah, jam kerja dan waktu istirahat, hak cuti, Jaminan Sosial dan/atau asuransi, serta jaminan keselamatan dan kesehatan kerja.",
+      "alasan": "butuh kelas/properti baru: KetentuanPMI (masih kandidat di VOCAB) untuk isi minimum Perjanjian Kerja PMI"
+    },
+    {
+      "pasal": "Pasal 20",
+      "ringkasan": "P3MI bertanggung jawab memulangkan Pekerja Migran Indonesia dalam hal berakhirnya Perjanjian Kerja, pemutusan hubungan kerja, meninggal dunia, kecelakaan kerja, sakit yang mengakibatkan tidak dapat bekerja, dan/atau sebab lain yang merugikan PMI.",
+      "alasan": "butuh kelas/properti baru: KetentuanPMI (masih kandidat di VOCAB) untuk kewajiban repatriasi P3MI"
+    },
+    {
+      "pasal": "Pasal 21",
+      "ringkasan": "Pemulangan jenazah Pekerja Migran Indonesia yang ditempatkan P3MI menjadi kewajiban P3MI, dilakukan berkoordinasi dengan Perwakilan Republik Indonesia, Pemerintah Pusat, BP2MI, dan Pemerintah Daerah.",
+      "alasan": "butuh kelas/properti baru: KetentuanPMI (masih kandidat di VOCAB) untuk kewajiban pemulangan jenazah"
+    },
+    {
+      "pasal": "Pasal 24",
+      "ringkasan": "Dalam situasi khusus (bencana alam, wabah penyakit, perang, deportasi massal, atau negara penempatan tidak lagi menjamin keselamatan), pelindungan dapat diberikan dalam bentuk evakuasi ke negara terdekat yang aman atau dipulangkan ke Indonesia.",
+      "alasan": "butuh kelas/properti baru: KetentuanPMI (masih kandidat di VOCAB) untuk mekanisme evakuasi"
+    },
+    {
+      "pasal": "Pasal 25",
+      "ringkasan": "Pekerja Migran Indonesia hanya dapat bekerja ke negara tujuan penempatan yang memiliki peraturan perundang-undangan pelindung tenaga kerja asing, perjanjian tertulis dengan Pemerintah Republik Indonesia, dan/atau sistem Jaminan Sosial atau asuransi yang melindungi pekerja asing.",
+      "alasan": "butuh kelas/properti baru: KetentuanPMI (masih kandidat di VOCAB) untuk syarat negara tujuan penempatan"
+    },
+    {
+      "pasal": "Pasal 70",
+      "ringkasan": "Calon Pekerja Migran Indonesia harus berusia paling sedikit 18 tahun, memiliki kompetensi, sehat jasmani dan rohani, terdaftar dan memiliki nomor kepesertaan Jaminan Sosial, serta memiliki dokumen lengkap yang dipersyaratkan.",
+      "alasan": "butuh kelas/properti baru: KetentuanPMI (masih kandidat di VOCAB) dan parameter usia minimum Calon Pekerja Migran Indonesia"
+    },
+    {
+      "pasal": "Pasal 86",
+      "ringkasan": "P3MI wajib memastikan pelindungan PMI yang ditempatkan, menempatkan PMI pada pemberi kerja perseorangan melalui Mitra Usaha, melaporkan seleksi dan pemberangkatan, melakukan seleksi di dinas/LTSA, memulangkan PMI pada kondisi tertentu, memiliki SIP2MI, mendaftarkan OPP, serta melaporkan perpanjangan Perjanjian Kerja; pelanggaran dikenai sanksi administratif.",
+      "alasan": "butuh kelas/properti baru: KetentuanPMI (masih kandidat di VOCAB) untuk kewajiban P3MI"
+    }
+  ]
+}

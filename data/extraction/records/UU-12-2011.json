@@ -1,0 +1,548 @@
+{
+  "spec_version": "1.1.0",
+  "vocab_version": "0.3.0",
+  "dokumen_id": "UU-12-2011",
+  "status_review": "reviewed",
+  "peraturan": {
+    "judul": "Undang-Undang Nomor 12 Tahun 2011 tentang Pembentukan Peraturan Perundang-undangan",
+    "jenis": "UU",
+    "nomor": "12",
+    "tahun": "2011",
+    "sumber": "https://peraturan.bpk.go.id/Details/39188/uu-no-12-tahun-2011",
+    "status": "Berlaku",
+    "diubah_oleh": []
+  },
+  "norma": [],
+  "kategori": [],
+  "pengali_lembur": [],
+  "program_jamsos": [],
+  "cakupan": {
+    "lengkap": true,
+    "pasal_diekstrak": [
+      "Pasal 1",
+      "Pasal 10",
+      "Pasal 100",
+      "Pasal 101",
+      "Pasal 102",
+      "Pasal 103",
+      "Pasal 104",
+      "Pasal 11",
+      "Pasal 12",
+      "Pasal 13",
+      "Pasal 14",
+      "Pasal 15",
+      "Pasal 16",
+      "Pasal 17",
+      "Pasal 18",
+      "Pasal 19",
+      "Pasal 2",
+      "Pasal 20",
+      "Pasal 21",
+      "Pasal 22",
+      "Pasal 23",
+      "Pasal 24",
+      "Pasal 25",
+      "Pasal 26",
+      "Pasal 27",
+      "Pasal 28",
+      "Pasal 29",
+      "Pasal 3",
+      "Pasal 30",
+      "Pasal 31",
+      "Pasal 32",
+      "Pasal 33",
+      "Pasal 34",
+      "Pasal 35",
+      "Pasal 36",
+      "Pasal 37",
+      "Pasal 38",
+      "Pasal 39",
+      "Pasal 4",
+      "Pasal 40",
+      "Pasal 41",
+      "Pasal 42",
+      "Pasal 43",
+      "Pasal 44",
+      "Pasal 45",
+      "Pasal 46",
+      "Pasal 47",
+      "Pasal 48",
+      "Pasal 49",
+      "Pasal 5",
+      "Pasal 50",
+      "Pasal 51",
+      "Pasal 52",
+      "Pasal 53",
+      "Pasal 54",
+      "Pasal 55",
+      "Pasal 56",
+      "Pasal 57",
+      "Pasal 58",
+      "Pasal 59",
+      "Pasal 6",
+      "Pasal 60",
+      "Pasal 61",
+      "Pasal 62",
+      "Pasal 63",
+      "Pasal 64",
+      "Pasal 65",
+      "Pasal 66",
+      "Pasal 67",
+      "Pasal 68",
+      "Pasal 69",
+      "Pasal 7",
+      "Pasal 70",
+      "Pasal 71",
+      "Pasal 72",
+      "Pasal 73",
+      "Pasal 74",
+      "Pasal 75",
+      "Pasal 76",
+      "Pasal 77",
+      "Pasal 78",
+      "Pasal 79",
+      "Pasal 8",
+      "Pasal 80",
+      "Pasal 81",
+      "Pasal 82",
+      "Pasal 83",
+      "Pasal 84",
+      "Pasal 85",
+      "Pasal 86",
+      "Pasal 87",
+      "Pasal 88",
+      "Pasal 89",
+      "Pasal 9",
+      "Pasal 90",
+      "Pasal 91",
+      "Pasal 92",
+      "Pasal 93",
+      "Pasal 94",
+      "Pasal 95",
+      "Pasal 96",
+      "Pasal 97",
+      "Pasal 98",
+      "Pasal 99"
+    ],
+    "pasal_dilewati": [
+      {
+        "pasal": "Pasal 1",
+        "alasan": "definisi/istilah: \"Dalam Undang-Undang ini yang dimaksud dengan\" — di luar domain T-Box (pembentukan peraturan perundang-undangan)"
+      },
+      {
+        "pasal": "Pasal 2",
+        "alasan": "asas filosofis: \"Pancasila merupakan sumber segala sumber hukum negara\" — di luar domain T-Box"
+      },
+      {
+        "pasal": "Pasal 3",
+        "alasan": "kedudukan UUD 1945: \"merupakan hukum dasar dalam Peraturan Perundang-undangan\" — di luar domain T-Box"
+      },
+      {
+        "pasal": "Pasal 4",
+        "alasan": "ruang lingkup: \"meliputi Undang-Undang dan Peraturan Perundang-undangan di bawahnya\" — di luar domain T-Box"
+      },
+      {
+        "pasal": "Pasal 5",
+        "alasan": "asas pembentukan: \"harus dilakukan berdasarkan pada asas Pembentukan Peraturan Perundang-undangan yang baik\" — di luar domain T-Box"
+      },
+      {
+        "pasal": "Pasal 6",
+        "alasan": "asas materi muatan: \"Materi muatan Peraturan Perundang-undangan harus mencerminkan asas\" — di luar domain T-Box"
+      },
+      {
+        "pasal": "Pasal 7",
+        "alasan": "jenis dan hierarki: \"Jenis dan hierarki Peraturan Perundang-undangan terdiri atas\" — di luar domain T-Box"
+      },
+      {
+        "pasal": "Pasal 8",
+        "alasan": "jenis peraturan lain: \"diakui keberadaannya dan mempunyai kekuatan hukum mengikat\" — di luar domain T-Box"
+      },
+      {
+        "pasal": "Pasal 9",
+        "alasan": "pengujian peraturan: \"pengujiannya dilakukan oleh Mahkamah Konstitusi\" — di luar domain T-Box"
+      },
+      {
+        "pasal": "Pasal 10",
+        "alasan": "materi muatan UU: \"Materi muatan yang harus diatur dengan UndangUndang berisi\" — di luar domain T-Box"
+      },
+      {
+        "pasal": "Pasal 11",
+        "alasan": "materi muatan Perppu: \"sama dengan materi muatan Undang-Undang\" — di luar domain T-Box"
+      },
+      {
+        "pasal": "Pasal 12",
+        "alasan": "materi muatan PP: \"berisi materi untuk menjalankan Undang-Undang sebagaimana mestinya\" — di luar domain T-Box"
+      },
+      {
+        "pasal": "Pasal 13",
+        "alasan": "materi muatan Perpres: \"materi yang diperintahkan oleh Undang-Undang\" — di luar domain T-Box"
+      },
+      {
+        "pasal": "Pasal 14",
+        "alasan": "materi muatan Perda: \"dalam rangka penyelenggaraan otonomi daerah dan tugas pembantuan\" — di luar domain T-Box"
+      },
+      {
+        "pasal": "Pasal 15",
+        "alasan": "ketentuan pidana: \"Materi muatan mengenai ketentuan pidana hanya dapat dimuat dalam\" — di luar domain T-Box"
+      },
+      {
+        "pasal": "Pasal 16",
+        "alasan": "perencanaan UU: \"Perencanaan penyusunan Undang-Undang dilakukan dalam Prolegnas\" — di luar domain T-Box"
+      },
+      {
+        "pasal": "Pasal 17",
+        "alasan": "kedudukan Prolegnas: \"merupakan skala prioritas program pembentukan Undang-Undang\" — di luar domain T-Box"
+      },
+      {
+        "pasal": "Pasal 18",
+        "alasan": "dasar penyusunan Prolegnas: \"penyusunan daftar Rancangan UndangUndang didasarkan atas\" — di luar domain T-Box"
+      },
+      {
+        "pasal": "Pasal 19",
+        "alasan": "isi Prolegnas: \"memuat program pembentukan Undang-Undang dengan judul Rancangan Undang-Undang\" — di luar domain T-Box"
+      },
+      {
+        "pasal": "Pasal 20",
+        "alasan": "penyusunan Prolegnas: \"Penyusunan Prolegnas dilaksanakan oleh DPR dan Pemerintah\" — di luar domain T-Box"
+      },
+      {
+        "pasal": "Pasal 21",
+        "alasan": "koordinasi Prolegnas: \"dikoordinasikan oleh DPR melalui alat kelengkapan DPR\" — di luar domain T-Box"
+      },
+      {
+        "pasal": "Pasal 22",
+        "alasan": "penetapan Prolegnas: \"disepakati menjadi Prolegnas dan ditetapkan dalam Rapat Paripurna DPR\" — di luar domain T-Box"
+      },
+      {
+        "pasal": "Pasal 23",
+        "alasan": "daftar kumulatif terbuka: \"Dalam Prolegnas dimuat daftar kumulatif terbuka\" — di luar domain T-Box"
+      },
+      {
+        "pasal": "Pasal 24",
+        "alasan": "perencanaan PP: \"dilakukan dalam suatu program penyusunan Peraturan Pemerintah\" — di luar domain T-Box"
+      },
+      {
+        "pasal": "Pasal 25",
+        "alasan": "isi perencanaan PP: \"memuat daftar judul dan pokok materi muatan Rancangan Peraturan Pemerintah\" — di luar domain T-Box"
+      },
+      {
+        "pasal": "Pasal 26",
+        "alasan": "koordinasi perencanaan PP: \"dikoordinasikan oleh menteri yang menyelenggarakan urusan pemerintahan di bidang hukum\" — di luar domain T-Box"
+      },
+      {
+        "pasal": "Pasal 27",
+        "alasan": "asal usul Rancangan PP: \"berasal dari kementerian dan/atau lembaga pemerintah nonkementerian\" — di luar domain T-Box"
+      },
+      {
+        "pasal": "Pasal 28",
+        "alasan": "Rancangan PP di luar perencanaan: \"dapat mengajukan Rancangan Peraturan Pemerintah di luar perencanaan\" — di luar domain T-Box"
+      },
+      {
+        "pasal": "Pasal 29",
+        "alasan": "delegasi tata cara: \"diatur dengan Peraturan Presiden\" — di luar domain T-Box"
+      },
+      {
+        "pasal": "Pasal 30",
+        "alasan": "perencanaan Perpres: \"dilakukan dalam suatu program penyusunan Peraturan Presiden\" — di luar domain T-Box"
+      },
+      {
+        "pasal": "Pasal 31",
+        "alasan": "mutatis mutandis: \"berlaku secara mutatis mutandis terhadap perencanaan penyusunan Peraturan Presiden\" — di luar domain T-Box"
+      },
+      {
+        "pasal": "Pasal 32",
+        "alasan": "perencanaan Perda Provinsi: \"dilakukan dalam Prolegda Provinsi\" — di luar domain T-Box"
+      },
+      {
+        "pasal": "Pasal 33",
+        "alasan": "isi Prolegda Provinsi: \"memuat program pembentukan Peraturan Daerah Provinsi\" — di luar domain T-Box (pembentukan peraturan perundang-undangan)"
+      },
+      {
+        "pasal": "Pasal 34",
+        "alasan": "penyusunan Prolegda Provinsi: \"dilaksanakan oleh DPRD Provinsi dan Pemerintah Daerah Provinsi\" — di luar domain T-Box"
+      },
+      {
+        "pasal": "Pasal 35",
+        "alasan": "dasar penyusunan Prolegda: \"penyusunan daftar rancangan peraturan daerah provinsi didasarkan atas\" — di luar domain T-Box"
+      },
+      {
+        "pasal": "Pasal 36",
+        "alasan": "koordinasi Prolegda Provinsi: \"dikoordinasikan oleh DPRD Provinsi melalui alat kelengkapan DPRD Provinsi\" — di luar domain T-Box"
+      },
+      {
+        "pasal": "Pasal 37",
+        "alasan": "penetapan Prolegda Provinsi: \"disepakati menjadi Prolegda Provinsi\" — di luar domain T-Box"
+      },
+      {
+        "pasal": "Pasal 38",
+        "alasan": "daftar kumulatif terbuka: \"Dalam Prolegda Provinsi dapat dimuat daftar kumulatif terbuka\" — di luar domain T-Box"
+      },
+      {
+        "pasal": "Pasal 39",
+        "alasan": "perencanaan Perda Kab/Kota: \"dilakukan dalam Prolegda Kabupaten/Kota\" — di luar domain T-Box"
+      },
+      {
+        "pasal": "Pasal 40",
+        "alasan": "mutatis mutandis: \"berlaku secara mutatis mutandis terhadap perencanaan penyusunan Peraturan Daerah Kabupaten/Kota\" — di luar domain T-Box"
+      },
+      {
+        "pasal": "Pasal 41",
+        "alasan": "daftar kumulatif terbuka: \"mengenai pembentukan, pemekaran, dan penggabungan Kecamatan\" — di luar domain T-Box"
+      },
+      {
+        "pasal": "Pasal 42",
+        "alasan": "perencanaan peraturan lainnya: \"merupakan kewenangan dan disesuaikan dengan kebutuhan lembaga\" — di luar domain T-Box"
+      },
+      {
+        "pasal": "Pasal 43",
+        "alasan": "asal usul RUU: \"Rancangan Undang-Undang dapat berasal dari DPR atau Presiden\" — di luar domain T-Box"
+      },
+      {
+        "pasal": "Pasal 44",
+        "alasan": "Naskah Akademik: \"dilakukan sesuai dengan teknik penyusunan Naskah Akademik\" — di luar domain T-Box"
+      },
+      {
+        "pasal": "Pasal 45",
+        "alasan": "Prolegnas dan RUU DPD: \"disusun berdasarkan Prolegnas\" — di luar domain T-Box"
+      },
+      {
+        "pasal": "Pasal 46",
+        "alasan": "pengajuan RUU DPR: \"diajukan oleh anggota DPR, komisi, gabungan komisi\" — di luar domain T-Box"
+      },
+      {
+        "pasal": "Pasal 47",
+        "alasan": "penyiapan RUU Presiden: \"disiapkan oleh menteri atau pimpinan lembaga pemerintah nonkementerian\" — di luar domain T-Box"
+      },
+      {
+        "pasal": "Pasal 48",
+        "alasan": "RUU dari DPD: \"disampaikan secara tertulis oleh pimpinan DPD kepada pimpinan DPR\" — di luar domain T-Box"
+      },
+      {
+        "pasal": "Pasal 49",
+        "alasan": "penyampaian RUU ke Presiden: \"dalam jangka waktu paling lama 60 (enam puluh) hari\" — di luar domain T-Box"
+      },
+      {
+        "pasal": "Pasal 50",
+        "alasan": "pengajuan RUU Presiden: \"DPR mulai membahas Rancangan Undang-Undang\" — di luar domain T-Box"
+      },
+      {
+        "pasal": "Pasal 51",
+        "alasan": "RUU materi sama: \"yang dibahas adalah Rancangan Undang-Undang yang disampaikan oleh DPR\" — di luar domain T-Box"
+      },
+      {
+        "pasal": "Pasal 52",
+        "alasan": "Perppu: \"harus diajukan ke DPR dalam persidangan yang berikut\" — di luar domain T-Box"
+      },
+      {
+        "pasal": "Pasal 53",
+        "alasan": "delegasi tata cara Perppu: \"diatur dengan Peraturan Presiden\" — di luar domain T-Box"
+      },
+      {
+        "pasal": "Pasal 54",
+        "alasan": "penyusunan Rancangan PP: \"pemrakarsa membentuk panitia antarkementerian\" — di luar domain T-Box"
+      },
+      {
+        "pasal": "Pasal 55",
+        "alasan": "penyusunan Rancangan Perpres: \"pemrakarsa membentuk panitia antarkementerian\" — di luar domain T-Box"
+      },
+      {
+        "pasal": "Pasal 56",
+        "alasan": "asal usul Raperda Provinsi: \"dapat berasal dari DPRD Provinsi atau Gubernur\" — di luar domain T-Box"
+      },
+      {
+        "pasal": "Pasal 57",
+        "alasan": "Naskah Akademik Raperda: \"dilakukan sesuai dengan teknik penyusunan Naskah Akademik\" — di luar domain T-Box"
+      },
+      {
+        "pasal": "Pasal 58",
+        "alasan": "harmonisasi Raperda: \"dikoordinasikan oleh alat kelengkapan DPRD Provinsi\" — di luar domain T-Box"
+      },
+      {
+        "pasal": "Pasal 59",
+        "alasan": "delegasi tata cara: \"diatur dengan Peraturan Presiden\" — di luar domain T-Box"
+      },
+      {
+        "pasal": "Pasal 60",
+        "alasan": "pengajuan Raperda: \"dapat diajukan oleh anggota, komisi, gabungan komisi\" — di luar domain T-Box"
+      },
+      {
+        "pasal": "Pasal 61",
+        "alasan": "penyampaian Raperda: \"disampaikan dengan surat pimpinan DPRD Provinsi kepada Gubernur\" — di luar domain T-Box (pembentukan peraturan perundang-undangan)"
+      },
+      {
+        "pasal": "Pasal 62",
+        "alasan": "Raperda materi sama: \"yang dibahas adalah Rancangan Peraturan Daerah Provinsi yang disampaikan oleh DPRD Provinsi\" — di luar domain T-Box"
+      },
+      {
+        "pasal": "Pasal 63",
+        "alasan": "mutatis mutandis: \"berlaku secara mutatis mutandis terhadap penyusunan Peraturan Daerah Kabupaten/Kota\" — di luar domain T-Box"
+      },
+      {
+        "pasal": "Pasal 64",
+        "alasan": "teknik penyusunan: \"dilakukan sesuai dengan teknik penyusunan Peraturan Perundang-undangan\" — di luar domain T-Box"
+      },
+      {
+        "pasal": "Pasal 65",
+        "alasan": "pembahasan RUU: \"dilakukan oleh DPR bersama Presiden atau menteri yang ditugasi\" — di luar domain T-Box"
+      },
+      {
+        "pasal": "Pasal 66",
+        "alasan": "tingkat pembicaraan: \"dilakukan melalui 2 (dua) tingkat pembicaraan\" — di luar domain T-Box"
+      },
+      {
+        "pasal": "Pasal 67",
+        "alasan": "rincian tingkat: \"pembicaraan tingkat I dalam rapat komisi\" — di luar domain T-Box"
+      },
+      {
+        "pasal": "Pasal 68",
+        "alasan": "kegiatan tingkat I: \"pengantar musyawarah\" — di luar domain T-Box"
+      },
+      {
+        "pasal": "Pasal 69",
+        "alasan": "pengambilan keputusan: \"merupakan pengambilan keputusan dalam rapat paripurna\" — di luar domain T-Box"
+      },
+      {
+        "pasal": "Pasal 70",
+        "alasan": "penarikan RUU: \"dapat ditarik kembali sebelum dibahas bersama oleh DPR dan Presiden\" — di luar domain T-Box"
+      },
+      {
+        "pasal": "Pasal 71",
+        "alasan": "RUU Perppu: \"dilaksanakan melalui mekanisme yang sama dengan pembahasan Rancangan Undang-Undang\" — di luar domain T-Box"
+      },
+      {
+        "pasal": "Pasal 72",
+        "alasan": "penyampaian RUU: \"dalam jangka waktu paling lama 7 (tujuh) hari\" — di luar domain T-Box"
+      },
+      {
+        "pasal": "Pasal 73",
+        "alasan": "pengesahan RUU: \"disahkan oleh Presiden dengan membubuhkan tanda tangan\" — di luar domain T-Box"
+      },
+      {
+        "pasal": "Pasal 74",
+        "alasan": "batas waktu peraturan pelaksanaan: \"harus dicantumkan batas waktu penetapan Peraturan Pemerintah\" — di luar domain T-Box"
+      },
+      {
+        "pasal": "Pasal 75",
+        "alasan": "pembahasan Raperda: \"dilakukan oleh DPRD Provinsi bersama Gubernur\" — di luar domain T-Box"
+      },
+      {
+        "pasal": "Pasal 76",
+        "alasan": "penarikan Raperda: \"dapat ditarik kembali sebelum dibahas bersama oleh DPRD Provinsi dan Gubernur\" — di luar domain T-Box"
+      },
+      {
+        "pasal": "Pasal 77",
+        "alasan": "mutatis mutandis: \"berlaku secara mutatis mutandis terhadap pembahasan Peraturan Daerah Kabupaten/Kota\" — di luar domain T-Box"
+      },
+      {
+        "pasal": "Pasal 78",
+        "alasan": "penyampaian Raperda: \"dalam jangka waktu paling lama 7 (tujuh) hari\" — di luar domain T-Box"
+      },
+      {
+        "pasal": "Pasal 79",
+        "alasan": "penetapan Raperda: \"ditetapkan oleh Gubernur dengan membubuhkan tanda tangan\" — di luar domain T-Box"
+      },
+      {
+        "pasal": "Pasal 80",
+        "alasan": "mutatis mutandis: \"berlaku secara mutatis mutandis terhadap penetapan Peraturan Daerah Kabupaten/Kota\" — di luar domain T-Box"
+      },
+      {
+        "pasal": "Pasal 81",
+        "alasan": "pengundangan: \"Peraturan Perundangundangan harus diundangkan\" — di luar domain T-Box"
+      },
+      {
+        "pasal": "Pasal 82",
+        "alasan": "Lembaran Negara: \"diundangkan dalam Lembaran Negara Republik Indonesia, meliputi\" — di luar domain T-Box"
+      },
+      {
+        "pasal": "Pasal 83",
+        "alasan": "Berita Negara: \"diundangkan dalam Berita Negara Republik Indonesia meliputi\" — di luar domain T-Box"
+      },
+      {
+        "pasal": "Pasal 84",
+        "alasan": "Tambahan LN/BN: \"memuat penjelasan Peraturan Perundang-undangan\" — di luar domain T-Box"
+      },
+      {
+        "pasal": "Pasal 85",
+        "alasan": "pelaksanaan pengundangan: \"dilaksanakan oleh menteri yang menyelenggarakan urusan pemerintahan di bidang hukum\" — di luar domain T-Box"
+      },
+      {
+        "pasal": "Pasal 86",
+        "alasan": "Lembaran Daerah: \"adalah Peraturan Daerah Provinsi dan Peraturan Daerah Kabupaten/Kota\" — di luar domain T-Box"
+      },
+      {
+        "pasal": "Pasal 87",
+        "alasan": "mulai berlaku: \"mulai berlaku dan mempunyai kekuatan mengikat pada tanggal diundangkan\" — di luar domain T-Box"
+      },
+      {
+        "pasal": "Pasal 88",
+        "alasan": "penyebarluasan: \"Penyebarluasan dilakukan oleh DPR dan Pemerintah\" — di luar domain T-Box"
+      },
+      {
+        "pasal": "Pasal 89",
+        "alasan": "penyebarluasan Prolegnas: \"dilakukan bersama oleh DPR dan Pemerintah\" — di luar domain T-Box (pembentukan peraturan perundang-undangan)"
+      },
+      {
+        "pasal": "Pasal 90",
+        "alasan": "penyebarluasan UU: \"dilakukan secara bersama-sama oleh DPR dan Pemerintah\" — di luar domain T-Box"
+      },
+      {
+        "pasal": "Pasal 91",
+        "alasan": "penerjemahan: \"penerjemahannya dilaksanakan oleh menteri\" — di luar domain T-Box"
+      },
+      {
+        "pasal": "Pasal 92",
+        "alasan": "penyebarluasan Prolegda: \"dilakukan oleh DPRD dan Pemerintah Daerah\" — di luar domain T-Box"
+      },
+      {
+        "pasal": "Pasal 93",
+        "alasan": "pelaksanaan penyebarluasan: \"dikoordinasikan oleh alat kelengkapan DPRD\" — di luar domain T-Box"
+      },
+      {
+        "pasal": "Pasal 94",
+        "alasan": "penyebarluasan Perda: \"dilakukan bersama oleh DPRD dan Pemerintah Daerah\" — di luar domain T-Box"
+      },
+      {
+        "pasal": "Pasal 95",
+        "alasan": "naskah disebarluaskan: \"harus merupakan salinan naskah yang telah diundangkan\" — di luar domain T-Box"
+      },
+      {
+        "pasal": "Pasal 96",
+        "alasan": "partisipasi masyarakat: \"Masyarakat berhak memberikan masukan secara lisan dan/atau tertulis\" — di luar domain T-Box"
+      },
+      {
+        "pasal": "Pasal 97",
+        "alasan": "mutatis mutandis: \"berlaku secara mutatis mutandis bagi teknik penyusunan\" — di luar domain T-Box"
+      },
+      {
+        "pasal": "Pasal 98",
+        "alasan": "perancang peraturan: \"mengikutsertakan Perancang Peraturan Perundang-undangan\" — di luar domain T-Box"
+      },
+      {
+        "pasal": "Pasal 99",
+        "alasan": "peneliti dan tenaga ahli: \"mengikutsertakan peneliti dan tenaga ahli\" — di luar domain T-Box"
+      },
+      {
+        "pasal": "Pasal 100",
+        "alasan": "ketentuan peralihan: \"harus dimaknai sebagai peraturan\" — di luar domain T-Box"
+      },
+      {
+        "pasal": "Pasal 101",
+        "alasan": "ketentuan peralihan: \"dinyatakan masih tetap berlaku\" — di luar domain T-Box"
+      },
+      {
+        "pasal": "Pasal 102",
+        "alasan": "ketentuan penutup: \"dicabut dan dinyatakan tidak berlaku\" — di luar domain T-Box"
+      },
+      {
+        "pasal": "Pasal 103",
+        "alasan": "ketentuan penutup: \"ditetapkan paling lama 1 (satu) tahun\" — di luar domain T-Box"
+      },
+      {
+        "pasal": "Pasal 104",
+        "alasan": "ketentuan penutup: \"mulai berlaku pada tanggal diundangkan\" — di luar domain T-Box"
+      }
+    ],
+    "catatan": ""
+  },
+  "tidak_termodelkan": []
+}

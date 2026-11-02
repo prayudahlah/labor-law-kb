@@ -1,0 +1,118 @@
+{
+  "spec_version": "1.1.0",
+  "vocab_version": "0.3.0",
+  "dokumen_id": "PP-88-2013",
+  "status_review": "reviewed",
+  "peraturan": {
+    "judul": "Peraturan Pemerintah Nomor 88 Tahun 2013 tentang Tata Cara Pengenaan Sanksi Administratif bagi Peserta Jaminan Sosial",
+    "jenis": "PP",
+    "nomor": "88",
+    "tahun": "2013",
+    "sumber": "https://peraturan.go.id/id/pp-no-88-tahun-2013",
+    "status": "Berlaku",
+    "diubah_oleh": []
+  },
+  "norma": [],
+  "kategori": [],
+  "pengali_lembur": [],
+  "program_jamsos": [],
+  "cakupan": {
+    "lengkap": true,
+    "pasal_diekstrak": [
+      "Pasal 1",
+      "Pasal 10",
+      "Pasal 11",
+      "Pasal 12",
+      "Pasal 13",
+      "Pasal 14",
+      "Pasal 15",
+      "Pasal 16",
+      "Pasal 17",
+      "Pasal 18",
+      "Pasal 2",
+      "Pasal 3",
+      "Pasal 4",
+      "Pasal 5",
+      "Pasal 6",
+      "Pasal 7",
+      "Pasal 8",
+      "Pasal 9"
+    ],
+    "pasal_dilewati": [
+      {
+        "pasal": "Pasal 1",
+        "alasan": "definisi/istilah: pengertian DJSN, BPJS, Dewan Pengawas, dan Direksi"
+      },
+      {
+        "pasal": "Pasal 2",
+        "alasan": "larangan kelembagaan bagi anggota Dewan Pengawas/Direksi BPJS; bukan hubungan kerja atau hak normatif pekerja"
+      },
+      {
+        "pasal": "Pasal 3",
+        "alasan": "sanksi administratif (peringatan tertulis, pemberhentian sementara/tetap) dan pejabat yang mengenakan; sanksi di luar T-Box"
+      },
+      {
+        "pasal": "Pasal 4",
+        "alasan": "tata cara: sumber laporan dugaan pelanggaran (pengaduan dan tindak lanjut pengawasan)"
+      },
+      {
+        "pasal": "Pasal 5",
+        "alasan": "tata cara pengaduan kepada DJSN, syarat laporan, dan kerahasiaan identitas pelapor; prosedural"
+      },
+      {
+        "pasal": "Pasal 6",
+        "alasan": "tata cara: laporan tindak lanjut hasil pengawasan oleh pengawas independen kepada DJSN"
+      },
+      {
+        "pasal": "Pasal 7",
+        "alasan": "kelembagaan/tata cara: pembentukan dan susunan tim panel ad hoc"
+      },
+      {
+        "pasal": "Pasal 8",
+        "alasan": "tugas tim panel dalam pemeriksaan laporan; tata cara internal"
+      },
+      {
+        "pasal": "Pasal 9",
+        "alasan": "kelembagaan/tata cara: sekretariat DJSN dan tugasnya membantu tim panel"
+      },
+      {
+        "pasal": "Pasal 10",
+        "alasan": "tata cara pemeriksaan awal: rapat tim panel, klarifikasi, validasi, verifikasi, dan pembelaan"
+      },
+      {
+        "pasal": "Pasal 11",
+        "alasan": "tata cara pengenaan peringatan tertulis (maksimal 3 kali, 10 hari kerja) beserta perintah di dalamnya"
+      },
+      {
+        "pasal": "Pasal 12",
+        "alasan": "tata cara sanksi pemberhentian sementara dan pemberhentian tetap oleh Presiden; sanksi administratif"
+      },
+      {
+        "pasal": "Pasal 13",
+        "alasan": "tata cara pencabutan sanksi pemberhentian sementara dan pengembalian jabatan"
+      },
+      {
+        "pasal": "Pasal 14",
+        "alasan": "sanksi pemberhentian tetap atas pelanggaran Pasal 2 huruf c dan e; sanksi administratif"
+      },
+      {
+        "pasal": "Pasal 15",
+        "alasan": "tata cara penghentian pemeriksaan dan rekomendasi pengunduran diri; prosedural"
+      },
+      {
+        "pasal": "Pasal 16",
+        "alasan": "tata cara pengenaan peringatan tertulis atas pengakuan pelanggaran dan pemberhentian tetap karena pengulangan"
+      },
+      {
+        "pasal": "Pasal 17",
+        "alasan": "tata cara pemulihan nama baik bila tidak terbukti melakukan pelanggaran; prosedural"
+      },
+      {
+        "pasal": "Pasal 18",
+        "alasan": "ketentuan penutup: saat mulai berlaku"
+      }
+    ],
+    "catatan": ""
+  },
+  "tidak_termodelkan": []
+}

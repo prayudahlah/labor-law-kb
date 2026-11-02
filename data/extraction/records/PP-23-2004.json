@@ -1,0 +1,130 @@
+{
+  "spec_version": "1.1.0",
+  "vocab_version": "0.3.0",
+  "dokumen_id": "PP-23-2004",
+  "status_review": "reviewed",
+  "peraturan": {
+    "judul": "Peraturan Pemerintah Nomor 23 Tahun 2004 tentang Badan Nasional Sertifikasi Profesi",
+    "jenis": "PP",
+    "nomor": "23",
+    "tahun": "2004",
+    "sumber": "https://peraturan.go.id/id/pp-no-23-tahun-2004",
+    "status": "Berlaku",
+    "diubah_oleh": []
+  },
+  "norma": [],
+  "kategori": [],
+  "pengali_lembur": [],
+  "program_jamsos": [],
+  "cakupan": {
+    "lengkap": true,
+    "pasal_diekstrak": [
+      "Pasal 1",
+      "Pasal 10",
+      "Pasal 11",
+      "Pasal 12",
+      "Pasal 13",
+      "Pasal 14",
+      "Pasal 15",
+      "Pasal 16",
+      "Pasal 17",
+      "Pasal 18",
+      "Pasal 19",
+      "Pasal 2",
+      "Pasal 3",
+      "Pasal 4",
+      "Pasal 5",
+      "Pasal 6",
+      "Pasal 7",
+      "Pasal 8",
+      "Pasal 9"
+    ],
+    "pasal_dilewati": [
+      {
+        "pasal": "Pasal 1",
+        "alasan": "definisi/istilah: sertifikasi kompetensi kerja, Standar Kompetensi Kerja Nasional Indonesia, dan Menteri; penjelasan pasal cukup jelas, tanpa akibat hukum yang dapat dinalar"
+      },
+      {
+        "pasal": "Pasal 2",
+        "alasan": "kelembagaan: pembentukan BNSP sebagai lembaga independen yang bertanggung jawab kepada Presiden"
+      },
+      {
+        "pasal": "Pasal 3",
+        "alasan": "kelembagaan: tugas BNSP melaksanakan sertifikasi kompetensi kerja (mandat lembaga, bukan hak/kewajiban pekerja atau pengusaha)"
+      },
+      {
+        "pasal": "Pasal 5",
+        "alasan": "kelembagaan: susunan keanggotaan BNSP (Ketua, Wakil Ketua, sebanyak-banyaknya 23 anggota)"
+      },
+      {
+        "pasal": "Pasal 6",
+        "alasan": "kelembagaan: komposisi keanggotaan dari unsur Pemerintah dan unsur masyarakat"
+      },
+      {
+        "pasal": "Pasal 7",
+        "alasan": "kelembagaan: persyaratan calon anggota BNSP (kewarganegaraan, kesehatan, pendidikan, pengalaman kerja); bukan syarat kerja pekerja"
+      },
+      {
+        "pasal": "Pasal 8",
+        "alasan": "kelembagaan/tata cara internal: pembentukan Komisi penunjang tugas BNSP dan pengaturan lebih lanjut oleh BNSP"
+      },
+      {
+        "pasal": "Pasal 9",
+        "alasan": "kelembagaan: pembentukan Sekretariat BNSP dan Kepala Sekretariat; penjelasan bersifat elusidasi struktur organisasi"
+      },
+      {
+        "pasal": "Pasal 10",
+        "alasan": "kelembagaan: kedudukan Sekretariat BNSP di lingkungan instansi Pemerintah dan susunan 4 Bagian/2 Sub Bagian"
+      },
+      {
+        "pasal": "Pasal 11",
+        "alasan": "kelembagaan: pengangkatan dan pemberhentian Ketua, Wakil Ketua, dan Anggota BNSP oleh Presiden atas usul Menteri"
+      },
+      {
+        "pasal": "Pasal 12",
+        "alasan": "kelembagaan: masa jabatan anggota BNSP 5 tahun dan dapat diangkat kembali untuk 1 kali masa jabatan berikutnya"
+      },
+      {
+        "pasal": "Pasal 13",
+        "alasan": "kelembagaan/kepegawaian: PNS yang diangkat sebagai anggota BNSP diberhentikan dari jabatan organik, kenaikan pangkat, dan batas usia pensiun"
+      },
+      {
+        "pasal": "Pasal 14",
+        "alasan": "kelembagaan: alasan pemberhentian anggota BNSP (meninggal, mengundurkan diri, pidana, sakit, tidak melaksanakan tugas)"
+      },
+      {
+        "pasal": "Pasal 15",
+        "alasan": "tata kerja internal: kewajiban anggota BNSP menerapkan prinsip koordinasi, integrasi, sinkronisasi, dan transparansi"
+      },
+      {
+        "pasal": "Pasal 16",
+        "alasan": "tata cara internal: ketentuan lebih lanjut mengenai tata kerja BNSP diatur oleh BNSP"
+      },
+      {
+        "pasal": "Pasal 17",
+        "alasan": "pembiayaan/kelembagaan: biaya pelaksanaan tugas BNSP dibebankan pada APBN"
+      },
+      {
+        "pasal": "Pasal 19",
+        "alasan": "ketentuan penutup: Peraturan Pemerintah ini mulai berlaku pada tanggal diundangkan (5 Agustus 2004); penjelasan pasal cukup jelas"
+      },
+      {
+        "pasal": "Pasal 19",
+        "alasan": "penjelasan pasal (PENJELASAN II): cukup jelas, bukan norma mandiri; batang tubuhnya (ketentuan penutup) telah dicatat pada chunk 1"
+      }
+    ],
+    "catatan": ""
+  },
+  "tidak_termodelkan": [
+    {
+      "pasal": "Pasal 4",
+      "ringkasan": "BNSP dapat memberikan lisensi kepada lembaga sertifikasi profesi yang memenuhi persyaratan untuk melaksanakan sertifikasi kompetensi kerja; persyaratan dan tata cara pemberian lisensi ditetapkan lebih lanjut oleh BNSP. Penjelasan: LSP berfungsi sebagai kepanjangan tangan BNSP karena ruang lingkup kompetensi kerja sangat luas dan tersebar di berbagai sektor.",
+      "alasan": "relevan (rezim sertifikasi kompetensi kerja bagi tenaga kerja) tetapi butuh kelas/properti baru: lisensi LSP, persyaratan akreditasi, dan hubungan BNSP-LSP tidak ada di T-Box; jenis KetentuanPelatihan masih kandidat di VOCAB sehingga tidak boleh dipakai"
+    },
+    {
+      "pasal": "Pasal 18",
+      "ringkasan": "Pelaksanaan sertifikasi kompetensi kerja yang telah dilakukan lembaga sertifikasi profesi berdasarkan peraturan perundang-undangan dan/atau telah diakui lembaga internasional tetap dilaksanakan oleh LSP yang bersangkutan. Penjelasan: LSP tersebut tetap melaksanakan sertifikasi sesuai bidangnya tanpa harus mendapatkan lisensi dari BNSP, namun berkoordinasi dengan BNSP.",
+      "alasan": "relevan (pengakuan/ grandfathering LSP dan sertifikat kompetensi) tetapi butuh kelas/properti baru: pengakuan LSP dan koordinasi BNSP-LSP tidak termodelkan; jenis KetentuanPelatihan masih kandidat di VOCAB"
+    }
+  ]
+}

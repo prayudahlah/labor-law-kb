@@ -1,0 +1,334 @@
+{
+  "spec_version": "1.1.0",
+  "vocab_version": "0.3.0",
+  "dokumen_id": "PP-31-2026",
+  "status_review": "reviewed",
+  "peraturan": {
+    "judul": "Peraturan Pemerintah Nomor 31 Tahun 2026 tentang Konsesi bagi Penyandang Disabilitas dan Insentif bagi Perusahaan",
+    "jenis": "PP",
+    "nomor": "31",
+    "tahun": "2026",
+    "sumber": "https://peraturan.go.id/id/pp-no-31-tahun-2026",
+    "status": "Berlaku",
+    "diubah_oleh": []
+  },
+  "norma": [],
+  "kategori": [],
+  "pengali_lembur": [],
+  "program_jamsos": [],
+  "cakupan": {
+    "lengkap": true,
+    "pasal_diekstrak": [
+      "Pasal 1",
+      "Pasal 11",
+      "Pasal 12",
+      "Pasal 13",
+      "Pasal 14",
+      "Pasal 15",
+      "Pasal 16",
+      "Pasal 17",
+      "Pasal 18",
+      "Pasal 19",
+      "Pasal 1O",
+      "Pasal 2",
+      "Pasal 20",
+      "Pasal 21",
+      "Pasal 22",
+      "Pasal 23",
+      "Pasal 24",
+      "Pasal 25",
+      "Pasal 26",
+      "Pasal 27",
+      "Pasal 28",
+      "Pasal 29",
+      "Pasal 2O",
+      "Pasal 3",
+      "Pasal 30",
+      "Pasal 31",
+      "Pasal 32",
+      "Pasal 3O",
+      "Pasal 4",
+      "Pasal 5",
+      "Pasal 6",
+      "Pasal 7",
+      "Pasal 8",
+      "Pasal 9"
+    ],
+    "pasal_dilewati": [
+      {
+        "pasal": "Pasal 1",
+        "alasan": "definisi/istilah: Penyandang Disabilitas, Konsesi, Alat Bantu, KPD, Insentif"
+      },
+      {
+        "pasal": "Pasal 5",
+        "alasan": "heading duplikat tanpa isi normatif (artefak halaman/OCR)"
+      },
+      {
+        "pasal": "Pasal 6",
+        "alasan": "rincian konsesi sektor pendidikan; di luar domain ketenagakerjaan dan bukan norma mandiri"
+      },
+      {
+        "pasal": "Pasal 7",
+        "alasan": "ketentuan lebih lanjut diatur peraturan menteri; prosedural"
+      },
+      {
+        "pasal": "Pasal 8",
+        "alasan": "heading duplikat tanpa isi normatif (artefak halaman/OCR)"
+      },
+      {
+        "pasal": "Pasal 8",
+        "alasan": "rincian konsesi subsektor transportasi; di luar domain ketenagakerjaan"
+      },
+      {
+        "pasal": "Pasal 9",
+        "alasan": "ketentuan lebih lanjut diatur peraturan menteri/kepala daerah; prosedural"
+      },
+      {
+        "pasal": "Pasal 1O",
+        "alasan": "rincian konsesi sektor kesehatan; di luar domain ketenagakerjaan"
+      },
+      {
+        "pasal": "Pasal 11",
+        "alasan": "ketentuan lebih lanjut diatur peraturan menteri/kepala daerah; prosedural"
+      },
+      {
+        "pasal": "Pasal 12",
+        "alasan": "heading duplikat tanpa isi normatif (artefak halaman/OCR)"
+      },
+      {
+        "pasal": "Pasal 12",
+        "alasan": "rincian konsesi penyediaan Alat Bantu; di luar domain ketenagakerjaan"
+      },
+      {
+        "pasal": "Pasal 13",
+        "alasan": "ketentuan lebih lanjut diatur peraturan menteri; prosedural"
+      },
+      {
+        "pasal": "Pasal 14",
+        "alasan": "rincian konsesi sektor perumahan dan utilitas; di luar domain ketenagakerjaan"
+      },
+      {
+        "pasal": "Pasal 15",
+        "alasan": "ketentuan lebih lanjut diatur peraturan menteri/kepala daerah; prosedural"
+      },
+      {
+        "pasal": "Pasal 17",
+        "alasan": "ketentuan lebih lanjut biaya pelatihan dan sertifikasi diatur peraturan menteri/badan sertifikasi; prosedural"
+      },
+      {
+        "pasal": "Pasal 18",
+        "alasan": "rincian konsesi sektor kewirausahaan; di luar domain ketenagakerjaan"
+      },
+      {
+        "pasal": "Pasal 19",
+        "alasan": "ketentuan lebih lanjut diatur peraturan menteri/kepala daerah; prosedural"
+      },
+      {
+        "pasal": "Pasal 2O",
+        "alasan": "rincian konsesi sektor kebudayaan dan pariwisata; di luar domain ketenagakerjaan"
+      },
+      {
+        "pasal": "Pasal 21",
+        "alasan": "ketentuan lebih lanjut diatur peraturan menteri/kepala daerah; prosedural"
+      },
+      {
+        "pasal": "Pasal 22",
+        "alasan": "rincian konsesi sektor olahraga; di luar domain ketenagakerjaan"
+      },
+      {
+        "pasal": "Pasal 23",
+        "alasan": "ketentuan lebih lanjut diatur peraturan menteri/kepala daerah; prosedural"
+      },
+      {
+        "pasal": "Pasal 24",
+        "alasan": "pemberian konsesi dapat bertahap sesuai kemampuan keuangan negara/daerah; ketentuan pelaksanaan fiskal"
+      },
+      {
+        "pasal": "Pasal 27",
+        "alasan": "tata cara usulan dan seleksi calon penerima Insentif; prosedural"
+      },
+      {
+        "pasal": "Pasal 28",
+        "alasan": "sumber pendanaan Konsesi dan Insentif (APBN/APBD/sumber sah lain); kelembagaan fiskal"
+      },
+      {
+        "pasal": "Pasal 29",
+        "alasan": "pemantauan, evaluasi, dan pelaporan; kelembagaan/prosedural"
+      },
+      {
+        "pasal": "Pasal 3O",
+        "alasan": "ketentuan peralihan: penggunaan surat keterangan disabilitas sebelum KPD diterbitkan"
+      },
+      {
+        "pasal": "Pasal 31",
+        "alasan": "ketentuan penutup: batas waktu 2 tahun penetapan peraturan pelaksanaan"
+      },
+      {
+        "pasal": "Pasal 32",
+        "alasan": "ketentuan penutup: mulai berlaku"
+      },
+      {
+        "pasal": "Pasal 2",
+        "alasan": "penjelasan pasal (bukan batang tubuh): Cukup jelas"
+      },
+      {
+        "pasal": "Pasal 3",
+        "alasan": "penjelasan pasal (bukan batang tubuh): Cukup jelas"
+      },
+      {
+        "pasal": "Pasal 4",
+        "alasan": "penjelasan pasal (bukan batang tubuh): Cukup jelas"
+      },
+      {
+        "pasal": "Pasal 5",
+        "alasan": "penjelasan pasal (bukan batang tubuh): definisi pendamping"
+      },
+      {
+        "pasal": "Pasal 6",
+        "alasan": "penjelasan pasal (bukan batang tubuh): definisi biaya pendidikan"
+      },
+      {
+        "pasal": "Pasal 7",
+        "alasan": "penjelasan pasal (bukan batang tubuh): Cukup jelas"
+      },
+      {
+        "pasal": "Pasal 8",
+        "alasan": "penjelasan pasal (bukan batang tubuh): Cukup jelas"
+      },
+      {
+        "pasal": "Pasal 9",
+        "alasan": "penjelasan pasal (bukan batang tubuh): Cukup jelas"
+      },
+      {
+        "pasal": "Pasal 1O",
+        "alasan": "penjelasan pasal (bukan batang tubuh): komponen tarif pelayanan kesehatan"
+      },
+      {
+        "pasal": "Pasal 11",
+        "alasan": "penjelasan pasal (bukan batang tubuh): Cukup jelas"
+      },
+      {
+        "pasal": "Pasal 12",
+        "alasan": "penjelasan pasal (bukan batang tubuh): definisi perangkat lunak dan contoh Alat Bantu"
+      },
+      {
+        "pasal": "Pasal 13",
+        "alasan": "penjelasan pasal (bukan batang tubuh): Cukup jelas"
+      },
+      {
+        "pasal": "Pasal 14",
+        "alasan": "penjelasan pasal (bukan batang tubuh): definisi biaya kepemilikan tempat tinggal"
+      },
+      {
+        "pasal": "Pasal 15",
+        "alasan": "penjelasan pasal (bukan batang tubuh): Cukup jelas"
+      },
+      {
+        "pasal": "Pasal 16",
+        "alasan": "penjelasan pasal (bukan batang tubuh): definisi pelatihan kerja dan sertifikasi kompetensi kerja"
+      },
+      {
+        "pasal": "Pasal 17",
+        "alasan": "penjelasan pasal (bukan batang tubuh): Cukup jelas"
+      },
+      {
+        "pasal": "Pasal 18",
+        "alasan": "penjelasan pasal (bukan batang tubuh): Cukup jelas"
+      },
+      {
+        "pasal": "Pasal 19",
+        "alasan": "penjelasan pasal (bukan batang tubuh): Cukup jelas"
+      },
+      {
+        "pasal": "Pasal 20",
+        "alasan": "penjelasan pasal (bukan batang tubuh): Cukup jelas"
+      },
+      {
+        "pasal": "Pasal 2O",
+        "alasan": "penjelasan pasal (bukan batang tubuh): Cukup jelas"
+      },
+      {
+        "pasal": "Pasal 21",
+        "alasan": "penjelasan pasal (bukan batang tubuh): Cukup jelas"
+      },
+      {
+        "pasal": "Pasal 23",
+        "alasan": "penjelasan pasal (bukan batang tubuh): Cukup jelas"
+      },
+      {
+        "pasal": "Pasal 24",
+        "alasan": "penjelasan pasal (bukan batang tubuh): Cukup jelas"
+      },
+      {
+        "pasal": "Pasal 25",
+        "alasan": "penjelasan pasal (bukan batang tubuh): Cukup jelas"
+      },
+      {
+        "pasal": "Pasal 26",
+        "alasan": "penjelasan pasal (bukan batang tubuh): rincian bentuk apresiasi, promosi, kemudahan perizinan, dan fasilitas kerja aksesibel"
+      },
+      {
+        "pasal": "Pasal 27",
+        "alasan": "penjelasan pasal (bukan batang tubuh): Cukup jelas"
+      },
+      {
+        "pasal": "Pasal 28",
+        "alasan": "penjelasan pasal (bukan batang tubuh): Cukup jelas"
+      },
+      {
+        "pasal": "Pasal 29",
+        "alasan": "penjelasan pasal (bukan batang tubuh): Cukup jelas"
+      },
+      {
+        "pasal": "Pasal 30",
+        "alasan": "penjelasan pasal (bukan batang tubuh): Cukup jelas"
+      },
+      {
+        "pasal": "Pasal 31",
+        "alasan": "penjelasan pasal (bukan batang tubuh): Cukup jelas"
+      },
+      {
+        "pasal": "Pasal 32",
+        "alasan": "penjelasan pasal (bukan batang tubuh): Cukup jelas"
+      }
+    ],
+    "catatan": ""
+  },
+  "tidak_termodelkan": [
+    {
+      "pasal": "Pasal 2",
+      "ringkasan": "Pemerintah dan Pemerintah Daerah wajib memberikan Konsesi untuk Penyandang Disabilitas; BUMN/BUMD dapat melaksanakannya; Pemerintah/Pemda mengupayakan pihak swasta.",
+      "alasan": "butuh kelas/properti baru: Konsesi, pemberi Konsesi, dan penerima Konsesi belum ada di T-Box"
+    },
+    {
+      "pasal": "Pasal 3",
+      "ringkasan": "Konsesi diberikan kepada Penyandang Disabilitas yang memiliki Kartu Penyandang Disabilitas (KPD).",
+      "alasan": "butuh kelas PenerimaKonsesi dan properti kepemilikan KPD"
+    },
+    {
+      "pasal": "Pasal 4",
+      "ringkasan": "Jenis Konsesi meliputi sektor pendidikan, transportasi, kesehatan, Alat Bantu, perumahan dan utilitas, ketenagakerjaan, kewirausahaan, kebudayaan dan pariwisata, olahraga, serta lainnya.",
+      "alasan": "butuh kelas JenisKonsesi dan enumerasi sektor; teks OCR tidak lengkap (beberapa huruf sektor hilang)"
+    },
+    {
+      "pasal": "Pasal 5",
+      "ringkasan": "Besaran Konsesi paling rendah 20% (dua puluh persen) dan lebih besar bagi Penyandang Disabilitas yang membutuhkan pendamping pada sektor transportasi, kebudayaan dan pariwisata, serta olahraga.",
+      "alasan": "butuh parameter persentase konsesi yang tidak ada di VOCAB dan kelas Konsesi"
+    },
+    {
+      "pasal": "Pasal 16",
+      "ringkasan": "Konsesi pada sektor ketenagakerjaan meliputi biaya pelatihan kerja dan biaya sertifikasi kompetensi kerja bagi Penyandang Disabilitas.",
+      "alasan": "relevan ketenagakerjaan tetapi butuh kelas KonsesiKetenagakerjaan; jenis KetentuanPelatihan masih kandidat di VOCAB dan belum ada di T-Box"
+    },
+    {
+      "pasal": "Pasal 25",
+      "ringkasan": "Insentif diberikan Pemerintah dan Pemerintah Daerah kepada perusahaan swasta pemberi Konsesi, perusahaan swasta yang mempekerjakan Penyandang Disabilitas, dan perusahaan pariwisata jasa perjalanan wisata yang mudah diakses.",
+      "alasan": "relevan ketenagakerjaan tetapi butuh kelas InsentifPerusahaan dan properti penerima Insentif"
+    },
+    {
+      "pasal": "Pasal 26",
+      "ringkasan": "Insentif diberikan dalam bentuk apresiasi, promosi dan publikasi, kemudahan perizinan, bantuan fasilitas kerja yang mudah diakses, dan/atau bentuk lain.",
+      "alasan": "butuh kelas BentukInsentif dan properti fasilitas kerja aksesibel"
+    }
+  ]
+}

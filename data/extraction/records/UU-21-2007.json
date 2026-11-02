@@ -1,0 +1,363 @@
+{
+  "spec_version": "1.1.0",
+  "vocab_version": "0.3.0",
+  "dokumen_id": "UU-21-2007",
+  "status_review": "reviewed",
+  "peraturan": {
+    "judul": "Undang-Undang Nomor 21 Tahun 2007 tentang Pemberantasan Tindak Pidana Perdagangan Orang",
+    "jenis": "UU",
+    "nomor": "21",
+    "tahun": "2007",
+    "sumber": "https://peraturan.go.id/id/uu-no-21-tahun-2007",
+    "status": "Berlaku",
+    "diubah_oleh": []
+  },
+  "norma": [],
+  "kategori": [],
+  "pengali_lembur": [],
+  "program_jamsos": [],
+  "cakupan": {
+    "lengkap": true,
+    "pasal_diekstrak": [
+      "Pasal 1",
+      "Pasal 10",
+      "Pasal 11",
+      "Pasal 12",
+      "Pasal 13",
+      "Pasal 14",
+      "Pasal 15",
+      "Pasal 16",
+      "Pasal 17",
+      "Pasal 18",
+      "Pasal 19",
+      "Pasal 2",
+      "Pasal 20",
+      "Pasal 21",
+      "Pasal 22",
+      "Pasal 23",
+      "Pasal 24",
+      "Pasal 25",
+      "Pasal 26",
+      "Pasal 27",
+      "Pasal 28",
+      "Pasal 29",
+      "Pasal 3",
+      "Pasal 30",
+      "Pasal 31",
+      "Pasal 32",
+      "Pasal 33",
+      "Pasal 34",
+      "Pasal 35",
+      "Pasal 36",
+      "Pasal 37",
+      "Pasal 38",
+      "Pasal 39",
+      "Pasal 4",
+      "Pasal 40",
+      "Pasal 41",
+      "Pasal 42",
+      "Pasal 43",
+      "Pasal 44",
+      "Pasal 45",
+      "Pasal 46",
+      "Pasal 47",
+      "Pasal 48",
+      "Pasal 49",
+      "Pasal 5",
+      "Pasal 50",
+      "Pasal 51",
+      "Pasal 52",
+      "Pasal 53",
+      "Pasal 54",
+      "Pasal 55",
+      "Pasal 56",
+      "Pasal 57",
+      "Pasal 58",
+      "Pasal 59",
+      "Pasal 6",
+      "Pasal 60",
+      "Pasal 61",
+      "Pasal 62",
+      "Pasal 63",
+      "Pasal 64",
+      "Pasal 65",
+      "Pasal 66",
+      "Pasal 67",
+      "Pasal 7",
+      "Pasal 8",
+      "Pasal 9"
+    ],
+    "pasal_dilewati": [
+      {
+        "pasal": "Pasal 1",
+        "alasan": "definisi/istilah: perdagangan orang, eksploitasi, korban, anak, restitusi, dan istilah lain; tanpa akibat hukum"
+      },
+      {
+        "pasal": "Pasal 2",
+        "alasan": "ketentuan pidana perdagangan orang beserta ancaman pidana; di luar domain ketenagakerjaan"
+      },
+      {
+        "pasal": "Pasal 3",
+        "alasan": "ketentuan pidana memasukkan orang ke wilayah RI untuk dieksploitasi; pidana"
+      },
+      {
+        "pasal": "Pasal 4",
+        "alasan": "ketentuan pidana membawa WNI ke luar negeri untuk dieksploitasi; pidana"
+      },
+      {
+        "pasal": "Pasal 5",
+        "alasan": "ketentuan pidana pengangkatan anak dengan maksud eksploitasi; pidana"
+      },
+      {
+        "pasal": "Pasal 6",
+        "alasan": "ketentuan pidana pengiriman anak yang mengakibatkan eksploitasi; pidana"
+      },
+      {
+        "pasal": "Pasal 7",
+        "alasan": "pemberatan pidana bila korban luka berat, gangguan jiwa, atau mati; pidana"
+      },
+      {
+        "pasal": "Pasal 8",
+        "alasan": "pidana bagi penyelenggara negara yang menyalahgunakan kekuasaan; pidana"
+      },
+      {
+        "pasal": "Pasal 9",
+        "alasan": "pidana percobaan menggerakkan orang melakukan TPPO; pidana"
+      },
+      {
+        "pasal": "Pasal 10",
+        "alasan": "pidana membantu atau melakukan percobaan TPPO; pidana"
+      },
+      {
+        "pasal": "Pasal 11",
+        "alasan": "pidana merencanakan atau permufakatan jahat TPPO; pidana"
+      },
+      {
+        "pasal": "Pasal 12",
+        "alasan": "pidana memanfaatkan korban, termasuk mempekerjakannya untuk meneruskan eksploitasi; pidana"
+      },
+      {
+        "pasal": "Pasal 13",
+        "alasan": "pertanggungjawaban pidana korporasi; pidana"
+      },
+      {
+        "pasal": "Pasal 14",
+        "alasan": "tata cara pemanggilan korporasi; hukum acara pidana"
+      },
+      {
+        "pasal": "Pasal 15",
+        "alasan": "pidana denda dan pidana tambahan bagi korporasi; pidana"
+      },
+      {
+        "pasal": "Pasal 16",
+        "alasan": "pemberatan pidana bagi kelompok terorganisasi; pidana"
+      },
+      {
+        "pasal": "Pasal 17",
+        "alasan": "pemberatan pidana bila korban anak; pidana"
+      },
+      {
+        "pasal": "Pasal 18",
+        "alasan": "peniadaan pidana bagi korban yang dipaksa pelaku; pidana"
+      },
+      {
+        "pasal": "Pasal 19",
+        "alasan": "pidana pemalsuan dokumen untuk mempermudah TPPO; pidana"
+      },
+      {
+        "pasal": "Pasal 20",
+        "alasan": "pidana kesaksian atau alat bukti palsu; pidana"
+      },
+      {
+        "pasal": "Pasal 21",
+        "alasan": "pidana penyerangan fisik terhadap saksi atau petugas sidang; pidana"
+      },
+      {
+        "pasal": "Pasal 22",
+        "alasan": "pidana mencegah atau menggagalkan penyidikan/penuntutan; pidana"
+      },
+      {
+        "pasal": "Pasal 23",
+        "alasan": "pidana membantu pelarian pelaku; pidana"
+      },
+      {
+        "pasal": "Pasal 24",
+        "alasan": "pidana membocorkan identitas saksi atau korban; pidana"
+      },
+      {
+        "pasal": "Pasal 25",
+        "alasan": "pidana pengganti kurungan atas denda yang tidak dibayar; pidana"
+      },
+      {
+        "pasal": "Pasal 26",
+        "alasan": "persetujuan korban tidak menghapus penuntutan; hukum pidana"
+      },
+      {
+        "pasal": "Pasal 27",
+        "alasan": "pelaku kehilangan hak tagih atas utang yang dipakai mengeksploitasi korban; hukum pidana"
+      },
+      {
+        "pasal": "Pasal 28",
+        "alasan": "penyidikan, penuntutan, dan pemeriksaan mengikuti Hukum Acara Pidana; prosedural"
+      },
+      {
+        "pasal": "Pasal 29",
+        "alasan": "alat bukti elektronik dan data; hukum acara pidana"
+      },
+      {
+        "pasal": "Pasal 30",
+        "alasan": "kekuatan keterangan saksi korban sebagai alat bukti; hukum acara pidana"
+      },
+      {
+        "pasal": "Pasal 31",
+        "alasan": "kewenangan penyadapan dan izin ketua pengadilan; hukum acara pidana"
+      },
+      {
+        "pasal": "Pasal 32",
+        "alasan": "pemblokiran harta kekayaan tersangka/terdakwa; hukum acara pidana"
+      },
+      {
+        "pasal": "Pasal 33",
+        "alasan": "kerahasiaan identitas pelapor; perlindungan dalam proses pidana"
+      },
+      {
+        "pasal": "Pasal 34",
+        "alasan": "keterangan saksi jarak jauh melalui audio visual; hukum acara pidana"
+      },
+      {
+        "pasal": "Pasal 35",
+        "alasan": "hak saksi/korban didampingi advokat atau pendamping; perlindungan saksi/korban"
+      },
+      {
+        "pasal": "Pasal 36",
+        "alasan": "hak korban memperoleh informasi perkembangan kasus; perlindungan saksi/korban"
+      },
+      {
+        "pasal": "Pasal 37",
+        "alasan": "hak saksi/korban memberi keterangan tanpa kehadiran terdakwa; prosedural"
+      },
+      {
+        "pasal": "Pasal 38",
+        "alasan": "pemeriksaan saksi/korban anak dengan memperhatikan kepentingan anak; perlindungan anak"
+      },
+      {
+        "pasal": "Pasal 39",
+        "alasan": "sidang tertutup dan pendampingan saksi/korban anak; perlindungan anak"
+      },
+      {
+        "pasal": "Pasal 40",
+        "alasan": "pemeriksaan saksi/korban anak di luar sidang dengan perekaman; prosedural"
+      },
+      {
+        "pasal": "Pasal 41",
+        "alasan": "pemeriksaan dan putusan tanpa kehadiran terdakwa; hukum acara pidana"
+      },
+      {
+        "pasal": "Pasal 42",
+        "alasan": "pengumuman putusan in absentia; hukum acara pidana"
+      },
+      {
+        "pasal": "Pasal 43",
+        "alasan": "rujukan perlindungan saksi/korban ke UU 13/2006; ketentuan rujukan"
+      },
+      {
+        "pasal": "Pasal 44",
+        "alasan": "hak kerahasiaan identitas saksi/korban dan keluarganya; perlindungan saksi/korban"
+      },
+      {
+        "pasal": "Pasal 45",
+        "alasan": "pembentukan ruang pelayanan khusus di kantor kepolisian; kelembagaan"
+      },
+      {
+        "pasal": "Pasal 46",
+        "alasan": "pembentukan pusat pelayanan terpadu di kabupaten/kota; kelembagaan"
+      },
+      {
+        "pasal": "Pasal 47",
+        "alasan": "kewajiban kepolisian memberikan perlindungan; kelembagaan"
+      },
+      {
+        "pasal": "Pasal 48",
+        "alasan": "hak restitusi korban dan tata cara pemberiannya; ganti kerugian pidana"
+      },
+      {
+        "pasal": "Pasal 49",
+        "alasan": "pelaporan pelaksanaan restitusi kepada ketua pengadilan; prosedural"
+      },
+      {
+        "pasal": "Pasal 50",
+        "alasan": "penagihan, penyitaan harta, dan kurungan pengganti restitusi; prosedural"
+      },
+      {
+        "pasal": "Pasal 51",
+        "alasan": "hak rehabilitasi kesehatan/sosial, pemulangan, dan reintegrasi sosial; layanan korban"
+      },
+      {
+        "pasal": "Pasal 52",
+        "alasan": "kewajiban rehabilitasi paling lambat 7 hari dan pembentukan rumah perlindungan; layanan korban"
+      },
+      {
+        "pasal": "Pasal 53",
+        "alasan": "pertolongan pertama bagi korban trauma paling lambat 7 hari; layanan korban"
+      },
+      {
+        "pasal": "Pasal 54",
+        "alasan": "perlindungan dan pemulangan korban di luar negeri; layanan korban"
+      },
+      {
+        "pasal": "Pasal 55",
+        "alasan": "hak dan perlindungan lain menurut peraturan perundang-undangan lain; ketentuan rujukan"
+      },
+      {
+        "pasal": "Pasal 56",
+        "alasan": "tujuan pencegahan TPPO; kebijakan/kelembagaan"
+      },
+      {
+        "pasal": "Pasal 57",
+        "alasan": "kewajiban pemerintah, daerah, masyarakat, dan keluarga mencegah TPPO; kelembagaan"
+      },
+      {
+        "pasal": "Pasal 58",
+        "alasan": "pembentukan gugus tugas pusat/daerah dan tugas koordinasi; kelembagaan"
+      },
+      {
+        "pasal": "Pasal 59",
+        "alasan": "kerja sama internasional bilateral/regional/multilateral; kelembagaan"
+      },
+      {
+        "pasal": "Pasal 60",
+        "alasan": "peran serta masyarakat dalam pencegahan dan penanganan korban; kelembagaan"
+      },
+      {
+        "pasal": "Pasal 61",
+        "alasan": "akses seluas-luasnya bagi peran serta masyarakat; kelembagaan"
+      },
+      {
+        "pasal": "Pasal 62",
+        "alasan": "hak masyarakat atas perlindungan hukum; kelembagaan"
+      },
+      {
+        "pasal": "Pasal 63",
+        "alasan": "pelaksanaan peran serta secara bertanggung jawab; kelembagaan"
+      },
+      {
+        "pasal": "Pasal 64",
+        "alasan": "ketentuan peralihan bagi perkara yang masih diproses; peralihan"
+      },
+      {
+        "pasal": "Pasal 65",
+        "alasan": "pencabutan Pasal 297 dan 324 KUHP; ketentuan penutup"
+      },
+      {
+        "pasal": "Pasal 66",
+        "alasan": "tenggat 6 bulan penerbitan peraturan pelaksanaan; ketentuan penutup"
+      },
+      {
+        "pasal": "Pasal 67",
+        "alasan": "mulai berlaku pada tanggal diundangkan; ketentuan penutup"
+      }
+    ],
+    "catatan": ""
+  },
+  "tidak_termodelkan": []
+}

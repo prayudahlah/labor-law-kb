@@ -1,0 +1,160 @@
+{
+  "spec_version": "1.1.0",
+  "vocab_version": "0.3.0",
+  "dokumen_id": "PP-31-2006",
+  "status_review": "reviewed",
+  "peraturan": {
+    "judul": "Peraturan Pemerintah Nomor 31 Tahun 2006 tentang Sistem Pelatihan Kerja Nasional",
+    "jenis": "PP",
+    "nomor": "31",
+    "tahun": "2006",
+    "sumber": "https://peraturan.go.id/id/pp-no-31-tahun-2006",
+    "status": "Berlaku",
+    "diubah_oleh": []
+  },
+  "norma": [],
+  "kategori": [],
+  "pengali_lembur": [],
+  "program_jamsos": [],
+  "cakupan": {
+    "lengkap": true,
+    "pasal_diekstrak": [
+      "Pasal 1",
+      "Pasal 10",
+      "Pasal 11",
+      "Pasal 12",
+      "Pasal 13",
+      "Pasal 14",
+      "Pasal 15",
+      "Pasal 16",
+      "Pasal 17",
+      "Pasal 18",
+      "Pasal 19",
+      "Pasal 2",
+      "Pasal 20",
+      "Pasal 21",
+      "Pasal 22",
+      "Pasal 23",
+      "Pasal 24",
+      "Pasal 3",
+      "Pasal 4",
+      "Pasal 5",
+      "Pasal 6",
+      "Pasal 7",
+      "Pasal 8",
+      "Pasal 9"
+    ],
+    "pasal_dilewati": [
+      {
+        "pasal": "Pasal 1",
+        "alasan": "definisi/istilah (14 pengertian dalam Sislatkernas)"
+      },
+      {
+        "pasal": "Pasal 2",
+        "alasan": "tujuan Sislatkernas, bukan norma kondisi-akibat"
+      },
+      {
+        "pasal": "Pasal 3",
+        "alasan": "prinsip dasar pelatihan kerja, bukan norma kondisi-akibat"
+      },
+      {
+        "pasal": "Pasal 15",
+        "alasan": "kelembagaan: pengembangan sistem informasi oleh Menteri"
+      },
+      {
+        "pasal": "Pasal 16",
+        "alasan": "tata cara internal: kegiatan pengumpulan/pengolahan/penyajian data"
+      },
+      {
+        "pasal": "Pasal 17",
+        "alasan": "kriteria sistem informasi, bukan norma kondisi-akibat"
+      },
+      {
+        "pasal": "Pasal 18",
+        "alasan": "pendanaan, di luar kelas norma T-Box"
+      },
+      {
+        "pasal": "Pasal 19",
+        "alasan": "kelembagaan: pembinaan Sislatkernas oleh instansi pemerintah"
+      },
+      {
+        "pasal": "Pasal 20",
+        "alasan": "kelembagaan: lembaga koordinasi pelatihan kerja nasional"
+      },
+      {
+        "pasal": "Pasal 21",
+        "alasan": "pembagian tugas pemerintahan daerah, bukan norma T-Box"
+      },
+      {
+        "pasal": "Pasal 22",
+        "alasan": "ketentuan peralihan"
+      },
+      {
+        "pasal": "Pasal 23",
+        "alasan": "ketentuan pencabutan (PP 71/1991)"
+      },
+      {
+        "pasal": "Pasal 24",
+        "alasan": "ketentuan penutup: saat mulai berlaku"
+      }
+    ],
+    "catatan": ""
+  },
+  "tidak_termodelkan": [
+    {
+      "pasal": "Pasal 4",
+      "ringkasan": "Program pelatihan kerja disusun berdasarkan SKKNI/Standar Internasional/Standar Khusus, berjenjang mengacu KKNI atau tidak berjenjang berbasis unit kompetensi.",
+      "alasan": "butuh kelas baru: KetentuanPelatihan (masih kandidat di VOCAB, belum aktif di T-Box)"
+    },
+    {
+      "pasal": "Pasal 5",
+      "ringkasan": "KKNI disusun berdasarkan jenjang kualifikasi kerja, terdiri atas 9 jenjang sertifikat 1 sampai 9, ditetapkan dengan Peraturan Presiden.",
+      "alasan": "butuh kelas baru: KetentuanPelatihan + parameter jenjangKKNI"
+    },
+    {
+      "pasal": "Pasal 6",
+      "ringkasan": "KKNI menjadi acuan penetapan kualifikasi tenaga kerja; sektor/profesi tertentu dapat memilih kualifikasi tertentu namun tetap menggunakan KKNI.",
+      "alasan": "butuh kelas baru: KetentuanPelatihan"
+    },
+    {
+      "pasal": "Pasal 7",
+      "ringkasan": "SKKNI disusun berdasarkan kebutuhan lapangan usaha, memuat kompetensi teknis/pengetahuan/sikap kerja, dikelompokkan ke jenjang kualifikasi dan dibakukan melalui konvensi serta ditetapkan Peraturan Menteri.",
+      "alasan": "butuh kelas baru: KetentuanPelatihan"
+    },
+    {
+      "pasal": "Pasal 8",
+      "ringkasan": "SKKNI menjadi acuan penyusunan program pelatihan kerja dan materi uji kompetensi.",
+      "alasan": "butuh kelas baru: KetentuanPelatihan"
+    },
+    {
+      "pasal": "Pasal 9",
+      "ringkasan": "Pelatihan kerja diselenggarakan dengan metode relevan/efektif/efisien, di tempat kerja dan/atau lembaga pelatihan, termasuk melalui pemagangan.",
+      "alasan": "butuh kelas baru: KetentuanPelatihan/Pemagangan"
+    },
+    {
+      "pasal": "Pasal 10",
+      "ringkasan": "Penyelenggaraan pelatihan kerja harus didukung sarana dan prasarana yang memenuhi persyaratan standar kompetensi kerja.",
+      "alasan": "butuh kelas baru: KetentuanPelatihan (sarana prasarana)"
+    },
+    {
+      "pasal": "Pasal 11",
+      "ringkasan": "Penyelenggaraan pelatihan kerja harus didukung tenaga kepelatihan dengan kualifikasi kompetensi teknis, pengetahuan, dan sikap kerja sesuai bidang tugas.",
+      "alasan": "butuh kelas baru: KetentuanPelatihan (tenaga kepelatihan)"
+    },
+    {
+      "pasal": "Pasal 12",
+      "ringkasan": "Pelatihan kerja diselenggarakan lembaga pelatihan pemerintah bertanda daftar atau swasta berizin; lembaga dapat memperoleh akreditasi.",
+      "alasan": "butuh kelas baru: KetentuanPelatihan (perizinan/akreditasi lembaga)"
+    },
+    {
+      "pasal": "Pasal 13",
+      "ringkasan": "Setiap tenaga kerja berkesempatan mengikuti pelatihan kerja sesuai bakat/minat/kemampuan; peserta wajib memenuhi persyaratan; peserta dengan keterbatasan fisik/mental dapat diberi pelayanan khusus.",
+      "alasan": "butuh kelas baru: KetentuanPelatihan (hak peserta dan pelayanan khusus)"
+    },
+    {
+      "pasal": "Pasal 14",
+      "ringkasan": "Peserta yang menyelesaikan pelatihan berhak atas sertifikat pelatihan dan/atau sertifikat kompetensi; sertifikat kompetensi diberikan BNSP atau lembaga sertifikasi profesi berlisensi setelah lulus uji kompetensi.",
+      "alasan": "butuh kelas baru: KetentuanPelatihan (sertifikasi kompetensi)"
+    }
+  ]
+}

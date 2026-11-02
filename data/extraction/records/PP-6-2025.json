@@ -1,0 +1,443 @@
+{
+  "spec_version": "1.1.0",
+  "vocab_version": "0.3.0",
+  "dokumen_id": "PP-6-2025",
+  "status_review": "reviewed",
+  "peraturan": {
+    "judul": "Peraturan Pemerintah Nomor 6 Tahun 2025 tentang Perubahan atas Peraturan Pemerintah Nomor 37 Tahun 2021 tentang Penyelenggaraan Program Jaminan Kehilangan Pekerjaan",
+    "jenis": "PP",
+    "nomor": "6",
+    "tahun": "2025",
+    "sumber": "https://peraturan.bpk.go.id/Details/314623/pp-no-6-tahun-2025",
+    "status": "Berlaku",
+    "diubah_oleh": []
+  },
+  "norma": [
+    {
+      "norm_id": "JAMSOS-JKP-SYARAT-PESERTA",
+      "topik": "Jamsos",
+      "pasal": "Pasal 4 ayat (2)",
+      "iri_individu": "ktn:JkpSyaratPeserta",
+      "jenis": "KetentuanJaminanSosial",
+      "kondisi": "Pekerja/Buruh yang didaftarkan sebagai Peserta program JKP",
+      "akibat": "Harus memenuhi persyaratan: warga negara Indonesia; belum mencapai usia 54 tahun pada saat mendaftar; dan mempunyai hubungan kerja dengan Pengusaha",
+      "parameter": [],
+      "bukti": "belum mencapai usia 54 (lima puluh empat) tahun pada saat mendaftar",
+      "confidence": 0.95,
+      "dasar_keyakinan": "dikutip",
+      "catatan": "Ayat (1) hanya merinci komposisi Peserta (pekerja yang telah diikutsertakan dan yang baru didaftarkan); ayat (4) 'Dihapus'. Batas usia 54 tahun belum diparameterkan (tidak ada nama parameter yang cocok di VOCAB)."
+    },
+    {
+      "norm_id": "JAMSOS-JKP-KEPESERTAAN-USAHA-BESAR-MENENGAH",
+      "topik": "Jamsos",
+      "pasal": "Pasal 4 ayat (3)a",
+      "iri_individu": "ktn:JkpKepesertaanUsahaBesarMenengah",
+      "jenis": "KetentuanJaminanSosial",
+      "kondisi": "Pekerja/Buruh bekerja pada usaha besar dan usaha menengah",
+      "akibat": "Diikutsertakan pada program JKK, JHT, JP, dan JKM serta terdaftar pada program JKN",
+      "parameter": [],
+      "bukti": "Pekerja/Buruh yang bekerja pada usaha besar dan usaha menengah, diikutsertakan pada program JKK, JHT, JP, dan JKM serta terdaftar pada program JKN",
+      "confidence": 0.95,
+      "dasar_keyakinan": "dikutip",
+      "catatan": "Pengertian 'terdaftar pada program JKN' dijelaskan pada Penjelasan Pasal 4 ayat (3)."
+    },
+    {
+      "norm_id": "JAMSOS-JKP-KEPESERTAAN-USAHA-MIKRO-KECIL",
+      "topik": "Jamsos",
+      "pasal": "Pasal 4 ayat (3)b",
+      "iri_individu": "ktn:JkpKepesertaanUsahaMikroKecil",
+      "jenis": "KetentuanJaminanSosial",
+      "kondisi": "Pekerja/Buruh bekerja pada usaha mikro dan usaha kecil",
+      "akibat": "Diikutsertakan sekurang-kurangnya pada program JKK, JHT, dan JKM serta terdaftar pada program JKN",
+      "parameter": [],
+      "bukti": "Pekerja/Buruh yang bekerja pada usaha mikro dan usaha kecil, diikutsertakan sekurangkurangnya pada program JKK, JHT, dan JKM serta terdaftar pada program JKN",
+      "confidence": 0.95,
+      "dasar_keyakinan": "dikutip",
+      "catatan": "OCR 'sekurangkurangnya' = 'sekurang-kurangnya'."
+    },
+    {
+      "norm_id": "JAMSOS-JKP-IURAN-2025",
+      "topik": "Jamsos",
+      "pasal": "Pasal 11 ayat (2)",
+      "iri_individu": "ktn:JkpIuran2025",
+      "jenis": "KetentuanJaminanSosial",
+      "kondisi": "Pekerja/Buruh menjadi Peserta program JKP",
+      "akibat": "Iuran JKP wajib dibayarkan setiap bulan sebesar 0,36% dari Upah sebulan",
+      "parameter": [],
+      "bukti": "Iuran sebagaimana dimaksud pada ayat (1) sebesar 0,360lo (nol koma tiga enam persen) dari Upah sebulan.",
+      "confidence": 0.85,
+      "dasar_keyakinan": "tafsir",
+      "catatan": "OCR '0,360lo' dibaca 0,36%. Angka persen belum diparameterkan (VOCAB belum punya parameter tarif)."
+    },
+    {
+      "norm_id": "JAMSOS-JKP-DASAR-UPAH-IURAN",
+      "topik": "Jamsos",
+      "pasal": "Pasal 11 ayat (6)",
+      "iri_individu": "ktn:JkpDasarUpahIuran",
+      "jenis": "KetentuanJaminanSosial",
+      "kondisi": "Menghitung iuran JKP",
+      "akibat": "Dasar perhitungan adalah Upah terakhir yang dilaporkan Pengusaha kepada BPJS Ketenagakerjaan dan tidak melebihi batas atas Upah; batas atas Upah ditetapkan Rp5.000.000,00 dan Upah di atas batas dihitung sebesar batas atas",
+      "parameter": [],
+      "bukti": "merupakan Upah terakhir Pekerja/Buruh yang dilaporkan oleh Pengusaha kepada BPJS Ketenagakerjaan dan tidak melebihi batas atas Upah",
+      "confidence": 0.95,
+      "dasar_keyakinan": "dikutip",
+      "catatan": "Menggabungkan ayat (6), ayat (7), dan ayat (8). Nominal Rp5.000.000,00 pada ayat (7) rusak pada OCR ('Rp5.OOO.OO0,OO'); nominal rupiah belum diparameterkan."
+    },
+    {
+      "norm_id": "JAMSOS-JKP-PEMBIAYAAN-IURAN",
+      "topik": "Jamsos",
+      "pasal": "Pasal 11 ayat (3)",
+      "iri_individu": "ktn:JkpPembiayaanIuran",
+      "jenis": "KetentuanJaminanSosial",
+      "kondisi": "Iuran JKP sebesar 0,36% dari Upah sebulan",
+      "akibat": "Bersumber dari iuran yang dibayarkan Pemerintah Pusat sebesar 0,22% dari Upah sebulan dan sumber pendanaan JKP berupa rekomposisi iuran JKK sebesar 0,14% dari Upah sebulan",
+      "parameter": [],
+      "bukti": "Iuran yang dibayarkan oleh Pemerintah Pusat sebagaimana dimaksud pada ayat (3) sebesar 0,227o (nol koma dua dua persen) dari Upah sebulan.",
+      "confidence": 0.85,
+      "dasar_keyakinan": "tafsir",
+      "catatan": "Menggabungkan ayat (3) dan ayat (4); OCR '0,227o' dibaca 0,22%. 0,22% + 0,14% = 0,36%."
+    },
+    {
+      "norm_id": "JAMSOS-JKP-REKOMPOSISI-IURAN-JKK",
+      "topik": "Jamsos",
+      "pasal": "Pasal 11 ayat (5)",
+      "iri_individu": "ktn:JkpRekomposisiIuranJkk",
+      "jenis": "KetentuanJaminanSosial",
+      "kondisi": "Iuran JKK direkomposisi sebagai sumber pendanaan JKP sebesar 0,14% dari Upah sebulan",
+      "akibat": "Iuran JKK untuk setiap kelompok tingkat risiko menjadi: sangat rendah 0,10%; rendah 0,40%; sedang 0,75%; tinggi 1,13%; sangat tinggi 1,60% dari Upah sebulan",
+      "parameter": [],
+      "bukti": "iuran JKK direkomposisi sebesar 0,14% (nol koma satu empat persen) dari Upah sebulan",
+      "confidence": 0.85,
+      "dasar_keyakinan": "tafsir",
+      "catatan": "Tarif JKK per tingkat risiko sama dengan baris program_jamsos JKK-R1..JKK-R5 pada record PP-37-2021 sehingga tidak dibuat baris program baru. OCR 'O,4oolo' dibaca 0,40% dan '1,6O7o' dibaca 1,60%."
+    },
+    {
+      "norm_id": "JAMSOS-JKP-HAK-MANFAAT",
+      "topik": "Jamsos",
+      "pasal": "Pasal 19 ayat (1)",
+      "iri_individu": "ktn:JkpHakManfaat",
+      "jenis": "KetentuanJaminanSosial",
+      "kondisi": "Peserta mengalami Pemutusan Hubungan Kerja, baik berdasarkan perjanjian kerja waktu tidak tertentu maupun perjanjian kerja waktu tertentu",
+      "akibat": "Berhak memperoleh manfaat JKP",
+      "parameter": [],
+      "bukti": "Manfaat JKP diberikan kepada Peserta yang mengalami Pemutusan Hubungan Kerja baik untuk hubungan kerja berdasarkan perjanjian kerja waktu tidak tertentu maupun perjanjian kerja waktu tertentu.",
+      "confidence": 0.95,
+      "dasar_keyakinan": "dikutip",
+      "catatan": ""
+    },
+    {
+      "norm_id": "JAMSOS-JKP-BERSEDIA-BEKERJA-KEMBALI",
+      "topik": "Jamsos",
+      "pasal": "Pasal 19 ayat (2)",
+      "iri_individu": "ktn:JkpBersediaBekerjaKembali",
+      "jenis": "KetentuanJaminanSosial",
+      "kondisi": "Penerima manfaat JKP",
+      "akibat": "Harus bersedia untuk bekerja kembali",
+      "parameter": [],
+      "bukti": "penerima manfaat JKP harus bersedia untuk bekerja kembali",
+      "confidence": 0.95,
+      "dasar_keyakinan": "dikutip",
+      "catatan": "Penjelasan: bekerja sebagai pekerja penerima Upah, berusaha mandiri, atau wirausaha."
+    },
+    {
+      "norm_id": "JAMSOS-JKP-MASA-IUR-2025",
+      "topik": "Jamsos",
+      "pasal": "Pasal 19 ayat (3)",
+      "iri_individu": "ktn:JkpMasaIur2025",
+      "jenis": "KetentuanJaminanSosial",
+      "kondisi": "Peserta mengajukan manfaat JKP",
+      "akibat": "Manfaat dapat diajukan setelah memiliki masa iur paling sedikit 12 bulan pada BPJS Ketenagakerjaan dalam rentang 24 bulan kalender sebelum terjadi Pemutusan Hubungan Kerja",
+      "parameter": [],
+      "bukti": "masa iur paling sedikit 12 (dua belas) bulan pada BPJS Ketenagakerjaan dalam rentang waktu 24 (dua puluh empat) bulan kalender sebelum terjadi Pemutusan Hubungan Kerja",
+      "confidence": 0.95,
+      "dasar_keyakinan": "dikutip",
+      "catatan": "Syarat iuran 6 bulan berturut-turut pada PP-37-2021 dihapus; hanya nilai yang berlaku saat ini disimpan. Penjelasan: 24 bulan adalah bulan kalender, bukan masa iur."
+    },
+    {
+      "norm_id": "JAMSOS-JKP-PENGECUALIAN-2025",
+      "topik": "Jamsos",
+      "pasal": "Pasal 20 ayat (1)",
+      "iri_individu": "ktn:JkpPengecualian2025",
+      "jenis": "KetentuanJaminanSosial",
+      "kondisi": "PHK karena mengundurkan diri, cacat total tetap, pensiun, atau meninggal dunia",
+      "akibat": "Manfaat JKP dikecualikan",
+      "parameter": [],
+      "bukti": "Manfaat JKP bagi Peserta yang mengalami Pemutusan Hubungan Kerja dikecualikan untuk alasan Pemutusan Hubungan Kerja karena",
+      "confidence": 0.95,
+      "dasar_keyakinan": "dikutip",
+      "catatan": "Penjelasan: 'cacat total tetap' adalah cacat yang mengakibatkan ketidakmampuan melakukan pekerjaan."
+    },
+    {
+      "norm_id": "JAMSOS-JKP-MANFAAT-PKWT",
+      "topik": "Jamsos",
+      "pasal": "Pasal 20 ayat (2)",
+      "iri_individu": "ktn:JkpManfaatPkwt",
+      "jenis": "KetentuanJaminanSosial",
+      "kondisi": "Peserta dengan perjanjian kerja waktu tertentu mengalami PHK oleh Pengusaha sebelum berakhirnya jangka waktu PKWT",
+      "akibat": "Manfaat JKP diberikan",
+      "parameter": [],
+      "bukti": "diberikan apabila Pemutusan Hubungan Kerja oleh Pengusaha dilakukan sebelum janeka waktu perjanjian kerja waktu tertentu",
+      "confidence": 0.9,
+      "dasar_keyakinan": "dikutip",
+      "catatan": "OCR 'janeka' dibaca 'jangka'."
+    },
+    {
+      "norm_id": "JAMSOS-JKP-BUKTI-PHK",
+      "topik": "Jamsos",
+      "pasal": "Pasal 20 ayat (3)",
+      "iri_individu": "ktn:JkpBuktiPhk",
+      "jenis": "KetentuanJaminanSosial",
+      "kondisi": "Peserta mengajukan manfaat JKP atas suatu Pemutusan Hubungan Kerja",
+      "akibat": "PHK dapat dibuktikan dengan bukti diterimanya PHK disertai tanda terima laporan PHK, perjanjian bersama disertai akta bukti pendaftaran dari pengadilan hubungan industrial atau tanda terima laporan PHK, atau petikan/salinan putusan pengadilan hubungan industrial berkekuatan hukum tetap",
+      "parameter": [],
+      "bukti": "Pemutusan Hubungan Kerja sebagaimana dimaksud pada ayat (1) dapat dibuktikan dengan",
+      "confidence": 0.95,
+      "dasar_keyakinan": "dikutip",
+      "catatan": "Rincian bukti pada huruf a sampai dengan huruf c diringkas pada kolom akibat."
+    },
+    {
+      "norm_id": "JAMSOS-JKP-MANFAAT-TUNAI-2025",
+      "topik": "Jamsos",
+      "pasal": "Pasal 21 ayat (1)",
+      "iri_individu": "ktn:JkpManfaatTunai2025",
+      "jenis": "KetentuanJaminanSosial",
+      "kondisi": "Peserta memenuhi syarat menerima manfaat JKP",
+      "akibat": "Manfaat uang tunai diberikan setiap bulan sebesar 60% dari Upah untuk paling lama 6 bulan",
+      "parameter": [],
+      "bukti": "Manfaat uang tunai diberikan setiap bulan sebesar 6O% (enam puluh persen) dari Upah, untuk paling lama 6 (enam) bulan.",
+      "confidence": 0.85,
+      "dasar_keyakinan": "tafsir",
+      "catatan": "OCR '6O%' dibaca 60%. Menggantikan formula 45%/25% pada PP-37-2021; angka belum diparameterkan (tidak ada parameter pengali manfaat di VOCAB)."
+    },
+    {
+      "norm_id": "JAMSOS-JKP-DASAR-UPAH-MANFAAT",
+      "topik": "Jamsos",
+      "pasal": "Pasal 21 ayat (2)",
+      "iri_individu": "ktn:JkpDasarUpahManfaat",
+      "jenis": "KetentuanJaminanSosial",
+      "kondisi": "Menghitung manfaat uang tunai JKP",
+      "akibat": "Dasar pembayaran adalah Upah terakhir yang dilaporkan Pengusaha kepada BPJS Ketenagakerjaan dan tidak melebihi batas atas Upah; bila Upah melebihi batas atas Upah, dipakai sebesar batas atas Upah",
+      "parameter": [],
+      "bukti": "manfaat uang tunai merupakan Upah terakhir Pekerja/ Buruh yang dilaporkan Pengusaha kepada BPJS Ketenagakerjaan",
+      "confidence": 0.95,
+      "dasar_keyakinan": "dikutip",
+      "catatan": "Menggabungkan ayat (2) dan ayat (4)."
+    },
+    {
+      "norm_id": "JAMSOS-JKP-BATAS-UPAH-MANFAAT-2025",
+      "topik": "Jamsos",
+      "pasal": "Pasal 21 ayat (3)",
+      "iri_individu": "ktn:JkpBatasUpahManfaat2025",
+      "jenis": "KetentuanJaminanSosial",
+      "kondisi": "Menetapkan batas atas Upah sebagai dasar pembayaran manfaat uang tunai",
+      "akibat": "Batas atas Upah ditetapkan sebesar Rp5.000.000,00",
+      "parameter": [],
+      "bukti": "Batas atas Upah ditetapkan sebesar Rp5.OOO.OO0,0O (lima juta rupiah).",
+      "confidence": 0.85,
+      "dasar_keyakinan": "tafsir",
+      "catatan": "OCR angka rupiah rusak ('Rp5.OOO.OO0,0O'); dibaca Rp5.000.000,00. Sama dengan batas atas Upah iuran pada Pasal 11 ayat (7)."
+    },
+    {
+      "norm_id": "JAMSOS-JKP-INFO-PASAR-KERJA",
+      "topik": "Jamsos",
+      "pasal": "Pasal 25 ayat (1)",
+      "iri_individu": "ktn:JkpInfoPasarKerja",
+      "jenis": "KetentuanJaminanSosial",
+      "kondisi": "Peserta menerima manfaat akses informasi pasar kerja",
+      "akibat": "Diberikan dalam bentuk layanan informasi pasar kerja dan/atau bimbingan jabatan",
+      "parameter": [],
+      "bukti": "Manfaat akses informasi pasar kerja sebagaimana dimaksud dalam Pasal 18 huruf b diberikan dalam bentuk layanan",
+      "confidence": 0.95,
+      "dasar_keyakinan": "dikutip",
+      "catatan": "Ayat (2) mengatur pelaksana (pengantar kerja) melalui Sistem Informasi Ketenagakerjaan dan bersifat kelembagaan."
+    },
+    {
+      "norm_id": "JAMSOS-JKP-TUNGGAKAN-MAKS-3-BULAN",
+      "topik": "Jamsos",
+      "pasal": "Pasal 39 ayat (1)",
+      "iri_individu": "ktn:JkpTunggakanMaksTigaBulan",
+      "jenis": "KetentuanJaminanSosial",
+      "kondisi": "Pengusaha menunggak iuran JKK sebagai sumber pendanaan program JKP sampai dengan 3 bulan berturut-turut dan terjadi Pemutusan Hubungan Kerja",
+      "akibat": "BPJS Ketenagakerjaan wajib membayar manfaat uang tunai kepada Peserta",
+      "parameter": [],
+      "bukti": "Pengusaha yang menunggak iuran JKK sebagai sumber pendanaan program JKP sampai dengan 3 (tiga) bulan berturut-turut",
+      "confidence": 0.95,
+      "dasar_keyakinan": "dikutip",
+      "catatan": ""
+    },
+    {
+      "norm_id": "JAMSOS-JKP-PELUNASAN-TUNGGAKAN",
+      "topik": "Jamsos",
+      "pasal": "Pasal 39 ayat (2)",
+      "iri_individu": "ktn:JkpPelunasanTunggakan",
+      "jenis": "KetentuanJaminanSosial",
+      "kondisi": "BPJS Ketenagakerjaan telah membayar manfaat uang tunai",
+      "akibat": "Pengusaha wajib melunasi tunggakan iuran",
+      "parameter": [],
+      "bukti": "maka Pengusaha wajib melunasi tunggakan iuran",
+      "confidence": 0.95,
+      "dasar_keyakinan": "dikutip",
+      "catatan": ""
+    },
+    {
+      "norm_id": "JAMSOS-JKP-TUNGGAKAN-LEBIH-3-BULAN",
+      "topik": "Jamsos",
+      "pasal": "Pasal 39 ayat (3)",
+      "iri_individu": "ktn:JkpTunggakanLebihTigaBulan",
+      "jenis": "KetentuanJaminanSosial",
+      "kondisi": "Pengusaha menunggak iuran JKK sebagai sumber pendanaan program JKP lebih dari 3 bulan berturut-turut dan terjadi Pemutusan Hubungan Kerja",
+      "akibat": "Pengusaha wajib membayar terlebih dahulu manfaat uang tunai kepada Peserta",
+      "parameter": [],
+      "bukti": "Pengusaha yang menunggak iuran JKK sebagai sumber pendanaan program JKP lebih dari 3 (tiga) bulan berturut-turut",
+      "confidence": 0.95,
+      "dasar_keyakinan": "dikutip",
+      "catatan": ""
+    },
+    {
+      "norm_id": "JAMSOS-JKP-PENGGANTIAN-MANFAAT",
+      "topik": "Jamsos",
+      "pasal": "Pasal 39 ayat (4)",
+      "iri_individu": "ktn:JkpPenggantianManfaat",
+      "jenis": "KetentuanJaminanSosial",
+      "kondisi": "Pengusaha telah melunasi seluruh tunggakan iuran dan denda yang menjadi kewajibannya",
+      "akibat": "Pengusaha dapat meminta penggantian manfaat uang tunai yang telah dibayarkan kepada BPJS Ketenagakerjaan, diajukan paling lama 3 bulan sejak Pengusaha membayar hak Peserta",
+      "parameter": [],
+      "bukti": "Pengusaha dapat meminta penggantian manfaat uang tunai yang telah dibayarkan sebagaimana dimaksud pada ayat (3), kepada BPJS Ketenagakerjaan",
+      "confidence": 0.95,
+      "dasar_keyakinan": "dikutip",
+      "catatan": "Menggabungkan ayat (4) dan ayat (5); batas 3 bulan belum diparameterkan."
+    },
+    {
+      "norm_id": "JAMSOS-JKP-PENGGANTIAN-TUJUH-HARI-KERJA",
+      "topik": "Jamsos",
+      "pasal": "Pasal 39 ayat (6)",
+      "iri_individu": "ktn:JkpPenggantianTujuhHariKerja",
+      "jenis": "KetentuanJaminanSosial",
+      "kondisi": "Surat permintaan penggantian dan dokumen pendukung diterima secara lengkap dan benar oleh BPJS",
+      "akibat": "BPJS wajib membayar penggantian manfaat uang tunai paling lama 7 hari kerja",
+      "parameter": [],
+      "bukti": "paling lama 7 (tqjuh) hari kerja sejak surat permintaan dan dokumen pendukung diterima secara lengkap dan benar oleh BPJS",
+      "confidence": 0.9,
+      "dasar_keyakinan": "dikutip",
+      "catatan": "OCR 'tqjuh' dibaca 'tujuh'."
+    },
+    {
+      "norm_id": "JAMSOS-JKP-PAILIT-TUTUP",
+      "topik": "Jamsos",
+      "pasal": "Pasal 39A ayat (1)",
+      "iri_individu": "ktn:JkpPailitTutup",
+      "jenis": "KetentuanJaminanSosial",
+      "kondisi": "Perusahaan dinyatakan pailit atau tutup sesuai ketentuan peraturan perundang-undangan dan menunggak iuran paling lama 6 bulan",
+      "akibat": "Manfaat JKP tetap dibayarkan oleh BPJS Ketenagakerjaan",
+      "parameter": [],
+      "bukti": "Dalam hal perusahaan dinyatakan pailit atau tutup sesuai dengan ketentuan peraturan perundangundangan dan menunggak iuran paling lama 6 (enam) bulan, maka manfaat JKP tetap dibayarkan oleh BPJS Ketenagakerjaan",
+      "confidence": 0.95,
+      "dasar_keyakinan": "dikutip",
+      "catatan": "Penjelasan: pailit dibuktikan putusan pengadilan berkekuatan hukum tetap; tutup dibuktikan surat/keterangan pembubaran dari kementerian di bidang hukum."
+    },
+    {
+      "norm_id": "JAMSOS-JKP-TUNGGAKAN-PAILIT-TETAP",
+      "topik": "Jamsos",
+      "pasal": "Pasal 39A ayat (2)",
+      "iri_individu": "ktn:JkpTunggakanPailitTetap",
+      "jenis": "KetentuanJaminanSosial",
+      "kondisi": "BPJS Ketenagakerjaan membayar manfaat JKP pada perusahaan pailit/tutup yang menunggak iuran",
+      "akibat": "Tidak menghapus kewajiban Pengusaha untuk melunasi tunggakan iuran dan denda program jaminan sosial ketenagakerjaan",
+      "parameter": [],
+      "bukti": "tidak menghapus kewajiban Pengu.saha untuk melunasi tunggakan iuran dan denda program",
+      "confidence": 0.9,
+      "dasar_keyakinan": "dikutip",
+      "catatan": "OCR 'Pengu.saha' dibaca 'Pengusaha'."
+    },
+    {
+      "norm_id": "JAMSOS-JKP-HILANG-HAK",
+      "topik": "Jamsos",
+      "pasal": "Pasal 40",
+      "iri_individu": "ktn:JkpHilangHak",
+      "jenis": "KetentuanJaminanSosial",
+      "kondisi": "Pekerja/Buruh tidak mengajukan klaim dalam 6 bulan sejak PHK, telah mendapatkan pekerjaan, atau meninggal dunia",
+      "akibat": "Hak atas manfaat JKP hilang",
+      "parameter": [],
+      "bukti": "tidak mengajukan permohonan klaim manfaat JKP selama 6 (enam) bulan sejak terjadi Pemutusan Hubungan Kerja",
+      "confidence": 0.95,
+      "dasar_keyakinan": "dikutip",
+      "catatan": "Tiga alasan pada huruf a sampai dengan huruf c digabung karena akibatnya identik."
+    }
+  ],
+  "kategori": [],
+  "pengali_lembur": [],
+  "program_jamsos": [
+    {
+      "program_id": "JKP-2025",
+      "nama": "Jaminan Kehilangan Pekerjaan",
+      "jenis_program": "JKP",
+      "tarif_pengusaha_persen": 0,
+      "tarif_pekerja_persen": 0,
+      "tarif_total_persen": 0.36,
+      "tingkat_risiko": null,
+      "pasal": "Pasal 11 ayat (2)",
+      "bukti": "Iuran sebesar 0,360/o (nol koma tiga enam persen)",
+      "confidence": 0.85,
+      "dasar_keyakinan": "tafsir",
+      "catatan": "Dibiayai Pemerintah Pusat 0,22% dan rekomposisi iuran JKK 0,14%; model program_jamsos tidak menampung sumber ini sehingga tarif pengusaha/pekerja 0. Menggantikan tarif 0,46% pada record PP-37-2021."
+    }
+  ],
+  "cakupan": {
+    "lengkap": true,
+    "pasal_diekstrak": [
+      "Pasal 19",
+      "Pasal 21",
+      "Pasal 25",
+      "Pasal 2O",
+      "Pasal 31",
+      "Pasal 39",
+      "Pasal 39A",
+      "Pasal 3l",
+      "Pasal 4",
+      "Pasal 40",
+      "Pasal 4O"
+    ],
+    "pasal_dilewati": [
+      {
+        "pasal": "Pasal 4",
+        "alasan": "Penjelasan pasal (bukan batang tubuh): ayat (1) dan ayat (2) cukup jelas, ayat (3) hanya menegaskan makna 'terdaftar pada program JKN' (definisi). Batang tubuh sudah diekstrak di chunk 1."
+      },
+      {
+        "pasal": "Pasal 2O",
+        "alasan": "Penjelasan pasal (bukan batang tubuh): sebagian besar cukup jelas, hanya memuat definisi 'cacat total tetap'. Batang tubuh sudah diekstrak di chunk 1."
+      },
+      {
+        "pasal": "Pasal 21",
+        "alasan": "Penjelasan pasal (bukan batang tubuh): cukup jelas. Batang tubuh sudah diekstrak di chunk 1."
+      },
+      {
+        "pasal": "Pasal 25",
+        "alasan": "Penjelasan pasal (bukan batang tubuh): hanya memuat definisi 'pengantar kerja'. Batang tubuh sudah diekstrak di chunk 1."
+      },
+      {
+        "pasal": "Pasal 3l",
+        "alasan": "Penjelasan pasal (bukan batang tubuh), hanya definisi 'Lembaga Pelatihan Kerja milik pemerintah'; pasal batang tubuhnya (Pasal 31) tidak termodelkan dan dicatat di chunk 1."
+      },
+      {
+        "pasal": "Pasal 39",
+        "alasan": "Penjelasan pasal (bukan batang tubuh): cukup jelas. Batang tubuh sudah diekstrak di chunk 1."
+      },
+      {
+        "pasal": "Pasal 39A",
+        "alasan": "Penjelasan pasal (bukan batang tubuh): hanya cara pembuktian perusahaan pailit/tutup, sudah dicatat pada catatan norma Pasal 39A ayat (1) di chunk 1."
+      },
+      {
+        "pasal": "Pasal 40",
+        "alasan": "Penjelasan pasal (bukan batang tubuh): cukup jelas. Batang tubuh sudah diekstrak di chunk 1 (norma JAMSOS-JKP-HILANG-HAK)."
+      }
+    ],
+    "catatan": ""
+  },
+  "tidak_termodelkan": [
+    {
+      "pasal": "Pasal 31",
+      "ringkasan": "Pelatihan Kerja JKP dilaksanakan melalui Lembaga Pelatihan Kerja milik pemerintah, swasta, atau perusahaan, yang wajib memenuhi syarat: pelatihan berbasis kompetensi, terdaftar dan terverifikasi di Sistem Informasi Ketenagakerjaan, serta terakreditasi; ketentuan lebih lanjut diatur Peraturan Menteri.",
+      "alasan": "Butuh jenis/topik KetentuanPelatihan yang belum ada di VOCAB (masih kandidat), sehingga tidak dapat dipetakan ke kelas T-Box saat ini."
+    }
+  ]
+}

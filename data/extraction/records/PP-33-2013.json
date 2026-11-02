@@ -1,0 +1,99 @@
+{
+  "spec_version": "1.1.0",
+  "vocab_version": "0.3.0",
+  "dokumen_id": "PP-33-2013",
+  "status_review": "reviewed",
+  "peraturan": {
+    "judul": "Peraturan Pemerintah Nomor 33 Tahun 2013 tentang Perluasan Kesempatan Kerja",
+    "jenis": "PP",
+    "nomor": "33",
+    "tahun": "2013",
+    "sumber": "https://peraturan.go.id/id/pp-no-33-tahun-2013",
+    "status": "Berlaku",
+    "diubah_oleh": []
+  },
+  "norma": [],
+  "kategori": [],
+  "pengali_lembur": [],
+  "program_jamsos": [],
+  "cakupan": {
+    "lengkap": true,
+    "pasal_diekstrak": [
+      "Pasal 1",
+      "Pasal 10",
+      "Pasal 11",
+      "Pasal 12",
+      "Pasal 13",
+      "Pasal 2",
+      "Pasal 3",
+      "Pasal 4",
+      "Pasal 5",
+      "Pasal 6",
+      "Pasal 7",
+      "Pasal 8",
+      "Pasal 9"
+    ],
+    "pasal_dilewati": [
+      {
+        "pasal": "Pasal 1",
+        "alasan": "definisi/istilah (perluasan kesempatan kerja, kesempatan kerja, Pemerintah, Menteri)"
+      },
+      {
+        "pasal": "Pasal 2",
+        "alasan": "kebijakan program perluasan kesempatan kerja oleh Pemerintah/Pemerintah Daerah, bukan norma kondisi-akibat individual"
+      },
+      {
+        "pasal": "Pasal 3",
+        "alasan": "dasar perencanaan tenaga kerja bagi kebijakan, rujukan normatif tanpa akibat hukum mandiri"
+      },
+      {
+        "pasal": "Pasal 4",
+        "alasan": "arahan kebijakan dan kemudahan investasi, di luar domain T-Box ketenagakerjaan"
+      },
+      {
+        "pasal": "Pasal 6",
+        "alasan": "arahan kebijakan perluasan kesempatan kerja di luar hubungan kerja, di luar domain T-Box"
+      },
+      {
+        "pasal": "Pasal 7",
+        "alasan": "penunjukan pelaksana kebijakan (kelembagaan)"
+      },
+      {
+        "pasal": "Pasal 11",
+        "alasan": "koordinasi kelembagaan Menteri dan tata cara rapat koordinasi"
+      },
+      {
+        "pasal": "Pasal 13",
+        "alasan": "ketentuan penutup (mulai berlaku)"
+      }
+    ],
+    "catatan": ""
+  },
+  "tidak_termodelkan": [
+    {
+      "pasal": "Pasal 5",
+      "ringkasan": "BUMN, BUMD, dan swasta melaksanakan kebijakan perluasan kesempatan kerja di dalam hubungan kerja dengan menetapkan program dan kegiatan yang harus menyerap tenaga kerja.",
+      "alasan": "butuh kelas baru: KetentuanPerluasanKesempatanKerja (jenis norma belum ada di VOCAB/T-Box)"
+    },
+    {
+      "pasal": "Pasal 8",
+      "ringkasan": "Kebijakan perluasan kesempatan kerja di luar hubungan kerja dilakukan dalam bentuk program kewirausahaan dengan pola pembentukan dan pembinaan tenaga kerja mandiri, sistem padat karya, teknologi tepat guna, dan/atau pendayagunaan tenaga kerja sukarela.",
+      "alasan": "butuh kelas baru: KetentuanPerluasanKesempatanKerja (program kewirausahaan di luar hubungan kerja)"
+    },
+    {
+      "pasal": "Pasal 9",
+      "ringkasan": "Pemerintah dan Pemerintah Daerah memfasilitasi pelaksanaan pola perluasan kesempatan kerja melalui permodalan, penjaminan, pendampingan, pelatihan, konsultasi, bimbingan teknis, dan/atau penyediaan data dan informasi.",
+      "alasan": "butuh kelas baru: KetentuanFasilitasiPerluasanKerja; KetentuanPelatihan masih kandidat di VOCAB"
+    },
+    {
+      "pasal": "Pasal 10",
+      "ringkasan": "Lembaga penjaminan dan lembaga keuangan memberikan fasilitas kredit dan/atau penjaminan kredit kepada masyarakat yang menciptakan atau memperluas kesempatan kerja.",
+      "alasan": "butuh kelas baru: KetentuanFasilitasiPendanaan (kewajiban lembaga keuangan, di luar kelas T-Box)"
+    },
+    {
+      "pasal": "Pasal 12",
+      "ringkasan": "Pemerintah, Pemerintah Daerah, BUMN, BUMD, swasta, dan kelembagaan masyarakat wajib melaporkan secara tertulis perluasan kesempatan kerja kepada instansi bidang ketenagakerjaan; laporan menjadi dasar penetapan kebijakan.",
+      "alasan": "butuh kelas baru: KetentuanPelaporan (kewajiban pelaporan tertulis belum ada di VOCAB/T-Box)"
+    }
+  ]
+}

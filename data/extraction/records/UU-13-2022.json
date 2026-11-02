@@ -1,0 +1,155 @@
+{
+  "spec_version": "1.1.0",
+  "vocab_version": "0.3.0",
+  "dokumen_id": "UU-13-2022",
+  "status_review": "reviewed",
+  "peraturan": {
+    "judul": "Undang-Undang Nomor 13 Tahun 2022 tentang Perubahan Kedua atas Undang-Undang Nomor 12 Tahun 2011 tentang Pembentukan Peraturan Perundang-undangan",
+    "jenis": "UU",
+    "nomor": "13",
+    "tahun": "2022",
+    "sumber": "https://peraturan.go.id/id/uu-no-13-tahun-2022",
+    "status": "Berlaku",
+    "diubah_oleh": []
+  },
+  "norma": [],
+  "kategori": [],
+  "pengali_lembur": [],
+  "program_jamsos": [],
+  "cakupan": {
+    "lengkap": true,
+    "pasal_diekstrak": [
+      "Pasal 1",
+      "Pasal 116",
+      "Pasal 14",
+      "Pasal 159A",
+      "Pasal 16",
+      "Pasal 161",
+      "Pasal 17",
+      "Pasal 42A",
+      "Pasal 49",
+      "Pasal 58",
+      "Pasal 6",
+      "Pasal 64",
+      "Pasal 72",
+      "Pasal 73",
+      "Pasal 8",
+      "Pasal 9",
+      "Pasal 96",
+      "Pasal 97A",
+      "Pasal 97B",
+      "Pasal 97C",
+      "Pasal 97D",
+      "Pasal 98",
+      "Pasal 99"
+    ],
+    "pasal_dilewati": [
+      {
+        "pasal": "Pasal 9",
+        "alasan": "di luar domain ketenagakerjaan; kewenangan pengujian peraturan perundang-undangan oleh Mahkamah Konstitusi dan Mahkamah Agung"
+      },
+      {
+        "pasal": "Pasal 42A",
+        "alasan": "di luar domain ketenagakerjaan; ketentuan perencanaan penggunaan metode omnibus"
+      },
+      {
+        "pasal": "Pasal 49",
+        "alasan": "di luar domain ketenagakerjaan; tata cara penyampaian RUU dan penugasan menteri"
+      },
+      {
+        "pasal": "Pasal 58",
+        "alasan": "di luar domain ketenagakerjaan; pengharmonisasian rancangan peraturan daerah provinsi"
+      },
+      {
+        "pasal": "Pasal 64",
+        "alasan": "di luar domain ketenagakerjaan; teknik penyusunan peraturan dan definisi metode omnibus"
+      },
+      {
+        "pasal": "Pasal 72",
+        "alasan": "di luar domain ketenagakerjaan; tata cara penyampaian dan perbaikan teknis RUU"
+      },
+      {
+        "pasal": "Pasal 73",
+        "alasan": "di luar domain ketenagakerjaan; pengesahan RUU oleh Presiden dan batas waktunya"
+      },
+      {
+        "pasal": "Pasal 96",
+        "alasan": "di luar domain ketenagakerjaan; hak partisipasi masyarakat dalam pembentukan peraturan"
+      },
+      {
+        "pasal": "Pasal 97A",
+        "alasan": "di luar domain ketenagakerjaan; perubahan materi muatan peraturan yang menggunakan metode omnibus"
+      },
+      {
+        "pasal": "Pasal 97B",
+        "alasan": "di luar domain ketenagakerjaan; pembentukan peraturan perundang-undangan secara elektronik"
+      },
+      {
+        "pasal": "Pasal 97C",
+        "alasan": "di luar domain ketenagakerjaan; analisis dan evaluasi peraturan perundang-undangan"
+      },
+      {
+        "pasal": "Pasal 97D",
+        "alasan": "di luar domain ketenagakerjaan; pengharmonisasian rancangan peraturan kepala daerah"
+      },
+      {
+        "pasal": "Pasal 98",
+        "alasan": "di luar domain ketenagakerjaan; keikutsertaan Perancang Peraturan Perundang-undangan"
+      },
+      {
+        "pasal": "Pasal 99",
+        "alasan": "di luar domain ketenagakerjaan; keikutsertaan analis legislatif dan tenaga ahli dalam pembentukan peraturan"
+      },
+      {
+        "pasal": "Pasal 161",
+        "alasan": "contoh ketentuan pemeriksaan keuangan lembaga dalam Lampiran II; bukan norma ketenagakerjaan"
+      },
+      {
+        "pasal": "Pasal 16",
+        "alasan": "contoh teknis rumusan perubahan peraturan dalam Lampiran II; bukan norma ketenagakerjaan"
+      },
+      {
+        "pasal": "Pasal 17",
+        "alasan": "contoh teknis rumusan perubahan peraturan dalam Lampiran II; bukan norma ketenagakerjaan"
+      },
+      {
+        "pasal": "Pasal 6",
+        "alasan": "contoh rumusan pasal penataan ruang dalam Lampiran II; bukan norma ketenagakerjaan"
+      },
+      {
+        "pasal": "Pasal 8",
+        "alasan": "contoh rumusan wewenang pemerintah pusat penataan ruang dalam Lampiran II; bukan norma ketenagakerjaan"
+      },
+      {
+        "pasal": "Pasal 116",
+        "alasan": "contoh rumusan pencabutan peraturan dalam Lampiran II; bukan norma ketenagakerjaan"
+      },
+      {
+        "pasal": "Pasal 58",
+        "alasan": "contoh rumusan perubahan beberapa ketentuan dalam Lampiran II; bukan norma ketenagakerjaan"
+      },
+      {
+        "pasal": "Pasal 1",
+        "alasan": "contoh rumusan ketentuan umum/definisi dalam Lampiran II; bukan norma ketenagakerjaan"
+      },
+      {
+        "pasal": "Pasal 6",
+        "alasan": "contoh kerangka pasal tanpa materi (placeholder) dalam Lampiran II; bukan norma ketenagakerjaan"
+      },
+      {
+        "pasal": "Pasal 8",
+        "alasan": "contoh kerangka pasal tanpa materi (placeholder) dalam Lampiran II; bukan norma ketenagakerjaan"
+      },
+      {
+        "pasal": "Pasal 159A",
+        "alasan": "contoh rumusan delegasi pengaturan dalam Lampiran II; bukan norma ketenagakerjaan"
+      },
+      {
+        "pasal": "Pasal 14",
+        "alasan": "contoh rumusan penambahan pasal tanpa materi dalam Lampiran II; bukan norma ketenagakerjaan"
+      }
+    ],
+    "catatan": ""
+  },
+  "tidak_termodelkan": []
+}
