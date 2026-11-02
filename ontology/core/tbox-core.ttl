@@ -761,11 +761,11 @@ ktn:bulanUpah75 a owl:DatatypeProperty ;
 
 ktn:cutiMelahirkanBulanMin a owl:DatatypeProperty ;
     rdfs:label "cuti melahirkan minimal (bulan)" ;
-    rdfs:range xsd:integer .
+    rdfs:range xsd:decimal .
 
 ktn:cutiMelahirkanBulanMax a owl:DatatypeProperty ;
     rdfs:label "cuti melahirkan maksimal (bulan)" ;
-    rdfs:range xsd:integer .
+    rdfs:range xsd:decimal .
 
 ktn:cutiKeguguranBulan a owl:DatatypeProperty ;
     rdfs:label "istirahat keguguran (bulan)" ;
