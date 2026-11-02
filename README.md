@@ -7,6 +7,10 @@ dengan Python.
 
 > Prototype edukasi. Bukan nasihat hukum.
 
+Ontology memakai konstruktor nominal (`owl:oneOf`) dan qualified cardinality
+(`owl:qualifiedCardinality`), sehingga DL expressivity terukur **SROIQ(D)**
+(periksa dengan `scripts/check_expressivity.py`).
+
 ## Struktur
 
 ```
@@ -52,6 +56,7 @@ Notebook (opsional, di luar lock): `uv pip install jupyterlab ipykernel`.
 .venv/bin/python scripts/validate_extraction.py   # validasi record JSON
 .venv/bin/python scripts/compile_extraction.py    # record JSON -> CSV kanonik
 .venv/bin/python scripts/build_ontology.py        # CSV -> Turtle
+.venv/bin/python scripts/check_expressivity.py    # cek DL expressivity SROIQ(D)
 .venv/bin/python scripts/check_ontology.py        # HermiT + uji kasus
 .venv/bin/python scripts/build_catalog.py         # katalog + top-level Protege
 duckdb < data/queries.sql                          # audit CSV

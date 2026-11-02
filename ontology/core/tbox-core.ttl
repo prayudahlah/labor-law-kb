@@ -58,7 +58,11 @@ ktn:PeristiwaHukum a owl:Class ;
 
 ktn:PHK a owl:Class ;
     rdfs:label "Pemutusan Hubungan Kerja" ;
-    rdfs:subClassOf ktn:PeristiwaHukum .
+    rdfs:subClassOf ktn:PeristiwaHukum ,
+        [ a owl:Restriction ;
+          owl:onProperty ktn:memilikiAlasanPHK ;
+          owl:qualifiedCardinality 1 ;
+          owl:onClass ktn:AlasanPHK ] .
 
 ktn:AlasanPHK a owl:Class ;
     rdfs:label "Alasan PHK" .
