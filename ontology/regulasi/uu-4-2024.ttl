@@ -17,6 +17,14 @@
     dct:source <https://peraturan.bpk.go.id/Details/289997/uu-no-4-tahun-2024> ;
     owl:imports <https://example.org/kbr/ketenagakerjaan> .
 
+ktn:KetentuanAksesPenitipanAnak a owl:NamedIndividual, ktn:KetentuanKIA ;
+    ktn:pasal "Pasal 4 ayat (3)e" ;
+    dct:source reg:UU-4-2024 .
+
+ktn:KetentuanBantuanHukumKIA a owl:NamedIndividual, ktn:KetentuanKIA ;
+    ktn:pasal "Pasal 5 ayat (3)" ;
+    dct:source reg:UU-4-2024 .
+
 ktn:KetentuanCutiKeguguran a owl:NamedIndividual, ktn:KetentuanKIA ;
     ktn:cutiKeguguranBulan 1.5 ;
     ktn:pasal "Pasal 4 ayat (3)b" ;
@@ -28,10 +36,35 @@ ktn:KetentuanCutiMelahirkan a owl:NamedIndividual, ktn:KetentuanKIA ;
     ktn:pasal "Pasal 4 ayat (3)a" ;
     dct:source reg:UU-4-2024 .
 
+ktn:KetentuanKewajibanCutiMelahirkan a owl:NamedIndividual, ktn:KetentuanKIA ;
+    ktn:pasal "Pasal 4 ayat (4)" ;
+    dct:source reg:UU-4-2024 .
+
+ktn:KetentuanCutiPendampinganKeguguran a owl:NamedIndividual, ktn:KetentuanKIA ;
+    ktn:cutiPendampinganHari 2 ;
+    ktn:pasal "Pasal 6 ayat (2)b" ;
+    dct:source reg:UU-4-2024 .
+
 ktn:KetentuanCutiPendampinganSuami a owl:NamedIndividual, ktn:KetentuanKIA ;
     ktn:cutiPendampinganHari 2 ;
     ktn:cutiPendampinganTambahanHari 3 ;
     ktn:pasal "Pasal 6 ayat (2)a" ;
+    dct:source reg:UU-4-2024 .
+
+ktn:KetentuanDukunganTempatKerja a owl:NamedIndividual, ktn:KetentuanKIA ;
+    ktn:pasal "Pasal 30 ayat (3)" ;
+    dct:source reg:UU-4-2024 .
+
+ktn:KetentuanFasilitasIbuAnak a owl:NamedIndividual, ktn:KetentuanKIA ;
+    ktn:pasal "Pasal 30 ayat (1)" ;
+    dct:source reg:UU-4-2024 .
+
+ktn:KetentuanHakASI a owl:NamedIndividual, ktn:KetentuanKIA ;
+    ktn:pasal "Pasal 4 ayat (2)" ;
+    dct:source reg:UU-4-2024 .
+
+ktn:KetentuanKewajibanFasilitasTempatKerja a owl:NamedIndividual, ktn:KetentuanKIA ;
+    ktn:pasal "Pasal 30 ayat (5)" ;
     dct:source reg:UU-4-2024 .
 
 ktn:KetentuanLaranganPHKKIA a owl:NamedIndividual, ktn:KetentuanKIA ;
@@ -42,8 +75,20 @@ ktn:KetentuanMenyusui a owl:NamedIndividual, ktn:KetentuanKIA ;
     ktn:pasal "Pasal 4 ayat (3)c" ;
     dct:source reg:UU-4-2024 .
 
+ktn:KetentuanPenyesuaianKerjaIbu a owl:NamedIndividual, ktn:KetentuanKIA ;
+    ktn:pasal "Pasal 30 ayat (4)" ;
+    dct:source reg:UU-4-2024 .
+
 ktn:KetentuanUpahCutiMelahirkan a owl:NamedIndividual, ktn:KetentuanKIA ;
     ktn:bulanUpah75 2 ;
     ktn:bulanUpahPenuh 4 ;
     ktn:pasal "Pasal 5 ayat (2)" ;
+    dct:source reg:UU-4-2024 .
+
+ktn:KetentuanWaktuKepentinganAnak a owl:NamedIndividual, ktn:KetentuanKIA ;
+    ktn:pasal "Pasal 4 ayat (3)d" ;
+    dct:source reg:UU-4-2024 .
+
+ktn:KetentuanWaktuPendampinganTambahan a owl:NamedIndividual, ktn:KetentuanKIA ;
+    ktn:pasal "Pasal 6 ayat (3)" ;
     dct:source reg:UU-4-2024 .

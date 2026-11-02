@@ -1,0 +1,165 @@
+# =====================================================================
+# BERKAS DIGENERATE. JANGAN EDIT MANUAL.
+# Sumber   : data/norma.csv, parameter.csv, kategori.csv, pengali_lembur.csv, program_jamsos.csv
+# Hasilkan : .venv/bin/python scripts/build_ontology.py
+# =====================================================================
+
+@prefix ktn:  <https://example.org/kbr/ketenagakerjaan#> .
+@prefix reg:  <https://example.org/kbr/regulasi#> .
+@prefix dct:  <http://purl.org/dc/terms/> .
+@prefix owl:  <http://www.w3.org/2002/07/owl#> .
+@prefix rdf:  <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd:  <http://www.w3.org/2001/XMLSchema#> .
+
+<https://example.org/kbr/ketenagakerjaan/regulasi/pp-49-2023> a owl:Ontology ;
+    dct:title "Fakta norma: Peraturan Pemerintah Nomor 49 Tahun 2023 tentang Perubahan Kedua atas Peraturan Pemerintah Nomor 44 Tahun 2015 tentang Penyelenggaraan Program Jaminan Kecelakaan Kerja dan Jaminan Kematian" ;
+    dct:source <https://peraturan.bpk.go.id/Details/266186/pp-no-49-tahun-2023> ;
+    owl:imports <https://example.org/kbr/ketenagakerjaan> .
+
+ktn:BiayaBukanKKDitanggung a owl:NamedIndividual, ktn:KetentuanJaminanSosial ;
+    ktn:pasal "Pasal 25A ayat (6)" ;
+    dct:source reg:PP-49-2023 .
+
+ktn:BiayaBukanPAKBPJSKes a owl:NamedIndividual, ktn:KetentuanJaminanSosial ;
+    ktn:pasal "Pasal 25B ayat (6)" ;
+    dct:source reg:PP-49-2023 .
+
+ktn:BiayaKKJadiManfaatJKK a owl:NamedIndividual, ktn:KetentuanJaminanSosial ;
+    ktn:pasal "Pasal 25A ayat (5)" ;
+    dct:source reg:PP-49-2023 .
+
+ktn:BiayaPAKJadiManfaatJKK a owl:NamedIndividual, ktn:KetentuanJaminanSosial ;
+    ktn:pasal "Pasal 25B ayat (5)" ;
+    dct:source reg:PP-49-2023 .
+
+ktn:PilihanFaskesDugaanKK a owl:NamedIndividual, ktn:KetentuanJaminanSosial ;
+    ktn:pasal "Pasal 25A ayat (4)" ;
+    dct:source reg:PP-49-2023 .
+
+ktn:PilihanFaskesDugaanPAK a owl:NamedIndividual, ktn:KetentuanJaminanSosial ;
+    ktn:pasal "Pasal 25B ayat (4)" ;
+    dct:source reg:PP-49-2023 .
+
+ktn:HakBeritahuDugaanKKBPU a owl:NamedIndividual, ktn:KetentuanJaminanSosial ;
+    ktn:pasal "Pasal 44A ayat (1)" ;
+    dct:source reg:PP-49-2023 .
+
+ktn:HakBeritahuDugaanKKPU a owl:NamedIndividual, ktn:KetentuanJaminanSosial ;
+    ktn:pasal "Pasal 43A ayat (1)" ;
+    dct:source reg:PP-49-2023 .
+
+ktn:IuranJKKBerlakuJKP a owl:NamedIndividual, ktn:KetentuanJaminanSosial ;
+    ktn:pasal "Pasal 16A ayat (2)" ;
+    dct:source reg:PP-49-2023 .
+
+ktn:IuranJKKRekomposisiJKP a owl:NamedIndividual, ktn:KetentuanJaminanSosial ;
+    ktn:pasal "Pasal 16A ayat (1)" ;
+    dct:source reg:PP-49-2023 .
+
+ktn:IuranJKKTidakRekomposisi a owl:NamedIndividual, ktn:KetentuanJaminanSosial ;
+    ktn:pasal "Pasal 16A ayat (3)" ;
+    dct:source reg:PP-49-2023 .
+
+ktn:IuranJKMBerlakuJKP a owl:NamedIndividual, ktn:KetentuanJaminanSosial ;
+    ktn:pasal "Pasal 18A ayat (2)" ;
+    dct:source reg:PP-49-2023 .
+
+ktn:IuranJKMHasilRekomposisi a owl:NamedIndividual, ktn:KetentuanJaminanSosial ;
+    ktn:pasal "Pasal 18A ayat (1)" ;
+    dct:source reg:PP-49-2023 .
+
+ktn:IuranJKMTidakRekomposisi a owl:NamedIndividual, ktn:KetentuanJaminanSosial ;
+    ktn:pasal "Pasal 18A ayat (3)" ;
+    dct:source reg:PP-49-2023 .
+
+ktn:JaminanAwalDugaanKK a owl:NamedIndividual, ktn:KetentuanJaminanSosial ;
+    ktn:pasal "Pasal 25A ayat (1)-(2)" ;
+    dct:source reg:PP-49-2023 .
+
+ktn:JaminanAwalDugaanPAK a owl:NamedIndividual, ktn:KetentuanJaminanSosial ;
+    ktn:pasal "Pasal 25B ayat (1)-(2)" ;
+    dct:source reg:PP-49-2023 .
+
+ktn:KewajibanPastikanJaminanBPU a owl:NamedIndividual, ktn:KetentuanJaminanSosial ;
+    ktn:pasal "Pasal 44A ayat (2)" ;
+    dct:source reg:PP-49-2023 .
+
+ktn:KewajibanPastikanJaminanPU a owl:NamedIndividual, ktn:KetentuanJaminanSosial ;
+    ktn:pasal "Pasal 43A ayat (2)" ;
+    dct:source reg:PP-49-2023 .
+
+ktn:KoordinasiBPJSKesBPU a owl:NamedIndividual, ktn:KetentuanJaminanSosial ;
+    ktn:pasal "Pasal 44A ayat (4)" ;
+    dct:source reg:PP-49-2023 .
+
+ktn:KoordinasiBPJSKesPU a owl:NamedIndividual, ktn:KetentuanJaminanSosial ;
+    ktn:pasal "Pasal 43A ayat (4)" ;
+    dct:source reg:PP-49-2023 .
+
+ktn:PemberitahuanTidakBebaskanLaporBPU a owl:NamedIndividual, ktn:KetentuanJaminanSosial ;
+    ktn:pasal "Pasal 44A ayat (3)" ;
+    dct:source reg:PP-49-2023 .
+
+ktn:PemberitahuanTidakBebaskanLaporPU a owl:NamedIndividual, ktn:KetentuanJaminanSosial ;
+    ktn:pasal "Pasal 43A ayat (3)" ;
+    dct:source reg:PP-49-2023 .
+
+ktn:PenetapanStatusKK30Hari a owl:NamedIndividual, ktn:KetentuanJaminanSosial ;
+    ktn:pasal "Pasal 25A ayat (3)" ;
+    dct:source reg:PP-49-2023 .
+
+ktn:PenetapanStatusPAK30Hari a owl:NamedIndividual, ktn:KetentuanJaminanSosial ;
+    ktn:pasal "Pasal 25B ayat (3)" ;
+    dct:source reg:PP-49-2023 .
+
+ktn:PromotifPreventifBPUPMI a owl:NamedIndividual, ktn:KetentuanJaminanSosial ;
+    ktn:pasal "Pasal 50 ayat (1a)" ;
+    dct:source reg:PP-49-2023 .
+
+ktn:JKK-49-2023-RISIKO-RENDAH a owl:NamedIndividual, ktn:ProgramJaminanSosial ;
+    ktn:jenisProgram "JKK" ;
+    ktn:tarifPengusahaPersen 0.4 ;
+    ktn:tarifPekerjaPersen 0 ;
+    ktn:tarifTotalPersen 0.4 ;
+    ktn:tingkatRisiko "rendah" ;
+    ktn:pasal "Pasal 16A ayat (1) huruf b" .
+
+ktn:JKK-49-2023-RISIKO-SANGAT-RENDAH a owl:NamedIndividual, ktn:ProgramJaminanSosial ;
+    ktn:jenisProgram "JKK" ;
+    ktn:tarifPengusahaPersen 0.1 ;
+    ktn:tarifPekerjaPersen 0 ;
+    ktn:tarifTotalPersen 0.1 ;
+    ktn:tingkatRisiko "sangat_rendah" ;
+    ktn:pasal "Pasal 16A ayat (1) huruf a" .
+
+ktn:JKK-49-2023-RISIKO-SANGAT-TINGGI a owl:NamedIndividual, ktn:ProgramJaminanSosial ;
+    ktn:jenisProgram "JKK" ;
+    ktn:tarifPengusahaPersen 1.6 ;
+    ktn:tarifPekerjaPersen 0 ;
+    ktn:tarifTotalPersen 1.6 ;
+    ktn:tingkatRisiko "sangat_tinggi" ;
+    ktn:pasal "Pasal 16A ayat (1) huruf e" .
+
+ktn:JKK-49-2023-RISIKO-SEDANG a owl:NamedIndividual, ktn:ProgramJaminanSosial ;
+    ktn:jenisProgram "JKK" ;
+    ktn:tarifPengusahaPersen 0.75 ;
+    ktn:tarifPekerjaPersen 0 ;
+    ktn:tarifTotalPersen 0.75 ;
+    ktn:tingkatRisiko "sedang" ;
+    ktn:pasal "Pasal 16A ayat (1) huruf c" .
+
+ktn:JKK-49-2023-RISIKO-TINGGI a owl:NamedIndividual, ktn:ProgramJaminanSosial ;
+    ktn:jenisProgram "JKK" ;
+    ktn:tarifPengusahaPersen 1.13 ;
+    ktn:tarifPekerjaPersen 0 ;
+    ktn:tarifTotalPersen 1.13 ;
+    ktn:tingkatRisiko "tinggi" ;
+    ktn:pasal "Pasal 16A ayat (1) huruf d" .
+
+ktn:JKM-49-2023 a owl:NamedIndividual, ktn:ProgramJaminanSosial ;
+    ktn:jenisProgram "JKM" ;
+    ktn:tarifPengusahaPersen 0.2 ;
+    ktn:tarifPekerjaPersen 0 ;
+    ktn:tarifTotalPersen 0.2 ;
+    ktn:pasal "Pasal 18A ayat (1)" .

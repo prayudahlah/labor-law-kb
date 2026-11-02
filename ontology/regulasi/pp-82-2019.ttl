@@ -1,0 +1,58 @@
+# =====================================================================
+# BERKAS DIGENERATE. JANGAN EDIT MANUAL.
+# Sumber   : data/norma.csv, parameter.csv, kategori.csv, pengali_lembur.csv, program_jamsos.csv
+# Hasilkan : .venv/bin/python scripts/build_ontology.py
+# =====================================================================
+
+@prefix ktn:  <https://example.org/kbr/ketenagakerjaan#> .
+@prefix reg:  <https://example.org/kbr/regulasi#> .
+@prefix dct:  <http://purl.org/dc/terms/> .
+@prefix owl:  <http://www.w3.org/2002/07/owl#> .
+@prefix rdf:  <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd:  <http://www.w3.org/2001/XMLSchema#> .
+
+<https://example.org/kbr/ketenagakerjaan/regulasi/pp-82-2019> a owl:Ontology ;
+    dct:title "Fakta norma: Peraturan Pemerintah Nomor 82 Tahun 2019 tentang Perubahan atas Peraturan Pemerintah Nomor 44 Tahun 2015 tentang Penyelenggaraan Program Jaminan Kecelakaan Kerja dan Jaminan Kematian" ;
+    dct:source <https://peraturan.bpk.go.id/Details/127681/pp-no-82-tahun-2019> ;
+    owl:imports <https://example.org/kbr/ketenagakerjaan> .
+
+ktn:P82DaluwarsaJkkLimaTahun a owl:NamedIndividual, ktn:KetentuanJaminanSosial ;
+    ktn:pasal "Pasal 26" ;
+    dct:source reg:PP-82-2019 .
+
+ktn:P82JkkBeasiswaAnak a owl:NamedIndividual, ktn:KetentuanJaminanSosial ;
+    ktn:pasal "Pasal 25 ayat (3)" ;
+    dct:source reg:PP-82-2019 .
+
+ktn:P82JkkHakManfaat a owl:NamedIndividual, ktn:KetentuanJaminanSosial ;
+    ktn:pasal "Pasal 25 ayat (1)" ;
+    dct:source reg:PP-82-2019 .
+
+ktn:P82JkkRuangLingkupManfaat a owl:NamedIndividual, ktn:KetentuanJaminanSosial ;
+    ktn:pasal "Pasal 25 ayat (2)" ;
+    dct:source reg:PP-82-2019 .
+
+ktn:P82JkmBeasiswaAnak a owl:NamedIndividual, ktn:KetentuanJaminanSosial ;
+    ktn:pasal "Pasal 34 ayat (1) huruf d" ;
+    dct:source reg:PP-82-2019 .
+
+ktn:P82JkmBeasiswaMaksDuaAnak a owl:NamedIndividual, ktn:KetentuanJaminanSosial ;
+    ktn:pasal "Pasal 34 ayat (3)" ;
+    dct:source reg:PP-82-2019 .
+
+ktn:P82JkmBiayaPemakaman a owl:NamedIndividual, ktn:KetentuanJaminanSosial ;
+    ktn:pasal "Pasal 34 ayat (1) huruf c" ;
+    dct:source reg:PP-82-2019 .
+
+ktn:P82JkmPemakamanTanpaAhliWaris a owl:NamedIndividual, ktn:KetentuanJaminanSosial ;
+    ktn:pasal "Pasal 34 ayat (2)" ;
+    dct:source reg:PP-82-2019 .
+
+ktn:P82JkmSantunanBerkala a owl:NamedIndividual, ktn:KetentuanJaminanSosial ;
+    ktn:pasal "Pasal 34 ayat (1) huruf b" ;
+    dct:source reg:PP-82-2019 .
+
+ktn:P82JkmSantunanSekaligus a owl:NamedIndividual, ktn:KetentuanJaminanSosial ;
+    ktn:pasal "Pasal 34 ayat (1) huruf a" ;
+    dct:source reg:PP-82-2019 .
