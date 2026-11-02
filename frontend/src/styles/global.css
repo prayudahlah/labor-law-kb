@@ -1,0 +1,104 @@
+@import 'tailwindcss';
+
+/*
+ * Pemetaan CSS variable (diisi src/config/theme.ts lewat applyTheme) ke
+ * utility Tailwind. Hasilnya: bg-navy, text-ink-muted, border-line, dst.
+ * Warna TIDAK didefinisikan di sini — semuanya ada di theme.ts.
+ */
+@theme {
+  --color-navy: var(--c-navy);
+  --color-navy-hover: var(--c-navy-hover);
+  --color-navy-light: var(--c-navy-light);
+  --color-navy-soft: var(--c-navy-soft);
+
+  --color-gold: var(--c-gold);
+  --color-gold-soft: var(--c-gold-soft);
+  --color-gold-text: var(--c-gold-text);
+
+  --color-bg: var(--c-bg);
+  --color-surface: var(--c-surface);
+  --color-surface-muted: var(--c-surface-muted);
+  --color-line: var(--c-border);
+  --color-line-strong: var(--c-border-strong);
+
+  --color-ink: var(--c-text);
+  --color-ink-muted: var(--c-text-muted);
+  --color-ink-inverse: var(--c-text-inverse);
+
+  --color-success: var(--c-success);
+  --color-danger: var(--c-danger);
+  --color-danger-soft: var(--c-danger-soft);
+
+  --shadow-card: 0 1px 2px rgba(31, 36, 41, 0.04), 0 8px 24px rgba(31, 36, 41, 0.06);
+  --shadow-pop: 0 12px 40px rgba(20, 48, 79, 0.14);
+}
+
+@layer base {
+  html,
+  body,
+  #root {
+    height: 100%;
+  }
+
+  body {
+    /* Scroll hanya dua pane (sidebar & area chat) — halaman tidak ikut. */
+    overflow: hidden;
+    background-color: var(--c-bg);
+    color: var(--c-text);
+    font-family:
+      ui-sans-serif, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial,
+      sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+
+  ::selection {
+    background-color: var(--c-gold-soft);
+    color: var(--c-text);
+  }
+
+  button {
+    cursor: pointer;
+  }
+
+  button:disabled {
+    cursor: not-allowed;
+  }
+
+  :focus-visible {
+    outline: 2px solid var(--c-navy-light);
+    outline-offset: 2px;
+  }
+}
+
+@layer components {
+  /* Blob gradien pada empty state — navy -> emas, gaya referensi. */
+  .blob {
+    background-image:
+      radial-gradient(circle at 30% 26%, rgba(255, 255, 255, 0.9) 0%, rgba(255, 255, 255, 0) 42%),
+      radial-gradient(circle at 72% 74%, var(--c-gold) 0%, rgba(192, 138, 46, 0) 58%),
+      linear-gradient(140deg, var(--c-navy) 0%, var(--c-navy-light) 52%, var(--c-navy) 100%);
+    box-shadow:
+      0 10px 30px rgba(20, 48, 79, 0.28),
+      0 0 0 10px rgba(192, 138, 46, 0.07);
+  }
+
+  /* Scrollbar tipis agar konsisten antar browser. */
+  .scroll-slim {
+    scrollbar-width: thin;
+    scrollbar-color: var(--c-border-strong) transparent;
+    /* Mencegah guliran menerus ke pane lain / ke halaman (wheel chaining). */
+    overscroll-behavior: contain;
+  }
+  .scroll-slim::-webkit-scrollbar {
+    width: 8px;
+    height: 8px;
+  }
+  .scroll-slim::-webkit-scrollbar-thumb {
+    background-color: var(--c-border-strong);
+    border-radius: 9999px;
+  }
+  .scroll-slim::-webkit-scrollbar-track {
+    background: transparent;
+  }
+}
