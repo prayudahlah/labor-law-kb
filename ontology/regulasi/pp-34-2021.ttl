@@ -1,7 +1,7 @@
 # =====================================================================
 # BERKAS DIGENERATE. JANGAN EDIT MANUAL.
 # Sumber   : data/norma.csv, parameter.csv, kategori.csv, pengali_lembur.csv, program_jamsos.csv
-# Hasilkan : .venv/bin/python scripts/build_ontology.py
+# Hasilkan : uv run python scripts/build_ontology.py
 # =====================================================================
 
 @prefix ktn:  <https://example.org/kbr/ketenagakerjaan#> .
@@ -19,32 +19,40 @@
 
 ktn:JabatanDidudukiTKA a owl:NamedIndividual, ktn:KetentuanTKA ;
     ktn:pasal "Pasal 2 ayat (2)" ;
+    ktn:berkaitanTopik ktn:TopikTKA ;
     dct:source reg:PP-34-2021 .
 
 ktn:LaporPKTKABerakhir a owl:NamedIndividual, ktn:KetentuanTKA ;
     ktn:pasal "Pasal 21 ayat (3)" ;
+    ktn:berkaitanTopik ktn:TopikTKA ;
     dct:source reg:PP-34-2021 .
 
 ktn:PerhatikanPasarKerja a owl:NamedIndividual, ktn:KetentuanTKA ;
     ktn:pasal "Pasal 2 ayat (3)" ;
+    ktn:berkaitanTopik ktn:TopikTKA ;
     dct:source reg:PP-34-2021 .
 
 ktn:BatasPerpanjangan30HariKerja a owl:NamedIndividual, ktn:KetentuanTKA ;
     ktn:pasal "Pasal 21 ayat (2)" ;
+    ktn:berkaitanTopik ktn:TopikTKA ;
     dct:source reg:PP-34-2021 .
 
 ktn:WajibAjukanRPTKABaru a owl:NamedIndividual, ktn:KetentuanTKA ;
     ktn:pasal "Pasal 16 ayat (7)" ;
+    ktn:berkaitanTopik ktn:TopikTKA ;
     dct:source reg:PP-34-2021 .
 
 ktn:BatasAjukanRPTKADuaMinggu a owl:NamedIndividual, ktn:KetentuanTKA ;
     ktn:pasal "Pasal 16 ayat (8)" ;
+    ktn:berkaitanTopik ktn:TopikTKA ;
     dct:source reg:PP-34-2021 .
 
 ktn:UtamakanTKI a owl:NamedIndividual, ktn:KetentuanTKA ;
     ktn:pasal "Pasal 2 ayat (1)" ;
+    ktn:berkaitanTopik ktn:TopikTKA ;
     dct:source reg:PP-34-2021 .
 
 ktn:VisaDaruratBisnisPenelitian a owl:NamedIndividual, ktn:KetentuanTKA ;
     ktn:pasal "Pasal 20" ;
+    ktn:berkaitanTopik ktn:TopikTKA ;
     dct:source reg:PP-34-2021 .

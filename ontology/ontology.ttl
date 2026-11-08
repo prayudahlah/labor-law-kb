@@ -1,5 +1,5 @@
 # BERKAS DIGENERATE. JANGAN EDIT MANUAL.
-# Hasilkan: .venv/bin/python scripts/build_catalog.py
+# Hasilkan: uv run python scripts/build_catalog.py
 # Buka berkas ini di Protege; import diselesaikan lewat catalog-v001.xml.
 
 @prefix owl:  <http://www.w3.org/2002/07/owl#> .
@@ -9,6 +9,7 @@
 <https://example.org/kbr/ketenagakerjaan/kb> a owl:Ontology ;
     dct:title "Knowledge Base Hukum Ketenagakerjaan Indonesia" ;
     owl:imports <https://example.org/kbr/ketenagakerjaan> ;
+    owl:imports <https://example.org/kbr/ketenagakerjaan/meta/topik> ;
     owl:imports <https://example.org/kbr/ketenagakerjaan/rbox> ;
     owl:imports <https://example.org/kbr/ketenagakerjaan/regulasi/pp-10-2020> ;
     owl:imports <https://example.org/kbr/ketenagakerjaan/regulasi/pp-22-2022> ;

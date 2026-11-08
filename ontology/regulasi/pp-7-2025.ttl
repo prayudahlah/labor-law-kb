@@ -1,7 +1,7 @@
 # =====================================================================
 # BERKAS DIGENERATE. JANGAN EDIT MANUAL.
 # Sumber   : data/norma.csv, parameter.csv, kategori.csv, pengali_lembur.csv, program_jamsos.csv
-# Hasilkan : .venv/bin/python scripts/build_ontology.py
+# Hasilkan : uv run python scripts/build_ontology.py
 # =====================================================================
 
 @prefix ktn:  <https://example.org/kbr/ketenagakerjaan#> .
@@ -19,42 +19,52 @@
 
 ktn:JkkBatasBayarIuran a owl:NamedIndividual, ktn:KetentuanJaminanSosial ;
     ktn:pasal "Pasal 6 ayat (1)" ;
+    ktn:berkaitanTopik ktn:TopikJamsos ;
     dct:source reg:PP-7-2025 .
 
 ktn:JkkKelebihanBayar a owl:NamedIndividual, ktn:KetentuanJaminanSosial ;
     ktn:pasal "Pasal 6 ayat (3)" ;
+    ktn:berkaitanTopik ktn:TopikJamsos ;
     dct:source reg:PP-7-2025 .
 
 ktn:JkkKeringanan50Persen a owl:NamedIndividual, ktn:KetentuanJaminanSosial ;
     ktn:pasal "Pasal 4 ayat (1)" ;
+    ktn:berkaitanTopik ktn:TopikJamsos ;
     dct:source reg:PP-7-2025 .
 
 ktn:JkkKeringananPadatKarya a owl:NamedIndividual, ktn:KetentuanJaminanSosial ;
     ktn:pasal "Pasal 3 ayat (1)" ;
+    ktn:berkaitanTopik ktn:TopikJamsos ;
     dct:source reg:PP-7-2025 .
 
 ktn:JkkKriteriaPadatKarya a owl:NamedIndividual, ktn:KetentuanJaminanSosial ;
     ktn:pasal "Pasal 3 ayat (3)" ;
+    ktn:berkaitanTopik ktn:TopikJamsos ;
     dct:source reg:PP-7-2025 .
 
 ktn:JkkManfaatTidakBerkurang a owl:NamedIndividual, ktn:KetentuanJaminanSosial ;
     ktn:pasal "Pasal 8" ;
+    ktn:berkaitanTopik ktn:TopikJamsos ;
     dct:source reg:PP-7-2025 .
 
 ktn:JkkRekomposisiRendahKeAtas a owl:NamedIndividual, ktn:KetentuanJaminanSosial ;
     ktn:pasal "Pasal 9 ayat (1)b" ;
+    ktn:berkaitanTopik ktn:TopikJamsos ;
     dct:source reg:PP-7-2025 .
 
 ktn:JkkRekomposisiSangatRendah a owl:NamedIndividual, ktn:KetentuanJaminanSosial ;
     ktn:pasal "Pasal 9 ayat (1)a" ;
+    ktn:berkaitanTopik ktn:TopikJamsos ;
     dct:source reg:PP-7-2025 .
 
 ktn:JkkSyaratPelunasan a owl:NamedIndividual, ktn:KetentuanJaminanSosial ;
     ktn:pasal "Pasal 6 ayat (2)" ;
+    ktn:berkaitanTopik ktn:TopikJamsos ;
     dct:source reg:PP-7-2025 .
 
 ktn:JkkVerifikasiKeringanan a owl:NamedIndividual, ktn:KetentuanJaminanSosial ;
     ktn:pasal "Pasal 5 ayat (1)" ;
+    ktn:berkaitanTopik ktn:TopikJamsos ;
     dct:source reg:PP-7-2025 .
 
 ktn:JKK-PPK-R1 a owl:NamedIndividual, ktn:ProgramJaminanSosial ;

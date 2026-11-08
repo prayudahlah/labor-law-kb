@@ -1,7 +1,7 @@
 # =====================================================================
 # BERKAS DIGENERATE. JANGAN EDIT MANUAL.
 # Sumber   : data/norma.csv, parameter.csv, kategori.csv, pengali_lembur.csv, program_jamsos.csv
-# Hasilkan : .venv/bin/python scripts/build_ontology.py
+# Hasilkan : uv run python scripts/build_ontology.py
 # =====================================================================
 
 @prefix ktn:  <https://example.org/kbr/ketenagakerjaan#> .
@@ -19,178 +19,222 @@
 
 ktn:BatasAtasUpahJKP a owl:NamedIndividual, ktn:KetentuanJaminanSosial ;
     ktn:pasal "Pasal 11 ayat (7)" ;
+    ktn:berkaitanTopik ktn:TopikJamsos ;
     dct:source reg:PP-37-2021 .
 
 ktn:IuranJKP a owl:NamedIndividual, ktn:KetentuanJaminanSosial ;
     ktn:pasal "Pasal 11 ayat (2)" ;
+    ktn:berkaitanTopik ktn:TopikJamsos ;
     dct:source reg:PP-37-2021 .
 
 ktn:Jkp37BatasPengajuan a owl:NamedIndividual, ktn:KetentuanJaminanSosial ;
     ktn:pasal "Pasal 35" ;
+    ktn:berkaitanTopik ktn:TopikJamsos ;
     dct:source reg:PP-37-2021 .
 
 ktn:Jkp37BatasUpahManfaat a owl:NamedIndividual, ktn:KetentuanJaminanSosial ;
     ktn:pasal "Pasal 21 ayat (3)" ;
+    ktn:berkaitanTopik ktn:TopikJamsos ;
     dct:source reg:PP-37-2021 .
 
 ktn:Jkp37BersediaBekerja a owl:NamedIndividual, ktn:KetentuanJaminanSosial ;
     ktn:pasal "Pasal 19 ayat (2)" ;
+    ktn:berkaitanTopik ktn:TopikJamsos ;
     dct:source reg:PP-37-2021 .
 
 ktn:Jkp37BuktiPhk a owl:NamedIndividual, ktn:KetentuanJaminanSosial ;
     ktn:pasal "Pasal 20 ayat (3)" ;
+    ktn:berkaitanTopik ktn:TopikJamsos ;
     dct:source reg:PP-37-2021 .
 
 ktn:Jkp37DanaOperasional a owl:NamedIndividual, ktn:KetentuanJaminanSosial ;
     ktn:pasal "Pasal 43" ;
+    ktn:berkaitanTopik ktn:TopikJamsos ;
     dct:source reg:PP-37-2021 .
 
 ktn:Jkp37DasarUpahIuran a owl:NamedIndividual, ktn:KetentuanJaminanSosial ;
     ktn:pasal "Pasal 11 ayat (6)" ;
+    ktn:berkaitanTopik ktn:TopikJamsos ;
     dct:source reg:PP-37-2021 .
 
 ktn:Jkp37DasarUpahManfaat a owl:NamedIndividual, ktn:KetentuanJaminanSosial ;
     ktn:pasal "Pasal 21 ayat (2)" ;
+    ktn:berkaitanTopik ktn:TopikJamsos ;
     dct:source reg:PP-37-2021 .
 
 ktn:Jkp37FormulirPendaftaran a owl:NamedIndividual, ktn:KetentuanJaminanSosial ;
     ktn:pasal "Pasal 6 ayat (1)" ;
+    ktn:berkaitanTopik ktn:TopikJamsos ;
     dct:source reg:PP-37-2021 .
 
 ktn:Jkp37HakManfaat a owl:NamedIndividual, ktn:KetentuanJaminanSosial ;
     ktn:pasal "Pasal 19 ayat (1)" ;
+    ktn:berkaitanTopik ktn:TopikJamsos ;
     dct:source reg:PP-37-2021 .
 
 ktn:Jkp37HakTidakDialihkan a owl:NamedIndividual, ktn:KetentuanJaminanSosial ;
     ktn:pasal "Pasal 38" ;
+    ktn:berkaitanTopik ktn:TopikJamsos ;
     dct:source reg:PP-37-2021 .
 
 ktn:Jkp37HilangHak a owl:NamedIndividual, ktn:KetentuanJaminanSosial ;
     ktn:pasal "Pasal 40" ;
+    ktn:berkaitanTopik ktn:TopikJamsos ;
     dct:source reg:PP-37-2021 .
 
 ktn:Jkp37InfoPasarKerja a owl:NamedIndividual, ktn:KetentuanJaminanSosial ;
     ktn:pasal "Pasal 25 ayat (1)" ;
+    ktn:berkaitanTopik ktn:TopikJamsos ;
     dct:source reg:PP-37-2021 .
 
 ktn:Jkp37KekuranganManfaat a owl:NamedIndividual, ktn:KetentuanJaminanSosial ;
     ktn:pasal "Pasal 23" ;
+    ktn:berkaitanTopik ktn:TopikJamsos ;
     dct:source reg:PP-37-2021 .
 
 ktn:Jkp37KepesertaanUsahaBesarMenengah a owl:NamedIndividual, ktn:KetentuanJaminanSosial ;
     ktn:pasal "Pasal 4 ayat (3)a" ;
+    ktn:berkaitanTopik ktn:TopikJamsos ;
     dct:source reg:PP-37-2021 .
 
 ktn:Jkp37KepesertaanUsahaMikroKecil a owl:NamedIndividual, ktn:KetentuanJaminanSosial ;
     ktn:pasal "Pasal 4 ayat (3)b" ;
+    ktn:berkaitanTopik ktn:TopikJamsos ;
     dct:source reg:PP-37-2021 .
 
 ktn:Jkp37KomponenUpahIuran a owl:NamedIndividual, ktn:KetentuanJaminanSosial ;
     ktn:pasal "Pasal 13 ayat (1)" ;
+    ktn:berkaitanTopik ktn:TopikJamsos ;
     dct:source reg:PP-37-2021 .
 
 ktn:Jkp37LaporPelatihan a owl:NamedIndividual, ktn:KetentuanJaminanSosial ;
     ktn:pasal "Pasal 33 ayat (1)" ;
+    ktn:berkaitanTopik ktn:TopikJamsos ;
     dct:source reg:PP-37-2021 .
 
 ktn:Jkp37LaporPenempatan a owl:NamedIndividual, ktn:KetentuanJaminanSosial ;
     ktn:pasal "Pasal 28" ;
+    ktn:berkaitanTopik ktn:TopikJamsos ;
     dct:source reg:PP-37-2021 .
 
 ktn:Jkp37Manfaat a owl:NamedIndividual, ktn:KetentuanJaminanSosial ;
     ktn:pasal "Pasal 18" ;
+    ktn:berkaitanTopik ktn:TopikJamsos ;
     dct:source reg:PP-37-2021 .
 
 ktn:Jkp37ManfaatMultiPengusaha a owl:NamedIndividual, ktn:KetentuanJaminanSosial ;
     ktn:pasal "Pasal 36" ;
+    ktn:berkaitanTopik ktn:TopikJamsos ;
     dct:source reg:PP-37-2021 .
 
 ktn:Jkp37ManfaatPkwt a owl:NamedIndividual, ktn:KetentuanJaminanSosial ;
     ktn:pasal "Pasal 20 ayat (2)" ;
+    ktn:berkaitanTopik ktn:TopikJamsos ;
     dct:source reg:PP-37-2021 .
 
 ktn:Jkp37MultiPengusaha a owl:NamedIndividual, ktn:KetentuanJaminanSosial ;
     ktn:pasal "Pasal 8 ayat (1)" ;
+    ktn:berkaitanTopik ktn:TopikJamsos ;
     dct:source reg:PP-37-2021 .
 
 ktn:Jkp37NomorKepesertaan a owl:NamedIndividual, ktn:KetentuanJaminanSosial ;
     ktn:pasal "Pasal 6 ayat (3)" ;
+    ktn:berkaitanTopik ktn:TopikJamsos ;
     dct:source reg:PP-37-2021 .
 
 ktn:Jkp37PelatihanKompetensi a owl:NamedIndividual, ktn:KetentuanJaminanSosial ;
     ktn:pasal "Pasal 30 ayat (1)" ;
+    ktn:berkaitanTopik ktn:TopikJamsos ;
     dct:source reg:PP-37-2021 .
 
 ktn:Jkp37PelunasanTunggakan a owl:NamedIndividual, ktn:KetentuanJaminanSosial ;
     ktn:pasal "Pasal 39 ayat (2)" ;
+    ktn:berkaitanTopik ktn:TopikJamsos ;
     dct:source reg:PP-37-2021 .
 
 ktn:Jkp37PembiayaanIuran a owl:NamedIndividual, ktn:KetentuanJaminanSosial ;
     ktn:pasal "Pasal 11 ayat (3)" ;
+    ktn:berkaitanTopik ktn:TopikJamsos ;
     dct:source reg:PP-37-2021 .
 
 ktn:Jkp37PenggantianManfaat a owl:NamedIndividual, ktn:KetentuanJaminanSosial ;
     ktn:pasal "Pasal 39 ayat (4)" ;
+    ktn:berkaitanTopik ktn:TopikJamsos ;
     dct:source reg:PP-37-2021 .
 
 ktn:Jkp37PenggantianTujuhHari a owl:NamedIndividual, ktn:KetentuanJaminanSosial ;
     ktn:pasal "Pasal 39 ayat (6)" ;
+    ktn:berkaitanTopik ktn:TopikJamsos ;
     dct:source reg:PP-37-2021 .
 
 ktn:Jkp37PerubahanData a owl:NamedIndividual, ktn:KetentuanJaminanSosial ;
     ktn:pasal "Pasal 9" ;
+    ktn:berkaitanTopik ktn:TopikJamsos ;
     dct:source reg:PP-37-2021 .
 
 ktn:Jkp37PesertaOtomatis a owl:NamedIndividual, ktn:KetentuanJaminanSosial ;
     ktn:pasal "Pasal 5 ayat (1)" ;
+    ktn:berkaitanTopik ktn:TopikJamsos ;
     dct:source reg:PP-37-2021 .
 
 ktn:Jkp37RekomposisiIuranJkk a owl:NamedIndividual, ktn:KetentuanJaminanSosial ;
     ktn:pasal "Pasal 11 ayat (5)a" ;
+    ktn:berkaitanTopik ktn:TopikJamsos ;
     dct:source reg:PP-37-2021 .
 
 ktn:Jkp37RekomposisiIuranJkm a owl:NamedIndividual, ktn:KetentuanJaminanSosial ;
     ktn:pasal "Pasal 11 ayat (5)b" ;
+    ktn:berkaitanTopik ktn:TopikJamsos ;
     dct:source reg:PP-37-2021 .
 
 ktn:Jkp37RekomposisiTerlambat a owl:NamedIndividual, ktn:KetentuanJaminanSosial ;
     ktn:pasal "Pasal 16 ayat (1)" ;
+    ktn:berkaitanTopik ktn:TopikJamsos ;
     dct:source reg:PP-37-2021 .
 
 ktn:Jkp37SumberPendanaan a owl:NamedIndividual, ktn:KetentuanJaminanSosial ;
     ktn:pasal "Pasal 42 ayat (1)" ;
+    ktn:berkaitanTopik ktn:TopikJamsos ;
     dct:source reg:PP-37-2021 .
 
 ktn:Jkp37SyaratPeserta a owl:NamedIndividual, ktn:KetentuanJaminanSosial ;
     ktn:pasal "Pasal 4 ayat (2)" ;
+    ktn:berkaitanTopik ktn:TopikJamsos ;
     dct:source reg:PP-37-2021 .
 
 ktn:Jkp37TunggakanLebihTigaBulan a owl:NamedIndividual, ktn:KetentuanJaminanSosial ;
     ktn:pasal "Pasal 39 ayat (3)" ;
+    ktn:berkaitanTopik ktn:TopikJamsos ;
     dct:source reg:PP-37-2021 .
 
 ktn:Jkp37TunggakanMaksTigaBulan a owl:NamedIndividual, ktn:KetentuanJaminanSosial ;
     ktn:pasal "Pasal 39 ayat (1)" ;
+    ktn:berkaitanTopik ktn:TopikJamsos ;
     dct:source reg:PP-37-2021 .
 
 ktn:KepesertaanJKP a owl:NamedIndividual, ktn:KetentuanJaminanSosial ;
     ktn:pasal "Pasal 2 ayat (1)" ;
+    ktn:berkaitanTopik ktn:TopikJamsos ;
     dct:source reg:PP-37-2021 .
 
 ktn:KewajibanPengusahaJKP a owl:NamedIndividual, ktn:KetentuanJaminanSosial ;
     ktn:pasal "Pasal 37 ayat (1)" ;
+    ktn:berkaitanTopik ktn:TopikJamsos ;
     dct:source reg:PP-37-2021 .
 
 ktn:ManfaatUangTunaiJKP a owl:NamedIndividual, ktn:KetentuanJaminanSosial ;
     ktn:pasal "Pasal 21 ayat (1)" ;
+    ktn:berkaitanTopik ktn:TopikJamsos ;
     dct:source reg:PP-37-2021 .
 
 ktn:MasaIurJKP a owl:NamedIndividual, ktn:KetentuanJaminanSosial ;
     ktn:pasal "Pasal 19 ayat (3)" ;
+    ktn:berkaitanTopik ktn:TopikJamsos ;
     dct:source reg:PP-37-2021 .
 
 ktn:PengecualianManfaatJKP a owl:NamedIndividual, ktn:KetentuanJaminanSosial ;
     ktn:pasal "Pasal 20 ayat (1)" ;
+    ktn:berkaitanTopik ktn:TopikJamsos ;
     dct:source reg:PP-37-2021 .
 
 ktn:JKK-R1 a owl:NamedIndividual, ktn:ProgramJaminanSosial ;

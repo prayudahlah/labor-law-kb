@@ -1,0 +1,21 @@
+@prefix sh:  <http://www.w3.org/ns/shacl#> .
+@prefix ktn: <https://example.org/kbr/ketenagakerjaan#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+ktn:PekerjaLemburShape a sh:NodeShape ;
+    sh:targetClass ktn:Pekerja ;
+    sh:property [ sh:path ktn:upahBulanan ; sh:minCount 1 ;
+                  sh:datatype xsd:decimal ; sh:minInclusive 0 ;
+                  sh:message "upahBulanan wajib ada, decimal >= 0" ] ;
+    sh:property [ sh:path ktn:mengerjakanLembur ; sh:minCount 1 ; sh:maxCount 1 ;
+                  sh:class ktn:Lembur ;
+                  sh:message "wajib ada tepat satu peristiwa Lembur" ] .
+
+ktn:LemburShape a sh:NodeShape ;
+    sh:targetClass ktn:Lembur ;
+    sh:property [ sh:path ktn:jamLembur ; sh:minCount 1 ;
+                  sh:datatype xsd:decimal ; sh:minExclusive 0 ;
+                  sh:message "jamLembur wajib ada dan > 0" ] ;
+    sh:property [ sh:path ktn:padaHariKerja ; sh:minCount 1 ;
+                  sh:datatype xsd:boolean ;
+                  sh:message "padaHariKerja wajib boolean" ] .

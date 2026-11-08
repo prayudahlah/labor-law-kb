@@ -1,7 +1,7 @@
 # =====================================================================
 # BERKAS DIGENERATE. JANGAN EDIT MANUAL.
 # Sumber   : data/norma.csv, parameter.csv, kategori.csv, pengali_lembur.csv, program_jamsos.csv
-# Hasilkan : .venv/bin/python scripts/build_ontology.py
+# Hasilkan : uv run python scripts/build_ontology.py
 # =====================================================================
 
 @prefix ktn:  <https://example.org/kbr/ketenagakerjaan#> .
@@ -19,12 +19,15 @@
 
 ktn:PenyelenggaraanJamsosPMI a owl:NamedIndividual, ktn:KetentuanJaminanSosial ;
     ktn:pasal "Pasal 29 ayat (1)" ;
+    ktn:berkaitanTopik ktn:TopikJamsos ;
     dct:source reg:UU-18-2017 .
 
 ktn:KerjaSamaRisikoTakTercakup a owl:NamedIndividual, ktn:KetentuanJaminanSosial ;
     ktn:pasal "Pasal 29 ayat (4)" ;
+    ktn:berkaitanTopik ktn:TopikJamsos ;
     dct:source reg:UU-18-2017 .
 
 ktn:HakUpahPMI a owl:NamedIndividual, ktn:KetentuanUpah ;
     ktn:pasal "Pasal 6 ayat (1) huruf f" ;
+    ktn:berkaitanTopik ktn:TopikUpah ;
     dct:source reg:UU-18-2017 .

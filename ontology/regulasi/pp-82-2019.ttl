@@ -1,7 +1,7 @@
 # =====================================================================
 # BERKAS DIGENERATE. JANGAN EDIT MANUAL.
 # Sumber   : data/norma.csv, parameter.csv, kategori.csv, pengali_lembur.csv, program_jamsos.csv
-# Hasilkan : .venv/bin/python scripts/build_ontology.py
+# Hasilkan : uv run python scripts/build_ontology.py
 # =====================================================================
 
 @prefix ktn:  <https://example.org/kbr/ketenagakerjaan#> .
@@ -19,40 +19,50 @@
 
 ktn:P82DaluwarsaJkkLimaTahun a owl:NamedIndividual, ktn:KetentuanJaminanSosial ;
     ktn:pasal "Pasal 26" ;
+    ktn:berkaitanTopik ktn:TopikJamsos ;
     dct:source reg:PP-82-2019 .
 
 ktn:P82JkkBeasiswaAnak a owl:NamedIndividual, ktn:KetentuanJaminanSosial ;
     ktn:pasal "Pasal 25 ayat (3)" ;
+    ktn:berkaitanTopik ktn:TopikJamsos ;
     dct:source reg:PP-82-2019 .
 
 ktn:P82JkkHakManfaat a owl:NamedIndividual, ktn:KetentuanJaminanSosial ;
     ktn:pasal "Pasal 25 ayat (1)" ;
+    ktn:berkaitanTopik ktn:TopikJamsos ;
     dct:source reg:PP-82-2019 .
 
 ktn:P82JkkRuangLingkupManfaat a owl:NamedIndividual, ktn:KetentuanJaminanSosial ;
     ktn:pasal "Pasal 25 ayat (2)" ;
+    ktn:berkaitanTopik ktn:TopikJamsos ;
     dct:source reg:PP-82-2019 .
 
 ktn:P82JkmBeasiswaAnak a owl:NamedIndividual, ktn:KetentuanJaminanSosial ;
     ktn:pasal "Pasal 34 ayat (1) huruf d" ;
+    ktn:berkaitanTopik ktn:TopikJamsos ;
     dct:source reg:PP-82-2019 .
 
 ktn:P82JkmBeasiswaMaksDuaAnak a owl:NamedIndividual, ktn:KetentuanJaminanSosial ;
     ktn:pasal "Pasal 34 ayat (3)" ;
+    ktn:berkaitanTopik ktn:TopikJamsos ;
     dct:source reg:PP-82-2019 .
 
 ktn:P82JkmBiayaPemakaman a owl:NamedIndividual, ktn:KetentuanJaminanSosial ;
     ktn:pasal "Pasal 34 ayat (1) huruf c" ;
+    ktn:berkaitanTopik ktn:TopikJamsos ;
     dct:source reg:PP-82-2019 .
 
 ktn:P82JkmPemakamanTanpaAhliWaris a owl:NamedIndividual, ktn:KetentuanJaminanSosial ;
     ktn:pasal "Pasal 34 ayat (2)" ;
+    ktn:berkaitanTopik ktn:TopikJamsos ;
     dct:source reg:PP-82-2019 .
 
 ktn:P82JkmSantunanBerkala a owl:NamedIndividual, ktn:KetentuanJaminanSosial ;
     ktn:pasal "Pasal 34 ayat (1) huruf b" ;
+    ktn:berkaitanTopik ktn:TopikJamsos ;
     dct:source reg:PP-82-2019 .
 
 ktn:P82JkmSantunanSekaligus a owl:NamedIndividual, ktn:KetentuanJaminanSosial ;
     ktn:pasal "Pasal 34 ayat (1) huruf a" ;
+    ktn:berkaitanTopik ktn:TopikJamsos ;
     dct:source reg:PP-82-2019 .

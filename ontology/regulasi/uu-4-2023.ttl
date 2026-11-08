@@ -1,7 +1,7 @@
 # =====================================================================
 # BERKAS DIGENERATE. JANGAN EDIT MANUAL.
 # Sumber   : data/norma.csv, parameter.csv, kategori.csv, pengali_lembur.csv, program_jamsos.csv
-# Hasilkan : .venv/bin/python scripts/build_ontology.py
+# Hasilkan : uv run python scripts/build_ontology.py
 # =====================================================================
 
 @prefix ktn:  <https://example.org/kbr/ketenagakerjaan#> .
@@ -19,32 +19,40 @@
 
 ktn:JHTAhliWaris a owl:NamedIndividual, ktn:KetentuanJaminanSosial ;
     ktn:pasal "Pasal 37 ayat (6)" ;
+    ktn:berkaitanTopik ktn:TopikJamsos ;
     dct:source reg:UU-4-2023 .
 
 ktn:JHTAksesMendesak a owl:NamedIndividual, ktn:KetentuanJaminanSosial ;
     ktn:pasal "Pasal 37 ayat (3)" ;
+    ktn:berkaitanTopik ktn:TopikJamsos ;
     dct:source reg:UU-4-2023 .
 
 ktn:JHTAkunUtamaTambahan a owl:NamedIndividual, ktn:KetentuanJaminanSosial ;
     ktn:pasal "Pasal 36 ayat (2) dan ayat (3)" ;
+    ktn:berkaitanTopik ktn:TopikJamsos ;
     dct:source reg:UU-4-2023 .
 
 ktn:JHTBesaranManfaat a owl:NamedIndividual, ktn:KetentuanJaminanSosial ;
     ktn:pasal "Pasal 37 ayat (1)" ;
+    ktn:berkaitanTopik ktn:TopikJamsos ;
     dct:source reg:UU-4-2023 .
 
 ktn:JHTImbalHasilMinimal a owl:NamedIndividual, ktn:KetentuanJaminanSosial ;
     ktn:pasal "Pasal 37 ayat (4) dan ayat (5)" ;
+    ktn:berkaitanTopik ktn:TopikJamsos ;
     dct:source reg:UU-4-2023 .
 
 ktn:JHTIuranBukanPenerimaUpah a owl:NamedIndividual, ktn:KetentuanJaminanSosial ;
     ktn:pasal "Pasal 38 ayat (2)" ;
+    ktn:berkaitanTopik ktn:TopikJamsos ;
     dct:source reg:UU-4-2023 .
 
 ktn:JHTIuranPenerimaUpah a owl:NamedIndividual, ktn:KetentuanJaminanSosial ;
     ktn:pasal "Pasal 38 ayat (1)" ;
+    ktn:berkaitanTopik ktn:TopikJamsos ;
     dct:source reg:UU-4-2023 .
 
 ktn:JHTPembayaranManfaat a owl:NamedIndividual, ktn:KetentuanJaminanSosial ;
     ktn:pasal "Pasal 37 ayat (2)" ;
+    ktn:berkaitanTopik ktn:TopikJamsos ;
     dct:source reg:UU-4-2023 .

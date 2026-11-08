@@ -1,7 +1,7 @@
 # =====================================================================
 # BERKAS DIGENERATE. JANGAN EDIT MANUAL.
 # Sumber   : data/norma.csv, parameter.csv, kategori.csv, pengali_lembur.csv, program_jamsos.csv
-# Hasilkan : .venv/bin/python scripts/build_ontology.py
+# Hasilkan : uv run python scripts/build_ontology.py
 # =====================================================================
 
 @prefix ktn:  <https://example.org/kbr/ketenagakerjaan#> .
@@ -19,97 +19,121 @@
 
 ktn:HakManfaatPeserta a owl:NamedIndividual, ktn:KetentuanJaminanSosial ;
     ktn:pasal "Pasal 16" ;
+    ktn:berkaitanTopik ktn:TopikJamsos ;
     dct:source reg:UU-40-2004 .
 
 ktn:HakInformasiIuran a owl:NamedIndividual, ktn:KetentuanJaminanSosial ;
     ktn:pasal "Pasal 49 ayat (3)" ;
+    ktn:berkaitanTopik ktn:TopikJamsos ;
     dct:source reg:UU-40-2004 .
 
 ktn:IuranBantuanPemerintah a owl:NamedIndividual, ktn:KetentuanJaminanSosial ;
     ktn:pasal "Pasal 17 ayat (4)" ;
+    ktn:berkaitanTopik ktn:TopikJamsos ;
     dct:source reg:UU-40-2004 .
 
 ktn:IuranJHT a owl:NamedIndividual, ktn:KetentuanJaminanSosial ;
     ktn:pasal "Pasal 38 ayat (1)" ;
+    ktn:berkaitanTopik ktn:TopikJamsos ;
     dct:source reg:UU-40-2004 .
 
 ktn:IuranJKK a owl:NamedIndividual, ktn:KetentuanJaminanSosial ;
     ktn:pasal "Pasal 34 ayat (1)" ;
+    ktn:berkaitanTopik ktn:TopikJamsos ;
     dct:source reg:UU-40-2004 .
 
 ktn:IuranJaminanKesehatan a owl:NamedIndividual, ktn:KetentuanJaminanSosial ;
     ktn:pasal "Pasal 27 ayat (1)" ;
+    ktn:berkaitanTopik ktn:TopikJamsos ;
     dct:source reg:UU-40-2004 .
 
 ktn:IuranJP a owl:NamedIndividual, ktn:KetentuanJaminanSosial ;
     ktn:pasal "Pasal 42 ayat (1)" ;
+    ktn:berkaitanTopik ktn:TopikJamsos ;
     dct:source reg:UU-40-2004 .
 
 ktn:TambahanIuranKeluarga a owl:NamedIndividual, ktn:KetentuanJaminanSosial ;
     ktn:pasal "Pasal 28 ayat (1)" ;
+    ktn:berkaitanTopik ktn:TopikJamsos ;
     dct:source reg:UU-40-2004 .
 
 ktn:KewajibanIuranPeserta a owl:NamedIndividual, ktn:KetentuanJaminanSosial ;
     ktn:pasal "Pasal 17 ayat (1)" ;
+    ktn:berkaitanTopik ktn:TopikJamsos ;
     dct:source reg:UU-40-2004 .
 
 ktn:IuranJKNBantuan a owl:NamedIndividual, ktn:KetentuanJaminanSosial ;
     ktn:pasal "Pasal 21 ayat (2)" ;
+    ktn:berkaitanTopik ktn:TopikJamsos ;
     dct:source reg:UU-40-2004 .
 
 ktn:KeluargaTambahanJKN a owl:NamedIndividual, ktn:KetentuanJaminanSosial ;
     ktn:pasal "Pasal 20 ayat (3)" ;
+    ktn:berkaitanTopik ktn:TopikJamsos ;
     dct:source reg:UU-40-2004 .
 
 ktn:ManfaatJaminanKesehatan a owl:NamedIndividual, ktn:KetentuanJaminanSosial ;
     ktn:pasal "Pasal 22 ayat (1)" ;
+    ktn:berkaitanTopik ktn:TopikJamsos ;
     dct:source reg:UU-40-2004 .
 
 ktn:ManfaatJKNKeluarga a owl:NamedIndividual, ktn:KetentuanJaminanSosial ;
     ktn:pasal "Pasal 20 ayat (2)" ;
+    ktn:berkaitanTopik ktn:TopikJamsos ;
     dct:source reg:UU-40-2004 .
 
 ktn:JaminanKesehatanPascaPHK a owl:NamedIndividual, ktn:KetentuanJaminanSosial ;
     ktn:pasal "Pasal 21 ayat (1)" ;
+    ktn:berkaitanTopik ktn:TopikJamsos ;
     dct:source reg:UU-40-2004 .
 
 ktn:ManfaatJHTSebagian a owl:NamedIndividual, ktn:KetentuanJaminanSosial ;
     ktn:pasal "Pasal 37 ayat (3)" ;
+    ktn:berkaitanTopik ktn:TopikJamsos ;
     dct:source reg:UU-40-2004 .
 
 ktn:ManfaatJHT a owl:NamedIndividual, ktn:KetentuanJaminanSosial ;
     ktn:pasal "Pasal 37 ayat (1)" ;
+    ktn:berkaitanTopik ktn:TopikJamsos ;
     dct:source reg:UU-40-2004 .
 
 ktn:ManfaatJKKUu402004 a owl:NamedIndividual, ktn:KetentuanJaminanSosial ;
     ktn:pasal "Pasal 31 ayat (1)" ;
+    ktn:berkaitanTopik ktn:TopikJamsos ;
     dct:source reg:UU-40-2004 .
 
 ktn:ManfaatJKM a owl:NamedIndividual, ktn:KetentuanJaminanSosial ;
     ktn:hariDibayar 3 ;
     ktn:pasal "Pasal 45 ayat (1)" ;
+    ktn:berkaitanTopik ktn:TopikJamsos ;
     dct:source reg:UU-40-2004 .
 
 ktn:ManfaatJP a owl:NamedIndividual, ktn:KetentuanJaminanSosial ;
     ktn:pasal "Pasal 41 ayat (2)" ;
+    ktn:berkaitanTopik ktn:TopikJamsos ;
     dct:source reg:UU-40-2004 .
 
 ktn:ManfaatJPAkumulasi a owl:NamedIndividual, ktn:KetentuanJaminanSosial ;
     ktn:pasal "Pasal 41 ayat (5)" ;
+    ktn:berkaitanTopik ktn:TopikJamsos ;
     dct:source reg:UU-40-2004 .
 
 ktn:ManfaatPensiunCacat a owl:NamedIndividual, ktn:KetentuanJaminanSosial ;
     ktn:pasal "Pasal 41 ayat (7)" ;
+    ktn:berkaitanTopik ktn:TopikJamsos ;
     dct:source reg:UU-40-2004 .
 
 ktn:KewajibanPemungutanIuran a owl:NamedIndividual, ktn:KetentuanJaminanSosial ;
     ktn:pasal "Pasal 17 ayat (2)" ;
+    ktn:berkaitanTopik ktn:TopikJamsos ;
     dct:source reg:UU-40-2004 .
 
 ktn:KewajibanPendaftaranPeserta a owl:NamedIndividual, ktn:KetentuanJaminanSosial ;
     ktn:pasal "Pasal 13 ayat (1)" ;
+    ktn:berkaitanTopik ktn:TopikJamsos ;
     dct:source reg:UU-40-2004 .
 
 ktn:UrunBiayaJKK a owl:NamedIndividual, ktn:KetentuanJaminanSosial ;
     ktn:pasal "Pasal 31 ayat (3)" ;
+    ktn:berkaitanTopik ktn:TopikJamsos ;
     dct:source reg:UU-40-2004 .

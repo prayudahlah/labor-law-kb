@@ -1,0 +1,9 @@
+@prefix sh:  <http://www.w3.org/ns/shacl#> .
+@prefix ktn: <https://example.org/kbr/ketenagakerjaan#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+ktn:PekerjaCutiShape a sh:NodeShape ;
+    sh:targetClass ktn:Pekerja ;
+    sh:property [ sh:path ktn:masaKerjaBulan ; sh:minCount 1 ; sh:maxCount 1 ;
+                  sh:datatype xsd:integer ; sh:minInclusive 0 ;
+                  sh:message "masaKerjaBulan wajib ada, tunggal, integer >= 0" ] .
