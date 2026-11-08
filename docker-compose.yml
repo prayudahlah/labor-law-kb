@@ -1,0 +1,19 @@
+services:
+  backend:
+    build:
+      context: .
+      dockerfile: backend-v2/Dockerfile
+    ports:
+      - "8080:8080"
+    environment:
+      KB_ONTOLOGY_DIR: /app/ontology
+      KB_DATA_DIR: /app/data
+      LLM_BASE_URL: ${LLM_BASE_URL:-}
+      LLM_API_KEY: ${LLM_API_KEY:-}
+      LLM_MODEL_ROUTER: ${LLM_MODEL_ROUTER:-}
+      LLM_MODEL_NARASI: ${LLM_MODEL_NARASI:-}
+    healthcheck:
+      test: ["CMD", "curl", "-f", "http://localhost:8080/health"]
+      interval: 10s
+      timeout: 3s
+      retries: 5

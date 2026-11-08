@@ -1,0 +1,109 @@
+{
+  "phk": {
+    "request": {
+      "topik": "PHK",
+      "fakta": {
+        "masaKerjaBulan": 120,
+        "upahBulanan": 5000000,
+        "bentukHubunganKerja": "PKWTT",
+        "alasanPHK": "EfisiensiRugi"
+      }
+    },
+    "expect": {
+      "hak_contains": ["Pesangon", "UPMK", "UPH"],
+      "rincian": {
+        "pesangon_bulan": 4.5,
+        "upmk_bulan": 4.0,
+        "total_bulan": 8.5
+      },
+      "nominal": 42500000
+    }
+  },
+  "lembur": {
+    "request": {
+      "topik": "Lembur",
+      "fakta": {
+        "jamLembur": 4,
+        "padaHariKerja": true,
+        "upahBulanan": 5000000
+      }
+    },
+    "expect": {
+      "hak_contains": ["UpahLembur"],
+      "rincian": {
+        "jam": 4.0,
+        "upah_sejam": 28901.73
+      },
+      "nominal": 216763
+    }
+  },
+  "pkwt": {
+    "request": {
+      "topik": "PKWT",
+      "fakta": {
+        "bentukHubunganKerja": "PKWT",
+        "masaKerjaBulan": 24,
+        "upahBulanan": 5000000
+      }
+    },
+    "expect": {
+      "hak_contains": ["KompensasiPKWT"],
+      "rincian": {
+        "masa_kerja": 24,
+        "kompensasi_bulan": 2.0
+      },
+      "nominal": 10000000
+    }
+  },
+  "jamsos": {
+    "request": {
+      "topik": "Jamsos",
+      "fakta": {
+        "upahBulanan": 5000000
+      }
+    },
+    "expect": {
+      "hak_contains": ["JaminanSosial"],
+      "rincian": {
+        "persen_pekerja": 3.0,
+        "persen_pengusaha": 5.7,
+        "iuran_pekerja": 150000.0,
+        "iuran_pengusaha": 285000.0
+      },
+      "nominal": 150000
+    }
+  },
+  "kia": {
+    "request": {
+      "topik": "KIA",
+      "fakta": {
+        "sedangCutiMelahirkan": true,
+        "cutiMelahirkanBulan": 6,
+        "upahBulanan": 5000000
+      }
+    },
+    "expect": {
+      "hak_contains": ["CutiMelahirkan"],
+      "rincian": {
+        "cuti_bulan": 6,
+        "upah_bulan": 5.5
+      },
+      "nominal": 27500000
+    }
+  },
+  "cuti": {
+    "request": {
+      "topik": "Cuti",
+      "fakta": {
+        "masaKerjaBulan": 12
+      }
+    },
+    "expect": {
+      "hak_contains": ["CutiTahunan"],
+      "rincian": {
+        "cuti_tahunan_hari": 12
+      },
+      "nominal": null
+    }
+  }
+}

@@ -1,0 +1,22 @@
+server:
+  port: 8080
+
+spring:
+  application:
+    name: labor-law-kb-backend-v2
+
+management:
+  endpoints:
+    web:
+      exposure:
+        include: health,info
+
+kb:
+  ontology-dir: ${KB_ONTOLOGY_DIR:../ontology}
+  data-dir: ${KB_DATA_DIR:../data}
+
+llm:
+  base-url: ${LLM_BASE_URL:}
+  api-key: ${LLM_API_KEY:}
+  model-router: ${LLM_MODEL_ROUTER:}
+  model-narasi: ${LLM_MODEL_NARASI:}
