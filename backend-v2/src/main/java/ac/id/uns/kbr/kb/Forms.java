@@ -11,8 +11,7 @@ import org.springframework.stereotype.Component;
 @Component
 public class Forms {
 
-    public void isi(CaseSession s, String topik, Map<String, Object> fakta) {
-        switch (topik) {
+    public void isi(CaseSession s, String topik, Map<String, Object> fakta) {        switch (topik) {
             case "PHK" -> phk(s, fakta);
             case "Lembur" -> lembur(s, fakta);
             case "Cuti" -> cuti(s, fakta);
@@ -80,6 +79,27 @@ public class Forms {
         dataBool(s, p, "sedangCutiMelahirkan", bool(f, "sedangCutiMelahirkan", true));
         dataInt(s, p, "cutiMelahirkanBulan", wajibInt(f, "cutiMelahirkanBulan"));
         dataDecimal(s, p, "upahBulanan", wajibDecimal(f, "upahBulanan"));
+    }
+
+    public Object koersi(String field, Object value) {
+        if (value == null) {
+            return null;
+        }
+        String tipe = FormFields.tipe(field);
+        try {
+            return switch (tipe) {
+                case "integer" -> (int) Double.parseDouble(value.toString());
+                case "decimal" -> Double.parseDouble(value.toString().replace(",", "."));
+                case "boolean" -> {
+                    String teks = value.toString().toLowerCase();
+                    yield teks.equals("true") || teks.equals("1")
+                            || teks.equals("ya") || teks.equals("yes");
+                }
+                default -> value.toString();
+            };
+        } catch (NumberFormatException exc) {
+            return null;
+        }
     }
 
     private static OWLNamedIndividual individu(CaseSession s, String nama) {

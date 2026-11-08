@@ -42,7 +42,7 @@ curl localhost:8080/health
 - `GET /health`
 - `POST /infer`
 - `POST /ketentuan`
-- `POST /chat` (fase berikutnya)
+- `POST /chat`
 - `POST /dokumen` (fase berikutnya)
 
 Contoh:
@@ -82,8 +82,7 @@ src/main/java/ac/id/uns/kbr/
 - [x] Spike OWL API + Openllet
 - [x] Spike SWRL `swrlb`
 - [x] `CalculationProvider` dengan fallback Java dan pembaca output SWRL
-- [x] `/infer`, `/ketentuan`
-- [ ] `/chat`
+- [x] `/infer`, `/ketentuan`, `/chat`
 - [ ] `/dokumen`
 
 Kontrak input/output SWRL ada di `KB_CONTRACT.md`. Mode perhitungan diatur
