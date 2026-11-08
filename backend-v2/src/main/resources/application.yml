@@ -11,6 +11,10 @@ management:
       exposure:
         include: health,info
 
+logging:
+  level:
+    openllet: WARN
+
 kb:
   ontology-dir: ${KB_ONTOLOGY_DIR:../ontology}
   data-dir: ${KB_DATA_DIR:../data}

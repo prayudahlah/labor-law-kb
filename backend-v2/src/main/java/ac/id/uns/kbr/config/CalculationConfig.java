@@ -12,20 +12,10 @@ import ac.id.uns.kbr.kb.SwrlCalculationProvider;
 public class CalculationConfig {
 
     @Bean
-    public JavaCalculationProvider javaCalculationProvider() {
-        return new JavaCalculationProvider();
-    }
-
-    @Bean
-    public SwrlCalculationProvider swrlCalculationProvider() {
-        return new SwrlCalculationProvider();
-    }
-
-    @Bean
-    public CalculationProvider calculationProvider(
-            KbCalculationProperties properties,
-            JavaCalculationProvider javaProvider,
-            SwrlCalculationProvider swrlProvider) {
-        return new AutoCalculationProvider(properties.mode(), swrlProvider, javaProvider);
+    public CalculationProvider calculationProvider(KbCalculationProperties properties) {
+        return new AutoCalculationProvider(
+                properties.mode(),
+                new SwrlCalculationProvider(),
+                new JavaCalculationProvider());
     }
 }

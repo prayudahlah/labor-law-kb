@@ -37,6 +37,22 @@ Cek:
 curl localhost:8080/health
 ```
 
+## Endpoint
+
+- `GET /health`
+- `POST /infer`
+- `POST /ketentuan`
+- `POST /chat` (fase berikutnya)
+- `POST /dokumen` (fase berikutnya)
+
+Contoh:
+
+```bash
+curl -X POST localhost:8080/infer \
+  -H 'Content-Type: application/json' \
+  -d '{"topik":"PHK","fakta":{"masaKerjaBulan":120,"upahBulanan":5000000,"alasanPHK":"EfisiensiRugi"}}'
+```
+
 ## Test
 
 ```bash
@@ -66,7 +82,8 @@ src/main/java/ac/id/uns/kbr/
 - [x] Spike OWL API + Openllet
 - [x] Spike SWRL `swrlb`
 - [x] `CalculationProvider` dengan fallback Java dan pembaca output SWRL
-- [ ] `/infer`, `/ketentuan`, `/chat`
+- [x] `/infer`, `/ketentuan`
+- [ ] `/chat`
 - [ ] `/dokumen`
 
 Kontrak input/output SWRL ada di `KB_CONTRACT.md`. Mode perhitungan diatur
