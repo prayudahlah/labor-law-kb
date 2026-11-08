@@ -1,0 +1,58 @@
+kode: peraturan_perusahaan
+judul: Peraturan Perusahaan
+deskripsi: Draf peraturan perusahaan berdasarkan ketentuan ketenagakerjaan.
+header: |
+  # Peraturan Perusahaan {nama_perusahaan}
+  Nomor: {nomor_peraturan}
+  Tanggal berlaku: {tanggal_berlaku}
+bagian:
+  - judul: Ketentuan Umum
+    urutan: 1
+    klausul:
+      - topik: [WaktuKerja]
+        wajib: true
+        template: |
+          Perusahaan menetapkan hari kerja dan jam kerja sesuai ketentuan yang berlaku.
+          Jam kerja maksimal 40 jam per minggu.
+      - topik: [Lembur]
+        wajib: true
+        template: |
+          Kerja lembur hanya dilakukan atas persetujuan pekerja dan dibayar sesuai ketentuan.
+          Batas lembur adalah 4 jam per hari dan 18 jam per minggu.
+  - judul: Cuti dan Izin
+    urutan: 2
+    klausul:
+      - topik: [Cuti]
+        wajib: true
+        template: |
+          Pekerja berhak atas cuti tahunan minimal 12 hari kerja setelah bekerja
+          12 bulan secara terus-menerus.
+      - topik: [KIA]
+        wajib: false
+        template: |
+          Pekerja perempuan berhak atas cuti melahirkan dan hak lain sesuai ketentuan.
+  - judul: Upah dan Jaminan Sosial
+    urutan: 3
+    klausul:
+      - topik: [Upah]
+        wajib: true
+        template: |
+          Upah ditetapkan paling sedikit sebesar upah minimum yang berlaku di wilayah
+          perusahaan dan dibayar tepat waktu.
+      - topik: [Jamsos]
+        wajib: true
+        template: |
+          Perusahaan mendaftarkan pekerja pada program jaminan sosial ketenagakerjaan
+          dan membayar iuran sesuai ketentuan.
+  - judul: Kontrak dan Pemutusan
+    urutan: 4
+    klausul:
+      - topik: [PKWT]
+        wajib: false
+        template: |
+          Perjanjian kerja waktu tertentu dibuat secara tertulis dan sesuai ketentuan.
+      - topik: [PHK]
+        wajib: true
+        template: |
+          Pemutusan hubungan kerja dilakukan sesuai alasan dan prosedur yang diatur
+          dalam peraturan perundang-undangan.

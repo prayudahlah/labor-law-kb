@@ -2,8 +2,8 @@
 
 Prototype knowledge base dan penalaran hak ketenagakerjaan Indonesia berbasis
 OWL 2 DL (SROIQ(D)). Fakta norma dikurasi di CSV, digenerate menjadi Turtle,
-dinalar dengan HermiT, dan nominal (pesangon, lembur, kompensasi) dihitung
-dengan Python.
+dinalar dengan reasoner OWL 2 DL, dan nominal (pesangon, lembur, kompensasi)
+dihitung di backend Java.
 
 > Prototype edukasi. Bukan nasihat hukum.
 
@@ -14,11 +14,13 @@ Ontology memakai konstruktor nominal (`owl:oneOf`) dan qualified cardinality
 ## Struktur
 
 ```
-data/        CSV kanonik (generated) + extraction/ (spec, vocab, record JSON) + query audit
-docs/        daftar sumber, markdown hukum hasil ekstraksi, checksum PDF
-ontology/    core (T-Box/R-Box manual), meta & regulasi (generated), examples
-notebooks/   eksplorasi DL query & SPARQL
-scripts/     unduh, ekstraksi, validasi/kompilasi record, build, verifikasi, katalog
+data/            CSV kanonik (generated) + extraction/ (spec, vocab, record JSON) + query audit
+docs/            daftar sumber, markdown hukum hasil ekstraksi, checksum PDF
+ontology/        core (T-Box/R-Box manual), meta & regulasi (generated), examples
+backend/         backend Java (Spring Boot)
+backend-python/  arsip backend FastAPI lama
+frontend/        React + Vite
+scripts/         unduh, ekstraksi, validasi/kompilasi record, build, verifikasi, katalog
 ```
 
 ## Ekstraksi Terstruktur
@@ -39,7 +41,8 @@ docs/markdown/<id>.md ──LLM──► data/extraction/records/<id>.json
 
 ## Prasyarat
 
-Python 3.12, Java 17 (untuk HermiT via owlready2), dan uv.
+Python 3.12 dan uv untuk pipeline build, Java 21 dan Maven untuk backend,
+serta Docker untuk menjalankan full stack.
 
 ## Instalasi
 
@@ -62,10 +65,17 @@ duckdb < data/queries.sql                      # audit CSV
 uv run jupyter lab                             # notebook eksplorasi
 ```
 
-Backend:
+Backend Java:
 
 ```bash
-uv run uvicorn backend.app.main:app --reload
+cd backend
+KB_ONTOLOGY_DIR=../ontology KB_DATA_DIR=../data mvn spring-boot:run
+```
+
+Atau full stack:
+
+```bash
+docker compose up --build
 ```
 
 ## Buka di Protege
@@ -88,7 +98,7 @@ uv run uvicorn backend.app.main:app --reload
    - `PekerjaPKWT` atau `Pekerja and (masaKerjaBulan some xsd:integer[>= 12])`
 
 Catatan: tab **SPARQL** bawaan Protege kadang gagal karena bundle Guava.
-Untuk SPARQL, pakai `notebooks/eksplorasi_kb.ipynb` atau `rdflib`.
+Untuk SPARQL, pakai `rdflib` atau backend Java.
 
 ## Sumber Data
 

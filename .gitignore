@@ -6,6 +6,7 @@ __pycache__/
 *.pyc
 *.pyo
 node_modules/
+target/
 .env
 .env.*
 !.env.example

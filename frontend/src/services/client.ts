@@ -30,7 +30,7 @@ export async function postJSON<T>(path: string, body: unknown): Promise<T> {
   } catch {
     throw new ApiError(
       0,
-      'Backend tidak terjangkau. Jalankan: uv run uvicorn backend.app.main:app --reload',
+      'Backend tidak terjangkau. Jalankan: docker compose up --build',
     );
   }
 

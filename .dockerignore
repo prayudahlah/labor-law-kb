@@ -1,0 +1,11 @@
+.git
+.gitignore
+.venv
+backend-python
+**/node_modules
+**/target
+**/__pycache__
+frontend/dist
+docs/pdf
+ontology/.cache
+.env

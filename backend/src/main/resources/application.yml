@@ -1,0 +1,28 @@
+server:
+  port: 8080
+
+spring:
+  application:
+    name: labor-law-kb-backend
+
+management:
+  endpoints:
+    web:
+      exposure:
+        include: health,info
+
+logging:
+  level:
+    openllet: WARN
+
+kb:
+  ontology-dir: ${KB_ONTOLOGY_DIR:../ontology}
+  data-dir: ${KB_DATA_DIR:../data}
+  calculation:
+    mode: ${KB_CALC_MODE:java}
+
+llm:
+  base-url: ${LLM_BASE_URL:}
+  api-key: ${LLM_API_KEY:}
+  model-router: ${LLM_MODEL_ROUTER:}
+  model-narasi: ${LLM_MODEL_NARASI:}
