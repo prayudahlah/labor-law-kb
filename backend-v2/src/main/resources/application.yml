@@ -14,6 +14,8 @@ management:
 kb:
   ontology-dir: ${KB_ONTOLOGY_DIR:../ontology}
   data-dir: ${KB_DATA_DIR:../data}
+  calculation:
+    mode: ${KB_CALC_MODE:java}
 
 llm:
   base-url: ${LLM_BASE_URL:}

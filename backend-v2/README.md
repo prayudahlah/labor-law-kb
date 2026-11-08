@@ -63,7 +63,13 @@ src/main/java/ac/id/uns/kbr/
 - [x] Docker dan compose
 - [x] Kontrak API
 - [x] Fixture golden case
-- [ ] Spike OWL API + Openllet
-- [ ] Spike SWRL `swrlb`
+- [x] Spike OWL API + Openllet
+- [x] Spike SWRL `swrlb`
+- [x] `CalculationProvider` dengan fallback Java dan pembaca output SWRL
 - [ ] `/infer`, `/ketentuan`, `/chat`
 - [ ] `/dokumen`
+
+Kontrak input/output SWRL ada di `KB_CONTRACT.md`. Mode perhitungan diatur
+lewat `kb.calculation.mode` (`java`, `swrl`, `auto`). Default `java` selama
+rule SWRL dari KB belum tersedia.
+
