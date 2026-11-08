@@ -7,15 +7,10 @@ import java.util.Map;
 
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
-import org.springframework.http.MediaType;
-import org.springframework.http.client.SimpleClientHttpRequestFactory;
 import org.springframework.stereotype.Service;
-import org.springframework.web.client.RestClient;
 
 import com.fasterxml.jackson.databind.JsonNode;
 import com.fasterxml.jackson.databind.ObjectMapper;
-
-import ac.id.uns.kbr.config.LlmProperties;
 
 @Service
 public class LlmRouter {
@@ -25,42 +20,25 @@ public class LlmRouter {
     public record Route(String mode, List<String> topik, Map<String, Object> fakta) {
     }
 
-    private final LlmProperties props;
+    private final LlmClient client;
     private final Forms forms;
     private final ObjectMapper mapper;
-    private final RestClient client;
 
-    public LlmRouter(LlmProperties props, Forms forms, ObjectMapper mapper) {
-        this.props = props;
+    public LlmRouter(LlmClient client, Forms forms, ObjectMapper mapper) {
+        this.client = client;
         this.forms = forms;
         this.mapper = mapper;
-        SimpleClientHttpRequestFactory factory = new SimpleClientHttpRequestFactory();
-        factory.setConnectTimeout(10_000);
-        factory.setReadTimeout(30_000);
-        this.client = RestClient.builder().requestFactory(factory).build();
     }
 
     public Route route(String pesan, Map<String, Object> state) {
-        if (!props.siap()) {
+        if (!client.siap()) {
             return null;
         }
         try {
-            Map<String, Object> body = new LinkedHashMap<>();
-            body.put("model", props.modelRouter());
-            body.put("messages", List.of(
+            List<Map<String, String>> messages = List.of(
                     Map.of("role", "system", "content", sistem(state)),
-                    Map.of("role", "user", "content", pesan)));
-            body.put("tools", tools());
-            body.put("tool_choice", "auto");
-
-            JsonNode response = client.post()
-                    .uri(props.baseUrl().replaceAll("/$", "") + "/chat/completions")
-                    .header("Authorization", "Bearer " + props.apiKey())
-                    .contentType(MediaType.APPLICATION_JSON)
-                    .body(body)
-                    .retrieve()
-                    .body(JsonNode.class);
-
+                    Map.of("role", "user", "content", pesan));
+            JsonNode response = client.chat(client.modelRouter(), messages, tools());
             JsonNode calls = response == null ? null
                     : response.path("choices").path(0).path("message").path("tool_calls");
             if (calls == null || !calls.isArray() || calls.isEmpty()) {

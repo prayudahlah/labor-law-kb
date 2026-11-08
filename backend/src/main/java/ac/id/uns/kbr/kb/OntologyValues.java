@@ -77,14 +77,19 @@ public final class OntologyValues {
 
     public static OWLNamedIndividual object(
             OWLOntologyManager manager, OWLNamedIndividual ind, String property) {
+        return objectValues(manager, ind, property)
+                .findFirst()
+                .orElseThrow(() -> new IllegalStateException(
+                        "Object property " + property + " tidak ditemukan pada " + ind.getIRI()));
+    }
+
+    public static Stream<OWLNamedIndividual> objectValues(
+            OWLOntologyManager manager, OWLNamedIndividual ind, String property) {
         OWLObjectProperty p = manager.getOWLDataFactory().getOWLObjectProperty(IRI.create(KTN + property));
         return manager.getOntologies().stream()
                 .flatMap(o -> EntitySearcher.getObjectPropertyValues(ind, p, o))
                 .filter(OWLNamedIndividual.class::isInstance)
-                .map(OWLNamedIndividual.class::cast)
-                .findFirst()
-                .orElseThrow(() -> new IllegalStateException(
-                        "Object property " + property + " tidak ditemukan pada " + ind.getIRI()));
+                .map(OWLNamedIndividual.class::cast);
     }
 
     public static List<OWLNamedIndividual> individuals(

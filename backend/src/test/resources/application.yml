@@ -1,0 +1,15 @@
+kb:
+  ontology-dir: ../ontology
+  data-dir: ../data
+  calculation:
+    mode: java
+
+llm:
+  base-url:
+  api-key:
+  model-router:
+  model-narasi:
+
+logging:
+  level:
+    openllet: WARN

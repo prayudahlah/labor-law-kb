@@ -9,44 +9,44 @@ import org.springframework.stereotype.Service;
 
 import ac.id.uns.kbr.api.dto.InferRequest;
 import ac.id.uns.kbr.api.dto.InferResponse;
+import ac.id.uns.kbr.validation.CaseValidator;
+import ac.id.uns.kbr.validation.ValidationService;
 import openllet.owlapi.OpenlletReasoner;
 
 @Service
 public class InferenceService {
-
-    private static final Set<String> TOPIK =
-            Set.of("PHK", "Lembur", "Cuti", "PKWT", "Jamsos", "KIA");
 
     private final ReasonerService reasoner;
     private final Forms forms;
     private final CalculationProvider calculation;
     private final PasalService pasal;
     private final NarasiService narasi;
+    private final ValidationService validation;
+    private final CaseValidator caseValidator;
 
     public InferenceService(
             ReasonerService reasoner,
             Forms forms,
             CalculationProvider calculation,
             PasalService pasal,
-            NarasiService narasi) {
+            NarasiService narasi,
+            ValidationService validation,
+            CaseValidator caseValidator) {
         this.reasoner = reasoner;
         this.forms = forms;
         this.calculation = calculation;
         this.pasal = pasal;
         this.narasi = narasi;
+        this.validation = validation;
+        this.caseValidator = caseValidator;
     }
 
     public InferResponse infer(InferRequest request) {
-        if (request == null || request.topik() == null || !TOPIK.contains(request.topik())) {
-            throw new IllegalArgumentException("topik tidak didukung: "
-                    + (request == null ? null : request.topik()));
-        }
-        if (request.fakta() == null) {
-            throw new IllegalArgumentException("fakta wajib diisi");
-        }
+        validation.validasi(request);
 
         return reasoner.denganKasus(session -> {
             forms.isi(session, request.topik(), request.fakta());
+            caseValidator.validasi(session, request.topik());
             OpenlletReasoner owlReasoner = session.reasoner();
             OWLNamedIndividual kasus = OntologyValues.individual(session.manager(), "KasusPekerja");
 
