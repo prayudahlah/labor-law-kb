@@ -1,0 +1,32 @@
+[project]
+name = "labor-law-kb"
+version = "0.1.0"
+description = "Prototype knowledge base & reasoning hukum ketenagakerjaan Indonesia"
+requires-python = ">=3.12"
+dependencies = [
+  "requests",
+  "pyyaml",
+  "pymupdf",
+  "pymupdf4llm",
+  "rapidocr-onnxruntime",
+  "rdflib",
+  "owlready2",
+  "pyshacl",
+  "fastapi",
+  "uvicorn[standard]",
+  "pydantic",
+  "pydantic-settings",
+  "httpx",
+]
+
+[dependency-groups]
+dev = [
+  "pytest",
+  "jupyterlab",
+  "ipykernel",
+]
+
+[tool.uv]
+package = false
+
+# Catatan: Java 17 dibutuhkan owlready2 untuk menjalankan HermiT (dependensi sistem).

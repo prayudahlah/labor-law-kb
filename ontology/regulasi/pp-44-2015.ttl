@@ -1,7 +1,7 @@
 # =====================================================================
 # BERKAS DIGENERATE. JANGAN EDIT MANUAL.
 # Sumber   : data/norma.csv, parameter.csv, kategori.csv, pengali_lembur.csv, program_jamsos.csv
-# Hasilkan : .venv/bin/python scripts/build_ontology.py
+# Hasilkan : uv run python scripts/build_ontology.py
 # =====================================================================
 
 @prefix ktn:  <https://example.org/kbr/ketenagakerjaan#> .
@@ -19,346 +19,432 @@
 
 ktn:PembayaranFaskesJKK a owl:NamedIndividual, ktn:KetentuanJaminanSosial ;
     ktn:pasal "Pasal 46 ayat (1)" ;
+    ktn:berkaitanTopik ktn:TopikJamsos ;
     dct:source reg:PP-44-2015 .
 
 ktn:BeasiswaAnakJKK a owl:NamedIndividual, ktn:KetentuanJaminanSosial ;
     ktn:pasal "Pasal 25 ayat (3)" ;
+    ktn:berkaitanTopik ktn:TopikJamsos ;
     dct:source reg:PP-44-2015 .
 
 ktn:KewajibanDaftarJKKJKMKonstruksi a owl:NamedIndividual, ktn:KetentuanJaminanSosial ;
     ktn:pasal "Pasal 53" ;
+    ktn:berkaitanTopik ktn:TopikJamsos ;
     dct:source reg:PP-44-2015 .
 
 ktn:JamsosDaftarSendiriPekerja a owl:NamedIndividual, ktn:KetentuanJaminanSosial ;
     ktn:pasal "Pasal 10 ayat (1)" ;
+    ktn:berkaitanTopik ktn:TopikJamsos ;
     dct:source reg:PP-44-2015 .
 
 ktn:DaluwarsaManfaatJKK a owl:NamedIndividual, ktn:KetentuanJaminanSosial ;
     ktn:pasal "Pasal 26" ;
+    ktn:berkaitanTopik ktn:TopikJamsos ;
     dct:source reg:PP-44-2015 .
 
 ktn:DasarUpahBorongan a owl:NamedIndividual, ktn:KetentuanJaminanSosial ;
     ktn:pasal "Pasal 19 ayat (4)" ;
+    ktn:berkaitanTopik ktn:TopikJamsos ;
     dct:source reg:PP-44-2015 .
 
 ktn:DasarUpahCuaca a owl:NamedIndividual, ktn:KetentuanJaminanSosial ;
     ktn:pasal "Pasal 19 ayat (5)" ;
+    ktn:berkaitanTopik ktn:TopikJamsos ;
     dct:source reg:PP-44-2015 .
 
 ktn:DasarUpahHarian a owl:NamedIndividual, ktn:KetentuanJaminanSosial ;
     ktn:pasal "Pasal 19 ayat (3)" ;
+    ktn:berkaitanTopik ktn:TopikJamsos ;
     dct:source reg:PP-44-2015 .
 
 ktn:DasarUpahIuran a owl:NamedIndividual, ktn:KetentuanJaminanSosial ;
     ktn:pasal "Pasal 19 ayat (1)" ;
+    ktn:berkaitanTopik ktn:TopikJamsos ;
     dct:source reg:PP-44-2015 .
 
 ktn:DendaKeterlambatanIuran a owl:NamedIndividual, ktn:KetentuanJaminanSosial ;
     ktn:pasal "Pasal 22 ayat (1)" ;
+    ktn:berkaitanTopik ktn:TopikJamsos ;
     dct:source reg:PP-44-2015 .
 
 ktn:JamsosHakPekerjaIuranBelumLunas a owl:NamedIndividual, ktn:KetentuanJaminanSosial ;
     ktn:pasal "Pasal 10 ayat (7)" ;
+    ktn:berkaitanTopik ktn:TopikJamsos ;
     dct:source reg:PP-44-2015 .
 
 ktn:JamsosHakMelekat a owl:NamedIndividual, ktn:KetentuanJaminanSosial ;
     ktn:pasal "Pasal 3" ;
+    ktn:berkaitanTopik ktn:TopikJamsos ;
     dct:source reg:PP-44-2015 .
 
 ktn:IuranBPU a owl:NamedIndividual, ktn:KetentuanJaminanSosial ;
     ktn:pasal "Pasal 24 ayat (1)" ;
+    ktn:berkaitanTopik ktn:TopikJamsos ;
     dct:source reg:PP-44-2015 .
 
 ktn:IuranJKKBPU a owl:NamedIndividual, ktn:KetentuanJaminanSosial ;
     ktn:pasal "Pasal 20 ayat (1)" ;
+    ktn:berkaitanTopik ktn:TopikJamsos ;
     dct:source reg:PP-44-2015 .
 
 ktn:IuranJKKKonstruksiKontrak a owl:NamedIndividual, ktn:KetentuanJaminanSosial ;
     ktn:pasal "Pasal 54 ayat (2)" ;
+    ktn:berkaitanTopik ktn:TopikJamsos ;
     dct:source reg:PP-44-2015 .
 
 ktn:IuranJKKKonstruksiUpah a owl:NamedIndividual, ktn:KetentuanJaminanSosial ;
     ktn:pasal "Pasal 54 ayat (1)" ;
+    ktn:berkaitanTopik ktn:TopikJamsos ;
     dct:source reg:PP-44-2015 .
 
 ktn:IuranJKKTingkatRisiko a owl:NamedIndividual, ktn:KetentuanJaminanSosial ;
     ktn:pasal "Pasal 16 ayat (1)" ;
+    ktn:berkaitanTopik ktn:TopikJamsos ;
     dct:source reg:PP-44-2015 .
 
 ktn:IuranJKM a owl:NamedIndividual, ktn:KetentuanJaminanSosial ;
     ktn:pasal "Pasal 18 ayat (1)" ;
+    ktn:berkaitanTopik ktn:TopikJamsos ;
     dct:source reg:PP-44-2015 .
 
 ktn:IuranJKMBPU a owl:NamedIndividual, ktn:KetentuanJaminanSosial ;
     ktn:pasal "Pasal 20 ayat (3)" ;
+    ktn:berkaitanTopik ktn:TopikJamsos ;
     dct:source reg:PP-44-2015 .
 
 ktn:IuranJKMKonstruksiKontrak a owl:NamedIndividual, ktn:KetentuanJaminanSosial ;
     ktn:pasal "Pasal 55 ayat (2)" ;
+    ktn:berkaitanTopik ktn:TopikJamsos ;
     dct:source reg:PP-44-2015 .
 
 ktn:IuranJKMKonstruksiUpah a owl:NamedIndividual, ktn:KetentuanJaminanSosial ;
     ktn:pasal "Pasal 55 ayat (1)" ;
+    ktn:berkaitanTopik ktn:TopikJamsos ;
     dct:source reg:PP-44-2015 .
 
 ktn:JamsosIuranTanggungPemberiKerja a owl:NamedIndividual, ktn:KetentuanJaminanSosial ;
     ktn:pasal "Pasal 10 ayat (4)" ;
+    ktn:berkaitanTopik ktn:TopikJamsos ;
     dct:source reg:PP-44-2015 .
 
 ktn:JkkBiayaFasyankesNonMitra a owl:NamedIndividual, ktn:KetentuanJaminanSosial ;
     ktn:pasal "Pasal 33 ayat (1)" ;
+    ktn:berkaitanTopik ktn:TopikJamsos ;
     dct:source reg:PP-44-2015 .
 
 ktn:JkkBpuTunggakanLebihTigaBulan a owl:NamedIndividual, ktn:KetentuanJaminanSosial ;
     ktn:pasal "Pasal 39 ayat (2)" ;
+    ktn:berkaitanTopik ktn:TopikJamsos ;
     dct:source reg:PP-44-2015 .
 
 ktn:JkkBpuTunggakanMaksTigaBulan a owl:NamedIndividual, ktn:KetentuanJaminanSosial ;
     ktn:pasal "Pasal 39 ayat (1)" ;
+    ktn:berkaitanTopik ktn:TopikJamsos ;
     dct:source reg:PP-44-2015 .
 
 ktn:JkkFasyankesKerjasama a owl:NamedIndividual, ktn:KetentuanJaminanSosial ;
     ktn:pasal "Pasal 30 ayat (1)" ;
+    ktn:berkaitanTopik ktn:TopikJamsos ;
     dct:source reg:PP-44-2015 .
 
 ktn:JkkGantiRugiKeterlambatan a owl:NamedIndividual, ktn:KetentuanJaminanSosial ;
     ktn:pasal "Pasal 37 ayat (3)" ;
+    ktn:berkaitanTopik ktn:TopikJamsos ;
     dct:source reg:PP-44-2015 .
 
 ktn:JkkHakManfaat a owl:NamedIndividual, ktn:KetentuanJaminanSosial ;
     ktn:pasal "Pasal 37 ayat (1)" ;
+    ktn:berkaitanTopik ktn:TopikJamsos ;
     dct:source reg:PP-44-2015 .
 
 ktn:JkkKekuranganUpahDilaporkan a owl:NamedIndividual, ktn:KetentuanJaminanSosial ;
     ktn:pasal "Pasal 32 ayat (2)" ;
+    ktn:berkaitanTopik ktn:TopikJamsos ;
     dct:source reg:PP-44-2015 .
 
 ktn:JkkManfaatAhliWaris a owl:NamedIndividual, ktn:KetentuanJaminanSosial ;
     ktn:pasal "Pasal 37 ayat (4)" ;
+    ktn:berkaitanTopik ktn:TopikJamsos ;
     dct:source reg:PP-44-2015 .
 
 ktn:JKKMultiPerusahaan a owl:NamedIndividual, ktn:KetentuanJaminanSosial ;
     ktn:pasal "Pasal 15 ayat (1)" ;
+    ktn:berkaitanTopik ktn:TopikJamsos ;
     dct:source reg:PP-44-2015 .
 
 ktn:JkkPekerjaTidakTerdaftar a owl:NamedIndividual, ktn:KetentuanJaminanSosial ;
     ktn:pasal "Pasal 32 ayat (3) dan (4)" ;
+    ktn:berkaitanTopik ktn:TopikJamsos ;
     dct:source reg:PP-44-2015 .
 
 ktn:JkkPembayaranTujuhHari a owl:NamedIndividual, ktn:KetentuanJaminanSosial ;
     ktn:pasal "Pasal 37 ayat (2)" ;
+    ktn:berkaitanTopik ktn:TopikJamsos ;
     dct:source reg:PP-44-2015 .
 
 ktn:JkkPenggantianSetelahLunas a owl:NamedIndividual, ktn:KetentuanJaminanSosial ;
     ktn:pasal "Pasal 38 ayat (3)" ;
+    ktn:berkaitanTopik ktn:TopikJamsos ;
     dct:source reg:PP-44-2015 .
 
 ktn:JkkPenggantianStandarTertinggi a owl:NamedIndividual, ktn:KetentuanJaminanSosial ;
     ktn:pasal "Pasal 33 ayat (2) dan (3)" ;
+    ktn:berkaitanTopik ktn:TopikJamsos ;
     dct:source reg:PP-44-2015 .
 
 ktn:JkkPeningkatanKelasRawat a owl:NamedIndividual, ktn:KetentuanJaminanSosial ;
     ktn:pasal "Pasal 31 ayat (2)" ;
+    ktn:berkaitanTopik ktn:TopikJamsos ;
     dct:source reg:PP-44-2015 .
 
 ktn:JkkRawatInapKelasSatu a owl:NamedIndividual, ktn:KetentuanJaminanSosial ;
     ktn:pasal "Pasal 31 ayat (1)" ;
+    ktn:berkaitanTopik ktn:TopikJamsos ;
     dct:source reg:PP-44-2015 .
 
 ktn:JkkSantunanDibayarDuluPemberiKerja a owl:NamedIndividual, ktn:KetentuanJaminanSosial ;
     ktn:pasal "Pasal 30 ayat (2)" ;
+    ktn:berkaitanTopik ktn:TopikJamsos ;
     dct:source reg:PP-44-2015 .
 
 ktn:JkkSantunanDibayarDuluPeserta a owl:NamedIndividual, ktn:KetentuanJaminanSosial ;
     ktn:pasal "Pasal 30 ayat (3)" ;
+    ktn:berkaitanTopik ktn:TopikJamsos ;
     dct:source reg:PP-44-2015 .
 
 ktn:JkkTunggakanLebihTigaBulan a owl:NamedIndividual, ktn:KetentuanJaminanSosial ;
     ktn:pasal "Pasal 38 ayat (2)" ;
+    ktn:berkaitanTopik ktn:TopikJamsos ;
     dct:source reg:PP-44-2015 .
 
 ktn:JkkTunggakanMaksTigaBulan a owl:NamedIndividual, ktn:KetentuanJaminanSosial ;
     ktn:pasal "Pasal 38 ayat (1)" ;
+    ktn:berkaitanTopik ktn:TopikJamsos ;
     dct:source reg:PP-44-2015 .
 
 ktn:JkkUpahDasarTerakhir a owl:NamedIndividual, ktn:KetentuanJaminanSosial ;
     ktn:pasal "Pasal 32 ayat (1)" ;
+    ktn:berkaitanTopik ktn:TopikJamsos ;
     dct:source reg:PP-44-2015 .
 
 ktn:JkmBeasiswaAnak a owl:NamedIndividual, ktn:KetentuanJaminanSosial ;
     ktn:pasal "Pasal 34 ayat (1) huruf d dan ayat (2)" ;
+    ktn:berkaitanTopik ktn:TopikJamsos ;
     dct:source reg:PP-44-2015 .
 
 ktn:JkmBiayaPemakaman a owl:NamedIndividual, ktn:KetentuanJaminanSosial ;
     ktn:pasal "Pasal 34 ayat (1) huruf c" ;
+    ktn:berkaitanTopik ktn:TopikJamsos ;
     dct:source reg:PP-44-2015 .
 
 ktn:JkmGantiRugiKeterlambatan a owl:NamedIndividual, ktn:KetentuanJaminanSosial ;
     ktn:pasal "Pasal 40 ayat (4)" ;
+    ktn:berkaitanTopik ktn:TopikJamsos ;
     dct:source reg:PP-44-2015 .
 
 ktn:JkmHakAhliWaris a owl:NamedIndividual, ktn:KetentuanJaminanSosial ;
     ktn:pasal "Pasal 40 ayat (1)" ;
+    ktn:berkaitanTopik ktn:TopikJamsos ;
     dct:source reg:PP-44-2015 .
 
 ktn:JKMMultiPerusahaan a owl:NamedIndividual, ktn:KetentuanJaminanSosial ;
     ktn:pasal "Pasal 15 ayat (2)" ;
+    ktn:berkaitanTopik ktn:TopikJamsos ;
     dct:source reg:PP-44-2015 .
 
 ktn:JkmPembayaranTigaHari a owl:NamedIndividual, ktn:KetentuanJaminanSosial ;
     ktn:pasal "Pasal 40 ayat (3)" ;
+    ktn:berkaitanTopik ktn:TopikJamsos ;
     dct:source reg:PP-44-2015 .
 
 ktn:JkmPemberiKerjaBelumIkut a owl:NamedIndividual, ktn:KetentuanJaminanSosial ;
     ktn:pasal "Pasal 35 ayat (1)" ;
+    ktn:berkaitanTopik ktn:TopikJamsos ;
     dct:source reg:PP-44-2015 .
 
 ktn:JkmPenggantianSetelahLunas a owl:NamedIndividual, ktn:KetentuanJaminanSosial ;
     ktn:pasal "Pasal 41 ayat (3)" ;
+    ktn:berkaitanTopik ktn:TopikJamsos ;
     dct:source reg:PP-44-2015 .
 
 ktn:JkmSantunanBerkala a owl:NamedIndividual, ktn:KetentuanJaminanSosial ;
     ktn:pasal "Pasal 34 ayat (1) huruf b" ;
+    ktn:berkaitanTopik ktn:TopikJamsos ;
     dct:source reg:PP-44-2015 .
 
 ktn:JkmSantunanSekaligus a owl:NamedIndividual, ktn:KetentuanJaminanSosial ;
     ktn:pasal "Pasal 34 ayat (1) huruf a" ;
+    ktn:berkaitanTopik ktn:TopikJamsos ;
     dct:source reg:PP-44-2015 .
 
 ktn:ManfaatJKMTunggakan3Bulan a owl:NamedIndividual, ktn:KetentuanJaminanSosial ;
     ktn:pasal "Pasal 42 ayat (1)" ;
+    ktn:berkaitanTopik ktn:TopikJamsos ;
     dct:source reg:PP-44-2015 .
 
 ktn:JkmTunggakanLebihTigaBulan a owl:NamedIndividual, ktn:KetentuanJaminanSosial ;
     ktn:pasal "Pasal 41 ayat (2)" ;
+    ktn:berkaitanTopik ktn:TopikJamsos ;
     dct:source reg:PP-44-2015 .
 
 ktn:KehilanganManfaatJKMTunggakan a owl:NamedIndividual, ktn:KetentuanJaminanSosial ;
     ktn:pasal "Pasal 42 ayat (2)" ;
+    ktn:berkaitanTopik ktn:TopikJamsos ;
     dct:source reg:PP-44-2015 .
 
 ktn:JkmTunggakanMaksTigaBulan a owl:NamedIndividual, ktn:KetentuanJaminanSosial ;
     ktn:pasal "Pasal 41 ayat (1)" ;
+    ktn:berkaitanTopik ktn:TopikJamsos ;
     dct:source reg:PP-44-2015 .
 
 ktn:ProgramKembaliKerja a owl:NamedIndividual, ktn:KetentuanJaminanSosial ;
     ktn:pasal "Pasal 49 ayat (1)" ;
+    ktn:berkaitanTopik ktn:TopikJamsos ;
     dct:source reg:PP-44-2015 .
 
 ktn:LaporanKKTahapIBPU a owl:NamedIndividual, ktn:KetentuanJaminanSosial ;
     ktn:pasal "Pasal 44 ayat (1)-(2)" ;
+    ktn:berkaitanTopik ktn:TopikJamsos ;
     dct:source reg:PP-44-2015 .
 
 ktn:LaporanKKTahapIPU a owl:NamedIndividual, ktn:KetentuanJaminanSosial ;
     ktn:pasal "Pasal 43 ayat (1)-(2)" ;
+    ktn:berkaitanTopik ktn:TopikJamsos ;
     dct:source reg:PP-44-2015 .
 
 ktn:LaporanKKTahapIIBPU a owl:NamedIndividual, ktn:KetentuanJaminanSosial ;
     ktn:pasal "Pasal 44 ayat (3)-(5)" ;
+    ktn:berkaitanTopik ktn:TopikJamsos ;
     dct:source reg:PP-44-2015 .
 
 ktn:LaporanKKTahapIIPU a owl:NamedIndividual, ktn:KetentuanJaminanSosial ;
     ktn:pasal "Pasal 43 ayat (3)-(5)" ;
+    ktn:berkaitanTopik ktn:TopikJamsos ;
     dct:source reg:PP-44-2015 .
 
 ktn:ManfaatJKK a owl:NamedIndividual, ktn:KetentuanJaminanSosial ;
     ktn:pasal "Pasal 25 ayat (1)" ;
+    ktn:berkaitanTopik ktn:TopikJamsos ;
     dct:source reg:PP-44-2015 .
 
 ktn:ManfaatJKKMagang a owl:NamedIndividual, ktn:KetentuanJaminanSosial ;
     ktn:pasal "Pasal 28 ayat (1)" ;
+    ktn:berkaitanTopik ktn:TopikJamsos ;
     dct:source reg:PP-44-2015 .
 
 ktn:ManfaatJKKJKMKonstruksi a owl:NamedIndividual, ktn:KetentuanJaminanSosial ;
     ktn:pasal "Pasal 56 ayat (1)" ;
+    ktn:berkaitanTopik ktn:TopikJamsos ;
     dct:source reg:PP-44-2015 .
 
 ktn:ManfaatJKKPAKSetelahPHK a owl:NamedIndividual, ktn:KetentuanJaminanSosial ;
     ktn:pasal "Pasal 48 ayat (1)-(2)" ;
+    ktn:berkaitanTopik ktn:TopikJamsos ;
     dct:source reg:PP-44-2015 .
 
 ktn:PekerjaMultiPemberiKerja a owl:NamedIndividual, ktn:KetentuanJaminanSosial ;
     ktn:pasal "Pasal 15 ayat (3)" ;
+    ktn:berkaitanTopik ktn:TopikJamsos ;
     dct:source reg:PP-44-2015 .
 
 ktn:JamsosPindahKerjaPemberitahuan a owl:NamedIndividual, ktn:KetentuanJaminanSosial ;
     ktn:pasal "Pasal 8 ayat (1)" ;
+    ktn:berkaitanTopik ktn:TopikJamsos ;
     dct:source reg:PP-44-2015 .
 
 ktn:JamsosPindahKerjaPenerusan a owl:NamedIndividual, ktn:KetentuanJaminanSosial ;
     ktn:pasal "Pasal 8 ayat (2)" ;
+    ktn:berkaitanTopik ktn:TopikJamsos ;
     dct:source reg:PP-44-2015 .
 
 ktn:UpayaPromotifPreventifJKK a owl:NamedIndividual, ktn:KetentuanJaminanSosial ;
     ktn:pasal "Pasal 50 ayat (1)" ;
+    ktn:berkaitanTopik ktn:TopikJamsos ;
     dct:source reg:PP-44-2015 .
 
 ktn:ProsesManfaatJKKPU a owl:NamedIndividual, ktn:KetentuanJaminanSosial ;
     ktn:pasal "Pasal 43 ayat (6)-(7)" ;
+    ktn:berkaitanTopik ktn:TopikJamsos ;
     dct:source reg:PP-44-2015 .
 
 ktn:RuangLingkupManfaatJKK a owl:NamedIndividual, ktn:KetentuanJaminanSosial ;
     ktn:pasal "Pasal 25 ayat (2)" ;
+    ktn:berkaitanTopik ktn:TopikJamsos ;
     dct:source reg:PP-44-2015 .
 
 ktn:SetorIuranBulanan a owl:NamedIndividual, ktn:KetentuanJaminanSosial ;
     ktn:pasal "Pasal 21 ayat (2)" ;
+    ktn:berkaitanTopik ktn:TopikJamsos ;
     dct:source reg:PP-44-2015 .
 
 ktn:SantunanSTMB a owl:NamedIndividual, ktn:KetentuanJaminanSosial ;
     ktn:pasal "Pasal 51 ayat (2)" ;
+    ktn:berkaitanTopik ktn:TopikJamsos ;
     dct:source reg:PP-44-2015 .
 
 ktn:SantunanSTMBKurang a owl:NamedIndividual, ktn:KetentuanJaminanSosial ;
     ktn:pasal "Pasal 51 ayat (4)" ;
+    ktn:berkaitanTopik ktn:TopikJamsos ;
     dct:source reg:PP-44-2015 .
 
 ktn:SantunanSTMBLebih a owl:NamedIndividual, ktn:KetentuanJaminanSosial ;
     ktn:pasal "Pasal 51 ayat (3)" ;
+    ktn:berkaitanTopik ktn:TopikJamsos ;
     dct:source reg:PP-44-2015 .
 
 ktn:UpahSelamaTidakMampuBekerja a owl:NamedIndividual, ktn:KetentuanUpah ;
     ktn:pasal "Pasal 51 ayat (1)" ;
+    ktn:berkaitanTopik ktn:TopikUpah ;
     dct:source reg:PP-44-2015 .
 
 ktn:TanggungJawabPemberiKerjaJKK a owl:NamedIndividual, ktn:KetentuanJaminanSosial ;
     ktn:pasal "Pasal 27 ayat (1)" ;
+    ktn:berkaitanTopik ktn:TopikJamsos ;
     dct:source reg:PP-44-2015 .
 
 ktn:JamsosTanggungJawabRisiko a owl:NamedIndividual, ktn:KetentuanJaminanSosial ;
     ktn:pasal "Pasal 8 ayat (3)" ;
+    ktn:berkaitanTopik ktn:TopikJamsos ;
     dct:source reg:PP-44-2015 .
 
 ktn:UpahMagang a owl:NamedIndividual, ktn:KetentuanJaminanSosial ;
     ktn:pasal "Pasal 28 ayat (2)" ;
+    ktn:berkaitanTopik ktn:TopikJamsos ;
     dct:source reg:PP-44-2015 .
 
 ktn:JamsosWajibDaftarBukanPenerimaUpah a owl:NamedIndividual, ktn:KetentuanJaminanSosial ;
     ktn:pasal "Pasal 11 ayat (1)" ;
+    ktn:berkaitanTopik ktn:TopikJamsos ;
     dct:source reg:PP-44-2015 .
 
 ktn:JamsosWajibDaftarPekerja a owl:NamedIndividual, ktn:KetentuanJaminanSosial ;
     ktn:pasal "Pasal 4 ayat (2)" ;
+    ktn:berkaitanTopik ktn:TopikJamsos ;
     dct:source reg:PP-44-2015 .
 
 ktn:JamsosWajibDaftarPemberiKerja a owl:NamedIndividual, ktn:KetentuanJaminanSosial ;
     ktn:pasal "Pasal 4 ayat (1)" ;
+    ktn:berkaitanTopik ktn:TopikJamsos ;
     dct:source reg:PP-44-2015 .
 
 ktn:PenetapanJKCMenteri a owl:NamedIndividual, ktn:KetentuanJaminanSosial ;
     ktn:pasal "Pasal 45 ayat (3)-(4)" ;
+    ktn:berkaitanTopik ktn:TopikJamsos ;
     dct:source reg:PP-44-2015 .
 
 ktn:PenetapanJKCPengawas a owl:NamedIndividual, ktn:KetentuanJaminanSosial ;
     ktn:pasal "Pasal 45 ayat (2)" ;
+    ktn:berkaitanTopik ktn:TopikJamsos ;
     dct:source reg:PP-44-2015 .
 
 ktn:KewajibanPekerjakanCacat a owl:NamedIndividual, ktn:AlasanPHK ;
     ktn:pasal "Pasal 52 ayat (2)" ;
+    ktn:berkaitanTopik ktn:TopikPHK ;
     dct:source reg:PP-44-2015 .
 
 ktn:LaranganPHKSelamaPengobatan a owl:NamedIndividual, ktn:AlasanPHK ;
     ktn:pasal "Pasal 52 ayat (1)" ;
+    ktn:berkaitanTopik ktn:TopikPHK ;
     dct:source reg:PP-44-2015 .
 
 ktn:JKK-KONSTRUKSI a owl:NamedIndividual, ktn:ProgramJaminanSosial ;

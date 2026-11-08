@@ -1,7 +1,7 @@
 # =====================================================================
 # BERKAS DIGENERATE. JANGAN EDIT MANUAL.
 # Sumber   : data/norma.csv, parameter.csv, kategori.csv, pengali_lembur.csv, program_jamsos.csv
-# Hasilkan : .venv/bin/python scripts/build_ontology.py
+# Hasilkan : uv run python scripts/build_ontology.py
 # =====================================================================
 
 @prefix ktn:  <https://example.org/kbr/ketenagakerjaan#> .
@@ -19,28 +19,35 @@
 
 ktn:PendaftaranJamsosTenagaKesehatan a owl:NamedIndividual, ktn:KetentuanJaminanSosial ;
     ktn:pasal "Pasal 730 ayat (2)" ;
+    ktn:berkaitanTopik ktn:TopikJamsos ;
     dct:source reg:PP-28-2024 .
 
 ktn:JaminanTenagaCadanganKesehatan a owl:NamedIndividual, ktn:KetentuanJaminanSosial ;
     ktn:pasal "Pasal 636" ;
+    ktn:berkaitanTopik ktn:TopikJamsos ;
     dct:source reg:PP-28-2024 .
 
 ktn:KetentuanFasilitasMenyusui a owl:NamedIndividual, ktn:KetentuanKIA ;
     ktn:pasal "Pasal 43 ayat (4)" ;
+    ktn:berkaitanTopik ktn:TopikKIA ;
     dct:source reg:PP-28-2024 .
 
 ktn:KetentuanKebijakanASI a owl:NamedIndividual, ktn:KetentuanKIA ;
     ktn:pasal "Pasal 43 ayat (1)" ;
+    ktn:berkaitanTopik ktn:TopikKIA ;
     dct:source reg:PP-28-2024 .
 
 ktn:KetentuanPeraturanInternalASI a owl:NamedIndividual, ktn:KetentuanKIA ;
     ktn:pasal "Pasal 43 ayat (3)" ;
+    ktn:berkaitanTopik ktn:TopikKIA ;
     dct:source reg:PP-28-2024 .
 
 ktn:KetentuanKesempatanMenyusui a owl:NamedIndividual, ktn:KetentuanKIA ;
     ktn:pasal "Pasal 43 ayat (5)" ;
+    ktn:berkaitanTopik ktn:TopikKIA ;
     dct:source reg:PP-28-2024 .
 
 ktn:THRTenagaKesehatan a owl:NamedIndividual, ktn:KetentuanUpah ;
     ktn:pasal "Pasal 725 ayat (4)" ;
+    ktn:berkaitanTopik ktn:TopikUpah ;
     dct:source reg:PP-28-2024 .

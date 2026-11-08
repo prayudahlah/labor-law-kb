@@ -1,7 +1,7 @@
 # =====================================================================
 # BERKAS DIGENERATE. JANGAN EDIT MANUAL.
 # Sumber   : data/norma.csv, parameter.csv, kategori.csv, pengali_lembur.csv, program_jamsos.csv
-# Hasilkan : .venv/bin/python scripts/build_ontology.py
+# Hasilkan : uv run python scripts/build_ontology.py
 # =====================================================================
 
 @prefix ktn:  <https://example.org/kbr/ketenagakerjaan#> .
@@ -19,96 +19,120 @@
 
 ktn:HakLainDidahulukanKecualiJaminanKebendaan a owl:NamedIndividual, ktn:KetentuanUpah ;
     ktn:pasal "Pasal 49 ayat (3)" ;
+    ktn:berkaitanTopik ktn:TopikUpah ;
     dct:source reg:PP-49-2025 .
 
 ktn:UpahDidahulukanSemuaKreditur a owl:NamedIndividual, ktn:KetentuanUpah ;
     ktn:pasal "Pasal 49 ayat (2)" ;
+    ktn:berkaitanTopik ktn:TopikUpah ;
     dct:source reg:PP-49-2025 .
 
 ktn:UtangUpahDidahulukan a owl:NamedIndividual, ktn:KetentuanUpah ;
     ktn:pasal "Pasal 49 ayat (1)" ;
+    ktn:berkaitanTopik ktn:TopikUpah ;
     dct:source reg:PP-49-2025 .
 
 ktn:InfoStrukturSkalaUpah2025 a owl:NamedIndividual, ktn:KetentuanUpah ;
     ktn:pasal "Pasal 21 ayat (2)" ;
+    ktn:berkaitanTopik ktn:TopikUpah ;
     dct:source reg:PP-49-2025 .
 
 ktn:KewajibanStrukturSkalaUpah2025 a owl:NamedIndividual, ktn:KetentuanUpah ;
     ktn:pasal "Pasal 21 ayat (1)" ;
+    ktn:berkaitanTopik ktn:TopikUpah ;
     dct:source reg:PP-49-2025 .
 
 ktn:RentangIndeksTertentu2025 a owl:NamedIndividual, ktn:KetentuanUpah ;
     ktn:pasal "Pasal 26 ayat (6)" ;
+    ktn:berkaitanTopik ktn:TopikUpah ;
     dct:source reg:PP-49-2025 .
 
 ktn:FormulaUpahMinimum2025 a owl:NamedIndividual, ktn:KetentuanUpah ;
     ktn:pasal "Pasal 26 ayat (2)" ;
+    ktn:berkaitanTopik ktn:TopikUpah ;
     dct:source reg:PP-49-2025 .
 
 ktn:PenyesuaianUpahMinimumTahunan2025 a owl:NamedIndividual, ktn:KetentuanUpah ;
     ktn:pasal "Pasal 26 ayat (1)" ;
+    ktn:berkaitanTopik ktn:TopikUpah ;
     dct:source reg:PP-49-2025 .
 
 ktn:UpahMinimumTidakTurun2025 a owl:NamedIndividual, ktn:KetentuanUpah ;
     ktn:pasal "Pasal 26 ayat (9)" ;
+    ktn:berkaitanTopik ktn:TopikUpah ;
     dct:source reg:PP-49-2025 .
 
 ktn:UMKBerlaku1Januari2025 a owl:NamedIndividual, ktn:KetentuanUpah ;
     ktn:pasal "Pasal 35 ayat (4)" ;
+    ktn:berkaitanTopik ktn:TopikUpah ;
     dct:source reg:PP-49-2025 .
 
 ktn:PengumumanUMK25November a owl:NamedIndividual, ktn:KetentuanUpah ;
     ktn:pasal "Pasal 35 ayat (2)" ;
+    ktn:berkaitanTopik ktn:TopikUpah ;
     dct:source reg:PP-49-2025 .
 
 ktn:FormulaPenyesuaianUMK2025 a owl:NamedIndividual, ktn:KetentuanUpah ;
     ktn:pasal "Pasal 34 ayat (2)" ;
+    ktn:berkaitanTopik ktn:TopikUpah ;
     dct:source reg:PP-49-2025 .
 
 ktn:PenyesuaianUMK2025 a owl:NamedIndividual, ktn:KetentuanUpah ;
     ktn:pasal "Pasal 34 ayat (1)" ;
+    ktn:berkaitanTopik ktn:TopikUpah ;
     dct:source reg:PP-49-2025 .
 
 ktn:FormulaPenyesuaianUMP2025 a owl:NamedIndividual, ktn:KetentuanUpah ;
     ktn:pasal "Pasal 27 ayat (3)" ;
+    ktn:berkaitanTopik ktn:TopikUpah ;
     dct:source reg:PP-49-2025 .
 
 ktn:KewajibanGubernurTetapkanUMP2025 a owl:NamedIndividual, ktn:KetentuanUpah ;
     ktn:pasal "Pasal 27 ayat (1)" ;
+    ktn:berkaitanTopik ktn:TopikUpah ;
     dct:source reg:PP-49-2025 .
 
 ktn:UMSKabupatenKotaBerlaku1Januari a owl:NamedIndividual, ktn:KetentuanUpah ;
     ktn:pasal "Pasal 35J ayat (3)" ;
+    ktn:berkaitanTopik ktn:TopikUpah ;
     dct:source reg:PP-49-2025 .
 
 ktn:PengumumanUMSKabupatenKota5Hari a owl:NamedIndividual, ktn:KetentuanUpah ;
     ktn:pasal "Pasal 35J ayat (1)" ;
+    ktn:berkaitanTopik ktn:TopikUpah ;
     dct:source reg:PP-49-2025 .
 
 ktn:UMSKabupatenKotaLebihTinggiUMK a owl:NamedIndividual, ktn:KetentuanUpah ;
     ktn:pasal "Pasal 35H ayat (1)" ;
+    ktn:berkaitanTopik ktn:TopikUpah ;
     dct:source reg:PP-49-2025 .
 
 ktn:KriteriaSektorUMSKabupatenKota a owl:NamedIndividual, ktn:KetentuanUpah ;
     ktn:pasal "Pasal 35G ayat (1)" ;
+    ktn:berkaitanTopik ktn:TopikUpah ;
     dct:source reg:PP-49-2025 .
 
 ktn:UMSProvinsiBerlaku1Januari a owl:NamedIndividual, ktn:KetentuanUpah ;
     ktn:pasal "Pasal 35E ayat (3)" ;
+    ktn:berkaitanTopik ktn:TopikUpah ;
     dct:source reg:PP-49-2025 .
 
 ktn:PengumumanUMSProvinsi5Hari a owl:NamedIndividual, ktn:KetentuanUpah ;
     ktn:pasal "Pasal 35E ayat (1)" ;
+    ktn:berkaitanTopik ktn:TopikUpah ;
     dct:source reg:PP-49-2025 .
 
 ktn:UMSProvinsiLebihTinggiUMP a owl:NamedIndividual, ktn:KetentuanUpah ;
     ktn:pasal "Pasal 35C ayat (1)" ;
+    ktn:berkaitanTopik ktn:TopikUpah ;
     dct:source reg:PP-49-2025 .
 
 ktn:KriteriaSektorUMSProvinsi a owl:NamedIndividual, ktn:KetentuanUpah ;
     ktn:pasal "Pasal 35B ayat (2)" ;
+    ktn:berkaitanTopik ktn:TopikUpah ;
     dct:source reg:PP-49-2025 .
 
 ktn:KewajibanGubernurTetapkanUMSProvinsi a owl:NamedIndividual, ktn:KetentuanUpah ;
     ktn:pasal "Pasal 35A ayat (1)" ;
+    ktn:berkaitanTopik ktn:TopikUpah ;
     dct:source reg:PP-49-2025 .

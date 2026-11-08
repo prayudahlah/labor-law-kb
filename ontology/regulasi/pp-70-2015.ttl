@@ -1,7 +1,7 @@
 # =====================================================================
 # BERKAS DIGENERATE. JANGAN EDIT MANUAL.
 # Sumber   : data/norma.csv, parameter.csv, kategori.csv, pengali_lembur.csv, program_jamsos.csv
-# Hasilkan : .venv/bin/python scripts/build_ontology.py
+# Hasilkan : uv run python scripts/build_ontology.py
 # =====================================================================
 
 @prefix ktn:  <https://example.org/kbr/ketenagakerjaan#> .
@@ -19,136 +19,170 @@
 
 ktn:AsnAhliWarisPemakamanJKK a owl:NamedIndividual, ktn:KetentuanJaminanSosial ;
     ktn:pasal "Pasal 19 ayat (2)" ;
+    ktn:berkaitanTopik ktn:TopikJamsos ;
     dct:source reg:PP-70-2015 .
 
 ktn:AsnAhliWarisPemakamanJKM a owl:NamedIndividual, ktn:KetentuanJaminanSosial ;
     ktn:pasal "Pasal 28 ayat (2)" ;
+    ktn:berkaitanTopik ktn:TopikJamsos ;
     dct:source reg:PP-70-2015 .
 
 ktn:AsnAhliWarisSantunanJKM a owl:NamedIndividual, ktn:KetentuanJaminanSosial ;
     ktn:pasal "Pasal 28 ayat (1)" ;
+    ktn:berkaitanTopik ktn:TopikJamsos ;
     dct:source reg:PP-70-2015 .
 
 ktn:AsnAhliWarisSantunanKematian a owl:NamedIndividual, ktn:KetentuanJaminanSosial ;
     ktn:pasal "Pasal 19 ayat (1)" ;
+    ktn:berkaitanTopik ktn:TopikJamsos ;
     dct:source reg:PP-70-2015 .
 
 ktn:AsnAlokasiAnggaranIuran a owl:NamedIndividual, ktn:KetentuanJaminanSosial ;
     ktn:pasal "Pasal 31" ;
+    ktn:berkaitanTopik ktn:TopikJamsos ;
     dct:source reg:PP-70-2015 .
 
 ktn:AsnBeasiswaJKKSyarat a owl:NamedIndividual, ktn:KetentuanJaminanSosial ;
     ktn:pasal "Pasal 20 ayat (2)" ;
+    ktn:berkaitanTopik ktn:TopikJamsos ;
     dct:source reg:PP-70-2015 .
 
 ktn:AsnBeasiswaJKKTingkat a owl:NamedIndividual, ktn:KetentuanJaminanSosial ;
     ktn:pasal "Pasal 20 ayat (1)" ;
+    ktn:berkaitanTopik ktn:TopikJamsos ;
     dct:source reg:PP-70-2015 .
 
 ktn:AsnBeasiswaJKM a owl:NamedIndividual, ktn:KetentuanJaminanSosial ;
     ktn:pasal "Pasal 29 ayat (1)" ;
+    ktn:berkaitanTopik ktn:TopikJamsos ;
     dct:source reg:PP-70-2015 .
 
 ktn:AsnBeasiswaJKMMasaKepesertaan a owl:NamedIndividual, ktn:KetentuanJaminanSosial ;
     ktn:pasal "Pasal 29 ayat (3)" ;
+    ktn:berkaitanTopik ktn:TopikJamsos ;
     dct:source reg:PP-70-2015 .
 
 ktn:AsnBeasiswaJKMSyarat a owl:NamedIndividual, ktn:KetentuanJaminanSosial ;
     ktn:pasal "Pasal 29 ayat (2)" ;
+    ktn:berkaitanTopik ktn:TopikJamsos ;
     dct:source reg:PP-70-2015 .
 
 ktn:AsnBiayaAngkutanJenazah a owl:NamedIndividual, ktn:KetentuanJaminanSosial ;
     ktn:pasal "Pasal 40" ;
+    ktn:berkaitanTopik ktn:TopikJamsos ;
     dct:source reg:PP-70-2015 .
 
 ktn:AsnBiayaPemakamanJKK a owl:NamedIndividual, ktn:KetentuanJaminanSosial ;
     ktn:pasal "Pasal 17" ;
+    ktn:berkaitanTopik ktn:TopikJamsos ;
     dct:source reg:PP-70-2015 .
 
 ktn:AsnBiayaPemakamanJKM a owl:NamedIndividual, ktn:KetentuanJaminanSosial ;
     ktn:pasal "Pasal 26" ;
+    ktn:berkaitanTopik ktn:TopikJamsos ;
     dct:source reg:PP-70-2015 .
 
 ktn:AsnDaluwarsaKlaimJKK a owl:NamedIndividual, ktn:KetentuanJaminanSosial ;
     ktn:pasal "Pasal 35" ;
+    ktn:berkaitanTopik ktn:TopikJamsos ;
     dct:source reg:PP-70-2015 .
 
 ktn:AsnIuranJKK a owl:NamedIndividual, ktn:KetentuanJaminanSosial ;
     ktn:pasal "Pasal 22" ;
+    ktn:berkaitanTopik ktn:TopikJamsos ;
     dct:source reg:PP-70-2015 .
 
 ktn:AsnIuranJKM a owl:NamedIndividual, ktn:KetentuanJaminanSosial ;
     ktn:pasal "Pasal 30" ;
+    ktn:berkaitanTopik ktn:TopikJamsos ;
     dct:source reg:PP-70-2015 .
 
 ktn:AsnKebijakanKhusus a owl:NamedIndividual, ktn:KetentuanJaminanSosial ;
     ktn:pasal "Pasal 39" ;
+    ktn:berkaitanTopik ktn:TopikJamsos ;
     dct:source reg:PP-70-2015 .
 
 ktn:AsnKepesertaanBerakhir a owl:NamedIndividual, ktn:KetentuanJaminanSosial ;
     ktn:pasal "Pasal 6" ;
+    ktn:berkaitanTopik ktn:TopikJamsos ;
     dct:source reg:PP-70-2015 .
 
 ktn:AsnKepesertaanMulai a owl:NamedIndividual, ktn:KetentuanJaminanSosial ;
     ktn:pasal "Pasal 5" ;
+    ktn:berkaitanTopik ktn:TopikJamsos ;
     dct:source reg:PP-70-2015 .
 
 ktn:AsnLaporanPengelola a owl:NamedIndividual, ktn:KetentuanJaminanSosial ;
     ktn:pasal "Pasal 36" ;
+    ktn:berkaitanTopik ktn:TopikJamsos ;
     dct:source reg:PP-70-2015 .
 
 ktn:AsnManfaatJKK a owl:NamedIndividual, ktn:KetentuanJaminanSosial ;
     ktn:pasal "Pasal 9" ;
+    ktn:berkaitanTopik ktn:TopikJamsos ;
     dct:source reg:PP-70-2015 .
 
 ktn:AsnManfaatJKM a owl:NamedIndividual, ktn:KetentuanJaminanSosial ;
     ktn:pasal "Pasal 23" ;
+    ktn:berkaitanTopik ktn:TopikJamsos ;
     dct:source reg:PP-70-2015 .
 
 ktn:AsnPAKSetelahPemberhentian a owl:NamedIndividual, ktn:KetentuanJaminanSosial ;
     ktn:pasal "Pasal 12" ;
+    ktn:berkaitanTopik ktn:TopikJamsos ;
     dct:source reg:PP-70-2015 .
 
 ktn:AsnPembayaranIuran a owl:NamedIndividual, ktn:KetentuanJaminanSosial ;
     ktn:pasal "Pasal 32" ;
+    ktn:berkaitanTopik ktn:TopikJamsos ;
     dct:source reg:PP-70-2015 .
 
 ktn:AsnPembayaranKlaim a owl:NamedIndividual, ktn:KetentuanJaminanSosial ;
     ktn:pasal "Pasal 34" ;
+    ktn:berkaitanTopik ktn:TopikJamsos ;
     dct:source reg:PP-70-2015 .
 
 ktn:AsnPenyesuaianIuranManfaat a owl:NamedIndividual, ktn:KetentuanJaminanSosial ;
     ktn:pasal "Pasal 37" ;
+    ktn:berkaitanTopik ktn:TopikJamsos ;
     dct:source reg:PP-70-2015 .
 
 ktn:AsnPerawatanJKK a owl:NamedIndividual, ktn:KetentuanJaminanSosial ;
     ktn:pasal "Pasal 10" ;
+    ktn:berkaitanTopik ktn:TopikJamsos ;
     dct:source reg:PP-70-2015 .
 
 ktn:AsnSantunanJKK a owl:NamedIndividual, ktn:KetentuanJaminanSosial ;
     ktn:pasal "Pasal 13" ;
+    ktn:berkaitanTopik ktn:TopikJamsos ;
     dct:source reg:PP-70-2015 .
 
 ktn:AsnSantunanKematianKerja a owl:NamedIndividual, ktn:KetentuanJaminanSosial ;
     ktn:pasal "Pasal 15" ;
+    ktn:berkaitanTopik ktn:TopikJamsos ;
     dct:source reg:PP-70-2015 .
 
 ktn:AsnSantunanSekaligusJKM a owl:NamedIndividual, ktn:KetentuanJaminanSosial ;
     ktn:pasal "Pasal 24" ;
+    ktn:berkaitanTopik ktn:TopikJamsos ;
     dct:source reg:PP-70-2015 .
 
 ktn:AsnTempatPerawatanJKK a owl:NamedIndividual, ktn:KetentuanJaminanSosial ;
     ktn:pasal "Pasal 11" ;
+    ktn:berkaitanTopik ktn:TopikJamsos ;
     dct:source reg:PP-70-2015 .
 
 ktn:AsnTunjanganCacat a owl:NamedIndividual, ktn:KetentuanJaminanSosial ;
     ktn:pasal "Pasal 21" ;
+    ktn:berkaitanTopik ktn:TopikJamsos ;
     dct:source reg:PP-70-2015 .
 
 ktn:AsnUangDukaTewas a owl:NamedIndividual, ktn:KetentuanJaminanSosial ;
     ktn:pasal "Pasal 16" ;
+    ktn:berkaitanTopik ktn:TopikJamsos ;
     dct:source reg:PP-70-2015 .
 
 ktn:AsnUangDukaWafat a owl:NamedIndividual, ktn:KetentuanJaminanSosial ;
     ktn:pasal "Pasal 25" ;
+    ktn:berkaitanTopik ktn:TopikJamsos ;
     dct:source reg:PP-70-2015 .

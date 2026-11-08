@@ -1,7 +1,7 @@
 # =====================================================================
 # BERKAS DIGENERATE. JANGAN EDIT MANUAL.
 # Sumber   : data/norma.csv, parameter.csv, kategori.csv, pengali_lembur.csv, program_jamsos.csv
-# Hasilkan : .venv/bin/python scripts/build_ontology.py
+# Hasilkan : uv run python scripts/build_ontology.py
 # =====================================================================
 
 @prefix ktn:  <https://example.org/kbr/ketenagakerjaan#> .
@@ -19,22 +19,27 @@
 
 ktn:JaminanSosialASN a owl:NamedIndividual, ktn:KetentuanJaminanSosial ;
     ktn:pasal "Pasal 21 ayat (6)" ;
+    ktn:berkaitanTopik ktn:TopikJamsos ;
     dct:source reg:UU-20-2023 .
 
 ktn:PembiayaanPensiunASN a owl:NamedIndividual, ktn:KetentuanJaminanSosial ;
     ktn:pasal "Pasal 22 ayat (4)" ;
+    ktn:berkaitanTopik ktn:TopikJamsos ;
     dct:source reg:UU-20-2023 .
 
 ktn:BatasUsiaPensiunASNAdministrasi a owl:NamedIndividual, ktn:KetentuanJaminanSosial ;
     ktn:usiaPensiunTahun 58 ;
     ktn:pasal "Pasal 55 huruf a angka 2" ;
+    ktn:berkaitanTopik ktn:TopikJamsos ;
     dct:source reg:UU-20-2023 .
 
 ktn:BatasUsiaPensiunASNPimpinanTinggi a owl:NamedIndividual, ktn:KetentuanJaminanSosial ;
     ktn:usiaPensiunTahun 60 ;
     ktn:pasal "Pasal 55 huruf a angka 1" ;
+    ktn:berkaitanTopik ktn:TopikJamsos ;
     dct:source reg:UU-20-2023 .
 
 ktn:PembayaranPensiunASNSaatBerhenti a owl:NamedIndividual, ktn:KetentuanJaminanSosial ;
     ktn:pasal "Pasal 22 ayat (1)" ;
+    ktn:berkaitanTopik ktn:TopikJamsos ;
     dct:source reg:UU-20-2023 .

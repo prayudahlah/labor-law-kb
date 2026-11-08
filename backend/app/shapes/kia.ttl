@@ -1,0 +1,15 @@
+@prefix sh:  <http://www.w3.org/ns/shacl#> .
+@prefix ktn: <https://example.org/kbr/ketenagakerjaan#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+ktn:PekerjaKIAShape a sh:NodeShape ;
+    sh:targetClass ktn:PekerjaPerempuan ;
+    sh:property [ sh:path ktn:sedangCutiMelahirkan ; sh:minCount 1 ;
+                  sh:datatype xsd:boolean ;
+                  sh:message "sedangCutiMelahirkan wajib boolean" ] ;
+    sh:property [ sh:path ktn:cutiMelahirkanBulan ; sh:minCount 1 ; sh:maxCount 1 ;
+                  sh:datatype xsd:integer ; sh:minInclusive 3 ; sh:maxInclusive 6 ;
+                  sh:message "cutiMelahirkanBulan wajib 3-6 bulan" ] ;
+    sh:property [ sh:path ktn:upahBulanan ; sh:minCount 1 ;
+                  sh:datatype xsd:decimal ; sh:minInclusive 0 ;
+                  sh:message "upahBulanan wajib ada, decimal >= 0" ] .

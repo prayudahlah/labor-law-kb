@@ -1,9 +1,11 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <!-- BERKAS DIGENERATE. JANGAN EDIT MANUAL.
-     Hasilkan: .venv/bin/python scripts/build_catalog.py -->
+     Hasilkan: uv run python scripts/build_catalog.py -->
 <catalog prefer="public" xmlns="urn:oasis:names:tc:entity:xmlns:xml:catalog">
     <uri id="kb" name="https://example.org/kbr/ketenagakerjaan/kb" uri="ontology.ttl"/>
+    <uri id="test" name="https://example.org/kbr/ketenagakerjaan/test" uri="test.ttl"/>
     <uri id="core/tbox-core.ttl" name="https://example.org/kbr/ketenagakerjaan" uri="core/tbox-core.ttl"/>
+    <uri id="meta/topik.ttl" name="https://example.org/kbr/ketenagakerjaan/meta/topik" uri="meta/topik.ttl"/>
     <uri id="core/rbox-roles.ttl" name="https://example.org/kbr/ketenagakerjaan/rbox" uri="core/rbox-roles.ttl"/>
     <uri id="regulasi/pp-10-2020.ttl" name="https://example.org/kbr/ketenagakerjaan/regulasi/pp-10-2020" uri="regulasi/pp-10-2020.ttl"/>
     <uri id="regulasi/pp-22-2022.ttl" name="https://example.org/kbr/ketenagakerjaan/regulasi/pp-22-2022" uri="regulasi/pp-22-2022.ttl"/>
@@ -42,4 +44,5 @@
     <uri id="regulasi/uu-8-2016.ttl" name="https://example.org/kbr/ketenagakerjaan/regulasi/uu-8-2016" uri="regulasi/uu-8-2016.ttl"/>
     <uri id="meta/regulasi.ttl" name="https://example.org/kbr/regulasi" uri="meta/regulasi.ttl"/>
     <uri id="core/tbox-regulasi.ttl" name="https://example.org/kbr/regulasi/vocab" uri="core/tbox-regulasi.ttl"/>
+    <uri id="examples/kasus-contoh.ttl" name="https://example.org/kbr/ketenagakerjaan/contoh/kasus" uri="examples/kasus-contoh.ttl"/>
 </catalog>
