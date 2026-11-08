@@ -31,10 +31,14 @@ Dari root repo:
 docker compose up --build
 ```
 
+- Frontend: http://localhost:3000
+- Backend: http://localhost:8080
+- Health lewat frontend: http://localhost:3000/health
+
 Cek:
 
 ```bash
-curl localhost:8080/health
+curl localhost:3000/health
 ```
 
 ## Endpoint
@@ -59,6 +63,11 @@ curl -X POST localhost:8080/infer \
 cd backend-v2
 mvn test
 ```
+
+## CI
+
+`.github/workflows/backend-v2.yml` menjalankan `mvn test`, build frontend,
+dan build kedua image Docker.
 
 ## Struktur
 
