@@ -1,4 +1,4 @@
-name: backend-v2
+name: backend
 
 on:
   push:
@@ -16,12 +16,12 @@ jobs:
           distribution: temurin
           java-version: '21'
           cache: maven
-          cache-dependency-path: backend-v2/pom.xml
+          cache-dependency-path: backend/pom.xml
       - name: Test
-        working-directory: backend-v2
+        working-directory: backend
         run: mvn -B test
       - name: Build backend image
-        run: docker build -f backend-v2/Dockerfile -t labor-law-kb-backend:ci .
+        run: docker build -f backend/Dockerfile -t labor-law-kb-backend:ci .
 
   frontend:
     runs-on: ubuntu-latest

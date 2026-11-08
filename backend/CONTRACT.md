@@ -1,7 +1,8 @@
 # Kontrak API v2
 
-Kontrak ini harus sama dengan `backend/app/schemas.py` dan perilaku
-`backend/app/main.py`. Frontend tidak boleh berubah.
+Kontrak ini mengikuti perilaku `backend-python/app/schemas.py` dan
+`backend-python/app/main.py` (backend Python lama, arsip). Frontend tidak
+boleh berubah.
 
 ## GET /health
 

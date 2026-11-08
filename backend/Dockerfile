@@ -1,15 +1,15 @@
 FROM maven:3.9-eclipse-temurin-21 AS build
 WORKDIR /src
-COPY backend-v2/pom.xml backend-v2/pom.xml
-RUN mvn -f backend-v2/pom.xml -q dependency:go-offline
-COPY backend-v2 backend-v2
-RUN mvn -f backend-v2/pom.xml -q package -DskipTests
+COPY backend/pom.xml backend/pom.xml
+RUN mvn -f backend/pom.xml -q dependency:go-offline
+COPY backend backend
+RUN mvn -f backend/pom.xml -q package -DskipTests
 
 FROM eclipse-temurin:21-jre
 RUN apt-get update && apt-get install -y --no-install-recommends curl \
     && rm -rf /var/lib/apt/lists/*
 WORKDIR /app
-COPY --from=build /src/backend-v2/target/*.jar app.jar
+COPY --from=build /src/backend/target/*.jar app.jar
 COPY ontology ontology
 COPY data data
 ENV KB_ONTOLOGY_DIR=/app/ontology

@@ -7,8 +7,8 @@ import tailwindcss from '@tailwindcss/vite';
  * ini. Di produksi tinggal set VITE_API_BASE_URL ke URL backend
  * (atau minta backend menambahkan CORSMiddleware).
  */
-const API_BASE = process.env.VITE_API_BASE_URL ?? 'http://localhost:8000';
-const PROXY_PATHS = ['/chat', '/infer', '/ketentuan', '/health'];
+const API_BASE = process.env.VITE_API_BASE_URL ?? 'http://localhost:8080';
+const PROXY_PATHS = ['/chat', '/infer', '/ketentuan', '/dokumen', '/health'];
 
 export default defineConfig({
   plugins: [react(), tailwindcss()],

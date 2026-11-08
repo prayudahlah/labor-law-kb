@@ -1,8 +1,8 @@
-# Fase 0: backend v2
+# Backend Java
 
-Backend Java untuk KB hukum ketenagakerjaan. Fase 0 baru berisi skeleton,
-Docker, kontrak API, dan fixture golden case. Logika KB menyusul di fase
-berikutnya.
+Backend Java untuk KB hukum ketenagakerjaan. Endpoint `/infer`, `/ketentuan`,
+`/chat`, dan `/dokumen` sudah aktif. Backend Python lama diarsipkan di
+`backend-python/`.
 
 ## Prasyarat
 
@@ -13,7 +13,7 @@ berikutnya.
 ## Jalankan lokal
 
 ```bash
-cd backend-v2
+cd backend
 KB_ONTOLOGY_DIR=../ontology KB_DATA_DIR=../data mvn spring-boot:run
 ```
 
@@ -60,13 +60,13 @@ curl -X POST localhost:8080/infer \
 ## Test
 
 ```bash
-cd backend-v2
+cd backend
 mvn test
 ```
 
 ## CI
 
-`.github/workflows/backend-v2.yml` menjalankan `mvn test`, build frontend,
+`.github/workflows/backend.yml` menjalankan `mvn test`, build frontend,
 dan build kedua image Docker.
 
 ## Struktur
@@ -76,9 +76,9 @@ src/main/java/ac/id/uns/kbr/
   KbApplication.java
   api/          controller
   config/       konfigurasi bertipe
-  kb/           ontology, reasoner, retrieval, rules (fase berikutnya)
-  chat/         router dan state (fase berikutnya)
-  dokumen/      dokumen dan klausul (fase berikutnya)
+  kb/           ontology, reasoner, retrieval, perhitungan
+  chat/         router dan state sesi
+  dokumen/      template dan klausul dokumen
 ```
 
 ## Status
@@ -92,6 +92,8 @@ src/main/java/ac/id/uns/kbr/
 - [x] Spike SWRL `swrlb`
 - [x] `CalculationProvider` dengan fallback Java dan pembaca output SWRL
 - [x] `/infer`, `/ketentuan`, `/chat`, `/dokumen`
+- [x] Full stack Docker dan nginx
+- [x] CI test dan build image
 
 Kontrak input/output SWRL ada di `KB_CONTRACT.md`. Mode perhitungan diatur
 lewat `kb.calculation.mode` (`java`, `swrl`, `auto`). Default `java` selama

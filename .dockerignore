@@ -1,6 +1,7 @@
 .git
 .gitignore
 .venv
+backend-python
 **/node_modules
 **/target
 **/__pycache__

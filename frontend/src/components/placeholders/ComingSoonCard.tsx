@@ -16,7 +16,7 @@ export default function ComingSoonCard() {
       </p>
 
       <span className="mt-5 rounded-full border border-line bg-surface px-3 py-1 text-[11.5px] font-medium text-ink-muted">
-        Menunggu endpoint backend
+        Endpoint siap, UI menyusul
       </span>
     </div>
   );

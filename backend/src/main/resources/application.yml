@@ -3,7 +3,7 @@ server:
 
 spring:
   application:
-    name: labor-law-kb-backend-v2
+    name: labor-law-kb-backend
 
 management:
   endpoints:
