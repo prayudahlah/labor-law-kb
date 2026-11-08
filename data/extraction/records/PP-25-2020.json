@@ -1,0 +1,366 @@
+{
+  "spec_version": "1.1.0",
+  "vocab_version": "0.3.0",
+  "dokumen_id": "PP-25-2020",
+  "status_review": "reviewed",
+  "peraturan": {
+    "judul": "Peraturan Pemerintah Nomor 25 Tahun 2020 tentang Penyelenggaraan Tabungan Perumahan Rakyat",
+    "jenis": "PP",
+    "nomor": "25",
+    "tahun": "2020",
+    "sumber": "https://peraturan.bpk.go.id/Details/137950/pp-no-25-tahun-2020",
+    "status": "Berlaku",
+    "diubah_oleh": []
+  },
+  "norma": [],
+  "kategori": [],
+  "pengali_lembur": [],
+  "program_jamsos": [],
+  "cakupan": {
+    "lengkap": true,
+    "pasal_diekstrak": [
+      "Pasal 1",
+      "Pasal 10",
+      "Pasal 12",
+      "Pasal 13",
+      "Pasal 14",
+      "Pasal 15",
+      "Pasal 16",
+      "Pasal 17",
+      "Pasal 18",
+      "Pasal 19",
+      "Pasal 2",
+      "Pasal 20",
+      "Pasal 21",
+      "Pasal 22",
+      "Pasal 23",
+      "Pasal 24",
+      "Pasal 25",
+      "Pasal 26",
+      "Pasal 27",
+      "Pasal 28",
+      "Pasal 29",
+      "Pasal 3",
+      "Pasal 30",
+      "Pasal 32",
+      "Pasal 33",
+      "Pasal 34",
+      "Pasal 35",
+      "Pasal 36",
+      "Pasal 37",
+      "Pasal 38",
+      "Pasal 39",
+      "Pasal 4",
+      "Pasal 40",
+      "Pasal 42",
+      "Pasal 43",
+      "Pasal 44",
+      "Pasal 45",
+      "Pasal 47",
+      "Pasal 48",
+      "Pasal 49",
+      "Pasal 5",
+      "Pasal 50",
+      "Pasal 51",
+      "Pasal 52",
+      "Pasal 53",
+      "Pasal 54",
+      "Pasal 55",
+      "Pasal 56",
+      "Pasal 57",
+      "Pasal 58",
+      "Pasal 59",
+      "Pasal 6",
+      "Pasal 60",
+      "Pasal 61",
+      "Pasal 62",
+      "Pasal 63",
+      "Pasal 64",
+      "Pasal 65",
+      "Pasal 66",
+      "Pasal 67",
+      "Pasal 68",
+      "Pasal 69",
+      "Pasal 7",
+      "Pasal 70",
+      "Pasal 8",
+      "Pasal 9"
+    ],
+    "pasal_dilewati": [
+      {
+        "pasal": "Pasal 1",
+        "alasan": "definisi/istilah: batasan Tapera, Gaji, Upah, Simpanan, Peserta, Pemberi Kerja, dan istilah lain, tanpa akibat hukum yang dapat dinalar"
+      },
+      {
+        "pasal": "Pasal 2",
+        "alasan": "tujuan dan prinsip pengelolaan Tapera; ketentuan kelembagaan/kebijakan, bukan hak atau kewajiban pekerja"
+      },
+      {
+        "pasal": "Pasal 3",
+        "alasan": "kebijakan operasional BP Tapera harus mengacu kebijakan umum dan strategis Komite Tapera; ketentuan kelembagaan"
+      },
+      {
+        "pasal": "Pasal 4",
+        "alasan": "ruang lingkup pengelolaan Dana Tapera (pengerahan, pemupukan, pemanfaatan); ketentuan kelembagaan"
+      },
+      {
+        "pasal": "Pasal 6",
+        "alasan": "pengumpulan dana pada Rekening Dana Tapera dan pembukaan rekening oleh Bank Kustodian; ketentuan kelembagaan"
+      },
+      {
+        "pasal": "Pasal 7",
+        "alasan": "klasifikasi Pekerja yang menjadi Peserta (ASN, TNI, Polri, BUMN/BUMD/BUMDes, swasta, dan lainnya); definisi/klasifikasi tanpa akibat hukum mandiri"
+      },
+      {
+        "pasal": "Pasal 9",
+        "alasan": "nomor identitas kepesertaan dan saat mulai berlakunya kepesertaan; administrasi kepesertaan"
+      },
+      {
+        "pasal": "Pasal 10",
+        "alasan": "penggunaan nomor identitas kepesertaan dan keterkaitannya dengan nomor identitas tunggal; administrasi kepesertaan"
+      },
+      {
+        "pasal": "Pasal 12",
+        "alasan": "tata cara perubahan data Peserta Pekerja dan pelaporan mutasi oleh Pemberi Kerja; administrasi kepesertaan, bukan norma hak ketenagakerjaan"
+      },
+      {
+        "pasal": "Pasal 13",
+        "alasan": "tata cara perubahan data Peserta Pekerja Mandiri; administrasi kepesertaan"
+      },
+      {
+        "pasal": "Pasal 16",
+        "alasan": "pencatatan rekening individu dan saldo Simpanan oleh Bank Kustodian; administrasi kepesertaan"
+      },
+      {
+        "pasal": "Pasal 17",
+        "alasan": "mekanisme pembayaran Simpanan melalui Bank Penampung atau pihak lain; tata cara pembayaran"
+      },
+      {
+        "pasal": "Pasal 18",
+        "alasan": "alokasi Dana Tapera (pemupukan, pemanfaatan, cadangan) dan kewajiban deposito; pengelolaan dana/investasi"
+      },
+      {
+        "pasal": "Pasal 19",
+        "alasan": "hak atas unit penyertaan dan kewajiban Bank Kustodian mencatat Simpanan serta menghitung nilai aktiva bersih; administrasi investasi"
+      },
+      {
+        "pasal": "Pasal 21",
+        "alasan": "kewajiban Peserta Pekerja Mandiri menyetorkan Simpanan sendiri paling lambat tanggal 10; di luar hubungan kerja (bukan Pekerja penerima Upah)"
+      },
+      {
+        "pasal": "Pasal 22",
+        "alasan": "penonaktifan dan pengaktifan kembali status kepesertaan bila Simpanan tidak dibayar; administrasi kepesertaan"
+      },
+      {
+        "pasal": "Pasal 23",
+        "alasan": "berakhirnya kepesertaan karena pensiun, usia 58 tahun, meninggal dunia, atau tidak memenuhi kriteria selama 5 tahun; administrasi kepesertaan"
+      },
+      {
+        "pasal": "Pasal 24",
+        "alasan": "hak pengembalian Simpanan dan hasil pemupukan paling lama 3 bulan; hak Peserta Tapera, bukan hak ketenagakerjaan"
+      },
+      {
+        "pasal": "Pasal 25",
+        "alasan": "kemungkinan kembali menjadi Peserta Pekerja Mandiri setelah pensiun atau usia 58 tahun; administrasi kepesertaan"
+      },
+      {
+        "pasal": "Pasal 26",
+        "alasan": "tujuan dan pelaksanaan pemupukan Dana Tapera melalui KIK; pengelolaan investasi"
+      },
+      {
+        "pasal": "Pasal 27",
+        "alasan": "instrumen investasi dengan prinsip konvensional dan syariah; pengelolaan investasi"
+      },
+      {
+        "pasal": "Pasal 28",
+        "alasan": "pembentukan KIK, penunjukan Manajer Investasi dan Bank Kustodian, serta larangan afiliasi; kelembagaan investasi"
+      },
+      {
+        "pasal": "Pasal 29",
+        "alasan": "kebijakan investasi KIK dan komite investasi; pengelolaan investasi"
+      },
+      {
+        "pasal": "Pasal 30",
+        "alasan": "kriteria kondisi keuangan Bank dan peringkat layak investasi; pengelolaan investasi"
+      },
+      {
+        "pasal": "Pasal 32",
+        "alasan": "alokasi pemupukan dan imbal jasa Manajer Investasi; pengelolaan investasi"
+      },
+      {
+        "pasal": "Pasal 33",
+        "alasan": "imbal jasa Bank Kustodian; pengelolaan investasi"
+      },
+      {
+        "pasal": "Pasal 34",
+        "alasan": "hak dan kewajiban Manajer Investasi dan Bank Kustodian; kelembagaan"
+      },
+      {
+        "pasal": "Pasal 35",
+        "alasan": "evaluasi tingkat hasil pemupukan dan batas minimal imbal hasil; pengelolaan investasi"
+      },
+      {
+        "pasal": "Pasal 36",
+        "alasan": "skema pembiayaan perumahan bagi Peserta; kebijakan perumahan"
+      },
+      {
+        "pasal": "Pasal 37",
+        "alasan": "pemanfaatan Dana Tapera untuk pembiayaan perumahan melalui Bank atau Perusahaan Pembiayaan; kebijakan perumahan"
+      },
+      {
+        "pasal": "Pasal 38",
+        "alasan": "persyaratan memperoleh pembiayaan perumahan (masa kepesertaan 12 bulan, golongan berpenghasilan rendah, rumah pertama); kebijakan perumahan, bukan hak ketenagakerjaan"
+      },
+      {
+        "pasal": "Pasal 39",
+        "alasan": "penilaian kelayakan dan urutan prioritas pembiayaan perumahan; kebijakan perumahan"
+      },
+      {
+        "pasal": "Pasal 40",
+        "alasan": "sumber biaya operasional BP Tapera dari hasil pengelolaan modal awal APBN; keuangan/kelembagaan"
+      },
+      {
+        "pasal": "Pasal 42",
+        "alasan": "prinsip pengelolaan aset BP Tapera; kelembagaan"
+      },
+      {
+        "pasal": "Pasal 43",
+        "alasan": "sumber aset BP Tapera; kelembagaan"
+      },
+      {
+        "pasal": "Pasal 44",
+        "alasan": "penggunaan aset BP Tapera untuk kegiatan operasional atau investasi; kelembagaan"
+      },
+      {
+        "pasal": "Pasal 45",
+        "alasan": "rincian biaya personel dan nonpersonel BP Tapera; kelembagaan/keuangan"
+      },
+      {
+        "pasal": "Pasal 47",
+        "alasan": "hak Pemberi Kerja memperoleh informasi kondisi dan kinerja Dana Tapera; hak informasi kelembagaan"
+      },
+      {
+        "pasal": "Pasal 49",
+        "alasan": "hak Peserta atas manfaat, nomor identitas, pengembalian Simpanan, dan informasi; hak Peserta Tapera, bukan hak ketenagakerjaan"
+      },
+      {
+        "pasal": "Pasal 51",
+        "alasan": "kewajiban BP Tapera menyampaikan laporan pengelolaan dan laporan keuangan kepada Komite Tapera; akuntabilitas kelembagaan"
+      },
+      {
+        "pasal": "Pasal 52",
+        "alasan": "kewajiban pelaporan Bank Kustodian, Manajer Investasi, dan Bank/Perusahaan Pembiayaan; akuntabilitas kelembagaan"
+      },
+      {
+        "pasal": "Pasal 53",
+        "alasan": "otoritas yang berwenang mengenakan sanksi administratif; sanksi administratif"
+      },
+      {
+        "pasal": "Pasal 54",
+        "alasan": "pihak yang dapat dikenai sanksi administratif; sanksi administratif"
+      },
+      {
+        "pasal": "Pasal 55",
+        "alasan": "sanksi peringatan tertulis bagi Pekerja Mandiri yang melanggar kewajiban Simpanan; sanksi administratif"
+      },
+      {
+        "pasal": "Pasal 56",
+        "alasan": "sanksi administratif bagi Pemberi Kerja berupa peringatan, denda 0,1% per bulan, publikasi, pembekuan, dan pencabutan izin; sanksi administratif, bukan norma hak"
+      },
+      {
+        "pasal": "Pasal 57",
+        "alasan": "sanksi peringatan tertulis bagi Pemberi Kerja atas pelanggaran perubahan data dan kewajiban Pasal 48; sanksi administratif"
+      },
+      {
+        "pasal": "Pasal 58",
+        "alasan": "sanksi bagi BP Tapera berupa peringatan tertulis dan bunga Simpanan atas keterlambatan pengembalian; sanksi administratif"
+      },
+      {
+        "pasal": "Pasal 59",
+        "alasan": "sanksi peringatan tertulis bagi BP Tapera atas pelanggaran kewajiban pelaporan; sanksi administratif"
+      },
+      {
+        "pasal": "Pasal 60",
+        "alasan": "sanksi peringatan tertulis bagi Bank Kustodian; sanksi administratif"
+      },
+      {
+        "pasal": "Pasal 61",
+        "alasan": "sanksi peringatan tertulis bagi Bank atau Perusahaan Pembiayaan; sanksi administratif"
+      },
+      {
+        "pasal": "Pasal 62",
+        "alasan": "sanksi peringatan tertulis bagi Manajer Investasi; sanksi administratif"
+      },
+      {
+        "pasal": "Pasal 63",
+        "alasan": "sumber Dana Tapera (Simpanan, hasil pemupukan, pengembalian kredit, aset Tabungan Perumahan PNS, dana wakaf, dana sah lain); ketentuan pendanaan"
+      },
+      {
+        "pasal": "Pasal 64",
+        "alasan": "dana FLPP sebagai tabungan Pemerintah pada BP Tapera, manfaat, pengalihan paling lambat 2021, dan penarikan kembali; ketentuan fiskal/kelembagaan"
+      },
+      {
+        "pasal": "Pasal 65",
+        "alasan": "masyarakat penerima manfaat FLPP dapat ditetapkan atau dicatat sebagai Peserta; administrasi kepesertaan"
+      },
+      {
+        "pasal": "Pasal 66",
+        "alasan": "likuidasi aset Badan Pertimbangan Tabungan Perumahan PNS dan pembentukan tim; ketentuan peralihan"
+      },
+      {
+        "pasal": "Pasal 67",
+        "alasan": "penghitungan, pengalihan, dan pengembalian dana tabungan perumahan PNS kepada BP Tapera; ketentuan peralihan"
+      },
+      {
+        "pasal": "Pasal 68",
+        "alasan": "kewajiban Pemberi Kerja mendaftarkan Pekerja sebagaimana Pasal 7 huruf i paling lambat 7 tahun sejak PP berlaku; ketentuan peralihan/jangka waktu penyesuaian"
+      },
+      {
+        "pasal": "Pasal 69",
+        "alasan": "pencabutan Keputusan Presiden Nomor 14 Tahun 1993 dan Keputusan Presiden Nomor 46 Tahun 1994; ketentuan peralihan/penutup"
+      },
+      {
+        "pasal": "Pasal 70",
+        "alasan": "saat mulai berlakunya Peraturan Pemerintah; ketentuan penutup"
+      }
+    ],
+    "catatan": ""
+  },
+  "tidak_termodelkan": [
+    {
+      "pasal": "Pasal 5",
+      "ringkasan": "Setiap Pekerja dan Pekerja Mandiri yang berpenghasilan paling sedikit sebesar Upah minimum wajib menjadi Peserta; Pekerja Mandiri di bawah Upah minimum dapat menjadi Peserta; Peserta berusia paling rendah 20 tahun atau sudah kawin saat mendaftar.",
+      "alasan": "relevan bagi Pekerja, tetapi butuh kelas/properti baru: kepesertaan Tapera, ambang penghasilan (Upah minimum), dan syarat usia belum ada di T-Box/VOCAB."
+    },
+    {
+      "pasal": "Pasal 8",
+      "ringkasan": "Pemberi Kerja wajib mendaftarkan Pekerja sebagai Peserta kepada BP Tapera; Pekerja Mandiri mendaftar sendiri; data minimal nama dan nomor identitas tunggal; Peserta dapat memilih prinsip konvensional atau syariah.",
+      "alasan": "kewajiban pendaftaran oleh Pemberi Kerja relevan dengan hubungan kerja, tetapi kelas kewajiban kepesertaan Tapera belum ada di T-Box."
+    },
+    {
+      "pasal": "Pasal 14",
+      "ringkasan": "Simpanan Peserta Pekerja dibayarkan oleh Pemberi Kerja dan Pekerja; Simpanan Peserta Pekerja Mandiri dibayar sendiri; besaran dihitung dari persentase Gaji/Upah bulanan atau penghasilan rata-rata setahun.",
+      "alasan": "dasar perhitungan iuran dari Upah, tetapi parameter persentase simpanan dan program Tapera tidak ada di VOCAB (parameter hanya pengali/nominal; program_jamsos hanya JKK/JKM/JHT/JP/JKP)."
+    },
+    {
+      "pasal": "Pasal 15",
+      "ringkasan": "Besaran Simpanan 3% dari Gaji/Upah; untuk Peserta Pekerja ditanggung Pemberi Kerja 0,5% dan Pekerja 2,5%; Pekerja Mandiri menanggung sendiri; besaran dapat dievaluasi dan diubah dengan Peraturan Pemerintah.",
+      "alasan": "relevan (potongan Gaji/Upah untuk Tapera), tetapi butuh kelas/properti baru: program Tapera dan tarif persen; nilai yang berlaku saat ini berasal dari perubahan PP-21-2024 sehingga nilai lama tidak disimpan (SPEC bagian 9)."
+    },
+    {
+      "pasal": "Pasal 20",
+      "ringkasan": "Pemberi Kerja wajib membayar Simpanan yang menjadi kewajibannya dan memungut Simpanan Pekerja; wajib menyetorkan paling lambat tanggal 10 bulan berikutnya ke Rekening Dana Tapera; bila tanggal 10 jatuh pada hari libur, dibayarkan pada hari kerja pertama.",
+      "alasan": "kewajiban Pemberi Kerja memotong dan menyetor Simpanan dari Upah relevan, tetapi butuh kelas kewajiban kepesertaan Tapera dan parameter tenggat yang belum ada di T-Box/VOCAB."
+    },
+    {
+      "pasal": "Pasal 48",
+      "ringkasan": "Pemberi Kerja wajib mendaftarkan Pekerja, memungut Simpanan Pekerja melalui pemotongan Gaji/Upah, menyetor Simpanan, memutakhirkan data, dan menyimpan laporan; wajib melanjutkan kepesertaan Pekerja baru yang telah menjadi Peserta sejak terjadinya hubungan kerja.",
+      "alasan": "paling relevan dengan hubungan kerja (pemotongan Upah dan kewajiban sejak hubungan kerja), tetapi butuh kelas/properti baru: kewajiban kepesertaan Tapera oleh Pemberi Kerja belum ada di T-Box."
+    },
+    {
+      "pasal": "Pasal 50",
+      "ringkasan": "Peserta wajib membayar Simpanan setiap bulan sesuai waktu yang ditetapkan BP Tapera; Peserta Pekerja yang pindah tempat kerja wajib memberitahukan kepesertaannya kepada Pemberi Kerja baru dengan menunjukkan nomor identitas kepesertaan.",
+      "alasan": "kewajiban Pekerja terkait Simpanan dan perpindahan kerja relevan, tetapi kelas kewajiban kepesertaan Tapera dan properti pemberitahuan kepada Pemberi Kerja baru belum ada di T-Box."
+    }
+  ]
+}

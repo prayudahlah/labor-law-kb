@@ -17,10 +17,34 @@
     dct:source <https://peraturan.bpk.go.id/Details/161898/pp-no-34-tahun-2021> ;
     owl:imports <https://example.org/kbr/ketenagakerjaan> .
 
-ktn:JabatanDapatDidudukiTKA a owl:NamedIndividual, ktn:KetentuanTKA ;
+ktn:JabatanDidudukiTKA a owl:NamedIndividual, ktn:KetentuanTKA ;
     ktn:pasal "Pasal 2 ayat (2)" ;
     dct:source reg:PP-34-2021 .
 
-ktn:UtamakanTenagaKerjaIndonesia a owl:NamedIndividual, ktn:KetentuanTKA ;
+ktn:LaporPKTKABerakhir a owl:NamedIndividual, ktn:KetentuanTKA ;
+    ktn:pasal "Pasal 21 ayat (3)" ;
+    dct:source reg:PP-34-2021 .
+
+ktn:PerhatikanPasarKerja a owl:NamedIndividual, ktn:KetentuanTKA ;
+    ktn:pasal "Pasal 2 ayat (3)" ;
+    dct:source reg:PP-34-2021 .
+
+ktn:BatasPerpanjangan30HariKerja a owl:NamedIndividual, ktn:KetentuanTKA ;
+    ktn:pasal "Pasal 21 ayat (2)" ;
+    dct:source reg:PP-34-2021 .
+
+ktn:WajibAjukanRPTKABaru a owl:NamedIndividual, ktn:KetentuanTKA ;
+    ktn:pasal "Pasal 16 ayat (7)" ;
+    dct:source reg:PP-34-2021 .
+
+ktn:BatasAjukanRPTKADuaMinggu a owl:NamedIndividual, ktn:KetentuanTKA ;
+    ktn:pasal "Pasal 16 ayat (8)" ;
+    dct:source reg:PP-34-2021 .
+
+ktn:UtamakanTKI a owl:NamedIndividual, ktn:KetentuanTKA ;
     ktn:pasal "Pasal 2 ayat (1)" ;
+    dct:source reg:PP-34-2021 .
+
+ktn:VisaDaruratBisnisPenelitian a owl:NamedIndividual, ktn:KetentuanTKA ;
+    ktn:pasal "Pasal 20" ;
     dct:source reg:PP-34-2021 .

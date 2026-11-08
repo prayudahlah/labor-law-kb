@@ -1,0 +1,827 @@
+{
+  "spec_version": "1.1.0",
+  "vocab_version": "0.3.0",
+  "dokumen_id": "UU-8-2016",
+  "status_review": "reviewed",
+  "peraturan": {
+    "judul": "Undang-Undang Nomor 8 Tahun 2016 tentang Penyandang Disabilitas",
+    "jenis": "UU",
+    "nomor": "8",
+    "tahun": "2016",
+    "sumber": "https://peraturan.go.id/id/uu-no-8-tahun-2016",
+    "status": "Berlaku",
+    "diubah_oleh": []
+  },
+  "norma": [
+    {
+      "norm_id": "CUTI-KHUSUS-PENGOBATAN",
+      "topik": "Cuti",
+      "pasal": "Pasal 48 huruf f",
+      "iri_individu": "ktn:CutiKhususPengobatan",
+      "jenis": "PeristiwaCutiKhusus",
+      "kondisi": "Tenaga kerja Penyandang Disabilitas memerlukan pengobatan selama masa kerja",
+      "akibat": "Pemberi Kerja dapat memberikan izin atau cuti khusus untuk pengobatan",
+      "parameter": [],
+      "bukti": "memberikan izin atau cuti khusus untuk pengobatan",
+      "confidence": 0.72,
+      "dasar_keyakinan": "tafsir",
+      "catatan": "Bersifat fakultatif ('dapat'); huruf a-e Pasal 48 (orientasi kerja, tempat/jadwal kerja fleksibel, asistensi) belum termodelkan."
+    },
+    {
+      "norm_id": "UPAH-DISABILITAS-SETARA",
+      "topik": "Upah",
+      "pasal": "Pasal 49",
+      "iri_individu": "ktn:UpahSetaraDisabilitas",
+      "jenis": "KetentuanUpah",
+      "kondisi": "Tenaga kerja Penyandang Disabilitas dengan jenis pekerjaan dan tanggung jawab yang sama dengan tenaga kerja bukan Penyandang Disabilitas",
+      "akibat": "Pemberi Kerja wajib memberi upah yang sama dengan tenaga kerja yang bukan Penyandang Disabilitas",
+      "parameter": [],
+      "bukti": "Pemberi Kerja wajib memberi upah kepada tenaga kerja Penyandang Disabilitas yang sama dengan tenaga kerja yang bukan Penyandang Disabilitas",
+      "confidence": 0.95,
+      "dasar_keyakinan": "dikutip",
+      "catatan": ""
+    },
+    {
+      "norm_id": "JAMSOS-DISABILITAS-AKSES",
+      "topik": "Jamsos",
+      "pasal": "Pasal 52",
+      "iri_individu": "ktn:AksesJamsosDisabilitas",
+      "jenis": "KetentuanJaminanSosial",
+      "kondisi": "Penyandang Disabilitas dalam sistem jaminan sosial nasional di bidang ketenagakerjaan",
+      "akibat": "Pemerintah dan Pemerintah Daerah wajib menjamin akses yang setara terhadap manfaat dan program jaminan sosial",
+      "parameter": [],
+      "bukti": "wajib menjamin akses yang setara bagi Penyandang Disabilitas terhadap manfaat dan program dalam sistem jaminan sosial nasional di bidang ketenagakerjaan",
+      "confidence": 0.9,
+      "dasar_keyakinan": "dikutip",
+      "catatan": "Tidak menyebut program/tarif iuran tertentu sehingga tidak menghasilkan baris program_jamsos."
+    }
+  ],
+  "kategori": [],
+  "pengali_lembur": [],
+  "program_jamsos": [],
+  "cakupan": {
+    "lengkap": true,
+    "pasal_diekstrak": [
+      "Pasal 1",
+      "Pasal 10",
+      "Pasal 100",
+      "Pasal 101",
+      "Pasal 102",
+      "Pasal 103",
+      "Pasal 104",
+      "Pasal 105",
+      "Pasal 107",
+      "Pasal 108",
+      "Pasal 109",
+      "Pasal 11",
+      "Pasal 110",
+      "Pasal 111",
+      "Pasal 112",
+      "Pasal 113",
+      "Pasal 114",
+      "Pasal 115",
+      "Pasal 116",
+      "Pasal 117",
+      "Pasal 118",
+      "Pasal 119",
+      "Pasal 12",
+      "Pasal 120",
+      "Pasal 121",
+      "Pasal 122",
+      "Pasal 123",
+      "Pasal 124",
+      "Pasal 125",
+      "Pasal 126",
+      "Pasal 127",
+      "Pasal 128",
+      "Pasal 129",
+      "Pasal 13",
+      "Pasal 130",
+      "Pasal 131",
+      "Pasal 132",
+      "Pasal 133",
+      "Pasal 134",
+      "Pasal 135",
+      "Pasal 136",
+      "Pasal 137",
+      "Pasal 138",
+      "Pasal 139",
+      "Pasal 14",
+      "Pasal 140",
+      "Pasal 141",
+      "Pasal 142",
+      "Pasal 143",
+      "Pasal 144",
+      "Pasal 145",
+      "Pasal 146",
+      "Pasal 147",
+      "Pasal 148",
+      "Pasal 149",
+      "Pasal 15",
+      "Pasal 150",
+      "Pasal 151",
+      "Pasal 152",
+      "Pasal 153",
+      "Pasal 16",
+      "Pasal 17",
+      "Pasal 18",
+      "Pasal 19",
+      "Pasal 2",
+      "Pasal 20",
+      "Pasal 21",
+      "Pasal 22",
+      "Pasal 23",
+      "Pasal 24",
+      "Pasal 25",
+      "Pasal 26",
+      "Pasal 27",
+      "Pasal 28",
+      "Pasal 29",
+      "Pasal 3",
+      "Pasal 30",
+      "Pasal 31",
+      "Pasal 32",
+      "Pasal 33",
+      "Pasal 34",
+      "Pasal 35",
+      "Pasal 36",
+      "Pasal 37",
+      "Pasal 38",
+      "Pasal 39",
+      "Pasal 4",
+      "Pasal 40",
+      "Pasal 41",
+      "Pasal 42",
+      "Pasal 43",
+      "Pasal 44",
+      "Pasal 45",
+      "Pasal 46",
+      "Pasal 47",
+      "Pasal 48",
+      "Pasal 49",
+      "Pasal 5",
+      "Pasal 50",
+      "Pasal 51",
+      "Pasal 52",
+      "Pasal 53",
+      "Pasal 54",
+      "Pasal 55",
+      "Pasal 56",
+      "Pasal 57",
+      "Pasal 58",
+      "Pasal 59",
+      "Pasal 6",
+      "Pasal 60",
+      "Pasal 61",
+      "Pasal 62",
+      "Pasal 63",
+      "Pasal 64",
+      "Pasal 65",
+      "Pasal 66",
+      "Pasal 67",
+      "Pasal 68",
+      "Pasal 69",
+      "Pasal 7",
+      "Pasal 70",
+      "Pasal 71",
+      "Pasal 72",
+      "Pasal 73",
+      "Pasal 74",
+      "Pasal 75",
+      "Pasal 76",
+      "Pasal 77",
+      "Pasal 78",
+      "Pasal 79",
+      "Pasal 8",
+      "Pasal 80",
+      "Pasal 81",
+      "Pasal 82",
+      "Pasal 83",
+      "Pasal 84",
+      "Pasal 85",
+      "Pasal 86",
+      "Pasal 87",
+      "Pasal 88",
+      "Pasal 89",
+      "Pasal 9",
+      "Pasal 90",
+      "Pasal 91",
+      "Pasal 92",
+      "Pasal 93",
+      "Pasal 94",
+      "Pasal 95",
+      "Pasal 96",
+      "Pasal 97",
+      "Pasal 98",
+      "Pasal 99"
+    ],
+    "pasal_dilewati": [
+      {
+        "pasal": "Pasal 1",
+        "alasan": "definisi/istilah (20 butir definisi)"
+      },
+      {
+        "pasal": "Pasal 2",
+        "alasan": "asas pelaksanaan hak, bukan norma bersyarat"
+      },
+      {
+        "pasal": "Pasal 3",
+        "alasan": "tujuan undang-undang, bukan norma bersyarat"
+      },
+      {
+        "pasal": "Pasal 4",
+        "alasan": "klasifikasi ragam disabilitas, bukan norma"
+      },
+      {
+        "pasal": "Pasal 5",
+        "alasan": "katalog hak umum, bukan norma kondisi-akibat"
+      },
+      {
+        "pasal": "Pasal 6",
+        "alasan": "katalog hak hidup, bukan norma"
+      },
+      {
+        "pasal": "Pasal 7",
+        "alasan": "katalog hak bebas stigma, bukan norma"
+      },
+      {
+        "pasal": "Pasal 8",
+        "alasan": "katalog hak privasi, bukan norma"
+      },
+      {
+        "pasal": "Pasal 9",
+        "alasan": "katalog hak keadilan dan perlindungan hukum, bukan norma"
+      },
+      {
+        "pasal": "Pasal 10",
+        "alasan": "katalog hak pendidikan, bukan norma"
+      },
+      {
+        "pasal": "Pasal 12",
+        "alasan": "katalog hak kesehatan, bukan norma"
+      },
+      {
+        "pasal": "Pasal 13",
+        "alasan": "katalog hak politik, bukan norma"
+      },
+      {
+        "pasal": "Pasal 14",
+        "alasan": "katalog hak keagamaan, bukan norma"
+      },
+      {
+        "pasal": "Pasal 15",
+        "alasan": "katalog hak keolahragaan, bukan norma"
+      },
+      {
+        "pasal": "Pasal 16",
+        "alasan": "katalog hak kebudayaan dan pariwisata, bukan norma"
+      },
+      {
+        "pasal": "Pasal 17",
+        "alasan": "katalog hak kesejahteraan sosial, bukan norma"
+      },
+      {
+        "pasal": "Pasal 18",
+        "alasan": "katalog hak aksesibilitas, bukan norma"
+      },
+      {
+        "pasal": "Pasal 19",
+        "alasan": "katalog hak pelayanan publik, bukan norma"
+      },
+      {
+        "pasal": "Pasal 20",
+        "alasan": "katalog hak pelindungan dari bencana, bukan norma"
+      },
+      {
+        "pasal": "Pasal 21",
+        "alasan": "katalog hak habilitasi dan rehabilitasi, bukan norma"
+      },
+      {
+        "pasal": "Pasal 22",
+        "alasan": "katalog hak pendataan, bukan norma"
+      },
+      {
+        "pasal": "Pasal 23",
+        "alasan": "katalog hak hidup mandiri, bukan norma"
+      },
+      {
+        "pasal": "Pasal 24",
+        "alasan": "katalog hak berekspresi dan informasi, bukan norma"
+      },
+      {
+        "pasal": "Pasal 25",
+        "alasan": "katalog hak kewarganegaraan, bukan norma"
+      },
+      {
+        "pasal": "Pasal 26",
+        "alasan": "katalog hak bebas dari diskriminasi, bukan norma"
+      },
+      {
+        "pasal": "Pasal 27",
+        "alasan": "tugas pemerintahan (perencanaan, rencana induk), bukan norma hak"
+      },
+      {
+        "pasal": "Pasal 28",
+        "alasan": "jaminan subjek hukum oleh pemerintah, di luar domain ketenagakerjaan"
+      },
+      {
+        "pasal": "Pasal 29",
+        "alasan": "bantuan hukum dalam pemeriksaan, di luar domain ketenagakerjaan"
+      },
+      {
+        "pasal": "Pasal 30",
+        "alasan": "hukum acara pemeriksaan, bukan norma ketenagakerjaan"
+      },
+      {
+        "pasal": "Pasal 31",
+        "alasan": "hukum acara pemeriksaan anak, bukan norma ketenagakerjaan"
+      },
+      {
+        "pasal": "Pasal 32",
+        "alasan": "kecakapan hukum perdata (penetapan pengadilan), di luar domain"
+      },
+      {
+        "pasal": "Pasal 33",
+        "alasan": "tata cara penetapan tidak cakap, di luar domain"
+      },
+      {
+        "pasal": "Pasal 34",
+        "alasan": "tata cara pembatalan penetapan tidak cakap, di luar domain"
+      },
+      {
+        "pasal": "Pasal 35",
+        "alasan": "hukum acara pidana, bukan norma ketenagakerjaan"
+      },
+      {
+        "pasal": "Pasal 36",
+        "alasan": "akomodasi layak dalam proses peradilan, di luar domain ketenagakerjaan"
+      },
+      {
+        "pasal": "Pasal 37",
+        "alasan": "kelembagaan unit layanan disabilitas di rutan/lapas"
+      },
+      {
+        "pasal": "Pasal 38",
+        "alasan": "penempatan pembantaran, di luar domain ketenagakerjaan"
+      },
+      {
+        "pasal": "Pasal 39",
+        "alasan": "sosialisasi perlindungan hukum, bukan norma hak"
+      },
+      {
+        "pasal": "Pasal 40",
+        "alasan": "kewajiban penyelenggaraan pendidikan, di luar domain ketenagakerjaan"
+      },
+      {
+        "pasal": "Pasal 41",
+        "alasan": "keterampilan dasar pendidikan, di luar domain ketenagakerjaan"
+      },
+      {
+        "pasal": "Pasal 42",
+        "alasan": "unit layanan disabilitas pendidikan dan sanksi administratif, di luar domain"
+      },
+      {
+        "pasal": "Pasal 43",
+        "alasan": "akomodasi layak pendidikan dan sanksi administratif, di luar domain"
+      },
+      {
+        "pasal": "Pasal 44",
+        "alasan": "kurikulum pendidikan keguruan, di luar domain ketenagakerjaan"
+      },
+      {
+        "pasal": "Pasal 54",
+        "alasan": "insentif fiskal bagi perusahaan swasta, bukan norma hubungan kerja"
+      },
+      {
+        "pasal": "Pasal 55",
+        "alasan": "kelembagaan Unit Layanan Disabilitas ketenagakerjaan"
+      },
+      {
+        "pasal": "Pasal 56",
+        "alasan": "dukungan kewirausahaan, di luar domain T-Box"
+      },
+      {
+        "pasal": "Pasal 57",
+        "alasan": "bantuan permodalan usaha mandiri, di luar domain T-Box"
+      },
+      {
+        "pasal": "Pasal 58",
+        "alasan": "pengadaan barang/jasa unit usaha mandiri, di luar domain T-Box"
+      },
+      {
+        "pasal": "Pasal 59",
+        "alasan": "fasilitasi pemasaran produk, di luar domain T-Box"
+      },
+      {
+        "pasal": "Pasal 60",
+        "alasan": "pelatihan kewirausahaan, di luar domain T-Box"
+      },
+      {
+        "pasal": "Pasal 61",
+        "alasan": "fasilitas pelayanan kesehatan, di luar domain ketenagakerjaan"
+      },
+      {
+        "pasal": "Pasal 62",
+        "alasan": "pelayanan kesehatan tanpa diskriminasi, di luar domain ketenagakerjaan"
+      },
+      {
+        "pasal": "Pasal 63",
+        "alasan": "tenaga kesehatan dan mekanisme rujukan, di luar domain"
+      },
+      {
+        "pasal": "Pasal 64",
+        "alasan": "perbekalan kesehatan, di luar domain ketenagakerjaan"
+      },
+      {
+        "pasal": "Pasal 65",
+        "alasan": "ketersediaan pelayanan kesehatan, di luar domain"
+      },
+      {
+        "pasal": "Pasal 66",
+        "alasan": "rehabilitasi medis, di luar domain ketenagakerjaan"
+      },
+      {
+        "pasal": "Pasal 67",
+        "alasan": "alat nonkesehatan di fasilitas kesehatan, di luar domain"
+      },
+      {
+        "pasal": "Pasal 68",
+        "alasan": "pelatihan tenaga kesehatan, di luar domain ketenagakerjaan"
+      },
+      {
+        "pasal": "Pasal 69",
+        "alasan": "persetujuan tindakan medis, di luar domain ketenagakerjaan"
+      },
+      {
+        "pasal": "Pasal 70",
+        "alasan": "kewajiban rumah sakit jiwa/umum, di luar domain"
+      },
+      {
+        "pasal": "Pasal 71",
+        "alasan": "prinsip fasilitas perawatan pasien, di luar domain"
+      },
+      {
+        "pasal": "Pasal 72",
+        "alasan": "standar tindakan medik, di luar domain ketenagakerjaan"
+      },
+      {
+        "pasal": "Pasal 73",
+        "alasan": "layanan informasi disabilitas oleh fasilitas kesehatan, di luar domain"
+      },
+      {
+        "pasal": "Pasal 74",
+        "alasan": "akses air bersih dan sanitasi, di luar domain ketenagakerjaan"
+      },
+      {
+        "pasal": "Pasal 75",
+        "alasan": "partisipasi politik, di luar domain ketenagakerjaan"
+      },
+      {
+        "pasal": "Pasal 76",
+        "alasan": "hak menduduki jabatan publik, di luar domain ketenagakerjaan"
+      },
+      {
+        "pasal": "Pasal 77",
+        "alasan": "jaminan hak politik dalam pemilihan umum, di luar domain"
+      },
+      {
+        "pasal": "Pasal 78",
+        "alasan": "pelindungan kebebasan beragama, di luar domain ketenagakerjaan"
+      },
+      {
+        "pasal": "Pasal 79",
+        "alasan": "bimbingan dan penyuluhan agama, di luar domain"
+      },
+      {
+        "pasal": "Pasal 80",
+        "alasan": "aksesibilitas rumah ibadah, di luar domain ketenagakerjaan"
+      },
+      {
+        "pasal": "Pasal 81",
+        "alasan": "penyediaan kitab suci aksesibel, di luar domain"
+      },
+      {
+        "pasal": "Pasal 82",
+        "alasan": "penerjemah bahasa isyarat ibadah, di luar domain"
+      },
+      {
+        "pasal": "Pasal 83",
+        "alasan": "sistem keolahragaan, di luar domain ketenagakerjaan"
+      },
+      {
+        "pasal": "Pasal 84",
+        "alasan": "pembinaan olahraga, di luar domain ketenagakerjaan"
+      },
+      {
+        "pasal": "Pasal 85",
+        "alasan": "aksesibilitas layanan budaya dan pariwisata, di luar domain"
+      },
+      {
+        "pasal": "Pasal 86",
+        "alasan": "insentif bagi perusahaan pariwisata, di luar domain ketenagakerjaan"
+      },
+      {
+        "pasal": "Pasal 87",
+        "alasan": "pengembangan seni budaya, di luar domain ketenagakerjaan"
+      },
+      {
+        "pasal": "Pasal 88",
+        "alasan": "pengakuan identitas budaya dan linguistik, bukan norma"
+      },
+      {
+        "pasal": "Pasal 89",
+        "alasan": "perlindungan kekayaan intelektual dan budaya, di luar domain"
+      },
+      {
+        "pasal": "Pasal 90",
+        "alasan": "penyelenggaraan kesejahteraan sosial, di luar domain ketenagakerjaan"
+      },
+      {
+        "pasal": "Pasal 91",
+        "alasan": "akses rehabilitasi dan jaminan sosial bidang kesejahteraan sosial, bukan jamsos ketenagakerjaan"
+      },
+      {
+        "pasal": "Pasal 92",
+        "alasan": "bentuk rehabilitasi sosial, di luar domain ketenagakerjaan"
+      },
+      {
+        "pasal": "Pasal 93",
+        "alasan": "jaminan sosial kesejahteraan sosial (asuransi kesejahteraan sosial/bantuan), bukan jamsos ketenagakerjaan"
+      },
+      {
+        "pasal": "Pasal 94",
+        "alasan": "pemberdayaan sosial, di luar domain ketenagakerjaan"
+      },
+      {
+        "pasal": "Pasal 95",
+        "alasan": "perlindungan sosial, di luar domain ketenagakerjaan"
+      },
+      {
+        "pasal": "Pasal 96",
+        "alasan": "ketentuan pelimpahan ke Peraturan Pemerintah, bukan norma"
+      },
+      {
+        "pasal": "Pasal 97",
+        "alasan": "kewajiban infrastruktur aksesibel, di luar domain ketenagakerjaan"
+      },
+      {
+        "pasal": "Pasal 98",
+        "alasan": "bangunan gedung aksesibel dan sanksi administratif, di luar domain"
+      },
+      {
+        "pasal": "Pasal 99",
+        "alasan": "izin mendirikan bangunan dan audit aksesibilitas, di luar domain"
+      },
+      {
+        "pasal": "Pasal 100",
+        "alasan": "fasilitasi fasilitas rumah tinggal, di luar domain ketenagakerjaan"
+      },
+      {
+        "pasal": "Pasal 101",
+        "alasan": "fasilitas pejalan kaki, di luar domain ketenagakerjaan"
+      },
+      {
+        "pasal": "Pasal 102",
+        "alasan": "tempat penyeberangan pejalan kaki, di luar domain"
+      },
+      {
+        "pasal": "Pasal 103",
+        "alasan": "pertamanan dan permakaman, di luar domain ketenagakerjaan"
+      },
+      {
+        "pasal": "Pasal 104",
+        "alasan": "permukiman aksesibel, di luar domain ketenagakerjaan"
+      },
+      {
+        "pasal": "Pasal 105",
+        "alasan": "pelayanan publik aksesibel termasuk transportasi, di luar domain"
+      },
+      {
+        "pasal": "Pasal 107",
+        "alasan": "jenis pelayanan jasa transportasi, di luar domain ketenagakerjaan"
+      },
+      {
+        "pasal": "Pasal 108",
+        "alasan": "ketentuan pelimpahan pelayanan publik ke Peraturan Pemerintah, bukan norma"
+      },
+      {
+        "pasal": "Pasal 109",
+        "alasan": "penanganan Penyandang Disabilitas dalam bencana, di luar domain"
+      },
+      {
+        "pasal": "Pasal 110",
+        "alasan": "layanan habilitasi dan rehabilitasi, di luar domain ketenagakerjaan"
+      },
+      {
+        "pasal": "Pasal 111",
+        "alasan": "fungsi habilitasi dan rehabilitasi, di luar domain"
+      },
+      {
+        "pasal": "Pasal 112",
+        "alasan": "bentuk layanan habilitasi dan rehabilitasi, di luar domain"
+      },
+      {
+        "pasal": "Pasal 113",
+        "alasan": "ketentuan pelimpahan habilitasi/rehabilitasi ke Peraturan Pemerintah, bukan norma"
+      },
+      {
+        "pasal": "Pasal 114",
+        "alasan": "kewajiban pemberian konsesi, di luar domain ketenagakerjaan"
+      },
+      {
+        "pasal": "Pasal 115",
+        "alasan": "upaya konsesi oleh swasta, di luar domain ketenagakerjaan"
+      },
+      {
+        "pasal": "Pasal 116",
+        "alasan": "insentif bagi pemberi konsesi, di luar domain ketenagakerjaan"
+      },
+      {
+        "pasal": "Pasal 117",
+        "alasan": "penyelenggaraan pendataan disabilitas, di luar domain"
+      },
+      {
+        "pasal": "Pasal 118",
+        "alasan": "verifikasi dan validasi data berkala, di luar domain"
+      },
+      {
+        "pasal": "Pasal 119",
+        "alasan": "tata cara pendaftaran data disabilitas, di luar domain"
+      },
+      {
+        "pasal": "Pasal 120",
+        "alasan": "pengelolaan data nasional disabilitas, di luar domain"
+      },
+      {
+        "pasal": "Pasal 121",
+        "alasan": "kartu Penyandang Disabilitas, di luar domain ketenagakerjaan"
+      },
+      {
+        "pasal": "Pasal 122",
+        "alasan": "komunikasi dengan cara tertentu, di luar domain ketenagakerjaan"
+      },
+      {
+        "pasal": "Pasal 123",
+        "alasan": "akses informasi bagi Penyandang Disabilitas, di luar domain"
+      },
+      {
+        "pasal": "Pasal 124",
+        "alasan": "bentuk informasi yang terjangkau, di luar domain ketenagakerjaan"
+      },
+      {
+        "pasal": "Pasal 125",
+        "alasan": "unit layanan korban kekerasan, di luar domain ketenagakerjaan"
+      },
+      {
+        "pasal": "Pasal 126",
+        "alasan": "pelindungan khusus perempuan dan anak, di luar domain"
+      },
+      {
+        "pasal": "Pasal 127",
+        "alasan": "rumah aman korban kekerasan, di luar domain ketenagakerjaan"
+      },
+      {
+        "pasal": "Pasal 128",
+        "alasan": "sosialisasi dan jaminan bebas kekerasan, di luar domain ketenagakerjaan"
+      },
+      {
+        "pasal": "Pasal 129",
+        "alasan": "mekanisme koordinasi nasional (kelembagaan)"
+      },
+      {
+        "pasal": "Pasal 130",
+        "alasan": "mekanisme koordinasi daerah (kelembagaan)"
+      },
+      {
+        "pasal": "Pasal 131",
+        "alasan": "pembentukan Komisi Nasional Disabilitas (kelembagaan)"
+      },
+      {
+        "pasal": "Pasal 132",
+        "alasan": "tugas Komisi Nasional Disabilitas (kelembagaan)"
+      },
+      {
+        "pasal": "Pasal 133",
+        "alasan": "fungsi Komisi Nasional Disabilitas (kelembagaan)"
+      },
+      {
+        "pasal": "Pasal 134",
+        "alasan": "pengaturan organisasi KND dengan Peraturan Presiden, bukan norma"
+      },
+      {
+        "pasal": "Pasal 135",
+        "alasan": "pendanaan pelaksanaan hak, bukan norma ketenagakerjaan"
+      },
+      {
+        "pasal": "Pasal 136",
+        "alasan": "kerja sama internasional, bukan norma ketenagakerjaan"
+      },
+      {
+        "pasal": "Pasal 137",
+        "alasan": "pengarusutamaan isu disabilitas dalam kerja sama internasional, bukan norma"
+      },
+      {
+        "pasal": "Pasal 138",
+        "alasan": "penghargaan bagi perseorangan (norma fakultatif), bukan hubungan kerja"
+      },
+      {
+        "pasal": "Pasal 139",
+        "alasan": "penghargaan bagi badan hukum yang mempekerjakan Penyandang Disabilitas (fakultatif), bukan kewajiban kerja"
+      },
+      {
+        "pasal": "Pasal 140",
+        "alasan": "penghargaan bagi penyedia fasilitas publik (fakultatif), di luar domain"
+      },
+      {
+        "pasal": "Pasal 141",
+        "alasan": "syarat dan tata cara pemberian penghargaan, bukan norma"
+      },
+      {
+        "pasal": "Pasal 142",
+        "alasan": "larangan bagi wakil kepentingan, di luar domain ketenagakerjaan"
+      },
+      {
+        "pasal": "Pasal 143",
+        "alasan": "larangan menghalangi hak disabilitas, di luar domain ketenagakerjaan"
+      },
+      {
+        "pasal": "Pasal 144",
+        "alasan": "ketentuan pidana (penjara 5 tahun, denda Rp500.000.000,00)"
+      },
+      {
+        "pasal": "Pasal 145",
+        "alasan": "ketentuan pidana (penjara 2 tahun, denda Rp200.000.000,00)"
+      },
+      {
+        "pasal": "Pasal 146",
+        "alasan": "ketentuan peralihan (masa berlaku kartu disabilitas)"
+      },
+      {
+        "pasal": "Pasal 147",
+        "alasan": "ketentuan peralihan (tindakan hukum UU 4/1997)"
+      },
+      {
+        "pasal": "Pasal 148",
+        "alasan": "ketentuan penutup (penyesuaian istilah Penyandang Cacat)"
+      },
+      {
+        "pasal": "Pasal 149",
+        "alasan": "ketentuan peralihan (batas pembentukan KND 3 tahun)"
+      },
+      {
+        "pasal": "Pasal 150",
+        "alasan": "ketentuan peralihan (peraturan pelaksanaan UU 4/1997 tetap berlaku)"
+      },
+      {
+        "pasal": "Pasal 151",
+        "alasan": "ketentuan penutup (pencabutan UU 4/1997)"
+      },
+      {
+        "pasal": "Pasal 152",
+        "alasan": "ketentuan penutup (batas penetapan peraturan pelaksanaan 2 tahun)"
+      },
+      {
+        "pasal": "Pasal 153",
+        "alasan": "ketentuan penutup (tanggal mulai berlaku)"
+      }
+    ],
+    "catatan": ""
+  },
+  "tidak_termodelkan": [
+    {
+      "pasal": "Pasal 11",
+      "ringkasan": "Hak pekerjaan Penyandang Disabilitas: upah sama untuk pekerjaan dan tanggung jawab sama (huruf b), tidak diberhentikan karena alasan disabilitas (huruf d), serta Akomodasi yang Layak dalam pekerjaan (huruf c)",
+      "alasan": "katalog hak, bukan rumusan kewajiban; kewajiban upah konkret ada di Pasal 49, sedangkan larangan PHK berbasis disabilitas butuh kelas/properti baru (larangan diskriminasi PHK)"
+    },
+    {
+      "pasal": "Pasal 45",
+      "ringkasan": "Pemerintah dan Pemerintah Daerah wajib menjamin rekrutmen, penerimaan, pelatihan kerja, penempatan, keberlanjutan kerja, dan pengembangan karier yang adil dan tanpa diskriminasi bagi Penyandang Disabilitas",
+      "alasan": "relevan ketenagakerjaan tetapi butuh jenis/kelas KetentuanHubunganKerja (masih kandidat di VOCAB) dan properti larangan diskriminasi kerja"
+    },
+    {
+      "pasal": "Pasal 46",
+      "ringkasan": "Pemerintah/Pemerintah Daerah wajib memberi kesempatan pelatihan keterampilan kerja di lembaga pelatihan kerja yang inklusif dan mudah diakses",
+      "alasan": "butuh jenis KetentuanPelatihan (masih kandidat di VOCAB) dan properti aksesibilitas lembaga pelatihan"
+    },
+    {
+      "pasal": "Pasal 47",
+      "ringkasan": "Pemberi Kerja dapat melakukan ujian penempatan, asistensi pengisian formulir, alat/bentuk tes sesuai disabilitas, dan keleluasaan waktu tes",
+      "alasan": "butuh kelas/properti akomodasi proses rekrutmen (KetentuanHubunganKerja masih kandidat)"
+    },
+    {
+      "pasal": "Pasal 50",
+      "ringkasan": "Pemberi Kerja wajib menyediakan Akomodasi yang Layak dan fasilitas mudah diakses serta membuka mekanisme pengaduan; pelanggaran dikenai sanksi administratif",
+      "alasan": "butuh kelas AkomodasiKerja dan properti mekanisme pengaduan; bagian sanksi administratif di luar model norma"
+    },
+    {
+      "pasal": "Pasal 51",
+      "ringkasan": "Pemberi Kerja wajib menjamin Penyandang Disabilitas dapat melaksanakan hak berserikat dan berkumpul di lingkungan pekerjaan",
+      "alasan": "butuh jenis KetentuanHubunganIndustrial (masih kandidat di VOCAB)"
+    },
+    {
+      "pasal": "Pasal 53",
+      "ringkasan": "Kewajiban mempekerjakan paling sedikit 2% Penyandang Disabilitas bagi pemerintah/BUMN/BUMD dan 1% bagi perusahaan swasta",
+      "alasan": "butuh kelas kuota kerja dan parameter baru (persentase kuota); tidak ada nama parameter yang sesuai di VOCAB"
+    }
+  ]
+}

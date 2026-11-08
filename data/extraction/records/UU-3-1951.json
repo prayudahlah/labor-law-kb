@@ -1,0 +1,75 @@
+{
+  "spec_version": "1.1.0",
+  "vocab_version": "0.3.0",
+  "dokumen_id": "UU-3-1951",
+  "status_review": "reviewed",
+  "peraturan": {
+    "judul": "Undang-Undang Nomor 3 Tahun 1951 tentang Pernyataan Berlakunya Undang-Undang Pengawasan Perburuhan Tahun 1948 Nomor 23",
+    "jenis": "UU",
+    "nomor": "3",
+    "tahun": "1951",
+    "sumber": "https://peraturan.go.id/id/uu-no-3-tahun-1951",
+    "status": "Berlaku",
+    "diubah_oleh": []
+  },
+  "norma": [],
+  "kategori": [],
+  "pengali_lembur": [],
+  "program_jamsos": [],
+  "cakupan": {
+    "lengkap": true,
+    "pasal_diekstrak": [
+      "Pasal 1",
+      "Pasal 2",
+      "Pasal 3",
+      "Pasal 4",
+      "Pasal 5",
+      "Pasal 6",
+      "Pasal 7",
+      "Pasal 8"
+    ],
+    "pasal_dilewati": [
+      {
+        "pasal": "Pasal 1",
+        "alasan": "ketentuan pemberlakuan: menyatakan berlakunya UU Pengawasan Perburuhan 1948 No. 23 untuk seluruh Indonesia, bukan norma perilaku"
+      },
+      {
+        "pasal": "Pasal 1",
+        "alasan": "kelembagaan: tujuan dan ruang lingkup pengawasan perburuhan serta laporan tahunan Menteri"
+      },
+      {
+        "pasal": "Pasal 2",
+        "alasan": "kelembagaan: penunjukan pegawai pengawas dan kewenangan memasuki tempat kerja"
+      },
+      {
+        "pasal": "Pasal 5",
+        "alasan": "kewajiban jabatan: pegawai pengawas wajib merahasiakan keterangan perusahaan"
+      },
+      {
+        "pasal": "Pasal 6",
+        "alasan": "sanksi pidana atas pembukaan rahasia dan penghalangan pengawasan"
+      },
+      {
+        "pasal": "Pasal 7",
+        "alasan": "pertanggungjawaban pidana badan hukum (pengurus)"
+      },
+      {
+        "pasal": "Pasal 8",
+        "alasan": "kelembagaan: kewenangan mengusut pelanggaran dan kejahatan"
+      }
+    ],
+    "catatan": ""
+  },
+  "tidak_termodelkan": [
+    {
+      "pasal": "Pasal 3",
+      "ringkasan": "Majikan/wakilnya dan semua buruh wajib memberi 'semua keterangan-keterangan yang sejelas-jelasnya' kepada pegawai pengawas; pengawas berhak menanyai buruh tanpa dihadiri orang ketiga dan wajib berhubungan dengan organisasi buruh.",
+      "alasan": "kewajiban kooperasi dalam pengawasan perburuhan; butuh kelas KetentuanPengawasan yang masih kandidat di VOCAB"
+    },
+    {
+      "pasal": "Pasal 4",
+      "ringkasan": "Atas permintaan pegawai pengawas, majikan atau wakilnya 'wajib menunjuk seorang pengantar' untuk memberi keterangan pada waktu pemeriksaan.",
+      "alasan": "kewajiban majikan dalam pemeriksaan pengawasan; butuh kelas KetentuanPengawasan yang masih kandidat di VOCAB"
+    }
+  ]
+}

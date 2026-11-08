@@ -1,0 +1,85 @@
+{
+  "spec_version": "1.1.0",
+  "vocab_version": "0.3.0",
+  "dokumen_id": "PP-60-2015",
+  "status_review": "reviewed",
+  "peraturan": {
+    "judul": "Peraturan Pemerintah Nomor 60 Tahun 2015 tentang Perubahan atas Peraturan Pemerintah Nomor 46 Tahun 2015 tentang Penyelenggaraan Program Jaminan Hari Tua",
+    "jenis": "PP",
+    "nomor": "60",
+    "tahun": "2015",
+    "sumber": "https://peraturan.bpk.go.id/Details/5634/pp-no-60-tahun-2015",
+    "status": "Berlaku",
+    "diubah_oleh": []
+  },
+  "norma": [
+    {
+      "norm_id": "JAMSOS-MANFAAT-JHT",
+      "topik": "Jamsos",
+      "pasal": "Pasal 26 ayat (1)",
+      "iri_individu": "ktn:ManfaatJHTWajibDibayar",
+      "jenis": "KetentuanJaminanSosial",
+      "kondisi": "Peserta mencapai usia pensiun, mengalami cacat total tetap, atau meninggal dunia",
+      "akibat": "Manfaat JHT wajib dibayarkan",
+      "parameter": [],
+      "bukti": "Manfaat JHT wajib dibayarkan kepada Peserta apabila:",
+      "confidence": 0.95,
+      "dasar_keyakinan": "dikutip",
+      "catatan": "Ayat (5) mendelegasikan tata cara dan persyaratan pembayaran kepada Peraturan Menteri; tidak menghasilkan norma tersendiri."
+    },
+    {
+      "norm_id": "JAMSOS-MANFAAT-JHT-USIA-PENSIUN",
+      "topik": "Jamsos",
+      "pasal": "Pasal 26 ayat (2)",
+      "iri_individu": "ktn:ManfaatJHTUsiaPensiun",
+      "jenis": "KetentuanJaminanSosial",
+      "kondisi": "Peserta mencapai usia pensiun",
+      "akibat": "Manfaat JHT diberikan kepada Peserta",
+      "parameter": [],
+      "bukti": "Manfaat JHT bagi Peserta yang mencapai usia pensiun sebagaimana dimaksud pada ayat (1) huruf a diberikan kepada Peserta",
+      "confidence": 0.95,
+      "dasar_keyakinan": "dikutip",
+      "catatan": ""
+    },
+    {
+      "norm_id": "JAMSOS-MANFAAT-JHT-CACAT-TETAP",
+      "topik": "Jamsos",
+      "pasal": "Pasal 26 ayat (3)",
+      "iri_individu": "ktn:ManfaatJHTCacatTotalTetap",
+      "jenis": "KetentuanJaminanSosial",
+      "kondisi": "Peserta mengalami cacat total tetap",
+      "akibat": "Manfaat JHT diberikan kepada Peserta sesuai dengan ketentuan peraturan perundang-undangan",
+      "parameter": [],
+      "bukti": "diberikan kepada Peserta sesuai dengan ketentuan peraturan perundang-undangan.",
+      "confidence": 0.95,
+      "dasar_keyakinan": "dikutip",
+      "catatan": ""
+    },
+    {
+      "norm_id": "JAMSOS-MANFAAT-JHT-AHLI-WARIS",
+      "topik": "Jamsos",
+      "pasal": "Pasal 26 ayat (4)",
+      "iri_individu": "ktn:ManfaatJHTAhliWaris",
+      "jenis": "KetentuanJaminanSosial",
+      "kondisi": "Peserta meninggal dunia sebelum mencapai usia pensiun",
+      "akibat": "Manfaat JHT diberikan kepada ahli waris sebagaimana dimaksud dalam Pasal 23 ayat (2)",
+      "parameter": [],
+      "bukti": "diberikan kepada ahli waris sebagaimana dimaksud dalam Pasal 23 ayat (2).",
+      "confidence": 0.95,
+      "dasar_keyakinan": "dikutip",
+      "catatan": ""
+    }
+  ],
+  "kategori": [],
+  "pengali_lembur": [],
+  "program_jamsos": [],
+  "cakupan": {
+    "lengkap": true,
+    "pasal_diekstrak": [
+      "Pasal 26"
+    ],
+    "pasal_dilewati": [],
+    "catatan": ""
+  },
+  "tidak_termodelkan": []
+}

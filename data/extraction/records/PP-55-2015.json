@@ -1,0 +1,165 @@
+{
+  "spec_version": "1.1.0",
+  "vocab_version": "0.3.0",
+  "dokumen_id": "PP-55-2015",
+  "status_review": "reviewed",
+  "peraturan": {
+    "judul": "Peraturan Pemerintah Nomor 55 Tahun 2015 tentang Perubahan atas Peraturan Pemerintah Nomor 99 Tahun 2013 tentang Pengelolaan Aset Jaminan Sosial Ketenagakerjaan",
+    "jenis": "PP",
+    "nomor": "55",
+    "tahun": "2015",
+    "sumber": "https://peraturan.bpk.go.id/Details/5627/pp-no-55-tahun-2015",
+    "status": "Berlaku",
+    "diubah_oleh": []
+  },
+  "norma": [
+    {
+      "norm_id": "JAMSOS-KESEHATAN-KEUANGAN-JKK-JKM",
+      "topik": "Jamsos",
+      "pasal": "Pasal 47 ayat (4)",
+      "iri_individu": "ktn:KesehatanKeuanganJKKJKM",
+      "jenis": "KetentuanJaminanSosial",
+      "kondisi": "Aset Bersih Dana Jaminan Sosial Kecelakaan Kerja dan Dana Jaminan Sosial Kematian pada akhir tahun tidak memenuhi ketentuan kesehatan keuangan, yaitu paling sedikit mencukupi estimasi pembayaran klaim satu bulan ke depan dan paling banyak sebesar estimasi pembayaran klaim 12 bulan ke depan",
+      "akibat": "Paling sedikit dapat dilakukan penyesuaian Dana Operasional, penyesuaian besaran Iuran, dan/atau penyesuaian manfaat",
+      "parameter": [],
+      "bukti": "tidak memenuhi ketentuan sebagaimana dimaksud pada ayat (1), paling sedikit dapat dilakukan tindakan:",
+      "confidence": 0.9,
+      "dasar_keyakinan": "dikutip",
+      "catatan": "Ambang kesehatan keuangan pada ayat (1) serta metode estimasi klaim pada ayat (2) dan ayat (3) diringkas ke dalam kondisi; angka bulan tidak diparameterkan karena VOCAB belum menyediakan nama parameter terkait."
+    },
+    {
+      "norm_id": "JAMSOS-KESEHATAN-KEUANGAN-JP",
+      "topik": "Jamsos",
+      "pasal": "Pasal 47 ayat (7)",
+      "iri_individu": "ktn:KesehatanKeuanganJPTindakan",
+      "jenis": "KetentuanJaminanSosial",
+      "kondisi": "Aset Bersih Dana Jaminan Sosial Pensiun pada akhir tahun tidak memenuhi ketentuan kewajiban aktuaria, yaitu paling sedikit sebesar selisih lebih nilai sekarang estimasi manfaat 5 tahun ke depan dari nilai sekarang estimasi penerimaan iuran dalam jangka waktu 3 tahun ke depan",
+      "akibat": "Paling sedikit dapat dilakukan penyesuaian Dana Operasional, penyesuaian besaran Iuran, dan/atau penyesuaian manfaat",
+      "parameter": [],
+      "bukti": "Dalam hal Aset Bersih Dana Jaminan Sosial Pensiun per akhir tahun tidak memenuhi ketentuan sebagaimana dimaksud pada ayat (6), paling sedikit dapat dilakukan tindakan:",
+      "confidence": 0.9,
+      "dasar_keyakinan": "dikutip",
+      "catatan": "Ambang kewajiban aktuaria pada ayat (6) diringkas ke dalam kondisi; angka 5 tahun dan 3 tahun tidak diparameterkan karena VOCAB belum menyediakan nama parameter terkait."
+    },
+    {
+      "norm_id": "JAMSOS-SARANA-KESEJAHTERAAN-RUSUN",
+      "topik": "Jamsos",
+      "pasal": "Pasal 64A",
+      "iri_individu": "ktn:SaranaKesejahteraanRusunSewa",
+      "jenis": "KetentuanJaminanSosial",
+      "kondisi": "Kegiatan yang berkaitan dengan Aset dan Liabilitas BPJS Ketenagakerjaan yang tidak termasuk pemberian manfaat layanan tambahan bagi peserta dan tidak termasuk tanggung jawab sosial dan lingkungan",
+      "akibat": "Dapat diselenggarakan BPJS Ketenagakerjaan sebagai sarana kesejahteraan peserta berupa rumah susun sewa yang pendanaannya berasal dari aset BPJS Ketenagakerjaan",
+      "parameter": [],
+      "bukti": "dapat diselenggarakan oleh BPJS Ketenagakerjaan dalam bentuk sarana kesejahteraan peserta berupa rumah susun sewa",
+      "confidence": 0.8,
+      "dasar_keyakinan": "tafsir",
+      "catatan": "Pemetaan ke KetentuanJaminanSosial bersifat tafsir karena pasal mengatur penggunaan aset BPJS untuk sarana kesejahteraan peserta, bukan hak peserta yang bersifat langsung."
+    }
+  ],
+  "kategori": [],
+  "pengali_lembur": [],
+  "program_jamsos": [],
+  "cakupan": {
+    "lengkap": true,
+    "pasal_diekstrak": [
+      "Pasal 1",
+      "Pasal 14",
+      "Pasal 18",
+      "Pasal 26",
+      "Pasal 28",
+      "Pasal 29",
+      "Pasal 35",
+      "Pasal 35A",
+      "Pasal 36",
+      "Pasal 37",
+      "Pasal 38",
+      "Pasal 39",
+      "Pasal 40",
+      "Pasal 44",
+      "Pasal 47",
+      "Pasal 63A",
+      "Pasal 63B",
+      "Pasal 64A"
+    ],
+    "pasal_dilewati": [
+      {
+        "pasal": "Pasal 1",
+        "alasan": "definisi/istilah (BPJS Ketenagakerjaan, Dana Jaminan Sosial, Cadangan Teknis, Dana Operasional, Iuran, Liabilitas, Aset Bersih, Investasi, Dewan Pengawas, Direksi, Bank, Bursa Efek, Menteri)"
+      },
+      {
+        "pasal": "Pasal 14",
+        "alasan": "tata cara internal pengajuan dan penetapan persentase Dana Operasional (tenggat 4 bulan dan 2 bulan sebelum tahun anggaran), bukan norma hak pekerja"
+      },
+      {
+        "pasal": "Pasal 18",
+        "alasan": "klasifikasi/struktur liabilitas dana jaminan sosial dan kewajiban penilaian akuntansi; definisi teknis, bukan norma hak pekerja"
+      },
+      {
+        "pasal": "Pasal 63A",
+        "alasan": "ketentuan peralihan: kewajiban menjual penyertaan langsung hasil pengalihan aset PT Jamsostek (Persero) dengan tenggat paling lama 1 tahun dan perpanjangannya; tenggat telah berakhir"
+      },
+      {
+        "pasal": "Pasal 63B",
+        "alasan": "ketentuan peralihan yang berlaku hanya sampai dengan 31 Desember 2015 (batas Dana Operasional dari Dana Jaminan Sosial Hari Tua 2%)"
+      }
+    ],
+    "catatan": ""
+  },
+  "tidak_termodelkan": [
+    {
+      "pasal": "Pasal 26",
+      "ringkasan": "Pengembangan aset BPJS Ketenagakerjaan dilakukan melalui Investasi pada instrumen investasi dalam negeri: deposito, surat berharga negara/BI, surat utang korporasi, saham, reksadana, efek beragun aset, dana investasi real estat, repurchase agreement, penyertaan langsung, tanah/bangunan, dan obligasi daerah.",
+      "alasan": "Relevan bagi pengelolaan aset jamsos, tetapi butuh kelas/properti instrumen investasi dan alokasi aset yang belum ada di T-Box."
+    },
+    {
+      "pasal": "Pasal 28",
+      "ringkasan": "Syarat instrumen investasi: peringkat paling sedikit A-, reksadana sesuai ketentuan pasar modal, efek beragun aset/DIRE melalui penawaran umum, repurchase agreement dengan GMRA maksimal 90 hari dan nilai maksimal 80% nilai pasar jaminan, kriteria penyertaan langsung, serta syarat tanah/bangunan.",
+      "alasan": "Butuh kelas/properti persyaratan instrumen investasi (peringkat, jangka waktu, nilai jaminan) yang belum ada di T-Box."
+    },
+    {
+      "pasal": "Pasal 29",
+      "ringkasan": "Batas persentase investasi per instrumen/emiten/bank (deposito 15% per bank, surat utang korporasi 5% per emiten dan 50% total, saham 5%/50%, reksadana 15%/50%, efek beragun aset 10%/20%, DIRE 10%/20%, repurchase agreement 2%/5%, penyertaan langsung 1%/5%, tanah/bangunan 5%); surat berharga negara/BI tanpa batas.",
+      "alasan": "Butuh kelas/properti batas alokasi investasi per instrumen/emiten; VOCAB belum menyediakan parameter persentase alokasi."
+    },
+    {
+      "pasal": "Pasal 35",
+      "ringkasan": "Instrumen investasi dalam negeri untuk Dana Jaminan Sosial Hari Tua dan Dana Jaminan Sosial Pensiun meliputi deposito, surat berharga negara/BI, surat utang korporasi, saham, reksadana, efek beragun aset, dana investasi real estat, repurchase agreement, penyertaan langsung, tanah/bangunan, dan obligasi daerah.",
+      "alasan": "Butuh kelas/properti instrumen investasi dan alokasi aset yang belum ada di T-Box."
+    },
+    {
+      "pasal": "Pasal 35A",
+      "ringkasan": "Deposito Dana Jaminan Sosial Hari Tua yang digunakan untuk mendukung program perumahan peserta ditempatkan pada bank pemerintah dengan tingkat imbal hasil paling sedikit setara tingkat suku bunga Bank Indonesia.",
+      "alasan": "Butuh kelas/properti penempatan deposito program perumahan dan acuan imbal hasil yang belum ada di T-Box."
+    },
+    {
+      "pasal": "Pasal 36",
+      "ringkasan": "Syarat investasi Dana Jaminan Sosial Hari Tua dan Pensiun: peringkat paling sedikit A-, reksadana sesuai ketentuan pasar modal, efek beragun aset/DIRE melalui penawaran umum, repurchase agreement dengan GMRA maksimal 90 hari dan nilai maksimal 80% nilai pasar jaminan, kriteria penyertaan langsung serta batas kepemilikan 20% pada badan usaha jasa keuangan, dan syarat tanah/bangunan.",
+      "alasan": "Butuh kelas/properti persyaratan instrumen investasi yang belum ada di T-Box."
+    },
+    {
+      "pasal": "Pasal 37",
+      "ringkasan": "Batas persentase investasi Dana Jaminan Sosial Hari Tua dan Pensiun: deposito 25% per bank pemerintah dan 15% per bank lain, surat utang korporasi 5%/50%, saham 5%/50%, reksadana 15%/50%, efek beragun aset 10%/20%, DIRE 10%/20%, repurchase agreement 2%/5%, penyertaan langsung 1%/5%, tanah/bangunan 10%, obligasi daerah 5%/50%.",
+      "alasan": "Butuh kelas/properti batas alokasi investasi per instrumen/emiten; VOCAB belum menyediakan parameter persentase alokasi."
+    },
+    {
+      "pasal": "Pasal 38",
+      "ringkasan": "Instrumen investasi Dana Jaminan Sosial Kecelakaan Kerja dan Kematian meliputi deposito, surat berharga negara/BI, surat utang korporasi, saham, reksadana, repurchase agreement, efek beragun aset, dan obligasi daerah; investasi pada huruf d sampai i hanya boleh dilakukan bila Aset Bersih mencukupi estimasi pembayaran klaim 1 bulan ke depan.",
+      "alasan": "Butuh kelas/properti instrumen investasi dan uji kecukupan likuiditas yang belum ada di T-Box."
+    },
+    {
+      "pasal": "Pasal 39",
+      "ringkasan": "Syarat investasi Dana Jaminan Sosial Kecelakaan Kerja dan Kematian: peringkat paling sedikit A-, reksadana sesuai ketentuan pasar modal, repurchase agreement dengan GMRA maksimal 90 hari dan nilai maksimal 80% nilai pasar jaminan, efek beragun aset melalui penawaran umum dengan peringkat paling kurang A-, dan obligasi daerah berperingkat paling sedikit A-.",
+      "alasan": "Butuh kelas/properti persyaratan instrumen investasi yang belum ada di T-Box."
+    },
+    {
+      "pasal": "Pasal 40",
+      "ringkasan": "Batas investasi Dana Jaminan Sosial Kecelakaan Kerja dan Kematian: deposito 15% per bank, surat utang/saham/reksadana/repurchase agreement/efek beragun aset/obligasi daerah seluruhnya 50% dari Aset Bersih, surat utang 5% per emiten, saham 5% per emiten, reksadana 15% per manajer investasi, repurchase agreement 2% per counterpart, efek beragun aset 10%, obligasi daerah 5% per emiten.",
+      "alasan": "Butuh kelas/properti batas alokasi investasi per instrumen/emiten; VOCAB belum menyediakan parameter persentase alokasi."
+    },
+    {
+      "pasal": "Pasal 44",
+      "ringkasan": "Surplus aset BPJS Ketenagakerjaan digunakan untuk menambah ekuitas dan/atau memperkuat aset Dana Jaminan Sosial Ketenagakerjaan, dapat juga membiayai tanggung jawab sosial dan lingkungan paling banyak sebesar alokasi surplus untuk memperkuat aset DJSN, dengan besaran alokasi disetujui Dewan Pengawas.",
+      "alasan": "Butuh kelas/properti alokasi surplus, ekuitas BPJS, dan tanggung jawab sosial lingkungan yang belum ada di T-Box; di luar jenis norma jamsos yang tersedia."
+    }
+  ]
+}

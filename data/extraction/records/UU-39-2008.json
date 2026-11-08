@@ -1,0 +1,170 @@
+{
+  "spec_version": "1.1.0",
+  "vocab_version": "0.3.0",
+  "dokumen_id": "UU-39-2008",
+  "status_review": "reviewed",
+  "peraturan": {
+    "judul": "Undang-Undang Nomor 39 Tahun 2008 tentang Kementerian Negara",
+    "jenis": "UU",
+    "nomor": "39",
+    "tahun": "2008",
+    "sumber": "https://peraturan.bpk.go.id/Details/39719/uu-no-39-tahun-2008",
+    "status": "Berlaku",
+    "diubah_oleh": []
+  },
+  "norma": [],
+  "kategori": [],
+  "pengali_lembur": [],
+  "program_jamsos": [],
+  "cakupan": {
+    "lengkap": true,
+    "pasal_diekstrak": [
+      "Pasal 1",
+      "Pasal 10",
+      "Pasal 11",
+      "Pasal 12",
+      "Pasal 13",
+      "Pasal 14",
+      "Pasal 15",
+      "Pasal 16",
+      "Pasal 17",
+      "Pasal 18",
+      "Pasal 19",
+      "Pasal 2",
+      "Pasal 20",
+      "Pasal 21",
+      "Pasal 22",
+      "Pasal 23",
+      "Pasal 24",
+      "Pasal 25",
+      "Pasal 26",
+      "Pasal 27",
+      "Pasal 28",
+      "Pasal 3",
+      "Pasal 4",
+      "Pasal 5",
+      "Pasal 6",
+      "Pasal 7",
+      "Pasal 8",
+      "Pasal 9"
+    ],
+    "pasal_dilewati": [
+      {
+        "pasal": "Pasal 1",
+        "alasan": "definisi/istilah: \"Dalam Undang-Undang ini yang dimaksud dengan:\" — batasan Kementerian, Menteri, Urusan Pemerintahan, Pembentukan/Pengubahan/Pembubaran Kementerian; tanpa kondisi-akibat hukum ketenagakerjaan"
+      },
+      {
+        "pasal": "Pasal 2",
+        "alasan": "kelembagaan: \"Kementerian berkedudukan di Ibu Kota Negara Republik Indonesia\" — kedudukan organ pemerintahan, di luar domain hubungan kerja"
+      },
+      {
+        "pasal": "Pasal 3",
+        "alasan": "kelembagaan: \"Kementerian berada di bawah dan bertanggung jawab kepada Presiden\" — garis pertanggungjawaban organ pemerintahan"
+      },
+      {
+        "pasal": "Pasal 4",
+        "alasan": "kelembagaan: \"Setiap Menteri membidangi urusan tertentu dalam pemerintahan\" — pembidangan urusan pemerintahan, bukan hak/kewajiban pekerja atau pemberi kerja"
+      },
+      {
+        "pasal": "Pasal 6",
+        "alasan": "kelembagaan: \"tidak harus dibentuk dalam satu Kementerian tersendiri\" — kebebasan penataan organisasi, tanpa akibat hukum ketenagakerjaan"
+      },
+      {
+        "pasal": "Pasal 7",
+        "alasan": "kelembagaan: \"Kementerian mempunyai tugas menyelenggarakan urusan tertentu dalam pemerintahan\" — tugas organ pemerintahan"
+      },
+      {
+        "pasal": "Pasal 8",
+        "alasan": "kelembagaan: rincian \"menyelenggarakan fungsi\" Kementerian (perumusan kebijakan, pengawasan, bimtek) — tata tugas organisasi, bukan norma hubungan kerja"
+      },
+      {
+        "pasal": "Pasal 9",
+        "alasan": "kelembagaan: \"Susunan organisasi Kementerian ... terdiri atas unsur\" — struktur organisasi (Menteri, setjen, ditjen, itjen), bukan norma ketenagakerjaan"
+      },
+      {
+        "pasal": "Pasal 10",
+        "alasan": "kelembagaan/jabatan: \"Presiden dapat mengangkat wakil Menteri pada Kementerian tertentu\" — pengangkatan pejabat negara, bukan pekerja"
+      },
+      {
+        "pasal": "Pasal 11",
+        "alasan": "delegasi/peraturan pelaksana: \"diatur dengan Peraturan Presiden\" — tanpa norma mandiri yang dapat dinalar"
+      },
+      {
+        "pasal": "Pasal 12",
+        "alasan": "kelembagaan: \"Presiden membentuk Kementerian luar negeri, dalam negeri, dan pertahanan\" — pembentukan organ pemerintahan"
+      },
+      {
+        "pasal": "Pasal 13",
+        "alasan": "kelembagaan: pembentukan Kementerian Pasal 5 ayat (2) dan ayat (3) dengan pertimbangan efisiensi/efektivitas — tata pembentukan organisasi"
+      },
+      {
+        "pasal": "Pasal 14",
+        "alasan": "kelembagaan: \"Presiden dapat membentuk Kementerian koordinasi\" — penataan organisasi pemerintahan"
+      },
+      {
+        "pasal": "Pasal 15",
+        "alasan": "kelembagaan: \"Jumlah keseluruhan Kementerian ... paling banyak 34 (tiga puluh empat)\" — batas jumlah organ, bukan parameter ketenagakerjaan yang termodelkan"
+      },
+      {
+        "pasal": "Pasal 16",
+        "alasan": "kelembagaan/tenggat: pembentukan \"paling lama 14 (empat belas) hari kerja sejak Presiden mengucapkan sumpah/janji\" — prosedur organisasi"
+      },
+      {
+        "pasal": "Pasal 17",
+        "alasan": "kelembagaan: \"Kementerian sebagaimana dimaksud dalam Pasal 12 tidak dapat diubah oleh Presiden\" — status organisasi"
+      },
+      {
+        "pasal": "Pasal 18",
+        "alasan": "kelembagaan: Kementerian Pasal 13 \"dapat diubah oleh Presiden\" dengan pertimbangan efisiensi/perkembangan tugas — tata organisasi"
+      },
+      {
+        "pasal": "Pasal 19",
+        "alasan": "kelembagaan/tata cara: pertimbangan DPR \"paling lama 7 (tujuh) hari kerja\" atas pemisahan/penggabungan Kementerian — prosedur internal negara"
+      },
+      {
+        "pasal": "Pasal 20",
+        "alasan": "kelembagaan: \"Kementerian sebagaimana dimaksud dalam Pasal 12 tidak dapat dibubarkan oleh Presiden\" — status organisasi"
+      },
+      {
+        "pasal": "Pasal 21",
+        "alasan": "kelembagaan: pembubaran Kementerian Pasal 13 dengan pertimbangan/persetujuan DPR — tata organisasi pemerintahan"
+      },
+      {
+        "pasal": "Pasal 22",
+        "alasan": "jabatan negara: \"Menteri diangkat oleh Presiden\" beserta persyaratan (WNI, setia Pancasila, tidak pernah dipidana 5 tahun) — bukan syarat kerja pekerja"
+      },
+      {
+        "pasal": "Pasal 23",
+        "alasan": "jabatan negara: \"Menteri dilarang merangkap jabatan\" sebagai pejabat negara, komisaris/direksi, atau pimpinan organisasi ber-APBN/APBD — larangan bagi pejabat, bukan pekerja"
+      },
+      {
+        "pasal": "Pasal 24",
+        "alasan": "jabatan negara: berhenti/diberhentikannya Menteri (meninggal, berakhir masa jabatan, mengundurkan diri, tidak dapat melaksanakan tugas 3 bulan) — bukan PHK pekerja"
+      },
+      {
+        "pasal": "Pasal 25",
+        "alasan": "kelembagaan: hubungan fungsional Kementerian dengan lembaga pemerintah nonkementerian — tata pemerintahan"
+      },
+      {
+        "pasal": "Pasal 26",
+        "alasan": "kelembagaan: hubungan Kementerian dengan pemerintah daerah dalam kerangka otonomi daerah — tata pemerintahan"
+      },
+      {
+        "pasal": "Pasal 27",
+        "alasan": "ketentuan peralihan: \"Kementerian yang sudah ada ... tetap menjalankan tugasnya sampai dengan terbentuknya Kementerian\" — bukan norma perilaku"
+      },
+      {
+        "pasal": "Pasal 28",
+        "alasan": "ketentuan penutup: \"Undang-Undang ini mulai berlaku pada tanggal diundangkan\" — tidak menghasilkan norma"
+      }
+    ],
+    "catatan": ""
+  },
+  "tidak_termodelkan": [
+    {
+      "pasal": "Pasal 5",
+      "ringkasan": "Urusan pemerintahan Pasal 4 ayat (2) huruf a meliputi luar negeri, dalam negeri, dan pertahanan; huruf b meliputi \"agama, hukum, keuangan, keamanan, hak asasi manusia, pendidikan, kebudayaan, kesehatan, sosial, ketenagakerjaan, industri, ...\"; huruf c meliputi perencanaan pembangunan, aparatur negara, BUMN, pertanahan, lingkungan hidup, dan seterusnya.",
+      "alasan": "Satu-satunya pasal yang menyebut \"ketenagakerjaan\" (sebagai urusan pemerintahan yang dibidangi Kementerian), tetapi hanya memetakan urusan ke organisasi; tidak ada kondisi-akibat hukum bagi pekerja/pemberi kerja dan tidak dapat dipetakan ke kelas norma T-Box (jenis norma hanya PHK, Cuti, WaktuKerja, Upah, Lembur, PKWT, AlihDaya, Jamsos, KIA, TKA). Butuh kelas/properti baru (mis. KetentuanKelembagaan/urusan pemerintahan) yang belum ada di VOCAB 0.3.0."
+    }
+  ]
+}

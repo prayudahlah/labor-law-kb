@@ -1,0 +1,366 @@
+{
+  "spec_version": "1.1.0",
+  "vocab_version": "0.3.0",
+  "dokumen_id": "PP-99-2013",
+  "status_review": "reviewed",
+  "peraturan": {
+    "judul": "Peraturan Pemerintah Nomor 99 Tahun 2013 tentang Pengelolaan Aset Jaminan Sosial Ketenagakerjaan",
+    "jenis": "PP",
+    "nomor": "99",
+    "tahun": "2013",
+    "sumber": "https://peraturan.bpk.go.id/Details/5436/pp-no-99-tahun-2013",
+    "status": "Berlaku",
+    "diubah_oleh": []
+  },
+  "norma": [
+    {
+      "norm_id": "JAMSOS-DANA-TALANGAN-LIKUIDITAS",
+      "topik": "Jamsos",
+      "pasal": "Pasal 49 ayat (1)",
+      "iri_individu": "ktn:DanaTalanganLikuiditas",
+      "jenis": "KetentuanJaminanSosial",
+      "kondisi": "Dana Jaminan Sosial Ketenagakerjaan mengalami kesulitan likuiditas",
+      "akibat": "BPJS Ketenagakerjaan dapat memberikan dana talangan paling banyak 10% dari aset BPJS Ketenagakerjaan; penggantian pinjaman dilakukan setelah Aset Bersih Dana Jaminan Sosial Ketenagakerjaan bernilai positif dan tidak mengakibatkan Aset Bersih kembali bernilai negatif, dapat dilakukan secara bertahap",
+      "parameter": [],
+      "bukti": "BPJS Ketenagakerjaan dapat memberikan dana talangan kepada Dana Jaminan Sosial Ketenagakerjaan",
+      "confidence": 0.9,
+      "dasar_keyakinan": "dikutip",
+      "catatan": "Batas 10% dari aset BPJS Ketenagakerjaan (ayat (2)) serta syarat dan tahapan penggantian pinjaman (ayat (3) dan ayat (4)) diringkas ke dalam akibat; persentase tidak diparameterkan karena VOCAB belum menyediakan nama parameter alokasi aset."
+    }
+  ],
+  "kategori": [],
+  "pengali_lembur": [],
+  "program_jamsos": [],
+  "cakupan": {
+    "lengkap": true,
+    "pasal_diekstrak": [
+      "Pasal 1",
+      "Pasal 10",
+      "Pasal 12",
+      "Pasal 13",
+      "Pasal 14",
+      "Pasal 15",
+      "Pasal 16",
+      "Pasal 17",
+      "Pasal 18",
+      "Pasal 19",
+      "Pasal 2",
+      "Pasal 20",
+      "Pasal 21",
+      "Pasal 23",
+      "Pasal 24",
+      "Pasal 25",
+      "Pasal 26",
+      "Pasal 27",
+      "Pasal 28",
+      "Pasal 29",
+      "Pasal 3",
+      "Pasal 30",
+      "Pasal 31",
+      "Pasal 32",
+      "Pasal 33",
+      "Pasal 34",
+      "Pasal 35",
+      "Pasal 36",
+      "Pasal 37",
+      "Pasal 38",
+      "Pasal 39",
+      "Pasal 4",
+      "Pasal 40",
+      "Pasal 41",
+      "Pasal 42",
+      "Pasal 43",
+      "Pasal 44",
+      "Pasal 45",
+      "Pasal 46",
+      "Pasal 47",
+      "Pasal 48",
+      "Pasal 49",
+      "Pasal 5",
+      "Pasal 50",
+      "Pasal 51",
+      "Pasal 52",
+      "Pasal 53",
+      "Pasal 54",
+      "Pasal 55",
+      "Pasal 56",
+      "Pasal 57",
+      "Pasal 58",
+      "Pasal 59",
+      "Pasal 6",
+      "Pasal 60",
+      "Pasal 61",
+      "Pasal 62",
+      "Pasal 63",
+      "Pasal 64",
+      "Pasal 65",
+      "Pasal 66",
+      "Pasal 7",
+      "Pasal 8",
+      "Pasal 9"
+    ],
+    "pasal_dilewati": [
+      {
+        "pasal": "Pasal 1",
+        "alasan": "definisi/istilah (BPJS Ketenagakerjaan, Dana Jaminan Sosial, Cadangan Teknis, Dana Operasional, Iuran, Liabilitas, Aset Bersih, Investasi, Dewan Pengawas, Direksi, Bank, Bursa Efek, Menteri)"
+      },
+      {
+        "pasal": "Pasal 2",
+        "alasan": "asas/prinsip pengelolaan aset (optimal, likuiditas, solvabilitas, kehati-hatian, keamanan dana, hasil memadai); bukan norma bersyarat"
+      },
+      {
+        "pasal": "Pasal 3",
+        "alasan": "ruang lingkup aset dan tahapan pengelolaan (perencanaan, pelaksanaan, pengawasan dan evaluasi); klasifikasi, bukan norma"
+      },
+      {
+        "pasal": "Pasal 4",
+        "alasan": "tahapan perencanaan pengelolaan aset; tata cara internal"
+      },
+      {
+        "pasal": "Pasal 5",
+        "alasan": "tujuan dan cakupan inventarisasi data dan informasi aset; tata cara internal"
+      },
+      {
+        "pasal": "Pasal 6",
+        "alasan": "muatan rancangan rencana pengelolaan aset dan Liabilitas; tata cara internal"
+      },
+      {
+        "pasal": "Pasal 7",
+        "alasan": "komponen rancangan rencana (rencana strategis dan rencana kerja anggaran tahunan); tata cara internal"
+      },
+      {
+        "pasal": "Pasal 8",
+        "alasan": "penyusunan oleh Direksi dan penetapan oleh Dewan Pengawas dengan jangka waktu 5 tahun; tata kelola internal"
+      },
+      {
+        "pasal": "Pasal 9",
+        "alasan": "penyusunan dan penetapan rencana kerja anggaran tahunan; tata kelola internal"
+      },
+      {
+        "pasal": "Pasal 10",
+        "alasan": "cakupan pelaksanaan pengelolaan aset (sumber aset, Liabilitas, penggunaan, pengembangan, kesehatan keuangan, pertanggungjawaban); klasifikasi"
+      },
+      {
+        "pasal": "Pasal 12",
+        "alasan": "rincian sumber aset BPJS Ketenagakerjaan dan penilaiannya; klasifikasi, bukan norma bersyarat"
+      },
+      {
+        "pasal": "Pasal 13",
+        "alasan": "batas persentase Dana Operasional; ayat (1) huruf b diubah oleh PP-55-2015 sehingga nilai yang berlaku dicatat pada record PP-55-2015"
+      },
+      {
+        "pasal": "Pasal 14",
+        "alasan": "tata cara pengajuan dan penetapan persentase Dana Operasional; diubah oleh PP-55-2015, nilai yang berlaku dicatat pada record PP-55-2015"
+      },
+      {
+        "pasal": "Pasal 15",
+        "alasan": "rincian sumber aset Dana Jaminan Sosial Ketenagakerjaan; klasifikasi, bukan norma bersyarat"
+      },
+      {
+        "pasal": "Pasal 16",
+        "alasan": "klasifikasi Liabilitas BPJS Ketenagakerjaan dan Liabilitas Dana Jaminan Sosial Ketenagakerjaan"
+      },
+      {
+        "pasal": "Pasal 17",
+        "alasan": "kewajiban penilaian Liabilitas BPJS Ketenagakerjaan sesuai standar akuntansi keuangan; ketentuan teknis akuntansi"
+      },
+      {
+        "pasal": "Pasal 18",
+        "alasan": "klasifikasi Liabilitas Dana Jaminan Sosial Ketenagakerjaan dan kewajiban penilaian akuntansi; ayat (4) diubah oleh PP-55-2015"
+      },
+      {
+        "pasal": "Pasal 19",
+        "alasan": "prinsip pemisahan pengelolaan aset dan Liabilitas untuk masing-masing program; tata kelola, bukan norma hak peserta"
+      },
+      {
+        "pasal": "Pasal 20",
+        "alasan": "kewajiban pembentukan cadangan teknis dan penunjukan aktuaris; tata cara teknis aktuaria"
+      },
+      {
+        "pasal": "Pasal 21",
+        "alasan": "prosedur permintaan valuasi ulang cadangan teknis oleh Dewan Pengawas; tata cara internal"
+      },
+      {
+        "pasal": "Pasal 23",
+        "alasan": "rincian penggunaan aset BPJS Ketenagakerjaan (biaya operasional, pengadaan barang dan jasa, kapasitas pelayanan, Investasi); klasifikasi penggunaan"
+      },
+      {
+        "pasal": "Pasal 24",
+        "alasan": "rincian penggunaan aset Dana Jaminan Sosial Ketenagakerjaan (pembayaran manfaat, Dana Operasional, Investasi); klasifikasi penggunaan, bukan norma bersyarat"
+      },
+      {
+        "pasal": "Pasal 25",
+        "alasan": "pembagian pengembangan aset BPJS Ketenagakerjaan dan aset Dana Jaminan Sosial Ketenagakerjaan; klasifikasi"
+      },
+      {
+        "pasal": "Pasal 26",
+        "alasan": "instrumen investasi dalam negeri untuk aset BPJS Ketenagakerjaan; ayat (2) huruf g diubah dan ditambah huruf l oleh PP-55-2015 sehingga nilai yang berlaku dicatat pada record PP-55-2015"
+      },
+      {
+        "pasal": "Pasal 28",
+        "alasan": "syarat instrumen investasi aset BPJS Ketenagakerjaan; diubah oleh PP-55-2015, nilai yang berlaku dicatat pada record PP-55-2015"
+      },
+      {
+        "pasal": "Pasal 29",
+        "alasan": "batas persentase investasi aset BPJS Ketenagakerjaan; diubah oleh PP-55-2015, nilai yang berlaku dicatat pada record PP-55-2015"
+      },
+      {
+        "pasal": "Pasal 33",
+        "alasan": "kewajiban penerapan manajemen risiko dan delegasi pengaturannya kepada peraturan Direksi; tata kelola"
+      },
+      {
+        "pasal": "Pasal 34",
+        "alasan": "kewajiban memperhatikan karakter kewajiban program dan penempatan investasi pada instrumen dalam negeri; prinsip pengelolaan aset"
+      },
+      {
+        "pasal": "Pasal 35",
+        "alasan": "instrumen investasi Dana Jaminan Sosial Hari Tua; diubah seluruhnya oleh PP-55-2015 sehingga nilai yang berlaku dicatat pada record PP-55-2015"
+      },
+      {
+        "pasal": "Pasal 36",
+        "alasan": "syarat instrumen investasi Dana Jaminan Sosial Hari Tua; diubah seluruhnya oleh PP-55-2015 sehingga nilai yang berlaku dicatat pada record PP-55-2015"
+      },
+      {
+        "pasal": "Pasal 37",
+        "alasan": "batas persentase investasi Dana Jaminan Sosial Hari Tua; diubah seluruhnya oleh PP-55-2015 sehingga nilai yang berlaku dicatat pada record PP-55-2015"
+      },
+      {
+        "pasal": "Pasal 38",
+        "alasan": "instrumen investasi Dana Jaminan Sosial Kecelakaan Kerja dan Kematian; diubah seluruhnya oleh PP-55-2015 sehingga nilai yang berlaku dicatat pada record PP-55-2015"
+      },
+      {
+        "pasal": "Pasal 39",
+        "alasan": "syarat instrumen investasi Dana Jaminan Sosial Kecelakaan Kerja dan Kematian; diubah oleh PP-55-2015, nilai yang berlaku dicatat pada record PP-55-2015"
+      },
+      {
+        "pasal": "Pasal 40",
+        "alasan": "batas persentase investasi Dana Jaminan Sosial Kecelakaan Kerja dan Kematian; diubah oleh PP-55-2015, nilai yang berlaku dicatat pada record PP-55-2015"
+      },
+      {
+        "pasal": "Pasal 42",
+        "alasan": "klasifikasi kesehatan keuangan aset BPJS Ketenagakerjaan dan aset Dana Jaminan Sosial Ketenagakerjaan"
+      },
+      {
+        "pasal": "Pasal 43",
+        "alasan": "komponen kesehatan keuangan (Surplus, nilai negatif, likuiditas); definisi/klasifikasi"
+      },
+      {
+        "pasal": "Pasal 44",
+        "alasan": "penggunaan Surplus aset BPJS Ketenagakerjaan; ayat (1) diubah dan disisipkan ayat (1a) oleh PP-55-2015 sehingga nilai yang berlaku dicatat pada record PP-55-2015"
+      },
+      {
+        "pasal": "Pasal 45",
+        "alasan": "delegasi pengaturan standar kesehatan keuangan BPJS Ketenagakerjaan kepada peraturan Menteri"
+      },
+      {
+        "pasal": "Pasal 47",
+        "alasan": "ukuran kesehatan keuangan Dana Jaminan Sosial dan tindakan penyesuaian; ditambah ayat (6) dan ayat (7) oleh PP-55-2015 sehingga nilai yang berlaku termasuk ayat (4) dicatat pada record PP-55-2015"
+      },
+      {
+        "pasal": "Pasal 48",
+        "alasan": "tindakan khusus Pemerintah atas Aset Bersih yang bernilai negatif; ayat (1) diubah oleh PP-55-2015 sehingga nilai yang berlaku dicatat pada record PP-55-2015"
+      },
+      {
+        "pasal": "Pasal 50",
+        "alasan": "kewajiban penyusunan laporan pengelolaan program dan laporan keuangan tahunan/semesteran; tata cara pelaporan"
+      },
+      {
+        "pasal": "Pasal 51",
+        "alasan": "kewajiban penyampaian laporan teraudit kepada Presiden beserta tembusan; tata cara pelaporan"
+      },
+      {
+        "pasal": "Pasal 52",
+        "alasan": "permintaan laporan oleh Presiden dan tenggat penyampaian 15 hari kerja; tata cara pelaporan"
+      },
+      {
+        "pasal": "Pasal 53",
+        "alasan": "kewajiban pengumuman ringkasan laporan pada situs BPJS dan media massa; tata cara pelaporan"
+      },
+      {
+        "pasal": "Pasal 54",
+        "alasan": "standar akuntansi dan penyajian laporan keuangan terpisah per program; ketentuan teknis pelaporan"
+      },
+      {
+        "pasal": "Pasal 55",
+        "alasan": "bentuk pengawasan internal dan eksternal; kelembagaan"
+      },
+      {
+        "pasal": "Pasal 56",
+        "alasan": "pengawasan internal oleh Dewan Pengawas dan satuan pengawas internal; kelembagaan"
+      },
+      {
+        "pasal": "Pasal 57",
+        "alasan": "pengawasan eksternal oleh DJSN, Otoritas Jasa Keuangan, dan Badan Pemeriksa Keuangan; kelembagaan"
+      },
+      {
+        "pasal": "Pasal 58",
+        "alasan": "pembentukan Satuan Pengawasan Internal dan ruang lingkup pengawasannya; kelembagaan"
+      },
+      {
+        "pasal": "Pasal 59",
+        "alasan": "delegasi pengaturan kode etik dan prosedur pengawasan internal kepada peraturan Direksi"
+      },
+      {
+        "pasal": "Pasal 60",
+        "alasan": "audit akuntan publik, kewenangan Otoritas Jasa Keuangan, dan frekuensi pengawasan DJSN; kelembagaan"
+      },
+      {
+        "pasal": "Pasal 61",
+        "alasan": "monitoring dan evaluasi kesehatan keuangan oleh DJSN serta pelaporannya kepada Presiden; kelembagaan"
+      },
+      {
+        "pasal": "Pasal 62",
+        "alasan": "ketentuan lain-lain mengenai dana peningkatan kesejahteraan peserta yang hanya berlaku sampai dengan 30 Juni 2015; penjelasan ayat (2) diubah oleh PP-55-2015"
+      },
+      {
+        "pasal": "Pasal 63",
+        "alasan": "ketentuan peralihan: kewajiban menyesuaikan jenis investasi hasil pengalihan aset PT Jamsostek (Persero) paling lama 1 tahun; tenggat telah berakhir"
+      },
+      {
+        "pasal": "Pasal 64",
+        "alasan": "ketentuan peralihan pengalihan aset dan Liabilitas dana peningkatan kesejahteraan peserta yang berakhir 30 Juni/1 Juli 2015"
+      },
+      {
+        "pasal": "Pasal 65",
+        "alasan": "pencabutan PP Nomor 22 Tahun 2004; ketentuan penutup"
+      },
+      {
+        "pasal": "Pasal 66",
+        "alasan": "ketentuan mulai berlaku 1 Januari 2014; ketentuan penutup"
+      }
+    ],
+    "catatan": ""
+  },
+  "tidak_termodelkan": [
+    {
+      "pasal": "Pasal 27",
+      "ringkasan": "Bila jumlah Investasi melebihi batasan karena kenaikan dan/atau penurunan nilai Surat Berharga, BPJS Ketenagakerjaan wajib menyesuaikan kembali jumlah Investasi dalam jangka waktu 1 tahun sejak terjadinya kelebihan batasan.",
+      "alasan": "Butuh kelas/properti batas alokasi investasi dan penyesuaiannya yang belum ada di T-Box."
+    },
+    {
+      "pasal": "Pasal 30",
+      "ringkasan": "BPJS Ketenagakerjaan dilarang menempatkan dana pada perusahaan yang sahamnya dimiliki anggota Direksi, anggota Dewan Pengawas, pegawai BPJS, pegawai lembaga pengawas BPJS, anggota DJSN, atau pihak yang memiliki hubungan keluarga karena perkawinan dan keturunan sampai derajat ketiga.",
+      "alasan": "Butuh kelas/properti larangan benturan kepentingan dan hubungan pihak terafiliasi yang belum ada di T-Box."
+    },
+    {
+      "pasal": "Pasal 31",
+      "ringkasan": "BPJS Ketenagakerjaan dilarang melakukan transaksi derivatif atau memiliki instrumen derivatif untuk aset BPJS Ketenagakerjaan, kecuali efek beragun aset dan turunan surat berharga yang diperoleh sebagai bagian melekat pada surat berharga tercatat di Bursa Efek.",
+      "alasan": "Butuh kelas/properti instrumen investasi terlarang yang belum ada di T-Box."
+    },
+    {
+      "pasal": "Pasal 32",
+      "ringkasan": "BPJS Ketenagakerjaan dilarang mengembangkan aset BPJS Ketenagakerjaan dan aset Dana Jaminan Sosial Ketenagakerjaan dalam bentuk Investasi surat utang korporasi dan saham yang emitennya merupakan badan hukum asing.",
+      "alasan": "Butuh kelas/properti batasan emiten asing yang belum ada di T-Box."
+    },
+    {
+      "pasal": "Pasal 41",
+      "ringkasan": "Penempatan Investasi pada satu pihak tidak dapat melebihi 25% dari jumlah investasi; pihak yang dimaksud adalah satu perusahaan atau sekelompok perusahaan yang memiliki hubungan kepemilikan langsung bersifat mayoritas.",
+      "alasan": "Butuh kelas/properti batas alokasi investasi per pihak; VOCAB belum menyediakan parameter persentase alokasi."
+    },
+    {
+      "pasal": "Pasal 46",
+      "ringkasan": "Kesehatan keuangan aset Dana Jaminan Sosial Ketenagakerjaan yang mengalami Surplus pada suatu tahun digunakan untuk menambah Aset Bersih Dana Jaminan Sosial Ketenagakerjaan.",
+      "alasan": "Butuh kelas/properti penggunaan surplus dan Aset Bersih yang belum ada di T-Box; di luar jenis norma jamsos yang tersedia."
+    }
+  ]
+}

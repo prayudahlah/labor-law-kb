@@ -58,7 +58,11 @@ ktn:PeristiwaHukum a owl:Class ;
 
 ktn:PHK a owl:Class ;
     rdfs:label "Pemutusan Hubungan Kerja" ;
-    rdfs:subClassOf ktn:PeristiwaHukum .
+    rdfs:subClassOf ktn:PeristiwaHukum ,
+        [ a owl:Restriction ;
+          owl:onProperty ktn:memilikiAlasanPHK ;
+          owl:qualifiedCardinality 1 ;
+          owl:onClass ktn:AlasanPHK ] .
 
 ktn:AlasanPHK a owl:Class ;
     rdfs:label "Alasan PHK" .
@@ -761,11 +765,11 @@ ktn:bulanUpah75 a owl:DatatypeProperty ;
 
 ktn:cutiMelahirkanBulanMin a owl:DatatypeProperty ;
     rdfs:label "cuti melahirkan minimal (bulan)" ;
-    rdfs:range xsd:integer .
+    rdfs:range xsd:decimal .
 
 ktn:cutiMelahirkanBulanMax a owl:DatatypeProperty ;
     rdfs:label "cuti melahirkan maksimal (bulan)" ;
-    rdfs:range xsd:integer .
+    rdfs:range xsd:decimal .
 
 ktn:cutiKeguguranBulan a owl:DatatypeProperty ;
     rdfs:label "istirahat keguguran (bulan)" ;

@@ -1,0 +1,541 @@
+{
+  "spec_version": "1.1.0",
+  "vocab_version": "0.3.0",
+  "dokumen_id": "UU-18-2017",
+  "status_review": "reviewed",
+  "peraturan": {
+    "judul": "Undang-Undang Nomor 18 Tahun 2017 tentang Pelindungan Pekerja Migran Indonesia",
+    "jenis": "UU",
+    "nomor": "18",
+    "tahun": "2017",
+    "sumber": "https://peraturan.go.id/id/uu-no-18-tahun-2017",
+    "status": "Berlaku",
+    "diubah_oleh": []
+  },
+  "norma": [
+    {
+      "norm_id": "UPAH-PMI-STANDAR-NEGARA-TUJUAN",
+      "topik": "Upah",
+      "pasal": "Pasal 6 ayat (1) huruf f",
+      "iri_individu": "ktn:HakUpahPMI",
+      "jenis": "KetentuanUpah",
+      "kondisi": "Calon Pekerja Migran Indonesia atau Pekerja Migran Indonesia bekerja di negara tujuan penempatan",
+      "akibat": "Berhak memperoleh upah sesuai standar upah yang berlaku di negara tujuan penempatan dan/atau kesepakatan kedua negara dan/atau Perjanjian Kerja",
+      "parameter": [],
+      "bukti": "memperoleh upah sesuai dengan standar upah yang berlaku di negara tujuan penempatan dan/atau kesepakatan kedua negara dan/atau Perjanjian Kerja",
+      "confidence": 0.85,
+      "dasar_keyakinan": "dikutip",
+      "catatan": "Hanya hak upah yang diekstrak; hak lain pada Pasal 6 (pelatihan, informasi, pelindungan hukum, jaminan kepulangan) belum termodelkan."
+    },
+    {
+      "norm_id": "JAMSOS-PMI-PENYELENGGARAAN",
+      "topik": "Jamsos",
+      "pasal": "Pasal 29 ayat (1)",
+      "iri_individu": "ktn:PenyelenggaraanJamsosPMI",
+      "jenis": "KetentuanJaminanSosial",
+      "kondisi": "Pekerja Migran Indonesia dan keluarganya memerlukan pelindungan sosial",
+      "akibat": "Pemerintah Pusat menyelenggarakan Jaminan Sosial bagi Pekerja Migran Indonesia dan keluarganya",
+      "parameter": [],
+      "bukti": "Pemerintah Pusat menyelenggarakan Jaminan Sosial bagi Pekerja Migran Indonesia dan keluarganya",
+      "confidence": 0.95,
+      "dasar_keyakinan": "dikutip",
+      "catatan": "Merupakan bagian dari Sistem Jaminan Sosial Nasional (ayat (2)) dan dikelola oleh Badan Penyelenggara Jaminan Sosial (ayat (3))."
+    },
+    {
+      "norm_id": "JAMSOS-PMI-RISIKO-TAK-TERCAKUP",
+      "topik": "Jamsos",
+      "pasal": "Pasal 29 ayat (4)",
+      "iri_individu": "ktn:KerjaSamaRisikoTakTercakup",
+      "jenis": "KetentuanJaminanSosial",
+      "kondisi": "Terdapat risiko tertentu yang tidak tercakup oleh Jaminan Sosial",
+      "akibat": "Badan Penyelenggara Jaminan Sosial Ketenagakerjaan dapat bekerja sama dengan lembaga pemerintah atau swasta",
+      "parameter": [],
+      "bukti": "Untuk risiko tertentu yang tidak tercakup oleh Jaminan Sosial, Badan Penyelenggara Jaminan Sosial Ketenagakerjaan dapat bekerja sama dengan lembaga pemerintah atau swasta.",
+      "confidence": 0.9,
+      "dasar_keyakinan": "dikutip",
+      "catatan": ""
+    }
+  ],
+  "kategori": [],
+  "pengali_lembur": [],
+  "program_jamsos": [],
+  "cakupan": {
+    "lengkap": true,
+    "pasal_diekstrak": [
+      "Pasal 1",
+      "Pasal 10",
+      "Pasal 11",
+      "Pasal 12",
+      "Pasal 13",
+      "Pasal 14",
+      "Pasal 15",
+      "Pasal 16",
+      "Pasal 17",
+      "Pasal 18",
+      "Pasal 19",
+      "Pasal 2",
+      "Pasal 20",
+      "Pasal 21",
+      "Pasal 22",
+      "Pasal 23",
+      "Pasal 24",
+      "Pasal 25",
+      "Pasal 26",
+      "Pasal 27",
+      "Pasal 28",
+      "Pasal 29",
+      "Pasal 3",
+      "Pasal 30",
+      "Pasal 31",
+      "Pasal 32",
+      "Pasal 33",
+      "Pasal 34",
+      "Pasal 35",
+      "Pasal 36",
+      "Pasal 37",
+      "Pasal 39",
+      "Pasal 4",
+      "Pasal 40",
+      "Pasal 41",
+      "Pasal 42",
+      "Pasal 43",
+      "Pasal 44",
+      "Pasal 45",
+      "Pasal 46",
+      "Pasal 47",
+      "Pasal 48",
+      "Pasal 49",
+      "Pasal 5",
+      "Pasal 50",
+      "Pasal 51",
+      "Pasal 52",
+      "Pasal 53",
+      "Pasal 54",
+      "Pasal 55",
+      "Pasal 56",
+      "Pasal 57",
+      "Pasal 58",
+      "Pasal 59",
+      "Pasal 6",
+      "Pasal 60",
+      "Pasal 61",
+      "Pasal 62",
+      "Pasal 63",
+      "Pasal 64",
+      "Pasal 65",
+      "Pasal 66",
+      "Pasal 67",
+      "Pasal 68",
+      "Pasal 69",
+      "Pasal 7",
+      "Pasal 70",
+      "Pasal 71",
+      "Pasal 72",
+      "Pasal 73",
+      "Pasal 74",
+      "Pasal 75",
+      "Pasal 76",
+      "Pasal 77",
+      "Pasal 78",
+      "Pasal 79",
+      "Pasal 8",
+      "Pasal 80",
+      "Pasal 81",
+      "Pasal 82",
+      "Pasal 83",
+      "Pasal 84",
+      "Pasal 85",
+      "Pasal 86",
+      "Pasal 87",
+      "Pasal 88",
+      "Pasal 89",
+      "Pasal 9",
+      "Pasal 90",
+      "Pasal 91"
+    ],
+    "pasal_dilewati": [
+      {
+        "pasal": "Pasal 1",
+        "alasan": "definisi/istilah"
+      },
+      {
+        "pasal": "Pasal 2",
+        "alasan": "asas pelindungan, bukan norma bersyarat"
+      },
+      {
+        "pasal": "Pasal 3",
+        "alasan": "tujuan pelindungan, bukan norma bersyarat"
+      },
+      {
+        "pasal": "Pasal 4",
+        "alasan": "ruang lingkup definisi PMI dan pengecualian"
+      },
+      {
+        "pasal": "Pasal 7",
+        "alasan": "klasifikasi tahapan pelindungan, bukan norma bersyarat"
+      },
+      {
+        "pasal": "Pasal 8",
+        "alasan": "rincian lingkup pelindungan sebelum bekerja"
+      },
+      {
+        "pasal": "Pasal 9",
+        "alasan": "sumber informasi dan verifikasi, tata cara administratif"
+      },
+      {
+        "pasal": "Pasal 10",
+        "alasan": "tata cara verifikasi Mitra Usaha dan calon Pemberi Kerja"
+      },
+      {
+        "pasal": "Pasal 11",
+        "alasan": "tugas administratif distribusi informasi"
+      },
+      {
+        "pasal": "Pasal 12",
+        "alasan": "kewajiban administratif mengikuti proses, tanpa akibat termodelkan"
+      },
+      {
+        "pasal": "Pasal 20",
+        "alasan": "delegasi pengaturan tata cara ke Peraturan Pemerintah"
+      },
+      {
+        "pasal": "Pasal 21",
+        "alasan": "rincian lingkup pelindungan selama bekerja"
+      },
+      {
+        "pasal": "Pasal 22",
+        "alasan": "kelembagaan atase ketenagakerjaan"
+      },
+      {
+        "pasal": "Pasal 23",
+        "alasan": "delegasi pengaturan tata cara ke Peraturan Pemerintah"
+      },
+      {
+        "pasal": "Pasal 24",
+        "alasan": "rincian lingkup pelindungan setelah bekerja"
+      },
+      {
+        "pasal": "Pasal 26",
+        "alasan": "pilihan prosedural setelah verifikasi"
+      },
+      {
+        "pasal": "Pasal 28",
+        "alasan": "delegasi pengaturan tata cara ke Peraturan Pemerintah"
+      },
+      {
+        "pasal": "Pasal 32",
+        "alasan": "kebijakan penghentian/pelarangan penempatan oleh Pemerintah Pusat"
+      },
+      {
+        "pasal": "Pasal 33",
+        "alasan": "kewajiban umum pemerintah memberikan pelindungan hukum"
+      },
+      {
+        "pasal": "Pasal 34",
+        "alasan": "rincian program pelindungan sosial"
+      },
+      {
+        "pasal": "Pasal 35",
+        "alasan": "rincian program pelindungan ekonomi"
+      },
+      {
+        "pasal": "Pasal 36",
+        "alasan": "delegasi pengaturan ke Peraturan Pemerintah"
+      },
+      {
+        "pasal": "Pasal 37",
+        "alasan": "sanksi administratif"
+      },
+      {
+        "pasal": "Pasal 38",
+        "alasan": "kelembagaan layanan terpadu satu atap"
+      },
+      {
+        "pasal": "Pasal 39",
+        "alasan": "tugas dan tanggung jawab Pemerintah Pusat"
+      },
+      {
+        "pasal": "Pasal 40",
+        "alasan": "tugas dan tanggung jawab Pemerintah Daerah provinsi"
+      },
+      {
+        "pasal": "Pasal 41",
+        "alasan": "tugas dan tanggung jawab Pemerintah Daerah kabupaten/kota"
+      },
+      {
+        "pasal": "Pasal 42",
+        "alasan": "tugas dan tanggung jawab Pemerintah Desa"
+      },
+      {
+        "pasal": "Pasal 43",
+        "alasan": "delegasi pengaturan ke Peraturan Pemerintah"
+      },
+      {
+        "pasal": "Pasal 44",
+        "alasan": "kelembagaan: kementerian dan Badan"
+      },
+      {
+        "pasal": "Pasal 45",
+        "alasan": "tugas Menteri sebagai pembuat kebijakan"
+      },
+      {
+        "pasal": "Pasal 46",
+        "alasan": "kelembagaan: pembentukan dan kepemimpinan Badan"
+      },
+      {
+        "pasal": "Pasal 47",
+        "alasan": "tugas kepala Badan sebagai pelaksana kebijakan"
+      },
+      {
+        "pasal": "Pasal 48",
+        "alasan": "delegasi pengaturan ke Peraturan Presiden"
+      },
+      {
+        "pasal": "Pasal 49",
+        "alasan": "kelembagaan: pelaksana penempatan PMI"
+      },
+      {
+        "pasal": "Pasal 50",
+        "alasan": "tata cara penempatan oleh Badan berdasarkan perjanjian antarnegara"
+      },
+      {
+        "pasal": "Pasal 51",
+        "alasan": "perizinan usaha: kewajiban SIP3MI"
+      },
+      {
+        "pasal": "Pasal 52",
+        "alasan": "tugas dan tanggung jawab perusahaan penempatan"
+      },
+      {
+        "pasal": "Pasal 53",
+        "alasan": "pembentukan dan pendaftaran kantor cabang perusahaan penempatan"
+      },
+      {
+        "pasal": "Pasal 54",
+        "alasan": "persyaratan perizinan SIP3MI (modal disetor dan deposito)"
+      },
+      {
+        "pasal": "Pasal 55",
+        "alasan": "penambahan dan pengembalian deposito perusahaan penempatan"
+      },
+      {
+        "pasal": "Pasal 56",
+        "alasan": "sanksi administratif"
+      },
+      {
+        "pasal": "Pasal 57",
+        "alasan": "jangka waktu dan perpanjangan SIP3MI"
+      },
+      {
+        "pasal": "Pasal 58",
+        "alasan": "pencabutan SIP3MI"
+      },
+      {
+        "pasal": "Pasal 59",
+        "alasan": "perizinan usaha: kewajiban SIP2MI"
+      },
+      {
+        "pasal": "Pasal 60",
+        "alasan": "delegasi pengaturan ke Peraturan Menteri"
+      },
+      {
+        "pasal": "Pasal 62",
+        "alasan": "sanksi administratif"
+      },
+      {
+        "pasal": "Pasal 64",
+        "alasan": "delegasi pengaturan pelaut ke Peraturan Pemerintah"
+      },
+      {
+        "pasal": "Pasal 74",
+        "alasan": "sanksi administratif"
+      },
+      {
+        "pasal": "Pasal 75",
+        "alasan": "pembinaan oleh pemerintah"
+      },
+      {
+        "pasal": "Pasal 76",
+        "alasan": "pengawasan oleh pemerintah"
+      },
+      {
+        "pasal": "Pasal 77",
+        "alasan": "tata cara penyelesaian perselisihan"
+      },
+      {
+        "pasal": "Pasal 78",
+        "alasan": "penyidikan oleh penyidik pegawai negeri sipil"
+      },
+      {
+        "pasal": "Pasal 79",
+        "alasan": "ketentuan pidana"
+      },
+      {
+        "pasal": "Pasal 80",
+        "alasan": "ketentuan pidana"
+      },
+      {
+        "pasal": "Pasal 81",
+        "alasan": "ketentuan pidana"
+      },
+      {
+        "pasal": "Pasal 82",
+        "alasan": "ketentuan pidana"
+      },
+      {
+        "pasal": "Pasal 83",
+        "alasan": "ketentuan pidana"
+      },
+      {
+        "pasal": "Pasal 84",
+        "alasan": "ketentuan pidana"
+      },
+      {
+        "pasal": "Pasal 85",
+        "alasan": "ketentuan pidana"
+      },
+      {
+        "pasal": "Pasal 86",
+        "alasan": "ketentuan pidana"
+      },
+      {
+        "pasal": "Pasal 87",
+        "alasan": "ketentuan pidana"
+      },
+      {
+        "pasal": "Pasal 88",
+        "alasan": "ketentuan peralihan"
+      },
+      {
+        "pasal": "Pasal 89",
+        "alasan": "pencabutan peraturan perundang-undangan lama"
+      },
+      {
+        "pasal": "Pasal 90",
+        "alasan": "ketentuan penutup: batas waktu peraturan pelaksanaan"
+      },
+      {
+        "pasal": "Pasal 91",
+        "alasan": "ketentuan penutup: mulai berlaku"
+      }
+    ],
+    "catatan": ""
+  },
+  "tidak_termodelkan": [
+    {
+      "pasal": "Pasal 5",
+      "ringkasan": "Persyaratan CPMI: usia minimal 18 tahun, memiliki kompetensi, sehat jasmani dan rohani, terdaftar dan memiliki nomor kepesertaan Jaminan Sosial, serta dokumen lengkap.",
+      "alasan": "Syarat subjek PMI; butuh kelas KetentuanPMI dan properti persyaratan yang belum ada di VOCAB/T-Box."
+    },
+    {
+      "pasal": "Pasal 13",
+      "ringkasan": "Dokumen wajib CPMI untuk ditempatkan: surat status perkawinan, izin suami/istri/orang tua/wali, sertifikat kompetensi kerja, surat keterangan sehat, paspor, Visa Kerja, Perjanjian Penempatan, dan Perjanjian Kerja.",
+      "alasan": "Daftar dokumen administratif PMI; belum ada kelas/properti dokumen di T-Box."
+    },
+    {
+      "pasal": "Pasal 14",
+      "ringkasan": "Hubungan kerja antara Pemberi Kerja dan PMI berdasarkan Perjanjian Kerja yang mempunyai unsur pekerjaan, upah, dan perintah.",
+      "alasan": "Unsur hubungan kerja PMI; jenis KetentuanHubunganKerja masih kandidat di VOCAB."
+    },
+    {
+      "pasal": "Pasal 15",
+      "ringkasan": "Hubungan kerja terjadi setelah Perjanjian Kerja disepakati dan ditandatangani; isi minimum Perjanjian Kerja mencakup jam kerja, upah, hak cuti dan waktu istirahat, jaminan sosial/asuransi, jangka waktu, serta jaminan keamanan dan keselamatan.",
+      "alasan": "Isi minimum Perjanjian Kerja PMI; butuh kelas KetentuanPMI (KetentuanHubunganKerja masih kandidat)."
+    },
+    {
+      "pasal": "Pasal 16",
+      "ringkasan": "Jangka waktu Perjanjian Kerja PMI dibuat berdasarkan kesepakatan tertulis antara PMI dan Pemberi Kerja serta dapat diperpanjang.",
+      "alasan": "Ketentuan jangka waktu Perjanjian Kerja PMI; butuh kelas KetentuanPMI, bukan PKWT dalam negeri."
+    },
+    {
+      "pasal": "Pasal 17",
+      "ringkasan": "Perpanjangan jangka waktu Perjanjian Kerja dilakukan di hadapan pejabat berwenang di kantor Perwakilan Republik Indonesia di negara tujuan penempatan.",
+      "alasan": "Tata cara perpanjangan Perjanjian Kerja PMI; butuh kelas/properti PMI."
+    },
+    {
+      "pasal": "Pasal 18",
+      "ringkasan": "Perjanjian Kerja tidak dapat diubah tanpa persetujuan para pihak.",
+      "alasan": "Ketentuan perubahan Perjanjian Kerja PMI; butuh kelas KetentuanPMI."
+    },
+    {
+      "pasal": "Pasal 19",
+      "ringkasan": "Perusahaan Penempatan PMI wajib menempatkan CPMI sesuai jabatan dan jenis pekerjaan dalam Perjanjian Kerja; pelanggaran dikenai sanksi administratif.",
+      "alasan": "Kewajiban penempatan sesuai jabatan oleh perusahaan penempatan; belum ada kelas kewajiban PPTKIS."
+    },
+    {
+      "pasal": "Pasal 25",
+      "ringkasan": "Perusahaan Penempatan PMI wajib melaporkan data kepulangan dan/atau perpanjangan Perjanjian Kerja kepada Perwakilan RI; pelanggaran dikenai sanksi administratif.",
+      "alasan": "Kewajiban pelaporan perusahaan penempatan; butuh kelas/properti PMI."
+    },
+    {
+      "pasal": "Pasal 27",
+      "ringkasan": "Kepulangan PMI dapat terjadi karena berakhirnya Perjanjian Kerja, cuti, PHK sebelum masa berakhir, kecelakaan/sakit, kekerasan, perang/bencana/wabah, deportasi, meninggal dunia, atau sebab lain yang merugikan; atas kematian, perusahaan penempatan wajib memberi tahu keluarga paling lambat 3x24 jam, memulangkan jenazah, dan memenuhi hak PMI.",
+      "alasan": "Alasan kepulangan dan kewajiban perusahaan penempatan atas kematian PMI; butuh kelas/properti PMI (bukan AlasanPHK)."
+    },
+    {
+      "pasal": "Pasal 30",
+      "ringkasan": "Pekerja Migran Indonesia tidak dapat dibebani biaya penempatan.",
+      "alasan": "Larangan pembebanan biaya penempatan; butuh properti biaya penempatan pada kelas PMI."
+    },
+    {
+      "pasal": "Pasal 31",
+      "ringkasan": "PMI hanya dapat bekerja ke negara tujuan yang mempunyai peraturan yang melindungi tenaga kerja asing, perjanjian tertulis dengan Pemerintah RI, dan/atau sistem Jaminan Sosial/asuransi yang melindungi pekerja asing.",
+      "alasan": "Kriteria negara tujuan penempatan; belum ada kelas/properti PMI."
+    },
+    {
+      "pasal": "Pasal 61",
+      "ringkasan": "Perusahaan dapat menempatkan pekerjanya ke luar negeri untuk kepentingan perusahaan sendiri dan wajib bertanggung jawab terhadap pelindungan pekerjanya.",
+      "alasan": "Penempatan oleh perusahaan untuk kepentingan sendiri; butuh kelas/properti PMI."
+    },
+    {
+      "pasal": "Pasal 63",
+      "ringkasan": "PMI Perseorangan dapat bekerja pada Pemberi Kerja berbadan hukum; segala risiko ketenagakerjaan menjadi tanggung jawab sendiri; wajib melapor kepada instansi ketenagakerjaan dan Perwakilan RI.",
+      "alasan": "Kategori PMI Perseorangan dan pembagian risiko; butuh kelas/properti PMI."
+    },
+    {
+      "pasal": "Pasal 65",
+      "ringkasan": "Setiap Orang dilarang memberikan data dan informasi tidak benar dalam pengisian setiap dokumen penempatan.",
+      "alasan": "Larangan khusus PMI; jenis norma larangan belum ada di VOCAB (sanksi pidana di Pasal 79)."
+    },
+    {
+      "pasal": "Pasal 66",
+      "ringkasan": "Setiap Orang dilarang menempatkan PMI yang tidak memenuhi persyaratan umur.",
+      "alasan": "Larangan penempatan di bawah usia; butuh kelas KetentuanPMI."
+    },
+    {
+      "pasal": "Pasal 67",
+      "ringkasan": "Setiap Orang dilarang menempatkan CPMI pada jabatan/jenis pekerjaan yang tidak sesuai Perjanjian Kerja atau pada pekerjaan yang bertentangan dengan peraturan perundang-undangan.",
+      "alasan": "Larangan penempatan tidak sesuai Perjanjian Kerja; butuh kelas KetentuanPMI."
+    },
+    {
+      "pasal": "Pasal 68",
+      "ringkasan": "Setiap Orang dilarang melaksanakan penempatan yang tidak memenuhi persyaratan PMI (kompetensi, kesehatan, Jaminan Sosial, dan dokumen).",
+      "alasan": "Larangan penempatan tanpa syarat PMI; butuh kelas KetentuanPMI."
+    },
+    {
+      "pasal": "Pasal 69",
+      "ringkasan": "Orang perseorangan dilarang melaksanakan penempatan Pekerja Migran Indonesia.",
+      "alasan": "Larangan penempatan oleh perseorangan; butuh kelas/properti PMI."
+    },
+    {
+      "pasal": "Pasal 70",
+      "ringkasan": "Pejabat dilarang memberangkatkan PMI yang tidak memenuhi kelengkapan dokumen dan dilarang menahan pemberangkatan PMI yang dokumennya telah lengkap.",
+      "alasan": "Larangan bagi pejabat dalam pemberangkatan PMI; butuh kelas/properti PMI."
+    },
+    {
+      "pasal": "Pasal 71",
+      "ringkasan": "Setiap Orang dilarang menempatkan PMI pada pekerjaan/jabatan yang tidak sesuai Perjanjian Kerja atau keahliannya, serta mengalihkan SIP3MI/SIP2MI kepada pihak lain.",
+      "alasan": "Larangan penempatan dan pengalihan izin; butuh kelas/properti PMI."
+    },
+    {
+      "pasal": "Pasal 72",
+      "ringkasan": "Setiap Orang dilarang membebankan komponen biaya penempatan kepada CPMI, menempatkan ke negara tertutup, menempatkan tanpa SIP2MI, atau ke negara tujuan tanpa perlindungan.",
+      "alasan": "Larangan penempatan dan pembebanan biaya; butuh kelas/properti PMI."
+    },
+    {
+      "pasal": "Pasal 73",
+      "ringkasan": "Pejabat, pegawai, petugas, dan setiap Orang yang berwenang dalam penempatan dan pelindungan PMI dilarang merangkap sebagai komisaris atau pengurus perusahaan penempatan PMI dan organisasi usaha terkait.",
+      "alasan": "Larangan rangkap jabatan; butuh kelas/properti PMI."
+    }
+  ]
+}

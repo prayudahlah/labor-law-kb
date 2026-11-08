@@ -1,0 +1,261 @@
+{
+  "spec_version": "1.1.0",
+  "vocab_version": "0.3.0",
+  "dokumen_id": "PP-7-2025",
+  "status_review": "reviewed",
+  "peraturan": {
+    "judul": "Peraturan Pemerintah Nomor 7 Tahun 2025 tentang Penyesuaian Iuran Jaminan Kecelakaan Kerja Industri Padat Karya Tertentu Tahun 2025",
+    "jenis": "PP",
+    "nomor": "7",
+    "tahun": "2025",
+    "sumber": "https://peraturan.bpk.go.id/Details/314624/pp-no-7-tahun-2025",
+    "status": "Berlaku",
+    "diubah_oleh": []
+  },
+  "norma": [
+    {
+      "norm_id": "JAMSOS-KERINGANAN-IURAN-JKK-PADAT-KARYA",
+      "topik": "Jamsos",
+      "pasal": "Pasal 3 ayat (1)",
+      "iri_individu": "ktn:JkkKeringananPadatKarya",
+      "jenis": "KetentuanJaminanSosial",
+      "kondisi": "Perusahaan industri padat karya tertentu",
+      "akibat": "Pemerintah melakukan penyesuaian Iuran JKK yang berupa keringanan Iuran JKK bagi Perusahaan tersebut",
+      "parameter": [],
+      "bukti": "Pemerintah melakukan penyesuaian Iuran JKK bagi Perusahaan industri padat karya tertentu.",
+      "confidence": 0.95,
+      "dasar_keyakinan": "dikutip",
+      "catatan": "Ayat (1) dan ayat (2) digabung karena akibatnya sama (penyesuaian Iuran JKK berwujud keringanan)."
+    },
+    {
+      "norm_id": "JAMSOS-KRITERIA-INDUSTRI-PADAT-KARYA",
+      "topik": "Jamsos",
+      "pasal": "Pasal 3 ayat (3)",
+      "iri_individu": "ktn:JkkKriteriaPadatKarya",
+      "jenis": "KetentuanJaminanSosial",
+      "kondisi": "Memiliki paling sedikit 50 Pekerja yang terdaftar sebagai peserta aktif BPJS Ketenagakerjaan dan bergerak di sektor makanan/minuman/tembakau, tekstil dan pakaian jadi, kulit dan barang kulit, alas kaki, mainan anak, atau furnitur",
+      "akibat": "Tergolong Perusahaan industri padat karya tertentu yang dapat memperoleh keringanan Iuran JKK",
+      "parameter": [],
+      "bukti": "merupakan industri yang memiliki jumlah Pekerja paling sedikit 5O (Iima puluh) orang yang terdaftar sslagai peserta aktif di BPJS Ketenagakerjaan",
+      "confidence": 0.85,
+      "dasar_keyakinan": "tafsir",
+      "catatan": "OCR: '5O (Iima puluh)' dibaca 50. Ayat (4) yang memuat 6 sektor industri digabung ke kriteria ini. Ambang 50 Pekerja belum ada nama parameter di VOCAB."
+    },
+    {
+      "norm_id": "JAMSOS-KERINGANAN-IURAN-JKK-50-PERSEN",
+      "topik": "Jamsos",
+      "pasal": "Pasal 4 ayat (1)",
+      "iri_individu": "ktn:JkkKeringanan50Persen",
+      "jenis": "KetentuanJaminanSosial",
+      "kondisi": "Perusahaan industri padat karya tertentu yang memenuhi persyaratan Pasal 3 ayat (3) dan ayat (4)",
+      "akibat": "Iuran JKK dibayar 50% dari tarif normal, yaitu 0.12% (risiko sangat rendah), 0.27% (rendah), 0.445% (sedang), 0.635% (tinggi), dan 0.87% (sangat tinggi) dari Upah sebulan",
+      "parameter": [],
+      "bukti": "Keringanan Iuran JKK diberikan sebesar 50% (lima puluh persen)",
+      "confidence": 0.9,
+      "dasar_keyakinan": "dikutip",
+      "catatan": "Tarif dasar 0.24/0.54/0.89/1.27/1.74 persen (PP 44/2015). Berlaku untuk Iuran JKK Februari 2025 s.d. Juli 2025 (Pasal 10). Persentase belum dapat diparameterkan karena tidak ada nama parameter di VOCAB."
+    },
+    {
+      "norm_id": "JAMSOS-VERIFIKASI-KERINGANAN-JKK",
+      "topik": "Jamsos",
+      "pasal": "Pasal 5 ayat (1)",
+      "iri_individu": "ktn:JkkVerifikasiKeringanan",
+      "jenis": "KetentuanJaminanSosial",
+      "kondisi": "Perusahaan industri padat karya tertentu memenuhi persyaratan Pasal 3 ayat (3) dan ayat (4)",
+      "akibat": "BPJS Ketenagakerjaan memberikan keringanan Iuran JKK melalui penyesuaian Iuran JKK setelah verifikasi, dilaksanakan dalam sistem kepesertaan yang dikelola BPJS Ketenagakerjaan",
+      "parameter": [],
+      "bukti": "Pemberian keringanan Iuran JKK sebagaimana dimaksud dalam Pasal 4 dilaksanakan melalui penyesuaian Iuran JKK oleh BPJS Ketenagakerjaan.",
+      "confidence": 0.9,
+      "dasar_keyakinan": "dikutip",
+      "catatan": "Ayat (1)-(3) digabung: semuanya mengatur jalur pemberian keringanan oleh BPJS."
+    },
+    {
+      "norm_id": "JAMSOS-BATAS-WAKTU-BAYAR-IURAN-JKK",
+      "topik": "Jamsos",
+      "pasal": "Pasal 6 ayat (1)",
+      "iri_individu": "ktn:JkkBatasBayarIuran",
+      "jenis": "KetentuanJaminanSosial",
+      "kondisi": "Perusahaan wajib membayar Iuran JKK",
+      "akibat": "Iuran JKK dibayar setiap bulan paling lambat tanggal 15 bulan berikutnya",
+      "parameter": [],
+      "bukti": "dibayar oleh Perusahaan setiap bulan paling lambat tanggal 15 bulan berikutnya",
+      "confidence": 0.95,
+      "dasar_keyakinan": "dikutip",
+      "catatan": "Tanggal 15 belum ada nama parameter yang sesuai di VOCAB."
+    },
+    {
+      "norm_id": "JAMSOS-SYARAT-PELUNASAN-IURAN-JKK",
+      "topik": "Jamsos",
+      "pasal": "Pasal 6 ayat (2)",
+      "iri_individu": "ktn:JkkSyaratPelunasan",
+      "jenis": "KetentuanJaminanSosial",
+      "kondisi": "Perusahaan industri padat karya tertentu",
+      "akibat": "Keringanan Iuran JKK baru diberikan setelah melunasi Iuran JKK sampai dengan bulan Januari 2025",
+      "parameter": [],
+      "bukti": "diberikan keringanan Iuran JKK setelah melunasi Iuran JKK sampai dengan bulan Januari 2025",
+      "confidence": 0.9,
+      "dasar_keyakinan": "dikutip",
+      "catatan": ""
+    },
+    {
+      "norm_id": "JAMSOS-KELEBIHAN-BAYAR-IURAN-JKK",
+      "topik": "Jamsos",
+      "pasal": "Pasal 6 ayat (3)",
+      "iri_individu": "ktn:JkkKelebihanBayar",
+      "jenis": "KetentuanJaminanSosial",
+      "kondisi": "Perusahaan telah melunasi Iuran JKK bulan Januari 2025 atau bulan berikutnya dan terdapat kelebihan pembayaran",
+      "akibat": "Kelebihan pembayaran Iuran JKK diperhitungkan untuk Iuran JKK bulan berikutnya",
+      "parameter": [],
+      "bukti": "kelebihan pembayaran Iuran JKK tersebut diperhitungkan untuk Iuran JKK bulan berikutnya",
+      "confidence": 0.9,
+      "dasar_keyakinan": "dikutip",
+      "catatan": "Setelah masa keringanan berakhir, Perusahaan wajib membayar penyesuaian Iuran JKK dan denda paling lambat 31 Desember 2025 (Pasal 11)."
+    },
+    {
+      "norm_id": "JAMSOS-MANFAAT-JKK-TIDAK-BERKURANG",
+      "topik": "Jamsos",
+      "pasal": "Pasal 8",
+      "iri_individu": "ktn:JkkManfaatTidakBerkurang",
+      "jenis": "KetentuanJaminanSosial",
+      "kondisi": "Peserta menerima manfaat program JKK pada saat Perusahaan memperoleh keringanan Iuran JKK",
+      "akibat": "Manfaat program JKK yang diterima Peserta tidak berkurang dan tetap sesuai ketentuan peraturan perundang-undangan",
+      "parameter": [],
+      "bukti": "tidak mengurangi manfaat program JKK yang diterima Peserta sesuai dengan ketentuan peraturan perundang-undangan",
+      "confidence": 0.95,
+      "dasar_keyakinan": "dikutip",
+      "catatan": ""
+    },
+    {
+      "norm_id": "JAMSOS-REKOMPOSISI-JKK-JKP-RISIKO-SANGAT-RENDAH",
+      "topik": "Jamsos",
+      "pasal": "Pasal 9 ayat (1)a",
+      "iri_individu": "ktn:JkkRekomposisiSangatRendah",
+      "jenis": "KetentuanJaminanSosial",
+      "kondisi": "Perusahaan dengan tingkat risiko lingkungan kerja sangat rendah yang memperoleh keringanan Iuran JKK",
+      "akibat": "Iuran JKK direkomposisi untuk Iuran JKP sebesar 0.12% dari Upah sebulan",
+      "parameter": [],
+      "bukti": "tingkat risiko lingkungan kerja sangat rendah direkomposisi untuk Iuran JKP sebesar O,L2Oo/o (noL koma satu dua nol persen) dari Upah sebulan",
+      "confidence": 0.85,
+      "dasar_keyakinan": "tafsir",
+      "catatan": "OCR: 'O,L2Oo/o' dibaca 0.12%. Dasar perhitungan Upah mengikuti ketentuan JKP (ayat (2))."
+    },
+    {
+      "norm_id": "JAMSOS-REKOMPOSISI-JKK-JKP-RISIKO-RENDAH-SANGAT-TINGGI",
+      "topik": "Jamsos",
+      "pasal": "Pasal 9 ayat (1)b",
+      "iri_individu": "ktn:JkkRekomposisiRendahKeAtas",
+      "jenis": "KetentuanJaminanSosial",
+      "kondisi": "Perusahaan dengan tingkat risiko lingkungan kerja rendah, sedang, tinggi, atau sangat tinggi yang memperoleh keringanan Iuran JKK",
+      "akibat": "Iuran JKK masing-masing direkomposisi untuk Iuran JKP sebesar 0.14% dari Upah sebulan",
+      "parameter": [],
+      "bukti": "tingkat risiko lingkungan kerja rendah, sedang, tinggi, dan sangat tinggi direkomposisi untuk Iuran JKP masing-masing sebesar O,L4Oo/o (nol koma satu empat nol persen) dari Upah sebulan",
+      "confidence": 0.85,
+      "dasar_keyakinan": "tafsir",
+      "catatan": "OCR: 'O,L4Oo/o' dibaca 0.14%. Empat kelompok risiko digabung karena tarifnya sama."
+    }
+  ],
+  "kategori": [],
+  "pengali_lembur": [],
+  "program_jamsos": [
+    {
+      "program_id": "JKK-PPK-R1",
+      "nama": "JKK risiko sangat rendah (keringanan industri padat karya 2025)",
+      "jenis_program": "JKK",
+      "tarif_pengusaha_persen": 0.12,
+      "tarif_pekerja_persen": 0.0,
+      "tarif_total_persen": 0.12,
+      "tingkat_risiko": "sangat_rendah",
+      "pasal": "Pasal 4 ayat (1)a",
+      "confidence": 0.9,
+      "dasar_keyakinan": "dikutip",
+      "bukti": "diberikan keringanan sehingga menjadi O,l2Oo/o (nol koma satu dua nol persen) dari Upah sebulan",
+      "catatan": "Tarif setelah keringanan 50% dari 0.24%."
+    },
+    {
+      "program_id": "JKK-PPK-R2",
+      "nama": "JKK risiko rendah (keringanan industri padat karya 2025)",
+      "jenis_program": "JKK",
+      "tarif_pengusaha_persen": 0.27,
+      "tarif_pekerja_persen": 0.0,
+      "tarif_total_persen": 0.27,
+      "tingkat_risiko": "rendah",
+      "pasal": "Pasal 4 ayat (1)b",
+      "confidence": 0.9,
+      "dasar_keyakinan": "dikutip",
+      "bukti": "diberikan keringanan sehingga menjadi O,27Oo/o (nol koma dua tujuh nol persen) dari Upah sebulan",
+      "catatan": "Tarif setelah keringanan 50% dari 0.54%."
+    },
+    {
+      "program_id": "JKK-PPK-R3",
+      "nama": "JKK risiko sedang (keringanan industri padat karya 2025)",
+      "jenis_program": "JKK",
+      "tarif_pengusaha_persen": 0.445,
+      "tarif_pekerja_persen": 0.0,
+      "tarif_total_persen": 0.445,
+      "tingkat_risiko": "sedang",
+      "pasal": "Pasal 4 ayat (1)c",
+      "confidence": 0.9,
+      "dasar_keyakinan": "dikutip",
+      "bukti": "diberikan sehingga menjadi O,445o/o (nol koma empat empat lima persen) dari Upah sebulan",
+      "catatan": "Tarif setelah keringanan 50% dari 0.89%."
+    },
+    {
+      "program_id": "JKK-PPK-R4",
+      "nama": "JKK risiko tinggi (keringanan industri padat karya 2025)",
+      "jenis_program": "JKK",
+      "tarif_pengusaha_persen": 0.635,
+      "tarif_pekerja_persen": 0.0,
+      "tarif_total_persen": 0.635,
+      "tingkat_risiko": "tinggi",
+      "pasal": "Pasal 4 ayat (1)d",
+      "confidence": 0.9,
+      "dasar_keyakinan": "dikutip",
+      "bukti": "diberikan keringanan sehingga menjadi 0,6350/o (nol koma enam tiga lima persen) dari Upah sebulan",
+      "catatan": "Tarif dasar terbaca '1,277o' (OCR) dan dikonfirmasi 1.27% oleh hasil keringanan 0.635%."
+    },
+    {
+      "program_id": "JKK-PPK-R5",
+      "nama": "JKK risiko sangat tinggi (keringanan industri padat karya 2025)",
+      "jenis_program": "JKK",
+      "tarif_pengusaha_persen": 0.87,
+      "tarif_pekerja_persen": 0.0,
+      "tarif_total_persen": 0.87,
+      "tingkat_risiko": "sangat_tinggi",
+      "pasal": "Pasal 4 ayat (1)e",
+      "confidence": 0.9,
+      "dasar_keyakinan": "dikutip",
+      "bukti": "diberikan keringanan sehingga menjadi 0,870% (nol koma delapan tqiuh nol persen) dari Upah sebulan",
+      "catatan": "Tarif setelah keringanan 50% dari 1.74%; berlaku untuk Iuran JKK Februari-Juli 2025."
+    }
+  ],
+  "cakupan": {
+    "lengkap": true,
+    "pasal_diekstrak": [
+      "Pasal 12",
+      "Pasal 2",
+      "Pasal 3",
+      "Pasal 4",
+      "Pasal 5",
+      "Pasal 6",
+      "Pasal 7",
+      "Pasal 8",
+      "Pasal 9"
+    ],
+    "pasal_dilewati": [
+      {
+        "pasal": "Pasal 2",
+        "alasan": "pernyataan tujuan peraturan, bukan norma kondisi-akibat"
+      },
+      {
+        "pasal": "Pasal 7",
+        "alasan": "sanksi denda; besaran dan tata cara mengacu peraturan perundang-undangan lain"
+      },
+      {
+        "pasal": "Pasal 12",
+        "alasan": "ketentuan penutup: saat mulai berlaku"
+      }
+    ],
+    "catatan": ""
+  },
+  "tidak_termodelkan": []
+}

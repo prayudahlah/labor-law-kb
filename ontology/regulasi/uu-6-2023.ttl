@@ -17,24 +17,341 @@
     dct:source <https://peraturan.bpk.go.id/Details/246523/uu-no-6-tahun-2023> ;
     owl:imports <https://example.org/kbr/ketenagakerjaan> .
 
+ktn:DasarPerjanjianAlihDaya a owl:NamedIndividual, ktn:KetentuanAlihDaya ;
+    ktn:pasal "Pasal 66 ayat (1)" ;
+    dct:source reg:UU-6-2023 .
+
+ktn:FormalitasBadanHukumAlihDaya a owl:NamedIndividual, ktn:KetentuanAlihDaya ;
+    ktn:pasal "Pasal 66 ayat (4)" ;
+    dct:source reg:UU-6-2023 .
+
+ktn:TanggungJawabPerlindunganAlihDaya a owl:NamedIndividual, ktn:KetentuanAlihDaya ;
+    ktn:pasal "Pasal 66 ayat (2)" ;
+    dct:source reg:UU-6-2023 .
+
+ktn:PerjanjianAlihDayaTertulis a owl:NamedIndividual, ktn:KetentuanAlihDaya ;
+    ktn:pasal "Pasal 64 ayat (1)" ;
+    dct:source reg:UU-6-2023 .
+
+ktn:SyaratPengalihanHakAlihDaya a owl:NamedIndividual, ktn:KetentuanAlihDaya ;
+    ktn:pasal "Pasal 66 ayat (3)" ;
+    dct:source reg:UU-6-2023 .
+
+ktn:IstirahatAntarJamKerja a owl:NamedIndividual, ktn:KetentuanWaktuKerja ;
+    ktn:pasal "Pasal 79 ayat (2)a" ;
+    dct:source reg:UU-6-2023 .
+
+ktn:IstirahatMingguan6HariUu62023 a owl:NamedIndividual, ktn:KetentuanWaktuKerja ;
+    ktn:istirahatMingguanHari 1 ;
+    ktn:pasal "Pasal 79 ayat (2)b" ;
+    dct:source reg:UU-6-2023 .
+
+ktn:CutiTahunan12HariUu62023 a owl:NamedIndividual, ktn:KetentuanWaktuKerja ;
+    ktn:hariDibayar 12 ;
+    ktn:pasal "Pasal 79 ayat (3)" ;
+    dct:source reg:UU-6-2023 .
+
+ktn:HakJKPSetelahPHK a owl:NamedIndividual, ktn:KetentuanJaminanSosial ;
+    ktn:pasal "Pasal 46A ayat (1) dan ayat (2)" ;
+    dct:source reg:UU-6-2023 .
+
+ktn:ManfaatJKPEnamBulan a owl:NamedIndividual, ktn:KetentuanJaminanSosial ;
+    ktn:bulanUpahPenuh 6 ;
+    ktn:pasal "Pasal 46D ayat (2)" ;
+    dct:source reg:UU-6-2023 .
+
+ktn:PesertaJKPIuranPemerintah a owl:NamedIndividual, ktn:KetentuanJaminanSosial ;
+    ktn:pasal "Pasal 46C ayat (1) dan ayat (2)" ;
+    dct:source reg:UU-6-2023 .
+
+ktn:SumberPendanaanJKP a owl:NamedIndividual, ktn:KetentuanJaminanSosial ;
+    ktn:pasal "Pasal 46E ayat (1)" ;
+    dct:source reg:UU-6-2023 .
+
 ktn:BatasJamLembur a owl:NamedIndividual, ktn:KetentuanLembur ;
     ktn:jamLemburMaksPerHari 4 ;
     ktn:jamLemburMaksPerMinggu 18 ;
     ktn:pasal "Pasal 78 ayat (1)b" ;
     dct:source reg:UU-6-2023 .
 
-ktn:WaktuKerja5Hari a owl:NamedIndividual, ktn:KetentuanWaktuKerja ;
-    ktn:istirahatMingguanHari 2 ;
+ktn:KewajibanUpahLemburUu62023 a owl:NamedIndividual, ktn:KetentuanLembur ;
+    ktn:pasal "Pasal 78 ayat (2)" ;
+    dct:source reg:UU-6-2023 .
+
+ktn:PersetujuanPekerjaLembur a owl:NamedIndividual, ktn:KetentuanLembur ;
+    ktn:pasal "Pasal 78 ayat (1)a" ;
+    dct:source reg:UU-6-2023 .
+
+ktn:PerundinganBipartitPHK a owl:NamedIndividual, ktn:AlasanPHK ;
+    ktn:pasal "Pasal 151 ayat (3)" ;
+    dct:source reg:UU-6-2023 .
+
+ktn:KewajibanSelamaPerselisihanPHI a owl:NamedIndividual, ktn:AlasanPHK ;
+    ktn:pasal "Pasal 157A ayat (1) dan ayat (3)" ;
+    dct:source reg:UU-6-2023 .
+
+ktn:KomponenUpahPesangon a owl:NamedIndividual, ktn:AlasanPHK ;
+    ktn:pasal "Pasal 157 ayat (1)" ;
+    dct:source reg:UU-6-2023 .
+
+ktn:LaranganAlasanPHK a owl:NamedIndividual, ktn:AlasanPHK ;
+    ktn:pasal "Pasal 153 ayat (1) dan ayat (2)" ;
+    dct:source reg:UU-6-2023 .
+
+ktn:PHKMelaluiMekanismePHI a owl:NamedIndividual, ktn:AlasanPHK ;
+    ktn:pasal "Pasal 151 ayat (4)" ;
+    dct:source reg:UU-6-2023 .
+
+ktn:PemberitahuanPHKUu62023 a owl:NamedIndividual, ktn:AlasanPHK ;
+    ktn:pasal "Pasal 151 ayat (2)" ;
+    dct:source reg:UU-6-2023 .
+
+ktn:KewajibanPesangonUPMKUPH a owl:NamedIndividual, ktn:AlasanPHK ;
+    ktn:pasal "Pasal 156 ayat (1)" ;
+    dct:source reg:UU-6-2023 .
+
+ktn:SkorsingDenganUpah a owl:NamedIndividual, ktn:AlasanPHK ;
+    ktn:pasal "Pasal 157A ayat (2)" ;
+    dct:source reg:UU-6-2023 .
+
+ktn:BantuanKeluargaPekerjaDitahanUu62023 a owl:NamedIndividual, ktn:AlasanPHK ;
+    ktn:pasal "Pasal 160 ayat (1)" ;
+    dct:source reg:UU-6-2023 .
+
+ktn:BatasBantuanPekerjaDitahan a owl:NamedIndividual, ktn:AlasanPHK ;
+    ktn:pasal "Pasal 160 ayat (2) dan ayat (3)" ;
+    dct:source reg:UU-6-2023 .
+
+ktn:WajibPekerjakanKembaliJikaBebas a owl:NamedIndividual, ktn:AlasanPHK ;
+    ktn:pasal "Pasal 160 ayat (4)" ;
+    dct:source reg:UU-6-2023 .
+
+ktn:PHKJikaDiputusBersalah a owl:NamedIndividual, ktn:AlasanPHK ;
+    ktn:pasal "Pasal 160 ayat (5)" ;
+    dct:source reg:UU-6-2023 .
+
+ktn:PHKTanpaPemberitahuan a owl:NamedIndividual, ktn:AlasanPHK ;
+    ktn:pasal "Pasal 151A" ;
+    dct:source reg:UU-6-2023 .
+
+ktn:DasarPesangonUpahMinimumUu62023 a owl:NamedIndividual, ktn:AlasanPHK ;
+    ktn:pasal "Pasal 157 ayat (4)" ;
+    dct:source reg:UU-6-2023 .
+
+ktn:UpahSebulanDariUpahHarianUu62023 a owl:NamedIndividual, ktn:AlasanPHK ;
+    ktn:pasal "Pasal 157 ayat (2)" ;
+    dct:source reg:UU-6-2023 .
+
+ktn:UpahSebulanSatuanHasilUu62023 a owl:NamedIndividual, ktn:AlasanPHK ;
+    ktn:pasal "Pasal 157 ayat (3)" ;
+    dct:source reg:UU-6-2023 .
+
+ktn:LingkupUPHUu62023 a owl:NamedIndividual, ktn:AlasanPHK ;
+    ktn:pasal "Pasal 156 ayat (4)" ;
+    dct:source reg:UU-6-2023 .
+
+ktn:UpayaMenghindariPHKUu62023 a owl:NamedIndividual, ktn:AlasanPHK ;
+    ktn:pasal "Pasal 151 ayat (1)" ;
+    dct:source reg:UU-6-2023 .
+
+ktn:AhliWarisAkhiriPerjanjianKerja a owl:NamedIndividual, ktn:KetentuanPKWT ;
+    ktn:pasal "Pasal 61 ayat (4)" ;
+    dct:source reg:UU-6-2023 .
+
+ktn:BahasaPKWTDominan a owl:NamedIndividual, ktn:KetentuanPKWT ;
+    ktn:pasal "Pasal 57 ayat (2)" ;
+    dct:source reg:UU-6-2023 .
+
+ktn:AlasanPerjanjianKerjaBerakhir a owl:NamedIndividual, ktn:KetentuanPKWT ;
+    ktn:pasal "Pasal 61 ayat (1)" ;
+    dct:source reg:UU-6-2023 .
+
+ktn:DasarPKWT a owl:NamedIndividual, ktn:KetentuanPKWT ;
+    ktn:pasal "Pasal 56 ayat (2)" ;
+    dct:source reg:UU-6-2023 .
+
+ktn:FormalitasPKWT a owl:NamedIndividual, ktn:KetentuanPKWT ;
+    ktn:pasal "Pasal 57 ayat (1)" ;
+    dct:source reg:UU-6-2023 .
+
+ktn:HakAhliWarisPekerjaUu62023 a owl:NamedIndividual, ktn:KetentuanPKWT ;
+    ktn:pasal "Pasal 61 ayat (5)" ;
+    dct:source reg:UU-6-2023 .
+
+ktn:KewajibanKompensasiPKWT a owl:NamedIndividual, ktn:KetentuanPKWT ;
+    ktn:pasal "Pasal 61A ayat (1)" ;
+    dct:source reg:UU-6-2023 .
+
+ktn:KonversiPKWTTidakMemenuhiSyarat a owl:NamedIndividual, ktn:KetentuanPKWT ;
+    ktn:pasal "Pasal 59 ayat (3)" ;
+    dct:source reg:UU-6-2023 .
+
+ktn:PKWTTidakUntukPekerjaanTetap a owl:NamedIndividual, ktn:KetentuanPKWT ;
+    ktn:pasal "Pasal 59 ayat (2)" ;
+    dct:source reg:UU-6-2023 .
+
+ktn:BatalMasaPercobaanPKWT a owl:NamedIndividual, ktn:KetentuanPKWT ;
+    ktn:pasal "Pasal 58 ayat (2)" ;
+    dct:source reg:UU-6-2023 .
+
+ktn:LingkupPekerjaanPKWT a owl:NamedIndividual, ktn:KetentuanPKWT ;
+    ktn:pasal "Pasal 59 ayat (1)" ;
+    dct:source reg:UU-6-2023 .
+
+ktn:HakPekerjaPadaPengalihanPerusahaanUu62023 a owl:NamedIndividual, ktn:KetentuanPKWT ;
+    ktn:pasal "Pasal 61 ayat (3)" ;
+    dct:source reg:UU-6-2023 .
+
+ktn:PerjanjianKerjaTidakBerakhirKarenaPengalihan a owl:NamedIndividual, ktn:KetentuanPKWT ;
+    ktn:pasal "Pasal 61 ayat (2)" ;
+    dct:source reg:UU-6-2023 .
+
+ktn:BatasJabatanWaktuTKA a owl:NamedIndividual, ktn:KetentuanTKA ;
+    ktn:pasal "Pasal 42 ayat (4)" ;
+    dct:source reg:UU-6-2023 .
+
+ktn:KompensasiTKAUu62023 a owl:NamedIndividual, ktn:KetentuanTKA ;
+    ktn:pasal "Pasal 47 ayat (1)" ;
+    dct:source reg:UU-6-2023 .
+
+ktn:LaranganPemberiKerjaPerseoranganTKA a owl:NamedIndividual, ktn:KetentuanTKA ;
+    ktn:pasal "Pasal 42 ayat (2)" ;
+    dct:source reg:UU-6-2023 .
+
+ktn:LaranganJabatanPersonaliaTKAUu62023 a owl:NamedIndividual, ktn:KetentuanTKA ;
+    ktn:pasal "Pasal 42 ayat (5)" ;
+    dct:source reg:UU-6-2023 .
+
+ktn:PelatihanKerjaPendampingTKA a owl:NamedIndividual, ktn:KetentuanTKA ;
+    ktn:pasal "Pasal 45 ayat (1)b" ;
+    dct:source reg:UU-6-2023 .
+
+ktn:PemulanganTKAUu62023 a owl:NamedIndividual, ktn:KetentuanTKA ;
+    ktn:pasal "Pasal 45 ayat (1)c" ;
+    dct:source reg:UU-6-2023 .
+
+ktn:RencanaPenggunaanTKAUu62023 a owl:NamedIndividual, ktn:KetentuanTKA ;
+    ktn:pasal "Pasal 42 ayat (1)" ;
+    dct:source reg:UU-6-2023 .
+
+ktn:TenagaPendampingTKA a owl:NamedIndividual, ktn:KetentuanTKA ;
+    ktn:pasal "Pasal 45 ayat (1)a" ;
+    dct:source reg:UU-6-2023 .
+
+ktn:KewajibanBayarUpahSesuaiKesepakatan a owl:NamedIndividual, ktn:KetentuanUpah ;
+    ktn:pasal "Pasal 88A ayat (3)" ;
+    dct:source reg:UU-6-2023 .
+
+ktn:UpahBerdasarkanSatuanWaktuHasil a owl:NamedIndividual, ktn:KetentuanUpah ;
+    ktn:pasal "Pasal 88B ayat (1)" ;
+    dct:source reg:UU-6-2023 .
+
+ktn:DendaKeterlambatanUpahUu62023 a owl:NamedIndividual, ktn:KetentuanUpah ;
+    ktn:pasal "Pasal 88A ayat (6)" ;
+    dct:source reg:UU-6-2023 .
+
+ktn:DendaPelanggaranPekerjaUu62023 a owl:NamedIndividual, ktn:KetentuanUpah ;
+    ktn:pasal "Pasal 88A ayat (7)" ;
+    dct:source reg:UU-6-2023 .
+
+ktn:UpahDiAtasMinimumKesepakatan a owl:NamedIndividual, ktn:KetentuanUpah ;
+    ktn:pasal "Pasal 90A" ;
+    dct:source reg:UU-6-2023 .
+
+ktn:FormulaUpahMinimumKhusus a owl:NamedIndividual, ktn:KetentuanUpah ;
+    ktn:pasal "Pasal 88F" ;
+    dct:source reg:UU-6-2023 .
+
+ktn:UpahPenuhSelamaIstirahatUu62023 a owl:NamedIndividual, ktn:KetentuanUpah ;
+    ktn:pasal "Pasal 84" ;
+    dct:source reg:UU-6-2023 .
+
+ktn:KesepakatanUpahTidakBolehRendah a owl:NamedIndividual, ktn:KetentuanUpah ;
+    ktn:pasal "Pasal 88A ayat (4) dan ayat (5)" ;
+    dct:source reg:UU-6-2023 .
+
+ktn:BatasBawahUpahUsahaMikro a owl:NamedIndividual, ktn:KetentuanUpah ;
+    ktn:pasal "Pasal 90B ayat (3)" ;
+    dct:source reg:UU-6-2023 .
+
+ktn:UpahMinimumMasaKerjaKurang1Tahun a owl:NamedIndividual, ktn:KetentuanUpah ;
+    ktn:pasal "Pasal 88E ayat (1)" ;
+    dct:source reg:UU-6-2023 .
+
+ktn:DasarPenetapanUpahMinimum a owl:NamedIndividual, ktn:KetentuanUpah ;
+    ktn:pasal "Pasal 88C ayat (4) dan ayat (5)" ;
+    dct:source reg:UU-6-2023 .
+
+ktn:FormulaUpahMinimum a owl:NamedIndividual, ktn:KetentuanUpah ;
+    ktn:pasal "Pasal 88D ayat (1) dan ayat (2)" ;
+    dct:source reg:UU-6-2023 .
+
+ktn:UpahMinimumKabupatenKota a owl:NamedIndividual, ktn:KetentuanUpah ;
+    ktn:pasal "Pasal 88C ayat (2) dan ayat (3)" ;
+    dct:source reg:UU-6-2023 .
+
+ktn:UpahTimbulSaatHubunganKerja a owl:NamedIndividual, ktn:KetentuanUpah ;
+    ktn:pasal "Pasal 88A ayat (1)" ;
+    dct:source reg:UU-6-2023 .
+
+ktn:PrioritasPembayaranUpahPailit a owl:NamedIndividual, ktn:KetentuanUpah ;
+    ktn:pasal "Pasal 95 ayat (2) dan ayat (3)" ;
+    dct:source reg:UU-6-2023 .
+
+ktn:UtangUpahPailitDidahulukan a owl:NamedIndividual, ktn:KetentuanUpah ;
+    ktn:pasal "Pasal 95 ayat (1)" ;
+    dct:source reg:UU-6-2023 .
+
+ktn:HakPenghidupanLayakUu62023 a owl:NamedIndividual, ktn:KetentuanUpah ;
+    ktn:pasal "Pasal 88 ayat (1)" ;
+    dct:source reg:UU-6-2023 .
+
+ktn:PeninjauanUpahBerkalaUu62023 a owl:NamedIndividual, ktn:KetentuanUpah ;
+    ktn:pasal "Pasal 92A" ;
+    dct:source reg:UU-6-2023 .
+
+ktn:UpahPokokMinimal75PersenUu62023 a owl:NamedIndividual, ktn:KetentuanUpah ;
+    ktn:pasal "Pasal 94" ;
+    dct:source reg:UU-6-2023 .
+
+ktn:UpahSamaNilaiSamaUu62023 a owl:NamedIndividual, ktn:KetentuanUpah ;
+    ktn:pasal "Pasal 88A ayat (2)" ;
+    dct:source reg:UU-6-2023 .
+
+ktn:PedomanStrukturMasaKerja1TahunUu62023 a owl:NamedIndividual, ktn:KetentuanUpah ;
+    ktn:pasal "Pasal 92 ayat (2)" ;
+    dct:source reg:UU-6-2023 .
+
+ktn:KewajibanStrukturSkalaUpahUu62023 a owl:NamedIndividual, ktn:KetentuanUpah ;
+    ktn:pasal "Pasal 92 ayat (1)" ;
+    dct:source reg:UU-6-2023 .
+
+ktn:LaranganUpahDiBawahMinimumUu62023 a owl:NamedIndividual, ktn:KetentuanUpah ;
+    ktn:pasal "Pasal 88E ayat (2)" ;
+    dct:source reg:UU-6-2023 .
+
+ktn:LaranganMenurunkanUpahUu62023 a owl:NamedIndividual, ktn:KetentuanUpah ;
+    ktn:pasal "Pasal 191A huruf b" ;
+    dct:source reg:UU-6-2023 .
+
+ktn:KewajibanGubernurTetapkanUMPUu62023 a owl:NamedIndividual, ktn:KetentuanUpah ;
+    ktn:pasal "Pasal 88C ayat (1)" ;
+    dct:source reg:UU-6-2023 .
+
+ktn:PengecualianUpahMinimumUsahaMikroUu62023 a owl:NamedIndividual, ktn:KetentuanUpah ;
+    ktn:pasal "Pasal 90B ayat (1) dan ayat (2)" ;
+    dct:source reg:UU-6-2023 .
+
+ktn:WaktuKerja5HariUu62023 a owl:NamedIndividual, ktn:KetentuanWaktuKerja ;
     ktn:jamKerjaPerHari 8 ;
     ktn:jamKerjaPerMinggu 40 ;
     ktn:jumlahHariKerjaPerMinggu 5 ;
-    ktn:pasal "Pasal 77" ;
+    ktn:pasal "Pasal 77 ayat (2)b" ;
     dct:source reg:UU-6-2023 .
 
-ktn:WaktuKerja6Hari a owl:NamedIndividual, ktn:KetentuanWaktuKerja ;
-    ktn:istirahatMingguanHari 1 ;
+ktn:WaktuKerja6HariUu62023 a owl:NamedIndividual, ktn:KetentuanWaktuKerja ;
     ktn:jamKerjaPerHari 7 ;
     ktn:jamKerjaPerMinggu 40 ;
     ktn:jumlahHariKerjaPerMinggu 6 ;
-    ktn:pasal "Pasal 77" ;
+    ktn:pasal "Pasal 77 ayat (2)a" ;
     dct:source reg:UU-6-2023 .

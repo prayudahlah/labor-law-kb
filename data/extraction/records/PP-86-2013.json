@@ -1,0 +1,171 @@
+{
+  "spec_version": "1.1.0",
+  "vocab_version": "0.3.0",
+  "dokumen_id": "PP-86-2013",
+  "status_review": "reviewed",
+  "peraturan": {
+    "judul": "Peraturan Pemerintah Nomor 86 Tahun 2013 tentang Tata Cara Pengenaan Sanksi Administratif kepada Pemberi Kerja dan Setiap Orang Selain Pemberi Kerja dan Pekerja",
+    "jenis": "PP",
+    "nomor": "86",
+    "tahun": "2013",
+    "sumber": "https://peraturan.bpk.go.id/Details/5421/pp-no-86-tahun-2013",
+    "status": "Berlaku",
+    "diubah_oleh": []
+  },
+  "norma": [
+    {
+      "norm_id": "JAMSOS-DAFTAR-PESERTA-PEMBERI-KERJA",
+      "topik": "Jamsos",
+      "pasal": "Pasal 3 ayat (1)",
+      "iri_individu": "ktn:WajibDaftarPesertaPemberiKerja",
+      "jenis": "KetentuanJaminanSosial",
+      "kondisi": "Pemberi Kerja Selain Penyelenggara Negara",
+      "akibat": "Wajib mendaftarkan dirinya dan pekerjanya sebagai peserta kepada BPJS secara bertahap sesuai program jaminan sosial yang diikuti, dan memberikan data dirinya serta pekerjanya berikut anggota keluarganya secara lengkap dan benar",
+      "bukti": "Pemberi Kerja Selain Penyelenggara Negara wajib: a. mendaftarkan dirinya dan pekerjanya sebagai peserta kepada BPJS secara bertahap",
+      "confidence": 0.95,
+      "dasar_keyakinan": "dikutip",
+      "catatan": "Ayat (2)-(3) merinci cakupan data lengkap dan benar (data pekerja/keluarga, upah, kepesertaan, perubahan data); bukan akibat hukum terpisah."
+    },
+    {
+      "norm_id": "JAMSOS-LAPOR-PERUBAHAN-DATA-PEMBERI-KERJA",
+      "topik": "Jamsos",
+      "pasal": "Pasal 3 ayat (4)",
+      "iri_individu": "ktn:LaporPerubahanDataPemberiKerja",
+      "jenis": "KetentuanJaminanSosial",
+      "kondisi": "Terjadi perubahan data ketenagakerjaan Pemberi Kerja Selain Penyelenggara Negara (alamat/kepemilikan/kepengurusan perusahaan, jenis badan usaha, jumlah pekerja, data pekerja dan keluarga, atau besarnya upah)",
+      "akibat": "Wajib dilaporkan kepada BPJS paling lambat 7 (tujuh) hari kerja sejak terjadinya perubahan",
+      "parameter": [
+        {
+          "nama": "batasHariPencatatan",
+          "nilai": "7",
+          "satuan": "hari",
+          "jenis": "nominal",
+          "pasal": "Pasal 3 ayat (4)"
+        }
+      ],
+      "bukti": "dilaporkan oleh Pemberi Kerja Selain Penyelenggara Negara kepada BPJS paling lambat 7 (tujuh) hari kerja sejak terjadinya perubahan",
+      "confidence": 0.95,
+      "dasar_keyakinan": "dikutip",
+      "catatan": "Satuan asli adalah hari kerja; parameter batasHariPencatatan hanya membedakan satuan hari."
+    },
+    {
+      "norm_id": "JAMSOS-DAFTAR-PESERTA-ORANG-SELAIN-PEMBERI-KERJA",
+      "topik": "Jamsos",
+      "pasal": "Pasal 4 ayat (1)",
+      "iri_individu": "ktn:WajibDaftarPesertaOrang",
+      "jenis": "KetentuanJaminanSosial",
+      "kondisi": "Setiap orang selain pemberi kerja, Pekerja, dan penerima bantuan iuran yang memenuhi ketentuan peraturan perundang-undangan",
+      "akibat": "Wajib mendaftarkan dirinya dan anggota keluarganya sebagai peserta kepada BPJS dan memberikan data dirinya serta anggota keluarganya secara lengkap dan benar",
+      "bukti": "mendaftarkan dirinya dan anggota keluarganya sebagai peserta kepada BPJS",
+      "confidence": 0.95,
+      "dasar_keyakinan": "dikutip",
+      "catatan": "Ayat (2) merinci cakupan data (data anggota keluarga, kepesertaan, perubahan data)."
+    },
+    {
+      "norm_id": "JAMSOS-LAPOR-PERUBAHAN-DATA-ORANG-SELAIN-PEMBERI-KERJA",
+      "topik": "Jamsos",
+      "pasal": "Pasal 4 ayat (4)",
+      "iri_individu": "ktn:LaporPerubahanDataOrang",
+      "jenis": "KetentuanJaminanSosial",
+      "kondisi": "Terjadi perubahan data diri dan anggota keluarga setiap orang selain pemberi kerja, Pekerja, dan penerima bantuan iuran (alamat rumah, jenis pekerjaan, jumlah anggota keluarga)",
+      "akibat": "Wajib dilaporkan kepada BPJS paling lambat 7 (tujuh) hari kerja sejak terjadinya perubahan",
+      "parameter": [
+        {
+          "nama": "batasHariPencatatan",
+          "nilai": "7",
+          "satuan": "hari",
+          "jenis": "nominal",
+          "pasal": "Pasal 4 ayat (4)"
+        }
+      ],
+      "bukti": "dilaporkan oleh setiap orang, selain pemberi kerja, Pekerja, dan penerima bantuan iuran kepada BPJS paling lambat 7 (tujuh) hari kerja",
+      "confidence": 0.95,
+      "dasar_keyakinan": "dikutip",
+      "catatan": "Ayat (3) merinci data yang berubah; satuan asli hari kerja."
+    }
+  ],
+  "kategori": [],
+  "pengali_lembur": [],
+  "program_jamsos": [],
+  "cakupan": {
+    "lengkap": true,
+    "pasal_diekstrak": [
+      "Pasal 1",
+      "Pasal 10",
+      "Pasal 11",
+      "Pasal 12",
+      "Pasal 13",
+      "Pasal 14",
+      "Pasal 15",
+      "Pasal 16",
+      "Pasal 2",
+      "Pasal 3",
+      "Pasal 4",
+      "Pasal 5",
+      "Pasal 6",
+      "Pasal 7",
+      "Pasal 8",
+      "Pasal 9"
+    ],
+    "pasal_dilewati": [
+      {
+        "pasal": "Pasal 1",
+        "alasan": "definisi/istilah: BPJS Kesehatan, BPJS Ketenagakerjaan, Peserta, Pekerja, Pemberi Kerja Selain Penyelenggara Negara, dan Keluarga, tanpa akibat hukum yang dapat dinalar"
+      },
+      {
+        "pasal": "Pasal 2",
+        "alasan": "kelembagaan: kedudukan BPJS sebagai badan hukum publik dan pembagian BPJS Kesehatan/Ketenagakerjaan, bukan hak atau kewajiban normatif para pihak"
+      },
+      {
+        "pasal": "Pasal 5",
+        "alasan": "sanksi administratif: penunjukan pihak yang dikenai sanksi atas pelanggaran Pasal 3/Pasal 4 beserta jenis sanksinya (teguran tertulis, denda, tidak mendapat pelayanan publik)"
+      },
+      {
+        "pasal": "Pasal 6",
+        "alasan": "sanksi administratif: tata cara dan jangka waktu pengenaan teguran tertulis oleh BPJS (paling banyak 2 kali, masing-masing 10 hari kerja)"
+      },
+      {
+        "pasal": "Pasal 7",
+        "alasan": "sanksi administratif: jangka waktu pengenaan denda oleh BPJS (paling lama 30 hari) dan denda menjadi pendapatan lain dana jaminan sosial"
+      },
+      {
+        "pasal": "Pasal 8",
+        "alasan": "sanksi administratif: tata cara pengenaan sanksi tidak mendapat pelayanan publik tertentu oleh Pemerintah/pemerintah daerah atas permintaan BPJS"
+      },
+      {
+        "pasal": "Pasal 9",
+        "alasan": "sanksi administratif: daftar layanan publik yang ditahan (perizinan usaha, tender, izin TKA, IMB, SIM, sertifikat tanah, paspor, STNK), bukan norma hak pekerja"
+      },
+      {
+        "pasal": "Pasal 10",
+        "alasan": "sanksi administratif: tahapan sanksi kepada Pemberi Kerja Selain Penyelenggara Negara (teguran pertama, teguran kedua, denda 0,1% per bulan, penahanan layanan publik) beserta syarat pencabutannya; parameter denda persen tidak tersedia di VOCAB"
+      },
+      {
+        "pasal": "Pasal 11",
+        "alasan": "sanksi administratif: pengenaan dan pencabutan sanksi tidak mendapat pelayanan publik tertentu bagi setiap orang selain pemberi kerja, Pekerja, dan penerima bantuan iuran yang tidak mendaftar"
+      },
+      {
+        "pasal": "Pasal 12",
+        "alasan": "sanksi administratif: tahapan teguran tertulis dan penahanan layanan publik bagi setiap orang selain pemberi kerja, Pekerja, dan penerima bantuan iuran yang tidak memberikan data"
+      },
+      {
+        "pasal": "Pasal 13",
+        "alasan": "pengawasan: dasar, objek, dan pelaporan hasil pengawasan/pemeriksaan kepatuhan penyelenggaraan program jaminan sosial oleh BPJS, bukan norma hak"
+      },
+      {
+        "pasal": "Pasal 14",
+        "alasan": "kelembagaan: pengangkatan petugas pemeriksa BPJS dan pendelegasian tata cara pengawasan kepada Peraturan BPJS"
+      },
+      {
+        "pasal": "Pasal 15",
+        "alasan": "pengawasan: pengawasan terhadap kepatuhan Pemerintah/pemerintah daerah dalam memberikan sanksi, bersifat kelembagaan"
+      },
+      {
+        "pasal": "Pasal 16",
+        "alasan": "ketentuan penutup: Peraturan Pemerintah ini berlaku pada tanggal diundangkan, tanpa akibat hukum yang dapat dinalar"
+      }
+    ],
+    "catatan": ""
+  },
+  "tidak_termodelkan": []
+}

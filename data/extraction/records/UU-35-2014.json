@@ -1,0 +1,442 @@
+{
+  "spec_version": "1.1.0",
+  "vocab_version": "0.3.0",
+  "dokumen_id": "UU-35-2014",
+  "status_review": "reviewed",
+  "peraturan": {
+    "judul": "Undang-Undang Nomor 35 Tahun 2014 tentang Perubahan atas Undang-Undang Nomor 23 Tahun 2002 tentang Perlindungan Anak",
+    "jenis": "UU",
+    "nomor": "35",
+    "tahun": "2014",
+    "sumber": "https://peraturan.bpk.go.id/Details/38723/uu-no-35-tahun-2014",
+    "status": "Berlaku",
+    "diubah_oleh": []
+  },
+  "norma": [],
+  "kategori": [],
+  "pengali_lembur": [],
+  "program_jamsos": [],
+  "cakupan": {
+    "lengkap": true,
+    "pasal_diekstrak": [
+      "Pasal 1",
+      "Pasal 12",
+      "Pasal 14",
+      "Pasal 15",
+      "Pasal 20",
+      "Pasal 21",
+      "Pasal 22",
+      "Pasal 23",
+      "Pasal 24",
+      "Pasal 25",
+      "Pasal 26",
+      "Pasal 28",
+      "Pasal 33",
+      "Pasal 38A",
+      "Pasal 39",
+      "Pasal 41",
+      "Pasal 41A",
+      "Pasal 43",
+      "Pasal 44",
+      "Pasal 45",
+      "Pasal 45A",
+      "Pasal 45B",
+      "Pasal 46",
+      "Pasal 47",
+      "Pasal 48",
+      "Pasal 49",
+      "Pasal 51",
+      "Pasal 53",
+      "Pasal 54",
+      "Pasal 55",
+      "Pasal 56",
+      "Pasal 58",
+      "Pasal 59",
+      "Pasal 59A",
+      "Pasal 6",
+      "Pasal 60",
+      "Pasal 64",
+      "Pasal 65",
+      "Pasal 66",
+      "Pasal 67",
+      "Pasal 67A",
+      "Pasal 67B",
+      "Pasal 67C",
+      "Pasal 68",
+      "Pasal 69",
+      "Pasal 69A",
+      "Pasal 69B",
+      "Pasal 70",
+      "Pasal 71",
+      "Pasal 71A",
+      "Pasal 71B",
+      "Pasal 71C",
+      "Pasal 71D",
+      "Pasal 71E",
+      "Pasal 72",
+      "Pasal 73",
+      "Pasal 73A",
+      "Pasal 74",
+      "Pasal 75",
+      "Pasal 76",
+      "Pasal 76A",
+      "Pasal 76B",
+      "Pasal 76C",
+      "Pasal 76D",
+      "Pasal 76E",
+      "Pasal 76F",
+      "Pasal 76G",
+      "Pasal 76H",
+      "Pasal 76I",
+      "Pasal 76J",
+      "Pasal 77",
+      "Pasal 77A",
+      "Pasal 77B",
+      "Pasal 80",
+      "Pasal 81",
+      "Pasal 82",
+      "Pasal 83",
+      "Pasal 86A",
+      "Pasal 88",
+      "Pasal 89",
+      "Pasal 9",
+      "Pasal 91A"
+    ],
+    "pasal_dilewati": [
+      {
+        "pasal": "Pasal 1",
+        "alasan": "definisi/istilah: 'Dalam Undang-Undang ini yang dimaksud dengan:' — batasan Anak, Perlindungan Anak, Keluarga, Wali, Kekerasan, dst.; tanpa kondisi-akibat hukum ketenagakerjaan"
+      },
+      {
+        "pasal": "Pasal 6",
+        "alasan": "hak anak di luar domain ketenagakerjaan: 'Setiap Anak berhak untuk beribadah menurut agamanya, berpikir, dan berekspresi' — hak sipil anak, bukan hak pekerja"
+      },
+      {
+        "pasal": "Pasal 9",
+        "alasan": "hak anak atas pendidikan: 'Setiap Anak berhak memperoleh pendidikan dan pengajaran dalam rangka pengembangan pribadinya' — di luar domain T-Box ketenagakerjaan"
+      },
+      {
+        "pasal": "Pasal 12",
+        "alasan": "hak anak penyandang disabilitas: 'berhak memperoleh rehabilitasi, bantuan sosial, dan pemeliharaan taraf kesejahteraan sosial' — luar domain ketenagakerjaan"
+      },
+      {
+        "pasal": "Pasal 14",
+        "alasan": "hak asuh anak: 'Setiap Anak berhak untuk diasuh oleh Orang Tuanya sendiri' — hukum keluarga, bukan hubungan kerja"
+      },
+      {
+        "pasal": "Pasal 15",
+        "alasan": "perlindungan anak dari penyalahgunaan politik, sengketa bersenjata, kerusuhan, peperangan, kejahatan seksual — luar domain ketenagakerjaan"
+      },
+      {
+        "pasal": "Pasal 20",
+        "alasan": "kewajiban kelembagaan: 'Negara, Pemerintah, Pemerintah Daerah, Masyarakat, Keluarga, dan Orang Tua atau Wali berkewajiban ... terhadap penyelenggaraan Perlindungan Anak' — tugas negara, bukan norma kerja"
+      },
+      {
+        "pasal": "Pasal 21",
+        "alasan": "kelembagaan/kebijakan: 'Negara, Pemerintah, dan Pemerintah Daerah berkewajiban dan bertanggung jawab menghormati pemenuhan Hak Anak' — pembagian tugas pemerintah"
+      },
+      {
+        "pasal": "Pasal 22",
+        "alasan": "kelembagaan: 'memberikan dukungan sarana, prasarana, dan ketersediaan sumber daya manusia dalam penyelenggaraan Perlindungan Anak' — dukungan negara"
+      },
+      {
+        "pasal": "Pasal 23",
+        "alasan": "kelembagaan: 'Negara, Pemerintah, dan Pemerintah Daerah menjamin perlindungan, pemeliharaan, dan kesejahteraan Anak' — tanggung jawab negara"
+      },
+      {
+        "pasal": "Pasal 24",
+        "alasan": "hak anak menyampaikan pendapat: 'menjamin Anak untuk mempergunakan haknya dalam menyampaikan pendapat sesuai dengan usia' — luar domain ketenagakerjaan"
+      },
+      {
+        "pasal": "Pasal 25",
+        "alasan": "peran masyarakat: 'Kewajiban dan tanggung jawab Masyarakat terhadap Perlindungan Anak' — di luar hubungan kerja"
+      },
+      {
+        "pasal": "Pasal 26",
+        "alasan": "kewajiban orang tua: 'Orang tua berkewajiban dan bertanggung jawab untuk: mengasuh, memelihara, mendidik, dan melindungi Anak' — hukum keluarga"
+      },
+      {
+        "pasal": "Pasal 28",
+        "alasan": "administrasi kependudukan: 'Pembuatan akta kelahiran dilakukan oleh instansi yang menyelenggarakan urusan pemerintahan di bidang administrasi kependudukan' — tata cara pencatatan sipil"
+      },
+      {
+        "pasal": "Pasal 33",
+        "alasan": "perwalian anak: 'seseorang atau badan hukum yang memenuhi persyaratan dapat ditunjuk sebagai Wali dari Anak' — hukum keluarga"
+      },
+      {
+        "pasal": "Pasal 38A",
+        "alasan": "delegasi peraturan pelaksana: 'Ketentuan lebih lanjut mengenai pelaksanaan pengasuhan Anak ... diatur dengan Peraturan Pemerintah' — tanpa norma mandiri"
+      },
+      {
+        "pasal": "Pasal 39",
+        "alasan": "pengangkatan anak: 'Pengangkatan Anak hanya dapat dilakukan untuk kepentingan yang terbaik bagi Anak' — hukum keluarga/adopsi"
+      },
+      {
+        "pasal": "Pasal 41",
+        "alasan": "kelembagaan/pengawasan: 'Pemerintah, Pemerintah Daerah, dan Masyarakat melakukan bimbingan dan pengawasan terhadap pelaksanaan pengangkatan Anak'"
+      },
+      {
+        "pasal": "Pasal 41A",
+        "alasan": "delegasi peraturan pelaksana: 'Ketentuan lebih lanjut mengenai pelaksanaaan pengangkatan Anak ... diatur dengan Peraturan Pemerintah'"
+      },
+      {
+        "pasal": "Pasal 43",
+        "alasan": "kebebasan beragama anak: 'menjamin Perlindungan Anak dalam memeluk agamanya' — hak anak, luar domain ketenagakerjaan"
+      },
+      {
+        "pasal": "Pasal 44",
+        "alasan": "kelembagaan/kesehatan: 'Pemerintah dan Pemerintah Daerah wajib menyediakan fasilitas dan menyelenggarakan upaya kesehatan yang komprehensif bagi Anak' — bukan norma hubungan kerja"
+      },
+      {
+        "pasal": "Pasal 45",
+        "alasan": "tanggung jawab orang tua: 'Orang Tua dan Keluarga bertanggung jawab menjaga kesehatan Anak dan merawat Anak sejak dalam kandungan' — hukum keluarga"
+      },
+      {
+        "pasal": "Pasal 45A",
+        "alasan": "larangan aborsi: 'Setiap Orang dilarang melakukan aborsi terhadap Anak yang masih dalam kandungan' — pidana/kesehatan, luar domain ketenagakerjaan"
+      },
+      {
+        "pasal": "Pasal 45B",
+        "alasan": "kewajiban melindungi kesehatan anak: 'Pemerintah, Pemerintah Daerah, Masyarakat, dan Orang Tua wajib melindungi Anak dari perbuatan yang mengganggu kesehatan'"
+      },
+      {
+        "pasal": "Pasal 46",
+        "alasan": "kewajiban mencegah penyakit: 'wajib mengusahakan agar Anak yang lahir terhindar dari penyakit yang mengancam kelangsungan hidup' — luar domain"
+      },
+      {
+        "pasal": "Pasal 47",
+        "alasan": "transplantasi organ anak: 'wajib melindungi Anak dari upaya transplantasi organ tubuhnya untuk pihak lain' — luar domain ketenagakerjaan"
+      },
+      {
+        "pasal": "Pasal 48",
+        "alasan": "pendidikan dasar: 'wajib menyelenggarakan pendidikan dasar minimal 9 (sembilan) tahun untuk semua Anak' — kewajiban negara"
+      },
+      {
+        "pasal": "Pasal 49",
+        "alasan": "kesempatan pendidikan: 'wajib memberikan kesempatan yang seluas-luasnya kepada Anak untuk memperoleh pendidikan' — luar domain"
+      },
+      {
+        "pasal": "Pasal 51",
+        "alasan": "pendidikan inklusif: 'Anak Penyandang Disabilitas diberikan kesempatan dan aksesibilitas untuk memperoleh pendidikan inklusif' — luar domain"
+      },
+      {
+        "pasal": "Pasal 53",
+        "alasan": "biaya pendidikan: 'Pemerintah dan Pemerintah Daerah bertanggung jawab untuk memberikan biaya pendidikan ... bagi Anak dari Keluarga kurang mampu' — kelembagaan"
+      },
+      {
+        "pasal": "Pasal 54",
+        "alasan": "perlindungan anak di satuan pendidikan: 'Anak di dalam dan di lingkungan satuan pendidikan wajib mendapatkan perlindungan dari tindak Kekerasan' — bukan hubungan kerja"
+      },
+      {
+        "pasal": "Pasal 55",
+        "alasan": "pemeliharaan anak terlantar: 'wajib menyelenggarakan pemeliharaan, perawatan, dan rehabilitasi sosial Anak terlantar' — kelembagaan sosial"
+      },
+      {
+        "pasal": "Pasal 56",
+        "alasan": "upaya pemerintah atas anak dalam pemeliharaan: 'wajib mengupayakan dan membantu Anak, agar Anak dapat: berpartisipasi' — kelembagaan"
+      },
+      {
+        "pasal": "Pasal 58",
+        "alasan": "tempat penampungan anak terlantar: 'wajib menyediakan tempat sebagaimana dimaksud pada ayat (1)' — kelembagaan sosial"
+      },
+      {
+        "pasal": "Pasal 59A",
+        "alasan": "tata cara perlindungan khusus: 'dilakukan melalui upaya: penanganan yang cepat ... pendampingan psikososial ... bantuan sosial' — rincian layanan, bukan kondisi-akibat termodelkan"
+      },
+      {
+        "pasal": "Pasal 60",
+        "alasan": "ruang lingkup/definisi: 'Anak dalam situasi darurat ... terdiri atas: Anak yang menjadi pengungsi; Anak korban kerusuhan' — klasifikasi, bukan norma"
+      },
+      {
+        "pasal": "Pasal 64",
+        "alasan": "perlindungan anak berhadapan dengan hukum: 'dilakukan melalui: perlakuan secara manusiawi ... pemisahan dari orang dewasa ... bantuan hukum' — hukum acara pidana anak"
+      },
+      {
+        "pasal": "Pasal 65",
+        "alasan": "perlindungan anak minoritas/terisolasi: 'dilakukan melalui penyediaan prasarana dan sarana untuk dapat menikmati budayanya sendiri' — luar domain"
+      },
+      {
+        "pasal": "Pasal 67",
+        "alasan": "anak korban narkotika: 'dilakukan melalui upaya pengawasan, pencegahan, perawatan, dan rehabilitasi' — luar domain ketenagakerjaan"
+      },
+      {
+        "pasal": "Pasal 67A",
+        "alasan": "larangan pornografi: 'Setiap Orang wajib melindungi Anak dari pengaruh pornografi' — luar domain ketenagakerjaan"
+      },
+      {
+        "pasal": "Pasal 67B",
+        "alasan": "pemulihan anak korban pornografi: 'dilaksanakan melalui upaya pembinaan, pendampingan, serta pemulihan sosial, kesehatan fisik dan mental'"
+      },
+      {
+        "pasal": "Pasal 67C",
+        "alasan": "anak dengan HIV/AIDS: 'dilakukan melalui upaya pengawasan, pencegahan, pengobatan, perawatan, dan rehabilitasi' — luar domain"
+      },
+      {
+        "pasal": "Pasal 68",
+        "alasan": "anak korban penculikan/perdagangan: 'dilakukan melalui upaya pengawasan, perlindungan, pencegahan, perawatan, dan rehabilitasi'"
+      },
+      {
+        "pasal": "Pasal 69",
+        "alasan": "anak korban kekerasan: 'dilakukan melalui upaya: penyebarluasan dan sosialisasi ketentuan peraturan perundang-undangan' — luar domain"
+      },
+      {
+        "pasal": "Pasal 69A",
+        "alasan": "anak korban kejahatan seksual: 'dilakukan melalui upaya: edukasi tentang kesehatan reproduksi, nilai agama, dan nilai kesusilaan'"
+      },
+      {
+        "pasal": "Pasal 69B",
+        "alasan": "anak korban terorisme: 'dilakukan melalui upaya: edukasi tentang pendidikan, ideologi, dan nilai nasionalisme' — luar domain"
+      },
+      {
+        "pasal": "Pasal 70",
+        "alasan": "anak penyandang disabilitas: 'dilakukan melalui upaya: perlakuan Anak secara manusiawi sesuai dengan martabat dan Hak Anak'"
+      },
+      {
+        "pasal": "Pasal 71",
+        "alasan": "anak korban perlakuan salah/penelantaran: 'dilakukan melalui upaya pengawasan, pencegahan, perawatan, konseling, rehabilitasi sosial'"
+      },
+      {
+        "pasal": "Pasal 71A",
+        "alasan": "anak dengan perilaku sosial menyimpang: 'dilakukan melalui bimbingan nilai agama dan nilai sosial, konseling, rehabilitasi sosial' — luar domain ketenagakerjaan"
+      },
+      {
+        "pasal": "Pasal 71B",
+        "alasan": "anak korban stigmatisasi: 'dilakukan melalui konseling, rehabilitasi sosial, dan pendampingan sosial' — luar domain"
+      },
+      {
+        "pasal": "Pasal 71C",
+        "alasan": "delegasi peraturan pelaksana: 'Ketentuan lebih lanjut mengenai Perlindungan Khusus bagi Anak ... diatur dengan Peraturan Pemerintah'"
+      },
+      {
+        "pasal": "Pasal 71D",
+        "alasan": "restitusi: 'berhak mengajukan ke pengadilan berupa hak atas restitusi yang menjadi tanggung jawab pelaku kejahatan' — hukum pidana, bukan ketenagakerjaan"
+      },
+      {
+        "pasal": "Pasal 71E",
+        "alasan": "pendanaan: 'Pemerintah dan Pemerintah Daerah bertanggung jawab menyediakan dana penyelenggaraan Perlindungan Anak' — keuangan negara"
+      },
+      {
+        "pasal": "Pasal 72",
+        "alasan": "peran masyarakat/dunia usaha: 'Peran dunia usaha ... melalui: kebijakan perusahaan yang berperspektif Anak ... tanggung jawab sosial perusahaan' — CSR, bukan norma hubungan kerja"
+      },
+      {
+        "pasal": "Pasal 73",
+        "alasan": "pelaksanaan peran masyarakat: 'Peran masyarakat sebagaimana dimaksud dalam Pasal 72 dilaksanakan sesuai dengan ketentuan peraturan perundang-undangan' — rujukan, tanpa norma mandiri"
+      },
+      {
+        "pasal": "Pasal 73A",
+        "alasan": "koordinasi kelembagaan: 'kementerian ... harus melakukan koordinasi lintas sektoral dengan lembaga terkait' — tata kelola pemerintahan"
+      },
+      {
+        "pasal": "Pasal 74",
+        "alasan": "kelembagaan: 'dengan Undang-Undang ini dibentuk Komisi Perlindungan Anak Indonesia yang bersifat independen' — pembentukan organ"
+      },
+      {
+        "pasal": "Pasal 75",
+        "alasan": "kelembagaan: 'Keanggotaan Komisi Perlindungan Anak Indonesia terdiri atas 1 (satu) orang ketua, 1 (satu) orang wakil ketua, dan 7 (tujuh) orang anggota'"
+      },
+      {
+        "pasal": "Pasal 76",
+        "alasan": "kelembagaan: 'Komisi Perlindungan Anak Indonesia bertugas: melakukan pengawasan terhadap pelaksanaan perlindungan dan pemenuhan Hak Anak' — tugas lembaga"
+      },
+      {
+        "pasal": "Pasal 76A",
+        "alasan": "larangan diskriminasi anak: 'Setiap orang dilarang: memperlakukan Anak secara diskriminatif' — larangan pidana, luar domain ketenagakerjaan"
+      },
+      {
+        "pasal": "Pasal 76B",
+        "alasan": "larangan perlakuan salah/penelantaran: 'Setiap Orang dilarang menempatkan, membiarkan, melibatkan ... Anak dalam situasi perlakuan salah dan penelantaran'"
+      },
+      {
+        "pasal": "Pasal 76C",
+        "alasan": "larangan kekerasan terhadap anak: 'Setiap Orang dilarang menempatkan, membiarkan, melakukan ... Kekerasan terhadap Anak' — pidana"
+      },
+      {
+        "pasal": "Pasal 76D",
+        "alasan": "larangan persetubuhan paksa: 'Setiap Orang dilarang melakukan Kekerasan atau ancaman Kekerasan memaksa Anak melakukan persetubuhan' — pidana kesusilaan"
+      },
+      {
+        "pasal": "Pasal 76E",
+        "alasan": "larangan perbuatan cabul: 'membujuk Anak untuk melakukan atau membiarkan dilakukan perbuatan cabul' — pidana kesusilaan"
+      },
+      {
+        "pasal": "Pasal 76F",
+        "alasan": "larangan penculikan/perdagangan anak: 'Setiap Orang dilarang ... melakukan penculikan, penjualan, dan/atau perdagangan Anak' — pidana"
+      },
+      {
+        "pasal": "Pasal 76G",
+        "alasan": "larangan menghalangi budaya/agama anak: 'Setiap Orang dilarang menghalang-halangi Anak untuk menikmati budayanya sendiri' — luar domain"
+      },
+      {
+        "pasal": "Pasal 76H",
+        "alasan": "larangan merekrut anak untuk militer: 'Setiap Orang dilarang merekrut atau memperalat Anak untuk kepentingan militer' — luar domain ketenagakerjaan"
+      },
+      {
+        "pasal": "Pasal 76J",
+        "alasan": "larangan melibatkan anak dalam narkotika/alkohol: 'Setiap Orang dilarang dengan sengaja menempatkan, membiarkan, melibatkan Anak dalam penyalahgunaan'"
+      },
+      {
+        "pasal": "Pasal 77",
+        "alasan": "sanksi pidana: 'dipidana dengan pidana penjara paling lama 5 (lima) tahun dan/atau denda paling banyak Rp100.000.000,00'"
+      },
+      {
+        "pasal": "Pasal 77A",
+        "alasan": "sanksi pidana aborsi: 'dipidana dengan pidana penjara paling lama 10 (sepuluh) tahun dan denda paling banyak Rp1.000.000.000,00'"
+      },
+      {
+        "pasal": "Pasal 77B",
+        "alasan": "sanksi pidana: 'Setiap Orang yang melanggar ketentuan sebagaimana dimaksud dalam Pasal 76B, dipidana dengan pidana penjara paling lama 5 (lima) tahun'"
+      },
+      {
+        "pasal": "Pasal 80",
+        "alasan": "sanksi pidana kekerasan: 'dipidana dengan pidana penjara paling lama 3 (tiga) tahun 6 (enam) bulan dan/atau denda paling banyak Rp72.000.000,00'"
+      },
+      {
+        "pasal": "Pasal 81",
+        "alasan": "sanksi pidana: 'pidana penjara paling singkat 5 (lima) tahun dan paling lama 15 (lima belas) tahun dan denda paling banyak Rp5.000.000.000,00'"
+      },
+      {
+        "pasal": "Pasal 82",
+        "alasan": "sanksi pidana: 'Setiap orang yang melanggar ketentuan sebagaimana dimaksud dalam Pasal 76E dipidana dengan pidana penjara paling singkat 5 (lima) tahun'"
+      },
+      {
+        "pasal": "Pasal 83",
+        "alasan": "sanksi pidana: 'Setiap orang yang melanggar ketentuan sebagaimana dimaksud dalam Pasal 76F dipidana dengan pidana penjara paling singkat 3 (tiga) tahun'"
+      },
+      {
+        "pasal": "Pasal 86A",
+        "alasan": "sanksi pidana: 'Setiap Orang yang melanggar ketentuan sebagaimana dimaksud dalam Pasal 76G dipidana dengan pidana penjara paling lama 5 (lima) tahun'"
+      },
+      {
+        "pasal": "Pasal 88",
+        "alasan": "sanksi pidana eksploitasi: 'Setiap Orang yang melanggar ketentuan sebagaimana dimaksud dalam Pasal 76I, dipidana dengan pidana penjara paling lama 10 (sepuluh) tahun' — pidana, bukan norma hak kerja"
+      },
+      {
+        "pasal": "Pasal 89",
+        "alasan": "sanksi pidana: 'dipidana dengan pidana mati atau pidana penjara seumur hidup atau pidana penjara paling singkat 5 (lima) tahun' — pidana"
+      },
+      {
+        "pasal": "Pasal 91A",
+        "alasan": "ketentuan peralihan: 'Komisi Perlindungan Anak Indonesia yang dibentuk berdasarkan Undang-Undang Nomor 23 Tahun 2002 tentang Perlindungan Anak tetap menjalankan tugas' — peralihan kelembagaan, bukan norma kerja"
+      }
+    ],
+    "catatan": ""
+  },
+  "tidak_termodelkan": [
+    {
+      "pasal": "Pasal 59",
+      "ringkasan": "Kewajiban negara memberi Perlindungan Khusus kepada 15 kategori anak, termasuk 'Anak yang dieksploitasi secara ekonomi dan/atau seksual'.",
+      "alasan": "relevan dengan pekerja anak/ketenagakerjaan tetapi T-Box belum punya kelas/properti perlindungan khusus anak"
+    },
+    {
+      "pasal": "Pasal 66",
+      "ringkasan": "Perlindungan Khusus anak yang dieksploitasi ekonomi/seksual melalui sosialisasi, pemantauan, dan 'pelibatan berbagai perusahaan, serikat pekerja ... dalam penghapusan eksploitasi terhadap Anak secara ekonomi'.",
+      "alasan": "menyentuh hubungan industrial (perusahaan & serikat pekerja) tetapi butuh kelas baru: kewajiban perusahaan/serikat atas pekerja anak"
+    },
+    {
+      "pasal": "Pasal 76I",
+      "ringkasan": "Larangan bagi Setiap Orang untuk menempatkan, membiarkan, melakukan, atau turut serta melakukan eksploitasi secara ekonomi dan/atau seksual terhadap Anak (pekerja anak).",
+      "alasan": "relevan dengan ketenagakerjaan (perlindungan pekerja anak) tetapi T-Box belum punya kelas larangan/ketentuan pekerja anak"
+    }
+  ]
+}

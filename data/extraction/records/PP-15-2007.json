@@ -1,0 +1,266 @@
+{
+  "spec_version": "1.1.0",
+  "vocab_version": "0.3.0",
+  "dokumen_id": "PP-15-2007",
+  "status_review": "reviewed",
+  "peraturan": {
+    "judul": "Peraturan Pemerintah Nomor 15 Tahun 2007 tentang Informasi Ketenagakerjaan dan Perencanaan Tenaga Kerja",
+    "jenis": "PP",
+    "nomor": "15",
+    "tahun": "2007",
+    "sumber": "https://peraturan.go.id/id/pp-no-15-tahun-2007",
+    "status": "Berlaku",
+    "diubah_oleh": []
+  },
+  "norma": [],
+  "kategori": [],
+  "pengali_lembur": [],
+  "program_jamsos": [],
+  "cakupan": {
+    "lengkap": true,
+    "pasal_diekstrak": [
+      "Pasal 1",
+      "Pasal 10",
+      "Pasal 11",
+      "Pasal 12",
+      "Pasal 13",
+      "Pasal 14",
+      "Pasal 15",
+      "Pasal 16",
+      "Pasal 17",
+      "Pasal 18",
+      "Pasal 19",
+      "Pasal 2",
+      "Pasal 20",
+      "Pasal 21",
+      "Pasal 22",
+      "Pasal 23",
+      "Pasal 24",
+      "Pasal 25",
+      "Pasal 26",
+      "Pasal 27",
+      "Pasal 28",
+      "Pasal 29",
+      "Pasal 3",
+      "Pasal 30",
+      "Pasal 31",
+      "Pasal 32",
+      "Pasal 33",
+      "Pasal 34",
+      "Pasal 35",
+      "Pasal 36",
+      "Pasal 37",
+      "Pasal 38",
+      "Pasal 39",
+      "Pasal 4",
+      "Pasal 40",
+      "Pasal 41",
+      "Pasal 42",
+      "Pasal 43",
+      "Pasal 44",
+      "Pasal 45",
+      "Pasal 5",
+      "Pasal 6",
+      "Pasal 7",
+      "Pasal 8",
+      "Pasal 9"
+    ],
+    "pasal_dilewati": [
+      {
+        "pasal": "Pasal 1",
+        "alasan": "definisi/istilah: batasan Informasi Ketenagakerjaan, Sistem Informasi Ketenagakerjaan, PTK, RTK, PTK Makro/Mikro, RTK Makro/Mikro, dan Menteri; tanpa akibat hukum yang dapat dinalar"
+      },
+      {
+        "pasal": "Pasal 2",
+        "alasan": "kelembagaan/administratif: instansi yang bertanggung jawab di bidang ketenagakerjaan \"melakukan pengelolaan informasi ketenagakerjaan\" (pengumpulan, pengolahan, penganalisisan, penyimpanan, penyajian, penyebarluasan); bukan hak/kewajiban pekerja atau pengusaha"
+      },
+      {
+        "pasal": "Pasal 3",
+        "alasan": "kelembagaan: kewajiban instansi \"harus membangun dan mengembangkan sistem informasi ketenagakerjaan\" dan delegasi pengaturan kepada Peraturan Menteri; tanpa norma hubungan kerja"
+      },
+      {
+        "pasal": "Pasal 4",
+        "alasan": "klasifikasi/definisi: jenis informasi ketenagakerjaan (umum, pelatihan dan produktivitas, penempatan, perluasan kesempatan kerja, hubungan industrial dan perlindungan) beserta rinciannya; tidak melahirkan hak atau kewajiban normatif"
+      },
+      {
+        "pasal": "Pasal 5",
+        "alasan": "kelembagaan: daftar sumber informasi ketenagakerjaan (kementerian/lembaga, instansi vertikal, BUMN/BUMD, perguruan tinggi, LSM, perusahaan swasta, asosiasi pengusaha, serikat pekerja) serta survei dan media; bukan norma kondisi-akibat"
+      },
+      {
+        "pasal": "Pasal 6",
+        "alasan": "tata cara pengumpulan informasi: \"secara langsung dan tidak langsung, baik konvensional maupun elektronik, secara berkala dan insidental\"; prosedural"
+      },
+      {
+        "pasal": "Pasal 7",
+        "alasan": "tata cara pengolahan informasi dengan metoda statistika atau metoda lainnya dan delegasi pedoman kepada Peraturan Menteri; prosedural"
+      },
+      {
+        "pasal": "Pasal 8",
+        "alasan": "tata cara penyimpanan: informasi yang dikumpulkan dan diolah \"disimpan dalam sistem database\"; administratif"
+      },
+      {
+        "pasal": "Pasal 9",
+        "alasan": "tata cara penyajian dan publikasi informasi (tabel, grafik, peta, narasi; cetakan dan/atau media elektronik) serta delegasi pedoman; prosedural"
+      },
+      {
+        "pasal": "Pasal 10",
+        "alasan": "pelayanan informasi publik: pengguna dapat memperoleh informasi kecuali yang bersifat rahasia, pengelola berwenang menolak, dan \"pengguna tidak dipungut biaya\"; bukan hak normatif pekerja/pengusaha"
+      },
+      {
+        "pasal": "Pasal 12",
+        "alasan": "kelembagaan: penunjukan penyusun PTK Makro per tingkat (instansi pusat/daerah/sektoral) dan kemungkinan pembentukan Tim; tanpa akibat hukum hubungan kerja"
+      },
+      {
+        "pasal": "Pasal 13",
+        "alasan": "rujukan persyaratan: \"Untuk menyusun PTK Makro diperlukan informasi ketenagakerjaan\"; ketentuan input perencanaan, bukan norma mandiri"
+      },
+      {
+        "pasal": "Pasal 15",
+        "alasan": "metode penghitungan persediaan/kebutuhan/neraca tenaga kerja (pendekatan partisipasi angkatan kerja, kebutuhan dan pendayagunaan tenaga kerja) serta delegasi metoda kepada Peraturan Menteri; teknis/prosedural"
+      },
+      {
+        "pasal": "Pasal 16",
+        "alasan": "kebijakan: arah kebijakan, strategi, dan program pembangunan ketenagakerjaan disusun berdasarkan RTK, beserta pengertian isinya; kebijakan program, bukan norma individual"
+      },
+      {
+        "pasal": "Pasal 18",
+        "alasan": "kelembagaan: penyelenggara PTK nasional/provinsi/kabupaten/kota dan sektoral/sub sektoral beserta pelibatan instansi lain; tanpa hak/kewajiban normatif pekerja"
+      },
+      {
+        "pasal": "Pasal 19",
+        "alasan": "kelembagaan/tata laksana: setiap PTK \"menghasilkan\" RTK pada tingkat masing-masing; pembagian hasil perencanaan, bukan norma kondisi-akibat"
+      },
+      {
+        "pasal": "Pasal 20",
+        "alasan": "kelembagaan: PTK Mikro disusun oleh BUMN, BUMD, perusahaan swasta, dan lembaga swasta lainnya, diarahkan untuk menciptakan kesempatan kerja seluas-luasnya; delegasi kepada Peraturan Menteri"
+      },
+      {
+        "pasal": "Pasal 22",
+        "alasan": "metode penyusunan data: persediaan pegawai dirinci menurut jabatan, status kepegawaian, jenjang dan bidang pendidikan, usia, jenis kelamin, pelatihan, dan pengalaman kerja; teknis administratif"
+      },
+      {
+        "pasal": "Pasal 23",
+        "alasan": "metode penyusunan data: kebutuhan pegawai termasuk tenaga asing \"dihitung berdasarkan beban kerja\" dan dirinci menurut jabatan/status/pendidikan/usia/jenis kelamin/pelatihan/pengalaman; teknis administratif, bukan norma TKA"
+      },
+      {
+        "pasal": "Pasal 24",
+        "alasan": "metode: neraca pegawai disusun dengan membandingkan persediaan dan kebutuhan pegawai baik jumlah maupun kualifikasi; teknis administratif"
+      },
+      {
+        "pasal": "Pasal 27",
+        "alasan": "delegasi: metoda penyusunan RTK Mikro diatur dengan Peraturan Menteri; tanpa norma mandiri"
+      },
+      {
+        "pasal": "Pasal 28",
+        "alasan": "tata cara pelaksanaan: kegiatan \"sosialisasi, pencapaian sasaran, pemantauan, evaluasi, penyesuaian sasaran, dan pelaporan hasil pelaksanaan RTK Makro\"; prosedural"
+      },
+      {
+        "pasal": "Pasal 29",
+        "alasan": "kelembagaan: pelaksana RTK nasional/provinsi/kabupaten/kota dan sektoral/sub sektoral dengan \"mengarusutamakan ketenagakerjaan dalam setiap kebijakan\"; pembagian kewenangan, bukan norma individual"
+      },
+      {
+        "pasal": "Pasal 31",
+        "alasan": "kelembagaan: sosialisasi RTK oleh instansi pemerintah di tiap tingkat dan instansi pembina sektoral; tata cara/kelembagaan"
+      },
+      {
+        "pasal": "Pasal 32",
+        "alasan": "kewajiban administratif: instansi pemerintah \"harus menyusun dan menyampaikan laporan hasil pelaksanaan RTK secara berkala\"; pelaporan kelembagaan"
+      },
+      {
+        "pasal": "Pasal 33",
+        "alasan": "heading ganda: satu heading '#### Pasal 33' kosong pada awal halaman 16 (tanpa batang tubuh), diikuti heading '#### Pasal 33' berisi ayat (1)-(6); entri ini mencatat heading kosong tersebut"
+      },
+      {
+        "pasal": "Pasal 33",
+        "alasan": "kelembagaan/pelaporan: laporan hasil pelaksanaan RTK disampaikan kepada Presiden, gubernur, atau bupati/walikota sesuai tingkat, termasuk laporan sektoral/sub sektoral; bukan hak normatif pekerja"
+      },
+      {
+        "pasal": "Pasal 34",
+        "alasan": "delegasi: tata cara pelaporan hasil pelaksanaan RTK diatur dengan Peraturan Menteri; tanpa norma mandiri"
+      },
+      {
+        "pasal": "Pasal 35",
+        "alasan": "kelembagaan: RTK Mikro dilaksanakan oleh BUMN, BUMD, perusahaan swasta, dan lembaga swasta lainnya; penunjukan pelaksana, bukan norma kondisi-akibat"
+      },
+      {
+        "pasal": "Pasal 36",
+        "alasan": "tata laksana: sasaran pelaksanaan RTK Mikro adalah pelaksanaan program Pasal 25, dipantau dan dievaluasi secara berkala; prosedural"
+      },
+      {
+        "pasal": "Pasal 37",
+        "alasan": "tata cara: sosialisasi RTK Mikro oleh pimpinan lembaga/perusahaan pada unit kerja untuk memperoleh komitmen dan sebagai pedoman; prosedural"
+      },
+      {
+        "pasal": "Pasal 38",
+        "alasan": "kewajiban administratif: instansi/lembaga penyusun RTK Mikro menyusun laporan hasil pelaksanaan dan delegasi tata cara kepada Peraturan Menteri; pelaporan kelembagaan"
+      },
+      {
+        "pasal": "Pasal 39",
+        "alasan": "kelembagaan/pengawasan: pemantauan pengelolaan informasi serta penyusunan dan pelaksanaan RTK Makro/Mikro dilakukan berjenjang oleh instansi pusat, provinsi, kabupaten/kota; tanpa akibat hukum individual"
+      },
+      {
+        "pasal": "Pasal 41",
+        "alasan": "kelembagaan: evaluasi hasil pemantauan oleh instansi pemerintah sesuai kewenangan untuk merumuskan langkah perbaikan, beserta delegasi pedoman kepada Peraturan Menteri; prosedural"
+      },
+      {
+        "pasal": "Pasal 42",
+        "alasan": "kelembagaan: pembinaan pengelolaan informasi ketenagakerjaan meliputi \"konsultasi, bimbingan, pelatihan dan sosialisasi\"; pembinaan administratif"
+      },
+      {
+        "pasal": "Pasal 43",
+        "alasan": "kelembagaan: pembinaan penyusunan dan pelaksanaan RTK Makro/Mikro meliputi konsultasi, bimbingan, pelatihan, dan sosialisasi, serta delegasi tata cara kepada Peraturan Menteri; prosedural"
+      },
+      {
+        "pasal": "Pasal 44",
+        "alasan": "ketentuan fiskal/pendanaan: biaya pengembangan sistem informasi dan penyusunan/pelaksanaan/pemantauan/evaluasi/pembinaan PTK dibebankan pada APBN, APBD provinsi/kabupaten/kota, atau lembaga/perusahaan bersangkutan; bukan norma ketenagakerjaan"
+      },
+      {
+        "pasal": "Pasal 45",
+        "alasan": "ketentuan penutup: \"Peraturan Pemerintah ini mulai berlaku pada tanggal diundangkan\"; tanpa akibat hukum yang dapat dinalar"
+      }
+    ],
+    "catatan": ""
+  },
+  "tidak_termodelkan": [
+    {
+      "pasal": "Pasal 11",
+      "ringkasan": "PTK terdiri atas PTK Makro (lingkup kewilayahan: nasional, provinsi, kabupaten/kota; dan lingkup sektoral/sub sektoral) dan PTK Mikro (BUMN, BUMD, perusahaan swasta, lembaga swasta lainnya).",
+      "alasan": "relevan dengan kebijakan ketenagakerjaan tetapi butuh kelas/properti baru: KetentuanPerencanaanTenagaKerja (jenis dan lingkup PTK) belum ada di T-Box/VOCAB"
+    },
+    {
+      "pasal": "Pasal 14",
+      "ringkasan": "RTK Makro paling sedikit memuat persediaan tenaga kerja, kebutuhan tenaga kerja, neraca tenaga kerja, serta arah kebijakan, strategi, dan program pembangunan ketenagakerjaan.",
+      "alasan": "relevan tetapi butuh kelas/properti baru: KetentuanPerencanaanTenagaKerja (isi minimum RTK Makro) belum ada di T-Box/VOCAB"
+    },
+    {
+      "pasal": "Pasal 17",
+      "ringkasan": "RTK Makro disusun untuk jangka waktu 5 (lima) tahun dan dilakukan evaluasi untuk disesuaikan dengan kondisi lingkungan strategis; evaluasi oleh instansi pembina sektor di pusat.",
+      "alasan": "relevan tetapi butuh kelas/properti baru: KetentuanPerencanaanTenagaKerja beserta properti jangkaWaktuTahun; parameter VOCAB tidak memuat jangka waktu rencana"
+    },
+    {
+      "pasal": "Pasal 21",
+      "ringkasan": "RTK Mikro paling sedikit memuat persediaan pegawai, kebutuhan pegawai, neraca pegawai, dan program kepegawaian.",
+      "alasan": "relevan tetapi butuh kelas/properti baru: KetentuanPerencanaanTenagaKerja (isi minimum RTK Mikro) belum ada di T-Box/VOCAB"
+    },
+    {
+      "pasal": "Pasal 25",
+      "ringkasan": "Program kepegawaian paling sedikit memuat pola pembinaan karier; program perekrutan, seleksi, penempatan, dan pemensiunan pegawai; pelatihan dan pengembangan pegawai; perlindungan, pengupahan, serta jaminan sosial; dan produktivitas kerja.",
+      "alasan": "relevan (menyentuh pengupahan dan jaminan sosial) tetapi butuh kelas/properti baru: KetentuanPerencanaanTenagaKerja (isi program kepegawaian), bukan norma upah/jamsos yang dapat dinalar"
+    },
+    {
+      "pasal": "Pasal 26",
+      "ringkasan": "RTK Mikro disusun untuk jangka waktu 5 (lima) tahun dan setiap tahun dilakukan penilaian untuk disesuaikan dengan perkembangan lembaga atau perusahaan.",
+      "alasan": "relevan tetapi butuh kelas/properti baru: KetentuanPerencanaanTenagaKerja beserta properti jangkaWaktuTahun dan penilaian tahunan"
+    },
+    {
+      "pasal": "Pasal 30",
+      "ringkasan": "RTK nasional, provinsi, kabupaten/kota, dan RTK sektoral/sub sektoral dilaksanakan untuk memperluas kesempatan kerja, meningkatkan pendayagunaan tenaga kerja, meningkatkan kualitas tenaga kerja, meningkatkan produktivitas tenaga kerja, serta meningkatkan perlindungan dan kesejahteraan pekerja.",
+      "alasan": "relevan sebagai tujuan kebijakan ketenagakerjaan tetapi butuh kelas/properti baru: KetentuanPerencanaanTenagaKerja (tujuan pelaksanaan RTK) belum ada di T-Box/VOCAB"
+    },
+    {
+      "pasal": "Pasal 40",
+      "ringkasan": "Pemantauan ditujukan untuk mengetahui keberhasilan dan masalah yang dihadapi serta dilakukan secara berkala baik langsung maupun tidak langsung paling singkat 6 (enam) bulan sekali.",
+      "alasan": "relevan tetapi butuh kelas/properti baru: KetentuanPerencanaanTenagaKerja dengan properti frekuensiPemantauanBulan; parameter VOCAB tidak memuat frekuensi pemantauan"
+    }
+  ]
+}

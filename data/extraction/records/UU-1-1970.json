@@ -1,0 +1,128 @@
+{
+  "spec_version": "1.1.0",
+  "vocab_version": "0.3.0",
+  "dokumen_id": "UU-1-1970",
+  "status_review": "reviewed",
+  "peraturan": {
+    "judul": "Undang-Undang Nomor 1 Tahun 1970 tentang Keselamatan Kerja",
+    "jenis": "UU",
+    "nomor": "1",
+    "tahun": "1970",
+    "sumber": "https://peraturan.go.id/id/uu-no-1-tahun-1970",
+    "status": "Berlaku",
+    "diubah_oleh": []
+  },
+  "norma": [],
+  "kategori": [],
+  "pengali_lembur": [],
+  "program_jamsos": [],
+  "cakupan": {
+    "lengkap": true,
+    "pasal_diekstrak": [
+      "Pasal 1",
+      "Pasal 10",
+      "Pasal 11",
+      "Pasal 12",
+      "Pasal 13",
+      "Pasal 14",
+      "Pasal 15",
+      "Pasal 16",
+      "Pasal 17",
+      "Pasal 18",
+      "Pasal 2",
+      "Pasal 3",
+      "Pasal 4",
+      "Pasal 5",
+      "Pasal 6",
+      "Pasal 7",
+      "Pasal 8",
+      "Pasal 9"
+    ],
+    "pasal_dilewati": [
+      {
+        "pasal": "Pasal 1",
+        "alasan": "definisi/istilah: \"tempat kerja\", \"pengurus\", \"pengusaha\", \"direktur\", \"pegawai pengawas\", \"ahli keselamatan kerja\"; tanpa akibat hukum"
+      },
+      {
+        "pasal": "Pasal 5",
+        "alasan": "kelembagaan/pengawasan: pembagian tugas direktur, pegawai pengawas dan ahli keselamatan kerja, wewenangnya diatur dengan peraturan perundangan"
+      },
+      {
+        "pasal": "Pasal 6",
+        "alasan": "tata cara/prosedural banding kepada Panitia Banding dan susunannya ditetapkan Menteri; bukan norma hak"
+      },
+      {
+        "pasal": "Pasal 7",
+        "alasan": "retribusi pengawasan yang dibayar pengusaha menurut peraturan perundangan; ketentuan fiskal, bukan norma ketenagakerjaan"
+      },
+      {
+        "pasal": "Pasal 10",
+        "alasan": "kelembagaan: kewenangan Menteri membentuk Panitia Pembina Keselamatan dan Kesehatan Kerja dan susunannya"
+      },
+      {
+        "pasal": "Pasal 15",
+        "alasan": "ketentuan penutup dan ancaman pidana (kurungan 3 bulan/denda Rp 100.000) atas pelanggaran peraturan pelaksanaan"
+      },
+      {
+        "pasal": "Pasal 16",
+        "alasan": "ketentuan peralihan: kewajiban menyesuaikan tempat kerja yang sudah ada dalam satu tahun sejak UU berlaku"
+      },
+      {
+        "pasal": "Pasal 17",
+        "alasan": "ketentuan peralihan: peraturan keselamatan kerja lama tetap berlaku sepanjang tidak bertentangan; heading ganda pada markdown (satu kosong)"
+      },
+      {
+        "pasal": "Pasal 18",
+        "alasan": "ketentuan penutup: nama undang-undang dan saat mulai berlaku"
+      }
+    ],
+    "catatan": ""
+  },
+  "tidak_termodelkan": [
+    {
+      "pasal": "Pasal 2",
+      "ringkasan": "Ruang lingkup K3: berlaku di segala tempat kerja darat/tanah/permukaan air/dalam air/udara, termasuk 18 jenis kegiatan berbahaya (\"dibuat, dicoba, dipakai atau dipergunakan mesin, pesawat, alat, perkakas...\").",
+      "alasan": "butuh kelas/properti baru: cakupan tempat kerja dan klasifikasi sumber bahaya K3 belum ada di T-Box"
+    },
+    {
+      "pasal": "Pasal 3",
+      "ringkasan": "Syarat keselamatan kerja ditetapkan dengan peraturan perundangan untuk 18 tujuan (a-r), antara lain mencegah kecelakaan, kebakaran, peledakan, memberi alat perlindungan diri (\"memberi alat-alat perlindungan diri pada para pekerja\").",
+      "alasan": "butuh kelas/properti baru: jenis KetentuanK3 dan properti syarat keselamatan kerja belum ada di T-Box (masih kandidat)"
+    },
+    {
+      "pasal": "Pasal 4",
+      "ringkasan": "Syarat keselamatan kerja dalam perencanaan, pembuatan, pengangkutan, peredaran, pemakaian dan penyimpanan bahan/barang/produk teknik yang menimbulkan bahaya kecelakaan, memuat prinsip teknik ilmiah dan kewajiban memenuhinya.",
+      "alasan": "butuh kelas/properti baru: pengaturan keselamatan bahan/produk teknik di luar T-Box"
+    },
+    {
+      "pasal": "Pasal 8",
+      "ringkasan": "Pengurus wajib memeriksakan kesehatan badan, kondisi mental dan kemampuan fisik tenaga kerja yang akan diterima/dipindahkan serta secara berkala (\"Pengurus diwajibkan memeriksakan kesehatan badan, kondisi mental dan kemampuan fisik\").",
+      "alasan": "butuh kelas/properti baru: kewajiban pemeriksaan kesehatan K3 belum ada kelasnya di T-Box"
+    },
+    {
+      "pasal": "Pasal 9",
+      "ringkasan": "Pengurus wajib menunjukkan dan menjelaskan kondisi/bahaya tempat kerja, pengamanan, APD dan cara kerja aman kepada tiap tenaga kerja baru, serta menyelenggarakan pembinaan K3 dan mentaati syarat yang berlaku.",
+      "alasan": "butuh kelas/properti baru: kewajiban induksi/pembinaan K3 belum termodelkan"
+    },
+    {
+      "pasal": "Pasal 11",
+      "ringkasan": "Pengurus wajib melaporkan tiap kecelakaan yang terjadi dalam tempat kerja kepada pejabat yang ditunjuk Menteri Tenaga Kerja (\"melaporkan tiap kecelakaan yang terjadi dalam tempat kerja\").",
+      "alasan": "butuh kelas/properti baru: kewajiban pelaporan kecelakaan kerja (K3) belum ada di T-Box"
+    },
+    {
+      "pasal": "Pasal 12",
+      "ringkasan": "Kewajiban dan/atau hak tenaga kerja: memberi keterangan benar, memakai APD, mentaati syarat K3, meminta pengurus melaksanakan syarat K3, dan menyatakan keberatan kerja bila syarat K3 diragukan.",
+      "alasan": "butuh kelas/properti baru: hak/kewajiban K3 tenaga kerja (termasuk hak menolak kerja tidak aman) belum termodelkan"
+    },
+    {
+      "pasal": "Pasal 13",
+      "ringkasan": "Barangsiapa akan memasuki tempat kerja wajib mentaati semua petunjuk keselamatan kerja dan memakai alat perlindungan diri yang diwajibkan.",
+      "alasan": "butuh kelas/properti baru: kewajiban K3 bagi bukan pekerja (pihak yang memasuki tempat kerja) belum termodelkan"
+    },
+    {
+      "pasal": "Pasal 14",
+      "ringkasan": "Pengurus wajib menempatkan secara tertulis semua syarat keselamatan kerja dan UU di tempat yang mudah dibaca, memasang gambar keselamatan kerja, dan menyediakan APD secara cuma-cuma.",
+      "alasan": "butuh kelas/properti baru: kewajiban penyediaan APD gratis dan publikasi syarat K3 belum ada di T-Box"
+    }
+  ]
+}

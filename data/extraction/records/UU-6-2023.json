@@ -1,6 +1,6 @@
 {
-  "spec_version": "1.0.0",
-  "vocab_version": "0.2.0",
+  "spec_version": "1.1.0",
+  "vocab_version": "0.3.0",
   "dokumen_id": "UU-6-2023",
   "status_review": "reviewed",
   "peraturan": {
@@ -14,13 +14,436 @@
   },
   "norma": [
     {
+      "norm_id": "TKA-RENCANA-PENGGUNAAN-UU62023",
+      "topik": "TKA",
+      "pasal": "Pasal 42 ayat (1)",
+      "iri_individu": "ktn:RencanaPenggunaanTKAUu62023",
+      "jenis": "KetentuanTKA",
+      "kondisi": "Pemberi Kerja mempekerjakan Tenaga Kerja Asing",
+      "akibat": "Wajib memiliki rencana penggunaan Tenaga Kerja Asing yang disahkan Pemerintah Pusat",
+      "bukti": "Setiap Pemberi Kerja yang mempekerjakan Tenaga Kerja Asing wajib memiliki rencana penggunaan Tenaga Kerja Asing yang disahkan oleh Pemerintah Pusat.",
+      "confidence": 0.95,
+      "dasar_keyakinan": "dikutip",
+      "catatan": "Ayat (3) mengecualikan direksi/komisaris dengan kepemilikan saham tertentu, pegawai diplomatik/konsuler, dan TKA untuk kegiatan darurat, vokasi, start-up, kunjungan bisnis, serta penelitian dalam jangka waktu tertentu."
+    },
+    {
+      "norm_id": "TKA-LARANG-INDIVIDU",
+      "topik": "TKA",
+      "pasal": "Pasal 42 ayat (2)",
+      "iri_individu": "ktn:LaranganPemberiKerjaPerseoranganTKA",
+      "jenis": "KetentuanTKA",
+      "kondisi": "Pemberi Kerja orang perseorangan",
+      "akibat": "Dilarang mempekerjakan Tenaga Kerja Asing",
+      "bukti": "Pemberi Kerja orang perseorangan dilarang mempekerjakan Tenaga Kerja Asing.",
+      "confidence": 0.95,
+      "dasar_keyakinan": "dikutip",
+      "catatan": ""
+    },
+    {
+      "norm_id": "TKA-JABATAN-WAKTU-TERTENTU-UU62023",
+      "topik": "TKA",
+      "pasal": "Pasal 42 ayat (4)",
+      "iri_individu": "ktn:BatasJabatanWaktuTKA",
+      "jenis": "KetentuanTKA",
+      "kondisi": "Tenaga Kerja Asing dipekerjakan di Indonesia",
+      "akibat": "Hanya dalam Hubungan Kerja untuk jabatan tertentu dan waktu tertentu serta memiliki kompetensi sesuai jabatan yang akan diduduki",
+      "bukti": "Tenaga Kerja Asing dapat dipekerjakan di Indonesia hanya dalam Hubungan Kerja untuk jabatan tertentu dan waktu tertentu serta memiliki kompetensi sesuai dengan jabatan yang akan diduduki.",
+      "confidence": 0.95,
+      "dasar_keyakinan": "dikutip",
+      "catatan": ""
+    },
+    {
+      "norm_id": "TKA-LARANG-PERSONALIA",
+      "topik": "TKA",
+      "pasal": "Pasal 42 ayat (5)",
+      "iri_individu": "ktn:LaranganJabatanPersonaliaTKAUu62023",
+      "jenis": "KetentuanTKA",
+      "kondisi": "Tenaga Kerja Asing",
+      "akibat": "Dilarang menduduki jabatan yang mengurusi personalia",
+      "bukti": "Tenaga Kerja Asing dilarang menduduki jabatan yang mengurusi personalia.",
+      "confidence": 0.95,
+      "dasar_keyakinan": "dikutip",
+      "catatan": ""
+    },
+    {
+      "norm_id": "TKA-TENAGA-PENDAMPING",
+      "topik": "TKA",
+      "pasal": "Pasal 45 ayat (1)a",
+      "iri_individu": "ktn:TenagaPendampingTKA",
+      "jenis": "KetentuanTKA",
+      "kondisi": "Pemberi Kerja mempekerjakan TKA untuk alih teknologi dan alih keahlian",
+      "akibat": "Wajib menunjuk Tenaga Kerja warga negara Indonesia sebagai tenaga pendamping TKA",
+      "bukti": "menunjuk Tenaga Kerja warga negara Indonesia sebagai tenaga pendamping Tenaga Kerja Asing yang dipekerjakan untuk alih teknologi dan alih keahlian dari Tenaga Kerja Asing",
+      "confidence": 0.95,
+      "dasar_keyakinan": "dikutip",
+      "catatan": ""
+    },
+    {
+      "norm_id": "TKA-PELATIHAN-TKI",
+      "topik": "TKA",
+      "pasal": "Pasal 45 ayat (1)b",
+      "iri_individu": "ktn:PelatihanKerjaPendampingTKA",
+      "jenis": "KetentuanTKA",
+      "kondisi": "TKA dipekerjakan untuk alih teknologi dan alih keahlian",
+      "akibat": "Wajib melaksanakan pendidikan dan Pelatihan Kerja bagi Tenaga Kerja warga negara Indonesia sesuai kualifikasi jabatan TKA",
+      "bukti": "melaksanakan pendidikan dan Pelatihan Kerja bagi Tenaga Kerja warga negara Indonesia sebagaimana dimaksud pada huruf a yang sesuai dengan kualifikasi jabatan yang diduduki oleh Tenaga Kerja Asing",
+      "confidence": 0.95,
+      "dasar_keyakinan": "dikutip",
+      "catatan": "Ayat (2) mengecualikan kewajiban huruf a dan huruf b bagi TKA yang menduduki jabatan tertentu."
+    },
+    {
+      "norm_id": "TKA-PEMULANGAN-UU62023",
+      "topik": "TKA",
+      "pasal": "Pasal 45 ayat (1)c",
+      "iri_individu": "ktn:PemulanganTKAUu62023",
+      "jenis": "KetentuanTKA",
+      "kondisi": "Hubungan Kerja TKA berakhir",
+      "akibat": "Wajib memulangkan TKA ke negara asalnya",
+      "bukti": "memulangkan Tenaga Kerja Asing ke negara asalnya setelah Hubungan Kerjanya berakhir",
+      "confidence": 0.95,
+      "dasar_keyakinan": "dikutip",
+      "catatan": ""
+    },
+    {
+      "norm_id": "TKA-KOMPENSASI-UU62023",
+      "topik": "TKA",
+      "pasal": "Pasal 47 ayat (1)",
+      "iri_individu": "ktn:KompensasiTKAUu62023",
+      "jenis": "KetentuanTKA",
+      "kondisi": "Pemberi Kerja mempekerjakan Tenaga Kerja Asing",
+      "akibat": "Wajib membayar kompensasi atas setiap TKA yang dipekerjakan",
+      "bukti": "Pemberi Kerja wajib membayar kompensasi atas setiap Tenaga Kerja Asing yang dipekerjakannya.",
+      "confidence": 0.95,
+      "dasar_keyakinan": "dikutip",
+      "catatan": "Ayat (2) mengecualikan instansi pemerintah, perwakilan negara asing, badan internasional, lembaga sosial, lembaga keagamaan, dan jabatan tertentu di lembaga pendidikan. Besaran dan penggunaan kompensasi diatur peraturan perundang-undangan."
+    },
+    {
+      "norm_id": "PKWT-DASAR-JANGKA-WAKTU",
+      "topik": "PKWT",
+      "pasal": "Pasal 56 ayat (2)",
+      "iri_individu": "ktn:DasarPKWT",
+      "jenis": "KetentuanPKWT",
+      "kondisi": "Perjanjian kerja waktu tertentu dibuat",
+      "akibat": "Didasarkan atas jangka waktu atau selesainya suatu pekerjaan tertentu",
+      "bukti": "Perjanjian kerja waktu tertentu sebagaimana dimaksud pada ayat (1) didasarkan atas: a. jangka waktu; atau b. selesainya suatu pekerjaan tertentu.",
+      "confidence": 0.95,
+      "dasar_keyakinan": "dikutip",
+      "catatan": ""
+    },
+    {
+      "norm_id": "PKWT-FORMILITAS-TERTULIS",
+      "topik": "PKWT",
+      "pasal": "Pasal 57 ayat (1)",
+      "iri_individu": "ktn:FormalitasPKWT",
+      "jenis": "KetentuanPKWT",
+      "kondisi": "Perjanjian kerja waktu tertentu dibuat",
+      "akibat": "Harus dibuat secara tertulis dengan menggunakan bahasa Indonesia dan huruf latin",
+      "bukti": "Perjanjian kerja waktu tertentu dibuat secara tertulis serta harus menggunakan bahasa Indonesia dan huruf latin.",
+      "confidence": 0.95,
+      "dasar_keyakinan": "dikutip",
+      "catatan": ""
+    },
+    {
+      "norm_id": "PKWT-BAHASA-INDONESIA",
+      "topik": "PKWT",
+      "pasal": "Pasal 57 ayat (2)",
+      "iri_individu": "ktn:BahasaPKWTDominan",
+      "jenis": "KetentuanPKWT",
+      "kondisi": "PKWT dibuat dalam bahasa Indonesia dan bahasa asing serta terdapat perbedaan penafsiran",
+      "akibat": "Yang berlaku adalah PKWT yang dibuat dalam bahasa Indonesia",
+      "bukti": "apabila kemudian terdapat perbedaan penafsiran antara keduanya, yang berlaku perjanjian kerja waktu tertentu yang dibuat dalam bahasa Indonesia",
+      "confidence": 0.95,
+      "dasar_keyakinan": "dikutip",
+      "catatan": ""
+    },
+    {
+      "norm_id": "PKWT-LARANG-PERCOBAAN",
+      "topik": "PKWT",
+      "pasal": "Pasal 58 ayat (2)",
+      "iri_individu": "ktn:BatalMasaPercobaanPKWT",
+      "jenis": "KetentuanPKWT",
+      "kondisi": "PKWT mensyaratkan masa percobaan kerja",
+      "akibat": "Syarat masa percobaan batal demi hukum dan masa kerja tetap dihitung",
+      "bukti": "masa percobaan kerja yang disyaratkan tersebut batal demi hukum dan masa kerja tetap dihitung",
+      "confidence": 0.95,
+      "dasar_keyakinan": "dikutip",
+      "catatan": "Ayat (1) menyatakan PKWT tidak dapat mensyaratkan masa percobaan kerja."
+    },
+    {
+      "norm_id": "PKWT-PEKERJAAN-TERTENTU-UU62023",
+      "topik": "PKWT",
+      "pasal": "Pasal 59 ayat (1)",
+      "iri_individu": "ktn:LingkupPekerjaanPKWT",
+      "jenis": "KetentuanPKWT",
+      "kondisi": "Pekerjaan tertentu yang menurut jenis dan sifat atau kegiatan pekerjaannya akan selesai dalam waktu tertentu, yaitu pekerjaan sekali selesai/sementara, penyelesaiannya tidak terlalu lama, musiman, produk/kegiatan baru yang masih percobaan, atau bersifat tidak tetap",
+      "akibat": "Dapat dibuat Perjanjian kerja waktu tertentu",
+      "bukti": "Perjanjian kerja waktu tertentu hanya dapat dibuat untuk pekerjaan tertentu yang menurut jenis dan sifat atau kegiatan pekerjaannya akan selesai dalam waktu tertentu",
+      "confidence": 0.95,
+      "dasar_keyakinan": "dikutip",
+      "catatan": ""
+    },
+    {
+      "norm_id": "PKWT-LARANG-PEKERJAAN-TETAP",
+      "topik": "PKWT",
+      "pasal": "Pasal 59 ayat (2)",
+      "iri_individu": "ktn:PKWTTidakUntukPekerjaanTetap",
+      "jenis": "KetentuanPKWT",
+      "kondisi": "Pekerjaan bersifat tetap",
+      "akibat": "Perjanjian kerja waktu tertentu tidak dapat diadakan",
+      "bukti": "Perjanjian kerja waktu tertentu tidak dapat diadakan untuk pekerjaan yang bersifat tetap.",
+      "confidence": 0.95,
+      "dasar_keyakinan": "dikutip",
+      "catatan": ""
+    },
+    {
+      "norm_id": "PKWT-KONVERSI-PKWTT-UU62023",
+      "topik": "PKWT",
+      "pasal": "Pasal 59 ayat (3)",
+      "iri_individu": "ktn:KonversiPKWTTidakMemenuhiSyarat",
+      "jenis": "KetentuanPKWT",
+      "kondisi": "PKWT tidak memenuhi ketentuan Pasal 59 ayat (1) dan ayat (2)",
+      "akibat": "Demi hukum menjadi perjanjian kerja waktu tidak tertentu",
+      "bukti": "Perjanjian kerja waktu tertentu yang tidak memenuhi ketentuan sebagaimana dimaksud pada ayat (1) dan ayat (2) demi hukum menjadi perjanjian kerja waktu tidak tertentu.",
+      "confidence": 0.95,
+      "dasar_keyakinan": "dikutip",
+      "catatan": ""
+    },
+    {
+      "norm_id": "PKWT-BERAKHIR-ALASAN",
+      "topik": "PKWT",
+      "pasal": "Pasal 61 ayat (1)",
+      "iri_individu": "ktn:AlasanPerjanjianKerjaBerakhir",
+      "jenis": "KetentuanPKWT",
+      "kondisi": "Pekerja/Buruh meninggal dunia, berakhirnya jangka waktu Perjanjian Kerja, selesainya pekerjaan tertentu, putusan pengadilan/lembaga penyelesaian PHI berkekuatan hukum tetap, atau keadaan/kejadian tertentu dalam PK/PP/PKB",
+      "akibat": "Perjanjian Kerja berakhir",
+      "bukti": "Perjanjian Kerja berakhir apabila: a. Pekerja/Buruh meninggal dunia; b. berakhirnya jangka waktu Perjanjian Kerja; c. selesainya suatu pekerjaan tertentu",
+      "confidence": 0.95,
+      "dasar_keyakinan": "dikutip",
+      "catatan": ""
+    },
+    {
+      "norm_id": "PKWT-TIDAK-BERAKHIR-PENGUSAHA-MENINGGAL",
+      "topik": "PKWT",
+      "pasal": "Pasal 61 ayat (2)",
+      "iri_individu": "ktn:PerjanjianKerjaTidakBerakhirKarenaPengalihan",
+      "jenis": "KetentuanPKWT",
+      "kondisi": "Pengusaha meninggal dunia atau beralihnya hak atas Perusahaan karena penjualan, pewarisan, atau hibah",
+      "akibat": "Perjanjian Kerja tidak berakhir",
+      "bukti": "Perjanjian Kerja tidak berakhir karena meninggalnya Pengusaha atau beralihnya hak atas Perusahaan yang disebabkan penjualan, pewarisan, atau hibah.",
+      "confidence": 0.95,
+      "dasar_keyakinan": "dikutip",
+      "catatan": ""
+    },
+    {
+      "norm_id": "PKWT-TANGGUNG-JAWAB-PENGUSAHA-BARU",
+      "topik": "PKWT",
+      "pasal": "Pasal 61 ayat (3)",
+      "iri_individu": "ktn:HakPekerjaPadaPengalihanPerusahaanUu62023",
+      "jenis": "KetentuanPKWT",
+      "kondisi": "Terjadi pengalihan Perusahaan",
+      "akibat": "Hak-hak Pekerja/Buruh menjadi tanggung jawab Pengusaha baru, kecuali ditentukan lain dalam perjanjian pengalihan yang tidak mengurangi hak Pekerja/Buruh",
+      "bukti": "Dalam hal terjadi pengalihan Perusahaan, hak-hak Pekerja/Buruh menjadi tanggung jawab Pengusaha baru, kecuali ditentukan lain dalam perjanjian pengalihan yang tidak mengurangi hak-hak Pekerja/Buruh.",
+      "confidence": 0.95,
+      "dasar_keyakinan": "dikutip",
+      "catatan": ""
+    },
+    {
+      "norm_id": "PKWT-AHLI-WARIS-PENGUSAHA",
+      "topik": "PKWT",
+      "pasal": "Pasal 61 ayat (4)",
+      "iri_individu": "ktn:AhliWarisAkhiriPerjanjianKerja",
+      "jenis": "KetentuanPKWT",
+      "kondisi": "Pengusaha orang perseorangan meninggal dunia",
+      "akibat": "Ahli waris Pengusaha dapat mengakhiri Perjanjian Kerja setelah merundingkan dengan Pekerja/Buruh",
+      "bukti": "Dalam hal Pengusaha orang perseorangan meninggal dunia, ahli waris Pengusaha dapat mengakhiri Perjanjian Kerja setelah merundingkan dengan Pekerja/Buruh.",
+      "confidence": 0.95,
+      "dasar_keyakinan": "dikutip",
+      "catatan": ""
+    },
+    {
+      "norm_id": "PKWT-HAK-AHLI-WARIS-PEKERJA",
+      "topik": "PKWT",
+      "pasal": "Pasal 61 ayat (5)",
+      "iri_individu": "ktn:HakAhliWarisPekerjaUu62023",
+      "jenis": "KetentuanPKWT",
+      "kondisi": "Pekerja/Buruh meninggal dunia",
+      "akibat": "Ahli waris berhak mendapatkan hak-haknya sesuai peraturan perundang-undangan atau PK/PP/PKB",
+      "bukti": "Dalam hal Pekerja/Buruh meninggal dunia, ahli waris Pekerja/Buruh berhak mendapatkan hak-haknya sesuai dengan ketentuan peraturan perundang-undangan",
+      "confidence": 0.95,
+      "dasar_keyakinan": "dikutip",
+      "catatan": ""
+    },
+    {
+      "norm_id": "PKWT-KOMPENSASI",
+      "topik": "PKWT",
+      "pasal": "Pasal 61A ayat (1)",
+      "iri_individu": "ktn:KewajibanKompensasiPKWT",
+      "jenis": "KetentuanPKWT",
+      "kondisi": "PKWT berakhir karena berakhirnya jangka waktu atau selesainya suatu pekerjaan tertentu",
+      "akibat": "Pengusaha wajib memberikan uang kompensasi kepada Pekerja/Buruh sesuai masa kerjanya",
+      "bukti": "Dalam hal perjanjian kerja waktu tertentu berakhir sebagaimana dimaksud dalam Pasal 61 ayat (1) huruf b dan huruf c, Pengusaha wajib memberikan uang kompensasi kepada Pekerja/Buruh.",
+      "confidence": 0.95,
+      "dasar_keyakinan": "dikutip",
+      "catatan": "Ayat (2) menyatakan kompensasi diberikan sesuai masa kerja Pekerja/Buruh di Perusahaan."
+    },
+    {
+      "norm_id": "ALIH-DAYA-PERJANJIAN",
+      "topik": "AlihDaya",
+      "pasal": "Pasal 64 ayat (1)",
+      "iri_individu": "ktn:PerjanjianAlihDayaTertulis",
+      "jenis": "KetentuanAlihDaya",
+      "kondisi": "Perusahaan menyerahkan sebagian pelaksanaan pekerjaan kepada Perusahaan lain",
+      "akibat": "Dilakukan melalui perjanjian alih daya yang dibuat secara tertulis",
+      "bukti": "Perusahaan dapat menyerahkan sebagian pelaksanaan pekerjaan kepada Perusahaan lainnya melalui perjanjian alih daya yang dibuat secara tertulis.",
+      "confidence": 0.95,
+      "dasar_keyakinan": "dikutip",
+      "catatan": "Pemerintah menetapkan sebagian pelaksanaan pekerjaan yang dapat dialihdayakan (ayat 2)."
+    },
+    {
+      "norm_id": "ALIH-DAYA-DASAR-PERJANJIAN",
+      "topik": "AlihDaya",
+      "pasal": "Pasal 66 ayat (1)",
+      "iri_individu": "ktn:DasarPerjanjianAlihDaya",
+      "jenis": "KetentuanAlihDaya",
+      "kondisi": "Hubungan Kerja antara Perusahaan alih daya dengan Pekerja/Buruh yang dipekerjakannya",
+      "akibat": "Didasarkan pada Perjanjian Kerja tertulis, baik PKWT maupun PKWTT",
+      "bukti": "Hubungan Kerja antara Perusahaan alih daya dengan Pekerja/Buruh yang dipekerjakannya didasarkan pada Perjanjian Kerja yang dibuat secara tertulis",
+      "confidence": 0.95,
+      "dasar_keyakinan": "dikutip",
+      "catatan": ""
+    },
+    {
+      "norm_id": "ALIH-DAYA-KEWAJIBAN-PERLINDUNGAN",
+      "topik": "AlihDaya",
+      "pasal": "Pasal 66 ayat (2)",
+      "iri_individu": "ktn:TanggungJawabPerlindunganAlihDaya",
+      "jenis": "KetentuanAlihDaya",
+      "kondisi": "Pelindungan Pekerja/Buruh, Upah dan kesejahteraan, syarat kerja, serta perselisihan pada Perusahaan alih daya",
+      "akibat": "Dilaksanakan sekurang-kurangnya sesuai peraturan perundang-undangan dan menjadi tanggung jawab Perusahaan alih daya",
+      "bukti": "Pelindungan Pekerja/Buruh, Upah dan kesejahteraan, syarat-syarat kerja, serta perselisihan yang timbul dilaksanakan sekurang-kurangnya sesuai dengan ketentuan peraturan perundang-undangan",
+      "confidence": 0.95,
+      "dasar_keyakinan": "dikutip",
+      "catatan": ""
+    },
+    {
+      "norm_id": "ALIH-DAYA-SYARAT-PENGALIHAN-PKWT",
+      "topik": "AlihDaya",
+      "pasal": "Pasal 66 ayat (3)",
+      "iri_individu": "ktn:SyaratPengalihanHakAlihDaya",
+      "jenis": "KetentuanAlihDaya",
+      "kondisi": "Perusahaan alih daya mempekerjakan Pekerja/Buruh berdasarkan PKWT dan terjadi pergantian Perusahaan alih daya sepanjang objek pekerjaannya tetap ada",
+      "akibat": "PKWT harus mensyaratkan pengalihan pelindungan hak-hak Pekerja/Buruh",
+      "bukti": "perjanjian kerja waktu tertentu tersebut harus mensyaratkan pengalihan pelindungan hak-hak bagi Pekerja/Buruh apabila terjadi pergantian Perusahaan alih daya dan sepanjang objek pekerjaannya tetap ada",
+      "confidence": 0.95,
+      "dasar_keyakinan": "dikutip",
+      "catatan": ""
+    },
+    {
+      "norm_id": "ALIH-DAYA-FORMILITAS-BADAN-HUKUM",
+      "topik": "AlihDaya",
+      "pasal": "Pasal 66 ayat (4)",
+      "iri_individu": "ktn:FormalitasBadanHukumAlihDaya",
+      "jenis": "KetentuanAlihDaya",
+      "kondisi": "Perusahaan alih daya",
+      "akibat": "Berbentuk badan hukum dan wajib memenuhi Perizinan Berusaha yang diterbitkan Pemerintah Pusat",
+      "bukti": "Perusahaan alih daya sebagaimana dimaksud pada ayat (1) berbentuk badan hukum dan wajib memenuhi Perizinan Berusaha yang diterbitkan oleh Pemerintah Pusat.",
+      "confidence": 0.95,
+      "dasar_keyakinan": "dikutip",
+      "catatan": ""
+    },
+    {
+      "norm_id": "WAKTU-KERJA-6-HARI",
+      "topik": "WaktuKerja",
+      "pasal": "Pasal 77 ayat (2)a",
+      "iri_individu": "ktn:WaktuKerja6HariUu62023",
+      "jenis": "KetentuanWaktuKerja",
+      "kondisi": "6 hari kerja dalam 1 minggu",
+      "akibat": "7 jam 1 hari dan 40 jam 1 minggu",
+      "parameter": [
+        {
+          "nama": "jamKerjaPerHari",
+          "nilai": "7",
+          "satuan": "jam",
+          "jenis": "nominal",
+          "pasal": "Pasal 77 ayat (2)a"
+        },
+        {
+          "nama": "jamKerjaPerMinggu",
+          "nilai": "40",
+          "satuan": "jam",
+          "jenis": "nominal",
+          "pasal": "Pasal 77 ayat (2)a"
+        },
+        {
+          "nama": "jumlahHariKerjaPerMinggu",
+          "nilai": "6",
+          "satuan": "hari",
+          "jenis": "nominal",
+          "pasal": "Pasal 77 ayat (2)a"
+        }
+      ],
+      "bukti": "7 (tujuh) jam 1 (satu) hari dan 40 (empat puluh) jam 1 (satu) minggu untuk 6 (enam) hari kerja dalam 1 (satu) minggu",
+      "confidence": 0.95,
+      "dasar_keyakinan": "dikutip",
+      "catatan": ""
+    },
+    {
+      "norm_id": "WAKTU-KERJA-5-HARI",
+      "topik": "WaktuKerja",
+      "pasal": "Pasal 77 ayat (2)b",
+      "iri_individu": "ktn:WaktuKerja5HariUu62023",
+      "jenis": "KetentuanWaktuKerja",
+      "kondisi": "5 hari kerja dalam 1 minggu",
+      "akibat": "8 jam 1 hari dan 40 jam 1 minggu",
+      "parameter": [
+        {
+          "nama": "jamKerjaPerHari",
+          "nilai": "8",
+          "satuan": "jam",
+          "jenis": "nominal",
+          "pasal": "Pasal 77 ayat (2)b"
+        },
+        {
+          "nama": "jamKerjaPerMinggu",
+          "nilai": "40",
+          "satuan": "jam",
+          "jenis": "nominal",
+          "pasal": "Pasal 77 ayat (2)b"
+        },
+        {
+          "nama": "jumlahHariKerjaPerMinggu",
+          "nilai": "5",
+          "satuan": "hari",
+          "jenis": "nominal",
+          "pasal": "Pasal 77 ayat (2)b"
+        }
+      ],
+      "bukti": "8 (delapan) jam 1 (satu) hari dan 40 (empat puluh) jam 1 (satu) minggu untuk 5 (lima) hari kerja dalam 1 (satu) minggu",
+      "confidence": 0.95,
+      "dasar_keyakinan": "dikutip",
+      "catatan": "Ayat (3) menyatakan ketentuan waktu kerja tidak berlaku bagi sektor usaha atau pekerjaan tertentu."
+    },
+    {
+      "norm_id": "LEMBUR-PERSETUJUAN",
+      "topik": "Lembur",
+      "pasal": "Pasal 78 ayat (1)a",
+      "iri_individu": "ktn:PersetujuanPekerjaLembur",
+      "jenis": "KetentuanLembur",
+      "kondisi": "Pengusaha mempekerjakan Pekerja/Buruh melebihi waktu kerja",
+      "akibat": "Harus ada persetujuan Pekerja/Buruh yang bersangkutan",
+      "bukti": "ada persetujuan Pekerja/Buruh yang bersangkutan",
+      "confidence": 0.95,
+      "dasar_keyakinan": "dikutip",
+      "catatan": ""
+    },
+    {
       "norm_id": "LEMBUR-BATAS-JAM",
       "topik": "Lembur",
       "pasal": "Pasal 78 ayat (1)b",
       "iri_individu": "ktn:BatasJamLembur",
       "jenis": "KetentuanLembur",
       "kondisi": "Kerja lembur",
-      "akibat": "Maksimal 4 jam per hari dan 18 jam per minggu",
+      "akibat": "Paling lama 4 jam dalam 1 hari dan 18 jam dalam 1 minggu",
       "parameter": [
         {
           "nama": "jamLemburMaksPerHari",
@@ -37,62 +460,45 @@
           "pasal": "Pasal 78 ayat (1)b"
         }
       ],
-      "bukti": "paling lama 4 jam dalam 1 hari dan 18 jam dalam 1 minggu",
+      "bukti": "waktu kerja lembur hanya dapat dilakukan paling lama 4 (empat) jam dalam 1 (satu) hari dan 18 (delapan belas) jam dalam 1 (satu) minggu",
+      "confidence": 0.95,
+      "dasar_keyakinan": "dikutip",
+      "catatan": "Ayat (3) menyatakan batas waktu lembur tidak berlaku bagi sektor usaha atau pekerjaan tertentu."
+    },
+    {
+      "norm_id": "LEMBUR-KEWAJIBAN-UPAH",
+      "topik": "Lembur",
+      "pasal": "Pasal 78 ayat (2)",
+      "iri_individu": "ktn:KewajibanUpahLemburUu62023",
+      "jenis": "KetentuanLembur",
+      "kondisi": "Pengusaha mempekerjakan Pekerja/Buruh melebihi waktu kerja",
+      "akibat": "Wajib membayar Upah kerja lembur",
+      "bukti": "Pengusaha yang mempekerjakan Pekerja/Buruh melebihi waktu kerja sebagaimana dimaksud pada ayat (1) wajib membayar Upah kerja lembur.",
       "confidence": 0.95,
       "dasar_keyakinan": "dikutip",
       "catatan": ""
     },
     {
-      "norm_id": "WAKTU-KERJA-5-HARI",
+      "norm_id": "CUTI-ISTIRAHAT-ANTAR-JAM",
       "topik": "WaktuKerja",
-      "pasal": "Pasal 77",
-      "iri_individu": "ktn:WaktuKerja5Hari",
+      "pasal": "Pasal 79 ayat (2)a",
+      "iri_individu": "ktn:IstirahatAntarJamKerja",
       "jenis": "KetentuanWaktuKerja",
-      "kondisi": "5 hari kerja per minggu",
-      "akibat": "8 jam per hari dan 40 jam per minggu",
-      "parameter": [
-        {
-          "nama": "istirahatMingguanHari",
-          "nilai": "2",
-          "satuan": "hari",
-          "jenis": "nominal",
-          "pasal": "PP 35/2021 Pasal 22"
-        },
-        {
-          "nama": "jamKerjaPerHari",
-          "nilai": "8",
-          "satuan": "jam",
-          "jenis": "nominal",
-          "pasal": "Pasal 77"
-        },
-        {
-          "nama": "jamKerjaPerMinggu",
-          "nilai": "40",
-          "satuan": "jam",
-          "jenis": "nominal",
-          "pasal": "Pasal 77"
-        },
-        {
-          "nama": "jumlahHariKerjaPerMinggu",
-          "nilai": "5",
-          "satuan": "hari",
-          "jenis": "nominal",
-          "pasal": "Pasal 77"
-        }
-      ],
-      "bukti": "8 jam 1 hari dan 40 jam 1 minggu untuk 5 hari kerja",
+      "kondisi": "Bekerja selama 4 jam terus-menerus",
+      "akibat": "Istirahat antara jam kerja paling sedikit setengah jam dan waktu istirahat tidak termasuk jam kerja",
+      "bukti": "istirahat antara jam kerja, paling sedikit setengah jam setelah bekerja selama 4 (empat) jam terus-menerus, dan waktu istirahat tersebut tidak termasuk jam kerja",
       "confidence": 0.95,
       "dasar_keyakinan": "dikutip",
       "catatan": ""
     },
     {
-      "norm_id": "WAKTU-KERJA-6-HARI",
+      "norm_id": "CUTI-ISTIRAHAT-MINGGUAN",
       "topik": "WaktuKerja",
-      "pasal": "Pasal 77",
-      "iri_individu": "ktn:WaktuKerja6Hari",
+      "pasal": "Pasal 79 ayat (2)b",
+      "iri_individu": "ktn:IstirahatMingguan6HariUu62023",
       "jenis": "KetentuanWaktuKerja",
-      "kondisi": "6 hari kerja per minggu",
-      "akibat": "7 jam per hari dan 40 jam per minggu",
+      "kondisi": "6 hari kerja dalam 1 minggu",
+      "akibat": "Istirahat mingguan 1 hari",
       "parameter": [
         {
           "nama": "istirahatMingguanHari",
@@ -100,30 +506,664 @@
           "satuan": "hari",
           "jenis": "nominal",
           "pasal": "Pasal 79 ayat (2)b"
-        },
-        {
-          "nama": "jamKerjaPerHari",
-          "nilai": "7",
-          "satuan": "jam",
-          "jenis": "nominal",
-          "pasal": "Pasal 77"
-        },
-        {
-          "nama": "jamKerjaPerMinggu",
-          "nilai": "40",
-          "satuan": "jam",
-          "jenis": "nominal",
-          "pasal": "Pasal 77"
-        },
-        {
-          "nama": "jumlahHariKerjaPerMinggu",
-          "nilai": "6",
-          "satuan": "hari",
-          "jenis": "nominal",
-          "pasal": "Pasal 77"
         }
       ],
-      "bukti": "7 jam 1 hari dan 40 jam 1 minggu untuk 6 hari kerja",
+      "bukti": "istirahat mingguan 1 (satu) hari untuk 6 (enam) hari kerja dalam 1 (satu) minggu",
+      "confidence": 0.95,
+      "dasar_keyakinan": "dikutip",
+      "catatan": ""
+    },
+    {
+      "norm_id": "CUTI-TAHUNAN-12-HARI",
+      "topik": "Cuti",
+      "pasal": "Pasal 79 ayat (3)",
+      "iri_individu": "ktn:CutiTahunan12HariUu62023",
+      "jenis": "KetentuanWaktuKerja",
+      "kondisi": "Pekerja/Buruh bekerja selama 12 bulan secara terus menerus",
+      "akibat": "Berhak atas cuti tahunan paling sedikit 12 hari kerja",
+      "parameter": [
+        {
+          "nama": "hariDibayar",
+          "nilai": "12",
+          "satuan": "hari",
+          "jenis": "nominal",
+          "pasal": "Pasal 79 ayat (3)"
+        }
+      ],
+      "bukti": "cuti tahunan, paling sedikit 12 (dua belas) hari kerja setelah Pekerja/Buruh yang bersangkutan bekerja selama 12 (dua belas) bulan secara terus menerus",
+      "confidence": 0.95,
+      "dasar_keyakinan": "dikutip",
+      "catatan": "Ayat (5) memungkinkan Perusahaan tertentu memberikan istirahat panjang; ayat (6) mendelegasikan pengaturannya kepada PP."
+    },
+    {
+      "norm_id": "UPAH-ISTIRAHAT-PENUH",
+      "topik": "Upah",
+      "pasal": "Pasal 84",
+      "iri_individu": "ktn:UpahPenuhSelamaIstirahatUu62023",
+      "jenis": "KetentuanUpah",
+      "kondisi": "Pekerja/Buruh menggunakan hak waktu istirahat sebagaimana Pasal 79 ayat (2)b, ayat (3), ayat (5), Pasal 80, dan Pasal 82",
+      "akibat": "Berhak mendapat Upah penuh",
+      "bukti": "Setiap Pekerja/Buruh yang menggunakan hak waktu istirahat sebagaimana dimaksud dalam Pasal 79 ayat (2) huruf b, ayat (3), ayat (5), Pasal 80, dan Pasal 82 berhak mendapat Upah penuh.",
+      "confidence": 0.95,
+      "dasar_keyakinan": "dikutip",
+      "catatan": ""
+    },
+    {
+      "norm_id": "UPAH-PENGHIDUPAN-LAYAK",
+      "topik": "Upah",
+      "pasal": "Pasal 88 ayat (1)",
+      "iri_individu": "ktn:HakPenghidupanLayakUu62023",
+      "jenis": "KetentuanUpah",
+      "kondisi": "Setiap Pekerja/Buruh",
+      "akibat": "Berhak atas penghidupan yang layak bagi kemanusiaan",
+      "bukti": "Setiap Pekerja/Buruh berhak atas penghidupan yang layak bagi kemanusiaan.",
+      "confidence": 0.95,
+      "dasar_keyakinan": "dikutip",
+      "catatan": "Ayat (2)-(4) mengatur kebijakan pengupahan Pemerintah Pusat dan cakupannya; tidak menghasilkan norma terukur."
+    },
+    {
+      "norm_id": "UPAH-MULAI-BERAKHIR",
+      "topik": "Upah",
+      "pasal": "Pasal 88A ayat (1)",
+      "iri_individu": "ktn:UpahTimbulSaatHubunganKerja",
+      "jenis": "KetentuanUpah",
+      "kondisi": "Terjadi Hubungan Kerja antara Pekerja/Buruh dengan Pengusaha",
+      "akibat": "Hak atas Upah timbul dan berakhir pada saat putusnya Hubungan Kerja",
+      "bukti": "Hak Pekerja/Buruh atas Upah timbul pada saat terjadi Hubungan Kerja antara Pekerja/Buruh dengan Pengusaha dan berakhir pada saat putusnya Hubungan Kerja.",
+      "confidence": 0.95,
+      "dasar_keyakinan": "dikutip",
+      "catatan": ""
+    },
+    {
+      "norm_id": "UPAH-SAMA-NILAI-SAMA",
+      "topik": "Upah",
+      "pasal": "Pasal 88A ayat (2)",
+      "iri_individu": "ktn:UpahSamaNilaiSamaUu62023",
+      "jenis": "KetentuanUpah",
+      "kondisi": "Pekerjaan yang sama nilainya",
+      "akibat": "Setiap Pekerja/Buruh berhak memperoleh Upah yang sama",
+      "bukti": "Setiap Pekerja/Buruh berhak memperoleh Upah yang sama untuk pekerjaan yang sama nilainya.",
+      "confidence": 0.95,
+      "dasar_keyakinan": "dikutip",
+      "catatan": ""
+    },
+    {
+      "norm_id": "UPAH-BAYAR-SESUAI-KESEPAKATAN",
+      "topik": "Upah",
+      "pasal": "Pasal 88A ayat (3)",
+      "iri_individu": "ktn:KewajibanBayarUpahSesuaiKesepakatan",
+      "jenis": "KetentuanUpah",
+      "kondisi": "Terdapat Hubungan Kerja",
+      "akibat": "Pengusaha wajib membayar Upah kepada Pekerja/Buruh sesuai dengan kesepakatan",
+      "bukti": "Pengusaha wajib membayar Upah kepada Pekerja/Buruh sesuai dengan kesepakatan.",
+      "confidence": 0.95,
+      "dasar_keyakinan": "dikutip",
+      "catatan": ""
+    },
+    {
+      "norm_id": "UPAH-KESEPAKATAN-TIDAK-BOLEH-RENDAH",
+      "topik": "Upah",
+      "pasal": "Pasal 88A ayat (4) dan ayat (5)",
+      "iri_individu": "ktn:KesepakatanUpahTidakBolehRendah",
+      "jenis": "KetentuanUpah",
+      "kondisi": "Pengaturan pengupahan atas kesepakatan Pengusaha dan Pekerja/Buruh atau Serikat lebih rendah atau bertentangan dengan peraturan perundang-undangan",
+      "akibat": "Kesepakatan batal demi hukum dan pengaturan pengupahan dilaksanakan sesuai ketentuan peraturan perundang-undangan",
+      "bukti": "Dalam hal kesepakatan sebagaimana dimaksud pada ayat (4) lebih rendah atau bertentangan dengan peraturan perundang-undangan, kesepakatan tersebut batal demi hukum",
+      "confidence": 0.95,
+      "dasar_keyakinan": "dikutip",
+      "catatan": ""
+    },
+    {
+      "norm_id": "UPAH-DENDA-KETERLAMBATAN-UU62023",
+      "topik": "Upah",
+      "pasal": "Pasal 88A ayat (6)",
+      "iri_individu": "ktn:DendaKeterlambatanUpahUu62023",
+      "jenis": "KetentuanUpah",
+      "kondisi": "Pengusaha karena kesengajaan atau kelalaiannya mengakibatkan keterlambatan pembayaran Upah",
+      "akibat": "Dikenakan denda sesuai persentase tertentu dari Upah Pekerja/Buruh",
+      "bukti": "Pengusaha yang karena kesengajaan atau kelalaiannya mengakibatkan keterlambatan pembayaran Upah, dikenakan denda sesuai dengan persentase tertentu dari Upah Pekerja/Buruh.",
+      "confidence": 0.95,
+      "dasar_keyakinan": "dikutip",
+      "catatan": "Besaran persentase denda diatur lebih lanjut oleh Pemerintah (ayat 8)."
+    },
+    {
+      "norm_id": "UPAH-DENDA-PELANGGARAN-PEKERJA",
+      "topik": "Upah",
+      "pasal": "Pasal 88A ayat (7)",
+      "iri_individu": "ktn:DendaPelanggaranPekerjaUu62023",
+      "jenis": "KetentuanUpah",
+      "kondisi": "Pekerja/Buruh melakukan pelanggaran karena kesengajaan atau kelalaiannya",
+      "akibat": "Dapat dikenakan denda",
+      "bukti": "Pekerja/Buruh yang melakukan pelanggaran karena kesengajaan atau kelalaiannya dapat dikenakan denda.",
+      "confidence": 0.95,
+      "dasar_keyakinan": "dikutip",
+      "catatan": ""
+    },
+    {
+      "norm_id": "UPAH-DASAR-SATUAN",
+      "topik": "Upah",
+      "pasal": "Pasal 88B ayat (1)",
+      "iri_individu": "ktn:UpahBerdasarkanSatuanWaktuHasil",
+      "jenis": "KetentuanUpah",
+      "kondisi": "Upah ditetapkan",
+      "akibat": "Berdasarkan satuan waktu dan/atau satuan hasil",
+      "bukti": "Upah ditetapkan berdasarkan: a. satuan waktu; dan/atau b. satuan hasil.",
+      "confidence": 0.95,
+      "dasar_keyakinan": "dikutip",
+      "catatan": ""
+    },
+    {
+      "norm_id": "UPAH-UMP-WAJIB-TETAP",
+      "topik": "Upah",
+      "pasal": "Pasal 88C ayat (1)",
+      "iri_individu": "ktn:KewajibanGubernurTetapkanUMPUu62023",
+      "jenis": "KetentuanUpah",
+      "kondisi": "Gubernur",
+      "akibat": "Wajib menetapkan Upah minimum provinsi",
+      "bukti": "Gubernur wajib menetapkan Upah minimum provinsi.",
+      "confidence": 0.95,
+      "dasar_keyakinan": "dikutip",
+      "catatan": ""
+    },
+    {
+      "norm_id": "UPAH-MINIMUM-KABUPATEN-KOTA",
+      "topik": "Upah",
+      "pasal": "Pasal 88C ayat (2) dan ayat (3)",
+      "iri_individu": "ktn:UpahMinimumKabupatenKota",
+      "jenis": "KetentuanUpah",
+      "kondisi": "Hasil penghitungan Upah minimum kabupaten/kota lebih tinggi dari Upah minimum provinsi",
+      "akibat": "Gubernur dapat menetapkan Upah minimum kabupaten/kota",
+      "bukti": "Penetapan Upah minimum kabupaten/kota sebagaimana dimaksud pada ayat (2) dilakukan dalam hal hasil penghitungan Upah minimum kabupaten/kota lebih tinggi dari Upah minimum provinsi.",
+      "confidence": 0.95,
+      "dasar_keyakinan": "dikutip",
+      "catatan": ""
+    },
+    {
+      "norm_id": "UPAH-MINIMUM-DASAR-DATA",
+      "topik": "Upah",
+      "pasal": "Pasal 88C ayat (4) dan ayat (5)",
+      "iri_individu": "ktn:DasarPenetapanUpahMinimum",
+      "jenis": "KetentuanUpah",
+      "kondisi": "Penetapan Upah minimum provinsi atau kabupaten/kota",
+      "akibat": "Berdasarkan kondisi ekonomi dan Ketenagakerjaan dengan menggunakan data dari lembaga yang berwenang di bidang statistik",
+      "bukti": "Upah minimum sebagaimana dimaksud pada ayat (1) dan ayat (2) ditetapkan berdasarkan kondisi ekonomi dan Ketenagakerjaan.",
+      "confidence": 0.95,
+      "dasar_keyakinan": "dikutip",
+      "catatan": "Ayat (6) mengatur syarat tertentu bagi kabupaten/kota yang belum memiliki Upah minimum."
+    },
+    {
+      "norm_id": "UPAH-MINIMUM-FORMULA",
+      "topik": "Upah",
+      "pasal": "Pasal 88D ayat (1) dan ayat (2)",
+      "iri_individu": "ktn:FormulaUpahMinimum",
+      "jenis": "KetentuanUpah",
+      "kondisi": "Penghitungan Upah minimum",
+      "akibat": "Menggunakan formula penghitungan yang mempertimbangkan pertumbuhan ekonomi, inflasi, dan indeks tertentu",
+      "bukti": "Formula penghitungan Upah minimum sebagaimana dimaksud pada ayat (1) mempertimbangkan variabel pertumbuhan ekonomi, inflasi, dan indeks tertentu.",
+      "confidence": 0.95,
+      "dasar_keyakinan": "dikutip",
+      "catatan": ""
+    },
+    {
+      "norm_id": "UPAH-MINIMUM-BERLAKU-MASA-KERJA-1TAHUN",
+      "topik": "Upah",
+      "pasal": "Pasal 88E ayat (1)",
+      "iri_individu": "ktn:UpahMinimumMasaKerjaKurang1Tahun",
+      "jenis": "KetentuanUpah",
+      "kondisi": "Pekerja/Buruh dengan masa kerja kurang dari 1 tahun pada Perusahaan yang bersangkutan",
+      "akibat": "Upah minimum berlaku baginya",
+      "bukti": "Upah minimum sebagaimana dimaksud dalam Pasal 88C ayat (1) dan ayat (2) berlaku bagi Pekerja/Buruh dengan masa kerja kurang dari 1 (satu) tahun pada Perusahaan yang bersangkutan.",
+      "confidence": 0.95,
+      "dasar_keyakinan": "dikutip",
+      "catatan": ""
+    },
+    {
+      "norm_id": "UPAH-TIDAK-BOLEH-DI-BAWAH-MINIMUM",
+      "topik": "Upah",
+      "pasal": "Pasal 88E ayat (2)",
+      "iri_individu": "ktn:LaranganUpahDiBawahMinimumUu62023",
+      "jenis": "KetentuanUpah",
+      "kondisi": "Pengusaha membayar Upah",
+      "akibat": "Dilarang membayar Upah lebih rendah dari Upah minimum",
+      "bukti": "Pengusaha dilarang membayar Upah lebih rendah dari Upah minimum.",
+      "confidence": 0.95,
+      "dasar_keyakinan": "dikutip",
+      "catatan": ""
+    },
+    {
+      "norm_id": "UPAH-FORMULA-KHUSUS",
+      "topik": "Upah",
+      "pasal": "Pasal 88F",
+      "iri_individu": "ktn:FormulaUpahMinimumKhusus",
+      "jenis": "KetentuanUpah",
+      "kondisi": "Dalam keadaan tertentu",
+      "akibat": "Pemerintah dapat menetapkan formula penghitungan Upah minimum yang berbeda dengan formula Pasal 88D ayat (2)",
+      "bukti": "Dalam keadaan tertentu Pemerintah dapat menetapkan formula penghitungan Upah minimum yang berbeda dengan formula penghitungan Upah minimum sebagaimana dimaksud dalam Pasal 88D ayat (2).",
+      "confidence": 0.95,
+      "dasar_keyakinan": "dikutip",
+      "catatan": ""
+    },
+    {
+      "norm_id": "UPAH-DI-ATAS-MINIMUM",
+      "topik": "Upah",
+      "pasal": "Pasal 90A",
+      "iri_individu": "ktn:UpahDiAtasMinimumKesepakatan",
+      "jenis": "KetentuanUpah",
+      "kondisi": "Upah di atas Upah minimum",
+      "akibat": "Ditetapkan berdasarkan kesepakatan antara Pengusaha dan Pekerja/Buruh di Perusahaan",
+      "bukti": "Upah di atas Upah minimum ditetapkan berdasarkan kesepakatan antara Pengusaha dan Pekerja/Buruh di Perusahaan.",
+      "confidence": 0.95,
+      "dasar_keyakinan": "dikutip",
+      "catatan": ""
+    },
+    {
+      "norm_id": "UPAH-USAHA-MIKRO-KECUALI",
+      "topik": "Upah",
+      "pasal": "Pasal 90B ayat (1) dan ayat (2)",
+      "iri_individu": "ktn:PengecualianUpahMinimumUsahaMikroUu62023",
+      "jenis": "KetentuanUpah",
+      "kondisi": "Usaha mikro dan kecil",
+      "akibat": "Dikecualikan dari ketentuan Upah minimum; Upah ditetapkan berdasarkan kesepakatan Pengusaha dan Pekerja/Buruh",
+      "bukti": "Ketentuan Upah minimum sebagaimana dimaksud dalam Pasal 88C ayat (1) dan ayat (2) dikecualikan bagi usaha mikro dan kecil.",
+      "confidence": 0.95,
+      "dasar_keyakinan": "dikutip",
+      "catatan": ""
+    },
+    {
+      "norm_id": "UPAH-MIKRO-BATAS-KONSUMSI",
+      "topik": "Upah",
+      "pasal": "Pasal 90B ayat (3)",
+      "iri_individu": "ktn:BatasBawahUpahUsahaMikro",
+      "jenis": "KetentuanUpah",
+      "kondisi": "Kesepakatan Upah pada usaha mikro dan kecil",
+      "akibat": "Sekurang-kurangnya sebesar persentase tertentu dari rata-rata konsumsi masyarakat berdasarkan data lembaga statistik",
+      "bukti": "Kesepakatan Upah sebagaimana dimaksud pada ayat (2) sekurang-kurangnya sebesar persentase tertentu dari rata-rata konsumsi masyarakat berdasarkan data yang bersumber dari lembaga yang berwenang di bidang statistik.",
+      "confidence": 0.95,
+      "dasar_keyakinan": "dikutip",
+      "catatan": ""
+    },
+    {
+      "norm_id": "UPAH-STRUKTUR-SKALA-WAJIB",
+      "topik": "Upah",
+      "pasal": "Pasal 92 ayat (1)",
+      "iri_individu": "ktn:KewajibanStrukturSkalaUpahUu62023",
+      "jenis": "KetentuanUpah",
+      "kondisi": "Pengusaha",
+      "akibat": "Wajib menyusun struktur dan skala Upah di Perusahaan dengan memperhatikan kemampuan Perusahaan dan produktivitas",
+      "bukti": "Pengusaha wajib menyusun struktur dan skala Upah di Perusahaan dengan memperhatikan kemampuan Perusahaan dan produktivitas.",
+      "confidence": 0.95,
+      "dasar_keyakinan": "dikutip",
+      "catatan": ""
+    },
+    {
+      "norm_id": "UPAH-STRUKTUR-PEDOMAN-MASA-KERJA",
+      "topik": "Upah",
+      "pasal": "Pasal 92 ayat (2)",
+      "iri_individu": "ktn:PedomanStrukturMasaKerja1TahunUu62023",
+      "jenis": "KetentuanUpah",
+      "kondisi": "Pekerja/Buruh memiliki masa kerja 1 tahun atau lebih",
+      "akibat": "Struktur dan skala Upah digunakan sebagai pedoman Pengusaha dalam menetapkan Upah",
+      "bukti": "Struktur dan skala Upah digunakan sebagai pedoman Pengusaha dalam menetapkan Upah bagi Pekerja/Buruh yang memiliki masa kerja 1 (satu) tahun atau lebih.",
+      "confidence": 0.95,
+      "dasar_keyakinan": "dikutip",
+      "catatan": ""
+    },
+    {
+      "norm_id": "UPAH-PENINJAUAN-BERKALA-WAJIB",
+      "topik": "Upah",
+      "pasal": "Pasal 92A",
+      "iri_individu": "ktn:PeninjauanUpahBerkalaUu62023",
+      "jenis": "KetentuanUpah",
+      "kondisi": "Pengusaha",
+      "akibat": "Melakukan peninjauan Upah secara berkala dengan memperhatikan kemampuan Perusahaan dan produktivitas",
+      "bukti": "Pengusaha melakukan peninjauan Upah secara berkala dengan memperhatikan kemampuan Perusahaan dan produktivitas.",
+      "confidence": 0.95,
+      "dasar_keyakinan": "dikutip",
+      "catatan": ""
+    },
+    {
+      "norm_id": "UPAH-POKOK-SEKURANG-75",
+      "topik": "Upah",
+      "pasal": "Pasal 94",
+      "iri_individu": "ktn:UpahPokokMinimal75PersenUu62023",
+      "jenis": "KetentuanUpah",
+      "kondisi": "Komponen Upah terdiri atas Upah pokok dan tunjangan tetap",
+      "akibat": "Upah pokok paling sedikit 75% dari jumlah Upah pokok dan tunjangan tetap",
+      "bukti": "besarnya Upah pokok paling sedikit 75% (tujuh puluh lima persen) dari jumlah Upah pokok dan tunjangan tetap",
+      "confidence": 0.95,
+      "dasar_keyakinan": "dikutip",
+      "catatan": ""
+    },
+    {
+      "norm_id": "UPAH-PAILIT-UTANG-PRIORITAS",
+      "topik": "Upah",
+      "pasal": "Pasal 95 ayat (1)",
+      "iri_individu": "ktn:UtangUpahPailitDidahulukan",
+      "jenis": "KetentuanUpah",
+      "kondisi": "Perusahaan dinyatakan pailit atau dilikuidasi berdasarkan ketentuan peraturan perundang-undangan",
+      "akibat": "Upah dan hak lainnya yang belum diterima Pekerja/Buruh merupakan utang yang didahulukan pembayarannya",
+      "bukti": "Dalam hal Perusahaan dinyatakan pailit atau dilikuidasi berdasarkan ketentuan peraturan perundang-undangan, Upah dan hak lainnya yang belum diterima oleh Pekerja/Buruh merupakan utang yang didahulukan pembayarannya.",
+      "confidence": 0.95,
+      "dasar_keyakinan": "dikutip",
+      "catatan": ""
+    },
+    {
+      "norm_id": "UPAH-PAILIT-PRIORITAS",
+      "topik": "Upah",
+      "pasal": "Pasal 95 ayat (2) dan ayat (3)",
+      "iri_individu": "ktn:PrioritasPembayaranUpahPailit",
+      "jenis": "KetentuanUpah",
+      "kondisi": "Pembayaran Upah dan hak lainnya pada Perusahaan pailit atau likuidasi",
+      "akibat": "Upah didahulukan sebelum pembayaran kepada semua kreditur; hak lainnya didahulukan atas semua kreditur kecuali kreditur pemegang hak jaminan kebendaan",
+      "bukti": "Upah Pekerja/Buruh sebagaimana dimaksud pada ayat (1) didahulukan pembayarannya sebelum pembayaran kepada semua kreditur.",
+      "confidence": 0.95,
+      "dasar_keyakinan": "dikutip",
+      "catatan": "Ayat (3) mengatur prioritas hak lainnya kecuali kreditur pemegang hak jaminan kebendaan."
+    },
+    {
+      "norm_id": "PHK-USAHA-HINDARI",
+      "topik": "PHK",
+      "pasal": "Pasal 151 ayat (1)",
+      "iri_individu": "ktn:UpayaMenghindariPHKUu62023",
+      "jenis": "AlasanPHK",
+      "kondisi": "Pengusaha, Pekerja/Buruh, Serikat Pekerja/Serikat Buruh, dan Pemerintah",
+      "akibat": "Harus mengupayakan agar tidak terjadi Pemutusan Hubungan Kerja",
+      "bukti": "Pengusaha, Pekerja/Buruh, Serikat Pekerja/Serikat Buruh, dan Pemerintah harus mengupayakan agar tidak terjadi Pemutusan Hubungan Kerja.",
+      "confidence": 0.95,
+      "dasar_keyakinan": "dikutip",
+      "catatan": ""
+    },
+    {
+      "norm_id": "PHK-PEMBERITAHUAN-ALASAN",
+      "topik": "PHK",
+      "pasal": "Pasal 151 ayat (2)",
+      "iri_individu": "ktn:PemberitahuanPHKUu62023",
+      "jenis": "AlasanPHK",
+      "kondisi": "Pemutusan Hubungan Kerja tidak dapat dihindari",
+      "akibat": "Maksud dan alasan PHK diberitahukan oleh Pengusaha kepada Pekerja/Buruh dan/atau Serikat Pekerja/Serikat Buruh",
+      "bukti": "Dalam hal Pemutusan Hubungan Kerja tidak dapat dihindari, maksud dan alasan Pemutusan Hubungan Kerja diberitahukan oleh Pengusaha kepada Pekerja/Buruh dan/atau Serikat Pekerja/Serikat Buruh.",
+      "confidence": 0.95,
+      "dasar_keyakinan": "dikutip",
+      "catatan": ""
+    },
+    {
+      "norm_id": "PHK-BIPARTIT",
+      "topik": "PHK",
+      "pasal": "Pasal 151 ayat (3)",
+      "iri_individu": "ktn:PerundinganBipartitPHK",
+      "jenis": "AlasanPHK",
+      "kondisi": "Pekerja/Buruh telah diberitahu dan menolak Pemutusan Hubungan Kerja",
+      "akibat": "Penyelesaian PHK wajib dilakukan melalui perundingan bipartit antara Pengusaha dengan Pekerja/Buruh dan/atau Serikat",
+      "bukti": "Dalam hal Pekerja/Buruh telah diberitahu dan menolak Pemutusan Hubungan Kerja, penyelesaian Pemutusan Hubungan Kerja wajib dilakukan melalui perundingan bipartit",
+      "confidence": 0.95,
+      "dasar_keyakinan": "dikutip",
+      "catatan": ""
+    },
+    {
+      "norm_id": "PHK-MEKANISME-PHI",
+      "topik": "PHK",
+      "pasal": "Pasal 151 ayat (4)",
+      "iri_individu": "ktn:PHKMelaluiMekanismePHI",
+      "jenis": "AlasanPHK",
+      "kondisi": "Perundingan bipartit tidak mendapatkan kesepakatan",
+      "akibat": "PHK dilakukan melalui tahap berikutnya sesuai mekanisme penyelesaian Perselisihan Hubungan Industrial",
+      "bukti": "Dalam hal perundingan bipartit sebagaimana dimaksud pada ayat (3) tidak mendapatkan kesepakatan, Pemutusan Hubungan Kerja dilakukan melalui tahap berikutnya",
+      "confidence": 0.95,
+      "dasar_keyakinan": "dikutip",
+      "catatan": ""
+    },
+    {
+      "norm_id": "PHK-TANPA-PEMBERITAHUAN",
+      "topik": "PHK",
+      "pasal": "Pasal 151A",
+      "iri_individu": "ktn:PHKTanpaPemberitahuan",
+      "jenis": "AlasanPHK",
+      "kondisi": "Pekerja/Buruh mengundurkan diri atas kemauan sendiri, berakhirnya Hubungan Kerja sesuai PKWT, mencapai usia pensiun, atau meninggal dunia",
+      "akibat": "Pemberitahuan sebagaimana dimaksud dalam Pasal 151 ayat (2) tidak perlu dilakukan oleh Pengusaha",
+      "bukti": "Pemberitahuan sebagaimana dimaksud dalam Pasal 151 ayat (2) tidak perlu dilakukan oleh Pengusaha dalam hal: a. Pekerja/Buruh mengundurkan diri atas kemauan sendiri",
+      "confidence": 0.95,
+      "dasar_keyakinan": "dikutip",
+      "catatan": "Huruf b sampai d mencakup berakhirnya PKWT, usia pensiun, dan meninggal dunia."
+    },
+    {
+      "norm_id": "PHK-LARANGAN-ALASAN",
+      "topik": "PHK",
+      "pasal": "Pasal 153 ayat (1) dan ayat (2)",
+      "iri_individu": "ktn:LaranganAlasanPHK",
+      "jenis": "AlasanPHK",
+      "kondisi": "PHK dengan alasan berhalangan sakit tidak lebih dari 12 bulan, memenuhi kewajiban negara, menjalankan ibadah, menikah, hamil/melahirkan/gugur kandungan/menyusui, pertalian darah atau perkawinan, aktivitas Serikat Pekerja, mengadukan tindak pidana Pengusaha, perbedaan paham/agama/politik/suku/warna kulit/golongan/jenis kelamin/kondisi fisik/status perkawinan, atau cacat tetap/sakit akibat kecelakaan kerja",
+      "akibat": "PHK batal demi hukum dan Pengusaha wajib mempekerjakan kembali Pekerja/Buruh yang bersangkutan",
+      "bukti": "Pemutusan Hubungan Kerja yang dilakukan dengan alasan sebagaimana dimaksud pada ayat (1) batal demi hukum dan Pengusaha wajib mempekerjakan kembali Pekerja/Buruh yang bersangkutan.",
+      "confidence": 0.95,
+      "dasar_keyakinan": "dikutip",
+      "catatan": "Ayat (1) memuat sepuluh alasan terlarang (huruf a sampai j)."
+    },
+    {
+      "norm_id": "PHK-PESANGON-WAJIB",
+      "topik": "PHK",
+      "pasal": "Pasal 156 ayat (1)",
+      "iri_individu": "ktn:KewajibanPesangonUPMKUPH",
+      "jenis": "AlasanPHK",
+      "kondisi": "Terjadi Pemutusan Hubungan Kerja",
+      "akibat": "Pengusaha wajib membayar uang pesangon dan/atau uang penghargaan masa kerja dan uang penggantian hak yang seharusnya diterima",
+      "bukti": "Dalam hal terjadi Pemutusan Hubungan Kerja, Pengusaha wajib membayar uang pesangon dan/atau uang penghargaan masa kerja dan uang penggantian hak yang seharusnya diterima.",
+      "confidence": 0.95,
+      "dasar_keyakinan": "dikutip",
+      "catatan": "Tabel pesangon (ayat 2) dan UPMK (ayat 3) tidak diduplikasi sebagai kategori karena tabel_id yang sama sudah dimodelkan pada record PP-35-2021 (Pasal 40 dan Pasal 41); nilai berlaku saat ini identik dengan ketentuan Pasal 156 ini."
+    },
+    {
+      "norm_id": "PHK-UPH-RUANG-LINGKUP",
+      "topik": "PHK",
+      "pasal": "Pasal 156 ayat (4)",
+      "iri_individu": "ktn:LingkupUPHUu62023",
+      "jenis": "AlasanPHK",
+      "kondisi": "Uang penggantian hak yang seharusnya diterima Pekerja/Buruh",
+      "akibat": "Meliputi cuti tahunan yang belum diambil dan belum gugur, biaya atau ongkos pulang Pekerja/Buruh dan keluarganya, serta hal-hal lain yang ditetapkan dalam PK/PP/PKB",
+      "bukti": "meliputi: a. cuti tahunan yang belum diambil dan belum gugur; b. biaya atau ongkos pulang untuk Pekerja/Buruh dan keluarganya",
+      "confidence": 0.95,
+      "dasar_keyakinan": "dikutip",
+      "catatan": ""
+    },
+    {
+      "norm_id": "PHK-KOMPONEN-UPAH-PESANGON",
+      "topik": "PHK",
+      "pasal": "Pasal 157 ayat (1)",
+      "iri_individu": "ktn:KomponenUpahPesangon",
+      "jenis": "AlasanPHK",
+      "kondisi": "Perhitungan uang pesangon dan uang penghargaan masa kerja",
+      "akibat": "Komponen Upah terdiri atas Upah pokok dan tunjangan tetap yang diberikan kepada Pekerja/Buruh dan keluarganya",
+      "bukti": "Komponen Upah yang digunakan sebagai dasar perhitungan uang pesangon dan uang penghargaan masa kerja terdiri atas: a. Upah pokok; dan b. tunjangan tetap yang diberikan kepada Pekerja/Buruh dan keluarganya.",
+      "confidence": 0.95,
+      "dasar_keyakinan": "dikutip",
+      "catatan": ""
+    },
+    {
+      "norm_id": "PHK-UPAH-SEBULAN-HARIAN",
+      "topik": "PHK",
+      "pasal": "Pasal 157 ayat (2)",
+      "iri_individu": "ktn:UpahSebulanDariUpahHarianUu62023",
+      "jenis": "AlasanPHK",
+      "kondisi": "Penghasilan Pekerja/Buruh dibayarkan atas dasar perhitungan harian",
+      "akibat": "Upah sebulan sama dengan 30 dikalikan Upah sehari",
+      "bukti": "Dalam hal penghasilan Pekerja/Buruh dibayarkan atas dasar perhitungan harian, Upah sebulan sama dengan 30 (tiga puluh) dikalikan Upah sehari.",
+      "confidence": 0.95,
+      "dasar_keyakinan": "dikutip",
+      "catatan": ""
+    },
+    {
+      "norm_id": "PHK-UPAH-SEBULAN-HASIL",
+      "topik": "PHK",
+      "pasal": "Pasal 157 ayat (3)",
+      "iri_individu": "ktn:UpahSebulanSatuanHasilUu62023",
+      "jenis": "AlasanPHK",
+      "kondisi": "Upah Pekerja/Buruh dibayarkan atas dasar perhitungan satuan hasil",
+      "akibat": "Upah sebulan sama dengan penghasilan rata-rata dalam 12 bulan terakhir",
+      "bukti": "Dalam hal Upah Pekerja/Buruh dibayarkan atas dasar perhitungan satuan hasil, Upah sebulan sama dengan penghasilan rata-rata dalam 12 (dua belas) bulan terakhir.",
+      "confidence": 0.95,
+      "dasar_keyakinan": "dikutip",
+      "catatan": ""
+    },
+    {
+      "norm_id": "PHK-UPAH-DASAR-MINIMUM",
+      "topik": "PHK",
+      "pasal": "Pasal 157 ayat (4)",
+      "iri_individu": "ktn:DasarPesangonUpahMinimumUu62023",
+      "jenis": "AlasanPHK",
+      "kondisi": "Upah sebulan lebih rendah dari Upah minimum",
+      "akibat": "Upah yang menjadi dasar perhitungan pesangon adalah Upah minimum yang berlaku di wilayah domisili Perusahaan",
+      "bukti": "Dalam hal Upah sebulan sebagaimana dimaksud pada ayat (3) lebih rendah dari Upah minimum, Upah yang menjadi dasar perhitungan pesangon adalah Upah minimum yang berlaku di wilayah domisili Perusahaan.",
+      "confidence": 0.95,
+      "dasar_keyakinan": "dikutip",
+      "catatan": ""
+    },
+    {
+      "norm_id": "PHK-KEWAJIBAN-SELAMA-PHI",
+      "topik": "PHK",
+      "pasal": "Pasal 157A ayat (1) dan ayat (3)",
+      "iri_individu": "ktn:KewajibanSelamaPerselisihanPHI",
+      "jenis": "AlasanPHK",
+      "kondisi": "Selama penyelesaian Perselisihan Hubungan Industrial",
+      "akibat": "Pengusaha dan Pekerja/Buruh harus tetap melaksanakan kewajibannya sampai selesainya proses penyelesaian sesuai tingkatannya",
+      "bukti": "Selama penyelesaian Perselisihan Hubungan Industrial, Pengusaha dan Pekerja/Buruh harus tetap melaksanakan kewajibannya.",
+      "confidence": 0.95,
+      "dasar_keyakinan": "dikutip",
+      "catatan": ""
+    },
+    {
+      "norm_id": "PHK-SKORSING",
+      "topik": "PHK",
+      "pasal": "Pasal 157A ayat (2)",
+      "iri_individu": "ktn:SkorsingDenganUpah",
+      "jenis": "AlasanPHK",
+      "kondisi": "Pekerja/Buruh sedang dalam proses Pemutusan Hubungan Kerja",
+      "akibat": "Pengusaha dapat melakukan skorsing dengan tetap membayar Upah beserta hak lainnya yang biasa diterima",
+      "bukti": "Pengusaha dapat melakukan tindakan skorsing kepada Pekerja/Buruh yang sedang dalam proses Pemutusan Hubungan Kerja dengan tetap membayar Upah beserta hak lainnya yang biasa diterima Pekerja/Buruh.",
+      "confidence": 0.95,
+      "dasar_keyakinan": "dikutip",
+      "catatan": ""
+    },
+    {
+      "norm_id": "PHK-TAHANAN-BANTUAN-KELUARGA",
+      "topik": "PHK",
+      "pasal": "Pasal 160 ayat (1)",
+      "iri_individu": "ktn:BantuanKeluargaPekerjaDitahanUu62023",
+      "jenis": "AlasanPHK",
+      "kondisi": "Pekerja/Buruh ditahan pihak yang berwajib karena diduga melakukan tindak pidana",
+      "akibat": "Pengusaha tidak wajib membayar Upah, tetapi wajib memberi bantuan kepada keluarga yang menjadi tanggungan: 25% dari Upah untuk 1 tanggungan, 35% untuk 2, 45% untuk 3, dan 50% untuk 4 atau lebih",
+      "bukti": "Pengusaha tidak wajib membayar Upah, tetapi wajib memberikan bantuan kepada keluarga Pekerja/Buruh yang menjadi tanggungannya",
+      "confidence": 0.9,
+      "dasar_keyakinan": "dikutip",
+      "catatan": "OCR menulis '25o/o' dan '45o/o' pada huruf a dan c; dibaca 25% dan 45%. Huruf b 35%, huruf d 50%."
+    },
+    {
+      "norm_id": "PHK-TAHANAN-BATAS-6-BULAN",
+      "topik": "PHK",
+      "pasal": "Pasal 160 ayat (2) dan ayat (3)",
+      "iri_individu": "ktn:BatasBantuanPekerjaDitahan",
+      "jenis": "AlasanPHK",
+      "kondisi": "Pekerja/Buruh ditahan dan tidak dapat melakukan pekerjaan setelah 6 bulan",
+      "akibat": "Bantuan keluarga diberikan paling lama 6 bulan sejak hari pertama penahanan; setelah 6 bulan Pengusaha dapat melakukan PHK",
+      "bukti": "Bantuan sebagaimana dimaksud pada ayat (1) diberikan untuk paling lama 6 (enam) bulan terhitung sejak hari pertama Pekerja/Buruh ditahan oleh pihak yang berwajib.",
+      "confidence": 0.95,
+      "dasar_keyakinan": "dikutip",
+      "catatan": ""
+    },
+    {
+      "norm_id": "PHK-TAHANAN-BEBAS",
+      "topik": "PHK",
+      "pasal": "Pasal 160 ayat (4)",
+      "iri_individu": "ktn:WajibPekerjakanKembaliJikaBebas",
+      "jenis": "AlasanPHK",
+      "kondisi": "Pengadilan memutus perkara pidana sebelum masa 6 bulan berakhir dan Pekerja/Buruh dinyatakan tidak bersalah",
+      "akibat": "Pengusaha wajib mempekerjakan Pekerja/Buruh kembali",
+      "bukti": "Dalam hal pengadilan memutuskan perkara pidana sebelum masa 6 (enam) bulan sebagaimana dimaksud pada ayat (3) berakhir dan Pekerja/Buruh dinyatakan tidak bersalah, Pengusaha wajib mempekerjakan Pekerja/Buruh kembali.",
+      "confidence": 0.9,
+      "dasar_keyakinan": "dikutip",
+      "catatan": "Sebagian kalimat pada markdown terbungkus tag superscript."
+    },
+    {
+      "norm_id": "PHK-TAHANAN-SALAH",
+      "topik": "PHK",
+      "pasal": "Pasal 160 ayat (5)",
+      "iri_individu": "ktn:PHKJikaDiputusBersalah",
+      "jenis": "AlasanPHK",
+      "kondisi": "Pengadilan memutus perkara pidana sebelum masa 6 bulan berakhir dan Pekerja/Buruh dinyatakan bersalah",
+      "akibat": "Pengusaha dapat melakukan Pemutusan Hubungan Kerja",
+      "bukti": "Dalam hal pengadilan memutuskan perkara pidana sebelum masa 6 (enam) bulan berakhir dan Pekerja/Buruh dinyatakan bersalah, Pengusaha dapat melakukan Pemutusan Hubungan Kerja kepada Pekerja/Buruh yang bersangkutan.",
+      "confidence": 0.95,
+      "dasar_keyakinan": "dikutip",
+      "catatan": ""
+    },
+    {
+      "norm_id": "UPAH-TIDAK-BOLEH-DITURUNKAN",
+      "topik": "Upah",
+      "pasal": "Pasal 191A huruf b",
+      "iri_individu": "ktn:LaranganMenurunkanUpahUu62023",
+      "jenis": "KetentuanUpah",
+      "kondisi": "Perusahaan telah memberikan Upah lebih tinggi dari Upah minimum yang ditetapkan sebelum Undang-Undang ini berlaku",
+      "akibat": "Pengusaha dilarang mengurangi atau menurunkan Upah",
+      "bukti": "bagi Perusahaan yang telah memberikan Upah lebih tinggi dari Upah minimum yang ditetapkan sebelum Undang-Undang ini, Pengusaha dilarang mengurangi atau menurunkan Upah",
+      "confidence": 0.95,
+      "dasar_keyakinan": "dikutip",
+      "catatan": "Berada dalam ketentuan peralihan Pasal 191A; huruf a mengenai Upah minimum pertama kali tidak menghasilkan norma."
+    },
+    {
+      "norm_id": "JAMSOS-JKP-HAK-PHK",
+      "topik": "Jamsos",
+      "pasal": "Pasal 46A ayat (1) dan ayat (2)",
+      "iri_individu": "ktn:HakJKPSetelahPHK",
+      "jenis": "KetentuanJaminanSosial",
+      "kondisi": "Pekerja/buruh mengalami pemutusan hubungan kerja",
+      "akibat": "Berhak mendapatkan jaminan kehilangan pekerjaan yang diselenggarakan oleh badan penyelenggara Jaminan Sosial ketenagakerjaan dan Pemerintah Pusat",
+      "bukti": "Pekerja/buruh yang mengalami pemutusan hubungan kerja berhak mendapatkan jaminan kehilangan pekerjaan.",
+      "confidence": 0.95,
+      "dasar_keyakinan": "dikutip",
+      "catatan": "Tata cara penyelenggaraan diatur lebih lanjut dalam Peraturan Pemerintah (ayat 3)."
+    },
+    {
+      "norm_id": "JAMSOS-JKP-PESERTA-IURAN-PEMERINTAH",
+      "topik": "Jamsos",
+      "pasal": "Pasal 46C ayat (1) dan ayat (2)",
+      "iri_individu": "ktn:PesertaJKPIuranPemerintah",
+      "jenis": "KetentuanJaminanSosial",
+      "kondisi": "Peserta jaminan kehilangan pekerjaan",
+      "akibat": "Adalah setiap orang yang telah membayar Iuran, dan Iuran tersebut dibayar oleh Pemerintah Pusat",
+      "bukti": "Peserta jaminan kehilangan pekerjaan adalah setiap orang yang telah membayar Iuran.",
+      "confidence": 0.95,
+      "dasar_keyakinan": "dikutip",
+      "catatan": "Ayat (2) menyatakan Iuran dibayar oleh Pemerintah Pusat."
+    },
+    {
+      "norm_id": "JAMSOS-JKP-MANFAAT-6-BULAN",
+      "topik": "Jamsos",
+      "pasal": "Pasal 46D ayat (2)",
+      "iri_individu": "ktn:ManfaatJKPEnamBulan",
+      "jenis": "KetentuanJaminanSosial",
+      "kondisi": "Peserta jaminan kehilangan pekerjaan setelah mempunyai masa kepesertaan tertentu",
+      "akibat": "Menerima manfaat berupa uang tunai, akses informasi pasar kerja, dan pelatihan kerja, paling banyak 6 bulan upah",
+      "parameter": [
+        {
+          "nama": "bulanUpahPenuh",
+          "nilai": "6",
+          "satuan": "bulan",
+          "jenis": "nominal",
+          "pasal": "Pasal 46D ayat (2)"
+        }
+      ],
+      "bukti": "Jaminan kehilangan pekerjaan sebagaimana dimaksud pada ayat (1) diberikan paling banyak 6 (enam) bulan upah.",
+      "confidence": 0.95,
+      "dasar_keyakinan": "dikutip",
+      "catatan": "Ayat (1) merinci bentuk manfaat; ayat (3) mensyaratkan masa kepesertaan tertentu."
+    },
+    {
+      "norm_id": "JAMSOS-JKP-SUMBER-PENDANAAN",
+      "topik": "Jamsos",
+      "pasal": "Pasal 46E ayat (1)",
+      "iri_individu": "ktn:SumberPendanaanJKP",
+      "jenis": "KetentuanJaminanSosial",
+      "kondisi": "Penyelenggaraan jaminan kehilangan pekerjaan",
+      "akibat": "Didanai dari modal awal pemerintah, rekomposisi Iuran program jaminan sosial, dan/atau dana operasional BPJS Ketenagakerjaan",
+      "bukti": "Sumber pendanaan jaminan kehilangan pekerjaan berasal dari: a. modal awal pemerintah; b. rekomposisi Iuran program jaminan sosial; dan/atau c. dana operasional BPJS Ketenagakerjaan.",
       "confidence": 0.95,
       "dasar_keyakinan": "dikutip",
       "catatan": ""
@@ -133,254 +1173,182 @@
   "pengali_lembur": [],
   "program_jamsos": [],
   "cakupan": {
-    "lengkap": false,
+    "lengkap": true,
     "pasal_diekstrak": [
+      "Pasal 1",
+      "Pasal 13",
+      "Pasal 14",
+      "Pasal 151",
+      "Pasal 151A",
+      "Pasal 153",
+      "Pasal 156",
+      "Pasal 157",
+      "Pasal 157A",
+      "Pasal 160",
+      "Pasal 18",
+      "Pasal 185",
+      "Pasal 186",
+      "Pasal 187",
+      "Pasal 188",
+      "Pasal 190",
+      "Pasal 191A",
+      "Pasal 37",
+      "Pasal 42",
+      "Pasal 45",
+      "Pasal 46A",
+      "Pasal 46C",
+      "Pasal 46D",
+      "Pasal 46E",
+      "Pasal 47",
+      "Pasal 49",
+      "Pasal 51",
+      "Pasal 53",
+      "Pasal 56",
+      "Pasal 57",
+      "Pasal 58",
+      "Pasal 59",
+      "Pasal 6",
+      "Pasal 61",
+      "Pasal 61A",
+      "Pasal 64",
+      "Pasal 66",
+      "Pasal 67",
       "Pasal 77",
-      "Pasal 78"
+      "Pasal 78",
+      "Pasal 79",
+      "Pasal 80",
+      "Pasal 81",
+      "Pasal 82",
+      "Pasal 83",
+      "Pasal 84",
+      "Pasal 85",
+      "Pasal 88",
+      "Pasal 88A",
+      "Pasal 88B",
+      "Pasal 88C",
+      "Pasal 88D",
+      "Pasal 88E",
+      "Pasal 88F",
+      "Pasal 89A",
+      "Pasal 9",
+      "Pasal 90A",
+      "Pasal 90B",
+      "Pasal 92",
+      "Pasal 92A",
+      "Pasal 94",
+      "Pasal 95",
+      "Pasal 98"
     ],
     "pasal_dilewati": [
       {
         "pasal": "Pasal 80",
-        "alasan": "retrofit: belum ditinjau (migrasi data pilot)"
+        "alasan": "ketentuan pengantar omnibus: daftar undang-undang yang diubah, tidak menghasilkan norma"
       },
       {
         "pasal": "Pasal 81",
-        "alasan": "retrofit: belum ditinjau (migrasi data pilot)"
+        "alasan": "ketentuan pengantar perubahan: pernyataan bahwa beberapa ketentuan UU Ketenagakerjaan diubah"
       },
       {
         "pasal": "Pasal 13",
-        "alasan": "retrofit: belum ditinjau (migrasi data pilot)"
+        "alasan": "kelembagaan pelatihan kerja (penyelenggara dan pendaftaran), bukan norma hak/akibat hukum"
       },
       {
         "pasal": "Pasal 14",
-        "alasan": "retrofit: belum ditinjau (migrasi data pilot)"
+        "alasan": "perizinan berusaha lembaga pelatihan kerja swasta"
       },
       {
         "pasal": "Pasal 37",
-        "alasan": "retrofit: belum ditinjau (migrasi data pilot)"
-      },
-      {
-        "pasal": "Pasal 42",
-        "alasan": "retrofit: belum ditinjau (migrasi data pilot)"
-      },
-      {
-        "pasal": "Pasal 45",
-        "alasan": "retrofit: belum ditinjau (migrasi data pilot)"
-      },
-      {
-        "pasal": "Pasal 47",
-        "alasan": "retrofit: belum ditinjau (migrasi data pilot)"
+        "alasan": "kelembagaan dan perizinan pelaksana penempatan tenaga kerja"
       },
       {
         "pasal": "Pasal 49",
-        "alasan": "retrofit: belum ditinjau (migrasi data pilot)"
-      },
-      {
-        "pasal": "Pasal 56",
-        "alasan": "retrofit: belum ditinjau (migrasi data pilot)"
-      },
-      {
-        "pasal": "Pasal 57",
-        "alasan": "retrofit: belum ditinjau (migrasi data pilot)"
-      },
-      {
-        "pasal": "Pasal 58",
-        "alasan": "retrofit: belum ditinjau (migrasi data pilot)"
-      },
-      {
-        "pasal": "Pasal 59",
-        "alasan": "retrofit: belum ditinjau (migrasi data pilot)"
-      },
-      {
-        "pasal": "Pasal 61",
-        "alasan": "retrofit: belum ditinjau (migrasi data pilot)"
-      },
-      {
-        "pasal": "Pasal 61A",
-        "alasan": "retrofit: belum ditinjau (migrasi data pilot)"
-      },
-      {
-        "pasal": "Pasal 64",
-        "alasan": "retrofit: belum ditinjau (migrasi data pilot)"
-      },
-      {
-        "pasal": "Pasal 66",
-        "alasan": "retrofit: belum ditinjau (migrasi data pilot)"
-      },
-      {
-        "pasal": "Pasal 67",
-        "alasan": "retrofit: belum ditinjau (migrasi data pilot)"
-      },
-      {
-        "pasal": "Pasal 79",
-        "alasan": "retrofit: belum ditinjau (migrasi data pilot)"
-      },
-      {
-        "pasal": "Pasal 84",
-        "alasan": "retrofit: belum ditinjau (migrasi data pilot)"
-      },
-      {
-        "pasal": "Pasal 88",
-        "alasan": "retrofit: belum ditinjau (migrasi data pilot)"
-      },
-      {
-        "pasal": "Pasal 88A",
-        "alasan": "retrofit: belum ditinjau (migrasi data pilot)"
-      },
-      {
-        "pasal": "Pasal 88B",
-        "alasan": "retrofit: belum ditinjau (migrasi data pilot)"
-      },
-      {
-        "pasal": "Pasal 88C",
-        "alasan": "retrofit: belum ditinjau (migrasi data pilot)"
-      },
-      {
-        "pasal": "Pasal 88D",
-        "alasan": "retrofit: belum ditinjau (migrasi data pilot)"
-      },
-      {
-        "pasal": "Pasal 88E",
-        "alasan": "retrofit: belum ditinjau (migrasi data pilot)"
-      },
-      {
-        "pasal": "Pasal 88F",
-        "alasan": "retrofit: belum ditinjau (migrasi data pilot)"
-      },
-      {
-        "pasal": "Pasal 90A",
-        "alasan": "retrofit: belum ditinjau (migrasi data pilot)"
-      },
-      {
-        "pasal": "Pasal 90B",
-        "alasan": "retrofit: belum ditinjau (migrasi data pilot)"
-      },
-      {
-        "pasal": "Pasal 92",
-        "alasan": "retrofit: belum ditinjau (migrasi data pilot)"
-      },
-      {
-        "pasal": "Pasal 92A",
-        "alasan": "retrofit: belum ditinjau (migrasi data pilot)"
-      },
-      {
-        "pasal": "Pasal 94",
-        "alasan": "retrofit: belum ditinjau (migrasi data pilot)"
-      },
-      {
-        "pasal": "Pasal 95",
-        "alasan": "retrofit: belum ditinjau (migrasi data pilot)"
+        "alasan": "delegasi pengaturan lebih lanjut mengenai penggunaan TKA kepada Peraturan Pemerintah"
       },
       {
         "pasal": "Pasal 98",
-        "alasan": "retrofit: belum ditinjau (migrasi data pilot)"
-      },
-      {
-        "pasal": "Pasal 151",
-        "alasan": "retrofit: belum ditinjau (migrasi data pilot)"
-      },
-      {
-        "pasal": "Pasal 151A",
-        "alasan": "retrofit: belum ditinjau (migrasi data pilot)"
-      },
-      {
-        "pasal": "Pasal 153",
-        "alasan": "retrofit: belum ditinjau (migrasi data pilot)"
-      },
-      {
-        "pasal": "Pasal 156",
-        "alasan": "retrofit: belum ditinjau (migrasi data pilot)"
-      },
-      {
-        "pasal": "Pasal 157",
-        "alasan": "retrofit: belum ditinjau (migrasi data pilot)"
-      },
-      {
-        "pasal": "Pasal 157A",
-        "alasan": "retrofit: belum ditinjau (migrasi data pilot)"
-      },
-      {
-        "pasal": "Pasal 160",
-        "alasan": "retrofit: belum ditinjau (migrasi data pilot)"
+        "alasan": "kelembagaan dewan pengupahan: pembentukan, komposisi, dan tata kerja"
       },
       {
         "pasal": "Pasal 185",
-        "alasan": "retrofit: belum ditinjau (migrasi data pilot)"
+        "alasan": "sanksi pidana"
       },
       {
         "pasal": "Pasal 186",
-        "alasan": "retrofit: belum ditinjau (migrasi data pilot)"
+        "alasan": "sanksi pidana"
       },
       {
         "pasal": "Pasal 187",
-        "alasan": "retrofit: belum ditinjau (migrasi data pilot)"
+        "alasan": "sanksi pidana"
       },
       {
         "pasal": "Pasal 188",
-        "alasan": "retrofit: belum ditinjau (migrasi data pilot)"
+        "alasan": "sanksi pidana"
       },
       {
         "pasal": "Pasal 190",
-        "alasan": "retrofit: belum ditinjau (migrasi data pilot)"
-      },
-      {
-        "pasal": "Pasal 191A",
-        "alasan": "retrofit: belum ditinjau (migrasi data pilot)"
+        "alasan": "sanksi administratif"
       },
       {
         "pasal": "Pasal 82",
-        "alasan": "retrofit: belum ditinjau (migrasi data pilot)"
+        "alasan": "ketentuan pengantar perubahan UU SJSN dalam omnibus, tidak menghasilkan norma"
       },
       {
         "pasal": "Pasal 18",
-        "alasan": "retrofit: belum ditinjau (migrasi data pilot)"
-      },
-      {
-        "pasal": "Pasal 46A",
-        "alasan": "retrofit: belum ditinjau (migrasi data pilot)"
-      },
-      {
-        "pasal": "Pasal 46E",
-        "alasan": "retrofit: belum ditinjau (migrasi data pilot)"
-      },
-      {
-        "pasal": "Pasal 46C",
-        "alasan": "retrofit: belum ditinjau (migrasi data pilot)"
-      },
-      {
-        "pasal": "Pasal 46D",
-        "alasan": "retrofit: belum ditinjau (migrasi data pilot)"
+        "alasan": "definisi/jenis program jaminan sosial, tanpa tarif atau akibat hukum terukur"
       },
       {
         "pasal": "Pasal 83",
-        "alasan": "retrofit: belum ditinjau (migrasi data pilot)"
+        "alasan": "ketentuan pengantar perubahan UU BPJS dalam omnibus, tidak menghasilkan norma"
       },
       {
         "pasal": "Pasal 6",
-        "alasan": "retrofit: belum ditinjau (migrasi data pilot)"
+        "alasan": "kelembagaan penyelenggaraan program oleh BPJS, bukan norma hak pekerja"
       },
       {
         "pasal": "Pasal 9",
-        "alasan": "retrofit: belum ditinjau (migrasi data pilot)"
+        "alasan": "kelembagaan fungsi BPJS, bukan norma hak pekerja"
+      },
+      {
+        "pasal": "Pasal 42",
+        "alasan": "modal awal BPJS (Pasal 42 UU BPJS dalam omnibus), bukan Pasal 42 UU Ketenagakerjaan"
+      },
+      {
+        "pasal": "Pasal 84",
+        "alasan": "ketentuan pengantar perubahan UU Pelindungan Pekerja Migran Indonesia (Pasal 84 UU PMI), bukan Pasal 84 UU Ketenagakerjaan"
       },
       {
         "pasal": "Pasal 1",
-        "alasan": "retrofit: belum ditinjau (migrasi data pilot)"
+        "alasan": "definisi istilah dalam UU Pelindungan Pekerja Migran Indonesia"
       },
       {
         "pasal": "Pasal 51",
-        "alasan": "retrofit: belum ditinjau (migrasi data pilot)"
+        "alasan": "perizinan berusaha perusahaan penempatan pekerja migran Indonesia"
       },
       {
         "pasal": "Pasal 53",
-        "alasan": "retrofit: belum ditinjau (migrasi data pilot)"
+        "alasan": "kelembagaan kantor cabang dan perizinan berusaha perusahaan penempatan pekerja migran Indonesia"
+      },
+      {
+        "pasal": "Pasal 57",
+        "alasan": "kewajiban administratif pembaruan data dan denda keterlambatan izin (Pasal 57 UU PMI), bukan Pasal 57 UU Ketenagakerjaan"
       },
       {
         "pasal": "Pasal 89A",
-        "alasan": "retrofit: belum ditinjau (migrasi data pilot)"
+        "alasan": "ketentuan peralihan: penyesuaian makna SIP3MI dengan ketentuan Perizinan Berusaha"
       }
     ],
-    "catatan": "Retrofit dari data pilot (migrasi ke record); belum ditinjau penuh."
+    "catatan": ""
   },
-  "tidak_termodelkan": []
+  "tidak_termodelkan": [
+    {
+      "pasal": "Pasal 67",
+      "ringkasan": "Pengusaha wajib memberikan perlindungan kepada Tenaga Kerja penyandang disabilitas sesuai jenis dan derajat kedisabilitasan",
+      "alasan": "belum ada jenis norma/kelas KetentuanDisabilitas di VOCAB dan T-Box"
+    },
+    {
+      "pasal": "Pasal 85",
+      "ringkasan": "Heading Pasal 85 ada pada akhir markdown tanpa teks pasal (dokumen terpotong)",
+      "alasan": "teks pasal tidak tersedia pada sumber markdown; tidak dapat diekstrak tanpa menebak"
+    }
+  ]
 }

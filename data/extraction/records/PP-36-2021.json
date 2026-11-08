@@ -1,6 +1,6 @@
 {
-  "spec_version": "1.0.0",
-  "vocab_version": "0.2.0",
+  "spec_version": "1.1.0",
+  "vocab_version": "0.3.0",
   "dokumen_id": "PP-36-2021",
   "status_review": "reviewed",
   "peraturan": {
@@ -9,389 +9,1495 @@
     "nomor": "36",
     "tahun": "2021",
     "sumber": "https://peraturan.bpk.go.id/Details/161909/pp-no-36-tahun-2021",
-    "status": "Diubah",
-    "diubah_oleh": [
-      "PP-51-2023"
-    ]
+    "status": "Berlaku",
+    "diubah_oleh": []
   },
   "norma": [
     {
-      "norm_id": "UPAH-MINIMUM",
+      "norm_id": "UPAH-HAK-PENGHIDUPAN-LAYAK",
       "topik": "Upah",
-      "pasal": "Pasal 23",
-      "iri_individu": "ktn:KetentuanUpahMinimum",
+      "pasal": "Pasal 2 ayat (1)",
+      "iri_individu": "ktn:HakPenghidupanLayak",
       "jenis": "KetentuanUpah",
-      "kondisi": "Pengusaha dilarang membayar di bawah upah minimum",
-      "akibat": "Upah minimum sebagai batas bawah",
+      "kondisi": "Setiap Pekerja/Buruh",
+      "akibat": "Berhak atas penghidupan yang layak bagi kemanusiaan",
       "parameter": [],
-      "bukti": "Pengusaha dilarang membayar Upah lebih rendah dari Upah minimum",
-      "confidence": 0.6,
-      "dasar_keyakinan": "tidak_lengkap",
-      "catatan": "upah minimum per wilayah tidak disimpan"
+      "bukti": "Setiap Pekerja/Buruh berhak atas penghidupan yang layak bagi kemanusiaan.",
+      "confidence": 0.9,
+      "dasar_keyakinan": "dikutip",
+      "catatan": "Norma berupa hak/prinsip; tidak memuat angka."
     },
     {
-      "norm_id": "UPAH-MINIMUM-MASA-KERJA",
+      "norm_id": "UPAH-NONDISKRIMINASI",
       "topik": "Upah",
-      "pasal": "Pasal 24",
-      "iri_individu": "ktn:UpahMinimumMasaKerjaKurang1Tahun",
+      "pasal": "Pasal 2 ayat (2)",
+      "iri_individu": "ktn:PengupahanTanpaDiskriminasi",
       "jenis": "KetentuanUpah",
-      "kondisi": "Pekerja dengan masa kerja kurang dari 1 tahun",
-      "akibat": "Berlaku ketentuan upah minimum",
+      "kondisi": "Setiap Pekerja/Buruh",
+      "akibat": "Berhak memperoleh perlakuan yang sama dalam penerapan sistem pengupahan tanpa diskriminasi",
       "parameter": [],
-      "bukti": "Upah minimum berlaku bagi Pekerja/Buruh dengan masa kerja kurang dari 1 tahun",
-      "confidence": 0.6,
-      "dasar_keyakinan": "tidak_lengkap",
+      "bukti": "berhak memperoleh perlakuan yang sama dalam penerapan sistem pengupahan tanpa diskriminasi.",
+      "confidence": 0.95,
+      "dasar_keyakinan": "dikutip",
       "catatan": ""
+    },
+    {
+      "norm_id": "UPAH-KESETARAAN-NILAI",
+      "topik": "Upah",
+      "pasal": "Pasal 2 ayat (3)",
+      "iri_individu": "ktn:UpahSamaNilaiSama",
+      "jenis": "KetentuanUpah",
+      "kondisi": "Pekerja/Buruh yang melakukan pekerjaan yang sama nilainya",
+      "akibat": "Berhak memperoleh Upah yang sama",
+      "parameter": [],
+      "bukti": "Setiap Pekerja/Buruh berhak memperoleh Upah yang sama untuk pekerjaan yang sama nilainya.",
+      "confidence": 0.95,
+      "dasar_keyakinan": "dikutip",
+      "catatan": ""
+    },
+    {
+      "norm_id": "UPAH-HAK-TIMBUL-HUBUNGAN-KERJA",
+      "topik": "Upah",
+      "pasal": "Pasal 3",
+      "iri_individu": "ktn:HakUpahTimbulHubunganKerja",
+      "jenis": "KetentuanUpah",
+      "kondisi": "Terjadi Hubungan Kerja antara Pekerja/Buruh dengan Pengusaha",
+      "akibat": "Hak atas Upah timbul dan berakhir pada saat putusnya Hubungan Kerja",
+      "parameter": [],
+      "bukti": "Hak Pekerja/Buruh atas Upah timbul pada saat terjadi Hubungan Kerja",
+      "confidence": 0.95,
+      "dasar_keyakinan": "dikutip",
+      "catatan": ""
+    },
+    {
+      "norm_id": "UPAH-POKOK-MIN-75-TETAP",
+      "topik": "Upah",
+      "pasal": "Pasal 7 ayat (2)",
+      "iri_individu": "ktn:UpahPokokMinimal75Tetap",
+      "jenis": "KetentuanUpah",
+      "kondisi": "Komponen Upah terdiri atas Upah pokok dan tunjangan tetap",
+      "akibat": "Upah pokok paling sedikit 75% dari jumlah Upah pokok dan tunjangan tetap",
+      "parameter": [],
+      "bukti": "besarnya Upah pokok paling sedikit 75%.(tujuh puluh lima persen) dari jumlah Upah pokok dan tunjangan tetap.",
+      "confidence": 0.9,
+      "dasar_keyakinan": "dikutip",
+      "catatan": "Tanda baca OCR '75%.' dibaca 75%."
+    },
+    {
+      "norm_id": "UPAH-POKOK-MIN-75-TIDAKTETAP",
+      "topik": "Upah",
+      "pasal": "Pasal 7 ayat (3)",
+      "iri_individu": "ktn:UpahPokokMinimal75TidakTetap",
+      "jenis": "KetentuanUpah",
+      "kondisi": "Komponen Upah terdiri atas Upah pokok, tunjangan tetap, dan tunjangan tidak tetap",
+      "akibat": "Upah pokok paling sedikit 75% dari jumlah Upah pokok dan tunjangan tetap",
+      "parameter": [],
+      "bukti": "besarnya Upah pokok paling sedikit 75% (tujuh puluh lima persen) dari jumlah Upah pokok dan tunjangan tetap.",
+      "confidence": 0.95,
+      "dasar_keyakinan": "dikutip",
+      "catatan": "Ayat (4) dan (5) mengatur penetapan komponen dalam Perjanjian Kerja/Peraturan Perusahaan/PKB."
+    },
+    {
+      "norm_id": "UPAH-THR-WAJIB",
+      "topik": "Upah",
+      "pasal": "Pasal 9 ayat (1)",
+      "iri_individu": "ktn:KewajibanTHR",
+      "jenis": "KetentuanUpah",
+      "kondisi": "Pengusaha",
+      "akibat": "Wajib memberikan Tunjangan Hari Raya keagamaan kepada Pekerja/Buruh",
+      "parameter": [],
+      "bukti": "Tunjangan hari raya keagamaan wajib diberikan oleh Pengusaha kepada Pekerja/Buruh.",
+      "confidence": 0.95,
+      "dasar_keyakinan": "dikutip",
+      "catatan": ""
+    },
+    {
+      "norm_id": "UPAH-THR-BATAS-7HARI",
+      "topik": "Upah",
+      "pasal": "Pasal 9 ayat (2)",
+      "iri_individu": "ktn:BatasWaktuPembayaranTHR",
+      "jenis": "KetentuanUpah",
+      "kondisi": "Pengusaha wajib membayar Tunjangan Hari Raya keagamaan",
+      "akibat": "Wajib dibayarkan paling lama 7 hari sebelum hari raya keagamaan",
+      "parameter": [],
+      "bukti": "wajib dibayarkan paling lama 7 (tujuh) hari sebelum hari raya keagamaan.",
+      "confidence": 0.95,
+      "dasar_keyakinan": "dikutip",
+      "catatan": "Ayat (3) mendelegasikan pengaturan lebih lanjut kepada Peraturan Menteri."
+    },
+    {
+      "norm_id": "UPAH-UANG-SERVIS-DIBAGI",
+      "topik": "Upah",
+      "pasal": "Pasal 13 ayat (2)",
+      "iri_individu": "ktn:UangServisDibagikan",
+      "jenis": "KetentuanUpah",
+      "kondisi": "Uang servis pada usaha tertentu",
+      "akibat": "Wajib dibagikan kepada Pekerja/Buruh setelah dikurangi biaya cadangan risiko dan pendayagunaan peningkatan kualitas SDM",
+      "parameter": [],
+      "bukti": "Uang servis pada usaha tertentu wajib dibagikan kepada Pekerja/Buruh",
+      "confidence": 0.95,
+      "dasar_keyakinan": "dikutip",
+      "catatan": "Ayat (1) mengatur pengumpulan/pengelolaan oleh Perusahaan; ayat (3) delegasi ke Peraturan Menteri."
+    },
+    {
+      "norm_id": "UPAH-JAM-PARUH-WAKTU",
+      "topik": "Upah",
+      "pasal": "Pasal 16 ayat (1)",
+      "iri_individu": "ktn:UpahJamParuhWaktu",
+      "jenis": "KetentuanUpah",
+      "kondisi": "Pekerja/Buruh bekerja secara paruh waktu",
+      "akibat": "Upah dapat ditetapkan per jam",
+      "parameter": [],
+      "bukti": "Penetapan Upah per jam hanya dapat diperuntukkan bagi Pekerja/Buruh yang bekerja secara paruh waktu.",
+      "confidence": 0.95,
+      "dasar_keyakinan": "dikutip",
+      "catatan": ""
+    },
+    {
+      "norm_id": "UPAH-JAM-TIDAK-LEBIH-RENDAH",
+      "topik": "Upah",
+      "pasal": "Pasal 16 ayat (3)",
+      "iri_individu": "ktn:BatasKesepakatanUpahJam",
+      "jenis": "KetentuanUpah",
+      "kondisi": "Kesepakatan Upah per jam antara Pengusaha dan Pekerja/Buruh",
+      "akibat": "Tidak boleh lebih rendah dari hasil perhitungan formula Upah per jam",
+      "parameter": [],
+      "bukti": "tidak boleh lebih rendah dari hasil perhitungan formula Upah per jam.",
+      "confidence": 0.95,
+      "dasar_keyakinan": "dikutip",
+      "catatan": ""
+    },
+    {
+      "norm_id": "UPAH-JAM-FORMULA-126",
+      "topik": "Upah",
+      "pasal": "Pasal 16 ayat (4)",
+      "iri_individu": "ktn:FormulaUpahPerJam",
+      "jenis": "KetentuanUpah",
+      "kondisi": "Upah ditetapkan per jam",
+      "akibat": "Upah per jam dihitung dari Upah sebulan dibagi 126",
+      "parameter": [
+        {
+          "nama": "faktorPembagiUpahSejam",
+          "nilai": "126",
+          "satuan": "faktor",
+          "jenis": "nominal",
+          "pasal": "Pasal 16 ayat (4)"
+        }
+      ],
+      "bukti": "Angka penyebut dalam formula perhitungan Upah per jam",
+      "confidence": 0.9,
+      "dasar_keyakinan": "dikutip",
+      "catatan": "Formula pada ayat (4) terpisah baris pada OCR: 'Upah per jam = Upah sebulan / 126'."
+    },
+    {
+      "norm_id": "UPAH-HARIAN-6HARI",
+      "topik": "Upah",
+      "pasal": "Pasal 17 huruf a",
+      "iri_individu": "ktn:UpahHarian6Hari",
+      "jenis": "KetentuanUpah",
+      "kondisi": "Perusahaan dengan sistem waktu kerja 6 hari dalam seminggu",
+      "akibat": "Upah sehari dihitung dari Upah sebulan dibagi 25",
+      "parameter": [
+        {
+          "nama": "pengaliKonversiHarian6",
+          "nilai": "25",
+          "satuan": "faktor",
+          "jenis": "nominal",
+          "pasal": "Pasal 17 huruf a"
+        }
+      ],
+      "bukti": "Upah sebulan dibagi 25 (dua puluh lima)",
+      "confidence": 0.95,
+      "dasar_keyakinan": "dikutip",
+      "catatan": ""
+    },
+    {
+      "norm_id": "UPAH-HARIAN-5HARI",
+      "topik": "Upah",
+      "pasal": "Pasal 17 huruf b",
+      "iri_individu": "ktn:UpahHarian5Hari",
+      "jenis": "KetentuanUpah",
+      "kondisi": "Perusahaan dengan sistem waktu kerja 5 hari dalam seminggu",
+      "akibat": "Upah sehari dihitung dari Upah sebulan dibagi 21",
+      "parameter": [
+        {
+          "nama": "pengaliKonversiHarian5",
+          "nilai": "21",
+          "satuan": "faktor",
+          "jenis": "nominal",
+          "pasal": "Pasal 17 huruf b"
+        }
+      ],
+      "bukti": "Upah sebulan dibagi 21 (dua puluh satu).",
+      "confidence": 0.95,
+      "dasar_keyakinan": "dikutip",
+      "catatan": ""
+    },
+    {
+      "norm_id": "UPAH-SATUAN-HASIL-KESEPAKATAN",
+      "topik": "Upah",
+      "pasal": "Pasal 18 ayat (1)",
+      "iri_individu": "ktn:UpahSatuanHasilKesepakatan",
+      "jenis": "KetentuanUpah",
+      "kondisi": "Upah berdasarkan satuan hasil",
+      "akibat": "Ditetapkan sesuai hasil pekerjaan yang disepakati; besarnya ditetapkan Pengusaha berdasarkan kesepakatan dengan Pekerja/Buruh",
+      "parameter": [],
+      "bukti": "ditetapkan sesuai dengan hasil pekerjaan yang telah disepakati.",
+      "confidence": 0.95,
+      "dasar_keyakinan": "dikutip",
+      "catatan": "Ayat (1) dan ayat (2) digabung karena akibatnya sama."
+    },
+    {
+      "norm_id": "UPAH-SATUAN-HASIL-RATA-12BULAN",
+      "topik": "Upah",
+      "pasal": "Pasal 19",
+      "iri_individu": "ktn:UpahSebulanSatuanHasil",
+      "jenis": "KetentuanUpah",
+      "kondisi": "Penetapan Upah sebulan berdasarkan satuan hasil untuk pemenuhan ketentuan peraturan perundang-undangan",
+      "akibat": "Ditetapkan berdasarkan Upah rata-rata 12 bulan terakhir yang diterima Pekerja/Buruh",
+      "parameter": [],
+      "bukti": "ditetapkan berdasarkan Upah rata-rata 12 (dua belas) bulan terakhir",
+      "confidence": 0.95,
+      "dasar_keyakinan": "dikutip",
+      "catatan": ""
+    },
+    {
+      "norm_id": "UPAH-STRUKTUR-PEDOMAN",
+      "topik": "Upah",
+      "pasal": "Pasal 20 ayat (1)",
+      "iri_individu": "ktn:PedomanStrukturSkalaUpah",
+      "jenis": "KetentuanUpah",
+      "kondisi": "Penetapan besarnya Upah berdasarkan satuan waktu",
+      "akibat": "Dilakukan dengan berpedoman pada struktur dan skala Upah",
+      "parameter": [],
+      "bukti": "dilakukan dengan berpedoman pada struktur dan skala Upah.",
+      "confidence": 0.95,
+      "dasar_keyakinan": "dikutip",
+      "catatan": "Ayat (2) dan (3) merinci pedoman untuk komponen Upah tanpa tunjangan serta Upah pokok dan tunjangan."
+    },
+    {
+      "norm_id": "UPAH-STRUKTUR-WAJIB-SUSUN",
+      "topik": "Upah",
+      "pasal": "Pasal 21 ayat (1)",
+      "iri_individu": "ktn:KewajibanStrukturSkalaUpah",
+      "jenis": "KetentuanUpah",
+      "kondisi": "Pengusaha",
+      "akibat": "Wajib menyusun dan menerapkan struktur dan skala Upah dengan memperhatikan kemampuan Perusahaan dan produktivitas",
+      "parameter": [],
+      "bukti": "Pengusaha wajib menyusun dan menerapkan struktur dan skala Upah di Perusahaan",
+      "confidence": 0.95,
+      "dasar_keyakinan": "dikutip",
+      "catatan": ""
+    },
+    {
+      "norm_id": "UPAH-STRUKTUR-INFO-PEKERJA",
+      "topik": "Upah",
+      "pasal": "Pasal 21 ayat (2)",
+      "iri_individu": "ktn:InfoStrukturSkalaUpah",
+      "jenis": "KetentuanUpah",
+      "kondisi": "Struktur dan skala Upah telah disusun",
+      "akibat": "Wajib diberitahukan kepada seluruh Pekerja/Buruh secara perorangan",
+      "parameter": [],
+      "bukti": "wajib diberitahukan kepada seluruh Pekerja/Buruh secara perorangan.",
+      "confidence": 0.95,
+      "dasar_keyakinan": "dikutip",
+      "catatan": "Ayat (3) menetapkan isi pemberitahuan minimal pada golongan jabatan yang bersangkutan."
+    },
+    {
+      "norm_id": "UPAH-MINIMUM-POKOK-JIKA-TIDAKTETAP",
+      "topik": "Upah",
+      "pasal": "Pasal 23 ayat (2)",
+      "iri_individu": "ktn:UpahPokokMinimalUpahMinimum",
+      "jenis": "KetentuanUpah",
+      "kondisi": "Komponen Upah terdiri atas Upah pokok dan tunjangan tidak tetap",
+      "akibat": "Upah pokok paling sedikit sebesar Upah minimum",
+      "parameter": [],
+      "bukti": "Upah pokok paling sedikit sebesar Upah minimum.",
+      "confidence": 0.95,
+      "dasar_keyakinan": "dikutip",
+      "catatan": "Ayat (1) mendefinisikan Upah minimum sebagai Upah bulanan terendah."
+    },
+    {
+      "norm_id": "UPAH-LARANG-BAYAR-DI-BAWAH-MINIMUM",
+      "topik": "Upah",
+      "pasal": "Pasal 23 ayat (3)",
+      "iri_individu": "ktn:LaranganUpahDiBawahMinimum",
+      "jenis": "KetentuanUpah",
+      "kondisi": "Pengusaha",
+      "akibat": "Dilarang membayar Upah lebih rendah dari Upah minimum",
+      "parameter": [],
+      "bukti": "Pengusaha dilarang membayar Upah lebih rendah dari Upah minimum.",
+      "confidence": 0.95,
+      "dasar_keyakinan": "dikutip",
+      "catatan": ""
+    },
+    {
+      "norm_id": "UPAH-MINIMUM-MASAKERJA-DI-BAWAH-1TAHUN",
+      "topik": "Upah",
+      "pasal": "Pasal 24 ayat (1)",
+      "iri_individu": "ktn:UpahMinimumMasaKerjaDiBawah1Tahun",
+      "jenis": "KetentuanUpah",
+      "kondisi": "Pekerja/Buruh dengan masa kerja kurang dari 1 tahun pada Perusahaan yang bersangkutan",
+      "akibat": "Berlaku Upah minimum",
+      "parameter": [],
+      "bukti": "berlaku bagi Pekerja/Buruh dengan masa kerja kurang dari 1 (satu) tahun",
+      "confidence": 0.95,
+      "dasar_keyakinan": "dikutip",
+      "catatan": ""
+    },
+    {
+      "norm_id": "UPAH-STRUKTUR-MASAKERJA-1TAHUN",
+      "topik": "Upah",
+      "pasal": "Pasal 24 ayat (2)",
+      "iri_individu": "ktn:UpahStrukturMasaKerja1Tahun",
+      "jenis": "KetentuanUpah",
+      "kondisi": "Pekerja/Buruh dengan masa kerja 1 tahun atau lebih",
+      "akibat": "Upah berpedoman pada struktur dan skala Upah",
+      "parameter": [],
+      "bukti": "berpedoman pada struktur dan skala Upah.",
+      "confidence": 0.95,
+      "dasar_keyakinan": "dikutip",
+      "catatan": ""
+    },
+    {
+      "norm_id": "UPAH-UM-PENYESUAIAN-TAHUNAN",
+      "topik": "Upah",
+      "pasal": "Pasal 26 ayat (1)",
+      "iri_individu": "ktn:PenyesuaianUpahMinimumTahunan",
+      "jenis": "KetentuanUpah",
+      "kondisi": "Setiap tahun",
+      "akibat": "Nilai Upah minimum dilakukan penyesuaian",
+      "parameter": [],
+      "bukti": "Penyesuaian nilai Upah minimum dilakukan setiap tahun.",
+      "confidence": 0.95,
+      "dasar_keyakinan": "dikutip",
+      "catatan": "Formula batas atas, batas bawah, dan penyesuaian pada ayat (3)-(5) tidak dimodelkan karena OCR merusak rumus."
+    },
+    {
+      "norm_id": "UPAH-UMP-PENETAPAN-TAHUNAN",
+      "topik": "Upah",
+      "pasal": "Pasal 27 ayat (1)",
+      "iri_individu": "ktn:KewajibanGubernurTetapkanUMP",
+      "jenis": "KetentuanUpah",
+      "kondisi": "Gubernur",
+      "akibat": "Wajib menetapkan Upah minimum provinsi setiap tahun",
+      "parameter": [],
+      "bukti": "Gubernur wajib menetapkan Upah minimum provinsi setiap tahun.",
+      "confidence": 0.95,
+      "dasar_keyakinan": "dikutip",
+      "catatan": ""
+    },
+    {
+      "norm_id": "UPAH-UMP-BATAS-ATAS",
+      "topik": "Upah",
+      "pasal": "Pasal 27 ayat (4)",
+      "iri_individu": "ktn:UMPTidakMelebihiBatasAtas",
+      "jenis": "KetentuanUpah",
+      "kondisi": "Upah minimum provinsi tahun berjalan lebih tinggi dari batas atas Upah minimum provinsi",
+      "akibat": "Gubernur wajib menetapkan Upah minimum provinsi tahun berikutnya sama dengan nilai tahun berjalan",
+      "parameter": [],
+      "bukti": "gubernur wajib menetapkan Upah minimum provinsi tahun berikutnya sama dengan nilai Upah minimum provinsi tahun berjalan.",
+      "confidence": 0.95,
+      "dasar_keyakinan": "dikutip",
+      "catatan": ""
+    },
+    {
+      "norm_id": "UPAH-UMP-DIUMUMKAN-21NOV",
+      "topik": "Upah",
+      "pasal": "Pasal 29 ayat (1)",
+      "iri_individu": "ktn:PengumumanUMP21November",
+      "jenis": "KetentuanUpah",
+      "kondisi": "Upah minimum provinsi ditetapkan dengan Keputusan Gubernur",
+      "akibat": "Diumumkan paling lambat tanggal 21 November tahun berjalan",
+      "parameter": [],
+      "bukti": "diumumkan paling lambat tanggal 21 November tahun berjalan.",
+      "confidence": 0.95,
+      "dasar_keyakinan": "dikutip",
+      "catatan": "Ayat (2) mengatur pengumuman 1 hari sebelum hari Minggu/libur bila tanggal jatuh pada hari tersebut."
+    },
+    {
+      "norm_id": "UPAH-UMP-BERLAKU-1JANUARI",
+      "topik": "Upah",
+      "pasal": "Pasal 29 ayat (3)",
+      "iri_individu": "ktn:UMPBerlaku1Januari",
+      "jenis": "KetentuanUpah",
+      "kondisi": "Upah minimum provinsi telah ditetapkan dan diumumkan",
+      "akibat": "Berlaku terhitung mulai tanggal 1 Januari tahun berikutnya",
+      "parameter": [],
+      "bukti": "berlaku terhitung mulai tanggal 1 Januari tahun berikutnya.",
+      "confidence": 0.95,
+      "dasar_keyakinan": "dikutip",
+      "catatan": ""
+    },
+    {
+      "norm_id": "UPAH-UMK-SYARAT-PERTUMBUHAN",
+      "topik": "Upah",
+      "pasal": "Pasal 30 ayat (1)",
+      "iri_individu": "ktn:SyaratPenetapanUMK",
+      "jenis": "KetentuanUpah",
+      "kondisi": "Rata-rata pertumbuhan ekonomi kabupaten/kota 3 tahun terakhir lebih tinggi dari provinsi, atau pertumbuhan ekonomi dikurangi inflasi selalu positif dan lebih tinggi dari nilai provinsi",
+      "akibat": "Gubernur dapat menetapkan Upah minimum kabupaten/kota",
+      "parameter": [],
+      "bukti": "lebih tinggi dibandingkan rata-rata pertumbuhan ekonomi provinsi",
+      "confidence": 0.95,
+      "dasar_keyakinan": "dikutip",
+      "catatan": "Syarat alternatif pada ayat (2) huruf a dan huruf b."
+    },
+    {
+      "norm_id": "UPAH-UMK-LEBIH-TINGGI-UMP",
+      "topik": "Upah",
+      "pasal": "Pasal 31 ayat (2)",
+      "iri_individu": "ktn:UMKLebihTinggiDariUMP",
+      "jenis": "KetentuanUpah",
+      "kondisi": "Upah minimum kabupaten/kota ditetapkan",
+      "akibat": "Harus lebih tinggi dari Upah minimum provinsi",
+      "parameter": [],
+      "bukti": "harus lebih tinggi dari Upah minimum provinsi.",
+      "confidence": 0.95,
+      "dasar_keyakinan": "dikutip",
+      "catatan": "Ayat (1) mengatur urutan penetapan setelah UMP."
+    },
+    {
+      "norm_id": "UPAH-UMK-SYARAT-TIDAK-TERPENUHI",
+      "topik": "Upah",
+      "pasal": "Pasal 32 ayat (3)",
+      "iri_individu": "ktn:LaranganTetapkanUMK",
+      "jenis": "KetentuanUpah",
+      "kondisi": "Syarat tertentu sebagaimana dimaksud dalam Pasal 30 ayat (2) tidak terpenuhi",
+      "akibat": "Gubernur tidak dapat menetapkan Upah minimum bagi kabupaten/kota yang belum memiliki Upah minimum kabupaten/kota",
+      "parameter": [],
+      "bukti": "gubernur tidak dapat menetapkan Upah minimum bagi kabupaten/kota yang belum memiliki Upah minimum kabupaten/kota.",
+      "confidence": 0.95,
+      "dasar_keyakinan": "dikutip",
+      "catatan": "Formula rasio paritas daya beli, TPT, dan median Upah pada ayat (1)-(2) tidak dimodelkan karena OCR merusak rumus."
+    },
+    {
+      "norm_id": "UPAH-UMK-TIDAK-DIREKOMENDASIKAN",
+      "topik": "Upah",
+      "pasal": "Pasal 33 ayat (3)",
+      "iri_individu": "ktn:LaranganRekomendasiUMKRendah",
+      "jenis": "KetentuanUpah",
+      "kondisi": "Hasil perhitungan Upah minimum kabupaten/kota lebih rendah dari nilai Upah minimum provinsi",
+      "akibat": "Bupati/wali kota tidak dapat merekomendasikan nilai Upah minimum kabupaten/kota kepada gubernur",
+      "parameter": [],
+      "bukti": "bupati/wali kota tidak dapat merekomendasikan nilai Upah minimum kabupaten/kota kepada gubernur.",
+      "confidence": 0.95,
+      "dasar_keyakinan": "dikutip",
+      "catatan": ""
+    },
+    {
+      "norm_id": "UPAH-UMK-PENYESUAIAN",
+      "topik": "Upah",
+      "pasal": "Pasal 34 ayat (1)",
+      "iri_individu": "ktn:PenyesuaianUMK",
+      "jenis": "KetentuanUpah",
+      "kondisi": "Kabupaten/kota telah memiliki Upah minimum kabupaten/kota",
+      "akibat": "Penetapan Upah minimum dilakukan dengan penyesuaian nilai Upah minimum",
+      "parameter": [],
+      "bukti": "dilakukan dengan penyesuaian nilai Upah minimum.",
+      "confidence": 0.95,
+      "dasar_keyakinan": "dikutip",
+      "catatan": "Di dalam teks Pasal 34 terdapat heading OCR palsu 'Pasal 26' pada ayat (2)-(3); ayat (3) merujuk formula Pasal 26 ayat (5)."
+    },
+    {
+      "norm_id": "UPAH-UMK-BATAS-ATAS",
+      "topik": "Upah",
+      "pasal": "Pasal 34 ayat (6)",
+      "iri_individu": "ktn:UMKTidakMelebihiBatasAtas",
+      "jenis": "KetentuanUpah",
+      "kondisi": "Upah minimum kabupaten/kota tahun berjalan lebih tinggi dari batas atas",
+      "akibat": "Bupati/wali kota harus merekomendasikan nilai tahun berikutnya sama dengan nilai tahun berjalan",
+      "parameter": [],
+      "bukti": "harus merekomendasikan kepada gubernur nilai Upah minimum kabupaten/kota tahun berikutnya sama dengan nilai Upah minimum kabupaten/kota tahun berjalan.",
+      "confidence": 0.95,
+      "dasar_keyakinan": "dikutip",
+      "catatan": ""
+    },
+    {
+      "norm_id": "UPAH-UMK-DIUMUMKAN-30NOV",
+      "topik": "Upah",
+      "pasal": "Pasal 35 ayat (2)",
+      "iri_individu": "ktn:PengumumanUMK30November",
+      "jenis": "KetentuanUpah",
+      "kondisi": "Upah minimum kabupaten/kota ditetapkan dengan Keputusan Gubernur",
+      "akibat": "Diumumkan paling lambat pada tanggal 30 November tahun berjalan",
+      "parameter": [],
+      "bukti": "diumumkan paling lambat pada tanggal 30 November tahun berjalan.",
+      "confidence": 0.95,
+      "dasar_keyakinan": "dikutip",
+      "catatan": "Ayat (3) mengatur pengumuman 1 hari sebelum hari Minggu/libur bila tanggal jatuh pada hari tersebut."
+    },
+    {
+      "norm_id": "UPAH-UMK-BERLAKU-1JANUARI",
+      "topik": "Upah",
+      "pasal": "Pasal 35 ayat (4)",
+      "iri_individu": "ktn:UMKBerlaku1Januari",
+      "jenis": "KetentuanUpah",
+      "kondisi": "Upah minimum kabupaten/kota telah ditetapkan dan diumumkan",
+      "akibat": "Berlaku terhitung mulai tanggal 1 Januari tahun berikutnya",
+      "parameter": [],
+      "bukti": "berlaku terhitung mulai tanggal 1 Januari tahun berikutnya.",
+      "confidence": 0.95,
+      "dasar_keyakinan": "dikutip",
+      "catatan": "OCR menampilkan panah pada '1 Januari ↑ tahun berikutnya'."
+    },
+    {
+      "norm_id": "UPAH-UM-MIKRO-KECUALI",
+      "topik": "Upah",
+      "pasal": "Pasal 36 ayat (1)",
+      "iri_individu": "ktn:PengecualianUpahMinimumUsahaMikro",
+      "jenis": "KetentuanUpah",
+      "kondisi": "Usaha mikro dan usaha kecil",
+      "akibat": "Ketentuan Upah minimum sebagaimana dimaksud dalam Pasal 23 sampai dengan Pasal 35 dikecualikan",
+      "parameter": [],
+      "bukti": "dikecualikan bagi usaha mikro dan usaha kecil.",
+      "confidence": 0.95,
+      "dasar_keyakinan": "dikutip",
+      "catatan": ""
+    },
+    {
+      "norm_id": "UPAH-MIKRO-KESEPAKATAN-MINIMUM",
+      "topik": "Upah",
+      "pasal": "Pasal 36 ayat (2)",
+      "iri_individu": "ktn:KesepakatanUpahUsahaMikro",
+      "jenis": "KetentuanUpah",
+      "kondisi": "Usaha mikro dan usaha kecil",
+      "akibat": "Upah ditetapkan berdasarkan kesepakatan paling sedikit 50% dari rata-rata konsumsi masyarakat di tingkat provinsi dan paling sedikit 25% di atas garis kemiskinan di tingkat provinsi",
+      "parameter": [],
+      "bukti": "paling sedikit sebesar 50% (lima puluh persen) dari rata-rata konsumsi masyarakat di tingkat provinsi",
+      "confidence": 0.95,
+      "dasar_keyakinan": "dikutip",
+      "catatan": "Batas 25% di atas garis kemiskinan terdapat pada ayat (2) huruf b; OCR menulis '5o%'."
+    },
+    {
+      "norm_id": "LEMBUR-WAJIB-BAYAR",
+      "topik": "Lembur",
+      "pasal": "Pasal 39",
+      "iri_individu": "ktn:KewajibanUpahLembur",
+      "jenis": "KetentuanLembur",
+      "kondisi": "Pengusaha mempekerjakan Pekerja/Buruh melebihi waktu kerja, pada istirahat mingguan, atau pada hari libur resmi",
+      "akibat": "Wajib membayar Upah kerja lembur sebagai kompensasi sesuai ketentuan peraturan perundang-undangan",
+      "parameter": [],
+      "bukti": "Upah kerja lembur wajib dibayar oleh Pengusaha yang mempekerjakan Pekerja/Buruh melebihi waktu kerja",
+      "confidence": 0.95,
+      "dasar_keyakinan": "dikutip",
+      "catatan": ""
+    },
+    {
+      "norm_id": "UPAH-TIDAK-BEKERJA-TIDAK-DIBAYAR",
+      "topik": "Upah",
+      "pasal": "Pasal 40 ayat (1)",
+      "iri_individu": "ktn:UpahTidakDibayarJikaTidakBekerja",
+      "jenis": "KetentuanUpah",
+      "kondisi": "Pekerja/Buruh tidak masuk bekerja dan/atau tidak melakukan pekerjaan",
+      "akibat": "Upah tidak dibayar",
+      "parameter": [],
+      "bukti": "Upah tidak dibayar apabila Pekerja/Buruh tidak masuk bekerja dan/atau tidak melakukan pekerjaan.",
+      "confidence": 0.95,
+      "dasar_keyakinan": "dikutip",
+      "catatan": ""
+    },
+    {
+      "norm_id": "UPAH-WAJIB-BAYAR-PENGECUALIAN",
+      "topik": "Upah",
+      "pasal": "Pasal 40 ayat (2)",
+      "iri_individu": "ktn:WajibBayarUpahMeskiTidakBekerja",
+      "jenis": "KetentuanUpah",
+      "kondisi": "Pekerja/Buruh berhalangan, melakukan kegiatan lain di luar pekerjaannya, menjalankan hak waktu istirahat atau cutinya, atau bersedia bekerja tetapi tidak dipekerjakan karena kesalahan Pengusaha",
+      "akibat": "Pengusaha wajib membayar Upah",
+      "parameter": [],
+      "bukti": "tidak berlaku dan Pengusaha wajib membayar Upah jika Pekerja/Buruh",
+      "confidence": 0.95,
+      "dasar_keyakinan": "dikutip",
+      "catatan": "Rincian alasan pada ayat (3)-(5) tidak dipecah menjadi norma tersendiri."
+    },
+    {
+      "norm_id": "UPAH-SAKIT-BERTAHAP",
+      "topik": "Upah",
+      "pasal": "Pasal 41 ayat (1)",
+      "iri_individu": "ktn:UpahSakitBertahap",
+      "jenis": "KetentuanUpah",
+      "kondisi": "Pekerja/Buruh sakit sehingga tidak dapat melakukan pekerjaan",
+      "akibat": "4 bulan pertama dibayar 100%, 4 bulan kedua 75%, 4 bulan ketiga 50% dari Upah, dan bulan selanjutnya 25% dari Upah sebelum PHK",
+      "parameter": [],
+      "bukti": "untuk 4 (empat) bulan pertama, dibayar 100% (seratus persen) dari Upah",
+      "confidence": 0.95,
+      "dasar_keyakinan": "dikutip",
+      "catatan": "Persentase bertahap tidak memiliki nama parameter di VOCAB."
+    },
+    {
+      "norm_id": "UPAH-HAID-MAKS-2HARI",
+      "topik": "Upah",
+      "pasal": "Pasal 41 ayat (2)",
+      "iri_individu": "ktn:UpahSakitHaid",
+      "jenis": "KetentuanUpah",
+      "kondisi": "Pekerja/Buruh perempuan sakit pada hari pertama dan kedua masa haidnya sehingga tidak dapat melakukan pekerjaan",
+      "akibat": "Upah disesuaikan dengan jumlah hari menjalani sakit haid, paling lama 2 hari",
+      "parameter": [
+        {
+          "nama": "hariDibayar",
+          "nilai": "2",
+          "satuan": "hari",
+          "jenis": "nominal",
+          "pasal": "Pasal 41 ayat (2)"
+        }
+      ],
+      "bukti": "paling lama 2 (dua) hari.",
+      "confidence": 0.95,
+      "dasar_keyakinan": "dikutip",
+      "catatan": ""
+    },
+    {
+      "norm_id": "UPAH-MENIKAH-3HARI",
+      "topik": "Upah",
+      "pasal": "Pasal 41 ayat (3)a",
+      "iri_individu": "ktn:UpahMenikah3Hari",
+      "jenis": "KetentuanUpah",
+      "kondisi": "Pekerja/Buruh tidak masuk bekerja karena menikah",
+      "akibat": "Upah dibayar untuk selama 3 hari",
+      "parameter": [
+        {
+          "nama": "hariDibayar",
+          "nilai": "3",
+          "satuan": "hari",
+          "jenis": "nominal",
+          "pasal": "Pasal 41 ayat (3)a"
+        }
+      ],
+      "bukti": "Pekerja/Buruh menikah, dibayar untuk selama 3 (tiga) hari",
+      "confidence": 0.95,
+      "dasar_keyakinan": "dikutip",
+      "catatan": ""
+    },
+    {
+      "norm_id": "UPAH-KELUARGA-2HARI",
+      "topik": "Upah",
+      "pasal": "Pasal 41 ayat (3)b",
+      "iri_individu": "ktn:UpahAcaraKeluarga2Hari",
+      "jenis": "KetentuanUpah",
+      "kondisi": "Pekerja/Buruh menikahkan anaknya, mengkhitankan anaknya, membaptiskan anaknya, istri melahirkan atau keguguran kandungan, atau suami/istri/orang tua/mertua/anak/menantu meninggal dunia",
+      "akibat": "Upah dibayar untuk selama 2 hari",
+      "parameter": [
+        {
+          "nama": "hariDibayar",
+          "nilai": "2",
+          "satuan": "hari",
+          "jenis": "nominal",
+          "pasal": "Pasal 41 ayat (3)b"
+        }
+      ],
+      "bukti": "menikahkan anaknya, dibayar untuk selama 2 (dua) hari",
+      "confidence": 0.95,
+      "dasar_keyakinan": "dikutip",
+      "catatan": "Menggabungkan huruf b sampai huruf f yang akibatnya sama (2 hari)."
+    },
+    {
+      "norm_id": "UPAH-KEMATIAN-SERUMAH-1HARI",
+      "topik": "Upah",
+      "pasal": "Pasal 41 ayat (3)g",
+      "iri_individu": "ktn:UpahKematianSerumah1Hari",
+      "jenis": "KetentuanUpah",
+      "kondisi": "Anggota keluarga selain sebagaimana dimaksud dalam huruf f yang tinggal dalam 1 rumah meninggal dunia",
+      "akibat": "Upah dibayar untuk selama 1 hari",
+      "parameter": [
+        {
+          "nama": "hariDibayar",
+          "nilai": "1",
+          "satuan": "hari",
+          "jenis": "nominal",
+          "pasal": "Pasal 41 ayat (3)g"
+        }
+      ],
+      "bukti": "yang tinggal dalam 1 (satu) rumah meninggal dunia, dibayar untuk selama l (satu) hari.",
+      "confidence": 0.9,
+      "dasar_keyakinan": "dikutip",
+      "catatan": "OCR menulis 'l (satu)' untuk 1 (satu)."
+    },
+    {
+      "norm_id": "UPAH-KEWAJIBAN-NEGARA-KEKURANGAN",
+      "topik": "Upah",
+      "pasal": "Pasal 42 ayat (1)",
+      "iri_individu": "ktn:UpahKewajibanNegaraKekurangan",
+      "jenis": "KetentuanUpah",
+      "kondisi": "Pekerja/Buruh menjalankan kewajiban terhadap negara tidak melebihi 1 tahun dan penghasilan dari negara kurang dari Upah yang biasa diterima",
+      "akibat": "Pengusaha wajib membayar kekurangannya",
+      "parameter": [],
+      "bukti": "Pengusaha wajib membayar kekurangannya.",
+      "confidence": 0.95,
+      "dasar_keyakinan": "dikutip",
+      "catatan": ""
+    },
+    {
+      "norm_id": "UPAH-KEWAJIBAN-NEGARA-TIDAK-BAYAR",
+      "topik": "Upah",
+      "pasal": "Pasal 42 ayat (2)",
+      "iri_individu": "ktn:TidakWajibBayarKewajibanNegara",
+      "jenis": "KetentuanUpah",
+      "kondisi": "Penghasilan yang diberikan negara sama atau lebih besar dari Upah yang biasa diterima Pekerja/Buruh",
+      "akibat": "Pengusaha tidak wajib membayar",
+      "parameter": [],
+      "bukti": "Pengusaha tidak wajib membayar.",
+      "confidence": 0.95,
+      "dasar_keyakinan": "dikutip",
+      "catatan": "Ayat (3) mewajibkan pemberitahuan tertulis kepada Pengusaha."
+    },
+    {
+      "norm_id": "UPAH-IBADAH-SEKALI",
+      "topik": "Upah",
+      "pasal": "Pasal 43",
+      "iri_individu": "ktn:UpahIbadahSekali",
+      "jenis": "KetentuanUpah",
+      "kondisi": "Pekerja/Buruh tidak masuk bekerja atau tidak melakukan pekerjaan karena menjalankan kewajiban ibadah yang diperintahkan agamanya",
+      "akibat": "Pengusaha wajib membayar Upah sebesar Upah yang diterima, hanya sekali selama Pekerja/Buruh bekerja di Perusahaan",
+      "parameter": [],
+      "bukti": "hanya sekali selama Pekerja/Buruh bekerja di Perusahaan yang bersangkutan.",
+      "confidence": 0.95,
+      "dasar_keyakinan": "dikutip",
+      "catatan": ""
+    },
+    {
+      "norm_id": "UPAH-TUGAS-SERIKAT",
+      "topik": "Upah",
+      "pasal": "Pasal 44",
+      "iri_individu": "ktn:UpahTugasSerikat",
+      "jenis": "KetentuanUpah",
+      "kondisi": "Pekerja/Buruh melaksanakan tugas Serikat Pekerja/Serikat Buruh",
+      "akibat": "Pengusaha wajib membayar Upah sebesar Upah yang biasa diterima",
+      "parameter": [],
+      "bukti": "sebesar Upah yang biasa diterima oleh Pekerja/Buruh.",
+      "confidence": 0.95,
+      "dasar_keyakinan": "dikutip",
+      "catatan": ""
+    },
+    {
+      "norm_id": "UPAH-PELATIHAN-PERUSAHAAN",
+      "topik": "Upah",
+      "pasal": "Pasal 45",
+      "iri_individu": "ktn:UpahTugasPendidikanPelatihan",
+      "jenis": "KetentuanUpah",
+      "kondisi": "Pekerja/Buruh melaksanakan tugas pendidikan dan/atau pelatihan dari Perusahaan",
+      "akibat": "Pengusaha wajib membayar Upah sebesar Upah yang biasa diterima",
+      "parameter": [],
+      "bukti": "karena melaksanakan tugas pendidikan dan/atau pelatihan dari Perusahaan",
+      "confidence": 0.95,
+      "dasar_keyakinan": "dikutip",
+      "catatan": ""
+    },
+    {
+      "norm_id": "UPAH-ISTIRAHAT-CUTI",
+      "topik": "Upah",
+      "pasal": "Pasal 46",
+      "iri_individu": "ktn:UpahHakIstirahatCuti",
+      "jenis": "KetentuanUpah",
+      "kondisi": "Pekerja/Buruh tidak masuk bekerja dan/atau tidak melakukan pekerjaan karena menjalankan hak waktu istirahat atau cutinya",
+      "akibat": "Pengusaha wajib membayar Upah sebesar Upah yang biasa diterima",
+      "parameter": [],
+      "bukti": "sebesar Upah yang biasa diterima oleh Pekerja/Buruh.",
+      "confidence": 0.95,
+      "dasar_keyakinan": "dikutip",
+      "catatan": ""
+    },
+    {
+      "norm_id": "UPAH-PENINJAUAN-BERKALA",
+      "topik": "Upah",
+      "pasal": "Pasal 48 ayat (1)",
+      "iri_individu": "ktn:PeninjauanUpahBerkala",
+      "jenis": "KetentuanUpah",
+      "kondisi": "Pengusaha",
+      "akibat": "Melakukan peninjauan Upah secara berkala dengan memperhatikan kemampuan Perusahaan dan produktivitas",
+      "parameter": [],
+      "bukti": "Pengusaha melakukan peninjauan Upah secara berkala",
+      "confidence": 0.95,
+      "dasar_keyakinan": "dikutip",
+      "catatan": "Ayat (2) mendelegasikan tata cara ke Perjanjian Kerja/Peraturan Perusahaan/PKB."
+    },
+    {
+      "norm_id": "UPAH-PAILIT-UTANG-DIDAHULUKAN",
+      "topik": "Upah",
+      "pasal": "Pasal 49 ayat (1)",
+      "iri_individu": "ktn:UpahPailitDidahulukan",
+      "jenis": "KetentuanUpah",
+      "kondisi": "Perusahaan dinyatakan pailit atau dilikuidasi berdasarkan ketentuan peraturan perundang-undangan",
+      "akibat": "Upah dan hak lainnya yang belum diterima merupakan utang yang didahulukan pembayarannya sebelum pembayaran kepada semua kreditur",
+      "parameter": [],
+      "bukti": "merupakan utang yang didahulukan pembayarannya.",
+      "confidence": 0.95,
+      "dasar_keyakinan": "dikutip",
+      "catatan": "Ayat (1) dan (2) digabung; ayat (2) menyebut didahulukan sebelum semua kreditur."
+    },
+    {
+      "norm_id": "UPAH-PAILIT-HAK-LAIN",
+      "topik": "Upah",
+      "pasal": "Pasal 49 ayat (3)",
+      "iri_individu": "ktn:HakLainPailitDidahulukan",
+      "jenis": "KetentuanUpah",
+      "kondisi": "Hak lainnya dari Pekerja/Buruh yang belum diterima",
+      "akibat": "Didahulukan pembayarannya atas semua kreditur kecuali pemegang hak kebendaan",
+      "parameter": [],
+      "bukti": "didahulukan pembayarannya atas semua kreditur kecuali",
+      "confidence": 0.75,
+      "dasar_keyakinan": "tafsir",
+      "catatan": "Teks OCR terpotong setelah 'kecuali'; kata 'kebendaan' terbaca terpisah. Perlu verifikasi sumber."
+    },
+    {
+      "norm_id": "UPAH-PAILIT-PEKERJA-MAKS-25",
+      "topik": "Upah",
+      "pasal": "Pasal 50",
+      "iri_individu": "ktn:UpahPekerjaPailitDikecualikan",
+      "jenis": "KetentuanUpah",
+      "kondisi": "Pekerja/Buruh jatuh pailit",
+      "akibat": "Upah dan segala pembayaran yang timbul dari Hubungan Kerja tidak termasuk dalam kepailitan, kecuali ditetapkan lain oleh hakim tidak melebihi 25%",
+      "parameter": [],
+      "bukti": "tidak termasuk dalam kepailitan kecuali ditetapkan lain oleh hakim dengan ketentuan tidak melebihi 25%",
+      "confidence": 0.95,
+      "dasar_keyakinan": "dikutip",
+      "catatan": ""
+    },
+    {
+      "norm_id": "UPAH-SITA-MAKS-20",
+      "topik": "Upah",
+      "pasal": "Pasal 51",
+      "iri_individu": "ktn:BatasPenyitaanUpah",
+      "jenis": "KetentuanUpah",
+      "kondisi": "Uang yang disediakan Pengusaha untuk membayar Upah disita oleh juru sita berdasarkan perintah pengadilan",
+      "akibat": "Penyitaan tidak boleh melebihi 20% dari jumlah Upah yang harus dibayarkan",
+      "parameter": [],
+      "bukti": "tidak boleh melebihi 20% (dua puluh persen) dari jumlah Upah yang harus dibayarkan.",
+      "confidence": 0.95,
+      "dasar_keyakinan": "dikutip",
+      "catatan": ""
+    },
+    {
+      "norm_id": "UPAH-KETERANGAN-UPAH",
+      "topik": "Upah",
+      "pasal": "Pasal 52 ayat (1)",
+      "iri_individu": "ktn:HakKeteranganUpah",
+      "jenis": "KetentuanUpah",
+      "kondisi": "Pekerja/Buruh atau kuasa yang ditunjuk secara sah dan keterangan Upah hanya dapat diperoleh melalui dokumen Perusahaan",
+      "akibat": "Berhak meminta keterangan mengenai Upah untuk dirinya; bila tidak berhasil dapat meminta bantuan Pengawas Ketenagakerjaan",
+      "parameter": [],
+      "bukti": "berhak meminta keterangan mengenai Upah untuk dirinya",
+      "confidence": 0.95,
+      "dasar_keyakinan": "dikutip",
+      "catatan": "Ayat (2) memuat hak meminta bantuan Pengawas Ketenagakerjaan; ayat (3) mewajibkan kerahasiaan."
+    },
+    {
+      "norm_id": "UPAH-BAYAR-KEPADA-PEKERJA",
+      "topik": "Upah",
+      "pasal": "Pasal 53 ayat (1)",
+      "iri_individu": "ktn:KewajibanBayarUpahLangsung",
+      "jenis": "KetentuanUpah",
+      "kondisi": "Pengusaha",
+      "akibat": "Wajib membayarkan Upah kepada Pekerja/Buruh yang bersangkutan",
+      "parameter": [],
+      "bukti": "Upah wajib dibayarkan oleh Pengusaha kepada Pekerja/Buruh yang bersangkutan.",
+      "confidence": 0.95,
+      "dasar_keyakinan": "dikutip",
+      "catatan": "Ayat (4) memungkinkan pembayaran kepada pihak ketiga berdasarkan surat kuasa."
+    },
+    {
+      "norm_id": "UPAH-BUKTI-PEMBAYARAN",
+      "topik": "Upah",
+      "pasal": "Pasal 53 ayat (2)",
+      "iri_individu": "ktn:BuktiPembayaranUpah",
+      "jenis": "KetentuanUpah",
+      "kondisi": "Saat Upah dibayarkan",
+      "akibat": "Pengusaha wajib memberikan bukti pembayaran Upah yang memuat rincian Upah yang diterima Pekerja/Buruh",
+      "parameter": [],
+      "bukti": "Pengusaha wajib memberikan bukti pembayaran Upah yang memuat rincian Upah",
+      "confidence": 0.95,
+      "dasar_keyakinan": "dikutip",
+      "catatan": ""
+    },
+    {
+      "norm_id": "UPAH-MATA-UANG-RUPIAH",
+      "topik": "Upah",
+      "pasal": "Pasal 54 ayat (1)",
+      "iri_individu": "ktn:PembayaranUpahRupiah",
+      "jenis": "KetentuanUpah",
+      "kondisi": "Pembayaran Upah",
+      "akibat": "Harus dilakukan dengan mata uang rupiah Negara Kesatuan Republik Indonesia",
+      "parameter": [],
+      "bukti": "harus dilakukan dengan mata uang rupiah Negara Kesatuan Republik Indonesia.",
+      "confidence": 0.95,
+      "dasar_keyakinan": "dikutip",
+      "catatan": ""
+    },
+    {
+      "norm_id": "UPAH-DIBAYAR-PENUH",
+      "topik": "Upah",
+      "pasal": "Pasal 54 ayat (2)",
+      "iri_individu": "ktn:UpahDibayarSeluruhnya",
+      "jenis": "KetentuanUpah",
+      "kondisi": "Setiap periode dan tanggal pembayaran Upah",
+      "akibat": "Upah harus dibayarkan seluruhnya",
+      "parameter": [],
+      "bukti": "harus dibayarkan seluruhnya pada setiap periode dan per tanggal pembayaran Upah.",
+      "confidence": 0.95,
+      "dasar_keyakinan": "dikutip",
+      "catatan": ""
+    },
+    {
+      "norm_id": "UPAH-WAKTU-BAYAR-DIPERJANJIKAN",
+      "topik": "Upah",
+      "pasal": "Pasal 55 ayat (1)",
+      "iri_individu": "ktn:WaktuPembayaranUpah",
+      "jenis": "KetentuanUpah",
+      "kondisi": "Pengusaha",
+      "akibat": "Wajib membayar Upah pada waktu yang telah diperjanjikan dengan Pekerja/Buruh",
+      "parameter": [],
+      "bukti": "wajib membayar Upah pada waktu yang telah diperjanjikan",
+      "confidence": 0.95,
+      "dasar_keyakinan": "dikutip",
+      "catatan": "Ayat (2) mengatur pembayaran pada hari libur; ayat (3) membolehkan cara harian, mingguan, atau bulanan."
+    },
+    {
+      "norm_id": "UPAH-PERIODE-MAKS-1BULAN",
+      "topik": "Upah",
+      "pasal": "Pasal 55 ayat (4)",
+      "iri_individu": "ktn:BatasPeriodePembayaranUpah",
+      "jenis": "KetentuanUpah",
+      "kondisi": "Jangka waktu pembayaran Upah oleh Pengusaha",
+      "akibat": "Tidak boleh lebih dari 1 bulan",
+      "parameter": [],
+      "bukti": "tidak boleh lebih dari 1 (satu) bulan.",
+      "confidence": 0.95,
+      "dasar_keyakinan": "dikutip",
+      "catatan": ""
+    },
+    {
+      "norm_id": "UPAH-TEMPAT-BAYAR",
+      "topik": "Upah",
+      "pasal": "Pasal 56 ayat (2)",
+      "iri_individu": "ktn:TempatPembayaranUpah",
+      "jenis": "KetentuanUpah",
+      "kondisi": "Tempat pembayaran Upah tidak diatur dalam Perjanjian Kerja, Peraturan Perusahaan, atau PKB",
+      "akibat": "Pembayaran Upah dilakukan di tempat Pekerja/Buruh bekerja",
+      "parameter": [],
+      "bukti": "pembayaran Upah dilakukan di tempat Pekerja/Buruh bekerja.",
+      "confidence": 0.95,
+      "dasar_keyakinan": "dikutip",
+      "catatan": ""
+    },
+    {
+      "norm_id": "UPAH-BANK-CAIR-TANGGAL",
+      "topik": "Upah",
+      "pasal": "Pasal 57 ayat (2)",
+      "iri_individu": "ktn:PembayaranUpahMelaluiBank",
+      "jenis": "KetentuanUpah",
+      "kondisi": "Upah dibayarkan melalui bank",
+      "akibat": "Upah harus sudah dapat diuangkan oleh Pekerja/Buruh pada tanggal pembayaran yang disepakati",
+      "parameter": [],
+      "bukti": "Upah harus sudah dapat diuangkan oleh Pekerja/Buruh pada tanggal pembayaran Upah yang disepakati",
+      "confidence": 0.95,
+      "dasar_keyakinan": "dikutip",
+      "catatan": "Ayat (1) membolehkan pembayaran langsung atau melalui bank."
+    },
+    {
+      "norm_id": "UPAH-DENDA-PELANGGARAN",
+      "topik": "Upah",
+      "pasal": "Pasal 59 ayat (1)",
+      "iri_individu": "ktn:DendaPelanggaranPK",
+      "jenis": "KetentuanUpah",
+      "kondisi": "Pengusaha atau Pekerja/Buruh melanggar ketentuan Perjanjian Kerja, Peraturan Perusahaan, atau PKB karena kesengajaan atau kelalaiannya",
+      "akibat": "Dikenakan denda apabila diatur secara tegas dalam Perjanjian Kerja, Peraturan Perusahaan, atau PKB",
+      "parameter": [],
+      "bukti": "dikenakan denda apabila diatur secara tegas dalam Perjanjian Kerja",
+      "confidence": 0.95,
+      "dasar_keyakinan": "dikutip",
+      "catatan": "Ayat (2) menyatakan bila tidak diatur, pengenaan denda mengacu pada PP ini."
+    },
+    {
+      "norm_id": "UPAH-DENDA-UNTUK-PEKERJA",
+      "topik": "Upah",
+      "pasal": "Pasal 60 ayat (1)",
+      "iri_individu": "ktn:PenggunaanUangDenda",
+      "jenis": "KetentuanUpah",
+      "kondisi": "Denda kepada Pengusaha atau Pekerja/Buruh",
+      "akibat": "Dipergunakan hanya untuk kepentingan Pekerja/Buruh",
+      "parameter": [],
+      "bukti": "dipergunakan hanya untuk kepentingan Pekerja/Buruh.",
+      "confidence": 0.95,
+      "dasar_keyakinan": "dikutip",
+      "catatan": "Ayat (2) mendelegasikan jenis pelanggaran, besaran, dan penggunaan denda ke PK/PP/PKB."
+    },
+    {
+      "norm_id": "UPAH-DENDA-TELAT-BERJENJANG",
+      "topik": "Upah",
+      "pasal": "Pasal 61 ayat (1)",
+      "iri_individu": "ktn:DendaKeterlambatanUpah",
+      "jenis": "KetentuanUpah",
+      "kondisi": "Pengusaha terlambat membayar dan/atau tidak membayar Upah",
+      "akibat": "Dikenai denda 5% per hari pada hari ke-4 sampai hari ke-8, ditambah 1% per hari setelah hari ke-8 dengan batas 50% per bulan, dan bunga suku bunga tertinggi bank pemerintah setelah sebulan",
+      "parameter": [],
+      "bukti": "dikenakan denda sebesar 5% (lima persen) untuk setiap hari keterlambatan",
+      "confidence": 0.95,
+      "dasar_keyakinan": "dikutip",
+      "catatan": "Huruf a, b, dan c digabung karena merupakan satu skema denda berjenjang."
+    },
+    {
+      "norm_id": "UPAH-DENDA-TIDAK-HAPUS-KEWAJIBAN",
+      "topik": "Upah",
+      "pasal": "Pasal 61 ayat (2)",
+      "iri_individu": "ktn:DendaTidakHapusKewajibanUpah",
+      "jenis": "KetentuanUpah",
+      "kondisi": "Pengenaan denda kepada Pengusaha",
+      "akibat": "Tidak menghilangkan kewajiban Pengusaha untuk tetap membayar Upah",
+      "parameter": [],
+      "bukti": "tidak menghilangkan kewajiban Pengusaha untuk tetap membayar Upah kepada Pekerja/Buruh.",
+      "confidence": 0.95,
+      "dasar_keyakinan": "dikutip",
+      "catatan": ""
+    },
+    {
+      "norm_id": "UPAH-DENDA-THR-5PERSEN",
+      "topik": "Upah",
+      "pasal": "Pasal 62 ayat (1)",
+      "iri_individu": "ktn:DendaKeterlambatanTHR",
+      "jenis": "KetentuanUpah",
+      "kondisi": "Pengusaha terlambat membayar tunjangan hari raya keagamaan kepada Pekerja/Buruh",
+      "akibat": "Dikenai denda 5% dari total tunjangan hari raya keagamaan yang harus dibayar sejak berakhirnya batas waktu kewajiban",
+      "parameter": [],
+      "bukti": "dikenai denda sebesar 5% (lima persen) dari total tunjangan hari raya keagamaan yang harus dibayar",
+      "confidence": 0.95,
+      "dasar_keyakinan": "dikutip",
+      "catatan": ""
+    },
+    {
+      "norm_id": "UPAH-DENDA-THR-TIDAK-HAPUS-KEWAJIBAN",
+      "topik": "Upah",
+      "pasal": "Pasal 62 ayat (2)",
+      "iri_individu": "ktn:DendaTHRTidakHapusKewajiban",
+      "jenis": "KetentuanUpah",
+      "kondisi": "Pengenaan denda keterlambatan THR",
+      "akibat": "Tidak menghilangkan kewajiban Pengusaha untuk tetap membayar tunjangan hari raya keagamaan",
+      "parameter": [],
+      "bukti": "tetap membayar tunjangan hari raya keagamaan kepada Pekerja/Buruh.",
+      "confidence": 0.95,
+      "dasar_keyakinan": "dikutip",
+      "catatan": ""
+    },
+    {
+      "norm_id": "UPAH-POTONG-DENDA-GANTI-UANGMUKA",
+      "topik": "Upah",
+      "pasal": "Pasal 63 ayat (2)",
+      "iri_individu": "ktn:PotonganDendaGantiUangMuka",
+      "jenis": "KetentuanUpah",
+      "kondisi": "Pemotongan Upah untuk denda, ganti rugi, atau uang muka Upah",
+      "akibat": "Dilakukan sesuai dengan Perjanjian Kerja, Peraturan Perusahaan, atau PKB",
+      "parameter": [],
+      "bukti": "dilakukan sesuai dengan Perjanjian Kerja, Peraturan Perusahaan, atau Perjanjian Kerja Bersama.",
+      "confidence": 0.95,
+      "dasar_keyakinan": "dikutip",
+      "catatan": "Ayat (1) memuat daftar lengkap hal yang dapat dipotong."
+    },
+    {
+      "norm_id": "UPAH-POTONG-SEWA-UTANG",
+      "topik": "Upah",
+      "pasal": "Pasal 63 ayat (3)",
+      "iri_individu": "ktn:PotonganSewaUtang",
+      "jenis": "KetentuanUpah",
+      "kondisi": "Pemotongan Upah untuk sewa rumah/barang milik Perusahaan atau utang/cicilan utang Pekerja/Buruh",
+      "akibat": "Harus dilakukan berdasarkan kesepakatan tertulis atau perjanjian tertulis",
+      "parameter": [],
+      "bukti": "harus dilakukan berdasarkan kesepakatan tertulis atau perjanjian tertulis.",
+      "confidence": 0.95,
+      "dasar_keyakinan": "dikutip",
+      "catatan": ""
+    },
+    {
+      "norm_id": "UPAH-POTONG-KELEBIHAN-BAYAR",
+      "topik": "Upah",
+      "pasal": "Pasal 63 ayat (4)",
+      "iri_individu": "ktn:PotonganKelebihanBayar",
+      "jenis": "KetentuanUpah",
+      "kondisi": "Pemotongan Upah untuk kelebihan pembayaran Upah",
+      "akibat": "Dilakukan tanpa persetujuan Pekerja/Buruh",
+      "parameter": [],
+      "bukti": "dilakukan tanpa persetujuan Pekerja/Buruh.",
+      "confidence": 0.95,
+      "dasar_keyakinan": "dikutip",
+      "catatan": ""
+    },
+    {
+      "norm_id": "UPAH-POTONG-PIHAK-KETIGA-SURATKUASA",
+      "topik": "Upah",
+      "pasal": "Pasal 64 ayat (1)",
+      "iri_individu": "ktn:PotonganPihakKetigaSuratKuasa",
+      "jenis": "KetentuanUpah",
+      "kondisi": "Pemotongan Upah oleh Pengusaha untuk pihak ketiga",
+      "akibat": "Hanya dapat dilakukan berdasarkan surat kuasa dari Pekerja/Buruh",
+      "parameter": [],
+      "bukti": "hanya dapat dilakukan berdasarkan surat kuasa dari Pekerja/Buruh.",
+      "confidence": 0.95,
+      "dasar_keyakinan": "dikutip",
+      "catatan": "Ayat (2) menyatakan surat kuasa dapat ditarik kembali setiap saat."
+    },
+    {
+      "norm_id": "UPAH-POTONG-PIHAK-KETIGA-PENGECUALIAN",
+      "topik": "Upah",
+      "pasal": "Pasal 64 ayat (3)",
+      "iri_individu": "ktn:PengecualianSuratKuasaPotongan",
+      "jenis": "KetentuanUpah",
+      "kondisi": "Kewajiban pembayaran Pekerja/Buruh terhadap negara atau iuran peserta badan penyelenggara jaminan sosial",
+      "akibat": "Surat kuasa dari Pekerja/Buruh dikecualikan",
+      "parameter": [],
+      "bukti": "dikecualikan untuk semua kewajiban pembayaran oleh Pekerja/Buruh terhadap negara",
+      "confidence": 0.95,
+      "dasar_keyakinan": "dikutip",
+      "catatan": ""
+    },
+    {
+      "norm_id": "UPAH-POTONG-MAKS-50",
+      "topik": "Upah",
+      "pasal": "Pasal 65",
+      "iri_individu": "ktn:BatasPemotonganUpah",
+      "jenis": "KetentuanUpah",
+      "kondisi": "Jumlah keseluruhan pemotongan Upah",
+      "akibat": "Paling banyak 50% dari setiap pembayaran Upah yang diterima Pekerja/Buruh",
+      "parameter": [],
+      "bukti": "paling banyak 50% (lima puluh persen) dari setiap pembayaran Upah",
+      "confidence": 0.95,
+      "dasar_keyakinan": "dikutip",
+      "catatan": ""
+    },
+    {
+      "norm_id": "UPAH-DASAR-PESANGON-POKOK-TETAP",
+      "topik": "Upah",
+      "pasal": "Pasal 66 ayat (1)",
+      "iri_individu": "ktn:DasarPesangonPokokTetap",
+      "jenis": "KetentuanUpah",
+      "kondisi": "Perhitungan uang pesangon dan uang penghargaan masa kerja",
+      "akibat": "Dasar perhitungan terdiri atas Upah pokok dan tunjangan tetap yang diberikan kepada Pekerja/Buruh dan keluarganya",
+      "parameter": [],
+      "bukti": "terdiri atas: a. Upah pokok; dan b. tunjangan tetap",
+      "confidence": 0.95,
+      "dasar_keyakinan": "dikutip",
+      "catatan": ""
+    },
+    {
+      "norm_id": "UPAH-DASAR-PESANGON-TANPA-TUNJANGAN",
+      "topik": "Upah",
+      "pasal": "Pasal 66 ayat (2)",
+      "iri_individu": "ktn:DasarPesangonTanpaTunjangan",
+      "jenis": "KetentuanUpah",
+      "kondisi": "Pengusaha membayarkan Upah tanpa tunjangan",
+      "akibat": "Dasar perhitungan uang pesangon dan uang penghargaan masa kerja yaitu Upah tanpa tunjangan",
+      "parameter": [],
+      "bukti": "yaitu Upah tanpa tunjangan.",
+      "confidence": 0.95,
+      "dasar_keyakinan": "dikutip",
+      "catatan": ""
+    },
+    {
+      "norm_id": "UPAH-DASAR-PESANGON-POKOK-SAJA",
+      "topik": "Upah",
+      "pasal": "Pasal 66 ayat (3)",
+      "iri_individu": "ktn:DasarPesangonUpahPokok",
+      "jenis": "KetentuanUpah",
+      "kondisi": "Komponen Upah terdiri atas Upah pokok dan tunjangan tidak tetap",
+      "akibat": "Dasar perhitungan uang pesangon dan uang penghargaan masa kerja yaitu Upah pokok",
+      "parameter": [],
+      "bukti": "dasar perhitungan uang pesangon dan uang penghargaan masa kerja, yaitu Upah pokok.",
+      "confidence": 0.95,
+      "dasar_keyakinan": "dikutip",
+      "catatan": ""
+    },
+    {
+      "norm_id": "UPAH-PESANGON-HARIAN-30",
+      "topik": "Upah",
+      "pasal": "Pasal 67 ayat (1)a",
+      "iri_individu": "ktn:UpahSebulanDariUpahHarian",
+      "jenis": "KetentuanUpah",
+      "kondisi": "Penghasilan Pekerja/Buruh dibayarkan atas dasar perhitungan harian",
+      "akibat": "Upah sebulan sama dengan 30 dikalikan Upah sehari",
+      "parameter": [],
+      "bukti": "Upah sebulan sama dengan 30 (tiga puluh) dikalikan Upah sehari",
+      "confidence": 0.95,
+      "dasar_keyakinan": "dikutip",
+      "catatan": ""
+    },
+    {
+      "norm_id": "UPAH-PESANGON-SATUAN-HASIL-12",
+      "topik": "Upah",
+      "pasal": "Pasal 67 ayat (1)b",
+      "iri_individu": "ktn:UpahSebulanSatuanHasilPesangon",
+      "jenis": "KetentuanUpah",
+      "kondisi": "Upah Pekerja/Buruh dibayarkan atas dasar perhitungan satuan hasil",
+      "akibat": "Upah sebulan sama dengan penghasilan rata-rata dalam 12 bulan terakhir",
+      "parameter": [],
+      "bukti": "Upah sebulan sama dengan penghasilan rata-rata dalam 12 (dua belas) bulan terakhir.",
+      "confidence": 0.95,
+      "dasar_keyakinan": "dikutip",
+      "catatan": ""
+    },
+    {
+      "norm_id": "UPAH-PESANGON-MINIMUM-WILAYAH",
+      "topik": "Upah",
+      "pasal": "Pasal 67 ayat (2)",
+      "iri_individu": "ktn:DasarPesangonUpahMinimum",
+      "jenis": "KetentuanUpah",
+      "kondisi": "Upah sebulan sebagaimana dimaksud pada ayat (1) huruf b lebih rendah dari Upah minimum",
+      "akibat": "Dasar perhitungan uang pesangon dan uang penghargaan masa kerja yaitu Upah minimum yang berlaku di wilayah tempat Pekerja/Buruh bekerja",
+      "parameter": [],
+      "bukti": "yaitu Upah minimum yang berlaku di wilayah tempat Pekerja/Buruh bekerja.",
+      "confidence": 0.95,
+      "dasar_keyakinan": "dikutip",
+      "catatan": ""
+    },
+    {
+      "norm_id": "UPAH-LARANG-TURUNKAN",
+      "topik": "Upah",
+      "pasal": "Pasal 83 ayat (1)",
+      "iri_individu": "ktn:LaranganMenurunkanUpah",
+      "jenis": "KetentuanUpah",
+      "kondisi": "Perusahaan telah memberikan Upah lebih tinggi dari Upah minimum yang telah ditetapkan",
+      "akibat": "Pengusaha dilarang mengurangi atau menurunkan Upah",
+      "parameter": [],
+      "bukti": "Pengusaha dilarang mengurangi atau menurunkan Upah.",
+      "confidence": 0.95,
+      "dasar_keyakinan": "dikutip",
+      "catatan": "Ayat (2) menetapkan sanksi administratif sebagaimana dimaksud dalam Pasal 79 (tidak dimodelkan sebagai norma)."
     }
   ],
   "kategori": [],
   "pengali_lembur": [],
   "program_jamsos": [],
   "cakupan": {
-    "lengkap": false,
+    "lengkap": true,
     "pasal_diekstrak": [
+      "Pasal 1",
+      "Pasal 10",
+      "Pasal 11",
+      "Pasal 12",
+      "Pasal 13",
+      "Pasal 14",
+      "Pasal 15",
+      "Pasal 16",
+      "Pasal 17",
+      "Pasal 18",
+      "Pasal 19",
+      "Pasal 2",
+      "Pasal 20",
+      "Pasal 21",
+      "Pasal 22",
       "Pasal 23",
-      "Pasal 24"
+      "Pasal 24",
+      "Pasal 25",
+      "Pasal 26",
+      "Pasal 27",
+      "Pasal 28",
+      "Pasal 29",
+      "Pasal 3",
+      "Pasal 30",
+      "Pasal 31",
+      "Pasal 32",
+      "Pasal 33",
+      "Pasal 34",
+      "Pasal 35",
+      "Pasal 36",
+      "Pasal 37",
+      "Pasal 38",
+      "Pasal 39",
+      "Pasal 4",
+      "Pasal 40",
+      "Pasal 41",
+      "Pasal 42",
+      "Pasal 43",
+      "Pasal 44",
+      "Pasal 45",
+      "Pasal 46",
+      "Pasal 47",
+      "Pasal 48",
+      "Pasal 49",
+      "Pasal 5",
+      "Pasal 50",
+      "Pasal 51",
+      "Pasal 52",
+      "Pasal 53",
+      "Pasal 54",
+      "Pasal 55",
+      "Pasal 56",
+      "Pasal 57",
+      "Pasal 58",
+      "Pasal 59",
+      "Pasal 6",
+      "Pasal 60",
+      "Pasal 61",
+      "Pasal 62",
+      "Pasal 63",
+      "Pasal 64",
+      "Pasal 65",
+      "Pasal 66",
+      "Pasal 67",
+      "Pasal 68",
+      "Pasal 69",
+      "Pasal 7",
+      "Pasal 70",
+      "Pasal 71",
+      "Pasal 72",
+      "Pasal 73",
+      "Pasal 74",
+      "Pasal 75",
+      "Pasal 76",
+      "Pasal 77",
+      "Pasal 78",
+      "Pasal 79",
+      "Pasal 8",
+      "Pasal 80",
+      "Pasal 81",
+      "Pasal 82",
+      "Pasal 83",
+      "Pasal 84",
+      "Pasal 85",
+      "Pasal 86",
+      "Pasal 9"
     ],
     "pasal_dilewati": [
       {
         "pasal": "Pasal 1",
-        "alasan": "retrofit: belum ditinjau (migrasi data pilot)"
-      },
-      {
-        "pasal": "Pasal 2",
-        "alasan": "retrofit: belum ditinjau (migrasi data pilot)"
-      },
-      {
-        "pasal": "Pasal 3",
-        "alasan": "retrofit: belum ditinjau (migrasi data pilot)"
+        "alasan": "definisi/istilah"
       },
       {
         "pasal": "Pasal 4",
-        "alasan": "retrofit: belum ditinjau (migrasi data pilot)"
+        "alasan": "kebijakan pengupahan dan kelembagaan pemerintahan"
       },
       {
         "pasal": "Pasal 5",
-        "alasan": "retrofit: belum ditinjau (migrasi data pilot)"
+        "alasan": "ruang lingkup kebijakan pengupahan (enumerasi, bukan norma)"
       },
       {
         "pasal": "Pasal 6",
-        "alasan": "retrofit: belum ditinjau (migrasi data pilot)"
-      },
-      {
-        "pasal": "Pasal 7",
-        "alasan": "retrofit: belum ditinjau (migrasi data pilot)"
+        "alasan": "tujuan kebijakan dan klasifikasi penghasilan"
       },
       {
         "pasal": "Pasal 8",
-        "alasan": "retrofit: belum ditinjau (migrasi data pilot)"
-      },
-      {
-        "pasal": "Pasal 9",
-        "alasan": "retrofit: belum ditinjau (migrasi data pilot)"
+        "alasan": "klasifikasi pendapatan non-Upah"
       },
       {
         "pasal": "Pasal 10",
-        "alasan": "retrofit: belum ditinjau (migrasi data pilot)"
+        "alasan": "ketentuan fakultatif pemberian insentif"
       },
       {
         "pasal": "Pasal 11",
-        "alasan": "retrofit: belum ditinjau (migrasi data pilot)"
+        "alasan": "ketentuan fakultatif pemberian bonus"
       },
       {
         "pasal": "Pasal 12",
-        "alasan": "retrofit: belum ditinjau (migrasi data pilot)"
-      },
-      {
-        "pasal": "Pasal 13",
-        "alasan": "retrofit: belum ditinjau (migrasi data pilot)"
+        "alasan": "ketentuan fakultatif fasilitas kerja dan uang pengganti"
       },
       {
         "pasal": "Pasal 14",
-        "alasan": "retrofit: belum ditinjau (migrasi data pilot)"
+        "alasan": "klasifikasi dasar penetapan Upah"
       },
       {
         "pasal": "Pasal 15",
-        "alasan": "retrofit: belum ditinjau (migrasi data pilot)"
-      },
-      {
-        "pasal": "Pasal 16",
-        "alasan": "retrofit: belum ditinjau (migrasi data pilot)"
-      },
-      {
-        "pasal": "Pasal 17",
-        "alasan": "retrofit: belum ditinjau (migrasi data pilot)"
-      },
-      {
-        "pasal": "Pasal 18",
-        "alasan": "retrofit: belum ditinjau (migrasi data pilot)"
-      },
-      {
-        "pasal": "Pasal 19",
-        "alasan": "retrofit: belum ditinjau (migrasi data pilot)"
-      },
-      {
-        "pasal": "Pasal 20",
-        "alasan": "retrofit: belum ditinjau (migrasi data pilot)"
-      },
-      {
-        "pasal": "Pasal 21",
-        "alasan": "retrofit: belum ditinjau (migrasi data pilot)"
+        "alasan": "klasifikasi satuan waktu Upah"
       },
       {
         "pasal": "Pasal 22",
-        "alasan": "retrofit: belum ditinjau (migrasi data pilot)"
+        "alasan": "tata cara administratif pelampiran struktur dan skala Upah"
       },
       {
         "pasal": "Pasal 25",
-        "alasan": "retrofit: belum ditinjau (migrasi data pilot)"
-      },
-      {
-        "pasal": "Pasal 26",
-        "alasan": "retrofit: belum ditinjau (migrasi data pilot)"
-      },
-      {
-        "pasal": "Pasal 27",
-        "alasan": "retrofit: belum ditinjau (migrasi data pilot)"
+        "alasan": "klasifikasi jenis Upah minimum dan variabel penetapannya"
       },
       {
         "pasal": "Pasal 28",
-        "alasan": "retrofit: belum ditinjau (migrasi data pilot)"
-      },
-      {
-        "pasal": "Pasal 29",
-        "alasan": "retrofit: belum ditinjau (migrasi data pilot)"
-      },
-      {
-        "pasal": "Pasal 30",
-        "alasan": "retrofit: belum ditinjau (migrasi data pilot)"
-      },
-      {
-        "pasal": "Pasal 31",
-        "alasan": "retrofit: belum ditinjau (migrasi data pilot)"
-      },
-      {
-        "pasal": "Pasal 32",
-        "alasan": "retrofit: belum ditinjau (migrasi data pilot)"
-      },
-      {
-        "pasal": "Pasal 33",
-        "alasan": "retrofit: belum ditinjau (migrasi data pilot)"
-      },
-      {
-        "pasal": "Pasal 34",
-        "alasan": "retrofit: belum ditinjau (migrasi data pilot)"
-      },
-      {
-        "pasal": "Pasal 35",
-        "alasan": "retrofit: belum ditinjau (migrasi data pilot)"
-      },
-      {
-        "pasal": "Pasal 36",
-        "alasan": "retrofit: belum ditinjau (migrasi data pilot)"
+        "alasan": "tata cara perhitungan oleh dewan pengupahan provinsi (kelembagaan)"
       },
       {
         "pasal": "Pasal 37",
-        "alasan": "retrofit: belum ditinjau (migrasi data pilot)"
+        "alasan": "delegasi kriteria usaha mikro dan usaha kecil ke peraturan perundang-undangan"
       },
       {
         "pasal": "Pasal 38",
-        "alasan": "retrofit: belum ditinjau (migrasi data pilot)"
-      },
-      {
-        "pasal": "Pasal 39",
-        "alasan": "retrofit: belum ditinjau (migrasi data pilot)"
-      },
-      {
-        "pasal": "Pasal 40",
-        "alasan": "retrofit: belum ditinjau (migrasi data pilot)"
-      },
-      {
-        "pasal": "Pasal 41",
-        "alasan": "retrofit: belum ditinjau (migrasi data pilot)"
-      },
-      {
-        "pasal": "Pasal 42",
-        "alasan": "retrofit: belum ditinjau (migrasi data pilot)"
-      },
-      {
-        "pasal": "Pasal 43",
-        "alasan": "retrofit: belum ditinjau (migrasi data pilot)"
-      },
-      {
-        "pasal": "Pasal 44",
-        "alasan": "retrofit: belum ditinjau (migrasi data pilot)"
-      },
-      {
-        "pasal": "Pasal 45",
-        "alasan": "retrofit: belum ditinjau (migrasi data pilot)"
-      },
-      {
-        "pasal": "Pasal 46",
-        "alasan": "retrofit: belum ditinjau (migrasi data pilot)"
+        "alasan": "kriteria tambahan usaha mikro/kecil yang dikecualikan (bukan norma)"
       },
       {
         "pasal": "Pasal 47",
-        "alasan": "retrofit: belum ditinjau (migrasi data pilot)"
-      },
-      {
-        "pasal": "Pasal 48",
-        "alasan": "retrofit: belum ditinjau (migrasi data pilot)"
-      },
-      {
-        "pasal": "Pasal 49",
-        "alasan": "retrofit: belum ditinjau (migrasi data pilot)"
-      },
-      {
-        "pasal": "Pasal 50",
-        "alasan": "retrofit: belum ditinjau (migrasi data pilot)"
-      },
-      {
-        "pasal": "Pasal 51",
-        "alasan": "retrofit: belum ditinjau (migrasi data pilot)"
-      },
-      {
-        "pasal": "Pasal 52",
-        "alasan": "retrofit: belum ditinjau (migrasi data pilot)"
-      },
-      {
-        "pasal": "Pasal 53",
-        "alasan": "retrofit: belum ditinjau (migrasi data pilot)"
-      },
-      {
-        "pasal": "Pasal 54",
-        "alasan": "retrofit: belum ditinjau (migrasi data pilot)"
-      },
-      {
-        "pasal": "Pasal 55",
-        "alasan": "retrofit: belum ditinjau (migrasi data pilot)"
-      },
-      {
-        "pasal": "Pasal 56",
-        "alasan": "retrofit: belum ditinjau (migrasi data pilot)"
-      },
-      {
-        "pasal": "Pasal 57",
-        "alasan": "retrofit: belum ditinjau (migrasi data pilot)"
+        "alasan": "delegasi pengaturan pelaksanaan Pasal 40-46 ke Perjanjian Kerja/Peraturan Perusahaan/PKB"
       },
       {
         "pasal": "Pasal 58",
-        "alasan": "retrofit: belum ditinjau (migrasi data pilot)"
-      },
-      {
-        "pasal": "Pasal 59",
-        "alasan": "retrofit: belum ditinjau (migrasi data pilot)"
-      },
-      {
-        "pasal": "Pasal 60",
-        "alasan": "retrofit: belum ditinjau (migrasi data pilot)"
-      },
-      {
-        "pasal": "Pasal 61",
-        "alasan": "retrofit: belum ditinjau (migrasi data pilot)"
-      },
-      {
-        "pasal": "Pasal 62",
-        "alasan": "retrofit: belum ditinjau (migrasi data pilot)"
-      },
-      {
-        "pasal": "Pasal 63",
-        "alasan": "retrofit: belum ditinjau (migrasi data pilot)"
-      },
-      {
-        "pasal": "Pasal 64",
-        "alasan": "retrofit: belum ditinjau (migrasi data pilot)"
-      },
-      {
-        "pasal": "Pasal 65",
-        "alasan": "retrofit: belum ditinjau (migrasi data pilot)"
-      },
-      {
-        "pasal": "Pasal 66",
-        "alasan": "retrofit: belum ditinjau (migrasi data pilot)"
-      },
-      {
-        "pasal": "Pasal 67",
-        "alasan": "retrofit: belum ditinjau (migrasi data pilot)"
-      },
-      {
-        "pasal": "Pasal 68",
-        "alasan": "retrofit: belum ditinjau (migrasi data pilot)"
+        "alasan": "enumerasi hal yang dapat diperhitungkan dengan Upah; syarat rinci ada di Pasal 63-65"
       },
       {
         "pasal": "Pasal 69",
-        "alasan": "retrofit: belum ditinjau (migrasi data pilot)"
+        "alasan": "kelembagaan dewan pengupahan"
       },
       {
         "pasal": "Pasal 70",
-        "alasan": "retrofit: belum ditinjau (migrasi data pilot)"
+        "alasan": "kelembagaan dewan pengupahan"
       },
       {
         "pasal": "Pasal 71",
-        "alasan": "retrofit: belum ditinjau (migrasi data pilot)"
+        "alasan": "kelembagaan dewan pengupahan"
       },
       {
         "pasal": "Pasal 72",
-        "alasan": "retrofit: belum ditinjau (migrasi data pilot)"
+        "alasan": "kelembagaan dewan pengupahan"
       },
       {
         "pasal": "Pasal 73",
-        "alasan": "retrofit: belum ditinjau (migrasi data pilot)"
+        "alasan": "kelembagaan dewan pengupahan"
       },
       {
         "pasal": "Pasal 74",
-        "alasan": "retrofit: belum ditinjau (migrasi data pilot)"
+        "alasan": "kelembagaan dewan pengupahan"
       },
       {
         "pasal": "Pasal 75",
-        "alasan": "retrofit: belum ditinjau (migrasi data pilot)"
+        "alasan": "kelembagaan dewan pengupahan"
       },
       {
         "pasal": "Pasal 76",
-        "alasan": "retrofit: belum ditinjau (migrasi data pilot)"
+        "alasan": "kelembagaan dewan pengupahan"
       },
       {
         "pasal": "Pasal 77",
-        "alasan": "retrofit: belum ditinjau (migrasi data pilot)"
+        "alasan": "kelembagaan dewan pengupahan"
       },
       {
         "pasal": "Pasal 78",
-        "alasan": "retrofit: belum ditinjau (migrasi data pilot)"
+        "alasan": "pengawasan ketenagakerjaan"
       },
       {
         "pasal": "Pasal 79",
-        "alasan": "retrofit: belum ditinjau (migrasi data pilot)"
+        "alasan": "sanksi administratif"
       },
       {
         "pasal": "Pasal 80",
-        "alasan": "retrofit: belum ditinjau (migrasi data pilot)"
+        "alasan": "sanksi administratif"
       },
       {
         "pasal": "Pasal 81",
-        "alasan": "retrofit: belum ditinjau (migrasi data pilot)"
+        "alasan": "sanksi administratif"
       },
       {
         "pasal": "Pasal 82",
-        "alasan": "retrofit: belum ditinjau (migrasi data pilot)"
-      },
-      {
-        "pasal": "Pasal 83",
-        "alasan": "retrofit: belum ditinjau (migrasi data pilot)"
+        "alasan": "ketentuan peralihan"
       },
       {
         "pasal": "Pasal 84",
-        "alasan": "retrofit: belum ditinjau (migrasi data pilot)"
+        "alasan": "ketentuan peralihan/penutup"
       },
       {
         "pasal": "Pasal 85",
-        "alasan": "retrofit: belum ditinjau (migrasi data pilot)"
+        "alasan": "ketentuan penutup (pencabutan PP 78/2015)"
       },
       {
         "pasal": "Pasal 86",
-        "alasan": "retrofit: belum ditinjau (migrasi data pilot)"
+        "alasan": "ketentuan penutup (mulai berlaku)"
       }
     ],
-    "catatan": "Retrofit dari data pilot (migrasi ke record); belum ditinjau penuh."
+    "catatan": ""
   },
-  "tidak_termodelkan": []
+  "tidak_termodelkan": [
+    {
+      "pasal": "Pasal 68",
+      "ringkasan": "Upah sebagai dasar perhitungan pajak penghasilan: dihitung dari seluruh penghasilan, pembebanan pajak dapat kepada Pengusaha atau Pekerja/Buruh, dan pelaksanaannya menurut peraturan perundang-undangan.",
+      "alasan": "Butuh kelas/properti pajak penghasilan; jenis KetentuanPesangonPajak masih kandidat di VOCAB dan belum ada kelas T-Box."
+    }
+  ]
 }

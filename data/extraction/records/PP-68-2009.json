@@ -1,0 +1,97 @@
+{
+  "spec_version": "1.1.0",
+  "vocab_version": "0.3.0",
+  "dokumen_id": "PP-68-2009",
+  "status_review": "reviewed",
+  "peraturan": {
+    "judul": "Peraturan Pemerintah Nomor 68 Tahun 2009 tentang Tarif PPh Pasal 21 atas Penghasilan Berupa Uang Pesangon, Uang Manfaat Pensiun, Tunjangan Hari Tua, dan Jaminan Hari Tua yang Dibayarkan Sekaligus",
+    "jenis": "PP",
+    "nomor": "68",
+    "tahun": "2009",
+    "sumber": "https://peraturan.go.id/id/pp-no-68-tahun-2009",
+    "status": "Berlaku",
+    "diubah_oleh": []
+  },
+  "norma": [],
+  "kategori": [],
+  "pengali_lembur": [],
+  "program_jamsos": [],
+  "cakupan": {
+    "lengkap": true,
+    "pasal_diekstrak": [
+      "Pasal 1",
+      "Pasal 10",
+      "Pasal 11",
+      "Pasal 12",
+      "Pasal 13",
+      "Pasal 2",
+      "Pasal 3",
+      "Pasal 4",
+      "Pasal 5",
+      "Pasal 8",
+      "Pasal 9"
+    ],
+    "pasal_dilewati": [
+      {
+        "pasal": "Pasal 1",
+        "alasan": "definisi/istilah: batasan Undang-Undang Pajak Penghasilan, Pajak Penghasilan Pasal 21, Pegawai, Uang Pesangon, Uang Manfaat Pensiun, Tunjangan Hari Tua, Jaminan Hari Tua, Pengelola Dana Pesangon Tenaga Kerja, dan Pemotong Pajak, tanpa akibat hukum yang dapat dinalar"
+      },
+      {
+        "pasal": "Pasal 7",
+        "alasan": "kewajiban administratif perpajakan: menghitung, memotong, menyetorkan, melaporkan, dan memberi bukti pemotongan PPh Pasal 21 oleh Pemotong Pajak, bukan hak normatif pekerja. Catatan: heading '#### Pasal 7' tidak terbaca sebagai heading pada markdown (OCR '   - Pasal 7'), sehingga validator dapat memperingatkan gap heading"
+      },
+      {
+        "pasal": "Pasal 8",
+        "alasan": "mekanisme pemotongan pajak: penentuan pihak (pemberi kerja atau Pengelola Dana Pesangon Tenaga Kerja) dan saat pemotongan PPh Pasal 21 atas pengalihan Uang Pesangon; administratif perpajakan"
+      },
+      {
+        "pasal": "Pasal 9",
+        "alasan": "mekanisme pemotongan pajak: saat pemotongan PPh Pasal 21 oleh Dana Pensiun Pemberi Kerja atau Dana Pensiun Lembaga Keuangan pada pembelian anuitas seumur hidup; administratif perpajakan"
+      },
+      {
+        "pasal": "Pasal 10",
+        "alasan": "pendelegasian: tata cara pemotongan PPh Pasal 21 diatur dengan Peraturan Menteri Keuangan, tidak memuat norma tersendiri"
+      },
+      {
+        "pasal": "Pasal 11",
+        "alasan": "ketentuan peralihan: pengenaan PPh Pasal 21 atas penghasilan yang diperoleh sebelum berlakunya PP ini tetap memakai PP Nomor 149 Tahun 2000"
+      },
+      {
+        "pasal": "Pasal 12",
+        "alasan": "ketentuan pencabutan: PP Nomor 149 Tahun 2000 dicabut dan dinyatakan tidak berlaku"
+      },
+      {
+        "pasal": "Pasal 13",
+        "alasan": "ketentuan penutup: saat mulai berlaku pada tanggal diundangkan"
+      }
+    ],
+    "catatan": ""
+  },
+  "tidak_termodelkan": [
+    {
+      "pasal": "Pasal 2",
+      "ringkasan": "Penghasilan Pegawai berupa Uang Pesangon, Uang Manfaat Pensiun, Tunjangan Hari Tua, atau Jaminan Hari Tua yang dibayarkan sekaligus dikenai pemotongan PPh Pasal 21 bersifat final; dianggap dibayarkan sekaligus bila sebagian atau seluruh pembayaran dilakukan dalam jangka waktu paling lama 2 (dua) tahun kalender.",
+      "alasan": "relevan dengan pesangon tetapi di luar T-Box: butuh kelas/properti baru untuk pajak penghasilan (jenis PPh, sifat final, batas 2 tahun kalender sebagai pemicu 'dibayarkan sekaligus'); jenis norma kandidat KetentuanPesangonPajak belum diberlakukan di VOCAB dan nama parameter batas tahun pajak tidak tersedia"
+    },
+    {
+      "pasal": "Pasal 3",
+      "ringkasan": "Uang Pesangon dapat dibayar langsung oleh pemberi kerja atau dialihkan kepada Pengelola Dana Pesangon Tenaga Kerja; pengalihan sekaligus membuat Pegawai dianggap telah menerima hak atas Uang Pesangon, pengalihan bertahap/berkala membuat Pegawai dianggap belum menerima hak; pengalihan Uang Manfaat Pensiun melalui pembelian anuitas seumur hidup membuat Pegawai dianggap telah menerima hak secara sekaligus.",
+      "alasan": "mengandung akibat hukum (saat dianggap menerima hak atas pesangon/manfaat pensiun) tetapi butuh kelas/properti baru: status 'dianggap telah/belum menerima hak' dan mekanisme pengalihan ke Pengelola Dana Pesangon Tenaga Kerja tidak ada di T-Box; hanya relevan untuk penetapan saat terutangnya pajak"
+    },
+    {
+      "pasal": "Pasal 4",
+      "ringkasan": "Tarif PPh Pasal 21 atas Uang Pesangon: 0% atas penghasilan bruto sampai dengan Rp50.000.000,00; 5% atas bagian di atas Rp50.000.000,00 sampai dengan Rp100.000.000,00; 15% di atas Rp100.000.000,00 sampai dengan Rp500.000.000,00; 25% di atas Rp500.000.000,00.",
+      "alasan": "butuh kelas/properti baru: lapisan tarif pajak progresif (batas bawah, batas atas, persentase) tidak ada di T-Box; parameter VOCAB hanya pengali/nominal tanpa nama tarif pajak persen dan tanpa struktur rentang berlapis"
+    },
+    {
+      "pasal": "Pasal 5",
+      "ringkasan": "Tarif PPh Pasal 21 atas Uang Manfaat Pensiun, Tunjangan Hari Tua, atau Jaminan Hari Tua: 0% atas penghasilan bruto sampai dengan Rp50.000.000,00; 5% atas penghasilan bruto di atas Rp50.000.000,00.",
+      "alasan": "butuh kelas/properti baru: lapisan tarif pajak (batas Rp50.000.000,00 dan persentase 0%/5%) tidak dapat dimodelkan dengan kelas dan parameter yang ada; jenis norma kandidat KetentuanPesangonPajak belum aktif di VOCAB"
+    },
+    {
+      "pasal": "Pasal 6",
+      "ringkasan": "Bagian penghasilan yang terutang atau dibayarkan pada tahun ketiga dan tahun-tahun berikutnya dipotong PPh Pasal 21 dengan tarif Pasal 17 ayat (1) huruf a UU PPh atas jumlah bruto seluruh penghasilan pada tahun kalender tersebut; pemotongan tidak bersifat final dan dapat dikreditkan; berlaku Pasal 21 ayat (5a) UU PPh.",
+      "alasan": "butuh kelas/properti baru: rujukan tarif Pasal 17 UU PPh, sifat tidak final, dan kredit pajak tidak ada di T-Box; di luar domain hak ketenagakerjaan (murni perpajakan). Catatan: heading '#### Pasal 6' tidak terbaca sebagai heading pada markdown (OCR '   - Pasal 6'), sehingga validator dapat memperingatkan gap heading"
+    }
+  ]
+}

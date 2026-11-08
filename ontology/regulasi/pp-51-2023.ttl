@@ -1,0 +1,222 @@
+# =====================================================================
+# BERKAS DIGENERATE. JANGAN EDIT MANUAL.
+# Sumber   : data/norma.csv, parameter.csv, kategori.csv, pengali_lembur.csv, program_jamsos.csv
+# Hasilkan : .venv/bin/python scripts/build_ontology.py
+# =====================================================================
+
+@prefix ktn:  <https://example.org/kbr/ketenagakerjaan#> .
+@prefix reg:  <https://example.org/kbr/regulasi#> .
+@prefix dct:  <http://purl.org/dc/terms/> .
+@prefix owl:  <http://www.w3.org/2002/07/owl#> .
+@prefix rdf:  <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd:  <http://www.w3.org/2001/XMLSchema#> .
+
+<https://example.org/kbr/ketenagakerjaan/regulasi/pp-51-2023> a owl:Ontology ;
+    dct:title "Fakta norma: Peraturan Pemerintah Nomor 51 Tahun 2023 tentang Perubahan atas Peraturan Pemerintah Nomor 36 Tahun 2021 tentang Pengupahan" ;
+    dct:source <https://peraturan.bpk.go.id/Details/270269/pp-no-51-tahun-2023> ;
+    owl:imports <https://example.org/kbr/ketenagakerjaan> .
+
+ktn:UpahMinimumIKNBerlaku1Januari a owl:NamedIndividual, ktn:KetentuanUpah ;
+    ktn:pasal "Pasal 81A ayat (3)" ;
+    dct:source reg:PP-51-2023 .
+
+ktn:BatasPenyediaanDataLembagaIKN a owl:NamedIndividual, ktn:KetentuanUpah ;
+    ktn:pasal "Pasal 81B ayat (3)" ;
+    dct:source reg:PP-51-2023 .
+
+ktn:UpahMinimumIKNDiumumkan21November a owl:NamedIndividual, ktn:KetentuanUpah ;
+    ktn:pasal "Pasal 81A ayat (2)" ;
+    dct:source reg:PP-51-2023 .
+
+ktn:PenyesuaianUpahMinimumIKN a owl:NamedIndividual, ktn:KetentuanUpah ;
+    ktn:pasal "Pasal 81A ayat (4)" ;
+    dct:source reg:PP-51-2023 .
+
+ktn:PenyesuaianUpahMinimumIKNSetelahData a owl:NamedIndividual, ktn:KetentuanUpah ;
+    ktn:pasal "Pasal 81B ayat (4)" ;
+    dct:source reg:PP-51-2023 .
+
+ktn:UpahMinimumIKNDitetapkanKepalaOtorita a owl:NamedIndividual, ktn:KetentuanUpah ;
+    ktn:pasal "Pasal 81A ayat (1)" ;
+    dct:source reg:PP-51-2023 .
+
+ktn:UpahMinimumIKNSementara a owl:NamedIndividual, ktn:KetentuanUpah ;
+    ktn:pasal "Pasal 81C" ;
+    dct:source reg:PP-51-2023 .
+
+ktn:PedomanStrukturSkalaUpahMasaKerja1Tahun a owl:NamedIndividual, ktn:KetentuanUpah ;
+    ktn:pasal "Pasal 24 ayat (2)" ;
+    dct:source reg:PP-51-2023 .
+
+ktn:CakupanWilayahPenetapanUpahMinimum a owl:NamedIndividual, ktn:KetentuanUpah ;
+    ktn:pasal "Pasal 25 ayat (3)" ;
+    dct:source reg:PP-51-2023 .
+
+ktn:DasarPenetapanUpahMinimumEkonomi a owl:NamedIndividual, ktn:KetentuanUpah ;
+    ktn:pasal "Pasal 25 ayat (2)" ;
+    dct:source reg:PP-51-2023 .
+
+ktn:FormulaPenyesuaianUpahMinimumKonsumsi a owl:NamedIndividual, ktn:KetentuanUpah ;
+    ktn:pasal "Pasal 26A ayat (1)" ;
+    dct:source reg:PP-51-2023 .
+
+ktn:FormulaNilaiPenyesuaianUpahMinimum a owl:NamedIndividual, ktn:KetentuanUpah ;
+    ktn:pasal "Pasal 26 ayat (5)" ;
+    dct:source reg:PP-51-2023 .
+
+ktn:FormulaUpahMinimumTahunBerikutnya a owl:NamedIndividual, ktn:KetentuanUpah ;
+    ktn:pasal "Pasal 26 ayat (4)" ;
+    dct:source reg:PP-51-2023 .
+
+ktn:VariabelFormulaUpahMinimum a owl:NamedIndividual, ktn:KetentuanUpah ;
+    ktn:pasal "Pasal 26 ayat (2)" ;
+    dct:source reg:PP-51-2023 .
+
+ktn:RentangIndeksTertentuUpahMinimum a owl:NamedIndividual, ktn:KetentuanUpah ;
+    ktn:pasal "Pasal 26 ayat (6)" ;
+    dct:source reg:PP-51-2023 .
+
+ktn:UpahDiatasMinimumKualifikasiKhusus a owl:NamedIndividual, ktn:KetentuanUpah ;
+    ktn:pasal "Pasal 24 ayat (1a)" ;
+    dct:source reg:PP-51-2023 .
+
+ktn:BerlakuUpahMinimumMasaKerjaKurang1Tahun a owl:NamedIndividual, ktn:KetentuanUpah ;
+    ktn:pasal "Pasal 24 ayat (1)" ;
+    dct:source reg:PP-51-2023 .
+
+ktn:PembulatanUpahMinimumSatuRupiah a owl:NamedIndividual, ktn:KetentuanUpah ;
+    ktn:pasal "Pasal 26B" ;
+    dct:source reg:PP-51-2023 .
+
+ktn:UpahMinimumTetapJikaPenyesuaianNol a owl:NamedIndividual, ktn:KetentuanUpah ;
+    ktn:pasal "Pasal 26 ayat (9)" ;
+    dct:source reg:PP-51-2023 .
+
+ktn:PenyesuaianNilaiUpahMinimumTahunan a owl:NamedIndividual, ktn:KetentuanUpah ;
+    ktn:pasal "Pasal 26 ayat (1)" ;
+    dct:source reg:PP-51-2023 .
+
+ktn:UpahMinimumTetapJikaPertumbuhanNegatif a owl:NamedIndividual, ktn:KetentuanUpah ;
+    ktn:pasal "Pasal 26A ayat (5)" ;
+    dct:source reg:PP-51-2023 .
+
+ktn:PengumumanUMKSehariSebelumLibur a owl:NamedIndividual, ktn:KetentuanUpah ;
+    ktn:pasal "Pasal 35 ayat (3)" ;
+    dct:source reg:PP-51-2023 .
+
+ktn:FormulaUMKKabupatenBaru a owl:NamedIndividual, ktn:KetentuanUpah ;
+    ktn:pasal "Pasal 31B ayat (1)" ;
+    dct:source reg:PP-51-2023 .
+
+ktn:UMKVariabelRataRata3Tahun a owl:NamedIndividual, ktn:KetentuanUpah ;
+    ktn:pasal "Pasal 32 ayat (2)" ;
+    dct:source reg:PP-51-2023 .
+
+ktn:SyaratPenetapanUMKKabupatenBaru a owl:NamedIndividual, ktn:KetentuanUpah ;
+    ktn:pasal "Pasal 31A ayat (1)" ;
+    dct:source reg:PP-51-2023 .
+
+ktn:LaranganTetapkanUMKSyaratTidakTerpenuhi a owl:NamedIndividual, ktn:KetentuanUpah ;
+    ktn:pasal "Pasal 31A ayat (3)" ;
+    dct:source reg:PP-51-2023 .
+
+ktn:TahapanPenghitunganUMKKabupatenBaru a owl:NamedIndividual, ktn:KetentuanUpah ;
+    ktn:pasal "Pasal 32 ayat (1)" ;
+    dct:source reg:PP-51-2023 .
+
+ktn:VariabelFormulaUMKKabupatenBaru a owl:NamedIndividual, ktn:KetentuanUpah ;
+    ktn:pasal "Pasal 31B ayat (2)" ;
+    dct:source reg:PP-51-2023 .
+
+ktn:UMKBerlakuMulai1JanuariBerikutnya a owl:NamedIndividual, ktn:KetentuanUpah ;
+    ktn:pasal "Pasal 35 ayat (4)" ;
+    dct:source reg:PP-51-2023 .
+
+ktn:CakupanWilayahPenetapanUMK a owl:NamedIndividual, ktn:KetentuanUpah ;
+    ktn:pasal "Pasal 30 ayat (2)" ;
+    dct:source reg:PP-51-2023 .
+
+ktn:UMKDitetapkanKeputusanGubernur30November a owl:NamedIndividual, ktn:KetentuanUpah ;
+    ktn:pasal "Pasal 35 ayat (2)" ;
+    dct:source reg:PP-51-2023 .
+
+ktn:KewenanganGubernurTetapkanUMK a owl:NamedIndividual, ktn:KetentuanUpah ;
+    ktn:pasal "Pasal 30 ayat (1)" ;
+    dct:source reg:PP-51-2023 .
+
+ktn:LaranganRekomendasiUMKSamaAtauRendah a owl:NamedIndividual, ktn:KetentuanUpah ;
+    ktn:pasal "Pasal 33 ayat (3)" ;
+    dct:source reg:PP-51-2023 .
+
+ktn:LaranganGubernurTetapkanUMKMenyimpang a owl:NamedIndividual, ktn:KetentuanUpah ;
+    ktn:pasal "Pasal 33 ayat (6)" ;
+    dct:source reg:PP-51-2023 .
+
+ktn:UMKKabupatenPemekaranPakaiInduk a owl:NamedIndividual, ktn:KetentuanUpah ;
+    ktn:pasal "Pasal 34B" ;
+    dct:source reg:PP-51-2023 .
+
+ktn:PenetapanUMKJikaRekomendasiMenyimpang a owl:NamedIndividual, ktn:KetentuanUpah ;
+    ktn:pasal "Pasal 34A ayat (2)" ;
+    dct:source reg:PP-51-2023 .
+
+ktn:PenyesuaianUMKFormulaKonsumsi a owl:NamedIndividual, ktn:KetentuanUpah ;
+    ktn:pasal "Pasal 34 ayat (3)" ;
+    dct:source reg:PP-51-2023 .
+
+ktn:PenyesuaianUMKPakaiFormulaP26 a owl:NamedIndividual, ktn:KetentuanUpah ;
+    ktn:pasal "Pasal 34 ayat (1)" ;
+    dct:source reg:PP-51-2023 .
+
+ktn:UMKProvinsiPemekaranPakaiUMKSebelum a owl:NamedIndividual, ktn:KetentuanUpah ;
+    ktn:pasal "Pasal 34C" ;
+    dct:source reg:PP-51-2023 .
+
+ktn:RekomendasiUMKLebihTinggiDariUMP a owl:NamedIndividual, ktn:KetentuanUpah ;
+    ktn:pasal "Pasal 33 ayat (4)" ;
+    dct:source reg:PP-51-2023 .
+
+ktn:UMKDitetapkanSetelahUMP a owl:NamedIndividual, ktn:KetentuanUpah ;
+    ktn:pasal "Pasal 31 ayat (1)" ;
+    dct:source reg:PP-51-2023 .
+
+ktn:UMKDitetapkanJikaLebihTinggiDariUMP a owl:NamedIndividual, ktn:KetentuanUpah ;
+    ktn:pasal "Pasal 31 ayat (2)" ;
+    dct:source reg:PP-51-2023 .
+
+ktn:PengumumanUMPSehariSebelumLibur a owl:NamedIndividual, ktn:KetentuanUpah ;
+    ktn:pasal "Pasal 29 ayat (2)" ;
+    dct:source reg:PP-51-2023 .
+
+ktn:UMPBerlakuMulai1JanuariBerikutnya a owl:NamedIndividual, ktn:KetentuanUpah ;
+    ktn:pasal "Pasal 29 ayat (3)" ;
+    dct:source reg:PP-51-2023 .
+
+ktn:UMPPakaiFormulaKonsumsiRumahTangga a owl:NamedIndividual, ktn:KetentuanUpah ;
+    ktn:pasal "Pasal 27 ayat (4)" ;
+    dct:source reg:PP-51-2023 .
+
+ktn:UMPDitetapkanKeputusanGubernur21November a owl:NamedIndividual, ktn:KetentuanUpah ;
+    ktn:pasal "Pasal 29 ayat (1)" ;
+    dct:source reg:PP-51-2023 .
+
+ktn:GubernurTetapkanUMPWalauRekomendasiMenyimpang a owl:NamedIndividual, ktn:KetentuanUpah ;
+    ktn:pasal "Pasal 28 ayat (3)" ;
+    dct:source reg:PP-51-2023 .
+
+ktn:UMPProvinsiPemekaranPakaiInduk a owl:NamedIndividual, ktn:KetentuanUpah ;
+    ktn:pasal "Pasal 28A ayat (1)a" ;
+    dct:source reg:PP-51-2023 .
+
+ktn:PenyesuaianUMPPemekaran21NovemberBerikutnya a owl:NamedIndividual, ktn:KetentuanUpah ;
+    ktn:pasal "Pasal 28A ayat (1)c" ;
+    dct:source reg:PP-51-2023 .
+
+ktn:PenetapanUMPPemekaran21November a owl:NamedIndividual, ktn:KetentuanUpah ;
+    ktn:pasal "Pasal 28A ayat (1)b" ;
+    dct:source reg:PP-51-2023 .
+
+ktn:KewajibanGubernurTetapkanUMPTahunan a owl:NamedIndividual, ktn:KetentuanUpah ;
+    ktn:pasal "Pasal 27 ayat (1)" ;
+    dct:source reg:PP-51-2023 .

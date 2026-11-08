@@ -1,0 +1,3306 @@
+{
+  "spec_version": "1.1.0",
+  "vocab_version": "0.3.0",
+  "dokumen_id": "UU-4-2023",
+  "status_review": "reviewed",
+  "peraturan": {
+    "judul": "Undang-Undang Nomor 4 Tahun 2023 tentang Pengembangan dan Penguatan Sektor Keuangan",
+    "jenis": "UU",
+    "nomor": "4",
+    "tahun": "2023",
+    "sumber": "https://peraturan.bpk.go.id/Details/240203/uu-no-4-tahun-2023",
+    "status": "Berlaku",
+    "diubah_oleh": []
+  },
+  "norma": [
+    {
+      "norm_id": "JAMSOS-JHT-AKUN",
+      "topik": "Jamsos",
+      "pasal": "Pasal 36 ayat (2) dan ayat (3)",
+      "iri_individu": "ktn:JHTAkunUtamaTambahan",
+      "jenis": "KetentuanJaminanSosial",
+      "kondisi": "Peserta jaminan hari tua membayar iuran",
+      "akibat": "Iuran ditempatkan pada akun utama dan akun tambahan, dengan iuran pada akun utama wajib lebih besar daripada iuran pada akun tambahan",
+      "parameter": [],
+      "bukti": "Iuran yang ditempatkan pada akun utama harus lebih besar daripada iuran yang ditempatkan pada akun tambahan.",
+      "confidence": 0.85,
+      "dasar_keyakinan": "dikutip",
+      "catatan": "Pasal 36 UU 40/2004 sebagaimana diubah oleh UU 4/2023; penempatan iuran pada dua akun diatur ayat (2), perbandingan porsi pada ayat (3)."
+    },
+    {
+      "norm_id": "JAMSOS-JHT-BESAR-MANFAAT",
+      "topik": "Jamsos",
+      "pasal": "Pasal 37 ayat (1)",
+      "iri_individu": "ktn:JHTBesaranManfaat",
+      "jenis": "KetentuanJaminanSosial",
+      "kondisi": "Peserta jaminan hari tua memiliki akumulasi iuran pada akun utama dan akun tambahan",
+      "akibat": "Besarnya manfaat jaminan hari tua ditentukan berdasarkan akumulasi seluruh iuran ditambah hasil pengembangannya pada masing-masing akun",
+      "parameter": [],
+      "bukti": "Besarnya manfaat jaminan hari tua ditentukan berdasarkan akumulasi seluruh iuran yang telah disetorkan pada akun utama dan akun tambahan",
+      "confidence": 0.85,
+      "dasar_keyakinan": "dikutip",
+      "catatan": "Pasal 37 UU 40/2004 sebagaimana diubah oleh UU 4/2023."
+    },
+    {
+      "norm_id": "JAMSOS-JHT-PEMBAYARAN-MANFAAT",
+      "topik": "Jamsos",
+      "pasal": "Pasal 37 ayat (2)",
+      "iri_individu": "ktn:JHTPembayaranManfaat",
+      "jenis": "KetentuanJaminanSosial",
+      "kondisi": "Peserta jaminan hari tua memasuki usia pensiun, meninggal dunia, atau mengalami cacat total tetap",
+      "akibat": "Manfaat jaminan hari tua berupa uang tunai dibayarkan secara sekaligus atau berkala",
+      "parameter": [],
+      "bukti": "Manfaat jaminan hari tua berupa uang tunai dapat dibayarkan secara sekaligus atau berkala pada saat dan/atau setelah peserta jaminan hari tua memasuki usia pensiun",
+      "confidence": 0.85,
+      "dasar_keyakinan": "dikutip",
+      "catatan": ""
+    },
+    {
+      "norm_id": "JAMSOS-JHT-AKSES-MENDESAK",
+      "topik": "Jamsos",
+      "pasal": "Pasal 37 ayat (3)",
+      "iri_individu": "ktn:JHTAksesMendesak",
+      "jenis": "KetentuanJaminanSosial",
+      "kondisi": "Terdapat kepentingan mendesak bagi peserta jaminan hari tua",
+      "akibat": "Peserta dapat mengambil sebagian atau seluruh manfaat jaminan hari tua pada akun tambahan",
+      "parameter": [],
+      "bukti": "Dalam hal terdapat kepentingan mendesak, peserta jaminan hari tua dapat mengambil sebagian atau seluruh manfaat jaminan hari tua pada akun tambahan",
+      "confidence": 0.85,
+      "dasar_keyakinan": "dikutip",
+      "catatan": ""
+    },
+    {
+      "norm_id": "JAMSOS-JHT-IMBAL-MINIMAL",
+      "topik": "Jamsos",
+      "pasal": "Pasal 37 ayat (4) dan ayat (5)",
+      "iri_individu": "ktn:JHTImbalHasilMinimal",
+      "jenis": "KetentuanJaminanSosial",
+      "kondisi": "Peserta jaminan hari tua memperoleh hasil pengembangan atas akumulasi iuran",
+      "akibat": "Peserta berhak atas hasil pengembangan minimal setara tingkat imbal hasil deposito bank Pemerintah jangka waktu 1 tahun, dihitung secara akumulasi selama menjadi peserta",
+      "parameter": [],
+      "bukti": "peserta berhak mendapatkan hasil pengembangan atas akumulasi iuran sebagaimana dimaksud pada ayat (1) minimal setara tingkat imbal hasil deposito bank Pemerintah dengan jangka waktu 1 (satu) tahun.",
+      "confidence": 0.8,
+      "dasar_keyakinan": "dikutip",
+      "catatan": "Angka 1 tahun tidak dipetakan ke parameter karena tidak ada parameter yang sesuai di VOCAB."
+    },
+    {
+      "norm_id": "JAMSOS-JHT-AHLI-WARIS",
+      "topik": "Jamsos",
+      "pasal": "Pasal 37 ayat (6)",
+      "iri_individu": "ktn:JHTAhliWaris",
+      "jenis": "KetentuanJaminanSosial",
+      "kondisi": "Peserta jaminan hari tua meninggal dunia",
+      "akibat": "Ahli waris yang sah berhak menerima manfaat jaminan hari tua",
+      "parameter": [],
+      "bukti": "Apabila peserta jaminan hari tua meninggal dunia, ahli warisnya yang sah berhak menerima manfaat jaminan hari tua.",
+      "confidence": 0.9,
+      "dasar_keyakinan": "dikutip",
+      "catatan": ""
+    },
+    {
+      "norm_id": "JAMSOS-JHT-IURAN-PENERIMA-UPAH",
+      "topik": "Jamsos",
+      "pasal": "Pasal 38 ayat (1)",
+      "iri_individu": "ktn:JHTIuranPenerimaUpah",
+      "jenis": "KetentuanJaminanSosial",
+      "kondisi": "Peserta jaminan hari tua menerima upah",
+      "akibat": "Besaran iuran ditetapkan berdasarkan persentase tertentu dari upah, upah sampai batas tertentu, dan/atau penghasilan tertentu, yang ditanggung bersama oleh pemberi kerja dan pekerja",
+      "parameter": [],
+      "bukti": "Besarnya iuran jaminan hari tua untuk peserta jaminan hari tua penerima upah ditetapkan berdasarkan persentase tertentu dari:",
+      "confidence": 0.85,
+      "dasar_keyakinan": "dikutip",
+      "catatan": "Rincian objek persentase pada huruf a sampai dengan huruf c."
+    },
+    {
+      "norm_id": "JAMSOS-JHT-IURAN-NON-UPAH",
+      "topik": "Jamsos",
+      "pasal": "Pasal 38 ayat (2)",
+      "iri_individu": "ktn:JHTIuranBukanPenerimaUpah",
+      "jenis": "KetentuanJaminanSosial",
+      "kondisi": "Peserta jaminan hari tua tidak menerima upah",
+      "akibat": "Besaran iuran ditetapkan berdasarkan jumlah nominal yang ditetapkan secara berkala oleh Pemerintah",
+      "parameter": [],
+      "bukti": "Besarnya iuran jaminan hari tua untuk peserta jaminan hari tua yang tidak menerima upah ditetapkan berdasarkan jumlah nominal yang ditetapkan secara berkala oleh Pemerintah.",
+      "confidence": 0.9,
+      "dasar_keyakinan": "dikutip",
+      "catatan": ""
+    }
+  ],
+  "kategori": [],
+  "pengali_lembur": [],
+  "program_jamsos": [],
+  "cakupan": {
+    "lengkap": true,
+    "pasal_diekstrak": [
+      "Pasal 1",
+      "Pasal 10",
+      "Pasal 101",
+      "Pasal 102",
+      "Pasal 103",
+      "Pasal 104",
+      "Pasal 105",
+      "Pasal 106",
+      "Pasal 1068",
+      "Pasal 106A",
+      "Pasal 107",
+      "Pasal 108",
+      "Pasal 109",
+      "Pasal 10A",
+      "Pasal 10B",
+      "Pasal 110",
+      "Pasal 111",
+      "Pasal 112",
+      "Pasal 113",
+      "Pasal 114",
+      "Pasal 115",
+      "Pasal 116",
+      "Pasal 119",
+      "Pasal 12",
+      "Pasal 120",
+      "Pasal 121",
+      "Pasal 122",
+      "Pasal 123",
+      "Pasal 124",
+      "Pasal 125",
+      "Pasal 126",
+      "Pasal 127",
+      "Pasal 128",
+      "Pasal 129",
+      "Pasal 12A",
+      "Pasal 13",
+      "Pasal 130",
+      "Pasal 131",
+      "Pasal 132",
+      "Pasal 133",
+      "Pasal 134",
+      "Pasal 135",
+      "Pasal 136",
+      "Pasal 137",
+      "Pasal 138",
+      "Pasal 139",
+      "Pasal 13A",
+      "Pasal 14",
+      "Pasal 141",
+      "Pasal 142",
+      "Pasal 143",
+      "Pasal 144",
+      "Pasal 145",
+      "Pasal 146",
+      "Pasal 147",
+      "Pasal 148",
+      "Pasal 149",
+      "Pasal 14A",
+      "Pasal 14O",
+      "Pasal 15",
+      "Pasal 151",
+      "Pasal 152",
+      "Pasal 153",
+      "Pasal 154",
+      "Pasal 155",
+      "Pasal 156",
+      "Pasal 157",
+      "Pasal 158",
+      "Pasal 159",
+      "Pasal 15A",
+      "Pasal 15O",
+      "Pasal 16",
+      "Pasal 160",
+      "Pasal 161",
+      "Pasal 162",
+      "Pasal 163",
+      "Pasal 164",
+      "Pasal 165",
+      "Pasal 166",
+      "Pasal 167",
+      "Pasal 168",
+      "Pasal 169",
+      "Pasal 16A",
+      "Pasal 16C",
+      "Pasal 16D",
+      "Pasal 16E",
+      "Pasal 17",
+      "Pasal 170",
+      "Pasal 171",
+      "Pasal 172",
+      "Pasal 173",
+      "Pasal 174",
+      "Pasal 175",
+      "Pasal 176",
+      "Pasal 177",
+      "Pasal 178",
+      "Pasal 179",
+      "Pasal 17A",
+      "Pasal 18",
+      "Pasal 181",
+      "Pasal 182",
+      "Pasal 183",
+      "Pasal 184",
+      "Pasal 185",
+      "Pasal 186",
+      "Pasal 187",
+      "Pasal 188",
+      "Pasal 189",
+      "Pasal 18A",
+      "Pasal 18B",
+      "Pasal 18C",
+      "Pasal 18O",
+      "Pasal 19",
+      "Pasal 190",
+      "Pasal 191",
+      "Pasal 192",
+      "Pasal 193",
+      "Pasal 194",
+      "Pasal 195",
+      "Pasal 196",
+      "Pasal 197",
+      "Pasal 198",
+      "Pasal 199",
+      "Pasal 19A",
+      "Pasal 1O",
+      "Pasal 2",
+      "Pasal 20",
+      "Pasal 203",
+      "Pasal 205",
+      "Pasal 206",
+      "Pasal 208",
+      "Pasal 209",
+      "Pasal 20A",
+      "Pasal 20B",
+      "Pasal 20C",
+      "Pasal 20O",
+      "Pasal 21",
+      "Pasal 210",
+      "Pasal 211",
+      "Pasal 213",
+      "Pasal 214",
+      "Pasal 215",
+      "Pasal 216",
+      "Pasal 217",
+      "Pasal 219",
+      "Pasal 21A",
+      "Pasal 21B",
+      "Pasal 22",
+      "Pasal 222",
+      "Pasal 223",
+      "Pasal 224",
+      "Pasal 225",
+      "Pasal 226",
+      "Pasal 227",
+      "Pasal 228",
+      "Pasal 229",
+      "Pasal 22O",
+      "Pasal 23",
+      "Pasal 230",
+      "Pasal 231",
+      "Pasal 232",
+      "Pasal 233",
+      "Pasal 234",
+      "Pasal 235",
+      "Pasal 236",
+      "Pasal 237",
+      "Pasal 238",
+      "Pasal 239",
+      "Pasal 24",
+      "Pasal 241",
+      "Pasal 242",
+      "Pasal 243",
+      "Pasal 244",
+      "Pasal 245",
+      "Pasal 246",
+      "Pasal 247",
+      "Pasal 248",
+      "Pasal 249",
+      "Pasal 24O",
+      "Pasal 25",
+      "Pasal 251",
+      "Pasal 252",
+      "Pasal 253",
+      "Pasal 254",
+      "Pasal 255",
+      "Pasal 256",
+      "Pasal 257",
+      "Pasal 258",
+      "Pasal 259",
+      "Pasal 25O",
+      "Pasal 26",
+      "Pasal 260",
+      "Pasal 261",
+      "Pasal 262",
+      "Pasal 263",
+      "Pasal 264",
+      "Pasal 265",
+      "Pasal 266",
+      "Pasal 267",
+      "Pasal 268",
+      "Pasal 269",
+      "Pasal 27",
+      "Pasal 272",
+      "Pasal 273",
+      "Pasal 274",
+      "Pasal 275",
+      "Pasal 276",
+      "Pasal 277",
+      "Pasal 278",
+      "Pasal 279",
+      "Pasal 27O",
+      "Pasal 28",
+      "Pasal 281",
+      "Pasal 282",
+      "Pasal 283",
+      "Pasal 284",
+      "Pasal 285",
+      "Pasal 286",
+      "Pasal 287",
+      "Pasal 288",
+      "Pasal 289",
+      "Pasal 28A",
+      "Pasal 28O",
+      "Pasal 29",
+      "Pasal 291",
+      "Pasal 292",
+      "Pasal 293",
+      "Pasal 294",
+      "Pasal 295",
+      "Pasal 296",
+      "Pasal 297",
+      "Pasal 298",
+      "Pasal 299",
+      "Pasal 29A",
+      "Pasal 29O",
+      "Pasal 2A",
+      "Pasal 2O",
+      "Pasal 2T",
+      "Pasal 3",
+      "Pasal 30",
+      "Pasal 300",
+      "Pasal 301",
+      "Pasal 302",
+      "Pasal 305",
+      "Pasal 306",
+      "Pasal 307",
+      "Pasal 309",
+      "Pasal 30C",
+      "Pasal 31",
+      "Pasal 311",
+      "Pasal 312",
+      "Pasal 313",
+      "Pasal 314",
+      "Pasal 315",
+      "Pasal 316",
+      "Pasal 317",
+      "Pasal 318",
+      "Pasal 319",
+      "Pasal 31A",
+      "Pasal 31O",
+      "Pasal 32",
+      "Pasal 320",
+      "Pasal 322",
+      "Pasal 324",
+      "Pasal 325",
+      "Pasal 326",
+      "Pasal 327",
+      "Pasal 328",
+      "Pasal 329",
+      "Pasal 33",
+      "Pasal 330",
+      "Pasal 331",
+      "Pasal 332",
+      "Pasal 333",
+      "Pasal 334",
+      "Pasal 335",
+      "Pasal 336",
+      "Pasal 337",
+      "Pasal 338",
+      "Pasal 339",
+      "Pasal 34",
+      "Pasal 341",
+      "Pasal 34A",
+      "Pasal 34O",
+      "Pasal 35",
+      "Pasal 35B",
+      "Pasal 35C",
+      "Pasal 35D",
+      "Pasal 36",
+      "Pasal 368",
+      "Pasal 36A",
+      "Pasal 36C",
+      "Pasal 37",
+      "Pasal 37A",
+      "Pasal 37C",
+      "Pasal 37D",
+      "Pasal 37E",
+      "Pasal 38",
+      "Pasal 388",
+      "Pasal 38A",
+      "Pasal 38B",
+      "Pasal 38C",
+      "Pasal 39",
+      "Pasal 39A",
+      "Pasal 3A",
+      "Pasal 3O",
+      "Pasal 4",
+      "Pasal 40",
+      "Pasal 40A",
+      "Pasal 40B",
+      "Pasal 40C",
+      "Pasal 41",
+      "Pasal 41A",
+      "Pasal 41B",
+      "Pasal 41C",
+      "Pasal 42",
+      "Pasal 428",
+      "Pasal 42A",
+      "Pasal 42B",
+      "Pasal 43",
+      "Pasal 43A",
+      "Pasal 44",
+      "Pasal 44A",
+      "Pasal 44B",
+      "Pasal 44C",
+      "Pasal 45",
+      "Pasal 45A",
+      "Pasal 46",
+      "Pasal 46A",
+      "Pasal 47",
+      "Pasal 47A",
+      "Pasal 48",
+      "Pasal 488",
+      "Pasal 48A",
+      "Pasal 48B",
+      "Pasal 48C",
+      "Pasal 49",
+      "Pasal 4O",
+      "Pasal 5",
+      "Pasal 50",
+      "Pasal 50A",
+      "Pasal 50B",
+      "Pasal 51",
+      "Pasal 52",
+      "Pasal 53",
+      "Pasal 54",
+      "Pasal 54A",
+      "Pasal 54B",
+      "Pasal 55",
+      "Pasal 55A",
+      "Pasal 56",
+      "Pasal 57",
+      "Pasal 58",
+      "Pasal 58A",
+      "Pasal 58C",
+      "Pasal 59",
+      "Pasal 5A",
+      "Pasal 5C",
+      "Pasal 5D",
+      "Pasal 5O",
+      "Pasal 6",
+      "Pasal 60",
+      "Pasal 61",
+      "Pasal 62",
+      "Pasal 62A",
+      "Pasal 63",
+      "Pasal 64",
+      "Pasal 648",
+      "Pasal 64A",
+      "Pasal 65",
+      "Pasal 65A",
+      "Pasal 66",
+      "Pasal 66A",
+      "Pasal 66B",
+      "Pasal 66C",
+      "Pasal 67",
+      "Pasal 67A",
+      "Pasal 68",
+      "Pasal 69",
+      "Pasal 694",
+      "Pasal 69C",
+      "Pasal 69D",
+      "Pasal 6A",
+      "Pasal 6O",
+      "Pasal 7",
+      "Pasal 71",
+      "Pasal 72",
+      "Pasal 72A",
+      "Pasal 73",
+      "Pasal 738",
+      "Pasal 73A",
+      "Pasal 74",
+      "Pasal 74A",
+      "Pasal 75",
+      "Pasal 76",
+      "Pasal 77",
+      "Pasal 78",
+      "Pasal 79",
+      "Pasal 7A",
+      "Pasal 7O",
+      "Pasal 8",
+      "Pasal 80",
+      "Pasal 81",
+      "Pasal 82",
+      "Pasal 82A",
+      "Pasal 83",
+      "Pasal 83A",
+      "Pasal 84",
+      "Pasal 84A",
+      "Pasal 85",
+      "Pasal 86",
+      "Pasal 87",
+      "Pasal 87A",
+      "Pasal 88",
+      "Pasal 89",
+      "Pasal 89A",
+      "Pasal 89B",
+      "Pasal 89C",
+      "Pasal 8A",
+      "Pasal 9",
+      "Pasal 90",
+      "Pasal 91",
+      "Pasal 92",
+      "Pasal 93",
+      "Pasal 94",
+      "Pasal 95",
+      "Pasal 95A",
+      "Pasal 96",
+      "Pasal 97",
+      "Pasal 98",
+      "Pasal 99",
+      "Pasal 9A",
+      "Pasal 9O"
+    ],
+    "pasal_dilewati": [
+      {
+        "pasal": "Pasal 1",
+        "alasan": "definisi/istilah sektor keuangan (51 butir), bukan norma perilaku"
+      },
+      {
+        "pasal": "Pasal 2",
+        "alasan": "asas penyelenggaraan undang-undang, bukan hak/kewajiban"
+      },
+      {
+        "pasal": "Pasal 3",
+        "alasan": "maksud dan tujuan pembentukan undang-undang"
+      },
+      {
+        "pasal": "Pasal 4",
+        "alasan": "ruang lingkup pengaturan ekosistem sektor keuangan"
+      },
+      {
+        "pasal": "Pasal 5",
+        "alasan": "daftar undang-undang sektor keuangan yang diubah, di luar domain ketenagakerjaan"
+      },
+      {
+        "pasal": "Pasal 6",
+        "alasan": "ketentuan perubahan UU Pencegahan dan Penanganan Krisis Sistem Keuangan, di luar domain"
+      },
+      {
+        "pasal": "Pasal 1",
+        "alasan": "definisi/istilah UU Pencegahan dan Penanganan Krisis Sistem Keuangan"
+      },
+      {
+        "pasal": "Pasal 4",
+        "alasan": "kelembagaan/pembentukan Komite Stabilitas Sistem Keuangan"
+      },
+      {
+        "pasal": "Pasal 5",
+        "alasan": "tugas Komite Stabilitas Sistem Keuangan (kelembagaan)"
+      },
+      {
+        "pasal": "Pasal 6",
+        "alasan": "wewenang Komite Stabilitas Sistem Keuangan (kelembagaan)"
+      },
+      {
+        "pasal": "Pasal 7",
+        "alasan": "sekretariat Komite Stabilitas Sistem Keuangan (tata cara internal)"
+      },
+      {
+        "pasal": "Pasal 8A",
+        "alasan": "rapat koordinasi Komite Stabilitas Sistem Keuangan (tata cara internal)"
+      },
+      {
+        "pasal": "Pasal 9",
+        "alasan": "tata cara rapat dan pengambilan keputusan Komite Stabilitas Sistem Keuangan"
+      },
+      {
+        "pasal": "Pasal 34A",
+        "alasan": "langkah penanganan krisis sistem keuangan oleh pejabat keuangan, di luar domain"
+      },
+      {
+        "pasal": "Pasal 7",
+        "alasan": "ketentuan perubahan UU Lembaga Penjamin Simpanan (klausul pembuka), di luar domain"
+      },
+      {
+        "pasal": "Pasal 1",
+        "alasan": "definisi/istilah UU Lembaga Penjamin Simpanan"
+      },
+      {
+        "pasal": "Pasal 2",
+        "alasan": "pembentukan dan kedudukan Lembaga Penjamin Simpanan (kelembagaan)"
+      },
+      {
+        "pasal": "Pasal 3A",
+        "alasan": "tujuan Lembaga Penjamin Simpanan (kelembagaan)"
+      },
+      {
+        "pasal": "Pasal 4",
+        "alasan": "fungsi Lembaga Penjamin Simpanan (kelembagaan)"
+      },
+      {
+        "pasal": "Pasal 5",
+        "alasan": "tugas Lembaga Penjamin Simpanan (kelembagaan)"
+      },
+      {
+        "pasal": "Pasal 6",
+        "alasan": "wewenang Lembaga Penjamin Simpanan (kelembagaan)"
+      },
+      {
+        "pasal": "Pasal 9A",
+        "alasan": "kewajiban bank menyampaikan data simpanan kepada LPS, di luar domain"
+      },
+      {
+        "pasal": "Pasal 10A",
+        "alasan": "penjaminan simpanan kelompok nasabah, di luar domain"
+      },
+      {
+        "pasal": "Pasal 14",
+        "alasan": "penghitungan dan verifikasi premi penjaminan, di luar domain"
+      },
+      {
+        "pasal": "Pasal 14A",
+        "alasan": "perhitungan premi dengan memperhitungkan dana Pemerintah, di luar domain"
+      },
+      {
+        "pasal": "Pasal 17",
+        "alasan": "tata cara pembayaran klaim penjaminan simpanan, di luar domain"
+      },
+      {
+        "pasal": "Pasal 18",
+        "alasan": "perjumpaan utang nasabah penyimpan dengan klaim penjaminan, di luar domain"
+      },
+      {
+        "pasal": "Pasal 20",
+        "alasan": "keberatan nasabah atas simpanan tidak layak dibayar, di luar domain"
+      },
+      {
+        "pasal": "Pasal 22",
+        "alasan": "penyelesaian/penanganan Bank Dalam Resolusi, di luar domain"
+      },
+      {
+        "pasal": "Pasal 24",
+        "alasan": "penyelamatan bank dan kewajiban memberikan data kepada LPS, di luar domain"
+      },
+      {
+        "pasal": "Pasal 25",
+        "alasan": "pengambilalihan hak RUPS dan kepengurusan bank oleh LPS, di luar domain"
+      },
+      {
+        "pasal": "Pasal 26",
+        "alasan": "tindakan LPS atas aset dan manajemen bank dalam resolusi, di luar domain"
+      },
+      {
+        "pasal": "Pasal 28",
+        "alasan": "hak PSP lama atas hasil penjualan saham bank, di luar domain"
+      },
+      {
+        "pasal": "Pasal 29",
+        "alasan": "urutan penggunaan hasil penjualan saham bank, di luar domain"
+      },
+      {
+        "pasal": "Pasal 30",
+        "alasan": "kewajiban LPS menjual saham bank dalam resolusi, di luar domain"
+      },
+      {
+        "pasal": "Pasal 31",
+        "alasan": "permintaan pencabutan izin usaha dan pembayaran klaim, di luar domain"
+      },
+      {
+        "pasal": "Pasal 33",
+        "alasan": "syarat penyetoran modal pemegang saham untuk penanganan bank, di luar domain"
+      },
+      {
+        "pasal": "Pasal 34",
+        "alasan": "pengalihan hak RUPS bank sistemik kepada LPS, di luar domain"
+      },
+      {
+        "pasal": "Pasal 35",
+        "alasan": "perjanjian penggunaan hasil penjualan saham bank, di luar domain"
+      },
+      {
+        "pasal": "Pasal 36",
+        "alasan": "urutan penggunaan hasil penjualan saham bank sistemik, di luar domain"
+      },
+      {
+        "pasal": "Pasal 37",
+        "alasan": "tanggung jawab LPS atas biaya penanganan bank, di luar domain"
+      },
+      {
+        "pasal": "Pasal 38",
+        "alasan": "kewajiban LPS menjual saham bank sistemik, di luar domain"
+      },
+      {
+        "pasal": "Pasal 40",
+        "alasan": "pengalihan hak RUPS dan kepengurusan bank sistemik kepada LPS, di luar domain"
+      },
+      {
+        "pasal": "Pasal 42",
+        "alasan": "kewajiban LPS menjual saham bank sistemik dalam resolusi, di luar domain"
+      },
+      {
+        "pasal": "Pasal 50B",
+        "alasan": "tata cara kasasi sengketa likuidasi bank (hukum acara), di luar domain"
+      },
+      {
+        "pasal": "Pasal 53",
+        "alasan": "cara likuidasi bank, di luar domain"
+      },
+      {
+        "pasal": "Pasal 63",
+        "alasan": "organ dan pimpinan Lembaga Penjamin Simpanan (kelembagaan)"
+      },
+      {
+        "pasal": "Pasal 65",
+        "alasan": "susunan dan pengisian anggota Dewan Komisioner LPS (kelembagaan)"
+      },
+      {
+        "pasal": "Pasal 65A",
+        "alasan": "sumpah/janji anggota Dewan Komisioner LPS (kelembagaan)"
+      },
+      {
+        "pasal": "Pasal 66",
+        "alasan": "masa jabatan dan larangan rangkap jabatan anggota Dewan Komisioner LPS (kelembagaan)"
+      },
+      {
+        "pasal": "Pasal 67",
+        "alasan": "persyaratan calon anggota Dewan Komisioner LPS (kelembagaan)"
+      },
+      {
+        "pasal": "Pasal 69",
+        "alasan": "alasan dan tata cara pemberhentian anggota Dewan Komisioner LPS"
+      },
+      {
+        "pasal": "Pasal 71",
+        "alasan": "rapat berkala Dewan Komisioner LPS (tata cara internal)"
+      },
+      {
+        "pasal": "Pasal 72",
+        "alasan": "pengambilan keputusan Dewan Komisioner LPS (tata cara internal)"
+      },
+      {
+        "pasal": "Pasal 74A",
+        "alasan": "kode etik Lembaga Penjamin Simpanan (tata cara internal)"
+      },
+      {
+        "pasal": "Pasal 78",
+        "alasan": "kewenangan Dewan Komisioner menetapkan sistem kepegawaian/penggajian pegawai LPS; kebijakan internal pemberi kerja, bukan norma ketenagakerjaan"
+      },
+      {
+        "pasal": "Pasal 79",
+        "alasan": "ganti rugi atas putusan pengadilan terkait pelaksanaan tugas LPS, di luar domain"
+      },
+      {
+        "pasal": "Pasal 82",
+        "alasan": "sumber dan penempatan kekayaan LPS, di luar domain"
+      },
+      {
+        "pasal": "Pasal 82A",
+        "alasan": "perusahaan pengelola aset LPS, di luar domain"
+      },
+      {
+        "pasal": "Pasal 83A",
+        "alasan": "perpajakan Lembaga Penjamin Simpanan, di luar domain"
+      },
+      {
+        "pasal": "Pasal 85",
+        "alasan": "penutupan kekurangan modal dan pinjaman LPS, di luar domain"
+      },
+      {
+        "pasal": "Pasal 86",
+        "alasan": "rencana kerja dan anggaran tahunan LPS (tata kelola internal)"
+      },
+      {
+        "pasal": "Pasal 88",
+        "alasan": "laporan kinerja dan laporan keuangan LPS, di luar domain"
+      },
+      {
+        "pasal": "Pasal 89A",
+        "alasan": "pembentukan dan tugas Badan Supervisi LPS (kelembagaan)"
+      },
+      {
+        "pasal": "Pasal 89C",
+        "alasan": "seleksi dan pemberhentian anggota Badan Supervisi LPS (kelembagaan)"
+      },
+      {
+        "pasal": "Pasal 91",
+        "alasan": "kewajiban merahasiakan dokumen/informasi LPS, di luar domain"
+      },
+      {
+        "pasal": "Pasal 92",
+        "alasan": "sanksi administratif bagi bank atas pelanggaran kewajiban penjaminan, di luar domain"
+      },
+      {
+        "pasal": "Pasal 95",
+        "alasan": "ketentuan pidana pelanggaran kewajiban terkait penjaminan/likuidasi, di luar domain"
+      },
+      {
+        "pasal": "Pasal 95A",
+        "alasan": "ketentuan pidana pelanggaran kewajiban pemberian data Bank Dalam Resolusi, di luar domain"
+      },
+      {
+        "pasal": "Pasal 8",
+        "alasan": "ketentuan perubahan UU Otoritas Jasa Keuangan (klausul pembuka), di luar domain"
+      },
+      {
+        "pasal": "Pasal 1",
+        "alasan": "definisi/istilah UU Otoritas Jasa Keuangan"
+      },
+      {
+        "pasal": "Pasal 2",
+        "alasan": "pembentukan dan kedudukan Otoritas Jasa Keuangan (kelembagaan)"
+      },
+      {
+        "pasal": "Pasal 5",
+        "alasan": "fungsi Otoritas Jasa Keuangan (kelembagaan)"
+      },
+      {
+        "pasal": "Pasal 6",
+        "alasan": "tugas pengaturan dan pengawasan Otoritas Jasa Keuangan (kelembagaan)"
+      },
+      {
+        "pasal": "Pasal 8A",
+        "alasan": "tambahan kewenangan Otoritas Jasa Keuangan (kelembagaan)"
+      },
+      {
+        "pasal": "Pasal 10",
+        "alasan": "susunan Dewan Komisioner Otoritas Jasa Keuangan (kelembagaan)"
+      },
+      {
+        "pasal": "Pasal 15",
+        "alasan": "persyaratan calon anggota Dewan Komisioner OJK (kelembagaan)"
+      },
+      {
+        "pasal": "Pasal 17",
+        "alasan": "alasan pemberhentian anggota Dewan Komisioner OJK (kelembagaan)"
+      },
+      {
+        "pasal": "Pasal 24",
+        "alasan": "pengambilan keputusan Dewan Komisioner OJK (tata cara internal)"
+      },
+      {
+        "pasal": "Pasal 25",
+        "alasan": "kewenangan Ketua Dewan Komisioner mewakili OJK (kelembagaan)"
+      },
+      {
+        "pasal": "Pasal 34",
+        "alasan": "rencana kerja dan anggaran Otoritas Jasa Keuangan, di luar domain"
+      },
+      {
+        "pasal": "Pasal 35",
+        "alasan": "penggunaan anggaran OJK termasuk standar pengelolaan SDM dan remunerasi internal; kebijakan internal, bukan norma ketenagakerjaan"
+      },
+      {
+        "pasal": "Pasal 36A",
+        "alasan": "mulai berlakunya ketentuan rencana kerja dan anggaran OJK tahun 2025 (peralihan)"
+      },
+      {
+        "pasal": "Pasal 368",
+        "alasan": "peraturan pelaksanaan rencana kerja dan anggaran OJK (delegasi)"
+      },
+      {
+        "pasal": "Pasal 37",
+        "alasan": "pungutan kepada pihak yang melakukan kegiatan di sektor jasa keuangan, di luar domain"
+      },
+      {
+        "pasal": "Pasal 37A",
+        "alasan": "ketentuan peralihan pungutan OJK sampai akhir tahun 2024"
+      },
+      {
+        "pasal": "Pasal 38",
+        "alasan": "laporan kinerja dan laporan keuangan Otoritas Jasa Keuangan, di luar domain"
+      },
+      {
+        "pasal": "Pasal 38A",
+        "alasan": "Kelembagaan: pembentukan, fungsi, tugas, dan anggaran Badan Supervisi Otoritas Jasa Keuangan; di luar domain ketenagakerjaan. Bukti: \"dibentuk Badan Supervisi Otoritas Jasa Keuangan\""
+      },
+      {
+        "pasal": "Pasal 388",
+        "alasan": "Kelembagaan: keanggotaan dan persyaratan anggota Badan Supervisi Otoritas Jasa Keuangan; di luar domain ketenagakerjaan. Label OCR 'Pasal 388', dimaksudkan Pasal 38B. Bukti: \"Keanggotaan Badan Supervisi Otoritas Jasa Keuangan berjumlah paling sedikit 5 (lima) orang\""
+      },
+      {
+        "pasal": "Pasal 38C",
+        "alasan": "Kelembagaan: seleksi, penetapan, dan pemberhentian anggota Badan Supervisi Otoritas Jasa Keuangan; di luar domain ketenagakerjaan. Bukti: \"diseleksi dan dipilih oleh DPR\""
+      },
+      {
+        "pasal": "Pasal 48A",
+        "alasan": "Kerja sama internasional: pertukaran data Otoritas Jasa Keuangan dikecualikan dari ketentuan kerahasiaan; di luar domain ketenagakerjaan. Bukti: \"Pertukaran data dan/atau informasi oleh Otoritas Jasa Keuangan dalam rangka kerja sama internasional\""
+      },
+      {
+        "pasal": "Pasal 488",
+        "alasan": "Pidana/penyidikan: kewenangan Otoritas Jasa Keuangan menetapkan penyidikan dan penyelesaian pelanggaran di sektor jasa keuangan; di luar domain ketenagakerjaan. Label OCR 'Pasal 488', dimaksudkan Pasal 48B. Bukti: \"Otoritas Jasa Keuangan berwenang menetapkan dimulainya, tidak dilakukannya, atau dihentikannya penyidikan\""
+      },
+      {
+        "pasal": "Pasal 49",
+        "alasan": "Pidana/penyidikan: susunan, pengangkatan, dan kewenangan penyidik Otoritas Jasa Keuangan; di luar domain ketenagakerjaan. Bukti: \"Penyidik Otoritas Jasa Keuangan terdiri atas\""
+      },
+      {
+        "pasal": "Pasal 53",
+        "alasan": "Sanksi pidana: penghambatan kewenangan Otoritas Jasa Keuangan diancam pidana penjara dan denda; di luar domain ketenagakerjaan. Bukti: \"dipidana dengan pidana penjara paling singkat 4 (empat) tahun\""
+      },
+      {
+        "pasal": "Pasal 54",
+        "alasan": "Sanksi pidana: pengabaian perintah tertulis Otoritas Jasa Keuangan diancam pidana; di luar domain ketenagakerjaan. Bukti: \"Setiap Orang yang dengan sengaja mengabaikan dan/atau tidak melaksanakan\""
+      },
+      {
+        "pasal": "Pasal 9",
+        "alasan": "Perubahan undang-undang lain: pasal induk perubahan UU Bank Indonesia; juga memuat Pasal 9 UU Bank Indonesia tentang larangan campur tangan pihak lain. Dua heading 'Pasal 9' dalam chunk ini. Di luar domain ketenagakerjaan. Bukti: \"Undang-Undang Nomor23 Tahun L999 tentang Bank Indonesia\""
+      },
+      {
+        "pasal": "Pasal 4",
+        "alasan": "Kelembagaan bank sentral: kedudukan dan status hukum Bank Indonesia; di luar domain ketenagakerjaan. Bukti: \"Bank Indonesia merupakan Bank Sentral Republik Indonesia\""
+      },
+      {
+        "pasal": "Pasal 7",
+        "alasan": "Kelembagaan bank sentral: tujuan Bank Indonesia (stabilitas rupiah dan Sistem Keuangan); di luar domain ketenagakerjaan. Bukti: \"Tujuan Bank Indonesia adalah mencapai stabilitas nilai rupiah\""
+      },
+      {
+        "pasal": "Pasal 8",
+        "alasan": "Kelembagaan bank sentral: tugas Bank Indonesia (moneter, Sistem Pembayaran, makroprudensial); heading muncul dua kali dalam chunk ini. Di luar domain ketenagakerjaan. Bukti: \"Bank Indonesia mempunyai tugas sebagai berikut\""
+      },
+      {
+        "pasal": "Pasal 1O",
+        "alasan": "Kebijakan moneter: kewenangan Bank Indonesia menetapkan dan melaksanakan kebijakan moneter; di luar domain ketenagakerjaan. Label OCR 'Pasal 1O', dimaksudkan Pasal 10. Bukti: \"Bank Indonesia menetapkan dan melaksanakan kebijakan moneter\""
+      },
+      {
+        "pasal": "Pasal 10B",
+        "alasan": "Pasar keuangan: pengaturan dan pengawasan Pasar Uang serta Pasar Valuta Asing oleh Bank Indonesia; di luar domain ketenagakerjaan. Bukti: \"Pengaturan, pengawasan, dan pengembangan Pasar Uang dan Pasar Valuta Asing oleh Bank Indonesia\""
+      },
+      {
+        "pasal": "Pasal 14",
+        "alasan": "Kelembagaan bank sentral: kewenangan survei dan perolehan data Bank Indonesia; di luar domain ketenagakerjaan. Bukti: \"Bank Indonesia berwenang untuk: a. menyelenggarakan survei\""
+      },
+      {
+        "pasal": "Pasal 35B",
+        "alasan": "Makroprudensial: kewenangan Bank Indonesia menetapkan kebijakan makroprudensial; di luar domain ketenagakerjaan. Bukti: \"Dalam rangka menetapkan dan melaksanakan kebijakan makroprudensial\""
+      },
+      {
+        "pasal": "Pasal 35C",
+        "alasan": "Kepailitan: kewenangan tunggal Bank Indonesia mengajukan permohonan pailit atas debitur penyedia jasa pembayaran; di luar domain ketenagakerjaan. Bukti: \"Bank Indonesia merupakan satu-satunya pihak yang berwenang mengajukan permohonan pernyataan pailit\""
+      },
+      {
+        "pasal": "Pasal 35D",
+        "alasan": "Kepailitan uang elektronik: dana yang dipisahkan penerbit dikecualikan dari harta pailit; di luar domain ketenagakerjaan. Bukti: \"kepailitan tidak meliputi dana yang telah dipisahkan oleh penerbit\""
+      },
+      {
+        "pasal": "Pasal 38A",
+        "alasan": "Kelembagaan bank sentral: kode etik Bank Indonesia ditetapkan Dewan Gubernur; di luar domain ketenagakerjaan. Bukti: \"Dewan Gubernur menetapkan dan menegakkan kode etik Bank Indonesia\""
+      },
+      {
+        "pasal": "Pasal 40",
+        "alasan": "Kelembagaan bank sentral: syarat pengangkatan anggota Dewan Gubernur; heading muncul dua kali dalam chunk ini (duplikat OCR). Di luar domain ketenagakerjaan. Bukti: \"Untuk dapat diangkat sebagai anggota Dewan Gubernur, calon yang bersangkutan harus memenuhi syarat\""
+      },
+      {
+        "pasal": "Pasal 47",
+        "alasan": "Kelembagaan bank sentral: larangan kepentingan dan rangkap jabatan anggota Dewan Gubernur; di luar domain ketenagakerjaan. Bukti: \"Anggota Dewan Gubernur baik sendiri maupun bersama-sama dilarang\""
+      },
+      {
+        "pasal": "Pasal 58",
+        "alasan": "Tata kelola dan pelaporan Bank Indonesia kepada Presiden/DPR; di luar domain ketenagakerjaan. Bukti: \"wajib mengutamakan prinsip tata kelola kelembagaan yang baik dan profesional\""
+      },
+      {
+        "pasal": "Pasal 58A",
+        "alasan": "Kelembagaan: pembentukan, fungsi, dan wewenang Badan Supervisi Bank Indonesia; di luar domain ketenagakerjaan. Bukti: \"dibentuk Badan Supervisi Bank Indonesia\""
+      },
+      {
+        "pasal": "Pasal 58C",
+        "alasan": "Kelembagaan: seleksi dan pemberhentian anggota Badan Supervisi Bank Indonesia; di luar domain ketenagakerjaan. Bukti: \"diseleksi dan dipilih oleh DPR\""
+      },
+      {
+        "pasal": "Pasal 6O",
+        "alasan": "Kelembagaan bank sentral: tahun anggaran dan penetapan anggaran Bank Indonesia; di luar domain ketenagakerjaan. Label OCR 'Pasal 6O', dimaksudkan Pasal 60. Bukti: \"Tahun anggaran Bank Indonesia adalah tahun kalender\""
+      },
+      {
+        "pasal": "Pasal 64A",
+        "alasan": "Pengelolaan kekayaan Bank Indonesia termasuk hapus buku dan hapus tagih; di luar domain ketenagakerjaan. Bukti: \"berwenang melakukan pengelolaan kekayaan Bank Indonesia termasuk melakukan hapus buku dan hapus tagih\""
+      },
+      {
+        "pasal": "Pasal 648",
+        "alasan": "Kerahasiaan informasi: larangan mengungkapkan informasi rahasia Bank Indonesia; di luar domain ketenagakerjaan. Label OCR 'Pasal 648', dimaksudkan Pasal 64B. Bukti: \"dilarang menggunakan atau mengungkapkan informasi apa pun yang bersifat rahasia kepada pihak lain\""
+      },
+      {
+        "pasal": "Pasal 2",
+        "alasan": "Mata uang: penetapan Rupiah sebagai mata uang dan macam Rupiah; heading muncul dua kali dalam chunk ini (duplikat OCR). Di luar domain ketenagakerjaan. Bukti: \"Mata Uang Negara Kesatuan Republik Indonesia adalah Rupiah\""
+      },
+      {
+        "pasal": "Pasal 14A",
+        "alasan": "Rupiah digital: ruang lingkup pengelolaan dan kewenangan Bank Indonesia; di luar domain ketenagakerjaan. Bukti: \"Pengelolaan Rupiah digital sebagaimana dimaksud dalam Pasal 2 ayat (2)\""
+      },
+      {
+        "pasal": "Pasal 19",
+        "alasan": "Pelaporan: kewajiban Bank Indonesia melaporkan pengelolaan Rupiah kepada DPR setiap 3 bulan; di luar domain ketenagakerjaan. Bukti: \"melaporkan Pengelolaan Rupiah sebagaimana dimaksud dalam Pasal 11 dan Pasal 14A secara periodik setiap 3 (tiga) bulan kepada DPR\""
+      },
+      {
+        "pasal": "Pasal 12",
+        "alasan": "Anti pencucian uang: kewajiban PUSK mengidentifikasi dan memitigasi risiko tindak pidana pencucian uang; di luar domain ketenagakerjaan. Bukti: \"PUSK wajib mengidentifikasi, menilai, dan memahami risiko tindak pidana pencucian uang\""
+      },
+      {
+        "pasal": "Pasal 13",
+        "alasan": "Penataan sektor perbankan: daftar undang-undang perbankan yang diubah oleh UU ini; di luar domain ketenagakerjaan. Bukti: \"Undang-Undang ini mengubah, menghapus, dan/atau menetapkan pengaturan baru beberapa ketentuan\""
+      },
+      {
+        "pasal": "Pasal 14",
+        "alasan": "Perubahan undang-undang lain: pasal induk perubahan UU Perbankan; di luar domain ketenagakerjaan. Bukti: \"Beberapa ketentuan dalam Undang-Undang Nomor 7 Tahun 1992 tentang Perbankan\""
+      },
+      {
+        "pasal": "Pasal 1",
+        "alasan": "Definisi/istilah: 29 butir pengertian perbankan, bank, simpanan, kredit, dan pihak terafiliasi; di luar domain ketenagakerjaan. Bukti: \"Perbankan adalah segala sesuatu yang menyangkut tentang Bank\""
+      },
+      {
+        "pasal": "Pasal 6",
+        "alasan": "Kegiatan usaha Bank Umum (penghimpunan dana, kredit, sistem pembayaran); di luar domain ketenagakerjaan. Bukti: \"Kegiatan usaha Bank Umum meliputi\""
+      },
+      {
+        "pasal": "Pasal 7",
+        "alasan": "Kegiatan usaha tambahan Bank Umum (penyertaan modal, Dana Pensiun, kerja sama dengan LJK); penyebutan Dana Pensiun hanya sebagai kegiatan usaha bank, bukan hak pekerja, sehingga di luar domain ketenagakerjaan. Bukti: \"bertindak sebagai pendiri Dana Pensiun dan pengurus Dana Pensiun\""
+      },
+      {
+        "pasal": "Pasal 7A",
+        "alasan": "Pemanfaatan teknologi informasi dan pembukaan akses data nasabah oleh Bank Umum; di luar domain ketenagakerjaan. Bukti: \"Bank Umum dapat memanfaatkan teknologi informasi\""
+      },
+      {
+        "pasal": "Pasal 78",
+        "alasan": "Bank digital: Bank Umum dapat beroperasi sebagai bank digital dan wajib memiliki kantor fisik; di luar domain ketenagakerjaan. Label OCR 'Pasal 78', dimaksudkan Pasal 7B. Bukti: \"Bank Umum dapat beroperasi sebagai Bank digital\""
+      },
+      {
+        "pasal": "Pasal 8A",
+        "alasan": "Transparansi suku bunga perbankan oleh Bank Umum; di luar domain ketenagakerjaan. Bukti: \"Bank Umum wajib melakukan transparansi suku bunga\""
+      },
+      {
+        "pasal": "Pasal 1O",
+        "alasan": "Larangan kegiatan usaha Bank Umum di luar ketentuan; di luar domain ketenagakerjaan. Label OCR 'Pasal 1O', dimaksudkan Pasal 10. Bukti: \"Bank Umum dilarang\""
+      },
+      {
+        "pasal": "Pasal 12A",
+        "alasan": "Agunan: syarat Bank Umum membeli agunan nasabah debitur dan pengembalian selisih; di luar domain ketenagakerjaan. Bukti: \"Bank Umum dapat membeli sebagian atau seluruh Agunan\""
+      },
+      {
+        "pasal": "Pasal 13A",
+        "alasan": "BPR: pemanfaatan teknologi informasi dalam kegiatan usaha; di luar domain ketenagakerjaan. Bukti: \"BPR dapat memanfaatkan teknologi informasi\""
+      },
+      {
+        "pasal": "Pasal 15",
+        "alasan": "BPR: pemberlakuan mutatis mutandis Pasal 8, Pasal 11, dan Pasal 12A bagi BPR; di luar domain ketenagakerjaan. Bukti: \"berlaku secara mutatis mutandis bagi BPR\""
+      },
+      {
+        "pasal": "Pasal 18",
+        "alasan": "Jaringan kantor bank: kewajiban memiliki kantor dan kegiatan usaha melalui jaringan fisik/teknologi informasi; di luar domain ketenagakerjaan. Bukti: \"Setiap Bank wajib memiliki kantor\""
+      },
+      {
+        "pasal": "Pasal 19A",
+        "alasan": "Jaringan kantor BPR dibatasi wilayah tertentu; di luar domain ketenagakerjaan. Bukti: \"BPR memiliki jaringan kantor dalam wilayah yang terbatas\""
+      },
+      {
+        "pasal": "Pasal 2O",
+        "alasan": "Perizinan kantor cabang bank berkedudukan di luar negeri oleh Otoritas Jasa Keuangan; di luar domain ketenagakerjaan. Label OCR 'Pasal 2O', dimaksudkan Pasal 20. Bukti: \"dengan izin Otoritas Jasa Keuangan\""
+      },
+      {
+        "pasal": "Pasal 20B",
+        "alasan": "Tata kelola bank: kewajiban menerapkan prinsip tata kelola yang baik dan prosedur internal; di luar domain ketenagakerjaan. Bukti: \"Bank wajib menerapkan prinsip tata kelola yang baik\""
+      },
+      {
+        "pasal": "Pasal 23",
+        "alasan": "Pendirian BPR oleh warga negara Indonesia dan/atau badan hukum Indonesia; di luar domain ketenagakerjaan. Bukti: \"BPR didirikan oleh\""
+      },
+      {
+        "pasal": "Pasal 28",
+        "alasan": "Penggabungan, peleburan, pengambilalihan, dan pemisahan bank beserta perizinan Otoritas Jasa Keuangan; di luar domain ketenagakerjaan. Bukti: \"Penggabungan, Peleburan, Pengambilalihan, dan Pemisahan Bank dilakukan sesuai dengan ketentuan\""
+      },
+      {
+        "pasal": "Pasal 28A",
+        "alasan": "Penggabungan BPR dengan lembaga keuangan mikro dan bentuk entitas hasilnya; di luar domain ketenagakerjaan. Bukti: \"BPR dapat melakukan Penggabungan dengan lembaga keuangan mikro\""
+      },
+      {
+        "pasal": "Pasal 29",
+        "alasan": "Kepatuhan bank dan pengawasan langsung Otoritas Jasa Keuangan; di luar domain ketenagakerjaan. Bukti: \"Bank wajib mematuhi peraturan yang ditetapkan oleh Otoritas Jasa Keuangan\""
+      },
+      {
+        "pasal": "Pasal 3O",
+        "alasan": "Kewajiban bank menyampaikan data dan informasi usaha kepada Otoritas Jasa Keuangan; di luar domain ketenagakerjaan. Label OCR 'Pasal 3O', dimaksudkan Pasal 30. Bukti: \"Bank wajib menyampaikan data, informasi, keterangan, atau penjelasan mengenai usaha Bank\""
+      },
+      {
+        "pasal": "Pasal 31A",
+        "alasan": "Penugasan pihak lain oleh Otoritas Jasa Keuangan untuk melaksanakan tugas tertentu; di luar domain ketenagakerjaan. Bukti: \"Otoritas Jasa Keuangan dapat menugaskan pihak lain\""
+      },
+      {
+        "pasal": "Pasal 33",
+        "alasan": "Laporan pemeriksaan dan laporan penugasan pengawasan bersifat rahasia; di luar domain ketenagakerjaan. Bukti: \"dituangkan dalam bentuk laporan pemeriksaan\""
+      },
+      {
+        "pasal": "Pasal 34",
+        "alasan": "Kewajiban laporan keuangan bank dan audit oleh akuntan publik terdaftar; di luar domain ketenagakerjaan. Bukti: \"Laporan keuangan tahunan wajib diaudit oleh akuntan publik yang terdaftar di Otoritas Jasa Keuangan\""
+      },
+      {
+        "pasal": "Pasal 35",
+        "alasan": "Publikasi laporan keuangan bank sesuai waktu dan bentuk yang ditetapkan Otoritas Jasa Keuangan; di luar domain ketenagakerjaan. Bukti: \"Bank wajib mengumumkan laporan keuangan dan laporan lainnya\""
+      },
+      {
+        "pasal": "Pasal 36",
+        "alasan": "Pengecualian kewajiban audit laporan keuangan bagi BPR; di luar domain ketenagakerjaan. Bukti: \"Otoritas Jasa Keuangan dapat menetapkan pengecualian dari ketentuan sebagaimana dimaksud dalam Pasal 34 ayat (2) bagi BPR\""
+      },
+      {
+        "pasal": "Pasal 36A",
+        "alasan": "Kewenangan pengawasan Otoritas Jasa Keuangan meminta data dan memblokir rekening; di luar domain ketenagakerjaan. Bukti: \"Dalam rangka pelaksanaan tugas pengawasan, Otoritas Jasa Keuangan berwenang\""
+      },
+      {
+        "pasal": "Pasal 37",
+        "alasan": "Resolusi bank: kewenangan Otoritas Jasa Keuangan atas bank yang mengalami kesulitan usaha; di luar domain ketenagakerjaan. Bukti: \"Dalam hal suatu Bank mengalami kesulitan yang membahayakan kelangsungan usahanya\""
+      },
+      {
+        "pasal": "Pasal 37C",
+        "alasan": "Sistem layanan informasi keuangan dan lembaga pengelola informasi perkreditan; di luar domain ketenagakerjaan. Bukti: \"berwenang mengatur dan mengembangkan penyelenggaraan sistem layanan informasi keuangan\""
+      },
+      {
+        "pasal": "Pasal 37D",
+        "alasan": "Pidana/penyidikan tindak pidana perbankan dan penyelesaian pelanggaran; di luar domain ketenagakerjaan. Bukti: \"berwenang menetapkan dimulainya, tidak dilakukannya, atau dihentikannya penyidikan terhadap tindak pidana Perbankan\""
+      },
+      {
+        "pasal": "Pasal 37E",
+        "alasan": "Larangan pencatatan palsu dan pemberian imbalan terkait fasilitas kredit bank; di luar domain ketenagakerjaan. Bukti: \"membuat atau menyebabkan adanya pencatatan palsu dalam pembukuan\""
+      },
+      {
+        "pasal": "Pasal 38",
+        "alasan": "Pihak utama bank wajib memperoleh persetujuan dan penilaian kemampuan Otoritas Jasa Keuangan; di luar domain ketenagakerjaan. Bukti: \"Pihak utama Bank wajib mendapat persetujuan Otoritas Jasa Keuangan\""
+      },
+      {
+        "pasal": "Pasal 40",
+        "alasan": "Rahasia bank: kewajiban bank dan pihak terafiliasi merahasiakan informasi nasabah penyimpan; di luar domain ketenagakerjaan. Bukti: \"Bank dan Pihak Terafiliasi wajib merahasiakan informasi mengenai Nasabah Penyimpan\""
+      },
+      {
+        "pasal": "Pasal 40A",
+        "alasan": "Pengecualian rahasia bank untuk peradilan, kurator, ahli waris, dan kerja sama antarnegara; di luar domain ketenagakerjaan. Bukti: \"Ketentuan sebagaimana dimaksud dalam Pasal 40 tidak berlaku untuk\""
+      },
+      {
+        "pasal": "Pasal 40B",
+        "alasan": "Izin Otoritas Jasa Keuangan membuka rahasia bank untuk perkara pidana dan bantuan timbal balik; di luar domain ketenagakerjaan. Bukti: \"berwenang memberikan izin membuka Rahasia Bank\""
+      },
+      {
+        "pasal": "Pasal 40C",
+        "alasan": "Kewajiban menjaga kerahasiaan informasi nasabah penyimpan bagi setiap orang yang memperolehnya; heading muncul dua kali dalam chunk ini (duplikat OCR). Di luar domain ketenagakerjaan. Bukti: \"wajib menjaga kerahasiaan informasi mengenai Nasabah Penyimpan dan simpanannya\""
+      },
+      {
+        "pasal": "Pasal 42",
+        "alasan": "Rahasia bank: izin Otoritas Jasa Keuangan kepada penyidik/penuntut untuk memperoleh informasi simpanan; di luar domain ketenagakerjaan. Bukti: \"berwenang memberikan izin kepada polisi, jaksa, hakim\""
+      },
+      {
+        "pasal": "Pasal 42A",
+        "alasan": "Kewajiban bank memberikan informasi yang diminta pihak berwenang; di luar domain ketenagakerjaan. Bukti: \"Bank wajib memberikan informasi yang diminta oleh pihak\""
+      },
+      {
+        "pasal": "Pasal 43",
+        "alasan": "Rahasia bank dalam perkara perdata antara bank dan nasabah; di luar domain ketenagakerjaan. Bukti: \"direksi Bank atau yang setara harus menginformasikan kepada pengadilan tentang keadaan keuangan Nasabah\""
+      },
+      {
+        "pasal": "Pasal 43A",
+        "alasan": "Kewajiban bank memberikan informasi simpanan kepada kurator atau likuidator; di luar domain ketenagakerjaan. Bukti: \"Atas permintaan kurator yang ditetapkan berdasarkan putusan pengadilan niaga\""
+      },
+      {
+        "pasal": "Pasal 44",
+        "alasan": "Tukar menukar informasi antar-bank mengenai rahasia bank; heading muncul dua kali dalam chunk ini (duplikat OCR). Di luar domain ketenagakerjaan. Bukti: \"direksi Bank atau yang setara dapat memberitahukan Rahasia Bank kepada Bank lain\""
+      },
+      {
+        "pasal": "Pasal 44A",
+        "alasan": "Pemberian rahasia bank atas permintaan/persetujuan tertulis nasabah penyimpan dan ahli waris; di luar domain ketenagakerjaan. Bukti: \"Bank wajib memberikan Rahasia Bank kepada pihak yang ditunjuk oleh Nasabah Penyimpan\""
+      },
+      {
+        "pasal": "Pasal 44B",
+        "alasan": "Koordinasi instansi terkait dengan Otoritas Jasa Keuangan untuk pembukaan rahasia bank; di luar domain ketenagakerjaan. Bukti: \"instansi terkait harus berkoordinasi dengan Otoritas Jasa Keuangan\""
+      },
+      {
+        "pasal": "Pasal 44C",
+        "alasan": "Pertukaran informasi berdasarkan perjanjian kerja sama otoritas antarnegara; di luar domain ketenagakerjaan. Bukti: \"mitra perjanjian mengajukan permintaan informasi kepada Otoritas Jasa Keuangan\""
+      },
+      {
+        "pasal": "Pasal 45",
+        "alasan": "Hak pihak yang dirugikan atas keterangan bank untuk mengetahui isi dan meminta pembetulan; di luar domain ketenagakerjaan. Bukti: \"berhak untuk mengetahui isi keterangan tersebut dan meminta pembetulan\""
+      },
+      {
+        "pasal": "Pasal 46",
+        "alasan": "Sanksi pidana penghimpunan dana tanpa izin usaha bank; di luar domain ketenagakerjaan. Bukti: \"Setiap Orang yang menghimpun dana dari masyarakat dalam bentuk Simpanan tanpa izin usaha\""
+      },
+      {
+        "pasal": "Pasal 47",
+        "alasan": "Sanksi pidana memaksa bank atau pihak terafiliasi memberikan informasi; di luar domain ketenagakerjaan. Bukti: \"dengan sengaja memaksa Bank atau Pihak Terafiliasi untuk memberikan informasi\""
+      },
+      {
+        "pasal": "Pasal 47A",
+        "alasan": "Sanksi pidana pengurus bank yang tidak memberikan keterangan; di luar domain ketenagakerjaan. Bukti: \"dengan sengaja tidak memberikan keterangan sebagaimana dimaksud dalam Pasal 42A dan Pasal 44A\""
+      },
+      {
+        "pasal": "Pasal 48",
+        "alasan": "Sanksi pidana tidak memberikan keterangan atau tidak melaksanakan perintah Otoritas Jasa Keuangan; di luar domain ketenagakerjaan. Bukti: \"tidak memberikan keterangan dan/atau tidak melaksanakan perintah\""
+      },
+      {
+        "pasal": "Pasal 49",
+        "alasan": "Sanksi pidana pengurus bank yang membuat pencatatan palsu dan menerima imbalan terkait kredit; di luar domain ketenagakerjaan. Bukti: \"dipidana dengan pidana penjara paling singkat 5 (lima) tahun\""
+      },
+      {
+        "pasal": "Pasal 50",
+        "alasan": "Sanksi pidana pihak terafiliasi yang tidak memastikan ketaatan bank; di luar domain ketenagakerjaan. Bukti: \"Pihak Terafiliasi yang dengan sengaja tidak melaksanakan langkah yang diperlukan\""
+      },
+      {
+        "pasal": "Pasal 50A",
+        "alasan": "Sanksi pidana pemegang saham yang menyuruh pengurus bank melanggar ketentuan; di luar domain ketenagakerjaan. Bukti: \"Pemegang saham atau yang setara yang dengan sengaja menyuruh\""
+      },
+      {
+        "pasal": "Pasal 15",
+        "alasan": "Perubahan undang-undang lain: pasal induk perubahan UU Perbankan Syariah; di luar domain ketenagakerjaan. Bukti: \"Tahun 2008 tentang Perbankan Syariah\""
+      },
+      {
+        "pasal": "Pasal 1",
+        "alasan": "definisi 37 istilah perbankan syariah; di luar domain ketenagakerjaan"
+      },
+      {
+        "pasal": "Pasal 6A",
+        "alasan": "ketentuan kelembagaan batasan wilayah jaringan kantor BPR Syariah; di luar domain ketenagakerjaan"
+      },
+      {
+        "pasal": "Pasal 7",
+        "alasan": "ketentuan bentuk badan hukum Bank Syariah dan BPR Syariah; di luar domain ketenagakerjaan"
+      },
+      {
+        "pasal": "Pasal 27",
+        "alasan": "perizinan pihak utama dan penilaian kemampuan/kepatutan oleh OJK; di luar domain ketenagakerjaan"
+      },
+      {
+        "pasal": "Pasal 41A",
+        "alasan": "pengecualian kewajiban Rahasia Bank untuk kepentingan peradilan dan instansi; prosedural, di luar domain ketenagakerjaan"
+      },
+      {
+        "pasal": "Pasal 41B",
+        "alasan": "kewenangan OJK memberikan izin pembukaan Rahasia Bank; kewenangan kelembagaan"
+      },
+      {
+        "pasal": "Pasal 43",
+        "alasan": "tata cara izin OJK memperoleh informasi untuk perkara pidana; prosedural"
+      },
+      {
+        "pasal": "Pasal 45",
+        "alasan": "tata cara pemberian keterangan keuangan Nasabah dalam perkara perdata; prosedural"
+      },
+      {
+        "pasal": "Pasal 46",
+        "alasan": "kewenangan direksi memberitahukan Rahasia Bank dalam tukar menukar informasi antar-Bank; di luar domain ketenagakerjaan"
+      },
+      {
+        "pasal": "Pasal 48",
+        "alasan": "hak ahli waris memperoleh keterangan Simpanan/Investasi Nasabah yang meninggal; hak prosedural"
+      },
+      {
+        "pasal": "Pasal 48A",
+        "alasan": "kewajiban koordinasi instansi terkait dengan OJK dalam pembukaan Rahasia Bank; prosedural"
+      },
+      {
+        "pasal": "Pasal 48B",
+        "alasan": "tata cara permintaan dan pemberian informasi kepada mitra perjanjian otoritas antarnegara; prosedural"
+      },
+      {
+        "pasal": "Pasal 48C",
+        "alasan": "kekebalan hukum dan bantuan hukum bagi pejabat OJK; ketentuan kelembagaan"
+      },
+      {
+        "pasal": "Pasal 49",
+        "alasan": "dua heading Pasal 49: hak pihak yang dirugikan mengetahui isi keterangan dan mengajukan gugatan pembetulan; prosedural"
+      },
+      {
+        "pasal": "Pasal 53",
+        "alasan": "penugasan pihak lain oleh OJK dan kerahasiaan laporan penugasan; ketentuan kelembagaan"
+      },
+      {
+        "pasal": "Pasal 54",
+        "alasan": "kewenangan OJK atas Bank Syariah yang mengalami kesulitan usaha, penetapan bank dalam resolusi, dan pencabutan izin usaha; kewenangan kelembagaan"
+      },
+      {
+        "pasal": "Pasal 54A",
+        "alasan": "kewenangan OJK mengatur sistem layanan informasi keuangan dan lembaga pengelola informasi perkreditan; ketentuan kelembagaan"
+      },
+      {
+        "pasal": "Pasal 59",
+        "alasan": "sanksi pidana bagi penghimpunan dana tanpa izin usaha; pidana, bukan norma ketenagakerjaan"
+      },
+      {
+        "pasal": "Pasal 60",
+        "alasan": "sanksi pidana bagi pihak yang memaksa atau memberi informasi Rahasia Bank; pidana, bukan norma ketenagakerjaan"
+      },
+      {
+        "pasal": "Pasal 61",
+        "alasan": "sanksi pidana bagi pengurus/pegawai bank yang tidak memberikan informasi, Rahasia Bank, dan keterangan; pidana"
+      },
+      {
+        "pasal": "Pasal 62",
+        "alasan": "sanksi pidana bagi pengurus/pegawai bank yang tidak menyampaikan laporan keuangan atau data kepada OJK; pidana"
+      },
+      {
+        "pasal": "Pasal 63",
+        "alasan": "sanksi pidana atas pencatatan palsu dan perbuatan terkait pembukuan bank syariah; pidana"
+      },
+      {
+        "pasal": "Pasal 64",
+        "alasan": "sanksi pidana bagi Pihak Terafiliasi yang tidak memastikan ketaatan bank; pidana"
+      },
+      {
+        "pasal": "Pasal 65",
+        "alasan": "sanksi pidana bagi pemegang saham yang menyuruh pengurus/pegawai melanggar ketentuan; pidana"
+      },
+      {
+        "pasal": "Pasal 66",
+        "alasan": "sanksi pidana bagi direksi/pegawai bank atas perbuatan merugikan bank dan penyalahgunaan dana nasabah; pidana"
+      },
+      {
+        "pasal": "Pasal 66A",
+        "alasan": "dua heading Pasal 66A: pertanggungjawaban pidana korporasi dan syarat penjatuhan pidana terhadap korporasi; pidana"
+      },
+      {
+        "pasal": "Pasal 66B",
+        "alasan": "besaran pidana denda bagi korporasi dan pidana tambahan; pidana"
+      },
+      {
+        "pasal": "Pasal 66C",
+        "alasan": "pidana tambahan berupa penggantian kerugian dan tata cara pelaksanaannya; pidana"
+      },
+      {
+        "pasal": "Pasal 67A",
+        "alasan": "kewenangan OJK menetapkan penyelidikan/penyidikan dan penyelesaian pelanggaran; kewenangan kelembagaan"
+      },
+      {
+        "pasal": "Pasal 16",
+        "alasan": "infrastruktur pasar keuangan dan Penyelenggara Pasar; ketentuan kelembagaan, di luar domain ketenagakerjaan"
+      },
+      {
+        "pasal": "Pasal 17",
+        "alasan": "penyedia jasa pendukung infrastruktur pasar dan akses informasi otoritas; ketentuan kelembagaan"
+      },
+      {
+        "pasal": "Pasal 18",
+        "alasan": "standar pengaturan dan pengawasan instrumen lintas pasar; ketentuan kelembagaan"
+      },
+      {
+        "pasal": "Pasal 19",
+        "alasan": "ketentuan perubahan Undang-Undang Perdagangan Berjangka Komoditi; bukan norma mandiri"
+      },
+      {
+        "pasal": "Pasal 20",
+        "alasan": "penyisipan Pasal 3A pada Undang-Undang Perdagangan Berjangka Komoditi; ketentuan perubahan"
+      },
+      {
+        "pasal": "Pasal 2O",
+        "alasan": "heading penanda perubahan/OCR pada Bab Perdagangan Berjangka Komoditi; di luar domain ketenagakerjaan"
+      },
+      {
+        "pasal": "Pasal 3A",
+        "alasan": "komoditi subjek Kontrak Berjangka tidak termasuk efek dan instrumen Pasar Uang/Valuta Asing; di luar domain ketenagakerjaan"
+      },
+      {
+        "pasal": "Pasal 21",
+        "alasan": "ketentuan perubahan Undang-Undang Pasar Modal; bukan norma mandiri"
+      },
+      {
+        "pasal": "Pasal 22",
+        "alasan": "ketentuan perubahan Undang-Undang Pasar Modal, termasuk pengubahan Pasal 1 tentang definisi istilah; bukan norma ketenagakerjaan"
+      },
+      {
+        "pasal": "Pasal 5",
+        "alasan": "rincian kewenangan pengaturan, pemberian izin, dan pengawasan OJK di sektor Pasar Modal; kewenangan kelembagaan"
+      },
+      {
+        "pasal": "Pasal 5D",
+        "alasan": "bentuk dan perizinan Penyelenggara Pasar di Pasar Modal; ketentuan kelembagaan"
+      },
+      {
+        "pasal": "Pasal 8A",
+        "alasan": "pihak lain yang dapat menjadi pemegang saham Bursa Efek; ketentuan kelembagaan"
+      },
+      {
+        "pasal": "Pasal 13",
+        "alasan": "perizinan usaha Lembaga Kliring dan Penjaminan serta Lembaga Penyimpanan dan Penyelesaian; perizinan"
+      },
+      {
+        "pasal": "Pasal 14",
+        "alasan": "tujuan pendirian Lembaga Kliring dan Penjaminan serta Lembaga Penyimpanan dan Penyelesaian; kelembagaan"
+      },
+      {
+        "pasal": "Pasal 3O",
+        "alasan": "perizinan usaha Perusahaan Efek dan larangan perubahan kegiatan usaha; perizinan, di luar domain ketenagakerjaan"
+      },
+      {
+        "pasal": "Pasal 42B",
+        "alasan": "heading kosong/hasil OCR tanpa batang norma; tidak dapat diekstrak"
+      },
+      {
+        "pasal": "Pasal 55",
+        "alasan": "tata cara penyelesaian Transaksi Efek dan dana jaminan Lembaga Kliring dan Penjaminan; prosedural"
+      },
+      {
+        "pasal": "Pasal 55A",
+        "alasan": "kepemilikan dana jaminan oleh industri Pasar Modal; ketentuan kelembagaan"
+      },
+      {
+        "pasal": "Pasal 64",
+        "alasan": "jenis profesi penunjang Pasar Modal dan kewajiban surat tanda terdaftar OJK; perizinan profesi"
+      },
+      {
+        "pasal": "Pasal 69C",
+        "alasan": "pengaturan khusus Penawaran Umum perusahaan berinovasi tinggi; ketentuan kelembagaan Pasar Modal"
+      },
+      {
+        "pasal": "Pasal 69D",
+        "alasan": "perseroan yang berkegiatan di Pasar Modal tunduk pada UU Perseroan Terbatas; ketentuan rujukan"
+      },
+      {
+        "pasal": "Pasal 7O",
+        "alasan": "di luar domain T-Box: penawaran umum efek (pasar modal)"
+      },
+      {
+        "pasal": "Pasal 7OA",
+        "alasan": "di luar domain T-Box: sukuk dan efek bersifat utang (pasar modal)"
+      },
+      {
+        "pasal": "Pasal 74",
+        "alasan": "di luar domain T-Box: efektifnya pernyataan pendaftaran (pasar modal)"
+      },
+      {
+        "pasal": "Pasal 82",
+        "alasan": "di luar domain T-Box: hak memesan efek terlebih dahulu (pasar modal)"
+      },
+      {
+        "pasal": "Pasal 84A",
+        "alasan": "di luar domain T-Box: status perusahaan terbuka (pasar modal)"
+      },
+      {
+        "pasal": "Pasal 86",
+        "alasan": "di luar domain T-Box: kewajiban laporan emiten (pasar modal)"
+      },
+      {
+        "pasal": "Pasal 87",
+        "alasan": "di luar domain T-Box: pelaporan kepemilikan saham (pasar modal)"
+      },
+      {
+        "pasal": "Pasal 87A",
+        "alasan": "di luar domain T-Box: kedudukan pemegang saham publik saat likuidasi (pasar modal)"
+      },
+      {
+        "pasal": "Pasal 89A",
+        "alasan": "di luar domain T-Box: penanganan penyelenggara pasar (pasar modal)"
+      },
+      {
+        "pasal": "Pasal 89B",
+        "alasan": "di luar domain T-Box: penanganan perusahaan efek (pasar modal)"
+      },
+      {
+        "pasal": "Pasal 89C",
+        "alasan": "di luar domain T-Box: pembubaran dan likuidasi (pasar modal)"
+      },
+      {
+        "pasal": "Pasal 90",
+        "alasan": "di luar domain T-Box: larangan kecurangan perdagangan efek (pasar modal)"
+      },
+      {
+        "pasal": "Pasal 91",
+        "alasan": "di luar domain T-Box: larangan gambaran semu perdagangan efek (pasar modal)"
+      },
+      {
+        "pasal": "Pasal 92",
+        "alasan": "di luar domain T-Box: larangan manipulasi harga efek (pasar modal)"
+      },
+      {
+        "pasal": "Pasal 93",
+        "alasan": "di luar domain T-Box: larangan pernyataan menyesatkan (pasar modal)"
+      },
+      {
+        "pasal": "Pasal 94",
+        "alasan": "di luar domain T-Box: kewenangan OJK menetapkan tindakan tertentu (pasar modal)"
+      },
+      {
+        "pasal": "Pasal 97",
+        "alasan": "di luar domain T-Box: larangan informasi orang dalam (pasar modal)"
+      },
+      {
+        "pasal": "Pasal 100A",
+        "alasan": "di luar domain T-Box: kewenangan OJK atas penyidikan (pasar modal)"
+      },
+      {
+        "pasal": "Pasal 100B",
+        "alasan": "di luar domain T-Box: perintah tertulis pengembalian keuntungan (pasar modal)"
+      },
+      {
+        "pasal": "Pasal 100C",
+        "alasan": "sanksi administratif, di luar domain T-Box"
+      },
+      {
+        "pasal": "Pasal 100D",
+        "alasan": "di luar domain T-Box: perintah pemblokiran dan pengalihan aset (pasar modal)"
+      },
+      {
+        "pasal": "Pasal 101",
+        "alasan": "di luar domain T-Box: kewenangan penyidik OJK (pasar modal)"
+      },
+      {
+        "pasal": "Pasal 103",
+        "alasan": "sanksi pidana, di luar domain T-Box"
+      },
+      {
+        "pasal": "Pasal 104",
+        "alasan": "sanksi pidana, di luar domain T-Box"
+      },
+      {
+        "pasal": "Pasal 104A",
+        "alasan": "sanksi pidana, di luar domain T-Box"
+      },
+      {
+        "pasal": "Pasal 105",
+        "alasan": "sanksi pidana, di luar domain T-Box"
+      },
+      {
+        "pasal": "Pasal 106",
+        "alasan": "sanksi pidana pelanggaran pasar modal, di luar domain T-Box"
+      },
+      {
+        "pasal": "Pasal 106A",
+        "alasan": "sanksi pidana keterangan rekening efek, di luar domain T-Box"
+      },
+      {
+        "pasal": "Pasal 1068",
+        "alasan": "sanksi pidana kustodian, di luar domain T-Box"
+      },
+      {
+        "pasal": "Pasal 106C",
+        "alasan": "sanksi pidana menghalangi pemeriksaan, di luar domain T-Box"
+      },
+      {
+        "pasal": "Pasal 107",
+        "alasan": "sanksi pidana pemalsuan catatan, di luar domain T-Box"
+      },
+      {
+        "pasal": "Pasal 108",
+        "alasan": "perluasan ancaman pidana, di luar domain T-Box"
+      },
+      {
+        "pasal": "Pasal 109",
+        "alasan": "sanksi pidana tidak mematuhi ketentuan, di luar domain T-Box"
+      },
+      {
+        "pasal": "Pasal 109A",
+        "alasan": "pertanggungjawaban pidana korporasi, di luar domain T-Box"
+      },
+      {
+        "pasal": "Pasal 23",
+        "alasan": "di luar domain T-Box: definisi perdagangan karbon (bursa karbon)"
+      },
+      {
+        "pasal": "Pasal 24",
+        "alasan": "di luar domain T-Box: penyelenggaraan bursa karbon"
+      },
+      {
+        "pasal": "Pasal 25",
+        "alasan": "di luar domain T-Box: izin perdagangan karbon melalui bursa karbon"
+      },
+      {
+        "pasal": "Pasal 26",
+        "alasan": "di luar domain T-Box: POJK perdagangan karbon"
+      },
+      {
+        "pasal": "Pasal 27",
+        "alasan": "di luar domain T-Box: kewenangan Bank Indonesia atas pasar uang dan valuta asing"
+      },
+      {
+        "pasal": "Pasal 28",
+        "alasan": "di luar domain T-Box: kegiatan pasar uang dan pasar valuta asing"
+      },
+      {
+        "pasal": "Pasal 29",
+        "alasan": "di luar domain T-Box: pengecualian kewenangan Bank Indonesia (pasar uang)"
+      },
+      {
+        "pasal": "Pasal 3O",
+        "alasan": "di luar domain T-Box: instrumen pasar uang berdasarkan prinsip syariah"
+      },
+      {
+        "pasal": "Pasal 31",
+        "alasan": "di luar domain T-Box: pembentukan harga acuan pasar uang dan valuta asing"
+      },
+      {
+        "pasal": "Pasal 32",
+        "alasan": "di luar domain T-Box: pelaku kegiatan pasar uang dan valuta asing"
+      },
+      {
+        "pasal": "Pasal 33",
+        "alasan": "di luar domain T-Box: sarana kliring pasar uang dan valuta asing"
+      },
+      {
+        "pasal": "Pasal 34",
+        "alasan": "di luar domain T-Box: badan pengelola instrumen keuangan dan trustee (pasar modal)"
+      },
+      {
+        "pasal": "Pasal 35",
+        "alasan": "di luar domain T-Box: kerahasiaan dan tata kelola trustee (pasar modal)"
+      },
+      {
+        "pasal": "Pasal 36",
+        "alasan": "di luar domain T-Box: kepailitan badan pengelola instrumen keuangan (pasar modal)"
+      },
+      {
+        "pasal": "Pasal 37",
+        "alasan": "ketentuan peralihan, di luar domain T-Box"
+      },
+      {
+        "pasal": "Pasal 38",
+        "alasan": "sanksi administratif, di luar domain T-Box"
+      },
+      {
+        "pasal": "Pasal 39",
+        "alasan": "ketentuan lebih lanjut, di luar domain T-Box"
+      },
+      {
+        "pasal": "Pasal 4O",
+        "alasan": "di luar domain T-Box: penyelesaian transaksi efek dan instrumen pasar keuangan"
+      },
+      {
+        "pasal": "Pasal 41",
+        "alasan": "di luar domain T-Box: netting transaksi pasar uang dan valuta asing"
+      },
+      {
+        "pasal": "Pasal 42",
+        "alasan": "di luar domain T-Box: close-out netting saat kepailitan"
+      },
+      {
+        "pasal": "Pasal 43",
+        "alasan": "di luar domain T-Box: kewenangan kurator atas pembayaran atau transfer kolateral"
+      },
+      {
+        "pasal": "Pasal 44",
+        "alasan": "di luar domain T-Box: kontrak pintar pada transaksi pasar keuangan"
+      },
+      {
+        "pasal": "Pasal 45",
+        "alasan": "di luar domain T-Box: efek tanpa warkat (scriptless)"
+      },
+      {
+        "pasal": "Pasal 46",
+        "alasan": "di luar domain T-Box: perubahan Undang-Undang Surat Utang Negara"
+      },
+      {
+        "pasal": "Pasal 47",
+        "alasan": "di luar domain T-Box: perubahan Pasal 4 Undang-Undang Surat Utang Negara"
+      },
+      {
+        "pasal": "Pasal 4",
+        "alasan": "di luar domain T-Box: tujuan penerbitan Surat Utang Negara"
+      },
+      {
+        "pasal": "Pasal 48",
+        "alasan": "di luar domain T-Box: kegiatan usaha penukaran valuta asing"
+      },
+      {
+        "pasal": "Pasal 49",
+        "alasan": "di luar domain T-Box: penukaran valuta asing oleh bank"
+      },
+      {
+        "pasal": "Pasal 5O",
+        "alasan": "di luar domain T-Box: izin penukaran valuta asing oleh badan hukum bukan bank"
+      },
+      {
+        "pasal": "Pasal 51",
+        "alasan": "di luar domain T-Box: perubahan Undang-Undang Perasuransian"
+      },
+      {
+        "pasal": "Pasal 52",
+        "alasan": "di luar domain T-Box: perubahan ketentuan Undang-Undang Perasuransian"
+      },
+      {
+        "pasal": "Pasal 1",
+        "alasan": "definisi istilah perasuransian, di luar domain T-Box"
+      },
+      {
+        "pasal": "Pasal 3A",
+        "alasan": "di luar domain T-Box: prinsip syariah kegiatan perasuransian"
+      },
+      {
+        "pasal": "Pasal 5",
+        "alasan": "di luar domain T-Box: ruang lingkup usaha asuransi"
+      },
+      {
+        "pasal": "Pasal 5A",
+        "alasan": "di luar domain T-Box: penggunaan dokumen elektronik oleh perusahaan perasuransian"
+      },
+      {
+        "pasal": "Pasal 11",
+        "alasan": "di luar domain T-Box: tata kelola perusahaan perasuransian"
+      },
+      {
+        "pasal": "Pasal 12",
+        "alasan": "di luar domain T-Box: kemampuan dan kepatutan pengurus perusahaan perasuransian"
+      },
+      {
+        "pasal": "Pasal 15",
+        "alasan": "di luar domain T-Box: tanggung jawab pengendali perusahaan perasuransian"
+      },
+      {
+        "pasal": "Pasal 15A",
+        "alasan": "di luar domain T-Box: larangan menerima imbalan tanpa hak (perasuransian)"
+      },
+      {
+        "pasal": "Pasal 21A",
+        "alasan": "di luar domain T-Box: pengelompokan kekayaan dan kewajiban pemegang polis"
+      },
+      {
+        "pasal": "Pasal 21B",
+        "alasan": "di luar domain T-Box: larangan menggelapkan kekayaan perusahaan perasuransian"
+      },
+      {
+        "pasal": "Pasal 22",
+        "alasan": "di luar domain T-Box: kewajiban pelaporan perusahaan perasuransian"
+      },
+      {
+        "pasal": "Pasal 23",
+        "alasan": "di luar domain T-Box: kerahasiaan laporan perusahaan perasuransian"
+      },
+      {
+        "pasal": "Pasal 2T",
+        "alasan": "di luar domain T-Box: pendaftaran pialang asuransi dan agen asuransi"
+      },
+      {
+        "pasal": "Pasal 28",
+        "alasan": "di luar domain T-Box: kerja sama perolehan bisnis asuransi"
+      },
+      {
+        "pasal": "Pasal 31",
+        "alasan": "di luar domain T-Box: kewajiban pelayanan dan penanganan klaim asuransi"
+      },
+      {
+        "pasal": "Pasal 39A",
+        "alasan": "di luar domain T-Box: program asuransi wajib"
+      },
+      {
+        "pasal": "Pasal 5O",
+        "alasan": "di luar domain T-Box: permohonan pailit perusahaan perasuransian"
+      },
+      {
+        "pasal": "Pasal 51",
+        "alasan": "di luar domain T-Box: permohonan pailit oleh kreditur melalui OJK"
+      },
+      {
+        "pasal": "Pasal 52",
+        "alasan": "di luar domain T-Box: kedudukan pemegang polis dalam kepailitan asuransi"
+      },
+      {
+        "pasal": "Pasal 53",
+        "alasan": "di luar domain T-Box: program penjaminan polis"
+      },
+      {
+        "pasal": "Pasal 62A",
+        "alasan": "di luar domain T-Box: penetapan pengelola statuter"
+      },
+      {
+        "pasal": "Pasal 64",
+        "alasan": "di luar domain T-Box: tanggung jawab pengelola statuter"
+      },
+      {
+        "pasal": "Pasal 71",
+        "alasan": "sanksi administratif, di luar domain T-Box"
+      },
+      {
+        "pasal": "Pasal 72A",
+        "alasan": "di luar domain T-Box: penyidikan tindak pidana perasuransian"
+      },
+      {
+        "pasal": "Pasal 73A",
+        "alasan": "sanksi pidana pengendali, di luar domain T-Box"
+      },
+      {
+        "pasal": "Pasal 738",
+        "alasan": "sanksi pidana penerimaan imbalan tanpa hak, di luar domain T-Box"
+      },
+      {
+        "pasal": "Pasal 73C",
+        "alasan": "sanksi pidana penggelapan kekayaan asuransi, di luar domain T-Box"
+      },
+      {
+        "pasal": "Pasal 74",
+        "alasan": "sanksi pidana pencatatan palsu, di luar domain T-Box"
+      },
+      {
+        "pasal": "Pasal 75",
+        "alasan": "sanksi pidana informasi menyesatkan, di luar domain T-Box"
+      },
+      {
+        "pasal": "Pasal 82A",
+        "alasan": "pidana tambahan penggantian kerugian, di luar domain T-Box"
+      },
+      {
+        "pasal": "Pasal 87",
+        "alasan": "di luar domain T-Box: pemisahan unit syariah perusahaan asuransi"
+      },
+      {
+        "pasal": "Pasal 53",
+        "alasan": "di luar domain T-Box: ruang lingkup usaha bersama asuransi jiwa"
+      },
+      {
+        "pasal": "Pasal 54",
+        "alasan": "di luar domain T-Box: tata kelola usaha bersama"
+      },
+      {
+        "pasal": "Pasal 55",
+        "alasan": "muatan anggaran dasar Usaha Bersama; tata kelola badan hukum asuransi, di luar domain T-Box"
+      },
+      {
+        "pasal": "Pasal 56",
+        "alasan": "keanggotaan Usaha Bersama (asuransi); di luar domain ketenagakerjaan"
+      },
+      {
+        "pasal": "Pasal 57",
+        "alasan": "organ Usaha Bersama; ketentuan kelembagaan"
+      },
+      {
+        "pasal": "Pasal 58",
+        "alasan": "wewenang RUA; tata cara internal organ badan hukum"
+      },
+      {
+        "pasal": "Pasal 59",
+        "alasan": "penyelenggaraan RUA (fisik/telekonferensi); tata cara rapat"
+      },
+      {
+        "pasal": "Pasal 6O",
+        "alasan": "jenis, kuorum, dan pengambilan keputusan RUA; tata cara rapat"
+      },
+      {
+        "pasal": "Pasal 61",
+        "alasan": "hak dan larangan peserta RUA; bukan hubungan kerja"
+      },
+      {
+        "pasal": "Pasal 62",
+        "alasan": "jumlah peserta dan wilayah pemilihan RUA; tata cara internal"
+      },
+      {
+        "pasal": "Pasal 63",
+        "alasan": "persyaratan calon peserta RUA; tata cara internal"
+      },
+      {
+        "pasal": "Pasal 64",
+        "alasan": "pembentukan dan tugas Panitia Pemilihan peserta RUA; tata cara internal"
+      },
+      {
+        "pasal": "Pasal 65",
+        "alasan": "masa tugas dan pemberhentian peserta RUA; tata cara internal"
+      },
+      {
+        "pasal": "Pasal 66",
+        "alasan": "peserta RUA sebagai Pengendali; ketentuan kelembagaan asuransi"
+      },
+      {
+        "pasal": "Pasal 67",
+        "alasan": "pengurusan Usaha Bersama oleh Direksi; ketentuan kelembagaan"
+      },
+      {
+        "pasal": "Pasal 68",
+        "alasan": "persyaratan dan pengangkatan Direksi Usaha Bersama; ketentuan kelembagaan"
+      },
+      {
+        "pasal": "Pasal 69",
+        "alasan": "masa tugas dan pemberhentian Direksi Usaha Bersama; ketentuan kelembagaan"
+      },
+      {
+        "pasal": "Pasal 7O",
+        "alasan": "tugas, wewenang, dan tanggung jawab Direksi Usaha Bersama; ketentuan kelembagaan"
+      },
+      {
+        "pasal": "Pasal 71",
+        "alasan": "kewajiban pengungkapan kepemilikan anggota Direksi; tata kelola perusahaan"
+      },
+      {
+        "pasal": "Pasal 72",
+        "alasan": "pengawasan oleh Dewan Komisaris Usaha Bersama; ketentuan kelembagaan"
+      },
+      {
+        "pasal": "Pasal 73",
+        "alasan": "persyaratan dan pengangkatan Dewan Komisaris Usaha Bersama; ketentuan kelembagaan"
+      },
+      {
+        "pasal": "Pasal 75",
+        "alasan": "tugas dan wewenang Dewan Komisaris Usaha Bersama; ketentuan kelembagaan"
+      },
+      {
+        "pasal": "Pasal 76",
+        "alasan": "kewajiban pengungkapan kepemilikan anggota Dewan Komisaris; tata kelola perusahaan"
+      },
+      {
+        "pasal": "Pasal 78",
+        "alasan": "pembubaran Usaha Bersama; ketentuan kelembagaan asuransi"
+      },
+      {
+        "pasal": "Pasal 79",
+        "alasan": "penyelenggaraan program penjaminan polis; di luar domain ketenagakerjaan"
+      },
+      {
+        "pasal": "Pasal 80",
+        "alasan": "kewajiban menjadi peserta program penjaminan polis; di luar domain"
+      },
+      {
+        "pasal": "Pasal 81",
+        "alasan": "kewajiban peserta program penjaminan polis; di luar domain"
+      },
+      {
+        "pasal": "Pasal 82",
+        "alasan": "iuran awal dan iuran berkala penjaminan polis; di luar domain"
+      },
+      {
+        "pasal": "Pasal 83",
+        "alasan": "ruang lingkup penjaminan polis; di luar domain ketenagakerjaan"
+      },
+      {
+        "pasal": "Pasal 84",
+        "alasan": "pelaksanaan penjaminan polis; di luar domain ketenagakerjaan"
+      },
+      {
+        "pasal": "Pasal 85",
+        "alasan": "batas maksimal penjaminan polis; di luar domain"
+      },
+      {
+        "pasal": "Pasal 86",
+        "alasan": "penyelenggara program penjaminan polis; kelembagaan"
+      },
+      {
+        "pasal": "Pasal 87",
+        "alasan": "tata kelola Lembaga Penjamin Simpanan; kelembagaan"
+      },
+      {
+        "pasal": "Pasal 88",
+        "alasan": "penyampaian data polis kepada LPS; di luar domain"
+      },
+      {
+        "pasal": "Pasal 89",
+        "alasan": "permintaan data kepada pihak lain oleh LPS; kelembagaan"
+      },
+      {
+        "pasal": "Pasal 9O",
+        "alasan": "pemberitahuan status pengawasan asuransi; kelembagaan pengawasan"
+      },
+      {
+        "pasal": "Pasal 93",
+        "alasan": "peralihan hak pemegang saham kepada LPS; kelembagaan"
+      },
+      {
+        "pasal": "Pasal 94",
+        "alasan": "pelaksanaan likuidasi oleh tim likuidasi; tata cara"
+      },
+      {
+        "pasal": "Pasal 95",
+        "alasan": "pendaftaran dan pengumuman keputusan pembubaran; tata cara"
+      },
+      {
+        "pasal": "Pasal 96",
+        "alasan": "pembatalan perbuatan hukum melalui pengadilan niaga; tata cara"
+      },
+      {
+        "pasal": "Pasal 97",
+        "alasan": "kewajiban memberi data kepada tim likuidasi; tata cara"
+      },
+      {
+        "pasal": "Pasal 99",
+        "alasan": "pengumuman berakhirnya likuidasi; tata cara"
+      },
+      {
+        "pasal": "Pasal 101",
+        "alasan": "likuidasi atas penghentian kegiatan usaha; tata cara"
+      },
+      {
+        "pasal": "Pasal 102",
+        "alasan": "pengelolaan aset dan kewajiban LPS; kelembagaan"
+      },
+      {
+        "pasal": "Pasal 103",
+        "alasan": "biaya penyelesaian penjaminan polis; keuangan negara"
+      },
+      {
+        "pasal": "Pasal 104",
+        "alasan": "perubahan UU Penjaminan; di luar domain ketenagakerjaan"
+      },
+      {
+        "pasal": "Pasal 105",
+        "alasan": "pengubahan Pasal 62 UU 1/2016 tentang Penjaminan; di luar domain ketenagakerjaan"
+      },
+      {
+        "pasal": "Pasal 62",
+        "alasan": "batang tubuh perubahan: pemisahan unit syariah Perusahaan Penjaminan; di luar domain"
+      },
+      {
+        "pasal": "Pasal 106",
+        "alasan": "ruang lingkup Usaha Jasa Pembiayaan; di luar domain"
+      },
+      {
+        "pasal": "Pasal 107",
+        "alasan": "izin pengelolaan dana ventura; perizinan sektor keuangan"
+      },
+      {
+        "pasal": "Pasal 109",
+        "alasan": "kepemilikan penyelenggara Usaha Jasa Pembiayaan; di luar domain"
+      },
+      {
+        "pasal": "Pasal 110",
+        "alasan": "persyaratan direksi/komisaris/DPS penyelenggara pembiayaan; tata kelola"
+      },
+      {
+        "pasal": "Pasal 111",
+        "alasan": "penilaian kemampuan dan kepatutan pengurus; tata kelola"
+      },
+      {
+        "pasal": "Pasal 112",
+        "alasan": "sumber dana penyertaan; di luar domain"
+      },
+      {
+        "pasal": "Pasal 113",
+        "alasan": "izin usaha penyelenggara pembiayaan; perizinan"
+      },
+      {
+        "pasal": "Pasal 114",
+        "alasan": "pembukaan kantor cabang dan pelaporannya; perizinan"
+      },
+      {
+        "pasal": "Pasal 115",
+        "alasan": "konversi dan unit usaha syariah; perizinan"
+      },
+      {
+        "pasal": "Pasal 116",
+        "alasan": "perjanjian Usaha Jasa Pembiayaan; hukum perjanjian sektor keuangan"
+      },
+      {
+        "pasal": "Pasal 119",
+        "alasan": "kekuatan eksekutorial sertifikat jaminan fidusia; di luar domain"
+      },
+      {
+        "pasal": "Pasal 120",
+        "alasan": "kedudukan barang jaminan/titipan pada pembiayaan; di luar domain"
+      },
+      {
+        "pasal": "Pasal 121",
+        "alasan": "kewajiban tata kelola perusahaan yang baik; tata kelola"
+      },
+      {
+        "pasal": "Pasal 122",
+        "alasan": "penerapan manajemen risiko; tata kelola"
+      },
+      {
+        "pasal": "Pasal 123",
+        "alasan": "persyaratan tingkat kesehatan; tata kelola"
+      },
+      {
+        "pasal": "Pasal 124",
+        "alasan": "penggabungan, peleburan, pengambilalihan, pemisahan; korporasi"
+      },
+      {
+        "pasal": "Pasal 125",
+        "alasan": "pencabutan izin usaha dan likuidasi; perizinan"
+      },
+      {
+        "pasal": "Pasal 126",
+        "alasan": "keanggotaan asosiasi penyelenggara pembiayaan; kelembagaan"
+      },
+      {
+        "pasal": "Pasal 127",
+        "alasan": "profesi penunjang Usaha Jasa Pembiayaan; kelembagaan"
+      },
+      {
+        "pasal": "Pasal 128",
+        "alasan": "pengawasan dan pelaporan oleh OJK; pengawasan"
+      },
+      {
+        "pasal": "Pasal 129",
+        "alasan": "tindakan OJK atas kesulitan usaha pembiayaan; pengawasan"
+      },
+      {
+        "pasal": "Pasal 130",
+        "alasan": "pengertian kegiatan usaha bulion; di luar domain"
+      },
+      {
+        "pasal": "Pasal 131",
+        "alasan": "izin kegiatan usaha bulion; perizinan"
+      },
+      {
+        "pasal": "Pasal 132",
+        "alasan": "muatan POJK kegiatan usaha bulion; di luar domain"
+      },
+      {
+        "pasal": "Pasal 133",
+        "alasan": "latar belakang penyempurnaan pengaturan program pensiun; bukan norma"
+      },
+      {
+        "pasal": "Pasal 134",
+        "alasan": "definisi istilah program pensiun"
+      },
+      {
+        "pasal": "Pasal 135",
+        "alasan": "status badan hukum Dana Pensiun; ketentuan kelembagaan"
+      },
+      {
+        "pasal": "Pasal 136",
+        "alasan": "kewajiban pengesahan sebagai Dana Pensiun; perizinan"
+      },
+      {
+        "pasal": "Pasal 137",
+        "alasan": "jenis dan pembentukan Dana Pensiun; kelembagaan"
+      },
+      {
+        "pasal": "Pasal 138",
+        "alasan": "program pensiun yang dapat diselenggarakan; kelembagaan"
+      },
+      {
+        "pasal": "Pasal 139",
+        "alasan": "dasar dan tata cara pembentukan Dana Pensiun; tata cara"
+      },
+      {
+        "pasal": "Pasal 14O",
+        "alasan": "permohonan dan penolakan pengesahan pembentukan; tata cara"
+      },
+      {
+        "pasal": "Pasal 141",
+        "alasan": "Mitra Pendiri, penggabungan, dan pemisahan Dana Pensiun; kelembagaan"
+      },
+      {
+        "pasal": "Pasal 142",
+        "alasan": "pengesahan perubahan Peraturan Dana Pensiun; tata cara"
+      },
+      {
+        "pasal": "Pasal 143",
+        "alasan": "kewajiban tata kelola dan manajemen risiko Dana Pensiun; tata kelola"
+      },
+      {
+        "pasal": "Pasal 144",
+        "alasan": "penunjukan Pengurus dan Dewan Pengawas; ketentuan kelembagaan"
+      },
+      {
+        "pasal": "Pasal 147",
+        "alasan": "kerahasiaan data pribadi peserta; perlindungan data"
+      },
+      {
+        "pasal": "Pasal 148",
+        "alasan": "jenis iuran program pensiun; ketentuan kelembagaan Dana Pensiun"
+      },
+      {
+        "pasal": "Pasal 149",
+        "alasan": "penetapan besaran iuran pemberi kerja; aktuaria"
+      },
+      {
+        "pasal": "Pasal 15O",
+        "alasan": "tata cara dan waktu pembayaran iuran; administrasi"
+      },
+      {
+        "pasal": "Pasal 151",
+        "alasan": "perhitungan kelebihan aset sebagai iuran; aktuaria"
+      },
+      {
+        "pasal": "Pasal 152",
+        "alasan": "metode dan asumsi aktuaria; aktuaria"
+      },
+      {
+        "pasal": "Pasal 153",
+        "alasan": "penyetoran iuran dan akibat hukum iuran belum disetor; administrasi Dana Pensiun"
+      },
+      {
+        "pasal": "Pasal 154",
+        "alasan": "keadaan dana terpenuhi; pendanaan Dana Pensiun"
+      },
+      {
+        "pasal": "Pasal 156",
+        "alasan": "larangan menjaminkan manfaat pensiun; ketentuan perdata"
+      },
+      {
+        "pasal": "Pasal 157",
+        "alasan": "rumus besaran manfaat pensiun; aktuaria"
+      },
+      {
+        "pasal": "Pasal 159",
+        "alasan": "perhitungan hak saat ada pengalihan dana; teknis"
+      },
+      {
+        "pasal": "Pasal 160",
+        "alasan": "pengalihan hak dan kepesertaan antar Dana Pensiun; administrasi"
+      },
+      {
+        "pasal": "Pasal 161",
+        "alasan": "larangan pembayaran selain menurut Peraturan Dana Pensiun; administrasi"
+      },
+      {
+        "pasal": "Pasal 162",
+        "alasan": "larangan pembayaran manfaat sebelum batas usia dan tata cara pembayaran berkala; administrasi Dana Pensiun"
+      },
+      {
+        "pasal": "Pasal 163",
+        "alasan": "cara pembayaran manfaat pensiun berkala (Dana Pensiun atau anuitas); administrasi"
+      },
+      {
+        "pasal": "Pasal 164",
+        "alasan": "syarat pembayaran manfaat pensiun secara sekaligus; administrasi"
+      },
+      {
+        "pasal": "Pasal 165",
+        "alasan": "larangan peserta mengundurkan diri selama memenuhi syarat kepesertaan; administrasi"
+      },
+      {
+        "pasal": "Pasal 166",
+        "alasan": "pencatatan dan pengalihan dana tidak aktif; administrasi"
+      },
+      {
+        "pasal": "Pasal 167",
+        "alasan": "sumber dan pemisahan aset Dana Pensiun; pengelolaan aset"
+      },
+      {
+        "pasal": "Pasal 168",
+        "alasan": "pengelolaan dan penitipan aset Dana Pensiun; investasi"
+      },
+      {
+        "pasal": "Pasal 169",
+        "alasan": "larangan pengembalian dan investasi aset Dana Pensiun; investasi"
+      },
+      {
+        "pasal": "Pasal 170",
+        "alasan": "harga pasar wajar atas transaksi harta tetap Dana Pensiun; investasi"
+      },
+      {
+        "pasal": "Pasal 171",
+        "alasan": "perlakuan/insentif perpajakan; di luar domain ketenagakerjaan"
+      },
+      {
+        "pasal": "Pasal 172",
+        "alasan": "pengaturan dan pengawasan Dana Pensiun oleh OJK; pengawasan"
+      },
+      {
+        "pasal": "Pasal 173",
+        "alasan": "kewenangan OJK dalam pengaturan dan pengawasan; pengawasan"
+      },
+      {
+        "pasal": "Pasal 174",
+        "alasan": "pemeriksaan Dana Pensiun dan kewajiban memberi data; pengawasan"
+      },
+      {
+        "pasal": "Pasal 175",
+        "alasan": "larangan membuat laporan/data Dana Pensiun yang palsu; ketentuan pidana administratif"
+      },
+      {
+        "pasal": "Pasal 176",
+        "alasan": "pengawasan OJK: perintah tertulis kepada Dana Pensiun"
+      },
+      {
+        "pasal": "Pasal 177",
+        "alasan": "kelembagaan: penonaktifan pengurus dan pengelola statuter Dana Pensiun"
+      },
+      {
+        "pasal": "Pasal 178",
+        "alasan": "tugas dan wewenang pengelola statuter Dana Pensiun"
+      },
+      {
+        "pasal": "Pasal 179",
+        "alasan": "tata cara penetapan pengelola statuter"
+      },
+      {
+        "pasal": "Pasal 181",
+        "alasan": "kewajiban pelaporan berkala Dana Pensiun kepada OJK"
+      },
+      {
+        "pasal": "Pasal 182",
+        "alasan": "kewajiban transparansi informasi Dana Pensiun kepada Peserta"
+      },
+      {
+        "pasal": "Pasal 183",
+        "alasan": "pembubaran Dana Pensiun"
+      },
+      {
+        "pasal": "Pasal 185",
+        "alasan": "pelaporan dan pengumuman hasil likuidasi Dana Pensiun"
+      },
+      {
+        "pasal": "Pasal 186",
+        "alasan": "kelembagaan: asosiasi Dana Pensiun"
+      },
+      {
+        "pasal": "Pasal 187",
+        "alasan": "ketentuan perubahan: pembuka amandemen UU Sistem Jaminan Sosial Nasional"
+      },
+      {
+        "pasal": "Pasal 188",
+        "alasan": "ketentuan perubahan: penunjuk pasal yang diubah"
+      },
+      {
+        "pasal": "Pasal 189",
+        "alasan": "kebijakan harmonisasi Program Pensiun, bukan norma hak/kewajiban pekerja"
+      },
+      {
+        "pasal": "Pasal 191",
+        "alasan": "tata kelola investasi: ketentuan cut loss pengelola Program Pensiun"
+      },
+      {
+        "pasal": "Pasal 192",
+        "alasan": "kelembagaan: pembentukan unit aktuaria"
+      },
+      {
+        "pasal": "Pasal 193",
+        "alasan": "sanksi administratif terkait Dana Pensiun"
+      },
+      {
+        "pasal": "Pasal 194",
+        "alasan": "ketentuan pidana"
+      },
+      {
+        "pasal": "Pasal 195",
+        "alasan": "ketentuan pidana"
+      },
+      {
+        "pasal": "Pasal 196",
+        "alasan": "ketentuan pidana"
+      },
+      {
+        "pasal": "Pasal 197",
+        "alasan": "ketentuan pidana"
+      },
+      {
+        "pasal": "Pasal 198",
+        "alasan": "ketentuan pidana"
+      },
+      {
+        "pasal": "Pasal 199",
+        "alasan": "sanksi atas pelanggaran ketentuan cut loss"
+      },
+      {
+        "pasal": "Pasal 20O",
+        "alasan": "ketentuan pidana bagi badan usaha"
+      },
+      {
+        "pasal": "Pasal 44B",
+        "alasan": "kelembagaan: koperasi yang berkegiatan di sektor jasa keuangan"
+      },
+      {
+        "pasal": "Pasal 203",
+        "alasan": "ketentuan perubahan: pembuka amandemen UU Lembaga Keuangan Mikro"
+      },
+      {
+        "pasal": "Pasal 5",
+        "alasan": "kelembagaan LKM: bentuk badan hukum dan kepemilikan saham"
+      },
+      {
+        "pasal": "Pasal 8",
+        "alasan": "kelembagaan LKM: larangan kepemilikan"
+      },
+      {
+        "pasal": "Pasal 9",
+        "alasan": "perizinan usaha dan skala usaha LKM"
+      },
+      {
+        "pasal": "Pasal 16",
+        "alasan": "cakupan wilayah usaha LKM"
+      },
+      {
+        "pasal": "Pasal 23",
+        "alasan": "pengaturan tingkat kesehatan dan prinsip kehati-hatian LKM"
+      },
+      {
+        "pasal": "Pasal 28",
+        "alasan": "pembinaan dan pengawasan LKM"
+      },
+      {
+        "pasal": "Pasal 3O",
+        "alasan": "kewajiban pelaporan keuangan LKM"
+      },
+      {
+        "pasal": "Pasal 30C",
+        "alasan": "larangan penyampaian laporan atau data tidak benar oleh pengurus LKM"
+      },
+      {
+        "pasal": "Pasal 31",
+        "alasan": "pembinaan dan pengawasan LKM termasuk kegiatan pemeriksaan"
+      },
+      {
+        "pasal": "Pasal 33",
+        "alasan": "sanksi administratif bagi pelanggaran ketentuan LKM"
+      },
+      {
+        "pasal": "Pasal 34",
+        "alasan": "ketentuan pidana: menjalankan LKM tanpa izin usaha"
+      },
+      {
+        "pasal": "Pasal 35",
+        "alasan": "ketentuan pidana: memaksa atau memberikan informasi yang wajib dirahasiakan"
+      },
+      {
+        "pasal": "Pasal 36",
+        "alasan": "ketentuan pidana: tidak memberikan informasi yang wajib dipenuhi"
+      },
+      {
+        "pasal": "Pasal 37",
+        "alasan": "ketentuan pidana: pencatatan palsu dan pelanggaran ketaatan LKM"
+      },
+      {
+        "pasal": "Pasal 38",
+        "alasan": "ketentuan pidana: menyuruh pengurus LKM melanggar ketentuan ketaatan"
+      },
+      {
+        "pasal": "Pasal 38A",
+        "alasan": "ketentuan pidana: penyampaian laporan tidak benar kepada OJK oleh pengurus LKM"
+      },
+      {
+        "pasal": "Pasal 38B",
+        "alasan": "ketentuan pidana bagi badan hukum yang melakukan tindak pidana LKM"
+      },
+      {
+        "pasal": "Pasal 205",
+        "alasan": "kelembagaan: penetapan Konglomerasi Keuangan"
+      },
+      {
+        "pasal": "Pasal 206",
+        "alasan": "kelembagaan: pembentukan PIKK"
+      },
+      {
+        "pasal": "Pasal 208",
+        "alasan": "pengaturan prudensial: prinsip kehati-hatian PIKK"
+      },
+      {
+        "pasal": "Pasal 209",
+        "alasan": "kelembagaan: persyaratan kemampuan dan kepatutan direksi serta dewan komisaris PIKK"
+      },
+      {
+        "pasal": "Pasal 210",
+        "alasan": "kewenangan pengawasan OJK meminta data dan informasi"
+      },
+      {
+        "pasal": "Pasal 211",
+        "alasan": "fasilitas perpajakan atas pembentukan PIKK"
+      },
+      {
+        "pasal": "Pasal 213",
+        "alasan": "ruang lingkup Inovasi Teknologi Sektor Keuangan (ITSK)"
+      },
+      {
+        "pasal": "Pasal 214",
+        "alasan": "pengaturan pemanfaatan ITSK berdasarkan Prinsip Syariah"
+      },
+      {
+        "pasal": "Pasal 215",
+        "alasan": "kelembagaan: pihak penyelenggara ITSK dan prinsip yang wajib diterapkan"
+      },
+      {
+        "pasal": "Pasal 216",
+        "alasan": "pengaturan dan pengawasan penyelenggaraan ITSK"
+      },
+      {
+        "pasal": "Pasal 217",
+        "alasan": "koordinasi Bank Indonesia dan OJK dalam pengaturan ITSK"
+      },
+      {
+        "pasal": "Pasal 219",
+        "alasan": "pengawasan: evaluasi dan tindak lanjut uji coba inovasi (sandbox)"
+      },
+      {
+        "pasal": "Pasal 22O",
+        "alasan": "kelembagaan: kepesertaan dalam asosiasi penyelenggara ITSK"
+      },
+      {
+        "pasal": "Pasal 222",
+        "alasan": "pengaturan sektor keuangan: penerapan Keuangan Berkelanjutan oleh PUSK, emiten, dan perusahaan publik"
+      },
+      {
+        "pasal": "Pasal 223",
+        "alasan": "kebijakan pengembangan Keuangan Berkelanjutan"
+      },
+      {
+        "pasal": "Pasal 224",
+        "alasan": "kelembagaan: komite Keuangan Berkelanjutan"
+      },
+      {
+        "pasal": "Pasal 225",
+        "alasan": "koordinasi Pemerintah, Bank Indonesia, dan OJK dalam Literasi dan Inklusi Keuangan"
+      },
+      {
+        "pasal": "Pasal 226",
+        "alasan": "kewajiban PUSK meningkatkan Literasi dan Inklusi Keuangan serta pembentukan komite nasional"
+      },
+      {
+        "pasal": "Pasal 227",
+        "alasan": "kewajiban PUSK menerapkan prinsip Pelindungan Konsumen"
+      },
+      {
+        "pasal": "Pasal 228",
+        "alasan": "prinsip Pelindungan Konsumen di sektor keuangan"
+      },
+      {
+        "pasal": "Pasal 229",
+        "alasan": "tujuan Pelindungan Konsumen di sektor keuangan"
+      },
+      {
+        "pasal": "Pasal 230",
+        "alasan": "cakupan pihak penyelenggara Pelindungan Konsumen"
+      },
+      {
+        "pasal": "Pasal 231",
+        "alasan": "objek Pelindungan Konsumen di sektor keuangan"
+      },
+      {
+        "pasal": "Pasal 232",
+        "alasan": "ruang lingkup pengaturan Pelindungan Konsumen sektor keuangan"
+      },
+      {
+        "pasal": "Pasal 233",
+        "alasan": "wewenang pengaturan otoritas sektor keuangan dalam Pelindungan Konsumen"
+      },
+      {
+        "pasal": "Pasal 234",
+        "alasan": "pengawasan perilaku pasar (market conduct) oleh otoritas sektor keuangan"
+      },
+      {
+        "pasal": "Pasal 235",
+        "alasan": "hak dan kewajiban Konsumen jasa keuangan, di luar domain ketenagakerjaan"
+      },
+      {
+        "pasal": "Pasal 236",
+        "alasan": "hak, kewajiban, dan larangan PUSK dalam Pelindungan Konsumen"
+      },
+      {
+        "pasal": "Pasal 237",
+        "alasan": "larangan kegiatan penghimpunan dana tanpa izin di sektor keuangan"
+      },
+      {
+        "pasal": "Pasal 238",
+        "alasan": "ketentuan Perjanjian Baku antara PUSK dan Konsumen"
+      },
+      {
+        "pasal": "Pasal 239",
+        "alasan": "pelindungan data dan informasi Konsumen"
+      },
+      {
+        "pasal": "Pasal 24O",
+        "alasan": "pertukaran data dan informasi Konsumen oleh PUSK"
+      },
+      {
+        "pasal": "Pasal 241",
+        "alasan": "transfer data Konsumen ke luar wilayah hukum Indonesia"
+      },
+      {
+        "pasal": "Pasal 242",
+        "alasan": "keamanan sistem informasi dan ketahanan siber PUSK"
+      },
+      {
+        "pasal": "Pasal 243",
+        "alasan": "koordinasi pelindungan konsumen antarotoritas"
+      },
+      {
+        "pasal": "Pasal 244",
+        "alasan": "kewenangan otoritas sektor keuangan memberi perintah kepada PUSK"
+      },
+      {
+        "pasal": "Pasal 245",
+        "alasan": "mekanisme penanganan pengaduan dan penyelesaian sengketa Konsumen"
+      },
+      {
+        "pasal": "Pasal 246",
+        "alasan": "kelembagaan: persetujuan LAPS-SK oleh otoritas sektor keuangan"
+      },
+      {
+        "pasal": "Pasal 247",
+        "alasan": "kelembagaan: satuan tugas penanganan kegiatan usaha tanpa izin"
+      },
+      {
+        "pasal": "Pasal 248",
+        "alasan": "hubungan antarperaturan: sifat khusus UU Pelindungan Konsumen sektor keuangan"
+      },
+      {
+        "pasal": "Pasal 249",
+        "alasan": "kebijakan akses pembiayaan Usaha Mikro, Kecil, dan Menengah"
+      },
+      {
+        "pasal": "Pasal 25O",
+        "alasan": "penghapusbukuan dan penghapustagihan piutang macet UMKM"
+      },
+      {
+        "pasal": "Pasal 251",
+        "alasan": "perlakuan kerugian BUMN akibat penghapusbukuan piutang UMKM"
+      },
+      {
+        "pasal": "Pasal 253",
+        "alasan": "standar kompetensi profesi sektor keuangan"
+      },
+      {
+        "pasal": "Pasal 254",
+        "alasan": "definisi jenis Profesi Sektor Keuangan"
+      },
+      {
+        "pasal": "Pasal 255",
+        "alasan": "kewajiban memberikan jasa profesional bagi Pelaku Profesi Sektor Keuangan"
+      },
+      {
+        "pasal": "Pasal 256",
+        "alasan": "kelembagaan: asosiasi profesi dan keanggotaan"
+      },
+      {
+        "pasal": "Pasal 257",
+        "alasan": "kelembagaan: pengakuan dan tugas Asosiasi Profesi"
+      },
+      {
+        "pasal": "Pasal 258",
+        "alasan": "kewajiban menaati kode etik profesi sektor keuangan"
+      },
+      {
+        "pasal": "Pasal 259",
+        "alasan": "kelembagaan: jenis dan pembinaan Profesi Penunjang Sektor Keuangan"
+      },
+      {
+        "pasal": "Pasal 260",
+        "alasan": "kelembagaan: jenis dan pembinaan Profesi Pelaku Usaha Sektor Keuangan"
+      },
+      {
+        "pasal": "Pasal 261",
+        "alasan": "sertifikasi profesi sektor keuangan dan lisensi lembaga sertifikasi"
+      },
+      {
+        "pasal": "Pasal 262",
+        "alasan": "kewajiban PUSK menggunakan jasa pelaku profesi yang berizin"
+      },
+      {
+        "pasal": "Pasal 263",
+        "alasan": "dorongan peningkatan kualitas dan kuantitas profesi sektor keuangan"
+      },
+      {
+        "pasal": "Pasal 264",
+        "alasan": "kerja sama pendidikan dan pelatihan profesi sektor keuangan"
+      },
+      {
+        "pasal": "Pasal 265",
+        "alasan": "peta jalan pengembangan sumber daya manusia sektor keuangan"
+      },
+      {
+        "pasal": "Pasal 266",
+        "alasan": "kewajiban PUSK menerapkan tata kelola yang baik"
+      },
+      {
+        "pasal": "Pasal 267",
+        "alasan": "kewajiban PUSK menerapkan manajemen risiko yang efektif"
+      },
+      {
+        "pasal": "Pasal 268",
+        "alasan": "kewajiban pelaporan tata kelola dan manajemen risiko kepada otoritas"
+      },
+      {
+        "pasal": "Pasal 269",
+        "alasan": "delegasi pengaturan tata kelola dan manajemen risiko"
+      },
+      {
+        "pasal": "Pasal 27O",
+        "alasan": "pemantauan dan evaluasi penerapan tata kelola oleh otoritas sektor keuangan"
+      },
+      {
+        "pasal": "Pasal 272",
+        "alasan": "platform bersama pelaporan keuangan (financial reporting single window)"
+      },
+      {
+        "pasal": "Pasal 273",
+        "alasan": "delegasi pengaturan laporan keuangan dan platform pelaporan"
+      },
+      {
+        "pasal": "Pasal 274",
+        "alasan": "ruang lingkup pengaturan Stabilitas Sistem Keuangan"
+      },
+      {
+        "pasal": "Pasal 275",
+        "alasan": "ketentuan perubahan: pembuka amandemen UU Pencegahan dan Penanganan Krisis Sistem Keuangan"
+      },
+      {
+        "pasal": "Pasal 276",
+        "alasan": "ketentuan perubahan: penunjuk pasal yang diubah"
+      },
+      {
+        "pasal": "Pasal 15A",
+        "alasan": "kelembagaan: forum koordinasi Bank Indonesia, OJK, dan LPS"
+      },
+      {
+        "pasal": "Pasal 158",
+        "alasan": "pengawasan bank: pemeriksaan bersama oleh OJK, Bank Indonesia, dan LPS"
+      },
+      {
+        "pasal": "Pasal 16A",
+        "alasan": "pengaturan status pengawasan Bank oleh OJK"
+      },
+      {
+        "pasal": "Pasal 16C",
+        "alasan": "pengawasan bank: penetapan dan tindakan atas Bank dalam penyehatan"
+      },
+      {
+        "pasal": "Pasal 16D",
+        "alasan": "pengawasan bank: kewenangan pengelola statuter"
+      },
+      {
+        "pasal": "Pasal 16E",
+        "alasan": "pengawasan bank: penetapan Bank dalam resolusi"
+      },
+      {
+        "pasal": "Pasal 17",
+        "alasan": "kelembagaan: penetapan dan pemutakhiran daftar Bank Sistemik"
+      },
+      {
+        "pasal": "Pasal 18",
+        "alasan": "pengaturan prudensial: rasio kecukupan modal dan likuiditas Bank Sistemik"
+      },
+      {
+        "pasal": "Pasal 18A",
+        "alasan": "pengaturan: rencana aksi pemulihan Bank Sistemik"
+      },
+      {
+        "pasal": "Pasal 18B",
+        "alasan": "pengaturan: rencana resolusi Bank Sistemik"
+      },
+      {
+        "pasal": "Pasal 18C",
+        "alasan": "pengawasan: penilaian rencana resolusi dan uji resolvabilitas oleh LPS"
+      },
+      {
+        "pasal": "Pasal 19",
+        "alasan": "pengaturan: penerapan rencana aksi pemulihan dan langkah penyehatan Bank Sistemik"
+      },
+      {
+        "pasal": "Pasal 2O",
+        "alasan": "di luar domain ketenagakerjaan: pinjaman likuiditas jangka pendek Bank Sistemik"
+      },
+      {
+        "pasal": "Pasal 20A",
+        "alasan": "di luar domain: selisih dana pinjaman likuiditas dan hapus buku Bank Indonesia"
+      },
+      {
+        "pasal": "Pasal 20C",
+        "alasan": "di luar domain: kewenangan LPS atas Bank Sistemik penerima penempatan dana"
+      },
+      {
+        "pasal": "Pasal 23",
+        "alasan": "di luar domain: pengalihan aset dan kewajiban Bank Sistemik"
+      },
+      {
+        "pasal": "Pasal 26",
+        "alasan": "di luar domain: penjualan saham dan pengalihan aset Bank Perantara"
+      },
+      {
+        "pasal": "Pasal 28",
+        "alasan": "di luar domain: selisih dana penanganan Bank dan kekayaan LPS"
+      },
+      {
+        "pasal": "Pasal 28A",
+        "alasan": "di luar domain: perpajakan penanganan solvabilitas Bank Sistemik"
+      },
+      {
+        "pasal": "Pasal 29A",
+        "alasan": "di luar domain: ketentuan modal dan resolusi bagi Bank non-sistemik"
+      },
+      {
+        "pasal": "Pasal 3O",
+        "alasan": "di luar domain: ketentuan likuiditas dan penempatan dana bagi Bank non-sistemik"
+      },
+      {
+        "pasal": "Pasal 31",
+        "alasan": "di luar domain: penanganan solvabilitas Bank selain Bank Sistemik"
+      },
+      {
+        "pasal": "Pasal 31A",
+        "alasan": "di luar domain: ketentuan pasar modal bagi Bank emiten dalam penyehatan"
+      },
+      {
+        "pasal": "Pasal 36A",
+        "alasan": "di luar domain: kewenangan Bank Indonesia membeli SBN saat krisis"
+      },
+      {
+        "pasal": "Pasal 368",
+        "alasan": "di luar domain: kewenangan Pemerintah menangani krisis sistem keuangan"
+      },
+      {
+        "pasal": "Pasal 36C",
+        "alasan": "di luar domain: penjaminan simpanan Pemerintah oleh LPS saat ancaman krisis"
+      },
+      {
+        "pasal": "Pasal 42A",
+        "alasan": "di luar domain: perpajakan Program Restrukturisasi Perbankan"
+      },
+      {
+        "pasal": "Pasal 46A",
+        "alasan": "sanksi administratif sektor keuangan"
+      },
+      {
+        "pasal": "Pasal 47A",
+        "alasan": "ketentuan pidana sektor keuangan"
+      },
+      {
+        "pasal": "Pasal 277",
+        "alasan": "di luar domain: perubahan UU Lembaga Pembiayaan Ekspor Indonesia"
+      },
+      {
+        "pasal": "Pasal 278",
+        "alasan": "di luar domain: perubahan Pasal 16 UU LPEI tentang devisa hasil ekspor"
+      },
+      {
+        "pasal": "Pasal 279",
+        "alasan": "sanksi administratif sektor keuangan"
+      },
+      {
+        "pasal": "Pasal 28O",
+        "alasan": "sanksi administratif program penjaminan polis"
+      },
+      {
+        "pasal": "Pasal 281",
+        "alasan": "di luar domain: pertukaran informasi LPS dan OJK"
+      },
+      {
+        "pasal": "Pasal 282",
+        "alasan": "sanksi administratif Usaha Jasa Pembiayaan"
+      },
+      {
+        "pasal": "Pasal 283",
+        "alasan": "sanksi administratif Konglomerasi Keuangan"
+      },
+      {
+        "pasal": "Pasal 284",
+        "alasan": "sanksi administratif Inovasi Teknologi Sektor Keuangan"
+      },
+      {
+        "pasal": "Pasal 285",
+        "alasan": "sanksi administratif pelindungan konsumen"
+      },
+      {
+        "pasal": "Pasal 286",
+        "alasan": "sanksi administratif sumber daya manusia sektor keuangan"
+      },
+      {
+        "pasal": "Pasal 287",
+        "alasan": "ketentuan pidana pasar uang dan valuta asing"
+      },
+      {
+        "pasal": "Pasal 288",
+        "alasan": "ketentuan pidana penukaran valuta asing tanpa izin"
+      },
+      {
+        "pasal": "Pasal 289",
+        "alasan": "ketentuan pidana kerahasiaan data pengelola dana perwalian"
+      },
+      {
+        "pasal": "Pasal 29O",
+        "alasan": "ketentuan pidana badan pengelola instrumen keuangan"
+      },
+      {
+        "pasal": "Pasal 291",
+        "alasan": "ketentuan pidana pemegang saham badan pengelola instrumen keuangan"
+      },
+      {
+        "pasal": "Pasal 292",
+        "alasan": "ketentuan pidana badan pengelola instrumen keuangan"
+      },
+      {
+        "pasal": "Pasal 293",
+        "alasan": "ketentuan pidana korporasi pengelola instrumen keuangan"
+      },
+      {
+        "pasal": "Pasal 294",
+        "alasan": "ketentuan pidana program penjaminan polis"
+      },
+      {
+        "pasal": "Pasal 295",
+        "alasan": "ketentuan pidana perusahaan asuransi dalam likuidasi"
+      },
+      {
+        "pasal": "Pasal 296",
+        "alasan": "ketentuan pidana pemberian data palsu penjaminan polis"
+      },
+      {
+        "pasal": "Pasal 297",
+        "alasan": "ketentuan pidana penolakan data kepada LPS"
+      },
+      {
+        "pasal": "Pasal 298",
+        "alasan": "ketentuan pidana usaha jasa pembiayaan tanpa izin"
+      },
+      {
+        "pasal": "Pasal 299",
+        "alasan": "ketentuan pidana pencatatan palsu Usaha Jasa Pembiayaan"
+      },
+      {
+        "pasal": "Pasal 300",
+        "alasan": "ketentuan pidana penerimaan imbalan oleh pengurus Usaha Jasa Pembiayaan"
+      },
+      {
+        "pasal": "Pasal 301",
+        "alasan": "ketentuan pidana pemegang saham yang menyuruh pelanggaran"
+      },
+      {
+        "pasal": "Pasal 302",
+        "alasan": "ketentuan pidana laporan tidak benar kepada OJK"
+      },
+      {
+        "pasal": "Pasal 305",
+        "alasan": "ketentuan pidana pelanggaran pelindungan konsumen"
+      },
+      {
+        "pasal": "Pasal 306",
+        "alasan": "ketentuan pidana PUSK"
+      },
+      {
+        "pasal": "Pasal 307",
+        "alasan": "di luar domain: insentif perpajakan sektor keuangan"
+      },
+      {
+        "pasal": "Pasal 309",
+        "alasan": "ketentuan peralihan kelembagaan LPS"
+      },
+      {
+        "pasal": "Pasal 31O",
+        "alasan": "ketentuan peralihan kelembagaan OJK"
+      },
+      {
+        "pasal": "Pasal 311",
+        "alasan": "ketentuan peralihan pejabat OJK"
+      },
+      {
+        "pasal": "Pasal 312",
+        "alasan": "ketentuan peralihan pengawasan aset keuangan digital dan komoditi"
+      },
+      {
+        "pasal": "Pasal 313",
+        "alasan": "ketentuan peralihan Badan Supervisi Bank Indonesia"
+      },
+      {
+        "pasal": "Pasal 314",
+        "alasan": "ketentuan peralihan nomenklatur Bank Perekonomian Rakyat"
+      },
+      {
+        "pasal": "Pasal 315",
+        "alasan": "ketentuan peralihan kepemilikan saham perusahaan efek"
+      },
+      {
+        "pasal": "Pasal 316",
+        "alasan": "ketentuan peralihan perusahaan efek dalam pencabutan izin"
+      },
+      {
+        "pasal": "Pasal 317",
+        "alasan": "ketentuan peralihan polis asuransi dan Usaha Bersama"
+      },
+      {
+        "pasal": "Pasal 318",
+        "alasan": "ketentuan peralihan izin Usaha Jasa Pembiayaan"
+      },
+      {
+        "pasal": "Pasal 319",
+        "alasan": "ketentuan peralihan kegiatan Usaha Jasa Pembiayaan"
+      },
+      {
+        "pasal": "Pasal 320",
+        "alasan": "ketentuan peralihan Dana Pensiun dan Program Pensiun"
+      },
+      {
+        "pasal": "Pasal 322",
+        "alasan": "ketentuan peralihan Lembaga Keuangan Mikro"
+      },
+      {
+        "pasal": "Pasal 324",
+        "alasan": "ketentuan peralihan pelaporan keuangan PUSK"
+      },
+      {
+        "pasal": "Pasal 325",
+        "alasan": "ketentuan peralihan status pengawasan Bank"
+      },
+      {
+        "pasal": "Pasal 326",
+        "alasan": "ketentuan peralihan peraturan pelaksanaan"
+      },
+      {
+        "pasal": "Pasal 327",
+        "alasan": "ketentuan peralihan kepailitan dan PKPU"
+      },
+      {
+        "pasal": "Pasal 328",
+        "alasan": "ketentuan peralihan likuidasi perusahaan asuransi peserta penjaminan polis"
+      },
+      {
+        "pasal": "Pasal 329",
+        "alasan": "ketentuan peralihan mulai berlakunya penjaminan polis"
+      },
+      {
+        "pasal": "Pasal 330",
+        "alasan": "ketentuan peralihan pencabutan UU Dana Pensiun"
+      },
+      {
+        "pasal": "Pasal 331",
+        "alasan": "ketentuan peralihan peraturan pelaksanaan sektor keuangan"
+      },
+      {
+        "pasal": "Pasal 332",
+        "alasan": "ketentuan peralihan rencana resolusi bank umum"
+      },
+      {
+        "pasal": "Pasal 333",
+        "alasan": "ketentuan peralihan pengangkatan anggota Dewan Komisioner LPS"
+      },
+      {
+        "pasal": "Pasal 334",
+        "alasan": "ketentuan peralihan nomenklatur jabatan OJK"
+      },
+      {
+        "pasal": "Pasal 335",
+        "alasan": "ketentuan peralihan masa jabatan Dewan Komisioner OJK"
+      },
+      {
+        "pasal": "Pasal 336",
+        "alasan": "ketentuan peralihan Badan Supervisi LPS dan OJK"
+      },
+      {
+        "pasal": "Pasal 337",
+        "alasan": "ketentuan peralihan penyesuaian istilah"
+      },
+      {
+        "pasal": "Pasal 338",
+        "alasan": "ketentuan peralihan peraturan Bank Perkreditan Rakyat"
+      },
+      {
+        "pasal": "Pasal 339",
+        "alasan": "ketentuan peralihan peraturan pelaksanaan UU"
+      },
+      {
+        "pasal": "Pasal 34O",
+        "alasan": "ketentuan penutup: pemantauan dan peninjauan UU"
+      },
+      {
+        "pasal": "Pasal 341",
+        "alasan": "ketentuan penutup: mulai berlaku"
+      }
+    ],
+    "catatan": ""
+  },
+  "tidak_termodelkan": [
+    {
+      "pasal": "Pasal 54",
+      "ringkasan": "Urutan pembayaran kewajiban bank dalam likuidasi menempatkan penggantian talangan gaji pegawai yang terutang pada peringkat pertama dan talangan pesangon pegawai pada peringkat kedua.",
+      "alasan": "Relevan dengan upah/pesangon, tetapi ini prioritas kreditur dalam likuidasi bank; butuh kelas/properti baru (prioritas pembayaran kreditur) yang belum ada di T-Box."
+    },
+    {
+      "pasal": "Pasal 2A",
+      "ringkasan": "Penggunaan aset dalam transaksi Perbankan Syariah melalui penjualan dan/atau penyewaan Hak Manfaat, dikecualikan dari peraturan yang mewajibkan pendaftaran kepemilikan aset.",
+      "alasan": "butuh kelas/properti baru: transaksi aset syariah dan pengecualian pendaftaran; di luar T-Box ketenagakerjaan"
+    },
+    {
+      "pasal": "Pasal 4",
+      "ringkasan": "Bank Syariah dan UUS wajib menjalankan fungsi menghimpun dan menyalurkan dana masyarakat serta dapat menjalankan fungsi sosial baitulmal dan wakaf uang.",
+      "alasan": "butuh kelas baru: kewajiban fungsi bank syariah dan fungsi sosial; di luar T-Box ketenagakerjaan"
+    },
+    {
+      "pasal": "Pasal 5",
+      "ringkasan": "Setiap pihak yang melakukan kegiatan usaha Bank Syariah atau UUS wajib memperoleh izin usaha OJK dengan persyaratan minimal dan ketentuan perubahan kegiatan usaha.",
+      "alasan": "butuh kelas baru: perizinan usaha bank syariah; di luar T-Box ketenagakerjaan"
+    },
+    {
+      "pasal": "Pasal 6",
+      "ringkasan": "Bank Syariah dan UUS wajib memiliki kantor serta dapat beroperasi melalui jaringan kantor fisik dan/atau teknologi informasi.",
+      "alasan": "butuh kelas baru: kewajiban kantor dan jaringan layanan bank; di luar T-Box ketenagakerjaan"
+    },
+    {
+      "pasal": "Pasal 13",
+      "ringkasan": "Bank Syariah dapat melakukan penawaran umum efek melalui Pasar Modal sepanjang tidak bertentangan dengan Prinsip Syariah dan ketentuan Pasar Modal.",
+      "alasan": "butuh kelas baru: penawaran umum efek bank syariah; di luar T-Box ketenagakerjaan"
+    },
+    {
+      "pasal": "Pasal 17",
+      "ringkasan": "Penggabungan, Peleburan, Pengambilalihan Bank Syariah dan Integrasi kantor cabang bank asing wajib memperoleh izin OJK; bank hasil penggabungan wajib menjadi Bank Syariah.",
+      "alasan": "butuh kelas baru: aksi korporasi dan perizinan bank syariah; di luar T-Box ketenagakerjaan"
+    },
+    {
+      "pasal": "Pasal 17A",
+      "ringkasan": "BPR Syariah dapat melakukan Penggabungan dengan lembaga keuangan mikro dan bank hasil penggabungan wajib menjadi BPR Syariah.",
+      "alasan": "butuh kelas baru: penggabungan BPR Syariah dengan lembaga keuangan mikro; di luar T-Box ketenagakerjaan"
+    },
+    {
+      "pasal": "Pasal 19",
+      "ringkasan": "Kegiatan usaha Bank Umum Syariah dan UUS meliputi penghimpunan dana, penyaluran pembiayaan berdasarkan berbagai akad, dan kegiatan usaha lainnya.",
+      "alasan": "butuh kelas baru: daftar kegiatan usaha bank syariah; di luar T-Box ketenagakerjaan"
+    },
+    {
+      "pasal": "Pasal 2O",
+      "ringkasan": "Selain kegiatan usaha Pasal 19, Bank Umum Syariah dan UUS dapat melakukan valuta asing, penyertaan modal, pasar modal, penerbitan surat berharga, dan kerja sama lembaga jasa keuangan.",
+      "alasan": "butuh kelas baru: kegiatan usaha tambahan bank syariah; di luar T-Box ketenagakerjaan"
+    },
+    {
+      "pasal": "Pasal 21A",
+      "ringkasan": "Selain kegiatan usaha Pasal 21, BPR Syariah dapat bekerja sama dengan LJK lain, melakukan penukaran valuta asing, dan penyertaan modal pada lembaga penunjang.",
+      "alasan": "butuh kelas baru: kegiatan usaha tambahan BPR Syariah; di luar T-Box ketenagakerjaan"
+    },
+    {
+      "pasal": "Pasal 24",
+      "ringkasan": "Bank Umum Syariah dan UUS dilarang melakukan kegiatan yang bertentangan dengan Prinsip Syariah, jual beli saham langsung, penyertaan modal tertentu, usaha perasuransian, dan usaha di luar kegiatan usahanya.",
+      "alasan": "butuh kelas baru: larangan kegiatan usaha bank syariah; di luar T-Box ketenagakerjaan"
+    },
+    {
+      "pasal": "Pasal 25",
+      "ringkasan": "BPR Syariah dilarang menerima Simpanan Giro, melakukan valuta asing selain penukaran, perasuransian, penyertaan modal, dan membeli surat berharga tertentu.",
+      "alasan": "butuh kelas baru: larangan kegiatan usaha BPR Syariah; di luar T-Box ketenagakerjaan"
+    },
+    {
+      "pasal": "Pasal 26",
+      "ringkasan": "Kegiatan usaha dan produk/jasa syariah wajib tunduk kepada Prinsip Syariah yang ditetapkan lembaga fatwa dan ditindaklanjuti otoritas terkait.",
+      "alasan": "butuh kelas baru: kepatuhan Prinsip Syariah; di luar T-Box ketenagakerjaan"
+    },
+    {
+      "pasal": "Pasal 34",
+      "ringkasan": "Bank Syariah dan UUS wajib menerapkan prinsip tata kelola yang baik dan menyusun prosedur internal pelaksanaannya.",
+      "alasan": "butuh kelas baru: kewajiban tata kelola bank syariah; di luar T-Box ketenagakerjaan"
+    },
+    {
+      "pasal": "Pasal 38",
+      "ringkasan": "Dua heading Pasal 38: Bank Syariah dan UUS wajib menerapkan manajemen risiko dan prinsip mengenal Nasabah.",
+      "alasan": "butuh kelas baru: manajemen risiko dan prinsip mengenal nasabah; di luar T-Box ketenagakerjaan"
+    },
+    {
+      "pasal": "Pasal 41C",
+      "ringkasan": "Setiap Orang yang memperoleh informasi Nasabah Penyimpan dan Nasabah Investor wajib menjaga kerahasiaan informasi tersebut.",
+      "alasan": "butuh kelas baru: kewajiban kerahasiaan informasi nasabah; di luar T-Box ketenagakerjaan"
+    },
+    {
+      "pasal": "Pasal 44",
+      "ringkasan": "Bank Syariah dan Bank Umum Konvensional yang memiliki UUS wajib memberikan informasi yang diminta pihak berwenang sebagaimana dimaksud Pasal 43.",
+      "alasan": "butuh kelas baru: kewajiban penyerahan informasi perbankan; di luar T-Box ketenagakerjaan"
+    },
+    {
+      "pasal": "Pasal 45A",
+      "ringkasan": "Atas permintaan kurator atau likuidator, Bank Syariah dan Bank Umum Konvensional yang memiliki UUS wajib memberikan informasi Simpanan dan Investasi Nasabah terkait kepailitan atau likuidasi.",
+      "alasan": "butuh kelas baru: kewajiban informasi dalam kepailitan/likuidasi bank; di luar T-Box ketenagakerjaan"
+    },
+    {
+      "pasal": "Pasal 47",
+      "ringkasan": "Atas permintaan, persetujuan, atau kuasa tertulis Nasabah, Bank Syariah atau Bank Umum Konvensional yang memiliki UUS wajib memberikan Rahasia Bank kepada pihak yang ditunjuk Nasabah.",
+      "alasan": "butuh kelas baru: kewajiban pemberian Rahasia Bank atas permintaan nasabah; di luar T-Box ketenagakerjaan"
+    },
+    {
+      "pasal": "Pasal 5O",
+      "ringkasan": "Bank Syariah dan UUS wajib mematuhi peraturan OJK, wajib melaksanakan tindak lanjut pengawasan dan larangan OJK.",
+      "alasan": "butuh kelas baru: kewajiban kepatuhan terhadap pengawasan OJK; di luar T-Box ketenagakerjaan"
+    },
+    {
+      "pasal": "Pasal 51",
+      "ringkasan": "Bank Syariah dan UUS wajib memelihara tingkat kesehatan serta kepatuhan terhadap Prinsip Syariah sesuai ketentuan OJK.",
+      "alasan": "butuh kelas baru: kewajiban tingkat kesehatan bank; di luar T-Box ketenagakerjaan"
+    },
+    {
+      "pasal": "Pasal 52",
+      "ringkasan": "Bank Syariah dan UUS wajib menyampaikan data, informasi, keterangan, atau penjelasan usaha kepada OJK dan wajib membantu pelaksanaan pengawasan.",
+      "alasan": "butuh kelas baru: kewajiban pelaporan dan bantuan pengawasan; di luar T-Box ketenagakerjaan"
+    },
+    {
+      "pasal": "Pasal 54B",
+      "ringkasan": "Setiap Orang dilarang membuat pencatatan palsu, menghilangkan pencatatan, dan memberi/menerima imbalan untuk memperoleh fasilitas pembiayaan; bank wajib memastikan ketaatan.",
+      "alasan": "butuh kelas baru: larangan kecurangan pembukuan dan suap perbankan; di luar T-Box ketenagakerjaan"
+    },
+    {
+      "pasal": "Pasal 68",
+      "ringkasan": "Bank Umum Konvensional yang memiliki UUS wajib melakukan Pemisahan UUS menjadi Bank Umum Syariah setelah memenuhi persyaratan OJK; OJK dapat meminta pemisahan dalam rangka konsolidasi.",
+      "alasan": "butuh kelas baru: kewajiban pemisahan unit usaha syariah; di luar T-Box ketenagakerjaan"
+    },
+    {
+      "pasal": "Pasal 5A",
+      "ringkasan": "Pihak yang memperoleh izin, persetujuan, pernyataan efektif, dan surat tanda terdaftar dari OJK wajib menjalankan kegiatan berdasarkan peraturan dan menerapkan tata kelola yang baik, standar profesi, dan kode etik.",
+      "alasan": "butuh kelas baru: kewajiban tata kelola pemegang izin Pasar Modal; di luar T-Box ketenagakerjaan"
+    },
+    {
+      "pasal": "Pasal 58",
+      "ringkasan": "Pihak pemegang izin dari OJK bertanggung jawab atas segala kegiatan anggota direksi, dewan komisaris, pemegang saham, karyawan, dan pihak lain yang bekerja untuknya.",
+      "alasan": "butuh kelas baru: tanggung jawab badan atas perbuatan pengurus dan karyawan; di luar T-Box ketenagakerjaan"
+    },
+    {
+      "pasal": "Pasal 5C",
+      "ringkasan": "Anggota direksi, dewan komisaris, pemegang saham, dan pihak terafiliasi bertanggung jawab pribadi atas kerugian akibat iktikad buruk, perbuatan melawan hukum, penggunaan kekayaan, atau kelalaian.",
+      "alasan": "butuh kelas baru: tanggung jawab pribadi pengurus badan; di luar T-Box ketenagakerjaan"
+    },
+    {
+      "pasal": "Pasal 24",
+      "ringkasan": "Reksa Dana dapat menerima dan/atau memberikan pinjaman serta membeli saham atau produk investasi kolektif dengan persyaratan yang diatur OJK.",
+      "alasan": "butuh kelas baru: pembatasan investasi dan pinjaman Reksa Dana; di luar T-Box ketenagakerjaan"
+    },
+    {
+      "pasal": "Pasal 29A",
+      "ringkasan": "Manajer Investasi dapat mengelola produk investasi kolektif selain Reksa Dana dan investasi nasabah individual, berbentuk Perseroan, Kontrak Investasi Kolektif, atau bentuk lain.",
+      "alasan": "butuh kelas baru: pengelolaan produk investasi kolektif; di luar T-Box ketenagakerjaan"
+    },
+    {
+      "pasal": "Pasal 298",
+      "ringkasan": "Manajer Investasi dapat menjual dan membeli kembali Unit Penyertaan secara terus-menerus atau terbatas, dan wajib membeli kembali Unit Penyertaan yang dijual kembali pemegangnya kecuali keadaan tertentu.",
+      "alasan": "butuh kelas baru: kewajiban pembelian kembali unit penyertaan; di luar T-Box ketenagakerjaan"
+    },
+    {
+      "pasal": "Pasal 42A",
+      "ringkasan": "Dalam pengelolaan investasi, Manajer Investasi dilarang memiliki hubungan Afiliasi dengan bank Kustodian, kecuali karena kepemilikan atau penyertaan modal Pemerintah.",
+      "alasan": "butuh kelas baru: larangan afiliasi manajer investasi dan kustodian; di luar T-Box ketenagakerjaan"
+    },
+    {
+      "pasal": "Pasal 428",
+      "ringkasan": "Setiap Pihak dilarang memiliki saham dan/atau melakukan pengendalian pada lebih dari 1 Perusahaan Efek, kecuali karena kepemilikan saham atau penyertaan modal Pemerintah.",
+      "alasan": "butuh kelas baru: larangan pengendalian ganda Perusahaan Efek; di luar T-Box ketenagakerjaan"
+    },
+    {
+      "pasal": "Pasal 61",
+      "ringkasan": "Efek dalam Penitipan Kolektif dapat dipinjamkan atau dijaminkan dengan memperhatikan prinsip kehati-hatian dan manajemen risiko.",
+      "alasan": "butuh kelas baru: pinjam-meminjam dan penjaminan Efek; di luar T-Box ketenagakerjaan"
+    },
+    {
+      "pasal": "Pasal 66",
+      "ringkasan": "Profesi penunjang Pasar Modal wajib menaati kode etik dan standar profesi serta wajib mendirikan atau menjadi rekan pada kantor profesi penunjang.",
+      "alasan": "butuh kelas baru: kewajiban kode etik profesi penunjang Pasar Modal; di luar T-Box ketenagakerjaan"
+    },
+    {
+      "pasal": "Pasal 694",
+      "ringkasan": "OJK mengatur penghimpunan dana masyarakat melalui penawaran Efek dengan jasa penyelenggara sistem elektronik (securities crowdfunding) untuk memperluas akses UMKM; penyelenggara wajib berizin OJK.",
+      "alasan": "butuh kelas baru: securities crowdfunding dan perizinannya; di luar T-Box ketenagakerjaan"
+    },
+    {
+      "pasal": "Pasal 77",
+      "ringkasan": "Perubahan bentuk badan hukum Usaha Bersama menjadi perseroan terbatas mengakibatkan seluruh aset/liabilitas beralih dan semua pegawai Usaha Bersama beralih menjadi pegawai badan hukum baru.",
+      "alasan": "butuh kelas/properti peralihan hubungan kerja karena perubahan badan hukum; belum ada di T-Box"
+    },
+    {
+      "pasal": "Pasal 92",
+      "ringkasan": "Dalam likuidasi asuransi, LPS memberi talangan pembayaran gaji pegawai yang terutang dan talangan pesangon pegawai sebesar jumlah minimum pesangon menurut peraturan perundang-undangan.",
+      "alasan": "butuh kelas/properti talangan upah dan pesangon dalam likuidasi; belum ada di T-Box"
+    },
+    {
+      "pasal": "Pasal 98",
+      "ringkasan": "Pembayaran kewajiban kepada kreditur didahulukan untuk penggantian talangan gaji pegawai terutang, lalu talangan pesangon pegawai, sebelum biaya perkara dan kreditur lain.",
+      "alasan": "butuh kelas prioritas pembayaran upah/pesangon; belum ada di T-Box"
+    },
+    {
+      "pasal": "Pasal 145",
+      "ringkasan": "Setiap karyawan pada Pemberi Kerja berhak menjadi Peserta Dana Pensiun Pemberi Kerja bila memenuhi syarat kepesertaan; karyawan boleh menolak bila ada iuran peserta, dan bila ikut menyatakan kesediaan dipotong upah/gaji tiap bulan.",
+      "alasan": "butuh kelas hak kepesertaan pensiun swasta dan properti iuran/pemotongan upah; belum ada di T-Box"
+    },
+    {
+      "pasal": "Pasal 146",
+      "ringkasan": "Usia Pensiun Normal pertama kali ditetapkan paling rendah 55 tahun dan direviu secara berkala paling lama setiap 3 tahun.",
+      "alasan": "parameter usiaPensiunTahun ada, tetapi kelas norma usia pensiun Dana Pensiun belum ada di T-Box"
+    },
+    {
+      "pasal": "Pasal 155",
+      "ringkasan": "Peserta berhak atas Manfaat Pensiun Normal, Disabilitas, Dipercepat, atau Pensiun Ditunda; bila peserta meninggal, manfaat dibayarkan kepada Janda/Duda, lalu anak, lalu pihak yang ditunjuk.",
+      "alasan": "butuh kelas hak manfaat pensiun Dana Pensiun beserta penerima; belum ada di T-Box"
+    },
+    {
+      "pasal": "Pasal 158",
+      "ringkasan": "Peserta yang berhenti bekerja pada/setelah Usia Pensiun Normal berhak Manfaat Pensiun Normal; berhenti paling cepat 5 tahun sebelumnya berhak Manfaat Pensiun Dipercepat; masa kepesertaan kurang dari 3 tahun mendapat himpunan iuran dan hasil pengembangannya.",
+      "alasan": "butuh kelas hak pensiun saat berhenti bekerja dan properti masa kepesertaan pensiun; belum ada di T-Box"
+    },
+    {
+      "pasal": "Pasal 18O",
+      "ringkasan": "Pendiri wajib bertanggung jawab atas hak keuangan Peserta apabila terjadi kerugian yang tidak disebabkan kecurangan, ketidakjujuran, atau kesengajaan pengelola statuter.",
+      "alasan": "butuh kelas/properti baru untuk tanggung jawab Pendiri atas hak keuangan Peserta"
+    },
+    {
+      "pasal": "Pasal 184",
+      "ringkasan": "Iuran terutang Pemberi Kerja tetap menjadi kewajiban sampai Dana Pensiun dibubarkan dan hak tagihnya dapat beralih kepada Peserta; kelebihan aset likuidasi dipakai menaikkan Manfaat Pensiun.",
+      "alasan": "butuh kelas/properti baru untuk iuran terutang dan pembagian aset likuidasi"
+    },
+    {
+      "pasal": "Pasal 190",
+      "ringkasan": "Pengelolaan aset dan liabilitas Program Pensiun wajib menerapkan tata kelola yang baik; Peserta dan/atau Pemberi Kerja berhak menentukan pilihan alokasi aset pada Program Pensiun Iuran Pasti.",
+      "alasan": "butuh kelas/properti baru untuk hak peserta atas pilihan alokasi aset dan kewajiban tata kelola pengelola Program Pensiun"
+    },
+    {
+      "pasal": "Pasal 252",
+      "ringkasan": "PUSK bertanggung jawab mengembangkan kualitas sumber daya manusia melalui pendidikan dan pelatihan berkesinambungan serta wajib menyediakan dana pendidikan dan pelatihan dari anggaran tahun berjalan.",
+      "alasan": "butuh jenis KetentuanPelatihan dan properti kewajiban dana pelatihan yang belum ada di VOCAB/T-Box"
+    }
+  ]
+}

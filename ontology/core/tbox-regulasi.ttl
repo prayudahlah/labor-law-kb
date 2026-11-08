@@ -14,13 +14,25 @@
 # ============================================================================
 
 reg:Peraturan a owl:Class ;
-    rdfs:label "Peraturan" .
+    rdfs:label "Peraturan" ;
+    rdfs:subClassOf
+        [ a owl:Restriction ;
+          owl:onProperty reg:status ;
+          owl:qualifiedCardinality 1 ;
+          owl:onClass reg:StatusHukum ] ,
+        [ a owl:Restriction ;
+          owl:onProperty reg:jenis ;
+          owl:qualifiedCardinality 1 ;
+          owl:onClass reg:JenisPeraturan ] .
 
+# Enumerasi tertutup (nominal, O): status dan jenis peraturan hanya nilai berikut.
 reg:JenisPeraturan a owl:Class ;
-    rdfs:label "Jenis Peraturan" .
+    rdfs:label "Jenis Peraturan" ;
+    owl:oneOf ( reg:UndangUndang reg:PeraturanPemerintah ) .
 
 reg:StatusHukum a owl:Class ;
-    rdfs:label "Status Hukum" .
+    rdfs:label "Status Hukum" ;
+    owl:oneOf ( reg:Berlaku reg:Diubah reg:Dicabut ) .
 
 # ============================================================================
 # Object property (rantai amandemen, bisa di-reason)

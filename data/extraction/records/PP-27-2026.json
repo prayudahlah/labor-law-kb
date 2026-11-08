@@ -1,0 +1,177 @@
+{
+  "spec_version": "1.1.0",
+  "vocab_version": "0.3.0",
+  "dokumen_id": "PP-27-2026",
+  "status_review": "reviewed",
+  "peraturan": {
+    "judul": "Peraturan Pemerintah Nomor 27 Tahun 2026 tentang Perubahan Kedua atas Peraturan Pemerintah Nomor 99 Tahun 2013 tentang Pengelolaan Aset Jaminan Sosial Ketenagakerjaan",
+    "jenis": "PP",
+    "nomor": "27",
+    "tahun": "2026",
+    "sumber": "https://peraturan.bpk.go.id/Details/351383/pp-no-27-tahun-2026",
+    "status": "Berlaku",
+    "diubah_oleh": []
+  },
+  "norma": [
+    {
+      "norm_id": "JAMSOS-ASET-LIABILITAS-JKP",
+      "topik": "Jamsos",
+      "pasal": "Pasal 62A",
+      "iri_individu": "ktn:PengelolaanAsetJKP",
+      "jenis": "KetentuanJaminanSosial",
+      "kondisi": "Pengelolaan aset dan liabilitas dana jaminan sosial kehilangan pekerjaan (JKP)",
+      "akibat": "Berlaku mutatis mutandis ketentuan pengelolaan aset dan liabilitas DJS Kecelakaan Kerja dan DJS Kematian dalam Pasal 18, Pasal 38, Pasal 39, Pasal 40, Pasal 41, Pasal 41A, Pasal 47, dan Pasal 48",
+      "parameter": [],
+      "bukti": "berlaku mutatis mutandis bagi pengelolaan aset dan liabilitas dana jaminan sosial",
+      "confidence": 0.95,
+      "dasar_keyakinan": "dikutip",
+      "catatan": "Rujukan pasal mengikuti teks sumber; sebagian pasal rujukan tidak dimuat dalam chunk dokumen ini. Kata 'kehilangan pekerjaan' pada sumber terbaca OCR 'peke{aan'."
+    }
+  ],
+  "kategori": [],
+  "pengali_lembur": [],
+  "program_jamsos": [],
+  "cakupan": {
+    "lengkap": true,
+    "pasal_diekstrak": [
+      "Pasal 1",
+      "Pasal 13",
+      "Pasal 14",
+      "Pasal 18",
+      "Pasal 25A",
+      "Pasal 26",
+      "Pasal 28",
+      "Pasal 29",
+      "Pasal 29A",
+      "Pasal 2T",
+      "Pasal 3",
+      "Pasal 35",
+      "Pasal 36",
+      "Pasal 37",
+      "Pasal 38",
+      "Pasal 39",
+      "Pasal 40",
+      "Pasal 40A",
+      "Pasal 40C",
+      "Pasal 44",
+      "Pasal 62A",
+      "Pasal 648"
+    ],
+    "pasal_dilewati": [
+      {
+        "pasal": "Pasal 1",
+        "alasan": "definisi/istilah"
+      },
+      {
+        "pasal": "Pasal 14",
+        "alasan": "tata cara penetapan persentase Dana Operasional (prosedural)"
+      },
+      {
+        "pasal": "Pasal 2T",
+        "alasan": "pasal dihapus (Pasal 27 dihapus)"
+      },
+      {
+        "pasal": "Pasal 648",
+        "alasan": "ketentuan peralihan: batas waktu 3 bulan penetapan Peraturan Menteri"
+      }
+    ],
+    "catatan": ""
+  },
+  "tidak_termodelkan": [
+    {
+      "pasal": "Pasal 3",
+      "ringkasan": "Ruang lingkup aset Jamsos yang dikelola BPJS Ketenagakerjaan dan penggunaan prinsip syariah",
+      "alasan": "butuh kelas/properti baru: KetentuanPengelolaanAset (komposisi aset, prinsip syariah)"
+    },
+    {
+      "pasal": "Pasal 13",
+      "ringkasan": "Batas persentase Dana Operasional dari DJS: 10% iuran dan hasil pengembangan JKK/JKM, 3% iuran JHT/JP, 6,5% hasil pengembangan JHT/JP, serta 20% saat krisis",
+      "alasan": "butuh parameter persentase Dana Operasional dan kelas KetentuanDanaOperasional"
+    },
+    {
+      "pasal": "Pasal 18",
+      "ringkasan": "Komposisi liabilitas DJS, cadangan teknis, dan penilaian liabilitas sesuai standar akuntansi",
+      "alasan": "butuh kelas LiabilitasDJS/CadanganTeknis beserta propertinya"
+    },
+    {
+      "pasal": "Pasal 25A",
+      "ringkasan": "Kewajiban analisis investasi yang objektif, independen, rasional, dan terdokumentasi",
+      "alasan": "butuh kelas KetentuanInvestasiAset (tata kelola investasi)"
+    },
+    {
+      "pasal": "Pasal 26",
+      "ringkasan": "Bentuk Investasi dan daftar instrumen Investasi dalam negeri termasuk instrumen syariah",
+      "alasan": "butuh kelas InstrumenInvestasi dan enumerasi jenis instrumen"
+    },
+    {
+      "pasal": "Pasal 28",
+      "ringkasan": "Syarat kelayakan instrumen Investasi: surat utang korporasi, saham, reksadana, efek beragun aset, DIRE, repurchase agreement, penyertaan langsung, properti, obligasi daerah, DINFRA, dan peminjaman efek",
+      "alasan": "butuh kelas InstrumenInvestasi dan properti syarat kelayakan (peringkat, bursa, jangka waktu)"
+    },
+    {
+      "pasal": "Pasal 29",
+      "ringkasan": "Batas persentase Investasi per instrumen dan per pihak (deposito 15%, surat utang 5%/50%, saham 5%/50%, reksadana 15%/50%, EBA 10%/20%, DIRE 10%/20%, repo 2%/5%, penyertaan langsung 1%/5%, properti 5%, obligasi daerah 5%/50%, DINFRA 2%/10%, peminjaman efek 5%)",
+      "alasan": "butuh parameter batas persentase per instrumen dan kelas BatasInvestasi"
+    },
+    {
+      "pasal": "Pasal 29A",
+      "ringkasan": "Kewajiban menyesuaikan kembali jumlah Investasi dalam 1 tahun bila melebihi batasan akibat perubahan nilai instrumen",
+      "alasan": "butuh properti jangka waktu penyesuaian dan kelas BatasInvestasi"
+    },
+    {
+      "pasal": "Pasal 35",
+      "ringkasan": "Daftar instrumen Investasi dalam negeri untuk DJS Hari Tua dan DJS Pensiun termasuk instrumen syariah",
+      "alasan": "butuh kelas InstrumenInvestasi dan enumerasi jenis instrumen"
+    },
+    {
+      "pasal": "Pasal 36",
+      "ringkasan": "Syarat kelayakan instrumen Investasi DJS Hari Tua dan DJS Pensiun: surat utang korporasi, saham, reksadana, EBA, DIRE, repo, penyertaan langsung, properti, obligasi daerah, DINFRA, dan peminjaman efek",
+      "alasan": "butuh kelas InstrumenInvestasi dan properti syarat kelayakan (peringkat, bursa, jangka waktu)"
+    },
+    {
+      "pasal": "Pasal 37",
+      "ringkasan": "Batas persentase Investasi DJS Hari Tua dan DJS Pensiun per instrumen dan per pihak, termasuk batas khusus Bank Pemerintah 25% dan bank lain 15%",
+      "alasan": "butuh parameter batas persentase per instrumen dan kelas BatasInvestasi"
+    },
+    {
+      "pasal": "Pasal 38",
+      "ringkasan": "Daftar instrumen Investasi dalam negeri untuk DJS Kecelakaan Kerja dan DJS Kematian serta syarat Aset Bersih menutup estimasi klaim 1 bulan",
+      "alasan": "butuh kelas InstrumenInvestasi dan properti kecukupan Aset Bersih"
+    },
+    {
+      "pasal": "Pasal 39",
+      "ringkasan": "Syarat kelayakan instrumen Investasi DJS Kecelakaan Kerja dan DJS Kematian: peringkat surat utang dan obligasi daerah, kualitas saham, reksadana, repo, dan EBA",
+      "alasan": "butuh kelas InstrumenInvestasi dan properti syarat kelayakan (peringkat, kualitas saham)"
+    },
+    {
+      "pasal": "Pasal 40",
+      "ringkasan": "Batas persentase Investasi DJS Kecelakaan Kerja dan DJS Kematian per instrumen dan per pihak (deposito 15%, instrumen berisiko 50% Aset Bersih, surat utang 5%, saham 5%/50%, reksadana 15%, repo 2%, EBA 10%, obligasi daerah 5%)",
+      "alasan": "butuh parameter batas persentase per instrumen dan kelas BatasInvestasi"
+    },
+    {
+      "pasal": "Pasal 40A",
+      "ringkasan": "Kewajiban mengembalikan jumlah Investasi ke batas dalam 1 tahun bila terjadi kelebihan akibat perubahan nilai instrumen",
+      "alasan": "butuh properti jangka waktu penyesuaian dan kelas BatasInvestasi"
+    },
+    {
+      "pasal": "Pasal 40B",
+      "ringkasan": "Larangan menempatkan dana pada perusahaan yang sahamnya dimiliki Direksi, Dewan Pengawas, pegawai, atau pihak berhubungan keluarga sampai derajat ketiga",
+      "alasan": "butuh kelas LaranganInvestasi dan properti pihak terafiliasi"
+    },
+    {
+      "pasal": "Pasal 40C",
+      "ringkasan": "Kegiatan penempatan, optimalisasi, pelepasan, dan pengelolaan aset properti; pelepasan wajib disetujui Dewan Pengawas",
+      "alasan": "butuh kelas KetentuanInvestasiAset dan properti persetujuan organ"
+    },
+    {
+      "pasal": "Pasal 41A",
+      "ringkasan": "Target hasil pengembangan/imbal hasil Investasi harus lebih tinggi dari agregasi benchmark tiap kelas aset",
+      "alasan": "butuh properti targetImbalHasil dan kelas KetentuanInvestasiAset"
+    },
+    {
+      "pasal": "Pasal 44",
+      "ringkasan": "Surplus aset BPJS Ketenagakerjaan dipakai memperkuat aset DJS sebesar 15%, sisanya untuk ekuitas dan kegiatan peduli peserta/perluasan kepesertaan",
+      "alasan": "butuh parameter persentase alokasi Surplus dan kelas AlokasiSurplus"
+    }
+  ]
+}

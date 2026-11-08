@@ -1,6 +1,7 @@
 .venv/
 docs/pdf/
 ontology/.cache/
+data/extraction/work/
 __pycache__/
 *.pyc
 *.pyo

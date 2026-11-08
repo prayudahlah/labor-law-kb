@@ -1,0 +1,284 @@
+{
+  "spec_version": "1.1.0",
+  "vocab_version": "0.3.0",
+  "dokumen_id": "UU-21-2000",
+  "status_review": "reviewed",
+  "peraturan": {
+    "judul": "Undang-Undang Nomor 21 Tahun 2000 tentang Serikat Pekerja/Serikat Buruh",
+    "jenis": "UU",
+    "nomor": "21",
+    "tahun": "2000",
+    "sumber": "https://peraturan.go.id/id/uu-no-21-tahun-2000",
+    "status": "Berlaku",
+    "diubah_oleh": []
+  },
+  "norma": [],
+  "kategori": [],
+  "pengali_lembur": [],
+  "program_jamsos": [],
+  "cakupan": {
+    "lengkap": true,
+    "pasal_diekstrak": [
+      "Pasal 1",
+      "Pasal 10",
+      "Pasal 11",
+      "Pasal 12",
+      "Pasal 13",
+      "Pasal 14",
+      "Pasal 15",
+      "Pasal 16",
+      "Pasal 17",
+      "Pasal 18",
+      "Pasal 19",
+      "Pasal 2",
+      "Pasal 20",
+      "Pasal 21",
+      "Pasal 22",
+      "Pasal 23",
+      "Pasal 24",
+      "Pasal 25",
+      "Pasal 26",
+      "Pasal 27",
+      "Pasal 28",
+      "Pasal 29",
+      "Pasal 3",
+      "Pasal 30",
+      "Pasal 31",
+      "Pasal 32",
+      "Pasal 33",
+      "Pasal 34",
+      "Pasal 35",
+      "Pasal 36",
+      "Pasal 37",
+      "Pasal 38",
+      "Pasal 39",
+      "Pasal 4",
+      "Pasal 40",
+      "Pasal 41",
+      "Pasal 42",
+      "Pasal 43",
+      "Pasal 44",
+      "Pasal 45",
+      "Pasal 46",
+      "Pasal 47",
+      "Pasal 5",
+      "Pasal 6",
+      "Pasal 7",
+      "Pasal 8",
+      "Pasal 9"
+    ],
+    "pasal_dilewati": [
+      {
+        "pasal": "Pasal 1",
+        "alasan": "definisi/istilah"
+      },
+      {
+        "pasal": "Pasal 2",
+        "alasan": "asas organisasi (Pancasila/UUD 1945), bukan norma kondisi-akibat"
+      },
+      {
+        "pasal": "Pasal 3",
+        "alasan": "sifat organisasi, bukan norma kondisi-akibat"
+      },
+      {
+        "pasal": "Pasal 4",
+        "alasan": "tujuan dan fungsi organisasi (kelembagaan), bukan norma kondisi-akibat"
+      },
+      {
+        "pasal": "Pasal 8",
+        "alasan": "perjenjangan organisasi diatur dalam anggaran rumah tangga (internal)"
+      },
+      {
+        "pasal": "Pasal 11",
+        "alasan": "persyaratan isi anggaran dasar/anggaran rumah tangga (internal)"
+      },
+      {
+        "pasal": "Pasal 13",
+        "alasan": "keanggotaan diatur dalam anggaran dasar/anggaran rumah tangga (internal)"
+      },
+      {
+        "pasal": "Pasal 18",
+        "alasan": "tata cara pemberitahuan dan pencatatan kepada instansi pemerintah (administratif)"
+      },
+      {
+        "pasal": "Pasal 19",
+        "alasan": "persyaratan nama dan lambang unik (administratif)"
+      },
+      {
+        "pasal": "Pasal 20",
+        "alasan": "tenggat pencatatan 21 hari kerja dan penangguhan 14 hari kerja (tata cara administratif)"
+      },
+      {
+        "pasal": "Pasal 21",
+        "alasan": "pemberitahuan perubahan anggaran dasar/rumah tangga paling lambat 30 hari (administratif)"
+      },
+      {
+        "pasal": "Pasal 22",
+        "alasan": "buku pencatatan dan keterbukaan untuk umum (administratif)"
+      },
+      {
+        "pasal": "Pasal 23",
+        "alasan": "pemberitahuan keberadaan kepada mitra (administratif)"
+      },
+      {
+        "pasal": "Pasal 24",
+        "alasan": "tata cara pencatatan diatur dengan keputusan menteri (pelimpahan)"
+      },
+      {
+        "pasal": "Pasal 30",
+        "alasan": "sumber keuangan internal serikat (iuran, usaha, bantuan)"
+      },
+      {
+        "pasal": "Pasal 31",
+        "alasan": "pemberitahuan bantuan luar negeri dan penggunaannya (internal/administratif)"
+      },
+      {
+        "pasal": "Pasal 32",
+        "alasan": "pemisahan keuangan serikat dari keuangan pribadi (internal)"
+      },
+      {
+        "pasal": "Pasal 33",
+        "alasan": "pemindahan/pengalihan harta dan investasi menurut anggaran dasar (internal)"
+      },
+      {
+        "pasal": "Pasal 34",
+        "alasan": "tanggung jawab pengurus atas pembukuan dan pelaporan keuangan internal"
+      },
+      {
+        "pasal": "Pasal 36",
+        "alasan": "rujukan ke peraturan perundang-undangan bila musyawarah gagal (bukan norma mandiri)"
+      },
+      {
+        "pasal": "Pasal 40",
+        "alasan": "pengawasan ketenagakerjaan (kelembagaan)"
+      },
+      {
+        "pasal": "Pasal 41",
+        "alasan": "kewenangan penyidik pegawai negeri sipil (penyidikan/pidana)"
+      },
+      {
+        "pasal": "Pasal 42",
+        "alasan": "sanksi administratif pencabutan nomor bukti pencatatan"
+      },
+      {
+        "pasal": "Pasal 43",
+        "alasan": "sanksi pidana penjara dan denda"
+      },
+      {
+        "pasal": "Pasal 45",
+        "alasan": "ketentuan peralihan pencatatan ulang dalam 1 tahun"
+      },
+      {
+        "pasal": "Pasal 46",
+        "alasan": "ketentuan peralihan pemrosesan pemberitahuan yang belum selesai"
+      },
+      {
+        "pasal": "Pasal 47",
+        "alasan": "ketentuan penutup (mulai berlaku)"
+      }
+    ],
+    "catatan": ""
+  },
+  "tidak_termodelkan": [
+    {
+      "pasal": "Pasal 5",
+      "ringkasan": "Hak pekerja/buruh membentuk dan menjadi anggota serikat; serikat dibentuk sekurang-kurangnya 10 orang pekerja/buruh",
+      "alasan": "butuh kelas KetentuanKebebasanBerserikat dan parameter jumlahPendiriMin (orang)"
+    },
+    {
+      "pasal": "Pasal 6",
+      "ringkasan": "Serikat berhak membentuk federasi; federasi dibentuk sekurang-kurangnya 5 serikat pekerja/buruh",
+      "alasan": "butuh kelas KetentuanKebebasanBerserikat dan parameter jumlahSerikatMin"
+    },
+    {
+      "pasal": "Pasal 7",
+      "ringkasan": "Federasi berhak membentuk konfederasi; konfederasi dibentuk sekurang-kurangnya 3 federasi",
+      "alasan": "butuh kelas KetentuanKebebasanBerserikat dan parameter jumlahFederasiMin"
+    },
+    {
+      "pasal": "Pasal 9",
+      "ringkasan": "Serikat, federasi, dan konfederasi dibentuk atas kehendak bebas tanpa tekanan atau campur tangan pengusaha, pemerintah, partai politik, dan pihak lain",
+      "alasan": "butuh kelas KetentuanKebebasanBerserikat (larangan campur tangan)"
+    },
+    {
+      "pasal": "Pasal 10",
+      "ringkasan": "Serikat, federasi, dan konfederasi dapat dibentuk berdasarkan sektor usaha, jenis pekerjaan, atau bentuk lain",
+      "alasan": "butuh kelas KetentuanKebebasanBerserikat (dasar pembentukan organisasi)"
+    },
+    {
+      "pasal": "Pasal 12",
+      "ringkasan": "Serikat, federasi, dan konfederasi harus terbuka menerima anggota tanpa membedakan aliran politik, agama, suku, dan jenis kelamin",
+      "alasan": "butuh kelas KetentuanKebebasanBerserikat (larangan diskriminasi keanggotaan)"
+    },
+    {
+      "pasal": "Pasal 14",
+      "ringkasan": "Pekerja/buruh tidak boleh menjadi anggota lebih dari satu serikat di satu perusahaan; bila tercatat ganda harus menyatakan pilihan tertulis",
+      "alasan": "butuh kelas KetentuanKeanggotaanSerikat (keunikan keanggotaan)"
+    },
+    {
+      "pasal": "Pasal 15",
+      "ringkasan": "Pekerja/buruh yang menduduki jabatan tertentu yang menimbulkan pertentangan kepentingan tidak boleh menjadi pengurus serikat di perusahaan tersebut",
+      "alasan": "butuh kelas KetentuanKeanggotaanSerikat (larangan jabatan pengurus)"
+    },
+    {
+      "pasal": "Pasal 16",
+      "ringkasan": "Serikat hanya boleh menjadi anggota satu federasi; federasi hanya boleh menjadi anggota satu konfederasi",
+      "alasan": "butuh kelas KetentuanKeanggotaanSerikat (keunikan afiliasi)"
+    },
+    {
+      "pasal": "Pasal 17",
+      "ringkasan": "Pekerja/buruh dapat berhenti dengan pernyataan tertulis atau diberhentikan sesuai anggaran dasar/rumah tangga, tetap bertanggung jawab atas kewajiban yang belum dipenuhi",
+      "alasan": "butuh kelas KetentuanKeanggotaanSerikat (berhenti/diberhentikan)"
+    },
+    {
+      "pasal": "Pasal 25",
+      "ringkasan": "Serikat, federasi, dan konfederasi yang tercatat berhak membuat PKB, mewakili pekerja dalam perselisihan industrial dan lembaga ketenagakerjaan, serta membentuk lembaga kesejahteraan",
+      "alasan": "butuh kelas KetentuanHakSerikat (hak organisasi)"
+    },
+    {
+      "pasal": "Pasal 26",
+      "ringkasan": "Serikat, federasi, dan konfederasi dapat berafiliasi dan bekerja sama dengan serikat pekerja internasional/organisasi internasional lain",
+      "alasan": "butuh kelas KetentuanHakSerikat (afiliasi internasional)"
+    },
+    {
+      "pasal": "Pasal 27",
+      "ringkasan": "Serikat, federasi, dan konfederasi yang tercatat berkewajiban melindungi anggota, memperjuangkan kesejahteraan, dan mempertanggungjawabkan kegiatan organisasi",
+      "alasan": "butuh kelas KetentuanHakSerikat (kewajiban organisasi)"
+    },
+    {
+      "pasal": "Pasal 28",
+      "ringkasan": "Larangan menghalang-halangi atau memaksa pekerja/buruh berserikat, termasuk melalui PHK, pemberhentian sementara, penurunan jabatan, mutasi, pengurangan upah, intimidasi, dan kampanye anti-serikat",
+      "alasan": "butuh kelas KetentuanKebebasanBerserikat (tindakan anti-serikat); tidak dapat dipetakan ke AlasanPHK"
+    },
+    {
+      "pasal": "Pasal 29",
+      "ringkasan": "Pengusaha harus memberi kesempatan pengurus/anggota menjalankan kegiatan serikat dalam jam kerja yang disepakati dan/atau diatur PKB, termasuk pengaturan kegiatan yang mendapat upah",
+      "alasan": "butuh kelas KetentuanFasilitasSerikat (kesempatan kegiatan dan upah)"
+    },
+    {
+      "pasal": "Pasal 35",
+      "ringkasan": "Setiap perselisihan antarserikat pekerja/buruh, federasi, dan konfederasi diselesaikan secara musyawarah oleh pihak yang bersangkutan",
+      "alasan": "butuh kelas KetentuanHubunganIndustrial (penyelesaian perselisihan antarserikat)"
+    },
+    {
+      "pasal": "Pasal 37",
+      "ringkasan": "Serikat, federasi, dan konfederasi bubar karena dinyatakan anggotanya menurut anggaran dasar/rumah tangga, perusahaan tutup untuk selama-lamanya, atau putusan pengadilan",
+      "alasan": "butuh kelas KetentuanPembubaranSerikat (alasan pembubaran)"
+    },
+    {
+      "pasal": "Pasal 38",
+      "ringkasan": "Pengadilan dapat membubarkan serikat bila asasnya bertentangan dengan Pancasila/UUD 1945 atau pengurus/anggota terbukti melakukan kejahatan keamanan negara dengan pidana penjara sekurang-kurangnya 5 tahun",
+      "alasan": "butuh kelas KetentuanPembubaranSerikat (dasar dan tata cara gugatan pembubaran)"
+    },
+    {
+      "pasal": "Pasal 39",
+      "ringkasan": "Pembubaran tidak melepaskan tanggung jawab pengurus; pengurus/anggota yang terbukti bersalah tidak boleh membentuk dan menjadi pengurus serikat lain selama 3 tahun sejak putusan berkekuatan hukum tetap",
+      "alasan": "butuh kelas KetentuanPembubaranSerikat dan parameter laranganPengurusTahun (3 tahun)"
+    },
+    {
+      "pasal": "Pasal 44",
+      "ringkasan": "Pegawai negeri sipil mempunyai hak dan kebebasan untuk berserikat; pelaksanaannya diatur dengan undang-undang tersendiri",
+      "alasan": "butuh kelas KetentuanKebebasanBerserikat (hak berserikat PNS)"
+    }
+  ]
+}

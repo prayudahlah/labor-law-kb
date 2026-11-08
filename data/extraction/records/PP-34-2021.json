@@ -1,6 +1,6 @@
 {
-  "spec_version": "1.0.0",
-  "vocab_version": "0.2.0",
+  "spec_version": "1.1.0",
+  "vocab_version": "0.3.0",
   "dokumen_id": "PP-34-2021",
   "status_review": "reviewed",
   "peraturan": {
@@ -14,61 +14,172 @@
   },
   "norma": [
     {
-      "norm_id": "TKA-UTAMAKAN-TENAGA-KERJA-INDONESIA",
+      "norm_id": "TKA-UTAMAKAN-TKI",
       "topik": "TKA",
       "pasal": "Pasal 2 ayat (1)",
-      "iri_individu": "ktn:UtamakanTenagaKerjaIndonesia",
+      "iri_individu": "ktn:UtamakanTKI",
       "jenis": "KetentuanTKA",
-      "kondisi": "Setiap Pemberi Kerja TKA pada semua jenis jabatan yang tersedia",
-      "akibat": "Wajib mengutamakan penggunaan tenaga kerja Indonesia",
+      "kondisi": "Pemberi Kerja TKA memiliki jabatan yang tersedia",
+      "akibat": "Wajib mengutamakan penggunaan tenaga kerja Indonesia pada semua jenis jabatan yang tersedia",
       "parameter": [],
-      "bukti": "Setiap Pemberi Kerja TKA wajib mengutamakan penggunaan tenaga kerja Indonesia pada semua jenis jabatan yang tersedia.",
-      "confidence": 0.95,
+      "bukti": "wajib mengutamakan penggunaan tenaga kerja Indonesia pada semua jenis jabatan yang tersedia",
+      "confidence": 0.9,
       "dasar_keyakinan": "dikutip",
       "catatan": ""
     },
     {
-      "norm_id": "TKA-JABATAN-DAPAT-DIDUDUKI-TKA",
+      "norm_id": "TKA-JABATAN-BELUM-TERISI",
       "topik": "TKA",
       "pasal": "Pasal 2 ayat (2)",
-      "iri_individu": "ktn:JabatanDapatDidudukiTKA",
+      "iri_individu": "ktn:JabatanDidudukiTKA",
       "jenis": "KetentuanTKA",
-      "kondisi": "Jabatan belum dapat diduduki tenaga kerja Indonesia",
-      "akibat": "Jabatan dapat diduduki oleh TKA dengan memperhatikan kondisi pasar kerja dalam negeri",
+      "kondisi": "Jabatan sebagaimana dimaksud pada ayat (1) belum dapat diduduki oleh tenaga kerja Indonesia",
+      "akibat": "Jabatan tersebut dapat diduduki oleh TKA",
       "parameter": [],
-      "bukti": "Dalam hal jabatan sebagaimana dimaksud pada ayat (1) belum dapat diduduki oleh tenaga kerja Indonesia, jabatan tersebut dapat diduduki oleh TKA.",
-      "confidence": 0.95,
+      "bukti": "jabatan tersebut dapat diduduki oleh TKA",
+      "confidence": 0.9,
       "dasar_keyakinan": "dikutip",
-      "catatan": "Pasal 2 ayat (3) menambahkan syarat memperhatikan kondisi pasar kerja dalam negeri."
+      "catatan": ""
+    },
+    {
+      "norm_id": "TKA-PASAR-KERJA-DALAM-NEGERI",
+      "topik": "TKA",
+      "pasal": "Pasal 2 ayat (3)",
+      "iri_individu": "ktn:PerhatikanPasarKerja",
+      "jenis": "KetentuanTKA",
+      "kondisi": "Penggunaan TKA sebagaimana dimaksud pada ayat (2)",
+      "akibat": "Dilakukan dengan memperhatikan kondisi pasar kerja dalam negeri",
+      "parameter": [],
+      "bukti": "dilakukan dengan memperhatikan kondisi pasar kerja dalam negeri",
+      "confidence": 0.85,
+      "dasar_keyakinan": "tafsir",
+      "catatan": "Teks OCR memuat sisa nomor '1' sebelum 'TKA'; kalimat tetap terbaca."
+    },
+    {
+      "norm_id": "TKA-RPTKA-AJUKAN-SEBELUM-BERAKHIR",
+      "topik": "TKA",
+      "pasal": "Pasal 16 ayat (7)",
+      "iri_individu": "ktn:WajibAjukanRPTKABaru",
+      "jenis": "KetentuanTKA",
+      "kondisi": "Jangka waktu sebagaimana dimaksud pada ayat (5) telah berakhir dan Pemberi Kerja TKA tetap akan mempekerjakan TKA tersebut",
+      "akibat": "Pemberi Kerja TKA harus mengajukan permohonan Pengesahan RPTKA",
+      "parameter": [],
+      "bukti": "TKA harus mengajukan permohonan Pengesahan RPTKA",
+      "confidence": 0.8,
+      "dasar_keyakinan": "tafsir",
+      "catatan": "Spasi OCR rusak pada baris 'Kerja TKA harus'; ayat (5) tidak tertangkap di chunk."
+    },
+    {
+      "norm_id": "TKA-RPTKA-BATAS-DUA-MINGGU",
+      "topik": "TKA",
+      "pasal": "Pasal 16 ayat (8)",
+      "iri_individu": "ktn:BatasAjukanRPTKADuaMinggu",
+      "jenis": "KetentuanTKA",
+      "kondisi": "Permohonan Pengesahan RPTKA diajukan karena tetap mempekerjakan TKA setelah jangka waktu berakhir",
+      "akibat": "Diajukan paling lambat 2 (dua) minggu sebelum berakhirnya jangka waktu jabatan TKA",
+      "parameter": [],
+      "bukti": "diajukan paling lambat 2 (dua) minggu sebelum berakhirnya jangka waktu jabatan TKA",
+      "confidence": 0.8,
+      "dasar_keyakinan": "tafsir",
+      "catatan": "Tidak ada parameter VOCAB bersatuan minggu; angka disimpan di teks akibat."
+    },
+    {
+      "norm_id": "TKA-VISA-DARURAT-BISNIS-PENELITIAN",
+      "topik": "TKA",
+      "pasal": "Pasal 20",
+      "iri_individu": "ktn:VisaDaruratBisnisPenelitian",
+      "jenis": "KetentuanTKA",
+      "kondisi": "TKA dibutuhkan pada jenis kegiatan produksi yang terhenti karena keadaan darurat, kunjungan bisnis, dan penelitian sebagaimana dimaksud dalam Pasal 19 ayat (1) huruf c",
+      "akibat": "Dapat masuk dan tinggal di wilayah Indonesia dengan menggunakan visa dan izin tinggal sesuai ketentuan keimigrasian",
+      "parameter": [],
+      "bukti": "dapat masuk dan tinggal di wilayah Indonesia dengan menggunakan visa dan izin tinggal",
+      "confidence": 0.9,
+      "dasar_keyakinan": "dikutip",
+      "catatan": "Pasal 19 tidak termasuk batang tubuh chunk ini."
+    },
+    {
+      "norm_id": "TKA-PERPANJANGAN-RPTKA-30-HARI-KERJA",
+      "topik": "TKA",
+      "pasal": "Pasal 21 ayat (2)",
+      "iri_individu": "ktn:BatasPerpanjangan30HariKerja",
+      "jenis": "KetentuanTKA",
+      "kondisi": "Pemberi Kerja TKA mengajukan permohonan perpanjangan Pengesahan RPTKA",
+      "akibat": "Diajukan paling lambat 30 (tiga puluh) hari kerja sebelum jangka waktu berakhir",
+      "parameter": [],
+      "bukti": "paling lambat 30 (tiga puluh) hari kerja sebelum jangka waktu berakhir",
+      "confidence": 0.82,
+      "dasar_keyakinan": "tafsir",
+      "catatan": "Rujukan 'ayat (l)' pada sumber adalah OCR untuk 'ayat (1)'."
+    },
+    {
+      "norm_id": "TKA-LAPOR-PK-BERAKHIR",
+      "topik": "TKA",
+      "pasal": "Pasal 21 ayat (3)",
+      "iri_individu": "ktn:LaporPKTKABerakhir",
+      "jenis": "KetentuanTKA",
+      "kondisi": "Perjanjian kerja TKA telah berakhir atau diakhiri sebelum jangka waktu perjanjian kerja berakhir",
+      "akibat": "Pemberi Kerja TKA wajib melaporkan kepada Menteri atau pejabat yang ditunjuk",
+      "parameter": [],
+      "bukti": "melaporkan kepada Menteri atau pejabat yang ditunjuk untuk perjanjian kerja TKA yang telah berakhir atau diakhiri sebelum jangka waktu perjanjian kerja berakhir",
+      "confidence": 0.75,
+      "dasar_keyakinan": "tafsir",
+      "catatan": "Fragmen OCR berada di bawah heading Pasal 21 namun isinya berbeda dari Pasal 21 ayat (3) bagian awal (persyaratan isi permohonan); kemungkinan milik pasal lain yang heading-nya hilang. Teks '0melaporkan' dibaca 'melaporkan'."
     }
   ],
   "kategori": [],
   "pengali_lembur": [],
   "program_jamsos": [],
   "cakupan": {
-    "lengkap": false,
-    "pasal_diekstrak": ["Pasal 2"],
-    "pasal_dilewati": [
-      { "pasal": "Pasal 3", "alasan": "kewajiban pemberi kerja TKA (RPTKA/DKPTKA), administratif" },
-      { "pasal": "Pasal 16", "alasan": "prosedur pengesahan RPTKA" },
-      { "pasal": "Pasal 20", "alasan": "TKA keadaan darurat/kunjungan bisnis/penelitian" },
-      { "pasal": "Pasal 21", "alasan": "perpanjangan pengesahan RPTKA" },
-      { "pasal": "Pasal 33", "alasan": "penyediaan data TKA" },
-      { "pasal": "Pasal 34", "alasan": "pembinaan penggunaan TKA" },
-      { "pasal": "Pasal 35", "alasan": "pengawasan penggunaan TKA" },
-      { "pasal": "Pasal 36", "alasan": "sanksi administratif" },
-      { "pasal": "Pasal 41", "alasan": "pencabutan pengesahan RPTKA" },
-      { "pasal": "Pasal 42", "alasan": "ketentuan lebih lanjut sanksi" },
-      { "pasal": "Pasal 43", "alasan": "pendanaan" },
-      { "pasal": "Pasal 44", "alasan": "ketentuan lain-lain (data terintegrasi)" }
+    "lengkap": true,
+    "pasal_diekstrak": [
+      "Pasal 16",
+      "Pasal 2",
+      "Pasal 20",
+      "Pasal 21",
+      "Pasal 3",
+      "Pasal 33",
+      "Pasal 34",
+      "Pasal 35",
+      "Pasal 41",
+      "Pasal 42",
+      "Pasal 43",
+      "Pasal 44"
     ],
-    "catatan": "Kualitas markdown sangat buruk: PDF hasil scan, OCR hanya menghasilkan sebagian pasal (heading 'Pasal2'/'Pasal3...' dan isi terpotong). Sebagian besar pasal 3-44 tidak terwakili. Pasal di luar urutan (mis. Pasal 185) adalah artefak OCR dari bagian Mengingat. Dokumen perlu diekstrak ulang dengan OCR lebih baik sebelum review penuh. Isi di luar Pasal 2 ditandai untuk peninjauan ulang."
+    "pasal_dilewati": [
+      {
+        "pasal": "Pasal 3",
+        "alasan": "tata cara pengesahan RPTKA (prosedural); teks ayat (1) hilang karena OCR"
+      },
+      {
+        "pasal": "Pasal 33",
+        "alasan": "kelembagaan/sistem informasi: penyediaan data TKA daring bagi dinas"
+      },
+      {
+        "pasal": "Pasal 34",
+        "alasan": "kelembagaan: pembinaan penggunaan TKA oleh kementerian/dinas"
+      },
+      {
+        "pasal": "Pasal 35",
+        "alasan": "kelembagaan pengawasan oleh Pengawas Ketenagakerjaan dan Pejabat Imigrasi"
+      },
+      {
+        "pasal": "Pasal 41",
+        "alasan": "tata cara: penyampaian pencabutan Pengesahan RPTKA untuk tindakan keimigrasian"
+      },
+      {
+        "pasal": "Pasal 42",
+        "alasan": "delegasi tata cara sanksi administratif ke Peraturan Menteri"
+      },
+      {
+        "pasal": "Pasal 43",
+        "alasan": "pendanaan (APBD dan sumber lain yang sah)"
+      },
+      {
+        "pasal": "Pasal 44",
+        "alasan": "ketentuan umum tata cara: proses penggunaan TKA melalui data bersama terintegrasi daring"
+      }
+    ],
+    "catatan": ""
   },
-  "tidak_termodelkan": [
-    {
-      "pasal": "Pasal 3-15",
-      "ringkasan": "Kewajiban/larangan pemberi kerja TKA, pengesahan RPTKA, DKPTKA",
-      "alasan": "butuh kelas KetentuanTKA yang lebih kaya + properti RPTKA/DKPTKA; dan markdown tidak lengkap"
-    }
-  ]
+  "tidak_termodelkan": []
 }

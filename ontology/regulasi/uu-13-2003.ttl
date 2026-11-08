@@ -17,37 +17,779 @@
     dct:source <https://peraturan.bpk.go.id/Details/43013/uu-no-13-tahun-2003> ;
     owl:imports <https://example.org/kbr/ketenagakerjaan> .
 
-ktn:CutiAnggotaRumahMeninggal a owl:NamedIndividual, ktn:PeristiwaCutiKhusus ;
+ktn:LaranganPenyediaJasaKegiatanPokok a owl:NamedIndividual, ktn:KetentuanAlihDaya ;
+    ktn:pasal "Pasal 66 ayat (1)" ;
+    dct:source reg:UU-13-2003 .
+
+ktn:PenyediaJasaBadanHukumIzin a owl:NamedIndividual, ktn:KetentuanAlihDaya ;
+    ktn:pasal "Pasal 66 ayat (3)" ;
+    dct:source reg:UU-13-2003 .
+
+ktn:PenyerahanSebagianPekerjaan a owl:NamedIndividual, ktn:KetentuanAlihDaya ;
+    ktn:pasal "Pasal 64" ;
+    dct:source reg:UU-13-2003 .
+
+ktn:PeralihanStatusPemborongan a owl:NamedIndividual, ktn:KetentuanAlihDaya ;
+    ktn:pasal "Pasal 65 ayat (8)" ;
+    dct:source reg:UU-13-2003 .
+
+ktn:PeralihanStatusPenyediaJasa a owl:NamedIndividual, ktn:KetentuanAlihDaya ;
+    ktn:pasal "Pasal 66 ayat (4)" ;
+    dct:source reg:UU-13-2003 .
+
+ktn:PerlindunganSetaraPemborongan a owl:NamedIndividual, ktn:KetentuanAlihDaya ;
+    ktn:pasal "Pasal 65 ayat (4)" ;
+    dct:source reg:UU-13-2003 .
+
+ktn:PemborongHarusBadanHukum a owl:NamedIndividual, ktn:KetentuanAlihDaya ;
+    ktn:pasal "Pasal 65 ayat (3)" ;
+    dct:source reg:UU-13-2003 .
+
+ktn:SyaratPekerjaanPemborongan a owl:NamedIndividual, ktn:KetentuanAlihDaya ;
+    ktn:pasal "Pasal 65 ayat (2)" ;
+    dct:source reg:UU-13-2003 .
+
+ktn:SyaratPenyediaJasaPekerja a owl:NamedIndividual, ktn:KetentuanAlihDaya ;
+    ktn:pasal "Pasal 66 ayat (2)" ;
+    dct:source reg:UU-13-2003 .
+
+ktn:CutiHaid a owl:NamedIndividual, ktn:PeristiwaCutiKhusus ;
+    ktn:pasal "Pasal 81 ayat (1)" ;
+    dct:source reg:UU-13-2003 .
+
+ktn:IstirahatAntaraJamKerja a owl:NamedIndividual, ktn:KetentuanWaktuKerja ;
+    ktn:pasal "Pasal 79 ayat (2) huruf a" ;
+    dct:source reg:UU-13-2003 .
+
+ktn:IstirahatMingguan5HariUu132003 a owl:NamedIndividual, ktn:KetentuanWaktuKerja ;
+    ktn:istirahatMingguanHari 2 ;
+    ktn:pasal "Pasal 79 ayat (2) huruf b" ;
+    dct:source reg:UU-13-2003 .
+
+ktn:IstirahatMingguan6HariUu132003 a owl:NamedIndividual, ktn:KetentuanWaktuKerja ;
+    ktn:istirahatMingguanHari 1 ;
+    ktn:pasal "Pasal 79 ayat (2) huruf b" ;
+    dct:source reg:UU-13-2003 .
+
+ktn:IstirahatPanjang a owl:NamedIndividual, ktn:KetentuanWaktuKerja ;
+    ktn:pasal "Pasal 79 ayat (2) huruf d" ;
+    dct:source reg:UU-13-2003 .
+
+ktn:CutiKeguguran a owl:NamedIndividual, ktn:PeristiwaCutiKhusus ;
+    ktn:cutiKeguguranBulan 1.5 ;
+    ktn:pasal "Pasal 82 ayat (2)" ;
+    dct:source reg:UU-13-2003 .
+
+ktn:CutiMelahirkan a owl:NamedIndividual, ktn:PeristiwaCutiKhusus ;
+    ktn:cutiMelahirkanBulanMax 1.5 ;
+    ktn:cutiMelahirkanBulanMin 1.5 ;
+    ktn:pasal "Pasal 82 ayat (1)" ;
+    dct:source reg:UU-13-2003 .
+
+ktn:KesempatanMenyusui a owl:NamedIndividual, ktn:PeristiwaCutiKhusus ;
+    ktn:pasal "Pasal 83" ;
+    dct:source reg:UU-13-2003 .
+
+ktn:CutiTahunan12Hari a owl:NamedIndividual, ktn:KetentuanWaktuKerja ;
+    ktn:hariDibayar 12 ;
+    ktn:pasal "Pasal 79 ayat (2) huruf c" ;
+    dct:source reg:UU-13-2003 .
+
+ktn:HakJaminanSosialNorma a owl:NamedIndividual, ktn:KetentuanJaminanSosial ;
+    ktn:pasal "Pasal 99 ayat (1)" ;
+    dct:source reg:UU-13-2003 .
+
+ktn:AnakDianggapBekerja a owl:NamedIndividual, ktn:KetentuanKIA ;
+    ktn:pasal "Pasal 73" ;
+    dct:source reg:UU-13-2003 .
+
+ktn:LaranganMempekerjakanAnak a owl:NamedIndividual, ktn:KetentuanKIA ;
+    ktn:pasal "Pasal 68" ;
+    dct:source reg:UU-13-2003 .
+
+ktn:LaranganPekerjaanTerburukAnak a owl:NamedIndividual, ktn:KetentuanKIA ;
+    ktn:pasal "Pasal 74" ;
+    dct:source reg:UU-13-2003 .
+
+ktn:AnakPekerjaanBakatMinat a owl:NamedIndividual, ktn:KetentuanKIA ;
+    ktn:pasal "Pasal 71" ;
+    dct:source reg:UU-13-2003 .
+
+ktn:AnakPekerjaanKurikulum a owl:NamedIndividual, ktn:KetentuanKIA ;
+    ktn:pasal "Pasal 70" ;
+    dct:source reg:UU-13-2003 .
+
+ktn:PemisahanTempatKerjaAnak a owl:NamedIndividual, ktn:KetentuanKIA ;
+    ktn:pasal "Pasal 72" ;
+    dct:source reg:UU-13-2003 .
+
+ktn:PengecualianAnak13Sampai15 a owl:NamedIndividual, ktn:KetentuanKIA ;
+    ktn:pasal "Pasal 69 ayat (1)" ;
+    dct:source reg:UU-13-2003 .
+
+ktn:PengecualianUsahaKeluarga a owl:NamedIndividual, ktn:KetentuanKIA ;
+    ktn:pasal "Pasal 69 ayat (3)" ;
+    dct:source reg:UU-13-2003 .
+
+ktn:SyaratPekerjaanRinganAnak a owl:NamedIndividual, ktn:KetentuanKIA ;
+    ktn:pasal "Pasal 69 ayat (2)" ;
+    dct:source reg:UU-13-2003 .
+
+ktn:UpahLemburHariLibur a owl:NamedIndividual, ktn:KetentuanLembur ;
+    ktn:pasal "Pasal 85 ayat (3)" ;
+    dct:source reg:UU-13-2003 .
+
+ktn:KerjaHariLiburResmi a owl:NamedIndividual, ktn:KetentuanLembur ;
+    ktn:pasal "Pasal 85 ayat (2)" ;
+    dct:source reg:UU-13-2003 .
+
+ktn:SyaratKerjaLembur a owl:NamedIndividual, ktn:KetentuanLembur ;
+    ktn:jamLemburMaksPerHari 3 ;
+    ktn:jamLemburMaksPerMinggu 14 ;
+    ktn:pasal "Pasal 78 ayat (1)" ;
+    dct:source reg:UU-13-2003 .
+
+ktn:KewajibanBayarUpahLemburUu132003 a owl:NamedIndividual, ktn:KetentuanLembur ;
+    ktn:pasal "Pasal 78 ayat (2)" ;
+    dct:source reg:UU-13-2003 .
+
+ktn:AhliWarisPengusahaMengakhiriPK a owl:NamedIndividual, ktn:AlasanPHK ;
+    ktn:pasal "Pasal 61 ayat (4)" ;
+    dct:source reg:UU-13-2003 .
+
+ktn:PHKEfisiensi a owl:NamedIndividual, ktn:AlasanPHK ;
+    ktn:pengaliUP 2 ;
+    ktn:pengaliUPMK 1 ;
+    ktn:pasal "Pasal 164 ayat (3)" ;
+    dct:source reg:UU-13-2003 .
+
+ktn:HakAhliWarisPekerja a owl:NamedIndividual, ktn:AlasanPHK ;
+    ktn:pasal "Pasal 61 ayat (5)" ;
+    dct:source reg:UU-13-2003 .
+
+ktn:PHKKesalahanBerat a owl:NamedIndividual, ktn:AlasanPHK ;
+    ktn:pasal "Pasal 158 ayat (1)" ;
+    dct:source reg:UU-13-2003 .
+
+ktn:BuktiKesalahanBerat a owl:NamedIndividual, ktn:AlasanPHK ;
+    ktn:pasal "Pasal 158 ayat (2)" ;
+    dct:source reg:UU-13-2003 .
+
+ktn:UangPisahKesalahanBerat a owl:NamedIndividual, ktn:AlasanPHK ;
+    ktn:pasal "Pasal 158 ayat (4)" ;
+    dct:source reg:UU-13-2003 .
+
+ktn:UPHKesalahanBerat a owl:NamedIndividual, ktn:AlasanPHK ;
+    ktn:pasal "Pasal 158 ayat (3)" ;
+    dct:source reg:UU-13-2003 .
+
+ktn:LaranganPHKKarenaAktivitasSerikat a owl:NamedIndividual, ktn:AlasanPHK ;
+    ktn:pasal "Pasal 153 ayat (1) huruf g" ;
+    dct:source reg:UU-13-2003 .
+
+ktn:LaranganPHKKarenaCacatSakitKerja a owl:NamedIndividual, ktn:AlasanPHK ;
+    ktn:pasal "Pasal 153 ayat (1) huruf j" ;
+    dct:source reg:UU-13-2003 .
+
+ktn:LaranganPHKKarenaDiskriminasi a owl:NamedIndividual, ktn:AlasanPHK ;
+    ktn:pasal "Pasal 153 ayat (1) huruf i" ;
+    dct:source reg:UU-13-2003 .
+
+ktn:LaranganPHKKarenaHamil a owl:NamedIndividual, ktn:AlasanPHK ;
+    ktn:pasal "Pasal 153 ayat (1) huruf e" ;
+    dct:source reg:UU-13-2003 .
+
+ktn:LaranganPHKKarenaIbadah a owl:NamedIndividual, ktn:AlasanPHK ;
+    ktn:pasal "Pasal 153 ayat (1) huruf c" ;
+    dct:source reg:UU-13-2003 .
+
+ktn:LaranganPHKKarenaKewajibanNegara a owl:NamedIndividual, ktn:AlasanPHK ;
+    ktn:pasal "Pasal 153 ayat (1) huruf b" ;
+    dct:source reg:UU-13-2003 .
+
+ktn:LaranganPHKKarenaMengadukanPidana a owl:NamedIndividual, ktn:AlasanPHK ;
+    ktn:pasal "Pasal 153 ayat (1) huruf h" ;
+    dct:source reg:UU-13-2003 .
+
+ktn:LaranganPHKKarenaMenikah a owl:NamedIndividual, ktn:AlasanPHK ;
+    ktn:pasal "Pasal 153 ayat (1) huruf d" ;
+    dct:source reg:UU-13-2003 .
+
+ktn:LaranganPHKKarenaPertalianDarah a owl:NamedIndividual, ktn:AlasanPHK ;
+    ktn:pasal "Pasal 153 ayat (1) huruf f" ;
+    dct:source reg:UU-13-2003 .
+
+ktn:LaranganPHKKarenaSakit a owl:NamedIndividual, ktn:AlasanPHK ;
+    ktn:pasal "Pasal 153 ayat (1) huruf a" ;
+    dct:source reg:UU-13-2003 .
+
+ktn:HakPekerjaMangkir a owl:NamedIndividual, ktn:AlasanPHK ;
+    ktn:pasal "Pasal 168 ayat (3)" ;
+    dct:source reg:UU-13-2003 .
+
+ktn:PHKKarenaMangkir a owl:NamedIndividual, ktn:AlasanPHK ;
+    ktn:pasal "Pasal 168 ayat (1)" ;
+    dct:source reg:UU-13-2003 .
+
+ktn:SyaratPengunduranDiri a owl:NamedIndividual, ktn:AlasanPHK ;
+    ktn:pasal "Pasal 162 ayat (3)" ;
+    dct:source reg:UU-13-2003 .
+
+ktn:PengunduranDiriTanpaPenetapan a owl:NamedIndividual, ktn:AlasanPHK ;
+    ktn:pasal "Pasal 162 ayat (4)" ;
+    dct:source reg:UU-13-2003 .
+
+ktn:UangPisahPengunduranDiri a owl:NamedIndividual, ktn:AlasanPHK ;
+    ktn:pasal "Pasal 162 ayat (2)" ;
+    dct:source reg:UU-13-2003 .
+
+ktn:UPHPengunduranDiri a owl:NamedIndividual, ktn:AlasanPHK ;
+    ktn:pasal "Pasal 162 ayat (1)" ;
+    dct:source reg:UU-13-2003 .
+
+ktn:HakAhliWarisKarenaMeninggal a owl:NamedIndividual, ktn:AlasanPHK ;
+    ktn:pengaliUP 2 ;
+    ktn:pengaliUPMK 1 ;
+    ktn:pasal "Pasal 166" ;
+    dct:source reg:UU-13-2003 .
+
+ktn:PHKOlehPekerjaKarenaPerbuatanPengusaha a owl:NamedIndividual, ktn:AlasanPHK ;
+    ktn:pasal "Pasal 169 ayat (1)" ;
+    dct:source reg:UU-13-2003 .
+
+ktn:PesangonPHKOlehPekerja a owl:NamedIndividual, ktn:AlasanPHK ;
+    ktn:pengaliUP 2 ;
+    ktn:pengaliUPMK 1 ;
+    ktn:pasal "Pasal 169 ayat (2)" ;
+    dct:source reg:UU-13-2003 .
+
+ktn:PHKOlehPekerjaTidakTerbukti a owl:NamedIndividual, ktn:AlasanPHK ;
+    ktn:pasal "Pasal 169 ayat (3)" ;
+    dct:source reg:UU-13-2003 .
+
+ktn:PHKKarenaPailit a owl:NamedIndividual, ktn:AlasanPHK ;
+    ktn:pengaliUP 1 ;
+    ktn:pengaliUPMK 1 ;
+    ktn:pasal "Pasal 165" ;
+    dct:source reg:UU-13-2003 .
+
+ktn:PesangonPelanggaranSP a owl:NamedIndividual, ktn:AlasanPHK ;
+    ktn:pengaliUP 1 ;
+    ktn:pengaliUPMK 1 ;
+    ktn:pasal "Pasal 161 ayat (3)" ;
+    dct:source reg:UU-13-2003 .
+
+ktn:PHKSetelahTigaSP a owl:NamedIndividual, ktn:AlasanPHK ;
+    ktn:pasal "Pasal 161 ayat (1)" ;
+    dct:source reg:UU-13-2003 .
+
+ktn:PHKSetelahDitahan6Bulan a owl:NamedIndividual, ktn:AlasanPHK ;
+    ktn:pasal "Pasal 160 ayat (3)" ;
+    dct:source reg:UU-13-2003 .
+
+ktn:WajibMempekerjakanKembaliJikaBebas a owl:NamedIndividual, ktn:AlasanPHK ;
+    ktn:pasal "Pasal 160 ayat (4)" ;
+    dct:source reg:UU-13-2003 .
+
+ktn:PHKJikaDinyatakanBersalah a owl:NamedIndividual, ktn:AlasanPHK ;
+    ktn:pasal "Pasal 160 ayat (5)" ;
+    dct:source reg:UU-13-2003 .
+
+ktn:PHKPenahananTanpaPenetapan a owl:NamedIndividual, ktn:AlasanPHK ;
+    ktn:pasal "Pasal 160 ayat (6)" ;
+    dct:source reg:UU-13-2003 .
+
+ktn:HakPenahananUPMKUPH a owl:NamedIndividual, ktn:AlasanPHK ;
+    ktn:pengaliUPMK 1 ;
+    ktn:pasal "Pasal 160 ayat (7)" ;
+    dct:source reg:UU-13-2003 .
+
+ktn:PHKPerluPenetapanLPPHI a owl:NamedIndividual, ktn:AlasanPHK ;
+    ktn:pasal "Pasal 151 ayat (3)" ;
+    dct:source reg:UU-13-2003 .
+
+ktn:HakPekerjaPadaPengalihanPerusahaan a owl:NamedIndividual, ktn:AlasanPHK ;
+    ktn:pasal "Pasal 61 ayat (3)" ;
+    dct:source reg:UU-13-2003 .
+
+ktn:PKTidakBerakhirPengusahaMeninggal a owl:NamedIndividual, ktn:AlasanPHK ;
+    ktn:pasal "Pasal 61 ayat (2)" ;
+    dct:source reg:UU-13-2003 .
+
+ktn:PerhitunganPensiunIuranBersama a owl:NamedIndividual, ktn:AlasanPHK ;
+    ktn:pasal "Pasal 167 ayat (3)" ;
+    dct:source reg:UU-13-2003 .
+
+ktn:JHTTetapSaatPensiun a owl:NamedIndividual, ktn:KetentuanJaminanSosial ;
+    ktn:pasal "Pasal 167 ayat (6)" ;
+    dct:source reg:UU-13-2003 .
+
+ktn:PensiunIuranPenuhPengusaha a owl:NamedIndividual, ktn:AlasanPHK ;
+    ktn:pasal "Pasal 167 ayat (1)" ;
+    dct:source reg:UU-13-2003 .
+
+ktn:SelisihManfaatPensiun a owl:NamedIndividual, ktn:AlasanPHK ;
+    ktn:pengaliUP 2 ;
+    ktn:pengaliUPMK 1 ;
+    ktn:pasal "Pasal 167 ayat (2)" ;
+    dct:source reg:UU-13-2003 .
+
+ktn:PensiunTanpaProgram a owl:NamedIndividual, ktn:AlasanPHK ;
+    ktn:pengaliUP 2 ;
+    ktn:pengaliUPMK 1 ;
+    ktn:pasal "Pasal 167 ayat (5)" ;
+    dct:source reg:UU-13-2003 .
+
+ktn:PHKPerubahanStatusPengusahaTidakBersedia a owl:NamedIndividual, ktn:AlasanPHK ;
+    ktn:pengaliUP 2 ;
+    ktn:pengaliUPMK 1 ;
+    ktn:pasal "Pasal 163 ayat (2)" ;
+    dct:source reg:UU-13-2003 .
+
+ktn:PHKPerubahanStatusPekerjaTidakBersedia a owl:NamedIndividual, ktn:AlasanPHK ;
+    ktn:pengaliUP 1 ;
+    ktn:pengaliUPMK 1 ;
+    ktn:pasal "Pasal 163 ayat (1)" ;
+    dct:source reg:UU-13-2003 .
+
+ktn:PesangonMinimum a owl:NamedIndividual, ktn:AlasanPHK ;
+    ktn:pasal "Pasal 156 ayat (2)" ;
+    dct:source reg:UU-13-2003 .
+
+ktn:KewajibanBayarPesangonUPMKUPH a owl:NamedIndividual, ktn:AlasanPHK ;
+    ktn:pasal "Pasal 156 ayat (1)" ;
+    dct:source reg:UU-13-2003 .
+
+ktn:PerjanjianKerjaBerakhir a owl:NamedIndividual, ktn:AlasanPHK ;
+    ktn:pasal "Pasal 61 ayat (1)" ;
+    dct:source reg:UU-13-2003 .
+
+ktn:PHKSakitBerkepanjangan a owl:NamedIndividual, ktn:AlasanPHK ;
+    ktn:pengaliUP 2 ;
+    ktn:pengaliUPMK 2 ;
+    ktn:pasal "Pasal 172" ;
+    dct:source reg:UU-13-2003 .
+
+ktn:SkorsingTetapBayarUpah a owl:NamedIndividual, ktn:KetentuanUpah ;
+    ktn:pasal "Pasal 155 ayat (3)" ;
+    dct:source reg:UU-13-2003 .
+
+ktn:MasaBerlakuSuratPeringatan a owl:NamedIndividual, ktn:AlasanPHK ;
+    ktn:pasal "Pasal 161 ayat (2)" ;
+    dct:source reg:UU-13-2003 .
+
+ktn:PHKTanpaDasarBatal a owl:NamedIndividual, ktn:AlasanPHK ;
+    ktn:pasal "Pasal 170" ;
+    dct:source reg:UU-13-2003 .
+
+ktn:PHKTanpaPenetapanBatal a owl:NamedIndividual, ktn:AlasanPHK ;
+    ktn:pasal "Pasal 155 ayat (1)" ;
+    dct:source reg:UU-13-2003 .
+
+ktn:PHKTanpaPenetapanDikecualikan a owl:NamedIndividual, ktn:AlasanPHK ;
+    ktn:pasal "Pasal 154" ;
+    dct:source reg:UU-13-2003 .
+
+ktn:BuktiKerugianAudit a owl:NamedIndividual, ktn:AlasanPHK ;
+    ktn:pasal "Pasal 164 ayat (2)" ;
+    dct:source reg:UU-13-2003 .
+
+ktn:PHKTutupKarenaRugiForceMajeur a owl:NamedIndividual, ktn:AlasanPHK ;
+    ktn:pengaliUP 1 ;
+    ktn:pengaliUPMK 1 ;
+    ktn:pasal "Pasal 164 ayat (1)" ;
+    dct:source reg:UU-13-2003 .
+
+ktn:UpayaHindariPHK a owl:NamedIndividual, ktn:AlasanPHK ;
+    ktn:pasal "Pasal 151 ayat (1)" ;
+    dct:source reg:UU-13-2003 .
+
+ktn:UangPenggantianHak a owl:NamedIndividual, ktn:AlasanPHK ;
+    ktn:pasal "Pasal 156 ayat (4)" ;
+    dct:source reg:UU-13-2003 .
+
+ktn:UPMKMinimum a owl:NamedIndividual, ktn:AlasanPHK ;
+    ktn:pasal "Pasal 156 ayat (3)" ;
+    dct:source reg:UU-13-2003 .
+
+ktn:PHKWajibDirundingkan a owl:NamedIndividual, ktn:AlasanPHK ;
+    ktn:pasal "Pasal 151 ayat (2)" ;
+    dct:source reg:UU-13-2003 .
+
+ktn:BiayaPKDitanggungPengusaha a owl:NamedIndividual, ktn:KetentuanPKWT ;
+    ktn:pasal "Pasal 53" ;
+    dct:source reg:UU-13-2003 .
+
+ktn:GantiRugiPengakhiranPKWT a owl:NamedIndividual, ktn:KetentuanPKWT ;
+    ktn:pasal "Pasal 62" ;
+    dct:source reg:UU-13-2003 .
+
+ktn:PKWTTertulisBahasaIndonesia a owl:NamedIndividual, ktn:KetentuanPKWT ;
+    ktn:pasal "Pasal 57 ayat (1)" ;
+    dct:source reg:UU-13-2003 .
+
+ktn:BatasJangkaWaktuPKWTUu132003 a owl:NamedIndividual, ktn:KetentuanPKWT ;
+    ktn:batasTahunPKWT 2 ;
+    ktn:pasal "Pasal 59 ayat (4)" ;
+    dct:source reg:UU-13-2003 .
+
+ktn:PKWTTidakMemenuhiSyaratMenjadiPKWTT a owl:NamedIndividual, ktn:KetentuanPKWT ;
+    ktn:pasal "Pasal 59 ayat (7)" ;
+    dct:source reg:UU-13-2003 .
+
+ktn:PKWTLaranganPekerjaanTetap a owl:NamedIndividual, ktn:KetentuanPKWT ;
+    ktn:pasal "Pasal 59 ayat (2)" ;
+    dct:source reg:UU-13-2003 .
+
+ktn:LaranganMasaPercobaanPKWT a owl:NamedIndividual, ktn:KetentuanPKWT ;
+    ktn:pasal "Pasal 58 ayat (1)" ;
+    dct:source reg:UU-13-2003 .
+
+ktn:PKWTLisanMenjadiPKWTT a owl:NamedIndividual, ktn:KetentuanPKWT ;
+    ktn:pasal "Pasal 57 ayat (2)" ;
+    dct:source reg:UU-13-2003 .
+
+ktn:PKWTPekerjaanTertentu a owl:NamedIndividual, ktn:KetentuanPKWT ;
+    ktn:batasTahunPKWT 3 ;
+    ktn:pasal "Pasal 59 ayat (1)" ;
+    dct:source reg:UU-13-2003 .
+
+ktn:PembaruanPKWTSetelahTenggang a owl:NamedIndividual, ktn:KetentuanPKWT ;
+    ktn:batasTahunPKWT 2 ;
+    ktn:pasal "Pasal 59 ayat (6)" ;
+    dct:source reg:UU-13-2003 .
+
+ktn:PemberitahuanPerpanjanganPKWT a owl:NamedIndividual, ktn:KetentuanPKWT ;
+    ktn:pasal "Pasal 59 ayat (5)" ;
+    dct:source reg:UU-13-2003 .
+
+ktn:MasaPercobaanPKWTT a owl:NamedIndividual, ktn:KetentuanPKWT ;
+    ktn:pasal "Pasal 60 ayat (1)" ;
+    dct:source reg:UU-13-2003 .
+
+ktn:SuratPengangkatanPKWTTLisan a owl:NamedIndividual, ktn:KetentuanPKWT ;
+    ktn:pasal "Pasal 63 ayat (1)" ;
+    dct:source reg:UU-13-2003 .
+
+ktn:PKWTTidakMemenuhiSyaratBatal a owl:NamedIndividual, ktn:KetentuanPKWT ;
+    ktn:pasal "Pasal 52 ayat (3)" ;
+    dct:source reg:UU-13-2003 .
+
+ktn:PKWTDapatDibatalkan a owl:NamedIndividual, ktn:KetentuanPKWT ;
+    ktn:pasal "Pasal 52 ayat (2)" ;
+    dct:source reg:UU-13-2003 .
+
+ktn:PKTTidakDapatDitarikKembali a owl:NamedIndividual, ktn:KetentuanPKWT ;
+    ktn:pasal "Pasal 55" ;
+    dct:source reg:UU-13-2003 .
+
+ktn:IzinTertulisTKA a owl:NamedIndividual, ktn:KetentuanTKA ;
+    ktn:pasal "Pasal 42 ayat (1)" ;
+    dct:source reg:UU-13-2003 .
+
+ktn:TKAJabatanWaktuTertentu a owl:NamedIndividual, ktn:KetentuanTKA ;
+    ktn:pasal "Pasal 42 ayat (4)" ;
+    dct:source reg:UU-13-2003 .
+
+ktn:KompensasiTKA a owl:NamedIndividual, ktn:KetentuanTKA ;
+    ktn:pasal "Pasal 47 ayat (1)" ;
+    dct:source reg:UU-13-2003 .
+
+ktn:LaranganJabatanPersonaliaTKA a owl:NamedIndividual, ktn:KetentuanTKA ;
+    ktn:pasal "Pasal 46 ayat (1)" ;
+    dct:source reg:UU-13-2003 .
+
+ktn:LaranganTKAOlehPerorangan a owl:NamedIndividual, ktn:KetentuanTKA ;
+    ktn:pasal "Pasal 42 ayat (2)" ;
+    dct:source reg:UU-13-2003 .
+
+ktn:PelatihanPendampingTKA a owl:NamedIndividual, ktn:KetentuanTKA ;
+    ktn:pasal "Pasal 45 ayat (1) huruf b" ;
+    dct:source reg:UU-13-2003 .
+
+ktn:PemulanganTKA a owl:NamedIndividual, ktn:KetentuanTKA ;
+    ktn:pasal "Pasal 48" ;
+    dct:source reg:UU-13-2003 .
+
+ktn:PendampingWNIUntukTKA a owl:NamedIndividual, ktn:KetentuanTKA ;
+    ktn:pasal "Pasal 45 ayat (1) huruf a" ;
+    dct:source reg:UU-13-2003 .
+
+ktn:PenggantianTKA a owl:NamedIndividual, ktn:KetentuanTKA ;
+    ktn:pasal "Pasal 42 ayat (6)" ;
+    dct:source reg:UU-13-2003 .
+
+ktn:RencanaPenggunaanTKA a owl:NamedIndividual, ktn:KetentuanTKA ;
+    ktn:pasal "Pasal 43 ayat (1)" ;
+    dct:source reg:UU-13-2003 .
+
+ktn:StandarKompetensiTKA a owl:NamedIndividual, ktn:KetentuanTKA ;
+    ktn:pasal "Pasal 44 ayat (1)" ;
+    dct:source reg:UU-13-2003 .
+
+ktn:BantuanKeluargaPekerjaDitahanUu132003 a owl:NamedIndividual, ktn:KetentuanUpah ;
+    ktn:pasal "Pasal 160 ayat (1)" ;
+    dct:source reg:UU-13-2003 .
+
+ktn:BatasBantuanKeluarga6Bulan a owl:NamedIndividual, ktn:KetentuanUpah ;
+    ktn:pasal "Pasal 160 ayat (2)" ;
+    dct:source reg:UU-13-2003 .
+
+ktn:UpahBoronganCuacaRata12Bulan a owl:NamedIndividual, ktn:KetentuanUpah ;
+    ktn:pasal "Pasal 157 ayat (4)" ;
+    dct:source reg:UU-13-2003 .
+
+ktn:UpahCutiKeluarga2Hari a owl:NamedIndividual, ktn:PeristiwaCutiKhusus ;
+    ktn:hariDibayar 2 ;
+    ktn:pasal "Pasal 93 ayat (4) huruf b sampai f" ;
+    dct:source reg:UU-13-2003 .
+
+ktn:UpahCutiKematianSerumah a owl:NamedIndividual, ktn:PeristiwaCutiKhusus ;
     ktn:hariDibayar 1 ;
-    ktn:pasal "Pasal 93 ayat (4)g" ;
+    ktn:pasal "Pasal 93 ayat (4) huruf g" ;
     dct:source reg:UU-13-2003 .
 
-ktn:CutiBaptisAnak a owl:NamedIndividual, ktn:PeristiwaCutiKhusus ;
-    ktn:hariDibayar 2 ;
-    ktn:pasal "Pasal 93 ayat (4)d" ;
-    dct:source reg:UU-13-2003 .
-
-ktn:CutiIstriMelahirkan a owl:NamedIndividual, ktn:PeristiwaCutiKhusus ;
-    ktn:hariDibayar 2 ;
-    ktn:pasal "Pasal 93 ayat (4)e" ;
-    dct:source reg:UU-13-2003 .
-
-ktn:CutiKeluargaMeninggal a owl:NamedIndividual, ktn:PeristiwaCutiKhusus ;
-    ktn:hariDibayar 2 ;
-    ktn:pasal "Pasal 93 ayat (4)f" ;
-    dct:source reg:UU-13-2003 .
-
-ktn:CutiKhitanAnak a owl:NamedIndividual, ktn:PeristiwaCutiKhusus ;
-    ktn:hariDibayar 2 ;
-    ktn:pasal "Pasal 93 ayat (4)c" ;
-    dct:source reg:UU-13-2003 .
-
-ktn:CutiMenikah a owl:NamedIndividual, ktn:PeristiwaCutiKhusus ;
+ktn:UpahCutiMenikah a owl:NamedIndividual, ktn:PeristiwaCutiKhusus ;
     ktn:hariDibayar 3 ;
-    ktn:pasal "Pasal 93 ayat (4)a" ;
+    ktn:pasal "Pasal 93 ayat (4) huruf a" ;
     dct:source reg:UU-13-2003 .
 
-ktn:CutiMenikahkanAnak a owl:NamedIndividual, ktn:PeristiwaCutiKhusus ;
-    ktn:hariDibayar 2 ;
-    ktn:pasal "Pasal 93 ayat (4)b" ;
+ktn:DendaKeterlambatanUpahUu132003 a owl:NamedIndividual, ktn:KetentuanUpah ;
+    ktn:pasal "Pasal 95 ayat (2)" ;
     dct:source reg:UU-13-2003 .
+
+ktn:DendaPelanggaranPekerja a owl:NamedIndividual, ktn:KetentuanUpah ;
+    ktn:pasal "Pasal 95 ayat (1)" ;
+    dct:source reg:UU-13-2003 .
+
+ktn:UpahDidahulukanSaatPailit a owl:NamedIndividual, ktn:KetentuanUpah ;
+    ktn:pasal "Pasal 95 ayat (4)" ;
+    dct:source reg:UU-13-2003 .
+
+ktn:UpahBulananDariHarian a owl:NamedIndividual, ktn:KetentuanUpah ;
+    ktn:pasal "Pasal 157 ayat (2)" ;
+    dct:source reg:UU-13-2003 .
+
+ktn:KadaluwarsaTuntutanUpah a owl:NamedIndividual, ktn:KetentuanUpah ;
+    ktn:pasal "Pasal 96" ;
+    dct:source reg:UU-13-2003 .
+
+ktn:KesepakatanUpahBatalDemiHukum a owl:NamedIndividual, ktn:KetentuanUpah ;
+    ktn:pasal "Pasal 91 ayat (2)" ;
+    dct:source reg:UU-13-2003 .
+
+ktn:KesepakatanUpahTidakBolehLebihRendah a owl:NamedIndividual, ktn:KetentuanUpah ;
+    ktn:pasal "Pasal 91 ayat (1)" ;
+    dct:source reg:UU-13-2003 .
+
+ktn:KomponenUpahDasarPesangon a owl:NamedIndividual, ktn:KetentuanUpah ;
+    ktn:pasal "Pasal 157 ayat (1)" ;
+    dct:source reg:UU-13-2003 .
+
+ktn:LaranganUpahDiBawahMinimumUu132003 a owl:NamedIndividual, ktn:KetentuanUpah ;
+    ktn:pasal "Pasal 90 ayat (1)" ;
+    dct:source reg:UU-13-2003 .
+
+ktn:UpahMinimumBerdasarkanKHL a owl:NamedIndividual, ktn:KetentuanUpah ;
+    ktn:pasal "Pasal 88 ayat (4)" ;
+    dct:source reg:UU-13-2003 .
+
+ktn:UpahMinimumWilayahSektor a owl:NamedIndividual, ktn:KetentuanUpah ;
+    ktn:pasal "Pasal 89 ayat (1)" ;
+    dct:source reg:UU-13-2003 .
+
+ktn:UpahSelamaMogokSah a owl:NamedIndividual, ktn:KetentuanUpah ;
+    ktn:pasal "Pasal 145" ;
+    dct:source reg:UU-13-2003 .
+
+ktn:PenangguhanUpahMinimum a owl:NamedIndividual, ktn:KetentuanUpah ;
+    ktn:pasal "Pasal 90 ayat (2)" ;
+    dct:source reg:UU-13-2003 .
+
+ktn:HakPenghasilanLayak a owl:NamedIndividual, ktn:KetentuanUpah ;
+    ktn:pasal "Pasal 88 ayat (1)" ;
+    dct:source reg:UU-13-2003 .
+
+ktn:PeninjauanUpahBerkalaUu132003 a owl:NamedIndividual, ktn:KetentuanUpah ;
+    ktn:pasal "Pasal 92 ayat (2)" ;
+    dct:source reg:UU-13-2003 .
+
+ktn:UpahPenuhSelamaIstirahat a owl:NamedIndividual, ktn:KetentuanUpah ;
+    ktn:pasal "Pasal 84" ;
+    dct:source reg:UU-13-2003 .
+
+ktn:UpahMasaPercobaanMinimum a owl:NamedIndividual, ktn:KetentuanUpah ;
+    ktn:pasal "Pasal 60 ayat (2)" ;
+    dct:source reg:UU-13-2003 .
+
+ktn:UpahPokokMinimal75Persen a owl:NamedIndividual, ktn:KetentuanUpah ;
+    ktn:pasal "Pasal 94" ;
+    dct:source reg:UU-13-2003 .
+
+ktn:UpahSakit4BulanKedua a owl:NamedIndividual, ktn:KetentuanUpah ;
+    ktn:bulanUpah75 4 ;
+    ktn:pasal "Pasal 93 ayat (3) huruf b" ;
+    dct:source reg:UU-13-2003 .
+
+ktn:UpahSakit4BulanKetiga a owl:NamedIndividual, ktn:KetentuanUpah ;
+    ktn:pasal "Pasal 93 ayat (3) huruf c" ;
+    dct:source reg:UU-13-2003 .
+
+ktn:UpahSakit4BulanPertama a owl:NamedIndividual, ktn:KetentuanUpah ;
+    ktn:bulanUpahPenuh 4 ;
+    ktn:pasal "Pasal 93 ayat (3) huruf a" ;
+    dct:source reg:UU-13-2003 .
+
+ktn:UpahSakitBulanSelanjutnya a owl:NamedIndividual, ktn:KetentuanUpah ;
+    ktn:pasal "Pasal 93 ayat (3) huruf d" ;
+    dct:source reg:UU-13-2003 .
+
+ktn:SanksiPidanaTidakHapusKewajibanUpah a owl:NamedIndividual, ktn:KetentuanUpah ;
+    ktn:pasal "Pasal 189" ;
+    dct:source reg:UU-13-2003 .
+
+ktn:UpahSatuanHasilRata12Bulan a owl:NamedIndividual, ktn:KetentuanUpah ;
+    ktn:pasal "Pasal 157 ayat (3)" ;
+    dct:source reg:UU-13-2003 .
+
+ktn:StrukturSkalaUpah a owl:NamedIndividual, ktn:KetentuanUpah ;
+    ktn:pasal "Pasal 92 ayat (1)" ;
+    dct:source reg:UU-13-2003 .
+
+ktn:UpahTidakDibayarJikaTidakBekerjaUu132003 a owl:NamedIndividual, ktn:KetentuanUpah ;
+    ktn:pasal "Pasal 93 ayat (1)" ;
+    dct:source reg:UU-13-2003 .
+
+ktn:UpahTetapDibayarPadaKeadaanTertentu a owl:NamedIndividual, ktn:KetentuanUpah ;
+    ktn:pasal "Pasal 93 ayat (2)" ;
+    dct:source reg:UU-13-2003 .
+
+ktn:WaktuKerja5HariUu132003 a owl:NamedIndividual, ktn:KetentuanWaktuKerja ;
+    ktn:jamKerjaPerHari 8 ;
+    ktn:jamKerjaPerMinggu 40 ;
+    ktn:jumlahHariKerjaPerMinggu 5 ;
+    ktn:pasal "Pasal 77 ayat (2) huruf b" ;
+    dct:source reg:UU-13-2003 .
+
+ktn:WaktuKerja6HariUu132003 a owl:NamedIndividual, ktn:KetentuanWaktuKerja ;
+    ktn:jamKerjaPerHari 7 ;
+    ktn:jamKerjaPerMinggu 40 ;
+    ktn:jumlahHariKerjaPerMinggu 6 ;
+    ktn:pasal "Pasal 77 ayat (2) huruf a" ;
+    dct:source reg:UU-13-2003 .
+
+ktn:AngkutanPerempuanKerjaMalam a owl:NamedIndividual, ktn:KetentuanWaktuKerja ;
+    ktn:pasal "Pasal 76 ayat (4)" ;
+    dct:source reg:UU-13-2003 .
+
+ktn:KewajibanPengusahaKerjaMalam a owl:NamedIndividual, ktn:KetentuanWaktuKerja ;
+    ktn:pasal "Pasal 76 ayat (3)" ;
+    dct:source reg:UU-13-2003 .
+
+ktn:LaranganKerjaMalamPerempuanAnak a owl:NamedIndividual, ktn:KetentuanWaktuKerja ;
+    ktn:pasal "Pasal 76 ayat (1)" ;
+    dct:source reg:UU-13-2003 .
+
+ktn:LaranganKerjaMalamPerempuanHamil a owl:NamedIndividual, ktn:KetentuanWaktuKerja ;
+    ktn:pasal "Pasal 76 ayat (2)" ;
+    dct:source reg:UU-13-2003 .
+
+ktn:UP-0-12-UU132003 a owl:NamedIndividual, ktn:KategoriUP ;
+    ktn:minBulan 0 ;
+    ktn:maxBulan 12 ;
+    ktn:upDasarBulan 1 ;
+    ktn:pasal "Pasal 156 ayat (2)a" .
+
+ktn:UP-12-24-UU132003 a owl:NamedIndividual, ktn:KategoriUP ;
+    ktn:minBulan 12 ;
+    ktn:maxBulan 24 ;
+    ktn:upDasarBulan 2 ;
+    ktn:pasal "Pasal 156 ayat (2)b" .
+
+ktn:UP-24-36-UU132003 a owl:NamedIndividual, ktn:KategoriUP ;
+    ktn:minBulan 24 ;
+    ktn:maxBulan 36 ;
+    ktn:upDasarBulan 3 ;
+    ktn:pasal "Pasal 156 ayat (2)c" .
+
+ktn:UP-36-48-UU132003 a owl:NamedIndividual, ktn:KategoriUP ;
+    ktn:minBulan 36 ;
+    ktn:maxBulan 48 ;
+    ktn:upDasarBulan 4 ;
+    ktn:pasal "Pasal 156 ayat (2)d" .
+
+ktn:UP-48-60-UU132003 a owl:NamedIndividual, ktn:KategoriUP ;
+    ktn:minBulan 48 ;
+    ktn:maxBulan 60 ;
+    ktn:upDasarBulan 5 ;
+    ktn:pasal "Pasal 156 ayat (2)e" .
+
+ktn:UP-60-72-UU132003 a owl:NamedIndividual, ktn:KategoriUP ;
+    ktn:minBulan 60 ;
+    ktn:maxBulan 72 ;
+    ktn:upDasarBulan 6 ;
+    ktn:pasal "Pasal 156 ayat (2)f" .
+
+ktn:UP-72-84-UU132003 a owl:NamedIndividual, ktn:KategoriUP ;
+    ktn:minBulan 72 ;
+    ktn:maxBulan 84 ;
+    ktn:upDasarBulan 7 ;
+    ktn:pasal "Pasal 156 ayat (2)g" .
+
+ktn:UP-84-96-UU132003 a owl:NamedIndividual, ktn:KategoriUP ;
+    ktn:minBulan 84 ;
+    ktn:maxBulan 96 ;
+    ktn:upDasarBulan 8 ;
+    ktn:pasal "Pasal 156 ayat (2)h" .
+
+ktn:UP-96-INF-UU132003 a owl:NamedIndividual, ktn:KategoriUP ;
+    ktn:minBulan 96 ;
+    ktn:upDasarBulan 9 ;
+    ktn:pasal "Pasal 156 ayat (2)i" .
+
+ktn:UPMK-36-72-UU132003 a owl:NamedIndividual, ktn:KategoriUPMK ;
+    ktn:minBulan 36 ;
+    ktn:maxBulan 72 ;
+    ktn:upmkDasarBulan 2 ;
+    ktn:pasal "Pasal 156 ayat (3)a" .
+
+ktn:UPMK-72-108-UU132003 a owl:NamedIndividual, ktn:KategoriUPMK ;
+    ktn:minBulan 72 ;
+    ktn:maxBulan 108 ;
+    ktn:upmkDasarBulan 3 ;
+    ktn:pasal "Pasal 156 ayat (3)b" .
+
+ktn:UPMK-108-144-UU132003 a owl:NamedIndividual, ktn:KategoriUPMK ;
+    ktn:minBulan 108 ;
+    ktn:maxBulan 144 ;
+    ktn:upmkDasarBulan 4 ;
+    ktn:pasal "Pasal 156 ayat (3)c" .
+
+ktn:UPMK-144-180-UU132003 a owl:NamedIndividual, ktn:KategoriUPMK ;
+    ktn:minBulan 144 ;
+    ktn:maxBulan 180 ;
+    ktn:upmkDasarBulan 5 ;
+    ktn:pasal "Pasal 156 ayat (3)d" .
+
+ktn:UPMK-180-216-UU132003 a owl:NamedIndividual, ktn:KategoriUPMK ;
+    ktn:minBulan 180 ;
+    ktn:maxBulan 216 ;
+    ktn:upmkDasarBulan 6 ;
+    ktn:pasal "Pasal 156 ayat (3)e" .
+
+ktn:UPMK-216-252-UU132003 a owl:NamedIndividual, ktn:KategoriUPMK ;
+    ktn:minBulan 216 ;
+    ktn:maxBulan 252 ;
+    ktn:upmkDasarBulan 7 ;
+    ktn:pasal "Pasal 156 ayat (3)f" .
+
+ktn:UPMK-252-288-UU132003 a owl:NamedIndividual, ktn:KategoriUPMK ;
+    ktn:minBulan 252 ;
+    ktn:maxBulan 288 ;
+    ktn:upmkDasarBulan 8 ;
+    ktn:pasal "Pasal 156 ayat (3)g" .
+
+ktn:UPMK-288-INF-UU132003 a owl:NamedIndividual, ktn:KategoriUPMK ;
+    ktn:minBulan 288 ;
+    ktn:upmkDasarBulan 10 ;
+    ktn:pasal "Pasal 156 ayat (3)h" .

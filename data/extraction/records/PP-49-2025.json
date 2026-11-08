@@ -1,6 +1,6 @@
 {
-  "spec_version": "1.0.0",
-  "vocab_version": "0.2.0",
+  "spec_version": "1.1.0",
+  "vocab_version": "0.3.0",
   "dokumen_id": "PP-49-2025",
   "status_review": "reviewed",
   "peraturan": {
@@ -12,80 +12,397 @@
     "status": "Berlaku",
     "diubah_oleh": []
   },
-  "norma": [],
+  "norma": [
+    {
+      "norm_id": "UPAH-STRUKTUR-WAJIB-SUSUN-2025",
+      "topik": "Upah",
+      "pasal": "Pasal 21 ayat (1)",
+      "iri_individu": "ktn:KewajibanStrukturSkalaUpah2025",
+      "jenis": "KetentuanUpah",
+      "kondisi": "Pengusaha",
+      "akibat": "Wajib menyusun dan menerapkan struktur dan skala Upah di Perusahaan dengan memperhatikan kemampuan Perusahaan dan produktivitas, serta golongan, jabatan, masa kerja, pendidikan, dan kompetensi",
+      "parameter": [],
+      "bukti": "Pengusaha wajib menyusun dan menerapkan struktur dan skala Upah di Perusahaan dengan memperhatikan kemampuan Perusahaan dan produktivitas",
+      "confidence": 0.95,
+      "dasar_keyakinan": "dikutip",
+      "catatan": "Teks batang tubuh baru Pasal 21 tercantum pada angka 5 chunk ini tanpa heading '#### Pasal 21'; heading Pasal 21 di chunk 2 berada pada bagian penjelasan."
+    },
+    {
+      "norm_id": "UPAH-STRUKTUR-INFO-PEKERJA-2025",
+      "topik": "Upah",
+      "pasal": "Pasal 21 ayat (2)",
+      "iri_individu": "ktn:InfoStrukturSkalaUpah2025",
+      "jenis": "KetentuanUpah",
+      "kondisi": "Struktur dan skala Upah telah disusun",
+      "akibat": "Wajib diberitahukan kepada seluruh Pekerja/Buruh secara perorangan, sekurang-kurangnya struktur dan skala Upah pada golongan jabatan sesuai jabatan Pekerja/Buruh yang bersangkutan",
+      "parameter": [],
+      "bukti": "wajib diberitahukan kepada seluruh Pekerja/Buruh secara perorangan.",
+      "confidence": 0.95,
+      "dasar_keyakinan": "dikutip",
+      "catatan": "Ayat (3) menetapkan isi pemberitahuan minimal; digabung karena akibatnya sama."
+    },
+    {
+      "norm_id": "UPAH-UM-PENYESUAIAN-TAHUNAN-2025",
+      "topik": "Upah",
+      "pasal": "Pasal 26 ayat (1)",
+      "iri_individu": "ktn:PenyesuaianUpahMinimumTahunan2025",
+      "jenis": "KetentuanUpah",
+      "kondisi": "Provinsi atau kabupaten/kota yang memiliki Upah minimum",
+      "akibat": "Melakukan penyesuaian nilai Upah minimum setiap tahun",
+      "parameter": [],
+      "bukti": "melakukan penyesuaian nilai Upah minimum setiap tahun.",
+      "confidence": 0.95,
+      "dasar_keyakinan": "dikutip",
+      "catatan": ""
+    },
+    {
+      "norm_id": "UPAH-UM-FORMULA-INDEKS-2025",
+      "topik": "Upah",
+      "pasal": "Pasal 26 ayat (2)",
+      "iri_individu": "ktn:FormulaUpahMinimum2025",
+      "jenis": "KetentuanUpah",
+      "kondisi": "Penyesuaian nilai Upah minimum dihitung",
+      "akibat": "Menggunakan formula penghitungan Upah minimum dengan mempertimbangkan variabel pertumbuhan ekonomi, inflasi, dan indeks tertentu",
+      "parameter": [],
+      "bukti": "dihitung menggunakan formula penghitungan Upah minimum dengan mempertimbangkan variabel pertumbuhan ekonomi, inflasi, dan indeks tertentu.",
+      "confidence": 0.9,
+      "dasar_keyakinan": "dikutip",
+      "catatan": "Rumus pada ayat (4)-(5) rusak pada OCR ('UM«1', 'UM@1'); variabel inflasi, PE, dan a dijelaskan pada bagian penjelasan. Data penghitungan bersumber dari lembaga statistik (ayat (10))."
+    },
+    {
+      "norm_id": "UPAH-UM-ALPHA-RENTANG-2025",
+      "topik": "Upah",
+      "pasal": "Pasal 26 ayat (6)",
+      "iri_individu": "ktn:RentangIndeksTertentu2025",
+      "jenis": "KetentuanUpah",
+      "kondisi": "Penentuan indeks tertentu yang disimbolkan a pada formula penghitungan Upah minimum",
+      "akibat": "Nilai a ditentukan dewan pengupahan provinsi atau dewan pengupahan kabupaten/kota dalam rentang nilai 0,50 sampai dengan 0,90 dengan mempertimbangkan keseimbangan kepentingan Pekerja/Buruh dan Perusahaan serta perbandingan antara Upah minimum dan kebutuhan hidup layak",
+      "parameter": [],
+      "bukti": "berada dalam rentang nilai 0,50 (nol koma lima nol) sampai dengan 0,90 (nol koma sembilan nol).",
+      "confidence": 0.9,
+      "dasar_keyakinan": "dikutip",
+      "catatan": "Rentang 0,50-0,90 belum memiliki nama parameter di VOCAB; nilai disimpan pada teks akibat. Ayat (7)-(8) merinci pertimbangan dan faktor lain yang relevan."
+    },
+    {
+      "norm_id": "UPAH-UM-TIDAK-TURUN-2025",
+      "topik": "Upah",
+      "pasal": "Pasal 26 ayat (9)",
+      "iri_individu": "ktn:UpahMinimumTidakTurun2025",
+      "jenis": "KetentuanUpah",
+      "kondisi": "Nilai penyesuaian Upah minimum lebih kecil atau sama dengan 0 (nol)",
+      "akibat": "Upah minimum yang ditetapkan sama dengan nilai Upah minimum tahun berjalan",
+      "parameter": [],
+      "bukti": "Upah minimum yang akan ditetapkan sama dengan nilai Upah minimum tahun berjalan.",
+      "confidence": 0.95,
+      "dasar_keyakinan": "dikutip",
+      "catatan": ""
+    },
+    {
+      "norm_id": "UPAH-UMP-PENETAPAN-TAHUNAN-2025",
+      "topik": "Upah",
+      "pasal": "Pasal 27 ayat (1)",
+      "iri_individu": "ktn:KewajibanGubernurTetapkanUMP2025",
+      "jenis": "KetentuanUpah",
+      "kondisi": "Gubernur",
+      "akibat": "Wajib menetapkan Upah minimum provinsi setiap tahun dengan penyesuaian nilai Upah minimum",
+      "parameter": [],
+      "bukti": "Gubernur wajib menetapkan Upah minimum provinsi setiap tahun.",
+      "confidence": 0.95,
+      "dasar_keyakinan": "dikutip",
+      "catatan": "Ayat (2) menegaskan penetapan dilakukan dengan penyesuaian nilai; ayat (4) dihapus sehingga tidak lagi memuat batas atas."
+    },
+    {
+      "norm_id": "UPAH-UMP-FORMULA-2025",
+      "topik": "Upah",
+      "pasal": "Pasal 27 ayat (3)",
+      "iri_individu": "ktn:FormulaPenyesuaianUMP2025",
+      "jenis": "KetentuanUpah",
+      "kondisi": "Penghitungan penyesuaian nilai Upah minimum provinsi",
+      "akibat": "Dilakukan sesuai formula penghitungan Upah minimum Pasal 26 ayat (4) dan penghitungan nilai penyesuaian Upah minimum Pasal 26 ayat (5)",
+      "parameter": [],
+      "bukti": "dilakukan sesuai formula penghitungan Upah minimum sebagaimana dimaksud dalam Pasal 26 ayat (4)",
+      "confidence": 0.9,
+      "dasar_keyakinan": "dikutip",
+      "catatan": ""
+    },
+    {
+      "norm_id": "UPAH-UMK-PENYESUAIAN-2025",
+      "topik": "Upah",
+      "pasal": "Pasal 34 ayat (1)",
+      "iri_individu": "ktn:PenyesuaianUMK2025",
+      "jenis": "KetentuanUpah",
+      "kondisi": "Kabupaten/kota yang telah memiliki Upah minimum kabupaten/kota",
+      "akibat": "Penetapan Upah minimum dilakukan dengan penyesuaian nilai Upah minimum",
+      "parameter": [],
+      "bukti": "dilakukan dengan penyesuaian nilai Upah minimum.",
+      "confidence": 0.95,
+      "dasar_keyakinan": "dikutip",
+      "catatan": ""
+    },
+    {
+      "norm_id": "UPAH-UMK-FORMULA-2025",
+      "topik": "Upah",
+      "pasal": "Pasal 34 ayat (2)",
+      "iri_individu": "ktn:FormulaPenyesuaianUMK2025",
+      "jenis": "KetentuanUpah",
+      "kondisi": "Penghitungan penyesuaian nilai Upah minimum kabupaten/kota",
+      "akibat": "Dilakukan sesuai formula penghitungan Upah minimum Pasal 26 ayat (4) dan penghitungan nilai penyesuaian Upah minimum Pasal 26 ayat (5)",
+      "parameter": [],
+      "bukti": "dilakukan sesuai formula penghitungan Upah minimum sebagaimana dimaksud dalam Pasal 26 ayat (4)",
+      "confidence": 0.9,
+      "dasar_keyakinan": "dikutip",
+      "catatan": "Ayat (3) dihapus; ayat (4)-(5) mengatur kelembagaan (penghitungan oleh dewan pengupahan kabupaten/kota dan rekomendasi bupati/wali kota)."
+    },
+    {
+      "norm_id": "UPAH-UMK-DIUMUMKAN-25NOV",
+      "topik": "Upah",
+      "pasal": "Pasal 35 ayat (2)",
+      "iri_individu": "ktn:PengumumanUMK25November",
+      "jenis": "KetentuanUpah",
+      "kondisi": "Upah minimum kabupaten/kota ditetapkan dengan Keputusan Gubernur",
+      "akibat": "Diumumkan paling lambat pada tanggal 25 November tahun berjalan; bila tanggal tersebut jatuh pada hari Minggu, hari libur nasional, atau hari libur resmi, ditetapkan dan diumumkan 1 hari setelahnya",
+      "parameter": [],
+      "bukti": "diumumkan paling lambat pada tanggal 25 November tahun berjalan.",
+      "confidence": 0.95,
+      "dasar_keyakinan": "dikutip",
+      "catatan": "Menggantikan batas 30 November pada PP 36/2021; nilai lama tidak disimpan. Ayat (1) dihapus."
+    },
+    {
+      "norm_id": "UPAH-UMK-BERLAKU-1JANUARI-2025",
+      "topik": "Upah",
+      "pasal": "Pasal 35 ayat (4)",
+      "iri_individu": "ktn:UMKBerlaku1Januari2025",
+      "jenis": "KetentuanUpah",
+      "kondisi": "Upah minimum kabupaten/kota telah ditetapkan dan diumumkan",
+      "akibat": "Berlaku terhitung mulai tanggal 1 Januari tahun berikutnya",
+      "parameter": [],
+      "bukti": "berlaku terhitung mulai tanggal 1 Januari tahun berikutnya.",
+      "confidence": 0.95,
+      "dasar_keyakinan": "dikutip",
+      "catatan": "Ayat (5): pelaksanaan tidak boleh bertentangan dengan kebijakan pengupahan Pasal 4."
+    },
+    {
+      "norm_id": "UPAH-UMS-PROV-WAJIB-TETAP",
+      "topik": "Upah",
+      "pasal": "Pasal 35A ayat (1)",
+      "iri_individu": "ktn:KewajibanGubernurTetapkanUMSProvinsi",
+      "jenis": "KetentuanUpah",
+      "kondisi": "Gubernur",
+      "akibat": "Wajib menetapkan Upah minimum sektoral provinsi, baik bagi provinsi yang telah maupun yang belum memiliki Upah minimum sektoral provinsi",
+      "parameter": [],
+      "bukti": "Gubernur wajib menetapkan Upah minimum sektoral provinsi.",
+      "confidence": 0.95,
+      "dasar_keyakinan": "dikutip",
+      "catatan": "Ayat (2) menyebut cakupan provinsi yang telah/belum memiliki Upah minimum sektoral provinsi (Bagian Keempat Bab V baru)."
+    },
+    {
+      "norm_id": "UPAH-UMS-PROV-SEKTOR-KRITERIA",
+      "topik": "Upah",
+      "pasal": "Pasal 35B ayat (2)",
+      "iri_individu": "ktn:KriteriaSektorUMSProvinsi",
+      "jenis": "KetentuanUpah",
+      "kondisi": "Sektor tertentu yang memenuhi kriteria: kategori usaha sesuai klasifikasi baku lapangan usaha Indonesia 5 digit; terdapat lebih dari 1 Perusahaan skala menengah dan/atau besar; memiliki karakteristik dan risiko kerja yang berbeda dari sektor lainnya",
+      "akibat": "Ditetapkan oleh gubernur sebagai sektor berlakunya Upah minimum sektoral provinsi di wilayah provinsi bersangkutan",
+      "parameter": [],
+      "bukti": "kategori usaha sesuai klasifikasi baku lapangan usaha Indonesia 5 (lima) digit",
+      "confidence": 0.9,
+      "dasar_keyakinan": "dikutip",
+      "catatan": "Ayat (1): Upah minimum sektoral provinsi ditetapkan gubernur untuk sektor tertentu di wilayah provinsi."
+    },
+    {
+      "norm_id": "UPAH-UMS-PROV-LEBIH-TINGGI",
+      "topik": "Upah",
+      "pasal": "Pasal 35C ayat (1)",
+      "iri_individu": "ktn:UMSProvinsiLebihTinggiUMP",
+      "jenis": "KetentuanUpah",
+      "kondisi": "Upah minimum sektoral provinsi ditetapkan",
+      "akibat": "Nilainya harus lebih tinggi dari Upah minimum provinsi dan dihitung dengan formula Pasal 26 ayat (4) serta nilai penyesuaian Pasal 26 ayat (5)",
+      "parameter": [],
+      "bukti": "nilai Upah minimum sektoral provinsi harus lebih tinggi dari nilai Upah minimum provinsi",
+      "confidence": 0.95,
+      "dasar_keyakinan": "dikutip",
+      "catatan": "Ayat (2): nilai a pada penyesuaian ditentukan oleh dewan pengupahan provinsi."
+    },
+    {
+      "norm_id": "UPAH-UMS-PROV-DIUMUMKAN-5HARI",
+      "topik": "Upah",
+      "pasal": "Pasal 35E ayat (1)",
+      "iri_individu": "ktn:PengumumanUMSProvinsi5Hari",
+      "jenis": "KetentuanUpah",
+      "kondisi": "Upah minimum sektoral provinsi ditetapkan dengan Keputusan Gubernur",
+      "akibat": "Diumumkan paling lambat 5 hari setelah Upah minimum provinsi ditetapkan; bila jatuh pada hari Minggu/libur, ditetapkan dan diumumkan 1 hari setelahnya",
+      "parameter": [],
+      "bukti": "diumumkan paling lambat 5 (lima) hari setelah Upah minimum provinsi ditetapkan.",
+      "confidence": 0.95,
+      "dasar_keyakinan": "dikutip",
+      "catatan": ""
+    },
+    {
+      "norm_id": "UPAH-UMS-PROV-BERLAKU-1JANUARI",
+      "topik": "Upah",
+      "pasal": "Pasal 35E ayat (3)",
+      "iri_individu": "ktn:UMSProvinsiBerlaku1Januari",
+      "jenis": "KetentuanUpah",
+      "kondisi": "Upah minimum sektoral provinsi telah ditetapkan dan diumumkan",
+      "akibat": "Berlaku terhitung mulai tanggal 1 Januari tahun berikutnya",
+      "parameter": [],
+      "bukti": "berlaku terhitung mulai tanggal 1 Januari tahun berikutnya.",
+      "confidence": 0.95,
+      "dasar_keyakinan": "dikutip",
+      "catatan": "Ayat (4): pelaksanaan tidak boleh bertentangan dengan kebijakan pengupahan Pasal 4."
+    },
+    {
+      "norm_id": "UPAH-UMS-KABKOTA-SEKTOR-KRITERIA",
+      "topik": "Upah",
+      "pasal": "Pasal 35G ayat (1)",
+      "iri_individu": "ktn:KriteriaSektorUMSKabupatenKota",
+      "jenis": "KetentuanUpah",
+      "kondisi": "Sektor tertentu dengan kriteria sektor Upah minimum sektoral provinsi berlaku mutatis mutandis",
+      "akibat": "Ditetapkan oleh gubernur sebagai sektor berlakunya Upah minimum sektoral kabupaten/kota di wilayah kabupaten/kota bersangkutan",
+      "parameter": [],
+      "bukti": "ditetapkan oleh gubernur untuk sektor tertentu yang berlaku di wilayah kabupaten/kota bersangkutan.",
+      "confidence": 0.9,
+      "dasar_keyakinan": "dikutip",
+      "catatan": "OCR: '(l)' untuk '(1)' dan 'Pasal 358' untuk 'Pasal 35B'. Pasal 35F yang dirujuk tidak berheading pada markdown (gap OCR)."
+    },
+    {
+      "norm_id": "UPAH-UMS-KABKOTA-LEBIH-TINGGI",
+      "topik": "Upah",
+      "pasal": "Pasal 35H ayat (1)",
+      "iri_individu": "ktn:UMSKabupatenKotaLebihTinggiUMK",
+      "jenis": "KetentuanUpah",
+      "kondisi": "Upah minimum sektoral kabupaten/kota ditetapkan",
+      "akibat": "Nilainya harus lebih tinggi dari Upah minimum kabupaten/kota dan dihitung dengan formula Pasal 26 ayat (4) serta nilai penyesuaian Pasal 26 ayat (5)",
+      "parameter": [],
+      "bukti": "nilai Upah minimum sektoral kabupaten/kota harus lebih tinggi dari nilai Upah minimum kabupaten/kota",
+      "confidence": 0.95,
+      "dasar_keyakinan": "dikutip",
+      "catatan": "Ayat (2): nilai a pada penyesuaian ditentukan oleh dewan pengupahan kabupaten/kota."
+    },
+    {
+      "norm_id": "UPAH-UMS-KABKOTA-DIUMUMKAN-5HARI",
+      "topik": "Upah",
+      "pasal": "Pasal 35J ayat (1)",
+      "iri_individu": "ktn:PengumumanUMSKabupatenKota5Hari",
+      "jenis": "KetentuanUpah",
+      "kondisi": "Upah minimum sektoral kabupaten/kota ditetapkan dengan Keputusan Gubernur",
+      "akibat": "Diumumkan paling lambat 5 hari setelah Upah minimum kabupaten/kota ditetapkan",
+      "parameter": [],
+      "bukti": "diumumkan paling lambat 5 (lima) hari setelah Upah minimum kabupaten/kota ditetapkan.",
+      "confidence": 0.9,
+      "dasar_keyakinan": "dikutip",
+      "catatan": "Ayat (2) menyebut 'sektoral provinsi' (kekeliruan teks/OCR) dan mengatur pergeseran 1 hari bila jatuh pada hari libur."
+    },
+    {
+      "norm_id": "UPAH-UMS-KABKOTA-BERLAKU-1JANUARI",
+      "topik": "Upah",
+      "pasal": "Pasal 35J ayat (3)",
+      "iri_individu": "ktn:UMSKabupatenKotaBerlaku1Januari",
+      "jenis": "KetentuanUpah",
+      "kondisi": "Upah minimum sektoral kabupaten/kota telah ditetapkan dan diumumkan",
+      "akibat": "Berlaku terhitung mulai tanggal 1 Januari tahun berikutnya",
+      "parameter": [],
+      "bukti": "berlaku terhitung mulai tanggal 1 Januari tahun berikutnya.",
+      "confidence": 0.95,
+      "dasar_keyakinan": "dikutip",
+      "catatan": "Ayat (4): pelaksanaan tidak boleh bertentangan dengan kebijakan pengupahan Pasal 4."
+    },
+    {
+      "norm_id": "UPAH-PAILIT-UTANG-DIDAHULUKAN-2025",
+      "topik": "Upah",
+      "pasal": "Pasal 49 ayat (1)",
+      "iri_individu": "ktn:UtangUpahDidahulukan",
+      "jenis": "KetentuanUpah",
+      "kondisi": "Perusahaan dinyatakan pailit atau dilikuidasi berdasarkan ketentuan peraturan perundang-undangan",
+      "akibat": "Upah dan hak lainnya yang belum diterima Pekerja/Buruh merupakan utang yang didahulukan pembayarannya",
+      "parameter": [],
+      "bukti": "merupakan utang yang didahulukan pembayarannya.",
+      "confidence": 0.95,
+      "dasar_keyakinan": "dikutip",
+      "catatan": "Penjelasan ayat (1): hak lainnya antara lain Upah kerja lembur, tunjangan hari raya, uang pesangon, uang penghargaan masa kerja, uang penggantian hak, dan uang kompensasi."
+    },
+    {
+      "norm_id": "UPAH-PAILIT-UPAH-PRIORITAS-2025",
+      "topik": "Upah",
+      "pasal": "Pasal 49 ayat (2)",
+      "iri_individu": "ktn:UpahDidahulukanSemuaKreditur",
+      "jenis": "KetentuanUpah",
+      "kondisi": "Upah Pekerja/Buruh belum dibayar pada Perusahaan yang pailit atau dilikuidasi",
+      "akibat": "Didahulukan pembayarannya sebelum pembayaran kepada semua kreditur",
+      "parameter": [],
+      "bukti": "didahulukan pembayarannya sebelum pembayaran kepada semua kreditur.",
+      "confidence": 0.95,
+      "dasar_keyakinan": "dikutip",
+      "catatan": ""
+    },
+    {
+      "norm_id": "UPAH-PAILIT-HAK-LAIN-PRIORITAS-2025",
+      "topik": "Upah",
+      "pasal": "Pasal 49 ayat (3)",
+      "iri_individu": "ktn:HakLainDidahulukanKecualiJaminanKebendaan",
+      "jenis": "KetentuanUpah",
+      "kondisi": "Hak lainnya dari Pekerja/Buruh belum dibayar pada Perusahaan yang pailit atau dilikuidasi",
+      "akibat": "Didahulukan pembayarannya atas semua kreditur termasuk kreditur preferen, kecuali kepada para kreditur pemegang hak jaminan kebendaan",
+      "parameter": [],
+      "bukti": "didahulukan pembayarannya atas semua kreditur termasuk kreditur preferen kecuali kepada para kreditur pemegang hak jaminan kebendaan.",
+      "confidence": 0.95,
+      "dasar_keyakinan": "dikutip",
+      "catatan": ""
+    }
+  ],
   "kategori": [],
   "pengali_lembur": [],
   "program_jamsos": [],
   "cakupan": {
-    "lengkap": false,
-    "pasal_diekstrak": [],
+    "lengkap": true,
+    "pasal_diekstrak": [
+      "Pasal 21",
+      "Pasal 25",
+      "Pasal 26",
+      "Pasal 27",
+      "Pasal 28",
+      "Pasal 34",
+      "Pasal 34A",
+      "Pasal 35",
+      "Pasal 35A",
+      "Pasal 35B",
+      "Pasal 35C",
+      "Pasal 35D",
+      "Pasal 35E",
+      "Pasal 35G",
+      "Pasal 35H",
+      "Pasal 35J",
+      "Pasal 49",
+      "Pasal 5",
+      "Pasal 6"
+    ],
     "pasal_dilewati": [
       {
         "pasal": "Pasal 5",
-        "alasan": "retrofit: belum ditinjau (migrasi data pilot)"
+        "alasan": "kebijakan pengupahan: enumerasi ruang lingkup, bukan norma kondisi-akibat"
       },
       {
-        "pasal": "Pasal 26",
-        "alasan": "retrofit: belum ditinjau (migrasi data pilot)"
-      },
-      {
-        "pasal": "Pasal 27",
-        "alasan": "retrofit: belum ditinjau (migrasi data pilot)"
+        "pasal": "Pasal 25",
+        "alasan": "klasifikasi jenis Upah minimum dan cakupan penetapannya (definisi/lingkup)"
       },
       {
         "pasal": "Pasal 28",
-        "alasan": "retrofit: belum ditinjau (migrasi data pilot)"
+        "alasan": "tata cara kelembagaan: penghitungan oleh dewan pengupahan provinsi dan rekomendasi kepada gubernur"
       },
       {
-        "pasal": "Pasal 34",
-        "alasan": "retrofit: belum ditinjau (migrasi data pilot)"
-      },
-      {
-        "pasal": "Pasal 35",
-        "alasan": "retrofit: belum ditinjau (migrasi data pilot)"
-      },
-      {
-        "pasal": "Pasal 35A",
-        "alasan": "retrofit: belum ditinjau (migrasi data pilot)"
-      },
-      {
-        "pasal": "Pasal 35B",
-        "alasan": "retrofit: belum ditinjau (migrasi data pilot)"
-      },
-      {
-        "pasal": "Pasal 35C",
-        "alasan": "retrofit: belum ditinjau (migrasi data pilot)"
+        "pasal": "Pasal 34A",
+        "alasan": "kewenangan fakultatif gubernur meminta saran dan pertimbangan dewan pengupahan provinsi"
       },
       {
         "pasal": "Pasal 35D",
-        "alasan": "retrofit: belum ditinjau (migrasi data pilot)"
-      },
-      {
-        "pasal": "Pasal 35E",
-        "alasan": "retrofit: belum ditinjau (migrasi data pilot)"
-      },
-      {
-        "pasal": "Pasal 35G",
-        "alasan": "retrofit: belum ditinjau (migrasi data pilot)"
-      },
-      {
-        "pasal": "Pasal 35H",
-        "alasan": "retrofit: belum ditinjau (migrasi data pilot)"
-      },
-      {
-        "pasal": "Pasal 35J",
-        "alasan": "retrofit: belum ditinjau (migrasi data pilot)"
+        "alasan": "tata cara/kelembagaan: tahapan identifikasi sektor dan rekomendasi dewan pengupahan provinsi"
       },
       {
         "pasal": "Pasal 6",
-        "alasan": "retrofit: belum ditinjau (migrasi data pilot)"
-      },
-      {
-        "pasal": "Pasal 21",
-        "alasan": "retrofit: belum ditinjau (migrasi data pilot)"
+        "alasan": "bagian penjelasan pasal: definisi Pendapatan non-Upah; bukan batang tubuh dan bukan norma baru"
       }
     ],
-    "catatan": "Retrofit dari data pilot (migrasi ke record); belum ditinjau penuh."
+    "catatan": ""
   },
   "tidak_termodelkan": []
 }

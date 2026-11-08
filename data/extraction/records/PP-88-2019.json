@@ -1,0 +1,144 @@
+{
+  "spec_version": "1.1.0",
+  "vocab_version": "0.3.0",
+  "dokumen_id": "PP-88-2019",
+  "status_review": "reviewed",
+  "peraturan": {
+    "judul": "Peraturan Pemerintah Nomor 88 Tahun 2019 tentang Kesehatan Kerja",
+    "jenis": "PP",
+    "nomor": "88",
+    "tahun": "2019",
+    "sumber": "https://peraturan.bpk.go.id/Details/128642/pp-no-88-tahun-2019",
+    "status": "Berlaku",
+    "diubah_oleh": []
+  },
+  "norma": [],
+  "kategori": [],
+  "pengali_lembur": [],
+  "program_jamsos": [],
+  "cakupan": {
+    "lengkap": true,
+    "pasal_diekstrak": [
+      "Pasal 1",
+      "Pasal 10",
+      "Pasal 12",
+      "Pasal 14",
+      "Pasal 15",
+      "Pasal 16",
+      "Pasal 17",
+      "Pasal 18",
+      "Pasal 19",
+      "Pasal 2",
+      "Pasal 20",
+      "Pasal 21",
+      "Pasal 3",
+      "Pasal 4",
+      "Pasal 5",
+      "Pasal 6",
+      "Pasal 7",
+      "Pasal 8",
+      "Pasal 9"
+    ],
+    "pasal_dilewati": [
+      {
+        "pasal": "Pasal 1",
+        "alasan": "definisi/istilah: batasan Kesehatan Kerja, Penyakit Akibat Kerja, Fasilitas Pelayanan Kesehatan, Tempat Kerja, Pemerintah Pusat, Pemerintah Daerah, Tenaga Kesehatan, Pekerja, Pengurus atau Pengelola Tempat Kerja, dan Pemberi Kerja; tidak memuat kondisi-akibat hukum"
+      },
+      {
+        "pasal": "Pasal 8",
+        "alasan": "pendelegasian pengaturan lebih lanjut standar Kesehatan Kerja kepada Peraturan Menteri Kesehatan (aspek teknis) dan Peraturan Menteri Ketenagakerjaan (penerapan bagi Pekerja di perusahaan), serta pengembangan oleh kementerian/lembaga; bukan norma hak"
+      },
+      {
+        "pasal": "Pasal 15",
+        "alasan": "ketentuan pendanaan: sumber dana dari APBN, APBD, masyarakat, atau sumber lain yang sah dan tidak mengikat; ketentuan fiskal, bukan hak/kewajiban hubungan kerja"
+      },
+      {
+        "pasal": "Pasal 16",
+        "alasan": "peran serta masyarakat dalam pelaksanaan Kesehatan Kerja (perencanaan, pelaksanaan, pemantauan, penilaian, pengawasan, bantuan sarana/tenaga ahli/finansial, penelitian, penyuluhan, sumbangan pemikiran); bukan hak normatif Pekerja"
+      },
+      {
+        "pasal": "Pasal 17",
+        "alasan": "pembinaan penyelenggaraan Kesehatan Kerja oleh Pemerintah Pusat dan Pemerintah Daerah melalui advokasi dan sosialisasi, bimbingan teknis, dan pemberdayaan masyarakat; fungsi kelembagaan"
+      },
+      {
+        "pasal": "Pasal 18",
+        "alasan": "pemberian penghargaan kepada orang, lembaga, Pengurus atau Pengelola Tempat Kerja, atau Pemberi Kerja yang berjasa; insentif kelembagaan, bukan hak Pekerja"
+      },
+      {
+        "pasal": "Pasal 19",
+        "alasan": "pengawasan penyelenggaraan Kesehatan Kerja oleh Pemerintah Pusat dan Pemerintah Daerah melalui tenaga yang memiliki fungsi pengawasan di bidang ketenagakerjaan atau kesehatan; fungsi pengawasan"
+      },
+      {
+        "pasal": "Pasal 20",
+        "alasan": "ketentuan peralihan: peraturan perundang-undangan mengenai Kesehatan Kerja yang telah ada tetap berlaku sepanjang tidak bertentangan dengan PP ini"
+      },
+      {
+        "pasal": "Pasal 21",
+        "alasan": "ketentuan penutup: Peraturan Pemerintah ini mulai berlaku pada tanggal diundangkan (26 Desember 2019)"
+      }
+    ],
+    "catatan": ""
+  },
+  "tidak_termodelkan": [
+    {
+      "pasal": "Pasal 2",
+      "ringkasan": "Pemerintah Pusat, Pemerintah Daerah, dan masyarakat bertanggung jawab atas penyelenggaraan Kesehatan Kerja secara terpadu, menyeluruh, dan berkesinambungan; upaya meliputi pencegahan penyakit, peningkatan kesehatan, penanganan penyakit, dan pemulihan kesehatan, dilaksanakan sesuai standar Kesehatan Kerja dengan memperhatikan Sistem Kesehatan Nasional dan kebijakan K3 nasional.",
+      "alasan": "relevan (lingkup dan tanggung jawab penyelenggaraan K3), tetapi butuh kelas/properti baru: jenis KetentuanK3 dan topik K3 baru berstatus kandidat di VOCAB (belum aktif) dan belum ada kelasnya di tbox-core; bukan definisi/sanksi sehingga tidak tepat dilewati"
+    },
+    {
+      "pasal": "Pasal 3",
+      "ringkasan": "Penyelenggaraan Kesehatan Kerja ditujukan kepada setiap orang yang berada di Tempat Kerja dan wajib dipenuhi oleh Pengurus atau Pengelola Tempat Kerja dan Pemberi Kerja di semua Tempat Kerja.",
+      "alasan": "relevan (kewajiban Pemberi Kerja menyelenggarakan K3 bagi setiap orang di Tempat Kerja), tetapi butuh kelas KetentuanK3 beserta properti subjek/kewajiban yang belum ada di T-Box; KetentuanK3 masih kandidat di VOCAB"
+    },
+    {
+      "pasal": "Pasal 4",
+      "ringkasan": "Standar Kesehatan Kerja dalam upaya pencegahan penyakit meliputi identifikasi/penilaian/pengendalian potensi bahaya kesehatan, pemenuhan persyaratan kesehatan lingkungan kerja, pelindungan kesehatan reproduksi, pemeriksaan kesehatan, penilaian kelaikan bekerja, imunisasi/profilaksis bagi Pekerja berisiko tinggi, kewaspadaan standar, dan surveilans K3.",
+      "alasan": "relevan (standar pencegahan penyakit akibat kerja, termasuk pelindungan kesehatan reproduksi dan pemeriksaan kesehatan), tetapi butuh kelas KetentuanK3 dan properti daftar standar yang belum ada; KetentuanK3/K3 masih kandidat di VOCAB; tidak dipaksakan ke KetentuanKIA karena ini standar K3, bukan hak cuti/ibu-anak"
+    },
+    {
+      "pasal": "Pasal 5",
+      "ringkasan": "Standar Kesehatan Kerja dalam upaya peningkatan kesehatan meliputi peningkatan pengetahuan kesehatan, pembudayaan perilaku hidup bersih dan sehat, pembudayaan K3 di Tempat Kerja, penerapan gizi kerja, serta peningkatan kesehatan fisik dan mental.",
+      "alasan": "relevan (standar peningkatan kesehatan Pekerja), tetapi butuh kelas/properti baru KetentuanK3 (jenis dan topik K3 masih kandidat, belum aktif di VOCAB dan belum ada di T-Box)"
+    },
+    {
+      "pasal": "Pasal 6",
+      "ringkasan": "Standar penanganan penyakit meliputi pertolongan pertama pada cedera/sakit di Tempat Kerja yang wajib dilaksanakan, diagnosis dan tata laksana Penyakit Akibat Kerja, serta penanganan kegawatdaruratan medik dan rujukan; bila ditemukan kecacatan dilakukan penilaian kecacatan yang hasilnya menjadi pertimbangan untuk mendapatkan jaminan kecelakaan kerja.",
+      "alasan": "relevan, tetapi butuh kelas KetentuanK3 untuk kewajiban P3K, diagnosis PAK, penanganan kegawatdaruratan, dan penilaian kecacatan; tautan ke jaminan kecelakaan kerja pada ayat (7) hanya rujukan 'sebagai pertimbangan' sesuai ketentuan peraturan perundang-undangan, bukan pemberian manfaat JKK yang berdiri sendiri sehingga tidak dipaksakan menjadi norma KetentuanJaminanSosial"
+    },
+    {
+      "pasal": "Pasal 7",
+      "ringkasan": "Standar Kesehatan Kerja dalam upaya pemulihan kesehatan meliputi pemulihan medis sesuai kebutuhan medis dan pemulihan kerja melalui program kembali bekerja.",
+      "alasan": "relevan (pemulihan kesehatan dan program kembali bekerja bagi Pekerja), tetapi butuh kelas/properti baru KetentuanK3; jenis dan topik K3 masih kandidat di VOCAB"
+    },
+    {
+      "pasal": "Pasal 9",
+      "ringkasan": "Penyelenggaraan Kesehatan Kerja harus didukung oleh sumber daya manusia, Fasilitas Pelayanan Kesehatan, peralatan Kesehatan Kerja, serta pencatatan dan pelaporan.",
+      "alasan": "relevan (prasyarat dukungan penyelenggaraan K3 oleh Pemberi Kerja/Pengurus Tempat Kerja), tetapi butuh kelas KetentuanK3 dan properti unsur dukungan yang belum ada di T-Box"
+    },
+    {
+      "pasal": "Pasal 10",
+      "ringkasan": "Sumber daya manusia terdiri atas Tenaga Kesehatan dan tenaga nonkesehatan; Tenaga Kesehatan wajib memiliki kompetensi di bidang kedokteran kerja atau Kesehatan Kerja melalui pendidikan dan/atau pelatihan, dengan pengaturan pendidikan, penyelenggara pelatihan, dan materi pelatihan (antara lain diagnosis Penyakit Akibat Kerja, penetapan kelaikan kerja, dan program kembali kerja).",
+      "alasan": "relevan (kewajiban kompetensi tenaga K3 di perusahaan), tetapi butuh kelas/properti baru KetentuanK3 (kualifikasi tenaga kesehatan kerja); belum ada di T-Box dan jenis K3 masih kandidat di VOCAB"
+    },
+    {
+      "pasal": "Pasal 11",
+      "ringkasan": "Pelatihan kedokteran kerja, Kesehatan Kerja, atau higiene perusahaan keselamatan dan Kesehatan Kerja dikecualikan bagi Tenaga Kesehatan yang telah memiliki kompetensi melalui pendidikan formal di bidang kedokteran kerja atau Kesehatan Kerja.",
+      "alasan": "relevan (pengecualian kewajiban pelatihan bagi tenaga kesehatan berkompetensi formal), tetapi butuh kelas/properti baru KetentuanK3; heading OCR terbaca '# Pasal I 1' sehingga pasal ini tidak terdeteksi sebagai batang tubuh oleh parser dan perlu verifikasi ulang sumber"
+    },
+    {
+      "pasal": "Pasal 12",
+      "ringkasan": "Fasilitas Pelayanan Kesehatan dapat berbentuk tingkat pertama atau tingkat lanjutan; penyediaannya dapat melalui kerja sama dengan pihak lain; bila Tempat Kerja melakukan upaya penanganan penyakit dan pemulihan kesehatan maka di Tempat Kerja harus tersedia Fasilitas Pelayanan Kesehatan.",
+      "alasan": "relevan (kewajiban menyediakan fasyankes bila ada upaya penanganan penyakit dan pemulihan), tetapi butuh kelas/properti baru KetentuanK3; heading '#### Pasal 12' muncul dua kali pada packet (kemunculan pertama kosong karena pindah halaman) dan dicatat satu kali"
+    },
+    {
+      "pasal": "Pasal 13",
+      "ringkasan": "Peralatan Kesehatan Kerja merupakan peralatan untuk pengukuran, pemeriksaan, dan peralatan lainnya termasuk alat pelindung diri sesuai dengan faktor risiko/bahaya keselamatan dan Kesehatan Kerja di Tempat Kerja.",
+      "alasan": "relevan (penyediaan peralatan K3 dan alat pelindung diri), tetapi butuh kelas/properti baru KetentuanK3; heading pasal hilang pada markdown hasil OCR (isi menyambung setelah Pasal 12 ayat (3)) sehingga nomor pasal dan sebagian teks perlu verifikasi ulang"
+    },
+    {
+      "pasal": "Pasal 14",
+      "ringkasan": "Pencatatan dan pelaporan Kesehatan Kerja dilaksanakan oleh Pemberi Kerja, Pengurus atau Pengelola Tempat Kerja, dan/atau Fasilitas Pelayanan Kesehatan, disampaikan secara berjenjang kepada Pemerintah Pusat dan Pemerintah Daerah dalam rangka surveilans Kesehatan Kerja.",
+      "alasan": "relevan (kewajiban pencatatan dan pelaporan K3 oleh Pemberi Kerja), tetapi butuh kelas KetentuanK3 dan properti kewajiban pelaporan yang belum ada di T-Box"
+    }
+  ]
+}

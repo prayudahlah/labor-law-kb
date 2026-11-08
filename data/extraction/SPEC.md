@@ -338,3 +338,37 @@ bersamaan agar `build_ontology.py` menerima record.
 - Re-ekstraksi massal dijalankan **manual oleh pengguna** per klaster dokumen,
   bukan bagian dari pipeline otomatis.
 
+---
+
+## 16. Alur ekstraksi batch (implementasi)
+
+Untuk 61 dokumen, ekstraksi dijalankan per dokumen/chunk dengan konteks LLM
+yang segar, ditopang skrip deterministik:
+
+1. **`scripts/extract_prepare.py`** — memecah markdown menjadi packet
+   `data/extraction/work/<ID>/chunk-NN.md` + `manifest.json`. Preamble dan
+   `PENJELASAN` dibuang; chunk dibatasi ±40 pasal / 16.000 karakter.
+2. **LLM (subagent) per dokumen/rentang chunk** — membaca
+   `data/extraction/CHEATSHEET.md` + `VOCAB.yaml` + packet, lalu menulis
+   fragmen JSON `chunk-NN.json`. Setiap pasal wajib diklasifikasikan.
+3. **`scripts/extract_merge.py`** — menggabungkan fragmen menjadi satu record.
+   Auto-promote **ketat**: `reviewed` hanya bila validator 0 error **dan**
+   seluruh pasal batang tubuh tercatat; selain itu `draft`.
+4. **`scripts/extract_dedupe.py`** — mengunikan `norm_id`/`iri_individu`/
+   `tabel_id`/`program_id` lintas record, dan mengganti nama IRI yang bentrok
+   dengan nama kelas T-Box (punning memicu inkonsistensi HermiT).
+5. **`compile_extraction.py` → `build_ontology.py` → `build_catalog.py` →
+   `check_ontology.py`** — bangun CSV, Turtle, katalog, lalu uji HermiT.
+
+Catatan operasional:
+
+- `data/extraction/work/` bersifat sementara dan di-`.gitignore`.
+- Angka laporan subagent **tidak boleh dipercaya**; kebenaran ada di file
+  fragmen. Merge + validator adalah sumber kebenaran.
+- Inkonsistensi HermiT bisa berasal dari nilai desimal pada properti
+  `xsd:integer` (mis. cuti melahirkan 1,5 bulan). Periksa rentang datatype
+  T-Box sebelum menyalahkan record.
+- Nama individu bisa berubah antar ekstraksi; skrip verifikasi sebaiknya
+  mencari entitas berdasarkan properti, bukan nama literal.
+
+

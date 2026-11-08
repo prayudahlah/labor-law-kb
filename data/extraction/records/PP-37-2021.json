@@ -1,6 +1,6 @@
 {
-  "spec_version": "1.0.0",
-  "vocab_version": "0.2.0",
+  "spec_version": "1.1.0",
+  "vocab_version": "0.3.0",
   "dokumen_id": "PP-37-2021",
   "status_review": "reviewed",
   "peraturan": {
@@ -20,12 +20,124 @@
       "iri_individu": "ktn:KepesertaanJKP",
       "jenis": "KetentuanJaminanSosial",
       "kondisi": "Pekerja/Buruh bekerja pada Pengusaha",
-      "akibat": "Pengusaha wajib mengikutsertakan Pekerja/Buruh sebagai Peserta program JKP",
+      "akibat": "Pengusaha wajib mengikutsertakan Pekerja/Buruh sebagai Peserta dalam program JKP",
       "parameter": [],
-      "bukti": "Pengusaha wajib mengikutsertakan Pekerja/Buruh sebagai Peserta dalam program JKP",
+      "bukti": "Pengusaha wajib mengikutsertakan Pekerja/Buruh sebagai Peserta dalam program JKP.",
       "confidence": 0.95,
       "dasar_keyakinan": "dikutip",
-      "catatan": "BPJS Ketenagakerjaan + Pemerintah Pusat menyelenggarakan (Pasal 3)."
+      "catatan": "Ayat (2) memuat tujuan program (mempertahankan derajat kehidupan yang layak pada saat Pekerja/Buruh kehilangan pekerjaan), bukan akibat hukum tersendiri."
+    },
+    {
+      "norm_id": "JAMSOS-JKP37-SYARAT-PESERTA",
+      "topik": "Jamsos",
+      "pasal": "Pasal 4 ayat (2)",
+      "iri_individu": "ktn:Jkp37SyaratPeserta",
+      "jenis": "KetentuanJaminanSosial",
+      "kondisi": "Pekerja/Buruh yang didaftarkan sebagai Peserta program JKP",
+      "akibat": "Harus memenuhi persyaratan: warga negara Indonesia; belum mencapai usia 54 tahun pada saat mendaftar; dan mempunyai hubungan kerja dengan Pengusaha",
+      "parameter": [],
+      "bukti": "belum mencapai usia 54 (lima puluh empat) tahun pada saat mendaftar",
+      "confidence": 0.95,
+      "dasar_keyakinan": "dikutip",
+      "catatan": "Ayat (1) merinci komposisi Peserta; ayat (4) menegaskan Peserta JKN adalah pekerja penerima Upah pada badan usaha. Batas usia 54 tahun belum diparameterkan (tidak ada nama parameter yang cocok di VOCAB)."
+    },
+    {
+      "norm_id": "JAMSOS-JKP37-KEPESERTAAN-USAHA-BESAR-MENENGAH",
+      "topik": "Jamsos",
+      "pasal": "Pasal 4 ayat (3)a",
+      "iri_individu": "ktn:Jkp37KepesertaanUsahaBesarMenengah",
+      "jenis": "KetentuanJaminanSosial",
+      "kondisi": "Pekerja/Buruh bekerja pada usaha besar dan usaha menengah",
+      "akibat": "Diikutsertakan pada program JKN, JKK, JHT, JP, dan JKM",
+      "parameter": [],
+      "bukti": "Pekerja/Buruh yang bekerja pada usaha besar dan usaha menengah, diikutsertakan pada program JKN, JKK, JHT, JP, dan JKM",
+      "confidence": 0.95,
+      "dasar_keyakinan": "dikutip",
+      "catatan": ""
+    },
+    {
+      "norm_id": "JAMSOS-JKP37-KEPESERTAAN-USAHA-MIKRO-KECIL",
+      "topik": "Jamsos",
+      "pasal": "Pasal 4 ayat (3)b",
+      "iri_individu": "ktn:Jkp37KepesertaanUsahaMikroKecil",
+      "jenis": "KetentuanJaminanSosial",
+      "kondisi": "Pekerja/Buruh bekerja pada usaha mikro dan usaha kecil",
+      "akibat": "Diikutsertakan sekurang-kurangnya pada program JKN, JKK, JHT, dan JKM",
+      "parameter": [],
+      "bukti": "Pekerja/Buruh yang bekerja pada usaha mikro dan usaha kecil, diikutsertakan sekurangkurangnya pada program JKN, JKK, JHT, dan JKM",
+      "confidence": 0.95,
+      "dasar_keyakinan": "dikutip",
+      "catatan": "OCR 'sekurangkurangnya' = 'sekurang-kurangnya'."
+    },
+    {
+      "norm_id": "JAMSOS-JKP37-PESERTA-OTOMATIS",
+      "topik": "Jamsos",
+      "pasal": "Pasal 5 ayat (1)",
+      "iri_individu": "ktn:Jkp37PesertaOtomatis",
+      "jenis": "KetentuanJaminanSosial",
+      "kondisi": "Pekerja/Buruh telah diikutsertakan oleh Pengusaha dalam program jaminan sosial sejak tanggal Peraturan Pemerintah ini diundangkan",
+      "akibat": "Serta merta menjadi Peserta program JKP",
+      "parameter": [],
+      "bukti": "terhitung sejak tanggal Peraturan Pemerintah ini diundangkan, serta merta menjadi Peserta",
+      "confidence": 0.95,
+      "dasar_keyakinan": "dikutip",
+      "catatan": "Ayat (2) dan ayat (3) mengatur pemberian sertifikat dan bukti kepesertaan oleh BPJS Ketenagakerjaan (administratif)."
+    },
+    {
+      "norm_id": "JAMSOS-JKP37-FORMULIR-PENDAFTARAN",
+      "topik": "Jamsos",
+      "pasal": "Pasal 6 ayat (1)",
+      "iri_individu": "ktn:Jkp37FormulirPendaftaran",
+      "jenis": "KetentuanJaminanSosial",
+      "kondisi": "Pengusaha mendaftarkan Pekerja/Buruh dalam program JKP",
+      "akibat": "Wajib menyerahkan formulir pendaftaran yang telah diisi lengkap dan benar kepada BPJS Ketenagakerjaan paling lama 30 hari sejak tanggal Pekerja/Buruh mulai bekerja",
+      "parameter": [],
+      "bukti": "wajib menyerahkan formulir pendaftaran yang telah diisi secara lengkap dan benar kepada BPJS Ketenagakerjaan paling lama 30 (tiga puluh) hari",
+      "confidence": 0.95,
+      "dasar_keyakinan": "dikutip",
+      "catatan": "Ayat (2) merinci isi formulir (NIK, tanggal lahir, nomor/tanggal perjanjian kerja). Batas 30 hari belum diparameterkan (tidak ada nama parameter yang cocok di VOCAB)."
+    },
+    {
+      "norm_id": "JAMSOS-JKP37-NOMOR-KEPESERTAAN",
+      "topik": "Jamsos",
+      "pasal": "Pasal 6 ayat (3)",
+      "iri_individu": "ktn:Jkp37NomorKepesertaan",
+      "jenis": "KetentuanJaminanSosial",
+      "kondisi": "Formulir pendaftaran diterima lengkap dan benar serta iuran pertama dibayar lunas kepada BPJS Ketenagakerjaan",
+      "akibat": "BPJS Ketenagakerjaan wajib memberikan nomor kepesertaan paling lama 1 hari kerja",
+      "parameter": [],
+      "bukti": "wajib memberikan nomor kepesertaan paling lama 1 (satu) hari kerja sejak formulir pendaftaran diterima secara lengkap dan benar",
+      "confidence": 0.95,
+      "dasar_keyakinan": "dikutip",
+      "catatan": "Ayat (4) dan ayat (5) mengatur sertifikat dan bukti kepesertaan (administratif)."
+    },
+    {
+      "norm_id": "JAMSOS-JKP37-MULTI-PENGUSAHA",
+      "topik": "Jamsos",
+      "pasal": "Pasal 8 ayat (1)",
+      "iri_individu": "ktn:Jkp37MultiPengusaha",
+      "jenis": "KetentuanJaminanSosial",
+      "kondisi": "Pekerja/Buruh mempunyai hubungan kerja dengan lebih dari 1 Pengusaha",
+      "akibat": "Wajib diikutsertakan dalam program JKP oleh masing-masing Pengusaha",
+      "parameter": [],
+      "bukti": "wajib diikutsertakan dalam program JKP oleh masingmasing Pengusaha",
+      "confidence": 0.95,
+      "dasar_keyakinan": "dikutip",
+      "catatan": "OCR 'masingmasing' = 'masing-masing'. Ayat (2): setelah terdaftar, Peserta memilih salah satu perusahaan sebagai tempat pekerjaan yang didaftarkan dalam program JKP."
+    },
+    {
+      "norm_id": "JAMSOS-JKP37-PERUBAHAN-DATA",
+      "topik": "Jamsos",
+      "pasal": "Pasal 9",
+      "iri_individu": "ktn:Jkp37PerubahanData",
+      "jenis": "KetentuanJaminanSosial",
+      "kondisi": "Terjadi perubahan nama perusahaan, alamat kantor, skala usaha, data Upah, data Pekerja/Buruh, atau perubahan data lain terkait kepesertaan program JKP",
+      "akibat": "Pengusaha wajib menyampaikan perubahan tersebut kepada BPJS Ketenagakerjaan paling lama 7 hari kerja sejak terjadi perubahan",
+      "parameter": [],
+      "bukti": "Pengusaha wajib menyampaikan perubahan tersebut kepada BPJS Ketenagakerjaan paling lama 7 (tujuh) hari kerja sejak terjadi perubahan.",
+      "confidence": 0.95,
+      "dasar_keyakinan": "dikutip",
+      "catatan": ""
     },
     {
       "norm_id": "JAMSOS-IURAN-JKP",
@@ -34,12 +146,152 @@
       "iri_individu": "ktn:IuranJKP",
       "jenis": "KetentuanJaminanSosial",
       "kondisi": "Pekerja/Buruh menjadi Peserta program JKP",
-      "akibat": "Iuran JKP 0,46% dari Upah sebulan; Pemerintah Pusat 0,22%, rekomposisi JKK 0,14% dan JKM 0,10%",
+      "akibat": "Iuran JKP wajib dibayarkan setiap bulan sebesar 0,46% dari Upah sebulan",
       "parameter": [],
       "bukti": "Iuran sebagaimana dimaksud pada ayat (1) sebesar 0,46% (nol koma empat puluh enam persen) dari Upah sebulan.",
       "confidence": 0.95,
       "dasar_keyakinan": "dikutip",
-      "catatan": "Angka belum diparameterkan; lihat tidak_termodelkan."
+      "catatan": "Menggabungkan ayat (1) dan ayat (2). Tarif dicatat juga sebagai program_jamsos JKP; persentase belum diparameterkan (VOCAB belum punya parameter tarif)."
+    },
+    {
+      "norm_id": "JAMSOS-JKP37-PEMBIAYAAN-IURAN",
+      "topik": "Jamsos",
+      "pasal": "Pasal 11 ayat (3)",
+      "iri_individu": "ktn:Jkp37PembiayaanIuran",
+      "jenis": "KetentuanJaminanSosial",
+      "kondisi": "Iuran JKP sebesar 0,46% dari Upah sebulan",
+      "akibat": "Bersumber dari iuran yang dibayarkan Pemerintah Pusat sebesar 0,22% dari Upah sebulan dan sumber pendanaan JKP berupa rekomposisi iuran JKK dan JKM",
+      "parameter": [],
+      "bukti": "bersumber dari iuran yang dibayarkan oleh Pemerintah Pusat dan sumber pendanaan JKP",
+      "confidence": 0.95,
+      "dasar_keyakinan": "dikutip",
+      "catatan": "Menggabungkan ayat (3) dan ayat (4): 0,22% (Pemerintah Pusat) + 0,14% (rekomposisi JKK) + 0,10% (rekomposisi JKM) = 0,46%."
+    },
+    {
+      "norm_id": "JAMSOS-JKP37-REKOMPOSISI-IURAN-JKK",
+      "topik": "Jamsos",
+      "pasal": "Pasal 11 ayat (5)a",
+      "iri_individu": "ktn:Jkp37RekomposisiIuranJkk",
+      "jenis": "KetentuanJaminanSosial",
+      "kondisi": "Iuran JKK direkomposisi sebagai sumber pendanaan JKP sebesar 0,14% dari Upah sebulan",
+      "akibat": "Iuran JKK untuk setiap kelompok tingkat risiko menjadi: sangat rendah 0,10%; rendah 0,40%; sedang 0,75%; tinggi 1,13%; sangat tinggi 1,60% dari Upah sebulan",
+      "parameter": [],
+      "bukti": "iuran JKK direkomposisi sebesar 0,14% (nol koma empat belas persen) dari Upah sebulan",
+      "confidence": 0.95,
+      "dasar_keyakinan": "dikutip",
+      "catatan": "Rincian tarif per tingkat risiko dicatat pada program_jamsos JKK-R1 sampai JKK-R5."
+    },
+    {
+      "norm_id": "JAMSOS-JKP37-REKOMPOSISI-IURAN-JKM",
+      "topik": "Jamsos",
+      "pasal": "Pasal 11 ayat (5)b",
+      "iri_individu": "ktn:Jkp37RekomposisiIuranJkm",
+      "jenis": "KetentuanJaminanSosial",
+      "kondisi": "Iuran JKM direkomposisi sebagai sumber pendanaan JKP sebesar 0,10% dari Upah sebulan",
+      "akibat": "Iuran JKM menjadi sebesar 0,20% dari Upah sebulan",
+      "parameter": [],
+      "bukti": "iuran JKM direkomposisi sebesar 0,10% (nol koma sepuluh persen) dari Upah sebulan, sehingga iuran JKM menjadi sebesar 0,20% (nol koma dua puluh persen) dari Upah sebulan.",
+      "confidence": 0.95,
+      "dasar_keyakinan": "dikutip",
+      "catatan": ""
+    },
+    {
+      "norm_id": "JAMSOS-JKP37-DASAR-UPAH-IURAN",
+      "topik": "Jamsos",
+      "pasal": "Pasal 11 ayat (6)",
+      "iri_individu": "ktn:Jkp37DasarUpahIuran",
+      "jenis": "KetentuanJaminanSosial",
+      "kondisi": "Menghitung iuran JKP",
+      "akibat": "Dasar perhitungan adalah Upah terakhir Pekerja/Buruh yang dilaporkan Pengusaha kepada BPJS Ketenagakerjaan dan tidak melebihi batas atas Upah; bila Upah melebihi batas atas, dipakai sebesar batas atas Upah",
+      "parameter": [],
+      "bukti": "merupakan Upah terakhir Pekerja/Buruh yang dilaporkan oleh Pengusaha kepada BPJS Ketenagakerjaan dan tidak melebihi batas atas Upah",
+      "confidence": 0.95,
+      "dasar_keyakinan": "dikutip",
+      "catatan": "Menggabungkan ayat (6) dan ayat (8)."
+    },
+    {
+      "norm_id": "JAMSOS-BATAS-UPAH-JKP",
+      "topik": "Jamsos",
+      "pasal": "Pasal 11 ayat (7)",
+      "iri_individu": "ktn:BatasAtasUpahJKP",
+      "jenis": "KetentuanJaminanSosial",
+      "kondisi": "Menetapkan batas atas Upah sebagai dasar perhitungan iuran JKP",
+      "akibat": "Batas atas Upah untuk pertama kali ditetapkan sebesar Rp5.000.000,00",
+      "parameter": [],
+      "bukti": "Batas atas Upah sebagaimana dimaksud pada ayat (6) untuk pertama kali ditetapkan sebesar Rp5.000.000,00 (lima juta rupiah).",
+      "confidence": 0.95,
+      "dasar_keyakinan": "dikutip",
+      "catatan": "Nominal rupiah belum diparameterkan. Besaran iuran dan batas atas Upah dievaluasi setiap 2 tahun (Pasal 12)."
+    },
+    {
+      "norm_id": "JAMSOS-JKP37-KOMPONEN-UPAH-IURAN",
+      "topik": "Jamsos",
+      "pasal": "Pasal 13 ayat (1)",
+      "iri_individu": "ktn:Jkp37KomponenUpahIuran",
+      "jenis": "KetentuanJaminanSosial",
+      "kondisi": "Menetapkan Upah sebulan sebagai dasar perhitungan pembayaran iuran",
+      "akibat": "Terdiri atas Upah pokok dan tunjangan tetap; bila Upah tidak memakai komponen Upah pokok dan tunjangan tetap, dasar perhitungan adalah Upah tanpa tunjangan; bila Upah terdiri atas Upah pokok dan tunjangan tidak tetap, dasar perhitungan adalah Upah pokok",
+      "parameter": [],
+      "bukti": "terdiri atas Upah pokok dan tunjangan tetap",
+      "confidence": 0.95,
+      "dasar_keyakinan": "dikutip",
+      "catatan": "Menggabungkan ayat (1), ayat (2), dan ayat (3)."
+    },
+    {
+      "norm_id": "JAMSOS-JKP37-REKOMPOSISI-TERLAMBAT",
+      "topik": "Jamsos",
+      "pasal": "Pasal 16 ayat (1)",
+      "iri_individu": "ktn:Jkp37RekomposisiTerlambat",
+      "jenis": "KetentuanJaminanSosial",
+      "kondisi": "Pelaksanaan rekomposisi iuran mengalami keterlambatan",
+      "akibat": "Pemerintah Pusat tidak membayarkan iuran; setelah tunggakan rekomposisi dilunasi, Pemerintah Pusat membayarkan iuran yang belum dibayarkan sesuai bulan pelunasan iuran yang tertunggak",
+      "parameter": [],
+      "bukti": "maka Pemerintah Pusat tidak membayarkan iuran",
+      "confidence": 0.95,
+      "dasar_keyakinan": "dikutip",
+      "catatan": "Menggabungkan ayat (1) dan ayat (2)."
+    },
+    {
+      "norm_id": "JAMSOS-JKP37-MANFAAT",
+      "topik": "Jamsos",
+      "pasal": "Pasal 18",
+      "iri_individu": "ktn:Jkp37Manfaat",
+      "jenis": "KetentuanJaminanSosial",
+      "kondisi": "Peserta program JKP",
+      "akibat": "Manfaat JKP berupa uang tunai, akses informasi pasar kerja, dan Pelatihan Kerja",
+      "parameter": [],
+      "bukti": "Manfaat JKP berupa:",
+      "confidence": 0.95,
+      "dasar_keyakinan": "dikutip",
+      "catatan": "Huruf a sampai dengan huruf c dirangkum pada kolom akibat."
+    },
+    {
+      "norm_id": "JAMSOS-JKP37-HAK-MANFAAT",
+      "topik": "Jamsos",
+      "pasal": "Pasal 19 ayat (1)",
+      "iri_individu": "ktn:Jkp37HakManfaat",
+      "jenis": "KetentuanJaminanSosial",
+      "kondisi": "Peserta mengalami Pemutusan Hubungan Kerja, baik untuk hubungan kerja berdasarkan perjanjian kerja waktu tidak tertentu maupun perjanjian kerja waktu tertentu",
+      "akibat": "Berhak memperoleh manfaat JKP",
+      "parameter": [],
+      "bukti": "Manfaat JKP diberikan kepada Peserta yang mengalami Pemutusan Hubungan Kerja baik untuk hubungan kerja berdasarkan perjanjian kerja waktu tidak tertentu maupun perjanjian kerja waktu tertentu.",
+      "confidence": 0.95,
+      "dasar_keyakinan": "dikutip",
+      "catatan": ""
+    },
+    {
+      "norm_id": "JAMSOS-JKP37-BERSEDIA-BEKERJA",
+      "topik": "Jamsos",
+      "pasal": "Pasal 19 ayat (2)",
+      "iri_individu": "ktn:Jkp37BersediaBekerja",
+      "jenis": "KetentuanJaminanSosial",
+      "kondisi": "Penerima manfaat JKP",
+      "akibat": "Harus bersedia untuk bekerja kembali",
+      "parameter": [],
+      "bukti": "penerima manfaat JKP harus bersedia untuk bekerja kembali",
+      "confidence": 0.95,
+      "dasar_keyakinan": "dikutip",
+      "catatan": ""
     },
     {
       "norm_id": "JAMSOS-MASA-IUR-JKP",
@@ -48,26 +300,12 @@
       "iri_individu": "ktn:MasaIurJKP",
       "jenis": "KetentuanJaminanSosial",
       "kondisi": "Peserta mengajukan manfaat JKP",
-      "akibat": "Masa iur minimal 12 bulan dalam 24 bulan dan iuran 6 bulan berturut-turut sebelum PHK",
+      "akibat": "Masa iur paling sedikit 12 bulan dalam 24 bulan dan telah membayar iuran paling singkat 6 bulan berturut-turut pada BPJS Ketenagakerjaan sebelum terjadi Pemutusan Hubungan Kerja",
       "parameter": [],
-      "bukti": "masa iur paling sedikit 12 (dua belas) bulan dalam 24 (dua puluh empat) bulan dan telah membayar iuran paling singkat 6 (enam) bulan berturut-turut",
+      "bukti": "masa iur paling sedikit 12 (dua belas) bulan dalam 24 (dua puluh empat) bulan dan telah membayar iuran paling singkat 6 (enam) bulan berturut-turut pada BPJS Ketenagakerjaan sebelum terjadi Pemutusan Hubungan Kerja",
       "confidence": 0.95,
       "dasar_keyakinan": "dikutip",
-      "catatan": "Angka belum diparameterkan; lihat tidak_termodelkan."
-    },
-    {
-      "norm_id": "JAMSOS-MANFAAT-TUNAI-JKP",
-      "topik": "Jamsos",
-      "pasal": "Pasal 21 ayat (1)",
-      "iri_individu": "ktn:ManfaatUangTunaiJKP",
-      "jenis": "KetentuanJaminanSosial",
-      "kondisi": "Peserta mengalami PHK dan memenuhi syarat manfaat",
-      "akibat": "Manfaat uang tunai paling banyak 6 bulan Upah: 45% untuk 3 bulan pertama dan 25% untuk 3 bulan berikutnya",
-      "parameter": [],
-      "bukti": "sebesar 45 % (empat puluh lima persen) dari Upah untuk 3 (tiga) bulan pertama; dan b. sebesar 25 % (dua puluh lima persen) dari Upah untuk 3 (tiga) bulan berikutnya",
-      "confidence": 0.95,
-      "dasar_keyakinan": "dikutip",
-      "catatan": "Formula belum diparameterkan; lihat tidak_termodelkan."
+      "catatan": "Angka belum diparameterkan (tidak ada nama parameter yang cocok di VOCAB)."
     },
     {
       "norm_id": "JAMSOS-PENGECUALIAN-JKP",
@@ -78,21 +316,175 @@
       "kondisi": "PHK karena mengundurkan diri, cacat total tetap, pensiun, atau meninggal dunia",
       "akibat": "Manfaat JKP dikecualikan",
       "parameter": [],
-      "bukti": "Manfaat JKP ... dikecualikan untuk alasan Pemutusan Hubungan Kerja karena: a. mengundurkan diri; b. cacat total tetap; c. pensiun; atau d. meninggal dunia.",
+      "bukti": "Manfaat JKP bagi Peserta yang mengalami Pemutusan Hubungan Kerja dikecualikan untuk alasan Pemutusan Hubungan Kerja karena:",
       "confidence": 0.95,
       "dasar_keyakinan": "dikutip",
       "catatan": ""
     },
     {
-      "norm_id": "JAMSOS-BATAS-UPAH-JKP",
+      "norm_id": "JAMSOS-JKP37-MANFAAT-PKWT",
       "topik": "Jamsos",
-      "pasal": "Pasal 11 ayat (7)",
-      "iri_individu": "ktn:BatasAtasUpahJKP",
+      "pasal": "Pasal 20 ayat (2)",
+      "iri_individu": "ktn:Jkp37ManfaatPkwt",
       "jenis": "KetentuanJaminanSosial",
-      "kondisi": "Menghitung dasar iuran dan manfaat JKP",
-      "akibat": "Batas atas Upah untuk perhitungan ditetapkan Rp5.000.000 dan dievaluasi tiap 2 tahun",
+      "kondisi": "Peserta dengan hubungan kerja berdasarkan perjanjian kerja waktu tertentu dan Pemutusan Hubungan Kerja oleh Pengusaha dilakukan sebelum berakhirnya jangka waktu perjanjian kerja",
+      "akibat": "Manfaat JKP diberikan",
       "parameter": [],
-      "bukti": "Batas atas Upah sebagaimana dimaksud pada ayat (6) untuk pertama kali ditetapkan sebesar Rp5.000.000,00 (lima juta rupiah).",
+      "bukti": "diberikan apabila Pemutusan Hubungan Kerja oleh Pengusaha dilakukan sebelum berakhirnya jangka waktu perjanjian kerja waktu tertentu",
+      "confidence": 0.95,
+      "dasar_keyakinan": "dikutip",
+      "catatan": ""
+    },
+    {
+      "norm_id": "JAMSOS-JKP37-BUKTI-PHK",
+      "topik": "Jamsos",
+      "pasal": "Pasal 20 ayat (3)",
+      "iri_individu": "ktn:Jkp37BuktiPhk",
+      "jenis": "KetentuanJaminanSosial",
+      "kondisi": "Peserta mengajukan manfaat JKP atas suatu Pemutusan Hubungan Kerja",
+      "akibat": "PHK dibuktikan dengan bukti diterimanya PHK dan tanda terima laporan PHK dari dinas kabupaten/kota; perjanjian bersama yang didaftarkan pada pengadilan hubungan industrial dan akta bukti pendaftaran; atau petikan/putusan pengadilan hubungan industrial yang berkekuatan hukum tetap",
+      "parameter": [],
+      "bukti": "Pemutusan Hubungan Kerja sebagaimana dimaksud pada ayat (1) dibuktikan dengan:",
+      "confidence": 0.95,
+      "dasar_keyakinan": "dikutip",
+      "catatan": "Rincian bukti pada huruf a sampai dengan huruf c diringkas pada kolom akibat."
+    },
+    {
+      "norm_id": "JAMSOS-MANFAAT-TUNAI-JKP",
+      "topik": "Jamsos",
+      "pasal": "Pasal 21 ayat (1)",
+      "iri_individu": "ktn:ManfaatUangTunaiJKP",
+      "jenis": "KetentuanJaminanSosial",
+      "kondisi": "Peserta memenuhi syarat menerima manfaat JKP",
+      "akibat": "Manfaat uang tunai diberikan setiap bulan paling banyak 6 bulan Upah: 45% dari Upah untuk 3 bulan pertama dan 25% dari Upah untuk 3 bulan berikutnya",
+      "parameter": [],
+      "bukti": "sebesar 45 % (empat puluh lima persen) dari Upah untuk 3 (tiga) bulan pertama",
+      "confidence": 0.95,
+      "dasar_keyakinan": "dikutip",
+      "catatan": "Huruf b (25% untuk 3 bulan berikutnya) diringkas pada kolom akibat. Angka belum diparameterkan (tidak ada parameter pengali manfaat di VOCAB)."
+    },
+    {
+      "norm_id": "JAMSOS-JKP37-DASAR-UPAH-MANFAAT",
+      "topik": "Jamsos",
+      "pasal": "Pasal 21 ayat (2)",
+      "iri_individu": "ktn:Jkp37DasarUpahManfaat",
+      "jenis": "KetentuanJaminanSosial",
+      "kondisi": "Menghitung manfaat uang tunai JKP",
+      "akibat": "Dasar pembayaran adalah Upah terakhir yang dilaporkan Pengusaha kepada BPJS Ketenagakerjaan dan tidak melebihi batas atas Upah; bila Upah melebihi batas atas, dipakai sebesar batas atas Upah",
+      "parameter": [],
+      "bukti": "merupakan Upah terakhir Pekerja/Buruh yang dilaporkan Pengusaha kepada BPJS Ketenagakerjaan dan tidak melebihi batas atas Upah yang ditetapkan",
+      "confidence": 0.95,
+      "dasar_keyakinan": "dikutip",
+      "catatan": "Menggabungkan ayat (2) dan ayat (4)."
+    },
+    {
+      "norm_id": "JAMSOS-JKP37-BATAS-UPAH-MANFAAT",
+      "topik": "Jamsos",
+      "pasal": "Pasal 21 ayat (3)",
+      "iri_individu": "ktn:Jkp37BatasUpahManfaat",
+      "jenis": "KetentuanJaminanSosial",
+      "kondisi": "Menetapkan batas atas Upah sebagai dasar pembayaran manfaat uang tunai",
+      "akibat": "Batas atas Upah untuk pertama kali ditetapkan sebesar Rp5.000.000,00",
+      "parameter": [],
+      "bukti": "Batas atas Upah untuk pertama kali ditetapkan sebesar Rp5.000.000,00 (lima juta rupiah).",
+      "confidence": 0.95,
+      "dasar_keyakinan": "dikutip",
+      "catatan": "Batas atas Upah dievaluasi setiap 2 tahun (Pasal 22); nominal rupiah belum diparameterkan."
+    },
+    {
+      "norm_id": "JAMSOS-JKP37-KEKURANGAN-MANFAAT",
+      "topik": "Jamsos",
+      "pasal": "Pasal 23",
+      "iri_individu": "ktn:Jkp37KekuranganManfaat",
+      "jenis": "KetentuanJaminanSosial",
+      "kondisi": "Terjadi Pemutusan Hubungan Kerja dan Upah yang dilaporkan tidak sesuai dengan Upah sebenarnya sehingga terdapat kekurangan pembayaran manfaat uang tunai",
+      "akibat": "Pengusaha wajib membayar kekurangan manfaat uang tunai kepada Pekerja/Buruh secara sekaligus",
+      "parameter": [],
+      "bukti": "Pengusaha wajib membayar kekurangan manfaat uang tunai kepada Pekerja/Buruh secara sekaligus",
+      "confidence": 0.95,
+      "dasar_keyakinan": "dikutip",
+      "catatan": ""
+    },
+    {
+      "norm_id": "JAMSOS-JKP37-INFO-PASAR-KERJA",
+      "topik": "Jamsos",
+      "pasal": "Pasal 25 ayat (1)",
+      "iri_individu": "ktn:Jkp37InfoPasarKerja",
+      "jenis": "KetentuanJaminanSosial",
+      "kondisi": "Peserta menerima manfaat akses informasi pasar kerja",
+      "akibat": "Diberikan dalam bentuk layanan informasi pasar kerja dan/atau bimbingan jabatan",
+      "parameter": [],
+      "bukti": "Manfaat akses informasi pasar kerja sebagaimana dimaksud dalam Pasal 18 huruf b diberikan dalam",
+      "confidence": 0.95,
+      "dasar_keyakinan": "dikutip",
+      "catatan": "Ayat (2) mengatur pelaksana (pengantar kerja/petugas antarkerja) melalui Sistem Informasi Ketenagakerjaan dan bersifat kelembagaan. Pasal 26 dan Pasal 27 hanya merinci bentuk layanan."
+    },
+    {
+      "norm_id": "JAMSOS-JKP37-LAPOR-PENEMPATAN",
+      "topik": "Jamsos",
+      "pasal": "Pasal 28",
+      "iri_individu": "ktn:Jkp37LaporPenempatan",
+      "jenis": "KetentuanJaminanSosial",
+      "kondisi": "Peserta telah mendapatkan manfaat akses informasi pasar kerja dan pekerjaan yang sesuai dengan minat, bakat, dan kompetensi",
+      "akibat": "Harus melaporkan penempatannya melalui Sistem Informasi Ketenagakerjaan paling lama 7 hari kerja sejak diterima bekerja",
+      "parameter": [],
+      "bukti": "harus melaporkan penempatannya melalui Sistem Informasi Ketenagakerjaan paling lama 7 (tujuh) hari kerja sejak diterima bekerja",
+      "confidence": 0.95,
+      "dasar_keyakinan": "dikutip",
+      "catatan": ""
+    },
+    {
+      "norm_id": "JAMSOS-JKP37-PELATIHAN-KOMPETENSI",
+      "topik": "Jamsos",
+      "pasal": "Pasal 30 ayat (1)",
+      "iri_individu": "ktn:Jkp37PelatihanKompetensi",
+      "jenis": "KetentuanJaminanSosial",
+      "kondisi": "Peserta menerima manfaat Pelatihan Kerja",
+      "akibat": "Diberikan berupa pelatihan berbasis kompetensi",
+      "parameter": [],
+      "bukti": "Manfaat Pelatihan Kerja sebagaimana dimaksud dalam Pasal 18 huruf c diberikan berupa pelatihan berbasis kompetensi.",
+      "confidence": 0.95,
+      "dasar_keyakinan": "dikutip",
+      "catatan": "Ayat (2) dan ayat (3) mengatur integrasi sistem informasi serta penyelenggaraan secara daring dan/atau luring (teknis)."
+    },
+    {
+      "norm_id": "JAMSOS-JKP37-LAPOR-PELATIHAN",
+      "topik": "Jamsos",
+      "pasal": "Pasal 33 ayat (1)",
+      "iri_individu": "ktn:Jkp37LaporPelatihan",
+      "jenis": "KetentuanJaminanSosial",
+      "kondisi": "Peserta telah menerima manfaat Pelatihan Kerja",
+      "akibat": "Harus melaporkan pelatihan yang telah diselesaikan melalui Sistem Informasi Ketenagakerjaan paling lama 7 hari kerja sejak selesainya pelatihan",
+      "parameter": [],
+      "bukti": "harus melaporkan pelatihan yang telah diselesaikan melalui Sistem Informasi Ketenagakerjaan paling lama 7 (tujuh) hari kerja sejak selesainya pelatihan",
+      "confidence": 0.95,
+      "dasar_keyakinan": "dikutip",
+      "catatan": "Ayat (2): Peserta dapat memanfaatkan kembali layanan akses informasi pasar kerja untuk bekerja."
+    },
+    {
+      "norm_id": "JAMSOS-JKP37-BATAS-PENGAJUAN",
+      "topik": "Jamsos",
+      "pasal": "Pasal 35",
+      "iri_individu": "ktn:Jkp37BatasPengajuan",
+      "jenis": "KetentuanJaminanSosial",
+      "kondisi": "Peserta mengajukan hak atas manfaat JKP",
+      "akibat": "Diajukan paling banyak 3 kali selama masa usia kerja; pengajuan kedua dan ketiga paling sedikit setelah masa iur 5 tahun sejak memperoleh manfaat sebelumnya",
+      "parameter": [],
+      "bukti": "Hak atas manfaat JKP diajukan paling banyak 3 (tiga) kali selama masa usia kerja",
+      "confidence": 0.95,
+      "dasar_keyakinan": "dikutip",
+      "catatan": "Rincian huruf a sampai dengan huruf c diringkas pada kolom akibat."
+    },
+    {
+      "norm_id": "JAMSOS-JKP37-MANFAAT-MULTI-PENGUSAHA",
+      "topik": "Jamsos",
+      "pasal": "Pasal 36",
+      "iri_individu": "ktn:Jkp37ManfaatMultiPengusaha",
+      "jenis": "KetentuanJaminanSosial",
+      "kondisi": "Peserta mempunyai hubungan kerja dengan lebih dari 1 Pengusaha",
+      "akibat": "Manfaat JKP diberikan jika Peserta mengalami Pemutusan Hubungan Kerja",
+      "parameter": [],
+      "bukti": "Manfaat JKP bagi Peserta yang mempunyai hubungan kerja dengan lebih dari 1 (satu) Pengusaha diberikan jika Peserta mengalami Pemutusan Hubungan Kerja.",
       "confidence": 0.95,
       "dasar_keyakinan": "dikutip",
       "catatan": ""
@@ -103,13 +495,139 @@
       "pasal": "Pasal 37 ayat (1)",
       "iri_individu": "ktn:KewajibanPengusahaJKP",
       "jenis": "KetentuanJaminanSosial",
-      "kondisi": "Pengusaha tidak mengikutsertakan pekerja dalam JKP dan terjadi PHK",
-      "akibat": "Pengusaha wajib memenuhi hak berupa manfaat uang tunai sekaligus dan manfaat Pelatihan Kerja",
+      "kondisi": "Pengusaha tidak mengikutsertakan Pekerja/Buruh dalam program JKP dan terjadi Pemutusan Hubungan Kerja",
+      "akibat": "Pengusaha wajib memenuhi hak Pekerja/Buruh berupa manfaat uang tunai dengan perhitungan Pasal 21 ayat (1) yang diberikan secara sekaligus dan manfaat Pelatihan Kerja",
       "parameter": [],
-      "bukti": "Pengusaha wajib memenuhi hak Pekerja/Buruh berupa: a. manfaat uang tunai ...; dan b. manfaat Pelatihan Kerja",
+      "bukti": "manfaat uang tunai dengan perhitungan manfaat sebagaimana dimaksud dalam Pasal 21 ayat (1) yang diberikan secara sekaligus",
       "confidence": 0.95,
       "dasar_keyakinan": "dikutip",
-      "catatan": "Dikecualikan bagi pengusaha usaha mikro (Pasal 37 ayat (2))."
+      "catatan": "Huruf b (manfaat Pelatihan Kerja) diringkas pada kolom akibat. Dikecualikan bagi Pengusaha pada usaha mikro (ayat (2))."
+    },
+    {
+      "norm_id": "JAMSOS-JKP37-HAK-TIDAK-DIALIHKAN",
+      "topik": "Jamsos",
+      "pasal": "Pasal 38",
+      "iri_individu": "ktn:Jkp37HakTidakDialihkan",
+      "jenis": "KetentuanJaminanSosial",
+      "kondisi": "Peserta memiliki hak atas manfaat JKP",
+      "akibat": "Hak tidak dapat dipindahtangankan, digadaikan, atau disita sebagai pelaksanaan putusan pengadilan",
+      "parameter": [],
+      "bukti": "Hak atas manfaat JKP tidak dapat dipindahtangankan, digadaikan, atau disita sebagai pelaksanaan putusan pengadilan.",
+      "confidence": 0.95,
+      "dasar_keyakinan": "dikutip",
+      "catatan": ""
+    },
+    {
+      "norm_id": "JAMSOS-JKP37-TUNGGAKAN-MAKS-3-BULAN",
+      "topik": "Jamsos",
+      "pasal": "Pasal 39 ayat (1)",
+      "iri_individu": "ktn:Jkp37TunggakanMaksTigaBulan",
+      "jenis": "KetentuanJaminanSosial",
+      "kondisi": "Pengusaha menunggak iuran JKK dan JKM sebagai sumber pendanaan program JKP sampai dengan 3 bulan berturut-turut dan terjadi Pemutusan Hubungan Kerja",
+      "akibat": "BPJS Ketenagakerjaan wajib membayar manfaat uang tunai sebagaimana dimaksud dalam Pasal 21 ayat (1) kepada Peserta",
+      "parameter": [],
+      "bukti": "sampai dengan 3 (tiga) bulan berturut-turut dan terjadi Pemutusan Hubungan Kerja, BPJS Ketenagakerjaan wajib membayar manfaat uang tunai",
+      "confidence": 0.95,
+      "dasar_keyakinan": "dikutip",
+      "catatan": ""
+    },
+    {
+      "norm_id": "JAMSOS-JKP37-PELUNASAN-TUNGGAKAN",
+      "topik": "Jamsos",
+      "pasal": "Pasal 39 ayat (2)",
+      "iri_individu": "ktn:Jkp37PelunasanTunggakan",
+      "jenis": "KetentuanJaminanSosial",
+      "kondisi": "BPJS Ketenagakerjaan telah membayar manfaat uang tunai",
+      "akibat": "Pengusaha wajib melunasi tunggakan iuran",
+      "parameter": [],
+      "bukti": "maka Pengusaha wajib melunasi tunggakan iuran",
+      "confidence": 0.95,
+      "dasar_keyakinan": "dikutip",
+      "catatan": ""
+    },
+    {
+      "norm_id": "JAMSOS-JKP37-TUNGGAKAN-LEBIH-3-BULAN",
+      "topik": "Jamsos",
+      "pasal": "Pasal 39 ayat (3)",
+      "iri_individu": "ktn:Jkp37TunggakanLebihTigaBulan",
+      "jenis": "KetentuanJaminanSosial",
+      "kondisi": "Pengusaha menunggak iuran JKK dan JKM sebagai sumber pendanaan program JKP lebih dari 3 bulan berturut-turut dan terjadi Pemutusan Hubungan Kerja",
+      "akibat": "Pengusaha wajib membayar terlebih dahulu manfaat uang tunai kepada Peserta sebagaimana dimaksud dalam Pasal 21 ayat (1)",
+      "parameter": [],
+      "bukti": "lebih dari 3 (tiga) bulan berturut-turut dan terjadi Pemutusan Hubungan Kerja, Pengusaha wajib membayar terlebih dahulu manfaat uang tunai kepada Peserta",
+      "confidence": 0.95,
+      "dasar_keyakinan": "dikutip",
+      "catatan": ""
+    },
+    {
+      "norm_id": "JAMSOS-JKP37-PENGGANTIAN-MANFAAT",
+      "topik": "Jamsos",
+      "pasal": "Pasal 39 ayat (4)",
+      "iri_individu": "ktn:Jkp37PenggantianManfaat",
+      "jenis": "KetentuanJaminanSosial",
+      "kondisi": "Pengusaha telah melunasi seluruh tunggakan iuran dan denda yang menjadi kewajibannya",
+      "akibat": "Pengusaha dapat meminta penggantian manfaat uang tunai yang telah dibayarkan kepada BPJS Ketenagakerjaan, diajukan paling lama 3 bulan sejak Pengusaha membayar hak Peserta",
+      "parameter": [],
+      "bukti": "Pengusaha dapat meminta penggantian manfaat uang tunai yang telah dibayarkan sebagaimana dimaksud pada ayat (3), kepada BPJS Ketenagakerjaan.",
+      "confidence": 0.95,
+      "dasar_keyakinan": "dikutip",
+      "catatan": "Menggabungkan ayat (4) dan ayat (5); batas 3 bulan belum diparameterkan."
+    },
+    {
+      "norm_id": "JAMSOS-JKP37-PENGGANTIAN-TUJUH-HARI",
+      "topik": "Jamsos",
+      "pasal": "Pasal 39 ayat (6)",
+      "iri_individu": "ktn:Jkp37PenggantianTujuhHari",
+      "jenis": "KetentuanJaminanSosial",
+      "kondisi": "Surat permintaan dan dokumen pendukung diterima secara lengkap dan benar oleh BPJS Ketenagakerjaan",
+      "akibat": "BPJS Ketenagakerjaan wajib membayar penggantian manfaat uang tunai paling lama 7 hari kerja",
+      "parameter": [],
+      "bukti": "paling lama 7 (tujuh) hari kerja sejak surat permintaan dan dokumen pendukung diterima secara lengkap dan benar oleh BPJS Ketenagakerjaan",
+      "confidence": 0.95,
+      "dasar_keyakinan": "dikutip",
+      "catatan": ""
+    },
+    {
+      "norm_id": "JAMSOS-JKP37-HILANG-HAK",
+      "topik": "Jamsos",
+      "pasal": "Pasal 40",
+      "iri_individu": "ktn:Jkp37HilangHak",
+      "jenis": "KetentuanJaminanSosial",
+      "kondisi": "Pekerja/Buruh tidak mengajukan permohonan klaim selama 3 bulan sejak PHK, telah mendapatkan pekerjaan, atau meninggal dunia",
+      "akibat": "Hak atas manfaat JKP hilang",
+      "parameter": [],
+      "bukti": "tidak mengajukan permohonan klaim manfaat JKP selama 3 (tiga) bulan sejak terjadi Pemutusan Hubungan Kerja",
+      "confidence": 0.95,
+      "dasar_keyakinan": "dikutip",
+      "catatan": "Tiga alasan pada huruf a sampai dengan huruf c digabung karena akibatnya identik."
+    },
+    {
+      "norm_id": "JAMSOS-JKP37-SUMBER-PENDANAAN",
+      "topik": "Jamsos",
+      "pasal": "Pasal 42 ayat (1)",
+      "iri_individu": "ktn:Jkp37SumberPendanaan",
+      "jenis": "KetentuanJaminanSosial",
+      "kondisi": "Mendanai program JKP",
+      "akibat": "Sumber pendanaan berasal dari modal awal pemerintah, rekomposisi iuran program jaminan sosial, dan/atau dana operasional BPJS Ketenagakerjaan; modal awal bersumber dari APBN, bukan kekayaan negara yang dipisahkan, dan digunakan bila iuran belum mencukupi",
+      "parameter": [],
+      "bukti": "Sumber pendanaan JKP berasal dari:",
+      "confidence": 0.95,
+      "dasar_keyakinan": "dikutip",
+      "catatan": "Menggabungkan ayat (1) sampai dengan ayat (4); huruf a sampai c diringkas pada kolom akibat. Ayat (5) mendelegasikan pengaturan dana awal ke Peraturan Menteri."
+    },
+    {
+      "norm_id": "JAMSOS-JKP37-DANA-OPERASIONAL",
+      "topik": "Jamsos",
+      "pasal": "Pasal 43",
+      "iri_individu": "ktn:Jkp37DanaOperasional",
+      "jenis": "KetentuanJaminanSosial",
+      "kondisi": "Iuran program yang diterima dan dana awal belum mencukupi untuk membayar manfaat program JKP",
+      "akibat": "Dana operasional BPJS Ketenagakerjaan dapat digunakan untuk pendanaan program JKP",
+      "parameter": [],
+      "bukti": "Dana operasional sebagaimana dimaksud dalam pasal 42 ayat (1) huruf c dapat digunakan untuk pendanaan program JKP dalam hal iuran program yang diterima dan dana awal belum mencukupi",
+      "confidence": 0.95,
+      "dasar_keyakinan": "dikutip",
+      "catatan": ""
     }
   ],
   "kategori": [],
@@ -123,11 +641,11 @@
       "tarif_pekerja_persen": 0.0,
       "tarif_total_persen": 0.1,
       "tingkat_risiko": "sangat_rendah",
-      "pasal": "PP 37/2021 Pasal 11 ayat (5)a.1",
+      "pasal": "Pasal 11 ayat (5)a.1",
+      "bukti": "tingkat risiko sangat rendah sebesar 0,10% (nol koma sepuluh persen) dari Upah sebulan",
       "confidence": 0.95,
       "dasar_keyakinan": "dikutip",
-      "bukti": "",
-      "catatan": "dasar PP 44/2015: 0.24%"
+      "catatan": "Tarif setelah rekomposisi 0,14% untuk JKP; sebelum rekomposisi (PP 44/2015) 0,24%."
     },
     {
       "program_id": "JKK-R2",
@@ -137,11 +655,11 @@
       "tarif_pekerja_persen": 0.0,
       "tarif_total_persen": 0.4,
       "tingkat_risiko": "rendah",
-      "pasal": "PP 37/2021 Pasal 11 ayat (5)a.2",
+      "pasal": "Pasal 11 ayat (5)a.2",
+      "bukti": "tingkat risiko rendah sebesar 0,40% (nol koma empat puluh persen) dari Upah sebulan",
       "confidence": 0.95,
       "dasar_keyakinan": "dikutip",
-      "bukti": "",
-      "catatan": "dasar PP 44/2015: 0.54%"
+      "catatan": "Tarif setelah rekomposisi 0,14% untuk JKP; sebelum rekomposisi (PP 44/2015) 0,54%."
     },
     {
       "program_id": "JKK-R3",
@@ -151,11 +669,11 @@
       "tarif_pekerja_persen": 0.0,
       "tarif_total_persen": 0.75,
       "tingkat_risiko": "sedang",
-      "pasal": "PP 37/2021 Pasal 11 ayat (5)a.3",
+      "pasal": "Pasal 11 ayat (5)a.3",
+      "bukti": "tingkat risiko sedang sebesar 0,75% (nol koma tujuh puluh lima persen) dari Upah sebulan",
       "confidence": 0.95,
       "dasar_keyakinan": "dikutip",
-      "bukti": "",
-      "catatan": "dasar PP 44/2015: 0.89%"
+      "catatan": "Tarif setelah rekomposisi 0,14% untuk JKP; sebelum rekomposisi (PP 44/2015) 0,89%."
     },
     {
       "program_id": "JKK-R4",
@@ -165,11 +683,11 @@
       "tarif_pekerja_persen": 0.0,
       "tarif_total_persen": 1.13,
       "tingkat_risiko": "tinggi",
-      "pasal": "PP 37/2021 Pasal 11 ayat (5)a.4",
+      "pasal": "Pasal 11 ayat (5)a.4",
+      "bukti": "tingkat risiko tinggi sebesar 1,13% (satu koma tiga belas persen) dari Upah sebulan",
       "confidence": 0.95,
       "dasar_keyakinan": "dikutip",
-      "bukti": "",
-      "catatan": "dasar PP 44/2015: 1.27%"
+      "catatan": "Tarif setelah rekomposisi 0,14% untuk JKP; sebelum rekomposisi (PP 44/2015) 1,27%."
     },
     {
       "program_id": "JKK-R5",
@@ -179,11 +697,11 @@
       "tarif_pekerja_persen": 0.0,
       "tarif_total_persen": 1.6,
       "tingkat_risiko": "sangat_tinggi",
-      "pasal": "PP 37/2021 Pasal 11 ayat (5)a.5",
+      "pasal": "Pasal 11 ayat (5)a.5",
+      "bukti": "tingkat risiko sangat tinggi sebesar 1,60% (satu koma enam puluh persen) dari Upah sebulan",
       "confidence": 0.95,
       "dasar_keyakinan": "dikutip",
-      "bukti": "",
-      "catatan": "dasar PP 44/2015: 1.74%"
+      "catatan": "Tarif setelah rekomposisi 0,14% untuk JKP; sebelum rekomposisi (PP 44/2015) 1,74%."
     },
     {
       "program_id": "JKM",
@@ -193,11 +711,11 @@
       "tarif_pekerja_persen": 0.0,
       "tarif_total_persen": 0.2,
       "tingkat_risiko": null,
-      "pasal": "PP 37/2021 Pasal 11 ayat (5)b",
+      "pasal": "Pasal 11 ayat (5)b",
+      "bukti": "iuran JKM menjadi sebesar 0,20% (nol koma dua puluh persen) dari Upah sebulan",
       "confidence": 0.95,
       "dasar_keyakinan": "dikutip",
-      "bukti": "",
-      "catatan": "dasar PP 44/2015: 0.30%"
+      "catatan": "Tarif setelah direkomposisi 0,10% untuk JKP; sebelum rekomposisi (PP 44/2015) 0,30%."
     },
     {
       "program_id": "JKP",
@@ -208,201 +726,170 @@
       "tarif_total_persen": 0.46,
       "tingkat_risiko": null,
       "pasal": "Pasal 11 ayat (2)",
+      "bukti": "Iuran sebagaimana dimaksud pada ayat (1) sebesar 0,46% (nol koma empat puluh enam persen) dari Upah sebulan.",
       "confidence": 0.95,
       "dasar_keyakinan": "dikutip",
-      "bukti": "Iuran ... sebesar 0,46% ... dari Upah sebulan.",
-      "catatan": "Berasal dari Pemerintah Pusat 0,22% dan rekomposisi JKK 0,14% + JKM 0,10%; model program_jamsos tidak menampung sumber ini sehingga tarif pengusaha/pekerja 0."
+      "catatan": "Dibiayai Pemerintah Pusat 0,22% dan rekomposisi iuran JKK 0,14% + JKM 0,10%; model program_jamsos tidak menampung sumber ini sehingga tarif pengusaha/pekerja 0."
     }
   ],
   "cakupan": {
-    "lengkap": false,
+    "lengkap": true,
     "pasal_diekstrak": [
-      "Pasal 2",
+      "Pasal 1",
+      "Pasal 10",
       "Pasal 11",
+      "Pasal 12",
+      "Pasal 13",
+      "Pasal 14",
+      "Pasal 15",
+      "Pasal 16",
+      "Pasal 17",
+      "Pasal 18",
       "Pasal 19",
+      "Pasal 2",
       "Pasal 20",
       "Pasal 21",
-      "Pasal 37"
+      "Pasal 22",
+      "Pasal 23",
+      "Pasal 24",
+      "Pasal 25",
+      "Pasal 26",
+      "Pasal 27",
+      "Pasal 28",
+      "Pasal 29",
+      "Pasal 3",
+      "Pasal 30",
+      "Pasal 31",
+      "Pasal 32",
+      "Pasal 33",
+      "Pasal 34",
+      "Pasal 35",
+      "Pasal 36",
+      "Pasal 37",
+      "Pasal 38",
+      "Pasal 39",
+      "Pasal 4",
+      "Pasal 40",
+      "Pasal 41",
+      "Pasal 42",
+      "Pasal 43",
+      "Pasal 44",
+      "Pasal 45",
+      "Pasal 46",
+      "Pasal 47",
+      "Pasal 48",
+      "Pasal 49",
+      "Pasal 5",
+      "Pasal 50",
+      "Pasal 6",
+      "Pasal 7",
+      "Pasal 8",
+      "Pasal 9"
     ],
     "pasal_dilewati": [
       {
         "pasal": "Pasal 1",
-        "alasan": "retrofit: belum ditinjau (migrasi data pilot)"
+        "alasan": "definisi/istilah (19 definisi)"
       },
       {
         "pasal": "Pasal 3",
-        "alasan": "retrofit: belum ditinjau (migrasi data pilot)"
-      },
-      {
-        "pasal": "Pasal 4",
-        "alasan": "retrofit: belum ditinjau (migrasi data pilot)"
-      },
-      {
-        "pasal": "Pasal 5",
-        "alasan": "retrofit: belum ditinjau (migrasi data pilot)"
-      },
-      {
-        "pasal": "Pasal 6",
-        "alasan": "retrofit: belum ditinjau (migrasi data pilot)"
+        "alasan": "kelembagaan: penyelenggara program JKP adalah BPJS Ketenagakerjaan dan Pemerintah Pusat"
       },
       {
         "pasal": "Pasal 7",
-        "alasan": "retrofit: belum ditinjau (migrasi data pilot)"
-      },
-      {
-        "pasal": "Pasal 8",
-        "alasan": "retrofit: belum ditinjau (migrasi data pilot)"
-      },
-      {
-        "pasal": "Pasal 9",
-        "alasan": "retrofit: belum ditinjau (migrasi data pilot)"
+        "alasan": "ketentuan administratif: integrasi bukti kepesertaan dalam 1 kartu kepesertaan"
       },
       {
         "pasal": "Pasal 10",
-        "alasan": "retrofit: belum ditinjau (migrasi data pilot)"
+        "alasan": "tata cara pendaftaran dan perubahan data secara daring/luring; delegasi ke Peraturan Menteri"
       },
       {
         "pasal": "Pasal 12",
-        "alasan": "retrofit: belum ditinjau (migrasi data pilot)"
-      },
-      {
-        "pasal": "Pasal 13",
-        "alasan": "retrofit: belum ditinjau (migrasi data pilot)"
+        "alasan": "mekanisme evaluasi berkala besaran iuran dan batas atas Upah (kelembagaan)"
       },
       {
         "pasal": "Pasal 14",
-        "alasan": "retrofit: belum ditinjau (migrasi data pilot)"
+        "alasan": "tata cara pembayaran iuran kepada BPJS Ketenagakerjaan"
       },
       {
         "pasal": "Pasal 15",
-        "alasan": "retrofit: belum ditinjau (migrasi data pilot)"
-      },
-      {
-        "pasal": "Pasal 16",
-        "alasan": "retrofit: belum ditinjau (migrasi data pilot)"
+        "alasan": "integrasi, verifikasi, dan validasi data kepesertaan (administratif)"
       },
       {
         "pasal": "Pasal 17",
-        "alasan": "retrofit: belum ditinjau (migrasi data pilot)"
-      },
-      {
-        "pasal": "Pasal 18",
-        "alasan": "retrofit: belum ditinjau (migrasi data pilot)"
+        "alasan": "delegasi tata cara pembayaran iuran dan rekomposisi ke Peraturan Menteri"
       },
       {
         "pasal": "Pasal 22",
-        "alasan": "retrofit: belum ditinjau (migrasi data pilot)"
-      },
-      {
-        "pasal": "Pasal 23",
-        "alasan": "retrofit: belum ditinjau (migrasi data pilot)"
+        "alasan": "mekanisme evaluasi berkala batas atas Upah (kelembagaan)"
       },
       {
         "pasal": "Pasal 24",
-        "alasan": "retrofit: belum ditinjau (migrasi data pilot)"
-      },
-      {
-        "pasal": "Pasal 25",
-        "alasan": "retrofit: belum ditinjau (migrasi data pilot)"
+        "alasan": "kelembagaan: penyelenggaraan manfaat uang tunai oleh BPJS Ketenagakerjaan"
       },
       {
         "pasal": "Pasal 26",
-        "alasan": "retrofit: belum ditinjau (migrasi data pilot)"
+        "alasan": "rincian teknis layanan informasi pasar kerja (penyediaan data lowongan); tercakup pada norma Pasal 25 ayat (1)"
       },
       {
         "pasal": "Pasal 27",
-        "alasan": "retrofit: belum ditinjau (migrasi data pilot)"
-      },
-      {
-        "pasal": "Pasal 28",
-        "alasan": "retrofit: belum ditinjau (migrasi data pilot)"
+        "alasan": "rincian teknis layanan bimbingan jabatan (asesmen diri, konseling karir); tercakup pada norma Pasal 25 ayat (1)"
       },
       {
         "pasal": "Pasal 29",
-        "alasan": "retrofit: belum ditinjau (migrasi data pilot)"
-      },
-      {
-        "pasal": "Pasal 30",
-        "alasan": "retrofit: belum ditinjau (migrasi data pilot)"
-      },
-      {
-        "pasal": "Pasal 31",
-        "alasan": "retrofit: belum ditinjau (migrasi data pilot)"
-      },
-      {
-        "pasal": "Pasal 32",
-        "alasan": "retrofit: belum ditinjau (migrasi data pilot)"
-      },
-      {
-        "pasal": "Pasal 33",
-        "alasan": "retrofit: belum ditinjau (migrasi data pilot)"
+        "alasan": "kelembagaan: penyelenggaraan manfaat akses informasi pasar kerja oleh kementerian"
       },
       {
         "pasal": "Pasal 34",
-        "alasan": "retrofit: belum ditinjau (migrasi data pilot)"
-      },
-      {
-        "pasal": "Pasal 35",
-        "alasan": "retrofit: belum ditinjau (migrasi data pilot)"
-      },
-      {
-        "pasal": "Pasal 36",
-        "alasan": "retrofit: belum ditinjau (migrasi data pilot)"
-      },
-      {
-        "pasal": "Pasal 38",
-        "alasan": "retrofit: belum ditinjau (migrasi data pilot)"
-      },
-      {
-        "pasal": "Pasal 39",
-        "alasan": "retrofit: belum ditinjau (migrasi data pilot)"
-      },
-      {
-        "pasal": "Pasal 40",
-        "alasan": "retrofit: belum ditinjau (migrasi data pilot)"
+        "alasan": "kelembagaan dan delegasi pembiayaan manfaat Pelatihan Kerja ke Peraturan Menteri"
       },
       {
         "pasal": "Pasal 41",
-        "alasan": "retrofit: belum ditinjau (migrasi data pilot)"
-      },
-      {
-        "pasal": "Pasal 42",
-        "alasan": "retrofit: belum ditinjau (migrasi data pilot)"
-      },
-      {
-        "pasal": "Pasal 43",
-        "alasan": "retrofit: belum ditinjau (migrasi data pilot)"
-      },
-      {
-        "pasal": "Pasal 44",
-        "alasan": "retrofit: belum ditinjau (migrasi data pilot)"
-      },
-      {
-        "pasal": "Pasal 45",
-        "alasan": "retrofit: belum ditinjau (migrasi data pilot)"
+        "alasan": "delegasi tata cara pemberian manfaat JKP ke Peraturan Menteri"
       },
       {
         "pasal": "Pasal 46",
-        "alasan": "retrofit: belum ditinjau (migrasi data pilot)"
+        "alasan": "sanksi administratif"
       },
       {
         "pasal": "Pasal 47",
-        "alasan": "retrofit: belum ditinjau (migrasi data pilot)"
+        "alasan": "sanksi administratif: kewenangan dan tata cara pengenaan sanksi"
       },
       {
         "pasal": "Pasal 48",
-        "alasan": "retrofit: belum ditinjau (migrasi data pilot)"
+        "alasan": "ketentuan peralihan/penutup: integrasi data kepesertaan JKP dan JKN"
       },
       {
         "pasal": "Pasal 49",
-        "alasan": "retrofit: belum ditinjau (migrasi data pilot)"
+        "alasan": "ketentuan peralihan: pemberlakuan pengelolaan aset dana JKK dan JKM untuk JKP"
       },
       {
         "pasal": "Pasal 50",
-        "alasan": "retrofit: belum ditinjau (migrasi data pilot)"
+        "alasan": "ketentuan penutup: mulai berlaku"
       }
     ],
-    "catatan": "Pilot Fase 2: kepesertaan, iuran, manfaat, pengecualian, kewajiban pengusaha. Parameterisasi angka ditandai tidak_termodelkan."
+    "catatan": ""
   },
-  "tidak_termodelkan": []
+  "tidak_termodelkan": [
+    {
+      "pasal": "Pasal 31",
+      "ringkasan": "Pelatihan Kerja JKP dilaksanakan melalui Lembaga Pelatihan Kerja milik pemerintah, swasta, atau perusahaan, yang wajib memenuhi persyaratan: pelatihan berbasis kompetensi, terdaftar dan terverifikasi di Sistem Informasi Ketenagakerjaan, terakreditasi, dan mendapat persetujuan Menteri.",
+      "alasan": "Butuh jenis/topik KetentuanPelatihan yang belum ada di VOCAB (masih kandidat), sehingga belum ada kelas T-Box yang sesuai."
+    },
+    {
+      "pasal": "Pasal 32",
+      "ringkasan": "Lembaga Pelatihan Kerja dapat bekerja sama dengan lembaga sertifikasi profesi untuk menyelenggarakan sertifikasi kompetensi melalui uji kompetensi; lembaga sertifikasi profesi harus berlisensi dari badan nasional sertifikasi profesi.",
+      "alasan": "Butuh jenis/topik KetentuanPelatihan yang belum ada di VOCAB (masih kandidat), sehingga belum ada kelas T-Box yang sesuai."
+    },
+    {
+      "pasal": "Pasal 44",
+      "ringkasan": "Pengawasan ketenagakerjaan terhadap penerapan PP ini dilaksanakan oleh Pengawas Ketenagakerjaan pada kementerian yang menyelenggarakan urusan ketenagakerjaan dan/atau dinas provinsi.",
+      "alasan": "Butuh jenis KetentuanPengawasan (masih kandidat di VOCAB) dan kelas T-Box pengawasan ketenagakerjaan."
+    },
+    {
+      "pasal": "Pasal 45",
+      "ringkasan": "Sengketa penyelenggaraan JKP antara Peserta dengan BPJS Ketenagakerjaan dan/atau Pengusaha diselesaikan secara musyawarah, dilanjutkan mediasi, dan dapat diajukan ke pengadilan negeri.",
+      "alasan": "Butuh jenis KetentuanHubunganIndustrial (masih kandidat di VOCAB) dan kelas T-Box penyelesaian sengketa."
+    }
+  ]
 }

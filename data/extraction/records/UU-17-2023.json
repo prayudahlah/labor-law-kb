@@ -1,0 +1,3663 @@
+{
+  "spec_version": "1.1.0",
+  "vocab_version": "0.3.0",
+  "dokumen_id": "UU-17-2023",
+  "status_review": "reviewed",
+  "peraturan": {
+    "judul": "Undang-Undang Nomor 17 Tahun 2023 tentang Kesehatan",
+    "jenis": "UU",
+    "nomor": "17",
+    "tahun": "2023",
+    "sumber": "https://peraturan.go.id/id/uu-no-17-tahun-2023",
+    "status": "Berlaku",
+    "diubah_oleh": []
+  },
+  "norma": [
+    {
+      "norm_id": "KIA-FASILITAS-MENYUSUI-TEMPAT-KERJA",
+      "topik": "KIA",
+      "pasal": "Pasal 42 ayat (3)",
+      "iri_individu": "ktn:FasilitasMenyusuiTempatKerja",
+      "jenis": "KetentuanKIA",
+      "kondisi": "Ibu memberikan air susu ibu (menyusui) dan berada di tempat kerja",
+      "akibat": "Pihak keluarga, Pemerintah Pusat, Pemerintah Daerah, dan masyarakat wajib mendukung ibu dengan menyediakan waktu dan fasilitas khusus; fasilitas khusus diadakan di tempat kerja dan tempat/fasilitas umum",
+      "bukti": "diadakan di tempat kerja dan tempat/fasilitas umum",
+      "confidence": 0.7,
+      "dasar_keyakinan": "tafsir",
+      "catatan": "UU Kesehatan; kewajiban diarahkan pada keluarga/pemerintah/masyarakat, termasuk penyediaan fasilitas di tempat kerja dan fasilitas umum."
+    }
+  ],
+  "kategori": [],
+  "pengali_lembur": [],
+  "program_jamsos": [],
+  "cakupan": {
+    "lengkap": true,
+    "pasal_diekstrak": [
+      "Pasal 1",
+      "Pasal 10",
+      "Pasal 100",
+      "Pasal 101",
+      "Pasal 102",
+      "Pasal 103",
+      "Pasal 104",
+      "Pasal 105",
+      "Pasal 106",
+      "Pasal 107",
+      "Pasal 108",
+      "Pasal 11",
+      "Pasal 110",
+      "Pasal 111",
+      "Pasal 112",
+      "Pasal 113",
+      "Pasal 114",
+      "Pasal 115",
+      "Pasal 116",
+      "Pasal 117",
+      "Pasal 118",
+      "Pasal 119",
+      "Pasal 12",
+      "Pasal 120",
+      "Pasal 121",
+      "Pasal 122",
+      "Pasal 123",
+      "Pasal 124",
+      "Pasal 125",
+      "Pasal 126",
+      "Pasal 128",
+      "Pasal 129",
+      "Pasal 13",
+      "Pasal 130",
+      "Pasal 131",
+      "Pasal 132",
+      "Pasal 133",
+      "Pasal 134",
+      "Pasal 135",
+      "Pasal 136",
+      "Pasal 137",
+      "Pasal 138",
+      "Pasal 139",
+      "Pasal 14",
+      "Pasal 140",
+      "Pasal 141",
+      "Pasal 142",
+      "Pasal 143",
+      "Pasal 144",
+      "Pasal 145",
+      "Pasal 146",
+      "Pasal 147",
+      "Pasal 148",
+      "Pasal 149",
+      "Pasal 15",
+      "Pasal 150",
+      "Pasal 151",
+      "Pasal 152",
+      "Pasal 153",
+      "Pasal 154",
+      "Pasal 155",
+      "Pasal 156",
+      "Pasal 157",
+      "Pasal 158",
+      "Pasal 159",
+      "Pasal 16",
+      "Pasal 160",
+      "Pasal 161",
+      "Pasal 162",
+      "Pasal 163",
+      "Pasal 164",
+      "Pasal 165",
+      "Pasal 166",
+      "Pasal 167",
+      "Pasal 168",
+      "Pasal 169",
+      "Pasal 17",
+      "Pasal 170",
+      "Pasal 171",
+      "Pasal 172",
+      "Pasal 173",
+      "Pasal 174",
+      "Pasal 175",
+      "Pasal 176",
+      "Pasal 177",
+      "Pasal 178",
+      "Pasal 179",
+      "Pasal 18",
+      "Pasal 180",
+      "Pasal 181",
+      "Pasal 182",
+      "Pasal 183",
+      "Pasal 184",
+      "Pasal 185",
+      "Pasal 186",
+      "Pasal 187",
+      "Pasal 188",
+      "Pasal 189",
+      "Pasal 19",
+      "Pasal 190",
+      "Pasal 191",
+      "Pasal 192",
+      "Pasal 193",
+      "Pasal 194",
+      "Pasal 195",
+      "Pasal 196",
+      "Pasal 197",
+      "Pasal 198",
+      "Pasal 199",
+      "Pasal 19O",
+      "Pasal 2",
+      "Pasal 20",
+      "Pasal 200",
+      "Pasal 201",
+      "Pasal 203",
+      "Pasal 204",
+      "Pasal 205",
+      "Pasal 206",
+      "Pasal 208",
+      "Pasal 209",
+      "Pasal 21",
+      "Pasal 210",
+      "Pasal 213",
+      "Pasal 214",
+      "Pasal 215",
+      "Pasal 216",
+      "Pasal 217",
+      "Pasal 218",
+      "Pasal 219",
+      "Pasal 21O",
+      "Pasal 22",
+      "Pasal 221",
+      "Pasal 222",
+      "Pasal 223",
+      "Pasal 224",
+      "Pasal 225",
+      "Pasal 226",
+      "Pasal 227",
+      "Pasal 228",
+      "Pasal 229",
+      "Pasal 22O",
+      "Pasal 23",
+      "Pasal 230",
+      "Pasal 231",
+      "Pasal 232",
+      "Pasal 233",
+      "Pasal 234",
+      "Pasal 235",
+      "Pasal 236",
+      "Pasal 237",
+      "Pasal 238",
+      "Pasal 239",
+      "Pasal 242",
+      "Pasal 243",
+      "Pasal 245",
+      "Pasal 246",
+      "Pasal 247",
+      "Pasal 248",
+      "Pasal 249",
+      "Pasal 24L",
+      "Pasal 24O",
+      "Pasal 25",
+      "Pasal 250",
+      "Pasal 251",
+      "Pasal 252",
+      "Pasal 253",
+      "Pasal 254",
+      "Pasal 255",
+      "Pasal 256",
+      "Pasal 257",
+      "Pasal 258",
+      "Pasal 259",
+      "Pasal 26",
+      "Pasal 260",
+      "Pasal 261",
+      "Pasal 262",
+      "Pasal 263",
+      "Pasal 264",
+      "Pasal 265",
+      "Pasal 266",
+      "Pasal 267",
+      "Pasal 268",
+      "Pasal 269",
+      "Pasal 27",
+      "Pasal 270",
+      "Pasal 271",
+      "Pasal 272",
+      "Pasal 273",
+      "Pasal 274",
+      "Pasal 275",
+      "Pasal 276",
+      "Pasal 277",
+      "Pasal 278",
+      "Pasal 279",
+      "Pasal 28",
+      "Pasal 280",
+      "Pasal 281",
+      "Pasal 282",
+      "Pasal 283",
+      "Pasal 284",
+      "Pasal 285",
+      "Pasal 286",
+      "Pasal 287",
+      "Pasal 288",
+      "Pasal 289",
+      "Pasal 28O",
+      "Pasal 29",
+      "Pasal 290",
+      "Pasal 291",
+      "Pasal 292",
+      "Pasal 293",
+      "Pasal 294",
+      "Pasal 295",
+      "Pasal 296",
+      "Pasal 297",
+      "Pasal 298",
+      "Pasal 299",
+      "Pasal 29O",
+      "Pasal 3",
+      "Pasal 30",
+      "Pasal 300",
+      "Pasal 301",
+      "Pasal 302",
+      "Pasal 303",
+      "Pasal 304",
+      "Pasal 305",
+      "Pasal 306",
+      "Pasal 307",
+      "Pasal 309",
+      "Pasal 31",
+      "Pasal 310",
+      "Pasal 311",
+      "Pasal 312",
+      "Pasal 313",
+      "Pasal 314",
+      "Pasal 315",
+      "Pasal 316",
+      "Pasal 317",
+      "Pasal 318",
+      "Pasal 319",
+      "Pasal 32",
+      "Pasal 320",
+      "Pasal 321",
+      "Pasal 322",
+      "Pasal 323",
+      "Pasal 324",
+      "Pasal 325",
+      "Pasal 326",
+      "Pasal 327",
+      "Pasal 328",
+      "Pasal 329",
+      "Pasal 33",
+      "Pasal 330",
+      "Pasal 331",
+      "Pasal 332",
+      "Pasal 333",
+      "Pasal 334",
+      "Pasal 335",
+      "Pasal 336",
+      "Pasal 337",
+      "Pasal 338",
+      "Pasal 339",
+      "Pasal 34",
+      "Pasal 340",
+      "Pasal 341",
+      "Pasal 342",
+      "Pasal 343",
+      "Pasal 344",
+      "Pasal 345",
+      "Pasal 346",
+      "Pasal 347",
+      "Pasal 348",
+      "Pasal 349",
+      "Pasal 35",
+      "Pasal 350",
+      "Pasal 351",
+      "Pasal 352",
+      "Pasal 353",
+      "Pasal 354",
+      "Pasal 355",
+      "Pasal 356",
+      "Pasal 357",
+      "Pasal 358",
+      "Pasal 359",
+      "Pasal 36",
+      "Pasal 360",
+      "Pasal 361",
+      "Pasal 362",
+      "Pasal 363",
+      "Pasal 364",
+      "Pasal 365",
+      "Pasal 366",
+      "Pasal 367",
+      "Pasal 368",
+      "Pasal 369",
+      "Pasal 37",
+      "Pasal 370",
+      "Pasal 371",
+      "Pasal 372",
+      "Pasal 373",
+      "Pasal 374",
+      "Pasal 375",
+      "Pasal 376",
+      "Pasal 377",
+      "Pasal 378",
+      "Pasal 379",
+      "Pasal 38",
+      "Pasal 380",
+      "Pasal 381",
+      "Pasal 382",
+      "Pasal 383",
+      "Pasal 384",
+      "Pasal 385",
+      "Pasal 386",
+      "Pasal 387",
+      "Pasal 388",
+      "Pasal 389",
+      "Pasal 39",
+      "Pasal 390",
+      "Pasal 391",
+      "Pasal 392",
+      "Pasal 393",
+      "Pasal 394",
+      "Pasal 395",
+      "Pasal 396",
+      "Pasal 397",
+      "Pasal 398",
+      "Pasal 399",
+      "Pasal 4",
+      "Pasal 40",
+      "Pasal 400",
+      "Pasal 401",
+      "Pasal 402",
+      "Pasal 403",
+      "Pasal 404",
+      "Pasal 405",
+      "Pasal 406",
+      "Pasal 407",
+      "Pasal 408",
+      "Pasal 409",
+      "Pasal 41",
+      "Pasal 410",
+      "Pasal 411",
+      "Pasal 412",
+      "Pasal 413",
+      "Pasal 414",
+      "Pasal 415",
+      "Pasal 416",
+      "Pasal 417",
+      "Pasal 418",
+      "Pasal 419",
+      "Pasal 41O",
+      "Pasal 42",
+      "Pasal 420",
+      "Pasal 422",
+      "Pasal 423",
+      "Pasal 425",
+      "Pasal 426",
+      "Pasal 427",
+      "Pasal 428",
+      "Pasal 429",
+      "Pasal 42L",
+      "Pasal 43",
+      "Pasal 430",
+      "Pasal 431",
+      "Pasal 432",
+      "Pasal 433",
+      "Pasal 434",
+      "Pasal 435",
+      "Pasal 436",
+      "Pasal 437",
+      "Pasal 438",
+      "Pasal 439",
+      "Pasal 44",
+      "Pasal 440",
+      "Pasal 441",
+      "Pasal 442",
+      "Pasal 443",
+      "Pasal 444",
+      "Pasal 445",
+      "Pasal 446",
+      "Pasal 447",
+      "Pasal 448",
+      "Pasal 449",
+      "Pasal 45",
+      "Pasal 450",
+      "Pasal 451",
+      "Pasal 452",
+      "Pasal 453",
+      "Pasal 454",
+      "Pasal 455",
+      "Pasal 456",
+      "Pasal 457",
+      "Pasal 458",
+      "Pasal 46",
+      "Pasal 47",
+      "Pasal 48",
+      "Pasal 49",
+      "Pasal 5",
+      "Pasal 50",
+      "Pasal 51",
+      "Pasal 52",
+      "Pasal 53",
+      "Pasal 54",
+      "Pasal 55",
+      "Pasal 56",
+      "Pasal 57",
+      "Pasal 58",
+      "Pasal 59",
+      "Pasal 6",
+      "Pasal 60",
+      "Pasal 61",
+      "Pasal 62",
+      "Pasal 63",
+      "Pasal 64",
+      "Pasal 65",
+      "Pasal 66",
+      "Pasal 67",
+      "Pasal 68",
+      "Pasal 69",
+      "Pasal 7",
+      "Pasal 70",
+      "Pasal 71",
+      "Pasal 73",
+      "Pasal 75",
+      "Pasal 76",
+      "Pasal 77",
+      "Pasal 78",
+      "Pasal 79",
+      "Pasal 7O",
+      "Pasal 8",
+      "Pasal 80",
+      "Pasal 81",
+      "Pasal 82",
+      "Pasal 83",
+      "Pasal 84",
+      "Pasal 85",
+      "Pasal 86",
+      "Pasal 87",
+      "Pasal 88",
+      "Pasal 89",
+      "Pasal 8O",
+      "Pasal 9",
+      "Pasal 91",
+      "Pasal 92",
+      "Pasal 93",
+      "Pasal 94",
+      "Pasal 95",
+      "Pasal 96",
+      "Pasal 97",
+      "Pasal 98",
+      "Pasal 99",
+      "Pasal 9O"
+    ],
+    "pasal_dilewati": [
+      {
+        "pasal": "Pasal 2",
+        "alasan": "asas penyelenggaraan Kesehatan; bukan norma hak/kewajiban ketenagakerjaan"
+      },
+      {
+        "pasal": "Pasal 3",
+        "alasan": "tujuan penyelenggaraan Kesehatan; kebijakan program"
+      },
+      {
+        "pasal": "Pasal 4",
+        "alasan": "hak setiap orang atas pelayanan Kesehatan; hak umum, bukan hak pekerja"
+      },
+      {
+        "pasal": "Pasal 5",
+        "alasan": "kewajiban umum setiap orang termasuk jaminan kesehatan; bukan norma ketenagakerjaan"
+      },
+      {
+        "pasal": "Pasal 6",
+        "alasan": "tanggung jawab Pemerintah Pusat/Daerah; kelembagaan"
+      },
+      {
+        "pasal": "Pasal 7",
+        "alasan": "peningkatan upaya Kesehatan oleh pemerintah; kelembagaan"
+      },
+      {
+        "pasal": "Pasal 8",
+        "alasan": "tanggung jawab penanggulangan KLB/Wabah; kelembagaan"
+      },
+      {
+        "pasal": "Pasal 9",
+        "alasan": "tanggung jawab lingkungan sehat; kelembagaan"
+      },
+      {
+        "pasal": "Pasal 10",
+        "alasan": "ketersediaan sumber daya Kesehatan dan insentif fiskal; kebijakan"
+      },
+      {
+        "pasal": "Pasal 12",
+        "alasan": "pembinaan tenaga medis dan tenaga kesehatan; kelembagaan"
+      },
+      {
+        "pasal": "Pasal 13",
+        "alasan": "tanggung jawab tenaga pendukung kesehatan daerah; kelembagaan"
+      },
+      {
+        "pasal": "Pasal 14",
+        "alasan": "pemberdayaan dan partisipasi masyarakat; kebijakan"
+      },
+      {
+        "pasal": "Pasal 15",
+        "alasan": "kebijakan daerah bidang Kesehatan; kelembagaan"
+      },
+      {
+        "pasal": "Pasal 16",
+        "alasan": "peran Konsil dan Kolegium; kelembagaan"
+      },
+      {
+        "pasal": "Pasal 17",
+        "alasan": "ruang lingkup penyelenggaraan Kesehatan; definisi"
+      },
+      {
+        "pasal": "Pasal 18",
+        "alasan": "pengertian upaya Kesehatan perseorangan/masyarakat; definisi"
+      },
+      {
+        "pasal": "Pasal 19",
+        "alasan": "pembagian tugas pemerintah pusat/daerah; kelembagaan"
+      },
+      {
+        "pasal": "Pasal 20",
+        "alasan": "komponen sumber daya Kesehatan; definisi"
+      },
+      {
+        "pasal": "Pasal 21",
+        "alasan": "pengelolaan Kesehatan dan delegasi Perpres; kelembagaan"
+      },
+      {
+        "pasal": "Pasal 23",
+        "alasan": "prinsip penyelenggaraan upaya Kesehatan; asas, bukan norma"
+      },
+      {
+        "pasal": "Pasal 25",
+        "alasan": "telekesehatan dan telemedisin; tata cara layanan"
+      },
+      {
+        "pasal": "Pasal 26",
+        "alasan": "bentuk pelayanan Kesehatan primer dan lanjutan; definisi"
+      },
+      {
+        "pasal": "Pasal 27",
+        "alasan": "kebijakan penyelenggaraan pelayanan; kelembagaan"
+      },
+      {
+        "pasal": "Pasal 28",
+        "alasan": "kewajiban pemerintah menyediakan akses pelayanan primer/lanjutan; kelembagaan"
+      },
+      {
+        "pasal": "Pasal 29",
+        "alasan": "partisipasi masyarakat membangun fasilitas pelayanan; kelembagaan"
+      },
+      {
+        "pasal": "Pasal 30",
+        "alasan": "tanggung jawab pemerintah atas pelayanan primer; kelembagaan"
+      },
+      {
+        "pasal": "Pasal 31",
+        "alasan": "penyelenggaraan pelayanan Kesehatan primer; definisi layanan"
+      },
+      {
+        "pasal": "Pasal 32",
+        "alasan": "sistem jejaring pelayanan primer; struktur layanan, bukan norma kerja"
+      },
+      {
+        "pasal": "Pasal 33",
+        "alasan": "laboratorium Kesehatan; sarana penunjang"
+      },
+      {
+        "pasal": "Pasal 34",
+        "alasan": "kemandirian upaya Kesehatan; kebijakan"
+      },
+      {
+        "pasal": "Pasal 35",
+        "alasan": "pos pelayanan terpadu dan insentif kader; kelembagaan"
+      },
+      {
+        "pasal": "Pasal 37",
+        "alasan": "pelayanan Kesehatan lanjutan; definisi layanan"
+      },
+      {
+        "pasal": "Pasal 38",
+        "alasan": "pengembangan pusat pelayanan unggulan; kebijakan"
+      },
+      {
+        "pasal": "Pasal 39",
+        "alasan": "sistem rujukan pelayanan perseorangan; tata cara layanan"
+      },
+      {
+        "pasal": "Pasal 40",
+        "alasan": "upaya Kesehatan ibu; hak atas layanan, bukan norma kerja"
+      },
+      {
+        "pasal": "Pasal 41",
+        "alasan": "upaya Kesehatan bayi dan anak; hak atas layanan"
+      },
+      {
+        "pasal": "Pasal 43",
+        "alasan": "kebijakan dan pengawasan ASI eksklusif oleh pemerintah; kelembagaan"
+      },
+      {
+        "pasal": "Pasal 45",
+        "alasan": "jaminan pelayanan Kesehatan anak; kewajiban pemerintah"
+      },
+      {
+        "pasal": "Pasal 46",
+        "alasan": "pelindungan bayi dan anak dari diskriminasi/kekerasan; hak umum"
+      },
+      {
+        "pasal": "Pasal 47",
+        "alasan": "standar dan kriteria Kesehatan bayi/anak; kebijakan"
+      },
+      {
+        "pasal": "Pasal 48",
+        "alasan": "penyediaan tempat bermain anak; kewajiban pemerintah"
+      },
+      {
+        "pasal": "Pasal 49",
+        "alasan": "delegasi pengaturan upaya Kesehatan bayi/anak ke PP"
+      },
+      {
+        "pasal": "Pasal 50",
+        "alasan": "upaya Kesehatan remaja; hak atas layanan"
+      },
+      {
+        "pasal": "Pasal 51",
+        "alasan": "upaya Kesehatan dewasa; hak atas layanan"
+      },
+      {
+        "pasal": "Pasal 52",
+        "alasan": "upaya Kesehatan lanjut usia; hak atas layanan"
+      },
+      {
+        "pasal": "Pasal 53",
+        "alasan": "upaya Kesehatan penyandang disabilitas; hak atas layanan"
+      },
+      {
+        "pasal": "Pasal 54",
+        "alasan": "ruang lingkup Kesehatan reproduksi; definisi"
+      },
+      {
+        "pasal": "Pasal 55",
+        "alasan": "hak atas Kesehatan reproduksi; hak umum, bukan hak pekerja"
+      },
+      {
+        "pasal": "Pasal 56",
+        "alasan": "tanggung jawab penyelenggaraan Kesehatan reproduksi; kelembagaan"
+      },
+      {
+        "pasal": "Pasal 57",
+        "alasan": "pelaksanaan pelayanan Kesehatan reproduksi; standar layanan"
+      },
+      {
+        "pasal": "Pasal 58",
+        "alasan": "syarat reproduksi dengan bantuan; tata cara medis"
+      },
+      {
+        "pasal": "Pasal 59",
+        "alasan": "delegasi pengaturan Kesehatan reproduksi ke PP"
+      },
+      {
+        "pasal": "Pasal 60",
+        "alasan": "larangan dan pengecualian aborsi; ketentuan pidana/medis"
+      },
+      {
+        "pasal": "Pasal 61",
+        "alasan": "pelindungan perempuan dari aborsi tidak aman; kebijakan"
+      },
+      {
+        "pasal": "Pasal 62",
+        "alasan": "delegasi pengaturan aborsi ke PP"
+      },
+      {
+        "pasal": "Pasal 63",
+        "alasan": "upaya Kesehatan keluarga berencana; hak atas layanan"
+      },
+      {
+        "pasal": "Pasal 64",
+        "alasan": "upaya pemenuhan gizi; kebijakan"
+      },
+      {
+        "pasal": "Pasal 65",
+        "alasan": "pemenuhan gizi sepanjang siklus hidup; kebijakan"
+      },
+      {
+        "pasal": "Pasal 66",
+        "alasan": "upaya perbaikan gizi dan suplementasi; kebijakan"
+      },
+      {
+        "pasal": "Pasal 67",
+        "alasan": "intervensi percepatan pemenuhan gizi; kelembagaan"
+      },
+      {
+        "pasal": "Pasal 68",
+        "alasan": "peningkatan pengetahuan gizi masyarakat; kebijakan"
+      },
+      {
+        "pasal": "Pasal 69",
+        "alasan": "delegasi pengaturan gizi ke PP"
+      },
+      {
+        "pasal": "Pasal 70",
+        "alasan": "pelayanan Kesehatan gigi dan mulut; definisi layanan"
+      },
+      {
+        "pasal": "Pasal 71",
+        "alasan": "upaya Kesehatan penglihatan dan pendengaran; hak atas layanan"
+      },
+      {
+        "pasal": "Pasal 73",
+        "alasan": "delegasi pengaturan Kesehatan penglihatan/pendengaran ke PP"
+      },
+      {
+        "pasal": "Pasal 75",
+        "alasan": "upaya Kesehatan jiwa; definisi layanan"
+      },
+      {
+        "pasal": "Pasal 76",
+        "alasan": "hak atas pelayanan Kesehatan jiwa dan larangan pemasungan; hak umum"
+      },
+      {
+        "pasal": "Pasal 77",
+        "alasan": "tanggung jawab pemerintah atas Kesehatan jiwa; kelembagaan"
+      },
+      {
+        "pasal": "Pasal 78",
+        "alasan": "pelaksana pelayanan Kesehatan jiwa; tenaga kesehatan"
+      },
+      {
+        "pasal": "Pasal 79",
+        "alasan": "jenis fasilitas pelayanan Kesehatan jiwa; definisi"
+      },
+      {
+        "pasal": "Pasal 80",
+        "alasan": "persetujuan tindakan rawat inap gangguan jiwa; tata cara medis"
+      },
+      {
+        "pasal": "Pasal 81",
+        "alasan": "pemeriksaan Kesehatan jiwa untuk penegakan hukum; hukum acara"
+      },
+      {
+        "pasal": "Pasal 82",
+        "alasan": "pemeriksaan Kesehatan jiwa untuk keperluan keperdataan; hukum perdata"
+      },
+      {
+        "pasal": "Pasal 83",
+        "alasan": "pedoman pemeriksaan Kesehatan jiwa; tata cara"
+      },
+      {
+        "pasal": "Pasal 84",
+        "alasan": "pemeriksaan Kesehatan jiwa untuk pekerjaan/jabatan tertentu; persyaratan jabatan, bukan norma hak pekerja"
+      },
+      {
+        "pasal": "Pasal 85",
+        "alasan": "delegasi pengaturan upaya Kesehatan jiwa ke PP"
+      },
+      {
+        "pasal": "Pasal 86",
+        "alasan": "tanggung jawab penanggulangan penyakit menular/tidak menular; kelembagaan"
+      },
+      {
+        "pasal": "Pasal 87",
+        "alasan": "penetapan program prioritas penyakit; kebijakan"
+      },
+      {
+        "pasal": "Pasal 88",
+        "alasan": "komunikasi, informasi, dan edukasi risiko penyakit; kebijakan"
+      },
+      {
+        "pasal": "Pasal 89",
+        "alasan": "penanggulangan penyakit menular; kewenangan pemeriksaan"
+      },
+      {
+        "pasal": "Pasal 91",
+        "alasan": "koordinasi lintas sektor penanggulangan penyakit menular; kelembagaan"
+      },
+      {
+        "pasal": "Pasal 92",
+        "alasan": "delegasi pengaturan penyakit menular ke PP"
+      },
+      {
+        "pasal": "Pasal 93",
+        "alasan": "penanggulangan penyakit tidak menular; kebijakan"
+      },
+      {
+        "pasal": "Pasal 94",
+        "alasan": "surveilans faktor risiko penyakit tidak menular; tata cara"
+      },
+      {
+        "pasal": "Pasal 96",
+        "alasan": "upaya Kesehatan keluarga; definisi dan kebijakan"
+      },
+      {
+        "pasal": "Pasal 97",
+        "alasan": "Kesehatan sekolah; kebijakan layanan"
+      },
+      {
+        "pasal": "Pasal 101",
+        "alasan": "delegasi pengaturan upaya Kesehatan kerja ke PP"
+      },
+      {
+        "pasal": "Pasal 102",
+        "alasan": "upaya Kesehatan olahraga; kebijakan"
+      },
+      {
+        "pasal": "Pasal 103",
+        "alasan": "tanggung jawab penyelenggaraan Kesehatan olahraga; kelembagaan"
+      },
+      {
+        "pasal": "Pasal 104",
+        "alasan": "tujuan upaya Kesehatan lingkungan; kebijakan"
+      },
+      {
+        "pasal": "Pasal 105",
+        "alasan": "penyelenggaraan Kesehatan lingkungan; kebijakan"
+      },
+      {
+        "pasal": "Pasal 106",
+        "alasan": "persyaratan teknis pengelolaan limbah medis; tata cara"
+      },
+      {
+        "pasal": "Pasal 107",
+        "alasan": "delegasi pengaturan Kesehatan lingkungan ke PP"
+      },
+      {
+        "pasal": "Pasal 108",
+        "alasan": "Kesehatan matra; definisi layanan"
+      },
+      {
+        "pasal": "Pasal 110",
+        "alasan": "bantuan sumber daya Kesehatan luar negeri saat bencana; tata cara"
+      },
+      {
+        "pasal": "Pasal 111",
+        "alasan": "kewajiban fasilitas pelayanan saat bencana; layanan kesehatan"
+      },
+      {
+        "pasal": "Pasal 112",
+        "alasan": "pelindungan hukum pemberi layanan bencana; kebijakan"
+      },
+      {
+        "pasal": "Pasal 113",
+        "alasan": "delegasi pengaturan pelayanan Kesehatan bencana ke PP"
+      },
+      {
+        "pasal": "Pasal 114",
+        "alasan": "pelayanan darah dan donor sukarela; definisi layanan"
+      },
+      {
+        "pasal": "Pasal 115",
+        "alasan": "komponen pengelolaan dan transfusi darah; tata cara medis"
+      },
+      {
+        "pasal": "Pasal 116",
+        "alasan": "unit pengelola darah; kelembagaan"
+      },
+      {
+        "pasal": "Pasal 117",
+        "alasan": "biaya pengganti pengolahan darah; tarif layanan"
+      },
+      {
+        "pasal": "Pasal 118",
+        "alasan": "pembiayaan pelayanan darah; kewajiban pemerintah"
+      },
+      {
+        "pasal": "Pasal 119",
+        "alasan": "larangan memperjualbelikan darah; ketentuan pidana/medis"
+      },
+      {
+        "pasal": "Pasal 120",
+        "alasan": "pengumpulan dan pengolahan plasma; tata cara medis"
+      },
+      {
+        "pasal": "Pasal 121",
+        "alasan": "pengendalian biaya plasma; kebijakan tarif"
+      },
+      {
+        "pasal": "Pasal 122",
+        "alasan": "delegasi pengaturan pelayanan darah ke PP"
+      },
+      {
+        "pasal": "Pasal 123",
+        "alasan": "ruang lingkup transplantasi dan terapi sel; definisi"
+      },
+      {
+        "pasal": "Pasal 124",
+        "alasan": "tujuan transplantasi organ/jaringan; definisi layanan"
+      },
+      {
+        "pasal": "Pasal 125",
+        "alasan": "jenis dan persetujuan donor; tata cara medis"
+      },
+      {
+        "pasal": "Pasal 126",
+        "alasan": "kriteria diagnosis kematian; tata cara medis"
+      },
+      {
+        "pasal": "Pasal 128",
+        "alasan": "prinsip pelaksanaan transplantasi; standar medis"
+      },
+      {
+        "pasal": "Pasal 129",
+        "alasan": "tahapan kegiatan transplantasi; tata cara medis"
+      },
+      {
+        "pasal": "Pasal 130",
+        "alasan": "hak menjadi resipien transplantasi; hak pasien"
+      },
+      {
+        "pasal": "Pasal 131",
+        "alasan": "kewenangan Menteri mengelola transplantasi; kelembagaan"
+      },
+      {
+        "pasal": "Pasal 132",
+        "alasan": "tanggung jawab peningkatan transplantasi; kelembagaan"
+      },
+      {
+        "pasal": "Pasal 133",
+        "alasan": "penghargaan kepada donor; kebijakan"
+      },
+      {
+        "pasal": "Pasal 134",
+        "alasan": "delegasi pengaturan transplantasi ke PP"
+      },
+      {
+        "pasal": "Pasal 135",
+        "alasan": "syarat terapi berbasis sel/sel punca; tata cara medis"
+      },
+      {
+        "pasal": "Pasal 136",
+        "alasan": "delegasi pengaturan terapi sel ke PP"
+      },
+      {
+        "pasal": "Pasal 137",
+        "alasan": "syarat bedah plastik rekonstruksi/estetika; standar medis"
+      },
+      {
+        "pasal": "Pasal 138",
+        "alasan": "standar keamanan sediaan farmasi/alat kesehatan; tata cara"
+      },
+      {
+        "pasal": "Pasal 139",
+        "alasan": "penggunaan narkotika dan psikotropika; ketentuan medis"
+      },
+      {
+        "pasal": "Pasal 140",
+        "alasan": "tujuan pengamanan sediaan farmasi; kebijakan"
+      },
+      {
+        "pasal": "Pasal 141",
+        "alasan": "penggunaan rasional obat dan alat kesehatan; standar medis"
+      },
+      {
+        "pasal": "Pasal 142",
+        "alasan": "standar dan persyaratan farmakope; tata cara"
+      },
+      {
+        "pasal": "Pasal 143",
+        "alasan": "perizinan berusaha sediaan farmasi; perizinan"
+      },
+      {
+        "pasal": "Pasal 144",
+        "alasan": "delegasi pengaturan pengamanan sediaan farmasi ke PP"
+      },
+      {
+        "pasal": "Pasal 145",
+        "alasan": "praktik kefarmasian oleh tenaga kefarmasian; kompetensi profesi"
+      },
+      {
+        "pasal": "Pasal 146",
+        "alasan": "standar keamanan makanan dan minuman; tata cara"
+      },
+      {
+        "pasal": "Pasal 147",
+        "alasan": "larangan informasi produk menyesatkan; perlindungan konsumen"
+      },
+      {
+        "pasal": "Pasal 148",
+        "alasan": "pengawasan produksi makanan/minuman; kelembagaan"
+      },
+      {
+        "pasal": "Pasal 149",
+        "alasan": "pengaturan zat adiktif dan produk tembakau; kebijakan"
+      },
+      {
+        "pasal": "Pasal 150",
+        "alasan": "kewajiban peringatan kesehatan pada produk tembakau; tata cara"
+      },
+      {
+        "pasal": "Pasal 151",
+        "alasan": "kawasan tanpa rokok dan tempat khusus merokok; rezim kesehatan lingkungan, bukan norma ketenagakerjaan"
+      },
+      {
+        "pasal": "Pasal 152",
+        "alasan": "delegasi pengaturan zat adiktif ke PP"
+      },
+      {
+        "pasal": "Pasal 153",
+        "alasan": "pelayanan kedokteran untuk kepentingan hukum; definisi layanan"
+      },
+      {
+        "pasal": "Pasal 154",
+        "alasan": "hak atas pelayanan kedokteran untuk hukum; hak umum"
+      },
+      {
+        "pasal": "Pasal 155",
+        "alasan": "tanggung jawab pemerintah atas pelayanan kedokteran hukum; kelembagaan"
+      },
+      {
+        "pasal": "Pasal 156",
+        "alasan": "jenis pelayanan kedokteran untuk hukum; tata cara medis"
+      },
+      {
+        "pasal": "Pasal 157",
+        "alasan": "penentuan sebab kematian dan identifikasi; tata cara medis"
+      },
+      {
+        "pasal": "Pasal 158",
+        "alasan": "etika bedah mayat; standar profesi"
+      },
+      {
+        "pasal": "Pasal 159",
+        "alasan": "delegasi pengaturan pelayanan kedokteran hukum ke PP"
+      },
+      {
+        "pasal": "Pasal 160",
+        "alasan": "jenis pelayanan Kesehatan tradisional; definisi"
+      },
+      {
+        "pasal": "Pasal 161",
+        "alasan": "bentuk dan tempat pelayanan Kesehatan tradisional; tata cara"
+      },
+      {
+        "pasal": "Pasal 162",
+        "alasan": "tanggung jawab ketersediaan pelayanan tradisional; kelembagaan"
+      },
+      {
+        "pasal": "Pasal 163",
+        "alasan": "kesempatan masyarakat mengembangkan pelayanan tradisional; kebijakan"
+      },
+      {
+        "pasal": "Pasal 164",
+        "alasan": "delegasi pengaturan pelayanan tradisional ke PP"
+      },
+      {
+        "pasal": "Pasal 165",
+        "alasan": "jenis dan kewajiban fasilitas pelayanan Kesehatan; definisi"
+      },
+      {
+        "pasal": "Pasal 166",
+        "alasan": "bentuk fasilitas pelayanan statis/bergerak; definisi"
+      },
+      {
+        "pasal": "Pasal 167",
+        "alasan": "penyelenggaraan fasilitas pelayanan tingkat pertama; definisi"
+      },
+      {
+        "pasal": "Pasal 168",
+        "alasan": "fasilitas pelayanan tingkat lanjut; definisi"
+      },
+      {
+        "pasal": "Pasal 169",
+        "alasan": "dukungan fasilitas penunjang; definisi layanan"
+      },
+      {
+        "pasal": "Pasal 170",
+        "alasan": "penyelenggaraan fasilitas penunjang; definisi"
+      },
+      {
+        "pasal": "Pasal 171",
+        "alasan": "delegasi pengaturan fasilitas pelayanan ke PP"
+      },
+      {
+        "pasal": "Pasal 172",
+        "alasan": "telekesehatan dan telemedisin oleh fasilitas; tata cara layanan"
+      },
+      {
+        "pasal": "Pasal 173",
+        "alasan": "kewajiban fasilitas pelayanan dan larangan mempekerjakan tenaga tanpa izin praktik; rezim perizinan kesehatan, bukan norma kerja"
+      },
+      {
+        "pasal": "Pasal 175",
+        "alasan": "kompetensi manajemen pimpinan fasilitas; standar profesi"
+      },
+      {
+        "pasal": "Pasal 176",
+        "alasan": "standar keselamatan pasien; tata cara layanan"
+      },
+      {
+        "pasal": "Pasal 177",
+        "alasan": "rahasia Kesehatan pribadi pasien; perlindungan data"
+      },
+      {
+        "pasal": "Pasal 178",
+        "alasan": "peningkatan mutu pelayanan Kesehatan; tata cara akreditasi"
+      },
+      {
+        "pasal": "Pasal 179",
+        "alasan": "pengembangan jejaring dan kerja sama fasilitas; kelembagaan"
+      },
+      {
+        "pasal": "Pasal 180",
+        "alasan": "tugas dan fungsi Puskesmas; kelembagaan"
+      },
+      {
+        "pasal": "Pasal 181",
+        "alasan": "penyelenggaraan pelayanan primer Puskesmas; kelembagaan"
+      },
+      {
+        "pasal": "Pasal 182",
+        "alasan": "sumber daya manusia Puskesmas; kelembagaan"
+      },
+      {
+        "pasal": "Pasal 183",
+        "alasan": "delegasi pengaturan Puskesmas ke PP"
+      },
+      {
+        "pasal": "Pasal 184",
+        "alasan": "fungsi Rumah Sakit; definisi layanan"
+      },
+      {
+        "pasal": "Pasal 185",
+        "alasan": "penyelenggara dan bentuk badan hukum Rumah Sakit; kelembagaan"
+      },
+      {
+        "pasal": "Pasal 186",
+        "alasan": "struktur organisasi Rumah Sakit; kelembagaan"
+      },
+      {
+        "pasal": "Pasal 187",
+        "alasan": "Rumah Sakit pendidikan; kelembagaan pendidikan"
+      },
+      {
+        "pasal": "Pasal 188",
+        "alasan": "pusat penelitian Rumah Sakit; kelembagaan"
+      },
+      {
+        "pasal": "Pasal 189",
+        "alasan": "kewajiban Rumah Sakit terhadap pasien dan masyarakat; standar layanan"
+      },
+      {
+        "pasal": "Pasal 19O",
+        "alasan": "kewajiban sistem informasi Kesehatan Rumah Sakit; tata kelola data"
+      },
+      {
+        "pasal": "Pasal 191",
+        "alasan": "hak Rumah Sakit termasuk remunerasi; kelembagaan, bukan hak pekerja"
+      },
+      {
+        "pasal": "Pasal 192",
+        "alasan": "batas tanggung jawab hukum Rumah Sakit; hukum perdata"
+      },
+      {
+        "pasal": "Pasal 193",
+        "alasan": "tanggung jawab Rumah Sakit atas kelalaian SDM; hukum perdata"
+      },
+      {
+        "pasal": "Pasal 194",
+        "alasan": "penetapan tarif Rumah Sakit; kebijakan tarif"
+      },
+      {
+        "pasal": "Pasal 195",
+        "alasan": "penggunaan pendapatan Rumah Sakit pemerintah; keuangan negara"
+      },
+      {
+        "pasal": "Pasal 196",
+        "alasan": "delegasi pengaturan Rumah Sakit ke PP"
+      },
+      {
+        "pasal": "Pasal 197",
+        "alasan": "pengelompokan sumber daya manusia Kesehatan; definisi"
+      },
+      {
+        "pasal": "Pasal 198",
+        "alasan": "pengelompokan tenaga medis; definisi profesi"
+      },
+      {
+        "pasal": "Pasal 199",
+        "alasan": "pengelompokan tenaga kesehatan; definisi profesi"
+      },
+      {
+        "pasal": "Pasal 200",
+        "alasan": "tenaga pendukung/penunjang kesehatan; definisi profesi"
+      },
+      {
+        "pasal": "Pasal 201",
+        "alasan": "penetapan jenis tenaga medis/kesehatan baru; kebijakan"
+      },
+      {
+        "pasal": "Pasal 203",
+        "alasan": "perencanaan tenaga medis dan tenaga kesehatan; kebijakan"
+      },
+      {
+        "pasal": "Pasal 204",
+        "alasan": "pertimbangan perencanaan tenaga kesehatan; kebijakan"
+      },
+      {
+        "pasal": "Pasal 205",
+        "alasan": "pedoman perencanaan tenaga kesehatan; kebijakan"
+      },
+      {
+        "pasal": "Pasal 206",
+        "alasan": "delegasi pengaturan perencanaan tenaga kesehatan ke PP"
+      },
+      {
+        "pasal": "Pasal 208",
+        "alasan": "pembinaan pendidikan tinggi tenaga kesehatan; kelembagaan pendidikan"
+      },
+      {
+        "pasal": "Pasal 209",
+        "alasan": "pendidikan profesi bidang Kesehatan; kelembagaan pendidikan"
+      },
+      {
+        "pasal": "Pasal 210",
+        "alasan": "kualifikasi pendidikan tenaga medis/kesehatan; standar profesi"
+      },
+      {
+        "pasal": "Pasal 21O",
+        "alasan": "kualifikasi pendidikan tenaga medis/kesehatan (duplikat OCR Pasal 210); standar profesi"
+      },
+      {
+        "pasal": "Pasal 213",
+        "alasan": "di luar domain T-Box: pendidikan dan uji kompetensi tenaga medis/kesehatan"
+      },
+      {
+        "pasal": "Pasal 214",
+        "alasan": "di luar domain T-Box: pemberian gelar akademik"
+      },
+      {
+        "pasal": "Pasal 215",
+        "alasan": "di luar domain T-Box: pengangkatan sumpah profesi"
+      },
+      {
+        "pasal": "Pasal 216",
+        "alasan": "di luar domain T-Box: program internsip"
+      },
+      {
+        "pasal": "Pasal 217",
+        "alasan": "di luar domain T-Box: pendidikan spesialis/subspesialis"
+      },
+      {
+        "pasal": "Pasal 218",
+        "alasan": "di luar domain T-Box: pendidikan spesialis tenaga kesehatan"
+      },
+      {
+        "pasal": "Pasal 219",
+        "alasan": "di luar domain T-Box: hak dan kewajiban peserta didik, bukan hubungan kerja"
+      },
+      {
+        "pasal": "Pasal 22O",
+        "alasan": "di luar domain T-Box: uji kompetensi spesialis/subspesialis"
+      },
+      {
+        "pasal": "Pasal 221",
+        "alasan": "di luar domain T-Box: pemberian gelar spesialis/subspesialis"
+      },
+      {
+        "pasal": "Pasal 222",
+        "alasan": "di luar domain T-Box: sumber daya manusia pendidikan tenaga medis/kesehatan"
+      },
+      {
+        "pasal": "Pasal 223",
+        "alasan": "di luar domain T-Box: sarana dan prasarana pendidikan"
+      },
+      {
+        "pasal": "Pasal 224",
+        "alasan": "di luar domain T-Box: dukungan pendanaan pendidikan dan sanksi administratif"
+      },
+      {
+        "pasal": "Pasal 225",
+        "alasan": "di luar domain T-Box: peningkatan kompetensi berkelanjutan"
+      },
+      {
+        "pasal": "Pasal 226",
+        "alasan": "ketentuan delegasi (diatur dengan Peraturan Pemerintah)"
+      },
+      {
+        "pasal": "Pasal 227",
+        "alasan": "di luar domain T-Box: pendayagunaan tenaga medis/kesehatan"
+      },
+      {
+        "pasal": "Pasal 228",
+        "alasan": "di luar domain T-Box: kewajiban pemerintah daerah memenuhi kebutuhan tenaga"
+      },
+      {
+        "pasal": "Pasal 229",
+        "alasan": "di luar domain T-Box: tanggung jawab pemerintah daerah memenuhi kebutuhan tenaga"
+      },
+      {
+        "pasal": "Pasal 230",
+        "alasan": "ketentuan delegasi insentif/disinsentif (diatur dengan Peraturan Pemerintah)"
+      },
+      {
+        "pasal": "Pasal 231",
+        "alasan": "di luar domain T-Box: penempatan tenaga medis/kesehatan (kepegawaian)"
+      },
+      {
+        "pasal": "Pasal 232",
+        "alasan": "di luar domain T-Box: upaya retensi tenaga medis/kesehatan"
+      },
+      {
+        "pasal": "Pasal 233",
+        "alasan": "di luar domain T-Box: pendayagunaan peserta didik spesialis/subspesialis"
+      },
+      {
+        "pasal": "Pasal 234",
+        "alasan": "di luar domain T-Box: penempatan tenaga medis/kesehatan untuk jangka waktu tertentu"
+      },
+      {
+        "pasal": "Pasal 235",
+        "alasan": "di luar domain T-Box: pemindahtugasan dan tunjangan tenaga kesehatan (kepegawaian)"
+      },
+      {
+        "pasal": "Pasal 236",
+        "alasan": "di luar domain T-Box: penempatan tenaga medis/kesehatan dalam kondisi tertentu (kepegawaian)"
+      },
+      {
+        "pasal": "Pasal 237",
+        "alasan": "di luar domain T-Box: pola ikatan dinas calon tenaga medis/kesehatan"
+      },
+      {
+        "pasal": "Pasal 238",
+        "alasan": "di luar domain T-Box: pembentukan dan pengelolaan tenaga cadangan kesehatan"
+      },
+      {
+        "pasal": "Pasal 239",
+        "alasan": "ketentuan delegasi (diatur dengan Peraturan Pemerintah)"
+      },
+      {
+        "pasal": "Pasal 24O",
+        "alasan": "di luar domain T-Box: pendayagunaan tenaga kesehatan ke luar negeri"
+      },
+      {
+        "pasal": "Pasal 242",
+        "alasan": "di luar domain T-Box: persyaratan STR dan SIP"
+      },
+      {
+        "pasal": "Pasal 243",
+        "alasan": "di luar domain T-Box: pengecualian evaluasi kompetensi lulusan luar negeri"
+      },
+      {
+        "pasal": "Pasal 245",
+        "alasan": "ketentuan delegasi (diatur dengan Peraturan Pemerintah)"
+      },
+      {
+        "pasal": "Pasal 246",
+        "alasan": "di luar domain T-Box: perizinan praktik tenaga kesehatan WNA lulusan dalam negeri"
+      },
+      {
+        "pasal": "Pasal 247",
+        "alasan": "ketentuan delegasi (diatur dengan Peraturan Pemerintah)"
+      },
+      {
+        "pasal": "Pasal 248",
+        "alasan": "di luar domain T-Box: evaluasi kompetensi tenaga kesehatan WNA lulusan luar negeri"
+      },
+      {
+        "pasal": "Pasal 249",
+        "alasan": "di luar domain T-Box: persyaratan STR dan SIP tenaga kesehatan WNA"
+      },
+      {
+        "pasal": "Pasal 250",
+        "alasan": "di luar domain T-Box: pengecualian evaluasi kompetensi tenaga kesehatan WNA"
+      },
+      {
+        "pasal": "Pasal 251",
+        "alasan": "di luar domain T-Box: jangka waktu praktik tenaga kesehatan WNA"
+      },
+      {
+        "pasal": "Pasal 252",
+        "alasan": "di luar domain T-Box: masa berlaku STR dan SIP tenaga kesehatan WNA"
+      },
+      {
+        "pasal": "Pasal 253",
+        "alasan": "di luar domain T-Box: kewajiban fasilitas memfasilitasi pelatihan bahasa Indonesia"
+      },
+      {
+        "pasal": "Pasal 254",
+        "alasan": "di luar domain T-Box: STR peserta program pendidikan spesialis WNA"
+      },
+      {
+        "pasal": "Pasal 255",
+        "alasan": "di luar domain T-Box: pengecualian STR bagi pengajar/pelatih WNA"
+      },
+      {
+        "pasal": "Pasal 256",
+        "alasan": "di luar domain T-Box: persyaratan lain tenaga kesehatan WNA"
+      },
+      {
+        "pasal": "Pasal 257",
+        "alasan": "ketentuan delegasi (diatur dengan Peraturan Pemerintah)"
+      },
+      {
+        "pasal": "Pasal 258",
+        "alasan": "di luar domain T-Box: pelatihan dan peningkatan mutu tenaga kesehatan"
+      },
+      {
+        "pasal": "Pasal 259",
+        "alasan": "di luar domain T-Box: kesempatan pelatihan dan penilaian kinerja"
+      },
+      {
+        "pasal": "Pasal 260",
+        "alasan": "di luar domain T-Box: kewajiban memiliki STR"
+      },
+      {
+        "pasal": "Pasal 261",
+        "alasan": "di luar domain T-Box: STR tidak berlaku"
+      },
+      {
+        "pasal": "Pasal 262",
+        "alasan": "ketentuan delegasi (diatur dengan Peraturan Pemerintah)"
+      },
+      {
+        "pasal": "Pasal 263",
+        "alasan": "di luar domain T-Box: kewajiban SIP untuk praktik"
+      },
+      {
+        "pasal": "Pasal 264",
+        "alasan": "di luar domain T-Box: syarat dan masa berlaku SIP"
+      },
+      {
+        "pasal": "Pasal 265",
+        "alasan": "di luar domain T-Box: pengecualian SIP dalam kondisi tertentu"
+      },
+      {
+        "pasal": "Pasal 266",
+        "alasan": "ketentuan delegasi (diatur dengan Peraturan Pemerintah)"
+      },
+      {
+        "pasal": "Pasal 267",
+        "alasan": "di luar domain T-Box: surat tugas dokter spesialis"
+      },
+      {
+        "pasal": "Pasal 268",
+        "alasan": "di luar domain T-Box: pembentukan Konsil"
+      },
+      {
+        "pasal": "Pasal 269",
+        "alasan": "di luar domain T-Box: peran Konsil"
+      },
+      {
+        "pasal": "Pasal 270",
+        "alasan": "di luar domain T-Box: keanggotaan Konsil"
+      },
+      {
+        "pasal": "Pasal 271",
+        "alasan": "ketentuan delegasi (diatur dengan Peraturan Pemerintah)"
+      },
+      {
+        "pasal": "Pasal 272",
+        "alasan": "di luar domain T-Box: pembentukan dan peran Kolegium"
+      },
+      {
+        "pasal": "Pasal 274",
+        "alasan": "di luar domain T-Box: kewajiban pelayanan profesi tenaga medis/kesehatan"
+      },
+      {
+        "pasal": "Pasal 275",
+        "alasan": "di luar domain T-Box: kewajiban pertolongan pertama dan pengecualian ganti rugi"
+      },
+      {
+        "pasal": "Pasal 276",
+        "alasan": "di luar domain T-Box: hak Pasien"
+      },
+      {
+        "pasal": "Pasal 277",
+        "alasan": "di luar domain T-Box: kewajiban Pasien"
+      },
+      {
+        "pasal": "Pasal 278",
+        "alasan": "ketentuan delegasi (diatur dengan Peraturan Pemerintah)"
+      },
+      {
+        "pasal": "Pasal 279",
+        "alasan": "di luar domain T-Box: tanggung jawab moral dan etika profesi"
+      },
+      {
+        "pasal": "Pasal 280",
+        "alasan": "di luar domain T-Box: standar upaya terbaik pelayanan"
+      },
+      {
+        "pasal": "Pasal 281",
+        "alasan": "di luar domain T-Box: praktik dengan teknologi informasi"
+      },
+      {
+        "pasal": "Pasal 282",
+        "alasan": "di luar domain T-Box: tenaga medis/kesehatan pengganti"
+      },
+      {
+        "pasal": "Pasal 283",
+        "alasan": "di luar domain T-Box: identitas tempat praktik dan sanksi administratif"
+      },
+      {
+        "pasal": "Pasal 284",
+        "alasan": "di luar domain T-Box: larangan mendayagunakan tenaga tanpa SIP"
+      },
+      {
+        "pasal": "Pasal 285",
+        "alasan": "di luar domain T-Box: kewenangan praktik berdasarkan kompetensi"
+      },
+      {
+        "pasal": "Pasal 286",
+        "alasan": "di luar domain T-Box: pelayanan di luar kewenangan"
+      },
+      {
+        "pasal": "Pasal 287",
+        "alasan": "di luar domain T-Box: penetapan kondisi ketiadaan tenaga dan pelatihan"
+      },
+      {
+        "pasal": "Pasal 288",
+        "alasan": "di luar domain T-Box: penugasan untuk program pemerintah"
+      },
+      {
+        "pasal": "Pasal 289",
+        "alasan": "ketentuan delegasi (diatur dengan Peraturan Pemerintah)"
+      },
+      {
+        "pasal": "Pasal 290",
+        "alasan": "di luar domain T-Box: pelimpahan kewenangan profesi"
+      },
+      {
+        "pasal": "Pasal 291",
+        "alasan": "di luar domain T-Box: standar profesi, standar pelayanan, dan SPO"
+      },
+      {
+        "pasal": "Pasal 292",
+        "alasan": "di luar domain T-Box: penelitian dan pengembangan kesehatan"
+      },
+      {
+        "pasal": "Pasal 293",
+        "alasan": "di luar domain T-Box: persetujuan tindakan pelayanan kesehatan"
+      },
+      {
+        "pasal": "Pasal 294",
+        "alasan": "di luar domain T-Box: penjelasan biaya pelayanan kesehatan"
+      },
+      {
+        "pasal": "Pasal 295",
+        "alasan": "di luar domain T-Box: pelayanan kesehatan masyarakat tanpa persetujuan tindakan"
+      },
+      {
+        "pasal": "Pasal 296",
+        "alasan": "di luar domain T-Box: kewajiban rekam medis"
+      },
+      {
+        "pasal": "Pasal 297",
+        "alasan": "di luar domain T-Box: kepemilikan dan akses rekam medis"
+      },
+      {
+        "pasal": "Pasal 298",
+        "alasan": "di luar domain T-Box: pengelolaan data rekam medis"
+      },
+      {
+        "pasal": "Pasal 299",
+        "alasan": "ketentuan delegasi (diatur dengan Peraturan Pemerintah)"
+      },
+      {
+        "pasal": "Pasal 300",
+        "alasan": "di luar domain T-Box: pencatatan pelayanan kesehatan"
+      },
+      {
+        "pasal": "Pasal 301",
+        "alasan": "di luar domain T-Box: rahasia kesehatan Pasien"
+      },
+      {
+        "pasal": "Pasal 302",
+        "alasan": "di luar domain T-Box: pelaporan dugaan tindak pidana dan rahasia kesehatan"
+      },
+      {
+        "pasal": "Pasal 303",
+        "alasan": "di luar domain T-Box: kendali mutu dan kendali biaya"
+      },
+      {
+        "pasal": "Pasal 304",
+        "alasan": "di luar domain T-Box: majelis penegakan disiplin profesi"
+      },
+      {
+        "pasal": "Pasal 305",
+        "alasan": "di luar domain T-Box: pengaduan pelanggaran disiplin"
+      },
+      {
+        "pasal": "Pasal 306",
+        "alasan": "di luar domain T-Box: sanksi disiplin profesi"
+      },
+      {
+        "pasal": "Pasal 307",
+        "alasan": "di luar domain T-Box: peninjauan kembali putusan majelis"
+      },
+      {
+        "pasal": "Pasal 309",
+        "alasan": "ketentuan delegasi (diatur dengan Peraturan Pemerintah)"
+      },
+      {
+        "pasal": "Pasal 310",
+        "alasan": "di luar domain T-Box: penyelesaian sengketa medik"
+      },
+      {
+        "pasal": "Pasal 311",
+        "alasan": "di luar domain T-Box: organisasi profesi"
+      },
+      {
+        "pasal": "Pasal 312",
+        "alasan": "di luar domain T-Box: larangan praktik tanpa STR/SIP"
+      },
+      {
+        "pasal": "Pasal 313",
+        "alasan": "di luar domain T-Box: sanksi administratif"
+      },
+      {
+        "pasal": "Pasal 314",
+        "alasan": "di luar domain T-Box: tanggung jawab ketersediaan perbekalan kesehatan"
+      },
+      {
+        "pasal": "Pasal 315",
+        "alasan": "di luar domain T-Box: perencanaan kebutuhan perbekalan kesehatan"
+      },
+      {
+        "pasal": "Pasal 316",
+        "alasan": "di luar domain T-Box: penyediaan dan pengadaan perbekalan kesehatan"
+      },
+      {
+        "pasal": "Pasal 317",
+        "alasan": "di luar domain T-Box: daftar obat esensial"
+      },
+      {
+        "pasal": "Pasal 318",
+        "alasan": "di luar domain T-Box: pengaturan harga perbekalan kesehatan"
+      },
+      {
+        "pasal": "Pasal 319",
+        "alasan": "di luar domain T-Box: pendistribusian perbekalan kesehatan"
+      },
+      {
+        "pasal": "Pasal 320",
+        "alasan": "di luar domain T-Box: penggolongan obat"
+      },
+      {
+        "pasal": "Pasal 321",
+        "alasan": "di luar domain T-Box: penggolongan obat bahan alam"
+      },
+      {
+        "pasal": "Pasal 322",
+        "alasan": "di luar domain T-Box: sumber sediaan farmasi dan alat kesehatan"
+      },
+      {
+        "pasal": "Pasal 323",
+        "alasan": "di luar domain T-Box: penelitian sediaan farmasi dan alat kesehatan"
+      },
+      {
+        "pasal": "Pasal 324",
+        "alasan": "di luar domain T-Box: penelitian dan pemanfaatan obat bahan alam"
+      },
+      {
+        "pasal": "Pasal 325",
+        "alasan": "di luar domain T-Box: tujuan penelitian obat bahan alam"
+      },
+      {
+        "pasal": "Pasal 326",
+        "alasan": "di luar domain T-Box: ketahanan sediaan farmasi dan alat kesehatan"
+      },
+      {
+        "pasal": "Pasal 327",
+        "alasan": "di luar domain T-Box: pengutamaan produk dalam negeri"
+      },
+      {
+        "pasal": "Pasal 328",
+        "alasan": "di luar domain T-Box: pengutamaan bahan baku dalam negeri"
+      },
+      {
+        "pasal": "Pasal 329",
+        "alasan": "di luar domain T-Box: hilirisasi penelitian kefarmasian"
+      },
+      {
+        "pasal": "Pasal 330",
+        "alasan": "ketentuan delegasi (diatur dengan Peraturan Pemerintah)"
+      },
+      {
+        "pasal": "Pasal 331",
+        "alasan": "di luar domain T-Box: insentif industri sediaan farmasi"
+      },
+      {
+        "pasal": "Pasal 332",
+        "alasan": "di luar domain T-Box: mitigasi risiko perbekalan kesehatan"
+      },
+      {
+        "pasal": "Pasal 333",
+        "alasan": "ketentuan delegasi (diatur dengan Peraturan Pemerintah)"
+      },
+      {
+        "pasal": "Pasal 334",
+        "alasan": "di luar domain T-Box: penyelenggaraan teknologi kesehatan"
+      },
+      {
+        "pasal": "Pasal 335",
+        "alasan": "di luar domain T-Box: penelitian teknologi kesehatan"
+      },
+      {
+        "pasal": "Pasal 336",
+        "alasan": "di luar domain T-Box: pertimbangan risiko dan manfaat teknologi kesehatan"
+      },
+      {
+        "pasal": "Pasal 337",
+        "alasan": "di luar domain T-Box: inovasi teknologi kesehatan"
+      },
+      {
+        "pasal": "Pasal 338",
+        "alasan": "di luar domain T-Box: pemanfaatan teknologi biomedis"
+      },
+      {
+        "pasal": "Pasal 339",
+        "alasan": "di luar domain T-Box: penyelenggaraan biobank dan biorepositori"
+      },
+      {
+        "pasal": "Pasal 340",
+        "alasan": "di luar domain T-Box: pengalihan material biomedis ke luar negeri"
+      },
+      {
+        "pasal": "Pasal 341",
+        "alasan": "di luar domain T-Box: pengambilan dan pengiriman spesimen klinik"
+      },
+      {
+        "pasal": "Pasal 342",
+        "alasan": "di luar domain T-Box: larangan diskriminasi hasil pemeriksaan genetik"
+      },
+      {
+        "pasal": "Pasal 343",
+        "alasan": "di luar domain T-Box: izin pemanfaatan material biomedis komersial"
+      },
+      {
+        "pasal": "Pasal 344",
+        "alasan": "ketentuan delegasi (diatur dengan Peraturan Pemerintah)"
+      },
+      {
+        "pasal": "Pasal 345",
+        "alasan": "di luar domain T-Box: penyelenggaraan sistem informasi kesehatan"
+      },
+      {
+        "pasal": "Pasal 346",
+        "alasan": "di luar domain T-Box: tata kelola sistem informasi kesehatan"
+      },
+      {
+        "pasal": "Pasal 347",
+        "alasan": "di luar domain T-Box: keandalan sistem informasi kesehatan"
+      },
+      {
+        "pasal": "Pasal 348",
+        "alasan": "di luar domain T-Box: penyediaan dan akses data kesehatan"
+      },
+      {
+        "pasal": "Pasal 349",
+        "alasan": "di luar domain T-Box: pemrosesan data dan informasi kesehatan"
+      },
+      {
+        "pasal": "Pasal 350",
+        "alasan": "di luar domain T-Box: sumber data sistem informasi kesehatan"
+      },
+      {
+        "pasal": "Pasal 351",
+        "alasan": "di luar domain T-Box: pelindungan data dan informasi kesehatan"
+      },
+      {
+        "pasal": "Pasal 352",
+        "alasan": "di luar domain T-Box: kewaspadaan dan penanggulangan KLB"
+      },
+      {
+        "pasal": "Pasal 353",
+        "alasan": "di luar domain T-Box: kriteria dan penetapan KLB"
+      },
+      {
+        "pasal": "Pasal 354",
+        "alasan": "di luar domain T-Box: kegiatan penanggulangan KLB"
+      },
+      {
+        "pasal": "Pasal 355",
+        "alasan": "ketentuan delegasi (diatur dengan Peraturan Pemerintah)"
+      },
+      {
+        "pasal": "Pasal 356",
+        "alasan": "di luar domain T-Box: kewaspadaan dan penanggulangan wabah"
+      },
+      {
+        "pasal": "Pasal 357",
+        "alasan": "di luar domain T-Box: penetapan jenis penyakit berpotensi wabah"
+      },
+      {
+        "pasal": "Pasal 358",
+        "alasan": "di luar domain T-Box: kewaspadaan wabah di wilayah"
+      },
+      {
+        "pasal": "Pasal 359",
+        "alasan": "di luar domain T-Box: kewaspadaan wabah di pintu masuk"
+      },
+      {
+        "pasal": "Pasal 360",
+        "alasan": "di luar domain T-Box: pengawasan alat angkut, orang, dan barang"
+      },
+      {
+        "pasal": "Pasal 361",
+        "alasan": "di luar domain T-Box: cegah tangkal penyakit di pintu masuk"
+      },
+      {
+        "pasal": "Pasal 362",
+        "alasan": "di luar domain T-Box: pengawasan alat angkut"
+      },
+      {
+        "pasal": "Pasal 363",
+        "alasan": "di luar domain T-Box: kewajiban nakhoda/kapten/pengemudi"
+      },
+      {
+        "pasal": "Pasal 364",
+        "alasan": "di luar domain T-Box: pemeriksaan dan penanggulangan oleh petugas karantina"
+      },
+      {
+        "pasal": "Pasal 365",
+        "alasan": "ketentuan delegasi (diatur dengan Peraturan Pemerintah)"
+      },
+      {
+        "pasal": "Pasal 366",
+        "alasan": "di luar domain T-Box: dokumen karantina kesehatan"
+      },
+      {
+        "pasal": "Pasal 367",
+        "alasan": "ketentuan delegasi (diatur dengan Peraturan Pemerintah)"
+      },
+      {
+        "pasal": "Pasal 368",
+        "alasan": "di luar domain T-Box: penetapan daerah terjangkit wabah"
+      },
+      {
+        "pasal": "Pasal 369",
+        "alasan": "di luar domain T-Box: usulan status bencana nasional nonalam"
+      },
+      {
+        "pasal": "Pasal 370",
+        "alasan": "di luar domain T-Box: penetapan bencana nasional nonalam"
+      },
+      {
+        "pasal": "Pasal 371",
+        "alasan": "di luar domain T-Box: pelaksanaan penanggulangan wabah"
+      },
+      {
+        "pasal": "Pasal 372",
+        "alasan": "di luar domain T-Box: kegiatan penanggulangan wabah"
+      },
+      {
+        "pasal": "Pasal 373",
+        "alasan": "di luar domain T-Box: investigasi penyakit"
+      },
+      {
+        "pasal": "Pasal 374",
+        "alasan": "di luar domain T-Box: penguatan surveilans"
+      },
+      {
+        "pasal": "Pasal 375",
+        "alasan": "di luar domain T-Box: penanganan penderita, isolasi, dan karantina"
+      },
+      {
+        "pasal": "Pasal 376",
+        "alasan": "di luar domain T-Box: pengendalian faktor risiko penyakit"
+      },
+      {
+        "pasal": "Pasal 377",
+        "alasan": "di luar domain T-Box: penanganan populasi berisiko"
+      },
+      {
+        "pasal": "Pasal 378",
+        "alasan": "di luar domain T-Box: komunikasi risiko"
+      },
+      {
+        "pasal": "Pasal 379",
+        "alasan": "di luar domain T-Box: pelaksanaan penanggulangan wabah"
+      },
+      {
+        "pasal": "Pasal 380",
+        "alasan": "ketentuan delegasi (diatur dengan Peraturan Pemerintah)"
+      },
+      {
+        "pasal": "Pasal 381",
+        "alasan": "di luar domain T-Box: kegiatan pasca-wabah"
+      },
+      {
+        "pasal": "Pasal 382",
+        "alasan": "di luar domain T-Box: pemeriksaan laboratorium KLB dan wabah"
+      },
+      {
+        "pasal": "Pasal 383",
+        "alasan": "di luar domain T-Box: pengelolaan limbah KLB dan wabah"
+      },
+      {
+        "pasal": "Pasal 384",
+        "alasan": "di luar domain T-Box: pelaporan KLB dan wabah oleh pemerintah daerah"
+      },
+      {
+        "pasal": "Pasal 385",
+        "alasan": "di luar domain T-Box: pelaporan dan pengumuman KLB dan wabah"
+      },
+      {
+        "pasal": "Pasal 386",
+        "alasan": "di luar domain T-Box: sumber daya penanggulangan KLB dan wabah"
+      },
+      {
+        "pasal": "Pasal 387",
+        "alasan": "di luar domain T-Box: sumber daya manusia penanggulangan KLB dan wabah"
+      },
+      {
+        "pasal": "Pasal 388",
+        "alasan": "di luar domain T-Box: kewajiban tenaga kesehatan ikut penanggulangan KLB dan wabah"
+      },
+      {
+        "pasal": "Pasal 389",
+        "alasan": "di luar domain T-Box: teknologi penanggulangan KLB dan wabah"
+      },
+      {
+        "pasal": "Pasal 390",
+        "alasan": "di luar domain T-Box: sarana dan prasarana penanggulangan KLB dan wabah"
+      },
+      {
+        "pasal": "Pasal 391",
+        "alasan": "di luar domain T-Box: perbekalan kesehatan untuk KLB dan wabah"
+      },
+      {
+        "pasal": "Pasal 392",
+        "alasan": "di luar domain T-Box: hak pelayanan kesehatan bagi penderita KLB atau wabah"
+      },
+      {
+        "pasal": "Pasal 394",
+        "alasan": "di luar domain T-Box: kewajiban mematuhi penanggulangan KLB dan wabah"
+      },
+      {
+        "pasal": "Pasal 395",
+        "alasan": "di luar domain T-Box: kewajiban pelaporan dan sanksi administratif"
+      },
+      {
+        "pasal": "Pasal 396",
+        "alasan": "di luar domain T-Box: kewajiban fasilitas pelayanan kesehatan"
+      },
+      {
+        "pasal": "Pasal 397",
+        "alasan": "di luar domain T-Box: standar pengelolaan bahan beragen biologi"
+      },
+      {
+        "pasal": "Pasal 398",
+        "alasan": "di luar domain T-Box: sanksi administratif"
+      },
+      {
+        "pasal": "Pasal 399",
+        "alasan": "di luar domain T-Box: larangan menyebarluaskan agen penyakit"
+      },
+      {
+        "pasal": "Pasal 400",
+        "alasan": "di luar domain T-Box: larangan menghalangi penanggulangan KLB dan wabah"
+      },
+      {
+        "pasal": "Pasal 401",
+        "alasan": "di luar domain T-Box: tujuan dan sumber pendanaan kesehatan"
+      },
+      {
+        "pasal": "Pasal 402",
+        "alasan": "di luar domain T-Box: pemantauan dan sistem informasi pendanaan kesehatan"
+      },
+      {
+        "pasal": "Pasal 403",
+        "alasan": "di luar domain T-Box: tanggung jawab pendanaan kesehatan"
+      },
+      {
+        "pasal": "Pasal 404",
+        "alasan": "di luar domain T-Box: pendanaan pemeriksaan korban tindak pidana"
+      },
+      {
+        "pasal": "Pasal 405",
+        "alasan": "di luar domain T-Box: pendanaan kejadian ikutan pascaimunisasi"
+      },
+      {
+        "pasal": "Pasal 406",
+        "alasan": "di luar domain T-Box: sumber pendanaan rumah sakit"
+      },
+      {
+        "pasal": "Pasal 407",
+        "alasan": "heading tanpa isi pada chunk ini; ketentuan berlanjut di chunk 17"
+      },
+      {
+        "pasal": "Pasal 407",
+        "alasan": "pendanaan: 'bantuan pendanaan dalam rangka peningkatan dan pemberian Pelayanan Kesehatan' oleh pusat/daerah/masyarakat — kebijakan fiskal, bukan hak normatif pekerja"
+      },
+      {
+        "pasal": "Pasal 408",
+        "alasan": "delegasi: 'Ketentuan lebih lanjut mengenai pemanfaatan pendanaan Kesehatan diatur dengan Peraturan Pemerintah' — bukan norma mandiri"
+      },
+      {
+        "pasal": "Pasal 409",
+        "alasan": "anggaran: 'memprioritaskan anggaran Kesehatan' dalam APBN/APBD — keuangan negara, bukan hubungan kerja"
+      },
+      {
+        "pasal": "Pasal 41O",
+        "alasan": "kelembagaan: 'insentif atau disinsentif kepada Pemerintah Daerah sesuai dengan capaian kinerja' — kewenangan pemerintah, bukan hak normatif"
+      },
+      {
+        "pasal": "Pasal 412",
+        "alasan": "rujukan: 'Penyelenggaraan program jaminan kesehatan dilaksanakan sesuai dengan ketentuan peraturan perundang-undangan' — delegasi, bukan norma mandiri"
+      },
+      {
+        "pasal": "Pasal 413",
+        "alasan": "kelembagaan: 'koordinasi dan sinkronisasi kebijakan di bidang Kesehatan antarkementerian/lembaga' — tata kelola pemerintah"
+      },
+      {
+        "pasal": "Pasal 414",
+        "alasan": "asas: 'transparansi, kontinuitas, akuntabilitas, keprofesionalan, dan keterpaduan pelayanan' — prinsip, bukan norma"
+      },
+      {
+        "pasal": "Pasal 415",
+        "alasan": "tata cara: koordinasi 'paling sedikit dilaksanakan melalui' penelaahan, penyusunan strategi, dan penetapan indikator — prosedur internal"
+      },
+      {
+        "pasal": "Pasal 416",
+        "alasan": "delegasi: 'Ketentuan lebih lanjut mengenai koordinasi dan sinkronisasi penguatan sistem Kesehatan diatur dengan Peraturan Presiden'"
+      },
+      {
+        "pasal": "Pasal 418",
+        "alasan": "kelembagaan: 'Pemerintah Pusat dan Pemerintah Daerah melakukan pembinaan' — kewenangan administratif"
+      },
+      {
+        "pasal": "Pasal 419",
+        "alasan": "pembinaan diarahkan untuk 'meningkatkan akses dan memenuhi kebutuhan Setiap Orang terhadap Sumber Daya Kesehatan' — kebijakan, bukan hak kerja"
+      },
+      {
+        "pasal": "Pasal 420",
+        "alasan": "kelembagaan: 'dapat memberikan penghargaan kepada orang atau badan yang telah berjasa' — bukan norma hak"
+      },
+      {
+        "pasal": "Pasal 42L",
+        "alasan": "pengawasan: 'melakukan pengawasan terhadap setiap penyelenggaraan Kesehatan' — kewenangan administratif"
+      },
+      {
+        "pasal": "Pasal 422",
+        "alasan": "kelembagaan: 'dapat dibantu tenaga pengawas dan dilaksanakan sesuai dengan ketentuan peraturan perundang-undangan'"
+      },
+      {
+        "pasal": "Pasal 423",
+        "alasan": "delegasi: 'Ketentuan lebih lanjut mengenai pelaksanaan pengawasan diatur dengan Peraturan Pemerintah'"
+      },
+      {
+        "pasal": "Pasal 426",
+        "alasan": "administrasi penyidikan: 'Persyaratan, tata cara pengangkatan Penyidik Pegawai Negeri Sipil' — hukum acara, bukan norma hak"
+      },
+      {
+        "pasal": "Pasal 427",
+        "alasan": "pidana: 'pidana penjara paling lama 4 (empat) tahun' — sanksi pidana, bukan norma hak"
+      },
+      {
+        "pasal": "Pasal 428",
+        "alasan": "pidana: 'pidana penjara paling lama 12 (dua belas) tahun' — sanksi pidana, bukan norma hak"
+      },
+      {
+        "pasal": "Pasal 429",
+        "alasan": "pidana: 'pidananya dapat ditambah 1/3 (satu per tiga)' — sanksi pidana, bukan norma hak"
+      },
+      {
+        "pasal": "Pasal 430",
+        "alasan": "pidana: 'pidana penjara paling lama 1 (satu) tahun atau pidana denda' — sanksi pidana, bukan norma hak"
+      },
+      {
+        "pasal": "Pasal 431",
+        "alasan": "pidana: 'memperjualbelikan darah manusia dengan alasan apa pun' — sanksi pidana, bukan norma hak"
+      },
+      {
+        "pasal": "Pasal 432",
+        "alasan": "pidana: 'pidana penjara paling lama 5 (lima) tahun' — sanksi pidana, bukan norma hak"
+      },
+      {
+        "pasal": "Pasal 433",
+        "alasan": "pidana: 'pidana penjara paling lama 10 (sepuluh) tahun' — sanksi pidana, bukan norma hak"
+      },
+      {
+        "pasal": "Pasal 434",
+        "alasan": "pidana: 'pidana penjara paling lama 2 (dua) tahun 6 (enam) bulan' — sanksi pidana, bukan norma hak"
+      },
+      {
+        "pasal": "Pasal 435",
+        "alasan": "pidana: 'pidana penjara paling lama 12 (dua belas) tahun' — sanksi pidana, bukan norma hak"
+      },
+      {
+        "pasal": "Pasal 436",
+        "alasan": "pidana: 'pidana denda paling banyak Rp200.000.000,00' — sanksi pidana, bukan norma hak"
+      },
+      {
+        "pasal": "Pasal 437",
+        "alasan": "pidana: 'tidak mencantumkan peringatan Kesehatan berbentuk tulisan disertai gambar' — sanksi pidana, bukan norma hak"
+      },
+      {
+        "pasal": "Pasal 438",
+        "alasan": "pidana: 'tidak memberikan pertolongan pertama terhadap Pasien yang dalam keadaan Gawat Darurat' — sanksi pidana, bukan norma hak"
+      },
+      {
+        "pasal": "Pasal 439",
+        "alasan": "pidana: 'bukan Tenaga Medis atau Tenaga Kesehatan melakukan praktik sebagai Tenaga Medis' — sanksi pidana, bukan norma hak"
+      },
+      {
+        "pasal": "Pasal 440",
+        "alasan": "pidana: 'kealpaan yang mengakibatkan Pasien luka berat' — sanksi pidana, bukan norma hak"
+      },
+      {
+        "pasal": "Pasal 441",
+        "alasan": "pidana: 'menggunakan identitas berupa gelar atau bentuk lain' — sanksi pidana, bukan norma hak"
+      },
+      {
+        "pasal": "Pasal 442",
+        "alasan": "pidana: 'mempekerjakan Tenaga Medis dan/atau Tenaga Kesehatan yang tidak mempunyai SIP' — sanksi pidana bagi pempekerja, bukan norma hubungan kerja"
+      },
+      {
+        "pasal": "Pasal 443",
+        "alasan": "pidana: 'Nakhoda, kapten penerbang, atau pengemudi kendaraan darat' — sanksi pidana, bukan norma hak"
+      },
+      {
+        "pasal": "Pasal 444",
+        "alasan": "pidana: 'pemalsuan Dokumen Karantina Kesehatan' — sanksi pidana, bukan norma hak"
+      },
+      {
+        "pasal": "Pasal 445",
+        "alasan": "pidana: 'menyebarluaskan bahan yang mengandung penyebab penyakit' — sanksi pidana, bukan norma hak"
+      },
+      {
+        "pasal": "Pasal 446",
+        "alasan": "pidana: 'tidak mematuhi pelaksanaan upaya penanggulangan KLB dan Wabah' — sanksi pidana, bukan norma hak"
+      },
+      {
+        "pasal": "Pasal 447",
+        "alasan": "pertanggungjawaban pidana korporasi: 'pertanggungiawaban pidana dikenakan terhadap korporasi, pengurus' — hukum pidana"
+      },
+      {
+        "pasal": "Pasal 448",
+        "alasan": "pidana tambahan korporasi: 'pembayaran ganti rugi; pencabutan izin tertentu' — hukum pidana"
+      },
+      {
+        "pasal": "Pasal 449",
+        "alasan": "ketentuan peralihan: 'STR, STR Sementara, STR Bersyarat, dan SIP yang sudah terbit dinyatakan tetap berlaku'"
+      },
+      {
+        "pasal": "Pasal 450",
+        "alasan": "ketentuan peralihan: konsil 'tetap melaksanakan tugas, fungsi, dan/atau wewenang' sampai terbentuknya konsil baru"
+      },
+      {
+        "pasal": "Pasal 451",
+        "alasan": "ketentuan peralihan: 'Kolegium yang dibentuk oleh setiap organisasi profesi tetap diakui'"
+      },
+      {
+        "pasal": "Pasal 452",
+        "alasan": "ketentuan peralihan: 'pengaduan atas pelanggaran disiplin' yang masih dalam proses"
+      },
+      {
+        "pasal": "Pasal 453",
+        "alasan": "ketentuan peralihan: peraturan pelaksanaan 'dinyatakan masih tetap berlaku sepanjang tidak bertentangan'"
+      },
+      {
+        "pasal": "Pasal 454",
+        "alasan": "ketentuan penutup: sejumlah undang-undang 'dicabut dan dinyatakan tidak berlaku'"
+      },
+      {
+        "pasal": "Pasal 455",
+        "alasan": "ketentuan peralihan: 'berlaku sampai dengan diberlakukannya Undang-Undang Nomor 1 Tahun 2023'"
+      },
+      {
+        "pasal": "Pasal 456",
+        "alasan": "ketentuan peralihan: 'Peraturan pelaksanaan dari Undang-Undang ini harus ditetapkan paling lama 1 (satu) tahun'"
+      },
+      {
+        "pasal": "Pasal 457",
+        "alasan": "ketentuan penutup: 'Pemerintah Pusat harus melaporkan pelaksanaan UndangUndang ini kepada Dewan Perwakilan Rakyat'"
+      },
+      {
+        "pasal": "Pasal 458",
+        "alasan": "ketentuan penutup: 'Undang-Undang ini mulai berlaku pada tanggal diundangkan.'"
+      },
+      {
+        "pasal": "Pasal 1",
+        "alasan": "penjelasan pasal (PENJELASAN): 'Cukup jelas.' — bukan norma mandiri"
+      },
+      {
+        "pasal": "Pasal 2",
+        "alasan": "penjelasan pasal (PENJELASAN): 'Yang dimaksud dengan 'asas keseimbangan'' — penjelasan asas; bukan norma mandiri"
+      },
+      {
+        "pasal": "Pasal 3",
+        "alasan": "penjelasan pasal (PENJELASAN): 'Cukup jelas.' — bukan norma mandiri"
+      },
+      {
+        "pasal": "Pasal 4",
+        "alasan": "penjelasan pasal (PENJELASAN): 'Yang dimaksud dengan 'standar Pelayanan Kesehatan'' — penjelasan istilah; bukan norma mandiri"
+      },
+      {
+        "pasal": "Pasal 5",
+        "alasan": "penjelasan pasal (PENJELASAN): 'pembangunan berwawasan Kesehatan' — penjelasan istilah; bukan norma mandiri"
+      },
+      {
+        "pasal": "Pasal 6",
+        "alasan": "penjelasan pasal (PENJELASAN): 'Pemerintah Pusat perlu merencanakan, mengatur, menyelenggarakan' — penjelasan kewenangan pemerintah; bukan norma mandiri"
+      },
+      {
+        "pasal": "Pasal 7",
+        "alasan": "penjelasan pasal (PENJELASAN): 'Cukup jelas.' — bukan norma mandiri"
+      },
+      {
+        "pasal": "Pasal 8",
+        "alasan": "penjelasan pasal (PENJELASAN): 'Cukup jelas.' — bukan norma mandiri"
+      },
+      {
+        "pasal": "Pasal 9",
+        "alasan": "penjelasan pasal (PENJELASAN): 'Cukup jelas.' — bukan norma mandiri"
+      },
+      {
+        "pasal": "Pasal 10",
+        "alasan": "penjelasan pasal (PENJELASAN): 'diperlukan ketersediaan Sumber Daya Kesehatan' — penjelasan kebijakan; bukan norma mandiri"
+      },
+      {
+        "pasal": "Pasal 11",
+        "alasan": "penjelasan pasal (PENJELASAN): 'Ketersediaan dan akses terhadap Fasilitas Pelayanan Kesehatan' — penjelasan kebijakan; bukan norma mandiri"
+      },
+      {
+        "pasal": "Pasal 12",
+        "alasan": "penjelasan pasal (PENJELASAN): 'Cukup jelas.' — bukan norma mandiri"
+      },
+      {
+        "pasal": "Pasal 13",
+        "alasan": "penjelasan pasal (PENJELASAN): 'Cukup jelas.' — bukan norma mandiri"
+      },
+      {
+        "pasal": "Pasal 14",
+        "alasan": "penjelasan pasal (PENJELASAN): 'Cukup jelas.' — bukan norma mandiri"
+      },
+      {
+        "pasal": "Pasal 15",
+        "alasan": "penjelasan pasal (PENJELASAN): 'Cukup jelas.' — bukan norma mandiri"
+      },
+      {
+        "pasal": "Pasal 16",
+        "alasan": "penjelasan pasal (PENJELASAN): 'Cukup jelas.' — bukan norma mandiri"
+      },
+      {
+        "pasal": "Pasal 17",
+        "alasan": "penjelasan pasal (PENJELASAN): 'keadaan Kesehatan yang lebih baik dari sebelumnya' — penjelasan istilah; bukan norma mandiri"
+      },
+      {
+        "pasal": "Pasal 18",
+        "alasan": "penjelasan pasal (PENJELASAN): 'Upaya Kesehatan perseorangan yang bersifat promotif' — penjelasan istilah; bukan norma mandiri"
+      },
+      {
+        "pasal": "Pasal 19",
+        "alasan": "penjelasan pasal (PENJELASAN): 'Cukup jelas.' — bukan norma mandiri"
+      },
+      {
+        "pasal": "Pasal 20",
+        "alasan": "penjelasan pasal (PENJELASAN): 'Sumber daya lain, antara lain, ialah industri bidang Kesehatan' — penjelasan istilah; bukan norma mandiri"
+      },
+      {
+        "pasal": "Pasal 21",
+        "alasan": "penjelasan pasal (PENJELASAN): 'Cukup jelas.' — bukan norma mandiri"
+      },
+      {
+        "pasal": "Pasal 22",
+        "alasan": "penjelasan pasal (PENJELASAN): 'Cukup jelas.' — bukan norma mandiri"
+      },
+      {
+        "pasal": "Pasal 23",
+        "alasan": "penjelasan pasal (PENJELASAN): 'Cukup jelas.' — bukan norma mandiri"
+      },
+      {
+        "pasal": "Pasal 25",
+        "alasan": "penjelasan pasal (PENJELASAN): 'Bentuk Pelayanan Kesehatan melalui Telemedisin' — penjelasan istilah; bukan norma mandiri"
+      },
+      {
+        "pasal": "Pasal 27",
+        "alasan": "penjelasan pasal (PENJELASAN): 'Cukup jelas.' — bukan norma mandiri"
+      },
+      {
+        "pasal": "Pasal 28",
+        "alasan": "penjelasan pasal (PENJELASAN): 'Masyarakat rentan, antara lain, ialah' — penjelasan istilah; bukan norma mandiri"
+      },
+      {
+        "pasal": "Pasal 29",
+        "alasan": "penjelasan pasal (PENJELASAN): 'Masyarakat yang berpartisipasi termasuk swasta.' — penjelasan istilah; bukan norma mandiri"
+      },
+      {
+        "pasal": "Pasal 30",
+        "alasan": "penjelasan pasal (PENJELASAN): 'Cukup jelas.' — bukan norma mandiri"
+      },
+      {
+        "pasal": "Pasal 31",
+        "alasan": "penjelasan pasal (PENJELASAN): 'Yang dimaksud dengan 'kontak pertama'' — penjelasan istilah; bukan norma mandiri"
+      },
+      {
+        "pasal": "Pasal 33",
+        "alasan": "penjelasan pasal (PENJELASAN): 'laboratorium Kesehatan yang disesuaikan dengan perkembangan kebutuhan' — penjelasan istilah; bukan norma mandiri"
+      },
+      {
+        "pasal": "Pasal 34",
+        "alasan": "penjelasan pasal (PENJELASAN): 'Cukup jelas.' — bukan norma mandiri"
+      },
+      {
+        "pasal": "Pasal 35",
+        "alasan": "penjelasan pasal (PENJELASAN): 'pelayanan sosial dasar bidang Kesehatan' — penjelasan istilah; bukan norma mandiri"
+      },
+      {
+        "pasal": "Pasal 36",
+        "alasan": "penjelasan pasal (PENJELASAN): 'Cukup jelas.' — bukan norma mandiri"
+      },
+      {
+        "pasal": "Pasal 37",
+        "alasan": "penjelasan pasal (PENJELASAN): 'Pelayanan Kesehatan lanjutan termasuk pelayanan skrining dan deteksi dini' — penjelasan lingkup layanan; bukan norma mandiri"
+      },
+      {
+        "pasal": "Pasal 38",
+        "alasan": "penjelasan pasal (PENJELASAN): 'Yang dimaksud dengan 'berstandar internasional'' — penjelasan istilah; bukan norma mandiri"
+      },
+      {
+        "pasal": "Pasal 39",
+        "alasan": "penjelasan pasal (PENJELASAN): 'Yang dimaksud dengan 'rujukan secara vertikal'' — penjelasan istilah; bukan norma mandiri"
+      },
+      {
+        "pasal": "Pasal 40",
+        "alasan": "penjelasan pasal (PENJELASAN): 'Cukup jelas.' — bukan norma mandiri"
+      },
+      {
+        "pasal": "Pasal 41",
+        "alasan": "penjelasan pasal (PENJELASAN): 'skrining kesehatan lainnya' — penjelasan istilah; bukan norma mandiri"
+      },
+      {
+        "pasal": "Pasal 42",
+        "alasan": "penjelasan pasal (PENJELASAN): 'Yang dimaksud dengan 'indikasi medis'' — penjelasan istilah; bukan norma mandiri"
+      },
+      {
+        "pasal": "Pasal 43",
+        "alasan": "penjelasan pasal (PENJELASAN): 'Kebijakan, antara lain, berupa pembuatan norma, standar, prosedur, dan kriteria.' — penjelasan istilah; bukan norma mandiri"
+      },
+      {
+        "pasal": "Pasal 44",
+        "alasan": "penjelasan pasal (PENJELASAN): 'Cukup jelas.' — bukan norma mandiri"
+      },
+      {
+        "pasal": "Pasal 45",
+        "alasan": "penjelasan pasal (PENJELASAN): 'Cukup jelas.' — bukan norma mandiri"
+      },
+      {
+        "pasal": "Pasal 46",
+        "alasan": "penjelasan pasal (PENJELASAN): 'Cukup jelas.' — bukan norma mandiri"
+      },
+      {
+        "pasal": "Pasal 47",
+        "alasan": "penjelasan pasal (PENJELASAN): 'Cukup jelas.' — bukan norma mandiri"
+      },
+      {
+        "pasal": "Pasal 48",
+        "alasan": "penjelasan pasal (PENJELASAN): 'Cukup jelas.' — bukan norma mandiri"
+      },
+      {
+        "pasal": "Pasal 49",
+        "alasan": "penjelasan pasal (PENJELASAN): 'Cukup jelas.' — bukan norma mandiri"
+      },
+      {
+        "pasal": "Pasal 50",
+        "alasan": "penjelasan pasal (PENJELASAN): 'Yang dimaksud dengan 'usia remaja'' — penjelasan istilah; bukan norma mandiri"
+      },
+      {
+        "pasal": "Pasal 51",
+        "alasan": "penjelasan pasal (PENJELASAN): 'Cukup jelas.' — bukan norma mandiri"
+      },
+      {
+        "pasal": "Pasal 53",
+        "alasan": "penjelasan pasal (PENJELASAN): 'Upaya Kesehatan penyandang disabilitas' — penjelasan lingkup layanan; bukan norma mandiri"
+      },
+      {
+        "pasal": "Pasal 54",
+        "alasan": "penjelasan pasal (PENJELASAN): 'Cukup jelas.' — bukan norma mandiri"
+      },
+      {
+        "pasal": "Pasal 60",
+        "alasan": "penjelasan pasal (PENJELASAN): 'Cukup jelas.' — bukan norma mandiri"
+      },
+      {
+        "pasal": "Pasal 61",
+        "alasan": "penjelasan pasal (PENJELASAN): 'Cukup jelas.' — bukan norma mandiri"
+      },
+      {
+        "pasal": "Pasal 62",
+        "alasan": "penjelasan pasal (PENJELASAN): 'Cukup jelas.' — bukan norma mandiri"
+      },
+      {
+        "pasal": "Pasal 63",
+        "alasan": "penjelasan pasal (PENJELASAN): 'Pelayanan keluarga berencana, antara lain, berupa konsultasi' — penjelasan lingkup layanan; bukan norma mandiri"
+      },
+      {
+        "pasal": "Pasal 64",
+        "alasan": "penjelasan pasal (PENJELASAN): 'asupan gizi yang sesuai dengan kebutuhan seseorang' — penjelasan istilah 'bergizi seimbang'; bukan norma mandiri"
+      },
+      {
+        "pasal": "Pasal 65",
+        "alasan": "penjelasan pasal (PENJELASAN): 'Cukup jelas.' — bukan norma mandiri"
+      },
+      {
+        "pasal": "Pasal 66",
+        "alasan": "penjelasan pasal (PENJELASAN): 'Cukup jelas.' — bukan norma mandiri"
+      },
+      {
+        "pasal": "Pasal 67",
+        "alasan": "penjelasan pasal (PENJELASAN): 'segala kegiatan yang dilaksanakan untuk mengatasi penyebab langsung maupun tidak langsung' — penjelasan istilah 'intervensi'; bukan norma mandiri"
+      },
+      {
+        "pasal": "Pasal 68",
+        "alasan": "penjelasan pasal (PENJELASAN): 'dapat diperoleh melalui layanan Telekesehatan' — penjelasan kebijakan; bukan norma mandiri"
+      },
+      {
+        "pasal": "Pasal 7O",
+        "alasan": "penjelasan pasal (PENJELASAN): 'Cukup jelas.' — bukan norma mandiri"
+      },
+      {
+        "pasal": "Pasal 71",
+        "alasan": "penjelasan pasal (PENJELASAN): 'kegiatan untuk donor kornea dan operasi katarak' — penjelasan istilah; bukan norma mandiri"
+      },
+      {
+        "pasal": "Pasal 73",
+        "alasan": "penjelasan pasal (PENJELASAN): 'Cukup jelas.' — bukan norma mandiri"
+      },
+      {
+        "pasal": "Pasal 75",
+        "alasan": "penjelasan pasal (PENJELASAN): 'Cukup jelas.' — bukan norma mandiri"
+      },
+      {
+        "pasal": "Pasal 76",
+        "alasan": "penjelasan pasal (PENJELASAN): 'Informasi dan edukasi tentang Kesehatan jiwa ditujukan untuk mencegah' — penjelasan tujuan; bukan norma mandiri"
+      },
+      {
+        "pasal": "Pasal 78",
+        "alasan": "penjelasan pasal (PENJELASAN): 'Cukup jelas.' — bukan norma mandiri"
+      },
+      {
+        "pasal": "Pasal 79",
+        "alasan": "penjelasan pasal (PENJELASAN): 'Cukup jelas.' — bukan norma mandiri"
+      },
+      {
+        "pasal": "Pasal 8O",
+        "alasan": "penjelasan pasal (PENJELASAN): 'Tindakan medis yang ditujukan untuk mengatasi kondisi kedaruratan' — penjelasan istilah; bukan norma mandiri"
+      },
+      {
+        "pasal": "Pasal 81",
+        "alasan": "penjelasan pasal (PENJELASAN): 'Cukup jelas.' — bukan norma mandiri"
+      },
+      {
+        "pasal": "Pasal 82",
+        "alasan": "penjelasan pasal (PENJELASAN): 'Cukup jelas.' — bukan norma mandiri"
+      },
+      {
+        "pasal": "Pasal 83",
+        "alasan": "penjelasan pasal (PENJELASAN): 'Cukup jelas.' — bukan norma mandiri"
+      },
+      {
+        "pasal": "Pasal 84",
+        "alasan": "penjelasan pasal (PENJELASAN): 'Cukup jelas.' — bukan norma mandiri"
+      },
+      {
+        "pasal": "Pasal 85",
+        "alasan": "penjelasan pasal (PENJELASAN): 'Cukup jelas.' — bukan norma mandiri"
+      },
+      {
+        "pasal": "Pasal 86",
+        "alasan": "penjelasan pasal (PENJELASAN): 'Cukup jelas.' — bukan norma mandiri"
+      },
+      {
+        "pasal": "Pasal 87",
+        "alasan": "penjelasan pasal (PENJELASAN): 'Kriteria penetapan program penanggulangan penyakit menular tertentu' — penjelasan kriteria; bukan norma mandiri"
+      },
+      {
+        "pasal": "Pasal 88",
+        "alasan": "penjelasan pasal (PENJELASAN): 'Cukup jelas.' — bukan norma mandiri"
+      },
+      {
+        "pasal": "Pasal 89",
+        "alasan": "penjelasan pasal (PENJELASAN): 'Kegiatan pencegahan, pengendalian, dan pemberantasan penyakit menular' — penjelasan lingkup kegiatan; bukan norma mandiri"
+      },
+      {
+        "pasal": "Pasal 9O",
+        "alasan": "penjelasan pasal (PENJELASAN): 'Perilaku hidup bersih dan sehat bagi penderita penyakit menular' — penjelasan kewajiban; bukan norma mandiri"
+      },
+      {
+        "pasal": "Pasal 91",
+        "alasan": "penjelasan pasal (PENJELASAN): 'Cukup jelas.' — bukan norma mandiri"
+      },
+      {
+        "pasal": "Pasal 92",
+        "alasan": "penjelasan pasal (PENJELASAN): 'Cukup jelas.' — bukan norma mandiri"
+      },
+      {
+        "pasal": "Pasal 93",
+        "alasan": "penjelasan pasal (PENJELASAN): 'Kegiatan pencegahan, pengendalian, dan penanganan penyakit tidak menular' — penjelasan lingkup kegiatan; bukan norma mandiri"
+      },
+      {
+        "pasal": "Pasal 94",
+        "alasan": "penjelasan pasal (PENJELASAN): 'Faktor risiko, antara lain, berupa obesitas' — penjelasan istilah; bukan norma mandiri"
+      },
+      {
+        "pasal": "Pasal 95",
+        "alasan": "penjelasan pasal (PENJELASAN): 'Cukup jelas.' — bukan norma mandiri"
+      },
+      {
+        "pasal": "Pasal 96",
+        "alasan": "penjelasan pasal (PENJELASAN): 'Cukup jelas.' — bukan norma mandiri"
+      },
+      {
+        "pasal": "Pasal 97",
+        "alasan": "penjelasan pasal (PENJELASAN): 'Pendidikan Kesehatan meliputi pendidikan intrakurikuler' — penjelasan lingkup; bukan norma mandiri"
+      },
+      {
+        "pasal": "Pasal 98",
+        "alasan": "penjelasan pasal (PENJELASAN): 'Cukup jelas.' — bukan norma mandiri"
+      },
+      {
+        "pasal": "Pasal 99",
+        "alasan": "penjelasan pasal (PENJELASAN): 'dampak yang dapat ditimbulkan oleh proses, peralatan, bahan, atau lingkungan kerja' — penjelasan istilah 'pengaruh buruk'; norma K3 ada di batang tubuh pasal ini; bukan norma mandiri"
+      },
+      {
+        "pasal": "Pasal 100",
+        "alasan": "penjelasan pasal (PENJELASAN): 'Cukup jelas.' — bukan norma mandiri"
+      },
+      {
+        "pasal": "Pasal 101",
+        "alasan": "penjelasan pasal (PENJELASAN): 'Cukup jelas.' — bukan norma mandiri"
+      },
+      {
+        "pasal": "Pasal 103",
+        "alasan": "penjelasan pasal (PENJELASAN): 'Cukup jelas.' — bukan norma mandiri"
+      },
+      {
+        "pasal": "Pasal 104",
+        "alasan": "penjelasan pasal (PENJELASAN): 'Cukup jelas.' — bukan norma mandiri"
+      },
+      {
+        "pasal": "Pasal 105",
+        "alasan": "penjelasan pasal (PENJELASAN): 'lingkungan yang tidak mempunyai risiko buruk bagi Kesehatan' — penjelasan istilah; bukan norma mandiri"
+      },
+      {
+        "pasal": "Pasal 106",
+        "alasan": "penjelasan pasal (PENJELASAN): 'Cukup jelas.' — bukan norma mandiri"
+      },
+      {
+        "pasal": "Pasal 107",
+        "alasan": "penjelasan pasal (PENJELASAN): 'Cukup jelas.' — bukan norma mandiri"
+      },
+      {
+        "pasal": "Pasal 108",
+        "alasan": "penjelasan pasal (PENJELASAN): 'Kesehatan matra dalam bentuk khusus' — penjelasan istilah; bukan norma mandiri"
+      },
+      {
+        "pasal": "Pasal 110",
+        "alasan": "penjelasan pasal (PENJELASAN): 'Cukup jelas.' — bukan norma mandiri"
+      },
+      {
+        "pasal": "Pasal 111",
+        "alasan": "penjelasan pasal (PENJELASAN): 'Cukup jelas.' — bukan norma mandiri"
+      },
+      {
+        "pasal": "Pasal 112",
+        "alasan": "penjelasan pasal (PENJELASAN): 'Cukup jelas.' — bukan norma mandiri"
+      },
+      {
+        "pasal": "Pasal 113",
+        "alasan": "penjelasan pasal (PENJELASAN): 'Cukup jelas.' — bukan norma mandiri"
+      },
+      {
+        "pasal": "Pasal 114",
+        "alasan": "penjelasan pasal (PENJELASAN): 'Cukup jelas.' — bukan norma mandiri"
+      },
+      {
+        "pasal": "Pasal 115",
+        "alasan": "penjelasan pasal (PENJELASAN): 'Cukup jelas.' — bukan norma mandiri"
+      },
+      {
+        "pasal": "Pasal 116",
+        "alasan": "penjelasan pasal (PENJELASAN): 'Cukup jelas.' — bukan norma mandiri"
+      },
+      {
+        "pasal": "Pasal 117",
+        "alasan": "penjelasan pasal (PENJELASAN): 'Cukup jelas.' — bukan norma mandiri"
+      },
+      {
+        "pasal": "Pasal 118",
+        "alasan": "penjelasan pasal (PENJELASAN): 'Cukup jelas.' — bukan norma mandiri"
+      },
+      {
+        "pasal": "Pasal 119",
+        "alasan": "penjelasan pasal (PENJELASAN): 'Cukup jelas.' — bukan norma mandiri"
+      },
+      {
+        "pasal": "Pasal 120",
+        "alasan": "penjelasan pasal (PENJELASAN): 'pemilahan plasma menjadi fraksi protein individual' — penjelasan istilah; bukan norma mandiri"
+      },
+      {
+        "pasal": "Pasal 121",
+        "alasan": "penjelasan pasal (PENJELASAN): 'Cukup jelas.' — bukan norma mandiri"
+      },
+      {
+        "pasal": "Pasal 122",
+        "alasan": "penjelasan pasal (PENJELASAN): 'Cukup jelas.' — bukan norma mandiri"
+      },
+      {
+        "pasal": "Pasal 123",
+        "alasan": "penjelasan pasal (PENJELASAN): 'Cukup jelas.' — bukan norma mandiri"
+      },
+      {
+        "pasal": "Pasal 124",
+        "alasan": "penjelasan pasal (PENJELASAN): 'pemindahan organ dan/atau jaringan tubuh dari donor ke resipien' — penjelasan istilah; bukan norma mandiri"
+      },
+      {
+        "pasal": "Pasal 125",
+        "alasan": "penjelasan pasal (PENJELASAN): 'Cukup jelas.' — bukan norma mandiri"
+      },
+      {
+        "pasal": "Pasal 126",
+        "alasan": "penjelasan pasal (PENJELASAN): 'Cukup jelas.' — bukan norma mandiri"
+      },
+      {
+        "pasal": "Pasal 128",
+        "alasan": "penjelasan pasal (PENJELASAN): 'Cukup jelas.' — bukan norma mandiri"
+      },
+      {
+        "pasal": "Pasal 129",
+        "alasan": "penjelasan pasal (PENJELASAN): 'Cukup jelas.' — bukan norma mandiri"
+      },
+      {
+        "pasal": "Pasal 130",
+        "alasan": "penjelasan pasal (PENJELASAN): 'Cukup jelas.' — bukan norma mandiri"
+      },
+      {
+        "pasal": "Pasal 131",
+        "alasan": "penjelasan pasal (PENJELASAN): 'Cukup jelas.' — bukan norma mandiri"
+      },
+      {
+        "pasal": "Pasal 132",
+        "alasan": "penjelasan pasal (PENJELASAN): 'Cukup jelas.' — bukan norma mandiri"
+      },
+      {
+        "pasal": "Pasal 133",
+        "alasan": "penjelasan pasal (PENJELASAN): 'Penghargaan diberikan karena donor transplantasi organ' — penjelasan tujuan; bukan norma mandiri"
+      },
+      {
+        "pasal": "Pasal 134",
+        "alasan": "penjelasan pasal (PENJELASAN): 'Cukup jelas.' — bukan norma mandiri"
+      },
+      {
+        "pasal": "Pasal 136",
+        "alasan": "penjelasan pasal (PENJELASAN): 'sel dalam tubuh manusia dengan kemampuan istimewa' — penjelasan istilah 'sel punca'; bukan norma mandiri"
+      },
+      {
+        "pasal": "Pasal 137",
+        "alasan": "penjelasan pasal (PENJELASAN): 'Mengubah identitas, antara lain, ialah mengubah wajah, jenis kelamin' — penjelasan istilah; bukan norma mandiri"
+      },
+      {
+        "pasal": "Pasal 138",
+        "alasan": "penjelasan pasal (PENJELASAN): 'Cukup jelas.' — bukan norma mandiri"
+      },
+      {
+        "pasal": "Pasal 139",
+        "alasan": "penjelasan pasal (PENJELASAN): 'Cukup jelas.' — bukan norma mandiri"
+      },
+      {
+        "pasal": "Pasal 140",
+        "alasan": "penjelasan pasal (PENJELASAN): 'Cukup jelas.' — bukan norma mandiri"
+      },
+      {
+        "pasal": "Pasal 141",
+        "alasan": "penjelasan pasal (PENJELASAN): 'Cukup jelas.' — bukan norma mandiri"
+      },
+      {
+        "pasal": "Pasal 142",
+        "alasan": "penjelasan pasal (PENJELASAN): 'farmakope lain yang berlaku secara internasional' — penjelasan istilah; bukan norma mandiri"
+      },
+      {
+        "pasal": "Pasal 143",
+        "alasan": "penjelasan pasal (PENJELASAN): 'Cukup jelas.' — bukan norma mandiri"
+      },
+      {
+        "pasal": "Pasal 144",
+        "alasan": "penjelasan pasal (PENJELASAN): 'Cukup jelas.' — bukan norma mandiri"
+      },
+      {
+        "pasal": "Pasal 145",
+        "alasan": "penjelasan pasal (PENJELASAN): 'tidak ada tenaga kefarmasian, kebutuhan program pemerintah' — penjelasan istilah 'kondisi tertentu'; bukan norma mandiri"
+      },
+      {
+        "pasal": "Pasal 146",
+        "alasan": "penjelasan pasal (PENJELASAN): 'pangan olahan sesuai dengan ketentuan peraturan perundangundangan' — penjelasan istilah; bukan norma mandiri"
+      },
+      {
+        "pasal": "Pasal 147",
+        "alasan": "penjelasan pasal (PENJELASAN): 'informasi atau pernyataan yang tidak sesuai yang dicantumkan pada label' — penjelasan istilah; bukan norma mandiri"
+      },
+      {
+        "pasal": "Pasal 148",
+        "alasan": "penjelasan pasal (PENJELASAN): 'Cukup jelas.' — bukan norma mandiri"
+      },
+      {
+        "pasal": "Pasal 149",
+        "alasan": "penjelasan pasal (PENJELASAN): 'produk yang mengandung tembakau atau tidak mengandung tembakau' — penjelasan istilah 'zat adiktif'; bukan norma mandiri"
+      },
+      {
+        "pasal": "Pasal 150",
+        "alasan": "penjelasan pasal (PENJELASAN): 'Cukup jelas.' — bukan norma mandiri"
+      },
+      {
+        "pasal": "Pasal 151",
+        "alasan": "penjelasan pasal (PENJELASAN): 'mempertimbangkan seluruh aspek secara holistik' — penjelasan kewenangan daerah; bukan norma mandiri"
+      },
+      {
+        "pasal": "Pasal 152",
+        "alasan": "penjelasan pasal (PENJELASAN): 'Cukup jelas.' — bukan norma mandiri"
+      },
+      {
+        "pasal": "Pasal 153",
+        "alasan": "penjelasan pasal (PENJELASAN): 'Cukup jelas.' — bukan norma mandiri"
+      },
+      {
+        "pasal": "Pasal 154",
+        "alasan": "penjelasan pasal (PENJELASAN): 'Cukup jelas.' — bukan norma mandiri"
+      },
+      {
+        "pasal": "Pasal 155",
+        "alasan": "penjelasan pasal (PENJELASAN): 'Cukup jelas.' — bukan norma mandiri"
+      },
+      {
+        "pasal": "Pasal 156",
+        "alasan": "penjelasan pasal (PENJELASAN): 'Pelayanan kedokteran untuk kepentingan hukum terhadap orang hidup' — penjelasan lingkup layanan; bukan norma mandiri"
+      },
+      {
+        "pasal": "Pasal 157",
+        "alasan": "penjelasan pasal (PENJELASAN): 'penelusuran sebab kematian dan penentuan faktor yang berkontribusi' — penjelasan istilah 'audit kematian'; bukan norma mandiri"
+      },
+      {
+        "pasal": "Pasal 158",
+        "alasan": "penjelasan pasal (PENJELASAN): 'Cukup jelas.' — bukan norma mandiri"
+      },
+      {
+        "pasal": "Pasal 159",
+        "alasan": "penjelasan pasal (PENJELASAN): 'Cukup jelas.' — bukan norma mandiri"
+      },
+      {
+        "pasal": "Pasal 160",
+        "alasan": "penjelasan pasal (PENJELASAN): 'Cukup jelas.' — bukan norma mandiri"
+      },
+      {
+        "pasal": "Pasal 161",
+        "alasan": "penjelasan pasal (PENJELASAN): 'Cukup jelas.' — bukan norma mandiri"
+      },
+      {
+        "pasal": "Pasal 162",
+        "alasan": "penjelasan pasal (PENJELASAN): 'Cukup jelas.' — bukan norma mandiri"
+      },
+      {
+        "pasal": "Pasal 163",
+        "alasan": "penjelasan pasal (PENJELASAN): 'Cukup jelas.' — bukan norma mandiri"
+      },
+      {
+        "pasal": "Pasal 164",
+        "alasan": "penjelasan pasal (PENJELASAN): 'Cukup jelas.' — bukan norma mandiri"
+      },
+      {
+        "pasal": "Pasal 168",
+        "alasan": "penjelasan pasal (PENJELASAN): 'Cukup jelas.' — bukan norma mandiri"
+      },
+      {
+        "pasal": "Pasal 169",
+        "alasan": "penjelasan pasal (PENJELASAN): 'Cukup jelas.' — bukan norma mandiri"
+      },
+      {
+        "pasal": "Pasal 170",
+        "alasan": "penjelasan pasal (PENJELASAN): 'laboratorium Kesehatan, apotek, laboratorium pengolahan sel' — penjelasan lingkup; bukan norma mandiri"
+      },
+      {
+        "pasal": "Pasal 171",
+        "alasan": "penjelasan pasal (PENJELASAN): 'Cukup jelas.' — bukan norma mandiri"
+      },
+      {
+        "pasal": "Pasal 173",
+        "alasan": "penjelasan pasal (PENJELASAN): 'Cukup jelas.' — bukan norma mandiri"
+      },
+      {
+        "pasal": "Pasal 174",
+        "alasan": "penjelasan pasal (PENJELASAN): 'Cukup jelas.' — bukan norma mandiri"
+      },
+      {
+        "pasal": "Pasal 176",
+        "alasan": "penjelasan pasal (PENJELASAN): 'Cukup jelas.' — bukan norma mandiri"
+      },
+      {
+        "pasal": "Pasal 177",
+        "alasan": "penjelasan pasal (PENJELASAN): 'segala sesuatu yang berhubungan dengan hal yang ditemukan oleh Tenaga Medis' — penjelasan istilah 'rahasia Kesehatan pribadi'; bukan norma mandiri"
+      },
+      {
+        "pasal": "Pasal 178",
+        "alasan": "penjelasan pasal (PENJELASAN): 'Cukup jelas.' — bukan norma mandiri"
+      },
+      {
+        "pasal": "Pasal 179",
+        "alasan": "penjelasan pasal (PENJELASAN): 'pengampuan yang dilakukan oleh Fasilitas Pelayanan Kesehatan dengan kompetensi lebih tinggi' — penjelasan istilah; bukan norma mandiri"
+      },
+      {
+        "pasal": "Pasal 180",
+        "alasan": "penjelasan pasal (PENJELASAN): 'memiliki kesadaran, kemauan, dan kemampuan hidup sehat' — penjelasan istilah 'berperilaku hidup sehat'; bukan norma mandiri"
+      },
+      {
+        "pasal": "Pasal 181",
+        "alasan": "penjelasan pasal (PENJELASAN): 'Cukup jelas.' — bukan norma mandiri"
+      },
+      {
+        "pasal": "Pasal 182",
+        "alasan": "penjelasan pasal (PENJELASAN): 'Cukup jelas.' — bukan norma mandiri"
+      },
+      {
+        "pasal": "Pasal 183",
+        "alasan": "penjelasan pasal (PENJELASAN): 'Cukup jelas.' — bukan norma mandiri"
+      },
+      {
+        "pasal": "Pasal 184",
+        "alasan": "penjelasan pasal (PENJELASAN): 'penerapan fungsi manajemen Rumah Sakit' — penjelasan istilah 'tata kelola'; bukan norma mandiri"
+      },
+      {
+        "pasal": "Pasal 185",
+        "alasan": "penjelasan pasal (PENJELASAN): 'bidang yang memberikan Pelayanan Kesehatan langsung kepada masyarakat' — penjelasan istilah; bukan norma mandiri"
+      },
+      {
+        "pasal": "Pasal 186",
+        "alasan": "penjelasan pasal (PENJELASAN): 'Cukup jelas.' — bukan norma mandiri"
+      },
+      {
+        "pasal": "Pasal 187",
+        "alasan": "penjelasan pasal (PENJELASAN): 'Rumah Sakit pendidikan sebagai penyelenggara utama diutamakan Rumah Sakit pemerintah' — penjelasan kebijakan; bukan norma mandiri"
+      },
+      {
+        "pasal": "Pasal 188",
+        "alasan": "penjelasan pasal (PENJELASAN): 'pelayanan yang dilakukan terhadap Pasien sebagai subjek penelitian' — penjelasan istilah; bukan norma mandiri"
+      },
+      {
+        "pasal": "Pasal 189",
+        "alasan": "penjelasan pasal (PENJELASAN): 'semua standar pelayanan yang berlaku di Rumah Sakit' — penjelasan istilah; bukan norma mandiri"
+      },
+      {
+        "pasal": "Pasal 190",
+        "alasan": "penjelasan pasal (PENJELASAN): 'Cukup jelas.' — bukan norma mandiri"
+      },
+      {
+        "pasal": "Pasal 191",
+        "alasan": "penjelasan pasal (PENJELASAN): 'Cukup jelas.' — bukan norma mandiri"
+      },
+      {
+        "pasal": "Pasal 192",
+        "alasan": "penjelasan pasal (PENJELASAN): 'Cukup jelas.' — bukan norma mandiri"
+      },
+      {
+        "pasal": "Pasal 193",
+        "alasan": "penjelasan pasal (PENJELASAN): 'Cukup jelas.' — bukan norma mandiri"
+      },
+      {
+        "pasal": "Pasal 194",
+        "alasan": "penjelasan pasal (PENJELASAN): 'Cukup jelas.' — bukan norma mandiri"
+      },
+      {
+        "pasal": "Pasal 195",
+        "alasan": "penjelasan pasal (PENJELASAN): 'Cukup jelas.' — bukan norma mandiri"
+      },
+      {
+        "pasal": "Pasal 196",
+        "alasan": "penjelasan pasal (PENJELASAN): 'Cukup jelas.' — bukan norma mandiri"
+      },
+      {
+        "pasal": "Pasal 197",
+        "alasan": "penjelasan pasal (PENJELASAN): 'Cukup jelas.' — bukan norma mandiri"
+      },
+      {
+        "pasal": "Pasal 198",
+        "alasan": "penjelasan pasal (PENJELASAN): 'Cukup jelas.' — bukan norma mandiri"
+      },
+      {
+        "pasal": "Pasal 199",
+        "alasan": "penjelasan pasal (PENJELASAN): 'Cukup jelas.' — bukan norma mandiri"
+      },
+      {
+        "pasal": "Pasal 204",
+        "alasan": "penjelasan pasal (PENJELASAN): 'Cukup jelas.' — bukan norma mandiri"
+      },
+      {
+        "pasal": "Pasal 206",
+        "alasan": "penjelasan pasal (PENJELASAN): 'Cukup jelas.' — bukan norma mandiri"
+      },
+      {
+        "pasal": "Pasal 208",
+        "alasan": "penjelasan pasal (PENJELASAN): 'Cukup jelas.' — bukan norma mandiri"
+      },
+      {
+        "pasal": "Pasal 209",
+        "alasan": "penjelasan pasal (PENJELASAN): 'Cukup jelas.' — bukan norma mandiri"
+      },
+      {
+        "pasal": "Pasal 214",
+        "alasan": "penjelasan pasal (PENJELASAN): 'Cukup jelas.' — bukan norma mandiri"
+      },
+      {
+        "pasal": "Pasal 218",
+        "alasan": "penjelasan pasal (PENJELASAN): 'Cukup jelas.' — bukan norma mandiri"
+      },
+      {
+        "pasal": "Pasal 219",
+        "alasan": "penjelasan pasal (PENJELASAN): 'Hak memperoleh waktu istirahat yang cukup diperoleh peserta didik' — penjelasan hak peserta didik, bukan norma hubungan kerja; bukan norma mandiri"
+      },
+      {
+        "pasal": "Pasal 22O",
+        "alasan": "penjelasan pasal (PENJELASAN): 'pengukuran pengetahuan, keterampilan, dan perilaku peserta didik' — penjelasan istilah 'uji kompetensi'; bukan norma mandiri"
+      },
+      {
+        "pasal": "Pasal 221",
+        "alasan": "penjelasan pasal (PENJELASAN): 'Cukup jelas.' — bukan norma mandiri"
+      },
+      {
+        "pasal": "Pasal 222",
+        "alasan": "penjelasan pasal (PENJELASAN): 'dosen, instruktur, dan fasilitator yang mempunyai latar belakang pendidikan' — penjelasan istilah; bukan norma mandiri"
+      },
+      {
+        "pasal": "Pasal 223",
+        "alasan": "penjelasan pasal (PENJELASAN): 'Cukup jelas.' — bukan norma mandiri"
+      },
+      {
+        "pasal": "Pasal 224",
+        "alasan": "penjelasan pasal (PENJELASAN): 'Cukup jelas.' — bukan norma mandiri"
+      },
+      {
+        "pasal": "Pasal 225",
+        "alasan": "penjelasan pasal (PENJELASAN): 'Cukup jelas.' — bukan norma mandiri"
+      },
+      {
+        "pasal": "Pasal 226",
+        "alasan": "penjelasan pasal (PENJELASAN): 'Cukup jelas.' — bukan norma mandiri"
+      },
+      {
+        "pasal": "Pasal 227",
+        "alasan": "penjelasan pasal (PENJELASAN): 'distribusi Tenaga Medis dan Tenaga Kesehatan sesuai dengan kebutuhan' — penjelasan istilah; bukan norma mandiri"
+      },
+      {
+        "pasal": "Pasal 228",
+        "alasan": "penjelasan pasal (PENJELASAN): 'Cukup jelas.' — bukan norma mandiri"
+      },
+      {
+        "pasal": "Pasal 229",
+        "alasan": "penjelasan pasal (PENJELASAN): 'Cukup jelas.' — bukan norma mandiri"
+      },
+      {
+        "pasal": "Pasal 230",
+        "alasan": "penjelasan pasal (PENJELASAN): 'Cukup jelas.' — bukan norma mandiri"
+      },
+      {
+        "pasal": "Pasal 231",
+        "alasan": "penjelasan pasal (PENJELASAN): 'mendayagunakan Tenaga Medis dan Tenaga Kesehatan pada daerah yang dibutuhkan' — penjelasan kebijakan penempatan; bukan norma mandiri"
+      },
+      {
+        "pasal": "Pasal 232",
+        "alasan": "penjelasan pasal (PENJELASAN): 'upaya mempertahankan Tenaga Medis dan/atau Tenaga Kesehatan di suatu tempat' — penjelasan istilah 'upaya retensi'; bukan norma mandiri"
+      },
+      {
+        "pasal": "Pasal 233",
+        "alasan": "penjelasan pasal (PENJELASAN): 'Cukup jelas.' — bukan norma mandiri"
+      },
+      {
+        "pasal": "Pasal 234",
+        "alasan": "penjelasan pasal (PENJELASAN): 'Cukup jelas.' — bukan norma mandiri"
+      },
+      {
+        "pasal": "Pasal 235",
+        "alasan": "penjelasan pasal (PENJELASAN): 'daerah yang mengalami kesulitan pemenuhan Tenaga Medis dan Tenaga Kesehatan' — penjelasan istilah 'daerah tidak diminati'; bukan norma mandiri"
+      },
+      {
+        "pasal": "Pasal 236",
+        "alasan": "penjelasan pasal (PENJELASAN): 'Cukup jelas.' — bukan norma mandiri"
+      },
+      {
+        "pasal": "Pasal 238",
+        "alasan": "penjelasan pasal (PENJELASAN): 'Tenaga cadangan Kesehatan berupa non-Tenaga Kesehatan' — penjelasan istilah; bukan norma mandiri"
+      },
+      {
+        "pasal": "Pasal 239",
+        "alasan": "penjelasan pasal (PENJELASAN): 'Cukup jelas.' — bukan norma mandiri"
+      },
+      {
+        "pasal": "Pasal 24O",
+        "alasan": "penjelasan pasal (PENJELASAN): 'Cukup jelas.' — bukan norma mandiri"
+      },
+      {
+        "pasal": "Pasal 24L",
+        "alasan": "penjelasan pasal (PENJELASAN): 'penyesuaian kompetensi dan kemampuan Tenaga Medis dan Tenaga Kesehatan' — penjelasan istilah 'adaptasi'; bukan norma mandiri"
+      },
+      {
+        "pasal": "Pasal 243",
+        "alasan": "penjelasan pasal (PENJELASAN): 'Cukup jelas.' — bukan norma mandiri"
+      },
+      {
+        "pasal": "Pasal 245",
+        "alasan": "penjelasan pasal: cukup jelas, tidak menambah norma"
+      },
+      {
+        "pasal": "Pasal 246",
+        "alasan": "penjelasan pasal: cukup jelas, tidak menambah norma"
+      },
+      {
+        "pasal": "Pasal 247",
+        "alasan": "penjelasan pasal: cukup jelas, tidak menambah norma"
+      },
+      {
+        "pasal": "Pasal 248",
+        "alasan": "penjelasan pasal: cukup jelas, tidak menambah norma"
+      },
+      {
+        "pasal": "Pasal 249",
+        "alasan": "penjelasan pasal: cukup jelas, tidak menambah norma"
+      },
+      {
+        "pasal": "Pasal 251",
+        "alasan": "penjelasan pasal: cukup jelas, tidak menambah norma"
+      },
+      {
+        "pasal": "Pasal 252",
+        "alasan": "penjelasan pasal: cukup jelas, tidak menambah norma"
+      },
+      {
+        "pasal": "Pasal 254",
+        "alasan": "penjelasan pasal: cukup jelas, tidak menambah norma"
+      },
+      {
+        "pasal": "Pasal 255",
+        "alasan": "penjelasan ayat: definisi 'waktu tertentu' paling lama 3 bulan, bukan norma mandiri"
+      },
+      {
+        "pasal": "Pasal 257",
+        "alasan": "penjelasan pasal: cukup jelas, tidak menambah norma"
+      },
+      {
+        "pasal": "Pasal 260",
+        "alasan": "penjelasan pasal: cukup jelas, tidak menambah norma"
+      },
+      {
+        "pasal": "Pasal 261",
+        "alasan": "penjelasan pasal: cukup jelas, tidak menambah norma"
+      },
+      {
+        "pasal": "Pasal 262",
+        "alasan": "penjelasan pasal: cukup jelas, tidak menambah norma"
+      },
+      {
+        "pasal": "Pasal 263",
+        "alasan": "penjelasan ayat: definisi 'Tenaga Medis dan Tenaga Kesehatan tertentu', bukan norma mandiri"
+      },
+      {
+        "pasal": "Pasal 264",
+        "alasan": "penjelasan pasal: cukup jelas, tidak menambah norma"
+      },
+      {
+        "pasal": "Pasal 266",
+        "alasan": "penjelasan pasal: cukup jelas, tidak menambah norma"
+      },
+      {
+        "pasal": "Pasal 267",
+        "alasan": "penjelasan pasal: cukup jelas, tidak menambah norma"
+      },
+      {
+        "pasal": "Pasal 268",
+        "alasan": "penjelasan pasal: cukup jelas, tidak menambah norma"
+      },
+      {
+        "pasal": "Pasal 269",
+        "alasan": "penjelasan pasal: cukup jelas, tidak menambah norma"
+      },
+      {
+        "pasal": "Pasal 270",
+        "alasan": "penjelasan pasal: cukup jelas, tidak menambah norma"
+      },
+      {
+        "pasal": "Pasal 272",
+        "alasan": "penjelasan pasal: cukup jelas, tidak menambah norma"
+      },
+      {
+        "pasal": "Pasal 273",
+        "alasan": "penjelasan pasal: cukup jelas, tidak menambah norma"
+      },
+      {
+        "pasal": "Pasal 274",
+        "alasan": "penjelasan pasal: cukup jelas, tidak menambah norma"
+      },
+      {
+        "pasal": "Pasal 275",
+        "alasan": "penjelasan pasal: cukup jelas, tidak menambah norma"
+      },
+      {
+        "pasal": "Pasal 276",
+        "alasan": "penjelasan ayat: definisi 'yang memadai' (keterangan lengkap dan mudah dipahami), bukan norma mandiri"
+      },
+      {
+        "pasal": "Pasal 277",
+        "alasan": "penjelasan pasal: cukup jelas, tidak menambah norma"
+      },
+      {
+        "pasal": "Pasal 278",
+        "alasan": "penjelasan pasal: cukup jelas, tidak menambah norma"
+      },
+      {
+        "pasal": "Pasal 279",
+        "alasan": "penjelasan pasal: cukup jelas, tidak menambah norma"
+      },
+      {
+        "pasal": "Pasal 28O",
+        "alasan": "penjelasan pasal: cukup jelas, tidak menambah norma"
+      },
+      {
+        "pasal": "Pasal 281",
+        "alasan": "penjelasan pasal: cukup jelas, tidak menambah norma"
+      },
+      {
+        "pasal": "Pasal 282",
+        "alasan": "penjelasan pasal: cukup jelas, tidak menambah norma"
+      },
+      {
+        "pasal": "Pasal 283",
+        "alasan": "penjelasan pasal: cukup jelas, tidak menambah norma"
+      },
+      {
+        "pasal": "Pasal 289",
+        "alasan": "penjelasan pasal: cukup jelas, tidak menambah norma"
+      },
+      {
+        "pasal": "Pasal 29O",
+        "alasan": "penjelasan ayat: definisi pelimpahan secara mandat dan delegatif, bukan norma mandiri"
+      },
+      {
+        "pasal": "Pasal 291",
+        "alasan": "penjelasan pasal: cukup jelas, tidak menambah norma"
+      },
+      {
+        "pasal": "Pasal 292",
+        "alasan": "penjelasan pasal: cukup jelas, tidak menambah norma"
+      },
+      {
+        "pasal": "Pasal 293",
+        "alasan": "penjelasan ayat: definisi pihak yang berhak memberi persetujuan dan keadaan gawat darurat, bukan norma mandiri"
+      },
+      {
+        "pasal": "Pasal 294",
+        "alasan": "penjelasan pasal: cukup jelas, tidak menambah norma"
+      },
+      {
+        "pasal": "Pasal 295",
+        "alasan": "penjelasan pasal: cukup jelas, tidak menambah norma"
+      },
+      {
+        "pasal": "Pasal 296",
+        "alasan": "penjelasan ayat: definisi bentuk tanda tangan, bukan norma mandiri"
+      },
+      {
+        "pasal": "Pasal 298",
+        "alasan": "penjelasan pasal: cukup jelas, tidak menambah norma"
+      },
+      {
+        "pasal": "Pasal 301",
+        "alasan": "penjelasan ayat: definisi 'rahasia Kesehatan', bukan norma mandiri"
+      },
+      {
+        "pasal": "Pasal 302",
+        "alasan": "penjelasan pasal: cukup jelas, tidak menambah norma"
+      },
+      {
+        "pasal": "Pasal 304",
+        "alasan": "penjelasan pasal: cukup jelas, tidak menambah norma"
+      },
+      {
+        "pasal": "Pasal 314",
+        "alasan": "penjelasan ayat: definisi 'fasilitas pengelolaan kefarmasian' dan kebijakan khusus, bukan norma mandiri"
+      },
+      {
+        "pasal": "Pasal 315",
+        "alasan": "penjelasan pasal: cukup jelas, tidak menambah norma"
+      },
+      {
+        "pasal": "Pasal 316",
+        "alasan": "penjelasan pasal: cukup jelas, tidak menambah norma"
+      },
+      {
+        "pasal": "Pasal 317",
+        "alasan": "penjelasan ayat: definisi 'Obat esensial', bukan norma mandiri"
+      },
+      {
+        "pasal": "Pasal 318",
+        "alasan": "penjelasan pasal: cukup jelas, tidak menambah norma"
+      },
+      {
+        "pasal": "Pasal 319",
+        "alasan": "penjelasan ayat: uraian contoh perbekalan kesehatan dan laporan pendistribusian, bukan norma mandiri"
+      },
+      {
+        "pasal": "Pasal 320",
+        "alasan": "penjelasan ayat: definisi 'Obat keras tertentu' dan 'fasilitas lain', bukan norma mandiri"
+      },
+      {
+        "pasal": "Pasal 321",
+        "alasan": "penjelasan ayat: definisi jamu, obat herbal terstandar, dan fitofarmaka, bukan norma mandiri"
+      },
+      {
+        "pasal": "Pasal 322",
+        "alasan": "penjelasan pasal: cukup jelas, tidak menambah norma"
+      },
+      {
+        "pasal": "Pasal 323",
+        "alasan": "penjelasan pasal: cukup jelas, tidak menambah norma"
+      },
+      {
+        "pasal": "Pasal 324",
+        "alasan": "penjelasan pasal: cukup jelas, tidak menambah norma"
+      },
+      {
+        "pasal": "Pasal 328",
+        "alasan": "penjelasan pasal: cukup jelas, tidak menambah norma"
+      },
+      {
+        "pasal": "Pasal 329",
+        "alasan": "penjelasan ayat: definisi 'hilirisasi penelitian nasional', bukan norma mandiri"
+      },
+      {
+        "pasal": "Pasal 330",
+        "alasan": "penjelasan pasal: cukup jelas, tidak menambah norma"
+      },
+      {
+        "pasal": "Pasal 332",
+        "alasan": "penjelasan pasal: cukup jelas, tidak menambah norma"
+      },
+      {
+        "pasal": "Pasal 333",
+        "alasan": "penjelasan pasal: cukup jelas, tidak menambah norma"
+      },
+      {
+        "pasal": "Pasal 334",
+        "alasan": "penjelasan ayat: uraian keterhubungan perangkat lunak dengan Sistem Informasi Kesehatan Nasional, bukan norma mandiri"
+      },
+      {
+        "pasal": "Pasal 335",
+        "alasan": "penjelasan ayat: definisi penelitian, kaidah etik/ilmiah, dan metodologi ilmiah, bukan norma mandiri"
+      },
+      {
+        "pasal": "Pasal 336",
+        "alasan": "penjelasan pasal: cukup jelas, tidak menambah norma"
+      },
+      {
+        "pasal": "Pasal 337",
+        "alasan": "penjelasan ayat: uraian bentuk penetapan kebijakan (pendaftaran, pengujian, pengawasan), bukan norma mandiri"
+      },
+      {
+        "pasal": "Pasal 338",
+        "alasan": "penjelasan ayat: definisi teknologi biomedis, genomik, transkriptomik, proteomik, dan metabolik, bukan norma mandiri"
+      },
+      {
+        "pasal": "Pasal 339",
+        "alasan": "penjelasan ayat: definisi biobank/biorepositori dan prinsip penyelenggaraannya, bukan norma mandiri"
+      },
+      {
+        "pasal": "Pasal 340",
+        "alasan": "penjelasan ayat: definisi 'tujuan utama penelitian' dan 'perjanjian alih material', bukan norma mandiri"
+      },
+      {
+        "pasal": "Pasal 341",
+        "alasan": "penjelasan ayat: definisi 'tenaga pendukung atau penunjang kesehatan', bukan norma mandiri"
+      },
+      {
+        "pasal": "Pasal 342",
+        "alasan": "penjelasan pasal: cukup jelas, tidak menambah norma"
+      },
+      {
+        "pasal": "Pasal 343",
+        "alasan": "penjelasan pasal: cukup jelas, tidak menambah norma"
+      },
+      {
+        "pasal": "Pasal 344",
+        "alasan": "penjelasan pasal: cukup jelas, tidak menambah norma"
+      },
+      {
+        "pasal": "Pasal 345",
+        "alasan": "penjelasan ayat: definisi 'dukungan' berupa bantuan teknis, bukan norma mandiri"
+      },
+      {
+        "pasal": "Pasal 346",
+        "alasan": "penjelasan ayat: definisi 'arsitektur' dan 'pemrosesan', bukan norma mandiri"
+      },
+      {
+        "pasal": "Pasal 347",
+        "alasan": "penjelasan pasal: cukup jelas, tidak menambah norma"
+      },
+      {
+        "pasal": "Pasal 348",
+        "alasan": "penjelasan ayat: rujukan ketentuan peraturan perundang-undangan tata kelola data, bukan norma mandiri"
+      },
+      {
+        "pasal": "Pasal 349",
+        "alasan": "penjelasan ayat: definisi transfer, 'spesifik dan terbatas', dan pemusnahan, bukan norma mandiri"
+      },
+      {
+        "pasal": "Pasal 350",
+        "alasan": "penjelasan pasal: cukup jelas, tidak menambah norma"
+      },
+      {
+        "pasal": "Pasal 353",
+        "alasan": "penjelasan pasal: cukup jelas, tidak menambah norma"
+      },
+      {
+        "pasal": "Pasal 354",
+        "alasan": "penjelasan pasal: cukup jelas, tidak menambah norma"
+      },
+      {
+        "pasal": "Pasal 355",
+        "alasan": "penjelasan pasal: cukup jelas, tidak menambah norma"
+      },
+      {
+        "pasal": "Pasal 356",
+        "alasan": "penjelasan pasal: cukup jelas, tidak menambah norma"
+      },
+      {
+        "pasal": "Pasal 357",
+        "alasan": "penjelasan pasal: cukup jelas, tidak menambah norma"
+      },
+      {
+        "pasal": "Pasal 358",
+        "alasan": "penjelasan pasal: cukup jelas, tidak menambah norma"
+      },
+      {
+        "pasal": "Pasal 359",
+        "alasan": "penjelasan pasal: definisi 'faktor risiko penyakit yang berpotensi menimbulkan Wabah', bukan norma mandiri"
+      },
+      {
+        "pasal": "Pasal 360",
+        "alasan": "penjelasan ayat: definisi alat angkut, kapal, pesawat udara, kendaraan darat, isolasi, dan karantina, bukan norma mandiri"
+      },
+      {
+        "pasal": "Pasal 361",
+        "alasan": "penjelasan pasal: cukup jelas, tidak menambah norma"
+      },
+      {
+        "pasal": "Pasal 362",
+        "alasan": "penjelasan pasal: cukup jelas, tidak menambah norma"
+      },
+      {
+        "pasal": "Pasal 363",
+        "alasan": "penjelasan ayat: definisi nakhoda, kapten penerbang, dan pos lintas batas negara, bukan norma mandiri"
+      },
+      {
+        "pasal": "Pasal 364",
+        "alasan": "penjelasan pasal: cukup jelas, tidak menambah norma"
+      },
+      {
+        "pasal": "Pasal 365",
+        "alasan": "penjelasan pasal: cukup jelas, tidak menambah norma"
+      },
+      {
+        "pasal": "Pasal 366",
+        "alasan": "penjelasan pasal: cukup jelas, tidak menambah norma"
+      },
+      {
+        "pasal": "Pasal 367",
+        "alasan": "penjelasan pasal: cukup jelas, tidak menambah norma"
+      },
+      {
+        "pasal": "Pasal 368",
+        "alasan": "penjelasan pasal: cukup jelas, tidak menambah norma"
+      },
+      {
+        "pasal": "Pasal 369",
+        "alasan": "penjelasan pasal: cukup jelas, tidak menambah norma"
+      },
+      {
+        "pasal": "Pasal 370",
+        "alasan": "penjelasan pasal: cukup jelas, tidak menambah norma"
+      },
+      {
+        "pasal": "Pasal 371",
+        "alasan": "penjelasan pasal: cukup jelas, tidak menambah norma"
+      },
+      {
+        "pasal": "Pasal 372",
+        "alasan": "penjelasan pasal: cukup jelas, tidak menambah norma"
+      },
+      {
+        "pasal": "Pasal 373",
+        "alasan": "penjelasan pasal: cukup jelas, tidak menambah norma"
+      },
+      {
+        "pasal": "Pasal 377",
+        "alasan": "penjelasan ayat: definisi 'profilaksis' dan 'pembatasan kegiatan sosial kemasyarakatan', bukan norma mandiri"
+      },
+      {
+        "pasal": "Pasal 378",
+        "alasan": "penjelasan pasal: cukup jelas, tidak menambah norma"
+      },
+      {
+        "pasal": "Pasal 380",
+        "alasan": "penjelasan pasal: cukup jelas, tidak menambah norma"
+      },
+      {
+        "pasal": "Pasal 383",
+        "alasan": "penjelasan ayat: uraian contoh limbah medis dan nonmedis, bukan norma mandiri"
+      },
+      {
+        "pasal": "Pasal 384",
+        "alasan": "penjelasan pasal: cukup jelas, tidak menambah norma"
+      },
+      {
+        "pasal": "Pasal 385",
+        "alasan": "penjelasan pasal: cukup jelas, tidak menambah norma"
+      },
+      {
+        "pasal": "Pasal 386",
+        "alasan": "penjelasan pasal: cukup jelas, tidak menambah norma"
+      },
+      {
+        "pasal": "Pasal 387",
+        "alasan": "penjelasan pasal: cukup jelas, tidak menambah norma"
+      },
+      {
+        "pasal": "Pasal 388",
+        "alasan": "penjelasan pasal: cukup jelas, tidak menambah norma"
+      },
+      {
+        "pasal": "Pasal 390",
+        "alasan": "penjelasan pasal: cukup jelas, tidak menambah norma"
+      },
+      {
+        "pasal": "Pasal 396",
+        "alasan": "penjelasan pasal: cukup jelas, tidak menambah norma"
+      },
+      {
+        "pasal": "Pasal 397",
+        "alasan": "penjelasan pasal: cukup jelas, tidak menambah norma"
+      },
+      {
+        "pasal": "Pasal 398",
+        "alasan": "penjelasan pasal: cukup jelas, tidak menambah norma"
+      },
+      {
+        "pasal": "Pasal 399",
+        "alasan": "penjelasan ayat: definisi 'kegiatan menyebarluaskan' dan agen biologi penyebab penyakit, bukan norma mandiri"
+      },
+      {
+        "pasal": "Pasal 400",
+        "alasan": "penjelasan pasal: uraian contoh perbuatan menghalang-halangi penanggulangan KLB/Wabah, bukan norma mandiri"
+      },
+      {
+        "pasal": "Pasal 401",
+        "alasan": "penjelasan pasal: cukup jelas, tidak menambah norma"
+      },
+      {
+        "pasal": "Pasal 402",
+        "alasan": "penjelasan pasal: cukup jelas, tidak menambah norma"
+      },
+      {
+        "pasal": "Pasal 403",
+        "alasan": "penjelasan pasal: cukup jelas, tidak menambah norma"
+      },
+      {
+        "pasal": "Pasal 404",
+        "alasan": "penjelasan pasal: cukup jelas, tidak menambah norma"
+      },
+      {
+        "pasal": "Pasal 406",
+        "alasan": "penjelasan pasal: cukup jelas, tidak menambah norma"
+      },
+      {
+        "pasal": "Pasal 407",
+        "alasan": "penjelasan ayat: uraian bentuk bantuan pendanaan bagi masyarakat terdampak dan Rumah Sakit, bukan norma mandiri"
+      },
+      {
+        "pasal": "Pasal 408",
+        "alasan": "penjelasan pasal: cukup jelas, tidak menambah norma"
+      },
+      {
+        "pasal": "Pasal 409",
+        "alasan": "penjelasan ayat: uraian penetapan rencana induk dan penganggaran berbasis kinerja, bukan norma mandiri"
+      },
+      {
+        "pasal": "Pasal 410",
+        "alasan": "penjelasan pasal: cukup jelas, tidak menambah norma"
+      },
+      {
+        "pasal": "Pasal 411",
+        "alasan": "penjelasan pasal: cukup jelas, tidak menambah norma"
+      },
+      {
+        "pasal": "Pasal 416",
+        "alasan": "penjelasan pasal: cukup jelas, tidak menambah norma"
+      },
+      {
+        "pasal": "Pasal 417",
+        "alasan": "penjelasan ayat: uraian bentuk partisipasi masyarakat, bukan norma mandiri"
+      },
+      {
+        "pasal": "Pasal 418",
+        "alasan": "penjelasan pasal: cukup jelas, tidak menambah norma"
+      },
+      {
+        "pasal": "Pasal 425",
+        "alasan": "penjelasan pasal: cukup jelas, tidak menambah norma"
+      },
+      {
+        "pasal": "Pasal 426",
+        "alasan": "penjelasan pasal: cukup jelas, tidak menambah norma"
+      },
+      {
+        "pasal": "Pasal 427",
+        "alasan": "penjelasan pasal: cukup jelas, tidak menambah norma"
+      },
+      {
+        "pasal": "Pasal 428",
+        "alasan": "penjelasan pasal: cukup jelas, tidak menambah norma"
+      },
+      {
+        "pasal": "Pasal 434",
+        "alasan": "penjelasan pasal: cukup jelas, tidak menambah norma"
+      },
+      {
+        "pasal": "Pasal 435",
+        "alasan": "penjelasan pasal: cukup jelas, tidak menambah norma"
+      },
+      {
+        "pasal": "Pasal 436",
+        "alasan": "penjelasan pasal: cukup jelas, tidak menambah norma"
+      },
+      {
+        "pasal": "Pasal 437",
+        "alasan": "penjelasan pasal: cukup jelas, tidak menambah norma"
+      },
+      {
+        "pasal": "Pasal 440",
+        "alasan": "penjelasan ayat: kealpaan yang mengakibatkan luka berat termasuk disabilitas seumur hidup, bukan norma mandiri"
+      },
+      {
+        "pasal": "Pasal 441",
+        "alasan": "penjelasan pasal: cukup jelas, tidak menambah norma"
+      },
+      {
+        "pasal": "Pasal 443",
+        "alasan": "penjelasan pasal: cukup jelas, tidak menambah norma"
+      },
+      {
+        "pasal": "Pasal 444",
+        "alasan": "penjelasan pasal: cukup jelas, tidak menambah norma"
+      },
+      {
+        "pasal": "Pasal 445",
+        "alasan": "penjelasan pasal: cukup jelas, tidak menambah norma"
+      },
+      {
+        "pasal": "Pasal 446",
+        "alasan": "penjelasan pasal: cukup jelas, tidak menambah norma"
+      },
+      {
+        "pasal": "Pasal 447",
+        "alasan": "penjelasan pasal: cukup jelas, tidak menambah norma"
+      },
+      {
+        "pasal": "Pasal 449",
+        "alasan": "penjelasan pasal: cukup jelas, tidak menambah norma"
+      },
+      {
+        "pasal": "Pasal 450",
+        "alasan": "penjelasan pasal: cukup jelas, tidak menambah norma"
+      },
+      {
+        "pasal": "Pasal 451",
+        "alasan": "penjelasan pasal: cukup jelas, tidak menambah norma"
+      },
+      {
+        "pasal": "Pasal 452",
+        "alasan": "penjelasan pasal: cukup jelas, tidak menambah norma"
+      },
+      {
+        "pasal": "Pasal 453",
+        "alasan": "penjelasan pasal: cukup jelas, tidak menambah norma"
+      },
+      {
+        "pasal": "Pasal 458",
+        "alasan": "penjelasan pasal: cukup jelas, tidak menambah norma"
+      }
+    ],
+    "catatan": ""
+  },
+  "tidak_termodelkan": [
+    {
+      "pasal": "Pasal 98",
+      "ringkasan": "Pemerintah, pemberi kerja, dan pengelola tempat kerja bertanggung jawab melaksanakan Upaya Kesehatan kerja yang terintegrasi dengan sistem keselamatan dan Kesehatan kerja.",
+      "alasan": "norma K3 relevan, tetapi jenis KetentuanK3 masih kandidat di VOCAB dan belum ada kelas/properti kewajiban K3 di T-Box"
+    },
+    {
+      "pasal": "Pasal 99",
+      "ringkasan": "Pemberi kerja dan pengelola tempat kerja wajib menaati standar Kesehatan kerja, menjamin lingkungan kerja sehat, dan bertanggung jawab atas kecelakaan kerja serta penyakit akibat kerja.",
+      "alasan": "butuh kelas KetentuanK3 dan properti standar Kesehatan kerja/kecelakaan kerja yang belum ada di T-Box"
+    },
+    {
+      "pasal": "Pasal 100",
+      "ringkasan": "Pemberi kerja wajib menjamin Kesehatan pekerja melalui upaya promotif sampai paliatif dan menanggung seluruh biaya pemeliharaan Kesehatan pekerja serta biaya penyakit/cedera akibat kerja.",
+      "alasan": "relevan ketenagakerjaan, tetapi butuh kelas/properti baru (KetentuanK3/biaya Kesehatan pekerja) di luar VOCAB aktif"
+    },
+    {
+      "pasal": "Pasal 273",
+      "ringkasan": "Tenaga Medis dan Tenaga Kesehatan yang menjalankan praktik berhak atas gaji/upah, imbalan jasa, dan tunjangan kinerja yang layak, pelindungan keselamatan dan kesehatan kerja, serta jaminan kesehatan dan jaminan ketenagakerjaan.",
+      "alasan": "butuh kelas/properti baru: hak tenaga kesehatan atas upah, K3, dan jaminan ketenagakerjaan di luar model norma ketenagakerjaan yang ada"
+    },
+    {
+      "pasal": "Pasal 393",
+      "ringkasan": "Tenaga Medis dan Tenaga Kesehatan yang melaksanakan penanggulangan KLB dan Wabah berhak atas pelindungan hukum dan keamanan serta jaminan kesehatan, termasuk pelindungan diri dari risiko penularan.",
+      "alasan": "butuh kelas/properti baru: pelindungan hukum, keamanan, dan jaminan kesehatan tenaga kesehatan saat penugasan KLB/Wabah"
+    },
+    {
+      "pasal": "Pasal 253",
+      "ringkasan": "Pendidikan dan pelatihan bahasa Indonesia bagi Tenaga Medis dan Tenaga Kesehatan warga negara asing agar dapat berkomunikasi dengan Pasien.",
+      "alasan": "Bersinggungan dengan tenaga kerja asing, tetapi objeknya tenaga kesehatan asing dan kewajiban pelatihan bahasa; butuh kelas/properti di luar T-Box ketenagakerjaan."
+    },
+    {
+      "pasal": "Pasal 256",
+      "ringkasan": "Ketentuan peraturan perundang-undangan lain, antara lain di bidang ketenagakerjaan dan keimigrasian.",
+      "alasan": "Hanya rujukan lintas sektor tanpa kondisi/akibat hukum yang dapat dimodelkan."
+    }
+  ]
+}
