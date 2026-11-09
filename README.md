@@ -100,6 +100,22 @@ docker compose up --build
 Catatan: tab **SPARQL** bawaan Protege kadang gagal karena bundle Guava.
 Untuk SPARQL, pakai `rdflib` atau backend Java.
 
+## Kosakata Eksternal
+
+Ontology memakai **alignment** ke kosakata standar (bukan import penuh), agar
+reasoning tetap offline. Deklarasi stub ada di `ontology/core/external.ttl`;
+tidak ada `owl:imports` eksternal.
+
+| Kosakata | Pemetaan |
+| --- | --- |
+| FOAF | `ktn:SubjekHukum ⊑ foaf:Agent`; `ktn:Pekerja`, `ktn:AhliWaris ⊑ foaf:Person`; `ktn:PerusahaanAlihDaya ⊑ foaf:Organization` |
+| ELI | `reg:Peraturan ⊑ eli:LegalResource`; `reg:mengubah ⊑ eli:amends`; `reg:diubahOleh ⊑ eli:amended_by` |
+| Dublin Core | `reg:nomor ⊑ dct:identifier`; `reg:sumberUtama ⊑ dct:source` |
+
+`reg:status`, `reg:jenis`, dan `reg:tahun` sengaja tidak dialignment ke ELI
+karena semantics/range-nya tidak identik (`eli:in_force`, `eli:type_document`,
+`eli:date_document`).
+
 ## Sumber Data
 
 PDF dari JDIH BPK (`peraturan.bpk.go.id`). Daftar dan URL di

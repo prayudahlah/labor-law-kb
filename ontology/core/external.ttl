@@ -1,0 +1,41 @@
+@prefix dct:  <http://purl.org/dc/terms/> .
+@prefix eli:  <http://data.europa.eu/eli/ontology#> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix owl:  <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+<https://example.org/kbr/ketenagakerjaan/external> a owl:Ontology ;
+    dct:title "Deklarasi kosakata eksternal (stub)" ;
+    rdfs:comment "Alignment ke FOAF/ELI/Dublin Core. Hanya deklarasi, tanpa import penuh, agar reasoning tetap offline." .
+
+# ============================================================================
+# FOAF: agen, person, organisasi
+# ============================================================================
+
+foaf:Agent a owl:Class ;
+    rdfs:isDefinedBy <http://xmlns.com/foaf/spec/> .
+
+foaf:Person a owl:Class ;
+    rdfs:isDefinedBy <http://xmlns.com/foaf/spec/> .
+
+foaf:Organization a owl:Class ;
+    rdfs:isDefinedBy <http://xmlns.com/foaf/spec/> .
+
+# ============================================================================
+# ELI: resource hukum dan rantai amandemen
+# ============================================================================
+
+eli:LegalResource a owl:Class ;
+    rdfs:isDefinedBy <http://data.europa.eu/eli/ontology> .
+
+eli:amends a owl:ObjectProperty ;
+    rdfs:isDefinedBy <http://data.europa.eu/eli/ontology> .
+
+eli:amended_by a owl:ObjectProperty ;
+    rdfs:isDefinedBy <http://data.europa.eu/eli/ontology> .
+
+# ============================================================================
+# Dublin Core: identitas
+# ============================================================================
+
+dct:identifier a owl:AnnotationProperty .

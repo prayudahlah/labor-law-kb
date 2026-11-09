@@ -9,6 +9,7 @@
 <https://example.org/kbr/ketenagakerjaan/kb> a owl:Ontology ;
     dct:title "Knowledge Base Hukum Ketenagakerjaan Indonesia" ;
     owl:imports <https://example.org/kbr/ketenagakerjaan> ;
+    owl:imports <https://example.org/kbr/ketenagakerjaan/external> ;
     owl:imports <https://example.org/kbr/ketenagakerjaan/meta/topik> ;
     owl:imports <https://example.org/kbr/ketenagakerjaan/rbox> ;
     owl:imports <https://example.org/kbr/ketenagakerjaan/regulasi/pp-10-2020> ;
