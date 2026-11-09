@@ -1,0 +1,11 @@
+dokumen_id,nama,deskripsi
+DokumenPeraturanPerusahaan,Peraturan Perusahaan,Draf peraturan perusahaan berdasarkan ketentuan waktu kerja lembur cuti upah jaminan sosial PKWT dan PHK
+DokumenPKWT,Perjanjian Kerja Waktu Tertentu,Perjanjian kerja untuk pekerjaan tertentu atau jangka waktu tertentu
+DokumenPKWTT,Perjanjian Kerja Waktu Tidak Tertentu,Perjanjian kerja untuk hubungan kerja tetap
+DokumenPerjanjianAlihDaya,Perjanjian Kerja Sama Alih Daya,Perjanjian antara perusahaan alih daya dan pengguna jasa
+DokumenSuratPerintahLembur,Surat Perintah Lembur,Perintah kerja lembur beserta dasar upah lembur
+DokumenSlipUpah,Slip Upah,Dokumen rincian upah dan potongan yang dibayarkan kepada pekerja
+DokumenSuratPHK,Surat Pemberitahuan PHK,Surat pemberitahuan pemutusan hubungan kerja beserta alasan dan hak pekerja
+DokumenSuratCuti,Surat Keterangan Cuti,Surat permohonan atau keterangan cuti tahunan dan cuti khusus
+DokumenRPTKA,Rencana Penggunaan Tenaga Kerja Asing,Rencana penggunaan tenaga kerja asing beserta jabatan dan jangka waktu
+DokumenPendaftaranJamsos,Dokumen Pendaftaran Jaminan Sosial,Dokumen pendaftaran dan kepesertaan program jaminan sosial ketenagakerjaan

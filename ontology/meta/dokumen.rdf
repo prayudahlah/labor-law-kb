@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- BERKAS DIGENERATE. JANGAN EDIT MANUAL.
+     Sumber   : dokumen.csv
+     Hasilkan : uv run python scripts/build_ontology.py -->
+<rdf:RDF xmlns:brick="https://brickschema.org/schema/Brick#" xmlns:csvw="http://www.w3.org/ns/csvw#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcam="http://purl.org/dc/dcam/" xmlns:dcat="http://www.w3.org/ns/dcat#" xmlns:dcmitype="http://purl.org/dc/dcmitype/" xmlns:dct="http://purl.org/dc/terms/" xmlns:doap="http://usefulinc.com/ns/doap#" xmlns:foaf="http://xmlns.com/foaf/0.1/" xmlns:geo="http://www.opengis.net/ont/geosparql#" xmlns:ktn="https://example.org/kbr/ketenagakerjaan#" xmlns:odrl="http://www.w3.org/ns/odrl/2/" xmlns:org="http://www.w3.org/ns/org#" xmlns:owl="http://www.w3.org/2002/07/owl#" xmlns:prof="http://www.w3.org/ns/dx/prof/" xmlns:prov="http://www.w3.org/ns/prov#" xmlns:qb="http://purl.org/linked-data/cube#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:reg="https://example.org/kbr/regulasi#" xmlns:schema="https://schema.org/" xmlns:sh="http://www.w3.org/ns/shacl#" xmlns:skos="http://www.w3.org/2004/02/skos/core#" xmlns:sosa="http://www.w3.org/ns/sosa/" xmlns:ssn="http://www.w3.org/ns/ssn/" xmlns:time="http://www.w3.org/2006/time#" xmlns:vann="http://purl.org/vocab/vann/" xmlns:void="http://rdfs.org/ns/void#" xmlns:wgs="https://www.w3.org/2003/01/geo/wgs84_pos#" xmlns:xml="http://www.w3.org/XML/1998/namespace" xmlns:xsd="http://www.w3.org/2001/XMLSchema#">
+  <rdf:Description rdf:about="https://example.org/kbr/ketenagakerjaan#DokumenPKWT">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="https://example.org/kbr/ketenagakerjaan#JenisDokumen"/>
+    <rdfs:comment>Perjanjian kerja untuk pekerjaan tertentu atau jangka waktu tertentu</rdfs:comment>
+    <rdfs:label>Perjanjian Kerja Waktu Tertentu</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://example.org/kbr/ketenagakerjaan#DokumenPKWTT">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="https://example.org/kbr/ketenagakerjaan#JenisDokumen"/>
+    <rdfs:comment>Perjanjian kerja untuk hubungan kerja tetap</rdfs:comment>
+    <rdfs:label>Perjanjian Kerja Waktu Tidak Tertentu</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://example.org/kbr/ketenagakerjaan#DokumenPendaftaranJamsos">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="https://example.org/kbr/ketenagakerjaan#JenisDokumen"/>
+    <rdfs:comment>Dokumen pendaftaran dan kepesertaan program jaminan sosial ketenagakerjaan</rdfs:comment>
+    <rdfs:label>Dokumen Pendaftaran Jaminan Sosial</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://example.org/kbr/ketenagakerjaan#DokumenPeraturanPerusahaan">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="https://example.org/kbr/ketenagakerjaan#JenisDokumen"/>
+    <rdfs:comment>Draf peraturan perusahaan berdasarkan ketentuan waktu kerja lembur cuti upah jaminan sosial PKWT dan PHK</rdfs:comment>
+    <rdfs:label>Peraturan Perusahaan</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://example.org/kbr/ketenagakerjaan#DokumenPerjanjianAlihDaya">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="https://example.org/kbr/ketenagakerjaan#JenisDokumen"/>
+    <rdfs:comment>Perjanjian antara perusahaan alih daya dan pengguna jasa</rdfs:comment>
+    <rdfs:label>Perjanjian Kerja Sama Alih Daya</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://example.org/kbr/ketenagakerjaan#DokumenRPTKA">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="https://example.org/kbr/ketenagakerjaan#JenisDokumen"/>
+    <rdfs:comment>Rencana penggunaan tenaga kerja asing beserta jabatan dan jangka waktu</rdfs:comment>
+    <rdfs:label>Rencana Penggunaan Tenaga Kerja Asing</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://example.org/kbr/ketenagakerjaan#DokumenSlipUpah">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="https://example.org/kbr/ketenagakerjaan#JenisDokumen"/>
+    <rdfs:comment>Dokumen rincian upah dan potongan yang dibayarkan kepada pekerja</rdfs:comment>
+    <rdfs:label>Slip Upah</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://example.org/kbr/ketenagakerjaan#DokumenSuratCuti">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="https://example.org/kbr/ketenagakerjaan#JenisDokumen"/>
+    <rdfs:comment>Surat permohonan atau keterangan cuti tahunan dan cuti khusus</rdfs:comment>
+    <rdfs:label>Surat Keterangan Cuti</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://example.org/kbr/ketenagakerjaan#DokumenSuratPHK">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="https://example.org/kbr/ketenagakerjaan#JenisDokumen"/>
+    <rdfs:comment>Surat pemberitahuan pemutusan hubungan kerja beserta alasan dan hak pekerja</rdfs:comment>
+    <rdfs:label>Surat Pemberitahuan PHK</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://example.org/kbr/ketenagakerjaan#DokumenSuratPerintahLembur">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="https://example.org/kbr/ketenagakerjaan#JenisDokumen"/>
+    <rdfs:comment>Perintah kerja lembur beserta dasar upah lembur</rdfs:comment>
+    <rdfs:label>Surat Perintah Lembur</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://example.org/kbr/ketenagakerjaan/meta/dokumen">
+    <dct:title>Jenis dokumen ketenagakerjaan</dct:title>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Ontology"/>
+    <owl:imports rdf:resource="https://example.org/kbr/ketenagakerjaan"/>
+  </rdf:Description>
+</rdf:RDF>

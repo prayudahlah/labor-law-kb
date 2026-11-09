@@ -1,4 +1,5 @@
 @prefix reg:  <https://example.org/kbr/regulasi#> .
+@prefix ktn:  <https://example.org/kbr/ketenagakerjaan#> .
 @prefix dct:  <http://purl.org/dc/terms/> .
 @prefix owl:  <http://www.w3.org/2002/07/owl#> .
 @prefix rdf:  <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
@@ -59,9 +60,19 @@ reg:status a owl:ObjectProperty ;
     rdfs:domain reg:Peraturan ;
     rdfs:range reg:StatusHukum .
 
+reg:menghasilkanDokumen a owl:ObjectProperty ;
+    rdfs:label "menghasilkan dokumen" ;
+    rdfs:comment "Jenis dokumen yang dapat disusun berdasarkan peraturan ini." ;
+    rdfs:domain reg:Peraturan ;
+    rdfs:range ktn:JenisDokumen .
+
 # ============================================================================
 # Annotation property
 # ============================================================================
+
+reg:tautanUnduh a owl:AnnotationProperty ;
+    rdfs:label "tautan unduh" ;
+    rdfs:comment "URL unduhan PDF resmi peraturan, bila tersedia." .
 
 reg:nomor a owl:AnnotationProperty ;
     rdfs:label "nomor" ;

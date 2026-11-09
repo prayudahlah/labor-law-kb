@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- BERKAS DIGENERATE. JANGAN EDIT MANUAL.
+     Sumber   : modul KB (core/meta/regulasi)
+     Hasilkan : uv run python scripts/build_catalog.py -->
+<rdf:RDF xmlns:brick="https://brickschema.org/schema/Brick#" xmlns:csvw="http://www.w3.org/ns/csvw#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcam="http://purl.org/dc/dcam/" xmlns:dcat="http://www.w3.org/ns/dcat#" xmlns:dcmitype="http://purl.org/dc/dcmitype/" xmlns:dct="http://purl.org/dc/terms/" xmlns:doap="http://usefulinc.com/ns/doap#" xmlns:foaf="http://xmlns.com/foaf/0.1/" xmlns:geo="http://www.opengis.net/ont/geosparql#" xmlns:odrl="http://www.w3.org/ns/odrl/2/" xmlns:org="http://www.w3.org/ns/org#" xmlns:owl="http://www.w3.org/2002/07/owl#" xmlns:prof="http://www.w3.org/ns/dx/prof/" xmlns:prov="http://www.w3.org/ns/prov#" xmlns:qb="http://purl.org/linked-data/cube#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:schema="https://schema.org/" xmlns:sh="http://www.w3.org/ns/shacl#" xmlns:skos="http://www.w3.org/2004/02/skos/core#" xmlns:sosa="http://www.w3.org/ns/sosa/" xmlns:ssn="http://www.w3.org/ns/ssn/" xmlns:time="http://www.w3.org/2006/time#" xmlns:vann="http://purl.org/vocab/vann/" xmlns:void="http://rdfs.org/ns/void#" xmlns:wgs="https://www.w3.org/2003/01/geo/wgs84_pos#" xmlns:xml="http://www.w3.org/XML/1998/namespace" xmlns:xsd="http://www.w3.org/2001/XMLSchema#">
+  <rdf:Description rdf:about="https://example.org/kbr/ketenagakerjaan/test">
+    <dct:title>Knowledge Base + Golden Case (uji)</dct:title>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Ontology"/>
+    <owl:imports rdf:resource="https://example.org/kbr/ketenagakerjaan"/>
+    <owl:imports rdf:resource="https://example.org/kbr/ketenagakerjaan/contoh/kasus"/>
+    <owl:imports rdf:resource="https://example.org/kbr/ketenagakerjaan/meta/dokumen"/>
+    <owl:imports rdf:resource="https://example.org/kbr/ketenagakerjaan/meta/topik"/>
+    <owl:imports rdf:resource="https://example.org/kbr/ketenagakerjaan/rbox"/>
+    <owl:imports rdf:resource="https://example.org/kbr/ketenagakerjaan/regulasi/pp-10-2020"/>
+    <owl:imports rdf:resource="https://example.org/kbr/ketenagakerjaan/regulasi/pp-22-2022"/>
+    <owl:imports rdf:resource="https://example.org/kbr/ketenagakerjaan/regulasi/pp-27-2026"/>
+    <owl:imports rdf:resource="https://example.org/kbr/ketenagakerjaan/regulasi/pp-28-2024"/>
+    <owl:imports rdf:resource="https://example.org/kbr/ketenagakerjaan/regulasi/pp-34-2021"/>
+    <owl:imports rdf:resource="https://example.org/kbr/ketenagakerjaan/regulasi/pp-35-2021"/>
+    <owl:imports rdf:resource="https://example.org/kbr/ketenagakerjaan/regulasi/pp-36-2021"/>
+    <owl:imports rdf:resource="https://example.org/kbr/ketenagakerjaan/regulasi/pp-37-2021"/>
+    <owl:imports rdf:resource="https://example.org/kbr/ketenagakerjaan/regulasi/pp-44-2015"/>
+    <owl:imports rdf:resource="https://example.org/kbr/ketenagakerjaan/regulasi/pp-45-2015"/>
+    <owl:imports rdf:resource="https://example.org/kbr/ketenagakerjaan/regulasi/pp-46-2015"/>
+    <owl:imports rdf:resource="https://example.org/kbr/ketenagakerjaan/regulasi/pp-49-2023"/>
+    <owl:imports rdf:resource="https://example.org/kbr/ketenagakerjaan/regulasi/pp-49-2025"/>
+    <owl:imports rdf:resource="https://example.org/kbr/ketenagakerjaan/regulasi/pp-51-2023"/>
+    <owl:imports rdf:resource="https://example.org/kbr/ketenagakerjaan/regulasi/pp-55-2015"/>
+    <owl:imports rdf:resource="https://example.org/kbr/ketenagakerjaan/regulasi/pp-59-2021"/>
+    <owl:imports rdf:resource="https://example.org/kbr/ketenagakerjaan/regulasi/pp-6-2025"/>
+    <owl:imports rdf:resource="https://example.org/kbr/ketenagakerjaan/regulasi/pp-60-2015"/>
+    <owl:imports rdf:resource="https://example.org/kbr/ketenagakerjaan/regulasi/pp-7-2025"/>
+    <owl:imports rdf:resource="https://example.org/kbr/ketenagakerjaan/regulasi/pp-70-2015"/>
+    <owl:imports rdf:resource="https://example.org/kbr/ketenagakerjaan/regulasi/pp-82-2019"/>
+    <owl:imports rdf:resource="https://example.org/kbr/ketenagakerjaan/regulasi/pp-86-2013"/>
+    <owl:imports rdf:resource="https://example.org/kbr/ketenagakerjaan/regulasi/pp-99-2013"/>
+    <owl:imports rdf:resource="https://example.org/kbr/ketenagakerjaan/regulasi/uu-13-2003"/>
+    <owl:imports rdf:resource="https://example.org/kbr/ketenagakerjaan/regulasi/uu-17-2023"/>
+    <owl:imports rdf:resource="https://example.org/kbr/ketenagakerjaan/regulasi/uu-18-2017"/>
+    <owl:imports rdf:resource="https://example.org/kbr/ketenagakerjaan/regulasi/uu-2-2004"/>
+    <owl:imports rdf:resource="https://example.org/kbr/ketenagakerjaan/regulasi/uu-2-2026"/>
+    <owl:imports rdf:resource="https://example.org/kbr/ketenagakerjaan/regulasi/uu-20-2023"/>
+    <owl:imports rdf:resource="https://example.org/kbr/ketenagakerjaan/regulasi/uu-24-2011"/>
+    <owl:imports rdf:resource="https://example.org/kbr/ketenagakerjaan/regulasi/uu-4-2023"/>
+    <owl:imports rdf:resource="https://example.org/kbr/ketenagakerjaan/regulasi/uu-4-2024"/>
+    <owl:imports rdf:resource="https://example.org/kbr/ketenagakerjaan/regulasi/uu-40-2004"/>
+    <owl:imports rdf:resource="https://example.org/kbr/ketenagakerjaan/regulasi/uu-6-2023"/>
+    <owl:imports rdf:resource="https://example.org/kbr/ketenagakerjaan/regulasi/uu-8-2016"/>
+    <owl:imports rdf:resource="https://example.org/kbr/regulasi"/>
+    <owl:imports rdf:resource="https://example.org/kbr/regulasi/vocab"/>
+  </rdf:Description>
+</rdf:RDF>

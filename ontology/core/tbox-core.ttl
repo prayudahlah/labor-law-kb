@@ -196,6 +196,14 @@ ktn:teksAsli a owl:AnnotationProperty ;
     rdfs:label "teks asli" ;
     rdfs:comment "Kutipan singkat dari sumber untuk verifikasi." .
 
+ktn:tautanSumber a owl:AnnotationProperty ;
+    rdfs:label "tautan sumber" ;
+    rdfs:comment "URL halaman resmi peraturan sumber." .
+
+ktn:tautanUnduh a owl:AnnotationProperty ;
+    rdfs:label "tautan unduh" ;
+    rdfs:comment "URL unduhan PDF resmi, bila tersedia." .
+
 dct:source a owl:AnnotationProperty ;
     rdfs:label "sumber" ;
     rdfs:comment "Rujukan ke individu peraturan (reg:Peraturan)." .
@@ -862,3 +870,11 @@ ktn:KetentuanTKA a owl:Class ;
 ktn:Topik a owl:Class ;
     rdfs:label "Topik" ;
     rdfs:comment "Topik hukum untuk pengelompokan norma pada retrieval." .
+
+# ============================================================================
+# Jenis dokumen yang dapat disusun dari KB
+# ============================================================================
+
+ktn:JenisDokumen a owl:Class ;
+    rdfs:label "Jenis Dokumen" ;
+    rdfs:comment "Dokumen ketenagakerjaan yang dapat disusun berdasarkan peraturan dalam KB." .

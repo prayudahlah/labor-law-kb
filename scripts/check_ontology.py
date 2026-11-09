@@ -48,7 +48,12 @@ def ttl_files(termasuk_contoh: bool = False) -> list[Path]:
     files: list[Path] = []
     for sub in subs:
         files += sorted(ONTO_DIR.glob(f"{sub}/*.ttl"))
+        files += sorted(ONTO_DIR.glob(f"{sub}/*.rdf"))
     return files
+
+
+def format_berkas(path: Path) -> str:
+    return "xml" if path.suffix.lower() == ".rdf" else "turtle"
 
 
 def ensure_cache(termasuk_contoh: bool = False) -> tuple[list[Path], bool, Path]:
@@ -59,7 +64,7 @@ def ensure_cache(termasuk_contoh: bool = False) -> tuple[list[Path], bool, Path]
         return files, False, cache
     g = rdflib.Graph()
     for f in files:
-        g.parse(f, format="turtle")
+        g.parse(f, format=format_berkas(f))
     g.remove((None, rdflib.OWL.imports, None))
     cache.parent.mkdir(parents=True, exist_ok=True)
     cache.write_bytes(g.serialize(format="xml").encode("utf-8"))
@@ -86,6 +91,62 @@ def load_reasoned(termasuk_contoh: bool = False):
 def nilai(individu, prop: str, default=None):
     vals = getattr(individu, prop)
     return vals[0] if vals else default
+
+
+def cek_anotasi_kb() -> int:
+    """Audit anotasi sumber dan pemetaan jenis dokumen (rdflib, read-only)."""
+    g = rdflib.Graph()
+    for f in ttl_files(termasuk_contoh=True):
+        g.parse(f, format=format_berkas(f))
+
+    ktn = rdflib.Namespace(KTN)
+    reg = rdflib.Namespace("https://example.org/kbr/regulasi#")
+
+    def ada(subjek, predikat) -> bool:
+        return next(g.triples((subjek, predikat, None)), None) is not None
+
+    gagal = 0
+    tanpa_sumber = [
+        str(s).rsplit("#", 1)[-1]
+        for s in set(g.subjects(rdflib.RDF.type, rdflib.OWL.NamedIndividual))
+        if ada(s, ktn.pasal) and not ada(s, ktn.tautanSumber)
+    ]
+    print(f"[cek] norma/parameter tanpa tautanSumber: {len(tanpa_sumber)}")
+    if tanpa_sumber:
+        gagal += 1
+        print(f"  contoh: {', '.join(tanpa_sumber[:5])}")
+
+    dok_tanpa_label = [
+        str(s).rsplit("#", 1)[-1]
+        for s in set(g.subjects(rdflib.RDF.type, ktn.JenisDokumen))
+        if not ada(s, rdflib.RDFS.label)
+    ]
+    print(f"[cek] jenis dokumen tanpa label: {len(dok_tanpa_label)}")
+    if dok_tanpa_label:
+        gagal += 1
+        print(f"  contoh: {', '.join(dok_tanpa_label[:5])}")
+
+    relasi_rusak = [
+        f"{str(s).rsplit('#', 1)[-1]} -> {str(o).rsplit('#', 1)[-1]}"
+        for s, o in g.subject_objects(reg.menghasilkanDokumen)
+        if (o, rdflib.RDF.type, ktn.JenisDokumen) not in g
+    ]
+    print(f"[cek] relasi dokumen tanpa jenis valid: {len(relasi_rusak)}")
+    if relasi_rusak:
+        gagal += 1
+        print(f"  contoh: {', '.join(relasi_rusak[:5])}")
+
+    peraturan_tanpa_sumber = [
+        str(s).rsplit("#", 1)[-1]
+        for s in set(g.subjects(rdflib.RDF.type, reg.Peraturan))
+        if not ada(s, reg.sumberUtama)
+    ]
+    print(f"[cek] peraturan tanpa sumberUtama: {len(peraturan_tanpa_sumber)}")
+    if peraturan_tanpa_sumber:
+        gagal += 1
+        print(f"  contoh: {', '.join(peraturan_tanpa_sumber[:5])}")
+
+    return gagal
 
 
 def ambil_kategori(kelas_kategori, masa_kerja: int):
@@ -166,7 +227,7 @@ def hitung_upah_cuti_melahirkan(pekerja) -> dict:
 
 def main() -> int:
     load_reasoned(termasuk_contoh=True)
-    gagal = 0
+    gagal = cek_anotasi_kb()
 
     unsat = [c.name for c in default_world.classes() if owlready2.Nothing in c.ancestors()]
     print(f"[cek] kelas unsatisfiable: {unsat if unsat else 'tidak ada'}")

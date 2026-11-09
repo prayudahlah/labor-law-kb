@@ -1,0 +1,156 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- BERKAS DIGENERATE. JANGAN EDIT MANUAL.
+     Sumber   : norma.csv, parameter.csv, kategori.csv, pengali_lembur.csv, program_jamsos.csv
+     Hasilkan : uv run python scripts/build_ontology.py -->
+<rdf:RDF xmlns:brick="https://brickschema.org/schema/Brick#" xmlns:csvw="http://www.w3.org/ns/csvw#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcam="http://purl.org/dc/dcam/" xmlns:dcat="http://www.w3.org/ns/dcat#" xmlns:dcmitype="http://purl.org/dc/dcmitype/" xmlns:dct="http://purl.org/dc/terms/" xmlns:doap="http://usefulinc.com/ns/doap#" xmlns:foaf="http://xmlns.com/foaf/0.1/" xmlns:geo="http://www.opengis.net/ont/geosparql#" xmlns:ktn="https://example.org/kbr/ketenagakerjaan#" xmlns:odrl="http://www.w3.org/ns/odrl/2/" xmlns:org="http://www.w3.org/ns/org#" xmlns:owl="http://www.w3.org/2002/07/owl#" xmlns:prof="http://www.w3.org/ns/dx/prof/" xmlns:prov="http://www.w3.org/ns/prov#" xmlns:qb="http://purl.org/linked-data/cube#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:reg="https://example.org/kbr/regulasi#" xmlns:schema="https://schema.org/" xmlns:sh="http://www.w3.org/ns/shacl#" xmlns:skos="http://www.w3.org/2004/02/skos/core#" xmlns:sosa="http://www.w3.org/ns/sosa/" xmlns:ssn="http://www.w3.org/ns/ssn/" xmlns:time="http://www.w3.org/2006/time#" xmlns:vann="http://purl.org/vocab/vann/" xmlns:void="http://rdfs.org/ns/void#" xmlns:wgs="https://www.w3.org/2003/01/geo/wgs84_pos#" xmlns:xml="http://www.w3.org/XML/1998/namespace" xmlns:xsd="http://www.w3.org/2001/XMLSchema#">
+  <rdf:Description rdf:about="https://example.org/kbr/ketenagakerjaan#KetentuanAksesPenitipanAnak">
+    <dct:source rdf:resource="https://example.org/kbr/regulasi#UU-4-2024"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="https://example.org/kbr/ketenagakerjaan#KetentuanKIA"/>
+    <ktn:berkaitanTopik rdf:resource="https://example.org/kbr/ketenagakerjaan#TopikKIA"/>
+    <ktn:pasal>Pasal 4 ayat (3)e</ktn:pasal>
+    <ktn:tautanSumber rdf:resource="https://peraturan.bpk.go.id/Details/289997/uu-no-4-tahun-2024"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://example.org/kbr/ketenagakerjaan#KetentuanBantuanHukumKIA">
+    <dct:source rdf:resource="https://example.org/kbr/regulasi#UU-4-2024"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="https://example.org/kbr/ketenagakerjaan#KetentuanKIA"/>
+    <ktn:berkaitanTopik rdf:resource="https://example.org/kbr/ketenagakerjaan#TopikKIA"/>
+    <ktn:pasal>Pasal 5 ayat (3)</ktn:pasal>
+    <ktn:tautanSumber rdf:resource="https://peraturan.bpk.go.id/Details/289997/uu-no-4-tahun-2024"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://example.org/kbr/ketenagakerjaan#KetentuanCutiKeguguran">
+    <dct:source rdf:resource="https://example.org/kbr/regulasi#UU-4-2024"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="https://example.org/kbr/ketenagakerjaan#KetentuanKIA"/>
+    <ktn:berkaitanTopik rdf:resource="https://example.org/kbr/ketenagakerjaan#TopikKIA"/>
+    <ktn:cutiKeguguranBulan rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">1.5</ktn:cutiKeguguranBulan>
+    <ktn:pasal>Pasal 4 ayat (3)b</ktn:pasal>
+    <ktn:tautanSumber rdf:resource="https://peraturan.bpk.go.id/Details/289997/uu-no-4-tahun-2024"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://example.org/kbr/ketenagakerjaan#KetentuanCutiMelahirkan">
+    <dct:source rdf:resource="https://example.org/kbr/regulasi#UU-4-2024"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="https://example.org/kbr/ketenagakerjaan#KetentuanKIA"/>
+    <ktn:berkaitanTopik rdf:resource="https://example.org/kbr/ketenagakerjaan#TopikKIA"/>
+    <ktn:cutiMelahirkanBulanMax rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">6</ktn:cutiMelahirkanBulanMax>
+    <ktn:cutiMelahirkanBulanMin rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">3</ktn:cutiMelahirkanBulanMin>
+    <ktn:pasal>Pasal 4 ayat (3)a</ktn:pasal>
+    <ktn:tautanSumber rdf:resource="https://peraturan.bpk.go.id/Details/289997/uu-no-4-tahun-2024"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://example.org/kbr/ketenagakerjaan#KetentuanCutiPendampinganKeguguran">
+    <dct:source rdf:resource="https://example.org/kbr/regulasi#UU-4-2024"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="https://example.org/kbr/ketenagakerjaan#KetentuanKIA"/>
+    <ktn:berkaitanTopik rdf:resource="https://example.org/kbr/ketenagakerjaan#TopikKIA"/>
+    <ktn:cutiPendampinganHari rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2</ktn:cutiPendampinganHari>
+    <ktn:pasal>Pasal 6 ayat (2)b</ktn:pasal>
+    <ktn:tautanSumber rdf:resource="https://peraturan.bpk.go.id/Details/289997/uu-no-4-tahun-2024"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://example.org/kbr/ketenagakerjaan#KetentuanCutiPendampinganSuami">
+    <dct:source rdf:resource="https://example.org/kbr/regulasi#UU-4-2024"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="https://example.org/kbr/ketenagakerjaan#KetentuanKIA"/>
+    <ktn:berkaitanTopik rdf:resource="https://example.org/kbr/ketenagakerjaan#TopikKIA"/>
+    <ktn:cutiPendampinganHari rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2</ktn:cutiPendampinganHari>
+    <ktn:cutiPendampinganTambahanHari rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">3</ktn:cutiPendampinganTambahanHari>
+    <ktn:pasal>Pasal 6 ayat (2)a</ktn:pasal>
+    <ktn:tautanSumber rdf:resource="https://peraturan.bpk.go.id/Details/289997/uu-no-4-tahun-2024"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://example.org/kbr/ketenagakerjaan#KetentuanDukunganTempatKerja">
+    <dct:source rdf:resource="https://example.org/kbr/regulasi#UU-4-2024"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="https://example.org/kbr/ketenagakerjaan#KetentuanKIA"/>
+    <ktn:berkaitanTopik rdf:resource="https://example.org/kbr/ketenagakerjaan#TopikKIA"/>
+    <ktn:pasal>Pasal 30 ayat (3)</ktn:pasal>
+    <ktn:tautanSumber rdf:resource="https://peraturan.bpk.go.id/Details/289997/uu-no-4-tahun-2024"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://example.org/kbr/ketenagakerjaan#KetentuanFasilitasIbuAnak">
+    <dct:source rdf:resource="https://example.org/kbr/regulasi#UU-4-2024"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="https://example.org/kbr/ketenagakerjaan#KetentuanKIA"/>
+    <ktn:berkaitanTopik rdf:resource="https://example.org/kbr/ketenagakerjaan#TopikKIA"/>
+    <ktn:pasal>Pasal 30 ayat (1)</ktn:pasal>
+    <ktn:tautanSumber rdf:resource="https://peraturan.bpk.go.id/Details/289997/uu-no-4-tahun-2024"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://example.org/kbr/ketenagakerjaan#KetentuanHakASI">
+    <dct:source rdf:resource="https://example.org/kbr/regulasi#UU-4-2024"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="https://example.org/kbr/ketenagakerjaan#KetentuanKIA"/>
+    <ktn:berkaitanTopik rdf:resource="https://example.org/kbr/ketenagakerjaan#TopikKIA"/>
+    <ktn:pasal>Pasal 4 ayat (2)</ktn:pasal>
+    <ktn:tautanSumber rdf:resource="https://peraturan.bpk.go.id/Details/289997/uu-no-4-tahun-2024"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://example.org/kbr/ketenagakerjaan#KetentuanKewajibanCutiMelahirkan">
+    <dct:source rdf:resource="https://example.org/kbr/regulasi#UU-4-2024"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="https://example.org/kbr/ketenagakerjaan#KetentuanKIA"/>
+    <ktn:berkaitanTopik rdf:resource="https://example.org/kbr/ketenagakerjaan#TopikKIA"/>
+    <ktn:pasal>Pasal 4 ayat (4)</ktn:pasal>
+    <ktn:tautanSumber rdf:resource="https://peraturan.bpk.go.id/Details/289997/uu-no-4-tahun-2024"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://example.org/kbr/ketenagakerjaan#KetentuanKewajibanFasilitasTempatKerja">
+    <dct:source rdf:resource="https://example.org/kbr/regulasi#UU-4-2024"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="https://example.org/kbr/ketenagakerjaan#KetentuanKIA"/>
+    <ktn:berkaitanTopik rdf:resource="https://example.org/kbr/ketenagakerjaan#TopikKIA"/>
+    <ktn:pasal>Pasal 30 ayat (5)</ktn:pasal>
+    <ktn:tautanSumber rdf:resource="https://peraturan.bpk.go.id/Details/289997/uu-no-4-tahun-2024"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://example.org/kbr/ketenagakerjaan#KetentuanLaranganPHKKIA">
+    <dct:source rdf:resource="https://example.org/kbr/regulasi#UU-4-2024"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="https://example.org/kbr/ketenagakerjaan#KetentuanKIA"/>
+    <ktn:berkaitanTopik rdf:resource="https://example.org/kbr/ketenagakerjaan#TopikKIA"/>
+    <ktn:pasal>Pasal 5 ayat (1)</ktn:pasal>
+    <ktn:tautanSumber rdf:resource="https://peraturan.bpk.go.id/Details/289997/uu-no-4-tahun-2024"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://example.org/kbr/ketenagakerjaan#KetentuanMenyusui">
+    <dct:source rdf:resource="https://example.org/kbr/regulasi#UU-4-2024"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="https://example.org/kbr/ketenagakerjaan#KetentuanKIA"/>
+    <ktn:berkaitanTopik rdf:resource="https://example.org/kbr/ketenagakerjaan#TopikKIA"/>
+    <ktn:pasal>Pasal 4 ayat (3)c</ktn:pasal>
+    <ktn:tautanSumber rdf:resource="https://peraturan.bpk.go.id/Details/289997/uu-no-4-tahun-2024"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://example.org/kbr/ketenagakerjaan#KetentuanPenyesuaianKerjaIbu">
+    <dct:source rdf:resource="https://example.org/kbr/regulasi#UU-4-2024"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="https://example.org/kbr/ketenagakerjaan#KetentuanKIA"/>
+    <ktn:berkaitanTopik rdf:resource="https://example.org/kbr/ketenagakerjaan#TopikKIA"/>
+    <ktn:pasal>Pasal 30 ayat (4)</ktn:pasal>
+    <ktn:tautanSumber rdf:resource="https://peraturan.bpk.go.id/Details/289997/uu-no-4-tahun-2024"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://example.org/kbr/ketenagakerjaan#KetentuanUpahCutiMelahirkan">
+    <dct:source rdf:resource="https://example.org/kbr/regulasi#UU-4-2024"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="https://example.org/kbr/ketenagakerjaan#KetentuanKIA"/>
+    <ktn:berkaitanTopik rdf:resource="https://example.org/kbr/ketenagakerjaan#TopikKIA"/>
+    <ktn:bulanUpah75 rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2</ktn:bulanUpah75>
+    <ktn:bulanUpahPenuh rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">4</ktn:bulanUpahPenuh>
+    <ktn:pasal>Pasal 5 ayat (2)</ktn:pasal>
+    <ktn:tautanSumber rdf:resource="https://peraturan.bpk.go.id/Details/289997/uu-no-4-tahun-2024"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://example.org/kbr/ketenagakerjaan#KetentuanWaktuKepentinganAnak">
+    <dct:source rdf:resource="https://example.org/kbr/regulasi#UU-4-2024"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="https://example.org/kbr/ketenagakerjaan#KetentuanKIA"/>
+    <ktn:berkaitanTopik rdf:resource="https://example.org/kbr/ketenagakerjaan#TopikKIA"/>
+    <ktn:pasal>Pasal 4 ayat (3)d</ktn:pasal>
+    <ktn:tautanSumber rdf:resource="https://peraturan.bpk.go.id/Details/289997/uu-no-4-tahun-2024"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://example.org/kbr/ketenagakerjaan#KetentuanWaktuPendampinganTambahan">
+    <dct:source rdf:resource="https://example.org/kbr/regulasi#UU-4-2024"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="https://example.org/kbr/ketenagakerjaan#KetentuanKIA"/>
+    <ktn:berkaitanTopik rdf:resource="https://example.org/kbr/ketenagakerjaan#TopikKIA"/>
+    <ktn:pasal>Pasal 6 ayat (3)</ktn:pasal>
+    <ktn:tautanSumber rdf:resource="https://peraturan.bpk.go.id/Details/289997/uu-no-4-tahun-2024"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://example.org/kbr/ketenagakerjaan/regulasi/uu-4-2024">
+    <dct:source rdf:resource="https://peraturan.bpk.go.id/Details/289997/uu-no-4-tahun-2024"/>
+    <dct:title>Fakta norma: Undang-Undang Nomor 4 Tahun 2024 tentang Kesejahteraan Ibu dan Anak pada Fase Seribu Hari Pertama Kehidupan</dct:title>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Ontology"/>
+    <owl:imports rdf:resource="https://example.org/kbr/ketenagakerjaan"/>
+  </rdf:Description>
+</rdf:RDF>
