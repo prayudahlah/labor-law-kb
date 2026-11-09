@@ -200,7 +200,8 @@ ktn:teksAsli a owl:AnnotationProperty ;
 
 dct:source a owl:AnnotationProperty ;
     rdfs:label "sumber" ;
-    rdfs:comment "Rujukan sumber: individu peraturan (reg:Peraturan) atau URL dokumen." .
+    rdfs:comment "Rujukan sumber: individu peraturan (reg:Peraturan) atau URL dokumen." ;
+    rdfs:isDefinedBy <https://www.dublincore.org/specifications/dublin-core/dcmi-terms/> .
 
 # ============================================================================
 # Defined class: inti reasoning SROIQ(D)

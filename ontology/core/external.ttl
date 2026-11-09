@@ -13,29 +13,33 @@
 # ============================================================================
 
 foaf:Agent a owl:Class ;
-    rdfs:isDefinedBy <http://xmlns.com/foaf/spec/> .
+    rdfs:isDefinedBy <https://xmlns.com/foaf/spec/> .
 
 foaf:Person a owl:Class ;
-    rdfs:isDefinedBy <http://xmlns.com/foaf/spec/> .
+    rdfs:isDefinedBy <https://xmlns.com/foaf/spec/> .
 
 foaf:Organization a owl:Class ;
-    rdfs:isDefinedBy <http://xmlns.com/foaf/spec/> .
+    rdfs:isDefinedBy <https://xmlns.com/foaf/spec/> .
 
 # ============================================================================
 # ELI: resource hukum dan rantai amandemen
 # ============================================================================
 
 eli:LegalResource a owl:Class ;
-    rdfs:isDefinedBy <http://data.europa.eu/eli/ontology> .
+    rdfs:isDefinedBy <https://data.europa.eu/eli/ontology> ;
+    rdfs:seeAlso <https://op.europa.eu/en/web/eu-vocabularies/eli> .
 
 eli:amends a owl:ObjectProperty ;
-    rdfs:isDefinedBy <http://data.europa.eu/eli/ontology> .
+    rdfs:isDefinedBy <https://data.europa.eu/eli/ontology> ;
+    rdfs:seeAlso <https://op.europa.eu/en/web/eu-vocabularies/eli> .
 
 eli:amended_by a owl:ObjectProperty ;
-    rdfs:isDefinedBy <http://data.europa.eu/eli/ontology> .
+    rdfs:isDefinedBy <https://data.europa.eu/eli/ontology> ;
+    rdfs:seeAlso <https://op.europa.eu/en/web/eu-vocabularies/eli> .
 
 # ============================================================================
 # Dublin Core: identitas
 # ============================================================================
 
-dct:identifier a owl:AnnotationProperty .
+dct:identifier a owl:AnnotationProperty ;
+    rdfs:isDefinedBy <https://www.dublincore.org/specifications/dublin-core/dcmi-terms/> .

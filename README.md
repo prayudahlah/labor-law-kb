@@ -104,7 +104,16 @@ Untuk SPARQL, pakai `rdflib` atau backend Java.
 
 Ontology memakai **alignment** ke kosakata standar (bukan import penuh), agar
 reasoning tetap offline. Deklarasi stub ada di `ontology/core/external.ttl`;
-tidak ada `owl:imports` eksternal.
+tidak ada `owl:imports` eksternal. Semua IRI di bawah sudah diverifikasi pada
+**2026-11-09** terhadap dokumen resminya.
+
+| Kosakata | Namespace | Sumber resmi | Term yang dipakai |
+| --- | --- | --- | --- |
+| FOAF | `http://xmlns.com/foaf/0.1/` | https://xmlns.com/foaf/spec/ | `foaf:Agent`, `foaf:Person`, `foaf:Organization` |
+| ELI | `http://data.europa.eu/eli/ontology#` | https://op.europa.eu/en/web/eu-vocabularies/eli | `eli:LegalResource`, `eli:amends`, `eli:amended_by` |
+| Dublin Core Terms | `http://purl.org/dc/terms/` | https://www.dublincore.org/specifications/dublin-core/dcmi-terms/ | `dct:identifier`, `dct:source` |
+
+Pemetaan:
 
 | Kosakata | Pemetaan |
 | --- | --- |
@@ -115,6 +124,12 @@ tidak ada `owl:imports` eksternal.
 `reg:status`, `reg:jenis`, dan `reg:tahun` sengaja tidak dialignment ke ELI
 karena semantics/range-nya tidak identik (`eli:in_force`, `eli:type_document`,
 `eli:date_document`).
+
+Verifikasi ulang:
+
+```bash
+uv run python scripts/check_external_vocab.py --online
+```
 
 ## Sumber Data
 
