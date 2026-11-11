@@ -1,6 +1,7 @@
 @prefix ktn:  <https://example.org/kbr/ketenagakerjaan#> .
 @prefix rbox: <https://example.org/kbr/ketenagakerjaan/rbox> .
 @prefix dct:  <http://purl.org/dc/terms/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
 @prefix owl:  <http://www.w3.org/2002/07/owl#> .
 @prefix rdf:  <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
@@ -16,11 +17,12 @@
 # ============================================================================
 
 ktn:SubjekHukum a owl:Class ;
-    rdfs:label "Subjek Hukum" .
+    rdfs:label "Subjek Hukum" ;
+    rdfs:subClassOf foaf:Agent .
 
 ktn:Pekerja a owl:Class ;
     rdfs:label "Pekerja" ;
-    rdfs:subClassOf ktn:SubjekHukum .
+    rdfs:subClassOf ktn:SubjekHukum , foaf:Person .
 
 ktn:Pengusaha a owl:Class ;
     rdfs:label "Pengusaha" ;
@@ -28,7 +30,7 @@ ktn:Pengusaha a owl:Class ;
 
 ktn:AhliWaris a owl:Class ;
     rdfs:label "Ahli Waris" ;
-    rdfs:subClassOf ktn:SubjekHukum .
+    rdfs:subClassOf ktn:SubjekHukum , foaf:Person .
 
 ktn:Pekerja owl:disjointWith ktn:Pengusaha .
 
@@ -198,7 +200,8 @@ ktn:teksAsli a owl:AnnotationProperty ;
 
 dct:source a owl:AnnotationProperty ;
     rdfs:label "sumber" ;
-    rdfs:comment "Rujukan ke individu peraturan (reg:Peraturan)." .
+    rdfs:comment "Rujukan sumber: individu peraturan (reg:Peraturan) atau URL dokumen." ;
+    rdfs:isDefinedBy <https://www.dublincore.org/specifications/dublin-core/dcmi-terms/> .
 
 # ============================================================================
 # Defined class: inti reasoning SROIQ(D)
@@ -555,7 +558,7 @@ ktn:KetentuanAlihDaya a owl:Class ;
 
 ktn:PerusahaanAlihDaya a owl:Class ;
     rdfs:label "Perusahaan Alih Daya" ;
-    rdfs:subClassOf ktn:Pengusaha .
+    rdfs:subClassOf ktn:Pengusaha , foaf:Organization .
 
 ktn:HakKompensasiPKWT a owl:Class ;
     rdfs:label "Hak Uang Kompensasi PKWT" ;
