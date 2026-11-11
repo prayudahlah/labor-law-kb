@@ -1,35 +1,27 @@
 package ac.id.uns.kbr.kb;
 
-import java.util.ArrayList;
-import java.util.Collections;
-import java.util.Comparator;
 import java.util.HashSet;
 import java.util.List;
 import java.util.Set;
-import java.util.stream.Collectors;
 
 import org.semanticweb.owlapi.model.IRI;
-import org.semanticweb.owlapi.model.OWLAnnotationProperty;
 import org.semanticweb.owlapi.model.OWLClass;
 import org.semanticweb.owlapi.model.OWLNamedIndividual;
-import org.semanticweb.owlapi.model.OWLObjectProperty;
-import org.semanticweb.owlapi.model.OWLOntology;
-import org.semanticweb.owlapi.model.OWLLiteral;
 import org.semanticweb.owlapi.search.EntitySearcher;
 import org.springframework.stereotype.Service;
 
 import ac.id.uns.kbr.api.dto.ButirKetentuan;
+import ac.id.uns.kbr.api.dto.DokumenPreset;
 
 @Service
 public class RetrievalService {
 
-    private static final String OWL_NAMED_INDIVIDUAL =
-            "http://www.w3.org/2002/07/owl#NamedIndividual";
-
     private final OntologyService ontology;
+    private final SparqlService sparql;
 
-    public RetrievalService(OntologyService ontology) {
+    public RetrievalService(OntologyService ontology, SparqlService sparql) {
         this.ontology = ontology;
+        this.sparql = sparql;
     }
 
     public List<String> topikTersedia() {
@@ -54,54 +46,19 @@ public class RetrievalService {
             throw new IllegalArgumentException(
                     "topik tidak dikenal: " + String.join(", ", tidakDikenal));
         }
+        return sparql.cariTopik(topik);
+    }
 
-        Set<IRI> topikIri = topik.stream()
-                .map(item -> IRI.create(OntologyValues.KTN + "Topik" + item))
-                .collect(Collectors.toSet());
-        OWLObjectProperty berkaitan = ontology.manager().getOWLDataFactory()
-                .getOWLObjectProperty(IRI.create(OntologyValues.KTN + "berkaitanTopik"));
-
-        List<ButirKetentuan> hasil = new ArrayList<>();
-        for (OWLOntology o : ontology.modul().toList()) {
-            for (OWLNamedIndividual individu : o.getIndividualsInSignature()) {
-                Set<IRI> kaitan = EntitySearcher.getObjectPropertyValues(individu, berkaitan, o)
-                        .filter(OWLNamedIndividual.class::isInstance)
-                        .map(item -> ((OWLNamedIndividual) item).getIRI())
-                        .collect(Collectors.toSet());
-                if (Collections.disjoint(kaitan, topikIri)) {
-                    continue;
-                }
-
-                OWLAnnotationProperty pasalProp = ontology.manager().getOWLDataFactory()
-                        .getOWLAnnotationProperty(IRI.create(OntologyValues.KTN + "pasal"));
-                String pasal = EntitySearcher.getAnnotations(individu, o, pasalProp)
-                        .map(annotation -> annotation.getValue().asLiteral()
-                                .map(OWLLiteral::getLiteral).orElse(""))
-                        .findFirst()
-                        .orElse("");
-                String topikLabel = topik.stream()
-                        .filter(item -> kaitan.contains(
-                                IRI.create(OntologyValues.KTN + "Topik" + item)))
-                        .findFirst()
-                        .orElse(topik.get(0));
-
-                EntitySearcher.getTypes(individu, o)
-                        .filter(OWLClass.class::isInstance)
-                        .map(OWLClass.class::cast)
-                        .filter(jenis -> !jenis.isOWLThing())
-                        .filter(jenis -> !jenis.getIRI().toString().equals(OWL_NAMED_INDIVIDUAL))
-                        .forEach(jenis -> hasil.add(new ButirKetentuan(
-                                topikLabel,
-                                jenis.getIRI().getFragment(),
-                                pasal,
-                                individu.getIRI().getFragment())));
-            }
+    public List<ButirKetentuan> cariDokumen(String dokumen) {
+        boolean ada = daftarDokumen().stream()
+                .anyMatch(item -> item.id().equals(dokumen));
+        if (!ada) {
+            throw new IllegalArgumentException("dokumen tidak dikenal: " + dokumen);
         }
+        return sparql.cariDokumen(dokumen);
+    }
 
-        return hasil.stream()
-                .distinct()
-                .sorted(Comparator.comparing(ButirKetentuan::topik)
-                        .thenComparing(ButirKetentuan::pasal))
-                .toList();
+    public List<DokumenPreset> daftarDokumen() {
+        return sparql.daftarDokumen();
     }
 }

@@ -1,0 +1,14 @@
+PREFIX ktn:  <https://example.org/kbr/ketenagakerjaan#>
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+PREFIX owl:  <http://www.w3.org/2002/07/owl#>
+
+SELECT DISTINCT ?topik ?jenis ?pasal ?norma ?tautan WHERE {
+  VALUES ?t { __TOPIK__ }
+  ?norma ktn:berkaitanTopik ?t ;
+         ktn:pasal ?pasal ;
+         a ?jenis .
+  OPTIONAL { ?norma ktn:tautanSumber ?tautan }
+  ?t rdfs:label ?topik .
+  FILTER(?jenis != owl:NamedIndividual)
+}
+ORDER BY ?topik ?pasal
