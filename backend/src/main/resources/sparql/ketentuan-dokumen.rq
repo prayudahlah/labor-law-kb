@@ -1,0 +1,17 @@
+PREFIX ktn:  <https://example.org/kbr/ketenagakerjaan#>
+PREFIX reg:  <https://example.org/kbr/regulasi#>
+PREFIX dct:  <http://purl.org/dc/terms/>
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+PREFIX owl:  <http://www.w3.org/2002/07/owl#>
+
+SELECT DISTINCT ?topik ?jenis ?pasal ?norma ?tautan WHERE {
+  ?peraturan reg:menghasilkanDokumen ?dokumen .
+  ?norma dct:source ?peraturan ;
+         ktn:pasal ?pasal ;
+         ktn:berkaitanTopik ?t ;
+         a ?jenis .
+  OPTIONAL { ?norma ktn:tautanSumber ?tautan }
+  ?t rdfs:label ?topik .
+  FILTER(?jenis != owl:NamedIndividual)
+}
+ORDER BY ?topik ?pasal

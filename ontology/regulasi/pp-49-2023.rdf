@@ -100,6 +100,7 @@
     <ktn:tautanSumber rdf:resource="https://peraturan.bpk.go.id/Details/266186/pp-no-49-tahun-2023"/>
   </rdf:Description>
   <rdf:Description rdf:about="https://example.org/kbr/ketenagakerjaan#JKK-49-2023-RISIKO-RENDAH">
+    <dct:source rdf:resource="https://example.org/kbr/regulasi#PP-49-2023"/>
     <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
     <rdf:type rdf:resource="https://example.org/kbr/ketenagakerjaan#ProgramJaminanSosial"/>
     <ktn:jenisProgram>JKK</ktn:jenisProgram>
@@ -111,6 +112,7 @@
     <ktn:tingkatRisiko>rendah</ktn:tingkatRisiko>
   </rdf:Description>
   <rdf:Description rdf:about="https://example.org/kbr/ketenagakerjaan#JKK-49-2023-RISIKO-SANGAT-RENDAH">
+    <dct:source rdf:resource="https://example.org/kbr/regulasi#PP-49-2023"/>
     <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
     <rdf:type rdf:resource="https://example.org/kbr/ketenagakerjaan#ProgramJaminanSosial"/>
     <ktn:jenisProgram>JKK</ktn:jenisProgram>
@@ -122,6 +124,7 @@
     <ktn:tingkatRisiko>sangat_rendah</ktn:tingkatRisiko>
   </rdf:Description>
   <rdf:Description rdf:about="https://example.org/kbr/ketenagakerjaan#JKK-49-2023-RISIKO-SANGAT-TINGGI">
+    <dct:source rdf:resource="https://example.org/kbr/regulasi#PP-49-2023"/>
     <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
     <rdf:type rdf:resource="https://example.org/kbr/ketenagakerjaan#ProgramJaminanSosial"/>
     <ktn:jenisProgram>JKK</ktn:jenisProgram>
@@ -133,6 +136,7 @@
     <ktn:tingkatRisiko>sangat_tinggi</ktn:tingkatRisiko>
   </rdf:Description>
   <rdf:Description rdf:about="https://example.org/kbr/ketenagakerjaan#JKK-49-2023-RISIKO-SEDANG">
+    <dct:source rdf:resource="https://example.org/kbr/regulasi#PP-49-2023"/>
     <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
     <rdf:type rdf:resource="https://example.org/kbr/ketenagakerjaan#ProgramJaminanSosial"/>
     <ktn:jenisProgram>JKK</ktn:jenisProgram>
@@ -144,6 +148,7 @@
     <ktn:tingkatRisiko>sedang</ktn:tingkatRisiko>
   </rdf:Description>
   <rdf:Description rdf:about="https://example.org/kbr/ketenagakerjaan#JKK-49-2023-RISIKO-TINGGI">
+    <dct:source rdf:resource="https://example.org/kbr/regulasi#PP-49-2023"/>
     <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
     <rdf:type rdf:resource="https://example.org/kbr/ketenagakerjaan#ProgramJaminanSosial"/>
     <ktn:jenisProgram>JKK</ktn:jenisProgram>
@@ -155,6 +160,7 @@
     <ktn:tingkatRisiko>tinggi</ktn:tingkatRisiko>
   </rdf:Description>
   <rdf:Description rdf:about="https://example.org/kbr/ketenagakerjaan#JKM-49-2023">
+    <dct:source rdf:resource="https://example.org/kbr/regulasi#PP-49-2023"/>
     <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
     <rdf:type rdf:resource="https://example.org/kbr/ketenagakerjaan#ProgramJaminanSosial"/>
     <ktn:jenisProgram>JKM</ktn:jenisProgram>

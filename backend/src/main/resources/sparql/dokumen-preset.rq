@@ -1,0 +1,9 @@
+PREFIX ktn:  <https://example.org/kbr/ketenagakerjaan#>
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+
+SELECT ?dokumen ?nama ?deskripsi WHERE {
+  ?dokumen a ktn:JenisDokumen ;
+           rdfs:label ?nama .
+  OPTIONAL { ?dokumen rdfs:comment ?deskripsi }
+}
+ORDER BY ?nama

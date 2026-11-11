@@ -1062,6 +1062,7 @@
     <ktn:tautanSumber rdf:resource="https://peraturan.bpk.go.id/Details/43013/uu-no-13-tahun-2003"/>
   </rdf:Description>
   <rdf:Description rdf:about="https://example.org/kbr/ketenagakerjaan#UP-0-12-UU132003">
+    <dct:source rdf:resource="https://example.org/kbr/regulasi#UU-13-2003"/>
     <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
     <rdf:type rdf:resource="https://example.org/kbr/ketenagakerjaan#KategoriUP"/>
     <ktn:maxBulan rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">12</ktn:maxBulan>
@@ -1071,6 +1072,7 @@
     <ktn:upDasarBulan rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</ktn:upDasarBulan>
   </rdf:Description>
   <rdf:Description rdf:about="https://example.org/kbr/ketenagakerjaan#UP-12-24-UU132003">
+    <dct:source rdf:resource="https://example.org/kbr/regulasi#UU-13-2003"/>
     <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
     <rdf:type rdf:resource="https://example.org/kbr/ketenagakerjaan#KategoriUP"/>
     <ktn:maxBulan rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">24</ktn:maxBulan>
@@ -1080,6 +1082,7 @@
     <ktn:upDasarBulan rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2</ktn:upDasarBulan>
   </rdf:Description>
   <rdf:Description rdf:about="https://example.org/kbr/ketenagakerjaan#UP-24-36-UU132003">
+    <dct:source rdf:resource="https://example.org/kbr/regulasi#UU-13-2003"/>
     <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
     <rdf:type rdf:resource="https://example.org/kbr/ketenagakerjaan#KategoriUP"/>
     <ktn:maxBulan rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">36</ktn:maxBulan>
@@ -1089,6 +1092,7 @@
     <ktn:upDasarBulan rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">3</ktn:upDasarBulan>
   </rdf:Description>
   <rdf:Description rdf:about="https://example.org/kbr/ketenagakerjaan#UP-36-48-UU132003">
+    <dct:source rdf:resource="https://example.org/kbr/regulasi#UU-13-2003"/>
     <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
     <rdf:type rdf:resource="https://example.org/kbr/ketenagakerjaan#KategoriUP"/>
     <ktn:maxBulan rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">48</ktn:maxBulan>
@@ -1098,6 +1102,7 @@
     <ktn:upDasarBulan rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">4</ktn:upDasarBulan>
   </rdf:Description>
   <rdf:Description rdf:about="https://example.org/kbr/ketenagakerjaan#UP-48-60-UU132003">
+    <dct:source rdf:resource="https://example.org/kbr/regulasi#UU-13-2003"/>
     <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
     <rdf:type rdf:resource="https://example.org/kbr/ketenagakerjaan#KategoriUP"/>
     <ktn:maxBulan rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">60</ktn:maxBulan>
@@ -1107,6 +1112,7 @@
     <ktn:upDasarBulan rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">5</ktn:upDasarBulan>
   </rdf:Description>
   <rdf:Description rdf:about="https://example.org/kbr/ketenagakerjaan#UP-60-72-UU132003">
+    <dct:source rdf:resource="https://example.org/kbr/regulasi#UU-13-2003"/>
     <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
     <rdf:type rdf:resource="https://example.org/kbr/ketenagakerjaan#KategoriUP"/>
     <ktn:maxBulan rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">72</ktn:maxBulan>
@@ -1116,6 +1122,7 @@
     <ktn:upDasarBulan rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">6</ktn:upDasarBulan>
   </rdf:Description>
   <rdf:Description rdf:about="https://example.org/kbr/ketenagakerjaan#UP-72-84-UU132003">
+    <dct:source rdf:resource="https://example.org/kbr/regulasi#UU-13-2003"/>
     <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
     <rdf:type rdf:resource="https://example.org/kbr/ketenagakerjaan#KategoriUP"/>
     <ktn:maxBulan rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">84</ktn:maxBulan>
@@ -1125,6 +1132,7 @@
     <ktn:upDasarBulan rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">7</ktn:upDasarBulan>
   </rdf:Description>
   <rdf:Description rdf:about="https://example.org/kbr/ketenagakerjaan#UP-84-96-UU132003">
+    <dct:source rdf:resource="https://example.org/kbr/regulasi#UU-13-2003"/>
     <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
     <rdf:type rdf:resource="https://example.org/kbr/ketenagakerjaan#KategoriUP"/>
     <ktn:maxBulan rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">96</ktn:maxBulan>
@@ -1134,6 +1142,7 @@
     <ktn:upDasarBulan rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">8</ktn:upDasarBulan>
   </rdf:Description>
   <rdf:Description rdf:about="https://example.org/kbr/ketenagakerjaan#UP-96-INF-UU132003">
+    <dct:source rdf:resource="https://example.org/kbr/regulasi#UU-13-2003"/>
     <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
     <rdf:type rdf:resource="https://example.org/kbr/ketenagakerjaan#KategoriUP"/>
     <ktn:minBulan rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">96</ktn:minBulan>
@@ -1158,6 +1167,7 @@
     <ktn:tautanSumber rdf:resource="https://peraturan.bpk.go.id/Details/43013/uu-no-13-tahun-2003"/>
   </rdf:Description>
   <rdf:Description rdf:about="https://example.org/kbr/ketenagakerjaan#UPMK-108-144-UU132003">
+    <dct:source rdf:resource="https://example.org/kbr/regulasi#UU-13-2003"/>
     <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
     <rdf:type rdf:resource="https://example.org/kbr/ketenagakerjaan#KategoriUPMK"/>
     <ktn:maxBulan rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">144</ktn:maxBulan>
@@ -1167,6 +1177,7 @@
     <ktn:upmkDasarBulan rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">4</ktn:upmkDasarBulan>
   </rdf:Description>
   <rdf:Description rdf:about="https://example.org/kbr/ketenagakerjaan#UPMK-144-180-UU132003">
+    <dct:source rdf:resource="https://example.org/kbr/regulasi#UU-13-2003"/>
     <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
     <rdf:type rdf:resource="https://example.org/kbr/ketenagakerjaan#KategoriUPMK"/>
     <ktn:maxBulan rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">180</ktn:maxBulan>
@@ -1176,6 +1187,7 @@
     <ktn:upmkDasarBulan rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">5</ktn:upmkDasarBulan>
   </rdf:Description>
   <rdf:Description rdf:about="https://example.org/kbr/ketenagakerjaan#UPMK-180-216-UU132003">
+    <dct:source rdf:resource="https://example.org/kbr/regulasi#UU-13-2003"/>
     <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
     <rdf:type rdf:resource="https://example.org/kbr/ketenagakerjaan#KategoriUPMK"/>
     <ktn:maxBulan rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">216</ktn:maxBulan>
@@ -1185,6 +1197,7 @@
     <ktn:upmkDasarBulan rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">6</ktn:upmkDasarBulan>
   </rdf:Description>
   <rdf:Description rdf:about="https://example.org/kbr/ketenagakerjaan#UPMK-216-252-UU132003">
+    <dct:source rdf:resource="https://example.org/kbr/regulasi#UU-13-2003"/>
     <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
     <rdf:type rdf:resource="https://example.org/kbr/ketenagakerjaan#KategoriUPMK"/>
     <ktn:maxBulan rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">252</ktn:maxBulan>
@@ -1194,6 +1207,7 @@
     <ktn:upmkDasarBulan rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">7</ktn:upmkDasarBulan>
   </rdf:Description>
   <rdf:Description rdf:about="https://example.org/kbr/ketenagakerjaan#UPMK-252-288-UU132003">
+    <dct:source rdf:resource="https://example.org/kbr/regulasi#UU-13-2003"/>
     <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
     <rdf:type rdf:resource="https://example.org/kbr/ketenagakerjaan#KategoriUPMK"/>
     <ktn:maxBulan rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">288</ktn:maxBulan>
@@ -1203,6 +1217,7 @@
     <ktn:upmkDasarBulan rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">8</ktn:upmkDasarBulan>
   </rdf:Description>
   <rdf:Description rdf:about="https://example.org/kbr/ketenagakerjaan#UPMK-288-INF-UU132003">
+    <dct:source rdf:resource="https://example.org/kbr/regulasi#UU-13-2003"/>
     <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
     <rdf:type rdf:resource="https://example.org/kbr/ketenagakerjaan#KategoriUPMK"/>
     <ktn:minBulan rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">288</ktn:minBulan>
@@ -1211,6 +1226,7 @@
     <ktn:upmkDasarBulan rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">10</ktn:upmkDasarBulan>
   </rdf:Description>
   <rdf:Description rdf:about="https://example.org/kbr/ketenagakerjaan#UPMK-36-72-UU132003">
+    <dct:source rdf:resource="https://example.org/kbr/regulasi#UU-13-2003"/>
     <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
     <rdf:type rdf:resource="https://example.org/kbr/ketenagakerjaan#KategoriUPMK"/>
     <ktn:maxBulan rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">72</ktn:maxBulan>
@@ -1220,6 +1236,7 @@
     <ktn:upmkDasarBulan rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2</ktn:upmkDasarBulan>
   </rdf:Description>
   <rdf:Description rdf:about="https://example.org/kbr/ketenagakerjaan#UPMK-72-108-UU132003">
+    <dct:source rdf:resource="https://example.org/kbr/regulasi#UU-13-2003"/>
     <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
     <rdf:type rdf:resource="https://example.org/kbr/ketenagakerjaan#KategoriUPMK"/>
     <ktn:maxBulan rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">108</ktn:maxBulan>

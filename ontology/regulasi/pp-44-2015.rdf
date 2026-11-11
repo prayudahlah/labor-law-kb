@@ -132,6 +132,7 @@
     <ktn:tautanSumber rdf:resource="https://peraturan.bpk.go.id/Details/5612/pp-no-44-tahun-2015"/>
   </rdf:Description>
   <rdf:Description rdf:about="https://example.org/kbr/ketenagakerjaan#JKK-KONSTRUKSI">
+    <dct:source rdf:resource="https://example.org/kbr/regulasi#PP-44-2015"/>
     <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
     <rdf:type rdf:resource="https://example.org/kbr/ketenagakerjaan#ProgramJaminanSosial"/>
     <ktn:jenisProgram>JKK</ktn:jenisProgram>
@@ -142,6 +143,7 @@
     <ktn:tautanSumber rdf:resource="https://peraturan.bpk.go.id/Details/5612/pp-no-44-tahun-2015"/>
   </rdf:Description>
   <rdf:Description rdf:about="https://example.org/kbr/ketenagakerjaan#JKK-RISIKO-RENDAH">
+    <dct:source rdf:resource="https://example.org/kbr/regulasi#PP-44-2015"/>
     <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
     <rdf:type rdf:resource="https://example.org/kbr/ketenagakerjaan#ProgramJaminanSosial"/>
     <ktn:jenisProgram>JKK</ktn:jenisProgram>
@@ -153,6 +155,7 @@
     <ktn:tingkatRisiko>rendah</ktn:tingkatRisiko>
   </rdf:Description>
   <rdf:Description rdf:about="https://example.org/kbr/ketenagakerjaan#JKK-RISIKO-SANGAT-RENDAH">
+    <dct:source rdf:resource="https://example.org/kbr/regulasi#PP-44-2015"/>
     <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
     <rdf:type rdf:resource="https://example.org/kbr/ketenagakerjaan#ProgramJaminanSosial"/>
     <ktn:jenisProgram>JKK</ktn:jenisProgram>
@@ -164,6 +167,7 @@
     <ktn:tingkatRisiko>sangat_rendah</ktn:tingkatRisiko>
   </rdf:Description>
   <rdf:Description rdf:about="https://example.org/kbr/ketenagakerjaan#JKK-RISIKO-SANGAT-TINGGI">
+    <dct:source rdf:resource="https://example.org/kbr/regulasi#PP-44-2015"/>
     <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
     <rdf:type rdf:resource="https://example.org/kbr/ketenagakerjaan#ProgramJaminanSosial"/>
     <ktn:jenisProgram>JKK</ktn:jenisProgram>
@@ -175,6 +179,7 @@
     <ktn:tingkatRisiko>sangat_tinggi</ktn:tingkatRisiko>
   </rdf:Description>
   <rdf:Description rdf:about="https://example.org/kbr/ketenagakerjaan#JKK-RISIKO-SEDANG">
+    <dct:source rdf:resource="https://example.org/kbr/regulasi#PP-44-2015"/>
     <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
     <rdf:type rdf:resource="https://example.org/kbr/ketenagakerjaan#ProgramJaminanSosial"/>
     <ktn:jenisProgram>JKK</ktn:jenisProgram>
@@ -186,6 +191,7 @@
     <ktn:tingkatRisiko>sedang</ktn:tingkatRisiko>
   </rdf:Description>
   <rdf:Description rdf:about="https://example.org/kbr/ketenagakerjaan#JKK-RISIKO-TINGGI">
+    <dct:source rdf:resource="https://example.org/kbr/regulasi#PP-44-2015"/>
     <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
     <rdf:type rdf:resource="https://example.org/kbr/ketenagakerjaan#ProgramJaminanSosial"/>
     <ktn:jenisProgram>JKK</ktn:jenisProgram>
@@ -205,6 +211,7 @@
     <ktn:tautanSumber rdf:resource="https://peraturan.bpk.go.id/Details/5612/pp-no-44-tahun-2015"/>
   </rdf:Description>
   <rdf:Description rdf:about="https://example.org/kbr/ketenagakerjaan#JKM-KONSTRUKSI">
+    <dct:source rdf:resource="https://example.org/kbr/regulasi#PP-44-2015"/>
     <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
     <rdf:type rdf:resource="https://example.org/kbr/ketenagakerjaan#ProgramJaminanSosial"/>
     <ktn:jenisProgram>JKM</ktn:jenisProgram>
@@ -215,6 +222,7 @@
     <ktn:tautanSumber rdf:resource="https://peraturan.bpk.go.id/Details/5612/pp-no-44-tahun-2015"/>
   </rdf:Description>
   <rdf:Description rdf:about="https://example.org/kbr/ketenagakerjaan#JKM-PENERIMA-UPAH">
+    <dct:source rdf:resource="https://example.org/kbr/regulasi#PP-44-2015"/>
     <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
     <rdf:type rdf:resource="https://example.org/kbr/ketenagakerjaan#ProgramJaminanSosial"/>
     <ktn:jenisProgram>JKM</ktn:jenisProgram>

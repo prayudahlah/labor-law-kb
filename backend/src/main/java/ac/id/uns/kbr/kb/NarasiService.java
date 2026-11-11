@@ -74,6 +74,28 @@ public class NarasiService {
                 + ". Daftar ketentuan, bukan nasihat hukum.";
     }
 
+    public String retrievalDokumen(String dokumen, List<ButirKetentuan> butir) {
+        Map<String, Object> payload = new LinkedHashMap<>();
+        payload.put("mode", "retrieval");
+        payload.put("scope", Map.of("dokumen", dokumen));
+        payload.put("butir", butir);
+        payload.put("catatan", "Daftar ketentuan, bukan nasihat hukum.");
+        String llm = llmRapikan(payload);
+        if (llm != null) {
+            return llm;
+        }
+
+        if (butir.isEmpty()) {
+            return "Tidak ada ketentuan ditemukan untuk dokumen " + dokumen + ".";
+        }
+        String contoh = butir.stream().limit(4)
+                .map(ButirKetentuan::pasal)
+                .collect(Collectors.joining("; "));
+        return "Terdapat " + butir.size() + " ketentuan untuk dokumen " + dokumen
+                + ". Contoh dasar: " + contoh
+                + ". Daftar ketentuan, bukan nasihat hukum.";
+    }
+
     private String llmRapikan(Map<String, Object> payload) {
         if (!client.siap() || client.modelNarasi() == null || client.modelNarasi().isBlank()) {
             return null;
