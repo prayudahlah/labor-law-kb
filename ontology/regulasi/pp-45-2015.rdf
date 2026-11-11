@@ -84,6 +84,7 @@
     <ktn:tautanSumber rdf:resource="https://peraturan.bpk.go.id/Details/5613/pp-no-45-tahun-2015"/>
   </rdf:Description>
   <rdf:Description rdf:about="https://example.org/kbr/ketenagakerjaan#JP">
+    <dct:source rdf:resource="https://example.org/kbr/regulasi#PP-45-2015"/>
     <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
     <rdf:type rdf:resource="https://example.org/kbr/ketenagakerjaan#ProgramJaminanSosial"/>
     <ktn:jenisProgram>JP</ktn:jenisProgram>

@@ -20,6 +20,7 @@
     <ktn:tautanSumber rdf:resource="https://peraturan.bpk.go.id/Details/161919/pp-no-37-tahun-2021"/>
   </rdf:Description>
   <rdf:Description rdf:about="https://example.org/kbr/ketenagakerjaan#JKK-R1">
+    <dct:source rdf:resource="https://example.org/kbr/regulasi#PP-37-2021"/>
     <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
     <rdf:type rdf:resource="https://example.org/kbr/ketenagakerjaan#ProgramJaminanSosial"/>
     <ktn:jenisProgram>JKK</ktn:jenisProgram>
@@ -31,6 +32,7 @@
     <ktn:tingkatRisiko>sangat_rendah</ktn:tingkatRisiko>
   </rdf:Description>
   <rdf:Description rdf:about="https://example.org/kbr/ketenagakerjaan#JKK-R2">
+    <dct:source rdf:resource="https://example.org/kbr/regulasi#PP-37-2021"/>
     <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
     <rdf:type rdf:resource="https://example.org/kbr/ketenagakerjaan#ProgramJaminanSosial"/>
     <ktn:jenisProgram>JKK</ktn:jenisProgram>
@@ -42,6 +44,7 @@
     <ktn:tingkatRisiko>rendah</ktn:tingkatRisiko>
   </rdf:Description>
   <rdf:Description rdf:about="https://example.org/kbr/ketenagakerjaan#JKK-R3">
+    <dct:source rdf:resource="https://example.org/kbr/regulasi#PP-37-2021"/>
     <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
     <rdf:type rdf:resource="https://example.org/kbr/ketenagakerjaan#ProgramJaminanSosial"/>
     <ktn:jenisProgram>JKK</ktn:jenisProgram>
@@ -53,6 +56,7 @@
     <ktn:tingkatRisiko>sedang</ktn:tingkatRisiko>
   </rdf:Description>
   <rdf:Description rdf:about="https://example.org/kbr/ketenagakerjaan#JKK-R4">
+    <dct:source rdf:resource="https://example.org/kbr/regulasi#PP-37-2021"/>
     <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
     <rdf:type rdf:resource="https://example.org/kbr/ketenagakerjaan#ProgramJaminanSosial"/>
     <ktn:jenisProgram>JKK</ktn:jenisProgram>
@@ -64,6 +68,7 @@
     <ktn:tingkatRisiko>tinggi</ktn:tingkatRisiko>
   </rdf:Description>
   <rdf:Description rdf:about="https://example.org/kbr/ketenagakerjaan#JKK-R5">
+    <dct:source rdf:resource="https://example.org/kbr/regulasi#PP-37-2021"/>
     <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
     <rdf:type rdf:resource="https://example.org/kbr/ketenagakerjaan#ProgramJaminanSosial"/>
     <ktn:jenisProgram>JKK</ktn:jenisProgram>
@@ -75,6 +80,7 @@
     <ktn:tingkatRisiko>sangat_tinggi</ktn:tingkatRisiko>
   </rdf:Description>
   <rdf:Description rdf:about="https://example.org/kbr/ketenagakerjaan#JKM">
+    <dct:source rdf:resource="https://example.org/kbr/regulasi#PP-37-2021"/>
     <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
     <rdf:type rdf:resource="https://example.org/kbr/ketenagakerjaan#ProgramJaminanSosial"/>
     <ktn:jenisProgram>JKM</ktn:jenisProgram>
@@ -85,6 +91,7 @@
     <ktn:tautanSumber rdf:resource="https://peraturan.bpk.go.id/Details/161919/pp-no-37-tahun-2021"/>
   </rdf:Description>
   <rdf:Description rdf:about="https://example.org/kbr/ketenagakerjaan#JKP">
+    <dct:source rdf:resource="https://example.org/kbr/regulasi#PP-37-2021"/>
     <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
     <rdf:type rdf:resource="https://example.org/kbr/ketenagakerjaan#ProgramJaminanSosial"/>
     <ktn:jenisProgram>JKP</ktn:jenisProgram>

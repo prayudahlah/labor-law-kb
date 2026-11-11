@@ -287,6 +287,17 @@ def emit_dokumen(dokumen: list[dict]) -> str:
     return "\n".join(blok).rstrip() + "\n"
 
 
+def provenance(dokumen_id: str, sumber_url: str, pdf: str | None) -> list[str]:
+    """Properti asal-usul yang wajib ada di setiap individu norma."""
+    props = [
+        f"dct:source reg:{dokumen_id}",
+        f"ktn:tautanSumber <{sumber_url}>",
+    ]
+    if pdf:
+        props.append(f"ktn:tautanUnduh <{pdf}>")
+    return props
+
+
 def emit_modul(
     dokumen_id,
     regulasi_row,
@@ -321,11 +332,8 @@ def emit_modul(
         props += [
             f'ktn:pasal {ttl_str(n["pasal"])}',
             f'ktn:berkaitanTopik ktn:Topik{n["topik"]}',
-            f"ktn:tautanSumber <{sumber_url}>",
         ]
-        if pdf:
-            props.append(f"ktn:tautanUnduh <{pdf}>")
-        props.append(f"dct:source reg:{n['dokumen_id']}")
+        props += provenance(n["dokumen_id"], sumber_url, pdf)
         blok.extend(
             baris_individu(
                 n["iri_individu"],
@@ -345,10 +353,8 @@ def emit_modul(
         props += [
             f'ktn:{prop_dasar} {int(k["nilai_bulan"])}',
             f'ktn:pasal {ttl_str(k["pasal"])}',
-            f"ktn:tautanSumber <{sumber_url}>",
         ]
-        if pdf:
-            props.append(f"ktn:tautanUnduh <{pdf}>")
+        props += provenance(k["dokumen_id"], sumber_url, pdf)
         blok.extend(baris_individu(f'ktn:{k["tabel_id"]}', f"owl:NamedIndividual, {kelas}", props))
         blok.append("")
 
@@ -360,10 +366,8 @@ def emit_modul(
             f'ktn:jamMax {int(pl["jam_max"])}',
             f'ktn:pengali {angka(pl["pengali"])}',
             f'ktn:pasal {ttl_str(pl["pasal"])}',
-            f"ktn:tautanSumber <{sumber_url}>",
         ]
-        if pdf:
-            props.append(f"ktn:tautanUnduh <{pdf}>")
+        props += provenance(pl["dokumen_id"], sumber_url, pdf)
         blok.extend(
             baris_individu(
                 f'ktn:{pl["tabel_id"]}',
@@ -385,10 +389,8 @@ def emit_modul(
             props.append(f'ktn:tingkatRisiko {ttl_str(pj["tingkat_risiko"])}')
         props += [
             f'ktn:pasal {ttl_str(pj["pasal"])}',
-            f"ktn:tautanSumber <{sumber_url}>",
         ]
-        if pdf:
-            props.append(f"ktn:tautanUnduh <{pdf}>")
+        props += provenance(pj["dokumen_id"], sumber_url, pdf)
         blok.extend(
             baris_individu(
                 f'ktn:{pj["program_id"]}',
