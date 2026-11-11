@@ -5,6 +5,7 @@
     <uri id="kb" name="https://example.org/kbr/ketenagakerjaan/kb" uri="ontology.rdf"/>
     <uri id="test" name="https://example.org/kbr/ketenagakerjaan/test" uri="test.rdf"/>
     <uri id="core/tbox-core.rdf" name="https://example.org/kbr/ketenagakerjaan" uri="core/tbox-core.rdf"/>
+    <uri id="core/external.rdf" name="https://example.org/kbr/ketenagakerjaan/external" uri="core/external.rdf"/>
     <uri id="meta/dokumen.rdf" name="https://example.org/kbr/ketenagakerjaan/meta/dokumen" uri="meta/dokumen.rdf"/>
     <uri id="meta/topik.rdf" name="https://example.org/kbr/ketenagakerjaan/meta/topik" uri="meta/topik.rdf"/>
     <uri id="core/rbox-roles.rdf" name="https://example.org/kbr/ketenagakerjaan/rbox" uri="core/rbox-roles.rdf"/>

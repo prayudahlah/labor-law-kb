@@ -8,6 +8,7 @@
     <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Ontology"/>
     <owl:imports rdf:resource="https://example.org/kbr/ketenagakerjaan"/>
     <owl:imports rdf:resource="https://example.org/kbr/ketenagakerjaan/contoh/kasus"/>
+    <owl:imports rdf:resource="https://example.org/kbr/ketenagakerjaan/external"/>
     <owl:imports rdf:resource="https://example.org/kbr/ketenagakerjaan/meta/dokumen"/>
     <owl:imports rdf:resource="https://example.org/kbr/ketenagakerjaan/meta/topik"/>
     <owl:imports rdf:resource="https://example.org/kbr/ketenagakerjaan/rbox"/>
