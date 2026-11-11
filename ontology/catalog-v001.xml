@@ -4,10 +4,10 @@
 <catalog prefer="public" xmlns="urn:oasis:names:tc:entity:xmlns:xml:catalog">
     <uri id="kb" name="https://example.org/kbr/ketenagakerjaan/kb" uri="ontology.rdf"/>
     <uri id="test" name="https://example.org/kbr/ketenagakerjaan/test" uri="test.rdf"/>
-    <uri id="core/tbox-core.ttl" name="https://example.org/kbr/ketenagakerjaan" uri="core/tbox-core.ttl"/>
+    <uri id="core/tbox-core.rdf" name="https://example.org/kbr/ketenagakerjaan" uri="core/tbox-core.rdf"/>
     <uri id="meta/dokumen.rdf" name="https://example.org/kbr/ketenagakerjaan/meta/dokumen" uri="meta/dokumen.rdf"/>
     <uri id="meta/topik.rdf" name="https://example.org/kbr/ketenagakerjaan/meta/topik" uri="meta/topik.rdf"/>
-    <uri id="core/rbox-roles.ttl" name="https://example.org/kbr/ketenagakerjaan/rbox" uri="core/rbox-roles.ttl"/>
+    <uri id="core/rbox-roles.rdf" name="https://example.org/kbr/ketenagakerjaan/rbox" uri="core/rbox-roles.rdf"/>
     <uri id="regulasi/pp-10-2020.rdf" name="https://example.org/kbr/ketenagakerjaan/regulasi/pp-10-2020" uri="regulasi/pp-10-2020.rdf"/>
     <uri id="regulasi/pp-22-2022.rdf" name="https://example.org/kbr/ketenagakerjaan/regulasi/pp-22-2022" uri="regulasi/pp-22-2022.rdf"/>
     <uri id="regulasi/pp-27-2026.rdf" name="https://example.org/kbr/ketenagakerjaan/regulasi/pp-27-2026" uri="regulasi/pp-27-2026.rdf"/>
@@ -44,6 +44,6 @@
     <uri id="regulasi/uu-6-2023.rdf" name="https://example.org/kbr/ketenagakerjaan/regulasi/uu-6-2023" uri="regulasi/uu-6-2023.rdf"/>
     <uri id="regulasi/uu-8-2016.rdf" name="https://example.org/kbr/ketenagakerjaan/regulasi/uu-8-2016" uri="regulasi/uu-8-2016.rdf"/>
     <uri id="meta/regulasi.rdf" name="https://example.org/kbr/regulasi" uri="meta/regulasi.rdf"/>
-    <uri id="core/tbox-regulasi.ttl" name="https://example.org/kbr/regulasi/vocab" uri="core/tbox-regulasi.ttl"/>
-    <uri id="examples/kasus-contoh.ttl" name="https://example.org/kbr/ketenagakerjaan/contoh/kasus" uri="examples/kasus-contoh.ttl"/>
+    <uri id="core/tbox-regulasi.rdf" name="https://example.org/kbr/regulasi/vocab" uri="core/tbox-regulasi.rdf"/>
+    <uri id="examples/kasus-contoh.rdf" name="https://example.org/kbr/ketenagakerjaan/contoh/kasus" uri="examples/kasus-contoh.rdf"/>
 </catalog>

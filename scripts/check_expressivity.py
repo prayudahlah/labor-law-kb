@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 """Periksa DL expressivity ontology inti (read-only).
 
-Menghitung huruf fitur yang benar-benar dipakai di `ontology/core/*.ttl`
+Menghitung huruf fitur yang benar-benar dipakai di `ontology/core/*.rdf`
 dan memastikan konstruktor nominal (O) serta qualified cardinality (Q) ada,
 sehingga expressivity mencapai SROIQ(D).
 
@@ -17,13 +17,13 @@ import rdflib
 from rdflib.namespace import OWL, RDF, RDFS
 
 ROOT = Path(__file__).resolve().parent.parent
-CORE = sorted((ROOT / "ontology" / "core").glob("*.ttl"))
+CORE = sorted((ROOT / "ontology" / "core").glob("*.rdf"))
 
 
 def main() -> int:
     g = rdflib.Graph()
     for f in CORE:
-        g.parse(f, format="turtle")
+        g.parse(f, format="xml")
 
     def ada(pred) -> bool:
         return next(g.triples((None, pred, None)), None) is not None

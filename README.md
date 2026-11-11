@@ -25,13 +25,13 @@ scripts/         unduh, ekstraksi, validasi/kompilasi record, build, verifikasi,
 
 ## Format Ontologi
 
-- **Sumber manual**: `ontology/core/*.ttl` dan `ontology/examples/*.ttl`.
+- **Sumber manual**: `ontology/core/*.rdf` dan `ontology/examples/*.rdf`.
 - **Hasil generate dari CSV**: `ontology/meta/*.rdf` dan
-  `ontology/regulasi/*.rdf` dalam format **RDF/XML**.
+  `ontology/regulasi/*.rdf`.
 - **Top-level**: `ontology/ontology.rdf` (KB murni) dan `ontology/test.rdf`
   (KB + golden case).
-- Tidak ada lagi `ontology.ttl`/`test.ttl`; backend akan memuat
-  `ontology.rdf`.
+- Seluruh file ontology memakai **RDF/XML**. Tidak ada lagi `.ttl`;
+  backend akan memuat `ontology.rdf`.
 
 ## Ekstraksi Terstruktur
 

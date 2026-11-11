@@ -9,7 +9,7 @@
     <rdf:type rdf:resource="https://example.org/kbr/ketenagakerjaan#KetentuanJaminanSosial"/>
     <ktn:berkaitanTopik rdf:resource="https://example.org/kbr/ketenagakerjaan#TopikJamsos"/>
     <ktn:pasal>Pasal 17</ktn:pasal>
-    <ktn:tautanSumber rdf:resource="https://peraturan.bpk.go.id/Details/137950/pp-no-10-tahun-2020"/>
+    <ktn:tautanSumber rdf:resource="https://peraturan.bpk.go.id/Details/132015/pp-no-10-tahun-2020"/>
     <ktn:tautanUnduh rdf:resource="https://peraturan.bpk.go.id/Download/122808/PP%20Nomor%2010%20Tahun%202020.pdf"/>
   </rdf:Description>
   <rdf:Description rdf:about="https://example.org/kbr/ketenagakerjaan#JamsosPMISelamaSetelahBekerja">
@@ -18,11 +18,11 @@
     <rdf:type rdf:resource="https://example.org/kbr/ketenagakerjaan#KetentuanJaminanSosial"/>
     <ktn:berkaitanTopik rdf:resource="https://example.org/kbr/ketenagakerjaan#TopikJamsos"/>
     <ktn:pasal>Pasal 19</ktn:pasal>
-    <ktn:tautanSumber rdf:resource="https://peraturan.bpk.go.id/Details/137950/pp-no-10-tahun-2020"/>
+    <ktn:tautanSumber rdf:resource="https://peraturan.bpk.go.id/Details/132015/pp-no-10-tahun-2020"/>
     <ktn:tautanUnduh rdf:resource="https://peraturan.bpk.go.id/Download/122808/PP%20Nomor%2010%20Tahun%202020.pdf"/>
   </rdf:Description>
   <rdf:Description rdf:about="https://example.org/kbr/ketenagakerjaan/regulasi/pp-10-2020">
-    <dct:source rdf:resource="https://peraturan.bpk.go.id/Details/137950/pp-no-10-tahun-2020"/>
+    <dct:source rdf:resource="https://peraturan.bpk.go.id/Details/132015/pp-no-10-tahun-2020"/>
     <dct:title>Fakta norma: Peraturan Pemerintah Nomor 10 Tahun 2020 tentang Tata Cara Penempatan Pekerja Migran Indonesia oleh BP2MI</dct:title>
     <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Ontology"/>
     <owl:imports rdf:resource="https://example.org/kbr/ketenagakerjaan"/>

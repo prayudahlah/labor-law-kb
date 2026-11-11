@@ -5,9 +5,9 @@
   ontology/ontology.rdf      top-level KB murni (core, meta, regulasi)
   ontology/test.rdf          top-level KB + golden case (examples/)
 
-Modul manual: core/*.ttl dan examples/*.ttl.
-Modul generated: meta/*.rdf dan regulasi/*.rdf.
-Tidak ada ontology.ttl/test.ttl; format akhir adalah RDF/XML.
+Semua modul (manual dan generated) memakai RDF/XML:
+core/*.rdf, meta/*.rdf, regulasi/*.rdf, examples/*.rdf.
+Format akhir seluruh ontology adalah RDF/XML.
 
 Jalankan: uv run python scripts/build_catalog.py
 """
@@ -33,14 +33,13 @@ HEADER = (
 
 def modul() -> list[Path]:
     files: list[Path] = []
-    files += sorted(ONTO.glob("core/*.ttl"))
-    for sub in ("meta", "regulasi"):
+    for sub in ("core", "meta", "regulasi"):
         files += sorted(ONTO.glob(f"{sub}/*.rdf"))
     return files
 
 
 def contoh() -> list[Path]:
-    return sorted(ONTO.glob("examples/*.ttl"))
+    return sorted(ONTO.glob("examples/*.rdf"))
 
 
 def iri_ontology(path: Path) -> str:
@@ -102,11 +101,6 @@ def main() -> int:
         "Knowledge Base + Golden Case (uji)",
         [iri for iri, _ in peta + peta_contoh],
     )
-
-    # Bersihkan top-level TTL lama.
-    for stale in (ONTO / "ontology.ttl", ONTO / "test.ttl"):
-        if stale.exists():
-            stale.unlink()
 
     print(f"\nSelesai. {len(peta)} modul KB, {len(peta_contoh)} modul contoh.")
     return 0

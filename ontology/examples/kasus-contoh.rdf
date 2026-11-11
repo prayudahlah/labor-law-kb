@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Dikonversi dari kasus-contoh.ttl ke RDF/XML. -->
+<rdf:RDF
+   xmlns:dct="http://purl.org/dc/terms/"
+   xmlns:ktn="https://example.org/kbr/ketenagakerjaan#"
+   xmlns:owl="http://www.w3.org/2002/07/owl#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+>
+  <rdf:Description rdf:about="https://example.org/kbr/ketenagakerjaan/contoh/kasus">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Ontology"/>
+    <dct:title>Kasus uji Fase 1: PHK dan pesangon</dct:title>
+    <rdfs:comment>Fixture untuk verifikasi reasoning. Bukan knowledge hukum.</rdfs:comment>
+    <owl:imports rdf:resource="https://example.org/kbr/ketenagakerjaan"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://example.org/kbr/ketenagakerjaan#PekerjaKeguguran">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="https://example.org/kbr/ketenagakerjaan#PekerjaPerempuan"/>
+    <ktn:mengalamiKeguguran rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</ktn:mengalamiKeguguran>
+    <ktn:masaKerjaBulan rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">12</ktn:masaKerjaBulan>
+    <ktn:upahBulanan rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">4000000</ktn:upahBulanan>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://example.org/kbr/ketenagakerjaan#PekerjaSari">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="https://example.org/kbr/ketenagakerjaan#Pekerja"/>
+    <ktn:masaKerjaBulan rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">60</ktn:masaKerjaBulan>
+    <ktn:upahBulanan rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">4000000</ktn:upahBulanan>
+    <ktn:mengalami rdf:resource="https://example.org/kbr/ketenagakerjaan#PHKSari"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://example.org/kbr/ketenagakerjaan#PekerjaBudi">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="https://example.org/kbr/ketenagakerjaan#Pekerja"/>
+    <ktn:masaKerjaBulan rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">120</ktn:masaKerjaBulan>
+    <ktn:upahBulanan rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">5000000</ktn:upahBulanan>
+    <ktn:mengalami rdf:resource="https://example.org/kbr/ketenagakerjaan#PHKBudi"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://example.org/kbr/ketenagakerjaan#LemburBudi">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="https://example.org/kbr/ketenagakerjaan#Lembur"/>
+    <ktn:jamLembur rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">4</ktn:jamLembur>
+    <ktn:padaHariKerja rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</ktn:padaHariKerja>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://example.org/kbr/ketenagakerjaan#PHKAndi">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="https://example.org/kbr/ketenagakerjaan#PHK"/>
+    <ktn:memilikiAlasanPHK rdf:resource="https://example.org/kbr/ketenagakerjaan#DitahanTidakMerugikan"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://example.org/kbr/ketenagakerjaan#PekerjaTetap">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="https://example.org/kbr/ketenagakerjaan#Pekerja"/>
+    <ktn:bentukHubunganKerja>PKWTT</ktn:bentukHubunganKerja>
+    <ktn:masaKerjaBulan rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">60</ktn:masaKerjaBulan>
+    <ktn:upahBulanan rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">6000000</ktn:upahBulanan>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://example.org/kbr/ketenagakerjaan#PekerjaJamsos">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="https://example.org/kbr/ketenagakerjaan#Pekerja"/>
+    <ktn:bentukHubunganKerja>PKWTT</ktn:bentukHubunganKerja>
+    <ktn:masaKerjaBulan rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">30</ktn:masaKerjaBulan>
+    <ktn:upahBulanan rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">5000000</ktn:upahBulanan>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://example.org/kbr/ketenagakerjaan#PekerjaAndi">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="https://example.org/kbr/ketenagakerjaan#Pekerja"/>
+    <ktn:masaKerjaBulan rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">96</ktn:masaKerjaBulan>
+    <ktn:upahBulanan rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">3000000</ktn:upahBulanan>
+    <ktn:mengalami rdf:resource="https://example.org/kbr/ketenagakerjaan#PHKAndi"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://example.org/kbr/ketenagakerjaan#PekerjaMenikah">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="https://example.org/kbr/ketenagakerjaan#Pekerja"/>
+    <ktn:masaKerjaBulan rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">18</ktn:masaKerjaBulan>
+    <ktn:upahBulanan rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">4000000</ktn:upahBulanan>
+    <ktn:mengalamiPeristiwa rdf:resource="https://example.org/kbr/ketenagakerjaan#CutiMenikah"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://example.org/kbr/ketenagakerjaan#PekerjaKontrak">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="https://example.org/kbr/ketenagakerjaan#Pekerja"/>
+    <ktn:bentukHubunganKerja>PKWT</ktn:bentukHubunganKerja>
+    <ktn:masaKerjaBulan rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">24</ktn:masaKerjaBulan>
+    <ktn:upahBulanan rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">5000000</ktn:upahBulanan>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://example.org/kbr/ketenagakerjaan#PekerjaBaru">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="https://example.org/kbr/ketenagakerjaan#Pekerja"/>
+    <ktn:masaKerjaBulan rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">6</ktn:masaKerjaBulan>
+    <ktn:upahBulanan rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">4500000</ktn:upahBulanan>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://example.org/kbr/ketenagakerjaan#PekerjaCukup">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="https://example.org/kbr/ketenagakerjaan#Pekerja"/>
+    <ktn:masaKerjaBulan rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">12</ktn:masaKerjaBulan>
+    <ktn:upahBulanan rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">4500000</ktn:upahBulanan>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://example.org/kbr/ketenagakerjaan#PekerjaAyah">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="https://example.org/kbr/ketenagakerjaan#Pekerja"/>
+    <ktn:mendampingiPersalinan rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</ktn:mendampingiPersalinan>
+    <ktn:masaKerjaBulan rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">36</ktn:masaKerjaBulan>
+    <ktn:upahBulanan rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">6000000</ktn:upahBulanan>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://example.org/kbr/ketenagakerjaan#PekerjaWanita">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="https://example.org/kbr/ketenagakerjaan#PekerjaPerempuan"/>
+    <ktn:masaKerjaBulan rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">24</ktn:masaKerjaBulan>
+    <ktn:upahBulanan rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">5000000</ktn:upahBulanan>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://example.org/kbr/ketenagakerjaan#PHKBudi">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="https://example.org/kbr/ketenagakerjaan#PHK"/>
+    <ktn:memilikiAlasanPHK rdf:resource="https://example.org/kbr/ketenagakerjaan#EfisiensiRugi"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://example.org/kbr/ketenagakerjaan#PekerjaLembur">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="https://example.org/kbr/ketenagakerjaan#Pekerja"/>
+    <ktn:masaKerjaBulan rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">24</ktn:masaKerjaBulan>
+    <ktn:upahBulanan rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">5000000</ktn:upahBulanan>
+    <ktn:mengerjakanLembur rdf:resource="https://example.org/kbr/ketenagakerjaan#LemburBudi"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://example.org/kbr/ketenagakerjaan#PHKSari">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="https://example.org/kbr/ketenagakerjaan#PHK"/>
+    <ktn:memilikiAlasanPHK rdf:resource="https://example.org/kbr/ketenagakerjaan#MengundurkanDiri"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://example.org/kbr/ketenagakerjaan#PekerjaIbu">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="https://example.org/kbr/ketenagakerjaan#PekerjaPerempuan"/>
+    <ktn:sedangCutiMelahirkan rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</ktn:sedangCutiMelahirkan>
+    <ktn:cutiMelahirkanBulan rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">6</ktn:cutiMelahirkanBulan>
+    <ktn:masaKerjaBulan rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">24</ktn:masaKerjaBulan>
+    <ktn:upahBulanan rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">5000000</ktn:upahBulanan>
+  </rdf:Description>
+</rdf:RDF>

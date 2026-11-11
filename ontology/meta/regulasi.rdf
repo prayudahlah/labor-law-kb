@@ -15,7 +15,7 @@
     <reg:menghasilkanDokumen rdf:resource="https://example.org/kbr/ketenagakerjaan#DokumenPendaftaranJamsos"/>
     <reg:nomor>10</reg:nomor>
     <reg:status rdf:resource="https://example.org/kbr/regulasi#Berlaku"/>
-    <reg:sumberUtama rdf:resource="https://peraturan.bpk.go.id/Details/137950/pp-no-10-tahun-2020"/>
+    <reg:sumberUtama rdf:resource="https://peraturan.bpk.go.id/Details/132015/pp-no-10-tahun-2020"/>
     <reg:tahun rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">2020</reg:tahun>
     <reg:tautanUnduh rdf:resource="https://peraturan.bpk.go.id/Download/122808/PP%20Nomor%2010%20Tahun%202020.pdf"/>
   </rdf:Description>

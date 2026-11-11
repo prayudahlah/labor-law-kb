@@ -1,9 +1,9 @@
 #!/usr/bin/env python3
-"""Muat ontologi (Turtle -> RDF/XML cache), jalankan HermiT, verifikasi Fase 1.
+"""Muat ontologi RDF/XML, jalankan HermiT, verifikasi Fase 1.
 
 Langkah:
-  1. gabung semua modul .ttl (core, meta, regulasi, examples)
-  2. konversi ke RDF/XML dan cache; bangun ulang hanya bila .ttl lebih baru
+  1. gabung semua modul .rdf (core, meta, regulasi, examples)
+  2. konversi ke RDF/XML dan cache; bangun ulang hanya bila .rdf lebih baru
   3. muat ke owlready2 dan jalankan HermiT
   4. cek konsistensi, kelas unsatisfiable, klasifikasi hak, dan hitung nominal
 
@@ -41,30 +41,25 @@ def cari_individu(prop: str):
     raise KeyError(f"tidak ada individu dengan properti: ktn:{prop}")
 
 
-def ttl_files(termasuk_contoh: bool = False) -> list[Path]:
+def berkas_ontology(termasuk_contoh: bool = False) -> list[Path]:
     subs = ["core", "meta", "regulasi"]
     if termasuk_contoh:
         subs.append("examples")
     files: list[Path] = []
     for sub in subs:
-        files += sorted(ONTO_DIR.glob(f"{sub}/*.ttl"))
         files += sorted(ONTO_DIR.glob(f"{sub}/*.rdf"))
     return files
 
 
-def format_berkas(path: Path) -> str:
-    return "xml" if path.suffix.lower() == ".rdf" else "turtle"
-
-
 def ensure_cache(termasuk_contoh: bool = False) -> tuple[list[Path], bool, Path]:
     cache = CACHE_MERGED if termasuk_contoh else CACHE_KB
-    files = ttl_files(termasuk_contoh)
+    files = berkas_ontology(termasuk_contoh)
     newest = max(f.stat().st_mtime for f in files)
     if cache.exists() and cache.stat().st_mtime >= newest:
         return files, False, cache
     g = rdflib.Graph()
     for f in files:
-        g.parse(f, format=format_berkas(f))
+        g.parse(f, format="xml")
     g.remove((None, rdflib.OWL.imports, None))
     cache.parent.mkdir(parents=True, exist_ok=True)
     cache.write_bytes(g.serialize(format="xml").encode("utf-8"))
@@ -80,7 +75,7 @@ def load_reasoned(termasuk_contoh: bool = False):
     files, dibangun, cache = ensure_cache(termasuk_contoh)
     label = "KB + contoh" if termasuk_contoh else "KB murni"
     print(
-        f"[muat] {len(files)} modul Turtle ({label}), "
+        f"[muat] {len(files)} modul RDF/XML ({label}), "
         f"cache {cache.name} {'dibangun ulang' if dibangun else 'dipakai'}"
     )
     owlready2.get_ontology(str(cache.resolve())).load()
@@ -96,8 +91,8 @@ def nilai(individu, prop: str, default=None):
 def cek_anotasi_kb() -> int:
     """Audit anotasi sumber dan pemetaan jenis dokumen (rdflib, read-only)."""
     g = rdflib.Graph()
-    for f in ttl_files(termasuk_contoh=True):
-        g.parse(f, format=format_berkas(f))
+    for f in berkas_ontology(termasuk_contoh=True):
+        g.parse(f, format="xml")
 
     ktn = rdflib.Namespace(KTN)
     reg = rdflib.Namespace("https://example.org/kbr/regulasi#")

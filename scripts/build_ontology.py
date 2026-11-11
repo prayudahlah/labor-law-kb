@@ -490,10 +490,6 @@ def main() -> int:
         )
         print(f"[tulis] {out.relative_to(ROOT)}")
 
-    # Bersihkan output TTL lama (generated) agar tidak ada duplikasi format.
-    for stale in list((ONTO / "meta").glob("*.ttl")) + list((ONTO / "regulasi").glob("*.ttl")):
-        stale.unlink()
-
     print(
         f"\nSelesai. {len(regulasi)} peraturan, {len(norma)} norma, "
         f"{len(parameter)} parameter, {len(kategori)} kategori, "
