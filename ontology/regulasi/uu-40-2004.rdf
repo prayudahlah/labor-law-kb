@@ -1,0 +1,205 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- BERKAS DIGENERATE. JANGAN EDIT MANUAL.
+     Sumber   : norma.csv, parameter.csv, kategori.csv, pengali_lembur.csv, program_jamsos.csv
+     Hasilkan : uv run python scripts/build_ontology.py -->
+<rdf:RDF xmlns:brick="https://brickschema.org/schema/Brick#" xmlns:csvw="http://www.w3.org/ns/csvw#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcam="http://purl.org/dc/dcam/" xmlns:dcat="http://www.w3.org/ns/dcat#" xmlns:dcmitype="http://purl.org/dc/dcmitype/" xmlns:dct="http://purl.org/dc/terms/" xmlns:doap="http://usefulinc.com/ns/doap#" xmlns:foaf="http://xmlns.com/foaf/0.1/" xmlns:geo="http://www.opengis.net/ont/geosparql#" xmlns:ktn="https://example.org/kbr/ketenagakerjaan#" xmlns:odrl="http://www.w3.org/ns/odrl/2/" xmlns:org="http://www.w3.org/ns/org#" xmlns:owl="http://www.w3.org/2002/07/owl#" xmlns:prof="http://www.w3.org/ns/dx/prof/" xmlns:prov="http://www.w3.org/ns/prov#" xmlns:qb="http://purl.org/linked-data/cube#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:reg="https://example.org/kbr/regulasi#" xmlns:schema="https://schema.org/" xmlns:sh="http://www.w3.org/ns/shacl#" xmlns:skos="http://www.w3.org/2004/02/skos/core#" xmlns:sosa="http://www.w3.org/ns/sosa/" xmlns:ssn="http://www.w3.org/ns/ssn/" xmlns:time="http://www.w3.org/2006/time#" xmlns:vann="http://purl.org/vocab/vann/" xmlns:void="http://rdfs.org/ns/void#" xmlns:wgs="https://www.w3.org/2003/01/geo/wgs84_pos#" xmlns:xml="http://www.w3.org/XML/1998/namespace" xmlns:xsd="http://www.w3.org/2001/XMLSchema#">
+  <rdf:Description rdf:about="https://example.org/kbr/ketenagakerjaan#HakInformasiIuran">
+    <dct:source rdf:resource="https://example.org/kbr/regulasi#UU-40-2004"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="https://example.org/kbr/ketenagakerjaan#KetentuanJaminanSosial"/>
+    <ktn:berkaitanTopik rdf:resource="https://example.org/kbr/ketenagakerjaan#TopikJamsos"/>
+    <ktn:pasal>Pasal 49 ayat (3)</ktn:pasal>
+    <ktn:tautanSumber rdf:resource="https://peraturan.bpk.go.id/Details/40787/uu-no-40-tahun-2004"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://example.org/kbr/ketenagakerjaan#HakManfaatPeserta">
+    <dct:source rdf:resource="https://example.org/kbr/regulasi#UU-40-2004"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="https://example.org/kbr/ketenagakerjaan#KetentuanJaminanSosial"/>
+    <ktn:berkaitanTopik rdf:resource="https://example.org/kbr/ketenagakerjaan#TopikJamsos"/>
+    <ktn:pasal>Pasal 16</ktn:pasal>
+    <ktn:tautanSumber rdf:resource="https://peraturan.bpk.go.id/Details/40787/uu-no-40-tahun-2004"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://example.org/kbr/ketenagakerjaan#IuranBantuanPemerintah">
+    <dct:source rdf:resource="https://example.org/kbr/regulasi#UU-40-2004"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="https://example.org/kbr/ketenagakerjaan#KetentuanJaminanSosial"/>
+    <ktn:berkaitanTopik rdf:resource="https://example.org/kbr/ketenagakerjaan#TopikJamsos"/>
+    <ktn:pasal>Pasal 17 ayat (4)</ktn:pasal>
+    <ktn:tautanSumber rdf:resource="https://peraturan.bpk.go.id/Details/40787/uu-no-40-tahun-2004"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://example.org/kbr/ketenagakerjaan#IuranJHT">
+    <dct:source rdf:resource="https://example.org/kbr/regulasi#UU-40-2004"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="https://example.org/kbr/ketenagakerjaan#KetentuanJaminanSosial"/>
+    <ktn:berkaitanTopik rdf:resource="https://example.org/kbr/ketenagakerjaan#TopikJamsos"/>
+    <ktn:pasal>Pasal 38 ayat (1)</ktn:pasal>
+    <ktn:tautanSumber rdf:resource="https://peraturan.bpk.go.id/Details/40787/uu-no-40-tahun-2004"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://example.org/kbr/ketenagakerjaan#IuranJKK">
+    <dct:source rdf:resource="https://example.org/kbr/regulasi#UU-40-2004"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="https://example.org/kbr/ketenagakerjaan#KetentuanJaminanSosial"/>
+    <ktn:berkaitanTopik rdf:resource="https://example.org/kbr/ketenagakerjaan#TopikJamsos"/>
+    <ktn:pasal>Pasal 34 ayat (1)</ktn:pasal>
+    <ktn:tautanSumber rdf:resource="https://peraturan.bpk.go.id/Details/40787/uu-no-40-tahun-2004"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://example.org/kbr/ketenagakerjaan#IuranJKNBantuan">
+    <dct:source rdf:resource="https://example.org/kbr/regulasi#UU-40-2004"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="https://example.org/kbr/ketenagakerjaan#KetentuanJaminanSosial"/>
+    <ktn:berkaitanTopik rdf:resource="https://example.org/kbr/ketenagakerjaan#TopikJamsos"/>
+    <ktn:pasal>Pasal 21 ayat (2)</ktn:pasal>
+    <ktn:tautanSumber rdf:resource="https://peraturan.bpk.go.id/Details/40787/uu-no-40-tahun-2004"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://example.org/kbr/ketenagakerjaan#IuranJP">
+    <dct:source rdf:resource="https://example.org/kbr/regulasi#UU-40-2004"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="https://example.org/kbr/ketenagakerjaan#KetentuanJaminanSosial"/>
+    <ktn:berkaitanTopik rdf:resource="https://example.org/kbr/ketenagakerjaan#TopikJamsos"/>
+    <ktn:pasal>Pasal 42 ayat (1)</ktn:pasal>
+    <ktn:tautanSumber rdf:resource="https://peraturan.bpk.go.id/Details/40787/uu-no-40-tahun-2004"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://example.org/kbr/ketenagakerjaan#IuranJaminanKesehatan">
+    <dct:source rdf:resource="https://example.org/kbr/regulasi#UU-40-2004"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="https://example.org/kbr/ketenagakerjaan#KetentuanJaminanSosial"/>
+    <ktn:berkaitanTopik rdf:resource="https://example.org/kbr/ketenagakerjaan#TopikJamsos"/>
+    <ktn:pasal>Pasal 27 ayat (1)</ktn:pasal>
+    <ktn:tautanSumber rdf:resource="https://peraturan.bpk.go.id/Details/40787/uu-no-40-tahun-2004"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://example.org/kbr/ketenagakerjaan#JaminanKesehatanPascaPHK">
+    <dct:source rdf:resource="https://example.org/kbr/regulasi#UU-40-2004"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="https://example.org/kbr/ketenagakerjaan#KetentuanJaminanSosial"/>
+    <ktn:berkaitanTopik rdf:resource="https://example.org/kbr/ketenagakerjaan#TopikJamsos"/>
+    <ktn:pasal>Pasal 21 ayat (1)</ktn:pasal>
+    <ktn:tautanSumber rdf:resource="https://peraturan.bpk.go.id/Details/40787/uu-no-40-tahun-2004"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://example.org/kbr/ketenagakerjaan#KeluargaTambahanJKN">
+    <dct:source rdf:resource="https://example.org/kbr/regulasi#UU-40-2004"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="https://example.org/kbr/ketenagakerjaan#KetentuanJaminanSosial"/>
+    <ktn:berkaitanTopik rdf:resource="https://example.org/kbr/ketenagakerjaan#TopikJamsos"/>
+    <ktn:pasal>Pasal 20 ayat (3)</ktn:pasal>
+    <ktn:tautanSumber rdf:resource="https://peraturan.bpk.go.id/Details/40787/uu-no-40-tahun-2004"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://example.org/kbr/ketenagakerjaan#KewajibanIuranPeserta">
+    <dct:source rdf:resource="https://example.org/kbr/regulasi#UU-40-2004"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="https://example.org/kbr/ketenagakerjaan#KetentuanJaminanSosial"/>
+    <ktn:berkaitanTopik rdf:resource="https://example.org/kbr/ketenagakerjaan#TopikJamsos"/>
+    <ktn:pasal>Pasal 17 ayat (1)</ktn:pasal>
+    <ktn:tautanSumber rdf:resource="https://peraturan.bpk.go.id/Details/40787/uu-no-40-tahun-2004"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://example.org/kbr/ketenagakerjaan#KewajibanPemungutanIuran">
+    <dct:source rdf:resource="https://example.org/kbr/regulasi#UU-40-2004"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="https://example.org/kbr/ketenagakerjaan#KetentuanJaminanSosial"/>
+    <ktn:berkaitanTopik rdf:resource="https://example.org/kbr/ketenagakerjaan#TopikJamsos"/>
+    <ktn:pasal>Pasal 17 ayat (2)</ktn:pasal>
+    <ktn:tautanSumber rdf:resource="https://peraturan.bpk.go.id/Details/40787/uu-no-40-tahun-2004"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://example.org/kbr/ketenagakerjaan#KewajibanPendaftaranPeserta">
+    <dct:source rdf:resource="https://example.org/kbr/regulasi#UU-40-2004"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="https://example.org/kbr/ketenagakerjaan#KetentuanJaminanSosial"/>
+    <ktn:berkaitanTopik rdf:resource="https://example.org/kbr/ketenagakerjaan#TopikJamsos"/>
+    <ktn:pasal>Pasal 13 ayat (1)</ktn:pasal>
+    <ktn:tautanSumber rdf:resource="https://peraturan.bpk.go.id/Details/40787/uu-no-40-tahun-2004"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://example.org/kbr/ketenagakerjaan#ManfaatJHT">
+    <dct:source rdf:resource="https://example.org/kbr/regulasi#UU-40-2004"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="https://example.org/kbr/ketenagakerjaan#KetentuanJaminanSosial"/>
+    <ktn:berkaitanTopik rdf:resource="https://example.org/kbr/ketenagakerjaan#TopikJamsos"/>
+    <ktn:pasal>Pasal 37 ayat (1)</ktn:pasal>
+    <ktn:tautanSumber rdf:resource="https://peraturan.bpk.go.id/Details/40787/uu-no-40-tahun-2004"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://example.org/kbr/ketenagakerjaan#ManfaatJHTSebagian">
+    <dct:source rdf:resource="https://example.org/kbr/regulasi#UU-40-2004"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="https://example.org/kbr/ketenagakerjaan#KetentuanJaminanSosial"/>
+    <ktn:berkaitanTopik rdf:resource="https://example.org/kbr/ketenagakerjaan#TopikJamsos"/>
+    <ktn:pasal>Pasal 37 ayat (3)</ktn:pasal>
+    <ktn:tautanSumber rdf:resource="https://peraturan.bpk.go.id/Details/40787/uu-no-40-tahun-2004"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://example.org/kbr/ketenagakerjaan#ManfaatJKKUu402004">
+    <dct:source rdf:resource="https://example.org/kbr/regulasi#UU-40-2004"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="https://example.org/kbr/ketenagakerjaan#KetentuanJaminanSosial"/>
+    <ktn:berkaitanTopik rdf:resource="https://example.org/kbr/ketenagakerjaan#TopikJamsos"/>
+    <ktn:pasal>Pasal 31 ayat (1)</ktn:pasal>
+    <ktn:tautanSumber rdf:resource="https://peraturan.bpk.go.id/Details/40787/uu-no-40-tahun-2004"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://example.org/kbr/ketenagakerjaan#ManfaatJKM">
+    <dct:source rdf:resource="https://example.org/kbr/regulasi#UU-40-2004"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="https://example.org/kbr/ketenagakerjaan#KetentuanJaminanSosial"/>
+    <ktn:berkaitanTopik rdf:resource="https://example.org/kbr/ketenagakerjaan#TopikJamsos"/>
+    <ktn:hariDibayar rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">3</ktn:hariDibayar>
+    <ktn:pasal>Pasal 45 ayat (1)</ktn:pasal>
+    <ktn:tautanSumber rdf:resource="https://peraturan.bpk.go.id/Details/40787/uu-no-40-tahun-2004"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://example.org/kbr/ketenagakerjaan#ManfaatJKNKeluarga">
+    <dct:source rdf:resource="https://example.org/kbr/regulasi#UU-40-2004"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="https://example.org/kbr/ketenagakerjaan#KetentuanJaminanSosial"/>
+    <ktn:berkaitanTopik rdf:resource="https://example.org/kbr/ketenagakerjaan#TopikJamsos"/>
+    <ktn:pasal>Pasal 20 ayat (2)</ktn:pasal>
+    <ktn:tautanSumber rdf:resource="https://peraturan.bpk.go.id/Details/40787/uu-no-40-tahun-2004"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://example.org/kbr/ketenagakerjaan#ManfaatJP">
+    <dct:source rdf:resource="https://example.org/kbr/regulasi#UU-40-2004"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="https://example.org/kbr/ketenagakerjaan#KetentuanJaminanSosial"/>
+    <ktn:berkaitanTopik rdf:resource="https://example.org/kbr/ketenagakerjaan#TopikJamsos"/>
+    <ktn:pasal>Pasal 41 ayat (2)</ktn:pasal>
+    <ktn:tautanSumber rdf:resource="https://peraturan.bpk.go.id/Details/40787/uu-no-40-tahun-2004"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://example.org/kbr/ketenagakerjaan#ManfaatJPAkumulasi">
+    <dct:source rdf:resource="https://example.org/kbr/regulasi#UU-40-2004"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="https://example.org/kbr/ketenagakerjaan#KetentuanJaminanSosial"/>
+    <ktn:berkaitanTopik rdf:resource="https://example.org/kbr/ketenagakerjaan#TopikJamsos"/>
+    <ktn:pasal>Pasal 41 ayat (5)</ktn:pasal>
+    <ktn:tautanSumber rdf:resource="https://peraturan.bpk.go.id/Details/40787/uu-no-40-tahun-2004"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://example.org/kbr/ketenagakerjaan#ManfaatJaminanKesehatan">
+    <dct:source rdf:resource="https://example.org/kbr/regulasi#UU-40-2004"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="https://example.org/kbr/ketenagakerjaan#KetentuanJaminanSosial"/>
+    <ktn:berkaitanTopik rdf:resource="https://example.org/kbr/ketenagakerjaan#TopikJamsos"/>
+    <ktn:pasal>Pasal 22 ayat (1)</ktn:pasal>
+    <ktn:tautanSumber rdf:resource="https://peraturan.bpk.go.id/Details/40787/uu-no-40-tahun-2004"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://example.org/kbr/ketenagakerjaan#ManfaatPensiunCacat">
+    <dct:source rdf:resource="https://example.org/kbr/regulasi#UU-40-2004"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="https://example.org/kbr/ketenagakerjaan#KetentuanJaminanSosial"/>
+    <ktn:berkaitanTopik rdf:resource="https://example.org/kbr/ketenagakerjaan#TopikJamsos"/>
+    <ktn:pasal>Pasal 41 ayat (7)</ktn:pasal>
+    <ktn:tautanSumber rdf:resource="https://peraturan.bpk.go.id/Details/40787/uu-no-40-tahun-2004"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://example.org/kbr/ketenagakerjaan#TambahanIuranKeluarga">
+    <dct:source rdf:resource="https://example.org/kbr/regulasi#UU-40-2004"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="https://example.org/kbr/ketenagakerjaan#KetentuanJaminanSosial"/>
+    <ktn:berkaitanTopik rdf:resource="https://example.org/kbr/ketenagakerjaan#TopikJamsos"/>
+    <ktn:pasal>Pasal 28 ayat (1)</ktn:pasal>
+    <ktn:tautanSumber rdf:resource="https://peraturan.bpk.go.id/Details/40787/uu-no-40-tahun-2004"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://example.org/kbr/ketenagakerjaan#UrunBiayaJKK">
+    <dct:source rdf:resource="https://example.org/kbr/regulasi#UU-40-2004"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="https://example.org/kbr/ketenagakerjaan#KetentuanJaminanSosial"/>
+    <ktn:berkaitanTopik rdf:resource="https://example.org/kbr/ketenagakerjaan#TopikJamsos"/>
+    <ktn:pasal>Pasal 31 ayat (3)</ktn:pasal>
+    <ktn:tautanSumber rdf:resource="https://peraturan.bpk.go.id/Details/40787/uu-no-40-tahun-2004"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://example.org/kbr/ketenagakerjaan/regulasi/uu-40-2004">
+    <dct:source rdf:resource="https://peraturan.bpk.go.id/Details/40787/uu-no-40-tahun-2004"/>
+    <dct:title>Fakta norma: Undang-Undang Nomor 40 Tahun 2004 tentang Sistem Jaminan Sosial Nasional</dct:title>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Ontology"/>
+    <owl:imports rdf:resource="https://example.org/kbr/ketenagakerjaan"/>
+  </rdf:Description>
+</rdf:RDF>

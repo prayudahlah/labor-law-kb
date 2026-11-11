@@ -1,0 +1,1472 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- BERKAS DIGENERATE. JANGAN EDIT MANUAL.
+     Sumber   : norma.csv, parameter.csv, kategori.csv, pengali_lembur.csv, program_jamsos.csv
+     Hasilkan : uv run python scripts/build_ontology.py -->
+<rdf:RDF xmlns:brick="https://brickschema.org/schema/Brick#" xmlns:csvw="http://www.w3.org/ns/csvw#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcam="http://purl.org/dc/dcam/" xmlns:dcat="http://www.w3.org/ns/dcat#" xmlns:dcmitype="http://purl.org/dc/dcmitype/" xmlns:dct="http://purl.org/dc/terms/" xmlns:doap="http://usefulinc.com/ns/doap#" xmlns:foaf="http://xmlns.com/foaf/0.1/" xmlns:geo="http://www.opengis.net/ont/geosparql#" xmlns:ktn="https://example.org/kbr/ketenagakerjaan#" xmlns:odrl="http://www.w3.org/ns/odrl/2/" xmlns:org="http://www.w3.org/ns/org#" xmlns:owl="http://www.w3.org/2002/07/owl#" xmlns:prof="http://www.w3.org/ns/dx/prof/" xmlns:prov="http://www.w3.org/ns/prov#" xmlns:qb="http://purl.org/linked-data/cube#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:reg="https://example.org/kbr/regulasi#" xmlns:schema="https://schema.org/" xmlns:sh="http://www.w3.org/ns/shacl#" xmlns:skos="http://www.w3.org/2004/02/skos/core#" xmlns:sosa="http://www.w3.org/ns/sosa/" xmlns:ssn="http://www.w3.org/ns/ssn/" xmlns:time="http://www.w3.org/2006/time#" xmlns:vann="http://purl.org/vocab/vann/" xmlns:void="http://rdfs.org/ns/void#" xmlns:wgs="https://www.w3.org/2003/01/geo/wgs84_pos#" xmlns:xml="http://www.w3.org/XML/1998/namespace" xmlns:xsd="http://www.w3.org/2001/XMLSchema#">
+  <rdf:Description rdf:about="https://example.org/kbr/ketenagakerjaan#AhliWarisPengusahaMengakhiriPK">
+    <dct:source rdf:resource="https://example.org/kbr/regulasi#UU-13-2003"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="https://example.org/kbr/ketenagakerjaan#AlasanPHK"/>
+    <ktn:berkaitanTopik rdf:resource="https://example.org/kbr/ketenagakerjaan#TopikPHK"/>
+    <ktn:pasal>Pasal 61 ayat (4)</ktn:pasal>
+    <ktn:tautanSumber rdf:resource="https://peraturan.bpk.go.id/Details/43013/uu-no-13-tahun-2003"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://example.org/kbr/ketenagakerjaan#AnakDianggapBekerja">
+    <dct:source rdf:resource="https://example.org/kbr/regulasi#UU-13-2003"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="https://example.org/kbr/ketenagakerjaan#KetentuanKIA"/>
+    <ktn:berkaitanTopik rdf:resource="https://example.org/kbr/ketenagakerjaan#TopikKIA"/>
+    <ktn:pasal>Pasal 73</ktn:pasal>
+    <ktn:tautanSumber rdf:resource="https://peraturan.bpk.go.id/Details/43013/uu-no-13-tahun-2003"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://example.org/kbr/ketenagakerjaan#AnakPekerjaanBakatMinat">
+    <dct:source rdf:resource="https://example.org/kbr/regulasi#UU-13-2003"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="https://example.org/kbr/ketenagakerjaan#KetentuanKIA"/>
+    <ktn:berkaitanTopik rdf:resource="https://example.org/kbr/ketenagakerjaan#TopikKIA"/>
+    <ktn:pasal>Pasal 71</ktn:pasal>
+    <ktn:tautanSumber rdf:resource="https://peraturan.bpk.go.id/Details/43013/uu-no-13-tahun-2003"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://example.org/kbr/ketenagakerjaan#AnakPekerjaanKurikulum">
+    <dct:source rdf:resource="https://example.org/kbr/regulasi#UU-13-2003"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="https://example.org/kbr/ketenagakerjaan#KetentuanKIA"/>
+    <ktn:berkaitanTopik rdf:resource="https://example.org/kbr/ketenagakerjaan#TopikKIA"/>
+    <ktn:pasal>Pasal 70</ktn:pasal>
+    <ktn:tautanSumber rdf:resource="https://peraturan.bpk.go.id/Details/43013/uu-no-13-tahun-2003"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://example.org/kbr/ketenagakerjaan#AngkutanPerempuanKerjaMalam">
+    <dct:source rdf:resource="https://example.org/kbr/regulasi#UU-13-2003"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="https://example.org/kbr/ketenagakerjaan#KetentuanWaktuKerja"/>
+    <ktn:berkaitanTopik rdf:resource="https://example.org/kbr/ketenagakerjaan#TopikWaktuKerja"/>
+    <ktn:pasal>Pasal 76 ayat (4)</ktn:pasal>
+    <ktn:tautanSumber rdf:resource="https://peraturan.bpk.go.id/Details/43013/uu-no-13-tahun-2003"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://example.org/kbr/ketenagakerjaan#BantuanKeluargaPekerjaDitahanUu132003">
+    <dct:source rdf:resource="https://example.org/kbr/regulasi#UU-13-2003"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="https://example.org/kbr/ketenagakerjaan#KetentuanUpah"/>
+    <ktn:berkaitanTopik rdf:resource="https://example.org/kbr/ketenagakerjaan#TopikUpah"/>
+    <ktn:pasal>Pasal 160 ayat (1)</ktn:pasal>
+    <ktn:tautanSumber rdf:resource="https://peraturan.bpk.go.id/Details/43013/uu-no-13-tahun-2003"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://example.org/kbr/ketenagakerjaan#BatasBantuanKeluarga6Bulan">
+    <dct:source rdf:resource="https://example.org/kbr/regulasi#UU-13-2003"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="https://example.org/kbr/ketenagakerjaan#KetentuanUpah"/>
+    <ktn:berkaitanTopik rdf:resource="https://example.org/kbr/ketenagakerjaan#TopikUpah"/>
+    <ktn:pasal>Pasal 160 ayat (2)</ktn:pasal>
+    <ktn:tautanSumber rdf:resource="https://peraturan.bpk.go.id/Details/43013/uu-no-13-tahun-2003"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://example.org/kbr/ketenagakerjaan#BatasJangkaWaktuPKWTUu132003">
+    <dct:source rdf:resource="https://example.org/kbr/regulasi#UU-13-2003"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="https://example.org/kbr/ketenagakerjaan#KetentuanPKWT"/>
+    <ktn:batasTahunPKWT rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2</ktn:batasTahunPKWT>
+    <ktn:berkaitanTopik rdf:resource="https://example.org/kbr/ketenagakerjaan#TopikPKWT"/>
+    <ktn:pasal>Pasal 59 ayat (4)</ktn:pasal>
+    <ktn:tautanSumber rdf:resource="https://peraturan.bpk.go.id/Details/43013/uu-no-13-tahun-2003"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://example.org/kbr/ketenagakerjaan#BiayaPKDitanggungPengusaha">
+    <dct:source rdf:resource="https://example.org/kbr/regulasi#UU-13-2003"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="https://example.org/kbr/ketenagakerjaan#KetentuanPKWT"/>
+    <ktn:berkaitanTopik rdf:resource="https://example.org/kbr/ketenagakerjaan#TopikPKWT"/>
+    <ktn:pasal>Pasal 53</ktn:pasal>
+    <ktn:tautanSumber rdf:resource="https://peraturan.bpk.go.id/Details/43013/uu-no-13-tahun-2003"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://example.org/kbr/ketenagakerjaan#BuktiKerugianAudit">
+    <dct:source rdf:resource="https://example.org/kbr/regulasi#UU-13-2003"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="https://example.org/kbr/ketenagakerjaan#AlasanPHK"/>
+    <ktn:berkaitanTopik rdf:resource="https://example.org/kbr/ketenagakerjaan#TopikPHK"/>
+    <ktn:pasal>Pasal 164 ayat (2)</ktn:pasal>
+    <ktn:tautanSumber rdf:resource="https://peraturan.bpk.go.id/Details/43013/uu-no-13-tahun-2003"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://example.org/kbr/ketenagakerjaan#BuktiKesalahanBerat">
+    <dct:source rdf:resource="https://example.org/kbr/regulasi#UU-13-2003"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="https://example.org/kbr/ketenagakerjaan#AlasanPHK"/>
+    <ktn:berkaitanTopik rdf:resource="https://example.org/kbr/ketenagakerjaan#TopikPHK"/>
+    <ktn:pasal>Pasal 158 ayat (2)</ktn:pasal>
+    <ktn:tautanSumber rdf:resource="https://peraturan.bpk.go.id/Details/43013/uu-no-13-tahun-2003"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://example.org/kbr/ketenagakerjaan#CutiHaid">
+    <dct:source rdf:resource="https://example.org/kbr/regulasi#UU-13-2003"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="https://example.org/kbr/ketenagakerjaan#PeristiwaCutiKhusus"/>
+    <ktn:berkaitanTopik rdf:resource="https://example.org/kbr/ketenagakerjaan#TopikCuti"/>
+    <ktn:pasal>Pasal 81 ayat (1)</ktn:pasal>
+    <ktn:tautanSumber rdf:resource="https://peraturan.bpk.go.id/Details/43013/uu-no-13-tahun-2003"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://example.org/kbr/ketenagakerjaan#CutiKeguguran">
+    <dct:source rdf:resource="https://example.org/kbr/regulasi#UU-13-2003"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="https://example.org/kbr/ketenagakerjaan#PeristiwaCutiKhusus"/>
+    <ktn:berkaitanTopik rdf:resource="https://example.org/kbr/ketenagakerjaan#TopikCuti"/>
+    <ktn:cutiKeguguranBulan rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">1.5</ktn:cutiKeguguranBulan>
+    <ktn:pasal>Pasal 82 ayat (2)</ktn:pasal>
+    <ktn:tautanSumber rdf:resource="https://peraturan.bpk.go.id/Details/43013/uu-no-13-tahun-2003"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://example.org/kbr/ketenagakerjaan#CutiMelahirkan">
+    <dct:source rdf:resource="https://example.org/kbr/regulasi#UU-13-2003"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="https://example.org/kbr/ketenagakerjaan#PeristiwaCutiKhusus"/>
+    <ktn:berkaitanTopik rdf:resource="https://example.org/kbr/ketenagakerjaan#TopikCuti"/>
+    <ktn:cutiMelahirkanBulanMax rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">1.5</ktn:cutiMelahirkanBulanMax>
+    <ktn:cutiMelahirkanBulanMin rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">1.5</ktn:cutiMelahirkanBulanMin>
+    <ktn:pasal>Pasal 82 ayat (1)</ktn:pasal>
+    <ktn:tautanSumber rdf:resource="https://peraturan.bpk.go.id/Details/43013/uu-no-13-tahun-2003"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://example.org/kbr/ketenagakerjaan#CutiTahunan12Hari">
+    <dct:source rdf:resource="https://example.org/kbr/regulasi#UU-13-2003"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="https://example.org/kbr/ketenagakerjaan#KetentuanWaktuKerja"/>
+    <ktn:berkaitanTopik rdf:resource="https://example.org/kbr/ketenagakerjaan#TopikCuti"/>
+    <ktn:hariDibayar rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">12</ktn:hariDibayar>
+    <ktn:pasal>Pasal 79 ayat (2) huruf c</ktn:pasal>
+    <ktn:tautanSumber rdf:resource="https://peraturan.bpk.go.id/Details/43013/uu-no-13-tahun-2003"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://example.org/kbr/ketenagakerjaan#DendaKeterlambatanUpahUu132003">
+    <dct:source rdf:resource="https://example.org/kbr/regulasi#UU-13-2003"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="https://example.org/kbr/ketenagakerjaan#KetentuanUpah"/>
+    <ktn:berkaitanTopik rdf:resource="https://example.org/kbr/ketenagakerjaan#TopikUpah"/>
+    <ktn:pasal>Pasal 95 ayat (2)</ktn:pasal>
+    <ktn:tautanSumber rdf:resource="https://peraturan.bpk.go.id/Details/43013/uu-no-13-tahun-2003"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://example.org/kbr/ketenagakerjaan#DendaPelanggaranPekerja">
+    <dct:source rdf:resource="https://example.org/kbr/regulasi#UU-13-2003"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="https://example.org/kbr/ketenagakerjaan#KetentuanUpah"/>
+    <ktn:berkaitanTopik rdf:resource="https://example.org/kbr/ketenagakerjaan#TopikUpah"/>
+    <ktn:pasal>Pasal 95 ayat (1)</ktn:pasal>
+    <ktn:tautanSumber rdf:resource="https://peraturan.bpk.go.id/Details/43013/uu-no-13-tahun-2003"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://example.org/kbr/ketenagakerjaan#GantiRugiPengakhiranPKWT">
+    <dct:source rdf:resource="https://example.org/kbr/regulasi#UU-13-2003"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="https://example.org/kbr/ketenagakerjaan#KetentuanPKWT"/>
+    <ktn:berkaitanTopik rdf:resource="https://example.org/kbr/ketenagakerjaan#TopikPKWT"/>
+    <ktn:pasal>Pasal 62</ktn:pasal>
+    <ktn:tautanSumber rdf:resource="https://peraturan.bpk.go.id/Details/43013/uu-no-13-tahun-2003"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://example.org/kbr/ketenagakerjaan#HakAhliWarisKarenaMeninggal">
+    <dct:source rdf:resource="https://example.org/kbr/regulasi#UU-13-2003"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="https://example.org/kbr/ketenagakerjaan#AlasanPHK"/>
+    <ktn:berkaitanTopik rdf:resource="https://example.org/kbr/ketenagakerjaan#TopikPHK"/>
+    <ktn:pasal>Pasal 166</ktn:pasal>
+    <ktn:pengaliUP rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2</ktn:pengaliUP>
+    <ktn:pengaliUPMK rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</ktn:pengaliUPMK>
+    <ktn:tautanSumber rdf:resource="https://peraturan.bpk.go.id/Details/43013/uu-no-13-tahun-2003"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://example.org/kbr/ketenagakerjaan#HakAhliWarisPekerja">
+    <dct:source rdf:resource="https://example.org/kbr/regulasi#UU-13-2003"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="https://example.org/kbr/ketenagakerjaan#AlasanPHK"/>
+    <ktn:berkaitanTopik rdf:resource="https://example.org/kbr/ketenagakerjaan#TopikPHK"/>
+    <ktn:pasal>Pasal 61 ayat (5)</ktn:pasal>
+    <ktn:tautanSumber rdf:resource="https://peraturan.bpk.go.id/Details/43013/uu-no-13-tahun-2003"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://example.org/kbr/ketenagakerjaan#HakJaminanSosialNorma">
+    <dct:source rdf:resource="https://example.org/kbr/regulasi#UU-13-2003"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="https://example.org/kbr/ketenagakerjaan#KetentuanJaminanSosial"/>
+    <ktn:berkaitanTopik rdf:resource="https://example.org/kbr/ketenagakerjaan#TopikJamsos"/>
+    <ktn:pasal>Pasal 99 ayat (1)</ktn:pasal>
+    <ktn:tautanSumber rdf:resource="https://peraturan.bpk.go.id/Details/43013/uu-no-13-tahun-2003"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://example.org/kbr/ketenagakerjaan#HakPekerjaMangkir">
+    <dct:source rdf:resource="https://example.org/kbr/regulasi#UU-13-2003"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="https://example.org/kbr/ketenagakerjaan#AlasanPHK"/>
+    <ktn:berkaitanTopik rdf:resource="https://example.org/kbr/ketenagakerjaan#TopikPHK"/>
+    <ktn:pasal>Pasal 168 ayat (3)</ktn:pasal>
+    <ktn:tautanSumber rdf:resource="https://peraturan.bpk.go.id/Details/43013/uu-no-13-tahun-2003"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://example.org/kbr/ketenagakerjaan#HakPekerjaPadaPengalihanPerusahaan">
+    <dct:source rdf:resource="https://example.org/kbr/regulasi#UU-13-2003"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="https://example.org/kbr/ketenagakerjaan#AlasanPHK"/>
+    <ktn:berkaitanTopik rdf:resource="https://example.org/kbr/ketenagakerjaan#TopikPHK"/>
+    <ktn:pasal>Pasal 61 ayat (3)</ktn:pasal>
+    <ktn:tautanSumber rdf:resource="https://peraturan.bpk.go.id/Details/43013/uu-no-13-tahun-2003"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://example.org/kbr/ketenagakerjaan#HakPenahananUPMKUPH">
+    <dct:source rdf:resource="https://example.org/kbr/regulasi#UU-13-2003"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="https://example.org/kbr/ketenagakerjaan#AlasanPHK"/>
+    <ktn:berkaitanTopik rdf:resource="https://example.org/kbr/ketenagakerjaan#TopikPHK"/>
+    <ktn:pasal>Pasal 160 ayat (7)</ktn:pasal>
+    <ktn:pengaliUPMK rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</ktn:pengaliUPMK>
+    <ktn:tautanSumber rdf:resource="https://peraturan.bpk.go.id/Details/43013/uu-no-13-tahun-2003"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://example.org/kbr/ketenagakerjaan#HakPenghasilanLayak">
+    <dct:source rdf:resource="https://example.org/kbr/regulasi#UU-13-2003"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="https://example.org/kbr/ketenagakerjaan#KetentuanUpah"/>
+    <ktn:berkaitanTopik rdf:resource="https://example.org/kbr/ketenagakerjaan#TopikUpah"/>
+    <ktn:pasal>Pasal 88 ayat (1)</ktn:pasal>
+    <ktn:tautanSumber rdf:resource="https://peraturan.bpk.go.id/Details/43013/uu-no-13-tahun-2003"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://example.org/kbr/ketenagakerjaan#IstirahatAntaraJamKerja">
+    <dct:source rdf:resource="https://example.org/kbr/regulasi#UU-13-2003"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="https://example.org/kbr/ketenagakerjaan#KetentuanWaktuKerja"/>
+    <ktn:berkaitanTopik rdf:resource="https://example.org/kbr/ketenagakerjaan#TopikWaktuKerja"/>
+    <ktn:pasal>Pasal 79 ayat (2) huruf a</ktn:pasal>
+    <ktn:tautanSumber rdf:resource="https://peraturan.bpk.go.id/Details/43013/uu-no-13-tahun-2003"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://example.org/kbr/ketenagakerjaan#IstirahatMingguan5HariUu132003">
+    <dct:source rdf:resource="https://example.org/kbr/regulasi#UU-13-2003"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="https://example.org/kbr/ketenagakerjaan#KetentuanWaktuKerja"/>
+    <ktn:berkaitanTopik rdf:resource="https://example.org/kbr/ketenagakerjaan#TopikWaktuKerja"/>
+    <ktn:istirahatMingguanHari rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2</ktn:istirahatMingguanHari>
+    <ktn:pasal>Pasal 79 ayat (2) huruf b</ktn:pasal>
+    <ktn:tautanSumber rdf:resource="https://peraturan.bpk.go.id/Details/43013/uu-no-13-tahun-2003"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://example.org/kbr/ketenagakerjaan#IstirahatMingguan6HariUu132003">
+    <dct:source rdf:resource="https://example.org/kbr/regulasi#UU-13-2003"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="https://example.org/kbr/ketenagakerjaan#KetentuanWaktuKerja"/>
+    <ktn:berkaitanTopik rdf:resource="https://example.org/kbr/ketenagakerjaan#TopikWaktuKerja"/>
+    <ktn:istirahatMingguanHari rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</ktn:istirahatMingguanHari>
+    <ktn:pasal>Pasal 79 ayat (2) huruf b</ktn:pasal>
+    <ktn:tautanSumber rdf:resource="https://peraturan.bpk.go.id/Details/43013/uu-no-13-tahun-2003"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://example.org/kbr/ketenagakerjaan#IstirahatPanjang">
+    <dct:source rdf:resource="https://example.org/kbr/regulasi#UU-13-2003"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="https://example.org/kbr/ketenagakerjaan#KetentuanWaktuKerja"/>
+    <ktn:berkaitanTopik rdf:resource="https://example.org/kbr/ketenagakerjaan#TopikCuti"/>
+    <ktn:pasal>Pasal 79 ayat (2) huruf d</ktn:pasal>
+    <ktn:tautanSumber rdf:resource="https://peraturan.bpk.go.id/Details/43013/uu-no-13-tahun-2003"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://example.org/kbr/ketenagakerjaan#IzinTertulisTKA">
+    <dct:source rdf:resource="https://example.org/kbr/regulasi#UU-13-2003"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="https://example.org/kbr/ketenagakerjaan#KetentuanTKA"/>
+    <ktn:berkaitanTopik rdf:resource="https://example.org/kbr/ketenagakerjaan#TopikTKA"/>
+    <ktn:pasal>Pasal 42 ayat (1)</ktn:pasal>
+    <ktn:tautanSumber rdf:resource="https://peraturan.bpk.go.id/Details/43013/uu-no-13-tahun-2003"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://example.org/kbr/ketenagakerjaan#JHTTetapSaatPensiun">
+    <dct:source rdf:resource="https://example.org/kbr/regulasi#UU-13-2003"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="https://example.org/kbr/ketenagakerjaan#KetentuanJaminanSosial"/>
+    <ktn:berkaitanTopik rdf:resource="https://example.org/kbr/ketenagakerjaan#TopikJamsos"/>
+    <ktn:pasal>Pasal 167 ayat (6)</ktn:pasal>
+    <ktn:tautanSumber rdf:resource="https://peraturan.bpk.go.id/Details/43013/uu-no-13-tahun-2003"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://example.org/kbr/ketenagakerjaan#KadaluwarsaTuntutanUpah">
+    <dct:source rdf:resource="https://example.org/kbr/regulasi#UU-13-2003"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="https://example.org/kbr/ketenagakerjaan#KetentuanUpah"/>
+    <ktn:berkaitanTopik rdf:resource="https://example.org/kbr/ketenagakerjaan#TopikUpah"/>
+    <ktn:pasal>Pasal 96</ktn:pasal>
+    <ktn:tautanSumber rdf:resource="https://peraturan.bpk.go.id/Details/43013/uu-no-13-tahun-2003"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://example.org/kbr/ketenagakerjaan#KerjaHariLiburResmi">
+    <dct:source rdf:resource="https://example.org/kbr/regulasi#UU-13-2003"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="https://example.org/kbr/ketenagakerjaan#KetentuanLembur"/>
+    <ktn:berkaitanTopik rdf:resource="https://example.org/kbr/ketenagakerjaan#TopikLembur"/>
+    <ktn:pasal>Pasal 85 ayat (2)</ktn:pasal>
+    <ktn:tautanSumber rdf:resource="https://peraturan.bpk.go.id/Details/43013/uu-no-13-tahun-2003"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://example.org/kbr/ketenagakerjaan#KesempatanMenyusui">
+    <dct:source rdf:resource="https://example.org/kbr/regulasi#UU-13-2003"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="https://example.org/kbr/ketenagakerjaan#PeristiwaCutiKhusus"/>
+    <ktn:berkaitanTopik rdf:resource="https://example.org/kbr/ketenagakerjaan#TopikCuti"/>
+    <ktn:pasal>Pasal 83</ktn:pasal>
+    <ktn:tautanSumber rdf:resource="https://peraturan.bpk.go.id/Details/43013/uu-no-13-tahun-2003"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://example.org/kbr/ketenagakerjaan#KesepakatanUpahBatalDemiHukum">
+    <dct:source rdf:resource="https://example.org/kbr/regulasi#UU-13-2003"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="https://example.org/kbr/ketenagakerjaan#KetentuanUpah"/>
+    <ktn:berkaitanTopik rdf:resource="https://example.org/kbr/ketenagakerjaan#TopikUpah"/>
+    <ktn:pasal>Pasal 91 ayat (2)</ktn:pasal>
+    <ktn:tautanSumber rdf:resource="https://peraturan.bpk.go.id/Details/43013/uu-no-13-tahun-2003"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://example.org/kbr/ketenagakerjaan#KesepakatanUpahTidakBolehLebihRendah">
+    <dct:source rdf:resource="https://example.org/kbr/regulasi#UU-13-2003"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="https://example.org/kbr/ketenagakerjaan#KetentuanUpah"/>
+    <ktn:berkaitanTopik rdf:resource="https://example.org/kbr/ketenagakerjaan#TopikUpah"/>
+    <ktn:pasal>Pasal 91 ayat (1)</ktn:pasal>
+    <ktn:tautanSumber rdf:resource="https://peraturan.bpk.go.id/Details/43013/uu-no-13-tahun-2003"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://example.org/kbr/ketenagakerjaan#KewajibanBayarPesangonUPMKUPH">
+    <dct:source rdf:resource="https://example.org/kbr/regulasi#UU-13-2003"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="https://example.org/kbr/ketenagakerjaan#AlasanPHK"/>
+    <ktn:berkaitanTopik rdf:resource="https://example.org/kbr/ketenagakerjaan#TopikPHK"/>
+    <ktn:pasal>Pasal 156 ayat (1)</ktn:pasal>
+    <ktn:tautanSumber rdf:resource="https://peraturan.bpk.go.id/Details/43013/uu-no-13-tahun-2003"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://example.org/kbr/ketenagakerjaan#KewajibanBayarUpahLemburUu132003">
+    <dct:source rdf:resource="https://example.org/kbr/regulasi#UU-13-2003"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="https://example.org/kbr/ketenagakerjaan#KetentuanLembur"/>
+    <ktn:berkaitanTopik rdf:resource="https://example.org/kbr/ketenagakerjaan#TopikLembur"/>
+    <ktn:pasal>Pasal 78 ayat (2)</ktn:pasal>
+    <ktn:tautanSumber rdf:resource="https://peraturan.bpk.go.id/Details/43013/uu-no-13-tahun-2003"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://example.org/kbr/ketenagakerjaan#KewajibanPengusahaKerjaMalam">
+    <dct:source rdf:resource="https://example.org/kbr/regulasi#UU-13-2003"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="https://example.org/kbr/ketenagakerjaan#KetentuanWaktuKerja"/>
+    <ktn:berkaitanTopik rdf:resource="https://example.org/kbr/ketenagakerjaan#TopikWaktuKerja"/>
+    <ktn:pasal>Pasal 76 ayat (3)</ktn:pasal>
+    <ktn:tautanSumber rdf:resource="https://peraturan.bpk.go.id/Details/43013/uu-no-13-tahun-2003"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://example.org/kbr/ketenagakerjaan#KompensasiTKA">
+    <dct:source rdf:resource="https://example.org/kbr/regulasi#UU-13-2003"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="https://example.org/kbr/ketenagakerjaan#KetentuanTKA"/>
+    <ktn:berkaitanTopik rdf:resource="https://example.org/kbr/ketenagakerjaan#TopikTKA"/>
+    <ktn:pasal>Pasal 47 ayat (1)</ktn:pasal>
+    <ktn:tautanSumber rdf:resource="https://peraturan.bpk.go.id/Details/43013/uu-no-13-tahun-2003"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://example.org/kbr/ketenagakerjaan#KomponenUpahDasarPesangon">
+    <dct:source rdf:resource="https://example.org/kbr/regulasi#UU-13-2003"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="https://example.org/kbr/ketenagakerjaan#KetentuanUpah"/>
+    <ktn:berkaitanTopik rdf:resource="https://example.org/kbr/ketenagakerjaan#TopikUpah"/>
+    <ktn:pasal>Pasal 157 ayat (1)</ktn:pasal>
+    <ktn:tautanSumber rdf:resource="https://peraturan.bpk.go.id/Details/43013/uu-no-13-tahun-2003"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://example.org/kbr/ketenagakerjaan#LaranganJabatanPersonaliaTKA">
+    <dct:source rdf:resource="https://example.org/kbr/regulasi#UU-13-2003"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="https://example.org/kbr/ketenagakerjaan#KetentuanTKA"/>
+    <ktn:berkaitanTopik rdf:resource="https://example.org/kbr/ketenagakerjaan#TopikTKA"/>
+    <ktn:pasal>Pasal 46 ayat (1)</ktn:pasal>
+    <ktn:tautanSumber rdf:resource="https://peraturan.bpk.go.id/Details/43013/uu-no-13-tahun-2003"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://example.org/kbr/ketenagakerjaan#LaranganKerjaMalamPerempuanAnak">
+    <dct:source rdf:resource="https://example.org/kbr/regulasi#UU-13-2003"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="https://example.org/kbr/ketenagakerjaan#KetentuanWaktuKerja"/>
+    <ktn:berkaitanTopik rdf:resource="https://example.org/kbr/ketenagakerjaan#TopikWaktuKerja"/>
+    <ktn:pasal>Pasal 76 ayat (1)</ktn:pasal>
+    <ktn:tautanSumber rdf:resource="https://peraturan.bpk.go.id/Details/43013/uu-no-13-tahun-2003"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://example.org/kbr/ketenagakerjaan#LaranganKerjaMalamPerempuanHamil">
+    <dct:source rdf:resource="https://example.org/kbr/regulasi#UU-13-2003"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="https://example.org/kbr/ketenagakerjaan#KetentuanWaktuKerja"/>
+    <ktn:berkaitanTopik rdf:resource="https://example.org/kbr/ketenagakerjaan#TopikWaktuKerja"/>
+    <ktn:pasal>Pasal 76 ayat (2)</ktn:pasal>
+    <ktn:tautanSumber rdf:resource="https://peraturan.bpk.go.id/Details/43013/uu-no-13-tahun-2003"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://example.org/kbr/ketenagakerjaan#LaranganMasaPercobaanPKWT">
+    <dct:source rdf:resource="https://example.org/kbr/regulasi#UU-13-2003"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="https://example.org/kbr/ketenagakerjaan#KetentuanPKWT"/>
+    <ktn:berkaitanTopik rdf:resource="https://example.org/kbr/ketenagakerjaan#TopikPKWT"/>
+    <ktn:pasal>Pasal 58 ayat (1)</ktn:pasal>
+    <ktn:tautanSumber rdf:resource="https://peraturan.bpk.go.id/Details/43013/uu-no-13-tahun-2003"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://example.org/kbr/ketenagakerjaan#LaranganMempekerjakanAnak">
+    <dct:source rdf:resource="https://example.org/kbr/regulasi#UU-13-2003"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="https://example.org/kbr/ketenagakerjaan#KetentuanKIA"/>
+    <ktn:berkaitanTopik rdf:resource="https://example.org/kbr/ketenagakerjaan#TopikKIA"/>
+    <ktn:pasal>Pasal 68</ktn:pasal>
+    <ktn:tautanSumber rdf:resource="https://peraturan.bpk.go.id/Details/43013/uu-no-13-tahun-2003"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://example.org/kbr/ketenagakerjaan#LaranganPHKKarenaAktivitasSerikat">
+    <dct:source rdf:resource="https://example.org/kbr/regulasi#UU-13-2003"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="https://example.org/kbr/ketenagakerjaan#AlasanPHK"/>
+    <ktn:berkaitanTopik rdf:resource="https://example.org/kbr/ketenagakerjaan#TopikPHK"/>
+    <ktn:pasal>Pasal 153 ayat (1) huruf g</ktn:pasal>
+    <ktn:tautanSumber rdf:resource="https://peraturan.bpk.go.id/Details/43013/uu-no-13-tahun-2003"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://example.org/kbr/ketenagakerjaan#LaranganPHKKarenaCacatSakitKerja">
+    <dct:source rdf:resource="https://example.org/kbr/regulasi#UU-13-2003"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="https://example.org/kbr/ketenagakerjaan#AlasanPHK"/>
+    <ktn:berkaitanTopik rdf:resource="https://example.org/kbr/ketenagakerjaan#TopikPHK"/>
+    <ktn:pasal>Pasal 153 ayat (1) huruf j</ktn:pasal>
+    <ktn:tautanSumber rdf:resource="https://peraturan.bpk.go.id/Details/43013/uu-no-13-tahun-2003"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://example.org/kbr/ketenagakerjaan#LaranganPHKKarenaDiskriminasi">
+    <dct:source rdf:resource="https://example.org/kbr/regulasi#UU-13-2003"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="https://example.org/kbr/ketenagakerjaan#AlasanPHK"/>
+    <ktn:berkaitanTopik rdf:resource="https://example.org/kbr/ketenagakerjaan#TopikPHK"/>
+    <ktn:pasal>Pasal 153 ayat (1) huruf i</ktn:pasal>
+    <ktn:tautanSumber rdf:resource="https://peraturan.bpk.go.id/Details/43013/uu-no-13-tahun-2003"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://example.org/kbr/ketenagakerjaan#LaranganPHKKarenaHamil">
+    <dct:source rdf:resource="https://example.org/kbr/regulasi#UU-13-2003"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="https://example.org/kbr/ketenagakerjaan#AlasanPHK"/>
+    <ktn:berkaitanTopik rdf:resource="https://example.org/kbr/ketenagakerjaan#TopikPHK"/>
+    <ktn:pasal>Pasal 153 ayat (1) huruf e</ktn:pasal>
+    <ktn:tautanSumber rdf:resource="https://peraturan.bpk.go.id/Details/43013/uu-no-13-tahun-2003"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://example.org/kbr/ketenagakerjaan#LaranganPHKKarenaIbadah">
+    <dct:source rdf:resource="https://example.org/kbr/regulasi#UU-13-2003"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="https://example.org/kbr/ketenagakerjaan#AlasanPHK"/>
+    <ktn:berkaitanTopik rdf:resource="https://example.org/kbr/ketenagakerjaan#TopikPHK"/>
+    <ktn:pasal>Pasal 153 ayat (1) huruf c</ktn:pasal>
+    <ktn:tautanSumber rdf:resource="https://peraturan.bpk.go.id/Details/43013/uu-no-13-tahun-2003"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://example.org/kbr/ketenagakerjaan#LaranganPHKKarenaKewajibanNegara">
+    <dct:source rdf:resource="https://example.org/kbr/regulasi#UU-13-2003"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="https://example.org/kbr/ketenagakerjaan#AlasanPHK"/>
+    <ktn:berkaitanTopik rdf:resource="https://example.org/kbr/ketenagakerjaan#TopikPHK"/>
+    <ktn:pasal>Pasal 153 ayat (1) huruf b</ktn:pasal>
+    <ktn:tautanSumber rdf:resource="https://peraturan.bpk.go.id/Details/43013/uu-no-13-tahun-2003"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://example.org/kbr/ketenagakerjaan#LaranganPHKKarenaMengadukanPidana">
+    <dct:source rdf:resource="https://example.org/kbr/regulasi#UU-13-2003"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="https://example.org/kbr/ketenagakerjaan#AlasanPHK"/>
+    <ktn:berkaitanTopik rdf:resource="https://example.org/kbr/ketenagakerjaan#TopikPHK"/>
+    <ktn:pasal>Pasal 153 ayat (1) huruf h</ktn:pasal>
+    <ktn:tautanSumber rdf:resource="https://peraturan.bpk.go.id/Details/43013/uu-no-13-tahun-2003"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://example.org/kbr/ketenagakerjaan#LaranganPHKKarenaMenikah">
+    <dct:source rdf:resource="https://example.org/kbr/regulasi#UU-13-2003"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="https://example.org/kbr/ketenagakerjaan#AlasanPHK"/>
+    <ktn:berkaitanTopik rdf:resource="https://example.org/kbr/ketenagakerjaan#TopikPHK"/>
+    <ktn:pasal>Pasal 153 ayat (1) huruf d</ktn:pasal>
+    <ktn:tautanSumber rdf:resource="https://peraturan.bpk.go.id/Details/43013/uu-no-13-tahun-2003"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://example.org/kbr/ketenagakerjaan#LaranganPHKKarenaPertalianDarah">
+    <dct:source rdf:resource="https://example.org/kbr/regulasi#UU-13-2003"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="https://example.org/kbr/ketenagakerjaan#AlasanPHK"/>
+    <ktn:berkaitanTopik rdf:resource="https://example.org/kbr/ketenagakerjaan#TopikPHK"/>
+    <ktn:pasal>Pasal 153 ayat (1) huruf f</ktn:pasal>
+    <ktn:tautanSumber rdf:resource="https://peraturan.bpk.go.id/Details/43013/uu-no-13-tahun-2003"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://example.org/kbr/ketenagakerjaan#LaranganPHKKarenaSakit">
+    <dct:source rdf:resource="https://example.org/kbr/regulasi#UU-13-2003"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="https://example.org/kbr/ketenagakerjaan#AlasanPHK"/>
+    <ktn:berkaitanTopik rdf:resource="https://example.org/kbr/ketenagakerjaan#TopikPHK"/>
+    <ktn:pasal>Pasal 153 ayat (1) huruf a</ktn:pasal>
+    <ktn:tautanSumber rdf:resource="https://peraturan.bpk.go.id/Details/43013/uu-no-13-tahun-2003"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://example.org/kbr/ketenagakerjaan#LaranganPekerjaanTerburukAnak">
+    <dct:source rdf:resource="https://example.org/kbr/regulasi#UU-13-2003"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="https://example.org/kbr/ketenagakerjaan#KetentuanKIA"/>
+    <ktn:berkaitanTopik rdf:resource="https://example.org/kbr/ketenagakerjaan#TopikKIA"/>
+    <ktn:pasal>Pasal 74</ktn:pasal>
+    <ktn:tautanSumber rdf:resource="https://peraturan.bpk.go.id/Details/43013/uu-no-13-tahun-2003"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://example.org/kbr/ketenagakerjaan#LaranganPenyediaJasaKegiatanPokok">
+    <dct:source rdf:resource="https://example.org/kbr/regulasi#UU-13-2003"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="https://example.org/kbr/ketenagakerjaan#KetentuanAlihDaya"/>
+    <ktn:berkaitanTopik rdf:resource="https://example.org/kbr/ketenagakerjaan#TopikAlihDaya"/>
+    <ktn:pasal>Pasal 66 ayat (1)</ktn:pasal>
+    <ktn:tautanSumber rdf:resource="https://peraturan.bpk.go.id/Details/43013/uu-no-13-tahun-2003"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://example.org/kbr/ketenagakerjaan#LaranganTKAOlehPerorangan">
+    <dct:source rdf:resource="https://example.org/kbr/regulasi#UU-13-2003"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="https://example.org/kbr/ketenagakerjaan#KetentuanTKA"/>
+    <ktn:berkaitanTopik rdf:resource="https://example.org/kbr/ketenagakerjaan#TopikTKA"/>
+    <ktn:pasal>Pasal 42 ayat (2)</ktn:pasal>
+    <ktn:tautanSumber rdf:resource="https://peraturan.bpk.go.id/Details/43013/uu-no-13-tahun-2003"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://example.org/kbr/ketenagakerjaan#LaranganUpahDiBawahMinimumUu132003">
+    <dct:source rdf:resource="https://example.org/kbr/regulasi#UU-13-2003"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="https://example.org/kbr/ketenagakerjaan#KetentuanUpah"/>
+    <ktn:berkaitanTopik rdf:resource="https://example.org/kbr/ketenagakerjaan#TopikUpah"/>
+    <ktn:pasal>Pasal 90 ayat (1)</ktn:pasal>
+    <ktn:tautanSumber rdf:resource="https://peraturan.bpk.go.id/Details/43013/uu-no-13-tahun-2003"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://example.org/kbr/ketenagakerjaan#MasaBerlakuSuratPeringatan">
+    <dct:source rdf:resource="https://example.org/kbr/regulasi#UU-13-2003"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="https://example.org/kbr/ketenagakerjaan#AlasanPHK"/>
+    <ktn:berkaitanTopik rdf:resource="https://example.org/kbr/ketenagakerjaan#TopikPHK"/>
+    <ktn:pasal>Pasal 161 ayat (2)</ktn:pasal>
+    <ktn:tautanSumber rdf:resource="https://peraturan.bpk.go.id/Details/43013/uu-no-13-tahun-2003"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://example.org/kbr/ketenagakerjaan#MasaPercobaanPKWTT">
+    <dct:source rdf:resource="https://example.org/kbr/regulasi#UU-13-2003"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="https://example.org/kbr/ketenagakerjaan#KetentuanPKWT"/>
+    <ktn:berkaitanTopik rdf:resource="https://example.org/kbr/ketenagakerjaan#TopikPKWT"/>
+    <ktn:pasal>Pasal 60 ayat (1)</ktn:pasal>
+    <ktn:tautanSumber rdf:resource="https://peraturan.bpk.go.id/Details/43013/uu-no-13-tahun-2003"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://example.org/kbr/ketenagakerjaan#PHKEfisiensi">
+    <dct:source rdf:resource="https://example.org/kbr/regulasi#UU-13-2003"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="https://example.org/kbr/ketenagakerjaan#AlasanPHK"/>
+    <ktn:berkaitanTopik rdf:resource="https://example.org/kbr/ketenagakerjaan#TopikPHK"/>
+    <ktn:pasal>Pasal 164 ayat (3)</ktn:pasal>
+    <ktn:pengaliUP rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2</ktn:pengaliUP>
+    <ktn:pengaliUPMK rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</ktn:pengaliUPMK>
+    <ktn:tautanSumber rdf:resource="https://peraturan.bpk.go.id/Details/43013/uu-no-13-tahun-2003"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://example.org/kbr/ketenagakerjaan#PHKJikaDinyatakanBersalah">
+    <dct:source rdf:resource="https://example.org/kbr/regulasi#UU-13-2003"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="https://example.org/kbr/ketenagakerjaan#AlasanPHK"/>
+    <ktn:berkaitanTopik rdf:resource="https://example.org/kbr/ketenagakerjaan#TopikPHK"/>
+    <ktn:pasal>Pasal 160 ayat (5)</ktn:pasal>
+    <ktn:tautanSumber rdf:resource="https://peraturan.bpk.go.id/Details/43013/uu-no-13-tahun-2003"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://example.org/kbr/ketenagakerjaan#PHKKarenaMangkir">
+    <dct:source rdf:resource="https://example.org/kbr/regulasi#UU-13-2003"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="https://example.org/kbr/ketenagakerjaan#AlasanPHK"/>
+    <ktn:berkaitanTopik rdf:resource="https://example.org/kbr/ketenagakerjaan#TopikPHK"/>
+    <ktn:pasal>Pasal 168 ayat (1)</ktn:pasal>
+    <ktn:tautanSumber rdf:resource="https://peraturan.bpk.go.id/Details/43013/uu-no-13-tahun-2003"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://example.org/kbr/ketenagakerjaan#PHKKarenaPailit">
+    <dct:source rdf:resource="https://example.org/kbr/regulasi#UU-13-2003"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="https://example.org/kbr/ketenagakerjaan#AlasanPHK"/>
+    <ktn:berkaitanTopik rdf:resource="https://example.org/kbr/ketenagakerjaan#TopikPHK"/>
+    <ktn:pasal>Pasal 165</ktn:pasal>
+    <ktn:pengaliUP rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</ktn:pengaliUP>
+    <ktn:pengaliUPMK rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</ktn:pengaliUPMK>
+    <ktn:tautanSumber rdf:resource="https://peraturan.bpk.go.id/Details/43013/uu-no-13-tahun-2003"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://example.org/kbr/ketenagakerjaan#PHKKesalahanBerat">
+    <dct:source rdf:resource="https://example.org/kbr/regulasi#UU-13-2003"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="https://example.org/kbr/ketenagakerjaan#AlasanPHK"/>
+    <ktn:berkaitanTopik rdf:resource="https://example.org/kbr/ketenagakerjaan#TopikPHK"/>
+    <ktn:pasal>Pasal 158 ayat (1)</ktn:pasal>
+    <ktn:tautanSumber rdf:resource="https://peraturan.bpk.go.id/Details/43013/uu-no-13-tahun-2003"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://example.org/kbr/ketenagakerjaan#PHKOlehPekerjaKarenaPerbuatanPengusaha">
+    <dct:source rdf:resource="https://example.org/kbr/regulasi#UU-13-2003"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="https://example.org/kbr/ketenagakerjaan#AlasanPHK"/>
+    <ktn:berkaitanTopik rdf:resource="https://example.org/kbr/ketenagakerjaan#TopikPHK"/>
+    <ktn:pasal>Pasal 169 ayat (1)</ktn:pasal>
+    <ktn:tautanSumber rdf:resource="https://peraturan.bpk.go.id/Details/43013/uu-no-13-tahun-2003"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://example.org/kbr/ketenagakerjaan#PHKOlehPekerjaTidakTerbukti">
+    <dct:source rdf:resource="https://example.org/kbr/regulasi#UU-13-2003"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="https://example.org/kbr/ketenagakerjaan#AlasanPHK"/>
+    <ktn:berkaitanTopik rdf:resource="https://example.org/kbr/ketenagakerjaan#TopikPHK"/>
+    <ktn:pasal>Pasal 169 ayat (3)</ktn:pasal>
+    <ktn:tautanSumber rdf:resource="https://peraturan.bpk.go.id/Details/43013/uu-no-13-tahun-2003"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://example.org/kbr/ketenagakerjaan#PHKPenahananTanpaPenetapan">
+    <dct:source rdf:resource="https://example.org/kbr/regulasi#UU-13-2003"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="https://example.org/kbr/ketenagakerjaan#AlasanPHK"/>
+    <ktn:berkaitanTopik rdf:resource="https://example.org/kbr/ketenagakerjaan#TopikPHK"/>
+    <ktn:pasal>Pasal 160 ayat (6)</ktn:pasal>
+    <ktn:tautanSumber rdf:resource="https://peraturan.bpk.go.id/Details/43013/uu-no-13-tahun-2003"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://example.org/kbr/ketenagakerjaan#PHKPerluPenetapanLPPHI">
+    <dct:source rdf:resource="https://example.org/kbr/regulasi#UU-13-2003"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="https://example.org/kbr/ketenagakerjaan#AlasanPHK"/>
+    <ktn:berkaitanTopik rdf:resource="https://example.org/kbr/ketenagakerjaan#TopikPHK"/>
+    <ktn:pasal>Pasal 151 ayat (3)</ktn:pasal>
+    <ktn:tautanSumber rdf:resource="https://peraturan.bpk.go.id/Details/43013/uu-no-13-tahun-2003"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://example.org/kbr/ketenagakerjaan#PHKPerubahanStatusPekerjaTidakBersedia">
+    <dct:source rdf:resource="https://example.org/kbr/regulasi#UU-13-2003"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="https://example.org/kbr/ketenagakerjaan#AlasanPHK"/>
+    <ktn:berkaitanTopik rdf:resource="https://example.org/kbr/ketenagakerjaan#TopikPHK"/>
+    <ktn:pasal>Pasal 163 ayat (1)</ktn:pasal>
+    <ktn:pengaliUP rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</ktn:pengaliUP>
+    <ktn:pengaliUPMK rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</ktn:pengaliUPMK>
+    <ktn:tautanSumber rdf:resource="https://peraturan.bpk.go.id/Details/43013/uu-no-13-tahun-2003"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://example.org/kbr/ketenagakerjaan#PHKPerubahanStatusPengusahaTidakBersedia">
+    <dct:source rdf:resource="https://example.org/kbr/regulasi#UU-13-2003"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="https://example.org/kbr/ketenagakerjaan#AlasanPHK"/>
+    <ktn:berkaitanTopik rdf:resource="https://example.org/kbr/ketenagakerjaan#TopikPHK"/>
+    <ktn:pasal>Pasal 163 ayat (2)</ktn:pasal>
+    <ktn:pengaliUP rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2</ktn:pengaliUP>
+    <ktn:pengaliUPMK rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</ktn:pengaliUPMK>
+    <ktn:tautanSumber rdf:resource="https://peraturan.bpk.go.id/Details/43013/uu-no-13-tahun-2003"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://example.org/kbr/ketenagakerjaan#PHKSakitBerkepanjangan">
+    <dct:source rdf:resource="https://example.org/kbr/regulasi#UU-13-2003"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="https://example.org/kbr/ketenagakerjaan#AlasanPHK"/>
+    <ktn:berkaitanTopik rdf:resource="https://example.org/kbr/ketenagakerjaan#TopikPHK"/>
+    <ktn:pasal>Pasal 172</ktn:pasal>
+    <ktn:pengaliUP rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2</ktn:pengaliUP>
+    <ktn:pengaliUPMK rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2</ktn:pengaliUPMK>
+    <ktn:tautanSumber rdf:resource="https://peraturan.bpk.go.id/Details/43013/uu-no-13-tahun-2003"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://example.org/kbr/ketenagakerjaan#PHKSetelahDitahan6Bulan">
+    <dct:source rdf:resource="https://example.org/kbr/regulasi#UU-13-2003"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="https://example.org/kbr/ketenagakerjaan#AlasanPHK"/>
+    <ktn:berkaitanTopik rdf:resource="https://example.org/kbr/ketenagakerjaan#TopikPHK"/>
+    <ktn:pasal>Pasal 160 ayat (3)</ktn:pasal>
+    <ktn:tautanSumber rdf:resource="https://peraturan.bpk.go.id/Details/43013/uu-no-13-tahun-2003"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://example.org/kbr/ketenagakerjaan#PHKSetelahTigaSP">
+    <dct:source rdf:resource="https://example.org/kbr/regulasi#UU-13-2003"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="https://example.org/kbr/ketenagakerjaan#AlasanPHK"/>
+    <ktn:berkaitanTopik rdf:resource="https://example.org/kbr/ketenagakerjaan#TopikPHK"/>
+    <ktn:pasal>Pasal 161 ayat (1)</ktn:pasal>
+    <ktn:tautanSumber rdf:resource="https://peraturan.bpk.go.id/Details/43013/uu-no-13-tahun-2003"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://example.org/kbr/ketenagakerjaan#PHKTanpaDasarBatal">
+    <dct:source rdf:resource="https://example.org/kbr/regulasi#UU-13-2003"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="https://example.org/kbr/ketenagakerjaan#AlasanPHK"/>
+    <ktn:berkaitanTopik rdf:resource="https://example.org/kbr/ketenagakerjaan#TopikPHK"/>
+    <ktn:pasal>Pasal 170</ktn:pasal>
+    <ktn:tautanSumber rdf:resource="https://peraturan.bpk.go.id/Details/43013/uu-no-13-tahun-2003"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://example.org/kbr/ketenagakerjaan#PHKTanpaPenetapanBatal">
+    <dct:source rdf:resource="https://example.org/kbr/regulasi#UU-13-2003"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="https://example.org/kbr/ketenagakerjaan#AlasanPHK"/>
+    <ktn:berkaitanTopik rdf:resource="https://example.org/kbr/ketenagakerjaan#TopikPHK"/>
+    <ktn:pasal>Pasal 155 ayat (1)</ktn:pasal>
+    <ktn:tautanSumber rdf:resource="https://peraturan.bpk.go.id/Details/43013/uu-no-13-tahun-2003"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://example.org/kbr/ketenagakerjaan#PHKTanpaPenetapanDikecualikan">
+    <dct:source rdf:resource="https://example.org/kbr/regulasi#UU-13-2003"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="https://example.org/kbr/ketenagakerjaan#AlasanPHK"/>
+    <ktn:berkaitanTopik rdf:resource="https://example.org/kbr/ketenagakerjaan#TopikPHK"/>
+    <ktn:pasal>Pasal 154</ktn:pasal>
+    <ktn:tautanSumber rdf:resource="https://peraturan.bpk.go.id/Details/43013/uu-no-13-tahun-2003"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://example.org/kbr/ketenagakerjaan#PHKTutupKarenaRugiForceMajeur">
+    <dct:source rdf:resource="https://example.org/kbr/regulasi#UU-13-2003"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="https://example.org/kbr/ketenagakerjaan#AlasanPHK"/>
+    <ktn:berkaitanTopik rdf:resource="https://example.org/kbr/ketenagakerjaan#TopikPHK"/>
+    <ktn:pasal>Pasal 164 ayat (1)</ktn:pasal>
+    <ktn:pengaliUP rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</ktn:pengaliUP>
+    <ktn:pengaliUPMK rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</ktn:pengaliUPMK>
+    <ktn:tautanSumber rdf:resource="https://peraturan.bpk.go.id/Details/43013/uu-no-13-tahun-2003"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://example.org/kbr/ketenagakerjaan#PHKWajibDirundingkan">
+    <dct:source rdf:resource="https://example.org/kbr/regulasi#UU-13-2003"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="https://example.org/kbr/ketenagakerjaan#AlasanPHK"/>
+    <ktn:berkaitanTopik rdf:resource="https://example.org/kbr/ketenagakerjaan#TopikPHK"/>
+    <ktn:pasal>Pasal 151 ayat (2)</ktn:pasal>
+    <ktn:tautanSumber rdf:resource="https://peraturan.bpk.go.id/Details/43013/uu-no-13-tahun-2003"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://example.org/kbr/ketenagakerjaan#PKTTidakDapatDitarikKembali">
+    <dct:source rdf:resource="https://example.org/kbr/regulasi#UU-13-2003"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="https://example.org/kbr/ketenagakerjaan#KetentuanPKWT"/>
+    <ktn:berkaitanTopik rdf:resource="https://example.org/kbr/ketenagakerjaan#TopikPKWT"/>
+    <ktn:pasal>Pasal 55</ktn:pasal>
+    <ktn:tautanSumber rdf:resource="https://peraturan.bpk.go.id/Details/43013/uu-no-13-tahun-2003"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://example.org/kbr/ketenagakerjaan#PKTidakBerakhirPengusahaMeninggal">
+    <dct:source rdf:resource="https://example.org/kbr/regulasi#UU-13-2003"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="https://example.org/kbr/ketenagakerjaan#AlasanPHK"/>
+    <ktn:berkaitanTopik rdf:resource="https://example.org/kbr/ketenagakerjaan#TopikPHK"/>
+    <ktn:pasal>Pasal 61 ayat (2)</ktn:pasal>
+    <ktn:tautanSumber rdf:resource="https://peraturan.bpk.go.id/Details/43013/uu-no-13-tahun-2003"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://example.org/kbr/ketenagakerjaan#PKWTDapatDibatalkan">
+    <dct:source rdf:resource="https://example.org/kbr/regulasi#UU-13-2003"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="https://example.org/kbr/ketenagakerjaan#KetentuanPKWT"/>
+    <ktn:berkaitanTopik rdf:resource="https://example.org/kbr/ketenagakerjaan#TopikPKWT"/>
+    <ktn:pasal>Pasal 52 ayat (2)</ktn:pasal>
+    <ktn:tautanSumber rdf:resource="https://peraturan.bpk.go.id/Details/43013/uu-no-13-tahun-2003"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://example.org/kbr/ketenagakerjaan#PKWTLaranganPekerjaanTetap">
+    <dct:source rdf:resource="https://example.org/kbr/regulasi#UU-13-2003"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="https://example.org/kbr/ketenagakerjaan#KetentuanPKWT"/>
+    <ktn:berkaitanTopik rdf:resource="https://example.org/kbr/ketenagakerjaan#TopikPKWT"/>
+    <ktn:pasal>Pasal 59 ayat (2)</ktn:pasal>
+    <ktn:tautanSumber rdf:resource="https://peraturan.bpk.go.id/Details/43013/uu-no-13-tahun-2003"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://example.org/kbr/ketenagakerjaan#PKWTLisanMenjadiPKWTT">
+    <dct:source rdf:resource="https://example.org/kbr/regulasi#UU-13-2003"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="https://example.org/kbr/ketenagakerjaan#KetentuanPKWT"/>
+    <ktn:berkaitanTopik rdf:resource="https://example.org/kbr/ketenagakerjaan#TopikPKWT"/>
+    <ktn:pasal>Pasal 57 ayat (2)</ktn:pasal>
+    <ktn:tautanSumber rdf:resource="https://peraturan.bpk.go.id/Details/43013/uu-no-13-tahun-2003"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://example.org/kbr/ketenagakerjaan#PKWTPekerjaanTertentu">
+    <dct:source rdf:resource="https://example.org/kbr/regulasi#UU-13-2003"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="https://example.org/kbr/ketenagakerjaan#KetentuanPKWT"/>
+    <ktn:batasTahunPKWT rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">3</ktn:batasTahunPKWT>
+    <ktn:berkaitanTopik rdf:resource="https://example.org/kbr/ketenagakerjaan#TopikPKWT"/>
+    <ktn:pasal>Pasal 59 ayat (1)</ktn:pasal>
+    <ktn:tautanSumber rdf:resource="https://peraturan.bpk.go.id/Details/43013/uu-no-13-tahun-2003"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://example.org/kbr/ketenagakerjaan#PKWTTertulisBahasaIndonesia">
+    <dct:source rdf:resource="https://example.org/kbr/regulasi#UU-13-2003"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="https://example.org/kbr/ketenagakerjaan#KetentuanPKWT"/>
+    <ktn:berkaitanTopik rdf:resource="https://example.org/kbr/ketenagakerjaan#TopikPKWT"/>
+    <ktn:pasal>Pasal 57 ayat (1)</ktn:pasal>
+    <ktn:tautanSumber rdf:resource="https://peraturan.bpk.go.id/Details/43013/uu-no-13-tahun-2003"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://example.org/kbr/ketenagakerjaan#PKWTTidakMemenuhiSyaratBatal">
+    <dct:source rdf:resource="https://example.org/kbr/regulasi#UU-13-2003"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="https://example.org/kbr/ketenagakerjaan#KetentuanPKWT"/>
+    <ktn:berkaitanTopik rdf:resource="https://example.org/kbr/ketenagakerjaan#TopikPKWT"/>
+    <ktn:pasal>Pasal 52 ayat (3)</ktn:pasal>
+    <ktn:tautanSumber rdf:resource="https://peraturan.bpk.go.id/Details/43013/uu-no-13-tahun-2003"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://example.org/kbr/ketenagakerjaan#PKWTTidakMemenuhiSyaratMenjadiPKWTT">
+    <dct:source rdf:resource="https://example.org/kbr/regulasi#UU-13-2003"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="https://example.org/kbr/ketenagakerjaan#KetentuanPKWT"/>
+    <ktn:berkaitanTopik rdf:resource="https://example.org/kbr/ketenagakerjaan#TopikPKWT"/>
+    <ktn:pasal>Pasal 59 ayat (7)</ktn:pasal>
+    <ktn:tautanSumber rdf:resource="https://peraturan.bpk.go.id/Details/43013/uu-no-13-tahun-2003"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://example.org/kbr/ketenagakerjaan#PelatihanPendampingTKA">
+    <dct:source rdf:resource="https://example.org/kbr/regulasi#UU-13-2003"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="https://example.org/kbr/ketenagakerjaan#KetentuanTKA"/>
+    <ktn:berkaitanTopik rdf:resource="https://example.org/kbr/ketenagakerjaan#TopikTKA"/>
+    <ktn:pasal>Pasal 45 ayat (1) huruf b</ktn:pasal>
+    <ktn:tautanSumber rdf:resource="https://peraturan.bpk.go.id/Details/43013/uu-no-13-tahun-2003"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://example.org/kbr/ketenagakerjaan#PembaruanPKWTSetelahTenggang">
+    <dct:source rdf:resource="https://example.org/kbr/regulasi#UU-13-2003"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="https://example.org/kbr/ketenagakerjaan#KetentuanPKWT"/>
+    <ktn:batasTahunPKWT rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2</ktn:batasTahunPKWT>
+    <ktn:berkaitanTopik rdf:resource="https://example.org/kbr/ketenagakerjaan#TopikPKWT"/>
+    <ktn:pasal>Pasal 59 ayat (6)</ktn:pasal>
+    <ktn:tautanSumber rdf:resource="https://peraturan.bpk.go.id/Details/43013/uu-no-13-tahun-2003"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://example.org/kbr/ketenagakerjaan#PemberitahuanPerpanjanganPKWT">
+    <dct:source rdf:resource="https://example.org/kbr/regulasi#UU-13-2003"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="https://example.org/kbr/ketenagakerjaan#KetentuanPKWT"/>
+    <ktn:berkaitanTopik rdf:resource="https://example.org/kbr/ketenagakerjaan#TopikPKWT"/>
+    <ktn:pasal>Pasal 59 ayat (5)</ktn:pasal>
+    <ktn:tautanSumber rdf:resource="https://peraturan.bpk.go.id/Details/43013/uu-no-13-tahun-2003"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://example.org/kbr/ketenagakerjaan#PemborongHarusBadanHukum">
+    <dct:source rdf:resource="https://example.org/kbr/regulasi#UU-13-2003"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="https://example.org/kbr/ketenagakerjaan#KetentuanAlihDaya"/>
+    <ktn:berkaitanTopik rdf:resource="https://example.org/kbr/ketenagakerjaan#TopikAlihDaya"/>
+    <ktn:pasal>Pasal 65 ayat (3)</ktn:pasal>
+    <ktn:tautanSumber rdf:resource="https://peraturan.bpk.go.id/Details/43013/uu-no-13-tahun-2003"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://example.org/kbr/ketenagakerjaan#PemisahanTempatKerjaAnak">
+    <dct:source rdf:resource="https://example.org/kbr/regulasi#UU-13-2003"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="https://example.org/kbr/ketenagakerjaan#KetentuanKIA"/>
+    <ktn:berkaitanTopik rdf:resource="https://example.org/kbr/ketenagakerjaan#TopikKIA"/>
+    <ktn:pasal>Pasal 72</ktn:pasal>
+    <ktn:tautanSumber rdf:resource="https://peraturan.bpk.go.id/Details/43013/uu-no-13-tahun-2003"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://example.org/kbr/ketenagakerjaan#PemulanganTKA">
+    <dct:source rdf:resource="https://example.org/kbr/regulasi#UU-13-2003"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="https://example.org/kbr/ketenagakerjaan#KetentuanTKA"/>
+    <ktn:berkaitanTopik rdf:resource="https://example.org/kbr/ketenagakerjaan#TopikTKA"/>
+    <ktn:pasal>Pasal 48</ktn:pasal>
+    <ktn:tautanSumber rdf:resource="https://peraturan.bpk.go.id/Details/43013/uu-no-13-tahun-2003"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://example.org/kbr/ketenagakerjaan#PenangguhanUpahMinimum">
+    <dct:source rdf:resource="https://example.org/kbr/regulasi#UU-13-2003"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="https://example.org/kbr/ketenagakerjaan#KetentuanUpah"/>
+    <ktn:berkaitanTopik rdf:resource="https://example.org/kbr/ketenagakerjaan#TopikUpah"/>
+    <ktn:pasal>Pasal 90 ayat (2)</ktn:pasal>
+    <ktn:tautanSumber rdf:resource="https://peraturan.bpk.go.id/Details/43013/uu-no-13-tahun-2003"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://example.org/kbr/ketenagakerjaan#PendampingWNIUntukTKA">
+    <dct:source rdf:resource="https://example.org/kbr/regulasi#UU-13-2003"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="https://example.org/kbr/ketenagakerjaan#KetentuanTKA"/>
+    <ktn:berkaitanTopik rdf:resource="https://example.org/kbr/ketenagakerjaan#TopikTKA"/>
+    <ktn:pasal>Pasal 45 ayat (1) huruf a</ktn:pasal>
+    <ktn:tautanSumber rdf:resource="https://peraturan.bpk.go.id/Details/43013/uu-no-13-tahun-2003"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://example.org/kbr/ketenagakerjaan#PengecualianAnak13Sampai15">
+    <dct:source rdf:resource="https://example.org/kbr/regulasi#UU-13-2003"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="https://example.org/kbr/ketenagakerjaan#KetentuanKIA"/>
+    <ktn:berkaitanTopik rdf:resource="https://example.org/kbr/ketenagakerjaan#TopikKIA"/>
+    <ktn:pasal>Pasal 69 ayat (1)</ktn:pasal>
+    <ktn:tautanSumber rdf:resource="https://peraturan.bpk.go.id/Details/43013/uu-no-13-tahun-2003"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://example.org/kbr/ketenagakerjaan#PengecualianUsahaKeluarga">
+    <dct:source rdf:resource="https://example.org/kbr/regulasi#UU-13-2003"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="https://example.org/kbr/ketenagakerjaan#KetentuanKIA"/>
+    <ktn:berkaitanTopik rdf:resource="https://example.org/kbr/ketenagakerjaan#TopikKIA"/>
+    <ktn:pasal>Pasal 69 ayat (3)</ktn:pasal>
+    <ktn:tautanSumber rdf:resource="https://peraturan.bpk.go.id/Details/43013/uu-no-13-tahun-2003"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://example.org/kbr/ketenagakerjaan#PenggantianTKA">
+    <dct:source rdf:resource="https://example.org/kbr/regulasi#UU-13-2003"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="https://example.org/kbr/ketenagakerjaan#KetentuanTKA"/>
+    <ktn:berkaitanTopik rdf:resource="https://example.org/kbr/ketenagakerjaan#TopikTKA"/>
+    <ktn:pasal>Pasal 42 ayat (6)</ktn:pasal>
+    <ktn:tautanSumber rdf:resource="https://peraturan.bpk.go.id/Details/43013/uu-no-13-tahun-2003"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://example.org/kbr/ketenagakerjaan#PengunduranDiriTanpaPenetapan">
+    <dct:source rdf:resource="https://example.org/kbr/regulasi#UU-13-2003"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="https://example.org/kbr/ketenagakerjaan#AlasanPHK"/>
+    <ktn:berkaitanTopik rdf:resource="https://example.org/kbr/ketenagakerjaan#TopikPHK"/>
+    <ktn:pasal>Pasal 162 ayat (4)</ktn:pasal>
+    <ktn:tautanSumber rdf:resource="https://peraturan.bpk.go.id/Details/43013/uu-no-13-tahun-2003"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://example.org/kbr/ketenagakerjaan#PeninjauanUpahBerkalaUu132003">
+    <dct:source rdf:resource="https://example.org/kbr/regulasi#UU-13-2003"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="https://example.org/kbr/ketenagakerjaan#KetentuanUpah"/>
+    <ktn:berkaitanTopik rdf:resource="https://example.org/kbr/ketenagakerjaan#TopikUpah"/>
+    <ktn:pasal>Pasal 92 ayat (2)</ktn:pasal>
+    <ktn:tautanSumber rdf:resource="https://peraturan.bpk.go.id/Details/43013/uu-no-13-tahun-2003"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://example.org/kbr/ketenagakerjaan#PensiunIuranPenuhPengusaha">
+    <dct:source rdf:resource="https://example.org/kbr/regulasi#UU-13-2003"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="https://example.org/kbr/ketenagakerjaan#AlasanPHK"/>
+    <ktn:berkaitanTopik rdf:resource="https://example.org/kbr/ketenagakerjaan#TopikPHK"/>
+    <ktn:pasal>Pasal 167 ayat (1)</ktn:pasal>
+    <ktn:tautanSumber rdf:resource="https://peraturan.bpk.go.id/Details/43013/uu-no-13-tahun-2003"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://example.org/kbr/ketenagakerjaan#PensiunTanpaProgram">
+    <dct:source rdf:resource="https://example.org/kbr/regulasi#UU-13-2003"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="https://example.org/kbr/ketenagakerjaan#AlasanPHK"/>
+    <ktn:berkaitanTopik rdf:resource="https://example.org/kbr/ketenagakerjaan#TopikPHK"/>
+    <ktn:pasal>Pasal 167 ayat (5)</ktn:pasal>
+    <ktn:pengaliUP rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2</ktn:pengaliUP>
+    <ktn:pengaliUPMK rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</ktn:pengaliUPMK>
+    <ktn:tautanSumber rdf:resource="https://peraturan.bpk.go.id/Details/43013/uu-no-13-tahun-2003"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://example.org/kbr/ketenagakerjaan#PenyediaJasaBadanHukumIzin">
+    <dct:source rdf:resource="https://example.org/kbr/regulasi#UU-13-2003"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="https://example.org/kbr/ketenagakerjaan#KetentuanAlihDaya"/>
+    <ktn:berkaitanTopik rdf:resource="https://example.org/kbr/ketenagakerjaan#TopikAlihDaya"/>
+    <ktn:pasal>Pasal 66 ayat (3)</ktn:pasal>
+    <ktn:tautanSumber rdf:resource="https://peraturan.bpk.go.id/Details/43013/uu-no-13-tahun-2003"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://example.org/kbr/ketenagakerjaan#PenyerahanSebagianPekerjaan">
+    <dct:source rdf:resource="https://example.org/kbr/regulasi#UU-13-2003"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="https://example.org/kbr/ketenagakerjaan#KetentuanAlihDaya"/>
+    <ktn:berkaitanTopik rdf:resource="https://example.org/kbr/ketenagakerjaan#TopikAlihDaya"/>
+    <ktn:pasal>Pasal 64</ktn:pasal>
+    <ktn:tautanSumber rdf:resource="https://peraturan.bpk.go.id/Details/43013/uu-no-13-tahun-2003"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://example.org/kbr/ketenagakerjaan#PeralihanStatusPemborongan">
+    <dct:source rdf:resource="https://example.org/kbr/regulasi#UU-13-2003"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="https://example.org/kbr/ketenagakerjaan#KetentuanAlihDaya"/>
+    <ktn:berkaitanTopik rdf:resource="https://example.org/kbr/ketenagakerjaan#TopikAlihDaya"/>
+    <ktn:pasal>Pasal 65 ayat (8)</ktn:pasal>
+    <ktn:tautanSumber rdf:resource="https://peraturan.bpk.go.id/Details/43013/uu-no-13-tahun-2003"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://example.org/kbr/ketenagakerjaan#PeralihanStatusPenyediaJasa">
+    <dct:source rdf:resource="https://example.org/kbr/regulasi#UU-13-2003"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="https://example.org/kbr/ketenagakerjaan#KetentuanAlihDaya"/>
+    <ktn:berkaitanTopik rdf:resource="https://example.org/kbr/ketenagakerjaan#TopikAlihDaya"/>
+    <ktn:pasal>Pasal 66 ayat (4)</ktn:pasal>
+    <ktn:tautanSumber rdf:resource="https://peraturan.bpk.go.id/Details/43013/uu-no-13-tahun-2003"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://example.org/kbr/ketenagakerjaan#PerhitunganPensiunIuranBersama">
+    <dct:source rdf:resource="https://example.org/kbr/regulasi#UU-13-2003"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="https://example.org/kbr/ketenagakerjaan#AlasanPHK"/>
+    <ktn:berkaitanTopik rdf:resource="https://example.org/kbr/ketenagakerjaan#TopikPHK"/>
+    <ktn:pasal>Pasal 167 ayat (3)</ktn:pasal>
+    <ktn:tautanSumber rdf:resource="https://peraturan.bpk.go.id/Details/43013/uu-no-13-tahun-2003"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://example.org/kbr/ketenagakerjaan#PerjanjianKerjaBerakhir">
+    <dct:source rdf:resource="https://example.org/kbr/regulasi#UU-13-2003"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="https://example.org/kbr/ketenagakerjaan#AlasanPHK"/>
+    <ktn:berkaitanTopik rdf:resource="https://example.org/kbr/ketenagakerjaan#TopikPHK"/>
+    <ktn:pasal>Pasal 61 ayat (1)</ktn:pasal>
+    <ktn:tautanSumber rdf:resource="https://peraturan.bpk.go.id/Details/43013/uu-no-13-tahun-2003"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://example.org/kbr/ketenagakerjaan#PerlindunganSetaraPemborongan">
+    <dct:source rdf:resource="https://example.org/kbr/regulasi#UU-13-2003"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="https://example.org/kbr/ketenagakerjaan#KetentuanAlihDaya"/>
+    <ktn:berkaitanTopik rdf:resource="https://example.org/kbr/ketenagakerjaan#TopikAlihDaya"/>
+    <ktn:pasal>Pasal 65 ayat (4)</ktn:pasal>
+    <ktn:tautanSumber rdf:resource="https://peraturan.bpk.go.id/Details/43013/uu-no-13-tahun-2003"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://example.org/kbr/ketenagakerjaan#PesangonMinimum">
+    <dct:source rdf:resource="https://example.org/kbr/regulasi#UU-13-2003"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="https://example.org/kbr/ketenagakerjaan#AlasanPHK"/>
+    <ktn:berkaitanTopik rdf:resource="https://example.org/kbr/ketenagakerjaan#TopikPHK"/>
+    <ktn:pasal>Pasal 156 ayat (2)</ktn:pasal>
+    <ktn:tautanSumber rdf:resource="https://peraturan.bpk.go.id/Details/43013/uu-no-13-tahun-2003"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://example.org/kbr/ketenagakerjaan#PesangonPHKOlehPekerja">
+    <dct:source rdf:resource="https://example.org/kbr/regulasi#UU-13-2003"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="https://example.org/kbr/ketenagakerjaan#AlasanPHK"/>
+    <ktn:berkaitanTopik rdf:resource="https://example.org/kbr/ketenagakerjaan#TopikPHK"/>
+    <ktn:pasal>Pasal 169 ayat (2)</ktn:pasal>
+    <ktn:pengaliUP rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2</ktn:pengaliUP>
+    <ktn:pengaliUPMK rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</ktn:pengaliUPMK>
+    <ktn:tautanSumber rdf:resource="https://peraturan.bpk.go.id/Details/43013/uu-no-13-tahun-2003"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://example.org/kbr/ketenagakerjaan#PesangonPelanggaranSP">
+    <dct:source rdf:resource="https://example.org/kbr/regulasi#UU-13-2003"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="https://example.org/kbr/ketenagakerjaan#AlasanPHK"/>
+    <ktn:berkaitanTopik rdf:resource="https://example.org/kbr/ketenagakerjaan#TopikPHK"/>
+    <ktn:pasal>Pasal 161 ayat (3)</ktn:pasal>
+    <ktn:pengaliUP rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</ktn:pengaliUP>
+    <ktn:pengaliUPMK rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</ktn:pengaliUPMK>
+    <ktn:tautanSumber rdf:resource="https://peraturan.bpk.go.id/Details/43013/uu-no-13-tahun-2003"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://example.org/kbr/ketenagakerjaan#RencanaPenggunaanTKA">
+    <dct:source rdf:resource="https://example.org/kbr/regulasi#UU-13-2003"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="https://example.org/kbr/ketenagakerjaan#KetentuanTKA"/>
+    <ktn:berkaitanTopik rdf:resource="https://example.org/kbr/ketenagakerjaan#TopikTKA"/>
+    <ktn:pasal>Pasal 43 ayat (1)</ktn:pasal>
+    <ktn:tautanSumber rdf:resource="https://peraturan.bpk.go.id/Details/43013/uu-no-13-tahun-2003"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://example.org/kbr/ketenagakerjaan#SanksiPidanaTidakHapusKewajibanUpah">
+    <dct:source rdf:resource="https://example.org/kbr/regulasi#UU-13-2003"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="https://example.org/kbr/ketenagakerjaan#KetentuanUpah"/>
+    <ktn:berkaitanTopik rdf:resource="https://example.org/kbr/ketenagakerjaan#TopikUpah"/>
+    <ktn:pasal>Pasal 189</ktn:pasal>
+    <ktn:tautanSumber rdf:resource="https://peraturan.bpk.go.id/Details/43013/uu-no-13-tahun-2003"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://example.org/kbr/ketenagakerjaan#SelisihManfaatPensiun">
+    <dct:source rdf:resource="https://example.org/kbr/regulasi#UU-13-2003"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="https://example.org/kbr/ketenagakerjaan#AlasanPHK"/>
+    <ktn:berkaitanTopik rdf:resource="https://example.org/kbr/ketenagakerjaan#TopikPHK"/>
+    <ktn:pasal>Pasal 167 ayat (2)</ktn:pasal>
+    <ktn:pengaliUP rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2</ktn:pengaliUP>
+    <ktn:pengaliUPMK rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</ktn:pengaliUPMK>
+    <ktn:tautanSumber rdf:resource="https://peraturan.bpk.go.id/Details/43013/uu-no-13-tahun-2003"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://example.org/kbr/ketenagakerjaan#SkorsingTetapBayarUpah">
+    <dct:source rdf:resource="https://example.org/kbr/regulasi#UU-13-2003"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="https://example.org/kbr/ketenagakerjaan#KetentuanUpah"/>
+    <ktn:berkaitanTopik rdf:resource="https://example.org/kbr/ketenagakerjaan#TopikUpah"/>
+    <ktn:pasal>Pasal 155 ayat (3)</ktn:pasal>
+    <ktn:tautanSumber rdf:resource="https://peraturan.bpk.go.id/Details/43013/uu-no-13-tahun-2003"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://example.org/kbr/ketenagakerjaan#StandarKompetensiTKA">
+    <dct:source rdf:resource="https://example.org/kbr/regulasi#UU-13-2003"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="https://example.org/kbr/ketenagakerjaan#KetentuanTKA"/>
+    <ktn:berkaitanTopik rdf:resource="https://example.org/kbr/ketenagakerjaan#TopikTKA"/>
+    <ktn:pasal>Pasal 44 ayat (1)</ktn:pasal>
+    <ktn:tautanSumber rdf:resource="https://peraturan.bpk.go.id/Details/43013/uu-no-13-tahun-2003"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://example.org/kbr/ketenagakerjaan#StrukturSkalaUpah">
+    <dct:source rdf:resource="https://example.org/kbr/regulasi#UU-13-2003"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="https://example.org/kbr/ketenagakerjaan#KetentuanUpah"/>
+    <ktn:berkaitanTopik rdf:resource="https://example.org/kbr/ketenagakerjaan#TopikUpah"/>
+    <ktn:pasal>Pasal 92 ayat (1)</ktn:pasal>
+    <ktn:tautanSumber rdf:resource="https://peraturan.bpk.go.id/Details/43013/uu-no-13-tahun-2003"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://example.org/kbr/ketenagakerjaan#SuratPengangkatanPKWTTLisan">
+    <dct:source rdf:resource="https://example.org/kbr/regulasi#UU-13-2003"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="https://example.org/kbr/ketenagakerjaan#KetentuanPKWT"/>
+    <ktn:berkaitanTopik rdf:resource="https://example.org/kbr/ketenagakerjaan#TopikPKWT"/>
+    <ktn:pasal>Pasal 63 ayat (1)</ktn:pasal>
+    <ktn:tautanSumber rdf:resource="https://peraturan.bpk.go.id/Details/43013/uu-no-13-tahun-2003"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://example.org/kbr/ketenagakerjaan#SyaratKerjaLembur">
+    <dct:source rdf:resource="https://example.org/kbr/regulasi#UU-13-2003"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="https://example.org/kbr/ketenagakerjaan#KetentuanLembur"/>
+    <ktn:berkaitanTopik rdf:resource="https://example.org/kbr/ketenagakerjaan#TopikLembur"/>
+    <ktn:jamLemburMaksPerHari rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">3</ktn:jamLemburMaksPerHari>
+    <ktn:jamLemburMaksPerMinggu rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">14</ktn:jamLemburMaksPerMinggu>
+    <ktn:pasal>Pasal 78 ayat (1)</ktn:pasal>
+    <ktn:tautanSumber rdf:resource="https://peraturan.bpk.go.id/Details/43013/uu-no-13-tahun-2003"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://example.org/kbr/ketenagakerjaan#SyaratPekerjaanPemborongan">
+    <dct:source rdf:resource="https://example.org/kbr/regulasi#UU-13-2003"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="https://example.org/kbr/ketenagakerjaan#KetentuanAlihDaya"/>
+    <ktn:berkaitanTopik rdf:resource="https://example.org/kbr/ketenagakerjaan#TopikAlihDaya"/>
+    <ktn:pasal>Pasal 65 ayat (2)</ktn:pasal>
+    <ktn:tautanSumber rdf:resource="https://peraturan.bpk.go.id/Details/43013/uu-no-13-tahun-2003"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://example.org/kbr/ketenagakerjaan#SyaratPekerjaanRinganAnak">
+    <dct:source rdf:resource="https://example.org/kbr/regulasi#UU-13-2003"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="https://example.org/kbr/ketenagakerjaan#KetentuanKIA"/>
+    <ktn:berkaitanTopik rdf:resource="https://example.org/kbr/ketenagakerjaan#TopikKIA"/>
+    <ktn:pasal>Pasal 69 ayat (2)</ktn:pasal>
+    <ktn:tautanSumber rdf:resource="https://peraturan.bpk.go.id/Details/43013/uu-no-13-tahun-2003"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://example.org/kbr/ketenagakerjaan#SyaratPengunduranDiri">
+    <dct:source rdf:resource="https://example.org/kbr/regulasi#UU-13-2003"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="https://example.org/kbr/ketenagakerjaan#AlasanPHK"/>
+    <ktn:berkaitanTopik rdf:resource="https://example.org/kbr/ketenagakerjaan#TopikPHK"/>
+    <ktn:pasal>Pasal 162 ayat (3)</ktn:pasal>
+    <ktn:tautanSumber rdf:resource="https://peraturan.bpk.go.id/Details/43013/uu-no-13-tahun-2003"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://example.org/kbr/ketenagakerjaan#SyaratPenyediaJasaPekerja">
+    <dct:source rdf:resource="https://example.org/kbr/regulasi#UU-13-2003"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="https://example.org/kbr/ketenagakerjaan#KetentuanAlihDaya"/>
+    <ktn:berkaitanTopik rdf:resource="https://example.org/kbr/ketenagakerjaan#TopikAlihDaya"/>
+    <ktn:pasal>Pasal 66 ayat (2)</ktn:pasal>
+    <ktn:tautanSumber rdf:resource="https://peraturan.bpk.go.id/Details/43013/uu-no-13-tahun-2003"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://example.org/kbr/ketenagakerjaan#TKAJabatanWaktuTertentu">
+    <dct:source rdf:resource="https://example.org/kbr/regulasi#UU-13-2003"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="https://example.org/kbr/ketenagakerjaan#KetentuanTKA"/>
+    <ktn:berkaitanTopik rdf:resource="https://example.org/kbr/ketenagakerjaan#TopikTKA"/>
+    <ktn:pasal>Pasal 42 ayat (4)</ktn:pasal>
+    <ktn:tautanSumber rdf:resource="https://peraturan.bpk.go.id/Details/43013/uu-no-13-tahun-2003"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://example.org/kbr/ketenagakerjaan#UP-0-12-UU132003">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="https://example.org/kbr/ketenagakerjaan#KategoriUP"/>
+    <ktn:maxBulan rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">12</ktn:maxBulan>
+    <ktn:minBulan rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</ktn:minBulan>
+    <ktn:pasal>Pasal 156 ayat (2)a</ktn:pasal>
+    <ktn:tautanSumber rdf:resource="https://peraturan.bpk.go.id/Details/43013/uu-no-13-tahun-2003"/>
+    <ktn:upDasarBulan rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</ktn:upDasarBulan>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://example.org/kbr/ketenagakerjaan#UP-12-24-UU132003">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="https://example.org/kbr/ketenagakerjaan#KategoriUP"/>
+    <ktn:maxBulan rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">24</ktn:maxBulan>
+    <ktn:minBulan rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">12</ktn:minBulan>
+    <ktn:pasal>Pasal 156 ayat (2)b</ktn:pasal>
+    <ktn:tautanSumber rdf:resource="https://peraturan.bpk.go.id/Details/43013/uu-no-13-tahun-2003"/>
+    <ktn:upDasarBulan rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2</ktn:upDasarBulan>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://example.org/kbr/ketenagakerjaan#UP-24-36-UU132003">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="https://example.org/kbr/ketenagakerjaan#KategoriUP"/>
+    <ktn:maxBulan rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">36</ktn:maxBulan>
+    <ktn:minBulan rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">24</ktn:minBulan>
+    <ktn:pasal>Pasal 156 ayat (2)c</ktn:pasal>
+    <ktn:tautanSumber rdf:resource="https://peraturan.bpk.go.id/Details/43013/uu-no-13-tahun-2003"/>
+    <ktn:upDasarBulan rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">3</ktn:upDasarBulan>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://example.org/kbr/ketenagakerjaan#UP-36-48-UU132003">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="https://example.org/kbr/ketenagakerjaan#KategoriUP"/>
+    <ktn:maxBulan rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">48</ktn:maxBulan>
+    <ktn:minBulan rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">36</ktn:minBulan>
+    <ktn:pasal>Pasal 156 ayat (2)d</ktn:pasal>
+    <ktn:tautanSumber rdf:resource="https://peraturan.bpk.go.id/Details/43013/uu-no-13-tahun-2003"/>
+    <ktn:upDasarBulan rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">4</ktn:upDasarBulan>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://example.org/kbr/ketenagakerjaan#UP-48-60-UU132003">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="https://example.org/kbr/ketenagakerjaan#KategoriUP"/>
+    <ktn:maxBulan rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">60</ktn:maxBulan>
+    <ktn:minBulan rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">48</ktn:minBulan>
+    <ktn:pasal>Pasal 156 ayat (2)e</ktn:pasal>
+    <ktn:tautanSumber rdf:resource="https://peraturan.bpk.go.id/Details/43013/uu-no-13-tahun-2003"/>
+    <ktn:upDasarBulan rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">5</ktn:upDasarBulan>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://example.org/kbr/ketenagakerjaan#UP-60-72-UU132003">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="https://example.org/kbr/ketenagakerjaan#KategoriUP"/>
+    <ktn:maxBulan rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">72</ktn:maxBulan>
+    <ktn:minBulan rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">60</ktn:minBulan>
+    <ktn:pasal>Pasal 156 ayat (2)f</ktn:pasal>
+    <ktn:tautanSumber rdf:resource="https://peraturan.bpk.go.id/Details/43013/uu-no-13-tahun-2003"/>
+    <ktn:upDasarBulan rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">6</ktn:upDasarBulan>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://example.org/kbr/ketenagakerjaan#UP-72-84-UU132003">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="https://example.org/kbr/ketenagakerjaan#KategoriUP"/>
+    <ktn:maxBulan rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">84</ktn:maxBulan>
+    <ktn:minBulan rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">72</ktn:minBulan>
+    <ktn:pasal>Pasal 156 ayat (2)g</ktn:pasal>
+    <ktn:tautanSumber rdf:resource="https://peraturan.bpk.go.id/Details/43013/uu-no-13-tahun-2003"/>
+    <ktn:upDasarBulan rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">7</ktn:upDasarBulan>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://example.org/kbr/ketenagakerjaan#UP-84-96-UU132003">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="https://example.org/kbr/ketenagakerjaan#KategoriUP"/>
+    <ktn:maxBulan rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">96</ktn:maxBulan>
+    <ktn:minBulan rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">84</ktn:minBulan>
+    <ktn:pasal>Pasal 156 ayat (2)h</ktn:pasal>
+    <ktn:tautanSumber rdf:resource="https://peraturan.bpk.go.id/Details/43013/uu-no-13-tahun-2003"/>
+    <ktn:upDasarBulan rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">8</ktn:upDasarBulan>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://example.org/kbr/ketenagakerjaan#UP-96-INF-UU132003">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="https://example.org/kbr/ketenagakerjaan#KategoriUP"/>
+    <ktn:minBulan rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">96</ktn:minBulan>
+    <ktn:pasal>Pasal 156 ayat (2)i</ktn:pasal>
+    <ktn:tautanSumber rdf:resource="https://peraturan.bpk.go.id/Details/43013/uu-no-13-tahun-2003"/>
+    <ktn:upDasarBulan rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">9</ktn:upDasarBulan>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://example.org/kbr/ketenagakerjaan#UPHKesalahanBerat">
+    <dct:source rdf:resource="https://example.org/kbr/regulasi#UU-13-2003"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="https://example.org/kbr/ketenagakerjaan#AlasanPHK"/>
+    <ktn:berkaitanTopik rdf:resource="https://example.org/kbr/ketenagakerjaan#TopikPHK"/>
+    <ktn:pasal>Pasal 158 ayat (3)</ktn:pasal>
+    <ktn:tautanSumber rdf:resource="https://peraturan.bpk.go.id/Details/43013/uu-no-13-tahun-2003"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://example.org/kbr/ketenagakerjaan#UPHPengunduranDiri">
+    <dct:source rdf:resource="https://example.org/kbr/regulasi#UU-13-2003"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="https://example.org/kbr/ketenagakerjaan#AlasanPHK"/>
+    <ktn:berkaitanTopik rdf:resource="https://example.org/kbr/ketenagakerjaan#TopikPHK"/>
+    <ktn:pasal>Pasal 162 ayat (1)</ktn:pasal>
+    <ktn:tautanSumber rdf:resource="https://peraturan.bpk.go.id/Details/43013/uu-no-13-tahun-2003"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://example.org/kbr/ketenagakerjaan#UPMK-108-144-UU132003">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="https://example.org/kbr/ketenagakerjaan#KategoriUPMK"/>
+    <ktn:maxBulan rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">144</ktn:maxBulan>
+    <ktn:minBulan rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">108</ktn:minBulan>
+    <ktn:pasal>Pasal 156 ayat (3)c</ktn:pasal>
+    <ktn:tautanSumber rdf:resource="https://peraturan.bpk.go.id/Details/43013/uu-no-13-tahun-2003"/>
+    <ktn:upmkDasarBulan rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">4</ktn:upmkDasarBulan>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://example.org/kbr/ketenagakerjaan#UPMK-144-180-UU132003">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="https://example.org/kbr/ketenagakerjaan#KategoriUPMK"/>
+    <ktn:maxBulan rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">180</ktn:maxBulan>
+    <ktn:minBulan rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">144</ktn:minBulan>
+    <ktn:pasal>Pasal 156 ayat (3)d</ktn:pasal>
+    <ktn:tautanSumber rdf:resource="https://peraturan.bpk.go.id/Details/43013/uu-no-13-tahun-2003"/>
+    <ktn:upmkDasarBulan rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">5</ktn:upmkDasarBulan>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://example.org/kbr/ketenagakerjaan#UPMK-180-216-UU132003">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="https://example.org/kbr/ketenagakerjaan#KategoriUPMK"/>
+    <ktn:maxBulan rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">216</ktn:maxBulan>
+    <ktn:minBulan rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">180</ktn:minBulan>
+    <ktn:pasal>Pasal 156 ayat (3)e</ktn:pasal>
+    <ktn:tautanSumber rdf:resource="https://peraturan.bpk.go.id/Details/43013/uu-no-13-tahun-2003"/>
+    <ktn:upmkDasarBulan rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">6</ktn:upmkDasarBulan>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://example.org/kbr/ketenagakerjaan#UPMK-216-252-UU132003">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="https://example.org/kbr/ketenagakerjaan#KategoriUPMK"/>
+    <ktn:maxBulan rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">252</ktn:maxBulan>
+    <ktn:minBulan rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">216</ktn:minBulan>
+    <ktn:pasal>Pasal 156 ayat (3)f</ktn:pasal>
+    <ktn:tautanSumber rdf:resource="https://peraturan.bpk.go.id/Details/43013/uu-no-13-tahun-2003"/>
+    <ktn:upmkDasarBulan rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">7</ktn:upmkDasarBulan>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://example.org/kbr/ketenagakerjaan#UPMK-252-288-UU132003">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="https://example.org/kbr/ketenagakerjaan#KategoriUPMK"/>
+    <ktn:maxBulan rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">288</ktn:maxBulan>
+    <ktn:minBulan rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">252</ktn:minBulan>
+    <ktn:pasal>Pasal 156 ayat (3)g</ktn:pasal>
+    <ktn:tautanSumber rdf:resource="https://peraturan.bpk.go.id/Details/43013/uu-no-13-tahun-2003"/>
+    <ktn:upmkDasarBulan rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">8</ktn:upmkDasarBulan>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://example.org/kbr/ketenagakerjaan#UPMK-288-INF-UU132003">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="https://example.org/kbr/ketenagakerjaan#KategoriUPMK"/>
+    <ktn:minBulan rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">288</ktn:minBulan>
+    <ktn:pasal>Pasal 156 ayat (3)h</ktn:pasal>
+    <ktn:tautanSumber rdf:resource="https://peraturan.bpk.go.id/Details/43013/uu-no-13-tahun-2003"/>
+    <ktn:upmkDasarBulan rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">10</ktn:upmkDasarBulan>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://example.org/kbr/ketenagakerjaan#UPMK-36-72-UU132003">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="https://example.org/kbr/ketenagakerjaan#KategoriUPMK"/>
+    <ktn:maxBulan rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">72</ktn:maxBulan>
+    <ktn:minBulan rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">36</ktn:minBulan>
+    <ktn:pasal>Pasal 156 ayat (3)a</ktn:pasal>
+    <ktn:tautanSumber rdf:resource="https://peraturan.bpk.go.id/Details/43013/uu-no-13-tahun-2003"/>
+    <ktn:upmkDasarBulan rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2</ktn:upmkDasarBulan>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://example.org/kbr/ketenagakerjaan#UPMK-72-108-UU132003">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="https://example.org/kbr/ketenagakerjaan#KategoriUPMK"/>
+    <ktn:maxBulan rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">108</ktn:maxBulan>
+    <ktn:minBulan rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">72</ktn:minBulan>
+    <ktn:pasal>Pasal 156 ayat (3)b</ktn:pasal>
+    <ktn:tautanSumber rdf:resource="https://peraturan.bpk.go.id/Details/43013/uu-no-13-tahun-2003"/>
+    <ktn:upmkDasarBulan rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">3</ktn:upmkDasarBulan>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://example.org/kbr/ketenagakerjaan#UPMKMinimum">
+    <dct:source rdf:resource="https://example.org/kbr/regulasi#UU-13-2003"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="https://example.org/kbr/ketenagakerjaan#AlasanPHK"/>
+    <ktn:berkaitanTopik rdf:resource="https://example.org/kbr/ketenagakerjaan#TopikPHK"/>
+    <ktn:pasal>Pasal 156 ayat (3)</ktn:pasal>
+    <ktn:tautanSumber rdf:resource="https://peraturan.bpk.go.id/Details/43013/uu-no-13-tahun-2003"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://example.org/kbr/ketenagakerjaan#UangPenggantianHak">
+    <dct:source rdf:resource="https://example.org/kbr/regulasi#UU-13-2003"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="https://example.org/kbr/ketenagakerjaan#AlasanPHK"/>
+    <ktn:berkaitanTopik rdf:resource="https://example.org/kbr/ketenagakerjaan#TopikPHK"/>
+    <ktn:pasal>Pasal 156 ayat (4)</ktn:pasal>
+    <ktn:tautanSumber rdf:resource="https://peraturan.bpk.go.id/Details/43013/uu-no-13-tahun-2003"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://example.org/kbr/ketenagakerjaan#UangPisahKesalahanBerat">
+    <dct:source rdf:resource="https://example.org/kbr/regulasi#UU-13-2003"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="https://example.org/kbr/ketenagakerjaan#AlasanPHK"/>
+    <ktn:berkaitanTopik rdf:resource="https://example.org/kbr/ketenagakerjaan#TopikPHK"/>
+    <ktn:pasal>Pasal 158 ayat (4)</ktn:pasal>
+    <ktn:tautanSumber rdf:resource="https://peraturan.bpk.go.id/Details/43013/uu-no-13-tahun-2003"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://example.org/kbr/ketenagakerjaan#UangPisahPengunduranDiri">
+    <dct:source rdf:resource="https://example.org/kbr/regulasi#UU-13-2003"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="https://example.org/kbr/ketenagakerjaan#AlasanPHK"/>
+    <ktn:berkaitanTopik rdf:resource="https://example.org/kbr/ketenagakerjaan#TopikPHK"/>
+    <ktn:pasal>Pasal 162 ayat (2)</ktn:pasal>
+    <ktn:tautanSumber rdf:resource="https://peraturan.bpk.go.id/Details/43013/uu-no-13-tahun-2003"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://example.org/kbr/ketenagakerjaan#UpahBoronganCuacaRata12Bulan">
+    <dct:source rdf:resource="https://example.org/kbr/regulasi#UU-13-2003"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="https://example.org/kbr/ketenagakerjaan#KetentuanUpah"/>
+    <ktn:berkaitanTopik rdf:resource="https://example.org/kbr/ketenagakerjaan#TopikUpah"/>
+    <ktn:pasal>Pasal 157 ayat (4)</ktn:pasal>
+    <ktn:tautanSumber rdf:resource="https://peraturan.bpk.go.id/Details/43013/uu-no-13-tahun-2003"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://example.org/kbr/ketenagakerjaan#UpahBulananDariHarian">
+    <dct:source rdf:resource="https://example.org/kbr/regulasi#UU-13-2003"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="https://example.org/kbr/ketenagakerjaan#KetentuanUpah"/>
+    <ktn:berkaitanTopik rdf:resource="https://example.org/kbr/ketenagakerjaan#TopikUpah"/>
+    <ktn:pasal>Pasal 157 ayat (2)</ktn:pasal>
+    <ktn:tautanSumber rdf:resource="https://peraturan.bpk.go.id/Details/43013/uu-no-13-tahun-2003"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://example.org/kbr/ketenagakerjaan#UpahCutiKeluarga2Hari">
+    <dct:source rdf:resource="https://example.org/kbr/regulasi#UU-13-2003"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="https://example.org/kbr/ketenagakerjaan#PeristiwaCutiKhusus"/>
+    <ktn:berkaitanTopik rdf:resource="https://example.org/kbr/ketenagakerjaan#TopikCuti"/>
+    <ktn:hariDibayar rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2</ktn:hariDibayar>
+    <ktn:pasal>Pasal 93 ayat (4) huruf b sampai f</ktn:pasal>
+    <ktn:tautanSumber rdf:resource="https://peraturan.bpk.go.id/Details/43013/uu-no-13-tahun-2003"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://example.org/kbr/ketenagakerjaan#UpahCutiKematianSerumah">
+    <dct:source rdf:resource="https://example.org/kbr/regulasi#UU-13-2003"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="https://example.org/kbr/ketenagakerjaan#PeristiwaCutiKhusus"/>
+    <ktn:berkaitanTopik rdf:resource="https://example.org/kbr/ketenagakerjaan#TopikCuti"/>
+    <ktn:hariDibayar rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</ktn:hariDibayar>
+    <ktn:pasal>Pasal 93 ayat (4) huruf g</ktn:pasal>
+    <ktn:tautanSumber rdf:resource="https://peraturan.bpk.go.id/Details/43013/uu-no-13-tahun-2003"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://example.org/kbr/ketenagakerjaan#UpahCutiMenikah">
+    <dct:source rdf:resource="https://example.org/kbr/regulasi#UU-13-2003"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="https://example.org/kbr/ketenagakerjaan#PeristiwaCutiKhusus"/>
+    <ktn:berkaitanTopik rdf:resource="https://example.org/kbr/ketenagakerjaan#TopikCuti"/>
+    <ktn:hariDibayar rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">3</ktn:hariDibayar>
+    <ktn:pasal>Pasal 93 ayat (4) huruf a</ktn:pasal>
+    <ktn:tautanSumber rdf:resource="https://peraturan.bpk.go.id/Details/43013/uu-no-13-tahun-2003"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://example.org/kbr/ketenagakerjaan#UpahDidahulukanSaatPailit">
+    <dct:source rdf:resource="https://example.org/kbr/regulasi#UU-13-2003"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="https://example.org/kbr/ketenagakerjaan#KetentuanUpah"/>
+    <ktn:berkaitanTopik rdf:resource="https://example.org/kbr/ketenagakerjaan#TopikUpah"/>
+    <ktn:pasal>Pasal 95 ayat (4)</ktn:pasal>
+    <ktn:tautanSumber rdf:resource="https://peraturan.bpk.go.id/Details/43013/uu-no-13-tahun-2003"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://example.org/kbr/ketenagakerjaan#UpahLemburHariLibur">
+    <dct:source rdf:resource="https://example.org/kbr/regulasi#UU-13-2003"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="https://example.org/kbr/ketenagakerjaan#KetentuanLembur"/>
+    <ktn:berkaitanTopik rdf:resource="https://example.org/kbr/ketenagakerjaan#TopikLembur"/>
+    <ktn:pasal>Pasal 85 ayat (3)</ktn:pasal>
+    <ktn:tautanSumber rdf:resource="https://peraturan.bpk.go.id/Details/43013/uu-no-13-tahun-2003"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://example.org/kbr/ketenagakerjaan#UpahMasaPercobaanMinimum">
+    <dct:source rdf:resource="https://example.org/kbr/regulasi#UU-13-2003"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="https://example.org/kbr/ketenagakerjaan#KetentuanUpah"/>
+    <ktn:berkaitanTopik rdf:resource="https://example.org/kbr/ketenagakerjaan#TopikUpah"/>
+    <ktn:pasal>Pasal 60 ayat (2)</ktn:pasal>
+    <ktn:tautanSumber rdf:resource="https://peraturan.bpk.go.id/Details/43013/uu-no-13-tahun-2003"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://example.org/kbr/ketenagakerjaan#UpahMinimumBerdasarkanKHL">
+    <dct:source rdf:resource="https://example.org/kbr/regulasi#UU-13-2003"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="https://example.org/kbr/ketenagakerjaan#KetentuanUpah"/>
+    <ktn:berkaitanTopik rdf:resource="https://example.org/kbr/ketenagakerjaan#TopikUpah"/>
+    <ktn:pasal>Pasal 88 ayat (4)</ktn:pasal>
+    <ktn:tautanSumber rdf:resource="https://peraturan.bpk.go.id/Details/43013/uu-no-13-tahun-2003"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://example.org/kbr/ketenagakerjaan#UpahMinimumWilayahSektor">
+    <dct:source rdf:resource="https://example.org/kbr/regulasi#UU-13-2003"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="https://example.org/kbr/ketenagakerjaan#KetentuanUpah"/>
+    <ktn:berkaitanTopik rdf:resource="https://example.org/kbr/ketenagakerjaan#TopikUpah"/>
+    <ktn:pasal>Pasal 89 ayat (1)</ktn:pasal>
+    <ktn:tautanSumber rdf:resource="https://peraturan.bpk.go.id/Details/43013/uu-no-13-tahun-2003"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://example.org/kbr/ketenagakerjaan#UpahPenuhSelamaIstirahat">
+    <dct:source rdf:resource="https://example.org/kbr/regulasi#UU-13-2003"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="https://example.org/kbr/ketenagakerjaan#KetentuanUpah"/>
+    <ktn:berkaitanTopik rdf:resource="https://example.org/kbr/ketenagakerjaan#TopikUpah"/>
+    <ktn:pasal>Pasal 84</ktn:pasal>
+    <ktn:tautanSumber rdf:resource="https://peraturan.bpk.go.id/Details/43013/uu-no-13-tahun-2003"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://example.org/kbr/ketenagakerjaan#UpahPokokMinimal75Persen">
+    <dct:source rdf:resource="https://example.org/kbr/regulasi#UU-13-2003"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="https://example.org/kbr/ketenagakerjaan#KetentuanUpah"/>
+    <ktn:berkaitanTopik rdf:resource="https://example.org/kbr/ketenagakerjaan#TopikUpah"/>
+    <ktn:pasal>Pasal 94</ktn:pasal>
+    <ktn:tautanSumber rdf:resource="https://peraturan.bpk.go.id/Details/43013/uu-no-13-tahun-2003"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://example.org/kbr/ketenagakerjaan#UpahSakit4BulanKedua">
+    <dct:source rdf:resource="https://example.org/kbr/regulasi#UU-13-2003"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="https://example.org/kbr/ketenagakerjaan#KetentuanUpah"/>
+    <ktn:berkaitanTopik rdf:resource="https://example.org/kbr/ketenagakerjaan#TopikUpah"/>
+    <ktn:bulanUpah75 rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">4</ktn:bulanUpah75>
+    <ktn:pasal>Pasal 93 ayat (3) huruf b</ktn:pasal>
+    <ktn:tautanSumber rdf:resource="https://peraturan.bpk.go.id/Details/43013/uu-no-13-tahun-2003"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://example.org/kbr/ketenagakerjaan#UpahSakit4BulanKetiga">
+    <dct:source rdf:resource="https://example.org/kbr/regulasi#UU-13-2003"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="https://example.org/kbr/ketenagakerjaan#KetentuanUpah"/>
+    <ktn:berkaitanTopik rdf:resource="https://example.org/kbr/ketenagakerjaan#TopikUpah"/>
+    <ktn:pasal>Pasal 93 ayat (3) huruf c</ktn:pasal>
+    <ktn:tautanSumber rdf:resource="https://peraturan.bpk.go.id/Details/43013/uu-no-13-tahun-2003"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://example.org/kbr/ketenagakerjaan#UpahSakit4BulanPertama">
+    <dct:source rdf:resource="https://example.org/kbr/regulasi#UU-13-2003"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="https://example.org/kbr/ketenagakerjaan#KetentuanUpah"/>
+    <ktn:berkaitanTopik rdf:resource="https://example.org/kbr/ketenagakerjaan#TopikUpah"/>
+    <ktn:bulanUpahPenuh rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">4</ktn:bulanUpahPenuh>
+    <ktn:pasal>Pasal 93 ayat (3) huruf a</ktn:pasal>
+    <ktn:tautanSumber rdf:resource="https://peraturan.bpk.go.id/Details/43013/uu-no-13-tahun-2003"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://example.org/kbr/ketenagakerjaan#UpahSakitBulanSelanjutnya">
+    <dct:source rdf:resource="https://example.org/kbr/regulasi#UU-13-2003"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="https://example.org/kbr/ketenagakerjaan#KetentuanUpah"/>
+    <ktn:berkaitanTopik rdf:resource="https://example.org/kbr/ketenagakerjaan#TopikUpah"/>
+    <ktn:pasal>Pasal 93 ayat (3) huruf d</ktn:pasal>
+    <ktn:tautanSumber rdf:resource="https://peraturan.bpk.go.id/Details/43013/uu-no-13-tahun-2003"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://example.org/kbr/ketenagakerjaan#UpahSatuanHasilRata12Bulan">
+    <dct:source rdf:resource="https://example.org/kbr/regulasi#UU-13-2003"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="https://example.org/kbr/ketenagakerjaan#KetentuanUpah"/>
+    <ktn:berkaitanTopik rdf:resource="https://example.org/kbr/ketenagakerjaan#TopikUpah"/>
+    <ktn:pasal>Pasal 157 ayat (3)</ktn:pasal>
+    <ktn:tautanSumber rdf:resource="https://peraturan.bpk.go.id/Details/43013/uu-no-13-tahun-2003"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://example.org/kbr/ketenagakerjaan#UpahSelamaMogokSah">
+    <dct:source rdf:resource="https://example.org/kbr/regulasi#UU-13-2003"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="https://example.org/kbr/ketenagakerjaan#KetentuanUpah"/>
+    <ktn:berkaitanTopik rdf:resource="https://example.org/kbr/ketenagakerjaan#TopikUpah"/>
+    <ktn:pasal>Pasal 145</ktn:pasal>
+    <ktn:tautanSumber rdf:resource="https://peraturan.bpk.go.id/Details/43013/uu-no-13-tahun-2003"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://example.org/kbr/ketenagakerjaan#UpahTetapDibayarPadaKeadaanTertentu">
+    <dct:source rdf:resource="https://example.org/kbr/regulasi#UU-13-2003"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="https://example.org/kbr/ketenagakerjaan#KetentuanUpah"/>
+    <ktn:berkaitanTopik rdf:resource="https://example.org/kbr/ketenagakerjaan#TopikUpah"/>
+    <ktn:pasal>Pasal 93 ayat (2)</ktn:pasal>
+    <ktn:tautanSumber rdf:resource="https://peraturan.bpk.go.id/Details/43013/uu-no-13-tahun-2003"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://example.org/kbr/ketenagakerjaan#UpahTidakDibayarJikaTidakBekerjaUu132003">
+    <dct:source rdf:resource="https://example.org/kbr/regulasi#UU-13-2003"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="https://example.org/kbr/ketenagakerjaan#KetentuanUpah"/>
+    <ktn:berkaitanTopik rdf:resource="https://example.org/kbr/ketenagakerjaan#TopikUpah"/>
+    <ktn:pasal>Pasal 93 ayat (1)</ktn:pasal>
+    <ktn:tautanSumber rdf:resource="https://peraturan.bpk.go.id/Details/43013/uu-no-13-tahun-2003"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://example.org/kbr/ketenagakerjaan#UpayaHindariPHK">
+    <dct:source rdf:resource="https://example.org/kbr/regulasi#UU-13-2003"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="https://example.org/kbr/ketenagakerjaan#AlasanPHK"/>
+    <ktn:berkaitanTopik rdf:resource="https://example.org/kbr/ketenagakerjaan#TopikPHK"/>
+    <ktn:pasal>Pasal 151 ayat (1)</ktn:pasal>
+    <ktn:tautanSumber rdf:resource="https://peraturan.bpk.go.id/Details/43013/uu-no-13-tahun-2003"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://example.org/kbr/ketenagakerjaan#WajibMempekerjakanKembaliJikaBebas">
+    <dct:source rdf:resource="https://example.org/kbr/regulasi#UU-13-2003"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="https://example.org/kbr/ketenagakerjaan#AlasanPHK"/>
+    <ktn:berkaitanTopik rdf:resource="https://example.org/kbr/ketenagakerjaan#TopikPHK"/>
+    <ktn:pasal>Pasal 160 ayat (4)</ktn:pasal>
+    <ktn:tautanSumber rdf:resource="https://peraturan.bpk.go.id/Details/43013/uu-no-13-tahun-2003"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://example.org/kbr/ketenagakerjaan#WaktuKerja5HariUu132003">
+    <dct:source rdf:resource="https://example.org/kbr/regulasi#UU-13-2003"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="https://example.org/kbr/ketenagakerjaan#KetentuanWaktuKerja"/>
+    <ktn:berkaitanTopik rdf:resource="https://example.org/kbr/ketenagakerjaan#TopikWaktuKerja"/>
+    <ktn:jamKerjaPerHari rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">8</ktn:jamKerjaPerHari>
+    <ktn:jamKerjaPerMinggu rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">40</ktn:jamKerjaPerMinggu>
+    <ktn:jumlahHariKerjaPerMinggu rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">5</ktn:jumlahHariKerjaPerMinggu>
+    <ktn:pasal>Pasal 77 ayat (2) huruf b</ktn:pasal>
+    <ktn:tautanSumber rdf:resource="https://peraturan.bpk.go.id/Details/43013/uu-no-13-tahun-2003"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://example.org/kbr/ketenagakerjaan#WaktuKerja6HariUu132003">
+    <dct:source rdf:resource="https://example.org/kbr/regulasi#UU-13-2003"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="https://example.org/kbr/ketenagakerjaan#KetentuanWaktuKerja"/>
+    <ktn:berkaitanTopik rdf:resource="https://example.org/kbr/ketenagakerjaan#TopikWaktuKerja"/>
+    <ktn:jamKerjaPerHari rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">7</ktn:jamKerjaPerHari>
+    <ktn:jamKerjaPerMinggu rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">40</ktn:jamKerjaPerMinggu>
+    <ktn:jumlahHariKerjaPerMinggu rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">6</ktn:jumlahHariKerjaPerMinggu>
+    <ktn:pasal>Pasal 77 ayat (2) huruf a</ktn:pasal>
+    <ktn:tautanSumber rdf:resource="https://peraturan.bpk.go.id/Details/43013/uu-no-13-tahun-2003"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://example.org/kbr/ketenagakerjaan/regulasi/uu-13-2003">
+    <dct:source rdf:resource="https://peraturan.bpk.go.id/Details/43013/uu-no-13-tahun-2003"/>
+    <dct:title>Fakta norma: Undang-Undang Nomor 13 Tahun 2003 tentang Ketenagakerjaan</dct:title>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Ontology"/>
+    <owl:imports rdf:resource="https://example.org/kbr/ketenagakerjaan"/>
+  </rdf:Description>
+</rdf:RDF>

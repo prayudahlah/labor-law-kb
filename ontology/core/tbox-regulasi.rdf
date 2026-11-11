@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Alignment ELI/Dublin Core ditambahkan ke tbox-regulasi RDF/XML. -->
+<rdf:RDF
+   xmlns:dcterms="http://purl.org/dc/terms/"
+   xmlns:owl="http://www.w3.org/2002/07/owl#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+>
+  <rdf:Description rdf:nodeID="N3fb03b1325bd4d38af2dfbf0a70a64cb">
+    <rdf:first rdf:resource="https://example.org/kbr/regulasi#Diubah"/>
+    <rdf:rest rdf:nodeID="N983a142f4b644920bb8716ee6adc4f3d"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://example.org/kbr/regulasi#mengubah">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+    <rdfs:label>mengubah</rdfs:label>
+    <rdfs:domain rdf:resource="https://example.org/kbr/regulasi#Peraturan"/>
+    <rdfs:range rdf:resource="https://example.org/kbr/regulasi#Peraturan"/>
+    <owl:inverseOf rdf:resource="https://example.org/kbr/regulasi#diubahOleh"/>
+    <rdfs:subPropertyOf rdf:resource="http://data.europa.eu/eli/ontology#amends"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://example.org/kbr/regulasi#StatusHukum">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:label>Status Hukum</rdfs:label>
+    <owl:oneOf rdf:nodeID="Ne30132e34fc5496e96f19b5e4d560fda"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://example.org/kbr/regulasi#tautanUnduh">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AnnotationProperty"/>
+    <rdfs:label>tautan unduh</rdfs:label>
+    <rdfs:comment>URL unduhan PDF resmi peraturan, bila tersedia.</rdfs:comment>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="Nc1fb988de05b44f2b6d532d9be9cf52c">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
+    <owl:onProperty rdf:resource="https://example.org/kbr/regulasi#jenis"/>
+    <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</owl:qualifiedCardinality>
+    <owl:onClass rdf:resource="https://example.org/kbr/regulasi#JenisPeraturan"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://example.org/kbr/regulasi#Peraturan">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:label>Peraturan</rdfs:label>
+    <rdfs:subClassOf rdf:nodeID="N97172629093c43bcb2a642d7768de9e3"/>
+    <rdfs:subClassOf rdf:nodeID="Nc1fb988de05b44f2b6d532d9be9cf52c"/>
+    <rdfs:subClassOf rdf:resource="http://data.europa.eu/eli/ontology#LegalResource"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://example.org/kbr/regulasi#jenis">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+    <rdfs:label>jenis</rdfs:label>
+    <rdfs:domain rdf:resource="https://example.org/kbr/regulasi#Peraturan"/>
+    <rdfs:range rdf:resource="https://example.org/kbr/regulasi#JenisPeraturan"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://example.org/kbr/regulasi#Berlaku">
+    <rdf:type rdf:resource="https://example.org/kbr/regulasi#StatusHukum"/>
+    <rdfs:label>Berlaku</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://example.org/kbr/regulasi#menghasilkanDokumen">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+    <rdfs:label>menghasilkan dokumen</rdfs:label>
+    <rdfs:comment>Jenis dokumen yang dapat disusun berdasarkan peraturan ini.</rdfs:comment>
+    <rdfs:domain rdf:resource="https://example.org/kbr/regulasi#Peraturan"/>
+    <rdfs:range rdf:resource="https://example.org/kbr/ketenagakerjaan#JenisDokumen"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="N983a142f4b644920bb8716ee6adc4f3d">
+    <rdf:first rdf:resource="https://example.org/kbr/regulasi#Dicabut"/>
+    <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://example.org/kbr/regulasi#diubahOleh">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+    <rdfs:label>diubah oleh</rdfs:label>
+    <rdfs:domain rdf:resource="https://example.org/kbr/regulasi#Peraturan"/>
+    <rdfs:range rdf:resource="https://example.org/kbr/regulasi#Peraturan"/>
+    <rdfs:subPropertyOf rdf:resource="http://data.europa.eu/eli/ontology#amended_by"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="N97172629093c43bcb2a642d7768de9e3">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
+    <owl:onProperty rdf:resource="https://example.org/kbr/regulasi#status"/>
+    <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</owl:qualifiedCardinality>
+    <owl:onClass rdf:resource="https://example.org/kbr/regulasi#StatusHukum"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://example.org/kbr/regulasi#PeraturanPemerintah">
+    <rdf:type rdf:resource="https://example.org/kbr/regulasi#JenisPeraturan"/>
+    <rdfs:label>Peraturan Pemerintah</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="Ne30132e34fc5496e96f19b5e4d560fda">
+    <rdf:first rdf:resource="https://example.org/kbr/regulasi#Berlaku"/>
+    <rdf:rest rdf:nodeID="N3fb03b1325bd4d38af2dfbf0a70a64cb"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://example.org/kbr/regulasi#status">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+    <rdfs:label>status</rdfs:label>
+    <rdfs:domain rdf:resource="https://example.org/kbr/regulasi#Peraturan"/>
+    <rdfs:range rdf:resource="https://example.org/kbr/regulasi#StatusHukum"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://example.org/kbr/regulasi#JenisPeraturan">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:label>Jenis Peraturan</rdfs:label>
+    <owl:oneOf rdf:nodeID="Ne9581ffecf9944b691d1654c80c8d4d1"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://example.org/kbr/regulasi#nomor">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AnnotationProperty"/>
+    <rdfs:label>nomor</rdfs:label>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    <rdfs:subPropertyOf rdf:resource="http://purl.org/dc/terms/identifier"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="Ne9581ffecf9944b691d1654c80c8d4d1">
+    <rdf:first rdf:resource="https://example.org/kbr/regulasi#UndangUndang"/>
+    <rdf:rest rdf:nodeID="Nc1aba9a2903549ea81446a1f57ddcec2"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://example.org/kbr/regulasi#sumberUtama">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AnnotationProperty"/>
+    <rdfs:label>sumber utama</rdfs:label>
+    <rdfs:subPropertyOf rdf:resource="http://purl.org/dc/terms/source"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://example.org/kbr/regulasi#UndangUndang">
+    <rdf:type rdf:resource="https://example.org/kbr/regulasi#JenisPeraturan"/>
+    <rdfs:label>Undang-Undang</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://example.org/kbr/regulasi#tahun">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AnnotationProperty"/>
+    <rdfs:label>tahun</rdfs:label>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#gYear"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://example.org/kbr/regulasi/vocab">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Ontology"/>
+    <dcterms:title>Kosakata metadata peraturan ketenagakerjaan</dcterms:title>
+    <rdfs:comment>Metadata peraturan dan rantai amandemen.</rdfs:comment>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://example.org/kbr/regulasi#Dicabut">
+    <rdf:type rdf:resource="https://example.org/kbr/regulasi#StatusHukum"/>
+    <rdfs:label>Dicabut</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://example.org/kbr/regulasi#Diubah">
+    <rdf:type rdf:resource="https://example.org/kbr/regulasi#StatusHukum"/>
+    <rdfs:label>Diubah</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="Nc1aba9a2903549ea81446a1f57ddcec2">
+    <rdf:first rdf:resource="https://example.org/kbr/regulasi#PeraturanPemerintah"/>
+    <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
+  </rdf:Description>
+</rdf:RDF>

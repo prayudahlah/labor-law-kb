@@ -1,0 +1,1134 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Alignment FOAF/Dublin Core ditambahkan ke tbox-core RDF/XML. -->
+<rdf:RDF
+   xmlns:dcterms="http://purl.org/dc/terms/"
+   xmlns:ktn="https://example.org/kbr/ketenagakerjaan#"
+   xmlns:owl="http://www.w3.org/2002/07/owl#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+   xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+>
+  <rdf:Description rdf:about="https://example.org/kbr/ketenagakerjaan#AhliWaris">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:label>Ahli Waris</rdfs:label>
+    <rdfs:subClassOf rdf:resource="https://example.org/kbr/ketenagakerjaan#SubjekHukum"/>
+    <rdfs:subClassOf rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="N3f788cd1d4f0496da99ca9cf4b59d3ad">
+    <rdf:first rdf:resource="https://example.org/kbr/ketenagakerjaan#Pekerja"/>
+    <rdf:rest rdf:nodeID="N49d69e5c447442aca0f6ee0b02d9b238"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://example.org/kbr/ketenagakerjaan#tarifPengusahaPersen">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#DatatypeProperty"/>
+    <rdfs:label>tarif iuran pengusaha (persen)</rdfs:label>
+    <rdfs:domain rdf:resource="https://example.org/kbr/ketenagakerjaan#ProgramJaminanSosial"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#decimal"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://example.org/kbr/ketenagakerjaan#kebutuhanKalori">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#DatatypeProperty"/>
+    <rdfs:label>kebutuhan kalori minimal saat lembur</rdfs:label>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#integer"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://example.org/kbr/ketenagakerjaan#tingkatRisiko">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#DatatypeProperty"/>
+    <rdfs:label>tingkat risiko</rdfs:label>
+    <rdfs:domain rdf:resource="https://example.org/kbr/ketenagakerjaan#ProgramJaminanSosial"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://example.org/kbr/ketenagakerjaan#KategoriUP">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:label>Kategori Uang Pesangon</rdfs:label>
+    <rdfs:subClassOf rdf:resource="https://example.org/kbr/ketenagakerjaan#KategoriMasaKerja"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://example.org/kbr/ketenagakerjaan#MemenuhiSyaratKompensasiPKWT">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:label>Memenuhi syarat uang kompensasi PKWT</rdfs:label>
+    <ktn:pasal>PP 35/2021 Pasal 15 ayat (3)</ktn:pasal>
+    <dcterms:source rdf:resource="https://example.org/kbr/regulasi#PP-35-2021"/>
+    <owl:equivalentClass rdf:nodeID="N2f32667805cb48e7bd25581461eb797e"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://example.org/kbr/ketenagakerjaan#pengaliUP">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#DatatypeProperty"/>
+    <rdfs:label>pengali uang pesangon</rdfs:label>
+    <rdfs:domain rdf:resource="https://example.org/kbr/ketenagakerjaan#AlasanPHK"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#decimal"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://example.org/kbr/ketenagakerjaan#mengalamiKeguguran">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#DatatypeProperty"/>
+    <rdfs:label>mengalami keguguran</rdfs:label>
+    <rdfs:domain rdf:resource="https://example.org/kbr/ketenagakerjaan#PekerjaPerempuan"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#boolean"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://example.org/kbr/ketenagakerjaan#upDasarBulan">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#DatatypeProperty"/>
+    <rdfs:label>dasar uang pesangon (bulan upah)</rdfs:label>
+    <rdfs:domain rdf:resource="https://example.org/kbr/ketenagakerjaan#KategoriUP"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#integer"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://example.org/kbr/ketenagakerjaan#jamLemburMaksPerMinggu">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#DatatypeProperty"/>
+    <rdfs:label>batas jam lembur per minggu</rdfs:label>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#integer"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="N1e98a252de7f4dd588edf7bcb6658c79">
+    <rdf:first rdf:nodeID="N9179872a254544dc9da8950d86610eae"/>
+    <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="N763861c09bb14c3e919e3dfee86da83b">
+    <rdf:first rdf:resource="https://example.org/kbr/ketenagakerjaan#PekerjaPKWT"/>
+    <rdf:rest rdf:nodeID="Nd9315a8fb9c849638a2d3d4574371729"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="Nb3c5a262005b4d059c4593c23c94f78f">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
+    <owl:onProperty rdf:resource="https://example.org/kbr/ketenagakerjaan#mengalami"/>
+    <owl:someValuesFrom rdf:nodeID="Nb5923de90b49453894522b60ef80dcc3"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://example.org/kbr/ketenagakerjaan#MemenuhiSyaratUpahLembur">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:label>Memenuhi syarat upah lembur</rdfs:label>
+    <ktn:pasal>UU 6/2023 Pasal 78 ayat (2)</ktn:pasal>
+    <dcterms:source rdf:resource="https://example.org/kbr/regulasi#UU-6-2023"/>
+    <owl:equivalentClass rdf:nodeID="N545ccdb4a2e445cdb38ab6e1f23e2b46"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://example.org/kbr/ketenagakerjaan#HakCutiMelahirkan">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:label>Hak Cuti Melahirkan</rdfs:label>
+    <rdfs:subClassOf rdf:resource="https://example.org/kbr/ketenagakerjaan#HakNonFinansial"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://example.org/kbr/ketenagakerjaan#MemenuhiSyaratCutiKeguguran">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:label>Memenuhi syarat istirahat keguguran</rdfs:label>
+    <ktn:pasal>UU 4/2024 Pasal 4 ayat (3)b</ktn:pasal>
+    <dcterms:source rdf:resource="https://example.org/kbr/regulasi#UU-4-2024"/>
+    <owl:equivalentClass rdf:nodeID="Nd5b26bdfcdcb4e1bba65dfc55b679ae3"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="Nebb5c2a852f94005a8ea04b261cd30cb">
+    <rdf:first rdf:nodeID="N898c537fbd8f4278880535dfdb34ca9e"/>
+    <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://example.org/kbr/ketenagakerjaan#MemenuhiSyaratMenyusui">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:label>Memenuhi syarat hak menyusui</rdfs:label>
+    <ktn:pasal>UU 4/2024 Pasal 4 ayat (3)c</ktn:pasal>
+    <dcterms:source rdf:resource="https://example.org/kbr/regulasi#UU-4-2024"/>
+    <owl:equivalentClass rdf:nodeID="N84eede6c655249a5a117d19b34d6fcf0"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="N9179872a254544dc9da8950d86610eae">
+    <xsd:minExclusive rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</xsd:minExclusive>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://example.org/kbr/ketenagakerjaan#jenisHari">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#DatatypeProperty"/>
+    <rdfs:label>jenis hari</rdfs:label>
+    <rdfs:domain rdf:resource="https://example.org/kbr/ketenagakerjaan#PengaliLembur"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://example.org/kbr/ketenagakerjaan#Pekerja">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:label>Pekerja</rdfs:label>
+    <rdfs:subClassOf rdf:resource="https://example.org/kbr/ketenagakerjaan#SubjekHukum"/>
+    <rdfs:subClassOf rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
+    <owl:disjointWith rdf:resource="https://example.org/kbr/ketenagakerjaan#Pengusaha"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="N88194c09d93e474c976d08e7e00b5c51">
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Datatype"/>
+    <owl:onDatatype rdf:resource="http://www.w3.org/2001/XMLSchema#decimal"/>
+    <owl:withRestrictions rdf:nodeID="N1e98a252de7f4dd588edf7bcb6658c79"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://example.org/kbr/ketenagakerjaan#PekerjaPKWT">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:label>Pekerja PKWT</rdfs:label>
+    <ktn:pasal>PP 35/2021 Pasal 4-14</ktn:pasal>
+    <dcterms:source rdf:resource="https://example.org/kbr/regulasi#PP-35-2021"/>
+    <owl:equivalentClass rdf:nodeID="N28e4503a48a640bfb38ea569472fdab1"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://example.org/kbr/ketenagakerjaan#bulanUpah75">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#DatatypeProperty"/>
+    <rdfs:label>jumlah bulan upah 75 persen saat cuti melahirkan</rdfs:label>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#integer"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://example.org/kbr/ketenagakerjaan#HakJP">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:label>Hak Jaminan Pensiun</rdfs:label>
+    <rdfs:subClassOf rdf:resource="https://example.org/kbr/ketenagakerjaan#HakJaminanSosial"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://example.org/kbr/ketenagakerjaan#AlasanBerpesangon">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:label>Alasan PHK berpesangon</rdfs:label>
+    <owl:equivalentClass rdf:nodeID="Ndd312be6e3d8475a9086f525719853a5"/>
+    <owl:disjointWith rdf:resource="https://example.org/kbr/ketenagakerjaan#AlasanTanpaPesangon"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="Ncdb17e5ddaa24199a9caaea4c44adefc">
+    <xsd:minInclusive rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">12</xsd:minInclusive>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://example.org/kbr/ketenagakerjaan#teksAsli">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AnnotationProperty"/>
+    <rdfs:label>teks asli</rdfs:label>
+    <rdfs:comment>Kutipan singkat dari sumber untuk verifikasi.</rdfs:comment>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="Nd5b26bdfcdcb4e1bba65dfc55b679ae3">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <owl:intersectionOf rdf:nodeID="N9dbb321b7f144bff89ec43dbe6dd9637"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="Neddecf34d96846dc87481f7f30afbe3c">
+    <rdf:first rdf:nodeID="Na97fb2d88ff4469c94caea80698ca1ef"/>
+    <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="N0605c931553f40ad80998453d7940ebc">
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Datatype"/>
+    <owl:onDatatype rdf:resource="http://www.w3.org/2001/XMLSchema#decimal"/>
+    <owl:withRestrictions rdf:nodeID="Nd04d63c1ddec497b91ad51919d53116e"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://example.org/kbr/ketenagakerjaan#KetentuanKIA">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:label>Ketentuan KIA</rdfs:label>
+    <rdfs:comment>Ketentuan perlindungan ibu dan anak (UU 4/2024).</rdfs:comment>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://example.org/kbr/ketenagakerjaan#HakJKK">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:label>Hak Jaminan Kecelakaan Kerja</rdfs:label>
+    <rdfs:subClassOf rdf:resource="https://example.org/kbr/ketenagakerjaan#HakJaminanSosial"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://example.org/kbr/ketenagakerjaan#HakJHT">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:label>Hak Jaminan Hari Tua</rdfs:label>
+    <rdfs:subClassOf rdf:resource="https://example.org/kbr/ketenagakerjaan#HakJaminanSosial"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="N9dbb321b7f144bff89ec43dbe6dd9637">
+    <rdf:first rdf:resource="https://example.org/kbr/ketenagakerjaan#PekerjaPerempuan"/>
+    <rdf:rest rdf:nodeID="Ne8afaafd0c134c05abcb881cf77cc950"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/dc/terms/source">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AnnotationProperty"/>
+    <rdfs:label>sumber</rdfs:label>
+    <rdfs:comment>Rujukan sumber: individu peraturan (reg:Peraturan) atau URL dokumen.</rdfs:comment>
+    <rdfs:isDefinedBy rdf:resource="https://www.dublincore.org/specifications/dublin-core/dcmi-terms/"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://example.org/kbr/ketenagakerjaan#PeristiwaCutiKhusus">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:label>Peristiwa Cuti Khusus</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="N13a2f2fed4644d48b8543030632762db">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
+    <owl:onProperty rdf:resource="https://example.org/kbr/ketenagakerjaan#mendampingiPersalinan"/>
+    <owl:hasValue rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:hasValue>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="N1a6c4b19c5be445a9c0e0f5a90807321">
+    <rdf:first rdf:nodeID="Ndb5f42cdf2ee4e31b5ebec1fd10a0fb4"/>
+    <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://example.org/kbr/ketenagakerjaan#jamMin">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#DatatypeProperty"/>
+    <rdfs:label>jam mulai (inklusif)</rdfs:label>
+    <rdfs:domain rdf:resource="https://example.org/kbr/ketenagakerjaan#PengaliLembur"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#integer"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="Ncc8a404b4f0844218de8c0e946d3e6b6">
+    <rdf:first rdf:nodeID="Ned0c9766de5b4fb49b47387c13ebee1c"/>
+    <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://example.org/kbr/ketenagakerjaan#upmkDasarBulan">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#DatatypeProperty"/>
+    <rdfs:label>dasar UPMK (bulan upah)</rdfs:label>
+    <rdfs:domain rdf:resource="https://example.org/kbr/ketenagakerjaan#KategoriUPMK"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#integer"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://example.org/kbr/ketenagakerjaan#pengali">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#DatatypeProperty"/>
+    <rdfs:label>pengali upah sejam</rdfs:label>
+    <rdfs:domain rdf:resource="https://example.org/kbr/ketenagakerjaan#PengaliLembur"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#decimal"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://example.org/kbr/ketenagakerjaan#mendampingiPersalinan">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#DatatypeProperty"/>
+    <rdfs:label>mendampingi persalinan istri</rdfs:label>
+    <rdfs:domain rdf:resource="https://example.org/kbr/ketenagakerjaan#Pekerja"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#boolean"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://example.org/kbr/ketenagakerjaan#Pengusaha">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:label>Pengusaha</rdfs:label>
+    <rdfs:subClassOf rdf:resource="https://example.org/kbr/ketenagakerjaan#SubjekHukum"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://example.org/kbr/ketenagakerjaan#HakUPH">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:label>Uang Penggantian Hak</rdfs:label>
+    <rdfs:subClassOf rdf:resource="https://example.org/kbr/ketenagakerjaan#HakFinansial"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://example.org/kbr/ketenagakerjaan#HakFinansial">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:label>Hak Finansial</rdfs:label>
+    <rdfs:subClassOf rdf:resource="https://example.org/kbr/ketenagakerjaan#Hak"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://example.org/kbr/ketenagakerjaan#KetentuanPKWT">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:label>Ketentuan PKWT</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="Ne7f8c0bbbaca43459682de7389e74f77">
+    <rdf:first rdf:nodeID="N13a2f2fed4644d48b8543030632762db"/>
+    <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="Ne8afaafd0c134c05abcb881cf77cc950">
+    <rdf:first rdf:nodeID="Nd6e70185a9e9429bb6370379bf47ea58"/>
+    <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="Ncfc5a66b3ed0427783fc94f0fa54aa66">
+    <rdf:first rdf:nodeID="N8d2377ca815d4e57a791f6851607cb6b"/>
+    <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://example.org/kbr/ketenagakerjaan#MemenuhiSyaratJaminanSosial">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:label>Memenuhi syarat jaminan sosial</rdfs:label>
+    <rdfs:comment>Setiap pekerja penerima upah wajib diikutsertakan.</rdfs:comment>
+    <ktn:pasal>UU 24/2011 Pasal 6 ayat (2)</ktn:pasal>
+    <dcterms:source rdf:resource="https://example.org/kbr/regulasi#UU-24-2011"/>
+    <owl:equivalentClass rdf:resource="https://example.org/kbr/ketenagakerjaan#Pekerja"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://example.org/kbr/ketenagakerjaan#PHK">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:label>Pemutusan Hubungan Kerja</rdfs:label>
+    <rdfs:subClassOf rdf:resource="https://example.org/kbr/ketenagakerjaan#PeristiwaHukum"/>
+    <rdfs:subClassOf rdf:nodeID="N3b9ea341acdd457c8391da839d2f11b5"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="Nb5923de90b49453894522b60ef80dcc3">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <owl:intersectionOf rdf:nodeID="N6bf12654cb0244c8889499f0bd6ab6e9"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://example.org/kbr/ketenagakerjaan#MemenuhiSyaratCutiPendampinganSuami">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:label>Memenuhi syarat cuti pendampingan suami</rdfs:label>
+    <ktn:pasal>UU 4/2024 Pasal 6 ayat (2)</ktn:pasal>
+    <dcterms:source rdf:resource="https://example.org/kbr/regulasi#UU-4-2024"/>
+    <owl:equivalentClass rdf:nodeID="N86f0efc965174b909e9f232f0ca43a7a"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://example.org/kbr/ketenagakerjaan#istirahatMingguanHari">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#DatatypeProperty"/>
+    <rdfs:label>istirahat mingguan (hari)</rdfs:label>
+    <rdfs:domain rdf:resource="https://example.org/kbr/ketenagakerjaan#KetentuanWaktuKerja"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#integer"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="N2f32667805cb48e7bd25581461eb797e">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <owl:intersectionOf rdf:nodeID="N763861c09bb14c3e919e3dfee86da83b"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://example.org/kbr/ketenagakerjaan#PengaliLembur">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:label>Pengali Upah Lembur</rdfs:label>
+    <rdfs:comment>Pengali upah lembur (PP 35/2021 Pasal 31).</rdfs:comment>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="N8de568b276684ecc96e42a34a652850d">
+    <rdf:first rdf:resource="https://example.org/kbr/ketenagakerjaan#PekerjaPerempuan"/>
+    <rdf:rest rdf:nodeID="Na8de658bafd847e5b5ba6db6adcb84ba"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://example.org/kbr/ketenagakerjaan#KetentuanTKA">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:label>Ketentuan Penggunaan Tenaga Kerja Asing</rdfs:label>
+    <rdfs:comment>Ketentuan penggunaan TKA (PP 34/2021).</rdfs:comment>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="N959b3b2a2e75461091d2ec8472cb45ca">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
+    <owl:onProperty rdf:resource="https://example.org/kbr/ketenagakerjaan#masaKerjaBulan"/>
+    <owl:someValuesFrom rdf:nodeID="N6bcbc66c09004148839edbbd1e2cd501"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://example.org/kbr/ketenagakerjaan#PeristiwaHukum">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:label>Peristiwa Hukum</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://example.org/kbr/ketenagakerjaan#HakMenyusui">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:label>Hak Menyusui</rdfs:label>
+    <rdfs:subClassOf rdf:resource="https://example.org/kbr/ketenagakerjaan#HakNonFinansial"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://example.org/kbr/ketenagakerjaan#pengaliKonversiHarian5">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#DatatypeProperty"/>
+    <rdfs:label>pengali upah harian ke bulanan (5 hari kerja)</rdfs:label>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#integer"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://example.org/kbr/ketenagakerjaan#HubunganKerja">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:label>Hubungan Kerja</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://example.org/kbr/ketenagakerjaan#AlasanPHK">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:label>Alasan PHK</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://example.org/kbr/ketenagakerjaan#HakIstirahatAntarJam">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:label>Hak Istirahat Antar Jam Kerja</rdfs:label>
+    <rdfs:subClassOf rdf:resource="https://example.org/kbr/ketenagakerjaan#HakIstirahat"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://example.org/kbr/ketenagakerjaan#usiaPensiunTahun">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#DatatypeProperty"/>
+    <rdfs:label>usia pensiun (tahun)</rdfs:label>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#integer"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://example.org/kbr/ketenagakerjaan#masaKerjaBulan">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#DatatypeProperty"/>
+    <rdfs:label>masa kerja (bulan)</rdfs:label>
+    <rdfs:domain rdf:resource="https://example.org/kbr/ketenagakerjaan#Pekerja"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#integer"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="N1738be774d644dbb9e83a0a7f9ab0eec">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
+    <owl:onProperty rdf:resource="https://example.org/kbr/ketenagakerjaan#mengalami"/>
+    <owl:someValuesFrom rdf:nodeID="N784ab5ea69a749a4b713a1c76079ac3b"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://example.org/kbr/ketenagakerjaan#upahBulanan">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#DatatypeProperty"/>
+    <rdfs:label>upah bulanan</rdfs:label>
+    <rdfs:domain rdf:resource="https://example.org/kbr/ketenagakerjaan#Pekerja"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#decimal"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://example.org/kbr/ketenagakerjaan">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Ontology"/>
+    <dcterms:title>Ontologi Hukum Ketenagakerjaan Indonesia (inti)</dcterms:title>
+    <rdfs:comment>Ontologi hak ketenagakerjaan Indonesia: kelas, properti, dan defined class.</rdfs:comment>
+    <owl:imports rdf:resource="https://example.org/kbr/ketenagakerjaan/rbox"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://example.org/kbr/ketenagakerjaan#jamMax">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#DatatypeProperty"/>
+    <rdfs:label>jam akhir (inklusif)</rdfs:label>
+    <rdfs:domain rdf:resource="https://example.org/kbr/ketenagakerjaan#PengaliLembur"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#integer"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="Na8de658bafd847e5b5ba6db6adcb84ba">
+    <rdf:first rdf:nodeID="N9d85245c3536488fafbd587c23a24381"/>
+    <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://example.org/kbr/ketenagakerjaan#padaHariKerja">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#DatatypeProperty"/>
+    <rdfs:label>pada hari kerja</rdfs:label>
+    <rdfs:domain rdf:resource="https://example.org/kbr/ketenagakerjaan#Lembur"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#boolean"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://example.org/kbr/ketenagakerjaan#UpahPokok">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:label>Upah Pokok</rdfs:label>
+    <rdfs:subClassOf rdf:resource="https://example.org/kbr/ketenagakerjaan#KomponenUpah"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://example.org/kbr/ketenagakerjaan#cutiMelahirkanBulanMax">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#DatatypeProperty"/>
+    <rdfs:label>cuti melahirkan maksimal (bulan)</rdfs:label>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#decimal"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://example.org/kbr/ketenagakerjaan#Lembur">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:label>Lembur</rdfs:label>
+    <rdfs:comment>Peristiwa kerja lembur.</rdfs:comment>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="N6bcbc66c09004148839edbbd1e2cd501">
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Datatype"/>
+    <owl:onDatatype rdf:resource="http://www.w3.org/2001/XMLSchema#integer"/>
+    <owl:withRestrictions rdf:nodeID="Ncc8a404b4f0844218de8c0e946d3e6b6"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://example.org/kbr/ketenagakerjaan#tarifTotalPersen">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#DatatypeProperty"/>
+    <rdfs:label>tarif iuran total (persen)</rdfs:label>
+    <rdfs:domain rdf:resource="https://example.org/kbr/ketenagakerjaan#ProgramJaminanSosial"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#decimal"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://example.org/kbr/ketenagakerjaan#TunjanganTetap">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:label>Tunjangan Tetap</rdfs:label>
+    <rdfs:subClassOf rdf:resource="https://example.org/kbr/ketenagakerjaan#KomponenUpah"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://example.org/kbr/ketenagakerjaan#sedangCutiMelahirkan">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#DatatypeProperty"/>
+    <rdfs:label>sedang cuti melahirkan</rdfs:label>
+    <rdfs:domain rdf:resource="https://example.org/kbr/ketenagakerjaan#PekerjaPerempuan"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#boolean"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://example.org/kbr/ketenagakerjaan#batasBulanKonversi">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#DatatypeProperty"/>
+    <rdfs:label>batas bulan berturut-turut untuk konversi PKWTT</rdfs:label>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#integer"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="Nb253c896d99c42939f2678d385c7db80">
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Datatype"/>
+    <owl:onDatatype rdf:resource="http://www.w3.org/2001/XMLSchema#integer"/>
+    <owl:withRestrictions rdf:nodeID="N7e60f2916493410b8135e55927d91669"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://example.org/kbr/ketenagakerjaan#faktorPembagiUpahSejam">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#DatatypeProperty"/>
+    <rdfs:label>faktor pembagi upah sejam</rdfs:label>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#integer"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="N49d69e5c447442aca0f6ee0b02d9b238">
+    <rdf:first rdf:nodeID="Nadf6beaa76214df48f2b60a71dede1ad"/>
+    <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="Nf6c5f8ab580544b0a6df26df4096bc20">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <owl:intersectionOf rdf:nodeID="N36a317e8cf9b4cb4ad8c8e5c29613875"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://example.org/kbr/ketenagakerjaan#MemenuhiSyaratCutiKhusus">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:label>Memenuhi syarat cuti khusus</rdfs:label>
+    <ktn:pasal>UU 13/2003 Pasal 93 ayat (4)</ktn:pasal>
+    <dcterms:source rdf:resource="https://example.org/kbr/regulasi#UU-13-2003"/>
+    <owl:equivalentClass rdf:nodeID="N135d9b17d42344879ff284b5b003777e"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://example.org/kbr/ketenagakerjaan#maxBulan">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#DatatypeProperty"/>
+    <rdfs:label>batas atas masa kerja (bulan, eksklusif)</rdfs:label>
+    <rdfs:domain rdf:resource="https://example.org/kbr/ketenagakerjaan#KategoriMasaKerja"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#integer"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://example.org/kbr/ketenagakerjaan#MemenuhiSyaratCutiTahunan">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:label>Memenuhi syarat cuti tahunan</rdfs:label>
+    <ktn:pasal>UU 6/2023 Pasal 79 ayat (3)</ktn:pasal>
+    <dcterms:source rdf:resource="https://example.org/kbr/regulasi#UU-6-2023"/>
+    <owl:equivalentClass rdf:nodeID="N1bd77eea5bda495ab73d18e352cfaa3e"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="Ndc5fcaf1859741a196e02a9715586a7a">
+    <rdf:first rdf:resource="https://example.org/kbr/ketenagakerjaan#Pekerja"/>
+    <rdf:rest rdf:nodeID="Ne7f8c0bbbaca43459682de7389e74f77"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://example.org/kbr/ketenagakerjaan#tunjanganTetap">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#DatatypeProperty"/>
+    <rdfs:label>tunjangan tetap</rdfs:label>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#decimal"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://example.org/kbr/ketenagakerjaan#jamKerjaPerHari">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#DatatypeProperty"/>
+    <rdfs:label>jam kerja per hari</rdfs:label>
+    <rdfs:domain rdf:resource="https://example.org/kbr/ketenagakerjaan#KetentuanWaktuKerja"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#decimal"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="N6bf12654cb0244c8889499f0bd6ab6e9">
+    <rdf:first rdf:resource="https://example.org/kbr/ketenagakerjaan#PHK"/>
+    <rdf:rest rdf:nodeID="N4a028cae56bf451a803453fa5b9cf20f"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://example.org/kbr/ketenagakerjaan#TunjanganTidakTetap">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:label>Tunjangan Tidak Tetap</rdfs:label>
+    <rdfs:subClassOf rdf:resource="https://example.org/kbr/ketenagakerjaan#KomponenUpah"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://example.org/kbr/ketenagakerjaan#HakCutiKeguguran">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:label>Hak Istirahat Keguguran</rdfs:label>
+    <rdfs:subClassOf rdf:resource="https://example.org/kbr/ketenagakerjaan#HakNonFinansial"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://example.org/kbr/ketenagakerjaan#HakPesangon">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:label>Uang Pesangon</rdfs:label>
+    <rdfs:subClassOf rdf:resource="https://example.org/kbr/ketenagakerjaan#HakFinansial"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="Nadf6beaa76214df48f2b60a71dede1ad">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
+    <owl:onProperty rdf:resource="https://example.org/kbr/ketenagakerjaan#mengalami"/>
+    <owl:someValuesFrom rdf:resource="https://example.org/kbr/ketenagakerjaan#PHK"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://example.org/kbr/ketenagakerjaan#menyusui">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#DatatypeProperty"/>
+    <rdfs:label>sedang menyusui</rdfs:label>
+    <rdfs:domain rdf:resource="https://example.org/kbr/ketenagakerjaan#PekerjaPerempuan"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#boolean"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://example.org/kbr/ketenagakerjaan#ProgramJaminanSosial">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:label>Program Jaminan Sosial</rdfs:label>
+    <rdfs:comment>Program jaminan sosial (JKK, JKM, JHT, JP).</rdfs:comment>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://example.org/kbr/ketenagakerjaan#HakIstirahatMingguan">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:label>Hak Istirahat Mingguan</rdfs:label>
+    <rdfs:subClassOf rdf:resource="https://example.org/kbr/ketenagakerjaan#HakIstirahat"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://example.org/kbr/ketenagakerjaan#MemenuhiSyaratUPMK">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:label>Memenuhi syarat UPMK</rdfs:label>
+    <owl:equivalentClass rdf:nodeID="N9c810184187442f1a3d9c50ca20ba8f0"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://example.org/kbr/ketenagakerjaan#KetentuanUpah">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:label>Ketentuan Upah</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://example.org/kbr/ketenagakerjaan#pengaliUPMK">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#DatatypeProperty"/>
+    <rdfs:label>pengali UPMK</rdfs:label>
+    <rdfs:domain rdf:resource="https://example.org/kbr/ketenagakerjaan#AlasanPHK"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#decimal"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="N36a317e8cf9b4cb4ad8c8e5c29613875">
+    <rdf:first rdf:resource="https://example.org/kbr/ketenagakerjaan#AlasanPHK"/>
+    <rdf:rest rdf:nodeID="Nb759fc1adeab452083c67e504867b08c"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://example.org/kbr/ketenagakerjaan#tarifPekerjaPersen">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#DatatypeProperty"/>
+    <rdfs:label>tarif iuran pekerja (persen)</rdfs:label>
+    <rdfs:domain rdf:resource="https://example.org/kbr/ketenagakerjaan#ProgramJaminanSosial"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#decimal"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://example.org/kbr/ketenagakerjaan#hariDibayar">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#DatatypeProperty"/>
+    <rdfs:label>hari dibayar</rdfs:label>
+    <rdfs:domain rdf:resource="https://example.org/kbr/ketenagakerjaan#PeristiwaCutiKhusus"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#integer"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://example.org/kbr/ketenagakerjaan#HakKompensasiPKWT">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:label>Hak Uang Kompensasi PKWT</rdfs:label>
+    <rdfs:subClassOf rdf:resource="https://example.org/kbr/ketenagakerjaan#HakFinansial"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="Ncbe75abe0a07440abc8b0fd8509d96d9">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <owl:intersectionOf rdf:nodeID="N3f788cd1d4f0496da99ca9cf4b59d3ad"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://example.org/kbr/ketenagakerjaan#HakJKM">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:label>Hak Jaminan Kematian</rdfs:label>
+    <rdfs:subClassOf rdf:resource="https://example.org/kbr/ketenagakerjaan#HakJaminanSosial"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://example.org/kbr/ketenagakerjaan#JenisDokumen">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:label>Jenis Dokumen</rdfs:label>
+    <rdfs:comment>Dokumen ketenagakerjaan yang dapat disusun berdasarkan peraturan dalam KB.</rdfs:comment>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://example.org/kbr/ketenagakerjaan#pengaliKonversiHarian6">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#DatatypeProperty"/>
+    <rdfs:label>pengali upah harian ke bulanan (6 hari kerja)</rdfs:label>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#integer"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://example.org/kbr/ketenagakerjaan#SubjekHukum">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:label>Subjek Hukum</rdfs:label>
+    <rdfs:subClassOf rdf:resource="http://xmlns.com/foaf/0.1/Agent"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="Nd8e4f5e8a4854095849ab3c154905e86">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <owl:intersectionOf rdf:nodeID="N9032b323173c4859b05e26703d415f3b"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://example.org/kbr/ketenagakerjaan#cutiMelahirkanBulan">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#DatatypeProperty"/>
+    <rdfs:label>lama cuti melahirkan (bulan)</rdfs:label>
+    <rdfs:domain rdf:resource="https://example.org/kbr/ketenagakerjaan#PekerjaPerempuan"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#integer"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://example.org/kbr/ketenagakerjaan#KategoriMasaKerja">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:label>Kategori Masa Kerja</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://example.org/kbr/ketenagakerjaan#tautanUnduh">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AnnotationProperty"/>
+    <rdfs:label>tautan unduh</rdfs:label>
+    <rdfs:comment>URL unduhan PDF resmi, bila tersedia.</rdfs:comment>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="N5104487a657d4762a50f23c5b8ebe2c2">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
+    <owl:onProperty rdf:resource="https://example.org/kbr/ketenagakerjaan#bentukHubunganKerja"/>
+    <owl:hasValue>PKWTT</owl:hasValue>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://example.org/kbr/ketenagakerjaan#KetentuanAlihDaya">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:label>Ketentuan Alih Daya</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://example.org/kbr/ketenagakerjaan#bentukHubunganKerja">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#DatatypeProperty"/>
+    <rdfs:label>bentuk hubungan kerja</rdfs:label>
+    <rdfs:domain rdf:resource="https://example.org/kbr/ketenagakerjaan#Pekerja"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    <rdfs:comment>Nilai: PKWT atau PKWTT.</rdfs:comment>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://example.org/kbr/ketenagakerjaan#minBulan">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#DatatypeProperty"/>
+    <rdfs:label>batas bawah masa kerja (bulan)</rdfs:label>
+    <rdfs:domain rdf:resource="https://example.org/kbr/ketenagakerjaan#KategoriMasaKerja"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#integer"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="Naebe6595d4244a318de9c5f3b8652e72">
+    <rdf:first rdf:nodeID="Necc4e219dadd447f8086b8aa9476d9b0"/>
+    <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://example.org/kbr/ketenagakerjaan#MemenuhiSyaratCutiHaid">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:label>Memenuhi syarat cuti haid</rdfs:label>
+    <ktn:pasal>UU 13/2003 Pasal 81</ktn:pasal>
+    <dcterms:source rdf:resource="https://example.org/kbr/regulasi#UU-13-2003"/>
+    <owl:equivalentClass rdf:resource="https://example.org/kbr/ketenagakerjaan#PekerjaPerempuan"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://example.org/kbr/ketenagakerjaan#KategoriUPMK">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:label>Kategori UPMK</rdfs:label>
+    <rdfs:subClassOf rdf:resource="https://example.org/kbr/ketenagakerjaan#KategoriMasaKerja"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="N545ccdb4a2e445cdb38ab6e1f23e2b46">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <owl:intersectionOf rdf:nodeID="N53083546b2cf405a92de4f67590108c9"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="Nbdbe1a1a30ff4fed93d6646d6a64023a">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
+    <owl:onProperty rdf:resource="https://example.org/kbr/ketenagakerjaan#mengerjakanLembur"/>
+    <owl:someValuesFrom rdf:resource="https://example.org/kbr/ketenagakerjaan#Lembur"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="N8e7145b109c74670ae26fdf9d4916366">
+    <rdf:first rdf:resource="https://example.org/kbr/ketenagakerjaan#PekerjaPerempuan"/>
+    <rdf:rest rdf:nodeID="Ncfc5a66b3ed0427783fc94f0fa54aa66"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="N784ab5ea69a749a4b713a1c76079ac3b">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <owl:intersectionOf rdf:nodeID="N1b5a22aafdff46159b3181127a54055a"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://example.org/kbr/ketenagakerjaan#KetentuanWaktuKerja">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:label>Ketentuan Waktu Kerja</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://example.org/kbr/ketenagakerjaan#PekerjaPKWTT">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:label>Pekerja PKWTT</rdfs:label>
+    <ktn:pasal>PP 35/2021 Pasal 3</ktn:pasal>
+    <dcterms:source rdf:resource="https://example.org/kbr/regulasi#PP-35-2021"/>
+    <owl:equivalentClass rdf:nodeID="Nf18d6cd836fb4d62998526298cdc4f4f"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="N53083546b2cf405a92de4f67590108c9">
+    <rdf:first rdf:resource="https://example.org/kbr/ketenagakerjaan#Pekerja"/>
+    <rdf:rest rdf:nodeID="Na1c62372cfc440688546f8c7ff706f72"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://example.org/kbr/ketenagakerjaan#PekerjaPerempuan">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:label>Pekerja Perempuan</rdfs:label>
+    <rdfs:subClassOf rdf:resource="https://example.org/kbr/ketenagakerjaan#Pekerja"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="N5e4014229f50491ab2ef0c6505a13d1c">
+    <rdf:first rdf:resource="https://example.org/kbr/ketenagakerjaan#Pekerja"/>
+    <rdf:rest rdf:nodeID="Neddecf34d96846dc87481f7f30afbe3c"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="N9145cb36d69344c596e2185d216e8afe">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
+    <owl:onProperty rdf:resource="https://example.org/kbr/ketenagakerjaan#pengaliUP"/>
+    <owl:someValuesFrom rdf:nodeID="Nfe25e599f8a645d1b96a6702e9ed0e13"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://example.org/kbr/ketenagakerjaan#batasTahunPKWT">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#DatatypeProperty"/>
+    <rdfs:label>batas jangka waktu PKWT (tahun)</rdfs:label>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#integer"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://example.org/kbr/ketenagakerjaan#batasHariKerjaHarian">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#DatatypeProperty"/>
+    <rdfs:label>batas hari kerja perjanjian harian</rdfs:label>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#integer"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="Naa80068b09bf4f15bc2a7855f8f04a1f">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
+    <owl:onProperty rdf:resource="https://example.org/kbr/ketenagakerjaan#memilikiAlasanPHK"/>
+    <owl:someValuesFrom rdf:resource="https://example.org/kbr/ketenagakerjaan#AlasanTanpaPesangon"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://example.org/kbr/ketenagakerjaan#HakCutiPendampinganSuami">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:label>Hak Cuti Pendampingan Suami</rdfs:label>
+    <rdfs:subClassOf rdf:resource="https://example.org/kbr/ketenagakerjaan#HakNonFinansial"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="Na1c62372cfc440688546f8c7ff706f72">
+    <rdf:first rdf:nodeID="Nbdbe1a1a30ff4fed93d6646d6a64023a"/>
+    <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="N1b5a22aafdff46159b3181127a54055a">
+    <rdf:first rdf:resource="https://example.org/kbr/ketenagakerjaan#PHK"/>
+    <rdf:rest rdf:nodeID="Nbf300e1ebeda46458682b6c6a2a20dba"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://example.org/kbr/ketenagakerjaan#MemenuhiSyaratCutiMelahirkan">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:label>Memenuhi syarat cuti melahirkan</rdfs:label>
+    <ktn:pasal>UU 4/2024 Pasal 4 ayat (3)a</ktn:pasal>
+    <dcterms:source rdf:resource="https://example.org/kbr/regulasi#UU-4-2024"/>
+    <owl:equivalentClass rdf:nodeID="N41bf9eddcb3a455e8cf51205dd023148"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="N51d96f5420bd46ba9cf83a2419c1d2ad">
+    <rdf:first rdf:resource="https://example.org/kbr/ketenagakerjaan#PHK"/>
+    <rdf:rest rdf:nodeID="Naebe6595d4244a318de9c5f3b8652e72"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://example.org/kbr/ketenagakerjaan#PKWT">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:label>Perjanjian Kerja Waktu Tertentu</rdfs:label>
+    <rdfs:subClassOf rdf:resource="https://example.org/kbr/ketenagakerjaan#HubunganKerja"/>
+    <owl:disjointWith rdf:resource="https://example.org/kbr/ketenagakerjaan#PKWTT"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://example.org/kbr/ketenagakerjaan#jamLembur">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#DatatypeProperty"/>
+    <rdfs:label>jam lembur</rdfs:label>
+    <rdfs:domain rdf:resource="https://example.org/kbr/ketenagakerjaan#Lembur"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#decimal"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://example.org/kbr/ketenagakerjaan#HakUPMK">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:label>Uang Penghargaan Masa Kerja</rdfs:label>
+    <rdfs:subClassOf rdf:resource="https://example.org/kbr/ketenagakerjaan#HakFinansial"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://example.org/kbr/ketenagakerjaan#HakCutiTahunan">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:label>Hak Cuti Tahunan</rdfs:label>
+    <rdfs:subClassOf rdf:resource="https://example.org/kbr/ketenagakerjaan#HakNonFinansial"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://example.org/kbr/ketenagakerjaan#MemenuhiSyaratUPH">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:label>Memenuhi syarat UPH</rdfs:label>
+    <owl:equivalentClass rdf:nodeID="Ncbe75abe0a07440abc8b0fd8509d96d9"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://example.org/kbr/ketenagakerjaan#jamLemburMaksPerHari">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#DatatypeProperty"/>
+    <rdfs:label>batas jam lembur per hari</rdfs:label>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#integer"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="Na97fb2d88ff4469c94caea80698ca1ef">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
+    <owl:onProperty rdf:resource="https://example.org/kbr/ketenagakerjaan#mengalamiPeristiwa"/>
+    <owl:someValuesFrom rdf:resource="https://example.org/kbr/ketenagakerjaan#PeristiwaCutiKhusus"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="N9032b323173c4859b05e26703d415f3b">
+    <rdf:first rdf:resource="https://example.org/kbr/ketenagakerjaan#Pekerja"/>
+    <rdf:rest rdf:nodeID="Nf8d93144cc9a46859b75ffac9cf563ef"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="N28e4503a48a640bfb38ea569472fdab1">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <owl:intersectionOf rdf:nodeID="Nfd72aa04a2a04e2d9d983681957ba4a0"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="N31061f3d92c74fe8a7d0134b686cfcdb">
+    <rdf:first rdf:resource="https://example.org/kbr/ketenagakerjaan#Pekerja"/>
+    <rdf:rest rdf:nodeID="Nea1e4e3ba0884731b77ad8fc2c48f415"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="N86f0efc965174b909e9f232f0ca43a7a">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <owl:intersectionOf rdf:nodeID="Ndc5fcaf1859741a196e02a9715586a7a"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://example.org/kbr/ketenagakerjaan#cutiPendampinganHari">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#DatatypeProperty"/>
+    <rdfs:label>cuti pendampingan suami (hari)</rdfs:label>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#integer"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="Nfd72aa04a2a04e2d9d983681957ba4a0">
+    <rdf:first rdf:resource="https://example.org/kbr/ketenagakerjaan#Pekerja"/>
+    <rdf:rest rdf:nodeID="N1a6c4b19c5be445a9c0e0f5a90807321"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://example.org/kbr/ketenagakerjaan#AlasanTanpaPesangon">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:label>Alasan PHK tanpa pesangon</rdfs:label>
+    <owl:equivalentClass rdf:nodeID="Ndf9dd12939384d6ebc936c5696e58f9c"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="N135d9b17d42344879ff284b5b003777e">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <owl:intersectionOf rdf:nodeID="N5e4014229f50491ab2ef0c6505a13d1c"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://example.org/kbr/ketenagakerjaan#tautanSumber">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AnnotationProperty"/>
+    <rdfs:label>tautan sumber</rdfs:label>
+    <rdfs:comment>URL halaman resmi peraturan sumber.</rdfs:comment>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="Nd04d63c1ddec497b91ad51919d53116e">
+    <rdf:first rdf:nodeID="N17de56348c0b4cc69ac03dddf02ac05c"/>
+    <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://example.org/kbr/ketenagakerjaan#pasal">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AnnotationProperty"/>
+    <rdfs:label>pasal</rdfs:label>
+    <rdfs:comment>Rujukan pasal sumber, mis. 'PP 35/2021 Pasal 43 ayat (1)'.</rdfs:comment>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="Ndd312be6e3d8475a9086f525719853a5">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <owl:intersectionOf rdf:nodeID="N3d0d2dfef558492686eeabb07d450c19"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://example.org/kbr/ketenagakerjaan#cutiMelahirkanBulanMin">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#DatatypeProperty"/>
+    <rdfs:label>cuti melahirkan minimal (bulan)</rdfs:label>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#decimal"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="N3d0d2dfef558492686eeabb07d450c19">
+    <rdf:first rdf:resource="https://example.org/kbr/ketenagakerjaan#AlasanPHK"/>
+    <rdf:rest rdf:nodeID="N3aeb3a8bad124e10967023d456e9633a"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://example.org/kbr/ketenagakerjaan#cutiKeguguranBulan">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#DatatypeProperty"/>
+    <rdfs:label>istirahat keguguran (bulan)</rdfs:label>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#decimal"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://example.org/kbr/ketenagakerjaan#jamKerjaPerMinggu">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#DatatypeProperty"/>
+    <rdfs:label>jam kerja per minggu</rdfs:label>
+    <rdfs:domain rdf:resource="https://example.org/kbr/ketenagakerjaan#KetentuanWaktuKerja"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#decimal"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://example.org/kbr/ketenagakerjaan#PerusahaanAlihDaya">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:label>Perusahaan Alih Daya</rdfs:label>
+    <rdfs:subClassOf rdf:resource="https://example.org/kbr/ketenagakerjaan#Pengusaha"/>
+    <rdfs:subClassOf rdf:resource="http://xmlns.com/foaf/0.1/Organization"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://example.org/kbr/ketenagakerjaan#batasHariPencatatan">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#DatatypeProperty"/>
+    <rdfs:label>batas hari pencatatan PKWT</rdfs:label>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#integer"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://example.org/kbr/ketenagakerjaan#jenisProgram">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#DatatypeProperty"/>
+    <rdfs:label>jenis program</rdfs:label>
+    <rdfs:domain rdf:resource="https://example.org/kbr/ketenagakerjaan#ProgramJaminanSosial"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="Nb759fc1adeab452083c67e504867b08c">
+    <rdf:first rdf:nodeID="N29c7c32060d443bcbb7b67f49a91d028"/>
+    <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="Necc4e219dadd447f8086b8aa9476d9b0">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
+    <owl:onProperty rdf:resource="https://example.org/kbr/ketenagakerjaan#memilikiAlasanPHK"/>
+    <owl:someValuesFrom rdf:resource="https://example.org/kbr/ketenagakerjaan#AlasanBerpesangon"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="N203e3b1c8db642a6b087354f975b5dec">
+    <rdf:first rdf:resource="https://example.org/kbr/ketenagakerjaan#Pekerja"/>
+    <rdf:rest rdf:nodeID="Nebb5c2a852f94005a8ea04b261cd30cb"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://example.org/kbr/ketenagakerjaan#KomponenUpah">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:label>Komponen Upah</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://example.org/kbr/ketenagakerjaan#faktorPembagiKompensasi">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#DatatypeProperty"/>
+    <rdfs:label>faktor pembagi kompensasi PKWT</rdfs:label>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#integer"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://example.org/kbr/ketenagakerjaan#bulanUpahPenuh">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#DatatypeProperty"/>
+    <rdfs:label>jumlah bulan upah penuh saat cuti melahirkan</rdfs:label>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#integer"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://example.org/kbr/ketenagakerjaan#Topik">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:label>Topik</rdfs:label>
+    <rdfs:comment>Topik hukum untuk pengelompokan norma pada retrieval.</rdfs:comment>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="N898c537fbd8f4278880535dfdb34ca9e">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
+    <owl:onProperty rdf:resource="https://example.org/kbr/ketenagakerjaan#masaKerjaBulan"/>
+    <owl:someValuesFrom rdf:nodeID="Nb253c896d99c42939f2678d385c7db80"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://example.org/kbr/ketenagakerjaan#PKWTT">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:label>Perjanjian Kerja Waktu Tidak Tertentu</rdfs:label>
+    <rdfs:subClassOf rdf:resource="https://example.org/kbr/ketenagakerjaan#HubunganKerja"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://example.org/kbr/ketenagakerjaan#jumlahHariKerjaPerMinggu">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#DatatypeProperty"/>
+    <rdfs:label>jumlah hari kerja per minggu</rdfs:label>
+    <rdfs:domain rdf:resource="https://example.org/kbr/ketenagakerjaan#KetentuanWaktuKerja"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#integer"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://example.org/kbr/ketenagakerjaan#upahPokok">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#DatatypeProperty"/>
+    <rdfs:label>upah pokok</rdfs:label>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#decimal"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="N1bd77eea5bda495ab73d18e352cfaa3e">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <owl:intersectionOf rdf:nodeID="N203e3b1c8db642a6b087354f975b5dec"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="N5e8e3e480bf94b2498f0c644b7db4083">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <owl:intersectionOf rdf:nodeID="N51d96f5420bd46ba9cf83a2419c1d2ad"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="N3b9ea341acdd457c8391da839d2f11b5">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
+    <owl:onProperty rdf:resource="https://example.org/kbr/ketenagakerjaan#memilikiAlasanPHK"/>
+    <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</owl:qualifiedCardinality>
+    <owl:onClass rdf:resource="https://example.org/kbr/ketenagakerjaan#AlasanPHK"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="Nfe25e599f8a645d1b96a6702e9ed0e13">
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Datatype"/>
+    <owl:onDatatype rdf:resource="http://www.w3.org/2001/XMLSchema#decimal"/>
+    <owl:withRestrictions rdf:nodeID="N00f0e7689b334ca1a0a67ed1a0e994ff"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="N41d3ea0bdbbe4365b02b3a38809e6879">
+    <rdf:first rdf:resource="https://example.org/kbr/ketenagakerjaan#Pekerja"/>
+    <rdf:rest rdf:nodeID="Ncb5ca9bfc99347629dcec95c03beb3aa"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://example.org/kbr/ketenagakerjaan#MemenuhiSyaratUangPisah">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:label>Memenuhi syarat uang pisah</rdfs:label>
+    <owl:equivalentClass rdf:nodeID="N05a1e60b0d714f8598947ed5d2c4b13c"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="Nf06cb28d9bde4d438481d041f6896506">
+    <rdf:first rdf:nodeID="Nb3c5a262005b4d059c4593c23c94f78f"/>
+    <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://example.org/kbr/ketenagakerjaan#HakIstirahat">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:label>Hak Istirahat</rdfs:label>
+    <rdfs:subClassOf rdf:resource="https://example.org/kbr/ketenagakerjaan#HakNonFinansial"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="Nf8d93144cc9a46859b75ffac9cf563ef">
+    <rdf:first rdf:nodeID="Nbb1b3d37da38421083ddcc473628c406"/>
+    <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="Ne807a5f6745040e2bf945d7759440945">
+    <xsd:minExclusive rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</xsd:minExclusive>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="N84eede6c655249a5a117d19b34d6fcf0">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <owl:intersectionOf rdf:nodeID="N8de568b276684ecc96e42a34a652850d"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://example.org/kbr/ketenagakerjaan#HakCutiKhusus">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:label>Hak Cuti Khusus</rdfs:label>
+    <rdfs:subClassOf rdf:resource="https://example.org/kbr/ketenagakerjaan#HakNonFinansial"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://example.org/kbr/ketenagakerjaan#HakUpahLembur">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:label>Hak Upah Lembur</rdfs:label>
+    <rdfs:subClassOf rdf:resource="https://example.org/kbr/ketenagakerjaan#HakFinansial"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://example.org/kbr/ketenagakerjaan#Hak">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:label>Hak</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://example.org/kbr/ketenagakerjaan#HakUangPisah">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:label>Uang Pisah</rdfs:label>
+    <rdfs:subClassOf rdf:resource="https://example.org/kbr/ketenagakerjaan#HakFinansial"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="N4a028cae56bf451a803453fa5b9cf20f">
+    <rdf:first rdf:nodeID="Nd55200c900404de1b41d45e3ad79fdb6"/>
+    <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://example.org/kbr/ketenagakerjaan#KetentuanLembur">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:label>Ketentuan Lembur</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="N12cc69526784495b890c15684b6ab2ad">
+    <rdf:first rdf:nodeID="N3de25134096a4d3fa5609746d2604ce9"/>
+    <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://example.org/kbr/ketenagakerjaan#cutiPendampinganTambahanHari">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#DatatypeProperty"/>
+    <rdfs:label>tambahan cuti pendampingan suami (hari)</rdfs:label>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#integer"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="N47f045e71f714e7b8abcac569f6aa1c1">
+    <rdf:first rdf:resource="https://example.org/kbr/ketenagakerjaan#AlasanPHK"/>
+    <rdf:rest rdf:nodeID="N12cc69526784495b890c15684b6ab2ad"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://example.org/kbr/ketenagakerjaan#MemenuhiSyaratPesangon">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:label>Memenuhi syarat uang pesangon</rdfs:label>
+    <owl:equivalentClass rdf:nodeID="Nd8e4f5e8a4854095849ab3c154905e86"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="Nd55200c900404de1b41d45e3ad79fdb6">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
+    <owl:onProperty rdf:resource="https://example.org/kbr/ketenagakerjaan#memilikiAlasanPHK"/>
+    <owl:someValuesFrom rdf:nodeID="Nf6c5f8ab580544b0a6df26df4096bc20"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="N9d85245c3536488fafbd587c23a24381">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
+    <owl:onProperty rdf:resource="https://example.org/kbr/ketenagakerjaan#menyusui"/>
+    <owl:hasValue rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:hasValue>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="Nbb1b3d37da38421083ddcc473628c406">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
+    <owl:onProperty rdf:resource="https://example.org/kbr/ketenagakerjaan#mengalami"/>
+    <owl:someValuesFrom rdf:nodeID="N5e8e3e480bf94b2498f0c644b7db4083"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="N3de25134096a4d3fa5609746d2604ce9">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
+    <owl:onProperty rdf:resource="https://example.org/kbr/ketenagakerjaan#pengaliUP"/>
+    <owl:someValuesFrom rdf:nodeID="N0605c931553f40ad80998453d7940ebc"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="N41bf9eddcb3a455e8cf51205dd023148">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <owl:intersectionOf rdf:nodeID="N8e7145b109c74670ae26fdf9d4916366"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="N7e60f2916493410b8135e55927d91669">
+    <rdf:first rdf:nodeID="Ncdb17e5ddaa24199a9caaea4c44adefc"/>
+    <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="Ncb5ca9bfc99347629dcec95c03beb3aa">
+    <rdf:first rdf:nodeID="N1738be774d644dbb9e83a0a7f9ab0eec"/>
+    <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://example.org/kbr/ketenagakerjaan#HakCutiHaid">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:label>Hak Cuti Haid</rdfs:label>
+    <rdfs:subClassOf rdf:resource="https://example.org/kbr/ketenagakerjaan#HakNonFinansial"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="Nf18d6cd836fb4d62998526298cdc4f4f">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <owl:intersectionOf rdf:nodeID="N31061f3d92c74fe8a7d0134b686cfcdb"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="Nea1e4e3ba0884731b77ad8fc2c48f415">
+    <rdf:first rdf:nodeID="N5104487a657d4762a50f23c5b8ebe2c2"/>
+    <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://example.org/kbr/ketenagakerjaan#HakNonFinansial">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:label>Hak Non-Finansial</rdfs:label>
+    <rdfs:subClassOf rdf:resource="https://example.org/kbr/ketenagakerjaan#Hak"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="Nd6e70185a9e9429bb6370379bf47ea58">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
+    <owl:onProperty rdf:resource="https://example.org/kbr/ketenagakerjaan#mengalamiKeguguran"/>
+    <owl:hasValue rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:hasValue>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="N05a1e60b0d714f8598947ed5d2c4b13c">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <owl:intersectionOf rdf:nodeID="N41d3ea0bdbbe4365b02b3a38809e6879"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="N8d2377ca815d4e57a791f6851607cb6b">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
+    <owl:onProperty rdf:resource="https://example.org/kbr/ketenagakerjaan#sedangCutiMelahirkan"/>
+    <owl:hasValue rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:hasValue>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://example.org/kbr/ketenagakerjaan#HakJaminanSosial">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:label>Hak Jaminan Sosial</rdfs:label>
+    <rdfs:subClassOf rdf:resource="https://example.org/kbr/ketenagakerjaan#HakNonFinansial"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="N00f0e7689b334ca1a0a67ed1a0e994ff">
+    <rdf:first rdf:nodeID="Ne807a5f6745040e2bf945d7759440945"/>
+    <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="N3aeb3a8bad124e10967023d456e9633a">
+    <rdf:first rdf:nodeID="N9145cb36d69344c596e2185d216e8afe"/>
+    <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="Ned0c9766de5b4fb49b47387c13ebee1c">
+    <xsd:minInclusive rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</xsd:minInclusive>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://example.org/kbr/ketenagakerjaan#KetentuanJaminanSosial">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:label>Ketentuan Jaminan Sosial</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="Nd9315a8fb9c849638a2d3d4574371729">
+    <rdf:first rdf:nodeID="N959b3b2a2e75461091d2ec8472cb45ca"/>
+    <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://example.org/kbr/ketenagakerjaan#HakIstirahatPanjang">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:label>Hak Istirahat Panjang</rdfs:label>
+    <rdfs:subClassOf rdf:resource="https://example.org/kbr/ketenagakerjaan#HakIstirahat"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="Ndb5f42cdf2ee4e31b5ebec1fd10a0fb4">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
+    <owl:onProperty rdf:resource="https://example.org/kbr/ketenagakerjaan#bentukHubunganKerja"/>
+    <owl:hasValue>PKWT</owl:hasValue>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="N29c7c32060d443bcbb7b67f49a91d028">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
+    <owl:onProperty rdf:resource="https://example.org/kbr/ketenagakerjaan#pengaliUPMK"/>
+    <owl:someValuesFrom rdf:nodeID="N88194c09d93e474c976d08e7e00b5c51"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="N033e458172814658802b93af64cad8f7">
+    <rdf:first rdf:resource="https://example.org/kbr/ketenagakerjaan#Pekerja"/>
+    <rdf:rest rdf:nodeID="Nf06cb28d9bde4d438481d041f6896506"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="N17de56348c0b4cc69ac03dddf02ac05c">
+    <xsd:maxInclusive rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</xsd:maxInclusive>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="Ndf9dd12939384d6ebc936c5696e58f9c">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <owl:intersectionOf rdf:nodeID="N47f045e71f714e7b8abcac569f6aa1c1"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="Nbf300e1ebeda46458682b6c6a2a20dba">
+    <rdf:first rdf:nodeID="Naa80068b09bf4f15bc2a7855f8f04a1f"/>
+    <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="N9c810184187442f1a3d9c50ca20ba8f0">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <owl:intersectionOf rdf:nodeID="N033e458172814658802b93af64cad8f7"/>
+  </rdf:Description>
+</rdf:RDF>

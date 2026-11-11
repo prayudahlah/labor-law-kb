@@ -1,7 +1,7 @@
 # KB & Reasoning Hukum Ketenagakerjaan Indonesia
 
 Prototype knowledge base dan penalaran hak ketenagakerjaan Indonesia berbasis
-OWL 2 DL (SROIQ(D)). Fakta norma dikurasi di CSV, digenerate menjadi Turtle,
+OWL 2 DL (SROIQ(D)). Fakta norma dikurasi di CSV, digenerate menjadi RDF/XML,
 dinalar dengan reasoner OWL 2 DL, dan nominal (pesangon, lembur, kompensasi)
 dihitung di backend Java.
 
@@ -23,6 +23,16 @@ frontend/        React + Vite
 scripts/         unduh, ekstraksi, validasi/kompilasi record, build, verifikasi, katalog
 ```
 
+## Format Ontologi
+
+- **Sumber manual**: `ontology/core/*.rdf` dan `ontology/examples/*.rdf`.
+- **Hasil generate dari CSV**: `ontology/meta/*.rdf` dan
+  `ontology/regulasi/*.rdf`.
+- **Top-level**: `ontology/ontology.rdf` (KB murni) dan `ontology/test.rdf`
+  (KB + golden case).
+- Seluruh file ontology memakai **RDF/XML**. Tidak ada lagi `.ttl`;
+  backend akan memuat `ontology.rdf`.
+
 ## Ekstraksi Terstruktur
 
 Fakta hukum didahulukan sebagai **Extraction Record** (JSON) yang direview,
@@ -31,7 +41,7 @@ menulis CSV langsung; lihat `data/extraction/SPEC.md`.
 
 ```
 docs/markdown/<id>.md ──LLM──► data/extraction/records/<id>.json
-    ──validate──► ──compile──► data/*.csv ──build──► ontology/**/*.ttl
+    ──validate──► ──compile──► data/*.csv ──build──► ontology/**/*.rdf
 ```
 
 - `data/extraction/VOCAB.yaml` — satu sumber kebenaran enum (dibaca validator,
@@ -57,7 +67,7 @@ uv sync
 ```bash
 uv run python scripts/validate_extraction.py   # validasi record JSON
 uv run python scripts/compile_extraction.py    # record JSON -> CSV kanonik
-uv run python scripts/build_ontology.py        # CSV -> Turtle
+uv run python scripts/build_ontology.py        # CSV -> RDF/XML
 uv run python scripts/check_expressivity.py    # cek DL expressivity SROIQ(D)
 uv run python scripts/check_ontology.py        # HermiT + uji kasus
 uv run python scripts/build_catalog.py         # katalog + top-level Protege
@@ -88,7 +98,7 @@ docker compose up --build
    ```
 
 2. Buka **Protege** (5.5+), lalu **File > Open** dan pilih
-   `ontology/ontology.ttl`.
+   `ontology/ontology.rdf`.
 3. Import diselesaikan otomatis lewat `ontology/catalog-v001.xml`
    (pastikan kedua berkas tetap di folder `ontology/`).
 4. Jalankan **Reasoner > HermiT > Start reasoner**.
@@ -103,7 +113,7 @@ Untuk SPARQL, pakai `rdflib` atau backend Java.
 ## Kosakata Eksternal
 
 Ontology memakai **alignment** ke kosakata standar (bukan import penuh), agar
-reasoning tetap offline. Deklarasi stub ada di `ontology/core/external.ttl`;
+reasoning tetap offline. Deklarasi stub ada di `ontology/core/external.rdf`;
 tidak ada `owl:imports` eksternal. Semua IRI di bawah sudah diverifikasi pada
 **2026-11-09** terhadap dokumen resminya.
 
@@ -137,10 +147,32 @@ PDF dari JDIH BPK (`peraturan.bpk.go.id`). Daftar dan URL di
 `docs/sources.yaml`; checksum di `docs/downloads.lock.json`; teks hasil
 ekstraksi di `docs/markdown/`.
 
+## Jenis Dokumen
+
+KB memetakan peraturan ke jenis dokumen yang dapat disusun darinya
+(`reg:menghasilkanDokumen`). Daftar jenis dokumen ada di `data/dokumen.csv`,
+relasinya di `data/regulasi_dokumen.csv`.
+
+1. Peraturan Perusahaan
+2. Perjanjian Kerja Waktu Tertentu (PKWT)
+3. Perjanjian Kerja Waktu Tidak Tertentu (PKWTT)
+4. Perjanjian Kerja Sama Alih Daya
+5. Surat Perintah Lembur
+6. Slip Upah
+7. Surat Pemberitahuan PHK
+8. Surat Keterangan Cuti
+9. Rencana Penggunaan Tenaga Kerja Asing (RPTKA)
+10. Dokumen Pendaftaran Jaminan Sosial
+
+Setiap norma dan parameter memiliki anotasi `ktn:tautanSumber` (halaman resmi
+peraturan). Bila tersedia URL PDF langsung, ditambahkan `ktn:tautanUnduh` dan
+`reg:tautanUnduh`.
+
 ## Metadata
 
-Turtle hanya memuat metadata bermakna (`ktn:pasal`, `dct:source`). Arti
-`confidence` dan `dasar_keyakinan` ada di `data/skema_confidence.md`.
+RDF/XML memuat metadata bermakna (`ktn:pasal`, `dct:source`,
+`ktn:tautanSumber`). Arti `confidence` dan `dasar_keyakinan` ada di
+`data/skema_confidence.md`.
 
 ## Lisensi
 

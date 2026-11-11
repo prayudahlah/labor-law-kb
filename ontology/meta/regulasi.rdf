@@ -1,0 +1,640 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- BERKAS DIGENERATE. JANGAN EDIT MANUAL.
+     Sumber   : regulasi.csv
+     Hasilkan : uv run python scripts/build_ontology.py -->
+<rdf:RDF xmlns:brick="https://brickschema.org/schema/Brick#" xmlns:csvw="http://www.w3.org/ns/csvw#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcam="http://purl.org/dc/dcam/" xmlns:dcat="http://www.w3.org/ns/dcat#" xmlns:dcmitype="http://purl.org/dc/dcmitype/" xmlns:dct="http://purl.org/dc/terms/" xmlns:doap="http://usefulinc.com/ns/doap#" xmlns:foaf="http://xmlns.com/foaf/0.1/" xmlns:geo="http://www.opengis.net/ont/geosparql#" xmlns:ktn="https://example.org/kbr/ketenagakerjaan#" xmlns:odrl="http://www.w3.org/ns/odrl/2/" xmlns:org="http://www.w3.org/ns/org#" xmlns:owl="http://www.w3.org/2002/07/owl#" xmlns:prof="http://www.w3.org/ns/dx/prof/" xmlns:prov="http://www.w3.org/ns/prov#" xmlns:qb="http://purl.org/linked-data/cube#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:reg="https://example.org/kbr/regulasi#" xmlns:schema="https://schema.org/" xmlns:sh="http://www.w3.org/ns/shacl#" xmlns:skos="http://www.w3.org/2004/02/skos/core#" xmlns:sosa="http://www.w3.org/ns/sosa/" xmlns:ssn="http://www.w3.org/ns/ssn/" xmlns:time="http://www.w3.org/2006/time#" xmlns:vann="http://purl.org/vocab/vann/" xmlns:void="http://rdfs.org/ns/void#" xmlns:wgs="https://www.w3.org/2003/01/geo/wgs84_pos#" xmlns:xml="http://www.w3.org/XML/1998/namespace" xmlns:xsd="http://www.w3.org/2001/XMLSchema#">
+  <rdf:Description rdf:about="https://example.org/kbr/regulasi">
+    <dct:title>Metadata peraturan ketenagakerjaan (individu)</dct:title>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Ontology"/>
+    <owl:imports rdf:resource="https://example.org/kbr/regulasi/vocab"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://example.org/kbr/regulasi#PP-10-2020">
+    <dct:title>Peraturan Pemerintah Nomor 10 Tahun 2020 tentang Tata Cara Penempatan Pekerja Migran Indonesia oleh BP2MI</dct:title>
+    <rdf:type rdf:resource="https://example.org/kbr/regulasi#Peraturan"/>
+    <reg:jenis rdf:resource="https://example.org/kbr/regulasi#PeraturanPemerintah"/>
+    <reg:menghasilkanDokumen rdf:resource="https://example.org/kbr/ketenagakerjaan#DokumenPendaftaranJamsos"/>
+    <reg:nomor>10</reg:nomor>
+    <reg:status rdf:resource="https://example.org/kbr/regulasi#Berlaku"/>
+    <reg:sumberUtama rdf:resource="https://peraturan.bpk.go.id/Details/132015/pp-no-10-tahun-2020"/>
+    <reg:tahun rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">2020</reg:tahun>
+    <reg:tautanUnduh rdf:resource="https://peraturan.bpk.go.id/Download/122808/PP%20Nomor%2010%20Tahun%202020.pdf"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://example.org/kbr/regulasi#PP-15-2007">
+    <dct:title>Peraturan Pemerintah Nomor 15 Tahun 2007 tentang Informasi Ketenagakerjaan dan Perencanaan Tenaga Kerja</dct:title>
+    <rdf:type rdf:resource="https://example.org/kbr/regulasi#Peraturan"/>
+    <reg:jenis rdf:resource="https://example.org/kbr/regulasi#PeraturanPemerintah"/>
+    <reg:nomor>15</reg:nomor>
+    <reg:status rdf:resource="https://example.org/kbr/regulasi#Berlaku"/>
+    <reg:sumberUtama rdf:resource="https://peraturan.go.id/id/pp-no-15-tahun-2007"/>
+    <reg:tahun rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">2007</reg:tahun>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://example.org/kbr/regulasi#PP-21-2024">
+    <dct:title>Peraturan Pemerintah Nomor 21 Tahun 2024 tentang Perubahan atas Peraturan Pemerintah Nomor 25 Tahun 2020 tentang Penyelenggaraan Tabungan Perumahan Rakyat</dct:title>
+    <rdf:type rdf:resource="https://example.org/kbr/regulasi#Peraturan"/>
+    <reg:jenis rdf:resource="https://example.org/kbr/regulasi#PeraturanPemerintah"/>
+    <reg:nomor>21</reg:nomor>
+    <reg:status rdf:resource="https://example.org/kbr/regulasi#Berlaku"/>
+    <reg:sumberUtama rdf:resource="https://peraturan.bpk.go.id/Details/286236/pp-no-21-tahun-2024"/>
+    <reg:tahun rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">2024</reg:tahun>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://example.org/kbr/regulasi#PP-22-2022">
+    <dct:title>Peraturan Pemerintah Nomor 22 Tahun 2022 tentang Penempatan dan Pelindungan Awak Kapal Niaga Migran dan Awak Kapal Perikanan Migran</dct:title>
+    <rdf:type rdf:resource="https://example.org/kbr/regulasi#Peraturan"/>
+    <reg:jenis rdf:resource="https://example.org/kbr/regulasi#PeraturanPemerintah"/>
+    <reg:menghasilkanDokumen rdf:resource="https://example.org/kbr/ketenagakerjaan#DokumenPKWT"/>
+    <reg:menghasilkanDokumen rdf:resource="https://example.org/kbr/ketenagakerjaan#DokumenSlipUpah"/>
+    <reg:menghasilkanDokumen rdf:resource="https://example.org/kbr/ketenagakerjaan#DokumenSuratPerintahLembur"/>
+    <reg:nomor>22</reg:nomor>
+    <reg:status rdf:resource="https://example.org/kbr/regulasi#Berlaku"/>
+    <reg:sumberUtama rdf:resource="https://peraturan.go.id/id/pp-no-22-tahun-2022"/>
+    <reg:tahun rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">2022</reg:tahun>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://example.org/kbr/regulasi#PP-23-2004">
+    <dct:title>Peraturan Pemerintah Nomor 23 Tahun 2004 tentang Badan Nasional Sertifikasi Profesi</dct:title>
+    <rdf:type rdf:resource="https://example.org/kbr/regulasi#Peraturan"/>
+    <reg:jenis rdf:resource="https://example.org/kbr/regulasi#PeraturanPemerintah"/>
+    <reg:nomor>23</reg:nomor>
+    <reg:status rdf:resource="https://example.org/kbr/regulasi#Berlaku"/>
+    <reg:sumberUtama rdf:resource="https://peraturan.go.id/id/pp-no-23-tahun-2004"/>
+    <reg:tahun rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">2004</reg:tahun>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://example.org/kbr/regulasi#PP-25-2020">
+    <dct:title>Peraturan Pemerintah Nomor 25 Tahun 2020 tentang Penyelenggaraan Tabungan Perumahan Rakyat</dct:title>
+    <rdf:type rdf:resource="https://example.org/kbr/regulasi#Peraturan"/>
+    <reg:jenis rdf:resource="https://example.org/kbr/regulasi#PeraturanPemerintah"/>
+    <reg:nomor>25</reg:nomor>
+    <reg:status rdf:resource="https://example.org/kbr/regulasi#Berlaku"/>
+    <reg:sumberUtama rdf:resource="https://peraturan.bpk.go.id/Details/137950/pp-no-25-tahun-2020"/>
+    <reg:tahun rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">2020</reg:tahun>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://example.org/kbr/regulasi#PP-27-2026">
+    <dct:title>Peraturan Pemerintah Nomor 27 Tahun 2026 tentang Perubahan Kedua atas Peraturan Pemerintah Nomor 99 Tahun 2013 tentang Pengelolaan Aset Jaminan Sosial Ketenagakerjaan</dct:title>
+    <rdf:type rdf:resource="https://example.org/kbr/regulasi#Peraturan"/>
+    <reg:jenis rdf:resource="https://example.org/kbr/regulasi#PeraturanPemerintah"/>
+    <reg:menghasilkanDokumen rdf:resource="https://example.org/kbr/ketenagakerjaan#DokumenPendaftaranJamsos"/>
+    <reg:nomor>27</reg:nomor>
+    <reg:status rdf:resource="https://example.org/kbr/regulasi#Berlaku"/>
+    <reg:sumberUtama rdf:resource="https://peraturan.bpk.go.id/Details/351383/pp-no-27-tahun-2026"/>
+    <reg:tahun rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">2026</reg:tahun>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://example.org/kbr/regulasi#PP-28-2024">
+    <dct:title>Peraturan Pemerintah Nomor 28 Tahun 2024 tentang Peraturan Pelaksanaan Undang-Undang Nomor 17 Tahun 2023 tentang Kesehatan</dct:title>
+    <rdf:type rdf:resource="https://example.org/kbr/regulasi#Peraturan"/>
+    <reg:jenis rdf:resource="https://example.org/kbr/regulasi#PeraturanPemerintah"/>
+    <reg:menghasilkanDokumen rdf:resource="https://example.org/kbr/ketenagakerjaan#DokumenPendaftaranJamsos"/>
+    <reg:nomor>28</reg:nomor>
+    <reg:status rdf:resource="https://example.org/kbr/regulasi#Berlaku"/>
+    <reg:sumberUtama rdf:resource="https://peraturan.bpk.go.id/Details/294077/pp-no-28-tahun-2024"/>
+    <reg:tahun rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">2024</reg:tahun>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://example.org/kbr/regulasi#PP-31-2006">
+    <dct:title>Peraturan Pemerintah Nomor 31 Tahun 2006 tentang Sistem Pelatihan Kerja Nasional</dct:title>
+    <rdf:type rdf:resource="https://example.org/kbr/regulasi#Peraturan"/>
+    <reg:jenis rdf:resource="https://example.org/kbr/regulasi#PeraturanPemerintah"/>
+    <reg:nomor>31</reg:nomor>
+    <reg:status rdf:resource="https://example.org/kbr/regulasi#Berlaku"/>
+    <reg:sumberUtama rdf:resource="https://peraturan.go.id/id/pp-no-31-tahun-2006"/>
+    <reg:tahun rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">2006</reg:tahun>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://example.org/kbr/regulasi#PP-31-2026">
+    <dct:title>Peraturan Pemerintah Nomor 31 Tahun 2026 tentang Konsesi bagi Penyandang Disabilitas dan Insentif bagi Perusahaan</dct:title>
+    <rdf:type rdf:resource="https://example.org/kbr/regulasi#Peraturan"/>
+    <reg:jenis rdf:resource="https://example.org/kbr/regulasi#PeraturanPemerintah"/>
+    <reg:nomor>31</reg:nomor>
+    <reg:status rdf:resource="https://example.org/kbr/regulasi#Berlaku"/>
+    <reg:sumberUtama rdf:resource="https://peraturan.go.id/id/pp-no-31-tahun-2026"/>
+    <reg:tahun rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">2026</reg:tahun>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://example.org/kbr/regulasi#PP-33-2013">
+    <dct:title>Peraturan Pemerintah Nomor 33 Tahun 2013 tentang Perluasan Kesempatan Kerja</dct:title>
+    <rdf:type rdf:resource="https://example.org/kbr/regulasi#Peraturan"/>
+    <reg:jenis rdf:resource="https://example.org/kbr/regulasi#PeraturanPemerintah"/>
+    <reg:nomor>33</reg:nomor>
+    <reg:status rdf:resource="https://example.org/kbr/regulasi#Berlaku"/>
+    <reg:sumberUtama rdf:resource="https://peraturan.go.id/id/pp-no-33-tahun-2013"/>
+    <reg:tahun rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">2013</reg:tahun>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://example.org/kbr/regulasi#PP-34-2021">
+    <dct:title>Peraturan Pemerintah Nomor 34 Tahun 2021 tentang Penggunaan Tenaga Kerja Asing</dct:title>
+    <rdf:type rdf:resource="https://example.org/kbr/regulasi#Peraturan"/>
+    <reg:jenis rdf:resource="https://example.org/kbr/regulasi#PeraturanPemerintah"/>
+    <reg:menghasilkanDokumen rdf:resource="https://example.org/kbr/ketenagakerjaan#DokumenRPTKA"/>
+    <reg:nomor>34</reg:nomor>
+    <reg:status rdf:resource="https://example.org/kbr/regulasi#Berlaku"/>
+    <reg:sumberUtama rdf:resource="https://peraturan.bpk.go.id/Details/161898/pp-no-34-tahun-2021"/>
+    <reg:tahun rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">2021</reg:tahun>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://example.org/kbr/regulasi#PP-35-2021">
+    <dct:title>Peraturan Pemerintah Nomor 35 Tahun 2021 tentang Perjanjian Kerja Waktu Tertentu, Alih Daya, Waktu Kerja dan Waktu Istirahat, dan Pemutusan Hubungan Kerja</dct:title>
+    <rdf:type rdf:resource="https://example.org/kbr/regulasi#Peraturan"/>
+    <reg:jenis rdf:resource="https://example.org/kbr/regulasi#PeraturanPemerintah"/>
+    <reg:menghasilkanDokumen rdf:resource="https://example.org/kbr/ketenagakerjaan#DokumenPKWT"/>
+    <reg:menghasilkanDokumen rdf:resource="https://example.org/kbr/ketenagakerjaan#DokumenPKWTT"/>
+    <reg:menghasilkanDokumen rdf:resource="https://example.org/kbr/ketenagakerjaan#DokumenPeraturanPerusahaan"/>
+    <reg:menghasilkanDokumen rdf:resource="https://example.org/kbr/ketenagakerjaan#DokumenPerjanjianAlihDaya"/>
+    <reg:menghasilkanDokumen rdf:resource="https://example.org/kbr/ketenagakerjaan#DokumenSuratCuti"/>
+    <reg:menghasilkanDokumen rdf:resource="https://example.org/kbr/ketenagakerjaan#DokumenSuratPHK"/>
+    <reg:menghasilkanDokumen rdf:resource="https://example.org/kbr/ketenagakerjaan#DokumenSuratPerintahLembur"/>
+    <reg:nomor>35</reg:nomor>
+    <reg:status rdf:resource="https://example.org/kbr/regulasi#Berlaku"/>
+    <reg:sumberUtama rdf:resource="https://peraturan.bpk.go.id/Details/161904/pp-no-35-tahun-2021"/>
+    <reg:tahun rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">2021</reg:tahun>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://example.org/kbr/regulasi#PP-36-2021">
+    <dct:title>Peraturan Pemerintah Nomor 36 Tahun 2021 tentang Pengupahan</dct:title>
+    <rdf:type rdf:resource="https://example.org/kbr/regulasi#Peraturan"/>
+    <reg:jenis rdf:resource="https://example.org/kbr/regulasi#PeraturanPemerintah"/>
+    <reg:menghasilkanDokumen rdf:resource="https://example.org/kbr/ketenagakerjaan#DokumenPeraturanPerusahaan"/>
+    <reg:menghasilkanDokumen rdf:resource="https://example.org/kbr/ketenagakerjaan#DokumenSlipUpah"/>
+    <reg:menghasilkanDokumen rdf:resource="https://example.org/kbr/ketenagakerjaan#DokumenSuratPerintahLembur"/>
+    <reg:nomor>36</reg:nomor>
+    <reg:status rdf:resource="https://example.org/kbr/regulasi#Berlaku"/>
+    <reg:sumberUtama rdf:resource="https://peraturan.bpk.go.id/Details/161909/pp-no-36-tahun-2021"/>
+    <reg:tahun rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">2021</reg:tahun>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://example.org/kbr/regulasi#PP-37-2021">
+    <dct:title>Peraturan Pemerintah Nomor 37 Tahun 2021 tentang Penyelenggaraan Program Jaminan Kehilangan Pekerjaan</dct:title>
+    <rdf:type rdf:resource="https://example.org/kbr/regulasi#Peraturan"/>
+    <reg:jenis rdf:resource="https://example.org/kbr/regulasi#PeraturanPemerintah"/>
+    <reg:menghasilkanDokumen rdf:resource="https://example.org/kbr/ketenagakerjaan#DokumenPendaftaranJamsos"/>
+    <reg:menghasilkanDokumen rdf:resource="https://example.org/kbr/ketenagakerjaan#DokumenPeraturanPerusahaan"/>
+    <reg:menghasilkanDokumen rdf:resource="https://example.org/kbr/ketenagakerjaan#DokumenSuratPHK"/>
+    <reg:nomor>37</reg:nomor>
+    <reg:status rdf:resource="https://example.org/kbr/regulasi#Berlaku"/>
+    <reg:sumberUtama rdf:resource="https://peraturan.bpk.go.id/Details/161919/pp-no-37-tahun-2021"/>
+    <reg:tahun rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">2021</reg:tahun>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://example.org/kbr/regulasi#PP-44-2015">
+    <dct:title>Peraturan Pemerintah Nomor 44 Tahun 2015 tentang Penyelenggaraan Program Jaminan Kecelakaan Kerja dan Jaminan Kematian</dct:title>
+    <rdf:type rdf:resource="https://example.org/kbr/regulasi#Peraturan"/>
+    <reg:jenis rdf:resource="https://example.org/kbr/regulasi#PeraturanPemerintah"/>
+    <reg:menghasilkanDokumen rdf:resource="https://example.org/kbr/ketenagakerjaan#DokumenPendaftaranJamsos"/>
+    <reg:menghasilkanDokumen rdf:resource="https://example.org/kbr/ketenagakerjaan#DokumenPeraturanPerusahaan"/>
+    <reg:menghasilkanDokumen rdf:resource="https://example.org/kbr/ketenagakerjaan#DokumenSuratPHK"/>
+    <reg:nomor>44</reg:nomor>
+    <reg:status rdf:resource="https://example.org/kbr/regulasi#Berlaku"/>
+    <reg:sumberUtama rdf:resource="https://peraturan.bpk.go.id/Details/5612/pp-no-44-tahun-2015"/>
+    <reg:tahun rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">2015</reg:tahun>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://example.org/kbr/regulasi#PP-45-2015">
+    <dct:title>Peraturan Pemerintah Nomor 45 Tahun 2015 tentang Penyelenggaraan Program Jaminan Pensiun</dct:title>
+    <rdf:type rdf:resource="https://example.org/kbr/regulasi#Peraturan"/>
+    <reg:jenis rdf:resource="https://example.org/kbr/regulasi#PeraturanPemerintah"/>
+    <reg:menghasilkanDokumen rdf:resource="https://example.org/kbr/ketenagakerjaan#DokumenPendaftaranJamsos"/>
+    <reg:menghasilkanDokumen rdf:resource="https://example.org/kbr/ketenagakerjaan#DokumenPeraturanPerusahaan"/>
+    <reg:nomor>45</reg:nomor>
+    <reg:status rdf:resource="https://example.org/kbr/regulasi#Berlaku"/>
+    <reg:sumberUtama rdf:resource="https://peraturan.bpk.go.id/Details/5613/pp-no-45-tahun-2015"/>
+    <reg:tahun rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">2015</reg:tahun>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://example.org/kbr/regulasi#PP-46-2015">
+    <dct:title>Peraturan Pemerintah Nomor 46 Tahun 2015 tentang Penyelenggaraan Program Jaminan Hari Tua</dct:title>
+    <rdf:type rdf:resource="https://example.org/kbr/regulasi#Peraturan"/>
+    <reg:jenis rdf:resource="https://example.org/kbr/regulasi#PeraturanPemerintah"/>
+    <reg:menghasilkanDokumen rdf:resource="https://example.org/kbr/ketenagakerjaan#DokumenPendaftaranJamsos"/>
+    <reg:menghasilkanDokumen rdf:resource="https://example.org/kbr/ketenagakerjaan#DokumenPeraturanPerusahaan"/>
+    <reg:nomor>46</reg:nomor>
+    <reg:status rdf:resource="https://example.org/kbr/regulasi#Berlaku"/>
+    <reg:sumberUtama rdf:resource="https://peraturan.bpk.go.id/Details/5614/pp-no-46-tahun-2015"/>
+    <reg:tahun rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">2015</reg:tahun>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://example.org/kbr/regulasi#PP-49-2023">
+    <dct:title>Peraturan Pemerintah Nomor 49 Tahun 2023 tentang Perubahan Kedua atas Peraturan Pemerintah Nomor 44 Tahun 2015 tentang Penyelenggaraan Program Jaminan Kecelakaan Kerja dan Jaminan Kematian</dct:title>
+    <rdf:type rdf:resource="https://example.org/kbr/regulasi#Peraturan"/>
+    <reg:jenis rdf:resource="https://example.org/kbr/regulasi#PeraturanPemerintah"/>
+    <reg:menghasilkanDokumen rdf:resource="https://example.org/kbr/ketenagakerjaan#DokumenPendaftaranJamsos"/>
+    <reg:menghasilkanDokumen rdf:resource="https://example.org/kbr/ketenagakerjaan#DokumenPeraturanPerusahaan"/>
+    <reg:nomor>49</reg:nomor>
+    <reg:status rdf:resource="https://example.org/kbr/regulasi#Berlaku"/>
+    <reg:sumberUtama rdf:resource="https://peraturan.bpk.go.id/Details/266186/pp-no-49-tahun-2023"/>
+    <reg:tahun rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">2023</reg:tahun>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://example.org/kbr/regulasi#PP-49-2025">
+    <dct:title>Peraturan Pemerintah Nomor 49 Tahun 2025 tentang Perubahan Kedua atas Peraturan Pemerintah Nomor 36 Tahun 2021 tentang Pengupahan</dct:title>
+    <rdf:type rdf:resource="https://example.org/kbr/regulasi#Peraturan"/>
+    <reg:jenis rdf:resource="https://example.org/kbr/regulasi#PeraturanPemerintah"/>
+    <reg:menghasilkanDokumen rdf:resource="https://example.org/kbr/ketenagakerjaan#DokumenPeraturanPerusahaan"/>
+    <reg:menghasilkanDokumen rdf:resource="https://example.org/kbr/ketenagakerjaan#DokumenSlipUpah"/>
+    <reg:nomor>49</reg:nomor>
+    <reg:status rdf:resource="https://example.org/kbr/regulasi#Berlaku"/>
+    <reg:sumberUtama rdf:resource="https://peraturan.bpk.go.id/Details/339037/pp-no-49-tahun-2025"/>
+    <reg:tahun rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">2025</reg:tahun>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://example.org/kbr/regulasi#PP-50-2012">
+    <dct:title>Peraturan Pemerintah Nomor 50 Tahun 2012 tentang Penerapan Sistem Manajemen Keselamatan dan Kesehatan Kerja</dct:title>
+    <rdf:type rdf:resource="https://example.org/kbr/regulasi#Peraturan"/>
+    <reg:jenis rdf:resource="https://example.org/kbr/regulasi#PeraturanPemerintah"/>
+    <reg:nomor>50</reg:nomor>
+    <reg:status rdf:resource="https://example.org/kbr/regulasi#Berlaku"/>
+    <reg:sumberUtama rdf:resource="https://peraturan.go.id/id/pp-no-50-tahun-2012"/>
+    <reg:tahun rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">2012</reg:tahun>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://example.org/kbr/regulasi#PP-51-2023">
+    <dct:title>Peraturan Pemerintah Nomor 51 Tahun 2023 tentang Perubahan atas Peraturan Pemerintah Nomor 36 Tahun 2021 tentang Pengupahan</dct:title>
+    <rdf:type rdf:resource="https://example.org/kbr/regulasi#Peraturan"/>
+    <reg:jenis rdf:resource="https://example.org/kbr/regulasi#PeraturanPemerintah"/>
+    <reg:menghasilkanDokumen rdf:resource="https://example.org/kbr/ketenagakerjaan#DokumenPeraturanPerusahaan"/>
+    <reg:menghasilkanDokumen rdf:resource="https://example.org/kbr/ketenagakerjaan#DokumenSlipUpah"/>
+    <reg:nomor>51</reg:nomor>
+    <reg:status rdf:resource="https://example.org/kbr/regulasi#Berlaku"/>
+    <reg:sumberUtama rdf:resource="https://peraturan.bpk.go.id/Details/270269/pp-no-51-tahun-2023"/>
+    <reg:tahun rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">2023</reg:tahun>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://example.org/kbr/regulasi#PP-55-2015">
+    <dct:title>Peraturan Pemerintah Nomor 55 Tahun 2015 tentang Perubahan atas Peraturan Pemerintah Nomor 99 Tahun 2013 tentang Pengelolaan Aset Jaminan Sosial Ketenagakerjaan</dct:title>
+    <rdf:type rdf:resource="https://example.org/kbr/regulasi#Peraturan"/>
+    <reg:jenis rdf:resource="https://example.org/kbr/regulasi#PeraturanPemerintah"/>
+    <reg:nomor>55</reg:nomor>
+    <reg:status rdf:resource="https://example.org/kbr/regulasi#Berlaku"/>
+    <reg:sumberUtama rdf:resource="https://peraturan.bpk.go.id/Details/5627/pp-no-55-tahun-2015"/>
+    <reg:tahun rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">2015</reg:tahun>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://example.org/kbr/regulasi#PP-59-2021">
+    <dct:title>Peraturan Pemerintah Nomor 59 Tahun 2021 tentang Pelaksanaan Pelindungan Pekerja Migran Indonesia</dct:title>
+    <rdf:type rdf:resource="https://example.org/kbr/regulasi#Peraturan"/>
+    <reg:jenis rdf:resource="https://example.org/kbr/regulasi#PeraturanPemerintah"/>
+    <reg:menghasilkanDokumen rdf:resource="https://example.org/kbr/ketenagakerjaan#DokumenPendaftaranJamsos"/>
+    <reg:nomor>59</reg:nomor>
+    <reg:status rdf:resource="https://example.org/kbr/regulasi#Berlaku"/>
+    <reg:sumberUtama rdf:resource="https://peraturan.go.id/id/pp-no-59-tahun-2021"/>
+    <reg:tahun rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">2021</reg:tahun>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://example.org/kbr/regulasi#PP-6-2025">
+    <dct:title>Peraturan Pemerintah Nomor 6 Tahun 2025 tentang Perubahan atas Peraturan Pemerintah Nomor 37 Tahun 2021 tentang Penyelenggaraan Program Jaminan Kehilangan Pekerjaan</dct:title>
+    <rdf:type rdf:resource="https://example.org/kbr/regulasi#Peraturan"/>
+    <reg:jenis rdf:resource="https://example.org/kbr/regulasi#PeraturanPemerintah"/>
+    <reg:menghasilkanDokumen rdf:resource="https://example.org/kbr/ketenagakerjaan#DokumenPendaftaranJamsos"/>
+    <reg:menghasilkanDokumen rdf:resource="https://example.org/kbr/ketenagakerjaan#DokumenPeraturanPerusahaan"/>
+    <reg:nomor>6</reg:nomor>
+    <reg:status rdf:resource="https://example.org/kbr/regulasi#Berlaku"/>
+    <reg:sumberUtama rdf:resource="https://peraturan.bpk.go.id/Details/314623/pp-no-6-tahun-2025"/>
+    <reg:tahun rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">2025</reg:tahun>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://example.org/kbr/regulasi#PP-60-2015">
+    <dct:title>Peraturan Pemerintah Nomor 60 Tahun 2015 tentang Perubahan atas Peraturan Pemerintah Nomor 46 Tahun 2015 tentang Penyelenggaraan Program Jaminan Hari Tua</dct:title>
+    <rdf:type rdf:resource="https://example.org/kbr/regulasi#Peraturan"/>
+    <reg:jenis rdf:resource="https://example.org/kbr/regulasi#PeraturanPemerintah"/>
+    <reg:nomor>60</reg:nomor>
+    <reg:status rdf:resource="https://example.org/kbr/regulasi#Berlaku"/>
+    <reg:sumberUtama rdf:resource="https://peraturan.bpk.go.id/Details/5634/pp-no-60-tahun-2015"/>
+    <reg:tahun rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">2015</reg:tahun>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://example.org/kbr/regulasi#PP-68-2009">
+    <dct:title>Peraturan Pemerintah Nomor 68 Tahun 2009 tentang Tarif PPh Pasal 21 atas Penghasilan Berupa Uang Pesangon, Uang Manfaat Pensiun, Tunjangan Hari Tua, dan Jaminan Hari Tua yang Dibayarkan Sekaligus</dct:title>
+    <rdf:type rdf:resource="https://example.org/kbr/regulasi#Peraturan"/>
+    <reg:jenis rdf:resource="https://example.org/kbr/regulasi#PeraturanPemerintah"/>
+    <reg:nomor>68</reg:nomor>
+    <reg:status rdf:resource="https://example.org/kbr/regulasi#Berlaku"/>
+    <reg:sumberUtama rdf:resource="https://peraturan.go.id/id/pp-no-68-tahun-2009"/>
+    <reg:tahun rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">2009</reg:tahun>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://example.org/kbr/regulasi#PP-7-2025">
+    <dct:title>Peraturan Pemerintah Nomor 7 Tahun 2025 tentang Penyesuaian Iuran Jaminan Kecelakaan Kerja Industri Padat Karya Tertentu Tahun 2025</dct:title>
+    <rdf:type rdf:resource="https://example.org/kbr/regulasi#Peraturan"/>
+    <reg:jenis rdf:resource="https://example.org/kbr/regulasi#PeraturanPemerintah"/>
+    <reg:menghasilkanDokumen rdf:resource="https://example.org/kbr/ketenagakerjaan#DokumenPendaftaranJamsos"/>
+    <reg:menghasilkanDokumen rdf:resource="https://example.org/kbr/ketenagakerjaan#DokumenPeraturanPerusahaan"/>
+    <reg:nomor>7</reg:nomor>
+    <reg:status rdf:resource="https://example.org/kbr/regulasi#Berlaku"/>
+    <reg:sumberUtama rdf:resource="https://peraturan.bpk.go.id/Details/314624/pp-no-7-tahun-2025"/>
+    <reg:tahun rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">2025</reg:tahun>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://example.org/kbr/regulasi#PP-70-2015">
+    <dct:title>Peraturan Pemerintah Nomor 70 Tahun 2015 tentang Jaminan Kecelakaan Kerja dan Jaminan Kematian bagi Pegawai Aparatur Sipil Negara</dct:title>
+    <rdf:type rdf:resource="https://example.org/kbr/regulasi#Peraturan"/>
+    <reg:jenis rdf:resource="https://example.org/kbr/regulasi#PeraturanPemerintah"/>
+    <reg:menghasilkanDokumen rdf:resource="https://example.org/kbr/ketenagakerjaan#DokumenPendaftaranJamsos"/>
+    <reg:menghasilkanDokumen rdf:resource="https://example.org/kbr/ketenagakerjaan#DokumenPeraturanPerusahaan"/>
+    <reg:nomor>70</reg:nomor>
+    <reg:status rdf:resource="https://example.org/kbr/regulasi#Berlaku"/>
+    <reg:sumberUtama rdf:resource="https://peraturan.bpk.go.id/Details/5647/pp-no-70-tahun-2015"/>
+    <reg:tahun rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">2015</reg:tahun>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://example.org/kbr/regulasi#PP-82-2019">
+    <dct:title>Peraturan Pemerintah Nomor 82 Tahun 2019 tentang Perubahan atas Peraturan Pemerintah Nomor 44 Tahun 2015 tentang Penyelenggaraan Program Jaminan Kecelakaan Kerja dan Jaminan Kematian</dct:title>
+    <rdf:type rdf:resource="https://example.org/kbr/regulasi#Peraturan"/>
+    <reg:jenis rdf:resource="https://example.org/kbr/regulasi#PeraturanPemerintah"/>
+    <reg:menghasilkanDokumen rdf:resource="https://example.org/kbr/ketenagakerjaan#DokumenPendaftaranJamsos"/>
+    <reg:menghasilkanDokumen rdf:resource="https://example.org/kbr/ketenagakerjaan#DokumenPeraturanPerusahaan"/>
+    <reg:nomor>82</reg:nomor>
+    <reg:status rdf:resource="https://example.org/kbr/regulasi#Berlaku"/>
+    <reg:sumberUtama rdf:resource="https://peraturan.bpk.go.id/Details/127681/pp-no-82-tahun-2019"/>
+    <reg:tahun rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">2019</reg:tahun>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://example.org/kbr/regulasi#PP-83-2013">
+    <dct:title>Peraturan Pemerintah Nomor 83 Tahun 2013 tentang Modal Awal BPJS Ketenagakerjaan</dct:title>
+    <rdf:type rdf:resource="https://example.org/kbr/regulasi#Peraturan"/>
+    <reg:jenis rdf:resource="https://example.org/kbr/regulasi#PeraturanPemerintah"/>
+    <reg:nomor>83</reg:nomor>
+    <reg:status rdf:resource="https://example.org/kbr/regulasi#Berlaku"/>
+    <reg:sumberUtama rdf:resource="https://peraturan.bpk.go.id/Details/5418/pp-no-83-tahun-2013"/>
+    <reg:tahun rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">2013</reg:tahun>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://example.org/kbr/regulasi#PP-86-2013">
+    <dct:title>Peraturan Pemerintah Nomor 86 Tahun 2013 tentang Tata Cara Pengenaan Sanksi Administratif kepada Pemberi Kerja dan Setiap Orang Selain Pemberi Kerja dan Pekerja</dct:title>
+    <rdf:type rdf:resource="https://example.org/kbr/regulasi#Peraturan"/>
+    <reg:jenis rdf:resource="https://example.org/kbr/regulasi#PeraturanPemerintah"/>
+    <reg:nomor>86</reg:nomor>
+    <reg:status rdf:resource="https://example.org/kbr/regulasi#Berlaku"/>
+    <reg:sumberUtama rdf:resource="https://peraturan.bpk.go.id/Details/5421/pp-no-86-tahun-2013"/>
+    <reg:tahun rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">2013</reg:tahun>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://example.org/kbr/regulasi#PP-88-2013">
+    <dct:title>Peraturan Pemerintah Nomor 88 Tahun 2013 tentang Tata Cara Pengenaan Sanksi Administratif bagi Peserta Jaminan Sosial</dct:title>
+    <rdf:type rdf:resource="https://example.org/kbr/regulasi#Peraturan"/>
+    <reg:jenis rdf:resource="https://example.org/kbr/regulasi#PeraturanPemerintah"/>
+    <reg:nomor>88</reg:nomor>
+    <reg:status rdf:resource="https://example.org/kbr/regulasi#Berlaku"/>
+    <reg:sumberUtama rdf:resource="https://peraturan.go.id/id/pp-no-88-tahun-2013"/>
+    <reg:tahun rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">2013</reg:tahun>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://example.org/kbr/regulasi#PP-88-2019">
+    <dct:title>Peraturan Pemerintah Nomor 88 Tahun 2019 tentang Kesehatan Kerja</dct:title>
+    <rdf:type rdf:resource="https://example.org/kbr/regulasi#Peraturan"/>
+    <reg:jenis rdf:resource="https://example.org/kbr/regulasi#PeraturanPemerintah"/>
+    <reg:nomor>88</reg:nomor>
+    <reg:status rdf:resource="https://example.org/kbr/regulasi#Berlaku"/>
+    <reg:sumberUtama rdf:resource="https://peraturan.bpk.go.id/Details/128642/pp-no-88-tahun-2019"/>
+    <reg:tahun rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">2019</reg:tahun>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://example.org/kbr/regulasi#PP-99-2013">
+    <dct:title>Peraturan Pemerintah Nomor 99 Tahun 2013 tentang Pengelolaan Aset Jaminan Sosial Ketenagakerjaan</dct:title>
+    <rdf:type rdf:resource="https://example.org/kbr/regulasi#Peraturan"/>
+    <reg:jenis rdf:resource="https://example.org/kbr/regulasi#PeraturanPemerintah"/>
+    <reg:nomor>99</reg:nomor>
+    <reg:status rdf:resource="https://example.org/kbr/regulasi#Berlaku"/>
+    <reg:sumberUtama rdf:resource="https://peraturan.bpk.go.id/Details/5436/pp-no-99-tahun-2013"/>
+    <reg:tahun rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">2013</reg:tahun>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://example.org/kbr/regulasi#UU-1-1970">
+    <dct:title>Undang-Undang Nomor 1 Tahun 1970 tentang Keselamatan Kerja</dct:title>
+    <rdf:type rdf:resource="https://example.org/kbr/regulasi#Peraturan"/>
+    <reg:jenis rdf:resource="https://example.org/kbr/regulasi#UndangUndang"/>
+    <reg:nomor>1</reg:nomor>
+    <reg:status rdf:resource="https://example.org/kbr/regulasi#Berlaku"/>
+    <reg:sumberUtama rdf:resource="https://peraturan.go.id/id/uu-no-1-tahun-1970"/>
+    <reg:tahun rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1970</reg:tahun>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://example.org/kbr/regulasi#UU-12-2011">
+    <dct:title>Undang-Undang Nomor 12 Tahun 2011 tentang Pembentukan Peraturan Perundang-undangan</dct:title>
+    <rdf:type rdf:resource="https://example.org/kbr/regulasi#Peraturan"/>
+    <reg:jenis rdf:resource="https://example.org/kbr/regulasi#UndangUndang"/>
+    <reg:nomor>12</reg:nomor>
+    <reg:status rdf:resource="https://example.org/kbr/regulasi#Berlaku"/>
+    <reg:sumberUtama rdf:resource="https://peraturan.bpk.go.id/Details/39188/uu-no-12-tahun-2011"/>
+    <reg:tahun rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">2011</reg:tahun>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://example.org/kbr/regulasi#UU-12-2022">
+    <dct:title>Undang-Undang Nomor 12 Tahun 2022 tentang Tindak Pidana Kekerasan Seksual</dct:title>
+    <rdf:type rdf:resource="https://example.org/kbr/regulasi#Peraturan"/>
+    <reg:jenis rdf:resource="https://example.org/kbr/regulasi#UndangUndang"/>
+    <reg:nomor>12</reg:nomor>
+    <reg:status rdf:resource="https://example.org/kbr/regulasi#Berlaku"/>
+    <reg:sumberUtama rdf:resource="https://peraturan.go.id/id/uu-no-12-tahun-2022"/>
+    <reg:tahun rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">2022</reg:tahun>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://example.org/kbr/regulasi#UU-13-2003">
+    <dct:title>Undang-Undang Nomor 13 Tahun 2003 tentang Ketenagakerjaan</dct:title>
+    <rdf:type rdf:resource="https://example.org/kbr/regulasi#Peraturan"/>
+    <reg:jenis rdf:resource="https://example.org/kbr/regulasi#UndangUndang"/>
+    <reg:menghasilkanDokumen rdf:resource="https://example.org/kbr/ketenagakerjaan#DokumenPKWT"/>
+    <reg:menghasilkanDokumen rdf:resource="https://example.org/kbr/ketenagakerjaan#DokumenPKWTT"/>
+    <reg:menghasilkanDokumen rdf:resource="https://example.org/kbr/ketenagakerjaan#DokumenPendaftaranJamsos"/>
+    <reg:menghasilkanDokumen rdf:resource="https://example.org/kbr/ketenagakerjaan#DokumenPeraturanPerusahaan"/>
+    <reg:menghasilkanDokumen rdf:resource="https://example.org/kbr/ketenagakerjaan#DokumenPerjanjianAlihDaya"/>
+    <reg:menghasilkanDokumen rdf:resource="https://example.org/kbr/ketenagakerjaan#DokumenRPTKA"/>
+    <reg:menghasilkanDokumen rdf:resource="https://example.org/kbr/ketenagakerjaan#DokumenSlipUpah"/>
+    <reg:menghasilkanDokumen rdf:resource="https://example.org/kbr/ketenagakerjaan#DokumenSuratCuti"/>
+    <reg:menghasilkanDokumen rdf:resource="https://example.org/kbr/ketenagakerjaan#DokumenSuratPHK"/>
+    <reg:menghasilkanDokumen rdf:resource="https://example.org/kbr/ketenagakerjaan#DokumenSuratPerintahLembur"/>
+    <reg:nomor>13</reg:nomor>
+    <reg:status rdf:resource="https://example.org/kbr/regulasi#Berlaku"/>
+    <reg:sumberUtama rdf:resource="https://peraturan.bpk.go.id/Details/43013/uu-no-13-tahun-2003"/>
+    <reg:tahun rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">2003</reg:tahun>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://example.org/kbr/regulasi#UU-13-2022">
+    <dct:title>Undang-Undang Nomor 13 Tahun 2022 tentang Perubahan Kedua atas Undang-Undang Nomor 12 Tahun 2011 tentang Pembentukan Peraturan Perundang-undangan</dct:title>
+    <rdf:type rdf:resource="https://example.org/kbr/regulasi#Peraturan"/>
+    <reg:jenis rdf:resource="https://example.org/kbr/regulasi#UndangUndang"/>
+    <reg:nomor>13</reg:nomor>
+    <reg:status rdf:resource="https://example.org/kbr/regulasi#Berlaku"/>
+    <reg:sumberUtama rdf:resource="https://peraturan.go.id/id/uu-no-13-tahun-2022"/>
+    <reg:tahun rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">2022</reg:tahun>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://example.org/kbr/regulasi#UU-17-2023">
+    <dct:title>Undang-Undang Nomor 17 Tahun 2023 tentang Kesehatan</dct:title>
+    <rdf:type rdf:resource="https://example.org/kbr/regulasi#Peraturan"/>
+    <reg:jenis rdf:resource="https://example.org/kbr/regulasi#UndangUndang"/>
+    <reg:menghasilkanDokumen rdf:resource="https://example.org/kbr/ketenagakerjaan#DokumenSuratCuti"/>
+    <reg:nomor>17</reg:nomor>
+    <reg:status rdf:resource="https://example.org/kbr/regulasi#Berlaku"/>
+    <reg:sumberUtama rdf:resource="https://peraturan.go.id/id/uu-no-17-tahun-2023"/>
+    <reg:tahun rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">2023</reg:tahun>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://example.org/kbr/regulasi#UU-18-2017">
+    <dct:title>Undang-Undang Nomor 18 Tahun 2017 tentang Pelindungan Pekerja Migran Indonesia</dct:title>
+    <rdf:type rdf:resource="https://example.org/kbr/regulasi#Peraturan"/>
+    <reg:jenis rdf:resource="https://example.org/kbr/regulasi#UndangUndang"/>
+    <reg:menghasilkanDokumen rdf:resource="https://example.org/kbr/ketenagakerjaan#DokumenPendaftaranJamsos"/>
+    <reg:menghasilkanDokumen rdf:resource="https://example.org/kbr/ketenagakerjaan#DokumenSlipUpah"/>
+    <reg:nomor>18</reg:nomor>
+    <reg:status rdf:resource="https://example.org/kbr/regulasi#Berlaku"/>
+    <reg:sumberUtama rdf:resource="https://peraturan.go.id/id/uu-no-18-tahun-2017"/>
+    <reg:tahun rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">2017</reg:tahun>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://example.org/kbr/regulasi#UU-2-2004">
+    <dct:title>Undang-Undang Nomor 2 Tahun 2004 tentang Penyelesaian Perselisihan Hubungan Industrial</dct:title>
+    <rdf:type rdf:resource="https://example.org/kbr/regulasi#Peraturan"/>
+    <reg:jenis rdf:resource="https://example.org/kbr/regulasi#UndangUndang"/>
+    <reg:menghasilkanDokumen rdf:resource="https://example.org/kbr/ketenagakerjaan#DokumenSuratPHK"/>
+    <reg:nomor>2</reg:nomor>
+    <reg:status rdf:resource="https://example.org/kbr/regulasi#Berlaku"/>
+    <reg:sumberUtama rdf:resource="https://peraturan.go.id/id/uu-no-2-tahun-2004"/>
+    <reg:tahun rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">2004</reg:tahun>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://example.org/kbr/regulasi#UU-2-2026">
+    <dct:title>Undang-Undang Nomor 2 Tahun 2026 tentang Pelindungan Pekerja Rumah Tangga</dct:title>
+    <rdf:type rdf:resource="https://example.org/kbr/regulasi#Peraturan"/>
+    <reg:jenis rdf:resource="https://example.org/kbr/regulasi#UndangUndang"/>
+    <reg:menghasilkanDokumen rdf:resource="https://example.org/kbr/ketenagakerjaan#DokumenPeraturanPerusahaan"/>
+    <reg:menghasilkanDokumen rdf:resource="https://example.org/kbr/ketenagakerjaan#DokumenSlipUpah"/>
+    <reg:menghasilkanDokumen rdf:resource="https://example.org/kbr/ketenagakerjaan#DokumenSuratCuti"/>
+    <reg:menghasilkanDokumen rdf:resource="https://example.org/kbr/ketenagakerjaan#DokumenSuratPHK"/>
+    <reg:nomor>2</reg:nomor>
+    <reg:status rdf:resource="https://example.org/kbr/regulasi#Berlaku"/>
+    <reg:sumberUtama rdf:resource="https://www.peraturan.go.id/id/uu-no-2-tahun-2026"/>
+    <reg:tahun rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">2026</reg:tahun>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://example.org/kbr/regulasi#UU-20-2023">
+    <dct:title>Undang-Undang Nomor 20 Tahun 2023 tentang Aparatur Sipil Negara</dct:title>
+    <rdf:type rdf:resource="https://example.org/kbr/regulasi#Peraturan"/>
+    <reg:jenis rdf:resource="https://example.org/kbr/regulasi#UndangUndang"/>
+    <reg:nomor>20</reg:nomor>
+    <reg:status rdf:resource="https://example.org/kbr/regulasi#Berlaku"/>
+    <reg:sumberUtama rdf:resource="https://peraturan.go.id/id/uu-no-20-tahun-2023"/>
+    <reg:tahun rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">2023</reg:tahun>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://example.org/kbr/regulasi#UU-20-2025">
+    <dct:title>Undang-Undang Nomor 20 Tahun 2025 tentang Kitab Undang-Undang Hukum Acara Pidana</dct:title>
+    <rdf:type rdf:resource="https://example.org/kbr/regulasi#Peraturan"/>
+    <reg:jenis rdf:resource="https://example.org/kbr/regulasi#UndangUndang"/>
+    <reg:nomor>20</reg:nomor>
+    <reg:status rdf:resource="https://example.org/kbr/regulasi#Berlaku"/>
+    <reg:sumberUtama rdf:resource="https://peraturan.bpk.go.id/Details/337302/uu-no-20-tahun-2025"/>
+    <reg:tahun rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">2025</reg:tahun>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://example.org/kbr/regulasi#UU-21-2000">
+    <dct:title>Undang-Undang Nomor 21 Tahun 2000 tentang Serikat Pekerja/Serikat Buruh</dct:title>
+    <rdf:type rdf:resource="https://example.org/kbr/regulasi#Peraturan"/>
+    <reg:jenis rdf:resource="https://example.org/kbr/regulasi#UndangUndang"/>
+    <reg:nomor>21</reg:nomor>
+    <reg:status rdf:resource="https://example.org/kbr/regulasi#Berlaku"/>
+    <reg:sumberUtama rdf:resource="https://peraturan.go.id/id/uu-no-21-tahun-2000"/>
+    <reg:tahun rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">2000</reg:tahun>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://example.org/kbr/regulasi#UU-21-2003">
+    <dct:title>Undang-Undang Nomor 21 Tahun 2003 tentang Pengesahan ILO Convention No. 81 tentang Pengawasan Ketenagakerjaan</dct:title>
+    <rdf:type rdf:resource="https://example.org/kbr/regulasi#Peraturan"/>
+    <reg:jenis rdf:resource="https://example.org/kbr/regulasi#UndangUndang"/>
+    <reg:nomor>21</reg:nomor>
+    <reg:status rdf:resource="https://example.org/kbr/regulasi#Berlaku"/>
+    <reg:sumberUtama rdf:resource="https://peraturan.bpk.go.id/Details/43922/uu-no-21-tahun-2003"/>
+    <reg:tahun rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">2003</reg:tahun>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://example.org/kbr/regulasi#UU-21-2007">
+    <dct:title>Undang-Undang Nomor 21 Tahun 2007 tentang Pemberantasan Tindak Pidana Perdagangan Orang</dct:title>
+    <rdf:type rdf:resource="https://example.org/kbr/regulasi#Peraturan"/>
+    <reg:jenis rdf:resource="https://example.org/kbr/regulasi#UndangUndang"/>
+    <reg:nomor>21</reg:nomor>
+    <reg:status rdf:resource="https://example.org/kbr/regulasi#Berlaku"/>
+    <reg:sumberUtama rdf:resource="https://peraturan.go.id/id/uu-no-21-tahun-2007"/>
+    <reg:tahun rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">2007</reg:tahun>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://example.org/kbr/regulasi#UU-23-2014">
+    <dct:title>Undang-Undang Nomor 23 Tahun 2014 tentang Pemerintahan Daerah</dct:title>
+    <rdf:type rdf:resource="https://example.org/kbr/regulasi#Peraturan"/>
+    <reg:jenis rdf:resource="https://example.org/kbr/regulasi#UndangUndang"/>
+    <reg:nomor>23</reg:nomor>
+    <reg:status rdf:resource="https://example.org/kbr/regulasi#Berlaku"/>
+    <reg:sumberUtama rdf:resource="https://peraturan.bpk.go.id/Details/38685/uu-no-23-tahun-2014"/>
+    <reg:tahun rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">2014</reg:tahun>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://example.org/kbr/regulasi#UU-24-2011">
+    <dct:title>Undang-Undang Nomor 24 Tahun 2011 tentang Badan Penyelenggara Jaminan Sosial</dct:title>
+    <rdf:type rdf:resource="https://example.org/kbr/regulasi#Peraturan"/>
+    <reg:jenis rdf:resource="https://example.org/kbr/regulasi#UndangUndang"/>
+    <reg:menghasilkanDokumen rdf:resource="https://example.org/kbr/ketenagakerjaan#DokumenPendaftaranJamsos"/>
+    <reg:menghasilkanDokumen rdf:resource="https://example.org/kbr/ketenagakerjaan#DokumenPeraturanPerusahaan"/>
+    <reg:nomor>24</reg:nomor>
+    <reg:status rdf:resource="https://example.org/kbr/regulasi#Berlaku"/>
+    <reg:sumberUtama rdf:resource="https://peraturan.bpk.go.id/Details/39268/uu-no-24-tahun-2011"/>
+    <reg:tahun rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">2011</reg:tahun>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://example.org/kbr/regulasi#UU-3-1951">
+    <dct:title>Undang-Undang Nomor 3 Tahun 1951 tentang Pernyataan Berlakunya Undang-Undang Pengawasan Perburuhan Tahun 1948 Nomor 23</dct:title>
+    <rdf:type rdf:resource="https://example.org/kbr/regulasi#Peraturan"/>
+    <reg:jenis rdf:resource="https://example.org/kbr/regulasi#UndangUndang"/>
+    <reg:nomor>3</reg:nomor>
+    <reg:status rdf:resource="https://example.org/kbr/regulasi#Berlaku"/>
+    <reg:sumberUtama rdf:resource="https://peraturan.go.id/id/uu-no-3-tahun-1951"/>
+    <reg:tahun rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1951</reg:tahun>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://example.org/kbr/regulasi#UU-35-2014">
+    <dct:title>Undang-Undang Nomor 35 Tahun 2014 tentang Perubahan atas Undang-Undang Nomor 23 Tahun 2002 tentang Perlindungan Anak</dct:title>
+    <rdf:type rdf:resource="https://example.org/kbr/regulasi#Peraturan"/>
+    <reg:jenis rdf:resource="https://example.org/kbr/regulasi#UndangUndang"/>
+    <reg:nomor>35</reg:nomor>
+    <reg:status rdf:resource="https://example.org/kbr/regulasi#Berlaku"/>
+    <reg:sumberUtama rdf:resource="https://peraturan.bpk.go.id/Details/38723/uu-no-35-tahun-2014"/>
+    <reg:tahun rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">2014</reg:tahun>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://example.org/kbr/regulasi#UU-39-2008">
+    <dct:title>Undang-Undang Nomor 39 Tahun 2008 tentang Kementerian Negara</dct:title>
+    <rdf:type rdf:resource="https://example.org/kbr/regulasi#Peraturan"/>
+    <reg:jenis rdf:resource="https://example.org/kbr/regulasi#UndangUndang"/>
+    <reg:nomor>39</reg:nomor>
+    <reg:status rdf:resource="https://example.org/kbr/regulasi#Berlaku"/>
+    <reg:sumberUtama rdf:resource="https://peraturan.bpk.go.id/Details/39719/uu-no-39-tahun-2008"/>
+    <reg:tahun rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">2008</reg:tahun>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://example.org/kbr/regulasi#UU-4-2023">
+    <dct:title>Undang-Undang Nomor 4 Tahun 2023 tentang Pengembangan dan Penguatan Sektor Keuangan</dct:title>
+    <rdf:type rdf:resource="https://example.org/kbr/regulasi#Peraturan"/>
+    <reg:jenis rdf:resource="https://example.org/kbr/regulasi#UndangUndang"/>
+    <reg:nomor>4</reg:nomor>
+    <reg:status rdf:resource="https://example.org/kbr/regulasi#Berlaku"/>
+    <reg:sumberUtama rdf:resource="https://peraturan.bpk.go.id/Details/240203/uu-no-4-tahun-2023"/>
+    <reg:tahun rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">2023</reg:tahun>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://example.org/kbr/regulasi#UU-4-2024">
+    <dct:title>Undang-Undang Nomor 4 Tahun 2024 tentang Kesejahteraan Ibu dan Anak pada Fase Seribu Hari Pertama Kehidupan</dct:title>
+    <rdf:type rdf:resource="https://example.org/kbr/regulasi#Peraturan"/>
+    <reg:jenis rdf:resource="https://example.org/kbr/regulasi#UndangUndang"/>
+    <reg:menghasilkanDokumen rdf:resource="https://example.org/kbr/ketenagakerjaan#DokumenPeraturanPerusahaan"/>
+    <reg:menghasilkanDokumen rdf:resource="https://example.org/kbr/ketenagakerjaan#DokumenSuratCuti"/>
+    <reg:nomor>4</reg:nomor>
+    <reg:status rdf:resource="https://example.org/kbr/regulasi#Berlaku"/>
+    <reg:sumberUtama rdf:resource="https://peraturan.bpk.go.id/Details/289997/uu-no-4-tahun-2024"/>
+    <reg:tahun rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">2024</reg:tahun>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://example.org/kbr/regulasi#UU-40-2004">
+    <dct:title>Undang-Undang Nomor 40 Tahun 2004 tentang Sistem Jaminan Sosial Nasional</dct:title>
+    <rdf:type rdf:resource="https://example.org/kbr/regulasi#Peraturan"/>
+    <reg:jenis rdf:resource="https://example.org/kbr/regulasi#UndangUndang"/>
+    <reg:menghasilkanDokumen rdf:resource="https://example.org/kbr/ketenagakerjaan#DokumenPendaftaranJamsos"/>
+    <reg:menghasilkanDokumen rdf:resource="https://example.org/kbr/ketenagakerjaan#DokumenPeraturanPerusahaan"/>
+    <reg:nomor>40</reg:nomor>
+    <reg:status rdf:resource="https://example.org/kbr/regulasi#Berlaku"/>
+    <reg:sumberUtama rdf:resource="https://peraturan.bpk.go.id/Details/40787/uu-no-40-tahun-2004"/>
+    <reg:tahun rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">2004</reg:tahun>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://example.org/kbr/regulasi#UU-6-2023">
+    <dct:title>Undang-Undang Nomor 6 Tahun 2023 tentang Penetapan Peraturan Pemerintah Pengganti Undang-Undang Nomor 2 Tahun 2022 tentang Cipta Kerja menjadi Undang-Undang</dct:title>
+    <rdf:type rdf:resource="https://example.org/kbr/regulasi#Peraturan"/>
+    <reg:jenis rdf:resource="https://example.org/kbr/regulasi#UndangUndang"/>
+    <reg:menghasilkanDokumen rdf:resource="https://example.org/kbr/ketenagakerjaan#DokumenPKWT"/>
+    <reg:menghasilkanDokumen rdf:resource="https://example.org/kbr/ketenagakerjaan#DokumenPKWTT"/>
+    <reg:menghasilkanDokumen rdf:resource="https://example.org/kbr/ketenagakerjaan#DokumenPendaftaranJamsos"/>
+    <reg:menghasilkanDokumen rdf:resource="https://example.org/kbr/ketenagakerjaan#DokumenPeraturanPerusahaan"/>
+    <reg:menghasilkanDokumen rdf:resource="https://example.org/kbr/ketenagakerjaan#DokumenPerjanjianAlihDaya"/>
+    <reg:menghasilkanDokumen rdf:resource="https://example.org/kbr/ketenagakerjaan#DokumenRPTKA"/>
+    <reg:menghasilkanDokumen rdf:resource="https://example.org/kbr/ketenagakerjaan#DokumenSlipUpah"/>
+    <reg:menghasilkanDokumen rdf:resource="https://example.org/kbr/ketenagakerjaan#DokumenSuratCuti"/>
+    <reg:menghasilkanDokumen rdf:resource="https://example.org/kbr/ketenagakerjaan#DokumenSuratPHK"/>
+    <reg:menghasilkanDokumen rdf:resource="https://example.org/kbr/ketenagakerjaan#DokumenSuratPerintahLembur"/>
+    <reg:nomor>6</reg:nomor>
+    <reg:status rdf:resource="https://example.org/kbr/regulasi#Berlaku"/>
+    <reg:sumberUtama rdf:resource="https://peraturan.bpk.go.id/Details/246523/uu-no-6-tahun-2023"/>
+    <reg:tahun rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">2023</reg:tahun>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://example.org/kbr/regulasi#UU-61-2024">
+    <dct:title>Undang-Undang Nomor 61 Tahun 2024 tentang Perubahan atas Undang-Undang Nomor 39 Tahun 2008 tentang Kementerian Negara</dct:title>
+    <rdf:type rdf:resource="https://example.org/kbr/regulasi#Peraturan"/>
+    <reg:jenis rdf:resource="https://example.org/kbr/regulasi#UndangUndang"/>
+    <reg:nomor>61</reg:nomor>
+    <reg:status rdf:resource="https://example.org/kbr/regulasi#Berlaku"/>
+    <reg:sumberUtama rdf:resource="https://peraturan.bpk.go.id/Details/304396/uu-no-61-tahun-2024"/>
+    <reg:tahun rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">2024</reg:tahun>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://example.org/kbr/regulasi#UU-7-1981">
+    <dct:title>Undang-Undang Nomor 7 Tahun 1981 tentang Wajib Lapor Ketenagakerjaan di Perusahaan</dct:title>
+    <rdf:type rdf:resource="https://example.org/kbr/regulasi#Peraturan"/>
+    <reg:jenis rdf:resource="https://example.org/kbr/regulasi#UndangUndang"/>
+    <reg:nomor>7</reg:nomor>
+    <reg:status rdf:resource="https://example.org/kbr/regulasi#Berlaku"/>
+    <reg:sumberUtama rdf:resource="https://peraturan.go.id/id/uu-no-7-tahun-1981"/>
+    <reg:tahun rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1981</reg:tahun>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://example.org/kbr/regulasi#UU-8-2016">
+    <dct:title>Undang-Undang Nomor 8 Tahun 2016 tentang Penyandang Disabilitas</dct:title>
+    <rdf:type rdf:resource="https://example.org/kbr/regulasi#Peraturan"/>
+    <reg:jenis rdf:resource="https://example.org/kbr/regulasi#UndangUndang"/>
+    <reg:menghasilkanDokumen rdf:resource="https://example.org/kbr/ketenagakerjaan#DokumenPeraturanPerusahaan"/>
+    <reg:menghasilkanDokumen rdf:resource="https://example.org/kbr/ketenagakerjaan#DokumenSlipUpah"/>
+    <reg:menghasilkanDokumen rdf:resource="https://example.org/kbr/ketenagakerjaan#DokumenSuratCuti"/>
+    <reg:nomor>8</reg:nomor>
+    <reg:status rdf:resource="https://example.org/kbr/regulasi#Berlaku"/>
+    <reg:sumberUtama rdf:resource="https://peraturan.go.id/id/uu-no-8-tahun-2016"/>
+    <reg:tahun rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">2016</reg:tahun>
+  </rdf:Description>
+</rdf:RDF>

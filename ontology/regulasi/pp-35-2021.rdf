@@ -1,0 +1,843 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- BERKAS DIGENERATE. JANGAN EDIT MANUAL.
+     Sumber   : norma.csv, parameter.csv, kategori.csv, pengali_lembur.csv, program_jamsos.csv
+     Hasilkan : uv run python scripts/build_ontology.py -->
+<rdf:RDF xmlns:brick="https://brickschema.org/schema/Brick#" xmlns:csvw="http://www.w3.org/ns/csvw#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcam="http://purl.org/dc/dcam/" xmlns:dcat="http://www.w3.org/ns/dcat#" xmlns:dcmitype="http://purl.org/dc/dcmitype/" xmlns:dct="http://purl.org/dc/terms/" xmlns:doap="http://usefulinc.com/ns/doap#" xmlns:foaf="http://xmlns.com/foaf/0.1/" xmlns:geo="http://www.opengis.net/ont/geosparql#" xmlns:ktn="https://example.org/kbr/ketenagakerjaan#" xmlns:odrl="http://www.w3.org/ns/odrl/2/" xmlns:org="http://www.w3.org/ns/org#" xmlns:owl="http://www.w3.org/2002/07/owl#" xmlns:prof="http://www.w3.org/ns/dx/prof/" xmlns:prov="http://www.w3.org/ns/prov#" xmlns:qb="http://purl.org/linked-data/cube#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:reg="https://example.org/kbr/regulasi#" xmlns:schema="https://schema.org/" xmlns:sh="http://www.w3.org/ns/shacl#" xmlns:skos="http://www.w3.org/2004/02/skos/core#" xmlns:sosa="http://www.w3.org/ns/sosa/" xmlns:ssn="http://www.w3.org/ns/ssn/" xmlns:time="http://www.w3.org/2006/time#" xmlns:vann="http://purl.org/vocab/vann/" xmlns:void="http://rdfs.org/ns/void#" xmlns:wgs="https://www.w3.org/2003/01/geo/wgs84_pos#" xmlns:xml="http://www.w3.org/XML/1998/namespace" xmlns:xsd="http://www.w3.org/2001/XMLSchema#">
+  <rdf:Description rdf:about="https://example.org/kbr/ketenagakerjaan#BantuanKeluargaPekerjaDitahan">
+    <dct:source rdf:resource="https://example.org/kbr/regulasi#PP-35-2021"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="https://example.org/kbr/ketenagakerjaan#KetentuanUpah"/>
+    <ktn:berkaitanTopik rdf:resource="https://example.org/kbr/ketenagakerjaan#TopikUpah"/>
+    <ktn:pasal>Pasal 53 ayat (1)</ktn:pasal>
+    <ktn:tautanSumber rdf:resource="https://peraturan.bpk.go.id/Details/161904/pp-no-35-tahun-2021"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://example.org/kbr/ketenagakerjaan#BatasJangkaWaktuPKWT">
+    <dct:source rdf:resource="https://example.org/kbr/regulasi#PP-35-2021"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="https://example.org/kbr/ketenagakerjaan#KetentuanPKWT"/>
+    <ktn:batasTahunPKWT rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">5</ktn:batasTahunPKWT>
+    <ktn:berkaitanTopik rdf:resource="https://example.org/kbr/ketenagakerjaan#TopikPKWT"/>
+    <ktn:pasal>Pasal 8 ayat (1)</ktn:pasal>
+    <ktn:tautanSumber rdf:resource="https://peraturan.bpk.go.id/Details/161904/pp-no-35-tahun-2021"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://example.org/kbr/ketenagakerjaan#BatasPekerjaanTidakTerlaluLama">
+    <dct:source rdf:resource="https://example.org/kbr/regulasi#PP-35-2021"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="https://example.org/kbr/ketenagakerjaan#KetentuanPKWT"/>
+    <ktn:batasTahunPKWT rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">5</ktn:batasTahunPKWT>
+    <ktn:berkaitanTopik rdf:resource="https://example.org/kbr/ketenagakerjaan#TopikPKWT"/>
+    <ktn:pasal>Pasal 6</ktn:pasal>
+    <ktn:tautanSumber rdf:resource="https://peraturan.bpk.go.id/Details/161904/pp-no-35-tahun-2021"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://example.org/kbr/ketenagakerjaan#BatasWaktuKerjaLembur">
+    <dct:source rdf:resource="https://example.org/kbr/regulasi#PP-35-2021"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="https://example.org/kbr/ketenagakerjaan#KetentuanLembur"/>
+    <ktn:berkaitanTopik rdf:resource="https://example.org/kbr/ketenagakerjaan#TopikLembur"/>
+    <ktn:jamLemburMaksPerHari rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">4</ktn:jamLemburMaksPerHari>
+    <ktn:jamLemburMaksPerMinggu rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">18</ktn:jamLemburMaksPerMinggu>
+    <ktn:pasal>Pasal 26 ayat (1)</ktn:pasal>
+    <ktn:tautanSumber rdf:resource="https://peraturan.bpk.go.id/Details/161904/pp-no-35-tahun-2021"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://example.org/kbr/ketenagakerjaan#BesaranUangKompensasiPKWT">
+    <dct:source rdf:resource="https://example.org/kbr/regulasi#PP-35-2021"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="https://example.org/kbr/ketenagakerjaan#KetentuanPKWT"/>
+    <ktn:berkaitanTopik rdf:resource="https://example.org/kbr/ketenagakerjaan#TopikPKWT"/>
+    <ktn:faktorPembagiKompensasi rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">12</ktn:faktorPembagiKompensasi>
+    <ktn:pasal>Pasal 16 ayat (1)</ktn:pasal>
+    <ktn:tautanSumber rdf:resource="https://peraturan.bpk.go.id/Details/161904/pp-no-35-tahun-2021"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://example.org/kbr/ketenagakerjaan#DasarPerhitunganUpahLembur">
+    <dct:source rdf:resource="https://example.org/kbr/regulasi#PP-35-2021"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="https://example.org/kbr/ketenagakerjaan#KetentuanLembur"/>
+    <ktn:berkaitanTopik rdf:resource="https://example.org/kbr/ketenagakerjaan#TopikLembur"/>
+    <ktn:pasal>Pasal 32 ayat (4)</ktn:pasal>
+    <ktn:tautanSumber rdf:resource="https://peraturan.bpk.go.id/Details/161904/pp-no-35-tahun-2021"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://example.org/kbr/ketenagakerjaan#DitahanDibebaskan">
+    <dct:source rdf:resource="https://example.org/kbr/regulasi#PP-35-2021"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="https://example.org/kbr/ketenagakerjaan#AlasanPHK"/>
+    <ktn:berkaitanTopik rdf:resource="https://example.org/kbr/ketenagakerjaan#TopikPHK"/>
+    <ktn:pasal>Pasal 54 ayat (3)</ktn:pasal>
+    <ktn:tautanSumber rdf:resource="https://peraturan.bpk.go.id/Details/161904/pp-no-35-tahun-2021"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://example.org/kbr/ketenagakerjaan#DitahanMerugikan">
+    <dct:source rdf:resource="https://example.org/kbr/regulasi#PP-35-2021"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="https://example.org/kbr/ketenagakerjaan#AlasanPHK"/>
+    <ktn:berkaitanTopik rdf:resource="https://example.org/kbr/ketenagakerjaan#TopikPHK"/>
+    <ktn:pasal>Pasal 54 ayat (1)</ktn:pasal>
+    <ktn:pengaliUP rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</ktn:pengaliUP>
+    <ktn:pengaliUPMK rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</ktn:pengaliUPMK>
+    <ktn:tautanSumber rdf:resource="https://peraturan.bpk.go.id/Details/161904/pp-no-35-tahun-2021"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://example.org/kbr/ketenagakerjaan#DitahanTidakMerugikan">
+    <dct:source rdf:resource="https://example.org/kbr/regulasi#PP-35-2021"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="https://example.org/kbr/ketenagakerjaan#AlasanPHK"/>
+    <ktn:berkaitanTopik rdf:resource="https://example.org/kbr/ketenagakerjaan#TopikPHK"/>
+    <ktn:pasal>Pasal 54 ayat (2)</ktn:pasal>
+    <ktn:pengaliUP rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</ktn:pengaliUP>
+    <ktn:pengaliUPMK rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</ktn:pengaliUPMK>
+    <ktn:tautanSumber rdf:resource="https://peraturan.bpk.go.id/Details/161904/pp-no-35-tahun-2021"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://example.org/kbr/ketenagakerjaan#EfisiensiMencegahRugi">
+    <dct:source rdf:resource="https://example.org/kbr/regulasi#PP-35-2021"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="https://example.org/kbr/ketenagakerjaan#AlasanPHK"/>
+    <ktn:berkaitanTopik rdf:resource="https://example.org/kbr/ketenagakerjaan#TopikPHK"/>
+    <ktn:pasal>Pasal 43 ayat (2)</ktn:pasal>
+    <ktn:pengaliUP rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</ktn:pengaliUP>
+    <ktn:pengaliUPMK rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</ktn:pengaliUPMK>
+    <ktn:tautanSumber rdf:resource="https://peraturan.bpk.go.id/Details/161904/pp-no-35-tahun-2021"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://example.org/kbr/ketenagakerjaan#EfisiensiRugi">
+    <dct:source rdf:resource="https://example.org/kbr/regulasi#PP-35-2021"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="https://example.org/kbr/ketenagakerjaan#AlasanPHK"/>
+    <ktn:berkaitanTopik rdf:resource="https://example.org/kbr/ketenagakerjaan#TopikPHK"/>
+    <ktn:pasal>Pasal 43 ayat (1)</ktn:pasal>
+    <ktn:pengaliUP rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">0.5</ktn:pengaliUP>
+    <ktn:pengaliUPMK rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</ktn:pengaliUPMK>
+    <ktn:tautanSumber rdf:resource="https://peraturan.bpk.go.id/Details/161904/pp-no-35-tahun-2021"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://example.org/kbr/ketenagakerjaan#ForceMajeureTidakTutup">
+    <dct:source rdf:resource="https://example.org/kbr/regulasi#PP-35-2021"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="https://example.org/kbr/ketenagakerjaan#AlasanPHK"/>
+    <ktn:berkaitanTopik rdf:resource="https://example.org/kbr/ketenagakerjaan#TopikPHK"/>
+    <ktn:pasal>Pasal 45 ayat (2)</ktn:pasal>
+    <ktn:pengaliUP rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">0.75</ktn:pengaliUP>
+    <ktn:pengaliUPMK rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</ktn:pengaliUPMK>
+    <ktn:tautanSumber rdf:resource="https://peraturan.bpk.go.id/Details/161904/pp-no-35-tahun-2021"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://example.org/kbr/ketenagakerjaan#ForceMajeureTutup">
+    <dct:source rdf:resource="https://example.org/kbr/regulasi#PP-35-2021"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="https://example.org/kbr/ketenagakerjaan#AlasanPHK"/>
+    <ktn:berkaitanTopik rdf:resource="https://example.org/kbr/ketenagakerjaan#TopikPHK"/>
+    <ktn:pasal>Pasal 45 ayat (1)</ktn:pasal>
+    <ktn:pengaliUP rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">0.5</ktn:pengaliUP>
+    <ktn:pengaliUPMK rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</ktn:pengaliUPMK>
+    <ktn:tautanSumber rdf:resource="https://peraturan.bpk.go.id/Details/161904/pp-no-35-tahun-2021"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://example.org/kbr/ketenagakerjaan#HakAtasPesangonUPMKUPH">
+    <dct:source rdf:resource="https://example.org/kbr/regulasi#PP-35-2021"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="https://example.org/kbr/ketenagakerjaan#AlasanPHK"/>
+    <ktn:berkaitanTopik rdf:resource="https://example.org/kbr/ketenagakerjaan#TopikPHK"/>
+    <ktn:pasal>Pasal 40 ayat (1)</ktn:pasal>
+    <ktn:tautanSumber rdf:resource="https://peraturan.bpk.go.id/Details/161904/pp-no-35-tahun-2021"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://example.org/kbr/ketenagakerjaan#IstirahatMingguan5Hari">
+    <dct:source rdf:resource="https://example.org/kbr/regulasi#PP-35-2021"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="https://example.org/kbr/ketenagakerjaan#KetentuanWaktuKerja"/>
+    <ktn:berkaitanTopik rdf:resource="https://example.org/kbr/ketenagakerjaan#TopikWaktuKerja"/>
+    <ktn:istirahatMingguanHari rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2</ktn:istirahatMingguanHari>
+    <ktn:pasal>Pasal 22 huruf b</ktn:pasal>
+    <ktn:tautanSumber rdf:resource="https://peraturan.bpk.go.id/Details/161904/pp-no-35-tahun-2021"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://example.org/kbr/ketenagakerjaan#IstirahatMingguan6Hari">
+    <dct:source rdf:resource="https://example.org/kbr/regulasi#PP-35-2021"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="https://example.org/kbr/ketenagakerjaan#KetentuanWaktuKerja"/>
+    <ktn:berkaitanTopik rdf:resource="https://example.org/kbr/ketenagakerjaan#TopikWaktuKerja"/>
+    <ktn:istirahatMingguanHari rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</ktn:istirahatMingguanHari>
+    <ktn:pasal>Pasal 22 huruf a</ktn:pasal>
+    <ktn:tautanSumber rdf:resource="https://peraturan.bpk.go.id/Details/161904/pp-no-35-tahun-2021"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://example.org/kbr/ketenagakerjaan#KetentuanBadanHukumAlihDaya">
+    <dct:source rdf:resource="https://example.org/kbr/regulasi#PP-35-2021"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="https://example.org/kbr/ketenagakerjaan#KetentuanAlihDaya"/>
+    <ktn:berkaitanTopik rdf:resource="https://example.org/kbr/ketenagakerjaan#TopikAlihDaya"/>
+    <ktn:pasal>Pasal 20 ayat (1)</ktn:pasal>
+    <ktn:tautanSumber rdf:resource="https://peraturan.bpk.go.id/Details/161904/pp-no-35-tahun-2021"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://example.org/kbr/ketenagakerjaan#KetentuanHubunganKerjaAlihDaya">
+    <dct:source rdf:resource="https://example.org/kbr/regulasi#PP-35-2021"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="https://example.org/kbr/ketenagakerjaan#KetentuanAlihDaya"/>
+    <ktn:berkaitanTopik rdf:resource="https://example.org/kbr/ketenagakerjaan#TopikAlihDaya"/>
+    <ktn:pasal>Pasal 18 ayat (1)</ktn:pasal>
+    <ktn:tautanSumber rdf:resource="https://peraturan.bpk.go.id/Details/161904/pp-no-35-tahun-2021"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://example.org/kbr/ketenagakerjaan#KetentuanMakanLembur">
+    <dct:source rdf:resource="https://example.org/kbr/regulasi#PP-35-2021"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="https://example.org/kbr/ketenagakerjaan#KetentuanLembur"/>
+    <ktn:berkaitanTopik rdf:resource="https://example.org/kbr/ketenagakerjaan#TopikLembur"/>
+    <ktn:kebutuhanKalori rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1400</ktn:kebutuhanKalori>
+    <ktn:pasal>Pasal 29 ayat (1)c</ktn:pasal>
+    <ktn:tautanSumber rdf:resource="https://peraturan.bpk.go.id/Details/161904/pp-no-35-tahun-2021"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://example.org/kbr/ketenagakerjaan#KetentuanPencatatanPKWT">
+    <dct:source rdf:resource="https://example.org/kbr/regulasi#PP-35-2021"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="https://example.org/kbr/ketenagakerjaan#KetentuanPKWT"/>
+    <ktn:batasHariPencatatan rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">3</ktn:batasHariPencatatan>
+    <ktn:berkaitanTopik rdf:resource="https://example.org/kbr/ketenagakerjaan#TopikPKWT"/>
+    <ktn:pasal>Pasal 14 ayat (1)</ktn:pasal>
+    <ktn:tautanSumber rdf:resource="https://peraturan.bpk.go.id/Details/161904/pp-no-35-tahun-2021"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://example.org/kbr/ketenagakerjaan#KetentuanPengalihanHakAlihDaya">
+    <dct:source rdf:resource="https://example.org/kbr/regulasi#PP-35-2021"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="https://example.org/kbr/ketenagakerjaan#KetentuanAlihDaya"/>
+    <ktn:berkaitanTopik rdf:resource="https://example.org/kbr/ketenagakerjaan#TopikAlihDaya"/>
+    <ktn:pasal>Pasal 19 ayat (1)</ktn:pasal>
+    <ktn:tautanSumber rdf:resource="https://peraturan.bpk.go.id/Details/161904/pp-no-35-tahun-2021"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://example.org/kbr/ketenagakerjaan#KetentuanUangKompensasiPKWT">
+    <dct:source rdf:resource="https://example.org/kbr/regulasi#PP-35-2021"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="https://example.org/kbr/ketenagakerjaan#KetentuanPKWT"/>
+    <ktn:berkaitanTopik rdf:resource="https://example.org/kbr/ketenagakerjaan#TopikPKWT"/>
+    <ktn:pasal>Pasal 15 ayat (1)</ktn:pasal>
+    <ktn:tautanSumber rdf:resource="https://peraturan.bpk.go.id/Details/161904/pp-no-35-tahun-2021"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://example.org/kbr/ketenagakerjaan#KewajibanBayarUpahLembur">
+    <dct:source rdf:resource="https://example.org/kbr/regulasi#PP-35-2021"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="https://example.org/kbr/ketenagakerjaan#KetentuanLembur"/>
+    <ktn:berkaitanTopik rdf:resource="https://example.org/kbr/ketenagakerjaan#TopikLembur"/>
+    <ktn:pasal>Pasal 27 ayat (1)</ktn:pasal>
+    <ktn:tautanSumber rdf:resource="https://peraturan.bpk.go.id/Details/161904/pp-no-35-tahun-2021"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://example.org/kbr/ketenagakerjaan#KewajibanPelaksanaanLembur">
+    <dct:source rdf:resource="https://example.org/kbr/regulasi#PP-35-2021"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="https://example.org/kbr/ketenagakerjaan#KetentuanLembur"/>
+    <ktn:berkaitanTopik rdf:resource="https://example.org/kbr/ketenagakerjaan#TopikLembur"/>
+    <ktn:pasal>Pasal 29 ayat (1)</ktn:pasal>
+    <ktn:tautanSumber rdf:resource="https://peraturan.bpk.go.id/Details/161904/pp-no-35-tahun-2021"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://example.org/kbr/ketenagakerjaan#KompensasiPKWTPutusDini">
+    <dct:source rdf:resource="https://example.org/kbr/regulasi#PP-35-2021"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="https://example.org/kbr/ketenagakerjaan#KetentuanPKWT"/>
+    <ktn:berkaitanTopik rdf:resource="https://example.org/kbr/ketenagakerjaan#TopikPKWT"/>
+    <ktn:pasal>Pasal 17</ktn:pasal>
+    <ktn:tautanSumber rdf:resource="https://peraturan.bpk.go.id/Details/161904/pp-no-35-tahun-2021"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://example.org/kbr/ketenagakerjaan#KompensasiProgramPensiun">
+    <dct:source rdf:resource="https://example.org/kbr/regulasi#PP-35-2021"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="https://example.org/kbr/ketenagakerjaan#KetentuanJaminanSosial"/>
+    <ktn:berkaitanTopik rdf:resource="https://example.org/kbr/ketenagakerjaan#TopikJamsos"/>
+    <ktn:pasal>Pasal 58 ayat (1)</ktn:pasal>
+    <ktn:tautanSumber rdf:resource="https://peraturan.bpk.go.id/Details/161904/pp-no-35-tahun-2021"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://example.org/kbr/ketenagakerjaan#KonversiHarianKePKWTT">
+    <dct:source rdf:resource="https://example.org/kbr/regulasi#PP-35-2021"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="https://example.org/kbr/ketenagakerjaan#KetentuanPKWT"/>
+    <ktn:batasBulanKonversi rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">3</ktn:batasBulanKonversi>
+    <ktn:batasHariKerjaHarian rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">21</ktn:batasHariKerjaHarian>
+    <ktn:berkaitanTopik rdf:resource="https://example.org/kbr/ketenagakerjaan#TopikPKWT"/>
+    <ktn:pasal>Pasal 10 ayat (4)</ktn:pasal>
+    <ktn:tautanSumber rdf:resource="https://peraturan.bpk.go.id/Details/161904/pp-no-35-tahun-2021"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://example.org/kbr/ketenagakerjaan#KonversiUpahHarian">
+    <dct:source rdf:resource="https://example.org/kbr/regulasi#PP-35-2021"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="https://example.org/kbr/ketenagakerjaan#KetentuanLembur"/>
+    <ktn:berkaitanTopik rdf:resource="https://example.org/kbr/ketenagakerjaan#TopikLembur"/>
+    <ktn:pasal>Pasal 33 ayat (1)</ktn:pasal>
+    <ktn:pengaliKonversiHarian5 rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">21</ktn:pengaliKonversiHarian5>
+    <ktn:pengaliKonversiHarian6 rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">25</ktn:pengaliKonversiHarian6>
+    <ktn:tautanSumber rdf:resource="https://peraturan.bpk.go.id/Details/161904/pp-no-35-tahun-2021"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://example.org/kbr/ketenagakerjaan#LEMBUR-HK-1">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="https://example.org/kbr/ketenagakerjaan#PengaliLembur"/>
+    <ktn:jamMax rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</ktn:jamMax>
+    <ktn:jamMin rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</ktn:jamMin>
+    <ktn:jenisHari>hari_kerja</ktn:jenisHari>
+    <ktn:pasal>Pasal 31 ayat (1)a</ktn:pasal>
+    <ktn:pengali rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">1.5</ktn:pengali>
+    <ktn:tautanSumber rdf:resource="https://peraturan.bpk.go.id/Details/161904/pp-no-35-tahun-2021"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://example.org/kbr/ketenagakerjaan#LEMBUR-HK-2">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="https://example.org/kbr/ketenagakerjaan#PengaliLembur"/>
+    <ktn:jamMax rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">4</ktn:jamMax>
+    <ktn:jamMin rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2</ktn:jamMin>
+    <ktn:jenisHari>hari_kerja</ktn:jenisHari>
+    <ktn:pasal>Pasal 31 ayat (1)b</ktn:pasal>
+    <ktn:pengali rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2</ktn:pengali>
+    <ktn:tautanSumber rdf:resource="https://peraturan.bpk.go.id/Details/161904/pp-no-35-tahun-2021"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://example.org/kbr/ketenagakerjaan#LEMBUR-L5-1">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="https://example.org/kbr/ketenagakerjaan#PengaliLembur"/>
+    <ktn:jamMax rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">8</ktn:jamMax>
+    <ktn:jamMin rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</ktn:jamMin>
+    <ktn:jenisHari>libur_5hari</ktn:jenisHari>
+    <ktn:pasal>Pasal 31 ayat (3)a</ktn:pasal>
+    <ktn:pengali rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2</ktn:pengali>
+    <ktn:tautanSumber rdf:resource="https://peraturan.bpk.go.id/Details/161904/pp-no-35-tahun-2021"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://example.org/kbr/ketenagakerjaan#LEMBUR-L5-2">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="https://example.org/kbr/ketenagakerjaan#PengaliLembur"/>
+    <ktn:jamMax rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">9</ktn:jamMax>
+    <ktn:jamMin rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">9</ktn:jamMin>
+    <ktn:jenisHari>libur_5hari</ktn:jenisHari>
+    <ktn:pasal>Pasal 31 ayat (3)b</ktn:pasal>
+    <ktn:pengali rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">3</ktn:pengali>
+    <ktn:tautanSumber rdf:resource="https://peraturan.bpk.go.id/Details/161904/pp-no-35-tahun-2021"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://example.org/kbr/ketenagakerjaan#LEMBUR-L5-3">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="https://example.org/kbr/ketenagakerjaan#PengaliLembur"/>
+    <ktn:jamMax rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">12</ktn:jamMax>
+    <ktn:jamMin rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">10</ktn:jamMin>
+    <ktn:jenisHari>libur_5hari</ktn:jenisHari>
+    <ktn:pasal>Pasal 31 ayat (3)c</ktn:pasal>
+    <ktn:pengali rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">4</ktn:pengali>
+    <ktn:tautanSumber rdf:resource="https://peraturan.bpk.go.id/Details/161904/pp-no-35-tahun-2021"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://example.org/kbr/ketenagakerjaan#LEMBUR-L6-1">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="https://example.org/kbr/ketenagakerjaan#PengaliLembur"/>
+    <ktn:jamMax rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">7</ktn:jamMax>
+    <ktn:jamMin rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</ktn:jamMin>
+    <ktn:jenisHari>libur_6hari</ktn:jenisHari>
+    <ktn:pasal>Pasal 31 ayat (2)a.1</ktn:pasal>
+    <ktn:pengali rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2</ktn:pengali>
+    <ktn:tautanSumber rdf:resource="https://peraturan.bpk.go.id/Details/161904/pp-no-35-tahun-2021"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://example.org/kbr/ketenagakerjaan#LEMBUR-L6-2">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="https://example.org/kbr/ketenagakerjaan#PengaliLembur"/>
+    <ktn:jamMax rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">8</ktn:jamMax>
+    <ktn:jamMin rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">8</ktn:jamMin>
+    <ktn:jenisHari>libur_6hari</ktn:jenisHari>
+    <ktn:pasal>Pasal 31 ayat (2)a.2</ktn:pasal>
+    <ktn:pengali rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">3</ktn:pengali>
+    <ktn:tautanSumber rdf:resource="https://peraturan.bpk.go.id/Details/161904/pp-no-35-tahun-2021"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://example.org/kbr/ketenagakerjaan#LEMBUR-L6-3">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="https://example.org/kbr/ketenagakerjaan#PengaliLembur"/>
+    <ktn:jamMax rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">11</ktn:jamMax>
+    <ktn:jamMin rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">9</ktn:jamMin>
+    <ktn:jenisHari>libur_6hari</ktn:jenisHari>
+    <ktn:pasal>Pasal 31 ayat (2)a.3</ktn:pasal>
+    <ktn:pengali rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">4</ktn:pengali>
+    <ktn:tautanSumber rdf:resource="https://peraturan.bpk.go.id/Details/161904/pp-no-35-tahun-2021"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://example.org/kbr/ketenagakerjaan#LEMBUR-LT-1">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="https://example.org/kbr/ketenagakerjaan#PengaliLembur"/>
+    <ktn:jamMax rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">5</ktn:jamMax>
+    <ktn:jamMin rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</ktn:jamMin>
+    <ktn:jenisHari>libur_terpendek</ktn:jenisHari>
+    <ktn:pasal>Pasal 31 ayat (2)b.1</ktn:pasal>
+    <ktn:pengali rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2</ktn:pengali>
+    <ktn:tautanSumber rdf:resource="https://peraturan.bpk.go.id/Details/161904/pp-no-35-tahun-2021"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://example.org/kbr/ketenagakerjaan#LEMBUR-LT-2">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="https://example.org/kbr/ketenagakerjaan#PengaliLembur"/>
+    <ktn:jamMax rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">6</ktn:jamMax>
+    <ktn:jamMin rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">6</ktn:jamMin>
+    <ktn:jenisHari>libur_terpendek</ktn:jenisHari>
+    <ktn:pasal>Pasal 31 ayat (2)b.2</ktn:pasal>
+    <ktn:pengali rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">3</ktn:pengali>
+    <ktn:tautanSumber rdf:resource="https://peraturan.bpk.go.id/Details/161904/pp-no-35-tahun-2021"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://example.org/kbr/ketenagakerjaan#LEMBUR-LT-3">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="https://example.org/kbr/ketenagakerjaan#PengaliLembur"/>
+    <ktn:jamMax rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">9</ktn:jamMax>
+    <ktn:jamMin rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">7</ktn:jamMin>
+    <ktn:jenisHari>libur_terpendek</ktn:jenisHari>
+    <ktn:pasal>Pasal 31 ayat (2)b.3</ktn:pasal>
+    <ktn:pengali rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">4</ktn:pengali>
+    <ktn:tautanSumber rdf:resource="https://peraturan.bpk.go.id/Details/161904/pp-no-35-tahun-2021"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://example.org/kbr/ketenagakerjaan#LaranganPKWTPekerjaanTetap">
+    <dct:source rdf:resource="https://example.org/kbr/regulasi#PP-35-2021"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="https://example.org/kbr/ketenagakerjaan#KetentuanPKWT"/>
+    <ktn:berkaitanTopik rdf:resource="https://example.org/kbr/ketenagakerjaan#TopikPKWT"/>
+    <ktn:pasal>Pasal 4 ayat (2)</ktn:pasal>
+    <ktn:tautanSumber rdf:resource="https://peraturan.bpk.go.id/Details/161904/pp-no-35-tahun-2021"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://example.org/kbr/ketenagakerjaan#LaranganPercobaanPKWT">
+    <dct:source rdf:resource="https://example.org/kbr/regulasi#PP-35-2021"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="https://example.org/kbr/ketenagakerjaan#KetentuanPKWT"/>
+    <ktn:berkaitanTopik rdf:resource="https://example.org/kbr/ketenagakerjaan#TopikPKWT"/>
+    <ktn:pasal>Pasal 12</ktn:pasal>
+    <ktn:tautanSumber rdf:resource="https://peraturan.bpk.go.id/Details/161904/pp-no-35-tahun-2021"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://example.org/kbr/ketenagakerjaan#LingkupUPH">
+    <dct:source rdf:resource="https://example.org/kbr/regulasi#PP-35-2021"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="https://example.org/kbr/ketenagakerjaan#AlasanPHK"/>
+    <ktn:berkaitanTopik rdf:resource="https://example.org/kbr/ketenagakerjaan#TopikPHK"/>
+    <ktn:pasal>Pasal 40 ayat (4)</ktn:pasal>
+    <ktn:tautanSumber rdf:resource="https://peraturan.bpk.go.id/Details/161904/pp-no-35-tahun-2021"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://example.org/kbr/ketenagakerjaan#Mangkir">
+    <dct:source rdf:resource="https://example.org/kbr/regulasi#PP-35-2021"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="https://example.org/kbr/ketenagakerjaan#AlasanPHK"/>
+    <ktn:berkaitanTopik rdf:resource="https://example.org/kbr/ketenagakerjaan#TopikPHK"/>
+    <ktn:pasal>Pasal 51</ktn:pasal>
+    <ktn:pengaliUP rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</ktn:pengaliUP>
+    <ktn:pengaliUPMK rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</ktn:pengaliUPMK>
+    <ktn:tautanSumber rdf:resource="https://peraturan.bpk.go.id/Details/161904/pp-no-35-tahun-2021"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://example.org/kbr/ketenagakerjaan#MengundurkanDiri">
+    <dct:source rdf:resource="https://example.org/kbr/regulasi#PP-35-2021"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="https://example.org/kbr/ketenagakerjaan#AlasanPHK"/>
+    <ktn:berkaitanTopik rdf:resource="https://example.org/kbr/ketenagakerjaan#TopikPHK"/>
+    <ktn:pasal>Pasal 50</ktn:pasal>
+    <ktn:pengaliUP rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</ktn:pengaliUP>
+    <ktn:pengaliUPMK rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</ktn:pengaliUPMK>
+    <ktn:tautanSumber rdf:resource="https://peraturan.bpk.go.id/Details/161904/pp-no-35-tahun-2021"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://example.org/kbr/ketenagakerjaan#MeninggalDunia">
+    <dct:source rdf:resource="https://example.org/kbr/regulasi#PP-35-2021"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="https://example.org/kbr/ketenagakerjaan#AlasanPHK"/>
+    <ktn:berkaitanTopik rdf:resource="https://example.org/kbr/ketenagakerjaan#TopikPHK"/>
+    <ktn:pasal>Pasal 57</ktn:pasal>
+    <ktn:pengaliUP rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2</ktn:pengaliUP>
+    <ktn:pengaliUPMK rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</ktn:pengaliUPMK>
+    <ktn:tautanSumber rdf:resource="https://peraturan.bpk.go.id/Details/161904/pp-no-35-tahun-2021"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://example.org/kbr/ketenagakerjaan#Merger">
+    <dct:source rdf:resource="https://example.org/kbr/regulasi#PP-35-2021"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="https://example.org/kbr/ketenagakerjaan#AlasanPHK"/>
+    <ktn:berkaitanTopik rdf:resource="https://example.org/kbr/ketenagakerjaan#TopikPHK"/>
+    <ktn:pasal>Pasal 41</ktn:pasal>
+    <ktn:pengaliUP rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</ktn:pengaliUP>
+    <ktn:pengaliUPMK rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</ktn:pengaliUPMK>
+    <ktn:tautanSumber rdf:resource="https://peraturan.bpk.go.id/Details/161904/pp-no-35-tahun-2021"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://example.org/kbr/ketenagakerjaan#PKPUKarenaRugi">
+    <dct:source rdf:resource="https://example.org/kbr/regulasi#PP-35-2021"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="https://example.org/kbr/ketenagakerjaan#AlasanPHK"/>
+    <ktn:berkaitanTopik rdf:resource="https://example.org/kbr/ketenagakerjaan#TopikPHK"/>
+    <ktn:pasal>Pasal 46 ayat (1)</ktn:pasal>
+    <ktn:pengaliUP rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">0.5</ktn:pengaliUP>
+    <ktn:pengaliUPMK rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</ktn:pengaliUPMK>
+    <ktn:tautanSumber rdf:resource="https://peraturan.bpk.go.id/Details/161904/pp-no-35-tahun-2021"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://example.org/kbr/ketenagakerjaan#PKPUKarenaTidakRugi">
+    <dct:source rdf:resource="https://example.org/kbr/regulasi#PP-35-2021"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="https://example.org/kbr/ketenagakerjaan#AlasanPHK"/>
+    <ktn:berkaitanTopik rdf:resource="https://example.org/kbr/ketenagakerjaan#TopikPHK"/>
+    <ktn:pasal>Pasal 46 ayat (2)</ktn:pasal>
+    <ktn:pengaliUP rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</ktn:pengaliUP>
+    <ktn:pengaliUPMK rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</ktn:pengaliUPMK>
+    <ktn:tautanSumber rdf:resource="https://peraturan.bpk.go.id/Details/161904/pp-no-35-tahun-2021"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://example.org/kbr/ketenagakerjaan#PKWTPutusSaatPekerjaanSelesai">
+    <dct:source rdf:resource="https://example.org/kbr/regulasi#PP-35-2021"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="https://example.org/kbr/ketenagakerjaan#KetentuanPKWT"/>
+    <ktn:berkaitanTopik rdf:resource="https://example.org/kbr/ketenagakerjaan#TopikPKWT"/>
+    <ktn:pasal>Pasal 9 ayat (3)</ktn:pasal>
+    <ktn:tautanSumber rdf:resource="https://peraturan.bpk.go.id/Details/161904/pp-no-35-tahun-2021"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://example.org/kbr/ketenagakerjaan#Pailit">
+    <dct:source rdf:resource="https://example.org/kbr/regulasi#PP-35-2021"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="https://example.org/kbr/ketenagakerjaan#AlasanPHK"/>
+    <ktn:berkaitanTopik rdf:resource="https://example.org/kbr/ketenagakerjaan#TopikPHK"/>
+    <ktn:pasal>Pasal 47</ktn:pasal>
+    <ktn:pengaliUP rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">0.5</ktn:pengaliUP>
+    <ktn:pengaliUPMK rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</ktn:pengaliUPMK>
+    <ktn:tautanSumber rdf:resource="https://peraturan.bpk.go.id/Details/161904/pp-no-35-tahun-2021"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://example.org/kbr/ketenagakerjaan#PelanggaranMendesak">
+    <dct:source rdf:resource="https://example.org/kbr/regulasi#PP-35-2021"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="https://example.org/kbr/ketenagakerjaan#AlasanPHK"/>
+    <ktn:berkaitanTopik rdf:resource="https://example.org/kbr/ketenagakerjaan#TopikPHK"/>
+    <ktn:pasal>Pasal 52 ayat (2)</ktn:pasal>
+    <ktn:pengaliUP rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</ktn:pengaliUP>
+    <ktn:pengaliUPMK rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</ktn:pengaliUPMK>
+    <ktn:tautanSumber rdf:resource="https://peraturan.bpk.go.id/Details/161904/pp-no-35-tahun-2021"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://example.org/kbr/ketenagakerjaan#PelanggaranSP">
+    <dct:source rdf:resource="https://example.org/kbr/regulasi#PP-35-2021"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="https://example.org/kbr/ketenagakerjaan#AlasanPHK"/>
+    <ktn:berkaitanTopik rdf:resource="https://example.org/kbr/ketenagakerjaan#TopikPHK"/>
+    <ktn:pasal>Pasal 52 ayat (1)</ktn:pasal>
+    <ktn:pengaliUP rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">0.5</ktn:pengaliUP>
+    <ktn:pengaliUPMK rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</ktn:pengaliUPMK>
+    <ktn:tautanSumber rdf:resource="https://peraturan.bpk.go.id/Details/161904/pp-no-35-tahun-2021"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://example.org/kbr/ketenagakerjaan#PelaporanPHK">
+    <dct:source rdf:resource="https://example.org/kbr/regulasi#PP-35-2021"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="https://example.org/kbr/ketenagakerjaan#AlasanPHK"/>
+    <ktn:berkaitanTopik rdf:resource="https://example.org/kbr/ketenagakerjaan#TopikPHK"/>
+    <ktn:pasal>Pasal 38</ktn:pasal>
+    <ktn:tautanSumber rdf:resource="https://peraturan.bpk.go.id/Details/161904/pp-no-35-tahun-2021"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://example.org/kbr/ketenagakerjaan#PemberitahuanPHK">
+    <dct:source rdf:resource="https://example.org/kbr/regulasi#PP-35-2021"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="https://example.org/kbr/ketenagakerjaan#AlasanPHK"/>
+    <ktn:berkaitanTopik rdf:resource="https://example.org/kbr/ketenagakerjaan#TopikPHK"/>
+    <ktn:pasal>Pasal 37 ayat (3)</ktn:pasal>
+    <ktn:tautanSumber rdf:resource="https://peraturan.bpk.go.id/Details/161904/pp-no-35-tahun-2021"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://example.org/kbr/ketenagakerjaan#Pengambilalihan">
+    <dct:source rdf:resource="https://example.org/kbr/regulasi#PP-35-2021"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="https://example.org/kbr/ketenagakerjaan#AlasanPHK"/>
+    <ktn:berkaitanTopik rdf:resource="https://example.org/kbr/ketenagakerjaan#TopikPHK"/>
+    <ktn:pasal>Pasal 42 ayat (1)</ktn:pasal>
+    <ktn:pengaliUP rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</ktn:pengaliUP>
+    <ktn:pengaliUPMK rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</ktn:pengaliUPMK>
+    <ktn:tautanSumber rdf:resource="https://peraturan.bpk.go.id/Details/161904/pp-no-35-tahun-2021"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://example.org/kbr/ketenagakerjaan#PengambilalihanUbahSyarat">
+    <dct:source rdf:resource="https://example.org/kbr/regulasi#PP-35-2021"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="https://example.org/kbr/ketenagakerjaan#AlasanPHK"/>
+    <ktn:berkaitanTopik rdf:resource="https://example.org/kbr/ketenagakerjaan#TopikPHK"/>
+    <ktn:pasal>Pasal 42 ayat (2)</ktn:pasal>
+    <ktn:pengaliUP rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">0.5</ktn:pengaliUP>
+    <ktn:pengaliUPMK rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</ktn:pengaliUPMK>
+    <ktn:tautanSumber rdf:resource="https://peraturan.bpk.go.id/Details/161904/pp-no-35-tahun-2021"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://example.org/kbr/ketenagakerjaan#PengecualianJabatanLembur">
+    <dct:source rdf:resource="https://example.org/kbr/regulasi#PP-35-2021"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="https://example.org/kbr/ketenagakerjaan#KetentuanLembur"/>
+    <ktn:berkaitanTopik rdf:resource="https://example.org/kbr/ketenagakerjaan#TopikLembur"/>
+    <ktn:pasal>Pasal 27 ayat (5)</ktn:pasal>
+    <ktn:tautanSumber rdf:resource="https://peraturan.bpk.go.id/Details/161904/pp-no-35-tahun-2021"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://example.org/kbr/ketenagakerjaan#PenolakanPHK">
+    <dct:source rdf:resource="https://example.org/kbr/regulasi#PP-35-2021"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="https://example.org/kbr/ketenagakerjaan#AlasanPHK"/>
+    <ktn:berkaitanTopik rdf:resource="https://example.org/kbr/ketenagakerjaan#TopikPHK"/>
+    <ktn:pasal>Pasal 39 ayat (1)</ktn:pasal>
+    <ktn:tautanSumber rdf:resource="https://peraturan.bpk.go.id/Details/161904/pp-no-35-tahun-2021"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://example.org/kbr/ketenagakerjaan#Pensiun">
+    <dct:source rdf:resource="https://example.org/kbr/regulasi#PP-35-2021"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="https://example.org/kbr/ketenagakerjaan#AlasanPHK"/>
+    <ktn:berkaitanTopik rdf:resource="https://example.org/kbr/ketenagakerjaan#TopikPHK"/>
+    <ktn:pasal>Pasal 56</ktn:pasal>
+    <ktn:pengaliUP rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">1.75</ktn:pengaliUP>
+    <ktn:pengaliUPMK rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</ktn:pengaliUPMK>
+    <ktn:tautanSumber rdf:resource="https://peraturan.bpk.go.id/Details/161904/pp-no-35-tahun-2021"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://example.org/kbr/ketenagakerjaan#PenyelesaianPerselisihanPHK">
+    <dct:source rdf:resource="https://example.org/kbr/regulasi#PP-35-2021"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="https://example.org/kbr/ketenagakerjaan#AlasanPHK"/>
+    <ktn:berkaitanTopik rdf:resource="https://example.org/kbr/ketenagakerjaan#TopikPHK"/>
+    <ktn:pasal>Pasal 39 ayat (2)</ktn:pasal>
+    <ktn:tautanSumber rdf:resource="https://peraturan.bpk.go.id/Details/161904/pp-no-35-tahun-2021"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://example.org/kbr/ketenagakerjaan#PerbuatanPengusaha">
+    <dct:source rdf:resource="https://example.org/kbr/regulasi#PP-35-2021"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="https://example.org/kbr/ketenagakerjaan#AlasanPHK"/>
+    <ktn:berkaitanTopik rdf:resource="https://example.org/kbr/ketenagakerjaan#TopikPHK"/>
+    <ktn:pasal>Pasal 48</ktn:pasal>
+    <ktn:pengaliUP rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</ktn:pengaliUP>
+    <ktn:pengaliUPMK rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</ktn:pengaliUPMK>
+    <ktn:tautanSumber rdf:resource="https://peraturan.bpk.go.id/Details/161904/pp-no-35-tahun-2021"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://example.org/kbr/ketenagakerjaan#PerlindunganPekerjaAlihDaya">
+    <dct:source rdf:resource="https://example.org/kbr/regulasi#PP-35-2021"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="https://example.org/kbr/ketenagakerjaan#KetentuanAlihDaya"/>
+    <ktn:berkaitanTopik rdf:resource="https://example.org/kbr/ketenagakerjaan#TopikAlihDaya"/>
+    <ktn:pasal>Pasal 18 ayat (3)</ktn:pasal>
+    <ktn:tautanSumber rdf:resource="https://peraturan.bpk.go.id/Details/161904/pp-no-35-tahun-2021"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://example.org/kbr/ketenagakerjaan#PutusanPPHITidakBersalah">
+    <dct:source rdf:resource="https://example.org/kbr/regulasi#PP-35-2021"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="https://example.org/kbr/ketenagakerjaan#AlasanPHK"/>
+    <ktn:berkaitanTopik rdf:resource="https://example.org/kbr/ketenagakerjaan#TopikPHK"/>
+    <ktn:pasal>Pasal 49</ktn:pasal>
+    <ktn:pengaliUP rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</ktn:pengaliUP>
+    <ktn:pengaliUPMK rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</ktn:pengaliUPMK>
+    <ktn:tautanSumber rdf:resource="https://peraturan.bpk.go.id/Details/161904/pp-no-35-tahun-2021"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://example.org/kbr/ketenagakerjaan#SakitBerkepanjangan">
+    <dct:source rdf:resource="https://example.org/kbr/regulasi#PP-35-2021"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="https://example.org/kbr/ketenagakerjaan#AlasanPHK"/>
+    <ktn:berkaitanTopik rdf:resource="https://example.org/kbr/ketenagakerjaan#TopikPHK"/>
+    <ktn:pasal>Pasal 55 ayat (1)</ktn:pasal>
+    <ktn:pengaliUP rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2</ktn:pengaliUP>
+    <ktn:pengaliUPMK rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</ktn:pengaliUPMK>
+    <ktn:tautanSumber rdf:resource="https://peraturan.bpk.go.id/Details/161904/pp-no-35-tahun-2021"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://example.org/kbr/ketenagakerjaan#SyaratPerintahLembur">
+    <dct:source rdf:resource="https://example.org/kbr/regulasi#PP-35-2021"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="https://example.org/kbr/ketenagakerjaan#KetentuanLembur"/>
+    <ktn:berkaitanTopik rdf:resource="https://example.org/kbr/ketenagakerjaan#TopikLembur"/>
+    <ktn:pasal>Pasal 28 ayat (1)</ktn:pasal>
+    <ktn:tautanSumber rdf:resource="https://peraturan.bpk.go.id/Details/161904/pp-no-35-tahun-2021"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://example.org/kbr/ketenagakerjaan#TanggungJawabAlihDaya">
+    <dct:source rdf:resource="https://example.org/kbr/regulasi#PP-35-2021"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="https://example.org/kbr/ketenagakerjaan#KetentuanAlihDaya"/>
+    <ktn:berkaitanTopik rdf:resource="https://example.org/kbr/ketenagakerjaan#TopikAlihDaya"/>
+    <ktn:pasal>Pasal 19 ayat (3)</ktn:pasal>
+    <ktn:tautanSumber rdf:resource="https://peraturan.bpk.go.id/Details/161904/pp-no-35-tahun-2021"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://example.org/kbr/ketenagakerjaan#TutupBukanKarenaRugi">
+    <dct:source rdf:resource="https://example.org/kbr/regulasi#PP-35-2021"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="https://example.org/kbr/ketenagakerjaan#AlasanPHK"/>
+    <ktn:berkaitanTopik rdf:resource="https://example.org/kbr/ketenagakerjaan#TopikPHK"/>
+    <ktn:pasal>Pasal 44 ayat (2)</ktn:pasal>
+    <ktn:pengaliUP rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</ktn:pengaliUP>
+    <ktn:pengaliUPMK rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</ktn:pengaliUPMK>
+    <ktn:tautanSumber rdf:resource="https://peraturan.bpk.go.id/Details/161904/pp-no-35-tahun-2021"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://example.org/kbr/ketenagakerjaan#TutupKarenaRugi">
+    <dct:source rdf:resource="https://example.org/kbr/regulasi#PP-35-2021"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="https://example.org/kbr/ketenagakerjaan#AlasanPHK"/>
+    <ktn:berkaitanTopik rdf:resource="https://example.org/kbr/ketenagakerjaan#TopikPHK"/>
+    <ktn:pasal>Pasal 44 ayat (1)</ktn:pasal>
+    <ktn:pengaliUP rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">0.5</ktn:pengaliUP>
+    <ktn:pengaliUPMK rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</ktn:pengaliUPMK>
+    <ktn:tautanSumber rdf:resource="https://peraturan.bpk.go.id/Details/161904/pp-no-35-tahun-2021"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://example.org/kbr/ketenagakerjaan#UP-0-12">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="https://example.org/kbr/ketenagakerjaan#KategoriUP"/>
+    <ktn:maxBulan rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">12</ktn:maxBulan>
+    <ktn:minBulan rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</ktn:minBulan>
+    <ktn:pasal>Pasal 40 ayat (2)a</ktn:pasal>
+    <ktn:tautanSumber rdf:resource="https://peraturan.bpk.go.id/Details/161904/pp-no-35-tahun-2021"/>
+    <ktn:upDasarBulan rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</ktn:upDasarBulan>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://example.org/kbr/ketenagakerjaan#UP-12-24">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="https://example.org/kbr/ketenagakerjaan#KategoriUP"/>
+    <ktn:maxBulan rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">24</ktn:maxBulan>
+    <ktn:minBulan rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">12</ktn:minBulan>
+    <ktn:pasal>Pasal 40 ayat (2)b</ktn:pasal>
+    <ktn:tautanSumber rdf:resource="https://peraturan.bpk.go.id/Details/161904/pp-no-35-tahun-2021"/>
+    <ktn:upDasarBulan rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2</ktn:upDasarBulan>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://example.org/kbr/ketenagakerjaan#UP-24-36">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="https://example.org/kbr/ketenagakerjaan#KategoriUP"/>
+    <ktn:maxBulan rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">36</ktn:maxBulan>
+    <ktn:minBulan rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">24</ktn:minBulan>
+    <ktn:pasal>Pasal 40 ayat (2)c</ktn:pasal>
+    <ktn:tautanSumber rdf:resource="https://peraturan.bpk.go.id/Details/161904/pp-no-35-tahun-2021"/>
+    <ktn:upDasarBulan rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">3</ktn:upDasarBulan>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://example.org/kbr/ketenagakerjaan#UP-36-48">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="https://example.org/kbr/ketenagakerjaan#KategoriUP"/>
+    <ktn:maxBulan rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">48</ktn:maxBulan>
+    <ktn:minBulan rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">36</ktn:minBulan>
+    <ktn:pasal>Pasal 40 ayat (2)d</ktn:pasal>
+    <ktn:tautanSumber rdf:resource="https://peraturan.bpk.go.id/Details/161904/pp-no-35-tahun-2021"/>
+    <ktn:upDasarBulan rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">4</ktn:upDasarBulan>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://example.org/kbr/ketenagakerjaan#UP-48-60">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="https://example.org/kbr/ketenagakerjaan#KategoriUP"/>
+    <ktn:maxBulan rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">60</ktn:maxBulan>
+    <ktn:minBulan rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">48</ktn:minBulan>
+    <ktn:pasal>Pasal 40 ayat (2)e</ktn:pasal>
+    <ktn:tautanSumber rdf:resource="https://peraturan.bpk.go.id/Details/161904/pp-no-35-tahun-2021"/>
+    <ktn:upDasarBulan rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">5</ktn:upDasarBulan>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://example.org/kbr/ketenagakerjaan#UP-60-72">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="https://example.org/kbr/ketenagakerjaan#KategoriUP"/>
+    <ktn:maxBulan rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">72</ktn:maxBulan>
+    <ktn:minBulan rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">60</ktn:minBulan>
+    <ktn:pasal>Pasal 40 ayat (2)f</ktn:pasal>
+    <ktn:tautanSumber rdf:resource="https://peraturan.bpk.go.id/Details/161904/pp-no-35-tahun-2021"/>
+    <ktn:upDasarBulan rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">6</ktn:upDasarBulan>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://example.org/kbr/ketenagakerjaan#UP-72-84">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="https://example.org/kbr/ketenagakerjaan#KategoriUP"/>
+    <ktn:maxBulan rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">84</ktn:maxBulan>
+    <ktn:minBulan rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">72</ktn:minBulan>
+    <ktn:pasal>Pasal 40 ayat (2)g</ktn:pasal>
+    <ktn:tautanSumber rdf:resource="https://peraturan.bpk.go.id/Details/161904/pp-no-35-tahun-2021"/>
+    <ktn:upDasarBulan rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">7</ktn:upDasarBulan>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://example.org/kbr/ketenagakerjaan#UP-84-96">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="https://example.org/kbr/ketenagakerjaan#KategoriUP"/>
+    <ktn:maxBulan rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">96</ktn:maxBulan>
+    <ktn:minBulan rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">84</ktn:minBulan>
+    <ktn:pasal>Pasal 40 ayat (2)h</ktn:pasal>
+    <ktn:tautanSumber rdf:resource="https://peraturan.bpk.go.id/Details/161904/pp-no-35-tahun-2021"/>
+    <ktn:upDasarBulan rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">8</ktn:upDasarBulan>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://example.org/kbr/ketenagakerjaan#UP-96-INF">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="https://example.org/kbr/ketenagakerjaan#KategoriUP"/>
+    <ktn:minBulan rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">96</ktn:minBulan>
+    <ktn:pasal>Pasal 40 ayat (2)i</ktn:pasal>
+    <ktn:tautanSumber rdf:resource="https://peraturan.bpk.go.id/Details/161904/pp-no-35-tahun-2021"/>
+    <ktn:upDasarBulan rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">9</ktn:upDasarBulan>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://example.org/kbr/ketenagakerjaan#UPMK-108-144">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="https://example.org/kbr/ketenagakerjaan#KategoriUPMK"/>
+    <ktn:maxBulan rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">144</ktn:maxBulan>
+    <ktn:minBulan rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">108</ktn:minBulan>
+    <ktn:pasal>Pasal 40 ayat (3)c</ktn:pasal>
+    <ktn:tautanSumber rdf:resource="https://peraturan.bpk.go.id/Details/161904/pp-no-35-tahun-2021"/>
+    <ktn:upmkDasarBulan rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">4</ktn:upmkDasarBulan>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://example.org/kbr/ketenagakerjaan#UPMK-144-180">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="https://example.org/kbr/ketenagakerjaan#KategoriUPMK"/>
+    <ktn:maxBulan rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">180</ktn:maxBulan>
+    <ktn:minBulan rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">144</ktn:minBulan>
+    <ktn:pasal>Pasal 40 ayat (3)d</ktn:pasal>
+    <ktn:tautanSumber rdf:resource="https://peraturan.bpk.go.id/Details/161904/pp-no-35-tahun-2021"/>
+    <ktn:upmkDasarBulan rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">5</ktn:upmkDasarBulan>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://example.org/kbr/ketenagakerjaan#UPMK-180-216">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="https://example.org/kbr/ketenagakerjaan#KategoriUPMK"/>
+    <ktn:maxBulan rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">216</ktn:maxBulan>
+    <ktn:minBulan rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">180</ktn:minBulan>
+    <ktn:pasal>Pasal 40 ayat (3)e</ktn:pasal>
+    <ktn:tautanSumber rdf:resource="https://peraturan.bpk.go.id/Details/161904/pp-no-35-tahun-2021"/>
+    <ktn:upmkDasarBulan rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">6</ktn:upmkDasarBulan>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://example.org/kbr/ketenagakerjaan#UPMK-216-252">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="https://example.org/kbr/ketenagakerjaan#KategoriUPMK"/>
+    <ktn:maxBulan rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">252</ktn:maxBulan>
+    <ktn:minBulan rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">216</ktn:minBulan>
+    <ktn:pasal>Pasal 40 ayat (3)f</ktn:pasal>
+    <ktn:tautanSumber rdf:resource="https://peraturan.bpk.go.id/Details/161904/pp-no-35-tahun-2021"/>
+    <ktn:upmkDasarBulan rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">7</ktn:upmkDasarBulan>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://example.org/kbr/ketenagakerjaan#UPMK-252-288">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="https://example.org/kbr/ketenagakerjaan#KategoriUPMK"/>
+    <ktn:maxBulan rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">288</ktn:maxBulan>
+    <ktn:minBulan rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">252</ktn:minBulan>
+    <ktn:pasal>Pasal 40 ayat (3)g</ktn:pasal>
+    <ktn:tautanSumber rdf:resource="https://peraturan.bpk.go.id/Details/161904/pp-no-35-tahun-2021"/>
+    <ktn:upmkDasarBulan rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">8</ktn:upmkDasarBulan>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://example.org/kbr/ketenagakerjaan#UPMK-288-INF">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="https://example.org/kbr/ketenagakerjaan#KategoriUPMK"/>
+    <ktn:minBulan rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">288</ktn:minBulan>
+    <ktn:pasal>Pasal 40 ayat (3)h</ktn:pasal>
+    <ktn:tautanSumber rdf:resource="https://peraturan.bpk.go.id/Details/161904/pp-no-35-tahun-2021"/>
+    <ktn:upmkDasarBulan rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">10</ktn:upmkDasarBulan>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://example.org/kbr/ketenagakerjaan#UPMK-36-72">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="https://example.org/kbr/ketenagakerjaan#KategoriUPMK"/>
+    <ktn:maxBulan rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">72</ktn:maxBulan>
+    <ktn:minBulan rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">36</ktn:minBulan>
+    <ktn:pasal>Pasal 40 ayat (3)a</ktn:pasal>
+    <ktn:tautanSumber rdf:resource="https://peraturan.bpk.go.id/Details/161904/pp-no-35-tahun-2021"/>
+    <ktn:upmkDasarBulan rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2</ktn:upmkDasarBulan>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://example.org/kbr/ketenagakerjaan#UPMK-72-108">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="https://example.org/kbr/ketenagakerjaan#KategoriUPMK"/>
+    <ktn:maxBulan rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">108</ktn:maxBulan>
+    <ktn:minBulan rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">72</ktn:minBulan>
+    <ktn:pasal>Pasal 40 ayat (3)b</ktn:pasal>
+    <ktn:tautanSumber rdf:resource="https://peraturan.bpk.go.id/Details/161904/pp-no-35-tahun-2021"/>
+    <ktn:upmkDasarBulan rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">3</ktn:upmkDasarBulan>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://example.org/kbr/ketenagakerjaan#UpahLemburSebutanLain">
+    <dct:source rdf:resource="https://example.org/kbr/regulasi#PP-35-2021"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="https://example.org/kbr/ketenagakerjaan#KetentuanLembur"/>
+    <ktn:berkaitanTopik rdf:resource="https://example.org/kbr/ketenagakerjaan#TopikLembur"/>
+    <ktn:pasal>Pasal 34 ayat (1)</ktn:pasal>
+    <ktn:tautanSumber rdf:resource="https://peraturan.bpk.go.id/Details/161904/pp-no-35-tahun-2021"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://example.org/kbr/ketenagakerjaan#UpahSejamLembur">
+    <dct:source rdf:resource="https://example.org/kbr/regulasi#PP-35-2021"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="https://example.org/kbr/ketenagakerjaan#KetentuanLembur"/>
+    <ktn:berkaitanTopik rdf:resource="https://example.org/kbr/ketenagakerjaan#TopikLembur"/>
+    <ktn:faktorPembagiUpahSejam rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">173</ktn:faktorPembagiUpahSejam>
+    <ktn:pasal>Pasal 32 ayat (2)</ktn:pasal>
+    <ktn:tautanSumber rdf:resource="https://peraturan.bpk.go.id/Details/161904/pp-no-35-tahun-2021"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://example.org/kbr/ketenagakerjaan#UpayaMenghindariPHK">
+    <dct:source rdf:resource="https://example.org/kbr/regulasi#PP-35-2021"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="https://example.org/kbr/ketenagakerjaan#AlasanPHK"/>
+    <ktn:berkaitanTopik rdf:resource="https://example.org/kbr/ketenagakerjaan#TopikPHK"/>
+    <ktn:pasal>Pasal 37 ayat (1)</ktn:pasal>
+    <ktn:tautanSumber rdf:resource="https://peraturan.bpk.go.id/Details/161904/pp-no-35-tahun-2021"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://example.org/kbr/ketenagakerjaan#WaktuKerja5Hari">
+    <dct:source rdf:resource="https://example.org/kbr/regulasi#PP-35-2021"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="https://example.org/kbr/ketenagakerjaan#KetentuanWaktuKerja"/>
+    <ktn:berkaitanTopik rdf:resource="https://example.org/kbr/ketenagakerjaan#TopikWaktuKerja"/>
+    <ktn:jamKerjaPerHari rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">8</ktn:jamKerjaPerHari>
+    <ktn:jamKerjaPerMinggu rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">40</ktn:jamKerjaPerMinggu>
+    <ktn:jumlahHariKerjaPerMinggu rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">5</ktn:jumlahHariKerjaPerMinggu>
+    <ktn:pasal>Pasal 21 ayat (2)b</ktn:pasal>
+    <ktn:tautanSumber rdf:resource="https://peraturan.bpk.go.id/Details/161904/pp-no-35-tahun-2021"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://example.org/kbr/ketenagakerjaan#WaktuKerja6Hari">
+    <dct:source rdf:resource="https://example.org/kbr/regulasi#PP-35-2021"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="https://example.org/kbr/ketenagakerjaan#KetentuanWaktuKerja"/>
+    <ktn:berkaitanTopik rdf:resource="https://example.org/kbr/ketenagakerjaan#TopikWaktuKerja"/>
+    <ktn:jamKerjaPerHari rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">7</ktn:jamKerjaPerHari>
+    <ktn:jamKerjaPerMinggu rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">40</ktn:jamKerjaPerMinggu>
+    <ktn:jumlahHariKerjaPerMinggu rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">6</ktn:jumlahHariKerjaPerMinggu>
+    <ktn:pasal>Pasal 21 ayat (2)a</ktn:pasal>
+    <ktn:tautanSumber rdf:resource="https://peraturan.bpk.go.id/Details/161904/pp-no-35-tahun-2021"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://example.org/kbr/ketenagakerjaan#WaktuKerjaSektorTertentu">
+    <dct:source rdf:resource="https://example.org/kbr/regulasi#PP-35-2021"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="https://example.org/kbr/ketenagakerjaan#KetentuanWaktuKerja"/>
+    <ktn:berkaitanTopik rdf:resource="https://example.org/kbr/ketenagakerjaan#TopikWaktuKerja"/>
+    <ktn:pasal>Pasal 23 ayat (1)</ktn:pasal>
+    <ktn:tautanSumber rdf:resource="https://peraturan.bpk.go.id/Details/161904/pp-no-35-tahun-2021"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://example.org/kbr/ketenagakerjaan/regulasi/pp-35-2021">
+    <dct:source rdf:resource="https://peraturan.bpk.go.id/Details/161904/pp-no-35-tahun-2021"/>
+    <dct:title>Fakta norma: Peraturan Pemerintah Nomor 35 Tahun 2021 tentang Perjanjian Kerja Waktu Tertentu, Alih Daya, Waktu Kerja dan Waktu Istirahat, dan Pemutusan Hubungan Kerja</dct:title>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Ontology"/>
+    <owl:imports rdf:resource="https://example.org/kbr/ketenagakerjaan"/>
+  </rdf:Description>
+</rdf:RDF>

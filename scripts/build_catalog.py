@@ -1,19 +1,15 @@
 #!/usr/bin/env python3
-"""Hasilkan catalog-v001.xml, ontology.ttl, dan test.ttl untuk membuka KB di Protege.
+"""Hasilkan catalog-v001.xml, ontology.rdf, dan test.rdf untuk Protege.
 
-Protege tidak bisa me-resolve owl:imports ke IRI https://example.org/... yang
-tidak dapat diakses. Solusinya berkas berikut:
+  ontology/catalog-v001.xml  memetakan IRI ontology -> berkas lokal
+  ontology/ontology.rdf      top-level KB murni (core, meta, regulasi)
+  ontology/test.rdf          top-level KB + golden case (examples/)
 
-  ontology/catalog-v001.xml  memetakan IRI ontology -> berkas .ttl lokal
-  ontology/ontology.ttl      top-level KB murni (core, meta, regulasi)
-  ontology/test.ttl          top-level KB + golden case (examples/)
+Semua modul (manual dan generated) memakai RDF/XML:
+core/*.rdf, meta/*.rdf, regulasi/*.rdf, examples/*.rdf.
+Format akhir seluruh ontology adalah RDF/XML.
 
-Modul knowledge = core/*.ttl + meta/*.ttl + regulasi/*.ttl.
-examples/ hanya masuk ke test.ttl agar KB produksi tetap bersih dari fixture.
-
-Berkas keluaran deterministik. Jalankan ulang setiap kali modul berubah:
-  uv run python scripts/build_catalog.py
-Lalu buka ontology/ontology.ttl (KB murni) atau ontology/test.ttl (KB + contoh).
+Jalankan: uv run python scripts/build_catalog.py
 """
 
 from __future__ import annotations
@@ -23,6 +19,8 @@ from pathlib import Path
 
 import rdflib
 
+import rdf_io
+
 ROOT = Path(__file__).resolve().parent.parent
 ONTO = ROOT / "ontology"
 TOP_IRI = "https://example.org/kbr/ketenagakerjaan/kb"
@@ -31,27 +29,21 @@ HEADER = (
     "<!-- BERKAS DIGENERATE. JANGAN EDIT MANUAL.\n"
     "     Hasilkan: uv run python scripts/build_catalog.py -->\n"
 )
-PREFIX_BLOK = (
-    "@prefix owl:  <http://www.w3.org/2002/07/owl#> .\n"
-    "@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .\n"
-    "@prefix dct:  <http://purl.org/dc/terms/> .\n\n"
-)
 
 
 def modul() -> list[Path]:
     files: list[Path] = []
     for sub in ("core", "meta", "regulasi"):
-        files += sorted(ONTO.glob(f"{sub}/*.ttl"))
+        files += sorted(ONTO.glob(f"{sub}/*.rdf"))
     return files
 
 
 def contoh() -> list[Path]:
-    return sorted(ONTO.glob("examples/*.ttl"))
+    return sorted(ONTO.glob("examples/*.rdf"))
 
 
 def iri_ontology(path: Path) -> str:
-    g = rdflib.Graph()
-    g.parse(path, format="turtle")
+    g = rdf_io.baca_berkas(path)
     iris = sorted(str(s) for s in g.subjects(rdflib.RDF.type, rdflib.OWL.Ontology))
     if not iris:
         raise ValueError(f"tidak menemukan owl:Ontology di {path}")
@@ -59,29 +51,26 @@ def iri_ontology(path: Path) -> str:
 
 
 def peta_iri(files: list[Path]) -> list[tuple[str, str]]:
-    return sorted(((iri_ontology(f), f.relative_to(ONTO).as_posix()) for f in files), key=lambda x: x[0])
+    return sorted(
+        ((iri_ontology(f), f.relative_to(ONTO).as_posix()) for f in files),
+        key=lambda x: x[0],
+    )
 
 
 def tulis_toplevel(out: Path, iri: str, judul: str, impor_iris: list[str]) -> None:
-    impor = "\n".join(f"    owl:imports <{i}> ;" for i in impor_iris)
-    impor = impor.rstrip(" ;") + " ."
-    isi = (
-        "# BERKAS DIGENERATE. JANGAN EDIT MANUAL.\n"
-        "# Hasilkan: uv run python scripts/build_catalog.py\n"
-        "# Buka berkas ini di Protege; import diselesaikan lewat catalog-v001.xml.\n\n"
-        + PREFIX_BLOK
-        + f"<{iri}> a owl:Ontology ;\n"
-        + f'    dct:title "{judul}" ;\n'
-        + f"{impor}\n"
+    g = rdf_io.graph_toplevel(iri, judul, impor_iris)
+    rdf_io.tulis_rdfxml(
+        out,
+        g,
+        rdf_io.header_generate("modul KB (core/meta/regulasi)", "build_catalog.py"),
     )
-    out.write_text(isi, encoding="utf-8")
     print(f"[tulis] {out.relative_to(ROOT)}")
 
 
 def main() -> int:
     peta = peta_iri(modul())
     if not peta:
-        print("[GAGAL] tidak ada modul .ttl", file=sys.stderr)
+        print("[GAGAL] tidak ada modul KB", file=sys.stderr)
         return 1
     peta_contoh = peta_iri(contoh())
 
@@ -90,8 +79,8 @@ def main() -> int:
         '<?xml version="1.0" encoding="UTF-8" standalone="no"?>',
         HEADER.rstrip("\n"),
         '<catalog prefer="public" xmlns="urn:oasis:names:tc:entity:xmlns:xml:catalog">',
-        f'    <uri id="kb" name="{TOP_IRI}" uri="ontology.ttl"/>',
-        f'    <uri id="test" name="{TEST_IRI}" uri="test.ttl"/>',
+        f'    <uri id="kb" name="{TOP_IRI}" uri="ontology.rdf"/>',
+        f'    <uri id="test" name="{TEST_IRI}" uri="test.rdf"/>',
     ]
     for iri, rel in peta + peta_contoh:
         baris.append(f'    <uri id="{rel}" name="{iri}" uri="{rel}"/>')
@@ -99,14 +88,16 @@ def main() -> int:
     (ONTO / "catalog-v001.xml").write_text("\n".join(baris) + "\n", encoding="utf-8")
     print(f"[tulis] {(ONTO / 'catalog-v001.xml').relative_to(ROOT)}")
 
-    # ontology.ttl (KB murni) dan test.ttl (KB + golden case)
+    # ontology.rdf (KB murni) dan test.rdf (KB + golden case)
     tulis_toplevel(
-        ONTO / "ontology.ttl", TOP_IRI,
+        ONTO / "ontology.rdf",
+        TOP_IRI,
         "Knowledge Base Hukum Ketenagakerjaan Indonesia",
         [iri for iri, _ in peta],
     )
     tulis_toplevel(
-        ONTO / "test.ttl", TEST_IRI,
+        ONTO / "test.rdf",
+        TEST_IRI,
         "Knowledge Base + Golden Case (uji)",
         [iri for iri, _ in peta + peta_contoh],
     )

@@ -1,0 +1,277 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- BERKAS DIGENERATE. JANGAN EDIT MANUAL.
+     Sumber   : norma.csv, parameter.csv, kategori.csv, pengali_lembur.csv, program_jamsos.csv
+     Hasilkan : uv run python scripts/build_ontology.py -->
+<rdf:RDF xmlns:brick="https://brickschema.org/schema/Brick#" xmlns:csvw="http://www.w3.org/ns/csvw#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcam="http://purl.org/dc/dcam/" xmlns:dcat="http://www.w3.org/ns/dcat#" xmlns:dcmitype="http://purl.org/dc/dcmitype/" xmlns:dct="http://purl.org/dc/terms/" xmlns:doap="http://usefulinc.com/ns/doap#" xmlns:foaf="http://xmlns.com/foaf/0.1/" xmlns:geo="http://www.opengis.net/ont/geosparql#" xmlns:ktn="https://example.org/kbr/ketenagakerjaan#" xmlns:odrl="http://www.w3.org/ns/odrl/2/" xmlns:org="http://www.w3.org/ns/org#" xmlns:owl="http://www.w3.org/2002/07/owl#" xmlns:prof="http://www.w3.org/ns/dx/prof/" xmlns:prov="http://www.w3.org/ns/prov#" xmlns:qb="http://purl.org/linked-data/cube#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:reg="https://example.org/kbr/regulasi#" xmlns:schema="https://schema.org/" xmlns:sh="http://www.w3.org/ns/shacl#" xmlns:skos="http://www.w3.org/2004/02/skos/core#" xmlns:sosa="http://www.w3.org/ns/sosa/" xmlns:ssn="http://www.w3.org/ns/ssn/" xmlns:time="http://www.w3.org/2006/time#" xmlns:vann="http://purl.org/vocab/vann/" xmlns:void="http://rdfs.org/ns/void#" xmlns:wgs="https://www.w3.org/2003/01/geo/wgs84_pos#" xmlns:xml="http://www.w3.org/XML/1998/namespace" xmlns:xsd="http://www.w3.org/2001/XMLSchema#">
+  <rdf:Description rdf:about="https://example.org/kbr/ketenagakerjaan#BiayaBukanKKDitanggung">
+    <dct:source rdf:resource="https://example.org/kbr/regulasi#PP-49-2023"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="https://example.org/kbr/ketenagakerjaan#KetentuanJaminanSosial"/>
+    <ktn:berkaitanTopik rdf:resource="https://example.org/kbr/ketenagakerjaan#TopikJamsos"/>
+    <ktn:pasal>Pasal 25A ayat (6)</ktn:pasal>
+    <ktn:tautanSumber rdf:resource="https://peraturan.bpk.go.id/Details/266186/pp-no-49-tahun-2023"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://example.org/kbr/ketenagakerjaan#BiayaBukanPAKBPJSKes">
+    <dct:source rdf:resource="https://example.org/kbr/regulasi#PP-49-2023"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="https://example.org/kbr/ketenagakerjaan#KetentuanJaminanSosial"/>
+    <ktn:berkaitanTopik rdf:resource="https://example.org/kbr/ketenagakerjaan#TopikJamsos"/>
+    <ktn:pasal>Pasal 25B ayat (6)</ktn:pasal>
+    <ktn:tautanSumber rdf:resource="https://peraturan.bpk.go.id/Details/266186/pp-no-49-tahun-2023"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://example.org/kbr/ketenagakerjaan#BiayaKKJadiManfaatJKK">
+    <dct:source rdf:resource="https://example.org/kbr/regulasi#PP-49-2023"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="https://example.org/kbr/ketenagakerjaan#KetentuanJaminanSosial"/>
+    <ktn:berkaitanTopik rdf:resource="https://example.org/kbr/ketenagakerjaan#TopikJamsos"/>
+    <ktn:pasal>Pasal 25A ayat (5)</ktn:pasal>
+    <ktn:tautanSumber rdf:resource="https://peraturan.bpk.go.id/Details/266186/pp-no-49-tahun-2023"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://example.org/kbr/ketenagakerjaan#BiayaPAKJadiManfaatJKK">
+    <dct:source rdf:resource="https://example.org/kbr/regulasi#PP-49-2023"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="https://example.org/kbr/ketenagakerjaan#KetentuanJaminanSosial"/>
+    <ktn:berkaitanTopik rdf:resource="https://example.org/kbr/ketenagakerjaan#TopikJamsos"/>
+    <ktn:pasal>Pasal 25B ayat (5)</ktn:pasal>
+    <ktn:tautanSumber rdf:resource="https://peraturan.bpk.go.id/Details/266186/pp-no-49-tahun-2023"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://example.org/kbr/ketenagakerjaan#HakBeritahuDugaanKKBPU">
+    <dct:source rdf:resource="https://example.org/kbr/regulasi#PP-49-2023"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="https://example.org/kbr/ketenagakerjaan#KetentuanJaminanSosial"/>
+    <ktn:berkaitanTopik rdf:resource="https://example.org/kbr/ketenagakerjaan#TopikJamsos"/>
+    <ktn:pasal>Pasal 44A ayat (1)</ktn:pasal>
+    <ktn:tautanSumber rdf:resource="https://peraturan.bpk.go.id/Details/266186/pp-no-49-tahun-2023"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://example.org/kbr/ketenagakerjaan#HakBeritahuDugaanKKPU">
+    <dct:source rdf:resource="https://example.org/kbr/regulasi#PP-49-2023"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="https://example.org/kbr/ketenagakerjaan#KetentuanJaminanSosial"/>
+    <ktn:berkaitanTopik rdf:resource="https://example.org/kbr/ketenagakerjaan#TopikJamsos"/>
+    <ktn:pasal>Pasal 43A ayat (1)</ktn:pasal>
+    <ktn:tautanSumber rdf:resource="https://peraturan.bpk.go.id/Details/266186/pp-no-49-tahun-2023"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://example.org/kbr/ketenagakerjaan#IuranJKKBerlakuJKP">
+    <dct:source rdf:resource="https://example.org/kbr/regulasi#PP-49-2023"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="https://example.org/kbr/ketenagakerjaan#KetentuanJaminanSosial"/>
+    <ktn:berkaitanTopik rdf:resource="https://example.org/kbr/ketenagakerjaan#TopikJamsos"/>
+    <ktn:pasal>Pasal 16A ayat (2)</ktn:pasal>
+    <ktn:tautanSumber rdf:resource="https://peraturan.bpk.go.id/Details/266186/pp-no-49-tahun-2023"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://example.org/kbr/ketenagakerjaan#IuranJKKRekomposisiJKP">
+    <dct:source rdf:resource="https://example.org/kbr/regulasi#PP-49-2023"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="https://example.org/kbr/ketenagakerjaan#KetentuanJaminanSosial"/>
+    <ktn:berkaitanTopik rdf:resource="https://example.org/kbr/ketenagakerjaan#TopikJamsos"/>
+    <ktn:pasal>Pasal 16A ayat (1)</ktn:pasal>
+    <ktn:tautanSumber rdf:resource="https://peraturan.bpk.go.id/Details/266186/pp-no-49-tahun-2023"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://example.org/kbr/ketenagakerjaan#IuranJKKTidakRekomposisi">
+    <dct:source rdf:resource="https://example.org/kbr/regulasi#PP-49-2023"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="https://example.org/kbr/ketenagakerjaan#KetentuanJaminanSosial"/>
+    <ktn:berkaitanTopik rdf:resource="https://example.org/kbr/ketenagakerjaan#TopikJamsos"/>
+    <ktn:pasal>Pasal 16A ayat (3)</ktn:pasal>
+    <ktn:tautanSumber rdf:resource="https://peraturan.bpk.go.id/Details/266186/pp-no-49-tahun-2023"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://example.org/kbr/ketenagakerjaan#IuranJKMBerlakuJKP">
+    <dct:source rdf:resource="https://example.org/kbr/regulasi#PP-49-2023"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="https://example.org/kbr/ketenagakerjaan#KetentuanJaminanSosial"/>
+    <ktn:berkaitanTopik rdf:resource="https://example.org/kbr/ketenagakerjaan#TopikJamsos"/>
+    <ktn:pasal>Pasal 18A ayat (2)</ktn:pasal>
+    <ktn:tautanSumber rdf:resource="https://peraturan.bpk.go.id/Details/266186/pp-no-49-tahun-2023"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://example.org/kbr/ketenagakerjaan#IuranJKMHasilRekomposisi">
+    <dct:source rdf:resource="https://example.org/kbr/regulasi#PP-49-2023"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="https://example.org/kbr/ketenagakerjaan#KetentuanJaminanSosial"/>
+    <ktn:berkaitanTopik rdf:resource="https://example.org/kbr/ketenagakerjaan#TopikJamsos"/>
+    <ktn:pasal>Pasal 18A ayat (1)</ktn:pasal>
+    <ktn:tautanSumber rdf:resource="https://peraturan.bpk.go.id/Details/266186/pp-no-49-tahun-2023"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://example.org/kbr/ketenagakerjaan#IuranJKMTidakRekomposisi">
+    <dct:source rdf:resource="https://example.org/kbr/regulasi#PP-49-2023"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="https://example.org/kbr/ketenagakerjaan#KetentuanJaminanSosial"/>
+    <ktn:berkaitanTopik rdf:resource="https://example.org/kbr/ketenagakerjaan#TopikJamsos"/>
+    <ktn:pasal>Pasal 18A ayat (3)</ktn:pasal>
+    <ktn:tautanSumber rdf:resource="https://peraturan.bpk.go.id/Details/266186/pp-no-49-tahun-2023"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://example.org/kbr/ketenagakerjaan#JKK-49-2023-RISIKO-RENDAH">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="https://example.org/kbr/ketenagakerjaan#ProgramJaminanSosial"/>
+    <ktn:jenisProgram>JKK</ktn:jenisProgram>
+    <ktn:pasal>Pasal 16A ayat (1) huruf b</ktn:pasal>
+    <ktn:tarifPekerjaPersen rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</ktn:tarifPekerjaPersen>
+    <ktn:tarifPengusahaPersen rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">0.4</ktn:tarifPengusahaPersen>
+    <ktn:tarifTotalPersen rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">0.4</ktn:tarifTotalPersen>
+    <ktn:tautanSumber rdf:resource="https://peraturan.bpk.go.id/Details/266186/pp-no-49-tahun-2023"/>
+    <ktn:tingkatRisiko>rendah</ktn:tingkatRisiko>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://example.org/kbr/ketenagakerjaan#JKK-49-2023-RISIKO-SANGAT-RENDAH">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="https://example.org/kbr/ketenagakerjaan#ProgramJaminanSosial"/>
+    <ktn:jenisProgram>JKK</ktn:jenisProgram>
+    <ktn:pasal>Pasal 16A ayat (1) huruf a</ktn:pasal>
+    <ktn:tarifPekerjaPersen rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</ktn:tarifPekerjaPersen>
+    <ktn:tarifPengusahaPersen rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">0.1</ktn:tarifPengusahaPersen>
+    <ktn:tarifTotalPersen rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">0.1</ktn:tarifTotalPersen>
+    <ktn:tautanSumber rdf:resource="https://peraturan.bpk.go.id/Details/266186/pp-no-49-tahun-2023"/>
+    <ktn:tingkatRisiko>sangat_rendah</ktn:tingkatRisiko>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://example.org/kbr/ketenagakerjaan#JKK-49-2023-RISIKO-SANGAT-TINGGI">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="https://example.org/kbr/ketenagakerjaan#ProgramJaminanSosial"/>
+    <ktn:jenisProgram>JKK</ktn:jenisProgram>
+    <ktn:pasal>Pasal 16A ayat (1) huruf e</ktn:pasal>
+    <ktn:tarifPekerjaPersen rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</ktn:tarifPekerjaPersen>
+    <ktn:tarifPengusahaPersen rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">1.6</ktn:tarifPengusahaPersen>
+    <ktn:tarifTotalPersen rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">1.6</ktn:tarifTotalPersen>
+    <ktn:tautanSumber rdf:resource="https://peraturan.bpk.go.id/Details/266186/pp-no-49-tahun-2023"/>
+    <ktn:tingkatRisiko>sangat_tinggi</ktn:tingkatRisiko>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://example.org/kbr/ketenagakerjaan#JKK-49-2023-RISIKO-SEDANG">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="https://example.org/kbr/ketenagakerjaan#ProgramJaminanSosial"/>
+    <ktn:jenisProgram>JKK</ktn:jenisProgram>
+    <ktn:pasal>Pasal 16A ayat (1) huruf c</ktn:pasal>
+    <ktn:tarifPekerjaPersen rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</ktn:tarifPekerjaPersen>
+    <ktn:tarifPengusahaPersen rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">0.75</ktn:tarifPengusahaPersen>
+    <ktn:tarifTotalPersen rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">0.75</ktn:tarifTotalPersen>
+    <ktn:tautanSumber rdf:resource="https://peraturan.bpk.go.id/Details/266186/pp-no-49-tahun-2023"/>
+    <ktn:tingkatRisiko>sedang</ktn:tingkatRisiko>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://example.org/kbr/ketenagakerjaan#JKK-49-2023-RISIKO-TINGGI">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="https://example.org/kbr/ketenagakerjaan#ProgramJaminanSosial"/>
+    <ktn:jenisProgram>JKK</ktn:jenisProgram>
+    <ktn:pasal>Pasal 16A ayat (1) huruf d</ktn:pasal>
+    <ktn:tarifPekerjaPersen rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</ktn:tarifPekerjaPersen>
+    <ktn:tarifPengusahaPersen rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">1.13</ktn:tarifPengusahaPersen>
+    <ktn:tarifTotalPersen rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">1.13</ktn:tarifTotalPersen>
+    <ktn:tautanSumber rdf:resource="https://peraturan.bpk.go.id/Details/266186/pp-no-49-tahun-2023"/>
+    <ktn:tingkatRisiko>tinggi</ktn:tingkatRisiko>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://example.org/kbr/ketenagakerjaan#JKM-49-2023">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="https://example.org/kbr/ketenagakerjaan#ProgramJaminanSosial"/>
+    <ktn:jenisProgram>JKM</ktn:jenisProgram>
+    <ktn:pasal>Pasal 18A ayat (1)</ktn:pasal>
+    <ktn:tarifPekerjaPersen rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</ktn:tarifPekerjaPersen>
+    <ktn:tarifPengusahaPersen rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">0.2</ktn:tarifPengusahaPersen>
+    <ktn:tarifTotalPersen rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">0.2</ktn:tarifTotalPersen>
+    <ktn:tautanSumber rdf:resource="https://peraturan.bpk.go.id/Details/266186/pp-no-49-tahun-2023"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://example.org/kbr/ketenagakerjaan#JaminanAwalDugaanKK">
+    <dct:source rdf:resource="https://example.org/kbr/regulasi#PP-49-2023"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="https://example.org/kbr/ketenagakerjaan#KetentuanJaminanSosial"/>
+    <ktn:berkaitanTopik rdf:resource="https://example.org/kbr/ketenagakerjaan#TopikJamsos"/>
+    <ktn:pasal>Pasal 25A ayat (1)-(2)</ktn:pasal>
+    <ktn:tautanSumber rdf:resource="https://peraturan.bpk.go.id/Details/266186/pp-no-49-tahun-2023"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://example.org/kbr/ketenagakerjaan#JaminanAwalDugaanPAK">
+    <dct:source rdf:resource="https://example.org/kbr/regulasi#PP-49-2023"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="https://example.org/kbr/ketenagakerjaan#KetentuanJaminanSosial"/>
+    <ktn:berkaitanTopik rdf:resource="https://example.org/kbr/ketenagakerjaan#TopikJamsos"/>
+    <ktn:pasal>Pasal 25B ayat (1)-(2)</ktn:pasal>
+    <ktn:tautanSumber rdf:resource="https://peraturan.bpk.go.id/Details/266186/pp-no-49-tahun-2023"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://example.org/kbr/ketenagakerjaan#KewajibanPastikanJaminanBPU">
+    <dct:source rdf:resource="https://example.org/kbr/regulasi#PP-49-2023"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="https://example.org/kbr/ketenagakerjaan#KetentuanJaminanSosial"/>
+    <ktn:berkaitanTopik rdf:resource="https://example.org/kbr/ketenagakerjaan#TopikJamsos"/>
+    <ktn:pasal>Pasal 44A ayat (2)</ktn:pasal>
+    <ktn:tautanSumber rdf:resource="https://peraturan.bpk.go.id/Details/266186/pp-no-49-tahun-2023"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://example.org/kbr/ketenagakerjaan#KewajibanPastikanJaminanPU">
+    <dct:source rdf:resource="https://example.org/kbr/regulasi#PP-49-2023"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="https://example.org/kbr/ketenagakerjaan#KetentuanJaminanSosial"/>
+    <ktn:berkaitanTopik rdf:resource="https://example.org/kbr/ketenagakerjaan#TopikJamsos"/>
+    <ktn:pasal>Pasal 43A ayat (2)</ktn:pasal>
+    <ktn:tautanSumber rdf:resource="https://peraturan.bpk.go.id/Details/266186/pp-no-49-tahun-2023"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://example.org/kbr/ketenagakerjaan#KoordinasiBPJSKesBPU">
+    <dct:source rdf:resource="https://example.org/kbr/regulasi#PP-49-2023"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="https://example.org/kbr/ketenagakerjaan#KetentuanJaminanSosial"/>
+    <ktn:berkaitanTopik rdf:resource="https://example.org/kbr/ketenagakerjaan#TopikJamsos"/>
+    <ktn:pasal>Pasal 44A ayat (4)</ktn:pasal>
+    <ktn:tautanSumber rdf:resource="https://peraturan.bpk.go.id/Details/266186/pp-no-49-tahun-2023"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://example.org/kbr/ketenagakerjaan#KoordinasiBPJSKesPU">
+    <dct:source rdf:resource="https://example.org/kbr/regulasi#PP-49-2023"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="https://example.org/kbr/ketenagakerjaan#KetentuanJaminanSosial"/>
+    <ktn:berkaitanTopik rdf:resource="https://example.org/kbr/ketenagakerjaan#TopikJamsos"/>
+    <ktn:pasal>Pasal 43A ayat (4)</ktn:pasal>
+    <ktn:tautanSumber rdf:resource="https://peraturan.bpk.go.id/Details/266186/pp-no-49-tahun-2023"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://example.org/kbr/ketenagakerjaan#PemberitahuanTidakBebaskanLaporBPU">
+    <dct:source rdf:resource="https://example.org/kbr/regulasi#PP-49-2023"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="https://example.org/kbr/ketenagakerjaan#KetentuanJaminanSosial"/>
+    <ktn:berkaitanTopik rdf:resource="https://example.org/kbr/ketenagakerjaan#TopikJamsos"/>
+    <ktn:pasal>Pasal 44A ayat (3)</ktn:pasal>
+    <ktn:tautanSumber rdf:resource="https://peraturan.bpk.go.id/Details/266186/pp-no-49-tahun-2023"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://example.org/kbr/ketenagakerjaan#PemberitahuanTidakBebaskanLaporPU">
+    <dct:source rdf:resource="https://example.org/kbr/regulasi#PP-49-2023"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="https://example.org/kbr/ketenagakerjaan#KetentuanJaminanSosial"/>
+    <ktn:berkaitanTopik rdf:resource="https://example.org/kbr/ketenagakerjaan#TopikJamsos"/>
+    <ktn:pasal>Pasal 43A ayat (3)</ktn:pasal>
+    <ktn:tautanSumber rdf:resource="https://peraturan.bpk.go.id/Details/266186/pp-no-49-tahun-2023"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://example.org/kbr/ketenagakerjaan#PenetapanStatusKK30Hari">
+    <dct:source rdf:resource="https://example.org/kbr/regulasi#PP-49-2023"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="https://example.org/kbr/ketenagakerjaan#KetentuanJaminanSosial"/>
+    <ktn:berkaitanTopik rdf:resource="https://example.org/kbr/ketenagakerjaan#TopikJamsos"/>
+    <ktn:pasal>Pasal 25A ayat (3)</ktn:pasal>
+    <ktn:tautanSumber rdf:resource="https://peraturan.bpk.go.id/Details/266186/pp-no-49-tahun-2023"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://example.org/kbr/ketenagakerjaan#PenetapanStatusPAK30Hari">
+    <dct:source rdf:resource="https://example.org/kbr/regulasi#PP-49-2023"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="https://example.org/kbr/ketenagakerjaan#KetentuanJaminanSosial"/>
+    <ktn:berkaitanTopik rdf:resource="https://example.org/kbr/ketenagakerjaan#TopikJamsos"/>
+    <ktn:pasal>Pasal 25B ayat (3)</ktn:pasal>
+    <ktn:tautanSumber rdf:resource="https://peraturan.bpk.go.id/Details/266186/pp-no-49-tahun-2023"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://example.org/kbr/ketenagakerjaan#PilihanFaskesDugaanKK">
+    <dct:source rdf:resource="https://example.org/kbr/regulasi#PP-49-2023"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="https://example.org/kbr/ketenagakerjaan#KetentuanJaminanSosial"/>
+    <ktn:berkaitanTopik rdf:resource="https://example.org/kbr/ketenagakerjaan#TopikJamsos"/>
+    <ktn:pasal>Pasal 25A ayat (4)</ktn:pasal>
+    <ktn:tautanSumber rdf:resource="https://peraturan.bpk.go.id/Details/266186/pp-no-49-tahun-2023"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://example.org/kbr/ketenagakerjaan#PilihanFaskesDugaanPAK">
+    <dct:source rdf:resource="https://example.org/kbr/regulasi#PP-49-2023"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="https://example.org/kbr/ketenagakerjaan#KetentuanJaminanSosial"/>
+    <ktn:berkaitanTopik rdf:resource="https://example.org/kbr/ketenagakerjaan#TopikJamsos"/>
+    <ktn:pasal>Pasal 25B ayat (4)</ktn:pasal>
+    <ktn:tautanSumber rdf:resource="https://peraturan.bpk.go.id/Details/266186/pp-no-49-tahun-2023"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://example.org/kbr/ketenagakerjaan#PromotifPreventifBPUPMI">
+    <dct:source rdf:resource="https://example.org/kbr/regulasi#PP-49-2023"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="https://example.org/kbr/ketenagakerjaan#KetentuanJaminanSosial"/>
+    <ktn:berkaitanTopik rdf:resource="https://example.org/kbr/ketenagakerjaan#TopikJamsos"/>
+    <ktn:pasal>Pasal 50 ayat (1a)</ktn:pasal>
+    <ktn:tautanSumber rdf:resource="https://peraturan.bpk.go.id/Details/266186/pp-no-49-tahun-2023"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://example.org/kbr/ketenagakerjaan/regulasi/pp-49-2023">
+    <dct:source rdf:resource="https://peraturan.bpk.go.id/Details/266186/pp-no-49-tahun-2023"/>
+    <dct:title>Fakta norma: Peraturan Pemerintah Nomor 49 Tahun 2023 tentang Perubahan Kedua atas Peraturan Pemerintah Nomor 44 Tahun 2015 tentang Penyelenggaraan Program Jaminan Kecelakaan Kerja dan Jaminan Kematian</dct:title>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Ontology"/>
+    <owl:imports rdf:resource="https://example.org/kbr/ketenagakerjaan"/>
+  </rdf:Description>
+</rdf:RDF>

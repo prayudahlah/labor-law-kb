@@ -1,0 +1,439 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- BERKAS DIGENERATE. JANGAN EDIT MANUAL.
+     Sumber   : norma.csv, parameter.csv, kategori.csv, pengali_lembur.csv, program_jamsos.csv
+     Hasilkan : uv run python scripts/build_ontology.py -->
+<rdf:RDF xmlns:brick="https://brickschema.org/schema/Brick#" xmlns:csvw="http://www.w3.org/ns/csvw#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcam="http://purl.org/dc/dcam/" xmlns:dcat="http://www.w3.org/ns/dcat#" xmlns:dcmitype="http://purl.org/dc/dcmitype/" xmlns:dct="http://purl.org/dc/terms/" xmlns:doap="http://usefulinc.com/ns/doap#" xmlns:foaf="http://xmlns.com/foaf/0.1/" xmlns:geo="http://www.opengis.net/ont/geosparql#" xmlns:ktn="https://example.org/kbr/ketenagakerjaan#" xmlns:odrl="http://www.w3.org/ns/odrl/2/" xmlns:org="http://www.w3.org/ns/org#" xmlns:owl="http://www.w3.org/2002/07/owl#" xmlns:prof="http://www.w3.org/ns/dx/prof/" xmlns:prov="http://www.w3.org/ns/prov#" xmlns:qb="http://purl.org/linked-data/cube#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:reg="https://example.org/kbr/regulasi#" xmlns:schema="https://schema.org/" xmlns:sh="http://www.w3.org/ns/shacl#" xmlns:skos="http://www.w3.org/2004/02/skos/core#" xmlns:sosa="http://www.w3.org/ns/sosa/" xmlns:ssn="http://www.w3.org/ns/ssn/" xmlns:time="http://www.w3.org/2006/time#" xmlns:vann="http://purl.org/vocab/vann/" xmlns:void="http://rdfs.org/ns/void#" xmlns:wgs="https://www.w3.org/2003/01/geo/wgs84_pos#" xmlns:xml="http://www.w3.org/XML/1998/namespace" xmlns:xsd="http://www.w3.org/2001/XMLSchema#">
+  <rdf:Description rdf:about="https://example.org/kbr/ketenagakerjaan#BatasAtasUpahJKP">
+    <dct:source rdf:resource="https://example.org/kbr/regulasi#PP-37-2021"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="https://example.org/kbr/ketenagakerjaan#KetentuanJaminanSosial"/>
+    <ktn:berkaitanTopik rdf:resource="https://example.org/kbr/ketenagakerjaan#TopikJamsos"/>
+    <ktn:pasal>Pasal 11 ayat (7)</ktn:pasal>
+    <ktn:tautanSumber rdf:resource="https://peraturan.bpk.go.id/Details/161919/pp-no-37-tahun-2021"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://example.org/kbr/ketenagakerjaan#IuranJKP">
+    <dct:source rdf:resource="https://example.org/kbr/regulasi#PP-37-2021"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="https://example.org/kbr/ketenagakerjaan#KetentuanJaminanSosial"/>
+    <ktn:berkaitanTopik rdf:resource="https://example.org/kbr/ketenagakerjaan#TopikJamsos"/>
+    <ktn:pasal>Pasal 11 ayat (2)</ktn:pasal>
+    <ktn:tautanSumber rdf:resource="https://peraturan.bpk.go.id/Details/161919/pp-no-37-tahun-2021"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://example.org/kbr/ketenagakerjaan#JKK-R1">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="https://example.org/kbr/ketenagakerjaan#ProgramJaminanSosial"/>
+    <ktn:jenisProgram>JKK</ktn:jenisProgram>
+    <ktn:pasal>Pasal 11 ayat (5)a.1</ktn:pasal>
+    <ktn:tarifPekerjaPersen rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</ktn:tarifPekerjaPersen>
+    <ktn:tarifPengusahaPersen rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">0.1</ktn:tarifPengusahaPersen>
+    <ktn:tarifTotalPersen rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">0.1</ktn:tarifTotalPersen>
+    <ktn:tautanSumber rdf:resource="https://peraturan.bpk.go.id/Details/161919/pp-no-37-tahun-2021"/>
+    <ktn:tingkatRisiko>sangat_rendah</ktn:tingkatRisiko>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://example.org/kbr/ketenagakerjaan#JKK-R2">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="https://example.org/kbr/ketenagakerjaan#ProgramJaminanSosial"/>
+    <ktn:jenisProgram>JKK</ktn:jenisProgram>
+    <ktn:pasal>Pasal 11 ayat (5)a.2</ktn:pasal>
+    <ktn:tarifPekerjaPersen rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</ktn:tarifPekerjaPersen>
+    <ktn:tarifPengusahaPersen rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">0.4</ktn:tarifPengusahaPersen>
+    <ktn:tarifTotalPersen rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">0.4</ktn:tarifTotalPersen>
+    <ktn:tautanSumber rdf:resource="https://peraturan.bpk.go.id/Details/161919/pp-no-37-tahun-2021"/>
+    <ktn:tingkatRisiko>rendah</ktn:tingkatRisiko>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://example.org/kbr/ketenagakerjaan#JKK-R3">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="https://example.org/kbr/ketenagakerjaan#ProgramJaminanSosial"/>
+    <ktn:jenisProgram>JKK</ktn:jenisProgram>
+    <ktn:pasal>Pasal 11 ayat (5)a.3</ktn:pasal>
+    <ktn:tarifPekerjaPersen rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</ktn:tarifPekerjaPersen>
+    <ktn:tarifPengusahaPersen rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">0.75</ktn:tarifPengusahaPersen>
+    <ktn:tarifTotalPersen rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">0.75</ktn:tarifTotalPersen>
+    <ktn:tautanSumber rdf:resource="https://peraturan.bpk.go.id/Details/161919/pp-no-37-tahun-2021"/>
+    <ktn:tingkatRisiko>sedang</ktn:tingkatRisiko>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://example.org/kbr/ketenagakerjaan#JKK-R4">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="https://example.org/kbr/ketenagakerjaan#ProgramJaminanSosial"/>
+    <ktn:jenisProgram>JKK</ktn:jenisProgram>
+    <ktn:pasal>Pasal 11 ayat (5)a.4</ktn:pasal>
+    <ktn:tarifPekerjaPersen rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</ktn:tarifPekerjaPersen>
+    <ktn:tarifPengusahaPersen rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">1.13</ktn:tarifPengusahaPersen>
+    <ktn:tarifTotalPersen rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">1.13</ktn:tarifTotalPersen>
+    <ktn:tautanSumber rdf:resource="https://peraturan.bpk.go.id/Details/161919/pp-no-37-tahun-2021"/>
+    <ktn:tingkatRisiko>tinggi</ktn:tingkatRisiko>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://example.org/kbr/ketenagakerjaan#JKK-R5">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="https://example.org/kbr/ketenagakerjaan#ProgramJaminanSosial"/>
+    <ktn:jenisProgram>JKK</ktn:jenisProgram>
+    <ktn:pasal>Pasal 11 ayat (5)a.5</ktn:pasal>
+    <ktn:tarifPekerjaPersen rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</ktn:tarifPekerjaPersen>
+    <ktn:tarifPengusahaPersen rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">1.6</ktn:tarifPengusahaPersen>
+    <ktn:tarifTotalPersen rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">1.6</ktn:tarifTotalPersen>
+    <ktn:tautanSumber rdf:resource="https://peraturan.bpk.go.id/Details/161919/pp-no-37-tahun-2021"/>
+    <ktn:tingkatRisiko>sangat_tinggi</ktn:tingkatRisiko>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://example.org/kbr/ketenagakerjaan#JKM">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="https://example.org/kbr/ketenagakerjaan#ProgramJaminanSosial"/>
+    <ktn:jenisProgram>JKM</ktn:jenisProgram>
+    <ktn:pasal>Pasal 11 ayat (5)b</ktn:pasal>
+    <ktn:tarifPekerjaPersen rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</ktn:tarifPekerjaPersen>
+    <ktn:tarifPengusahaPersen rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">0.2</ktn:tarifPengusahaPersen>
+    <ktn:tarifTotalPersen rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">0.2</ktn:tarifTotalPersen>
+    <ktn:tautanSumber rdf:resource="https://peraturan.bpk.go.id/Details/161919/pp-no-37-tahun-2021"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://example.org/kbr/ketenagakerjaan#JKP">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="https://example.org/kbr/ketenagakerjaan#ProgramJaminanSosial"/>
+    <ktn:jenisProgram>JKP</ktn:jenisProgram>
+    <ktn:pasal>Pasal 11 ayat (2)</ktn:pasal>
+    <ktn:tarifPekerjaPersen rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</ktn:tarifPekerjaPersen>
+    <ktn:tarifPengusahaPersen rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</ktn:tarifPengusahaPersen>
+    <ktn:tarifTotalPersen rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">0.46</ktn:tarifTotalPersen>
+    <ktn:tautanSumber rdf:resource="https://peraturan.bpk.go.id/Details/161919/pp-no-37-tahun-2021"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://example.org/kbr/ketenagakerjaan#Jkp37BatasPengajuan">
+    <dct:source rdf:resource="https://example.org/kbr/regulasi#PP-37-2021"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="https://example.org/kbr/ketenagakerjaan#KetentuanJaminanSosial"/>
+    <ktn:berkaitanTopik rdf:resource="https://example.org/kbr/ketenagakerjaan#TopikJamsos"/>
+    <ktn:pasal>Pasal 35</ktn:pasal>
+    <ktn:tautanSumber rdf:resource="https://peraturan.bpk.go.id/Details/161919/pp-no-37-tahun-2021"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://example.org/kbr/ketenagakerjaan#Jkp37BatasUpahManfaat">
+    <dct:source rdf:resource="https://example.org/kbr/regulasi#PP-37-2021"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="https://example.org/kbr/ketenagakerjaan#KetentuanJaminanSosial"/>
+    <ktn:berkaitanTopik rdf:resource="https://example.org/kbr/ketenagakerjaan#TopikJamsos"/>
+    <ktn:pasal>Pasal 21 ayat (3)</ktn:pasal>
+    <ktn:tautanSumber rdf:resource="https://peraturan.bpk.go.id/Details/161919/pp-no-37-tahun-2021"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://example.org/kbr/ketenagakerjaan#Jkp37BersediaBekerja">
+    <dct:source rdf:resource="https://example.org/kbr/regulasi#PP-37-2021"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="https://example.org/kbr/ketenagakerjaan#KetentuanJaminanSosial"/>
+    <ktn:berkaitanTopik rdf:resource="https://example.org/kbr/ketenagakerjaan#TopikJamsos"/>
+    <ktn:pasal>Pasal 19 ayat (2)</ktn:pasal>
+    <ktn:tautanSumber rdf:resource="https://peraturan.bpk.go.id/Details/161919/pp-no-37-tahun-2021"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://example.org/kbr/ketenagakerjaan#Jkp37BuktiPhk">
+    <dct:source rdf:resource="https://example.org/kbr/regulasi#PP-37-2021"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="https://example.org/kbr/ketenagakerjaan#KetentuanJaminanSosial"/>
+    <ktn:berkaitanTopik rdf:resource="https://example.org/kbr/ketenagakerjaan#TopikJamsos"/>
+    <ktn:pasal>Pasal 20 ayat (3)</ktn:pasal>
+    <ktn:tautanSumber rdf:resource="https://peraturan.bpk.go.id/Details/161919/pp-no-37-tahun-2021"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://example.org/kbr/ketenagakerjaan#Jkp37DanaOperasional">
+    <dct:source rdf:resource="https://example.org/kbr/regulasi#PP-37-2021"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="https://example.org/kbr/ketenagakerjaan#KetentuanJaminanSosial"/>
+    <ktn:berkaitanTopik rdf:resource="https://example.org/kbr/ketenagakerjaan#TopikJamsos"/>
+    <ktn:pasal>Pasal 43</ktn:pasal>
+    <ktn:tautanSumber rdf:resource="https://peraturan.bpk.go.id/Details/161919/pp-no-37-tahun-2021"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://example.org/kbr/ketenagakerjaan#Jkp37DasarUpahIuran">
+    <dct:source rdf:resource="https://example.org/kbr/regulasi#PP-37-2021"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="https://example.org/kbr/ketenagakerjaan#KetentuanJaminanSosial"/>
+    <ktn:berkaitanTopik rdf:resource="https://example.org/kbr/ketenagakerjaan#TopikJamsos"/>
+    <ktn:pasal>Pasal 11 ayat (6)</ktn:pasal>
+    <ktn:tautanSumber rdf:resource="https://peraturan.bpk.go.id/Details/161919/pp-no-37-tahun-2021"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://example.org/kbr/ketenagakerjaan#Jkp37DasarUpahManfaat">
+    <dct:source rdf:resource="https://example.org/kbr/regulasi#PP-37-2021"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="https://example.org/kbr/ketenagakerjaan#KetentuanJaminanSosial"/>
+    <ktn:berkaitanTopik rdf:resource="https://example.org/kbr/ketenagakerjaan#TopikJamsos"/>
+    <ktn:pasal>Pasal 21 ayat (2)</ktn:pasal>
+    <ktn:tautanSumber rdf:resource="https://peraturan.bpk.go.id/Details/161919/pp-no-37-tahun-2021"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://example.org/kbr/ketenagakerjaan#Jkp37FormulirPendaftaran">
+    <dct:source rdf:resource="https://example.org/kbr/regulasi#PP-37-2021"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="https://example.org/kbr/ketenagakerjaan#KetentuanJaminanSosial"/>
+    <ktn:berkaitanTopik rdf:resource="https://example.org/kbr/ketenagakerjaan#TopikJamsos"/>
+    <ktn:pasal>Pasal 6 ayat (1)</ktn:pasal>
+    <ktn:tautanSumber rdf:resource="https://peraturan.bpk.go.id/Details/161919/pp-no-37-tahun-2021"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://example.org/kbr/ketenagakerjaan#Jkp37HakManfaat">
+    <dct:source rdf:resource="https://example.org/kbr/regulasi#PP-37-2021"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="https://example.org/kbr/ketenagakerjaan#KetentuanJaminanSosial"/>
+    <ktn:berkaitanTopik rdf:resource="https://example.org/kbr/ketenagakerjaan#TopikJamsos"/>
+    <ktn:pasal>Pasal 19 ayat (1)</ktn:pasal>
+    <ktn:tautanSumber rdf:resource="https://peraturan.bpk.go.id/Details/161919/pp-no-37-tahun-2021"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://example.org/kbr/ketenagakerjaan#Jkp37HakTidakDialihkan">
+    <dct:source rdf:resource="https://example.org/kbr/regulasi#PP-37-2021"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="https://example.org/kbr/ketenagakerjaan#KetentuanJaminanSosial"/>
+    <ktn:berkaitanTopik rdf:resource="https://example.org/kbr/ketenagakerjaan#TopikJamsos"/>
+    <ktn:pasal>Pasal 38</ktn:pasal>
+    <ktn:tautanSumber rdf:resource="https://peraturan.bpk.go.id/Details/161919/pp-no-37-tahun-2021"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://example.org/kbr/ketenagakerjaan#Jkp37HilangHak">
+    <dct:source rdf:resource="https://example.org/kbr/regulasi#PP-37-2021"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="https://example.org/kbr/ketenagakerjaan#KetentuanJaminanSosial"/>
+    <ktn:berkaitanTopik rdf:resource="https://example.org/kbr/ketenagakerjaan#TopikJamsos"/>
+    <ktn:pasal>Pasal 40</ktn:pasal>
+    <ktn:tautanSumber rdf:resource="https://peraturan.bpk.go.id/Details/161919/pp-no-37-tahun-2021"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://example.org/kbr/ketenagakerjaan#Jkp37InfoPasarKerja">
+    <dct:source rdf:resource="https://example.org/kbr/regulasi#PP-37-2021"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="https://example.org/kbr/ketenagakerjaan#KetentuanJaminanSosial"/>
+    <ktn:berkaitanTopik rdf:resource="https://example.org/kbr/ketenagakerjaan#TopikJamsos"/>
+    <ktn:pasal>Pasal 25 ayat (1)</ktn:pasal>
+    <ktn:tautanSumber rdf:resource="https://peraturan.bpk.go.id/Details/161919/pp-no-37-tahun-2021"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://example.org/kbr/ketenagakerjaan#Jkp37KekuranganManfaat">
+    <dct:source rdf:resource="https://example.org/kbr/regulasi#PP-37-2021"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="https://example.org/kbr/ketenagakerjaan#KetentuanJaminanSosial"/>
+    <ktn:berkaitanTopik rdf:resource="https://example.org/kbr/ketenagakerjaan#TopikJamsos"/>
+    <ktn:pasal>Pasal 23</ktn:pasal>
+    <ktn:tautanSumber rdf:resource="https://peraturan.bpk.go.id/Details/161919/pp-no-37-tahun-2021"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://example.org/kbr/ketenagakerjaan#Jkp37KepesertaanUsahaBesarMenengah">
+    <dct:source rdf:resource="https://example.org/kbr/regulasi#PP-37-2021"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="https://example.org/kbr/ketenagakerjaan#KetentuanJaminanSosial"/>
+    <ktn:berkaitanTopik rdf:resource="https://example.org/kbr/ketenagakerjaan#TopikJamsos"/>
+    <ktn:pasal>Pasal 4 ayat (3)a</ktn:pasal>
+    <ktn:tautanSumber rdf:resource="https://peraturan.bpk.go.id/Details/161919/pp-no-37-tahun-2021"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://example.org/kbr/ketenagakerjaan#Jkp37KepesertaanUsahaMikroKecil">
+    <dct:source rdf:resource="https://example.org/kbr/regulasi#PP-37-2021"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="https://example.org/kbr/ketenagakerjaan#KetentuanJaminanSosial"/>
+    <ktn:berkaitanTopik rdf:resource="https://example.org/kbr/ketenagakerjaan#TopikJamsos"/>
+    <ktn:pasal>Pasal 4 ayat (3)b</ktn:pasal>
+    <ktn:tautanSumber rdf:resource="https://peraturan.bpk.go.id/Details/161919/pp-no-37-tahun-2021"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://example.org/kbr/ketenagakerjaan#Jkp37KomponenUpahIuran">
+    <dct:source rdf:resource="https://example.org/kbr/regulasi#PP-37-2021"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="https://example.org/kbr/ketenagakerjaan#KetentuanJaminanSosial"/>
+    <ktn:berkaitanTopik rdf:resource="https://example.org/kbr/ketenagakerjaan#TopikJamsos"/>
+    <ktn:pasal>Pasal 13 ayat (1)</ktn:pasal>
+    <ktn:tautanSumber rdf:resource="https://peraturan.bpk.go.id/Details/161919/pp-no-37-tahun-2021"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://example.org/kbr/ketenagakerjaan#Jkp37LaporPelatihan">
+    <dct:source rdf:resource="https://example.org/kbr/regulasi#PP-37-2021"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="https://example.org/kbr/ketenagakerjaan#KetentuanJaminanSosial"/>
+    <ktn:berkaitanTopik rdf:resource="https://example.org/kbr/ketenagakerjaan#TopikJamsos"/>
+    <ktn:pasal>Pasal 33 ayat (1)</ktn:pasal>
+    <ktn:tautanSumber rdf:resource="https://peraturan.bpk.go.id/Details/161919/pp-no-37-tahun-2021"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://example.org/kbr/ketenagakerjaan#Jkp37LaporPenempatan">
+    <dct:source rdf:resource="https://example.org/kbr/regulasi#PP-37-2021"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="https://example.org/kbr/ketenagakerjaan#KetentuanJaminanSosial"/>
+    <ktn:berkaitanTopik rdf:resource="https://example.org/kbr/ketenagakerjaan#TopikJamsos"/>
+    <ktn:pasal>Pasal 28</ktn:pasal>
+    <ktn:tautanSumber rdf:resource="https://peraturan.bpk.go.id/Details/161919/pp-no-37-tahun-2021"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://example.org/kbr/ketenagakerjaan#Jkp37Manfaat">
+    <dct:source rdf:resource="https://example.org/kbr/regulasi#PP-37-2021"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="https://example.org/kbr/ketenagakerjaan#KetentuanJaminanSosial"/>
+    <ktn:berkaitanTopik rdf:resource="https://example.org/kbr/ketenagakerjaan#TopikJamsos"/>
+    <ktn:pasal>Pasal 18</ktn:pasal>
+    <ktn:tautanSumber rdf:resource="https://peraturan.bpk.go.id/Details/161919/pp-no-37-tahun-2021"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://example.org/kbr/ketenagakerjaan#Jkp37ManfaatMultiPengusaha">
+    <dct:source rdf:resource="https://example.org/kbr/regulasi#PP-37-2021"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="https://example.org/kbr/ketenagakerjaan#KetentuanJaminanSosial"/>
+    <ktn:berkaitanTopik rdf:resource="https://example.org/kbr/ketenagakerjaan#TopikJamsos"/>
+    <ktn:pasal>Pasal 36</ktn:pasal>
+    <ktn:tautanSumber rdf:resource="https://peraturan.bpk.go.id/Details/161919/pp-no-37-tahun-2021"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://example.org/kbr/ketenagakerjaan#Jkp37ManfaatPkwt">
+    <dct:source rdf:resource="https://example.org/kbr/regulasi#PP-37-2021"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="https://example.org/kbr/ketenagakerjaan#KetentuanJaminanSosial"/>
+    <ktn:berkaitanTopik rdf:resource="https://example.org/kbr/ketenagakerjaan#TopikJamsos"/>
+    <ktn:pasal>Pasal 20 ayat (2)</ktn:pasal>
+    <ktn:tautanSumber rdf:resource="https://peraturan.bpk.go.id/Details/161919/pp-no-37-tahun-2021"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://example.org/kbr/ketenagakerjaan#Jkp37MultiPengusaha">
+    <dct:source rdf:resource="https://example.org/kbr/regulasi#PP-37-2021"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="https://example.org/kbr/ketenagakerjaan#KetentuanJaminanSosial"/>
+    <ktn:berkaitanTopik rdf:resource="https://example.org/kbr/ketenagakerjaan#TopikJamsos"/>
+    <ktn:pasal>Pasal 8 ayat (1)</ktn:pasal>
+    <ktn:tautanSumber rdf:resource="https://peraturan.bpk.go.id/Details/161919/pp-no-37-tahun-2021"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://example.org/kbr/ketenagakerjaan#Jkp37NomorKepesertaan">
+    <dct:source rdf:resource="https://example.org/kbr/regulasi#PP-37-2021"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="https://example.org/kbr/ketenagakerjaan#KetentuanJaminanSosial"/>
+    <ktn:berkaitanTopik rdf:resource="https://example.org/kbr/ketenagakerjaan#TopikJamsos"/>
+    <ktn:pasal>Pasal 6 ayat (3)</ktn:pasal>
+    <ktn:tautanSumber rdf:resource="https://peraturan.bpk.go.id/Details/161919/pp-no-37-tahun-2021"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://example.org/kbr/ketenagakerjaan#Jkp37PelatihanKompetensi">
+    <dct:source rdf:resource="https://example.org/kbr/regulasi#PP-37-2021"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="https://example.org/kbr/ketenagakerjaan#KetentuanJaminanSosial"/>
+    <ktn:berkaitanTopik rdf:resource="https://example.org/kbr/ketenagakerjaan#TopikJamsos"/>
+    <ktn:pasal>Pasal 30 ayat (1)</ktn:pasal>
+    <ktn:tautanSumber rdf:resource="https://peraturan.bpk.go.id/Details/161919/pp-no-37-tahun-2021"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://example.org/kbr/ketenagakerjaan#Jkp37PelunasanTunggakan">
+    <dct:source rdf:resource="https://example.org/kbr/regulasi#PP-37-2021"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="https://example.org/kbr/ketenagakerjaan#KetentuanJaminanSosial"/>
+    <ktn:berkaitanTopik rdf:resource="https://example.org/kbr/ketenagakerjaan#TopikJamsos"/>
+    <ktn:pasal>Pasal 39 ayat (2)</ktn:pasal>
+    <ktn:tautanSumber rdf:resource="https://peraturan.bpk.go.id/Details/161919/pp-no-37-tahun-2021"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://example.org/kbr/ketenagakerjaan#Jkp37PembiayaanIuran">
+    <dct:source rdf:resource="https://example.org/kbr/regulasi#PP-37-2021"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="https://example.org/kbr/ketenagakerjaan#KetentuanJaminanSosial"/>
+    <ktn:berkaitanTopik rdf:resource="https://example.org/kbr/ketenagakerjaan#TopikJamsos"/>
+    <ktn:pasal>Pasal 11 ayat (3)</ktn:pasal>
+    <ktn:tautanSumber rdf:resource="https://peraturan.bpk.go.id/Details/161919/pp-no-37-tahun-2021"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://example.org/kbr/ketenagakerjaan#Jkp37PenggantianManfaat">
+    <dct:source rdf:resource="https://example.org/kbr/regulasi#PP-37-2021"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="https://example.org/kbr/ketenagakerjaan#KetentuanJaminanSosial"/>
+    <ktn:berkaitanTopik rdf:resource="https://example.org/kbr/ketenagakerjaan#TopikJamsos"/>
+    <ktn:pasal>Pasal 39 ayat (4)</ktn:pasal>
+    <ktn:tautanSumber rdf:resource="https://peraturan.bpk.go.id/Details/161919/pp-no-37-tahun-2021"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://example.org/kbr/ketenagakerjaan#Jkp37PenggantianTujuhHari">
+    <dct:source rdf:resource="https://example.org/kbr/regulasi#PP-37-2021"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="https://example.org/kbr/ketenagakerjaan#KetentuanJaminanSosial"/>
+    <ktn:berkaitanTopik rdf:resource="https://example.org/kbr/ketenagakerjaan#TopikJamsos"/>
+    <ktn:pasal>Pasal 39 ayat (6)</ktn:pasal>
+    <ktn:tautanSumber rdf:resource="https://peraturan.bpk.go.id/Details/161919/pp-no-37-tahun-2021"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://example.org/kbr/ketenagakerjaan#Jkp37PerubahanData">
+    <dct:source rdf:resource="https://example.org/kbr/regulasi#PP-37-2021"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="https://example.org/kbr/ketenagakerjaan#KetentuanJaminanSosial"/>
+    <ktn:berkaitanTopik rdf:resource="https://example.org/kbr/ketenagakerjaan#TopikJamsos"/>
+    <ktn:pasal>Pasal 9</ktn:pasal>
+    <ktn:tautanSumber rdf:resource="https://peraturan.bpk.go.id/Details/161919/pp-no-37-tahun-2021"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://example.org/kbr/ketenagakerjaan#Jkp37PesertaOtomatis">
+    <dct:source rdf:resource="https://example.org/kbr/regulasi#PP-37-2021"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="https://example.org/kbr/ketenagakerjaan#KetentuanJaminanSosial"/>
+    <ktn:berkaitanTopik rdf:resource="https://example.org/kbr/ketenagakerjaan#TopikJamsos"/>
+    <ktn:pasal>Pasal 5 ayat (1)</ktn:pasal>
+    <ktn:tautanSumber rdf:resource="https://peraturan.bpk.go.id/Details/161919/pp-no-37-tahun-2021"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://example.org/kbr/ketenagakerjaan#Jkp37RekomposisiIuranJkk">
+    <dct:source rdf:resource="https://example.org/kbr/regulasi#PP-37-2021"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="https://example.org/kbr/ketenagakerjaan#KetentuanJaminanSosial"/>
+    <ktn:berkaitanTopik rdf:resource="https://example.org/kbr/ketenagakerjaan#TopikJamsos"/>
+    <ktn:pasal>Pasal 11 ayat (5)a</ktn:pasal>
+    <ktn:tautanSumber rdf:resource="https://peraturan.bpk.go.id/Details/161919/pp-no-37-tahun-2021"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://example.org/kbr/ketenagakerjaan#Jkp37RekomposisiIuranJkm">
+    <dct:source rdf:resource="https://example.org/kbr/regulasi#PP-37-2021"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="https://example.org/kbr/ketenagakerjaan#KetentuanJaminanSosial"/>
+    <ktn:berkaitanTopik rdf:resource="https://example.org/kbr/ketenagakerjaan#TopikJamsos"/>
+    <ktn:pasal>Pasal 11 ayat (5)b</ktn:pasal>
+    <ktn:tautanSumber rdf:resource="https://peraturan.bpk.go.id/Details/161919/pp-no-37-tahun-2021"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://example.org/kbr/ketenagakerjaan#Jkp37RekomposisiTerlambat">
+    <dct:source rdf:resource="https://example.org/kbr/regulasi#PP-37-2021"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="https://example.org/kbr/ketenagakerjaan#KetentuanJaminanSosial"/>
+    <ktn:berkaitanTopik rdf:resource="https://example.org/kbr/ketenagakerjaan#TopikJamsos"/>
+    <ktn:pasal>Pasal 16 ayat (1)</ktn:pasal>
+    <ktn:tautanSumber rdf:resource="https://peraturan.bpk.go.id/Details/161919/pp-no-37-tahun-2021"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://example.org/kbr/ketenagakerjaan#Jkp37SumberPendanaan">
+    <dct:source rdf:resource="https://example.org/kbr/regulasi#PP-37-2021"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="https://example.org/kbr/ketenagakerjaan#KetentuanJaminanSosial"/>
+    <ktn:berkaitanTopik rdf:resource="https://example.org/kbr/ketenagakerjaan#TopikJamsos"/>
+    <ktn:pasal>Pasal 42 ayat (1)</ktn:pasal>
+    <ktn:tautanSumber rdf:resource="https://peraturan.bpk.go.id/Details/161919/pp-no-37-tahun-2021"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://example.org/kbr/ketenagakerjaan#Jkp37SyaratPeserta">
+    <dct:source rdf:resource="https://example.org/kbr/regulasi#PP-37-2021"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="https://example.org/kbr/ketenagakerjaan#KetentuanJaminanSosial"/>
+    <ktn:berkaitanTopik rdf:resource="https://example.org/kbr/ketenagakerjaan#TopikJamsos"/>
+    <ktn:pasal>Pasal 4 ayat (2)</ktn:pasal>
+    <ktn:tautanSumber rdf:resource="https://peraturan.bpk.go.id/Details/161919/pp-no-37-tahun-2021"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://example.org/kbr/ketenagakerjaan#Jkp37TunggakanLebihTigaBulan">
+    <dct:source rdf:resource="https://example.org/kbr/regulasi#PP-37-2021"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="https://example.org/kbr/ketenagakerjaan#KetentuanJaminanSosial"/>
+    <ktn:berkaitanTopik rdf:resource="https://example.org/kbr/ketenagakerjaan#TopikJamsos"/>
+    <ktn:pasal>Pasal 39 ayat (3)</ktn:pasal>
+    <ktn:tautanSumber rdf:resource="https://peraturan.bpk.go.id/Details/161919/pp-no-37-tahun-2021"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://example.org/kbr/ketenagakerjaan#Jkp37TunggakanMaksTigaBulan">
+    <dct:source rdf:resource="https://example.org/kbr/regulasi#PP-37-2021"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="https://example.org/kbr/ketenagakerjaan#KetentuanJaminanSosial"/>
+    <ktn:berkaitanTopik rdf:resource="https://example.org/kbr/ketenagakerjaan#TopikJamsos"/>
+    <ktn:pasal>Pasal 39 ayat (1)</ktn:pasal>
+    <ktn:tautanSumber rdf:resource="https://peraturan.bpk.go.id/Details/161919/pp-no-37-tahun-2021"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://example.org/kbr/ketenagakerjaan#KepesertaanJKP">
+    <dct:source rdf:resource="https://example.org/kbr/regulasi#PP-37-2021"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="https://example.org/kbr/ketenagakerjaan#KetentuanJaminanSosial"/>
+    <ktn:berkaitanTopik rdf:resource="https://example.org/kbr/ketenagakerjaan#TopikJamsos"/>
+    <ktn:pasal>Pasal 2 ayat (1)</ktn:pasal>
+    <ktn:tautanSumber rdf:resource="https://peraturan.bpk.go.id/Details/161919/pp-no-37-tahun-2021"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://example.org/kbr/ketenagakerjaan#KewajibanPengusahaJKP">
+    <dct:source rdf:resource="https://example.org/kbr/regulasi#PP-37-2021"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="https://example.org/kbr/ketenagakerjaan#KetentuanJaminanSosial"/>
+    <ktn:berkaitanTopik rdf:resource="https://example.org/kbr/ketenagakerjaan#TopikJamsos"/>
+    <ktn:pasal>Pasal 37 ayat (1)</ktn:pasal>
+    <ktn:tautanSumber rdf:resource="https://peraturan.bpk.go.id/Details/161919/pp-no-37-tahun-2021"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://example.org/kbr/ketenagakerjaan#ManfaatUangTunaiJKP">
+    <dct:source rdf:resource="https://example.org/kbr/regulasi#PP-37-2021"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="https://example.org/kbr/ketenagakerjaan#KetentuanJaminanSosial"/>
+    <ktn:berkaitanTopik rdf:resource="https://example.org/kbr/ketenagakerjaan#TopikJamsos"/>
+    <ktn:pasal>Pasal 21 ayat (1)</ktn:pasal>
+    <ktn:tautanSumber rdf:resource="https://peraturan.bpk.go.id/Details/161919/pp-no-37-tahun-2021"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://example.org/kbr/ketenagakerjaan#MasaIurJKP">
+    <dct:source rdf:resource="https://example.org/kbr/regulasi#PP-37-2021"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="https://example.org/kbr/ketenagakerjaan#KetentuanJaminanSosial"/>
+    <ktn:berkaitanTopik rdf:resource="https://example.org/kbr/ketenagakerjaan#TopikJamsos"/>
+    <ktn:pasal>Pasal 19 ayat (3)</ktn:pasal>
+    <ktn:tautanSumber rdf:resource="https://peraturan.bpk.go.id/Details/161919/pp-no-37-tahun-2021"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://example.org/kbr/ketenagakerjaan#PengecualianManfaatJKP">
+    <dct:source rdf:resource="https://example.org/kbr/regulasi#PP-37-2021"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="https://example.org/kbr/ketenagakerjaan#KetentuanJaminanSosial"/>
+    <ktn:berkaitanTopik rdf:resource="https://example.org/kbr/ketenagakerjaan#TopikJamsos"/>
+    <ktn:pasal>Pasal 20 ayat (1)</ktn:pasal>
+    <ktn:tautanSumber rdf:resource="https://peraturan.bpk.go.id/Details/161919/pp-no-37-tahun-2021"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://example.org/kbr/ketenagakerjaan/regulasi/pp-37-2021">
+    <dct:source rdf:resource="https://peraturan.bpk.go.id/Details/161919/pp-no-37-tahun-2021"/>
+    <dct:title>Fakta norma: Peraturan Pemerintah Nomor 37 Tahun 2021 tentang Penyelenggaraan Program Jaminan Kehilangan Pekerjaan</dct:title>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Ontology"/>
+    <owl:imports rdf:resource="https://example.org/kbr/ketenagakerjaan"/>
+  </rdf:Description>
+</rdf:RDF>

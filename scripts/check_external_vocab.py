@@ -2,7 +2,7 @@
 """Verifikasi kosakata eksternal yang dipakai ontology.
 
 Mode offline (default):
-  - memastikan deklarasi stub di `ontology/core/external.ttl` lengkap.
+  - memastikan deklarasi stub di `ontology/core/external.rdf` lengkap.
 
 Mode online (`--online`):
   - mengambil dokumen resmi FOAF/ELI/Dublin Core,
@@ -24,7 +24,7 @@ import rdflib
 from rdflib.namespace import OWL, RDF
 
 ROOT = Path(__file__).resolve().parent.parent
-EXTERNAL = ROOT / "ontology" / "core" / "external.ttl"
+EXTERNAL = ROOT / "ontology" / "core" / "external.rdf"
 
 FOAF = rdflib.Namespace("http://xmlns.com/foaf/0.1/")
 ELI = rdflib.Namespace("http://data.europa.eu/eli/ontology#")
@@ -42,13 +42,13 @@ SUMBER = {
 
 
 def cek_lokal() -> list[str]:
-    """Cek deklarasi stub di external.ttl (tanpa jaringan)."""
+    """Cek deklarasi stub di external.rdf (tanpa jaringan)."""
     galat: list[str] = []
     if not EXTERNAL.exists():
         return [f"berkas tidak ditemukan: {EXTERNAL.relative_to(ROOT)}"]
 
     g = rdflib.Graph()
-    g.parse(EXTERNAL, format="turtle")
+    g.parse(EXTERNAL, format="xml")
 
     wajib_kelas = [FOAF.Agent, FOAF.Person, FOAF.Organization, ELI.LegalResource]
     for term in wajib_kelas:
@@ -76,19 +76,25 @@ def cek_online() -> list[str]:
     """Cek term di dokumen resmi (butuh jaringan)."""
     galat: list[str] = []
 
-    foaf = rdflib.Graph()
-    foaf.parse(data=ambil(FOAF_SPEC), format="xml")
-    for term in (FOAF.Agent, FOAF.Person, FOAF.Organization):
-        if (term, RDF.type, OWL.Class) not in foaf and (term, RDF.type, rdflib.RDFS.Class) not in foaf:
-            galat.append(f"FOAF tidak memuat kelas: {term}")
+    try:
+        foaf = rdflib.Graph()
+        foaf.parse(data=ambil(FOAF_SPEC), format="xml")
+        for term in (FOAF.Agent, FOAF.Person, FOAF.Organization):
+            if (term, RDF.type, OWL.Class) not in foaf and (term, RDF.type, rdflib.RDFS.Class) not in foaf:
+                galat.append(f"FOAF tidak memuat kelas: {term}")
+    except Exception as exc:  # noqa: BLE001 - laporkan sumber yang gagal
+        galat.append(f"FOAF tidak dapat diakses ({FOAF_SPEC}): {exc}")
 
-    eli = rdflib.Graph()
-    eli.parse(data=ambil(ELI_SPEC), format="xml")
-    if (ELI.LegalResource, RDF.type, OWL.Class) not in eli:
-        galat.append(f"ELI tidak memuat kelas: {ELI.LegalResource}")
-    for term in (ELI.amends, ELI.amended_by):
-        if (term, RDF.type, OWL.ObjectProperty) not in eli:
-            galat.append(f"ELI tidak memuat object property: {term}")
+    try:
+        eli = rdflib.Graph()
+        eli.parse(data=ambil(ELI_SPEC), format="xml")
+        if (ELI.LegalResource, RDF.type, OWL.Class) not in eli:
+            galat.append(f"ELI tidak memuat kelas: {ELI.LegalResource}")
+        for term in (ELI.amends, ELI.amended_by):
+            if (term, RDF.type, OWL.ObjectProperty) not in eli:
+                galat.append(f"ELI tidak memuat object property: {term}")
+    except Exception as exc:  # noqa: BLE001 - laporkan sumber yang gagal
+        galat.append(f"ELI tidak dapat diakses ({ELI_SPEC}): {exc}")
 
     for nama, url in (
         ("dct:identifier", f"{DCT_TERMS}terms/identifier/"),

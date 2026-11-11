@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Dikonversi dari rbox-roles.ttl ke RDF/XML. -->
+<rdf:RDF
+   xmlns:dct="http://purl.org/dc/terms/"
+   xmlns:owl="http://www.w3.org/2002/07/owl#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+>
+  <rdf:Description rdf:about="https://example.org/kbr/ketenagakerjaan#memilikiKomponenUpah">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+    <rdfs:label>memiliki komponen upah</rdfs:label>
+    <rdfs:domain rdf:resource="https://example.org/kbr/ketenagakerjaan#Pekerja"/>
+    <rdfs:range rdf:resource="https://example.org/kbr/ketenagakerjaan#KomponenUpah"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://example.org/kbr/ketenagakerjaan#mempekerjakan">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+    <rdfs:label>mempekerjakan</rdfs:label>
+    <rdfs:domain rdf:resource="https://example.org/kbr/ketenagakerjaan#Pengusaha"/>
+    <rdfs:range rdf:resource="https://example.org/kbr/ketenagakerjaan#Pekerja"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://example.org/kbr/ketenagakerjaan#bagianDari">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#TransitiveProperty"/>
+    <rdfs:label>bagian dari</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://example.org/kbr/ketenagakerjaan/rbox">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Ontology"/>
+    <dct:title>Ontologi Hukum Ketenagakerjaan Indonesia (R-Box)</dct:title>
+    <rdfs:comment>Object property, hierarki peran, dan karakteristik peran (SROIQ R-Box).</rdfs:comment>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="nfa10e582a0c94eac946a67269d9e683fb1">
+    <rdf:first rdf:resource="https://example.org/kbr/ketenagakerjaan#dipekerjakanOleh"/>
+    <rdf:rest rdf:nodeID="nfa10e582a0c94eac946a67269d9e683fb2"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://example.org/kbr/ketenagakerjaan#mengalami">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+    <rdfs:label>mengalami</rdfs:label>
+    <rdfs:domain rdf:resource="https://example.org/kbr/ketenagakerjaan#Pekerja"/>
+    <rdfs:range rdf:resource="https://example.org/kbr/ketenagakerjaan#PHK"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://example.org/kbr/ketenagakerjaan#memilikiAlasanPHK">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+    <rdfs:label>memiliki alasan PHK</rdfs:label>
+    <rdfs:domain rdf:resource="https://example.org/kbr/ketenagakerjaan#PHK"/>
+    <rdfs:range rdf:resource="https://example.org/kbr/ketenagakerjaan#AlasanPHK"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://example.org/kbr/ketenagakerjaan#berkaitanTopik">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+    <rdfs:label>berkaitan topik</rdfs:label>
+    <rdfs:range rdf:resource="https://example.org/kbr/ketenagakerjaan#Topik"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://example.org/kbr/ketenagakerjaan#mengerjakanLembur">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+    <rdfs:label>mengerjakan lembur</rdfs:label>
+    <rdfs:domain rdf:resource="https://example.org/kbr/ketenagakerjaan#Pekerja"/>
+    <rdfs:range rdf:resource="https://example.org/kbr/ketenagakerjaan#Lembur"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://example.org/kbr/ketenagakerjaan#dipekerjakanOleh">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+    <rdfs:label>dipekerjakan oleh</rdfs:label>
+    <rdfs:domain rdf:resource="https://example.org/kbr/ketenagakerjaan#Pekerja"/>
+    <rdfs:range rdf:resource="https://example.org/kbr/ketenagakerjaan#Pengusaha"/>
+    <owl:inverseOf rdf:resource="https://example.org/kbr/ketenagakerjaan#mempekerjakan"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://example.org/kbr/ketenagakerjaan#berhakAtasPesangon">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+    <rdfs:label>berhak atas uang pesangon</rdfs:label>
+    <rdfs:subPropertyOf rdf:resource="https://example.org/kbr/ketenagakerjaan#berhakAtas"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://example.org/kbr/ketenagakerjaan#berhakAtas">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+    <rdfs:label>berhak atas</rdfs:label>
+    <rdfs:domain rdf:resource="https://example.org/kbr/ketenagakerjaan#Pekerja"/>
+    <rdfs:range rdf:resource="https://example.org/kbr/ketenagakerjaan#Hak"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://example.org/kbr/ketenagakerjaan#mengalamiPeristiwa">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+    <rdfs:label>mengalami peristiwa</rdfs:label>
+    <rdfs:domain rdf:resource="https://example.org/kbr/ketenagakerjaan#Pekerja"/>
+    <rdfs:range rdf:resource="https://example.org/kbr/ketenagakerjaan#PeristiwaCutiKhusus"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://example.org/kbr/ketenagakerjaan#berhakAtasUPH">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+    <rdfs:label>berhak atas UPH</rdfs:label>
+    <rdfs:subPropertyOf rdf:resource="https://example.org/kbr/ketenagakerjaan#berhakAtas"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://example.org/kbr/ketenagakerjaan#bekerjaUntuk">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+    <rdfs:label>bekerja untuk</rdfs:label>
+    <owl:propertyChainAxiom rdf:nodeID="nfa10e582a0c94eac946a67269d9e683fb1"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://example.org/kbr/ketenagakerjaan#berhakAtasUPMK">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+    <rdfs:label>berhak atas UPMK</rdfs:label>
+    <rdfs:subPropertyOf rdf:resource="https://example.org/kbr/ketenagakerjaan#berhakAtas"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://example.org/kbr/ketenagakerjaan#berhakAtasUangPisah">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+    <rdfs:label>berhak atas uang pisah</rdfs:label>
+    <rdfs:subPropertyOf rdf:resource="https://example.org/kbr/ketenagakerjaan#berhakAtas"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://example.org/kbr/ketenagakerjaan#menugaskan">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+    <rdfs:label>menugaskan</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="nfa10e582a0c94eac946a67269d9e683fb2">
+    <rdf:first rdf:resource="https://example.org/kbr/ketenagakerjaan#menugaskan"/>
+    <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
+  </rdf:Description>
+</rdf:RDF>

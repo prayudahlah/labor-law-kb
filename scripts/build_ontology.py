@@ -1,11 +1,14 @@
 #!/usr/bin/env python3
-"""Bangun modul Turtle A-Box dari CSV kanonik di data/.
+"""Bangun modul RDF/XML A-Box dari CSV kanonik di data/.
 
 Alur:
-  data/regulasi.csv   -> ontology/meta/regulasi.ttl        (individu peraturan + amandemen)
-  data/norma.csv      -> ontology/regulasi/<dokumen>.ttl   (individu norma)
-  data/parameter.csv       (dilampirkan ke individu norma)
-  data/kategori.csv        (individu kategori UP/UPMK)
+  data/regulasi.csv        -> ontology/meta/regulasi.rdf      (individu peraturan)
+  data/norma.csv           -> ontology/regulasi/<dokumen>.rdf (individu norma)
+  data/parameter.csv          dilampirkan ke individu norma
+  data/kategori.csv           individu kategori UP/UPMK
+  data/dokumen.csv         -> ontology/meta/dokumen.rdf        (jenis dokumen)
+  data/regulasi_dokumen.csv   relasi peraturan -> jenis dokumen
+  data/norma.csv (topik)    -> ontology/meta/topik.rdf
 
 Sifat:
   - deterministik: keluaran diurutkan, menjalankan ulang menghasilkan berkas identik
@@ -19,23 +22,27 @@ from __future__ import annotations
 
 import csv
 import sys
+from collections import defaultdict
 from pathlib import Path
 
 import yaml
+
+import rdf_io
 
 ROOT = Path(__file__).resolve().parent.parent
 DATA = ROOT / "data"
 ONTO = ROOT / "ontology"
 VOCAB_PATH = DATA / "extraction" / "VOCAB.yaml"
+SOURCES_PATH = ROOT / "docs" / "sources.yaml"
 
-REQUIRED_FILES = ["regulasi.csv", "norma.csv", "parameter.csv", "kategori.csv"]
-
-HEADER = """# =====================================================================
-# BERKAS DIGENERATE. JANGAN EDIT MANUAL.
-# Sumber   : data/{sumber}
-# Hasilkan : uv run python scripts/build_ontology.py
-# =====================================================================
-"""
+REQUIRED_FILES = [
+    "regulasi.csv",
+    "norma.csv",
+    "parameter.csv",
+    "kategori.csv",
+    "dokumen.csv",
+    "regulasi_dokumen.csv",
+]
 
 PREFIXES = """@prefix ktn:  <https://example.org/kbr/ketenagakerjaan#> .
 @prefix reg:  <https://example.org/kbr/regulasi#> .
@@ -45,6 +52,7 @@ PREFIXES = """@prefix ktn:  <https://example.org/kbr/ketenagakerjaan#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 @prefix xsd:  <http://www.w3.org/2001/XMLSchema#> .
 """
+
 
 def muat_vocab() -> dict:
     """Muat kosakata terkontrol dari data/extraction/VOCAB.yaml (satu sumber)."""
@@ -84,11 +92,36 @@ def angka(teks: str) -> str:
     return repr(f)
 
 
-def validasi(regulasi, norma, parameter, kategori, pengali_lembur, program_jamsos) -> list[str]:
-    err: list[str] = []
-    dokumen_ids = {r["dokumen_id"] for r in regulasi}
+def muat_sumber_pdf() -> dict[str, str]:
+    """Ambil URL PDF langsung dari docs/sources.yaml (bila ada)."""
+    if not SOURCES_PATH.exists():
+        return {}
+    data = yaml.safe_load(SOURCES_PATH.read_text(encoding="utf-8"))
+    return {
+        d["id"]: d["url_pdf"]
+        for d in data.get("dokumen", [])
+        if d.get("url_pdf")
+    }
 
-    if len(dokumen_ids) != len(regulasi):
+
+def baris_individu(subjek: str, tipe: str, props: list[str]) -> list[str]:
+    return [f"{subjek} a {tipe} ;"] + [f"    {p} ;" for p in props[:-1]] + [f"    {props[-1]} ."]
+
+
+def validasi(
+    regulasi,
+    norma,
+    parameter,
+    kategori,
+    pengali_lembur,
+    program_jamsos,
+    dokumen,
+    regulasi_dokumen,
+) -> list[str]:
+    err: list[str] = []
+    reg_ids = {r["dokumen_id"] for r in regulasi}
+
+    if len(reg_ids) != len(regulasi):
         err.append("regulasi.csv: dokumen_id duplikat")
 
     norm_ids = [n["norm_id"] for n in norma]
@@ -96,7 +129,7 @@ def validasi(regulasi, norma, parameter, kategori, pengali_lembur, program_jamso
         err.append("norma.csv: norm_id duplikat")
 
     for n in norma:
-        if n["dokumen_id"] not in dokumen_ids:
+        if n["dokumen_id"] not in reg_ids:
             err.append(f"norma {n['norm_id']}: dokumen_id tidak dikenal")
         if not n["iri_individu"].startswith("ktn:"):
             err.append(f"norma {n['norm_id']}: iri_individu harus berprefix ktn:")
@@ -119,9 +152,11 @@ def validasi(regulasi, norma, parameter, kategori, pengali_lembur, program_jamso
             err.append(f"regulasi {r['dokumen_id']}: jenis tidak dikenal")
         if r["status"] not in STATUS:
             err.append(f"regulasi {r['dokumen_id']}: status tidak dikenal")
+        if not r["sumber"].strip():
+            err.append(f"regulasi {r['dokumen_id']}: sumber kosong")
 
     for k in kategori:
-        if k["dokumen_id"] not in dokumen_ids:
+        if k["dokumen_id"] not in reg_ids:
             err.append(f"kategori {k['tabel_id']}: dokumen_id tidak dikenal")
         if k["nama_tabel"] not in NAMA_TABEL_KELAS:
             err.append(f"kategori {k['tabel_id']}: nama_tabel tidak dikenal")
@@ -131,7 +166,7 @@ def validasi(regulasi, norma, parameter, kategori, pengali_lembur, program_jamso
             int(k["max_bulan"])
 
     for pl in pengali_lembur:
-        if pl["dokumen_id"] not in dokumen_ids:
+        if pl["dokumen_id"] not in reg_ids:
             err.append(f"pengali_lembur {pl['tabel_id']}: dokumen_id tidak dikenal")
         if pl["jenis_hari"] not in JENIS_HARI_VALID:
             err.append(f"pengali_lembur {pl['tabel_id']}: jenis_hari tidak dikenal")
@@ -141,7 +176,7 @@ def validasi(regulasi, norma, parameter, kategori, pengali_lembur, program_jamso
         float(pl["pengali"])
 
     for pj in program_jamsos:
-        if pj["dokumen_id"] not in dokumen_ids:
+        if pj["dokumen_id"] not in reg_ids:
             err.append(f"program_jamsos {pj['program_id']}: dokumen_id tidak dikenal")
         if pj["jenis_program"] not in ALLOWED_PROGRAM_JAMSOS:
             err.append(f"program_jamsos {pj['program_id']}: jenis_program tidak dikenal")
@@ -150,8 +185,11 @@ def validasi(regulasi, norma, parameter, kategori, pengali_lembur, program_jamso
         float(pj["tarif_total_persen"])
 
     for tabel, rows in [
-        ("norma", norma), ("parameter", parameter), ("kategori", kategori),
-        ("pengali_lembur", pengali_lembur), ("program_jamsos", program_jamsos),
+        ("norma", norma),
+        ("parameter", parameter),
+        ("kategori", kategori),
+        ("pengali_lembur", pengali_lembur),
+        ("program_jamsos", program_jamsos),
     ]:
         for r in rows:
             d = r.get("dasar_keyakinan", "")
@@ -160,64 +198,115 @@ def validasi(regulasi, norma, parameter, kategori, pengali_lembur, program_jamso
             if r.get("confidence"):
                 float(r["confidence"])
 
+    dok_ids = [d["dokumen_id"] for d in dokumen]
+    if len(set(dok_ids)) != len(dok_ids):
+        err.append("dokumen.csv: dokumen_id duplikat")
+    for d in dokumen:
+        if not d["nama"].strip():
+            err.append(f"dokumen {d['dokumen_id']}: nama kosong")
+
+    dok_set = set(dok_ids)
+    pasangan: set[tuple[str, str]] = set()
+    for m in regulasi_dokumen:
+        pair = (m["peraturan_id"], m["dokumen_id"])
+        if m["peraturan_id"] not in reg_ids:
+            err.append(f"regulasi_dokumen: peraturan tidak dikenal: {m['peraturan_id']}")
+        if m["dokumen_id"] not in dok_set:
+            err.append(f"regulasi_dokumen: dokumen tidak dikenal: {m['dokumen_id']}")
+        if pair in pasangan:
+            err.append(f"regulasi_dokumen: duplikat {pair[0]} -> {pair[1]}")
+        pasangan.add(pair)
+
     return err
 
 
-def emit_meta(regulasi: list[dict]) -> str:
+def emit_meta(regulasi: list[dict], dokumen_map: dict[str, list[str]], url_pdf: dict[str, str]) -> str:
     blok = [
-        f'{HEADER.format(sumber="regulasi.csv")}',
         PREFIXES,
-        '<https://example.org/kbr/regulasi> a owl:Ontology ;',
+        "<https://example.org/kbr/regulasi> a owl:Ontology ;",
         '    dct:title "Metadata peraturan ketenagakerjaan (individu)" ;',
-        '    owl:imports <https://example.org/kbr/regulasi/vocab> .',
+        "    owl:imports <https://example.org/kbr/regulasi/vocab> .",
         "",
     ]
     for r in sorted(regulasi, key=lambda x: x["dokumen_id"]):
-        individu = f'reg:{r["dokumen_id"]}'
-        baris = [
-            f"{individu} a reg:Peraturan ;",
-            f'    dct:title {ttl_str(r["judul"])} ;',
-            f'    reg:jenis {JENIS_PERATURAN[r["jenis"]]} ;',
-            f'    reg:nomor {ttl_str(r["nomor"])} ;',
-            f'    reg:tahun "{r["tahun"]}"^^xsd:gYear ;',
-            f'    reg:status {STATUS[r["status"]]} ;',
-            f'    reg:sumberUtama <{r["sumber"]}>',
+        props = [
+            f'dct:title {ttl_str(r["judul"])}',
+            f'reg:jenis {JENIS_PERATURAN[r["jenis"]]}',
+            f'reg:nomor {ttl_str(r["nomor"])}',
+            f'reg:tahun "{r["tahun"]}"^^xsd:gYear',
+            f'reg:status {STATUS[r["status"]]}',
+            f'reg:sumberUtama <{r["sumber"]}>',
         ]
+        pdf = url_pdf.get(r["dokumen_id"])
+        if pdf:
+            props.append(f"reg:tautanUnduh <{pdf}>")
+        for dok in dokumen_map.get(r["dokumen_id"], []):
+            props.append(f"reg:menghasilkanDokumen ktn:{dok}")
         if r.get("diubah_oleh"):
-            baris[-1] += " ;"
-            baris.append(f'    reg:diubahOleh reg:{r["diubah_oleh"]}')
-        baris[-1] += " ."
-        blok.extend(baris)
+            props.append(f'reg:diubahOleh reg:{r["diubah_oleh"]}')
+        blok.extend(baris_individu(f'reg:{r["dokumen_id"]}', "reg:Peraturan", props))
         blok.append("")
     return "\n".join(blok).rstrip() + "\n"
 
 
 def emit_topik(topik_list: list[str]) -> str:
     blok = [
-        f'{HEADER.format(sumber="norma.csv (kolom topik)")}',
         PREFIXES,
-        '<https://example.org/kbr/ketenagakerjaan/meta/topik> a owl:Ontology ;',
+        "<https://example.org/kbr/ketenagakerjaan/meta/topik> a owl:Ontology ;",
         '    dct:title "Topik hukum (untuk retrieval)" ;',
-        '    owl:imports <https://example.org/kbr/ketenagakerjaan> .',
+        "    owl:imports <https://example.org/kbr/ketenagakerjaan> .",
         "",
     ]
     for t in sorted(set(topik_list)):
         blok.append(f"ktn:Topik{t} a owl:NamedIndividual, ktn:Topik ;")
-        blok.append(f'    rdfs:label {ttl_str(t)} .')
+        blok.append(f"    rdfs:label {ttl_str(t)} .")
         blok.append("")
     return "\n".join(blok).rstrip() + "\n"
 
 
-def emit_modul(dokumen_id, regulasi_row, norma, parameter, kategori, pengali_lembur, program_jamsos) -> str:
+def emit_dokumen(dokumen: list[dict]) -> str:
+    blok = [
+        PREFIXES,
+        "<https://example.org/kbr/ketenagakerjaan/meta/dokumen> a owl:Ontology ;",
+        '    dct:title "Jenis dokumen ketenagakerjaan" ;',
+        "    owl:imports <https://example.org/kbr/ketenagakerjaan> .",
+        "",
+    ]
+    for d in sorted(dokumen, key=lambda x: x["dokumen_id"]):
+        props = [f'rdfs:label {ttl_str(d["nama"])}']
+        if d.get("deskripsi", "").strip():
+            props.append(f'rdfs:comment {ttl_str(d["deskripsi"])}')
+        blok.extend(
+            baris_individu(
+                f'ktn:{d["dokumen_id"]}',
+                "owl:NamedIndividual, ktn:JenisDokumen",
+                props,
+            )
+        )
+        blok.append("")
+    return "\n".join(blok).rstrip() + "\n"
+
+
+def emit_modul(
+    dokumen_id,
+    regulasi_row,
+    norma,
+    parameter,
+    kategori,
+    pengali_lembur,
+    program_jamsos,
+    url_pdf: dict[str, str],
+) -> str:
     slug = dokumen_id.lower()
     sumber = "norma.csv, parameter.csv, kategori.csv, pengali_lembur.csv, program_jamsos.csv"
     onto_iri = f"https://example.org/kbr/ketenagakerjaan/regulasi/{slug}"
+    sumber_url = regulasi_row["sumber"]
+    pdf = url_pdf.get(dokumen_id)
     blok = [
-        f"{HEADER.format(sumber=sumber)}",
         PREFIXES,
         f"<{onto_iri}> a owl:Ontology ;",
         f'    dct:title "Fakta norma: {regulasi_row["judul"]}" ;',
-        f'    dct:source <{regulasi_row["sumber"]}> ;',
+        f"    dct:source <{sumber_url}> ;",
         "    owl:imports <https://example.org/kbr/ketenagakerjaan> .",
         "",
     ]
@@ -228,61 +317,93 @@ def emit_modul(dokumen_id, regulasi_row, norma, parameter, kategori, pengali_lem
 
     for n in sorted(norma, key=lambda x: x["norm_id"]):
         params = sorted(param_per_norm.get(n["norm_id"], []), key=lambda x: x["nama"])
-        lines = [
-            f'{n["iri_individu"]} a owl:NamedIndividual, ktn:{n["jenis"]} ;',
+        props = [f'ktn:{p["nama"]} {angka(p["nilai"])}' for p in params]
+        props += [
+            f'ktn:pasal {ttl_str(n["pasal"])}',
+            f'ktn:berkaitanTopik ktn:Topik{n["topik"]}',
+            f"ktn:tautanSumber <{sumber_url}>",
         ]
-        for p in params:
-            lines.append(f'    ktn:{p["nama"]} {angka(p["nilai"])} ;')
-        lines.append(f'    ktn:pasal {ttl_str(n["pasal"])} ;')
-        lines.append(f'    ktn:berkaitanTopik ktn:Topik{n["topik"]} ;')
-        lines.append(f"    dct:source reg:{n['dokumen_id']} .")
-        blok.extend(lines)
+        if pdf:
+            props.append(f"ktn:tautanUnduh <{pdf}>")
+        props.append(f"dct:source reg:{n['dokumen_id']}")
+        blok.extend(
+            baris_individu(
+                n["iri_individu"],
+                f'owl:NamedIndividual, ktn:{n["jenis"]}',
+                props,
+            )
+        )
         blok.append("")
 
     kat_dok = [k for k in kategori if k["dokumen_id"] == dokumen_id]
     for k in sorted(kat_dok, key=lambda x: (x["nama_tabel"], int(x["min_bulan"]))):
         kelas = NAMA_TABEL_KELAS[k["nama_tabel"]]
         prop_dasar = "upDasarBulan" if k["nama_tabel"] == "uang_pesangon" else "upmkDasarBulan"
-        lines = [
-            f'ktn:{k["tabel_id"]} a owl:NamedIndividual, {kelas} ;',
-            f'    ktn:minBulan {int(k["min_bulan"])} ;',
-        ]
+        props = [f'ktn:minBulan {int(k["min_bulan"])}']
         if k["max_bulan"]:
-            lines.append(f'    ktn:maxBulan {int(k["max_bulan"])} ;')
-        lines.append(f'    ktn:{prop_dasar} {int(k["nilai_bulan"])} ;')
-        lines.append(f'    ktn:pasal {ttl_str(k["pasal"])} .')
-        blok.extend(lines)
+            props.append(f'ktn:maxBulan {int(k["max_bulan"])}')
+        props += [
+            f'ktn:{prop_dasar} {int(k["nilai_bulan"])}',
+            f'ktn:pasal {ttl_str(k["pasal"])}',
+            f"ktn:tautanSumber <{sumber_url}>",
+        ]
+        if pdf:
+            props.append(f"ktn:tautanUnduh <{pdf}>")
+        blok.extend(baris_individu(f'ktn:{k["tabel_id"]}', f"owl:NamedIndividual, {kelas}", props))
         blok.append("")
 
     pl_dok = [p for p in pengali_lembur if p["dokumen_id"] == dokumen_id]
     for pl in sorted(pl_dok, key=lambda x: (x["jenis_hari"], int(x["jam_min"]))):
-        lines = [
-            f'ktn:{pl["tabel_id"]} a owl:NamedIndividual, ktn:PengaliLembur ;',
-            f'    ktn:jenisHari {ttl_str(pl["jenis_hari"])} ;',
-            f'    ktn:jamMin {int(pl["jam_min"])} ;',
-            f'    ktn:jamMax {int(pl["jam_max"])} ;',
-            f'    ktn:pengali {angka(pl["pengali"])} ;',
-            f'    ktn:pasal {ttl_str(pl["pasal"])} .',
+        props = [
+            f'ktn:jenisHari {ttl_str(pl["jenis_hari"])}',
+            f'ktn:jamMin {int(pl["jam_min"])}',
+            f'ktn:jamMax {int(pl["jam_max"])}',
+            f'ktn:pengali {angka(pl["pengali"])}',
+            f'ktn:pasal {ttl_str(pl["pasal"])}',
+            f"ktn:tautanSumber <{sumber_url}>",
         ]
-        blok.extend(lines)
+        if pdf:
+            props.append(f"ktn:tautanUnduh <{pdf}>")
+        blok.extend(
+            baris_individu(
+                f'ktn:{pl["tabel_id"]}',
+                "owl:NamedIndividual, ktn:PengaliLembur",
+                props,
+            )
+        )
         blok.append("")
 
     pj_dok = [p for p in program_jamsos if p["dokumen_id"] == dokumen_id]
     for pj in sorted(pj_dok, key=lambda x: x["program_id"]):
-        lines = [
-            f'ktn:{pj["program_id"]} a owl:NamedIndividual, ktn:ProgramJaminanSosial ;',
-            f'    ktn:jenisProgram {ttl_str(pj["jenis_program"])} ;',
-            f'    ktn:tarifPengusahaPersen {angka(pj["tarif_pengusaha_persen"])} ;',
-            f'    ktn:tarifPekerjaPersen {angka(pj["tarif_pekerja_persen"])} ;',
-            f'    ktn:tarifTotalPersen {angka(pj["tarif_total_persen"])} ;',
+        props = [
+            f'ktn:jenisProgram {ttl_str(pj["jenis_program"])}',
+            f'ktn:tarifPengusahaPersen {angka(pj["tarif_pengusaha_persen"])}',
+            f'ktn:tarifPekerjaPersen {angka(pj["tarif_pekerja_persen"])}',
+            f'ktn:tarifTotalPersen {angka(pj["tarif_total_persen"])}',
         ]
         if pj["tingkat_risiko"]:
-            lines.append(f'    ktn:tingkatRisiko {ttl_str(pj["tingkat_risiko"])} ;')
-        lines.append(f'    ktn:pasal {ttl_str(pj["pasal"])} .')
-        blok.extend(lines)
+            props.append(f'ktn:tingkatRisiko {ttl_str(pj["tingkat_risiko"])}')
+        props += [
+            f'ktn:pasal {ttl_str(pj["pasal"])}',
+            f"ktn:tautanSumber <{sumber_url}>",
+        ]
+        if pdf:
+            props.append(f"ktn:tautanUnduh <{pdf}>")
+        blok.extend(
+            baris_individu(
+                f'ktn:{pj["program_id"]}',
+                "owl:NamedIndividual, ktn:ProgramJaminanSosial",
+                props,
+            )
+        )
         blok.append("")
 
     return "\n".join(blok).rstrip() + "\n"
+
+
+def tulis_teks_ke_rdfxml(path: Path, ttl_text: str, sumber: str) -> None:
+    g = rdf_io.baca_turtle(ttl_text)
+    rdf_io.tulis_rdfxml(path, g, rdf_io.header_generate(sumber))
 
 
 def main() -> int:
@@ -297,8 +418,20 @@ def main() -> int:
     kategori = baca_csv("kategori.csv")
     pengali_lembur = baca_csv("pengali_lembur.csv") if (DATA / "pengali_lembur.csv").exists() else []
     program_jamsos = baca_csv("program_jamsos.csv") if (DATA / "program_jamsos.csv").exists() else []
+    dokumen = baca_csv("dokumen.csv")
+    regulasi_dokumen = baca_csv("regulasi_dokumen.csv")
+    url_pdf = muat_sumber_pdf()
 
-    err = validasi(regulasi, norma, parameter, kategori, pengali_lembur, program_jamsos)
+    err = validasi(
+        regulasi,
+        norma,
+        parameter,
+        kategori,
+        pengali_lembur,
+        program_jamsos,
+        dokumen,
+        regulasi_dokumen,
+    )
     if err:
         print("[GAGAL] validasi data:", file=sys.stderr)
         for e in err:
@@ -308,13 +441,27 @@ def main() -> int:
     (ONTO / "meta").mkdir(parents=True, exist_ok=True)
     (ONTO / "regulasi").mkdir(parents=True, exist_ok=True)
 
-    meta_path = ONTO / "meta" / "regulasi.ttl"
-    meta_path.write_text(emit_meta(regulasi), encoding="utf-8")
+    dokumen_map: dict[str, list[str]] = defaultdict(list)
+    for m in regulasi_dokumen:
+        dokumen_map[m["peraturan_id"]].append(m["dokumen_id"])
+    for key in dokumen_map:
+        dokumen_map[key].sort()
+
+    meta_path = ONTO / "meta" / "regulasi.rdf"
+    tulis_teks_ke_rdfxml(meta_path, emit_meta(regulasi, dokumen_map, url_pdf), "regulasi.csv")
     print(f"[tulis] {meta_path.relative_to(ROOT)}")
 
-    topik_path = ONTO / "meta" / "topik.ttl"
-    topik_path.write_text(emit_topik([n["topik"] for n in norma]), encoding="utf-8")
+    topik_path = ONTO / "meta" / "topik.rdf"
+    tulis_teks_ke_rdfxml(
+        topik_path,
+        emit_topik([n["topik"] for n in norma]),
+        "norma.csv (kolom topik)",
+    )
     print(f"[tulis] {topik_path.relative_to(ROOT)}")
+
+    dokumen_path = ONTO / "meta" / "dokumen.rdf"
+    tulis_teks_ke_rdfxml(dokumen_path, emit_dokumen(dokumen), "dokumen.csv")
+    print(f"[tulis] {dokumen_path.relative_to(ROOT)}")
 
     by_id = {r["dokumen_id"]: r for r in regulasi}
     dokumen_berisi = sorted(
@@ -333,15 +480,21 @@ def main() -> int:
             kategori,
             pengali_lembur,
             program_jamsos,
+            url_pdf,
         )
-        out = ONTO / "regulasi" / f"{slug}.ttl"
-        out.write_text(konten, encoding="utf-8")
+        out = ONTO / "regulasi" / f"{slug}.rdf"
+        tulis_teks_ke_rdfxml(
+            out,
+            konten,
+            "norma.csv, parameter.csv, kategori.csv, pengali_lembur.csv, program_jamsos.csv",
+        )
         print(f"[tulis] {out.relative_to(ROOT)}")
 
     print(
         f"\nSelesai. {len(regulasi)} peraturan, {len(norma)} norma, "
         f"{len(parameter)} parameter, {len(kategori)} kategori, "
-        f"{len(pengali_lembur)} pengali lembur, {len(program_jamsos)} program jamsos."
+        f"{len(pengali_lembur)} pengali lembur, {len(program_jamsos)} program jamsos, "
+        f"{len(dokumen)} jenis dokumen."
     )
     return 0
 

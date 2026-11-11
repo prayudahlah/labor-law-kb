@@ -22,8 +22,8 @@ KTN = "https://example.org/kbr/ketenagakerjaan#"
 
 def kelas_tbox() -> set[str]:
     g = rdflib.Graph()
-    for f in sorted((ROOT / "ontology" / "core").glob("*.ttl")):
-        g.parse(f, format="turtle")
+    for f in sorted((ROOT / "ontology" / "core").glob("*.rdf")):
+        g.parse(f, format="xml")
     return {str(s).replace(KTN, "") for s in g.subjects(RDF.type, OWL.Class)}
 
 
