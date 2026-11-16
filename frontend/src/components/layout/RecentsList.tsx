@@ -1,6 +1,6 @@
 import { cx } from '../../lib/cx';
 import { formatRelative } from '../../lib/time';
-import { IconChat, IconDoc } from '../common/icons';
+import { IconChat, IconDoc, IconTrash } from '../common/icons';
 import type { RecentsFilter } from '../../types/app';
 import type { RecentsGroup } from '../../lib/recents';
 
@@ -11,6 +11,7 @@ type Props = {
   filter: RecentsFilter;
   query: string;
   onOpen: (id: string) => void;
+  onHapus: (id: string) => void;
 };
 
 export default function RecentsList({
@@ -20,6 +21,7 @@ export default function RecentsList({
   filter,
   query,
   onOpen,
+  onHapus,
 }: Props) {
   const kosong = groups.length === 0;
 
@@ -63,27 +65,52 @@ export default function RecentsList({
                 const aktif = item.id === activeId;
                 return (
                   <li key={item.id}>
-                    <button
-                      type="button"
+                    <div
+                      role="button"
+                      tabIndex={0}
                       onClick={() => onOpen(item.id)}
+                      onKeyDown={(event) => {
+                        if (event.key === 'Enter' || event.key === ' ') {
+                          event.preventDefault();
+                          onOpen(item.id);
+                        }
+                      }}
+                      title={item.title}
                       className={cx(
-                        'flex w-full items-start gap-2 rounded-lg px-2 py-2 text-left transition',
+                        'group flex w-full cursor-pointer items-start gap-2 rounded-lg px-2 py-2 text-left transition',
                         aktif ? 'bg-navy-soft' : 'hover:bg-navy-soft',
                       )}
                     >
-                      <span
-                        className={cx(
-                          'mt-0.5 shrink-0',
-                          item.mode === 'dokumen' ? 'text-gold-text' : 'text-navy-light',
-                        )}
-                        aria-hidden="true"
+                      <button
+                        type="button"
+                        onClick={(event) => {
+                          event.stopPropagation();
+                          onHapus(item.id);
+                        }}
+                        aria-label={`Hapus riwayat ${item.title}`}
+                        title="Hapus riwayat"
+                        className="mt-0.5 grid h-4 w-4 shrink-0 place-items-center rounded"
                       >
-                        {item.mode === 'dokumen' ? (
-                          <IconDoc className="h-4 w-4" />
-                        ) : (
-                          <IconChat className="h-4 w-4" />
-                        )}
-                      </span>
+                        <span
+                          className={cx(
+                            'block group-hover:hidden group-focus-within:hidden',
+                            item.mode === 'dokumen' ? 'text-gold-text' : 'text-navy-light',
+                          )}
+                          aria-hidden="true"
+                        >
+                          {item.mode === 'dokumen' ? (
+                            <IconDoc className="h-4 w-4" />
+                          ) : (
+                            <IconChat className="h-4 w-4" />
+                          )}
+                        </span>
+                        <span
+                          className="hidden text-danger group-hover:block group-focus-within:block"
+                          aria-hidden="true"
+                        >
+                          <IconTrash className="h-4 w-4" />
+                        </span>
+                      </button>
 
                       <span className="min-w-0 flex-1">
                         <span
@@ -98,7 +125,7 @@ export default function RecentsList({
                           {formatRelative(item.updatedAt)}
                         </span>
                       </span>
-                    </button>
+                    </div>
                   </li>
                 );
               })}

@@ -5,6 +5,8 @@ export interface ButirKetentuan {
   jenis: string;
   pasal: string;
   norma: string;
+  /** Halaman resmi peraturan (JDIH/BPK). */
+  tautan?: string | null;
 }
 
 export interface SlotField {
@@ -39,5 +41,51 @@ export interface ChatResponse {
   narasi?: string | null;
   slot?: Slot | null;
   state?: Record<string, unknown> | null;
+  catatan?: string;
+}
+
+/** GET /ketentuan/dokumen — jenis dokumen yang bisa disusun. */
+export interface DokumenPreset {
+  id: string;
+  nama: string;
+  deskripsi?: string | null;
+}
+
+/** Satu klausul dalam draf dokumen (POST /dokumen). */
+export interface DokumenButir {
+  bagian: string;
+  urutan: number;
+  topik: string[];
+  wajib: boolean;
+  template: string;
+  butir: ButirKetentuan[];
+}
+
+/** Respons POST /dokumen. */
+export interface DokumenResponse {
+  mode: string;
+  dokumen: string;
+  judul: string;
+  wajib: DokumenButir[];
+  opsional: DokumenButir[];
+  template: string;
+  pasal: string[];
+  catatan?: string;
+}
+
+/** Request POST /dokumen. */
+export interface DokumenRequest {
+  sesi: string;
+  dokumen: string;
+  topik?: string[];
+  fakta?: Record<string, string>;
+}
+
+/** Respons POST /ketentuan. */
+export interface KetentuanResponse {
+  mode: string;
+  scope?: Record<string, unknown> | null;
+  butir: ButirKetentuan[];
+  narasi?: string | null;
   catatan?: string;
 }

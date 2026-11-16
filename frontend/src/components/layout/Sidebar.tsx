@@ -9,12 +9,13 @@ type Props = {
   recents: RecentsApi;
   activeId: string | null;
   onOpen: (id: string) => void;
+  onHapus: (id: string) => void;
   onNewChat: () => void;
 };
 
-export default function Sidebar({ recents, activeId, onOpen, onNewChat }: Props) {
+export default function Sidebar({ recents, activeId, onOpen, onHapus, onNewChat }: Props) {
   return (
-    <aside className="flex h-full w-[264px] shrink-0 flex-col border-r border-line bg-surface-muted">
+    <aside className="flex h-full w-[284px] shrink-0 flex-col border-r border-line bg-surface-muted">
       <div className="px-4 pt-4">
         {/* Logo */}
         <div className="flex items-center gap-2.5">
@@ -57,6 +58,7 @@ export default function Sidebar({ recents, activeId, onOpen, onNewChat }: Props)
           filter={recents.filter}
           query={recents.query}
           onOpen={onOpen}
+          onHapus={onHapus}
         />
       </div>
     </aside>

@@ -45,6 +45,12 @@ export function useRecents() {
     setItems(await recentsService.list());
   }, []);
 
+  /** Hapus satu entri riwayat. */
+  const hapus = useCallback(async (id: string) => {
+    await recentsService.remove(id);
+    setItems(await recentsService.list());
+  }, []);
+
   return {
     items,
     terlihat,
@@ -55,6 +61,7 @@ export function useRecents() {
     setQuery,
     refresh,
     save,
+    hapus,
   };
 }
 
