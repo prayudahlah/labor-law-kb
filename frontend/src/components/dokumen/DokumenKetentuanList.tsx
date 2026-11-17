@@ -19,6 +19,8 @@ type Props = {
   sembunyikanJenis?: boolean;
   ditandai?: Set<string>;
   onToggle?: (kunci: string) => void;
+  /** Tandai/lepas banyak butir sekaligus (tombol "Pilih semua"). */
+  onTandaiBanyak?: (kunci: string[], aktif: boolean) => void;
   onHapusSemua?: () => void;
   /** Susun ringkasan (dan simpan ke riwayat). */
   onBuatRingkasan?: () => void;
@@ -40,6 +42,7 @@ export default function DokumenKetentuanList({
   sembunyikanJenis = false,
   ditandai = new Set<string>(),
   onToggle,
+  onTandaiBanyak,
   onHapusSemua,
   onBuatRingkasan,
 }: Props) {
@@ -97,6 +100,12 @@ export default function DokumenKetentuanList({
 
   const gantiTopik = (next: string | null) => setTopik(next);
 
+  /** Baris yang sedang tampil — cakupan tombol "Pilih semua". */
+  const kunciHasil = useMemo(() => hasil.map((item) => kunciButir(item)), [hasil]);
+  const semuaTampilTerpilih =
+    kunciHasil.length > 0 &&
+    kunciHasil.every((kunci) => ditandai.has(kunci));
+
   return (
     <CardShell
       title="Rujukan pasal"
@@ -127,28 +136,48 @@ export default function DokumenKetentuanList({
                 {topik && <span> · tampil {dasar.length}</span>}
               </p>
 
-              {jumlahTanda > 0 && (
-                <div className="flex flex-wrap items-center gap-3">
-                  {onBuatRingkasan && (
-                    <button
-                      type="button"
-                      onClick={onBuatRingkasan}
-                      className="rounded-lg border border-navy-soft bg-navy-soft px-2.5 py-1 text-[11.5px] font-medium text-navy transition hover:border-navy hover:bg-surface"
-                    >
-                      Buat ringkasan ({jumlahTanda})
-                    </button>
-                  )}
-                  {onHapusSemua && (
-                    <button
-                      type="button"
-                      onClick={onHapusSemua}
-                      className="text-[11.5px] font-medium text-ink-muted underline decoration-line-strong underline-offset-2 hover:text-ink"
-                    >
-                      Hapus semua tanda
-                    </button>
-                  )}
-                </div>
-              )}
+              <div className="flex flex-wrap items-center gap-3">
+                {onTandaiBanyak && kunciHasil.length > 0 && (
+                  <button
+                    type="button"
+                    disabled={semuaTampilTerpilih}
+                    onClick={() => onTandaiBanyak(kunciHasil, true)}
+                    title={
+                      semuaTampilTerpilih
+                        ? 'Semua pasal yang tampil sudah ditandai'
+                        : topik || query.trim()
+                          ? 'Hanya mengenai pasal yang sedang tampil'
+                          : 'Mengenai semua pasal'
+                    }
+                    className={cx(
+                      'rounded-lg border px-2.5 py-1 text-[11.5px] font-medium transition',
+                      semuaTampilTerpilih
+                        ? 'cursor-not-allowed border-line bg-surface text-ink-muted opacity-50'
+                        : 'border-line-strong bg-surface text-ink hover:border-navy-soft hover:bg-navy-soft',
+                    )}
+                  >
+                    Pilih semua ({kunciHasil.length})
+                  </button>
+                )}
+                {jumlahTanda > 0 && onBuatRingkasan && (
+                  <button
+                    type="button"
+                    onClick={onBuatRingkasan}
+                    className="rounded-lg border border-navy-soft bg-navy-soft px-2.5 py-1 text-[11.5px] font-medium text-navy transition hover:border-navy hover:bg-surface"
+                  >
+                    Buat ringkasan ({jumlahTanda})
+                  </button>
+                )}
+                {jumlahTanda > 0 && onHapusSemua && (
+                  <button
+                    type="button"
+                    onClick={onHapusSemua}
+                    className="text-[11.5px] font-medium text-ink-muted underline decoration-line-strong underline-offset-2 hover:text-ink"
+                  >
+                    Hapus semua tanda
+                  </button>
+                )}
+              </div>
             </div>
           )}
 

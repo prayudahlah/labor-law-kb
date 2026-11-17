@@ -94,7 +94,10 @@ export default function DokumenPanel({
   const siap = bisaDraf(preset);
   /** Setelah draf ada, form diringkas agar tabel tetap kebagian ruang. */
   const [ubahData, setUbahData] = useState(false);
-  const { ditandai, toggle, hapusSemua } = useChecklist(sesiChecklist, awalChecklist);
+  const { ditandai, toggle, hapusSemua, tandaiBanyak } = useChecklist(
+    sesiChecklist,
+    awalChecklist,
+  );
 
   const [errorJudul, setErrorJudul] = useState(false);
   const [goyang, setGoyang] = useState(0);
@@ -353,6 +356,7 @@ export default function DokumenPanel({
             topikUtama={topikUtama(preset)}
             ditandai={ditandai}
             onToggle={toggle}
+            onTandaiBanyak={tandaiBanyak}
             onHapusSemua={hapusSemua}
             onBuatRingkasan={buatRingkasan}
           />

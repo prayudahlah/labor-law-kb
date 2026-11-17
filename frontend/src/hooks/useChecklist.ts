@@ -128,7 +128,30 @@ export function useChecklist(sesi: string | null, awal?: readonly string[] | nul
     setDitandai(new Set());
   }, [sesi, simpan]);
 
-  return { ditandai, toggle, hapusSemua };
+  /**
+   * Tandai/lepas banyak butir sekaligus (tombol "Pilih semua").
+   * Penyimpanan ditulis sekali, bukan sekali per butir.
+   */
+  const tandaiBanyak = useCallback(
+    (kunci: string[], aktif: boolean) => {
+      if (!sesi || kunci.length === 0) return;
+      setDitandai((lama) => {
+        const baru = new Set(lama);
+        for (const item of kunci) {
+          if (aktif) {
+            baru.add(item);
+          } else {
+            baru.delete(item);
+          }
+        }
+        simpan(baru);
+        return baru;
+      });
+    },
+    [sesi, simpan],
+  );
+
+  return { ditandai, toggle, hapusSemua, tandaiBanyak };
 }
 
 export type ChecklistApi = ReturnType<typeof useChecklist>;
