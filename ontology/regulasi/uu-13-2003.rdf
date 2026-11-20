@@ -1145,6 +1145,7 @@
     <dct:source rdf:resource="https://example.org/kbr/regulasi#UU-13-2003"/>
     <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
     <rdf:type rdf:resource="https://example.org/kbr/ketenagakerjaan#KategoriUP"/>
+    <rdf:type rdf:resource="https://example.org/kbr/ketenagakerjaan#KategoriUPTerbuka"/>
     <ktn:minBulan rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">96</ktn:minBulan>
     <ktn:pasal>Pasal 156 ayat (2)i</ktn:pasal>
     <ktn:tautanSumber rdf:resource="https://peraturan.bpk.go.id/Details/43013/uu-no-13-tahun-2003"/>
@@ -1220,6 +1221,7 @@
     <dct:source rdf:resource="https://example.org/kbr/regulasi#UU-13-2003"/>
     <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
     <rdf:type rdf:resource="https://example.org/kbr/ketenagakerjaan#KategoriUPMK"/>
+    <rdf:type rdf:resource="https://example.org/kbr/ketenagakerjaan#KategoriUPMKTerbuka"/>
     <ktn:minBulan rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">288</ktn:minBulan>
     <ktn:pasal>Pasal 156 ayat (3)h</ktn:pasal>
     <ktn:tautanSumber rdf:resource="https://peraturan.bpk.go.id/Details/43013/uu-no-13-tahun-2003"/>

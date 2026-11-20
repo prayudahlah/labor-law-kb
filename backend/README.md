@@ -91,11 +91,14 @@ src/main/java/ac/id/uns/kbr/
 - [x] Spike OWL API + Openllet
 - [x] Spike SWRL `swrlb`
 - [x] `CalculationProvider` dengan fallback Java dan pembaca output SWRL
+- [x] 28 rule SWRL kalkulasi (`ontology/core/swrl-kalkulasi.rdf`)
+- [x] Uji parity SWRL vs Java (`SwrlKalkulasiTest`)
 - [x] `/infer`, `/ketentuan`, `/chat`, `/dokumen`
 - [x] Full stack Docker dan nginx
 - [x] CI test dan build image
 
 Kontrak input/output SWRL ada di `KB_CONTRACT.md`. Mode perhitungan diatur
-lewat `kb.calculation.mode` (`java`, `swrl`, `auto`). Default `java` selama
-rule SWRL dari KB belum tersedia.
+lewat `kb.calculation.mode` (`java`, `swrl`, `auto`). Default `java`; pakai
+`auto` untuk pengembangan dan `swrl` untuk demo tanpa fallback. Rule
+digenerate dengan `uv run python scripts/build_swrl.py`.
 

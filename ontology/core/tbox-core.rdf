@@ -1131,4 +1131,157 @@
     <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
     <owl:intersectionOf rdf:nodeID="N033e458172814658802b93af64cad8f7"/>
   </rdf:Description>
+  <!-- ============================================================
+       Properti hasil hitung SWRL (lihat ontology/core/swrl-kalkulasi.rdf).
+       Backend hanya membaca properti ini dari reasoner.
+       ============================================================ -->
+  <rdf:Description rdf:about="https://example.org/kbr/ketenagakerjaan#KategoriUPTerbuka">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:label>Kategori UP tanpa batas atas</rdfs:label>
+    <rdfs:comment>Penanda bracket terakhir (mis. masa kerja 8 tahun atau lebih) yang tidak punya maxBulan.</rdfs:comment>
+    <rdfs:subClassOf rdf:resource="https://example.org/kbr/ketenagakerjaan#KategoriUP"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://example.org/kbr/ketenagakerjaan#KategoriUPMKTerbuka">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:label>Kategori UPMK tanpa batas atas</rdfs:label>
+    <rdfs:comment>Penanda bracket terakhir UPMK yang tidak punya maxBulan.</rdfs:comment>
+    <rdfs:subClassOf rdf:resource="https://example.org/kbr/ketenagakerjaan#KategoriUPMK"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://example.org/kbr/ketenagakerjaan#AkumulasiLembur">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:label>Akumulasi pengali lembur</rdfs:label>
+    <rdfs:comment>Tabel bantu hasil build: total pengali untuk 1..n jam pada satu jenis hari. Dipakai SWRL karena SWRL tidak bisa menjumlah deret.</rdfs:comment>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://example.org/kbr/ketenagakerjaan#upDasar">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#DatatypeProperty"/>
+    <rdfs:label>dasar UP (bulan) hasil inferensi</rdfs:label>
+    <rdfs:domain rdf:resource="https://example.org/kbr/ketenagakerjaan#Pekerja"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#integer"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://example.org/kbr/ketenagakerjaan#upmkDasar">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#DatatypeProperty"/>
+    <rdfs:label>dasar UPMK (bulan) hasil inferensi</rdfs:label>
+    <rdfs:domain rdf:resource="https://example.org/kbr/ketenagakerjaan#Pekerja"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#integer"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://example.org/kbr/ketenagakerjaan#bulanUP">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#DatatypeProperty"/>
+    <rdfs:label>uang pesangon (bulan upah)</rdfs:label>
+    <rdfs:domain rdf:resource="https://example.org/kbr/ketenagakerjaan#Pekerja"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#decimal"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://example.org/kbr/ketenagakerjaan#bulanUPMK">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#DatatypeProperty"/>
+    <rdfs:label>uang penghargaan masa kerja (bulan upah)</rdfs:label>
+    <rdfs:domain rdf:resource="https://example.org/kbr/ketenagakerjaan#Pekerja"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#decimal"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://example.org/kbr/ketenagakerjaan#totalBulan">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#DatatypeProperty"/>
+    <rdfs:label>total bulan UP + UPMK</rdfs:label>
+    <rdfs:domain rdf:resource="https://example.org/kbr/ketenagakerjaan#Pekerja"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#decimal"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://example.org/kbr/ketenagakerjaan#nominalPesangon">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#DatatypeProperty"/>
+    <rdfs:label>nominal pesangon (rupiah)</rdfs:label>
+    <rdfs:domain rdf:resource="https://example.org/kbr/ketenagakerjaan#Pekerja"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#decimal"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://example.org/kbr/ketenagakerjaan#upahSejam">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#DatatypeProperty"/>
+    <rdfs:label>upah sejam (rupiah)</rdfs:label>
+    <rdfs:domain rdf:resource="https://example.org/kbr/ketenagakerjaan#Pekerja"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#decimal"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://example.org/kbr/ketenagakerjaan#jenisHariLembur">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#DatatypeProperty"/>
+    <rdfs:label>jenis hari lembur hasil inferensi</rdfs:label>
+    <rdfs:domain rdf:resource="https://example.org/kbr/ketenagakerjaan#Lembur"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://example.org/kbr/ketenagakerjaan#pengaliTotalLembur">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#DatatypeProperty"/>
+    <rdfs:label>total pengali lembur untuk sejumlah jam</rdfs:label>
+    <rdfs:domain rdf:resource="https://example.org/kbr/ketenagakerjaan#Lembur"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#decimal"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://example.org/kbr/ketenagakerjaan#nominalLembur">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#DatatypeProperty"/>
+    <rdfs:label>nominal upah lembur (rupiah)</rdfs:label>
+    <rdfs:domain rdf:resource="https://example.org/kbr/ketenagakerjaan#Pekerja"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#decimal"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://example.org/kbr/ketenagakerjaan#kompensasiBulan">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#DatatypeProperty"/>
+    <rdfs:label>kompensasi PKWT (bulan upah)</rdfs:label>
+    <rdfs:domain rdf:resource="https://example.org/kbr/ketenagakerjaan#Pekerja"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#decimal"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://example.org/kbr/ketenagakerjaan#nominalKompensasiPKWT">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#DatatypeProperty"/>
+    <rdfs:label>nominal kompensasi PKWT (rupiah)</rdfs:label>
+    <rdfs:domain rdf:resource="https://example.org/kbr/ketenagakerjaan#Pekerja"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#decimal"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://example.org/kbr/ketenagakerjaan#persenPekerja">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#DatatypeProperty"/>
+    <rdfs:label>persen iuran jamsos ditanggung pekerja</rdfs:label>
+    <rdfs:domain rdf:resource="https://example.org/kbr/ketenagakerjaan#Pekerja"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#decimal"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://example.org/kbr/ketenagakerjaan#persenPengusaha">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#DatatypeProperty"/>
+    <rdfs:label>persen iuran jamsos ditanggung pengusaha</rdfs:label>
+    <rdfs:domain rdf:resource="https://example.org/kbr/ketenagakerjaan#Pekerja"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#decimal"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://example.org/kbr/ketenagakerjaan#iuranPekerja">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#DatatypeProperty"/>
+    <rdfs:label>iuran jamsos pekerja (rupiah)</rdfs:label>
+    <rdfs:domain rdf:resource="https://example.org/kbr/ketenagakerjaan#Pekerja"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#decimal"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://example.org/kbr/ketenagakerjaan#iuranPengusaha">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#DatatypeProperty"/>
+    <rdfs:label>iuran jamsos pengusaha (rupiah)</rdfs:label>
+    <rdfs:domain rdf:resource="https://example.org/kbr/ketenagakerjaan#Pekerja"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#decimal"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://example.org/kbr/ketenagakerjaan#totalBulanUpah">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#DatatypeProperty"/>
+    <rdfs:label>total bulan upah cuti melahirkan</rdfs:label>
+    <rdfs:domain rdf:resource="https://example.org/kbr/ketenagakerjaan#Pekerja"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#decimal"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://example.org/kbr/ketenagakerjaan#nominalUpahCutiMelahirkan">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#DatatypeProperty"/>
+    <rdfs:label>nominal upah cuti melahirkan (rupiah)</rdfs:label>
+    <rdfs:domain rdf:resource="https://example.org/kbr/ketenagakerjaan#Pekerja"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#decimal"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://example.org/kbr/ketenagakerjaan#cutiTahunanHari">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#DatatypeProperty"/>
+    <rdfs:label>hak cuti tahunan (hari)</rdfs:label>
+    <rdfs:domain rdf:resource="https://example.org/kbr/ketenagakerjaan#Pekerja"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#integer"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://example.org/kbr/ketenagakerjaan#jenisHariAkumulasi">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#DatatypeProperty"/>
+    <rdfs:label>jenis hari pada tabel akumulasi lembur</rdfs:label>
+    <rdfs:domain rdf:resource="https://example.org/kbr/ketenagakerjaan#AkumulasiLembur"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://example.org/kbr/ketenagakerjaan#jamAkumulasi">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#DatatypeProperty"/>
+    <rdfs:label>jumlah jam pada tabel akumulasi lembur</rdfs:label>
+    <rdfs:domain rdf:resource="https://example.org/kbr/ketenagakerjaan#AkumulasiLembur"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#decimal"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://example.org/kbr/ketenagakerjaan#pengaliTotal">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#DatatypeProperty"/>
+    <rdfs:label>total pengali pada tabel akumulasi lembur</rdfs:label>
+    <rdfs:domain rdf:resource="https://example.org/kbr/ketenagakerjaan#AkumulasiLembur"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#decimal"/>
+  </rdf:Description>
 </rdf:RDF>

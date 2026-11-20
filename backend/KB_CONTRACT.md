@@ -91,3 +91,46 @@ demo.
 4. Apakah rule juga menghasilkan `pasal` per komponen, atau backend mengambil
    dari individu norma seperti sekarang.
 5. Apakah semua perhitungan masuk SWRL, atau kategori tetap di backend.
+
+## Status implementasi
+
+Rule sudah tersedia dan diuji end-to-end.
+
+- Modul: `ontology/core/swrl-kalkulasi.rdf` (28 rule, digenerate
+  `scripts/build_swrl.py`, diimpor otomatis oleh `ontology/ontology.rdf`).
+- Properti output dan antara dideklarasikan di `ontology/core/tbox-core.rdf`
+  (`upDasar`, `upmkDasar`, `bulanUP`, `nominalPesangon`, `upahSejam`,
+  `kompensasiBulan`, `iuranPekerja`, `cutiTahunanHari`, dst.).
+- Cakupan: PHK (18 rule), PKWT, Jamsos, KIA, Lembur (5 rule), Cuti tahunan.
+- Uji: `backend/src/test/java/ac/id/uns/kbr/SwrlKalkulasiTest.java` (14 tes)
+  membandingkan hasil SWRL dengan `golden-cases.json`, termasuk PKWT
+  non-kelipatan 12, batas KIA, bracket PHK, dan lembur hari libur.
+- CI `kb` menjalankan ulang `build_ontology.py`, `build_swrl.py`, dan
+  `build_catalog.py` lalu `git diff --exit-code` untuk mendeteksi berkas
+  generated yang tertinggal.
+- CI juga menjalankan `InferControllerTest` dengan `KB_CALC_MODE=swrl`, jadi
+  jalur API tanpa fallback Java ikut diuji.
+- Mode default tetap `java`; gunakan `auto` untuk pengembangan dan `swrl`
+  untuk demo tanpa fallback.
+
+Keputusan yang sudah diambil:
+
+1. Nama properti mengikuti tabel di atas; tidak ada pemetaan tambahan.
+2. Semua nominal dan bulan memakai `xsd:decimal`; `upDasar`/`upmkDasar` dan
+   `cutiTahunanHari` memakai `xsd:integer`.
+3. `nominalPesangon` = total UP + UPMK dikali upah bulanan.
+4. `pasal` tetap diambil backend dari individu norma (tidak lewat SWRL).
+5. Kategori, pemetaan hak, dan pembulatan tampilan tetap di backend.
+
+Batas yang disepakati:
+
+- Lembur progresif memakai tabel bantu `AkumulasiLembur` yang dihasilkan
+  `scripts/build_ontology.py`. SWRL tidak punya agregasi, jadi total pengali
+  dihitung saat build. Hanya untuk jam bulat; jam pecahan memakai fallback Java.
+- `padaHariKerja=false` dipetakan ke `libur_5hari` karena input belum
+  membedakan libur 6 hari dan libur terpendek.
+- `hariDibayar` untuk peristiwa cuti khusus tetap dibaca Java dari individu
+  peristiwa; SWRL hanya menghasilkan `cutiTahunanHari`.
+- `scripts/check_ontology.py` memakai HermiT yang tidak mendukung semua builtin
+  `swrlb`; jalankan dengan `--tanpa-swrl` untuk cek T-Box. Verifikasi rule
+  memakai Openllet lewat `SwrlKalkulasiTest`.

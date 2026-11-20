@@ -252,6 +252,330 @@
     <ktn:pengaliKonversiHarian6 rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">25</ktn:pengaliKonversiHarian6>
     <ktn:tautanSumber rdf:resource="https://peraturan.bpk.go.id/Details/161904/pp-no-35-tahun-2021"/>
   </rdf:Description>
+  <rdf:Description rdf:about="https://example.org/kbr/ketenagakerjaan#LEMBUR-AKUM-hari_kerja-1">
+    <dct:source rdf:resource="https://example.org/kbr/regulasi#PP-35-2021"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="https://example.org/kbr/ketenagakerjaan#AkumulasiLembur"/>
+    <ktn:jamAkumulasi rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">1.0</ktn:jamAkumulasi>
+    <ktn:jenisHariAkumulasi>hari_kerja</ktn:jenisHariAkumulasi>
+    <ktn:pengaliTotal rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">1.5</ktn:pengaliTotal>
+    <ktn:tautanSumber rdf:resource="https://peraturan.bpk.go.id/Details/161904/pp-no-35-tahun-2021"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://example.org/kbr/ketenagakerjaan#LEMBUR-AKUM-hari_kerja-2">
+    <dct:source rdf:resource="https://example.org/kbr/regulasi#PP-35-2021"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="https://example.org/kbr/ketenagakerjaan#AkumulasiLembur"/>
+    <ktn:jamAkumulasi rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">2.0</ktn:jamAkumulasi>
+    <ktn:jenisHariAkumulasi>hari_kerja</ktn:jenisHariAkumulasi>
+    <ktn:pengaliTotal rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">3.5</ktn:pengaliTotal>
+    <ktn:tautanSumber rdf:resource="https://peraturan.bpk.go.id/Details/161904/pp-no-35-tahun-2021"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://example.org/kbr/ketenagakerjaan#LEMBUR-AKUM-hari_kerja-3">
+    <dct:source rdf:resource="https://example.org/kbr/regulasi#PP-35-2021"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="https://example.org/kbr/ketenagakerjaan#AkumulasiLembur"/>
+    <ktn:jamAkumulasi rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">3.0</ktn:jamAkumulasi>
+    <ktn:jenisHariAkumulasi>hari_kerja</ktn:jenisHariAkumulasi>
+    <ktn:pengaliTotal rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">5.5</ktn:pengaliTotal>
+    <ktn:tautanSumber rdf:resource="https://peraturan.bpk.go.id/Details/161904/pp-no-35-tahun-2021"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://example.org/kbr/ketenagakerjaan#LEMBUR-AKUM-hari_kerja-4">
+    <dct:source rdf:resource="https://example.org/kbr/regulasi#PP-35-2021"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="https://example.org/kbr/ketenagakerjaan#AkumulasiLembur"/>
+    <ktn:jamAkumulasi rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">4.0</ktn:jamAkumulasi>
+    <ktn:jenisHariAkumulasi>hari_kerja</ktn:jenisHariAkumulasi>
+    <ktn:pengaliTotal rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">7.5</ktn:pengaliTotal>
+    <ktn:tautanSumber rdf:resource="https://peraturan.bpk.go.id/Details/161904/pp-no-35-tahun-2021"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://example.org/kbr/ketenagakerjaan#LEMBUR-AKUM-libur_5hari-1">
+    <dct:source rdf:resource="https://example.org/kbr/regulasi#PP-35-2021"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="https://example.org/kbr/ketenagakerjaan#AkumulasiLembur"/>
+    <ktn:jamAkumulasi rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">1.0</ktn:jamAkumulasi>
+    <ktn:jenisHariAkumulasi>libur_5hari</ktn:jenisHariAkumulasi>
+    <ktn:pengaliTotal rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">2</ktn:pengaliTotal>
+    <ktn:tautanSumber rdf:resource="https://peraturan.bpk.go.id/Details/161904/pp-no-35-tahun-2021"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://example.org/kbr/ketenagakerjaan#LEMBUR-AKUM-libur_5hari-10">
+    <dct:source rdf:resource="https://example.org/kbr/regulasi#PP-35-2021"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="https://example.org/kbr/ketenagakerjaan#AkumulasiLembur"/>
+    <ktn:jamAkumulasi rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">10.0</ktn:jamAkumulasi>
+    <ktn:jenisHariAkumulasi>libur_5hari</ktn:jenisHariAkumulasi>
+    <ktn:pengaliTotal rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">23</ktn:pengaliTotal>
+    <ktn:tautanSumber rdf:resource="https://peraturan.bpk.go.id/Details/161904/pp-no-35-tahun-2021"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://example.org/kbr/ketenagakerjaan#LEMBUR-AKUM-libur_5hari-11">
+    <dct:source rdf:resource="https://example.org/kbr/regulasi#PP-35-2021"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="https://example.org/kbr/ketenagakerjaan#AkumulasiLembur"/>
+    <ktn:jamAkumulasi rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">11.0</ktn:jamAkumulasi>
+    <ktn:jenisHariAkumulasi>libur_5hari</ktn:jenisHariAkumulasi>
+    <ktn:pengaliTotal rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">27</ktn:pengaliTotal>
+    <ktn:tautanSumber rdf:resource="https://peraturan.bpk.go.id/Details/161904/pp-no-35-tahun-2021"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://example.org/kbr/ketenagakerjaan#LEMBUR-AKUM-libur_5hari-12">
+    <dct:source rdf:resource="https://example.org/kbr/regulasi#PP-35-2021"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="https://example.org/kbr/ketenagakerjaan#AkumulasiLembur"/>
+    <ktn:jamAkumulasi rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">12.0</ktn:jamAkumulasi>
+    <ktn:jenisHariAkumulasi>libur_5hari</ktn:jenisHariAkumulasi>
+    <ktn:pengaliTotal rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">31</ktn:pengaliTotal>
+    <ktn:tautanSumber rdf:resource="https://peraturan.bpk.go.id/Details/161904/pp-no-35-tahun-2021"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://example.org/kbr/ketenagakerjaan#LEMBUR-AKUM-libur_5hari-2">
+    <dct:source rdf:resource="https://example.org/kbr/regulasi#PP-35-2021"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="https://example.org/kbr/ketenagakerjaan#AkumulasiLembur"/>
+    <ktn:jamAkumulasi rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">2.0</ktn:jamAkumulasi>
+    <ktn:jenisHariAkumulasi>libur_5hari</ktn:jenisHariAkumulasi>
+    <ktn:pengaliTotal rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">4</ktn:pengaliTotal>
+    <ktn:tautanSumber rdf:resource="https://peraturan.bpk.go.id/Details/161904/pp-no-35-tahun-2021"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://example.org/kbr/ketenagakerjaan#LEMBUR-AKUM-libur_5hari-3">
+    <dct:source rdf:resource="https://example.org/kbr/regulasi#PP-35-2021"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="https://example.org/kbr/ketenagakerjaan#AkumulasiLembur"/>
+    <ktn:jamAkumulasi rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">3.0</ktn:jamAkumulasi>
+    <ktn:jenisHariAkumulasi>libur_5hari</ktn:jenisHariAkumulasi>
+    <ktn:pengaliTotal rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">6</ktn:pengaliTotal>
+    <ktn:tautanSumber rdf:resource="https://peraturan.bpk.go.id/Details/161904/pp-no-35-tahun-2021"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://example.org/kbr/ketenagakerjaan#LEMBUR-AKUM-libur_5hari-4">
+    <dct:source rdf:resource="https://example.org/kbr/regulasi#PP-35-2021"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="https://example.org/kbr/ketenagakerjaan#AkumulasiLembur"/>
+    <ktn:jamAkumulasi rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">4.0</ktn:jamAkumulasi>
+    <ktn:jenisHariAkumulasi>libur_5hari</ktn:jenisHariAkumulasi>
+    <ktn:pengaliTotal rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">8</ktn:pengaliTotal>
+    <ktn:tautanSumber rdf:resource="https://peraturan.bpk.go.id/Details/161904/pp-no-35-tahun-2021"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://example.org/kbr/ketenagakerjaan#LEMBUR-AKUM-libur_5hari-5">
+    <dct:source rdf:resource="https://example.org/kbr/regulasi#PP-35-2021"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="https://example.org/kbr/ketenagakerjaan#AkumulasiLembur"/>
+    <ktn:jamAkumulasi rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">5.0</ktn:jamAkumulasi>
+    <ktn:jenisHariAkumulasi>libur_5hari</ktn:jenisHariAkumulasi>
+    <ktn:pengaliTotal rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">10</ktn:pengaliTotal>
+    <ktn:tautanSumber rdf:resource="https://peraturan.bpk.go.id/Details/161904/pp-no-35-tahun-2021"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://example.org/kbr/ketenagakerjaan#LEMBUR-AKUM-libur_5hari-6">
+    <dct:source rdf:resource="https://example.org/kbr/regulasi#PP-35-2021"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="https://example.org/kbr/ketenagakerjaan#AkumulasiLembur"/>
+    <ktn:jamAkumulasi rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">6.0</ktn:jamAkumulasi>
+    <ktn:jenisHariAkumulasi>libur_5hari</ktn:jenisHariAkumulasi>
+    <ktn:pengaliTotal rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">12</ktn:pengaliTotal>
+    <ktn:tautanSumber rdf:resource="https://peraturan.bpk.go.id/Details/161904/pp-no-35-tahun-2021"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://example.org/kbr/ketenagakerjaan#LEMBUR-AKUM-libur_5hari-7">
+    <dct:source rdf:resource="https://example.org/kbr/regulasi#PP-35-2021"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="https://example.org/kbr/ketenagakerjaan#AkumulasiLembur"/>
+    <ktn:jamAkumulasi rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">7.0</ktn:jamAkumulasi>
+    <ktn:jenisHariAkumulasi>libur_5hari</ktn:jenisHariAkumulasi>
+    <ktn:pengaliTotal rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">14</ktn:pengaliTotal>
+    <ktn:tautanSumber rdf:resource="https://peraturan.bpk.go.id/Details/161904/pp-no-35-tahun-2021"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://example.org/kbr/ketenagakerjaan#LEMBUR-AKUM-libur_5hari-8">
+    <dct:source rdf:resource="https://example.org/kbr/regulasi#PP-35-2021"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="https://example.org/kbr/ketenagakerjaan#AkumulasiLembur"/>
+    <ktn:jamAkumulasi rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">8.0</ktn:jamAkumulasi>
+    <ktn:jenisHariAkumulasi>libur_5hari</ktn:jenisHariAkumulasi>
+    <ktn:pengaliTotal rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">16</ktn:pengaliTotal>
+    <ktn:tautanSumber rdf:resource="https://peraturan.bpk.go.id/Details/161904/pp-no-35-tahun-2021"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://example.org/kbr/ketenagakerjaan#LEMBUR-AKUM-libur_5hari-9">
+    <dct:source rdf:resource="https://example.org/kbr/regulasi#PP-35-2021"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="https://example.org/kbr/ketenagakerjaan#AkumulasiLembur"/>
+    <ktn:jamAkumulasi rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">9.0</ktn:jamAkumulasi>
+    <ktn:jenisHariAkumulasi>libur_5hari</ktn:jenisHariAkumulasi>
+    <ktn:pengaliTotal rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">19</ktn:pengaliTotal>
+    <ktn:tautanSumber rdf:resource="https://peraturan.bpk.go.id/Details/161904/pp-no-35-tahun-2021"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://example.org/kbr/ketenagakerjaan#LEMBUR-AKUM-libur_6hari-1">
+    <dct:source rdf:resource="https://example.org/kbr/regulasi#PP-35-2021"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="https://example.org/kbr/ketenagakerjaan#AkumulasiLembur"/>
+    <ktn:jamAkumulasi rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">1.0</ktn:jamAkumulasi>
+    <ktn:jenisHariAkumulasi>libur_6hari</ktn:jenisHariAkumulasi>
+    <ktn:pengaliTotal rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">2</ktn:pengaliTotal>
+    <ktn:tautanSumber rdf:resource="https://peraturan.bpk.go.id/Details/161904/pp-no-35-tahun-2021"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://example.org/kbr/ketenagakerjaan#LEMBUR-AKUM-libur_6hari-10">
+    <dct:source rdf:resource="https://example.org/kbr/regulasi#PP-35-2021"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="https://example.org/kbr/ketenagakerjaan#AkumulasiLembur"/>
+    <ktn:jamAkumulasi rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">10.0</ktn:jamAkumulasi>
+    <ktn:jenisHariAkumulasi>libur_6hari</ktn:jenisHariAkumulasi>
+    <ktn:pengaliTotal rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">25</ktn:pengaliTotal>
+    <ktn:tautanSumber rdf:resource="https://peraturan.bpk.go.id/Details/161904/pp-no-35-tahun-2021"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://example.org/kbr/ketenagakerjaan#LEMBUR-AKUM-libur_6hari-11">
+    <dct:source rdf:resource="https://example.org/kbr/regulasi#PP-35-2021"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="https://example.org/kbr/ketenagakerjaan#AkumulasiLembur"/>
+    <ktn:jamAkumulasi rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">11.0</ktn:jamAkumulasi>
+    <ktn:jenisHariAkumulasi>libur_6hari</ktn:jenisHariAkumulasi>
+    <ktn:pengaliTotal rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">29</ktn:pengaliTotal>
+    <ktn:tautanSumber rdf:resource="https://peraturan.bpk.go.id/Details/161904/pp-no-35-tahun-2021"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://example.org/kbr/ketenagakerjaan#LEMBUR-AKUM-libur_6hari-2">
+    <dct:source rdf:resource="https://example.org/kbr/regulasi#PP-35-2021"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="https://example.org/kbr/ketenagakerjaan#AkumulasiLembur"/>
+    <ktn:jamAkumulasi rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">2.0</ktn:jamAkumulasi>
+    <ktn:jenisHariAkumulasi>libur_6hari</ktn:jenisHariAkumulasi>
+    <ktn:pengaliTotal rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">4</ktn:pengaliTotal>
+    <ktn:tautanSumber rdf:resource="https://peraturan.bpk.go.id/Details/161904/pp-no-35-tahun-2021"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://example.org/kbr/ketenagakerjaan#LEMBUR-AKUM-libur_6hari-3">
+    <dct:source rdf:resource="https://example.org/kbr/regulasi#PP-35-2021"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="https://example.org/kbr/ketenagakerjaan#AkumulasiLembur"/>
+    <ktn:jamAkumulasi rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">3.0</ktn:jamAkumulasi>
+    <ktn:jenisHariAkumulasi>libur_6hari</ktn:jenisHariAkumulasi>
+    <ktn:pengaliTotal rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">6</ktn:pengaliTotal>
+    <ktn:tautanSumber rdf:resource="https://peraturan.bpk.go.id/Details/161904/pp-no-35-tahun-2021"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://example.org/kbr/ketenagakerjaan#LEMBUR-AKUM-libur_6hari-4">
+    <dct:source rdf:resource="https://example.org/kbr/regulasi#PP-35-2021"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="https://example.org/kbr/ketenagakerjaan#AkumulasiLembur"/>
+    <ktn:jamAkumulasi rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">4.0</ktn:jamAkumulasi>
+    <ktn:jenisHariAkumulasi>libur_6hari</ktn:jenisHariAkumulasi>
+    <ktn:pengaliTotal rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">8</ktn:pengaliTotal>
+    <ktn:tautanSumber rdf:resource="https://peraturan.bpk.go.id/Details/161904/pp-no-35-tahun-2021"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://example.org/kbr/ketenagakerjaan#LEMBUR-AKUM-libur_6hari-5">
+    <dct:source rdf:resource="https://example.org/kbr/regulasi#PP-35-2021"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="https://example.org/kbr/ketenagakerjaan#AkumulasiLembur"/>
+    <ktn:jamAkumulasi rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">5.0</ktn:jamAkumulasi>
+    <ktn:jenisHariAkumulasi>libur_6hari</ktn:jenisHariAkumulasi>
+    <ktn:pengaliTotal rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">10</ktn:pengaliTotal>
+    <ktn:tautanSumber rdf:resource="https://peraturan.bpk.go.id/Details/161904/pp-no-35-tahun-2021"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://example.org/kbr/ketenagakerjaan#LEMBUR-AKUM-libur_6hari-6">
+    <dct:source rdf:resource="https://example.org/kbr/regulasi#PP-35-2021"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="https://example.org/kbr/ketenagakerjaan#AkumulasiLembur"/>
+    <ktn:jamAkumulasi rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">6.0</ktn:jamAkumulasi>
+    <ktn:jenisHariAkumulasi>libur_6hari</ktn:jenisHariAkumulasi>
+    <ktn:pengaliTotal rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">12</ktn:pengaliTotal>
+    <ktn:tautanSumber rdf:resource="https://peraturan.bpk.go.id/Details/161904/pp-no-35-tahun-2021"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://example.org/kbr/ketenagakerjaan#LEMBUR-AKUM-libur_6hari-7">
+    <dct:source rdf:resource="https://example.org/kbr/regulasi#PP-35-2021"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="https://example.org/kbr/ketenagakerjaan#AkumulasiLembur"/>
+    <ktn:jamAkumulasi rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">7.0</ktn:jamAkumulasi>
+    <ktn:jenisHariAkumulasi>libur_6hari</ktn:jenisHariAkumulasi>
+    <ktn:pengaliTotal rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">14</ktn:pengaliTotal>
+    <ktn:tautanSumber rdf:resource="https://peraturan.bpk.go.id/Details/161904/pp-no-35-tahun-2021"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://example.org/kbr/ketenagakerjaan#LEMBUR-AKUM-libur_6hari-8">
+    <dct:source rdf:resource="https://example.org/kbr/regulasi#PP-35-2021"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="https://example.org/kbr/ketenagakerjaan#AkumulasiLembur"/>
+    <ktn:jamAkumulasi rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">8.0</ktn:jamAkumulasi>
+    <ktn:jenisHariAkumulasi>libur_6hari</ktn:jenisHariAkumulasi>
+    <ktn:pengaliTotal rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">17</ktn:pengaliTotal>
+    <ktn:tautanSumber rdf:resource="https://peraturan.bpk.go.id/Details/161904/pp-no-35-tahun-2021"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://example.org/kbr/ketenagakerjaan#LEMBUR-AKUM-libur_6hari-9">
+    <dct:source rdf:resource="https://example.org/kbr/regulasi#PP-35-2021"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="https://example.org/kbr/ketenagakerjaan#AkumulasiLembur"/>
+    <ktn:jamAkumulasi rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">9.0</ktn:jamAkumulasi>
+    <ktn:jenisHariAkumulasi>libur_6hari</ktn:jenisHariAkumulasi>
+    <ktn:pengaliTotal rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">21</ktn:pengaliTotal>
+    <ktn:tautanSumber rdf:resource="https://peraturan.bpk.go.id/Details/161904/pp-no-35-tahun-2021"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://example.org/kbr/ketenagakerjaan#LEMBUR-AKUM-libur_terpendek-1">
+    <dct:source rdf:resource="https://example.org/kbr/regulasi#PP-35-2021"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="https://example.org/kbr/ketenagakerjaan#AkumulasiLembur"/>
+    <ktn:jamAkumulasi rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">1.0</ktn:jamAkumulasi>
+    <ktn:jenisHariAkumulasi>libur_terpendek</ktn:jenisHariAkumulasi>
+    <ktn:pengaliTotal rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">2</ktn:pengaliTotal>
+    <ktn:tautanSumber rdf:resource="https://peraturan.bpk.go.id/Details/161904/pp-no-35-tahun-2021"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://example.org/kbr/ketenagakerjaan#LEMBUR-AKUM-libur_terpendek-2">
+    <dct:source rdf:resource="https://example.org/kbr/regulasi#PP-35-2021"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="https://example.org/kbr/ketenagakerjaan#AkumulasiLembur"/>
+    <ktn:jamAkumulasi rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">2.0</ktn:jamAkumulasi>
+    <ktn:jenisHariAkumulasi>libur_terpendek</ktn:jenisHariAkumulasi>
+    <ktn:pengaliTotal rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">4</ktn:pengaliTotal>
+    <ktn:tautanSumber rdf:resource="https://peraturan.bpk.go.id/Details/161904/pp-no-35-tahun-2021"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://example.org/kbr/ketenagakerjaan#LEMBUR-AKUM-libur_terpendek-3">
+    <dct:source rdf:resource="https://example.org/kbr/regulasi#PP-35-2021"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="https://example.org/kbr/ketenagakerjaan#AkumulasiLembur"/>
+    <ktn:jamAkumulasi rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">3.0</ktn:jamAkumulasi>
+    <ktn:jenisHariAkumulasi>libur_terpendek</ktn:jenisHariAkumulasi>
+    <ktn:pengaliTotal rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">6</ktn:pengaliTotal>
+    <ktn:tautanSumber rdf:resource="https://peraturan.bpk.go.id/Details/161904/pp-no-35-tahun-2021"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://example.org/kbr/ketenagakerjaan#LEMBUR-AKUM-libur_terpendek-4">
+    <dct:source rdf:resource="https://example.org/kbr/regulasi#PP-35-2021"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="https://example.org/kbr/ketenagakerjaan#AkumulasiLembur"/>
+    <ktn:jamAkumulasi rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">4.0</ktn:jamAkumulasi>
+    <ktn:jenisHariAkumulasi>libur_terpendek</ktn:jenisHariAkumulasi>
+    <ktn:pengaliTotal rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">8</ktn:pengaliTotal>
+    <ktn:tautanSumber rdf:resource="https://peraturan.bpk.go.id/Details/161904/pp-no-35-tahun-2021"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://example.org/kbr/ketenagakerjaan#LEMBUR-AKUM-libur_terpendek-5">
+    <dct:source rdf:resource="https://example.org/kbr/regulasi#PP-35-2021"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="https://example.org/kbr/ketenagakerjaan#AkumulasiLembur"/>
+    <ktn:jamAkumulasi rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">5.0</ktn:jamAkumulasi>
+    <ktn:jenisHariAkumulasi>libur_terpendek</ktn:jenisHariAkumulasi>
+    <ktn:pengaliTotal rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">10</ktn:pengaliTotal>
+    <ktn:tautanSumber rdf:resource="https://peraturan.bpk.go.id/Details/161904/pp-no-35-tahun-2021"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://example.org/kbr/ketenagakerjaan#LEMBUR-AKUM-libur_terpendek-6">
+    <dct:source rdf:resource="https://example.org/kbr/regulasi#PP-35-2021"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="https://example.org/kbr/ketenagakerjaan#AkumulasiLembur"/>
+    <ktn:jamAkumulasi rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">6.0</ktn:jamAkumulasi>
+    <ktn:jenisHariAkumulasi>libur_terpendek</ktn:jenisHariAkumulasi>
+    <ktn:pengaliTotal rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">13</ktn:pengaliTotal>
+    <ktn:tautanSumber rdf:resource="https://peraturan.bpk.go.id/Details/161904/pp-no-35-tahun-2021"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://example.org/kbr/ketenagakerjaan#LEMBUR-AKUM-libur_terpendek-7">
+    <dct:source rdf:resource="https://example.org/kbr/regulasi#PP-35-2021"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="https://example.org/kbr/ketenagakerjaan#AkumulasiLembur"/>
+    <ktn:jamAkumulasi rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">7.0</ktn:jamAkumulasi>
+    <ktn:jenisHariAkumulasi>libur_terpendek</ktn:jenisHariAkumulasi>
+    <ktn:pengaliTotal rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">17</ktn:pengaliTotal>
+    <ktn:tautanSumber rdf:resource="https://peraturan.bpk.go.id/Details/161904/pp-no-35-tahun-2021"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://example.org/kbr/ketenagakerjaan#LEMBUR-AKUM-libur_terpendek-8">
+    <dct:source rdf:resource="https://example.org/kbr/regulasi#PP-35-2021"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="https://example.org/kbr/ketenagakerjaan#AkumulasiLembur"/>
+    <ktn:jamAkumulasi rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">8.0</ktn:jamAkumulasi>
+    <ktn:jenisHariAkumulasi>libur_terpendek</ktn:jenisHariAkumulasi>
+    <ktn:pengaliTotal rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">21</ktn:pengaliTotal>
+    <ktn:tautanSumber rdf:resource="https://peraturan.bpk.go.id/Details/161904/pp-no-35-tahun-2021"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://example.org/kbr/ketenagakerjaan#LEMBUR-AKUM-libur_terpendek-9">
+    <dct:source rdf:resource="https://example.org/kbr/regulasi#PP-35-2021"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="https://example.org/kbr/ketenagakerjaan#AkumulasiLembur"/>
+    <ktn:jamAkumulasi rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">9.0</ktn:jamAkumulasi>
+    <ktn:jenisHariAkumulasi>libur_terpendek</ktn:jenisHariAkumulasi>
+    <ktn:pengaliTotal rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">25</ktn:pengaliTotal>
+    <ktn:tautanSumber rdf:resource="https://peraturan.bpk.go.id/Details/161904/pp-no-35-tahun-2021"/>
+  </rdf:Description>
   <rdf:Description rdf:about="https://example.org/kbr/ketenagakerjaan#LEMBUR-HK-1">
     <dct:source rdf:resource="https://example.org/kbr/regulasi#PP-35-2021"/>
     <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
@@ -723,6 +1047,7 @@
     <dct:source rdf:resource="https://example.org/kbr/regulasi#PP-35-2021"/>
     <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
     <rdf:type rdf:resource="https://example.org/kbr/ketenagakerjaan#KategoriUP"/>
+    <rdf:type rdf:resource="https://example.org/kbr/ketenagakerjaan#KategoriUPTerbuka"/>
     <ktn:minBulan rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">96</ktn:minBulan>
     <ktn:pasal>Pasal 40 ayat (2)i</ktn:pasal>
     <ktn:tautanSumber rdf:resource="https://peraturan.bpk.go.id/Details/161904/pp-no-35-tahun-2021"/>
@@ -782,6 +1107,7 @@
     <dct:source rdf:resource="https://example.org/kbr/regulasi#PP-35-2021"/>
     <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
     <rdf:type rdf:resource="https://example.org/kbr/ketenagakerjaan#KategoriUPMK"/>
+    <rdf:type rdf:resource="https://example.org/kbr/ketenagakerjaan#KategoriUPMKTerbuka"/>
     <ktn:minBulan rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">288</ktn:minBulan>
     <ktn:pasal>Pasal 40 ayat (3)h</ktn:pasal>
     <ktn:tautanSumber rdf:resource="https://peraturan.bpk.go.id/Details/161904/pp-no-35-tahun-2021"/>

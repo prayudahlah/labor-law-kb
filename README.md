@@ -49,6 +49,29 @@ docs/markdown/<id>.md ──LLM──► data/extraction/records/<id>.json
 - `data/extraction/SPEC.md` — aturan ekstraksi untuk model LLM.
 - `data/extraction/schema/extraction.schema.json` — kontrak record.
 
+## Rule SWRL
+
+Perhitungan hak dijalankan oleh rule SWRL di
+`ontology/core/swrl-kalkulasi.rdf` (28 rule). Berkas itu **digenerate** dari
+tabel kanonik, bukan diedit manual:
+
+```bash
+uv run python scripts/build_swrl.py
+uv run python scripts/build_catalog.py
+```
+
+Cakupan: PHK (18 rule), PKWT, Jamsos, KIA, Lembur (5 rule), dan cuti tahunan.
+Kontrak input/output ada di `backend/KB_CONTRACT.md`; di sana juga dicatat
+keterbatasan SWRL (tanpa agregasi, tanpa pembulatan, tanpa negasi) dan
+keputusan desainnya. Mode backend: `KB_CALC_MODE=java|auto|swrl`.
+
+`scripts/check_ontology.py` memakai HermiT yang tidak mendukung semua builtin
+`swrlb`; jalankan dengan `--tanpa-swrl`. Verifikasi rule memakai Openllet lewat
+`backend/src/test/java/ac/id/uns/kbr/SwrlKalkulasiTest.java`.
+
+Ringkasan lengkap, nilai acuan, batasan, dan checklist review ada di
+[`docs/SWRL.md`](docs/SWRL.md).
+
 ## Prasyarat
 
 Python 3.12 dan uv untuk pipeline build, Java 21 dan Maven untuk backend,
@@ -68,8 +91,9 @@ uv sync
 uv run python scripts/validate_extraction.py   # validasi record JSON
 uv run python scripts/compile_extraction.py    # record JSON -> CSV kanonik
 uv run python scripts/build_ontology.py        # CSV -> RDF/XML
+uv run python scripts/build_swrl.py            # tabel -> rule SWRL kalkulasi
 uv run python scripts/check_expressivity.py    # cek DL expressivity SROIQ(D)
-uv run python scripts/check_ontology.py        # HermiT + uji kasus
+uv run python scripts/check_ontology.py        # HermiT + uji kasus (pakai --tanpa-swrl)
 uv run python scripts/build_catalog.py         # katalog + top-level Protege
 duckdb < data/queries.sql                      # audit CSV
 uv run jupyter lab                             # notebook eksplorasi

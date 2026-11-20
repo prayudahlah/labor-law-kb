@@ -298,6 +298,49 @@ def provenance(dokumen_id: str, sumber_url: str, pdf: str | None) -> list[str]:
     return props
 
 
+def emit_akumulasi_lembur(
+    pengali_lembur: list[dict[str, str]],
+    dokumen_id: str,
+    sumber_url: str,
+    pdf: str | None,
+) -> list[str]:
+    """Tabel bantu: total pengali lembur untuk jam ke-1 sampai ke-n.
+
+    SWRL tidak punya agregasi, jadi penjumlahan deret pengali progresif
+    dihitung saat build lalu disimpan sebagai individu AkumulasiLembur.
+    Kunci jam ditulis xsd:decimal ("4.0") agar bisa di-join dengan
+    ktn:jamLembur yang juga ditulis xsd:decimal oleh backend.
+    """
+    per_jam: dict[tuple[str, int], float] = {}
+    for pl in pengali_lembur:
+        for jam in range(int(pl["jam_min"]), int(pl["jam_max"]) + 1):
+            per_jam[(pl["jenis_hari"], jam)] = float(pl["pengali"])
+
+    blok: list[str] = []
+    for jenis_hari in sorted({jenis for jenis, _ in per_jam}):
+        maks = max(jam for jenis, jam in per_jam if jenis == jenis_hari)
+        total = 0.0
+        for jam in range(1, maks + 1):
+            if (jenis_hari, jam) not in per_jam:
+                continue
+            total += per_jam[(jenis_hari, jam)]
+            props = [
+                f'ktn:jenisHariAkumulasi {ttl_str(jenis_hari)}',
+                f'ktn:jamAkumulasi "{jam}.0"^^xsd:decimal',
+                f'ktn:pengaliTotal "{angka(total)}"^^xsd:decimal',
+            ]
+            props += provenance(dokumen_id, sumber_url, pdf)
+            blok.extend(
+                baris_individu(
+                    f"ktn:LEMBUR-AKUM-{jenis_hari}-{jam}",
+                    "owl:NamedIndividual, ktn:AkumulasiLembur",
+                    props,
+                )
+            )
+            blok.append("")
+    return blok
+
+
 def emit_modul(
     dokumen_id,
     regulasi_row,
@@ -350,6 +393,15 @@ def emit_modul(
         props = [f'ktn:minBulan {int(k["min_bulan"])}']
         if k["max_bulan"]:
             props.append(f'ktn:maxBulan {int(k["max_bulan"])}')
+        else:
+            # Bracket terakhir tanpa maxBulan: beri marker class supaya rule SWRL
+            # bisa membedakannya tanpa negasi (SWRL tidak punya negation as failure).
+            terbuka = (
+                "KategoriUPTerbuka"
+                if k["nama_tabel"] == "uang_pesangon"
+                else "KategoriUPMKTerbuka"
+            )
+            kelas = f"{kelas}, ktn:{terbuka}"
         props += [
             f'ktn:{prop_dasar} {int(k["nilai_bulan"])}',
             f'ktn:pasal {ttl_str(k["pasal"])}',
@@ -376,6 +428,8 @@ def emit_modul(
             )
         )
         blok.append("")
+
+    blok.extend(emit_akumulasi_lembur(pl_dok, dokumen_id, sumber_url, pdf))
 
     pj_dok = [p for p in program_jamsos if p["dokumen_id"] == dokumen_id]
     for pj in sorted(pj_dok, key=lambda x: x["program_id"]):

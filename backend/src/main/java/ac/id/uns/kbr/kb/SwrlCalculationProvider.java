@@ -1,6 +1,7 @@
 package ac.id.uns.kbr.kb;
 
 import java.math.BigDecimal;
+import java.math.RoundingMode;
 import java.util.LinkedHashMap;
 import java.util.Map;
 import java.util.Optional;
@@ -57,8 +58,10 @@ public class SwrlCalculationProvider {
         BigDecimal jam = OntologyValues.decimal(manager, lembur, "jamLembur");
         Map<String, Object> rincian = new LinkedHashMap<>();
         rincian.put("jam", jam);
-        rincian.put("upah_sejam", upahSejam.get());
-        return Optional.of(new CalculationResult(rincian, nominal.get().doubleValue()));
+        // SWRL tidak bisa membulatkan; samakan tampilan dengan fallback Java.
+        rincian.put("upah_sejam", upahSejam.get().setScale(2, RoundingMode.HALF_UP));
+        return Optional.of(new CalculationResult(
+                rincian, nominal.get().setScale(0, RoundingMode.HALF_UP).doubleValue()));
     }
 
     private Optional<CalculationResult> pkwt(
@@ -88,8 +91,8 @@ public class SwrlCalculationProvider {
         Map<String, Object> rincian = new LinkedHashMap<>();
         rincian.put("persen_pekerja", persenPekerja.get());
         rincian.put("persen_pengusaha", persenPengusaha.get());
-        rincian.put("iuran_pekerja", iuranPekerja.get());
-        rincian.put("iuran_pengusaha", iuranPengusaha.get());
+        rincian.put("iuran_pekerja", iuranPekerja.get().setScale(2, RoundingMode.HALF_UP));
+        rincian.put("iuran_pengusaha", iuranPengusaha.get().setScale(2, RoundingMode.HALF_UP));
         return Optional.of(new CalculationResult(rincian, iuranPekerja.get().doubleValue()));
     }
 
@@ -131,8 +134,18 @@ public class SwrlCalculationProvider {
         OWLDataProperty p = reasoner.getRootOntology().getOWLOntologyManager()
                 .getOWLDataFactory()
                 .getOWLDataProperty(IRI.create(OntologyValues.KTN + property));
-        return reasoner.getDataPropertyValues(kasus, p).stream()
-                .findFirst()
-                .map(lit -> new BigDecimal(lit.getLiteral()));
+        BigDecimal hasil = null;
+        for (var literal : reasoner.getDataPropertyValues(kasus, p)) {
+            BigDecimal nilai = new BigDecimal(literal.getLiteral());
+            if (hasil == null) {
+                hasil = nilai;
+            } else if (hasil.compareTo(nilai) != 0) {
+                // Duplikat individu dari peraturan berbeda bisa menghasilkan nilai
+                // berbeda; jangan diam-diam ambil yang pertama.
+                throw new IllegalStateException(
+                        "Nilai SWRL ganda untuk " + property + ": " + hasil + " vs " + nilai);
+            }
+        }
+        return Optional.ofNullable(hasil);
     }
 }
