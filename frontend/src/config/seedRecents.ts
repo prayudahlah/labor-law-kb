@@ -51,14 +51,17 @@ export function buatSeed(now: number = Date.now()): Recent[] {
     },
     {
       id: 's-1002',
-      mode: 'dokumen',
+      mode: 'chat',
       title: 'Syarat wajib peraturan perusahaan',
       updatedAt: hariIniJam(4),
       messages: pesan(
         's-1002',
         [
           ['user', 'Apa saja yang wajib memuat peraturan perusahaan?'],
-          ['assistant', 'Menyiapkan daftar ketentuan… (menunggu endpoint backend).'],
+          [
+            'assistant',
+            'Peraturan perusahaan wajib memuat hak dan kewajiban pekerja, tata tertib kerja, serta ketentuan lain yang diatur perundang-undangan. Dasar: UU 13/2003 Pasal 108.',
+          ],
           ['user', 'Bagian cuti dan hari libur masuk juga?'],
         ],
         hariIniJam(4),
@@ -100,14 +103,17 @@ export function buatSeed(now: number = Date.now()): Recent[] {
     },
     {
       id: 's-1005',
-      mode: 'dokumen',
+      mode: 'chat',
       title: 'Ketentuan alih daya (outsourcing)',
       updatedAt: lalu(3, 11),
       messages: pesan(
         's-1005',
         [
           ['user', 'Ketentuan apa saja yang harus masuk ke perjanjian alih daya?'],
-          ['assistant', 'Menyiapkan daftar ketentuan… (menunggu endpoint backend).'],
+          [
+            'assistant',
+            'Perjanjian alih daya wajib memuat objek pekerjaan, jangka waktu, dan jaminan perlindungan pekerja. Dasar: PP 35/2021 Pasal 18–19.',
+          ],
         ],
         lalu(3, 11),
       ),

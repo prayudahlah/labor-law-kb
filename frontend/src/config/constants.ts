@@ -9,11 +9,15 @@ export const SIDEBAR_TAGLINE = 'Hukum Ketenagakerjaan';
 export const GREETING_LEAD = 'Hello, how can I';
 export const GREETING_ACCENT = 'help you?';
 
+/** Subjudul di layar awal mode chat. */
+export const GREETING_SUB =
+  'Mulai dengan Tanya Jawab untuk berkonsultasi, atau pilih Asistensi Dokumen untuk menyusun draf beserta pasal rujukannya.';
+
 export const PLACEHOLDER_TEXT = 'Ketik pertanyaan atau data Anda…';
 
 /** Mode yang tersedia di chips composer. */
 export const MODE_LABEL = {
-  chat: 'Chat biasa',
+  chat: 'Tanya Jawab',
   dokumen: 'Asistensi Dokumen',
 } as const;
 

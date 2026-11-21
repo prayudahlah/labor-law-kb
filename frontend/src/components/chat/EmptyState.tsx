@@ -1,5 +1,5 @@
 import type { Mode } from '../../types/app';
-import { GREETING_ACCENT, GREETING_LEAD } from '../../config/constants';
+import { GREETING_ACCENT, GREETING_LEAD, GREETING_SUB } from '../../config/constants';
 import Composer from './Composer';
 
 type Props = {
@@ -18,9 +18,7 @@ export default function EmptyState({ mode, onModeChange, onSend }: Props) {
           <h1 className="mt-7 text-[30px] font-semibold leading-tight tracking-tight text-ink sm:text-[38px]">
             {GREETING_LEAD} <span className="text-gold-text">{GREETING_ACCENT}</span>
           </h1>
-          <p className="mt-2 text-[14px] text-ink-muted">
-            Tanyakan hak Anda, hitung pesangon/lembur, atau telusuri ketentuan.
-          </p>
+          <p className="mt-2 text-[14px] text-ink-muted">{GREETING_SUB}</p>
         </div>
 
         <div className="mt-8">

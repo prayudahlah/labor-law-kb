@@ -52,3 +52,21 @@ export function potong(value: string, maks = 40): string {
   const bersih = value.replace(/\s+/g, ' ').trim();
   return bersih.length <= maks ? bersih : `${bersih.slice(0, maks - 1)}…`;
 }
+
+/** Kalimat penutup "…bukan nasihat hukum." di akhir jawaban. */
+const POLA_CATATAN = /((?:daftar ketentuan|draf)?,?\s*bukan nasihat hukum)\.?\s*$/i;
+
+/**
+ * Pisahkan catatan penutup dari isi jawaban.
+ * Dipakai agar catatan tampil di luar bubble, bukan di dalamnya.
+ */
+export function pisahCatatan(teks: string): { isi: string; catatan: string | null } {
+  const bersih = teks.trim();
+  const cocok = POLA_CATATAN.exec(bersih);
+  if (!cocok) return { isi: bersih, catatan: null };
+
+  const isi = bersih.slice(0, cocok.index).trim();
+  const mentah = cocok[1].trim().replace(/^,\s*/, '');
+  const catatan = mentah.charAt(0).toUpperCase() + mentah.slice(1) + '.';
+  return { isi, catatan };
+}
