@@ -10,13 +10,15 @@ type Props = {
   onModeChange: (next: Mode) => void;
   onSend?: (text: string) => void;
   autoFocus?: boolean;
+  /** Percakapan sudah berjalan: chip mode dikunci. */
+  locked?: boolean;
 };
 
 /**
  * Kotak isian pesan. Berada di tengah saat thread masih kosong,
  * turun ke bawah setelah percakapan dimulai (posisi diatur pemiliknya).
  */
-export default function Composer({ mode, onModeChange, onSend, autoFocus }: Props) {
+export default function Composer({ mode, onModeChange, onSend, autoFocus, locked }: Props) {
   const [text, setText] = useState('');
   const areaRef = useRef<HTMLTextAreaElement>(null);
 
@@ -64,7 +66,7 @@ export default function Composer({ mode, onModeChange, onSend, autoFocus }: Prop
       />
 
       <div className="flex items-center gap-2 px-2.5 pb-2.5">
-        <ModeChips value={mode} onChange={onModeChange} />
+        <ModeChips value={mode} onChange={onModeChange} disabled={locked} />
 
         <button
           type="button"

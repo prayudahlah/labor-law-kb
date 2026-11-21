@@ -23,7 +23,7 @@ export default function Sidebar({
   onNewChat,
 }: Props) {
   return (
-    <aside className="flex h-full w-[264px] shrink-0 flex-col border-r border-line bg-surface-muted">
+    <aside className="flex h-full w-[284px] shrink-0 flex-col border-r border-line bg-surface-muted">
       <div className="px-4 pt-4">
         {/* Logo */}
         <div className="flex items-center gap-2.5">

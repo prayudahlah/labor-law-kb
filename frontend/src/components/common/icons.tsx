@@ -87,13 +87,26 @@ export function IconCopy(props: Props) {
   );
 }
 
+/** Unduh berkas (panah ke bawah + garis dasar). */
+export function IconDownload(props: Props) {
+  return (
+    <svg {...base} {...props}>
+      <path d="M12 4v10" />
+      <path d="m7.5 10 4.5 4.5L16.5 10" />
+      <path d="M4 20h16" />
+    </svg>
+  );
+}
+
+/** Tempat sampah — hapus riwayat. */
 export function IconTrash(props: Props) {
   return (
     <svg {...base} {...props}>
       <path d="M4 7h16" />
-      <path d="M9 7V5h6v2" />
-      <path d="M6.5 7l.8 12h9.4l.8-12" />
-      <path d="M10 11v4.5M14 11v4.5" />
+      <path d="M9 7V5a2 2 0 0 1 2-2h2a2 2 0 0 1 2 2v2" />
+      <path d="M6.5 7l.9 12.2a1.8 1.8 0 0 0 1.8 1.8h5.6a1.8 1.8 0 0 0 1.8-1.8L17.5 7" />
+      <path d="M10 11v6" />
+      <path d="M14 11v6" />
     </svg>
   );
 }

@@ -59,7 +59,13 @@ function muat(): Recent[] {
   try {
     const parsed: unknown = JSON.parse(raw);
     if (Array.isArray(parsed)) {
-      return parsed.filter(isRecent).map(bersihkan);
+      const sah = parsed.filter(isRecent);
+      const valid = sah.map(bersihkan).map(modeSebenarnya);
+      // Migrasi mode lama hanya perlu ditulis sekali.
+      if (valid.some((item, index) => item.mode !== sah[index].mode)) {
+        simpan(valid);
+      }
+      return valid;
     }
   } catch (err) {
     console.warn('[recents] localStorage tidak terbaca, memakai data contoh.', err);
@@ -68,6 +74,18 @@ function muat(): Recent[] {
   const seed = buatSeed();
   simpan(seed);
   return seed;
+}
+
+/**
+ * Entri lama bisa bertanda `dokumen` padahal isinya percakapan chat (tanpa
+ * draf, ringkasan, atau pilihan dokumen). Mode itu membuat pesannya tidak
+ * pernah dirender, jadi entri seperti itu dianggap chat.
+ */
+function modeSebenarnya(recents: Recent): Recent {
+  if (recents.mode !== 'dokumen') return recents;
+  const adaDraf = recents.messages.some((message) => message.draf);
+  const adaDokumen = Boolean(recents.dokumenId) || Boolean(recents.ringkasan);
+  return adaDraf || adaDokumen ? recents : { ...recents, mode: 'chat' };
 }
 
 /** Buang disclaimer lama yang ikut tersimpan pada teks pesan (data contoh). */
