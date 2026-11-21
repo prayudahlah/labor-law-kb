@@ -8,7 +8,7 @@ dan **apa yang perlu dikonfirmasi**.
 - Branch: `feat/swrl`
 - Commit awal: `coba swrl`
 - Reasoner: **Openllet 2.6.5** (fork Pellet)
-- Status: 30 rule, 28 tes SWRL, 126 tes backend hijau (default `auto`; `swrl` untuk demo, `java` legacy)
+- Status: 30 rule, 28 tes SWRL, 135 tes backend hijau (default `auto`; `swrl` untuk demo, `java` legacy)
 
 > Catatan: dokumen ini bukan nasihat hukum. Semua nilai mengacu pada CSV kanonik
 > di `data/` dan regulasi yang sudah diekstrak.
@@ -162,7 +162,7 @@ Seluruh suite, termasuk jalur API tanpa fallback Java:
 docker run --rm -e KB_CALC_MODE=swrl -v "$PWD:/workspace" -v m2-cache:/root/.m2 -w /workspace/backend maven:3.9-eclipse-temurin-21 mvn -B test
 ```
 
-Harapan: `Tests run: 126, Failures: 0`.
+Harapan: `Tests run: 135, Failures: 0`.
 
 Cek T-Box dengan HermiT:
 

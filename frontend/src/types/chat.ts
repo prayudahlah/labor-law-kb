@@ -31,4 +31,6 @@ export type Recent = {
   drafTeks?: string;
   /** Entri mode dokumen: teks ringkasan yang disimpan. */
   ringkasan?: string;
+  /** Entri mode dokumen: header (judul + jenis) ditampilkan di draf. */
+  header?: boolean;
 };
