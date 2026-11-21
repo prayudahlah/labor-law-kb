@@ -34,6 +34,18 @@ class InferControllerTest {
     }
 
     @Test
+    void phkMasaKerjaKurang36() throws Exception {
+        kirim("""
+                {"topik":"PHK","fakta":{
+                  "masaKerjaBulan":6,
+                  "upahBulanan":12000000,
+                  "bentukHubunganKerja":"PKWTT",
+                  "alasanPHK":"EfisiensiRugi"
+                }}
+                """, 6_000_000.0, "Pesangon");
+    }
+
+    @Test
     void lembur() throws Exception {
         kirim("""
                 {"topik":"Lembur","fakta":{

@@ -261,6 +261,21 @@ def aturan_phk_bracket(kategori: list[dict[str, str]]) -> list[tuple]:
     return hasil
 
 
+def aturan_phk_upmk_nol() -> tuple:
+    """UPMK tidak diberikan untuk masa kerja di bawah 36 bulan."""
+    body = [
+        a_class("Pekerja", v("p")),
+        a_data("masaKerjaBulan", v("p"), v("m")),
+        a_builtin("lessThan", v("m"), n(36)),
+    ]
+    return (
+        "PHK-UPMK-0-36",
+        "PHK: UPMK 0 bulan untuk masa kerja < 36 bulan",
+        body,
+        [a_data("upmkDasar", v("p"), n(0))],
+    )
+
+
 def aturan_phk_final() -> tuple:
     body = [
         a_class("Pekerja", v("p")),
@@ -441,6 +456,7 @@ def main() -> int:
 
     rules: list[tuple] = []
     rules += aturan_phk_bracket(kategori)
+    rules.append(aturan_phk_upmk_nol())
     rules.append(aturan_phk_final())
     rules.append(aturan_pkwt())
     rules.append(aturan_jamsos())

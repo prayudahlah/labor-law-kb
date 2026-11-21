@@ -10,7 +10,8 @@ hanya konsumen.
 - Rule SWRL membaca ABox itu dan menghasilkan data property hasil hitung.
 - Backend membaca data property hasil inferensi, lalu memetakannya ke response API.
 - `hak` tetap dibaca dari class assertion hasil reasoning, bukan dari SWRL.
-- Kalau output SWRL belum ada, backend memakai fallback Java.
+- Di mode `auto`, backend memakai fallback Java kalau output SWRL belum ada.
+  Mode `swrl` tidak memakai fallback.
 
 ## Properti input dari backend
 
@@ -76,12 +77,9 @@ ktn:KasusPekerja
 
 `kb.calculation.mode`:
 
-- `java`: hitung di Java, abaikan output SWRL.
-- `swrl`: hanya baca output SWRL, gagal kalau tidak ada.
-- `auto`: coba SWRL, fallback Java.
-
-Untuk pengembangan, `java`. Setelah rule Anin siap, `auto`, lalu `swrl` untuk
-demo.
+- `swrl`: default. Hanya baca output SWRL, gagal kalau tidak ada.
+- `auto`: coba SWRL, fallback Java. Jalur transisi, bukan untuk demo.
+- `java`: hitung di Java. Jalur legacy, tidak dipakai untuk demo.
 
 ## Yang perlu dikonfirmasi ke Anin
 
@@ -96,22 +94,22 @@ demo.
 
 Rule sudah tersedia dan diuji end-to-end.
 
-- Modul: `ontology/core/swrl-kalkulasi.rdf` (28 rule, digenerate
+- Modul: `ontology/core/swrl-kalkulasi.rdf` (29 rule, digenerate
   `scripts/build_swrl.py`, diimpor otomatis oleh `ontology/ontology.rdf`).
 - Properti output dan antara dideklarasikan di `ontology/core/tbox-core.rdf`
   (`upDasar`, `upmkDasar`, `bulanUP`, `nominalPesangon`, `upahSejam`,
   `kompensasiBulan`, `iuranPekerja`, `cutiTahunanHari`, dst.).
-- Cakupan: PHK (18 rule), PKWT, Jamsos, KIA, Lembur (5 rule), Cuti tahunan.
-- Uji: `backend/src/test/java/ac/id/uns/kbr/SwrlKalkulasiTest.java` (14 tes)
+- Cakupan: PHK (19 rule, termasuk UPMK 0 untuk masa kerja < 36 bulan), PKWT,
+  Jamsos, KIA, Lembur (5 rule), Cuti tahunan.
+- Uji: `backend/src/test/java/ac/id/uns/kbr/SwrlKalkulasiTest.java` (15 tes)
   membandingkan hasil SWRL dengan `golden-cases.json`, termasuk PKWT
-  non-kelipatan 12, batas KIA, bracket PHK, dan lembur hari libur.
+  non-kelipatan 12, batas KIA, bracket PHK, PHK 6 bulan, dan lembur hari libur.
 - CI `kb` menjalankan ulang `build_ontology.py`, `build_swrl.py`, dan
   `build_catalog.py` lalu `git diff --exit-code` untuk mendeteksi berkas
   generated yang tertinggal.
 - CI juga menjalankan `InferControllerTest` dengan `KB_CALC_MODE=swrl`, jadi
   jalur API tanpa fallback Java ikut diuji.
-- Mode default tetap `java`; gunakan `auto` untuk pengembangan dan `swrl`
-  untuk demo tanpa fallback.
+- Mode default `swrl`; `java` dan `auto` adalah jalur legacy/transisi.
 
 Keputusan yang sudah diambil:
 
@@ -120,17 +118,22 @@ Keputusan yang sudah diambil:
    `cutiTahunanHari` memakai `xsd:integer`.
 3. `nominalPesangon` = total UP + UPMK dikali upah bulanan.
 4. `pasal` tetap diambil backend dari individu norma (tidak lewat SWRL).
-5. Kategori, pemetaan hak, dan pembulatan tampilan tetap di backend.
+5. Kategori UP/UPMK dihitung SWRL; pemetaan hak dan pembulatan tampilan tetap
+   di backend.
+6. UPMK untuk masa kerja < 36 bulan bernilai 0, bukan error. Aturan ini
+   ditulis sebagai rule SWRL (`PHK-UPMK-0-36`).
 
 Batas yang disepakati:
 
 - Lembur progresif memakai tabel bantu `AkumulasiLembur` yang dihasilkan
   `scripts/build_ontology.py`. SWRL tidak punya agregasi, jadi total pengali
-  dihitung saat build. Hanya untuk jam bulat; jam pecahan memakai fallback Java.
+  dihitung saat build. Hanya untuk jam bulat; jam pecahan belum didukung
+  (mode `auto` masih fallback ke Java, mode `swrl` gagal).
 - `padaHariKerja=false` dipetakan ke `libur_5hari` karena input belum
   membedakan libur 6 hari dan libur terpendek.
-- `hariDibayar` untuk peristiwa cuti khusus tetap dibaca Java dari individu
-  peristiwa; SWRL hanya menghasilkan `cutiTahunanHari`.
+- Cuti khusus (haid, keguguran, menikah) belum masuk SWRL. Jalur Java masih
+  membaca `hariDibayar` dari individu peristiwa; SWRL hanya menghasilkan
+  `cutiTahunanHari`.
 - `scripts/check_ontology.py` memakai HermiT yang tidak mendukung semua builtin
   `swrlb`; jalankan dengan `--tanpa-swrl` untuk cek T-Box. Verifikasi rule
   memakai Openllet lewat `SwrlKalkulasiTest`.
