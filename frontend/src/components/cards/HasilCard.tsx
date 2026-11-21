@@ -1,4 +1,4 @@
-import { formatRupiah, labelManusia } from '../../lib/text';
+import { formatNilaiRincian, formatRupiah, labelHak, labelRincian } from '../../lib/text';
 import type { ChatResponse } from '../../types/api';
 import CardShell from './CardShell';
 import { IconClock } from '../common/icons';
@@ -23,7 +23,7 @@ export default function HasilCard({ payload }: Props) {
               key={item}
               className="rounded-full bg-navy-soft px-2.5 py-1 text-[12.5px] font-medium text-navy"
             >
-              {item}
+              {labelHak(item)}
             </span>
           ))}
         </div>
@@ -42,8 +42,10 @@ export default function HasilCard({ payload }: Props) {
         <dl className="mt-3 grid grid-cols-1 gap-x-6 gap-y-1.5 border-t border-line pt-3 sm:grid-cols-2">
           {Object.entries(rincian).map(([kunci, nilai]) => (
             <div key={kunci} className="flex items-baseline justify-between gap-3">
-              <dt className="text-ink-muted">{labelManusia(kunci)}</dt>
-              <dd className="font-medium tabular-nums text-ink">{nilai}</dd>
+              <dt className="text-ink-muted">{labelRincian(kunci)}</dt>
+              <dd className="font-medium tabular-nums text-ink">
+                {formatNilaiRincian(kunci, nilai)}
+              </dd>
             </div>
           ))}
         </dl>

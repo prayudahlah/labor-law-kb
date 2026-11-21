@@ -8,7 +8,7 @@ import MessageBubble from './MessageBubble';
 type Props = {
   messages: ChatMessage[];
   loading: boolean;
-  error?: string | null;
+  error?: { pesan: string; status: number } | null;
   /** Sesuai `sesi` backend — dipakai mendeteksi ganti thread (buka riwayat). */
   sesi: string;
   onPilih: (teks: string) => void;
@@ -57,7 +57,7 @@ export default function ChatThread({ messages, loading, error, sesi, onPilih }: 
 
         {loading && <TypingBubble />}
 
-        {!loading && error && <ErrorCard pesan={error} />}
+        {!loading && error && <ErrorCard pesan={error.pesan} status={error.status} />}
       </div>
     </div>
   );
