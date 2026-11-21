@@ -25,6 +25,11 @@ jobs:
         env:
           KB_CALC_MODE: swrl
         run: mvn -B test -Dtest=InferControllerTest
+      - name: Test jalur fallback Java
+        working-directory: backend
+        env:
+          KB_CALC_MODE: java
+        run: mvn -B test -Dtest=JavaCalculationProviderTest,InferControllerTest
       - name: Build backend image
         run: docker build -f backend/Dockerfile -t labor-law-kb-backend:ci .
 

@@ -8,7 +8,7 @@ dan **apa yang perlu dikonfirmasi**.
 - Branch: `feat/swrl`, plus perbaikan UPMK < 36 bulan di `fix/phk-upmk-36`
 - Commit awal: `coba swrl`
 - Reasoner: **Openllet 2.6.5** (fork Pellet)
-- Status: 29 rule, 15 tes SWRL, 57 tes backend hijau (default `swrl`; `java` dan `auto` legacy)
+- Status: 29 rule, 15 tes SWRL, 62 tes backend hijau (default `auto`; `swrl` untuk demo, `java` legacy)
 
 > Catatan: dokumen ini bukan nasihat hukum. Semua nilai mengacu pada CSV kanonik
 > di `data/` dan regulasi yang sudah diekstrak.
@@ -162,7 +162,7 @@ Seluruh suite, termasuk jalur API tanpa fallback Java:
 docker run --rm -e KB_CALC_MODE=swrl -v "$PWD:/workspace" -v m2-cache:/root/.m2 -w /workspace/backend maven:3.9-eclipse-temurin-21 mvn -B test
 ```
 
-Harapan: `Tests run: 57, Failures: 0`.
+Harapan: `Tests run: 62, Failures: 0`.
 
 Cek T-Box dengan HermiT:
 
@@ -189,8 +189,8 @@ menjelaskan agar memakai flag tersebut.
    0 desimal. SWRL sendiri tidak bisa membulatkan.
 7. **Nilai ganda** dari duplikasi bracket PP-35-2021 vs UU-13-2003 ditolak
    provider kalau berbeda; saat ini nilainya identik sehingga aman.
-8. **Mode default `swrl`**; `java` dan `auto` adalah jalur legacy/transisi.
-   `auto` masih bisa fallback ke Java, tetapi tidak dipakai untuk demo.
+8. **Mode default `auto`**; `swrl` dipakai untuk demo yang ingin membuktikan
+   jalur rule tanpa fallback. `java` tetap legacy.
 9. **Format RDF/XML SWRL** wajib memakai `swrl:DatavaluedPropertyAtom` dan
    body/head bertipe `swrl:AtomList`. Versi awal memakai
    `swrl:DatatypePropertyAtom` + `parseType="Collection"` dan OWLAPI
@@ -200,16 +200,37 @@ menjelaskan agar memakai flag tersebut.
 ## 8. Batasan yang diketahui
 
 - SWRL tidak punya agregasi, negasi, rekursi, atau pembulatan.
-- Lembur hanya untuk jam bulat 1..12; jam pecahan belum didukung. Mode `swrl`
-  akan gagal, sedangkan mode `auto` masih bisa fallback ke Java.
+- Lembur SWRL hanya untuk jam bulat. Untuk `hari_kerja`, tabel akumulasi baru
+  mencakup jam 1..4. Jam pecahan dan jam 5..12 gagal di mode `swrl`; mode
+  `auto` fallback ke Java, yang mendukung pecahan dan melanjutkan pengali
+  terakhir sampai 12.
 - `padaHariKerja=false` dipetakan ke `libur_5hari`; libur 6 hari dan libur
   terpendek belum bisa dipilih dari input.
 - Jamsos hanya JHT + JP (bukan JKK/JKM/JKP), sama seperti provider Java.
-- Cuti khusus (haid, keguguran, menikah) belum masuk SWRL.
+- Cuti khusus (haid, keguguran, menikah) belum masuk SWRL. Mode `auto` belum
+  fallback karena SWRL mengembalikan hasil parsial (cuti tahunan), bukan kosong.
 - Hasil SWRL hanya terlihat oleh reasoner, tidak muncul di SPARQL/Jalur
   retrieval.
 - Openllet menulis log INFO `Non numeric arguments ... anon(1)` saat join
   builtin. Itu noise internal; hasil inferensi tetap benar.
+
+### Pekerjaan lanjutan untuk SWRL
+
+Daftar ini untuk area rule/ontology, bukan backend Java:
+
+1. **Lembur pecahan dan jam 5..12 hari kerja.** Tabel `AkumulasiLembur` baru
+   mencakup 1..4 untuk `hari_kerja`. Tambah baris sampai 12 dan aturan untuk
+   jam pecahan, atau sepakati bahwa `swrl` hanya menerima jam bulat 1..4.
+2. **Cuti khusus.** Tambah output khusus di `Pekerja` (mis. `cutiKhususHari`)
+   dan rule dari `mengalamiPeristiwa`, atau buat provider mengembalikan kosong
+   supaya `auto` fallback ke Java. Jangan menyalin `hariDibayar` langsung ke
+   `Pekerja`, karena domain properti itu `PeristiwaCutiKhusus`.
+3. **Cuti keguguran.** SWRL belum menghasilkan `cuti_haid_hari`; samakan
+   dengan perilaku Java atau tambah rule.
+4. **Libur 6 hari dan libur terpendek.** Data ada di `pengali_lembur.csv`,
+   tetapi input hanya `padaHariKerja` boolean. Perlu `jenisHari` di API dan
+   rule untuk kedua jenis libur.
+5. **Jamsos.** Putuskan apakah cukup JHT + JP atau perlu JKK/JKM/JKP.
 
 ## 9. Checklist review
 
@@ -227,7 +248,7 @@ Isi kolom "Sesuai?" dengan ✓/✗ dan tulis catatan bila ada yang perlu diubah.
 | 8 | Jamsos hanya JHT + JP | ☐ | |
 | 9 | KIA: 4 bulan upah penuh, sisa 75% | ☐ | |
 | 10 | Cuti khusus sengaja tetap di Java | ☐ | |
-| 11 | Default mode `swrl`; `java`/`auto` legacy | ☐ | |
+| 11 | Default mode `auto`; `swrl` untuk demo, `java` legacy | ☐ | |
 | 12 | Duplikasi bracket PP-35 vs UU-13 dianggap aman | ☐ | |
 
 ## 10. Pertanyaan terbuka
@@ -244,9 +265,9 @@ Isi kolom "Sesuai?" dengan ✓/✗ dan tulis catatan bila ada yang perlu diubah.
 ## 11. Status git
 
 - Branch: `feat/swrl`
-- Commit: `coba swrl`
-- Status: sudah di-push. Perbaikan UPMK < 36 bulan ada di branch
-  `fix/phk-upmk-36`.
+- Commit awal: `coba swrl`
+- Status: sudah di-push. PR #11 (UPMK < 36 bulan) sudah merged.
+- Perbaikan fallback Java dan default `auto` ada di branch `fix/java-fallback`.
 
-Lalu buka PR ke `dev` dan pastikan CI hijau (test backend, test mode SWRL,
-cek drift generated files, build frontend, build image).
+Setelah itu buka PR `feat/swrl` -> `dev` dan pastikan CI hijau (test backend,
+test mode SWRL, cek drift generated files, build frontend, build image).

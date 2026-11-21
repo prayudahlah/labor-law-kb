@@ -51,7 +51,7 @@ public class ValidationService {
                 teksOpsional(fakta, topik, "bentukHubunganKerja", errors);
             }
             case "Lembur" -> {
-                angkaRentang(fakta, topik, "jamLembur", 0.0, 18.0, errors);
+                angkaRentang(fakta, topik, "jamLembur", 0.0, 12.0, errors);
                 booleanOpsional(fakta, topik, "padaHariKerja", errors);
                 positif(fakta, topik, "upahBulanan", errors);
             }

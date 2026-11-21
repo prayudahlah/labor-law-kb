@@ -44,11 +44,11 @@ class InferValidationTest {
     }
 
     @Test
-    void lemburLebih18Jam() throws Exception {
+    void lemburLebih12Jam() throws Exception {
         mockMvc.perform(post("/infer")
                         .contentType(MediaType.APPLICATION_JSON)
                         .content("""
-                                {"topik":"Lembur","fakta":{"jamLembur":19,"upahBulanan":5000000}}
+                                {"topik":"Lembur","fakta":{"jamLembur":13,"upahBulanan":5000000}}
                                 """))
                 .andExpect(status().isUnprocessableEntity())
                 .andExpect(jsonPath("$.detail[0].type").value("less_than_equal"))

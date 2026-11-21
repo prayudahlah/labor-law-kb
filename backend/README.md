@@ -98,7 +98,7 @@ src/main/java/ac/id/uns/kbr/
 - [x] CI test dan build image
 
 Kontrak input/output SWRL ada di `KB_CONTRACT.md`. Mode perhitungan diatur
-lewat `kb.calculation.mode` (`swrl`, `auto`, `java`). Default `swrl`; `auto`
-dan `java` adalah jalur legacy/transisi. Rule digenerate dengan
+lewat `kb.calculation.mode` (`auto`, `swrl`, `java`). Default `auto`; `swrl`
+untuk demo tanpa fallback, dan `java` legacy. Rule digenerate dengan
 `uv run python scripts/build_swrl.py`.
 

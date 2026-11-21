@@ -2,6 +2,7 @@ package ac.id.uns.kbr;
 
 import static org.junit.jupiter.api.Assertions.assertEquals;
 import static org.junit.jupiter.api.Assertions.assertNull;
+import static org.junit.jupiter.api.Assertions.assertThrows;
 
 import java.math.BigDecimal;
 import java.nio.file.Path;
@@ -68,6 +69,29 @@ class JavaCalculationProviderTest {
     }
 
     @Test
+    void phkMasaKerjaKurang36() {
+        OWLNamedIndividual pekerja = pekerja();
+        manager.addAxiom(kasus, df.getOWLDataPropertyAssertionAxiom(dp("masaKerjaBulan"), pekerja, 6));
+        manager.addAxiom(kasus, df.getOWLDataPropertyAssertionAxiom(dp("upahBulanan"), pekerja,
+                df.getOWLLiteral("12000000", OWL2Datatype.XSD_DECIMAL)));
+
+        OWLNamedIndividual phk = df.getOWLNamedIndividual(IRI.create(KTN + "KasusPHK"));
+        manager.addAxiom(kasus, df.getOWLClassAssertionAxiom(
+                df.getOWLClass(IRI.create(KTN + "PHK")), phk));
+        manager.addAxiom(kasus, df.getOWLObjectPropertyAssertionAxiom(op("mengalami"), pekerja, phk));
+        manager.addAxiom(kasus, df.getOWLObjectPropertyAssertionAxiom(op("memilikiAlasanPHK"), phk,
+                df.getOWLNamedIndividual(IRI.create(KTN + "EfisiensiRugi"))));
+
+        OpenlletReasoner reasoner = reasoner();
+        CalculationResult hasil = provider.hitung("PHK", pekerja, manager, reasoner, hak(reasoner, pekerja));
+
+        assertEquals(6_000_000.0, hasil.nominal(), 0.001);
+        assertEquals(0, BigDecimal.ZERO.compareTo((BigDecimal) hasil.rincian().get("upmk_bulan")));
+        assertEquals(0, new BigDecimal("0.5")
+                .compareTo((BigDecimal) hasil.rincian().get("total_bulan")));
+    }
+
+    @Test
     void lembur() {
         OWLNamedIndividual pekerja = pekerja();
         manager.addAxiom(kasus, df.getOWLDataPropertyAssertionAxiom(dp("upahBulanan"), pekerja,
@@ -89,6 +113,27 @@ class JavaCalculationProviderTest {
         assertEquals(216_763.0, hasil.nominal(), 0.001);
         assertEquals(0, new BigDecimal("28901.73")
                 .compareTo((BigDecimal) hasil.rincian().get("upah_sejam")));
+    }
+
+    @Test
+    void lemburPecahan() {
+        CalculationResult hasil = hitungLembur("4.5");
+
+        assertEquals(245_665.0, hasil.nominal(), 0.001);
+        assertEquals(0, new BigDecimal("4.5")
+                .compareTo((BigDecimal) hasil.rincian().get("jam")));
+    }
+
+    @Test
+    void lemburDuaBelasJam() {
+        CalculationResult hasil = hitungLembur("12");
+
+        assertEquals(679_191.0, hasil.nominal(), 0.001);
+    }
+
+    @Test
+    void lemburLebih12Ditolak() {
+        assertThrows(IllegalArgumentException.class, () -> hitungLembur("13"));
     }
 
     @Test
@@ -143,6 +188,25 @@ class JavaCalculationProviderTest {
 
         assertEquals(12, ((Number) hasil.rincian().get("cuti_tahunan_hari")).intValue());
         assertNull(hasil.nominal());
+    }
+
+    private CalculationResult hitungLembur(String jam) {
+        OWLNamedIndividual pekerja = pekerja();
+        manager.addAxiom(kasus, df.getOWLDataPropertyAssertionAxiom(dp("upahBulanan"), pekerja,
+                df.getOWLLiteral("5000000", OWL2Datatype.XSD_DECIMAL)));
+
+        OWLNamedIndividual lembur = df.getOWLNamedIndividual(IRI.create(KTN + "KasusLembur"));
+        manager.addAxiom(kasus, df.getOWLClassAssertionAxiom(
+                df.getOWLClass(IRI.create(KTN + "Lembur")), lembur));
+        manager.addAxiom(kasus, df.getOWLObjectPropertyAssertionAxiom(
+                op("mengerjakanLembur"), pekerja, lembur));
+        manager.addAxiom(kasus, df.getOWLDataPropertyAssertionAxiom(dp("jamLembur"), lembur,
+                df.getOWLLiteral(jam, OWL2Datatype.XSD_DECIMAL)));
+        manager.addAxiom(kasus, df.getOWLDataPropertyAssertionAxiom(dp("padaHariKerja"), lembur,
+                df.getOWLLiteral(true)));
+
+        OpenlletReasoner reasoner = reasoner();
+        return provider.hitung("Lembur", pekerja, manager, reasoner, hak(reasoner, pekerja));
     }
 
     private OWLNamedIndividual pekerja() {

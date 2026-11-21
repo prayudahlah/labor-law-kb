@@ -77,9 +77,10 @@ ktn:KasusPekerja
 
 `kb.calculation.mode`:
 
-- `swrl`: default. Hanya baca output SWRL, gagal kalau tidak ada.
-- `auto`: coba SWRL, fallback Java. Jalur transisi, bukan untuk demo.
-- `java`: hitung di Java. Jalur legacy, tidak dipakai untuk demo.
+- `auto`: default. Coba SWRL, fallback Java kalau output SWRL kosong.
+- `swrl`: hanya baca output SWRL, gagal kalau tidak ada. Dipakai untuk demo
+  yang ingin membuktikan jalur rule tanpa fallback.
+- `java`: hitung di Java. Jalur legacy.
 
 ## Yang perlu dikonfirmasi ke Anin
 
@@ -109,7 +110,7 @@ Rule sudah tersedia dan diuji end-to-end.
   generated yang tertinggal.
 - CI juga menjalankan `InferControllerTest` dengan `KB_CALC_MODE=swrl`, jadi
   jalur API tanpa fallback Java ikut diuji.
-- Mode default `swrl`; `java` dan `auto` adalah jalur legacy/transisi.
+- Mode default `auto`; `swrl` untuk demo tanpa fallback dan `java` legacy.
 
 Keputusan yang sudah diambil:
 
@@ -127,13 +128,16 @@ Batas yang disepakati:
 
 - Lembur progresif memakai tabel bantu `AkumulasiLembur` yang dihasilkan
   `scripts/build_ontology.py`. SWRL tidak punya agregasi, jadi total pengali
-  dihitung saat build. Hanya untuk jam bulat; jam pecahan belum didukung
-  (mode `auto` masih fallback ke Java, mode `swrl` gagal).
+  dihitung saat build. SWRL baru mencakup jam bulat, dan untuk `hari_kerja`
+  baru 1..4. Mode `auto` fallback ke Java untuk jam pecahan dan jam 5..12;
+  Java melanjutkan pengali terakhir sampai 12. Mode `swrl` gagal untuk kasus
+  di luar tabel.
 - `padaHariKerja=false` dipetakan ke `libur_5hari` karena input belum
   membedakan libur 6 hari dan libur terpendek.
 - Cuti khusus (haid, keguguran, menikah) belum masuk SWRL. Jalur Java masih
   membaca `hariDibayar` dari individu peristiwa; SWRL hanya menghasilkan
-  `cutiTahunanHari`.
+  `cutiTahunanHari`. Mode `auto` belum fallback untuk cuti khusus karena SWRL
+  mengembalikan hasil parsial, bukan kosong.
 - `scripts/check_ontology.py` memakai HermiT yang tidak mendukung semua builtin
   `swrlb`; jalankan dengan `--tanpa-swrl` untuk cek T-Box. Verifikasi rule
   memakai Openllet lewat `SwrlKalkulasiTest`.
