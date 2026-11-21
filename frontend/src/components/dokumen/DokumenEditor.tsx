@@ -150,12 +150,17 @@ export default function DokumenEditor({
     if (terpilih.length === 0) return;
 
     if (template) {
-      const daftar = terpilih
+      // Hanya pasal yang belum ada di draf — supaya klik berulang tidak
+      // menduplikasi baris, dan blok baru berisi "sisipan yang lain" saja.
+      const baru = terpilih
         .map((item) => `- ${item.pasal} — ${labelManusia(item.jenis)}`)
-        .join('\n');
-      const bagian = `## Dasar Hukum\n${daftar}`;
-      const tanpa = drafTeks.replace(/\n?## Dasar Hukum[\s\S]*$/i, '').trim();
-      onUbahDrafTeks(`${tanpa ? `${tanpa}\n\n` : ''}${bagian}`);
+        .filter((baris) => !drafTeks.includes(baris));
+      if (baru.length === 0) return;
+      const bagian = `## Dasar Hukum\n${baru.join('\n')}`;
+      // Selalu tambahkan blok baru di akhir — teks/catatan yang sudah ada
+      // tidak boleh hilang saat menyisipkan pasal berikutnya.
+      const isi = drafTeks.replace(/\s+$/, '');
+      onUbahDrafTeks(isi ? `${isi}\n\n${bagian}` : bagian);
       return;
     }
 
