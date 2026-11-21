@@ -42,7 +42,7 @@ export function susunRingkasan(
   )) {
     baris.push(`## ${topik} (${daftar.length})`);
     for (const item of daftar) {
-      const tautan = item.tautan ? ` — [sumber](${item.tautan})` : '';
+      const tautan = item.tautan ? ` — [${item.tautan}]` : '';
       baris.push(`- ${item.pasal} — ${labelManusia(item.jenis)}${tautan}`);
     }
     baris.push('');
