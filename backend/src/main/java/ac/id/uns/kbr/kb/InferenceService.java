@@ -54,6 +54,12 @@ public class InferenceService {
                     .map(kelas -> kelas.getIRI().getFragment())
                     .collect(Collectors.toSet());
             List<String> hak = HakMapper.map(tipe);
+            if ("Cuti".equals(request.topik())
+                    && !"CutiHaid".equals(request.fakta().get("peristiwa"))) {
+                hak = hak.stream()
+                        .filter(item -> !"CutiHaid".equals(item))
+                        .toList();
+            }
 
             CalculationResult hasil = calculation.hitung(
                     request.topik(), kasus, session.manager(), owlReasoner, tipe);

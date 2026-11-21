@@ -90,13 +90,17 @@ public class LlmRouter {
                 - Jika maksud tidak jelas, panggil klarifikasi.
                 - Jangan menulis query. Jangan memutuskan hukum.
                 Field per topik: PHK: masaKerjaBulan, upahBulanan, bentukHubunganKerja, alasanPHK;
-                Lembur: jamLembur, padaHariKerja, upahBulanan;
+                Lembur: jamLembur, padaHariKerja, jenisHari, upahBulanan;
                 Cuti: masaKerjaBulan, peristiwa, perempuan;
                 PKWT: bentukHubunganKerja, masaKerjaBulan, upahBulanan;
                 Jamsos: upahBulanan;
                 KIA: sedangCutiMelahirkan, cutiMelahirkanBulan, upahBulanan.
                 alasanPHK harus salah satu dari: EfisiensiRugi, MengundurkanDiri, Pensiun,
                 MeninggalDunia, Pailit, Mangkir, PelanggaranSP.
+                jenisHari harus salah satu dari: hari_kerja, libur_5hari, libur_6hari,
+                libur_terpendek. Jangan mengisi padaHariKerja kalau jenisHari sudah diisi.
+                peristiwa Cuti harus salah satu dari: CutiHaid, CutiKeguguran,
+                UpahCutiMenikah, UpahCutiKeluarga2Hari, UpahCutiKematianSerumah.
                 Ubah angka dalam kata menjadi angka.
                 Konteks sesi: topik_infer=%s, fakta=%s, pending=%s.
                 """.formatted(state.get("topik_infer"), state.get("fakta"), state.get("pending"));

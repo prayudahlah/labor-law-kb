@@ -63,6 +63,9 @@ public class Forms {
             OWLNamedIndividual per = individu(s, peristiwa);
             kelas(s, per, "PeristiwaCutiKhusus");
             objek(s, p, "mengalamiPeristiwa", per);
+            if ("CutiKeguguran".equals(peristiwa)) {
+                dataBool(s, p, "mengalamiKeguguran", true);
+            }
         }
     }
 
