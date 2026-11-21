@@ -183,7 +183,14 @@ export default function DokumenEditor({
       return;
     }
 
-    const ringkas = susunRingkasan(judulEfektif, preset.nama, butir, checklist.ditandai);
+    const ringkas = susunRingkasan(
+      judulEfektif,
+      preset.nama,
+      butir,
+      checklist.ditandai,
+      // Header aktif sudah menampilkan judul + jenis, jadi info tidak diulang.
+      !headerAktif,
+    );
     const badan = ringkas.replace(/^# .+\n+/, '');
     if (
       drafTeks.trim().length > 0 &&

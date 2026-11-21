@@ -7,22 +7,28 @@ import { labelManusia } from './text';
  *
  * Memuat SEMUA pasal bertanda (bukan hanya hasil filter topik), dikelompokkan
  * per topik, dengan tautan sumber bila ada.
+ *
+ * `denganInfo` menambahkan baris "Jenis dokumen" dan "Ditandai" — dipakai saat
+ * header dokumen (yang sudah menampilkan info itu) sedang disembunyikan.
  */
 export function susunRingkasan(
   judul: string,
   namaDokumen: string,
   butir: ButirKetentuan[],
   ditandai: Set<string>,
+  denganInfo = true,
 ): string {
   const terpilih = butir.filter((item) => ditandai.has(kunciButir(item)));
 
-  const baris: string[] = [
-    `# ${judul}`,
-    '',
-    `Jenis dokumen: ${namaDokumen}`,
-    `Ditandai: ${terpilih.length} dari ${butir.length} pasal`,
-    '',
-  ];
+  const baris: string[] = denganInfo
+    ? [
+        `# ${judul}`,
+        '',
+        `Jenis dokumen: ${namaDokumen}`,
+        `Ditandai: ${terpilih.length} dari ${butir.length} pasal`,
+        '',
+      ]
+    : [];
 
   const perTopik = new Map<string, ButirKetentuan[]>();
   for (const item of terpilih) {
