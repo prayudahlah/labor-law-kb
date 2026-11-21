@@ -54,9 +54,11 @@ public class Forms {
 
     private void cuti(CaseSession s, Map<String, Object> f) {
         OWLNamedIndividual p = individu(s, "KasusPekerja");
-        kelas(s, p, bool(f, "perempuan", false) ? "PekerjaPerempuan" : "Pekerja");
-        dataInt(s, p, "masaKerjaBulan", wajibInt(f, "masaKerjaBulan"));
         String peristiwa = teks(f, "peristiwa", null);
+        boolean perempuan = bool(f, "perempuan", false)
+                || (peristiwa != null && CutiEvents.PEREMPUAN.contains(peristiwa));
+        kelas(s, p, perempuan ? "PekerjaPerempuan" : "Pekerja");
+        dataInt(s, p, "masaKerjaBulan", wajibInt(f, "masaKerjaBulan"));
         if (peristiwa != null) {
             OWLNamedIndividual per = individu(s, peristiwa);
             kelas(s, per, "PeristiwaCutiKhusus");

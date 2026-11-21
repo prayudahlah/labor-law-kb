@@ -196,6 +196,46 @@ class SwrlKalkulasiTest {
     }
 
     @Test
+    void lemburLiburEnamHariSebelasJam() throws Exception {
+        CalculationResult hasil = hitungSwrl("Lembur", Map.of(
+                "jamLembur", 11,
+                "jenisHari", "libur_6hari",
+                "upahBulanan", 5_000_000));
+
+        sama("838150", hasil.nominal());
+    }
+
+    @Test
+    void lemburLiburEnamHariDuaBelasJamKosong() throws Exception {
+        Optional<CalculationResult> hasil = hitungSwrlOpsional("Lembur", Map.of(
+                "jamLembur", 12,
+                "jenisHari", "libur_6hari",
+                "upahBulanan", 5_000_000));
+
+        assertTrue(hasil.isEmpty());
+    }
+
+    @Test
+    void lemburLiburTerpendekSembilanJam() throws Exception {
+        CalculationResult hasil = hitungSwrl("Lembur", Map.of(
+                "jamLembur", 9,
+                "jenisHari", "libur_terpendek",
+                "upahBulanan", 5_000_000));
+
+        sama("722543", hasil.nominal());
+    }
+
+    @Test
+    void lemburLiburTerpendekSepuluhJamKosong() throws Exception {
+        Optional<CalculationResult> hasil = hitungSwrlOpsional("Lembur", Map.of(
+                "jamLembur", 10,
+                "jenisHari", "libur_terpendek",
+                "upahBulanan", 5_000_000));
+
+        assertTrue(hasil.isEmpty());
+    }
+
+    @Test
     void lemburPecahanMengembalikanKosong() throws Exception {
         Optional<CalculationResult> hasil = hitungSwrlOpsional("Lembur", Map.of(
                 "jamLembur", 3.5,
@@ -232,10 +272,20 @@ class SwrlKalkulasiTest {
     }
 
     @Test
-    void cutiHaidTanpaRuleMengembalikanKosong() throws Exception {
-        Optional<CalculationResult> hasil = hitungSwrlOpsional("Cuti", Map.of(
+    void cutiHaidMengembalikanDuaHari() throws Exception {
+        CalculationResult hasil = hitungSwrl("Cuti", Map.of(
                 "masaKerjaBulan", 12,
                 "peristiwa", "CutiHaid"));
+
+        sama("2", hasil.rincian().get("cuti_haid_hari"));
+    }
+
+    @Test
+    void cutiKeguguranMengembalikanKosong() throws Exception {
+        Optional<CalculationResult> hasil = hitungSwrlOpsional("Cuti", Map.of(
+                "masaKerjaBulan", 12,
+                "perempuan", true,
+                "peristiwa", "CutiKeguguran"));
 
         assertTrue(hasil.isEmpty());
     }

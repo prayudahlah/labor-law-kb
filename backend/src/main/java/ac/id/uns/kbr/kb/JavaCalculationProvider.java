@@ -74,7 +74,7 @@ public class JavaCalculationProvider implements CalculationProvider {
                 m, OntologyValues.individual(m, "UpahSejamLembur"), "faktorPembagiUpahSejam");
         BigDecimal upahSejam = upah.divide(faktor, 10, RoundingMode.HALF_UP);
 
-        int batasJam = "hari_kerja".equals(jenis) ? 4 : 12;
+        int batasJam = LemburRules.batasJam(jenis);
         if (jam.compareTo(BigDecimal.ZERO) <= 0
                 || jam.compareTo(BigDecimal.valueOf(batasJam)) > 0) {
             throw new IllegalArgumentException(
@@ -160,9 +160,11 @@ public class JavaCalculationProvider implements CalculationProvider {
         if (hak.contains("CutiTahunan") || hak.contains("MemenuhiSyaratCutiTahunan")) {
             rincian.put("cuti_tahunan_hari", 12);
         }
+        String peristiwaNama = null;
         try {
             OWLNamedIndividual peristiwa = OntologyValues.object(m, pekerja, "mengalamiPeristiwa");
-            rincian.put("peristiwa", peristiwa.getIRI().getFragment());
+            peristiwaNama = peristiwa.getIRI().getFragment();
+            rincian.put("peristiwa", peristiwaNama);
             Integer hari = OntologyValues.optionalInteger(m, peristiwa, "hariDibayar");
             if (hari != null) {
                 rincian.put("hari_dibayar", hari);
@@ -170,34 +172,24 @@ public class JavaCalculationProvider implements CalculationProvider {
         } catch (IllegalStateException ignored) {
             // Tidak semua kasus cuti punya peristiwa khusus.
         }
-        if (hak.contains("CutiHaid") || hak.contains("MemenuhiSyaratCutiHaid")) {
+        if ("CutiHaid".equals(peristiwaNama)) {
             rincian.put("cuti_haid_hari", 2);
+        }
+        if ("CutiKeguguran".equals(peristiwaNama)) {
+            rincian.put("cuti_keguguran_bulan", new BigDecimal("1.5"));
         }
         return new CalculationResult(rincian, null);
     }
 
     private static BigDecimal pengaliLembur(
             OWLOntologyManager m, String jenis, int jam) {
-        BigDecimal terakhir = null;
-        int minTerakhir = -1;
         for (OWLNamedIndividual pl : OntologyValues.individuals(m, "PengaliLembur")) {
             String jh = OntologyValues.string(m, pl, "jenisHari");
             int min = OntologyValues.integer(m, pl, "jamMin");
             int max = OntologyValues.integer(m, pl, "jamMax");
-            if (!jh.equals(jenis)) {
-                continue;
+            if (jh.equals(jenis) && jam >= min && jam <= max) {
+                return OntologyValues.decimal(m, pl, "pengali");
             }
-            BigDecimal pengali = OntologyValues.decimal(m, pl, "pengali");
-            if (jam >= min && jam <= max) {
-                return pengali;
-            }
-            if (min <= jam && min > minTerakhir) {
-                minTerakhir = min;
-                terakhir = pengali;
-            }
-        }
-        if (terakhir != null) {
-            return terakhir;
         }
         throw new IllegalStateException(
                 "Pengali lembur tidak ditemukan untuk " + jenis + " jam " + jam);

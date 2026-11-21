@@ -11,6 +11,8 @@ import org.springframework.stereotype.Service;
 import ac.id.uns.kbr.api.dto.InferRequest;
 import ac.id.uns.kbr.api.error.ValidationError;
 import ac.id.uns.kbr.api.error.ValidationException;
+import ac.id.uns.kbr.kb.CutiEvents;
+import ac.id.uns.kbr.kb.LemburRules;
 
 @Service
 public class ValidationService {
@@ -60,8 +62,19 @@ public class ValidationService {
             }
             case "Cuti" -> {
                 integer(fakta, topik, "masaKerjaBulan", 0, null, errors);
-                teksOpsional(fakta, topik, "peristiwa", errors);
+                literalOpsional(fakta, topik, "peristiwa", CutiEvents.DIIZINKAN, errors);
                 booleanOpsional(fakta, topik, "perempuan", errors);
+                Object peristiwa = fakta.get("peristiwa");
+                if (peristiwa instanceof String teks
+                        && CutiEvents.PEREMPUAN.contains(teks)
+                        && Boolean.FALSE.equals(fakta.get("perempuan"))) {
+                    errors.add(new ValidationError(
+                            "value_error",
+                            loc(topik, "perempuan"),
+                            "Input should be true untuk peristiwa " + teks,
+                            false,
+                            Map.of("expected", true)));
+                }
             }
             case "PKWT" -> {
                 literal(fakta, topik, "bentukHubunganKerja", List.of("PKWT", "PKWTT"), errors);
@@ -245,11 +258,15 @@ public class ValidationService {
     private static double batasLembur(Map<String, Object> fakta) {
         Object jenis = fakta.get("jenisHari");
         if (jenis instanceof String teks) {
-            return "hari_kerja".equals(teks) ? 4.0 : 12.0;
+            try {
+                return LemburRules.batasJam(teks);
+            } catch (IllegalArgumentException ignored) {
+                return 4.0;
+            }
         }
         Object padaHariKerja = fakta.get("padaHariKerja");
-        if (padaHariKerja instanceof Boolean hariKerja && !hariKerja) {
-            return 12.0;
+        if (padaHariKerja instanceof Boolean hariKerja) {
+            return LemburRules.batasJam(hariKerja);
         }
         return 4.0;
     }

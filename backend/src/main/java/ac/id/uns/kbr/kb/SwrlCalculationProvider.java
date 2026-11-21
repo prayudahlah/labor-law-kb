@@ -124,13 +124,17 @@ public class SwrlCalculationProvider {
                 .findFirst()
                 .orElse(null);
 
+        String peristiwaNama = peristiwa == null
+                ? null
+                : peristiwa.getIRI().getFragment();
+
         boolean khusus = false;
         Optional<BigDecimal> khususHari = inferred(reasoner, kasus, "cutiKhususHari");
         if (khususHari.isPresent()) {
             rincian.put("hari_dibayar", khususHari.get());
             khusus = true;
         }
-        if (hak.contains("CutiHaid")) {
+        if ("CutiHaid".equals(peristiwaNama)) {
             rincian.put("cuti_haid_hari", 2);
             khusus = true;
         }

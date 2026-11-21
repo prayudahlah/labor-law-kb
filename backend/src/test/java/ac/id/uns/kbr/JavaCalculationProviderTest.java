@@ -143,6 +143,32 @@ class JavaCalculationProviderTest {
     }
 
     @Test
+    void lemburLiburEnamHariSebelasJam() {
+        CalculationResult hasil = hitungLembur("11", "libur_6hari");
+
+        assertEquals(838_150.0, hasil.nominal(), 0.001);
+    }
+
+    @Test
+    void lemburLiburEnamHariDuaBelasJamDitolak() {
+        assertThrows(IllegalArgumentException.class,
+                () -> hitungLembur("12", "libur_6hari"));
+    }
+
+    @Test
+    void lemburLiburTerpendekSembilanJam() {
+        CalculationResult hasil = hitungLembur("9", "libur_terpendek");
+
+        assertEquals(722_543.0, hasil.nominal(), 0.001);
+    }
+
+    @Test
+    void lemburLiburTerpendekSepuluhJamDitolak() {
+        assertThrows(IllegalArgumentException.class,
+                () -> hitungLembur("10", "libur_terpendek"));
+    }
+
+    @Test
     void lemburLiburLebih12Ditolak() {
         assertThrows(IllegalArgumentException.class,
                 () -> hitungLembur("13", "libur_5hari"));
@@ -223,6 +249,29 @@ class JavaCalculationProviderTest {
         CalculationResult hasil = hitungCuti("CutiHaid", true);
 
         assertEquals(2, ((Number) hasil.rincian().get("cuti_haid_hari")).intValue());
+    }
+
+    @Test
+    void cutiKeguguran() {
+        CalculationResult hasil = hitungCuti("CutiKeguguran", true);
+
+        assertEquals(1.5, ((BigDecimal) hasil.rincian().get("cuti_keguguran_bulan"))
+                .doubleValue(), 0.001);
+        assertNull(hasil.rincian().get("cuti_haid_hari"));
+    }
+
+    @Test
+    void cutiPerempuanTanpaPeristiwaTidakMenambahHaid() {
+        OWLNamedIndividual pekerja = pekerja();
+        manager.addAxiom(kasus, df.getOWLClassAssertionAxiom(
+                df.getOWLClass(IRI.create(KTN + "PekerjaPerempuan")), pekerja));
+        manager.addAxiom(kasus, df.getOWLDataPropertyAssertionAxiom(dp("masaKerjaBulan"), pekerja, 12));
+
+        OpenlletReasoner reasoner = reasoner();
+        CalculationResult hasil = provider.hitung(
+                "Cuti", pekerja, manager, reasoner, hak(reasoner, pekerja));
+
+        assertNull(hasil.rincian().get("cuti_haid_hari"));
     }
 
     private CalculationResult hitungCuti(String peristiwa) {
