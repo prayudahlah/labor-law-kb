@@ -115,7 +115,7 @@ Rule sudah tersedia dan diuji end-to-end.
   membandingkan hasil SWRL dengan `golden-cases.json`, termasuk PKWT
   non-kelipatan 12, batas KIA, bracket PHK, PHK 6 bulan, lembur hari libur,
   dan penanda kosong untuk kasus yang belum didukung. Total suite backend
-  126 tes.
+  135 tes.
 - CI `kb` menjalankan ulang `build_ontology.py`, `build_swrl.py`, dan
   `build_catalog.py` lalu `git diff --exit-code` untuk mendeteksi berkas
   generated yang tertinggal.

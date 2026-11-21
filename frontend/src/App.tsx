@@ -4,7 +4,6 @@ import ChatThread from './components/chat/ChatThread';
 import MainArea from './components/chat/MainArea';
 import DokumenEditor from './components/dokumen/DokumenEditor';
 import DokumenEmptyState from './components/dokumen/DokumenEmptyState';
-import DokumenPanel from './components/dokumen/DokumenPanel';
 import Sidebar from './components/layout/Sidebar';
 import TopBar from './components/layout/TopBar';
 import { bacaChecklistLama } from './hooks/useChecklist';
@@ -12,7 +11,7 @@ import { useChat } from './hooks/useChat';
 import { useDokumen } from './hooks/useDokumen';
 import { useHealth } from './hooks/useHealth';
 import { useRecents } from './hooks/useRecents';
-import { badanDrafLama, bisaDraf, judulDokumen } from './lib/dokumen';
+import { badanDrafLama, bisaDraf, judulDokumen, kodeDokumen } from './lib/dokumen';
 import { potong } from './lib/text';
 import type { Mode } from './types/app';
 import type { DokumenResponse } from './types/api';
@@ -47,14 +46,15 @@ export default function App() {
         judul: entriDokumen.title,
         pasal: entriDokumen.pasal ?? [],
         fakta: entriDokumen.fakta ?? {},
-        ringkasan: entriDokumen.ringkasan ?? null,
-        drafTemplate:
-          entriDokumen.messages.find((pesan) => pesan.draf)?.draf?.template ?? null,
+        drafTeks:
+          entriDokumen.drafTeks ??
+          entriDokumen.ringkasan ??
+          (() => {
+            const draf = entriDokumen.messages.find((pesan) => pesan.draf)?.draf;
+            return draf ? badanDrafLama(draf.template) : '';
+          })(),
       }
     : null;
-
-  /** Dokumen bertemplat memakai editor, bukan panel checklist. */
-  const pakaiEditor = dokumen.preset ? bisaDraf(dokumen.preset) : false;
 
   const bukaBaru = () => {
     chat.reset();
@@ -82,7 +82,9 @@ export default function App() {
         if (item.fakta) dokumen.muatFakta(item.fakta);
         dokumen.muatJudul(item.title);
         dokumen.muatDrafTeks(
-          item.drafTeks ?? (draf ? badanDrafLama(draf.template) : ''),
+          item.drafTeks ??
+            item.ringkasan ??
+            (draf ? badanDrafLama(draf.template) : ''),
         );
         if (item.ringkasan) {
           dokumen.muatRingkasan(
@@ -102,14 +104,23 @@ export default function App() {
     // Entri dokumen lama (belum punya dokumenId).
     const drafLama = item.messages.find((pesan) => pesan.draf)?.draf;
     if (item.mode === 'dokumen' && drafLama) {
-      chat.reset();
-      dokumen.reset();
-      dokumen.muatDraf(drafLama);
-      setActiveDokId(item.id);
-      setActiveId(item.id);
-      setThreadMode(null);
-      setMode('dokumen');
-      return;
+      const preset = dokumen.presets.find(
+        (pilihan) => kodeDokumen(pilihan) === drafLama.dokumen,
+      );
+      if (preset) {
+        chat.reset();
+        dokumen.sesiBaru();
+        dokumen.pilih(preset);
+        dokumen.muatDraf(drafLama);
+        dokumen.muatDrafTeks(badanDrafLama(drafLama.template));
+        dokumen.muatJudul(drafLama.judul);
+        setChecklistAwal([]);
+        setActiveDokId(item.id);
+        setActiveId(item.id);
+        setThreadMode(null);
+        setMode('dokumen');
+        return;
+      }
     }
 
     dokumen.reset();
@@ -144,6 +155,8 @@ export default function App() {
   const pilihDokumen = (preset: Parameters<typeof dokumen.pilih>[0]) => {
     setActiveDokId(null);
     setChecklistAwal(null);
+    // Sesi kerja baru: centang dari dokumen sebelumnya tidak boleh ikut terbawa.
+    dokumen.sesiBaru();
     dokumen.pilih(preset);
   };
 
@@ -188,10 +201,10 @@ export default function App() {
   }) => {
     if (!dokumen.preset || !idDokumenSesi) return;
 
-    const editor = bisaDraf(dokumen.preset);
+    const template = bisaDraf(dokumen.preset);
     const judul = (
       tambahan.judul ??
-      (editor
+      (template
         ? judulDokumen(dokumen.preset.nama, dokumen.fakta.nama_perusahaan ?? '')
         : dokumen.judul)
     ).trim();
@@ -219,7 +232,7 @@ export default function App() {
       id: idDokumenSesi,
       mode: 'dokumen',
       dokumenId: dokumen.preset.id,
-      fakta: { ...dokumen.fakta },
+      fakta: template ? { ...dokumen.fakta } : {},
       title: judul,
       updatedAt: Date.now(),
       messages: pesan,
@@ -229,21 +242,6 @@ export default function App() {
     });
     setActiveDokId(idDokumenSesi);
     setActiveId(idDokumenSesi);
-  };
-
-  const susunDraf = async () => {
-    await dokumen.susun(chat.sesi);
-  };
-
-  const buatRingkasan = (
-    teks: string,
-    jumlahTanda: number,
-    pasal: string[],
-    judul: string,
-    dasar: string,
-  ) => {
-    dokumen.tampilkanRingkasan(teks, dasar);
-    void simpanDokumen({ ringkasan: teks, ditandai: jumlahTanda, pasal, judul });
   };
 
   // Thread chat hanya dirender di mode chat dan hanya untuk thread chat.
@@ -260,7 +258,7 @@ export default function App() {
 
   // Chat terkunci setelah percakapan dimulai; dokumen terkunci setelah ada
   // draf atau ringkasan.
-  const adaHasilDokumen = Boolean(dokumen.draf) || Boolean(dokumen.ringkasan);
+  const adaHasilDokumen = Boolean(dokumen.draf) || Boolean(dokumen.drafTeks.trim());
   const modeLocked = mode === 'chat' ? chat.messages.length > 0 : adaHasilDokumen;
 
   /** Hapus entri riwayat; kalau entri itu sedang terbuka, kembali ke New Chat. */
@@ -305,58 +303,25 @@ export default function App() {
           }
           dokumenPanel={
             dokumen.preset ? (
-              pakaiEditor ? (
-                <DokumenEditor
-                  preset={dokumen.preset}
-                  butir={dokumen.butir}
-                  loadingButir={dokumen.loadingButir}
-                  butirError={dokumen.butirError}
-                  fakta={dokumen.fakta}
-                  onUbahFakta={dokumen.ubahFakta}
-                  drafTeks={dokumen.drafTeks}
-                  onUbahDrafTeks={dokumen.ubahDrafTeks}
-                  onSimpan={() => void simpanDokumen({ drafTeks: dokumen.drafTeks })}
-                  onKembali={dokumen.kembali}
-                  entriTersimpan={
-                    entriDokumen
-                      ? {
-                          fakta: entriDokumen.fakta ?? {},
-                          drafTeks: entriDokumen.drafTeks ?? '',
-                        }
-                      : null
-                  }
-                />
-              ) : (
-                <DokumenPanel
-                  preset={dokumen.preset}
-                  butir={dokumen.butir}
-                  loadingButir={dokumen.loadingButir}
-                  butirError={dokumen.butirError}
-                  fakta={dokumen.fakta}
-                  onUbahFakta={dokumen.ubahFakta}
-                  onSusun={susunDraf}
-                  loadingDraf={dokumen.loadingDraf}
-                  drafError={dokumen.drafError}
-                  draf={dokumen.draf}
-                  onKembali={dokumen.kembali}
-                  ringkasan={dokumen.ringkasan}
-                  ringkasanTampil={dokumen.ringkasanTampil}
-                  ringkasanAwal={dokumen.ringkasanAwal}
-                  ringkasanDasar={dokumen.ringkasanDasar}
-                  onBuatRingkasan={buatRingkasan}
-                  onUbahRingkasan={dokumen.ubahRingkasan}
-                  onBukaRingkasan={dokumen.bukaRingkasan}
-                  onSembunyikanRingkasan={dokumen.sembunyikanRingkasan}
-                  judul={dokumen.judul}
-                  onUbahJudul={dokumen.ubahJudul}
-                  sesiChecklist={sesiChecklist}
-                  awalChecklist={checklistAwal}
-                  onSimpan={(jumlah, pasal, judul) =>
-                    void simpanDokumen({ ditandai: jumlah, pasal, judul })
-                  }
-                  entriTersimpan={entriTersimpan}
-                />
-              )
+              <DokumenEditor
+                preset={dokumen.preset}
+                butir={dokumen.butir}
+                loadingButir={dokumen.loadingButir}
+                butirError={dokumen.butirError}
+                fakta={dokumen.fakta}
+                onUbahFakta={dokumen.ubahFakta}
+                drafTeks={dokumen.drafTeks}
+                onUbahDrafTeks={dokumen.ubahDrafTeks}
+                judul={dokumen.judul}
+                onUbahJudul={dokumen.ubahJudul}
+                sesiChecklist={sesiChecklist}
+                awalChecklist={checklistAwal}
+                onSimpan={(pasal) =>
+                  void simpanDokumen({ drafTeks: dokumen.drafTeks, pasal })
+                }
+                onKembali={dokumen.kembali}
+                entriTersimpan={entriTersimpan}
+              />
             ) : undefined
           }
         />

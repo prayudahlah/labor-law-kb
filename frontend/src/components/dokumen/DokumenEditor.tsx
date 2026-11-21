@@ -1,7 +1,10 @@
 import { useEffect, useMemo, useRef, useState } from 'react';
 
-import { formatTanggalPanjang, judulDokumen, namaBerkas } from '../../lib/dokumen';
+import { kunciButir, useChecklist } from '../../hooks/useChecklist';
 import { cx } from '../../lib/cx';
+import { bisaDraf, formatTanggalPanjang, judulDokumen, namaBerkas } from '../../lib/dokumen';
+import { susunRingkasan } from '../../lib/ringkasan';
+import { labelManusia } from '../../lib/text';
 import type { ButirKetentuan, DokumenPreset } from '../../types/api';
 import { IconCopy, IconDownload } from '../common/icons';
 import DokumenKetentuanList from './DokumenKetentuanList';
@@ -15,10 +18,19 @@ type Props = {
   onUbahFakta: (nama: string, nilai: string) => void;
   drafTeks: string;
   onUbahDrafTeks: (nilai: string) => void;
-  onSimpan: () => void;
+  judul: string;
+  onUbahJudul: (nilai: string) => void;
+  sesiChecklist: string | null;
+  awalChecklist?: readonly string[] | null;
+  onSimpan: (pasal: string[]) => void;
   onKembali: () => void;
   /** Cuplikan entri tersimpan untuk menghitung status "ada perubahan". */
-  entriTersimpan?: { fakta: Record<string, string>; drafTeks: string } | null;
+  entriTersimpan?: {
+    fakta: Record<string, string>;
+    drafTeks: string;
+    pasal?: string[];
+    judul?: string;
+  } | null;
 };
 
 const kunciFakta = (fakta: Record<string, string>): string =>
@@ -28,9 +40,14 @@ const kunciFakta = (fakta: Record<string, string>): string =>
       .sort(),
   );
 
+const kunciPasal = (pasal: Iterable<string>): string => [...pasal].sort().join('\n');
+
 /**
- * Editor dokumen bertemplat: rujukan pasal di kiri, draf di kanan.
- * Di layar sempit, keduanya menumpuk (tabel di atas, draf di bawah).
+ * Workspace dokumen: rujukan pasal + checklist di kiri, draf/notes di kanan.
+ *
+ * - Peraturan Perusahaan: field nama PT/nomor/tanggal + draf bertemplat.
+ * - Dokumen lain: field judul + notes bebas; ringkasan pasal bisa dibuat
+ *   dari pasal yang dicentang lalu diedit sebagai notes.
  */
 export default function DokumenEditor({
   preset,
@@ -41,20 +58,35 @@ export default function DokumenEditor({
   onUbahFakta,
   drafTeks,
   onUbahDrafTeks,
+  judul,
+  onUbahJudul,
+  sesiChecklist,
+  awalChecklist,
   onSimpan,
   onKembali,
   entriTersimpan,
 }: Props) {
+  const template = bisaDraf(preset);
   const nama = (fakta.nama_perusahaan ?? '').trim();
   const nomor = (fakta.nomor_peraturan ?? '').trim();
   const tanggal = (fakta.tanggal_berlaku ?? '').trim();
 
-  const judul = judulDokumen(preset.nama, nama);
+  const judulEfektif = template
+    ? judulDokumen(preset.nama, nama)
+    : judul.trim() || preset.nama;
   const tanggalTampil = formatTanggalPanjang(tanggal);
 
+  const checklist = useChecklist(sesiChecklist, awalChecklist);
+  const terpilih = useMemo(
+    () => butir.filter((item) => checklist.ditandai.has(kunciButir(item))),
+    [butir, checklist.ditandai],
+  );
+
   const [errorNama, setErrorNama] = useState(false);
+  const [errorJudul, setErrorJudul] = useState(false);
   const [goyang, setGoyang] = useState(0);
   const inputNama = useRef<HTMLInputElement>(null);
+  const inputJudul = useRef<HTMLInputElement>(null);
 
   const [status, setStatus] = useState<'idle' | 'tersalin' | 'gagal'>('idle');
 
@@ -66,28 +98,76 @@ export default function DokumenEditor({
 
   const adaPerubahan = useMemo(() => {
     if (entriTersimpan) {
+      const pasalSama =
+        kunciPasal(checklist.ditandai) === kunciPasal(entriTersimpan.pasal ?? []);
+      if (template) {
+        return (
+          kunciFakta(fakta) !== kunciFakta(entriTersimpan.fakta) ||
+          drafTeks !== entriTersimpan.drafTeks ||
+          !pasalSama
+        );
+      }
       return (
-        kunciFakta(fakta) !== kunciFakta(entriTersimpan.fakta) ||
-        drafTeks !== entriTersimpan.drafTeks
+        judul.trim() !== (entriTersimpan.judul ?? '').trim() ||
+        drafTeks !== entriTersimpan.drafTeks ||
+        !pasalSama
       );
     }
-    return [nama, nomor, tanggal, drafTeks].some((nilai) => nilai.length > 0);
-  }, [entriTersimpan, fakta, drafTeks, nama, nomor, tanggal]);
+
+    const adaIsi = drafTeks.trim().length > 0 || checklist.ditandai.size > 0;
+    return template
+      ? adaIsi || [nama, nomor, tanggal].some((nilai) => nilai.length > 0)
+      : adaIsi || judul.trim().length > 0;
+  }, [checklist.ditandai, drafTeks, entriTersimpan, fakta, judul, nama, nomor, tanggal, template]);
 
   const teksDokumen = () => {
-    const kepala = `# ${judul}\nNomor: ${nomor || '-'} · Tanggal berlaku: ${tanggalTampil}`;
     const badan = drafTeks.trim();
-    return badan ? `${kepala}\n\n${badan}` : kepala;
+    if (template) {
+      const kepala = `# ${judulEfektif}\nNomor: ${nomor || '-'} — Tanggal berlaku: ${tanggalTampil}`;
+      return badan ? `${kepala}\n\n${badan}` : kepala;
+    }
+    if (badan.startsWith('#')) return badan;
+    return badan ? `# ${judulEfektif}\n\n${badan}` : `# ${judulEfektif}`;
   };
 
   const simpan = () => {
-    if (!nama) {
+    if (template && !nama) {
       setErrorNama(true);
       setGoyang((nilai) => nilai + 1);
       inputNama.current?.focus();
       return;
     }
-    onSimpan();
+    if (!template && !judul.trim()) {
+      setErrorJudul(true);
+      setGoyang((nilai) => nilai + 1);
+      inputJudul.current?.focus();
+      return;
+    }
+    onSimpan([...checklist.ditandai]);
+  };
+
+  const sisipkan = () => {
+    if (terpilih.length === 0) return;
+
+    if (template) {
+      const daftar = terpilih
+        .map((item) => `- ${item.pasal} — ${labelManusia(item.jenis)}`)
+        .join('\n');
+      const bagian = `## Dasar Hukum\n${daftar}`;
+      const tanpa = drafTeks.replace(/\n?## Dasar Hukum[\s\S]*$/i, '').trim();
+      onUbahDrafTeks(`${tanpa ? `${tanpa}\n\n` : ''}${bagian}`);
+      return;
+    }
+
+    const ringkas = susunRingkasan(judulEfektif, preset.nama, butir, checklist.ditandai);
+    const badan = ringkas.replace(/^# .+\n+/, '');
+    if (
+      drafTeks.trim().length > 0 &&
+      !window.confirm('Ganti isi draf dengan ringkasan pasal terpilih?')
+    ) {
+      return;
+    }
+    onUbahDrafTeks(badan);
   };
 
   const salin = async () => {
@@ -105,7 +185,7 @@ export default function DokumenEditor({
     const url = URL.createObjectURL(blob);
     const tautan = document.createElement('a');
     tautan.href = url;
-    tautan.download = namaBerkas(preset.nama, nama);
+    tautan.download = namaBerkas(preset.nama, template ? nama : judul.trim());
     document.body.appendChild(tautan);
     tautan.click();
     tautan.remove();
@@ -118,6 +198,8 @@ export default function DokumenEditor({
       salah ? 'placeholder:text-danger/70' : 'border-line-strong bg-surface',
       goyang > 0 && salah && 'goyang',
     );
+
+  const labelAksi = template ? 'Sisipkan pasal terpilih' : 'Buat ringkasan dari pasal terpilih';
 
   return (
     <div className="flex min-h-0 flex-1 flex-col">
@@ -139,17 +221,33 @@ export default function DokumenEditor({
               butir={butir}
               loading={loadingButir}
               error={butirError}
-              tanpaCeklis
               sembunyikanJenis
+              ditandai={checklist.ditandai}
+              onToggle={checklist.toggle}
+              onTandaiBanyak={checklist.tandaiBanyak}
+              onHapusSemua={checklist.hapusSemua}
             />
           </div>
 
           <section className="flex min-h-0 flex-1 flex-col overflow-hidden rounded-xl border border-line bg-surface shadow-card">
-            <header className="flex shrink-0 items-center gap-2 border-b border-line bg-surface-muted px-3 py-1.5">
+            <header className="flex shrink-0 flex-wrap items-center gap-1.5 border-b border-line bg-surface-muted px-3 py-1.5">
               <h2 className="text-[10px] font-semibold uppercase tracking-wide text-ink-muted">
                 Draf
               </h2>
-              <div className="ml-auto flex items-center gap-1.5">
+              <div className="ml-auto flex flex-wrap items-center gap-1.5">
+                <button
+                  type="button"
+                  onClick={sisipkan}
+                  disabled={terpilih.length === 0}
+                  className={cx(
+                    'rounded-lg border px-2.5 py-1 text-[11px] transition',
+                    terpilih.length === 0
+                      ? 'cursor-not-allowed border-line bg-surface text-ink-muted opacity-50'
+                      : 'border-line-strong bg-surface font-medium text-ink hover:border-navy-soft hover:bg-navy-soft',
+                  )}
+                >
+                  {labelAksi} ({terpilih.length})
+                </button>
                 <button
                   type="button"
                   onClick={simpan}
@@ -160,7 +258,7 @@ export default function DokumenEditor({
                       : 'border-line bg-surface font-medium text-ink-muted hover:border-line-strong hover:text-ink',
                   )}
                 >
-                  Simpan draf
+                  Simpan
                 </button>
                 <button
                   type="button"
@@ -182,69 +280,109 @@ export default function DokumenEditor({
             </header>
 
             <div className="shrink-0 space-y-1.5 border-b border-line px-3 py-2">
-              <label className="flex flex-col gap-0.5">
-                <span className="text-[10px] text-ink-muted">
-                  Nama perusahaan <span className="text-danger">*</span>
-                </span>
-                <input
-                  ref={inputNama}
-                  value={fakta.nama_perusahaan ?? ''}
-                  onChange={(event) => {
-                    onUbahFakta('nama_perusahaan', event.target.value);
-                    if (event.target.value.trim().length > 0) setErrorNama(false);
-                  }}
-                  placeholder="PT Jaya"
-                  aria-invalid={errorNama}
-                  style={
-                    errorNama
-                      ? {
-                          borderColor: 'var(--c-danger)',
-                          backgroundColor: 'var(--c-danger-soft)',
-                        }
-                      : undefined
-                  }
-                  className={kelasInput(errorNama)}
-                />
-              </label>
-              <div className="flex gap-2">
-                <label className="flex min-w-0 flex-1 flex-col gap-0.5">
-                  <span className="text-[10px] text-ink-muted">Nomor</span>
+              {template ? (
+                <>
+                  <label className="flex flex-col gap-0.5">
+                    <span className="text-[10px] text-ink-muted">
+                      Nama perusahaan <span className="text-danger">*</span>
+                    </span>
+                    <input
+                      ref={inputNama}
+                      value={fakta.nama_perusahaan ?? ''}
+                      onChange={(event) => {
+                        onUbahFakta('nama_perusahaan', event.target.value);
+                        if (event.target.value.trim().length > 0) setErrorNama(false);
+                      }}
+                      placeholder="PT Jaya"
+                      aria-invalid={errorNama}
+                      style={
+                        errorNama
+                          ? {
+                              borderColor: 'var(--c-danger)',
+                              backgroundColor: 'var(--c-danger-soft)',
+                            }
+                          : undefined
+                      }
+                      className={kelasInput(errorNama)}
+                    />
+                  </label>
+                  <div className="flex gap-2">
+                    <label className="flex min-w-0 flex-1 flex-col gap-0.5">
+                      <span className="text-[10px] text-ink-muted">Nomor</span>
+                      <input
+                        value={fakta.nomor_peraturan ?? ''}
+                        onChange={(event) => onUbahFakta('nomor_peraturan', event.target.value)}
+                        placeholder="01/PP/2026"
+                        className={kelasInput(false)}
+                      />
+                    </label>
+                    <label className="flex min-w-0 flex-1 flex-col gap-0.5">
+                      <span className="text-[10px] text-ink-muted">Tanggal</span>
+                      <input
+                        type="date"
+                        value={fakta.tanggal_berlaku ?? ''}
+                        onChange={(event) => onUbahFakta('tanggal_berlaku', event.target.value)}
+                        className={kelasInput(false)}
+                      />
+                    </label>
+                  </div>
+                  {errorNama && (
+                    <p className="text-[10.5px] text-danger">
+                      Nama perusahaan wajib diisi sebelum menyimpan.
+                    </p>
+                  )}
+                </>
+              ) : (
+                <label className="flex flex-col gap-0.5">
+                  <span className="text-[10px] text-ink-muted">
+                    Judul dokumen <span className="text-danger">*</span>
+                  </span>
                   <input
-                    value={fakta.nomor_peraturan ?? ''}
-                    onChange={(event) => onUbahFakta('nomor_peraturan', event.target.value)}
-                    placeholder="01/PP/2026"
-                    className={kelasInput(false)}
+                    ref={inputJudul}
+                    value={judul}
+                    onChange={(event) => {
+                      onUbahJudul(event.target.value);
+                      if (event.target.value.trim().length > 0) setErrorJudul(false);
+                    }}
+                    placeholder="Surat Pemberitahuan PHK — Budi"
+                    aria-invalid={errorJudul}
+                    style={
+                      errorJudul
+                        ? {
+                            borderColor: 'var(--c-danger)',
+                            backgroundColor: 'var(--c-danger-soft)',
+                          }
+                        : undefined
+                    }
+                    className={kelasInput(errorJudul)}
                   />
+                  {errorJudul && (
+                    <span className="text-[10.5px] text-danger">
+                      Judul dokumen wajib diisi sebelum menyimpan.
+                    </span>
+                  )}
                 </label>
-                <label className="flex min-w-0 flex-1 flex-col gap-0.5">
-                  <span className="text-[10px] text-ink-muted">Tanggal</span>
-                  <input
-                    type="date"
-                    value={fakta.tanggal_berlaku ?? ''}
-                    onChange={(event) => onUbahFakta('tanggal_berlaku', event.target.value)}
-                    className={kelasInput(false)}
-                  />
-                </label>
-              </div>
-              {errorNama && (
-                <p className="text-[10.5px] text-danger">
-                  Nama perusahaan wajib diisi sebelum menyimpan.
-                </p>
               )}
             </div>
 
             <div className="flex min-h-0 flex-1 flex-col overflow-auto">
               <div className="shrink-0 px-5 pt-3.5 text-center">
-                <h3 className="text-[14px] font-bold leading-snug text-ink">{judul}</h3>
+                <h3 className="text-[14px] font-bold leading-snug text-ink">{judulEfektif}</h3>
                 <p className="mt-0.5 text-[10.5px] text-ink-muted">
-                  Nomor: {nomor || '-'} · Tanggal berlaku: {tanggalTampil}
+                  {template
+                    ? `Nomor: ${nomor || '-'} — Tanggal berlaku: ${tanggalTampil}`
+                    : `Jenis dokumen: ${preset.nama}`}
                 </p>
               </div>
               <div className="mx-5 mt-2 h-px shrink-0 bg-line-strong" />
               <textarea
                 value={drafTeks}
                 onChange={(event) => onUbahDrafTeks(event.target.value)}
-                placeholder="Tulis draf di sini…"
+                placeholder={
+                  template
+                    ? 'Tulis draf di sini…'
+                    : 'Tulis catatan atau ringkasan di sini…'
+                }
                 spellCheck={false}
                 className="min-h-[120px] w-full flex-1 resize-none bg-transparent px-5 py-2.5 text-[12px] leading-7 text-ink outline-none placeholder:text-line-strong"
               />
