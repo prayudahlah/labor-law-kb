@@ -1,6 +1,7 @@
 package ac.id.uns.kbr;
 
 import static org.hamcrest.Matchers.hasItem;
+import static org.hamcrest.Matchers.not;
 import static org.springframework.test.web.servlet.request.MockMvcRequestBuilders.post;
 import static org.springframework.test.web.servlet.result.MockMvcResultMatchers.jsonPath;
 import static org.springframework.test.web.servlet.result.MockMvcResultMatchers.status;
@@ -212,5 +213,24 @@ class AutoFallbackTest {
                 .andExpect(status().isOk())
                 .andExpect(jsonPath("$.rincian.cuti_keguguran_bulan").value(1.5))
                 .andExpect(jsonPath("$.rincian.cuti_haid_hari").doesNotExist());
+    }
+
+    @Test
+    void cutiKeguguranMemakaiHakDanPasalKeguguran() throws Exception {
+        mockMvc.perform(post("/infer")
+                        .contentType(MediaType.APPLICATION_JSON)
+                        .content("""
+                                {"topik":"Cuti","fakta":{
+                                  "masaKerjaBulan":12,
+                                  "perempuan":true,
+                                  "peristiwa":"CutiKeguguran"
+                                }}
+                                """))
+                .andExpect(status().isOk())
+                .andExpect(jsonPath("$.hak", hasItem("CutiKeguguran")))
+                .andExpect(jsonPath("$.hak", not(hasItem("CutiHaid"))))
+                .andExpect(jsonPath("$.pasal", hasItem("UU 4/2024 Pasal 4 ayat (3)b")))
+                .andExpect(jsonPath("$.pasal", not(hasItem("UU 13/2003 Pasal 81"))))
+                .andExpect(jsonPath("$.rincian.cuti_keguguran_bulan").value(1.5));
     }
 }

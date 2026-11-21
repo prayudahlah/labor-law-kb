@@ -82,6 +82,7 @@ public class ChatService {
             Map.entry("menikah", "UpahCutiMenikah"),
             Map.entry("khitan", "UpahCutiKeluarga2Hari"),
             Map.entry("baptis", "UpahCutiKeluarga2Hari"),
+            Map.entry("keguguran", "CutiKeguguran"),
             Map.entry("haid", "CutiHaid"));
 
     private static final Map<String, List<String>> INFER_REQUIRED = Map.of(
@@ -165,6 +166,13 @@ public class ChatService {
                 st.fakta.put(key, value);
             }
         });
+        if ("Lembur".equals(inferTopik)) {
+            if (fakta.containsKey("jenisHari")) {
+                st.fakta.remove("padaHariKerja");
+            } else if (fakta.containsKey("padaHariKerja")) {
+                st.fakta.remove("jenisHari");
+            }
+        }
         st.topik.addAll(detected);
 
         String mode = route == null ? null : route.mode();
@@ -305,7 +313,11 @@ public class ChatService {
         Map<String, Object> hasil = new LinkedHashMap<>(fakta);
         switch (topik) {
             case "PHK" -> hasil.putIfAbsent("bentukHubunganKerja", "PKWTT");
-            case "Lembur" -> hasil.putIfAbsent("padaHariKerja", true);
+            case "Lembur" -> {
+                if (!hasil.containsKey("jenisHari")) {
+                    hasil.putIfAbsent("padaHariKerja", true);
+                }
+            }
             case "PKWT" -> hasil.putIfAbsent("bentukHubunganKerja", "PKWT");
             case "KIA" -> hasil.putIfAbsent("sedangCutiMelahirkan", true);
             default -> {
@@ -343,11 +355,9 @@ public class ChatService {
                 if (upah != null) {
                     f.put("upahBulanan", upah);
                 }
-                if (p.contains("hari kerja")) {
-                    f.put("padaHariKerja", true);
-                } else if (p.contains("libur") || p.contains("akhir pekan")
-                        || p.contains("weekend")) {
-                    f.put("padaHariKerja", false);
+                String jenis = jenisHari(p);
+                if (jenis != null) {
+                    f.put("jenisHari", jenis);
                 }
             }
             case "Cuti" -> {
@@ -437,6 +447,26 @@ public class ChatService {
         Matcher matcher = Pattern.compile("(\\d+(?:[.,]\\d+)?)\\s*jam").matcher(p);
         if (matcher.find()) {
             return Double.parseDouble(matcher.group(1).replace(",", "."));
+        }
+        return null;
+    }
+
+    private static String jenisHari(String p) {
+        if (p.contains("libur terpendek") || p.contains("libur pendek")) {
+            return "libur_terpendek";
+        }
+        if (p.contains("libur 6 hari") || p.contains("libur 6hari")) {
+            return "libur_6hari";
+        }
+        if (p.contains("libur 5 hari") || p.contains("libur 5hari")) {
+            return "libur_5hari";
+        }
+        if (p.contains("hari kerja")) {
+            return "hari_kerja";
+        }
+        if (p.contains("libur") || p.contains("akhir pekan")
+                || p.contains("weekend")) {
+            return "libur_5hari";
         }
         return null;
     }

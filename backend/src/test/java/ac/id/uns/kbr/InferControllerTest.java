@@ -145,6 +145,53 @@ class InferControllerTest {
                 .andExpect(jsonPath("$.pasal", not(empty())));
     }
 
+    @Test
+    void cutiMenikahTidakMemakaiPasalHaid() throws Exception {
+        mockMvc.perform(post("/infer")
+                        .contentType(MediaType.APPLICATION_JSON)
+                        .content("""
+                                {"topik":"Cuti","fakta":{
+                                  "masaKerjaBulan":12,
+                                  "peristiwa":"UpahCutiMenikah"
+                                }}
+                                """))
+                .andExpect(status().isOk())
+                .andExpect(jsonPath("$.pasal", hasItem("UU 13/2003 Pasal 93 ayat (4)")))
+                .andExpect(jsonPath("$.pasal", not(hasItem("UU 13/2003 Pasal 81"))))
+                .andExpect(jsonPath("$.rincian.hari_dibayar").value(3));
+    }
+
+    @Test
+    void cutiHaidTetapMemakaiPasalHaid() throws Exception {
+        mockMvc.perform(post("/infer")
+                        .contentType(MediaType.APPLICATION_JSON)
+                        .content("""
+                                {"topik":"Cuti","fakta":{
+                                  "masaKerjaBulan":12,
+                                  "perempuan":true,
+                                  "peristiwa":"CutiHaid"
+                                }}
+                                """))
+                .andExpect(status().isOk())
+                .andExpect(jsonPath("$.hak", hasItem("CutiHaid")))
+                .andExpect(jsonPath("$.pasal", hasItem("UU 13/2003 Pasal 81")));
+    }
+
+    @Test
+    void cutiPerempuanTanpaPeristiwaTidakMemakaiCutiHaid() throws Exception {
+        mockMvc.perform(post("/infer")
+                        .contentType(MediaType.APPLICATION_JSON)
+                        .content("""
+                                {"topik":"Cuti","fakta":{
+                                  "masaKerjaBulan":12,
+                                  "perempuan":true
+                                }}
+                                """))
+                .andExpect(status().isOk())
+                .andExpect(jsonPath("$.hak", not(hasItem("CutiHaid"))))
+                .andExpect(jsonPath("$.pasal", not(hasItem("UU 13/2003 Pasal 81"))));
+    }
+
     private void kirim(String json, double nominal, String hak) throws Exception {
         mockMvc.perform(post("/infer")
                         .contentType(MediaType.APPLICATION_JSON)

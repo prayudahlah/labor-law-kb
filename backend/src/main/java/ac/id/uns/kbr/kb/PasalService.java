@@ -37,8 +37,14 @@ public class PasalService {
             case "KIA" -> entities.add(individu(session, "KetentuanUpahCutiMelahirkan"));
             case "Cuti" -> {
                 entities.add(kelas(session, "MemenuhiSyaratCutiTahunan"));
-                entities.add(kelas(session, "MemenuhiSyaratCutiKhusus"));
-                entities.add(kelas(session, "MemenuhiSyaratCutiHaid"));
+                switch (teks(fakta, "peristiwa")) {
+                    case "CutiHaid" ->
+                        entities.add(kelas(session, "MemenuhiSyaratCutiHaid"));
+                    case "CutiKeguguran" ->
+                        entities.add(kelas(session, "MemenuhiSyaratCutiKeguguran"));
+                    default ->
+                        entities.add(kelas(session, "MemenuhiSyaratCutiKhusus"));
+                }
             }
             default -> {
             }
