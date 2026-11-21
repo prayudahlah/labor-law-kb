@@ -44,7 +44,12 @@ public class Forms {
         kelas(s, l, "Lembur");
         objek(s, p, "mengerjakanLembur", l);
         dataDecimal(s, l, "jamLembur", wajibDecimal(f, "jamLembur"));
-        dataBool(s, l, "padaHariKerja", bool(f, "padaHariKerja", true));
+        String jenisHari = teks(f, "jenisHari", null);
+        if (jenisHari != null) {
+            dataString(s, l, "jenisHariLembur", jenisHari);
+        } else {
+            dataBool(s, l, "padaHariKerja", bool(f, "padaHariKerja", true));
+        }
     }
 
     private void cuti(CaseSession s, Map<String, Object> f) {

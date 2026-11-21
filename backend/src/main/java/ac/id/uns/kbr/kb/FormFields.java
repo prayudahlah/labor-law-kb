@@ -16,7 +16,8 @@ public final class FormFields {
                     new Spec("alasanPHK", "string", true)),
             "Lembur", List.of(
                     new Spec("jamLembur", "decimal", true),
-                    new Spec("padaHariKerja", "boolean", true),
+                    new Spec("padaHariKerja", "boolean", false),
+                    new Spec("jenisHari", "string", false),
                     new Spec("upahBulanan", "decimal", true)),
             "Cuti", List.of(
                     new Spec("masaKerjaBulan", "integer", true),

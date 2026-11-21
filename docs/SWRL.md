@@ -8,7 +8,7 @@ dan **apa yang perlu dikonfirmasi**.
 - Branch: `feat/swrl`, plus perbaikan UPMK < 36 bulan di `fix/phk-upmk-36`
 - Commit awal: `coba swrl`
 - Reasoner: **Openllet 2.6.5** (fork Pellet)
-- Status: 29 rule, 15 tes SWRL, 62 tes backend hijau (default `auto`; `swrl` untuk demo, `java` legacy)
+- Status: 29 rule, 21 tes SWRL, 93 tes backend hijau (default `auto`; `swrl` untuk demo, `java` legacy)
 
 > Catatan: dokumen ini bukan nasihat hukum. Semua nilai mengacu pada CSV kanonik
 > di `data/` dan regulasi yang sudah diekstrak.
@@ -27,7 +27,7 @@ Cakupan saat ini:
 | PKWT | 1 | penuh |
 | Jamsos | 1 | penuh (JHT + JP) |
 | KIA | 2 | penuh |
-| Lembur | 5 | penuh untuk jam bulat, memakai tabel akumulatif |
+| Lembur | 5 | jam bulat; hari kerja 1..4, hari libur 1..12 |
 | Cuti | 1 | cuti tahunan saja |
 | **Total** | **29** | |
 
@@ -41,7 +41,7 @@ Cakupan saat ini:
 | `scripts/build_ontology.py` | manual | emit marker bracket terbuka + individu `AkumulasiLembur` |
 | `scripts/build_catalog.py` | manual | impor modul SWRL ke `ontology.rdf` + katalog |
 | `backend/.../kb/SwrlCalculationProvider.java` | manual | membaca output SWRL, menolak nilai ganda, membulatkan tampilan |
-| `backend/.../SwrlKalkulasiTest.java` | manual | 15 tes end-to-end memakai Openllet |
+| `backend/.../SwrlKalkulasiTest.java` | manual | 21 tes end-to-end memakai Openllet |
 | `scripts/check_ontology.py` | manual | cek T-Box dengan HermiT, flag `--tanpa-swrl` |
 | `backend/KB_CONTRACT.md` | manual | kontrak input/output dan batasan |
 
@@ -162,7 +162,7 @@ Seluruh suite, termasuk jalur API tanpa fallback Java:
 docker run --rm -e KB_CALC_MODE=swrl -v "$PWD:/workspace" -v m2-cache:/root/.m2 -w /workspace/backend maven:3.9-eclipse-temurin-21 mvn -B test
 ```
 
-Harapan: `Tests run: 62, Failures: 0`.
+Harapan: `Tests run: 93, Failures: 0`.
 
 Cek T-Box dengan HermiT:
 
@@ -200,15 +200,17 @@ menjelaskan agar memakai flag tersebut.
 ## 8. Batasan yang diketahui
 
 - SWRL tidak punya agregasi, negasi, rekursi, atau pembulatan.
-- Lembur SWRL hanya untuk jam bulat. Untuk `hari_kerja`, tabel akumulasi baru
-  mencakup jam 1..4. Jam pecahan dan jam 5..12 gagal di mode `swrl`; mode
-  `auto` fallback ke Java, yang mendukung pecahan dan melanjutkan pengali
-  terakhir sampai 12.
-- `padaHariKerja=false` dipetakan ke `libur_5hari`; libur 6 hari dan libur
-  terpendek belum bisa dipilih dari input.
+- Batas legal lembur 4 jam per hari untuk hari kerja. SWRL mencakup hari
+  kerja 1..4 dan hari libur 1..12. Jam pecahan gagal di mode `swrl`; mode
+  `auto` fallback ke Java, yang menghitung pecahan secara proporsional.
+- `padaHariKerja=false` dipetakan ke `libur_5hari`. Libur 6 hari dan libur
+  terpendek dapat dipilih lewat `jenisHari`; backend menulis
+  `jenisHariLembur` langsung.
 - Jamsos hanya JHT + JP (bukan JKK/JKM/JKP), sama seperti provider Java.
-- Cuti khusus (haid, keguguran, menikah) belum masuk SWRL. Mode `auto` belum
-  fallback karena SWRL mengembalikan hasil parsial (cuti tahunan), bukan kosong.
+- Cuti khusus (haid, keguguran, menikah) belum masuk SWRL. Backend
+  mengembalikan kosong kalau cuti khusus tidak lengkap, sehingga mode `auto`
+  fallback ke Java. Setelah rule `cutiKhususHari` masuk, jalur SWRL dapat
+  mengisi `hari_dibayar`.
 - Hasil SWRL hanya terlihat oleh reasoner, tidak muncul di SPARQL/Jalur
   retrieval.
 - Openllet menulis log INFO `Non numeric arguments ... anon(1)` saat join
@@ -218,19 +220,20 @@ menjelaskan agar memakai flag tersebut.
 
 Daftar ini untuk area rule/ontology, bukan backend Java:
 
-1. **Lembur pecahan dan jam 5..12 hari kerja.** Tabel `AkumulasiLembur` baru
-   mencakup 1..4 untuk `hari_kerja`. Tambah baris sampai 12 dan aturan untuk
-   jam pecahan, atau sepakati bahwa `swrl` hanya menerima jam bulat 1..4.
-2. **Cuti khusus.** Tambah output khusus di `Pekerja` (mis. `cutiKhususHari`)
-   dan rule dari `mengalamiPeristiwa`, atau buat provider mengembalikan kosong
-   supaya `auto` fallback ke Java. Jangan menyalin `hariDibayar` langsung ke
+1. **Lembur pecahan.** SWRL tetap untuk jam bulat. Jam pecahan ditangani
+   fallback Java di mode `auto`. Tidak perlu rule baru kecuali targetnya
+   SWRL-only untuk pecahan.
+2. **Cuti khusus.** Tambah output khusus di `Pekerja` (`cutiKhususHari`) dan
+   rule dari `mengalamiPeristiwa`. Backend sudah memetakan input ke
+   `UpahCuti*` dan mengembalikan kosong kalau data khusus belum ada, sehingga
+   `auto` fallback ke Java. Jangan menyalin `hariDibayar` langsung ke
    `Pekerja`, karena domain properti itu `PeristiwaCutiKhusus`.
-3. **Cuti keguguran.** SWRL belum menghasilkan `cuti_haid_hari`; samakan
-   dengan perilaku Java atau tambah rule.
-4. **Libur 6 hari dan libur terpendek.** Data ada di `pengali_lembur.csv`,
-   tetapi input hanya `padaHariKerja` boolean. Perlu `jenisHari` di API dan
-   rule untuk kedua jenis libur.
-5. **Jamsos.** Putuskan apakah cukup JHT + JP atau perlu JKK/JKM/JKP.
+3. **Cuti keguguran.** SWRL belum menghasilkan `cuti_haid_hari`; buat issue
+   terpisah karena durasinya 1,5 bulan, bukan 2 hari.
+4. **Libur 6 hari dan libur terpendek.** Backend sudah menambah `jenisHari`
+   dan menulis `jenisHariLembur` langsung. Vio cukup memastikan
+   `AkumulasiLembur` untuk kedua jenis hari ada; tidak perlu rule baru.
+5. **Jamsos.** Scope tetap JHT + JP. JKK/JKM/JKP di luar iterasi ini.
 
 ## 9. Checklist review
 
@@ -243,7 +246,7 @@ Isi kolom "Sesuai?" dengan ✓/✗ dan tulis catatan bila ada yang perlu diubah.
 | 3 | Nilai bracket UP: 1..9 bulan dan UPMK: 0 untuk < 36 bulan, lalu 2..10 bulan | ☐ | |
 | 4 | Pengali per alasan PHK (`EfisiensiRugi` 0,5/1; `MengundurkanDiri` 0/0; dst.) | ☐ | |
 | 5 | Rumus `nominalPesangon` = total UP + UPMK × upah | ☐ | |
-| 6 | Lembur memakai tabel akumulatif; hanya jam bulat | ☐ | |
+| 6 | Lembur memakai tabel akumulatif; hari kerja 1..4, libur 1..12 | ☐ | |
 | 7 | `padaHariKerja=false` dianggap `libur_5hari` | ☐ | |
 | 8 | Jamsos hanya JHT + JP | ☐ | |
 | 9 | KIA: 4 bulan upah penuh, sisa 75% | ☐ | |
@@ -266,8 +269,10 @@ Isi kolom "Sesuai?" dengan ✓/✗ dan tulis catatan bila ada yang perlu diubah.
 
 - Branch: `feat/swrl`
 - Commit awal: `coba swrl`
-- Status: sudah di-push. PR #11 (UPMK < 36 bulan) sudah merged.
-- Perbaikan fallback Java dan default `auto` ada di branch `fix/java-fallback`.
+- Status: sudah di-push. PR #11 (UPMK < 36 bulan) dan PR #12 (fallback Java,
+  default `auto`) sudah merged.
+- Perbaikan batas lembur 4 jam, pemetaan cuti, dan `jenisHari` ada di branch
+  `fix/backend-followups`.
 
 Setelah itu buka PR `feat/swrl` -> `dev` dan pastikan CI hijau (test backend,
 test mode SWRL, cek drift generated files, build frontend, build image).

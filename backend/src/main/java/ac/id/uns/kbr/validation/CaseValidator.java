@@ -36,8 +36,20 @@ public class CaseValidator {
                 OWLNamedIndividual lembur = OntologyValues.object(
                         manager, pekerja, "mengerjakanLembur");
                 objek(manager, pekerja, "mengerjakanLembur", 1, 1, "Lembur", masalah);
-                data(manager, lembur, "jamLembur", 1, null, "decimal", 0, 12, masalah);
-                data(manager, lembur, "padaHariKerja", 1, null, "boolean", null, null, masalah);
+                int batasJam = 12;
+                String jenisHari = OntologyValues.optionalString(
+                        manager, lembur, "jenisHariLembur");
+                if (jenisHari != null) {
+                    batasJam = "hari_kerja".equals(jenisHari) ? 4 : 12;
+                } else {
+                    Boolean padaHariKerja = OntologyValues.optionalBool(
+                            manager, lembur, "padaHariKerja");
+                    batasJam = padaHariKerja == null || padaHariKerja ? 4 : 12;
+                }
+                data(manager, lembur, "jamLembur", 1, null, "decimal", 0, batasJam, masalah);
+                if (jenisHari == null) {
+                    data(manager, lembur, "padaHariKerja", 1, null, "boolean", null, null, masalah);
+                }
             }
             case "Cuti" -> data(manager, pekerja, "masaKerjaBulan", 1, 1, "integer", 0, null, masalah);
             case "PKWT" -> {
