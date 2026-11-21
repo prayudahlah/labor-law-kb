@@ -46,6 +46,7 @@ export default function App() {
         judul: entriDokumen.title,
         pasal: entriDokumen.pasal ?? [],
         fakta: entriDokumen.fakta ?? {},
+        header: entriDokumen.header ?? false,
         drafTeks:
           entriDokumen.drafTeks ??
           entriDokumen.ringkasan ??
@@ -81,6 +82,7 @@ export default function App() {
         if (draf) dokumen.muatDraf(draf);
         if (item.fakta) dokumen.muatFakta(item.fakta);
         dokumen.muatJudul(item.title);
+        dokumen.muatHeader(item.header ?? false);
         dokumen.muatDrafTeks(
           item.drafTeks ??
             item.ringkasan ??
@@ -239,6 +241,7 @@ export default function App() {
       pasal,
       drafTeks: tambahan.drafTeks ?? dokumen.drafTeks,
       ringkasan: teksRingkasan,
+      header: template ? undefined : dokumen.headerAktif,
     });
     setActiveDokId(idDokumenSesi);
     setActiveId(idDokumenSesi);
@@ -314,6 +317,8 @@ export default function App() {
                 onUbahDrafTeks={dokumen.ubahDrafTeks}
                 judul={dokumen.judul}
                 onUbahJudul={dokumen.ubahJudul}
+                headerAktif={dokumen.headerAktif}
+                onUbahHeader={dokumen.ubahHeaderAktif}
                 sesiChecklist={sesiChecklist}
                 awalChecklist={checklistAwal}
                 onSimpan={(pasal) =>

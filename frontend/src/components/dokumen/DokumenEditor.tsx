@@ -20,6 +20,9 @@ type Props = {
   onUbahDrafTeks: (nilai: string) => void;
   judul: string;
   onUbahJudul: (nilai: string) => void;
+  /** Header (judul + jenis dokumen) aktif — hanya untuk dokumen non-PP. */
+  headerAktif: boolean;
+  onUbahHeader: (nilai: boolean) => void;
   sesiChecklist: string | null;
   awalChecklist?: readonly string[] | null;
   onSimpan: (pasal: string[]) => void;
@@ -30,6 +33,7 @@ type Props = {
     drafTeks: string;
     pasal?: string[];
     judul?: string;
+    header?: boolean;
   } | null;
 };
 
@@ -60,6 +64,8 @@ export default function DokumenEditor({
   onUbahDrafTeks,
   judul,
   onUbahJudul,
+  headerAktif,
+  onUbahHeader,
   sesiChecklist,
   awalChecklist,
   onSimpan,
@@ -109,6 +115,7 @@ export default function DokumenEditor({
       }
       return (
         judul.trim() !== (entriTersimpan.judul ?? '').trim() ||
+        (entriTersimpan.header ?? false) !== headerAktif ||
         drafTeks !== entriTersimpan.drafTeks ||
         !pasalSama
       );
@@ -118,7 +125,18 @@ export default function DokumenEditor({
     return template
       ? adaIsi || [nama, nomor, tanggal].some((nilai) => nilai.length > 0)
       : adaIsi || judul.trim().length > 0;
-  }, [checklist.ditandai, drafTeks, entriTersimpan, fakta, judul, nama, nomor, tanggal, template]);
+  }, [
+    checklist.ditandai,
+    drafTeks,
+    entriTersimpan,
+    fakta,
+    headerAktif,
+    judul,
+    nama,
+    nomor,
+    tanggal,
+    template,
+  ]);
 
   const teksDokumen = () => {
     const badan = drafTeks.trim();
@@ -126,8 +144,10 @@ export default function DokumenEditor({
       const kepala = `# ${judulEfektif}\nNomor: ${nomor || '-'} — Tanggal berlaku: ${tanggalTampil}`;
       return badan ? `${kepala}\n\n${badan}` : kepala;
     }
+    if (!headerAktif) return badan;
     if (badan.startsWith('#')) return badan;
-    return badan ? `# ${judulEfektif}\n\n${badan}` : `# ${judulEfektif}`;
+    const kepala = `# ${judulEfektif}\nJenis dokumen: ${preset.nama}`;
+    return badan ? `${kepala}\n\n${badan}` : kepala;
   };
 
   const simpan = () => {
@@ -337,48 +357,75 @@ export default function DokumenEditor({
                   )}
                 </>
               ) : (
-                <label className="flex flex-col gap-0.5">
+                <div className="flex flex-col gap-0.5">
                   <span className="text-[10px] text-ink-muted">
                     Judul dokumen <span className="text-danger">*</span>
                   </span>
-                  <input
-                    ref={inputJudul}
-                    value={judul}
-                    onChange={(event) => {
-                      onUbahJudul(event.target.value);
-                      if (event.target.value.trim().length > 0) setErrorJudul(false);
-                    }}
-                    placeholder="Surat Pemberitahuan PHK — Budi"
-                    aria-invalid={errorJudul}
-                    style={
-                      errorJudul
-                        ? {
-                            borderColor: 'var(--c-danger)',
-                            backgroundColor: 'var(--c-danger-soft)',
-                          }
-                        : undefined
-                    }
-                    className={kelasInput(errorJudul)}
-                  />
+                  <div className="flex items-center gap-2">
+                    <input
+                      ref={inputJudul}
+                      value={judul}
+                      onChange={(event) => {
+                        onUbahJudul(event.target.value);
+                        if (event.target.value.trim().length > 0) setErrorJudul(false);
+                      }}
+                      placeholder="Surat Pemberitahuan PHK — Budi"
+                      aria-label="Judul dokumen"
+                      aria-invalid={errorJudul}
+                      style={
+                        errorJudul
+                          ? {
+                              borderColor: 'var(--c-danger)',
+                              backgroundColor: 'var(--c-danger-soft)',
+                            }
+                          : undefined
+                      }
+                      className={kelasInput(errorJudul)}
+                    />
+                    <button
+                      type="button"
+                      onClick={() => onUbahHeader(!headerAktif)}
+                      aria-pressed={headerAktif}
+                      title={
+                        headerAktif
+                          ? 'Sembunyikan judul dan jenis dokumen dari draf'
+                          : 'Tampilkan judul dan jenis dokumen di atas draf'
+                      }
+                      className={cx(
+                        'h-6 shrink-0 rounded-md border px-2 text-[10.5px] font-medium transition',
+                        headerAktif
+                          ? 'border-navy-soft bg-navy-soft text-navy hover:border-navy'
+                          : 'border-line-strong bg-surface text-ink-muted hover:border-navy-soft hover:text-ink',
+                      )}
+                    >
+                      {headerAktif ? 'Sembunyikan Header' : 'Aktifkan Header'}
+                    </button>
+                  </div>
                   {errorJudul && (
                     <span className="text-[10.5px] text-danger">
                       Judul dokumen wajib diisi sebelum menyimpan.
                     </span>
                   )}
-                </label>
+                </div>
               )}
             </div>
 
             <div className="flex min-h-0 flex-1 flex-col overflow-auto">
-              <div className="shrink-0 px-5 pt-3.5 text-center">
-                <h3 className="text-[14px] font-bold leading-snug text-ink">{judulEfektif}</h3>
-                <p className="mt-0.5 text-[10.5px] text-ink-muted">
-                  {template
-                    ? `Nomor: ${nomor || '-'} — Tanggal berlaku: ${tanggalTampil}`
-                    : `Jenis dokumen: ${preset.nama}`}
-                </p>
-              </div>
-              <div className="mx-5 mt-2 h-px shrink-0 bg-line-strong" />
+              {(template || headerAktif) && (
+                <>
+                  <div className="shrink-0 px-5 pt-3.5 text-center">
+                    <h3 className="text-[14px] font-bold leading-snug text-ink">
+                      {judulEfektif}
+                    </h3>
+                    <p className="mt-0.5 text-[10.5px] text-ink-muted">
+                      {template
+                        ? `Nomor: ${nomor || '-'} — Tanggal berlaku: ${tanggalTampil}`
+                        : `Jenis dokumen: ${preset.nama}`}
+                    </p>
+                  </div>
+                  <div className="mx-5 mt-2 h-px shrink-0 bg-line-strong" />
+                </>
+              )}
               <textarea
                 value={drafTeks}
                 onChange={(event) => onUbahDrafTeks(event.target.value)}
@@ -388,7 +435,10 @@ export default function DokumenEditor({
                     : 'Tulis catatan atau ringkasan di sini…'
                 }
                 spellCheck={false}
-                className="min-h-[120px] w-full flex-1 resize-none bg-transparent px-5 py-2.5 text-[12px] leading-7 text-ink outline-none placeholder:text-line-strong"
+                className={cx(
+                  'min-h-[120px] w-full flex-1 resize-none bg-transparent px-5 py-2.5 text-[12px] leading-7 text-ink outline-none placeholder:text-line-strong',
+                  !template && !headerAktif && 'pt-4',
+                )}
               />
             </div>
           </section>

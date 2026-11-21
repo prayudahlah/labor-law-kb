@@ -62,6 +62,8 @@ export function useDokumen() {
   const [ringkasanAwal, setRingkasanAwal] = useState<string | null>(null);
   const [ringkasanDasar, setRingkasanDasar] = useState('');
   const [judul, setJudul] = useState('');
+  /** Header (judul + jenis dokumen) ditampilkan di draf dokumen non-PP. */
+  const [headerAktif, setHeaderAktif] = useState(false);
   /** Teks draf yang ditulis user di editor dokumen bertemplat. */
   const [drafTeks, setDrafTeks] = useState('');
 
@@ -129,6 +131,7 @@ export function useDokumen() {
     setRingkasanAwal(null);
     setRingkasanDasar('');
     setJudul('');
+    setHeaderAktif(false);
     setDrafTeks('');
   }, []);
 
@@ -142,6 +145,7 @@ export function useDokumen() {
     setRingkasanAwal(null);
     setRingkasanDasar('');
     setJudul('');
+    setHeaderAktif(false);
     setDrafTeks('');
   }, []);
 
@@ -156,6 +160,7 @@ export function useDokumen() {
     setRingkasanAwal(null);
     setRingkasanDasar('');
     setJudul('');
+    setHeaderAktif(false);
     setDrafTeks('');
     setSesiKerja(`${Date.now()}-${Math.random().toString(16).slice(2)}`);
   }, []);
@@ -173,6 +178,10 @@ export function useDokumen() {
     setJudul(nilai);
   }, []);
 
+  const ubahHeaderAktif = useCallback((nilai: boolean) => {
+    setHeaderAktif(nilai);
+  }, []);
+
   const ubahDrafTeks = useCallback((nilai: string) => {
     setDrafTeks(nilai);
   }, []);
@@ -183,6 +192,10 @@ export function useDokumen() {
 
   const muatJudul = useCallback((nilai: string | undefined) => {
     setJudul(nilai ?? '');
+  }, []);
+
+  const muatHeader = useCallback((nilai: boolean | undefined) => {
+    setHeaderAktif(Boolean(nilai));
   }, []);
 
   /** Dipakai saat membuka entri riwayat: kembalikan isian yang tersimpan. */
@@ -262,6 +275,9 @@ export function useDokumen() {
     drafError,
     ringkasan,
     judul,
+    headerAktif,
+    ubahHeaderAktif,
+    muatHeader,
     sesiKerja,
     sesiBaru,
     pilih,
