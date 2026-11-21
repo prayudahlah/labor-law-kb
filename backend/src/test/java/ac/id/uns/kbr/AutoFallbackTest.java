@@ -124,7 +124,7 @@ class AutoFallbackTest {
     }
 
     @Test
-    void cutiMenikahMemakaiFallbackJava() throws Exception {
+    void cutiMenikahMengisiHariDibayar() throws Exception {
         mockMvc.perform(post("/infer")
                         .contentType(MediaType.APPLICATION_JSON)
                         .content("""
@@ -140,7 +140,7 @@ class AutoFallbackTest {
     }
 
     @Test
-    void cutiKematianSerumahMemakaiFallbackJava() throws Exception {
+    void cutiKematianSerumahMengisiSatuHari() throws Exception {
         mockMvc.perform(post("/infer")
                         .contentType(MediaType.APPLICATION_JSON)
                         .content("""
@@ -154,7 +154,7 @@ class AutoFallbackTest {
     }
 
     @Test
-    void cutiHaidMemakaiFallbackJava() throws Exception {
+    void cutiHaidMengisiDuaHari() throws Exception {
         mockMvc.perform(post("/infer")
                         .contentType(MediaType.APPLICATION_JSON)
                         .content("""

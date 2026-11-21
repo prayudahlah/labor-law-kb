@@ -91,7 +91,7 @@ src/main/java/ac/id/uns/kbr/
 - [x] Spike OWL API + Openllet
 - [x] Spike SWRL `swrlb`
 - [x] `CalculationProvider` dengan pembaca output SWRL dan fallback Java legacy
-- [x] 29 rule SWRL kalkulasi (`ontology/core/swrl-kalkulasi.rdf`)
+- [x] 30 rule SWRL kalkulasi (`ontology/core/swrl-kalkulasi.rdf`)
 - [x] Uji parity SWRL vs Java (`SwrlKalkulasiTest`)
 - [x] `/infer`, `/ketentuan`, `/chat`, `/dokumen`
 - [x] Full stack Docker dan nginx

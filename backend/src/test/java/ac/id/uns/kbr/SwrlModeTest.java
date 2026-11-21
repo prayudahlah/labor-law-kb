@@ -19,7 +19,7 @@ class SwrlModeTest {
     private MockMvc mockMvc;
 
     @Test
-    void cutiKhususTidakTersediaMenjadi422() throws Exception {
+    void cutiKhususTersediaLewatSwrl() throws Exception {
         mockMvc.perform(post("/infer")
                         .contentType(MediaType.APPLICATION_JSON)
                         .content("""
@@ -28,9 +28,9 @@ class SwrlModeTest {
                                   "peristiwa":"UpahCutiMenikah"
                                 }}
                                 """))
-                .andExpect(status().isUnprocessableEntity())
-                .andExpect(jsonPath("$.detail").value(
-                        "Kasus ini belum didukung mode SWRL. Gunakan mode auto."));
+                .andExpect(status().isOk())
+                .andExpect(jsonPath("$.rincian.peristiwa").value("UpahCutiMenikah"))
+                .andExpect(jsonPath("$.rincian.hari_dibayar").value(3));
     }
 
     @Test

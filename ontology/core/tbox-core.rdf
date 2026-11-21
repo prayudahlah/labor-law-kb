@@ -1266,6 +1266,12 @@
     <rdfs:domain rdf:resource="https://example.org/kbr/ketenagakerjaan#Pekerja"/>
     <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#integer"/>
   </rdf:Description>
+  <rdf:Description rdf:about="https://example.org/kbr/ketenagakerjaan#cutiKhususHari">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#DatatypeProperty"/>
+    <rdfs:label>hak cuti khusus (hari)</rdfs:label>
+    <rdfs:domain rdf:resource="https://example.org/kbr/ketenagakerjaan#Pekerja"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#integer"/>
+  </rdf:Description>
   <rdf:Description rdf:about="https://example.org/kbr/ketenagakerjaan#jenisHariAkumulasi">
     <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#DatatypeProperty"/>
     <rdfs:label>jenis hari pada tabel akumulasi lembur</rdfs:label>

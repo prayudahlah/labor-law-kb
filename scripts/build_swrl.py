@@ -442,6 +442,20 @@ def aturan_cuti() -> tuple:
     )
 
 
+def aturan_cuti_khusus() -> tuple:
+    body = [
+        a_class("Pekerja", v("p")),
+        a_obj("mengalamiPeristiwa", v("p"), v("e")),
+        a_data("hariDibayar", v("e"), v("hari")),
+    ]
+    return (
+        "CUTI-KHUSUS",
+        "Cuti: peristiwa khusus -> hari dibayar dari KB",
+        body,
+        [a_data("cutiKhususHari", v("p"), v("hari"))],
+    )
+
+
 def baca_csv(nama: str) -> list[dict[str, str]]:
     path = DATA / nama
     if not path.exists():
@@ -463,6 +477,7 @@ def main() -> int:
     rules += aturan_kia()
     rules += aturan_lembur()
     rules.append(aturan_cuti())
+    rules.append(aturan_cuti_khusus())
 
     semua_var: set[str] = set()
     for _, _, body, head in rules:

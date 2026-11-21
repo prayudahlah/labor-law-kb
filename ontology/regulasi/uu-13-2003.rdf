@@ -97,6 +97,7 @@
     <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
     <rdf:type rdf:resource="https://example.org/kbr/ketenagakerjaan#PeristiwaCutiKhusus"/>
     <ktn:berkaitanTopik rdf:resource="https://example.org/kbr/ketenagakerjaan#TopikCuti"/>
+    <ktn:hariDibayar rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2</ktn:hariDibayar>
     <ktn:pasal>Pasal 81 ayat (1)</ktn:pasal>
     <ktn:tautanSumber rdf:resource="https://peraturan.bpk.go.id/Details/43013/uu-no-13-tahun-2003"/>
   </rdf:Description>

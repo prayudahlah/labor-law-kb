@@ -263,12 +263,30 @@ class SwrlKalkulasiTest {
     }
 
     @Test
-    void cutiKhususTanpaRuleMengembalikanKosong() throws Exception {
-        Optional<CalculationResult> hasil = hitungSwrlOpsional("Cuti", Map.of(
+    void cutiMenikahMengambilHariDibayarDariRule() throws Exception {
+        CalculationResult hasil = hitungSwrl("Cuti", Map.of(
                 "masaKerjaBulan", 12,
                 "peristiwa", "UpahCutiMenikah"));
 
-        assertTrue(hasil.isEmpty());
+        sama("3", hasil.rincian().get("hari_dibayar"));
+    }
+
+    @Test
+    void cutiKematianSerumahMengambilSatuHari() throws Exception {
+        CalculationResult hasil = hitungSwrl("Cuti", Map.of(
+                "masaKerjaBulan", 12,
+                "peristiwa", "UpahCutiKematianSerumah"));
+
+        sama("1", hasil.rincian().get("hari_dibayar"));
+    }
+
+    @Test
+    void cutiKeluargaDuaHariMengambilDuaHari() throws Exception {
+        CalculationResult hasil = hitungSwrl("Cuti", Map.of(
+                "masaKerjaBulan", 12,
+                "peristiwa", "UpahCutiKeluarga2Hari"));
+
+        sama("2", hasil.rincian().get("hari_dibayar"));
     }
 
     @Test
@@ -278,6 +296,7 @@ class SwrlKalkulasiTest {
                 "peristiwa", "CutiHaid"));
 
         sama("2", hasil.rincian().get("cuti_haid_hari"));
+        sama("2", hasil.rincian().get("hari_dibayar"));
     }
 
     @Test

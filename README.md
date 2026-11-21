@@ -52,7 +52,7 @@ docs/markdown/<id>.md ──LLM──► data/extraction/records/<id>.json
 ## Rule SWRL
 
 Perhitungan hak dijalankan oleh rule SWRL di
-`ontology/core/swrl-kalkulasi.rdf` (29 rule). Berkas itu **digenerate** dari
+`ontology/core/swrl-kalkulasi.rdf` (30 rule). Berkas itu **digenerate** dari
 tabel kanonik, bukan diedit manual:
 
 ```bash
@@ -61,7 +61,7 @@ uv run python scripts/build_catalog.py
 ```
 
 Cakupan: PHK (19 rule, termasuk UPMK 0 untuk masa kerja < 36 bulan), PKWT,
-Jamsos, KIA, Lembur (5 rule), dan cuti tahunan.
+Jamsos, KIA, Lembur (5 rule), cuti tahunan, dan cuti khusus (2 rule).
 Kontrak input/output ada di `backend/KB_CONTRACT.md`; di sana juga dicatat
 keterbatasan SWRL (tanpa agregasi, tanpa pembulatan, tanpa negasi) dan
 keputusan desainnya. Mode backend: `KB_CALC_MODE=auto` (default); `swrl` untuk

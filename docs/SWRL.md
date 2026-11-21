@@ -5,10 +5,10 @@ Ketenagakerjaan, supaya bisa dicek kesesuaiannya dengan desain KB yang
 dipegang tim. Fokusnya: **apa yang sudah dibuat**, **bagaimana membuktikannya**,
 dan **apa yang perlu dikonfirmasi**.
 
-- Branch: `feat/swrl`, plus perbaikan UPMK < 36 bulan di `fix/phk-upmk-36`
+- Branch: `feat/swrl`
 - Commit awal: `coba swrl`
 - Reasoner: **Openllet 2.6.5** (fork Pellet)
-- Status: 29 rule, 26 tes SWRL, 124 tes backend hijau (default `auto`; `swrl` untuk demo, `java` legacy)
+- Status: 30 rule, 28 tes SWRL, 126 tes backend hijau (default `auto`; `swrl` untuk demo, `java` legacy)
 
 > Catatan: dokumen ini bukan nasihat hukum. Semua nilai mengacu pada CSV kanonik
 > di `data/` dan regulasi yang sudah diekstrak.
@@ -28,20 +28,20 @@ Cakupan saat ini:
 | Jamsos | 1 | penuh (JHT + JP) |
 | KIA | 2 | penuh |
 | Lembur | 5 | jam bulat; hari kerja 1..4, libur 5 hari 1..12, libur 6 hari 1..11, libur terpendek 1..9 |
-| Cuti | 1 | cuti tahunan saja |
-| **Total** | **29** | |
+| Cuti | 2 | cuti tahunan + cuti khusus (haid, menikah, kematian) |
+| **Total** | **30** | |
 
 ## 2. Peta berkas
 
 | Berkas | Sifat | Isi |
 |---|---|---|
-| `ontology/core/swrl-kalkulasi.rdf` | **generated** | 29 rule SWRL (RDF/XML) |
+| `ontology/core/swrl-kalkulasi.rdf` | **generated** | 30 rule SWRL (RDF/XML) |
 | `scripts/build_swrl.py` | manual | generator rule dari `kategori.csv` + tabel lembur |
 | `ontology/core/tbox-core.rdf` | manual | deklarasi properti output/antara dan marker class |
 | `scripts/build_ontology.py` | manual | emit marker bracket terbuka + individu `AkumulasiLembur` |
 | `scripts/build_catalog.py` | manual | impor modul SWRL ke `ontology.rdf` + katalog |
 | `backend/.../kb/SwrlCalculationProvider.java` | manual | membaca output SWRL, menolak nilai ganda, membulatkan tampilan |
-| `backend/.../SwrlKalkulasiTest.java` | manual | 26 tes end-to-end memakai Openllet |
+| `backend/.../SwrlKalkulasiTest.java` | manual | 28 tes end-to-end memakai Openllet |
 | `scripts/check_ontology.py` | manual | cek T-Box dengan HermiT, flag `--tanpa-swrl` |
 | `backend/KB_CONTRACT.md` | manual | kontrak input/output dan batasan |
 
@@ -162,7 +162,7 @@ Seluruh suite, termasuk jalur API tanpa fallback Java:
 docker run --rm -e KB_CALC_MODE=swrl -v "$PWD:/workspace" -v m2-cache:/root/.m2 -w /workspace/backend maven:3.9-eclipse-temurin-21 mvn -B test
 ```
 
-Harapan: `Tests run: 124, Failures: 0`.
+Harapan: `Tests run: 126, Failures: 0`.
 
 Cek T-Box dengan HermiT:
 
@@ -183,8 +183,9 @@ menjelaskan agar memakai flag tersebut.
    pengali untuk 1..n jam tidak mungkin dihitung langsung di rule.
 3. **`nominalPesangon`** = (UP + UPMK) × upah bulanan.
 4. **`hak`** tetap dari class assertion hasil reasoning, bukan dari SWRL.
-5. **Cuti** hanya menghasilkan `cutiTahunanHari`; `hariDibayar` untuk peristiwa
-   cuti khusus tetap dibaca Java dari individu peristiwa.
+5. **Cuti** menghasilkan `cutiTahunanHari` dan `cutiKhususHari`. Rule
+   `CUTI-KHUSUS` menyalin `hariDibayar` dari peristiwa ke pekerja; keguguran
+   tetap dihitung Java karena durasinya bulan, bukan hari.
 6. **Pembulatan** dilakukan backend: `upah_sejam` 2 desimal, nominal lembur
    0 desimal. SWRL sendiri tidak bisa membulatkan.
 7. **Nilai ganda** dari duplikasi bracket PP-35-2021 vs UU-13-2003 ditolak
@@ -208,12 +209,9 @@ menjelaskan agar memakai flag tersebut.
   terpendek dapat dipilih lewat `jenisHari`; backend menulis
   `jenisHariLembur` langsung.
 - Jamsos hanya JHT + JP (bukan JKK/JKM/JKP), sama seperti provider Java.
-- Cuti khusus (haid, keguguran, menikah) belum masuk SWRL. Backend
-  mengembalikan kosong kalau cuti khusus tidak lengkap, sehingga mode `auto`
-  fallback ke Java. Java mengisi `cuti_haid_hari=2` untuk `CutiHaid`,
-  `hari_dibayar` dari peristiwa, dan `cuti_keguguran_bulan=1.5` untuk
-  `CutiKeguguran`. Setelah rule `cutiKhususHari` masuk, jalur SWRL dapat
-  mengisi `hari_dibayar`.
+- Cuti khusus haid, menikah, dan kematian sudah masuk SWRL lewat
+  `cutiKhususHari` (rule `CUTI-KHUSUS`). Keguguran tetap dihitung Java
+  (`cuti_keguguran_bulan=1.5`) karena durasinya bulan, bukan hari.
 - Di mode `swrl`, kasus yang belum didukung mengembalikan 422 dengan pesan
   agar memakai mode `auto`, bukan 500.
 - Hasil SWRL hanya terlihat oleh reasoner, tidak muncul di SPARQL/Jalur
@@ -228,11 +226,9 @@ Daftar ini untuk area rule/ontology, bukan backend Java:
 1. **Lembur pecahan.** SWRL tetap untuk jam bulat. Jam pecahan ditangani
    fallback Java di mode `auto`. Tidak perlu rule baru kecuali targetnya
    SWRL-only untuk pecahan.
-2. **Cuti khusus.** Tambah output khusus di `Pekerja` (`cutiKhususHari`) dan
-   rule dari `mengalamiPeristiwa`. Backend sudah memetakan input ke
-   `UpahCuti*` dan mengembalikan kosong kalau data khusus belum ada, sehingga
-   `auto` fallback ke Java. Jangan menyalin `hariDibayar` langsung ke
-   `Pekerja`, karena domain properti itu `PeristiwaCutiKhusus`.
+2. **Cuti khusus.** Sudah selesai: `cutiKhususHari` dideklarasikan di TBox
+   dan rule `CUTI-KHUSUS` menyalin `hariDibayar` dari peristiwa. Data
+   `CutiHaid` sudah diisi 2 hari. Sisa hanya keguguran (lihat poin 3).
 3. **Cuti keguguran.** Backend sekarang mengisi `cuti_keguguran_bulan=1.5`
    lewat fallback Java, bukan 2 hari haid. SWRL belum punya rule untuk
    durasi ini; kalau targetnya SWRL-only, perlu properti dan rule terpisah.
@@ -252,11 +248,11 @@ Isi kolom "Sesuai?" dengan ✓/✗ dan tulis catatan bila ada yang perlu diubah.
 | 3 | Nilai bracket UP: 1..9 bulan dan UPMK: 0 untuk < 36 bulan, lalu 2..10 bulan | ☐ | |
 | 4 | Pengali per alasan PHK (`EfisiensiRugi` 0,5/1; `MengundurkanDiri` 0/0; dst.) | ☐ | |
 | 5 | Rumus `nominalPesangon` = total UP + UPMK × upah | ☐ | |
-| 6 | Lembur memakai tabel akumulatif; hari kerja 1..4, libur 1..12 | ☐ | |
+| 6 | Lembur memakai tabel akumulatif; hari kerja 1..4, libur 5 hari 1..12, libur 6 hari 1..11, terpendek 1..9 | ☐ | |
 | 7 | `padaHariKerja=false` dianggap `libur_5hari` | ☐ | |
 | 8 | Jamsos hanya JHT + JP | ☐ | |
 | 9 | KIA: 4 bulan upah penuh, sisa 75% | ☐ | |
-| 10 | Cuti khusus sengaja tetap di Java | ☐ | |
+| 10 | Cuti khusus haid/menikah/kematian lewat cutiKhususHari; keguguran di Java | ☐ | |
 | 11 | Default mode `auto`; `swrl` untuk demo, `java` legacy | ☐ | |
 | 12 | Duplikasi bracket PP-35 vs UU-13 dianggap aman | ☐ | |
 
@@ -264,8 +260,8 @@ Isi kolom "Sesuai?" dengan ✓/✗ dan tulis catatan bila ada yang perlu diubah.
 
 1. Apakah perlu input `jenisHari` agar libur 6 hari dan libur terpendek bisa
    dihitung?
-2. Apakah cuti khusus (haid/keguguran/menikah) mau dipindah ke SWRL, atau tetap
-   di Java?
+2. Apakah cuti keguguran perlu rule SWRL terpisah (`cutiKeguguranBulan`),
+   atau tetap di Java?
 3. Apakah perlu memilih versi peraturan secara eksplisit kalau nanti nilai
    bracket PP-35 dan UU-13 berbeda?
 4. Apakah Jamsos cukup JHT + JP, atau perlu JKK/JKM/JKP juga?
@@ -276,10 +272,10 @@ Isi kolom "Sesuai?" dengan ✓/✗ dan tulis catatan bila ada yang perlu diubah.
 - Branch: `feat/swrl`
 - Commit awal: `coba swrl`
 - Status: sudah di-push. PR #11 (UPMK < 36 bulan), PR #12 (fallback Java,
-  default `auto`), dan PR #13 (batas lembur, pemetaan cuti, `jenisHari`)
-  sudah merged.
-- Perbaikan batas per jenis libur, cuti keguguran, dan status 422 mode `swrl`
-  ada di branch `fix/backend-boundaries`.
+  default `auto`), PR #13 (batas lembur, pemetaan cuti, `jenisHari`), dan
+  PR #14 (batas per jenis libur, cuti keguguran, 422 mode `swrl`) sudah
+  merged.
+- Revisi SWRL `cutiKhususHari` dan data haid ada di `feat/swrl`.
 
 Setelah itu buka PR `feat/swrl` -> `dev` dan pastikan CI hijau (test backend,
 test mode SWRL, cek drift generated files, build frontend, build image).

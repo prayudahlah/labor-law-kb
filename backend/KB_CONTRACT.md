@@ -51,7 +51,10 @@ satu tempat, yaitu `SwrlCalculationProvider`.
 | KIA | `totalBulanUpah` | decimal | `rincian.upah_bulan` |
 | KIA | `nominalUpahCutiMelahirkan` | decimal | `nominal` |
 | Cuti | `cutiTahunanHari` | integer | `rincian.cuti_tahunan_hari` |
-| Cuti | `hariDibayar` | integer | `rincian.hari_dibayar` |
+| Cuti | `cutiKhususHari` | integer | `rincian.hari_dibayar` |
+
+`cuti_haid_hari` dan `cuti_keguguran_bulan` dihitung backend (Java) karena
+tidak berasal dari properti output SWRL.
 
 ## Contoh PHK
 
@@ -100,18 +103,19 @@ ktn:KasusPekerja
 
 Rule sudah tersedia dan diuji end-to-end.
 
-- Modul: `ontology/core/swrl-kalkulasi.rdf` (29 rule, digenerate
+- Modul: `ontology/core/swrl-kalkulasi.rdf` (30 rule, digenerate
   `scripts/build_swrl.py`, diimpor otomatis oleh `ontology/ontology.rdf`).
 - Properti output dan antara dideklarasikan di `ontology/core/tbox-core.rdf`
   (`upDasar`, `upmkDasar`, `bulanUP`, `nominalPesangon`, `upahSejam`,
-  `kompensasiBulan`, `iuranPekerja`, `cutiTahunanHari`, dst.).
+  `kompensasiBulan`, `iuranPekerja`, `cutiTahunanHari`, `cutiKhususHari`,
+  dst.).
 - Cakupan: PHK (19 rule, termasuk UPMK 0 untuk masa kerja < 36 bulan), PKWT,
-  Jamsos, KIA, Lembur (5 rule), Cuti tahunan.
-- Uji: `backend/src/test/java/ac/id/uns/kbr/SwrlKalkulasiTest.java` (26 tes)
+  Jamsos, KIA, Lembur (5 rule), Cuti tahunan + cuti khusus (2 rule).
+- Uji: `backend/src/test/java/ac/id/uns/kbr/SwrlKalkulasiTest.java` (28 tes)
   membandingkan hasil SWRL dengan `golden-cases.json`, termasuk PKWT
   non-kelipatan 12, batas KIA, bracket PHK, PHK 6 bulan, lembur hari libur,
   dan penanda kosong untuk kasus yang belum didukung. Total suite backend
-  124 tes.
+  126 tes.
 - CI `kb` menjalankan ulang `build_ontology.py`, `build_swrl.py`, dan
   `build_catalog.py` lalu `git diff --exit-code` untuk mendeteksi berkas
   generated yang tertinggal.
@@ -124,8 +128,8 @@ Rule sudah tersedia dan diuji end-to-end.
 Keputusan yang sudah diambil:
 
 1. Nama properti mengikuti tabel di atas; tidak ada pemetaan tambahan.
-2. Semua nominal dan bulan memakai `xsd:decimal`; `upDasar`/`upmkDasar` dan
-   `cutiTahunanHari` memakai `xsd:integer`.
+2. Semua nominal dan bulan memakai `xsd:decimal`; `upDasar`/`upmkDasar`,
+   `cutiTahunanHari`, dan `cutiKhususHari` memakai `xsd:integer`.
 3. `nominalPesangon` = total UP + UPMK dikali upah bulanan.
 4. `pasal` tetap diambil backend dari individu norma (tidak lewat SWRL).
 5. Kategori UP/UPMK dihitung SWRL; pemetaan hak dan pembulatan tampilan tetap
@@ -144,11 +148,10 @@ Batas yang disepakati:
 - `padaHariKerja=false` dipetakan ke `libur_5hari`. Libur 6 hari dan libur
   terpendek dapat dipilih lewat `jenisHari`; backend menulis
   `jenisHariLembur` langsung.
-- Cuti khusus (haid, keguguran, menikah) belum masuk SWRL. Backend memetakan
-  input ke individu `UpahCuti*` yang sudah punya `hariDibayar`, dan
-  mengembalikan kosong kalau cuti khusus belum lengkap. Mode `auto` lalu
-  fallback ke Java. Java mengisi `cuti_haid_hari=2` untuk `CutiHaid` dan
-  `cuti_keguguran_bulan=1.5` untuk `CutiKeguguran`.
+- Cuti khusus haid, menikah, dan kematian masuk SWRL lewat `cutiKhususHari`
+  (rule `CUTI-KHUSUS` menyalin `hariDibayar` dari peristiwa). Keguguran tetap
+  dihitung Java (`cuti_keguguran_bulan=1.5`) karena durasinya bulan, bukan
+  hari.
 - Di mode `swrl`, kasus yang belum didukung mengembalikan 422, bukan 500.
 - `scripts/check_ontology.py` memakai HermiT yang tidak mendukung semua builtin
   `swrlb`; jalankan dengan `--tanpa-swrl` untuk cek T-Box. Verifikasi rule
