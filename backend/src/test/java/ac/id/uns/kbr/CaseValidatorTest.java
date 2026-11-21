@@ -85,4 +85,46 @@ class CaseValidatorTest {
             assertDoesNotThrow(() -> new CaseValidator().validasi(sesi, "Lembur"));
         }
     }
+
+    @Test
+    void liburEnamHariSebelasJamDiterima() throws Exception {
+        try (CaseSession sesi = sesi(Map.of(
+                "jamLembur", 11,
+                "jenisHari", "libur_6hari",
+                "upahBulanan", 5_000_000))) {
+            assertDoesNotThrow(() -> new CaseValidator().validasi(sesi, "Lembur"));
+        }
+    }
+
+    @Test
+    void liburEnamHariDuaBelasJamDitolak() throws Exception {
+        try (CaseSession sesi = sesi(Map.of(
+                "jamLembur", 12,
+                "jenisHari", "libur_6hari",
+                "upahBulanan", 5_000_000))) {
+            assertThrows(IllegalArgumentException.class,
+                    () -> new CaseValidator().validasi(sesi, "Lembur"));
+        }
+    }
+
+    @Test
+    void liburTerpendekSembilanJamDiterima() throws Exception {
+        try (CaseSession sesi = sesi(Map.of(
+                "jamLembur", 9,
+                "jenisHari", "libur_terpendek",
+                "upahBulanan", 5_000_000))) {
+            assertDoesNotThrow(() -> new CaseValidator().validasi(sesi, "Lembur"));
+        }
+    }
+
+    @Test
+    void liburTerpendekSepuluhJamDitolak() throws Exception {
+        try (CaseSession sesi = sesi(Map.of(
+                "jamLembur", 10,
+                "jenisHari", "libur_terpendek",
+                "upahBulanan", 5_000_000))) {
+            assertThrows(IllegalArgumentException.class,
+                    () -> new CaseValidator().validasi(sesi, "Lembur"));
+        }
+    }
 }

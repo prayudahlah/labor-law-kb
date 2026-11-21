@@ -65,6 +65,64 @@ class AutoFallbackTest {
     }
 
     @Test
+    void lemburLiburEnamHariSebelasJam() throws Exception {
+        mockMvc.perform(post("/infer")
+                        .contentType(MediaType.APPLICATION_JSON)
+                        .content("""
+                                {"topik":"Lembur","fakta":{
+                                  "jamLembur":11,
+                                  "jenisHari":"libur_6hari",
+                                  "upahBulanan":5000000
+                                }}
+                                """))
+                .andExpect(status().isOk())
+                .andExpect(jsonPath("$.nominal").value(838_150.0));
+    }
+
+    @Test
+    void lemburLiburEnamHariDuaBelasJamDitolak() throws Exception {
+        mockMvc.perform(post("/infer")
+                        .contentType(MediaType.APPLICATION_JSON)
+                        .content("""
+                                {"topik":"Lembur","fakta":{
+                                  "jamLembur":12,
+                                  "jenisHari":"libur_6hari",
+                                  "upahBulanan":5000000
+                                }}
+                                """))
+                .andExpect(status().isUnprocessableEntity());
+    }
+
+    @Test
+    void lemburLiburTerpendekSembilanJam() throws Exception {
+        mockMvc.perform(post("/infer")
+                        .contentType(MediaType.APPLICATION_JSON)
+                        .content("""
+                                {"topik":"Lembur","fakta":{
+                                  "jamLembur":9,
+                                  "jenisHari":"libur_terpendek",
+                                  "upahBulanan":5000000
+                                }}
+                                """))
+                .andExpect(status().isOk())
+                .andExpect(jsonPath("$.nominal").value(722_543.0));
+    }
+
+    @Test
+    void lemburLiburTerpendekSepuluhJamDitolak() throws Exception {
+        mockMvc.perform(post("/infer")
+                        .contentType(MediaType.APPLICATION_JSON)
+                        .content("""
+                                {"topik":"Lembur","fakta":{
+                                  "jamLembur":10,
+                                  "jenisHari":"libur_terpendek",
+                                  "upahBulanan":5000000
+                                }}
+                                """))
+                .andExpect(status().isUnprocessableEntity());
+    }
+
+    @Test
     void cutiMenikahMemakaiFallbackJava() throws Exception {
         mockMvc.perform(post("/infer")
                         .contentType(MediaType.APPLICATION_JSON)
@@ -107,5 +165,21 @@ class AutoFallbackTest {
                                 """))
                 .andExpect(status().isOk())
                 .andExpect(jsonPath("$.rincian.cuti_haid_hari").value(2));
+    }
+
+    @Test
+    void cutiKeguguranMemakaiDurasiBulan() throws Exception {
+        mockMvc.perform(post("/infer")
+                        .contentType(MediaType.APPLICATION_JSON)
+                        .content("""
+                                {"topik":"Cuti","fakta":{
+                                  "masaKerjaBulan":12,
+                                  "perempuan":true,
+                                  "peristiwa":"CutiKeguguran"
+                                }}
+                                """))
+                .andExpect(status().isOk())
+                .andExpect(jsonPath("$.rincian.cuti_keguguran_bulan").value(1.5))
+                .andExpect(jsonPath("$.rincian.cuti_haid_hari").doesNotExist());
     }
 }

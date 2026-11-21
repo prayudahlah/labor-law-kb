@@ -14,6 +14,7 @@ import org.semanticweb.owlapi.vocab.OWL2Datatype;
 import org.springframework.stereotype.Component;
 
 import ac.id.uns.kbr.kb.CaseSession;
+import ac.id.uns.kbr.kb.LemburRules;
 import ac.id.uns.kbr.kb.OntologyValues;
 
 @Component
@@ -36,15 +37,15 @@ public class CaseValidator {
                 OWLNamedIndividual lembur = OntologyValues.object(
                         manager, pekerja, "mengerjakanLembur");
                 objek(manager, pekerja, "mengerjakanLembur", 1, 1, "Lembur", masalah);
-                int batasJam = 12;
                 String jenisHari = OntologyValues.optionalString(
                         manager, lembur, "jenisHariLembur");
+                int batasJam;
                 if (jenisHari != null) {
-                    batasJam = "hari_kerja".equals(jenisHari) ? 4 : 12;
+                    batasJam = LemburRules.batasJam(jenisHari);
                 } else {
                     Boolean padaHariKerja = OntologyValues.optionalBool(
                             manager, lembur, "padaHariKerja");
-                    batasJam = padaHariKerja == null || padaHariKerja ? 4 : 12;
+                    batasJam = LemburRules.batasJam(padaHariKerja == null || padaHariKerja);
                 }
                 data(manager, lembur, "jamLembur", 1, null, "decimal", 0, batasJam, masalah);
                 if (jenisHari == null) {

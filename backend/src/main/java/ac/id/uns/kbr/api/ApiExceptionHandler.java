@@ -7,6 +7,7 @@ import org.springframework.web.bind.annotation.ExceptionHandler;
 import org.springframework.web.bind.annotation.RestControllerAdvice;
 
 import ac.id.uns.kbr.api.error.ValidationException;
+import ac.id.uns.kbr.kb.CalculationUnavailableException;
 
 @RestControllerAdvice
 public class ApiExceptionHandler {
@@ -15,6 +16,13 @@ public class ApiExceptionHandler {
     public ResponseEntity<Map<String, Object>> validasi(ValidationException exception) {
         return ResponseEntity.unprocessableEntity()
                 .body(Map.of("detail", exception.errors()));
+    }
+
+    @ExceptionHandler(CalculationUnavailableException.class)
+    public ResponseEntity<Map<String, Object>> tidakTersedia(
+            CalculationUnavailableException exception) {
+        return ResponseEntity.unprocessableEntity()
+                .body(Map.of("detail", exception.getMessage()));
     }
 
     @ExceptionHandler(IllegalArgumentException.class)

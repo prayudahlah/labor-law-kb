@@ -31,8 +31,8 @@ public class AutoCalculationProvider implements CalculationProvider {
         return switch (mode) {
             case "java" -> javaProvider.hitung(topik, kasus, manager, reasoner, hak);
             case "swrl" -> swrl.hitung(topik, kasus, manager, reasoner, hak)
-                    .orElseThrow(() -> new IllegalStateException(
-                            "Output SWRL belum tersedia untuk topik " + topik));
+                    .orElseThrow(() -> new CalculationUnavailableException(
+                            "Kasus ini belum didukung mode SWRL. Gunakan mode auto."));
             default -> swrl.hitung(topik, kasus, manager, reasoner, hak)
                     .orElseGet(() -> javaProvider.hitung(topik, kasus, manager, reasoner, hak));
         };

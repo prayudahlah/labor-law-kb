@@ -102,11 +102,11 @@ Rule sudah tersedia dan diuji end-to-end.
   `kompensasiBulan`, `iuranPekerja`, `cutiTahunanHari`, dst.).
 - Cakupan: PHK (19 rule, termasuk UPMK 0 untuk masa kerja < 36 bulan), PKWT,
   Jamsos, KIA, Lembur (5 rule), Cuti tahunan.
-- Uji: `backend/src/test/java/ac/id/uns/kbr/SwrlKalkulasiTest.java` (21 tes)
+- Uji: `backend/src/test/java/ac/id/uns/kbr/SwrlKalkulasiTest.java` (26 tes)
   membandingkan hasil SWRL dengan `golden-cases.json`, termasuk PKWT
   non-kelipatan 12, batas KIA, bracket PHK, PHK 6 bulan, lembur hari libur,
   dan penanda kosong untuk kasus yang belum didukung. Total suite backend
-  93 tes.
+  118 tes.
 - CI `kb` menjalankan ulang `build_ontology.py`, `build_swrl.py`, dan
   `build_catalog.py` lalu `git diff --exit-code` untuk mendeteksi berkas
   generated yang tertinggal.
@@ -132,17 +132,19 @@ Batas yang disepakati:
 
 - Lembur progresif memakai tabel bantu `AkumulasiLembur` yang dihasilkan
   `scripts/build_ontology.py`. SWRL tidak punya agregasi, jadi total pengali
-  dihitung saat build. Batas legal hari kerja 4 jam; hari libur 12 jam. SWRL
-  mencakup hari kerja 1..4 dan hari libur 1..12. Mode `auto` fallback ke Java
-  untuk jam pecahan; mode `swrl` gagal untuk pecahan.
+  dihitung saat build. Batas per jenis: `hari_kerja` 4 jam, `libur_5hari` 12
+  jam, `libur_6hari` 11 jam, `libur_terpendek` 9 jam. SWRL mengikuti tabel
+  yang sama. Mode `auto` fallback ke Java untuk jam pecahan; mode `swrl`
+  gagal untuk pecahan.
 - `padaHariKerja=false` dipetakan ke `libur_5hari`. Libur 6 hari dan libur
   terpendek dapat dipilih lewat `jenisHari`; backend menulis
   `jenisHariLembur` langsung.
 - Cuti khusus (haid, keguguran, menikah) belum masuk SWRL. Backend memetakan
   input ke individu `UpahCuti*` yang sudah punya `hariDibayar`, dan
   mengembalikan kosong kalau cuti khusus belum lengkap. Mode `auto` lalu
-  fallback ke Java; setelah rule `cutiKhususHari` masuk, jalur SWRL dapat
-  mengisi `hari_dibayar`.
+  fallback ke Java. Java mengisi `cuti_haid_hari=2` untuk `CutiHaid` dan
+  `cuti_keguguran_bulan=1.5` untuk `CutiKeguguran`.
+- Di mode `swrl`, kasus yang belum didukung mengembalikan 422, bukan 500.
 - `scripts/check_ontology.py` memakai HermiT yang tidak mendukung semua builtin
   `swrlb`; jalankan dengan `--tanpa-swrl` untuk cek T-Box. Verifikasi rule
   memakai Openllet lewat `SwrlKalkulasiTest`.
