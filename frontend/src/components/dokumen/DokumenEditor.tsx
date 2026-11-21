@@ -156,11 +156,10 @@ export default function DokumenEditor({
         .map((item) => `- ${item.pasal} — ${labelManusia(item.jenis)}`)
         .filter((baris) => !drafTeks.includes(baris));
       if (baru.length === 0) return;
-      const bagian = `## Dasar Hukum\n${baru.join('\n')}`;
-      // Selalu tambahkan blok baru di akhir — teks/catatan yang sudah ada
-      // tidak boleh hilang saat menyisipkan pasal berikutnya.
+      const bagian = `[Dasar Hukum]\n${baru.join('\n')}`;
+      // Tempel langsung di baris berikutnya — tanpa baris kosong tambahan.
       const isi = drafTeks.replace(/\s+$/, '');
-      onUbahDrafTeks(isi ? `${isi}\n\n${bagian}` : bagian);
+      onUbahDrafTeks(isi ? `${isi}\n${bagian}` : bagian);
       return;
     }
 
