@@ -118,10 +118,28 @@ public class SwrlCalculationProvider {
         Map<String, Object> rincian = new LinkedHashMap<>();
         inferred(reasoner, kasus, "cutiTahunanHari")
                 .ifPresent(v -> rincian.put("cuti_tahunan_hari", v));
-        inferred(reasoner, kasus, "hariDibayar")
-                .ifPresent(v -> rincian.put("hari_dibayar", v));
+
+        OWLNamedIndividual peristiwa = OntologyValues.objectValues(
+                        manager, kasus, "mengalamiPeristiwa")
+                .findFirst()
+                .orElse(null);
+
+        boolean khusus = false;
+        Optional<BigDecimal> khususHari = inferred(reasoner, kasus, "cutiKhususHari");
+        if (khususHari.isPresent()) {
+            rincian.put("hari_dibayar", khususHari.get());
+            khusus = true;
+        }
         if (hak.contains("CutiHaid")) {
             rincian.put("cuti_haid_hari", 2);
+            khusus = true;
+        }
+
+        if (peristiwa != null && !khusus) {
+            return Optional.empty();
+        }
+        if (peristiwa != null) {
+            rincian.put("peristiwa", peristiwa.getIRI().getFragment());
         }
         if (rincian.isEmpty()) {
             return Optional.empty();

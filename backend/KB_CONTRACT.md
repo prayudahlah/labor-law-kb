@@ -102,14 +102,18 @@ Rule sudah tersedia dan diuji end-to-end.
   `kompensasiBulan`, `iuranPekerja`, `cutiTahunanHari`, dst.).
 - Cakupan: PHK (19 rule, termasuk UPMK 0 untuk masa kerja < 36 bulan), PKWT,
   Jamsos, KIA, Lembur (5 rule), Cuti tahunan.
-- Uji: `backend/src/test/java/ac/id/uns/kbr/SwrlKalkulasiTest.java` (15 tes)
+- Uji: `backend/src/test/java/ac/id/uns/kbr/SwrlKalkulasiTest.java` (21 tes)
   membandingkan hasil SWRL dengan `golden-cases.json`, termasuk PKWT
-  non-kelipatan 12, batas KIA, bracket PHK, PHK 6 bulan, dan lembur hari libur.
+  non-kelipatan 12, batas KIA, bracket PHK, PHK 6 bulan, lembur hari libur,
+  dan penanda kosong untuk kasus yang belum didukung. Total suite backend
+  93 tes.
 - CI `kb` menjalankan ulang `build_ontology.py`, `build_swrl.py`, dan
   `build_catalog.py` lalu `git diff --exit-code` untuk mendeteksi berkas
   generated yang tertinggal.
 - CI juga menjalankan `InferControllerTest` dengan `KB_CALC_MODE=swrl`, jadi
   jalur API tanpa fallback Java ikut diuji.
+- CI menjalankan `JavaCalculationProviderTest` dan `InferControllerTest`
+  dengan `KB_CALC_MODE=java`, jadi fallback Java ikut dijaga.
 - Mode default `auto`; `swrl` untuk demo tanpa fallback dan `java` legacy.
 
 Keputusan yang sudah diambil:
@@ -128,16 +132,17 @@ Batas yang disepakati:
 
 - Lembur progresif memakai tabel bantu `AkumulasiLembur` yang dihasilkan
   `scripts/build_ontology.py`. SWRL tidak punya agregasi, jadi total pengali
-  dihitung saat build. SWRL baru mencakup jam bulat, dan untuk `hari_kerja`
-  baru 1..4. Mode `auto` fallback ke Java untuk jam pecahan dan jam 5..12;
-  Java melanjutkan pengali terakhir sampai 12. Mode `swrl` gagal untuk kasus
-  di luar tabel.
-- `padaHariKerja=false` dipetakan ke `libur_5hari` karena input belum
-  membedakan libur 6 hari dan libur terpendek.
-- Cuti khusus (haid, keguguran, menikah) belum masuk SWRL. Jalur Java masih
-  membaca `hariDibayar` dari individu peristiwa; SWRL hanya menghasilkan
-  `cutiTahunanHari`. Mode `auto` belum fallback untuk cuti khusus karena SWRL
-  mengembalikan hasil parsial, bukan kosong.
+  dihitung saat build. Batas legal hari kerja 4 jam; hari libur 12 jam. SWRL
+  mencakup hari kerja 1..4 dan hari libur 1..12. Mode `auto` fallback ke Java
+  untuk jam pecahan; mode `swrl` gagal untuk pecahan.
+- `padaHariKerja=false` dipetakan ke `libur_5hari`. Libur 6 hari dan libur
+  terpendek dapat dipilih lewat `jenisHari`; backend menulis
+  `jenisHariLembur` langsung.
+- Cuti khusus (haid, keguguran, menikah) belum masuk SWRL. Backend memetakan
+  input ke individu `UpahCuti*` yang sudah punya `hariDibayar`, dan
+  mengembalikan kosong kalau cuti khusus belum lengkap. Mode `auto` lalu
+  fallback ke Java; setelah rule `cutiKhususHari` masuk, jalur SWRL dapat
+  mengisi `hari_dibayar`.
 - `scripts/check_ontology.py` memakai HermiT yang tidak mendukung semua builtin
   `swrlb`; jalankan dengan `--tanpa-swrl` untuk cek T-Box. Verifikasi rule
   memakai Openllet lewat `SwrlKalkulasiTest`.

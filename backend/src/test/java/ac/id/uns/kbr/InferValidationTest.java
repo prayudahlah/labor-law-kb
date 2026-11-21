@@ -44,15 +44,51 @@ class InferValidationTest {
     }
 
     @Test
-    void lemburLebih12Jam() throws Exception {
+    void lemburHariKerjaLebih4Jam() throws Exception {
         mockMvc.perform(post("/infer")
                         .contentType(MediaType.APPLICATION_JSON)
                         .content("""
-                                {"topik":"Lembur","fakta":{"jamLembur":13,"upahBulanan":5000000}}
+                                {"topik":"Lembur","fakta":{
+                                  "jamLembur":5,
+                                  "padaHariKerja":true,
+                                  "upahBulanan":5000000
+                                }}
                                 """))
                 .andExpect(status().isUnprocessableEntity())
                 .andExpect(jsonPath("$.detail[0].type").value("less_than_equal"))
                 .andExpect(jsonPath("$.detail[0].loc[3]").value("jamLembur"));
+    }
+
+    @Test
+    void lemburLiburLebih12Jam() throws Exception {
+        mockMvc.perform(post("/infer")
+                        .contentType(MediaType.APPLICATION_JSON)
+                        .content("""
+                                {"topik":"Lembur","fakta":{
+                                  "jamLembur":13,
+                                  "padaHariKerja":false,
+                                  "upahBulanan":5000000
+                                }}
+                                """))
+                .andExpect(status().isUnprocessableEntity())
+                .andExpect(jsonPath("$.detail[0].type").value("less_than_equal"))
+                .andExpect(jsonPath("$.detail[0].loc[3]").value("jamLembur"));
+    }
+
+    @Test
+    void jenisHariTidakDikenal() throws Exception {
+        mockMvc.perform(post("/infer")
+                        .contentType(MediaType.APPLICATION_JSON)
+                        .content("""
+                                {"topik":"Lembur","fakta":{
+                                  "jamLembur":4,
+                                  "jenisHari":"libur_9hari",
+                                  "upahBulanan":5000000
+                                }}
+                                """))
+                .andExpect(status().isUnprocessableEntity())
+                .andExpect(jsonPath("$.detail[0].type").value("literal_error"))
+                .andExpect(jsonPath("$.detail[0].loc[3]").value("jenisHari"));
     }
 
     @Test

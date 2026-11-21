@@ -51,8 +51,11 @@ public class ValidationService {
                 teksOpsional(fakta, topik, "bentukHubunganKerja", errors);
             }
             case "Lembur" -> {
-                angkaRentang(fakta, topik, "jamLembur", 0.0, 12.0, errors);
+                literalOpsional(fakta, topik, "jenisHari",
+                        List.of("hari_kerja", "libur_5hari", "libur_6hari", "libur_terpendek"),
+                        errors);
                 booleanOpsional(fakta, topik, "padaHariKerja", errors);
+                angkaRentang(fakta, topik, "jamLembur", 0.0, batasLembur(fakta), errors);
                 positif(fakta, topik, "upahBulanan", errors);
             }
             case "Cuti" -> {
@@ -221,6 +224,34 @@ public class ValidationService {
                     "Input should be a valid boolean, unable to interpret input",
                     value, null));
         }
+    }
+
+    private static void literalOpsional(
+            Map<String, Object> fakta, String topik, String field,
+            List<String> allowed, List<ValidationError> errors) {
+        Object value = fakta.get(field);
+        if (value == null) {
+            return;
+        }
+        List<String> loc = loc(topik, field);
+        if (!(value instanceof String teks) || !allowed.contains(teks)) {
+            errors.add(new ValidationError(
+                    "literal_error", loc,
+                    "Input should be " + String.join(" or ", allowed), value,
+                    Map.of("expected", String.join(" or ", allowed))));
+        }
+    }
+
+    private static double batasLembur(Map<String, Object> fakta) {
+        Object jenis = fakta.get("jenisHari");
+        if (jenis instanceof String teks) {
+            return "hari_kerja".equals(teks) ? 4.0 : 12.0;
+        }
+        Object padaHariKerja = fakta.get("padaHariKerja");
+        if (padaHariKerja instanceof Boolean hariKerja && !hariKerja) {
+            return 12.0;
+        }
+        return 4.0;
     }
 
     private static void literal(

@@ -6,6 +6,7 @@ import static org.junit.jupiter.api.Assertions.assertTrue;
 import java.math.BigDecimal;
 import java.nio.file.Path;
 import java.util.Map;
+import java.util.Optional;
 import java.util.Set;
 import java.util.UUID;
 
@@ -63,6 +64,15 @@ class SwrlKalkulasiTest {
                     .hitung(topik, kasus, manager, sesi.reasoner(), Set.of())
                     .orElseThrow(() -> new AssertionError(
                             "SWRL tidak menghasilkan output untuk topik " + topik));
+        }
+    }
+
+    private static Optional<CalculationResult> hitungSwrlOpsional(
+            String topik, Map<String, Object> fakta) throws Exception {
+        try (CaseSession sesi = bukaSesi(topik, fakta)) {
+            OWLNamedIndividual kasus = OntologyValues.individual(manager, "KasusPekerja");
+            return new SwrlCalculationProvider()
+                    .hitung(topik, kasus, manager, sesi.reasoner(), Set.of());
         }
     }
 
@@ -166,10 +176,68 @@ class SwrlKalkulasiTest {
     }
 
     @Test
+    void lemburLiburEnamHariMemakaiJenisHari() throws Exception {
+        CalculationResult hasil = hitungSwrl("Lembur", Map.of(
+                "jamLembur", 8,
+                "jenisHari", "libur_6hari",
+                "upahBulanan", 5_000_000));
+
+        sama("491329", hasil.nominal());
+    }
+
+    @Test
+    void lemburLiburTerpendekMemakaiJenisHari() throws Exception {
+        CalculationResult hasil = hitungSwrl("Lembur", Map.of(
+                "jamLembur", 6,
+                "jenisHari", "libur_terpendek",
+                "upahBulanan", 5_000_000));
+
+        sama("375723", hasil.nominal());
+    }
+
+    @Test
+    void lemburPecahanMengembalikanKosong() throws Exception {
+        Optional<CalculationResult> hasil = hitungSwrlOpsional("Lembur", Map.of(
+                "jamLembur", 3.5,
+                "padaHariKerja", true,
+                "upahBulanan", 5_000_000));
+
+        assertTrue(hasil.isEmpty());
+    }
+
+    @Test
+    void lemburHariKerjaLimaMengembalikanKosong() throws Exception {
+        Optional<CalculationResult> hasil = hitungSwrlOpsional("Lembur", Map.of(
+                "jamLembur", 5,
+                "padaHariKerja", true,
+                "upahBulanan", 5_000_000));
+
+        assertTrue(hasil.isEmpty());
+    }
+
+    @Test
     void cutiTahunanMengambilNilaiDariKb() throws Exception {
         CalculationResult hasil = hitungSwrl("Cuti", Map.of("masaKerjaBulan", 12));
 
         sama("12", hasil.rincian().get("cuti_tahunan_hari"));
+    }
+
+    @Test
+    void cutiKhususTanpaRuleMengembalikanKosong() throws Exception {
+        Optional<CalculationResult> hasil = hitungSwrlOpsional("Cuti", Map.of(
+                "masaKerjaBulan", 12,
+                "peristiwa", "UpahCutiMenikah"));
+
+        assertTrue(hasil.isEmpty());
+    }
+
+    @Test
+    void cutiHaidTanpaRuleMengembalikanKosong() throws Exception {
+        Optional<CalculationResult> hasil = hitungSwrlOpsional("Cuti", Map.of(
+                "masaKerjaBulan", 12,
+                "peristiwa", "CutiHaid"));
+
+        assertTrue(hasil.isEmpty());
     }
 
     @Test

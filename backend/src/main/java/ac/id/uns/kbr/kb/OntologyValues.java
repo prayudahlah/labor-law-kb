@@ -66,6 +66,14 @@ public final class OntologyValues {
                         "Data property " + property + " tidak ditemukan pada " + ind.getIRI()));
     }
 
+    public static Boolean optionalBool(
+            OWLOntologyManager manager, OWLNamedIndividual ind, String property) {
+        return dataValues(manager, ind, property)
+                .findFirst()
+                .map(lit -> Boolean.parseBoolean(lit.getLiteral()))
+                .orElse(null);
+    }
+
     public static String string(
             OWLOntologyManager manager, OWLNamedIndividual ind, String property) {
         return dataValues(manager, ind, property)
@@ -73,6 +81,14 @@ public final class OntologyValues {
                 .map(OWLLiteral::getLiteral)
                 .orElseThrow(() -> new IllegalStateException(
                         "Data property " + property + " tidak ditemukan pada " + ind.getIRI()));
+    }
+
+    public static String optionalString(
+            OWLOntologyManager manager, OWLNamedIndividual ind, String property) {
+        return dataValues(manager, ind, property)
+                .findFirst()
+                .map(OWLLiteral::getLiteral)
+                .orElse(null);
     }
 
     public static OWLNamedIndividual object(

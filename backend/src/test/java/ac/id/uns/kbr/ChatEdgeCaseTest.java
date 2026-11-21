@@ -45,6 +45,40 @@ class ChatEdgeCaseTest {
     }
 
     @Test
+    void cutiHaidMengisiPeristiwa() throws Exception {
+        mockMvc.perform(post("/chat")
+                        .contentType(MediaType.APPLICATION_JSON)
+                        .content("""
+                                {"sesi":"edge-haid","pesan":"saya mau cuti haid, hak saya apa"}
+                                """))
+                .andExpect(status().isOk())
+                .andExpect(jsonPath("$.slot.fields[1].nama").value("peristiwa"))
+                .andExpect(jsonPath("$.slot.fields[1].nilai").value("CutiHaid"));
+    }
+
+    @Test
+    void cutiMenikahMengisiPeristiwa() throws Exception {
+        mockMvc.perform(post("/chat")
+                        .contentType(MediaType.APPLICATION_JSON)
+                        .content("""
+                                {"sesi":"edge-menikah","pesan":"saya mau cuti menikah, hak saya apa"}
+                                """))
+                .andExpect(status().isOk())
+                .andExpect(jsonPath("$.slot.fields[1].nilai").value("UpahCutiMenikah"));
+    }
+
+    @Test
+    void cutiMenikahkanAnakMemakaiIndividuDuaHari() throws Exception {
+        mockMvc.perform(post("/chat")
+                        .contentType(MediaType.APPLICATION_JSON)
+                        .content("""
+                                {"sesi":"edge-menikahkan","pesan":"saya mau cuti menikahkan anak, hak saya apa"}
+                                """))
+                .andExpect(status().isOk())
+                .andExpect(jsonPath("$.slot.fields[1].nilai").value("UpahCutiKeluarga2Hari"));
+    }
+
+    @Test
     void topikTanpaFakta() throws Exception {
         mockMvc.perform(post("/chat")
                         .contentType(MediaType.APPLICATION_JSON)

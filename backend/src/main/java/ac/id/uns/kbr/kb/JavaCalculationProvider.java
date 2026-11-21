@@ -59,17 +59,26 @@ public class JavaCalculationProvider implements CalculationProvider {
     private CalculationResult hitungLembur(OWLOntologyManager m, OWLNamedIndividual pekerja) {
         OWLNamedIndividual lembur = OntologyValues.object(m, pekerja, "mengerjakanLembur");
         BigDecimal jam = OntologyValues.decimal(m, lembur, "jamLembur");
-        boolean padaHariKerja = OntologyValues.bool(m, lembur, "padaHariKerja");
         BigDecimal upah = OntologyValues.decimal(m, pekerja, "upahBulanan");
-        String jenis = padaHariKerja ? "hari_kerja" : "libur_5hari";
+
+        String jenisHari = OntologyValues.optionalString(m, lembur, "jenisHariLembur");
+        String jenis;
+        if (jenisHari != null) {
+            jenis = jenisHari;
+        } else {
+            Boolean padaHariKerja = OntologyValues.optionalBool(m, lembur, "padaHariKerja");
+            jenis = padaHariKerja == null || padaHariKerja ? "hari_kerja" : "libur_5hari";
+        }
 
         BigDecimal faktor = OntologyValues.decimal(
                 m, OntologyValues.individual(m, "UpahSejamLembur"), "faktorPembagiUpahSejam");
         BigDecimal upahSejam = upah.divide(faktor, 10, RoundingMode.HALF_UP);
 
+        int batasJam = "hari_kerja".equals(jenis) ? 4 : 12;
         if (jam.compareTo(BigDecimal.ZERO) <= 0
-                || jam.compareTo(BigDecimal.valueOf(12)) > 0) {
-            throw new IllegalArgumentException("Jam lembur harus lebih dari 0 dan maksimal 12");
+                || jam.compareTo(BigDecimal.valueOf(batasJam)) > 0) {
+            throw new IllegalArgumentException(
+                    "Jam lembur harus lebih dari 0 dan maksimal " + batasJam);
         }
 
         int jamPenuh = jam.setScale(0, RoundingMode.FLOOR).intValue();

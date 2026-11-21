@@ -24,13 +24,88 @@ class AutoFallbackTest {
                         .contentType(MediaType.APPLICATION_JSON)
                         .content("""
                                 {"topik":"Lembur","fakta":{
-                                  "jamLembur":4.5,
+                                  "jamLembur":3.5,
                                   "padaHariKerja":true,
                                   "upahBulanan":5000000
                                 }}
                                 """))
                 .andExpect(status().isOk())
                 .andExpect(jsonPath("$.mode").value("inferensi"))
-                .andExpect(jsonPath("$.nominal").value(245_665.0));
+                .andExpect(jsonPath("$.nominal").value(187_861.0));
+    }
+
+    @Test
+    void lemburLiburEnamHari() throws Exception {
+        mockMvc.perform(post("/infer")
+                        .contentType(MediaType.APPLICATION_JSON)
+                        .content("""
+                                {"topik":"Lembur","fakta":{
+                                  "jamLembur":8,
+                                  "jenisHari":"libur_6hari",
+                                  "upahBulanan":5000000
+                                }}
+                                """))
+                .andExpect(status().isOk())
+                .andExpect(jsonPath("$.nominal").value(491_329.0));
+    }
+
+    @Test
+    void lemburLiburTerpendek() throws Exception {
+        mockMvc.perform(post("/infer")
+                        .contentType(MediaType.APPLICATION_JSON)
+                        .content("""
+                                {"topik":"Lembur","fakta":{
+                                  "jamLembur":6,
+                                  "jenisHari":"libur_terpendek",
+                                  "upahBulanan":5000000
+                                }}
+                                """))
+                .andExpect(status().isOk())
+                .andExpect(jsonPath("$.nominal").value(375_723.0));
+    }
+
+    @Test
+    void cutiMenikahMemakaiFallbackJava() throws Exception {
+        mockMvc.perform(post("/infer")
+                        .contentType(MediaType.APPLICATION_JSON)
+                        .content("""
+                                {"topik":"Cuti","fakta":{
+                                  "masaKerjaBulan":12,
+                                  "peristiwa":"UpahCutiMenikah"
+                                }}
+                                """))
+                .andExpect(status().isOk())
+                .andExpect(jsonPath("$.rincian.cuti_tahunan_hari").value(12))
+                .andExpect(jsonPath("$.rincian.hari_dibayar").value(3))
+                .andExpect(jsonPath("$.rincian.peristiwa").value("UpahCutiMenikah"));
+    }
+
+    @Test
+    void cutiKematianSerumahMemakaiFallbackJava() throws Exception {
+        mockMvc.perform(post("/infer")
+                        .contentType(MediaType.APPLICATION_JSON)
+                        .content("""
+                                {"topik":"Cuti","fakta":{
+                                  "masaKerjaBulan":12,
+                                  "peristiwa":"UpahCutiKematianSerumah"
+                                }}
+                                """))
+                .andExpect(status().isOk())
+                .andExpect(jsonPath("$.rincian.hari_dibayar").value(1));
+    }
+
+    @Test
+    void cutiHaidMemakaiFallbackJava() throws Exception {
+        mockMvc.perform(post("/infer")
+                        .contentType(MediaType.APPLICATION_JSON)
+                        .content("""
+                                {"topik":"Cuti","fakta":{
+                                  "masaKerjaBulan":12,
+                                  "perempuan":true,
+                                  "peristiwa":"CutiHaid"
+                                }}
+                                """))
+                .andExpect(status().isOk())
+                .andExpect(jsonPath("$.rincian.cuti_haid_hari").value(2));
     }
 }
