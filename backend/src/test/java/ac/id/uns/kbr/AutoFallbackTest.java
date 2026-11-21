@@ -1,5 +1,6 @@
 package ac.id.uns.kbr;
 
+import static org.hamcrest.Matchers.hasItem;
 import static org.springframework.test.web.servlet.request.MockMvcRequestBuilders.post;
 import static org.springframework.test.web.servlet.result.MockMvcResultMatchers.jsonPath;
 import static org.springframework.test.web.servlet.result.MockMvcResultMatchers.status;
@@ -165,6 +166,36 @@ class AutoFallbackTest {
                                 """))
                 .andExpect(status().isOk())
                 .andExpect(jsonPath("$.rincian.cuti_haid_hari").value(2));
+    }
+
+    @Test
+    void cutiHaidTanpaFieldPerempuanTetapJalan() throws Exception {
+        mockMvc.perform(post("/infer")
+                        .contentType(MediaType.APPLICATION_JSON)
+                        .content("""
+                                {"topik":"Cuti","fakta":{
+                                  "masaKerjaBulan":12,
+                                  "peristiwa":"CutiHaid"
+                                }}
+                                """))
+                .andExpect(status().isOk())
+                .andExpect(jsonPath("$.hak", hasItem("CutiHaid")))
+                .andExpect(jsonPath("$.rincian.cuti_haid_hari").value(2));
+    }
+
+    @Test
+    void cutiKeguguranTanpaFieldPerempuanTetapJalan() throws Exception {
+        mockMvc.perform(post("/infer")
+                        .contentType(MediaType.APPLICATION_JSON)
+                        .content("""
+                                {"topik":"Cuti","fakta":{
+                                  "masaKerjaBulan":12,
+                                  "peristiwa":"CutiKeguguran"
+                                }}
+                                """))
+                .andExpect(status().isOk())
+                .andExpect(jsonPath("$.rincian.cuti_keguguran_bulan").value(1.5))
+                .andExpect(jsonPath("$.rincian.cuti_haid_hari").doesNotExist());
     }
 
     @Test

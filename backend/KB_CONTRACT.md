@@ -18,11 +18,16 @@ hanya konsumen.
 | Topik | Properti ABox |
 |---|---|
 | PHK | `masaKerjaBulan`, `upahBulanan`, `bentukHubunganKerja`, `mengalami`, `memilikiAlasanPHK` |
-| Lembur | `jamLembur`, `padaHariKerja`, `upahBulanan` |
+| Lembur | `jamLembur`, `padaHariKerja`, `jenisHari`, `upahBulanan` |
 | PKWT | `bentukHubunganKerja`, `masaKerjaBulan`, `upahBulanan` |
 | Jamsos | `upahBulanan` |
 | KIA | `cutiMelahirkanBulan`, `upahBulanan` |
 | Cuti | `masaKerjaBulan`, `perempuan`, `mengalamiPeristiwa` |
+
+`peristiwa` Cuti yang diterima: `CutiHaid`, `CutiKeguguran`, `UpahCutiMenikah`,
+`UpahCutiKeluarga2Hari`, dan `UpahCutiKematianSerumah`. `CutiHaid` dan
+`CutiKeguguran` membutuhkan `perempuan=true`; kalau field itu tidak diisi,
+backend menganggapnya true.
 
 ## Properti output SWRL
 
@@ -106,7 +111,7 @@ Rule sudah tersedia dan diuji end-to-end.
   membandingkan hasil SWRL dengan `golden-cases.json`, termasuk PKWT
   non-kelipatan 12, batas KIA, bracket PHK, PHK 6 bulan, lembur hari libur,
   dan penanda kosong untuk kasus yang belum didukung. Total suite backend
-  118 tes.
+  124 tes.
 - CI `kb` menjalankan ulang `build_ontology.py`, `build_swrl.py`, dan
   `build_catalog.py` lalu `git diff --exit-code` untuk mendeteksi berkas
   generated yang tertinggal.

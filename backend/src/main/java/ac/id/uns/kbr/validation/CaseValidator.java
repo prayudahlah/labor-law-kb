@@ -14,6 +14,7 @@ import org.semanticweb.owlapi.vocab.OWL2Datatype;
 import org.springframework.stereotype.Component;
 
 import ac.id.uns.kbr.kb.CaseSession;
+import ac.id.uns.kbr.kb.CutiEvents;
 import ac.id.uns.kbr.kb.LemburRules;
 import ac.id.uns.kbr.kb.OntologyValues;
 
@@ -52,7 +53,16 @@ public class CaseValidator {
                     data(manager, lembur, "padaHariKerja", 1, null, "boolean", null, null, masalah);
                 }
             }
-            case "Cuti" -> data(manager, pekerja, "masaKerjaBulan", 1, 1, "integer", 0, null, masalah);
+            case "Cuti" -> {
+                data(manager, pekerja, "masaKerjaBulan", 1, 1, "integer", 0, null, masalah);
+                for (OWLNamedIndividual per : OntologyValues.objectValues(
+                        manager, pekerja, "mengalamiPeristiwa").toList()) {
+                    String nama = per.getIRI().getFragment();
+                    if (!CutiEvents.DIIZINKAN.contains(nama)) {
+                        masalah.add("peristiwa tidak dikenal: " + nama);
+                    }
+                }
+            }
             case "PKWT" -> {
                 data(manager, pekerja, "bentukHubunganKerja", 1, null, "string", null, null, masalah);
                 data(manager, pekerja, "masaKerjaBulan", 1, 1, "integer", 1, null, masalah);

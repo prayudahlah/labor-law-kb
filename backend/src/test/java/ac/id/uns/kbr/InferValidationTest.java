@@ -126,6 +126,53 @@ class InferValidationTest {
     }
 
     @Test
+    void peristiwaCutiTidakDikenal() throws Exception {
+        mockMvc.perform(post("/infer")
+                        .contentType(MediaType.APPLICATION_JSON)
+                        .content("""
+                                {"topik":"Cuti","fakta":{
+                                  "masaKerjaBulan":12,
+                                  "peristiwa":"TidakAda"
+                                }}
+                                """))
+                .andExpect(status().isUnprocessableEntity())
+                .andExpect(jsonPath("$.detail[0].type").value("literal_error"))
+                .andExpect(jsonPath("$.detail[0].loc[3]").value("peristiwa"));
+    }
+
+    @Test
+    void cutiHaidDenganPerempuanFalseDitolak() throws Exception {
+        mockMvc.perform(post("/infer")
+                        .contentType(MediaType.APPLICATION_JSON)
+                        .content("""
+                                {"topik":"Cuti","fakta":{
+                                  "masaKerjaBulan":12,
+                                  "perempuan":false,
+                                  "peristiwa":"CutiHaid"
+                                }}
+                                """))
+                .andExpect(status().isUnprocessableEntity())
+                .andExpect(jsonPath("$.detail[0].type").value("value_error"))
+                .andExpect(jsonPath("$.detail[0].loc[3]").value("perempuan"));
+    }
+
+    @Test
+    void cutiKeguguranDenganPerempuanFalseDitolak() throws Exception {
+        mockMvc.perform(post("/infer")
+                        .contentType(MediaType.APPLICATION_JSON)
+                        .content("""
+                                {"topik":"Cuti","fakta":{
+                                  "masaKerjaBulan":12,
+                                  "perempuan":false,
+                                  "peristiwa":"CutiKeguguran"
+                                }}
+                                """))
+                .andExpect(status().isUnprocessableEntity())
+                .andExpect(jsonPath("$.detail[0].type").value("value_error"))
+                .andExpect(jsonPath("$.detail[0].loc[3]").value("perempuan"));
+    }
+
+    @Test
     void kiaBulanDiLuarRentang() throws Exception {
         mockMvc.perform(post("/infer")
                         .contentType(MediaType.APPLICATION_JSON)
