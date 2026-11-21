@@ -40,14 +40,26 @@ function simpan(list: Recent[]): void {
 }
 
 function muat(): Recent[] {
+  let raw: string | null = null;
   try {
-    const raw = window.localStorage.getItem(KEY);
-    if (raw) {
-      const parsed: unknown = JSON.parse(raw);
-      if (Array.isArray(parsed)) {
-        const valid = parsed.filter(isRecent).map(bersihkan);
-        if (valid.length > 0) return valid;
-      }
+    raw = window.localStorage.getItem(KEY);
+  } catch (err) {
+    console.warn('[recents] localStorage tidak terbaca, memakai data contoh.', err);
+    return buatSeed();
+  }
+
+  // Key belum ada = pengguna baru: isi dengan contoh.
+  // Key ada tetapi isinya [] = riwayat memang sengaja dikosongkan.
+  if (raw === null) {
+    const seed = buatSeed();
+    simpan(seed);
+    return seed;
+  }
+
+  try {
+    const parsed: unknown = JSON.parse(raw);
+    if (Array.isArray(parsed)) {
+      return parsed.filter(isRecent).map(bersihkan);
     }
   } catch (err) {
     console.warn('[recents] localStorage tidak terbaca, memakai data contoh.', err);
@@ -91,5 +103,9 @@ export const recentsService = {
 
   async remove(id: string): Promise<void> {
     simpan(muat().filter((item) => item.id !== id));
+  },
+
+  async clear(): Promise<void> {
+    simpan([]);
   },
 };

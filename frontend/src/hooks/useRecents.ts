@@ -45,6 +45,18 @@ export function useRecents() {
     setItems(await recentsService.list());
   }, []);
 
+  /** Hapus satu entri riwayat. */
+  const remove = useCallback(async (id: string) => {
+    await recentsService.remove(id);
+    setItems(await recentsService.list());
+  }, []);
+
+  /** Kosongkan seluruh riwayat. */
+  const clear = useCallback(async () => {
+    await recentsService.clear();
+    setItems([]);
+  }, []);
+
   return {
     items,
     terlihat,
@@ -55,6 +67,8 @@ export function useRecents() {
     setQuery,
     refresh,
     save,
+    remove,
+    clear,
   };
 }
 

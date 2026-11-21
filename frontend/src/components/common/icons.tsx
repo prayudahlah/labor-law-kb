@@ -86,3 +86,14 @@ export function IconCopy(props: Props) {
     </svg>
   );
 }
+
+export function IconTrash(props: Props) {
+  return (
+    <svg {...base} {...props}>
+      <path d="M4 7h16" />
+      <path d="M9 7V5h6v2" />
+      <path d="M6.5 7l.8 12h9.4l.8-12" />
+      <path d="M10 11v4.5M14 11v4.5" />
+    </svg>
+  );
+}

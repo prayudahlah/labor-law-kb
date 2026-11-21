@@ -1,33 +1,50 @@
 import { cx } from '../../lib/cx';
 import { formatRelative } from '../../lib/time';
-import { IconChat, IconDoc } from '../common/icons';
+import { IconChat, IconDoc, IconTrash } from '../common/icons';
 import type { RecentsFilter } from '../../types/app';
 import type { RecentsGroup } from '../../lib/recents';
 
 type Props = {
   groups: RecentsGroup[];
+  adaRiwayat: boolean;
   loading: boolean;
   activeId: string | null;
   filter: RecentsFilter;
   query: string;
   onOpen: (id: string) => void;
+  onHapus: (id: string) => void;
+  onHapusSemua: () => void;
 };
 
 export default function RecentsList({
   groups,
+  adaRiwayat,
   loading,
   activeId,
   filter,
   query,
   onOpen,
+  onHapus,
+  onHapusSemua,
 }: Props) {
   const kosong = groups.length === 0;
 
   return (
     <div className="pt-4">
-      <p className="px-1 text-[11px] font-semibold uppercase tracking-wide text-ink-muted">
-        Riwayat
-      </p>
+      <div className="flex items-center justify-between gap-2 px-1">
+        <p className="text-[11px] font-semibold uppercase tracking-wide text-ink-muted">
+          Riwayat
+        </p>
+        {!loading && adaRiwayat && (
+          <button
+            type="button"
+            onClick={onHapusSemua}
+            className="text-[11px] font-medium text-ink-muted transition hover:text-danger"
+          >
+            Hapus semua
+          </button>
+        )}
+      </div>
 
       {loading && (
         <div className="mt-3 space-y-2" aria-busy="true">
@@ -62,12 +79,12 @@ export default function RecentsList({
               {group.items.map((item) => {
                 const aktif = item.id === activeId;
                 return (
-                  <li key={item.id}>
+                  <li key={item.id} className="group flex items-start gap-0.5">
                     <button
                       type="button"
                       onClick={() => onOpen(item.id)}
                       className={cx(
-                        'flex w-full items-start gap-2 rounded-lg px-2 py-2 text-left transition',
+                        'flex min-w-0 flex-1 items-start gap-2 rounded-lg px-2 py-2 text-left transition',
                         aktif ? 'bg-navy-soft' : 'hover:bg-navy-soft',
                       )}
                     >
@@ -98,6 +115,16 @@ export default function RecentsList({
                           {formatRelative(item.updatedAt)}
                         </span>
                       </span>
+                    </button>
+
+                    <button
+                      type="button"
+                      onClick={() => onHapus(item.id)}
+                      aria-label={`Hapus riwayat ${item.title}`}
+                      title="Hapus riwayat"
+                      className="mt-1.5 shrink-0 rounded-md p-1.5 text-ink-muted transition hover:bg-danger-soft hover:text-danger"
+                    >
+                      <IconTrash className="h-3.5 w-3.5" />
                     </button>
                   </li>
                 );

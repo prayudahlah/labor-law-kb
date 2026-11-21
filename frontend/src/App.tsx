@@ -50,6 +50,23 @@ export default function App() {
     setMode(next);
   };
 
+  const hapusRecent = async (id: string) => {
+    await recents.remove(id);
+    if (activeId === id) {
+      chat.reset();
+      setActiveId(null);
+      setThreadMode(null);
+    }
+  };
+
+  const hapusSemuaRecent = async () => {
+    if (!window.confirm('Hapus semua riwayat?')) return;
+    await recents.clear();
+    chat.reset();
+    setActiveId(null);
+    setThreadMode(null);
+  };
+
   const kirim = async (teks: string) => {
     const tersimpan = recents.items.find((recent) => recent.id === chat.sesi);
 
@@ -86,7 +103,14 @@ export default function App() {
 
   return (
     <div className="flex h-full min-h-screen bg-bg">
-      <Sidebar recents={recents} activeId={activeId} onOpen={bukaRecent} onNewChat={bukaBaru} />
+      <Sidebar
+        recents={recents}
+        activeId={activeId}
+        onOpen={bukaRecent}
+        onHapus={hapusRecent}
+        onHapusSemua={hapusSemuaRecent}
+        onNewChat={bukaBaru}
+      />
 
       <div className="flex min-w-0 flex-1 flex-col">
         <TopBar health={health} onNewChat={bukaBaru} />
