@@ -1,6 +1,8 @@
 import { useCallback, useState } from 'react';
 
+import { pesanGalat } from '../lib/galat';
 import { kirimChat } from '../services/chatService';
+import { ApiError } from '../services/client';
 import type { ChatResponse } from '../types/api';
 import type { ChatMessage, Recent } from '../types/chat';
 
@@ -22,7 +24,7 @@ export function useChat() {
   const [sesi, setSesi] = useState<string>(() => uid());
   const [messages, setMessages] = useState<ChatMessage[]>([]);
   const [loading, setLoading] = useState(false);
-  const [error, setError] = useState<string | null>(null);
+  const [error, setError] = useState<{ pesan: string; status: number } | null>(null);
 
   /** Kirim pesan. Mengembalikan seluruh thread setelah terkirim, atau null bila gagal. */
   const kirim = useCallback(
@@ -52,7 +54,10 @@ export function useChat() {
         setMessages(akhir);
         return akhir;
       } catch (err) {
-        setError(err instanceof Error ? err.message : 'Terjadi kesalahan tak terduga.');
+        setError({
+          pesan: pesanGalat(err),
+          status: err instanceof ApiError ? err.status : 0,
+        });
         return null;
       } finally {
         setLoading(false);

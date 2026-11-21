@@ -75,7 +75,7 @@ export function buatSeed(now: number = Date.now()): Recent[] {
           ['user', 'Lembur 4 jam hari kerja, gaji bulanan 5 juta, berapa upah lemburnya?'],
           [
             'assistant',
-            'Upah sejam Rp28.902 (1/173 x upah bulanan), total lembur Rp115.607. Dasar: PP 35/2021 Pasal 32.',
+            'Upah sejam Rp28.902 (1/173 x upah bulanan), total lembur Rp216.763. Dasar: PP 35/2021 Pasal 31.',
           ],
         ],
         lalu(1, 14),
@@ -89,7 +89,7 @@ export function buatSeed(now: number = Date.now()): Recent[] {
       messages: pesan(
         's-1004',
         [
-          ['user', 'CutI melahirkan berapa bulan dan upahnya dibayar penuh?'],
+          ['user', 'Cuti melahirkan berapa bulan dan upahnya dibayar penuh?'],
           [
             'assistant',
             'Cuti melahirkan 3 bulan dengan upah tetap dibayar. Dasar: UU 13/2003 Pasal 92.',

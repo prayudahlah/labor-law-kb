@@ -10,18 +10,24 @@ hanya konsumen.
 - Rule SWRL membaca ABox itu dan menghasilkan data property hasil hitung.
 - Backend membaca data property hasil inferensi, lalu memetakannya ke response API.
 - `hak` tetap dibaca dari class assertion hasil reasoning, bukan dari SWRL.
-- Kalau output SWRL belum ada, backend memakai fallback Java.
+- Di mode `auto`, backend memakai fallback Java kalau output SWRL belum ada.
+  Mode `swrl` tidak memakai fallback.
 
 ## Properti input dari backend
 
 | Topik | Properti ABox |
 |---|---|
 | PHK | `masaKerjaBulan`, `upahBulanan`, `bentukHubunganKerja`, `mengalami`, `memilikiAlasanPHK` |
-| Lembur | `jamLembur`, `padaHariKerja`, `upahBulanan` |
+| Lembur | `jamLembur`, `padaHariKerja`, `jenisHari`, `upahBulanan` |
 | PKWT | `bentukHubunganKerja`, `masaKerjaBulan`, `upahBulanan` |
 | Jamsos | `upahBulanan` |
 | KIA | `cutiMelahirkanBulan`, `upahBulanan` |
 | Cuti | `masaKerjaBulan`, `perempuan`, `mengalamiPeristiwa` |
+
+`peristiwa` Cuti yang diterima: `CutiHaid`, `CutiKeguguran`, `UpahCutiMenikah`,
+`UpahCutiKeluarga2Hari`, dan `UpahCutiKematianSerumah`. `CutiHaid` dan
+`CutiKeguguran` membutuhkan `perempuan=true`; kalau field itu tidak diisi,
+backend menganggapnya true.
 
 ## Properti output SWRL
 
@@ -45,7 +51,10 @@ satu tempat, yaitu `SwrlCalculationProvider`.
 | KIA | `totalBulanUpah` | decimal | `rincian.upah_bulan` |
 | KIA | `nominalUpahCutiMelahirkan` | decimal | `nominal` |
 | Cuti | `cutiTahunanHari` | integer | `rincian.cuti_tahunan_hari` |
-| Cuti | `hariDibayar` | integer | `rincian.hari_dibayar` |
+| Cuti | `cutiKhususHari` | integer | `rincian.hari_dibayar` |
+
+`cuti_haid_hari` dan `cuti_keguguran_bulan` dihitung backend (Java) karena
+tidak berasal dari properti output SWRL.
 
 ## Contoh PHK
 
@@ -76,12 +85,10 @@ ktn:KasusPekerja
 
 `kb.calculation.mode`:
 
-- `java`: hitung di Java, abaikan output SWRL.
-- `swrl`: hanya baca output SWRL, gagal kalau tidak ada.
-- `auto`: coba SWRL, fallback Java.
-
-Untuk pengembangan, `java`. Setelah rule Anin siap, `auto`, lalu `swrl` untuk
-demo.
+- `auto`: default. Coba SWRL, fallback Java kalau output SWRL kosong.
+- `swrl`: hanya baca output SWRL, gagal kalau tidak ada. Dipakai untuk demo
+  yang ingin membuktikan jalur rule tanpa fallback.
+- `java`: hitung di Java. Jalur legacy.
 
 ## Yang perlu dikonfirmasi ke Anin
 
@@ -91,3 +98,61 @@ demo.
 4. Apakah rule juga menghasilkan `pasal` per komponen, atau backend mengambil
    dari individu norma seperti sekarang.
 5. Apakah semua perhitungan masuk SWRL, atau kategori tetap di backend.
+
+## Status implementasi
+
+Rule sudah tersedia dan diuji end-to-end.
+
+- Modul: `ontology/core/swrl-kalkulasi.rdf` (30 rule, digenerate
+  `scripts/build_swrl.py`, diimpor otomatis oleh `ontology/ontology.rdf`).
+- Properti output dan antara dideklarasikan di `ontology/core/tbox-core.rdf`
+  (`upDasar`, `upmkDasar`, `bulanUP`, `nominalPesangon`, `upahSejam`,
+  `kompensasiBulan`, `iuranPekerja`, `cutiTahunanHari`, `cutiKhususHari`,
+  dst.).
+- Cakupan: PHK (19 rule, termasuk UPMK 0 untuk masa kerja < 36 bulan), PKWT,
+  Jamsos, KIA, Lembur (5 rule), Cuti tahunan + cuti khusus (2 rule).
+- Uji: `backend/src/test/java/ac/id/uns/kbr/SwrlKalkulasiTest.java` (28 tes)
+  membandingkan hasil SWRL dengan `golden-cases.json`, termasuk PKWT
+  non-kelipatan 12, batas KIA, bracket PHK, PHK 6 bulan, lembur hari libur,
+  dan penanda kosong untuk kasus yang belum didukung. Total suite backend
+  126 tes.
+- CI `kb` menjalankan ulang `build_ontology.py`, `build_swrl.py`, dan
+  `build_catalog.py` lalu `git diff --exit-code` untuk mendeteksi berkas
+  generated yang tertinggal.
+- CI juga menjalankan `InferControllerTest` dengan `KB_CALC_MODE=swrl`, jadi
+  jalur API tanpa fallback Java ikut diuji.
+- CI menjalankan `JavaCalculationProviderTest` dan `InferControllerTest`
+  dengan `KB_CALC_MODE=java`, jadi fallback Java ikut dijaga.
+- Mode default `auto`; `swrl` untuk demo tanpa fallback dan `java` legacy.
+
+Keputusan yang sudah diambil:
+
+1. Nama properti mengikuti tabel di atas; tidak ada pemetaan tambahan.
+2. Semua nominal dan bulan memakai `xsd:decimal`; `upDasar`/`upmkDasar`,
+   `cutiTahunanHari`, dan `cutiKhususHari` memakai `xsd:integer`.
+3. `nominalPesangon` = total UP + UPMK dikali upah bulanan.
+4. `pasal` tetap diambil backend dari individu norma (tidak lewat SWRL).
+5. Kategori UP/UPMK dihitung SWRL; pemetaan hak dan pembulatan tampilan tetap
+   di backend.
+6. UPMK untuk masa kerja < 36 bulan bernilai 0, bukan error. Aturan ini
+   ditulis sebagai rule SWRL (`PHK-UPMK-0-36`).
+
+Batas yang disepakati:
+
+- Lembur progresif memakai tabel bantu `AkumulasiLembur` yang dihasilkan
+  `scripts/build_ontology.py`. SWRL tidak punya agregasi, jadi total pengali
+  dihitung saat build. Batas per jenis: `hari_kerja` 4 jam, `libur_5hari` 12
+  jam, `libur_6hari` 11 jam, `libur_terpendek` 9 jam. SWRL mengikuti tabel
+  yang sama. Mode `auto` fallback ke Java untuk jam pecahan; mode `swrl`
+  gagal untuk pecahan.
+- `padaHariKerja=false` dipetakan ke `libur_5hari`. Libur 6 hari dan libur
+  terpendek dapat dipilih lewat `jenisHari`; backend menulis
+  `jenisHariLembur` langsung.
+- Cuti khusus haid, menikah, dan kematian masuk SWRL lewat `cutiKhususHari`
+  (rule `CUTI-KHUSUS` menyalin `hariDibayar` dari peristiwa). Keguguran tetap
+  dihitung Java (`cuti_keguguran_bulan=1.5`) karena durasinya bulan, bukan
+  hari.
+- Di mode `swrl`, kasus yang belum didukung mengembalikan 422, bukan 500.
+- `scripts/check_ontology.py` memakai HermiT yang tidak mendukung semua builtin
+  `swrlb`; jalankan dengan `--tanpa-swrl` untuk cek T-Box. Verifikasi rule
+  memakai Openllet lewat `SwrlKalkulasiTest`.

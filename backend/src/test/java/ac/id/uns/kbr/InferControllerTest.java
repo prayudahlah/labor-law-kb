@@ -34,6 +34,30 @@ class InferControllerTest {
     }
 
     @Test
+    void phkMasaKerjaKurang36() throws Exception {
+        kirim("""
+                {"topik":"PHK","fakta":{
+                  "masaKerjaBulan":6,
+                  "upahBulanan":12000000,
+                  "bentukHubunganKerja":"PKWTT",
+                  "alasanPHK":"EfisiensiRugi"
+                }}
+                """, 6_000_000.0, "Pesangon");
+    }
+
+    @Test
+    void phkBatas36() throws Exception {
+        kirim("""
+                {"topik":"PHK","fakta":{
+                  "masaKerjaBulan":36,
+                  "upahBulanan":5000000,
+                  "bentukHubunganKerja":"PKWTT",
+                  "alasanPHK":"EfisiensiRugi"
+                }}
+                """, 20_000_000.0, "Pesangon");
+    }
+
+    @Test
     void lembur() throws Exception {
         kirim("""
                 {"topik":"Lembur","fakta":{
@@ -42,6 +66,39 @@ class InferControllerTest {
                   "upahBulanan":5000000
                 }}
                 """, 216_763.0, "UpahLembur");
+    }
+
+    @Test
+    void lemburHariLiburDuaBelasJam() throws Exception {
+        kirim("""
+                {"topik":"Lembur","fakta":{
+                  "jamLembur":12,
+                  "padaHariKerja":false,
+                  "upahBulanan":5000000
+                }}
+                """, 895_954.0, "UpahLembur");
+    }
+
+    @Test
+    void lemburLiburEnamHari() throws Exception {
+        kirim("""
+                {"topik":"Lembur","fakta":{
+                  "jamLembur":8,
+                  "jenisHari":"libur_6hari",
+                  "upahBulanan":5000000
+                }}
+                """, 491_329.0, "UpahLembur");
+    }
+
+    @Test
+    void lemburLiburTerpendek() throws Exception {
+        kirim("""
+                {"topik":"Lembur","fakta":{
+                  "jamLembur":6,
+                  "jenisHari":"libur_terpendek",
+                  "upahBulanan":5000000
+                }}
+                """, 375_723.0, "UpahLembur");
     }
 
     @Test

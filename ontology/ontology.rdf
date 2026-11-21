@@ -46,6 +46,7 @@
     <owl:imports rdf:resource="https://example.org/kbr/ketenagakerjaan/regulasi/uu-40-2004"/>
     <owl:imports rdf:resource="https://example.org/kbr/ketenagakerjaan/regulasi/uu-6-2023"/>
     <owl:imports rdf:resource="https://example.org/kbr/ketenagakerjaan/regulasi/uu-8-2016"/>
+    <owl:imports rdf:resource="https://example.org/kbr/ketenagakerjaan/swrl-kalkulasi"/>
     <owl:imports rdf:resource="https://example.org/kbr/regulasi"/>
     <owl:imports rdf:resource="https://example.org/kbr/regulasi/vocab"/>
   </rdf:Description>

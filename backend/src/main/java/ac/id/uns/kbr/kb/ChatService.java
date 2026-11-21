@@ -74,14 +74,15 @@ public class ChatService {
             Map.entry("mangkir", "Mangkir"),
             Map.entry("pelanggaran", "PelanggaranSP"));
 
-    private static final Map<String, String> PERISTIWA_SINONIM = Map.ofEntries(
-            Map.entry("menikah", "CutiMenikah"),
-            Map.entry("menikahkan", "CutiMenikahkanAnak"),
-            Map.entry("khitan", "CutiKhitanAnak"),
-            Map.entry("baptis", "CutiBaptisAnak"),
-            Map.entry("istri melahirkan", "CutiIstriMelahirkan"),
-            Map.entry("keluarga meninggal", "CutiKeluargaMeninggal"),
-            Map.entry("anggota serumah meninggal", "CutiAnggotaRumahMeninggal"));
+    private static final List<Map.Entry<String, String>> PERISTIWA_SINONIM = List.of(
+            Map.entry("anggota serumah meninggal", "UpahCutiKematianSerumah"),
+            Map.entry("keluarga meninggal", "UpahCutiKeluarga2Hari"),
+            Map.entry("istri melahirkan", "UpahCutiKeluarga2Hari"),
+            Map.entry("menikahkan", "UpahCutiKeluarga2Hari"),
+            Map.entry("menikah", "UpahCutiMenikah"),
+            Map.entry("khitan", "UpahCutiKeluarga2Hari"),
+            Map.entry("baptis", "UpahCutiKeluarga2Hari"),
+            Map.entry("haid", "CutiHaid"));
 
     private static final Map<String, List<String>> INFER_REQUIRED = Map.of(
             "PHK", List.of("masaKerjaBulan", "upahBulanan", "alasanPHK"),
@@ -354,7 +355,7 @@ public class ChatService {
                 if (masaKerja != null) {
                     f.put("masaKerjaBulan", masaKerja);
                 }
-                for (Map.Entry<String, String> entry : PERISTIWA_SINONIM.entrySet()) {
+                for (Map.Entry<String, String> entry : PERISTIWA_SINONIM) {
                     if (p.contains(entry.getKey())) {
                         f.put("peristiwa", entry.getValue());
                         break;

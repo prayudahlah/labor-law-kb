@@ -44,6 +44,7 @@
     <uri id="regulasi/uu-40-2004.rdf" name="https://example.org/kbr/ketenagakerjaan/regulasi/uu-40-2004" uri="regulasi/uu-40-2004.rdf"/>
     <uri id="regulasi/uu-6-2023.rdf" name="https://example.org/kbr/ketenagakerjaan/regulasi/uu-6-2023" uri="regulasi/uu-6-2023.rdf"/>
     <uri id="regulasi/uu-8-2016.rdf" name="https://example.org/kbr/ketenagakerjaan/regulasi/uu-8-2016" uri="regulasi/uu-8-2016.rdf"/>
+    <uri id="core/swrl-kalkulasi.rdf" name="https://example.org/kbr/ketenagakerjaan/swrl-kalkulasi" uri="core/swrl-kalkulasi.rdf"/>
     <uri id="meta/regulasi.rdf" name="https://example.org/kbr/regulasi" uri="meta/regulasi.rdf"/>
     <uri id="core/tbox-regulasi.rdf" name="https://example.org/kbr/regulasi/vocab" uri="core/tbox-regulasi.rdf"/>
     <uri id="examples/kasus-contoh.rdf" name="https://example.org/kbr/ketenagakerjaan/contoh/kasus" uri="examples/kasus-contoh.rdf"/>

@@ -12,16 +12,17 @@ Jalankan: uv run python scripts/check_ontology.py
 
 from __future__ import annotations
 
+import argparse
+import sys
 from pathlib import Path
 
 import owlready2
 import rdflib
 from owlready2 import default_world
+from owlready2.base import OwlReadyJavaError
 
 ROOT = Path(__file__).resolve().parent.parent
 ONTO_DIR = ROOT / "ontology"
-CACHE_KB = ONTO_DIR / ".cache" / "kb.rdfxml"
-CACHE_MERGED = ONTO_DIR / ".cache" / "merged.rdfxml"
 KTN = "https://example.org/kbr/ketenagakerjaan#"
 
 
@@ -41,19 +42,32 @@ def cari_individu(prop: str):
     raise KeyError(f"tidak ada individu dengan properti: ktn:{prop}")
 
 
-def berkas_ontology(termasuk_contoh: bool = False) -> list[Path]:
+def berkas_ontology(termasuk_contoh: bool = False, tanpa_swrl: bool = False) -> list[Path]:
     subs = ["core", "meta", "regulasi"]
     if termasuk_contoh:
         subs.append("examples")
     files: list[Path] = []
     for sub in subs:
         files += sorted(ONTO_DIR.glob(f"{sub}/*.rdf"))
+    if tanpa_swrl:
+        # HermiT/owlready2 tidak mendukung semua builtin swrlb (mis. multiply).
+        # Mode ini memeriksa konsistensi T-Box tanpa modul rule.
+        files = [f for f in files if "swrl" not in f.name]
     return files
 
 
-def ensure_cache(termasuk_contoh: bool = False) -> tuple[list[Path], bool, Path]:
-    cache = CACHE_MERGED if termasuk_contoh else CACHE_KB
-    files = berkas_ontology(termasuk_contoh)
+def cache_berkas(termasuk_contoh: bool, tanpa_swrl: bool) -> Path:
+    nama = "merged" if termasuk_contoh else "kb"
+    if tanpa_swrl:
+        nama += "-tanpa-swrl"
+    return ONTO_DIR / ".cache" / f"{nama}.rdfxml"
+
+
+def ensure_cache(
+    termasuk_contoh: bool = False, tanpa_swrl: bool = False
+) -> tuple[list[Path], bool, Path]:
+    cache = cache_berkas(termasuk_contoh, tanpa_swrl)
+    files = berkas_ontology(termasuk_contoh, tanpa_swrl)
     newest = max(f.stat().st_mtime for f in files)
     if cache.exists() and cache.stat().st_mtime >= newest:
         return files, False, cache
@@ -66,14 +80,17 @@ def ensure_cache(termasuk_contoh: bool = False) -> tuple[list[Path], bool, Path]
     return files, True, cache
 
 
-def load_reasoned(termasuk_contoh: bool = False):
+def load_reasoned(termasuk_contoh: bool = False, tanpa_swrl: bool = False):
     """Muat KB ke owlready2 dan jalankan HermiT.
 
     termasuk_contoh=False -> KB murni (core, meta, regulasi), tanpa fixture examples/.
     termasuk_contoh=True  -> KB + fixture contoh (untuk skrip verifikasi).
+    tanpa_swrl=True       -> lewati modul rule SWRL (HermiT tidak mendukung swrlb).
     """
-    files, dibangun, cache = ensure_cache(termasuk_contoh)
+    files, dibangun, cache = ensure_cache(termasuk_contoh, tanpa_swrl)
     label = "KB + contoh" if termasuk_contoh else "KB murni"
+    if tanpa_swrl:
+        label += ", tanpa SWRL"
     print(
         f"[muat] {len(files)} modul RDF/XML ({label}), "
         f"cache {cache.name} {'dibangun ulang' if dibangun else 'dipakai'}"
@@ -221,7 +238,26 @@ def hitung_upah_cuti_melahirkan(pekerja) -> dict:
 
 
 def main() -> int:
-    load_reasoned(termasuk_contoh=True)
+    parser = argparse.ArgumentParser(description="Cek konsistensi KB dengan HermiT.")
+    parser.add_argument(
+        "--tanpa-swrl",
+        action="store_true",
+        help="lewati modul rule SWRL (HermiT tidak mendukung semua builtin swrlb)",
+    )
+    args = parser.parse_args()
+
+    try:
+        load_reasoned(termasuk_contoh=True, tanpa_swrl=args.tanpa_swrl)
+    except OwlReadyJavaError as exc:
+        if not args.tanpa_swrl and "SWRL" in str(exc):
+            print(
+                "[GAGAL] HermiT tidak mendukung builtin SWRL (swrlb). "
+                "Jalankan ulang dengan --tanpa-swrl untuk memeriksa T-Box; "
+                "verifikasi rule memakai Openllet (SwrlKalkulasiTest).",
+                file=sys.stderr,
+            )
+            return 1
+        raise
     gagal = cek_anotasi_kb()
 
     unsat = [c.name for c in default_world.classes() if owlready2.Nothing in c.ancestors()]

@@ -1,4 +1,5 @@
 norm_id,nama,nilai,satuan,jenis,pasal,confidence,dasar_keyakinan,bukti
+CUTI-HAID,hariDibayar,2,hari,nominal,Pasal 81 ayat (1),0.95,dikutip,
 CUTI-ISTIRAHAT-MINGGUAN,istirahatMingguanHari,1,hari,nominal,Pasal 79 ayat (2)b,0.95,dikutip,
 CUTI-ISTIRAHAT-MINGGUAN-5,istirahatMingguanHari,2,hari,nominal,Pasal 79 ayat (2) huruf b,0.95,dikutip,
 CUTI-ISTIRAHAT-MINGGUAN-6,istirahatMingguanHari,1,hari,nominal,Pasal 79 ayat (2) huruf b,0.95,dikutip,

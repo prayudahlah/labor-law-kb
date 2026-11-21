@@ -1024,7 +1024,15 @@
       "jenis": "PeristiwaCutiKhusus",
       "kondisi": "Pekerja perempuan dalam masa haid merasakan sakit dan memberitahukan kepada pengusaha",
       "akibat": "Tidak wajib bekerja pada hari pertama dan kedua pada waktu haid",
-      "parameter": [],
+      "parameter": [
+        {
+          "nama": "hariDibayar",
+          "nilai": "2",
+          "satuan": "hari",
+          "jenis": "nominal",
+          "pasal": "Pasal 81 ayat (1)"
+        }
+      ],
       "bukti": "tidak wajib bekerja pada hari pertama dan kedua pada waktu haid",
       "confidence": 0.95,
       "dasar_keyakinan": "dikutip",

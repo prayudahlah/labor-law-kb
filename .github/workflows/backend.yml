@@ -20,6 +20,16 @@ jobs:
       - name: Test
         working-directory: backend
         run: mvn -B test
+      - name: Test jalur inferensi mode SWRL
+        working-directory: backend
+        env:
+          KB_CALC_MODE: swrl
+        run: mvn -B test -Dtest=InferControllerTest
+      - name: Test jalur fallback Java
+        working-directory: backend
+        env:
+          KB_CALC_MODE: java
+        run: mvn -B test -Dtest=JavaCalculationProviderTest,InferControllerTest
       - name: Build backend image
         run: docker build -f backend/Dockerfile -t labor-law-kb-backend:ci .
 
@@ -40,3 +50,16 @@ jobs:
         run: npm run build
       - name: Build frontend image
         run: docker build -f frontend/Dockerfile -t labor-law-kb-frontend:ci frontend
+
+  kb:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: astral-sh/setup-uv@v6
+      - name: Regenerate ontology dan SWRL
+        run: |
+          uv run --no-project --with rdflib --with pyyaml python scripts/build_ontology.py
+          uv run --no-project --with rdflib --with pyyaml python scripts/build_swrl.py
+          uv run --no-project --with rdflib --with pyyaml python scripts/build_catalog.py
+      - name: Pastikan berkas generated tidak drift
+        run: git diff --exit-code

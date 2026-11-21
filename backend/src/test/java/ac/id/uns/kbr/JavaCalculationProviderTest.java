@@ -2,6 +2,7 @@ package ac.id.uns.kbr;
 
 import static org.junit.jupiter.api.Assertions.assertEquals;
 import static org.junit.jupiter.api.Assertions.assertNull;
+import static org.junit.jupiter.api.Assertions.assertThrows;
 
 import java.math.BigDecimal;
 import java.nio.file.Path;
@@ -68,27 +69,109 @@ class JavaCalculationProviderTest {
     }
 
     @Test
-    void lembur() {
+    void phkMasaKerjaKurang36() {
         OWLNamedIndividual pekerja = pekerja();
+        manager.addAxiom(kasus, df.getOWLDataPropertyAssertionAxiom(dp("masaKerjaBulan"), pekerja, 6));
         manager.addAxiom(kasus, df.getOWLDataPropertyAssertionAxiom(dp("upahBulanan"), pekerja,
-                df.getOWLLiteral("5000000", OWL2Datatype.XSD_DECIMAL)));
+                df.getOWLLiteral("12000000", OWL2Datatype.XSD_DECIMAL)));
 
-        OWLNamedIndividual lembur = df.getOWLNamedIndividual(IRI.create(KTN + "KasusLembur"));
+        OWLNamedIndividual phk = df.getOWLNamedIndividual(IRI.create(KTN + "KasusPHK"));
         manager.addAxiom(kasus, df.getOWLClassAssertionAxiom(
-                df.getOWLClass(IRI.create(KTN + "Lembur")), lembur));
-        manager.addAxiom(kasus, df.getOWLObjectPropertyAssertionAxiom(
-                op("mengerjakanLembur"), pekerja, lembur));
-        manager.addAxiom(kasus, df.getOWLDataPropertyAssertionAxiom(dp("jamLembur"), lembur,
-                df.getOWLLiteral("4", OWL2Datatype.XSD_DECIMAL)));
-        manager.addAxiom(kasus, df.getOWLDataPropertyAssertionAxiom(dp("padaHariKerja"), lembur,
-                df.getOWLLiteral(true)));
+                df.getOWLClass(IRI.create(KTN + "PHK")), phk));
+        manager.addAxiom(kasus, df.getOWLObjectPropertyAssertionAxiom(op("mengalami"), pekerja, phk));
+        manager.addAxiom(kasus, df.getOWLObjectPropertyAssertionAxiom(op("memilikiAlasanPHK"), phk,
+                df.getOWLNamedIndividual(IRI.create(KTN + "EfisiensiRugi"))));
 
         OpenlletReasoner reasoner = reasoner();
-        CalculationResult hasil = provider.hitung("Lembur", pekerja, manager, reasoner, hak(reasoner, pekerja));
+        CalculationResult hasil = provider.hitung("PHK", pekerja, manager, reasoner, hak(reasoner, pekerja));
+
+        assertEquals(6_000_000.0, hasil.nominal(), 0.001);
+        assertEquals(0, BigDecimal.ZERO.compareTo((BigDecimal) hasil.rincian().get("upmk_bulan")));
+        assertEquals(0, new BigDecimal("0.5")
+                .compareTo((BigDecimal) hasil.rincian().get("total_bulan")));
+    }
+
+    @Test
+    void lembur() {
+        CalculationResult hasil = hitungLembur("4", null);
 
         assertEquals(216_763.0, hasil.nominal(), 0.001);
         assertEquals(0, new BigDecimal("28901.73")
                 .compareTo((BigDecimal) hasil.rincian().get("upah_sejam")));
+    }
+
+    @Test
+    void lemburPecahan() {
+        CalculationResult hasil = hitungLembur("3.5", null);
+
+        assertEquals(187_861.0, hasil.nominal(), 0.001);
+        assertEquals(0, new BigDecimal("3.5")
+                .compareTo((BigDecimal) hasil.rincian().get("jam")));
+    }
+
+    @Test
+    void lemburHariKerjaLebih4Ditolak() {
+        assertThrows(IllegalArgumentException.class, () -> hitungLembur("5", null));
+    }
+
+    @Test
+    void lemburJenisHariKerjaLangsung() {
+        CalculationResult hasil = hitungLembur("4", "hari_kerja");
+
+        assertEquals(216_763.0, hasil.nominal(), 0.001);
+    }
+
+    @Test
+    void lemburLiburDuaBelasJam() {
+        CalculationResult hasil = hitungLembur("12", "libur_5hari");
+
+        assertEquals(895_954.0, hasil.nominal(), 0.001);
+    }
+
+    @Test
+    void lemburLiburEnamHari() {
+        CalculationResult hasil = hitungLembur("8", "libur_6hari");
+
+        assertEquals(491_329.0, hasil.nominal(), 0.001);
+    }
+
+    @Test
+    void lemburLiburTerpendek() {
+        CalculationResult hasil = hitungLembur("6", "libur_terpendek");
+
+        assertEquals(375_723.0, hasil.nominal(), 0.001);
+    }
+
+    @Test
+    void lemburLiburEnamHariSebelasJam() {
+        CalculationResult hasil = hitungLembur("11", "libur_6hari");
+
+        assertEquals(838_150.0, hasil.nominal(), 0.001);
+    }
+
+    @Test
+    void lemburLiburEnamHariDuaBelasJamDitolak() {
+        assertThrows(IllegalArgumentException.class,
+                () -> hitungLembur("12", "libur_6hari"));
+    }
+
+    @Test
+    void lemburLiburTerpendekSembilanJam() {
+        CalculationResult hasil = hitungLembur("9", "libur_terpendek");
+
+        assertEquals(722_543.0, hasil.nominal(), 0.001);
+    }
+
+    @Test
+    void lemburLiburTerpendekSepuluhJamDitolak() {
+        assertThrows(IllegalArgumentException.class,
+                () -> hitungLembur("10", "libur_terpendek"));
+    }
+
+    @Test
+    void lemburLiburLebih12Ditolak() {
+        assertThrows(IllegalArgumentException.class,
+                () -> hitungLembur("13", "libur_5hari"));
     }
 
     @Test
@@ -143,6 +226,98 @@ class JavaCalculationProviderTest {
 
         assertEquals(12, ((Number) hasil.rincian().get("cuti_tahunan_hari")).intValue());
         assertNull(hasil.nominal());
+    }
+
+    @Test
+    void cutiMenikah() {
+        CalculationResult hasil = hitungCuti("UpahCutiMenikah");
+
+        assertEquals(12, ((Number) hasil.rincian().get("cuti_tahunan_hari")).intValue());
+        assertEquals(3, ((Number) hasil.rincian().get("hari_dibayar")).intValue());
+        assertEquals("UpahCutiMenikah", hasil.rincian().get("peristiwa"));
+    }
+
+    @Test
+    void cutiKematianSerumah() {
+        CalculationResult hasil = hitungCuti("UpahCutiKematianSerumah");
+
+        assertEquals(1, ((Number) hasil.rincian().get("hari_dibayar")).intValue());
+    }
+
+    @Test
+    void cutiHaid() {
+        CalculationResult hasil = hitungCuti("CutiHaid", true);
+
+        assertEquals(2, ((Number) hasil.rincian().get("cuti_haid_hari")).intValue());
+    }
+
+    @Test
+    void cutiKeguguran() {
+        CalculationResult hasil = hitungCuti("CutiKeguguran", true);
+
+        assertEquals(1.5, ((BigDecimal) hasil.rincian().get("cuti_keguguran_bulan"))
+                .doubleValue(), 0.001);
+        assertNull(hasil.rincian().get("cuti_haid_hari"));
+    }
+
+    @Test
+    void cutiPerempuanTanpaPeristiwaTidakMenambahHaid() {
+        OWLNamedIndividual pekerja = pekerja();
+        manager.addAxiom(kasus, df.getOWLClassAssertionAxiom(
+                df.getOWLClass(IRI.create(KTN + "PekerjaPerempuan")), pekerja));
+        manager.addAxiom(kasus, df.getOWLDataPropertyAssertionAxiom(dp("masaKerjaBulan"), pekerja, 12));
+
+        OpenlletReasoner reasoner = reasoner();
+        CalculationResult hasil = provider.hitung(
+                "Cuti", pekerja, manager, reasoner, hak(reasoner, pekerja));
+
+        assertNull(hasil.rincian().get("cuti_haid_hari"));
+    }
+
+    private CalculationResult hitungCuti(String peristiwa) {
+        return hitungCuti(peristiwa, false);
+    }
+
+    private CalculationResult hitungCuti(String peristiwa, boolean perempuan) {
+        OWLNamedIndividual pekerja = pekerja();
+        if (perempuan) {
+            manager.addAxiom(kasus, df.getOWLClassAssertionAxiom(
+                    df.getOWLClass(IRI.create(KTN + "PekerjaPerempuan")), pekerja));
+        }
+        manager.addAxiom(kasus, df.getOWLDataPropertyAssertionAxiom(dp("masaKerjaBulan"), pekerja, 12));
+
+        OWLNamedIndividual per = df.getOWLNamedIndividual(IRI.create(KTN + peristiwa));
+        manager.addAxiom(kasus, df.getOWLClassAssertionAxiom(
+                df.getOWLClass(IRI.create(KTN + "PeristiwaCutiKhusus")), per));
+        manager.addAxiom(kasus, df.getOWLObjectPropertyAssertionAxiom(
+                op("mengalamiPeristiwa"), pekerja, per));
+
+        OpenlletReasoner reasoner = reasoner();
+        return provider.hitung("Cuti", pekerja, manager, reasoner, hak(reasoner, pekerja));
+    }
+
+    private CalculationResult hitungLembur(String jam, String jenisHari) {
+        OWLNamedIndividual pekerja = pekerja();
+        manager.addAxiom(kasus, df.getOWLDataPropertyAssertionAxiom(dp("upahBulanan"), pekerja,
+                df.getOWLLiteral("5000000", OWL2Datatype.XSD_DECIMAL)));
+
+        OWLNamedIndividual lembur = df.getOWLNamedIndividual(IRI.create(KTN + "KasusLembur"));
+        manager.addAxiom(kasus, df.getOWLClassAssertionAxiom(
+                df.getOWLClass(IRI.create(KTN + "Lembur")), lembur));
+        manager.addAxiom(kasus, df.getOWLObjectPropertyAssertionAxiom(
+                op("mengerjakanLembur"), pekerja, lembur));
+        manager.addAxiom(kasus, df.getOWLDataPropertyAssertionAxiom(dp("jamLembur"), lembur,
+                df.getOWLLiteral(jam, OWL2Datatype.XSD_DECIMAL)));
+        if (jenisHari != null) {
+            manager.addAxiom(kasus, df.getOWLDataPropertyAssertionAxiom(
+                    dp("jenisHariLembur"), lembur, df.getOWLLiteral(jenisHari)));
+        } else {
+            manager.addAxiom(kasus, df.getOWLDataPropertyAssertionAxiom(dp("padaHariKerja"), lembur,
+                    df.getOWLLiteral(true)));
+        }
+
+        OpenlletReasoner reasoner = reasoner();
+        return provider.hitung("Lembur", pekerja, manager, reasoner, hak(reasoner, pekerja));
     }
 
     private OWLNamedIndividual pekerja() {
