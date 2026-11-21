@@ -12,6 +12,8 @@ import org.semanticweb.owlapi.reasoner.OWLReasoner;
 
 public class JavaCalculationProvider implements CalculationProvider {
 
+    private static final int MASA_KERJA_MIN_UPMK = 36;
+
     @Override
     public CalculationResult hitung(
             String topik,
@@ -38,7 +40,9 @@ public class JavaCalculationProvider implements CalculationProvider {
         BigDecimal pengaliUP = OntologyValues.decimal(m, alasan, "pengaliUP");
         BigDecimal pengaliUPMK = OntologyValues.decimal(m, alasan, "pengaliUPMK");
         int upDasar = kategori(m, "KategoriUP", "upDasarBulan", masaKerja);
-        int upmkDasar = kategori(m, "KategoriUPMK", "upmkDasarBulan", masaKerja);
+        int upmkDasar = masaKerja < MASA_KERJA_MIN_UPMK
+                ? 0
+                : kategori(m, "KategoriUPMK", "upmkDasarBulan", masaKerja);
 
         BigDecimal bulanUP = BigDecimal.valueOf(upDasar).multiply(pengaliUP);
         BigDecimal bulanUPMK = BigDecimal.valueOf(upmkDasar).multiply(pengaliUPMK);
@@ -63,17 +67,21 @@ public class JavaCalculationProvider implements CalculationProvider {
                 m, OntologyValues.individual(m, "UpahSejamLembur"), "faktorPembagiUpahSejam");
         BigDecimal upahSejam = upah.divide(faktor, 10, RoundingMode.HALF_UP);
 
+        if (jam.compareTo(BigDecimal.ZERO) <= 0
+                || jam.compareTo(BigDecimal.valueOf(12)) > 0) {
+            throw new IllegalArgumentException("Jam lembur harus lebih dari 0 dan maksimal 12");
+        }
+
+        int jamPenuh = jam.setScale(0, RoundingMode.FLOOR).intValue();
         BigDecimal total = BigDecimal.ZERO;
-        for (int h = 1; h <= jam.intValue(); h++) {
-            for (OWLNamedIndividual pl : OntologyValues.individuals(m, "PengaliLembur")) {
-                String jh = OntologyValues.string(m, pl, "jenisHari");
-                int min = OntologyValues.integer(m, pl, "jamMin");
-                int max = OntologyValues.integer(m, pl, "jamMax");
-                if (jh.equals(jenis) && h >= min && h <= max) {
-                    total = total.add(OntologyValues.decimal(m, pl, "pengali").multiply(upahSejam));
-                    break;
-                }
-            }
+        for (int h = 1; h <= jamPenuh; h++) {
+            total = total.add(pengaliLembur(m, jenis, h).multiply(upahSejam));
+        }
+        BigDecimal sisa = jam.subtract(BigDecimal.valueOf(jamPenuh));
+        if (sisa.signum() > 0) {
+            total = total.add(pengaliLembur(m, jenis, jamPenuh + 1)
+                    .multiply(sisa)
+                    .multiply(upahSejam));
         }
 
         Map<String, Object> rincian = new LinkedHashMap<>();
@@ -157,6 +165,33 @@ public class JavaCalculationProvider implements CalculationProvider {
             rincian.put("cuti_haid_hari", 2);
         }
         return new CalculationResult(rincian, null);
+    }
+
+    private static BigDecimal pengaliLembur(
+            OWLOntologyManager m, String jenis, int jam) {
+        BigDecimal terakhir = null;
+        int minTerakhir = -1;
+        for (OWLNamedIndividual pl : OntologyValues.individuals(m, "PengaliLembur")) {
+            String jh = OntologyValues.string(m, pl, "jenisHari");
+            int min = OntologyValues.integer(m, pl, "jamMin");
+            int max = OntologyValues.integer(m, pl, "jamMax");
+            if (!jh.equals(jenis)) {
+                continue;
+            }
+            BigDecimal pengali = OntologyValues.decimal(m, pl, "pengali");
+            if (jam >= min && jam <= max) {
+                return pengali;
+            }
+            if (min <= jam && min > minTerakhir) {
+                minTerakhir = min;
+                terakhir = pengali;
+            }
+        }
+        if (terakhir != null) {
+            return terakhir;
+        }
+        throw new IllegalStateException(
+                "Pengali lembur tidak ditemukan untuk " + jenis + " jam " + jam);
     }
 
     private static int kategori(

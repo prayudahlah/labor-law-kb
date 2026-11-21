@@ -64,8 +64,8 @@ Cakupan: PHK (19 rule, termasuk UPMK 0 untuk masa kerja < 36 bulan), PKWT,
 Jamsos, KIA, Lembur (5 rule), dan cuti tahunan.
 Kontrak input/output ada di `backend/KB_CONTRACT.md`; di sana juga dicatat
 keterbatasan SWRL (tanpa agregasi, tanpa pembulatan, tanpa negasi) dan
-keputusan desainnya. Mode backend: `KB_CALC_MODE=swrl` (default); `java` dan
-`auto` adalah jalur legacy/transisi.
+keputusan desainnya. Mode backend: `KB_CALC_MODE=auto` (default); `swrl` untuk
+demo tanpa fallback, dan `java` adalah jalur legacy.
 
 `scripts/check_ontology.py` memakai HermiT yang tidak mendukung semua builtin
 `swrlb`; jalankan dengan `--tanpa-swrl`. Verifikasi rule memakai Openllet lewat

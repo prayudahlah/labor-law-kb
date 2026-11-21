@@ -36,7 +36,7 @@ public class CaseValidator {
                 OWLNamedIndividual lembur = OntologyValues.object(
                         manager, pekerja, "mengerjakanLembur");
                 objek(manager, pekerja, "mengerjakanLembur", 1, 1, "Lembur", masalah);
-                data(manager, lembur, "jamLembur", 1, null, "decimal", 0, null, masalah);
+                data(manager, lembur, "jamLembur", 1, null, "decimal", 0, 12, masalah);
                 data(manager, lembur, "padaHariKerja", 1, null, "boolean", null, null, masalah);
             }
             case "Cuti" -> data(manager, pekerja, "masaKerjaBulan", 1, 1, "integer", 0, null, masalah);
