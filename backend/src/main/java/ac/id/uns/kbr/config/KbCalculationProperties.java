@@ -7,7 +7,7 @@ public record KbCalculationProperties(String mode) {
 
     public KbCalculationProperties {
         if (mode == null || mode.isBlank()) {
-            mode = "auto";
+            mode = "swrl";
         }
     }
 }

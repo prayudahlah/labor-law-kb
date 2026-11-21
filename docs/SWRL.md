@@ -5,10 +5,10 @@ Ketenagakerjaan, supaya bisa dicek kesesuaiannya dengan desain KB yang
 dipegang tim. Fokusnya: **apa yang sudah dibuat**, **bagaimana membuktikannya**,
 dan **apa yang perlu dikonfirmasi**.
 
-- Branch: `feat/swrl`
-- Commit: satu commit berpesan `coba swrl`
+- Branch: `feat/swrl`, plus perbaikan UPMK < 36 bulan di `fix/phk-upmk-36`
+- Commit awal: `coba swrl`
 - Reasoner: **Openllet 2.6.5** (fork Pellet)
-- Status: 28 rule, 14 tes SWRL, 55 tes backend hijau (mode `java` maupun `swrl`)
+- Status: 29 rule, 15 tes SWRL, 57 tes backend hijau (default `swrl`; `java` dan `auto` legacy)
 
 > Catatan: dokumen ini bukan nasihat hukum. Semua nilai mengacu pada CSV kanonik
 > di `data/` dan regulasi yang sudah diekstrak.
@@ -23,25 +23,25 @@ Cakupan saat ini:
 
 | Topik | Rule | Status |
 |---|---:|---|
-| PHK | 18 | penuh |
+| PHK | 19 | penuh, termasuk UPMK 0 untuk masa kerja < 36 bulan |
 | PKWT | 1 | penuh |
 | Jamsos | 1 | penuh (JHT + JP) |
 | KIA | 2 | penuh |
 | Lembur | 5 | penuh untuk jam bulat, memakai tabel akumulatif |
 | Cuti | 1 | cuti tahunan saja |
-| **Total** | **28** | |
+| **Total** | **29** | |
 
 ## 2. Peta berkas
 
 | Berkas | Sifat | Isi |
 |---|---|---|
-| `ontology/core/swrl-kalkulasi.rdf` | **generated** | 28 rule SWRL (RDF/XML) |
+| `ontology/core/swrl-kalkulasi.rdf` | **generated** | 29 rule SWRL (RDF/XML) |
 | `scripts/build_swrl.py` | manual | generator rule dari `kategori.csv` + tabel lembur |
 | `ontology/core/tbox-core.rdf` | manual | deklarasi properti output/antara dan marker class |
 | `scripts/build_ontology.py` | manual | emit marker bracket terbuka + individu `AkumulasiLembur` |
 | `scripts/build_catalog.py` | manual | impor modul SWRL ke `ontology.rdf` + katalog |
 | `backend/.../kb/SwrlCalculationProvider.java` | manual | membaca output SWRL, menolak nilai ganda, membulatkan tampilan |
-| `backend/.../SwrlKalkulasiTest.java` | manual | 14 tes end-to-end memakai Openllet |
+| `backend/.../SwrlKalkulasiTest.java` | manual | 15 tes end-to-end memakai Openllet |
 | `scripts/check_ontology.py` | manual | cek T-Box dengan HermiT, flag `--tanpa-swrl` |
 | `backend/KB_CONTRACT.md` | manual | kontrak input/output dan batasan |
 
@@ -84,20 +84,25 @@ konsistensi T-Box. HermiT tidak bisa mengeksekusi builtin `swrlb` (mis.
 
 | Topik | Jumlah | Input ABox | Output |
 |---|---:|---|---|
-| PHK | 9 UP + 8 UPMK + 1 nominal | `masaKerjaBulan`, `upahBulanan`, `mengalami`, `memilikiAlasanPHK`, `pengaliUP`, `pengaliUPMK` | `upDasar`, `upmkDasar`, `bulanUP`, `bulanUPMK`, `totalBulan`, `nominalPesangon` |
+| PHK | 9 UP + 9 UPMK + 1 nominal | `masaKerjaBulan`, `upahBulanan`, `mengalami`, `memilikiAlasanPHK`, `pengaliUP`, `pengaliUPMK` | `upDasar`, `upmkDasar`, `bulanUP`, `bulanUPMK`, `totalBulan`, `nominalPesangon` |
 | PKWT | 1 | `masaKerjaBulan`, `upahBulanan`, `faktorPembagiKompensasi` | `kompensasiBulan`, `nominalKompensasiPKWT` |
 | Jamsos | 1 | `upahBulanan`, tarif individu `JHT` + `JP` | `persenPekerja`, `persenPengusaha`, `iuranPekerja`, `iuranPengusaha` |
 | KIA | 2 | `cutiMelahirkanBulan`, `upahBulanan`, `bulanUpahPenuh` | `totalBulanUpah`, `nominalUpahCutiMelahirkan` |
 | Lembur | 5 | `jamLembur`, `padaHariKerja`, `upahBulanan` | `upahSejam`, `pengaliTotalLembur`, `nominalLembur` |
 | Cuti | 1 | `MemenuhiSyaratCutiTahunan`, `CutiTahunan12Hari` | `cutiTahunanHari` |
 
-Contoh rule PHK (dua tahap, supaya tidak jadi 72 rule):
+Contoh rule PHK (bracket, kasus nol, lalu nominal, supaya tidak jadi 72 rule):
 
 ```
 KategoriUP(?k) ∧ minBulan(?k,?lo) ∧ maxBulan(?k,?hi) ∧ upDasarBulan(?k,?d)
 ∧ Pekerja(?p) ∧ masaKerjaBulan(?p,?m)
 ∧ swrlb:greaterThanOrEqual(?m,?lo) ∧ swrlb:lessThan(?m,?hi)
 → upDasar(?p,?d)
+```
+
+```
+Pekerja(?p) ∧ masaKerjaBulan(?p,?m) ∧ swrlb:lessThan(?m,36)
+→ upmkDasar(?p,0)
 ```
 
 ```
@@ -115,6 +120,7 @@ Semua nilai ini keluar dari SWRL (mode `swrl`, tanpa fallback Java).
 
 | Kasus | Rincian | Nominal |
 |---|---|---:|
+| PHK 6 bln, upah 12 jt, `EfisiensiRugi` | UP 0,5 · UPMK 0 · total 0,5 | 6.000.000 |
 | PHK 120 bln, upah 5 jt, `EfisiensiRugi` | UP 4,5 · UPMK 4,0 · total 8,5 | 42.500.000 |
 | PKWT 24 bln | 2,0 bulan | 10.000.000 |
 | Jamsos, upah 5 jt | 3% / 5,7% | 150.000 / 285.000 |
@@ -126,7 +132,7 @@ Edge case yang ikut diuji:
 
 - PKWT 25 bulan → 2,0833… bulan (memastikan pembagian desimal, bukan integer).
 - KIA 3 bulan (kurang dari 4) dan 4 bulan (tepat) → tanpa potongan.
-- PHK 36 / 48 / 72 / 96 / 300 bulan, termasuk bracket terbuka.
+- PHK 6 bulan (UPMK 0) dan 36 / 48 / 72 / 96 / 300 bulan, termasuk bracket terbuka.
 - PHK `MengundurkanDiri` → 0.
 - Lembur hari libur 8 / 9 / 12 jam.
 
@@ -134,8 +140,9 @@ Edge case yang ikut diuji:
 
 Regenerate (setelah mengubah CSV):
 
+Dari root repo:
+
 ```bash
-cd "VERSI 2"
 uv run --no-project --with rdflib --with pyyaml python scripts/build_ontology.py
 uv run --no-project --with rdflib --with pyyaml python scripts/build_swrl.py
 uv run --no-project --with rdflib --with pyyaml python scripts/build_catalog.py
@@ -143,21 +150,19 @@ uv run --no-project --with rdflib --with pyyaml python scripts/build_catalog.py
 
 Tes SWRL (Docker, karena Maven lokal belum tentu ada):
 
-```powershell
-cd "VERSI 2"
-docker run --rm -v "$((Get-Location).Path):/workspace" -v m2-cache:/root/.m2 -w /workspace/backend maven:3.9-eclipse-temurin-21 mvn -B test -Dtest=SwrlKalkulasiTest
+```bash
+docker run --rm -v "$PWD:/workspace" -v m2-cache:/root/.m2 -w /workspace/backend maven:3.9-eclipse-temurin-21 mvn -B test -Dtest=SwrlKalkulasiTest
 ```
 
-Harapan: `Tests run: 14, Failures: 0`.
+Harapan: `Tests run: 15, Failures: 0`.
 
 Seluruh suite, termasuk jalur API tanpa fallback Java:
 
-```powershell
-cd "VERSI 2"
-docker run --rm -e KB_CALC_MODE=swrl -v "$((Get-Location).Path):/workspace" -v m2-cache:/root/.m2 -w /workspace/backend maven:3.9-eclipse-temurin-21 mvn -B test
+```bash
+docker run --rm -e KB_CALC_MODE=swrl -v "$PWD:/workspace" -v m2-cache:/root/.m2 -w /workspace/backend maven:3.9-eclipse-temurin-21 mvn -B test
 ```
 
-Harapan: `Tests run: 55, Failures: 0`.
+Harapan: `Tests run: 57, Failures: 0`.
 
 Cek T-Box dengan HermiT:
 
@@ -184,8 +189,8 @@ menjelaskan agar memakai flag tersebut.
    0 desimal. SWRL sendiri tidak bisa membulatkan.
 7. **Nilai ganda** dari duplikasi bracket PP-35-2021 vs UU-13-2003 ditolak
    provider kalau berbeda; saat ini nilainya identik sehingga aman.
-8. **Mode default tetap `java`**; `auto` untuk pengembangan dan `swrl` untuk
-   demo/pembuktian tanpa fallback.
+8. **Mode default `swrl`**; `java` dan `auto` adalah jalur legacy/transisi.
+   `auto` masih bisa fallback ke Java, tetapi tidak dipakai untuk demo.
 9. **Format RDF/XML SWRL** wajib memakai `swrl:DatavaluedPropertyAtom` dan
    body/head bertipe `swrl:AtomList`. Versi awal memakai
    `swrl:DatatypePropertyAtom` + `parseType="Collection"` dan OWLAPI
@@ -195,7 +200,8 @@ menjelaskan agar memakai flag tersebut.
 ## 8. Batasan yang diketahui
 
 - SWRL tidak punya agregasi, negasi, rekursi, atau pembulatan.
-- Lembur hanya untuk jam bulat 1..12; jam pecahan jatuh ke fallback Java.
+- Lembur hanya untuk jam bulat 1..12; jam pecahan belum didukung. Mode `swrl`
+  akan gagal, sedangkan mode `auto` masih bisa fallback ke Java.
 - `padaHariKerja=false` dipetakan ke `libur_5hari`; libur 6 hari dan libur
   terpendek belum bisa dipilih dari input.
 - Jamsos hanya JHT + JP (bukan JKK/JKM/JKP), sama seperti provider Java.
@@ -213,7 +219,7 @@ Isi kolom "Sesuai?" dengan ✓/✗ dan tulis catatan bila ada yang perlu diubah.
 |---|---|---|---|
 | 1 | Nama properti output (`bulanUP`, `nominalPesangon`, `upahSejam`, dst.) | ☐ | |
 | 2 | Tipe data: nominal/bulan `xsd:decimal`, `upDasar`/`cutiTahunanHari` `xsd:integer` | ☐ | |
-| 3 | Nilai bracket UP: 1..9 bulan dan UPMK: 2..10 bulan | ☐ | |
+| 3 | Nilai bracket UP: 1..9 bulan dan UPMK: 0 untuk < 36 bulan, lalu 2..10 bulan | ☐ | |
 | 4 | Pengali per alasan PHK (`EfisiensiRugi` 0,5/1; `MengundurkanDiri` 0/0; dst.) | ☐ | |
 | 5 | Rumus `nominalPesangon` = total UP + UPMK × upah | ☐ | |
 | 6 | Lembur memakai tabel akumulatif; hanya jam bulat | ☐ | |
@@ -221,7 +227,7 @@ Isi kolom "Sesuai?" dengan ✓/✗ dan tulis catatan bila ada yang perlu diubah.
 | 8 | Jamsos hanya JHT + JP | ☐ | |
 | 9 | KIA: 4 bulan upah penuh, sisa 75% | ☐ | |
 | 10 | Cuti khusus sengaja tetap di Java | ☐ | |
-| 11 | Default mode `java`, `auto`/`swrl` untuk demo | ☐ | |
+| 11 | Default mode `swrl`; `java`/`auto` legacy | ☐ | |
 | 12 | Duplikasi bracket PP-35 vs UU-13 dianggap aman | ☐ | |
 
 ## 10. Pertanyaan terbuka
@@ -239,13 +245,8 @@ Isi kolom "Sesuai?" dengan ✓/✗ dan tulis catatan bila ada yang perlu diubah.
 
 - Branch: `feat/swrl`
 - Commit: `coba swrl`
-- Belum di-push saat dokumen ini dibuat.
-
-Setelah disetujui:
-
-```bash
-cd "VERSI 2" && git push -u origin feat/swrl
-```
+- Status: sudah di-push. Perbaikan UPMK < 36 bulan ada di branch
+  `fix/phk-upmk-36`.
 
 Lalu buka PR ke `dev` dan pastikan CI hijau (test backend, test mode SWRL,
 cek drift generated files, build frontend, build image).

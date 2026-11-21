@@ -52,7 +52,7 @@ docs/markdown/<id>.md ──LLM──► data/extraction/records/<id>.json
 ## Rule SWRL
 
 Perhitungan hak dijalankan oleh rule SWRL di
-`ontology/core/swrl-kalkulasi.rdf` (28 rule). Berkas itu **digenerate** dari
+`ontology/core/swrl-kalkulasi.rdf` (29 rule). Berkas itu **digenerate** dari
 tabel kanonik, bukan diedit manual:
 
 ```bash
@@ -60,10 +60,12 @@ uv run python scripts/build_swrl.py
 uv run python scripts/build_catalog.py
 ```
 
-Cakupan: PHK (18 rule), PKWT, Jamsos, KIA, Lembur (5 rule), dan cuti tahunan.
+Cakupan: PHK (19 rule, termasuk UPMK 0 untuk masa kerja < 36 bulan), PKWT,
+Jamsos, KIA, Lembur (5 rule), dan cuti tahunan.
 Kontrak input/output ada di `backend/KB_CONTRACT.md`; di sana juga dicatat
 keterbatasan SWRL (tanpa agregasi, tanpa pembulatan, tanpa negasi) dan
-keputusan desainnya. Mode backend: `KB_CALC_MODE=java|auto|swrl`.
+keputusan desainnya. Mode backend: `KB_CALC_MODE=swrl` (default); `java` dan
+`auto` adalah jalur legacy/transisi.
 
 `scripts/check_ontology.py` memakai HermiT yang tidak mendukung semua builtin
 `swrlb`; jalankan dengan `--tanpa-swrl`. Verifikasi rule memakai Openllet lewat

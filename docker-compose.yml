@@ -8,6 +8,7 @@ services:
     environment:
       KB_ONTOLOGY_DIR: /app/ontology
       KB_DATA_DIR: /app/data
+      KB_CALC_MODE: ${KB_CALC_MODE:-swrl}
       LLM_BASE_URL: ${LLM_BASE_URL:-}
       LLM_API_KEY: ${LLM_API_KEY:-}
       LLM_MODEL_ROUTER: ${LLM_MODEL_ROUTER:-}

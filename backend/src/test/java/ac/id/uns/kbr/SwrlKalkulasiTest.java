@@ -92,6 +92,20 @@ class SwrlKalkulasiTest {
     }
 
     @Test
+    void phkMasaKerjaKurang36UPMKNol() throws Exception {
+        CalculationResult hasil = hitungSwrl("PHK", Map.of(
+                "masaKerjaBulan", 6,
+                "upahBulanan", 12_000_000,
+                "bentukHubunganKerja", "PKWTT",
+                "alasanPHK", "EfisiensiRugi"));
+
+        sama("0.5", hasil.rincian().get("pesangon_bulan"));
+        sama("0", hasil.rincian().get("upmk_bulan"));
+        sama("0.5", hasil.rincian().get("total_bulan"));
+        sama("6000000", hasil.nominal());
+    }
+
+    @Test
     void phkBracketTerbukaMemakaiMarkerClass() throws Exception {
         CalculationResult hasil = hitungSwrl("PHK", Map.of(
                 "masaKerjaBulan", 200,

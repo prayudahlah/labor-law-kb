@@ -2,7 +2,7 @@ kb:
   ontology-dir: ../ontology
   data-dir: ../data
   calculation:
-    mode: ${KB_CALC_MODE:java}
+    mode: ${KB_CALC_MODE:swrl}
 
 llm:
   base-url:
