@@ -1,8 +1,16 @@
 import { useCallback, useEffect, useState } from 'react';
 
-import { daftarDokumen, ketentuanDokumen, susunDokumen } from '../services/dokumenService';
-import type { ButirKetentuan, DokumenPreset, DokumenResponse } from '../types/api';
+import { daftarDokumen, hitungPhk, ketentuanDokumen, susunDokumen } from '../services/dokumenService';
+import type { ButirKetentuan, DokumenField, DokumenPreset, DokumenResponse } from '../types/api';
 import { kodeDokumen } from '../lib/dokumen';
+import {
+  fieldsPhk,
+  hitungKomponen,
+  renderSuratPhk,
+  validasiSurat,
+  type HasilSurat,
+  type VarianPhk,
+} from '../lib/suratPhk';
 
 /** Ambil `detail` dari galat backend (bentuk FastAPI/Spring yang sama). */
 function pesanGalat(err: unknown): string {
@@ -64,6 +72,13 @@ export function useDokumen() {
   const [judul, setJudul] = useState('');
   /** Header (judul + jenis dokumen) ditampilkan di draf dokumen non-PP. */
   const [headerAktif, setHeaderAktif] = useState(false);
+  /** Surat PHK: varian, teks surat hasil template, dan ringkasan terpisah. */
+  const [varian, setVarian] = useState<VarianPhk>('pemberitahuan');
+  const [fieldsSurat, setFieldsSurat] = useState<DokumenField[] | null>(null);
+  const [suratTeks, setSuratTeks] = useState('');
+  const [ringkasanTeks, setRingkasanTeks] = useState('');
+  const [loadingSurat, setLoadingSurat] = useState(false);
+  const [suratError, setSuratError] = useState<string | null>(null);
   /** Teks draf yang ditulis user di editor dokumen bertemplat. */
   const [drafTeks, setDrafTeks] = useState('');
 
@@ -133,6 +148,11 @@ export function useDokumen() {
     setJudul('');
     setHeaderAktif(false);
     setDrafTeks('');
+    setVarian('pemberitahuan');
+    setFieldsSurat(null);
+    setSuratTeks('');
+    setRingkasanTeks('');
+    setSuratError(null);
   }, []);
 
   const kembali = useCallback(() => {
@@ -147,6 +167,11 @@ export function useDokumen() {
     setJudul('');
     setHeaderAktif(false);
     setDrafTeks('');
+    setVarian('pemberitahuan');
+    setFieldsSurat(null);
+    setSuratTeks('');
+    setRingkasanTeks('');
+    setSuratError(null);
   }, []);
 
   const reset = useCallback(() => {
@@ -162,6 +187,11 @@ export function useDokumen() {
     setJudul('');
     setHeaderAktif(false);
     setDrafTeks('');
+    setVarian('pemberitahuan');
+    setFieldsSurat(null);
+    setSuratTeks('');
+    setRingkasanTeks('');
+    setSuratError(null);
     setSesiKerja(`${Date.now()}-${Math.random().toString(16).slice(2)}`);
   }, []);
 
@@ -197,6 +227,105 @@ export function useDokumen() {
   const muatHeader = useCallback((nilai: boolean | undefined) => {
     setHeaderAktif(Boolean(nilai));
   }, []);
+
+  const ubahVarian = useCallback((nilai: VarianPhk) => {
+    setVarian(nilai);
+    setFieldsSurat(null);
+    setSuratTeks('');
+    setSuratError(null);
+  }, []);
+
+  const ubahSuratTeks = useCallback((nilai: string) => {
+    setSuratTeks(nilai);
+  }, []);
+
+  const muatSurat = useCallback((nilai: string | undefined) => {
+    setSuratTeks(nilai ?? '');
+  }, []);
+
+  const ubahRingkasanTeks = useCallback((nilai: string) => {
+    setRingkasanTeks(nilai);
+  }, []);
+
+  const muatRingkasanTeks = useCallback((nilai: string | undefined) => {
+    setRingkasanTeks(nilai ?? '');
+  }, []);
+
+  const muatVarian = useCallback((nilai: string | undefined) => {
+    setVarian(nilai === 'keputusan' ? 'keputusan' : 'pemberitahuan');
+  }, []);
+
+  /** Backend lama menolak kode selain peraturan perusahaan. */
+  const backendBelumSiap = (err: unknown): boolean => {
+    const e = err as { status?: number; detail?: unknown } | null;
+    if (e?.status === 404) return true;
+    return (
+      e?.status === 422 &&
+      String(e.detail ?? '')
+        .toLowerCase()
+        .includes('tidak didukung')
+    );
+  };
+
+  /**
+   * Susun surat PHK. Memakai `POST /dokumen` bila backend sudah mendukung;
+   * selama belum, jatuh ke mock + hitung SWRL lewat `/infer`.
+   */
+  const susunSurat = useCallback(
+    async (sesi: string): Promise<HasilSurat | DokumenResponse | null> => {
+      if (!preset) return null;
+
+      const faktaTeks: Record<string, string> = {};
+      for (const [kunci, nilai] of Object.entries(fakta)) {
+        faktaTeks[kunci] = typeof nilai === 'string' ? nilai : String(nilai ?? '');
+      }
+
+      const kurang = validasiSurat(varian, faktaTeks);
+      if (kurang.length > 0) {
+        setSuratError(`Lengkapi dulu: ${kurang.join(', ')}.`);
+        return null;
+      }
+
+      setLoadingSurat(true);
+      setSuratError(null);
+      try {
+        const kode =
+          varian === 'keputusan' ? 'surat_phk_keputusan' : 'surat_phk_pemberitahuan';
+        try {
+          const hasil = await susunDokumen({ sesi, dokumen: kode, fakta: faktaTeks });
+          setSuratTeks(hasil.template);
+          if (hasil.fields && hasil.fields.length > 0) setFieldsSurat(hasil.fields);
+          return hasil;
+        } catch (err) {
+          if (!backendBelumSiap(err)) throw err;
+
+          const infer = await hitungPhk({
+            masaKerjaBulan: Number(faktaTeks.masa_kerja_bulan),
+            upahBulanan: Number(faktaTeks.upah_bulanan),
+            alasanPHK: faktaTeks.alasan_phk,
+          });
+          const rincian = infer.rincian ?? {};
+          const upah = Number(faktaTeks.upah_bulanan);
+          const komponen = hitungKomponen(
+            upah,
+            Number(rincian.pesangon_bulan ?? 0),
+            Number(rincian.upmk_bulan ?? 0),
+            Number(rincian.total_bulan ?? 0),
+          );
+          const surat = renderSuratPhk(varian, faktaTeks, komponen);
+          setSuratTeks(surat.template);
+          setFieldsSurat(fieldsPhk(varian));
+          return surat;
+        }
+      } catch (err) {
+        setSuratError(pesanGalat(err));
+        return null;
+      } finally {
+        setLoadingSurat(false);
+      }
+    },
+    [preset, fakta, varian],
+  );
 
   /** Dipakai saat membuka entri riwayat: kembalikan isian yang tersimpan. */
   const muatFakta = useCallback((nilai: Record<string, string> | undefined) => {
@@ -278,6 +407,19 @@ export function useDokumen() {
     headerAktif,
     ubahHeaderAktif,
     muatHeader,
+    varian,
+    fieldsSurat,
+    suratTeks,
+    ringkasanTeks,
+    loadingSurat,
+    suratError,
+    ubahVarian,
+    ubahSuratTeks,
+    muatSurat,
+    ubahRingkasanTeks,
+    muatRingkasanTeks,
+    muatVarian,
+    susunSurat,
     sesiKerja,
     sesiBaru,
     pilih,

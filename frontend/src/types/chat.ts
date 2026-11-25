@@ -29,6 +29,10 @@ export type Recent = {
   pasal?: string[];
   /** Entri mode dokumen: teks draf yang ditulis user (editor). */
   drafTeks?: string;
+  /** Entri mode dokumen: draf surat hasil template (bisa diedit). */
+  suratTeks?: string;
+  /** Entri mode dokumen: varian surat PHK (pemberitahuan/keputusan). */
+  varian?: string;
   /** Entri mode dokumen: teks ringkasan yang disimpan. */
   ringkasan?: string;
   /** Entri mode dokumen: header (judul + jenis) ditampilkan di draf. */

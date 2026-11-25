@@ -4,6 +4,7 @@ import ChatThread from './components/chat/ChatThread';
 import MainArea from './components/chat/MainArea';
 import DokumenEditor from './components/dokumen/DokumenEditor';
 import DokumenEmptyState from './components/dokumen/DokumenEmptyState';
+import SuratPhkEditor from './components/dokumen/SuratPhkEditor';
 import Sidebar from './components/layout/Sidebar';
 import TopBar from './components/layout/TopBar';
 import { bacaChecklistLama } from './hooks/useChecklist';
@@ -47,6 +48,9 @@ export default function App() {
         pasal: entriDokumen.pasal ?? [],
         fakta: entriDokumen.fakta ?? {},
         header: entriDokumen.header ?? false,
+        varian: entriDokumen.varian,
+        suratTeks: entriDokumen.suratTeks ?? '',
+        ringkasan: entriDokumen.ringkasan ?? '',
         drafTeks:
           entriDokumen.drafTeks ??
           entriDokumen.ringkasan ??
@@ -88,6 +92,9 @@ export default function App() {
             item.ringkasan ??
             (draf ? badanDrafLama(draf.template) : ''),
         );
+        dokumen.muatSurat(item.suratTeks);
+        dokumen.muatRingkasanTeks(item.ringkasan);
+        dokumen.muatVarian(item.varian);
         if (item.ringkasan) {
           dokumen.muatRingkasan(
             item.ringkasan,
@@ -200,22 +207,32 @@ export default function App() {
     pasal?: string[];
     judul?: string;
     drafTeks?: string;
+    suratTeks?: string;
+    varian?: string;
   }) => {
     if (!dokumen.preset || !idDokumenSesi) return;
 
     const template = bisaDraf(dokumen.preset);
+    const suratPhk = dokumen.preset.id === 'DokumenSuratPHK';
+    const namaPekerja = (dokumen.fakta.nama_pekerja ?? '').trim();
     const judul = (
       tambahan.judul ??
       (template
         ? judulDokumen(dokumen.preset.nama, dokumen.fakta.nama_perusahaan ?? '')
-        : dokumen.judul)
+        : suratPhk
+          ? namaPekerja
+            ? `Surat PHK — ${namaPekerja}`
+            : dokumen.preset.nama
+          : dokumen.judul)
     ).trim();
     if (!judul) return;
 
     const lama = entriDokumen;
     const draf =
       tambahan.draf ?? dokumen.draf ?? lama?.messages.find((pesan) => pesan.draf)?.draf;
-    const teksRingkasan = tambahan.ringkasan ?? dokumen.ringkasan ?? lama?.ringkasan;
+    const teksRingkasan = suratPhk
+      ? tambahan.ringkasan ?? dokumen.ringkasanTeks ?? lama?.ringkasan
+      : tambahan.ringkasan ?? dokumen.ringkasan ?? lama?.ringkasan;
     const pasal = tambahan.pasal ?? lama?.pasal;
 
     const pesan: ChatMessage[] = draf
@@ -234,14 +251,18 @@ export default function App() {
       id: idDokumenSesi,
       mode: 'dokumen',
       dokumenId: dokumen.preset.id,
-      fakta: template ? { ...dokumen.fakta } : {},
+      fakta: template || suratPhk ? { ...dokumen.fakta } : {},
       title: judul,
       updatedAt: Date.now(),
       messages: pesan,
       pasal,
       drafTeks: tambahan.drafTeks ?? dokumen.drafTeks,
+      suratTeks: suratPhk
+        ? tambahan.suratTeks ?? dokumen.suratTeks
+        : lama?.suratTeks,
+      varian: suratPhk ? tambahan.varian ?? dokumen.varian : undefined,
       ringkasan: teksRingkasan,
-      header: template ? undefined : dokumen.headerAktif,
+      header: template || suratPhk ? undefined : dokumen.headerAktif,
     });
     setActiveDokId(idDokumenSesi);
     setActiveId(idDokumenSesi);
@@ -306,27 +327,63 @@ export default function App() {
           }
           dokumenPanel={
             dokumen.preset ? (
-              <DokumenEditor
-                preset={dokumen.preset}
-                butir={dokumen.butir}
-                loadingButir={dokumen.loadingButir}
-                butirError={dokumen.butirError}
-                fakta={dokumen.fakta}
-                onUbahFakta={dokumen.ubahFakta}
-                drafTeks={dokumen.drafTeks}
-                onUbahDrafTeks={dokumen.ubahDrafTeks}
-                judul={dokumen.judul}
-                onUbahJudul={dokumen.ubahJudul}
-                headerAktif={dokumen.headerAktif}
-                onUbahHeader={dokumen.ubahHeaderAktif}
-                sesiChecklist={sesiChecklist}
-                awalChecklist={checklistAwal}
-                onSimpan={(pasal) =>
-                  void simpanDokumen({ drafTeks: dokumen.drafTeks, pasal })
-                }
-                onKembali={dokumen.kembali}
-                entriTersimpan={entriTersimpan}
-              />
+              dokumen.preset.id === 'DokumenSuratPHK' ? (
+                <SuratPhkEditor
+                  key={dokumen.sesiKerja}
+                  preset={dokumen.preset}
+                  butir={dokumen.butir}
+                  loadingButir={dokumen.loadingButir}
+                  butirError={dokumen.butirError}
+                  fakta={dokumen.fakta}
+                  onUbahFakta={dokumen.ubahFakta}
+                  varian={dokumen.varian}
+                  onUbahVarian={dokumen.ubahVarian}
+                  fieldsSurat={dokumen.fieldsSurat}
+                  suratTeks={dokumen.suratTeks}
+                  onUbahSurat={dokumen.ubahSuratTeks}
+                  ringkasan={dokumen.ringkasanTeks}
+                  onUbahRingkasan={dokumen.ubahRingkasanTeks}
+                  loadingSurat={dokumen.loadingSurat}
+                  suratError={dokumen.suratError}
+                  onSusunSurat={async () =>
+                    Boolean(await dokumen.susunSurat(chat.sesi))
+                  }
+                  sesiChecklist={sesiChecklist}
+                  awalChecklist={checklistAwal}
+                  onSimpan={(pasal) =>
+                    void simpanDokumen({
+                      pasal,
+                      suratTeks: dokumen.suratTeks,
+                      ringkasan: dokumen.ringkasanTeks,
+                      varian: dokumen.varian,
+                    })
+                  }
+                  onKembali={dokumen.kembali}
+                  entriTersimpan={entriTersimpan}
+                />
+              ) : (
+                <DokumenEditor
+                  preset={dokumen.preset}
+                  butir={dokumen.butir}
+                  loadingButir={dokumen.loadingButir}
+                  butirError={dokumen.butirError}
+                  fakta={dokumen.fakta}
+                  onUbahFakta={dokumen.ubahFakta}
+                  drafTeks={dokumen.drafTeks}
+                  onUbahDrafTeks={dokumen.ubahDrafTeks}
+                  judul={dokumen.judul}
+                  onUbahJudul={dokumen.ubahJudul}
+                  headerAktif={dokumen.headerAktif}
+                  onUbahHeader={dokumen.ubahHeaderAktif}
+                  sesiChecklist={sesiChecklist}
+                  awalChecklist={checklistAwal}
+                  onSimpan={(pasal) =>
+                    void simpanDokumen({ drafTeks: dokumen.drafTeks, pasal })
+                  }
+                  onKembali={dokumen.kembali}
+                  entriTersimpan={entriTersimpan}
+                />
+              )
             ) : undefined
           }
         />

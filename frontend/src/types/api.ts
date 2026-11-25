@@ -61,6 +61,30 @@ export interface DokumenButir {
   butir: ButirKetentuan[];
 }
 
+/** Pilihan dropdown pada field bertipe `select`. */
+export interface DokumenPilihan {
+  nilai: string;
+  label: string;
+}
+
+/** Definisi satu field formulir dari template dokumen. */
+export interface DokumenField {
+  key: string;
+  label: string;
+  tipe: 'text' | 'textarea' | 'number' | 'date' | 'select' | string;
+  wajib: boolean;
+  pilihan: DokumenPilihan[];
+  placeholder?: string;
+  bantuan?: string;
+}
+
+/** Satu baris lampiran dasar hukum (halaman 2). */
+export interface DokumenLampiran {
+  pasal: string;
+  judul: string;
+  tautan?: string | null;
+}
+
 /** Respons POST /dokumen. */
 export interface DokumenResponse {
   mode: string;
@@ -71,6 +95,9 @@ export interface DokumenResponse {
   template: string;
   pasal: string[];
   catatan?: string;
+  /** Template surat baru: definisi form & lampiran. */
+  fields?: DokumenField[];
+  lampiran?: DokumenLampiran[];
 }
 
 /** Request POST /dokumen. */
@@ -78,7 +105,18 @@ export interface DokumenRequest {
   sesi: string;
   dokumen: string;
   topik?: string[];
-  fakta?: Record<string, string>;
+  fakta?: Record<string, unknown>;
+}
+
+/** Respons POST /infer. */
+export interface InferResponse {
+  mode: string;
+  hak: string[];
+  rincian: Record<string, number | string>;
+  nominal: number | null;
+  pasal: string[];
+  narasi?: string | null;
+  catatan?: string;
 }
 
 /** Respons POST /ketentuan. */
